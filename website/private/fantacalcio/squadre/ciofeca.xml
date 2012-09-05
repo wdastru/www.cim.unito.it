@@ -46,18 +46,14 @@
       <stagione>2008/09</stagione>
       <posizione>3</posizione>
     </campionato>
-    <campionato>
-      <stagione>2009/10</stagione>
-      <posizione>2</posizione>
-    </campionato>	
+      <campionato>
+        <stagione>2009/10</stagione>
+        <posizione>2</posizione>
+      </campionato>	
 	  <campionato>
-      <stagione>2010/11</stagione>
-      <posizione>4</posizione>
-    </campionato>
-    <campionato>
-      <stagione>2011/12</stagione>
-      <posizione>1</posizione>
-    </campionato>
+        <stagione>2010/11</stagione>
+        <posizione>4</posizione>
+      </campionato>
   </storico>
 </squadra>
 </squadre>

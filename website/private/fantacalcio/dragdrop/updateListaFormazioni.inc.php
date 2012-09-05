@@ -1,14 +1,12 @@
 <?php
 /* salva lista formazioni disponibili */
-
-/* do not define $relocate_string */
-$listaFormazioni = $relocate_string . "777//formazioni//listaFormazioni.txt";
+$listaFormazioni = "..//777//formazioni//listaFormazioni.txt";
 
 $hListaFormazioni=fopen($listaFormazioni, 'w');
 
 if ($hListaFormazioni) 
 {
-	$dir = $relocate_string . "777//formazioni//*.txt"; 
+	$dir = "..//777//formazioni//*.txt"; 
 	$result = glob($dir);
 	
 	for($i=0; $i<count($result); $i++)

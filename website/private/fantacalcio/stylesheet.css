@@ -9,7 +9,7 @@ tr.tableline {border-bottom:solid; border-bottom-color:textColor1; border-width:
 .sorteggio { color:#FF0000; }
 
 #avulse{ display:none; margin:auto; padding: 0 40px 0 40px; }
-#avulse_wrapper{ padding-top:15px; width:500px; margin:auto; border:1px solid textColor0; background-color:bkgdColorDarker; display:block; }
+#avulse_wrapper{ padding-top:15px; width:500px; margin:auto; border:1px solid textColor0; background-color:bkgdColorDarker; display:none; }
 #avulsa0, #avulsa1, #avulsa2, #avulsa3 { display:none; width:500px; margin:auto; }
 #avulseToggleButton { margin:auto; }
 

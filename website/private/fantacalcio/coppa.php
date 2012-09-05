@@ -26,7 +26,7 @@ include("calendarioCoppa.inc.php");
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
-		src="documentPreProcessor.php?document=coppa1213.js&type=javascript"></script>
+		src="documentPreProcessor.php?document=coppa1112.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
@@ -40,7 +40,7 @@ include("calendarioCoppa.inc.php");
 	<div id='hiddenBox' style='visibility: hidden'>
 		<br />
 		<div id='hiddenBoxTitleBox'>
-			<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'>ï¿½-ï¿½</span><span
+			<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
 				id='squadra2'>squadra2</span>
 		</div>
 		<br /> <br />
@@ -58,7 +58,7 @@ include("calendarioCoppa.inc.php");
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
 				<br /> <br /> Marcatori:<br /> <br /> <input type='button'
 					style="display: inline" value='Aggiungi un marcatore'
-					onclick='manualAddField();' /> ï¿½ï¿½ï¿½ï¿½ <input type='button'
+					onclick='manualAddField();' />      <input type='button'
 					style="display: inline" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
 					<?php

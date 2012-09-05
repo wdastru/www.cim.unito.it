@@ -22,7 +22,7 @@ include("calendario1011.inc.php");
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
 	<script type="text/javascript"
-		src="../../documentPreProcessor.php?document=archivio/2011/javascript2011.js&type=javascript"></script>
+		src="../../documentPreProcessor.php?document=archivio/2010/javascript2010.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
@@ -32,14 +32,8 @@ include("calendario1011.inc.php");
 	<?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenBox' style='visibility: hidden'>
-		<br /> 
-		<div id='hiddenBoxTitleBox'>
-			<span id='squadra1'>squadra1</span>
-			<span id='hiddenBoxHyphen'> - </span>
-			<span id='squadra2'>squadra2</span>
-		</div> 
-		<br />
-		<br />
+		<br /> <span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
+			id='squadra2'>squadra2</span> <br /> <br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input type='button' value='Close this box!' onclick='hideBox();' />

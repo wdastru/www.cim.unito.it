@@ -13,20 +13,20 @@ include("calendarioCoppa1011.inc.php");
 <head>
 <title>Fantacalcio NMR 2011/12</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
+<link rel="shortcut icon" href="../../favicon.ico">
 	<link rel="stylesheet" type="text/css"
-		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+		href="../../documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
 	<link rel="stylesheet" type="text/css"
-		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
+		href="../../documentPreProcessor.php?document=stylesheet.css&type=css" />
+	<script type="text/javascript" src="../../chromejs/chrome.js"></script>
+	<script type="text/javascript" src="../../version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
 	<script type="text/javascript"
-		src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2011/javascript2011.js&type=javascript"></script>
+		src="../../documentPreProcessor.php?document=archivio/2011/javascript2011.js&type=javascript"></script>
 	<script type="text/javascript"
-		src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2011/coppa1011.js&type=javascript"></script>
+		src="../../documentPreProcessor.php?document=archivio/2011/coppa1011.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
@@ -36,7 +36,7 @@ include("calendarioCoppa1011.inc.php");
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenBox' style='visibility: hidden'>
-		<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'>ï¿½-ï¿½</span><span
+		<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
 			id='squadra2'>squadra2</span> <br /> <br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
@@ -207,7 +207,7 @@ include("calendarioCoppa1011.inc.php");
 					<tr>
 						<td class='coppaSinistra' id='" . $id[$i*4+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][$i*4+$j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaSinistra' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
+						<td class='pointer' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][0] . "&nbsp;</div>";
 
@@ -216,7 +216,7 @@ include("calendarioCoppa1011.inc.php");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaDestra' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
+						<td class='pointer' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][1] . "&nbsp;</div>";
 				for($k=0; $k<count($superCoppa[3][$i*4+$j]); $k++)
@@ -492,7 +492,7 @@ include("calendarioCoppa1011.inc.php");
 			<tr id='semifinale" . $j . "'>
 				<td class='coppaSinistra' id='" . $id[12+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][12+$j][0] . "</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='datiCoppaSinistra' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
+				<td class='pointer' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
 					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][0] . "&nbsp;</div>	
 					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12+$j][0] . "&nbsp;</div>";
 
@@ -501,7 +501,7 @@ include("calendarioCoppa1011.inc.php");
 			echo "
 				</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='datiCoppaDestra' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
+				<td class='pointer' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
 					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][1] . "&nbsp;</div>
 					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12+$j][1] . "&nbsp;</div>";
 			for($k=0; $k<count($superCoppa[3][12+$j]); $k++)
@@ -539,7 +539,7 @@ include("calendarioCoppa1011.inc.php");
 					<tr id='finali" . $j . "'>
 						<td class='coppaSinistra' id='" . $id[16+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][16+$j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaSinistra' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
+						<td class='pointer' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16+$j][0] . "&nbsp;</div>";
 					
@@ -548,7 +548,7 @@ include("calendarioCoppa1011.inc.php");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaDestra' id='" . $id[16+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16+$j] . "_F_dati\", event);'>
+						<td class='pointer' id='" . $id[16+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16+$j][1] . "&nbsp;</div>";
 				for($k=0; $k<count($superCoppa[3][16+$j]); $k++)

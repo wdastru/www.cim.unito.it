@@ -1,4 +1,4 @@
-nome squadra : patelavache
+nome squadra : fedora
 modulo : 3 - 4 - 3
 
 (in casa ?)
@@ -28,4 +28,3 @@ BRIENZA
 DI VAIO
 PALOSCHI
 GILARDINO
-

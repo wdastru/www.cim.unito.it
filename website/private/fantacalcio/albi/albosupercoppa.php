@@ -26,89 +26,14 @@
   <h2 class="albo">SUPERCOPPA</h2>
   <table class="albo">
     <tr>
-      <td>2011/12</td>
-      <td class="squadra">Atletico? No Grazie!</td>
-      <td>Presidente <span class="presidente">Enzo Terreno</span></td>
+      <td>2004/05</td>
+      <td class="squadra">Deportivo Rufus</td>
+      <td>Presidente <span class="presidente">Andrea Russo</span></td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2012/supercoppa2012.php">Finale</a> &nbsp; <a href="../archivio/2012/coppa_rosa2012.php">Rosa</a></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>2010/11</td>
-      <td class="squadra">Atletico? No Grazie!</td>
-      <td>Presidente <span class="presidente">Enzo Terreno</span></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td class="link"><a href="../archivio/2011/supercoppa2011.php">Finale</a> &nbsp; <a href="../archivio/2011/rosa2011.php">Rosa</a></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>2009/10</td>
-      <td class="squadra">Real Mentescars</td>
-      <td>Presidente <span class="presidente">Davide Corpillo</span></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td class="link"><a href="../archivio/2010/supercoppa2010.php">Finale</a> &nbsp; <a href="../archivio/2010/rosa2010.php">Rosa</a></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>2008/09</td>
-      <td class="squadra">Lokomotiv Peccorino</td>
-      <td>Presidente <span class="presidente">Claudia Cabella & Giuseppe Digilio</span></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td class="link"><a href="../archivio/2009/supercoppa2009.php">Finale</a> &nbsp; <a href="../archivio/2009/coppa_rosa2009.php">Rosa</a></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>2007/08</td>
-      <td class="squadra">Real Mentescars</td>
-      <td>Presidente <span class="presidente">Davide Corpillo</span></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td class="link"><a href="../archivio/2008/supercoppa2008.php">Finale</a> &nbsp; <a href="../archivio/2008/rosa2008.php">Rosa</a></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>2006/07</td>
-      <td class="squadra">Bradipo </td>
-      <td>Presidente <span class="presidente">Valentina Mainero</span></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td class="link"><a href="../archivio/2007/supercoppa2007.php">Finale</a> &nbsp; <a href="../archivio/2007/coppa_rosa2007.php">Rosa</a></td>
+      <td class="link"><a href="../archivio/2005/supercoppa2005.php">Finale</a> &nbsp; <a href="../archivio/2005/coppa_rosa2005.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -131,21 +56,75 @@
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td>2004/05</td>
-      <td class="squadra">Deportivo Rufus</td>
-      <td>Presidente <span class="presidente">Andrea Russo</span></td>
+      <td>2006/07</td>
+      <td class="squadra">Bradipo </td>
+      <td>Presidente <span class="presidente">Valentina Mainero</span></td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2005/supercoppa2005.php">Finale</a> &nbsp; <a href="../archivio/2005/coppa_rosa2005.php">Rosa</a></td>
+      <td class="link"><a href="../archivio/2007/supercoppa2007.php">Finale</a> &nbsp; <a href="../archivio/2007/coppa_rosa2007.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
-    
+    <tr>
+      <td>2007/08</td>
+      <td class="squadra">Real Mentescars</td>
+      <td>Presidente <span class="presidente">Davide Corpillo</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="../archivio/2008/supercoppa2008.php">Finale</a> &nbsp; <a href="../archivio/2008/rosa2008.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>2008/09</td>
+      <td class="squadra">Lokomotiv Peccorino</td>
+      <td>Presidente <span class="presidente">Claudia Cabella & Giuseppe Digilio</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="../archivio/2009/supercoppa2009.php">Finale</a> &nbsp; <a href="../archivio/2009/coppa_rosa2009.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>2009/10</td>
+      <td class="squadra">Real Mentescars</td>
+      <td>Presidente <span class="presidente">Davide Corpillo</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="../archivio/2010/supercoppa2010.php">Finale</a> &nbsp; <a href="../archivio/2010/rosa2010.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>2010/11</td>
+      <td class="squadra">Atletico? No Grazie!</td>
+      <td>Presidente <span class="presidente">Enzo Terreno</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="../archivio/2011/supercoppa2011.php">Finale</a> &nbsp; <a href="../archivio/2011/rosa2011.php">Rosa</a></td>
+    </tr>
   </table>
   <!-- InstanceEndEditable --></div>
 
