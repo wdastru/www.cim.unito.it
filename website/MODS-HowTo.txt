@@ -1,0 +1,16 @@
+Come trattare i dati di SCOPUS da aggiungere a MODS.xml
+
+- cercare in SCOPUS quello che serve
+- selezionare i record voluti
+- esportare in formato RIS (formato completo)
+- convertire le entries AB in entries N2
+- importare il file così modificato in Zotero
+- esportare in formato MODS
+- aggiungere a MODS.xml
+- editare eventualmente in MODS.xml le pubblicazioni in stampa:
+	* sostituire 
+		<typeOfResource manuscript="yes">text</typeOfResource> 
+	con 
+		<typeOfResource>text</typeOfResource>
+	* inserire anno in corso <dateIssued>year</dateIssued> in <originInfo>
+	* aggiungere <inPress>Article in Press</inPress> in <originInfo>

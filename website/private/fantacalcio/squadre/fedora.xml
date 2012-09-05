@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<squadre>
+  <squadra>
+    <nome>fedora</nome>
+    <img>fedora.jpg</img>
+    <storico>
+      <campionato>
+        <stagione>1999/00</stagione>
+        <posizione>1</posizione>
+        <vecchio_nome>Gimme 5</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2000/01</stagione>
+        <posizione>5</posizione>
+        <vecchio_nome>Gimme 5</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2001/02</stagione>
+        <posizione>2</posizione>
+        <vecchio_nome>Deportivo Rufus</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2002/03</stagione>
+        <posizione>8</posizione>
+        <vecchio_nome>Deportivo Rufus</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2003/04</stagione>
+        <posizione>3</posizione>
+        <vecchio_nome>Deportivo Rufus</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2004/05</stagione>
+        <posizione>8</posizione>
+        <vecchio_nome>Deportivo Rufus</vecchio_nome>
+        <coppa>C</coppa>
+        <supercoppa>SC</supercoppa>
+      </campionato>
+      <campionato>
+        <stagione>2005/06</stagione>
+        <posizione>3</posizione>
+        <vecchio_nome>Deportivo Rufus</vecchio_nome>
+        <coppa>C</coppa>
+      </campionato>
+      <campionato>
+        <stagione>2006/07</stagione>
+        <posizione>5</posizione>
+        <vecchio_nome>Deportivo Rufus</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2007/08</stagione>
+        <posizione>8</posizione>
+        <vecchio_nome>Deportivo Rufus</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2008/09</stagione>
+        <posizione>6</posizione>
+      </campionato>
+      <campionato>
+        <stagione>2009/10</stagione>
+        <posizione>7</posizione>
+      </campionato>	  
+	  <campionato>
+        <stagione>2010/11</stagione>
+        <posizione>8</posizione>
+      </campionato>
+	  <coppa>C</coppa>
+	  <campionato>
+        <stagione>2011/12</stagione>
+        <posizione>7</posizione>
+      </campionato>
+    </storico>
+  </squadra>
+</squadre>

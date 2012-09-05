@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<queries>
+  <query>
+    <user>walter</user>
+    <data>20120425</data>
+    <instrument>YAP-(S)PET</instrument>
+    <start>900</start>
+    <end>1000</end>
+  </query>
+</queries>

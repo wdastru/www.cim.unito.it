@@ -1,0 +1,239 @@
+<staff>
+	<person>
+		<team>CPCRT</team>
+		<name>aime</name>
+		<fullName>Silvio Aime</fullName>
+		<position>Full Professor (Coordinator)</position>
+		<image>images/aime.jpg</image>
+		<altText>aime.jpg</altText>
+		<mail>silvio.aime@unito.it</mail>
+		<phone>+39 011 6706451</phone>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>gobetto</name>
+		<fullName>Roberto Gobetto</fullName>
+		<position>Full Professor</position>
+		<image>images/gobetto.jpg</image>
+		<altText>immagine non disponibile</altText>
+		<mail>roberto.gobetto@unito.it</mail>
+		<phone>+39 011 6707523</phone>
+		<fax></fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>terreno</name>
+		<fullName>Enzo Terreno</fullName>
+		<position>Associate Professor</position>
+		<image>images/terreno.jpg</image>
+		<altText>terreno.jpg</altText>
+		<mail>enzo.terreno@unito.it</mail>
+		<phone>+39 011 6706452</phone>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>geninatti</name>
+		<fullName>Simonetta Geninatti Crich</fullName>
+		<position>Researcher</position>
+		<image>images/non_disponibile.gif</image>
+		<altText>immagine non disponibile</altText>
+		<mail>simonetta.geninatti@unito.it</mail>
+		<phone>+39 011 6706473</phone>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>gianolio</name>
+		<fullName>Eliana Gianolio</fullName>
+		<position>Researcher</position>
+		<image>images/non_disponibile.gif</image>
+		<altText>immagine non disponibile</altText>
+		<mail>eliana.gianolio@unito.it</mail>
+		<phone>+39 011 6706475</phone>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>dastru</name>
+		<fullName>Walter Dastr&#249;</fullName>
+		<position>Researcher</position>
+		<image>images/dastru.jpg</image>
+		<altText>dastru.jpg</altText>
+		<mail>walter.dastru@unito.it</mail>
+		<phone>+39 011 6706493</phone>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>viale</name>
+		<fullName>Alessandra Viale</fullName>
+		<position>Researcher</position>
+		<image>images/viale.jpg</image>
+		<altText>viale.jpg</altText>
+		<mail>alessandra.viale@unito.it</mail>
+		<phone>+39 011 6707521</phone>
+		<fax></fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>reineri</name>
+		<fullName>Francesca Reineri</fullName>
+		<position>Researcher</position>
+		<image>images/non_disponibile.gif</image>
+		<altText>immagine non disponibile</altText>
+		<mail>francesca.reineri@unito.it</mail>
+		<phone>+39 011 6707543</phone>
+		<fax></fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>longo</name>
+		<fullName>Dario Longo</fullName>
+		<position>Post Doctoral Fellow</position>
+		<image>images/non_disponibile.gif</image>
+		<altText>immagine non disponibile</altText>
+		<mail>dario.longo@unito.it</mail>
+		<phone>+39 011 6706473</phone>
+		<address></address>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>dellicastelli</name>
+		<fullName>Daniela Delli Castelli</fullName>
+		<position>Post Doctoral Fellow</position>
+		<image>images/non_disponibile.gif</image>
+		<altText>immagine non disponibile</altText>
+		<mail>daniela.dellicastelli@unito.it</mail>
+		<phone>+39 011 6706493</phone>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
+		<name>espak</name>
+		<fullName>Miklos Espak</fullName>
+		<position>Post Doctoral Fellow</position>
+		<image>images/espak.jpg</image>
+		<altText>espak.jpg</altText>
+		<mail>miklos.espak@unito.it</mail>
+		<phone>+39 011 6706493</phone>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>duca</name>
+		<fullName>Sergio Duca</fullName>
+		<position>Director of the CCS fMRI</position>
+		<image>images/sergio duca.JPG</image>
+		<altText>sergio duca.JPG</altText>
+		<mail>ducasergio@osp-koelliker.it</mail>
+		<phone>+39 011 3044696</phone>
+		<address>Corso G. Ferraris, 251 - 10134 Torino (Italy)</address>
+		<fax>+39 011 6184502</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>geminiani</name>
+		<fullName>Giuliano Geminiani</fullName>
+		<position>Full Professor</position>
+		<image>images/giuliano geminiani.JPG</image>
+		<altText>giuliano geminiani.JPG</altText>
+		<mail>giulianocarlo.geminiani@unito.it</mail>
+		<phone>+39 011 6703043/2864</phone>
+		<address>Via Po, 14 - 10123 Torino (Italy)</address>
+		<fax>+39 011 8159039</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>costa</name>
+		<fullName>Tommaso Costa</fullName>
+		<position>Researcher</position>
+		<image>images/Tommaso Costa.JPG</image>
+		<altText>Tommaso Costa.JPG</altText>
+		<mail>tommaso.costa@unito.it</mail>
+		<phone>+39 011 6702980</phone>
+		<address>Via Verdi, 10 - 10124 Torino (Italy)</address>
+		<fax></fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>sacco</name>
+		<fullName>Katiuscia Sacco</fullName>
+		<position>Researcher</position>
+		<image>images/katiuscia sacco.jpg</image>
+		<altText>katiuscia sacco.jpg</altText>
+		<mail>katiuscia.sacco@unito.it</mail>
+		<phone>+39 011 6703047</phone>
+		<address>Via Po, 14 - 10123 Torino (Italy)</address>
+		<fax>+39 011 8146231</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>cauda</name>
+		<fullName>Franco Cauda</fullName>
+		<position>Post Doctoral Fellow</position>
+		<image>images/franco cauda.jpg</image>
+		<altText>franco cauda.jpg</altText>
+		<mail>franco.cauda@unito.it</mail>
+		<phone>+39 011 6703924</phone>
+		<address>Via Verdi, 10 - 10124 Torino (Italy)</address>
+		<fax>+39 011 8146231</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>dagata</name>
+		<fullName>Federico Dagata</fullName>
+		<position>PhD Student</position>
+		<image>images/federico dagata.JPG</image>
+		<altText>federico dagata.JPG</altText>
+		<mail></mail>
+		<phone>+39 011 3044964 / +39 011 6336290</phone>
+		<address>Via Po, 14 - 10123 Torino (Italy)</address>
+		<fax>+39 011 6963487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>caglio</name>
+		<fullName>Marcella Caglio</fullName>
+		<position>PhD student</position>
+		<image>images/marcella caglio.jpg</image>
+		<altText>marcella caglio.jpg</altText>
+		<mail>marcella.caglio@unito.it</mail>
+		<phone>+39 011 6703924</phone>
+		<address>Via Po, 14 - 10123 Torino (Italy)</address>
+		<fax>+39 011 8146231</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CCSFMRI</team>
+		<name>geda</name>
+		<fullName>Elisabetta Geda</fullName>
+		<position>Student</position>
+		<image>images/non_disponibile.gif</image>
+		<altText>immagine non disponibile</altText>
+		<mail></mail>
+		<phone></phone>
+		<address></address>
+		<fax></fax>
+		<cell></cell>
+	</person>
+</staff>

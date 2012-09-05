@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <resource>
+    <file>FantaCalcGui_v3.2.0_Setup.exe</file>
+    <version>3.2.0</version>
+    <description>installer</description>
+    <new>- corretto baco "Juan-Lichsteiner"</new>
+  </resource>
+  <resource>
+    <file>FCG_v3.2.0.exe</file>
+    <version>3.2.0</version>
+    <description>archivio auto-estraente</description>
+    <new>- corretto baco "Juan-Lichsteiner"</new>
+  </resource>
+  <resource>
+    <file>FantaCalcGui_v3.1.1_Setup.exe</file>
+    <version>3.1.1</version>
+    <description>installer</description>
+    <new>- xml-based updates system</new>
+  </resource>
+  <resource>
+    <file>FCG_v3.1.1.exe</file>
+    <version>3.1.1</version>
+    <description>archivio auto-estraente</description>
+    <new>- xml-based updates system</new>
+  </resource>
+  <resource>
+    <file>FantaCalcGui_v3.1.0_Setup.exe</file>
+    <version>3.1.0</version>
+    <description>installer</description>
+    <new>- updates system</new>
+  </resource>
+  <resource>
+    <file>FCG_v3.1.0.exe</file>
+    <version>3.1.0</version>
+    <description>archivio auto-estraente</description>
+    <new>- updates system</new>
+  </resource>
+  <resource>
+    <file>FantaCalcGui_v2.5.14_Setup.exe</file>
+    <version>2.5.14</version>
+    <description>installer</description>
+    <new></new>
+  </resource>
+  <resource>
+    <file>FCG_2.5.14.exe</file>
+    <version>2.5.14</version>
+    <description>archivio auto-estraente</description>
+    <new></new>
+  </resource>
+</resources>

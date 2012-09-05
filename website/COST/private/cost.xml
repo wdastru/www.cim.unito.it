@@ -1,0 +1,360 @@
+<cost>
+    <section id='Management Commitee'>
+        <person>
+            <role>Chair</role>
+            <name>Prof. Silvio AIME</name>
+            <address>University of Torino, Dept. Chemistry IFM Via Pietro Giuria 7, Via Nizza 52 10125 Torino Italy</address>
+            <mail>silvio.aime@unito.it</mail>
+            <resources></resources>
+        </person>
+        <!--
+        <person>
+        <role>Vice Chair</role>
+        </person>
+        -->
+        <person>
+            <role>DC Rapporteur of TD1004 BMBS</role>
+            <name>Prof. Pavle ANDJUS</name>
+            <address>Faculty of Biology, Chair for General Physiology and Biophysics Institute of Physiology and Biochemistry University of Belgrade Studentski trg 12, POB 52 11001 Belgrade Serbia</address>
+            <mail>pandjus@bio.bg.ac.rs</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>DC Rapporteur of TD1004 CMST</role>
+            <name>Prof. Neven ZARKOVIC</name>
+            <address>Rudjer Boskovic Institute Bijenicka 54 10000 Zagreb Croatia</address>
+            <mail>zarkovic@irb.hr</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Belgium'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Robert MULLER</name>
+            <address></address>
+            <mail>robert.muller@umh.ac.be</mail>
+            <resources>
+                <resource>
+                    <desc></desc>
+                    <file>RNM Short biograph 2012.pdf</file>
+                </resource>
+            </resources>
+        </person>
+    </section>
+    <section id='Croatia'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Tamara CACEV</name>
+            <address>Ruđer Bošković Institute , Bijenička cesta 54, HR-10000 Zagreb, Croatia</address>
+            <mail>tcacev@irb.hr</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Czech Republic'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Milan HAJEK</name>
+            <address></address>
+            <mail>milan.hajek@ikem.cz</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Finland'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Seppo YLA-HERTTUALA</name>
+            <address>University of Eastern Finland Neulaniementie 2 70211 Kuopio Finland</address>
+            <mail>seppo.ylaherttuala@uku.fi</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Kim BERGSTROM</name>
+            <address>University of Helsinki Faculty of Pharmacy FI-00014 University of Helsinki Finland</address>
+            <mail>kim.bergstrom@helsinki.fi</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Prof. Vesa-Pekka LEHTO</name>
+            <address>University of Eastern Finland - Department of Applied Physics - Kuopio campus PL 1627 - 70211 KUOPIO</address>
+            <mail>vesa-pekka.lehto@uef.fi</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='France'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Eva JAKAB TOTH</name>
+            <address>Centre de Biophysique Moleculaire, CNRS Rue Charles Sadron 45071 Orleans Cedex 2 France</address>
+            <mail>eva.jakabtoth@cnrs-orleans.fr</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Olivier TILLEMENT</name>
+            <address>Universit LYON 1 LPCML UMR 5620, Bat. Raulin, 2, rue V. Grignard 69622 Villeurbanne France</address>
+            <mail>olivier.tillement@univ-lyon1.fr</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Mr Patrick BOISSEAU</name>
+            <address>CEA 17 rue des martyrs 38054 CEDEX 9 GRENOBLE France</address>
+            <mail>patrick.boisseau@cea.fr</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Germany'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Frank ROSCH</name>
+            <address>Institut fr Kernchemie Johannes-Gutenberg-Universitt Mainz 55128 Mainz Germany</address>
+            <mail>froesch@uni-mainz.de</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Ulrich SCHATZSCHNEIDER</name>
+            <address>Julius-Maximilians-Universitt Wrzburg Institut fr Anorganische Chemie, Am Hubland D-97074 Wrzburg Germany</address>
+            <mail>ulrich.schatzschneider@uni-wuerzburg.de</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Dr. Goran ANGELOVSKI</name>
+            <address>Max Planck Institute for Biological Cybernetics Spemannstr. 38, Physiology of Cognitive Processes 72076 Tuebingen Germany</address>
+            <mail>goran.angelovski@tuebingen.mpg.de</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Greece'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. George LOUDOS</name>
+            <address>Technological Educational Institute of Athens, Department of Medical Instruments Technology Ag. Spyridonos 28 12210 Athens Greece</address>
+            <mail>gloudos@teiath.gr</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Penelope BOUZIOTIS</name>
+            <address>N.C.S.R. Demokritos Patriarchou Grigoriou and Neapoleos Str 15310 Athens Greece</address>
+            <mail>bouzioti@rrp.demokritos.gr</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Hungary'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Imre TOTH</name>
+            <address>University of Debrecen Egyetem ter 1 4032 Debrecen Hungary</address>
+            <mail>imretoth@delfin.unideb.hu</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Dr. Gyula/Yuliy TIRCSO/TYRCHO</name>
+            <address>University of Debrecen Egyetem ter 1 H-4010 Debrecen Hungary</address>
+            <mail>gyula.tircso@science.unideb.hu</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Ireland'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Gil LEE</name>
+            <address>School of Chemistry and Chemical Biology - University College Dublin - Belfield, Dublin 4, Ireland</address>
+            <mail>gil.lee@ucd.ie</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Italy'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Enzo TERRENO</name>
+            <address>Department of Chemistry - University of Torino Via P. Giuria 7 10125 Torino Italy</address>
+            <mail>enzo.terreno@unito.it</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Silvio AIME</name>
+            <address>University of Torino, Dept. Chemistry IFM Via Pietro Giuria 7, Via Nizza 52 10125 Torino Italy</address>
+            <mail>silvio.aime@unito.it</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Luxembourg'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Robert LEMOR</name>
+            <address>Centre de Recheche Public Henri Tudor CR SANTEC, 2a, rue Kalchesbruck L-1852 Luxembourg Luxembourg</address>
+            <mail>robert.lemor@tudor.lu</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Netherlands'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Klaas NICOLAY</name>
+            <address>Eindhoven University of Technology PO Box 513 5600 MD Eindhoven Netherlands</address>
+            <mail>k.nicolay@tue.nl</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Gerben  KONING</name>
+            <address>Erasmus Medical Center Laboratory Experimental Surgical Oncology, Room Ee151b 3000CA Rotterdam Netherlands</address>
+            <mail>g.koning@erasmusmc.nl</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Norway'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Ruth SCHMID</name>
+            <address>SINTEF Sem Slands vei 2A 7465 Trondheim Norway</address>
+            <mail>ruth.b.schmid@sintef.no</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Per Kristian HOL</name>
+            <address>The Intervention Centre Oslo University Hospital, Pb 4959 Nydalen 0424 Oslo Norway</address>
+            <mail>per.kristian.hol@oslo-universitetssykehus.no</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Prof. Catharina De Lange DAVIES</name>
+            <address></address>
+            <mail>Catharina.Davies@ntnu.no</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Prof. Ole Jakob ELLE</name>
+            <address></address>
+            <mail>ole.jakob.elle@rikshospitalet.no</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Poland'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Aleksander BILEWICZ</name>
+            <address>Institute of Nuclear Chemistry and Technology Dorodna 16 03-195 Warsaw Poland</address>
+            <mail>a.bilewicz@ichtj.waw.pl</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Renata MIKOLAJCZAK</name>
+            <address>IAE Radioisotope Centre POLATOM Swierk 05-400 Otwock Poland</address>
+            <mail>r.mikolajczak@polatom.pl</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Portugal'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Carlos GERALDES</name>
+            <address>Center of Neurosciences and Cell Biology, University of Coimbra Praa Marqus de Pombal, Universidade de Coimbra 3004 517 Coimbra Portugal</address>
+            <mail>geraldes@ci.uc.pt</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Nuno AZEVEDO</name>
+            <address>Faculty of Engineering, University of Porto Rua Dr.. Roberto Frias, s/n 4200-465 Porto Portugal</address>
+            <mail>nazevedo@fe.up.pt</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Dr. Isabel REGO SANTOS</name>
+            <address></address>
+            <mail>isantos@itn.pt</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Serbia'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Magdalena STEVANOVIC</name>
+            <address>Institute of technical Sciencese of the Serbian Academy of Science and Arts - Belgrade Serbia</address>
+            <mail>magdalena@itn.sanu.ac.rs</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Spain'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Maria J BLANCO-PRIETO</name>
+            <address>Universidad de Navarra Irunlarrea, 1 31080 Pamplona Spain</address>
+            <mail>mjblanco@unav.es</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Maria Jose ALONSO</name>
+            <address>University of Santiago de Compostela Dep. Pharmacy and Pharmaceutical Technology, Faculty of Pharmacy, Campus Vida s/n 15782 Santiago de Compostela Spain</address>
+            <mail>mariaj.alonso@usc.es</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Prof. Noemi CSABA</name>
+            <address>University of Santiago de Compostela Nanobiofar Group, School of Pharmacy, Campus Vida  15782 Santiago de Compostela Spain</address>
+            <mail>noemi.csaba@usc.es</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Dr. Gerard TOBIAS</name>
+            <address>Consejo Superior de Investigaciones Científicas - Institut de Ciencia de Materials - Campus de la UAB 08193 Bellaterra, Spain</address>
+            <mail>gtobias@icmab.es</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Switzerland'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Eric ALLEMANN</name>
+            <address>University of Geneva Pharmaceutical Technology, 30, quai E.-Ansermet CH-1211 Geneva 4 Switzerland</address>
+            <mail>eric.allemann@unige.ch</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Lothar HELM</name>
+            <address>École Polytechnique Fédérale de Lausanne - Av. Forel 2, CH-1015 Lausanne Switzerland</address>
+            <mail>lothar.helm@epfl.ch</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Dr. Melpomeni FANI</name>
+            <address>University Hospital Basel, Dept. of Radiology and Nuclear Medicine, 4031 Basel</address>
+            <mail>fanim@uhbs.ch</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='United Kingdom'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. Khuloud T AL-JAMAL</name>
+            <address>Kings College London Pharmacy Department, Kings College London, Franklin-Wilkins Building  London SE1 9NH London United Kingdom</address>
+            <mail>khuloud.al-jamal@kcl.ac.uk</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Substitute Member</role>
+            <name>Prof. Kostas KOSTARELOS</name>
+            <address>The School of Pharmacy, University of London 29-39 Brunswick Square WC1N 1AX London United Kingdom</address>
+            <mail>kostas.kostarelos@pharmacy.ac.uk</mail>
+            <resources></resources>
+        </person>
+    </section>
+</cost>

@@ -1,0 +1,10 @@
+<?php 
+$squadraCoppa[0][0][0]=$dCoppa;
+$squadraCoppa[1][0][0]=$fCoppa;
+$squadraCoppa[0][1][0]=$bCoppa;
+$squadraCoppa[1][1][0]=$aCoppa;
+$squadraCoppa[0][2][0]=$cCoppa;
+$squadraCoppa[1][2][0]=$eCoppa;
+$squadraCoppa[0][3][0]=$hCoppa;
+$squadraCoppa[1][3][0]=$gCoppa;
+?>                                     

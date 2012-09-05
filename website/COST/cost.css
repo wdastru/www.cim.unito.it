@@ -1,0 +1,49 @@
+ul.section {
+}
+ul.member li {
+    list-style: none
+}
+h2#mgmtTitle {
+    text-align: left;
+    color: #666666;
+}
+h2.countryTitle {
+    text-align: left;
+    color: #666666;
+}
+form.uploadForm {
+    visibility: hidden;
+    display: inline;
+}
+input#desc {
+    margin-right: 10px;
+}
+span.desc {
+    color: #DB6D16;
+    font-weight: bold;
+}
+form.deleteForm {
+    display: inline;
+}
+input.deleteButton, input.uploadButton {
+    width: 25px;
+    margin-right: 10px;
+    display: inline;
+}
+#confirmDeletionHiddenBox {
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 200px;
+    margin: auto;
+    border: 2px solid #000000;
+    padding: 10px;
+    z-index: 999;
+    background-color: #DB6D16;
+    color: #FFFFFF;
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
