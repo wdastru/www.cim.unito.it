@@ -45,3 +45,5 @@ listaFormazioni.txt
 *.ffs_db
 .bash_history
 /git
+website/private/phpDBBackup/
+website/private/phpMyAdmin/
