@@ -72,3 +72,5 @@ website/private/phpMyAdmin/
 website/private/prenotazioni/.htaccess
 website/private/prenotazioni/cimpass
 website/private/INTA/intapass
+.bashrc
+website/private/prenotazioni/db.log
