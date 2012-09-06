@@ -157,9 +157,9 @@ if ($tipo == "preno") {
 
 	 echo "<b>$name - $age - $salary\n</b><br>";
 	 }
-	 /* */
+	 /*   */
 
-	/* WRITE TO XML */
+	/* WRITE TO XML
 	$doc = new DOMDocument();
 	$doc -> formatOutput = true;
 
@@ -193,9 +193,9 @@ if ($tipo == "preno") {
 		$sql = "DELETE FROM `" . $DBName . "`.`" . $strumento . "` WHERE `" . $strumento . "`.`Date` = " . $data . " AND `" . $strumento . "`.`User` = '" . $_POST['utente'] . "' AND `" . $strumento . "`.`Hour` = " . $ore[$i];
 		$result = mysql_query($sql, $con);
 
-		$handle = fopen('db.log', 'a');
-		fwrite($handle, "\n" . date("d-m-Y H:i:s") . " (-) " . $sql);
-		fclose($handle);
+		//$handle = fopen('db.log', 'a');
+		//fwrite($handle, "\n" . date("d-m-Y H:i:s") . " (-) " . $sql);
+		//fclose($handle);
 	}
 } else if ($tipo == "skip") {;
 }
