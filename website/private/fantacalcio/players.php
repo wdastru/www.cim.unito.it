@@ -114,9 +114,9 @@ if ($_POST['Squadra'] != '')
 					type='password' id='repeatPasswordFieldOffer'
 					name="RepeatPasswordOffer" value='' autocomplete='off'
 					onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> <br />
-				<br /> <br /> <input type='button' id='sendButton' value='Send'
-					onclick='sendOffer();' /> <input type='button' value='Close'
-					onclick='hideOfferBox();' /> <input type='button' value='Reset'
+				<br /> <br /> <input class='button' type='button' id='sendButton' value='Send'
+					onclick='sendOffer();' /> <input class='button' type='button' value='Close'
+					onclick='hideOfferBox();' /> <input class='button' type='button' value='Reset'
 					onclick='offerBoxResetFields();' /> <input type='hidden'
 					name='Squadra' value='<?php echo $_POST['Squadra']; ?>' />
 			</fieldset>
@@ -191,9 +191,9 @@ if ($_POST['Squadra'] != '')
 				{
 					$row_counter = $row_counter + 1;
 					if ($i & 1)
-					echo "<tr class='normalRow' id='offer_" . $k . "_" . $row_counter . "'>";
+						echo "<tr class='normalRow' id='offer_" . $k . "_" . $row_counter . "'>";
 					else
-					echo "<tr class='alternateRow' id='offer_" . $k . "_" . $row_counter . "'>";
+						echo "<tr class='alternateRow' id='offer_" . $k . "_" . $row_counter . "'>";
 
 					echo "<td class='bodyColumn0'>" . $allPlayerStats[$i][0] . "</td><td class='bodyColumn1'>" . $allPlayerStats[$i][1] . "</td>";
 
@@ -217,7 +217,7 @@ if ($_POST['Squadra'] != '')
 
 					if ($libero)
 					{
-						echo "<input onclick='offerClicked(" . $k . ", " . $row_counter . ");' type='submit' value='Offri' ";
+						echo "<input class='button' onclick='offerClicked(" . $k . ", " . $row_counter . ");' type='submit' value='Offri' ";
 							
 						if ($Squadra=='Squadra non definita!')
 						{

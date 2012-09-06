@@ -47,32 +47,32 @@ include("../777/gazFiles.inc.php");
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <?php
-	echo "<h1 class=\"title\">" . $longName[$Squadra] . "</h1>";
+	echo "<h1 class='title'>" . $longName[$Squadra] . "</h1>";
 	
 	echo "
-	<div id=\"wrapper-changePassword\">
-	<h2 class=\"modify\">CAMBIO PASSWORD</h2>
-	<form action=\"../squadre/squadra.php?squadra=" . $Squadra . "\" method=\"post\" target=\"_self\">
+	<div id='wrapper-changePassword'>
+	<h2 class='modify'>CAMBIO PASSWORD</h2>
+	<form action='../squadre/squadra.php?squadra=" . $Squadra . "' method='post' target='_self'>
 	<fieldset class='noBorder'>
 		<table>
 			<tr>
-				<td class=\"right\">vecchia password :</td><td><input type=\"password\" type=\"text\" name=\"oldPassword\" value=\"\" autocomplete=\"off\"/></td>
+				<td class='right'>vecchia password :</td><td><input type='password' type='text' name='oldPassword' value='' autocomplete='off'/></td>
 			</tr>
 			<tr>
-				<td class=\"right\">nuova password :</td><td><input type=\"password\" type=\"text\" name=\"newPassword\" value=\"\" autocomplete=\"off\"/></td>
+				<td class='right'>nuova password :</td><td><input type='password' type='text' name='newPassword' value='' autocomplete='off'/></td>
 			</tr>
 			<tr>
-				<td class=\"right\">ripeti password :</td><td><input type=\"password\" type=\"text\" name=\"ripetiPassword\" value=\"\" autocomplete=\"off\"/></td>
+				<td class='right'>ripeti password :</td><td><input type='password' type='text' name='ripetiPassword' value='' autocomplete='off'/></td>
 			</tr>
 			<tr>
-				<td colspan=\"2\">&nbsp;</td>
+				<td colspan='2'>&nbsp;</td>
 			</tr>
-			<tr align=\"center\">
-				<td colspan=\"2\"><input type=\"submit\" value=\"Invia\"/></td>
+			<tr align='center'>
+				<td colspan='2'><input class='button' type='submit' value='Invia'/></td>
 			</tr>
 		</table>
-	<input type=\"hidden\" name=\"Squadra\" value=\"" . $Squadra . "\" />
-	<input type=\"hidden\" name=\"changePassword\" value=\"true\" />
+	<input type='hidden' name='Squadra' value='" . $Squadra . "' />
+	<input type='hidden' name='changePassword' value='true' />
 	</fieldset>
 	</form>
 	</div>

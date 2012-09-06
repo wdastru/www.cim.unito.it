@@ -26,7 +26,7 @@ include("calendarioCoppa.inc.php");
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
-		src="documentPreProcessor.php?document=coppa1112.js&type=javascript"></script>
+		src="documentPreProcessor.php?document=coppa1213.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
@@ -40,15 +40,16 @@ include("calendarioCoppa.inc.php");
 	<div id='hiddenBox' style='visibility: hidden'>
 		<br />
 		<div id='hiddenBoxTitleBox'>
-			<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
-				id='squadra2'>squadra2</span>
+			<span id='squadra1'>squadra1</span>
+			<span id='hiddenBoxHyphen'> - </span>
+			<span id='squadra2'>squadra2</span>
 		</div>
 		<br /> <br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
-				<input type='button' id='sendButton' value='Send'
-					onclick='validate( "coppa" )' /> <input type='button'
-					value='Close this box!' onclick='hideBox();' /> <input
+				<input class='button' type='button' id='sendButton' value='Send'
+					onclick='validate( "coppa" )' /> <input class='button' type='button'
+					value='Close this box!' onclick='hideBox();' /> <input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
@@ -56,9 +57,9 @@ include("calendarioCoppa.inc.php");
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
 				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> Marcatori:<br /> <br /> <input type='button'
+				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
 					style="display: inline" value='Aggiungi un marcatore'
-					onclick='manualAddField();' />      <input type='button'
+					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
 					style="display: inline" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
 					<?php
@@ -110,7 +111,7 @@ include("calendarioCoppa.inc.php");
 
 				echo "
 					<tr>
-						<td class='coppaSinistra invlinkCoppa' id='" . $id[$i*4+$j] . "_C_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i*4+$j][0]] . "'>" . $superCoppa[0][$i*4+$j][0] . "</a>&nbsp;</td>
+						<td class='coppaSinistra' id='" . $id[$i*4+$j] . "_C_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i*4+$j][0]] . "'>" . $superCoppa[0][$i*4+$j][0] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 						<td class='datiCoppaSinistra' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][0] . "&nbsp;</div>	
@@ -129,7 +130,7 @@ include("calendarioCoppa.inc.php");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='coppaDestra linkCoppa' id='" . $id[$i*4+$j] . "_F_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i*4+$j][1]] . "'>" . $superCoppa[0][$i*4+$j][1] . "</a>&nbsp;</td>
+						<td class='coppaDestra' id='" . $id[$i*4+$j] . "_F_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i*4+$j][1]] . "'>" . $superCoppa[0][$i*4+$j][1] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 					</tr>";
 				if ($j==1 || $j==3)
@@ -142,7 +143,7 @@ include("calendarioCoppa.inc.php");
 		<br />
 		<!-- classifiche avulse -->
 		<div id='avulse_wrapper'>
-			<input type='button' value='Mostra/Nascondi classifiche avulse'
+			<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse'
 				onclick='toggleAvulse();' /> <br /> <br />
 			<div id='avulse'>
 				<table id='avulsa0' class='classifica'>
@@ -413,7 +414,7 @@ include("calendarioCoppa.inc.php");
 		{
 			echo "
 			<tr id='semifinale" . $j . "'>
-				<td class='coppaSinistra invlinkCoppa' id='" . $id[12+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][12+$j][0] . "</td>
+				<td class='coppaSinistra' id='" . $id[12+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][12+$j][0] . "</td>
 				<td class='void-5'>&nbsp;</td>
 				<td class='datiCoppaSinistra pointer' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
 					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][0] . "&nbsp;</div>	
@@ -438,7 +439,7 @@ include("calendarioCoppa.inc.php");
 			echo "
 				</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='coppaDestra linkCoppa' id='" . $id[12+$j] . "_F_nome'>" . $superCoppa[0][12+$j][1] . "&nbsp;</td>
+				<td class='coppaDestra' id='" . $id[12+$j] . "_F_nome'>" . $superCoppa[0][12+$j][1] . "&nbsp;</td>
 			</tr>";
 		}
 		?>
@@ -466,7 +467,7 @@ include("calendarioCoppa.inc.php");
 						<td colspan='7' class='center'>" . $finali[$j] . "</td>
 					</tr>
 					<tr id='finali" . $j . "'>
-						<td class='coppaSinistra invlinkCoppa' id='" . $id[16+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][16+$j][0] . "</td>
+						<td class='coppaSinistra' id='" . $id[16+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][16+$j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
 						<td class='datiCoppaSinistra pointer' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16+$j][0] . "&nbsp;</div>	
@@ -491,7 +492,7 @@ include("calendarioCoppa.inc.php");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='coppaDestra linkCoppa' id='" . $id[16+$j] . "_F_nome'>" . $superCoppa[0][16+$j][1] . "&nbsp;</td>
+						<td class='coppaDestra' id='" . $id[16+$j] . "_F_nome'>" . $superCoppa[0][16+$j][1] . "&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan='7' class='center'>&nbsp;</td>

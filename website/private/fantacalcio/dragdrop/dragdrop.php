@@ -387,7 +387,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 						autocomplete="off" />
 						<span>id (facoltativo):</span>
 						<input type="text" id="spec" name="spec" value="" />
-						<input type="button" value="Salva dati formazione"
+						<input class="button" type="button" value="Salva dati formazione"
 						onclick="saveData();" />
 						<!-- <input type="hidden" name="saveData" value="true" /> -->
 					</form></td>
@@ -428,7 +428,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 						<span>password :</span>
 						<input type="password" id="passwordTipo" name="Password" value=""
 						autocomplete="off" />
-						<input type="button" value="Salva formazione tipo"
+						<input class="button" type="button" value="Salva formazione tipo"
 						onclick="saveDataTipo();" />
 					</form></td>
 				</tr>
@@ -463,11 +463,11 @@ xmlns="http://www.w3.org/1999/xhtml">
 					}
 
 					echo "<div id='view'>
-							<input type='button' value='Visualizza' onclick='getJS(\"textFileBuilder.php?file=" . $out . "\")'/>
+							<input class='button' type='button' value='Visualizza' onclick='getJS(\"textFileBuilder.php?file=" . $out . "\")'/>
 						  </div>
 						  <div id='usa'>
 							<form action='dragdrop.php' method='post'>
-							<input type='submit' value='Usa'/>
+							<input class='button' type='submit' value='Usa'/>
 							<input type='hidden' name='Squadra' value='" . $_SESSION['nomesquadra'] . "'/>
 							<input type='hidden' name='File' value='" . $out . "'/>
 							</form>

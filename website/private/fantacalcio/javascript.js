@@ -11,7 +11,7 @@ function showBoxCampionato(id, evt) {
 		var visibility = hiddenBox.style.visibility;
 
 		/*
-		 * nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il -
+		 * nomi squadre : hiddenBox.getElementsByTagName('span').item(1) ï¿½ il -
 		 * di separazione
 		 */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source
@@ -62,7 +62,7 @@ function showBoxCampionato(id, evt) {
 
 			for (i = 0; i < goalsTot; i++) {
 				/*
-				 * riga sotto: item(i+1) perchè il primo div di hiddenBox è il
+				 * riga sotto: item(i+1) perchï¿½ il primo div di hiddenBox ï¿½ il
 				 * titolo dell'hiddenBox
 				 */
 				goalDivs.item(i + 1).style.display = 'block';
@@ -116,37 +116,41 @@ function showBoxCoppa(id, evt) {
 
 		// titolo box
 		if (id.substring(0, 6) == 'gruppi') {
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e'
 			// il - di separazione
 			if (id.substring(6, 8) == '10' || id.substring(6, 8) == '11') {
 				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
 						.getElementById('gruppi' + id.substring(6, 8)
-								+ '_C_nome').innerHTML;
+								+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
 				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
 						.getElementById('gruppi' + id.substring(6, 8)
-								+ '_F_nome').innerHTML;
+								+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 			} else {
 				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
 						.getElementById('gruppi' + id.substring(6, 7)
-								+ '_C_nome').innerHTML;
+								+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
 				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
 						.getElementById('gruppi' + id.substring(6, 7)
-								+ '_F_nome').innerHTML;
+								+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 			}
 		} else if (id.substring(0, 4) == 'semi') {
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e'
 			// il - di separazione
 			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
-					.getElementById('semi' + id.substring(4, 5) + '_C_nome').innerHTML;
+					.getElementById('semi' + id.substring(4, 5) 
+							+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
 			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
-					.getElementById('semi' + id.substring(4, 5) + '_F_nome').innerHTML;
+					.getElementById('semi' + id.substring(4, 5) 
+							+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 		} else if (id.substring(0, 6) == 'finali') {
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e'
 			// il - di separazione
 			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
-					.getElementById('finali' + id.substring(6, 7) + '_C_nome').innerHTML;
+					.getElementById('finali' + id.substring(6, 7) 
+							+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
 			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
-					.getElementById('finali' + id.substring(6, 7) + '_F_nome').innerHTML;
+					.getElementById('finali' + id.substring(6, 7) 
+							+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 		}
 
 		if (visibility == 'hidden') {
@@ -199,8 +203,8 @@ function showBoxCoppa(id, evt) {
 				inputTags.item(6).value = '';
 
 			/*
-			 * l' i + 1 in goalDivs.item(i+1).style.display = 'block'; è dovuto
-			 * al fatto che il primo div è quello del titolo di hiddenBox
+			 * l' i + 1 in goalDivs.item(i+1).style.display = 'block'; ï¿½ dovuto
+			 * al fatto che il primo div ï¿½ quello del titolo di hiddenBox
 			 */
 			for (i = 0; i < goalsTot; i++) {
 				inputTags.item(9 + i).value = source_casa.getElementsByTagName(
@@ -258,7 +262,7 @@ function hideBox(id) {
 				inputTags.item(i).value = '';
 			}
 
-			for (i = 1; i < goalDivs.length; i++) { // il primo div è il titolo
+			for (i = 1; i < goalDivs.length; i++) { // il primo div ï¿½ il titolo
 													// dell'hiddenBox
 				goalDivs.item(i).style.display = 'none';
 			}
@@ -327,7 +331,7 @@ function goals() {
 	var goalDivs = hiddenBox.getElementsByTagName('div');
 
 	/*
-	 * partire da 1 perchè il primo div
+	 * partire da 1 perchï¿½ il primo div
 	 * contiene il titolo dell'hiddenBox
 	 */
 	for (i = 1; i < goalDivs.length; i++) 
@@ -363,7 +367,7 @@ function addField() {
 
 function manualAddField() {
 	goalsTot += 1;
-	if (goalsTot > 20) // perchè sono previsti al massimo 20 goal totali in
+	if (goalsTot > 20) // perchï¿½ sono previsti al massimo 20 goal totali in
 						// hiddenBox
 		goalsTot = 20;
 	addField();

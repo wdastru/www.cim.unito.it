@@ -37,7 +37,7 @@
             </table>
           </center></p>
           <br/>
-          <input type="button" value="Back" onclick="history.back();" />
+          <input class="button" type="button" value="Back" onclick="history.back();" />
 		
         <!-- InstanceEndEditable --></div>
 

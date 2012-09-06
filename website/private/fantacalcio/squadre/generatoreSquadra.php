@@ -253,11 +253,14 @@
 </table>
 <br />
 <br />
+<br />
 <div>
-	<p>
-		Ultima formazione : <?php echo $lastFormazBasename . " <span class='data'>(" . $lastModified . ")</span>"; ?>
+	Ultima formazione : 
+	<p class='ultimaFormazione'>
+		<?php echo $lastFormazBasename . " (" . $lastModified . ")"; ?>
 		
 	</p>
+	<br />	
 	<table class="rosafooter">
 		<tr>
 			<td class="testo">Fantamiliardi :</td>
@@ -303,7 +306,7 @@
 		<td>
 			<form method="post" action="../private/modify.php">
 				<div>
-					<input type="submit" name="modifica" value="Modifica rosa" /> <input
+					<input class="button" type="submit" name="modifica" value="Modifica rosa" /> <input
 						type="hidden" name="Squadra"
 						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
 						type="hidden" name="Index" value="1" />
@@ -313,7 +316,7 @@
 		<td>
 			<form method="post" action="../dragdrop/dragdrop.php">
 				<div>
-					<input type="submit" name="modifica" value="Modifica formazioni" />
+					<input class="button" type="submit" name="modifica" value="Modifica formazioni" />
 					<input type="hidden" name="Squadra"
 						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
 						type="hidden" name="Index" value="1" />
@@ -323,7 +326,7 @@
 		<td>
 			<form method="post" action="../private/changePassword.php">
 				<div>
-					<input type="submit" name="modifica" value="Cambia password" /> <input
+					<input class="button" type="submit" name="modifica" value="Cambia password" /> <input
 						type="hidden" name="Squadra"
 						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
 						type="hidden" name="Index" value="1" />
@@ -333,7 +336,7 @@
 		<td>
 			<form method="post" action="../players.php">
 				<div>
-					<input type="submit" name="modifica" value="Fai un'offerta" /> <input
+					<input class="button" type="submit" name="modifica" value="Fai un'offerta" /> <input
 						type="hidden" name="Squadra"
 						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
 						type="hidden" name="Index" value="1" />

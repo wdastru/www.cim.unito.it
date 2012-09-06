@@ -50,6 +50,10 @@
         <stagione>2010/11</stagione>
         <posizione>3</posizione>
       </campionato>
+	  <campionato>
+        <stagione>2011/12</stagione>
+        <posizione>6</posizione>
+      </campionato>
     </storico>
   </squadra>
 </squadre>
