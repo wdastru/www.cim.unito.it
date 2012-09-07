@@ -17,20 +17,20 @@ if [ $PLATFORM = "win32" ]
 then
   EXE_FILE="KMaps-${PACKAGE_VERSION}-win32.exe"
   ZIP_FILE="KMaps-${PACKAGE_VERSION}-win32.zip"
-  sed -i "1,31s/Windows x32.*/Windows x32 (revision: ${REVISION}, ${CURRENT_DATE}): <a href="${EXE_FILE}">${EXE_FILE}<\/a>, <a href="${ZIP_FILE}">${ZIP_FILE}<\/a>/g" aspect/index.html
+  sed -i "1,31s/Windows x32.*/Windows x32 (revision: ${REVISION}, ${CURRENT_DATE}): <a href="${EXE_FILE}">${EXE_FILE}<\/a>, <a href="${ZIP_FILE}">${ZIP_FILE}<\/a>/g" website/aspect/index.html
 elif [ $PLATFORM = "win64" ]
 then
   ZIP_FILE="KMaps-${PACKAGE_VERSION}-win64.zip"
-  sed -i "1,31s/Windows x64.*/Windows x64 (revision: ${REVISION}, $CURRENT_DATE): <a href="${ZIP_FILE}">${ZIP_FILE}<\/a>/g" aspect/index.html
+  sed -i "1,31s/Windows x64.*/Windows x64 (revision: ${REVISION}, $CURRENT_DATE): <a href="${ZIP_FILE}">${ZIP_FILE}<\/a>/g" website/aspect/index.html
 elif [ $PLATFORM = "Linux" ]
 then
   TGZ_FILE="KMaps-${PACKAGE_VERSION}-Linux.tar.gz"
-  sed -i "1,31s/Linux x64.*/Linux x64 (revision: ${REVISION}, $CURRENT_DATE): <a href="${TGZ_FILE}">${TGZ_FILE}<\/a>/g" aspect/index.html
+  sed -i "1,31s/Linux x64.*/Linux x64 (revision: ${REVISION}, $CURRENT_DATE): <a href="${TGZ_FILE}">${TGZ_FILE}<\/a>/g" website/aspect/index.html
 elif [ $PLATFORM = "MacOSX" ]
 then
   DMG_FILE="KMaps-${PACKAGE_VERSION}-Darwin.dmg"
-  sed -i "1,31s/Mac OS X.*/Mac OS X (revision: ${REVISION}, $CURRENT_DATE): <a href="${DMG_FILE}">${DMG_FILE}<\/a>/g" aspect/index.html
+  sed -i "1,31s/Mac OS X.*/Mac OS X (revision: ${REVISION}, $CURRENT_DATE): <a href="${DMG_FILE}">${DMG_FILE}<\/a>/g" website/aspect/index.html
 fi
 
 # Updating the date:
-sed -i "1,31s/Last update:.*$/Last update: ${CURRENT_DATE}/" aspect/index.html
+sed -i "1,31s/Last update:.*$/Last update: ${CURRENT_DATE}/" website/aspect/index.html
