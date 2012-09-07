@@ -455,7 +455,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<input type='hidden' name='toCancel' value='" . $out . "'/>
 								<input type='hidden' name='Squadra' value='" . $_SESSION['nomesquadra'] . "'/>
 								<input type='hidden' name='File' value='" . $out . "'/>
-								<input type='submit' value='Archivia'/>
+								<input class='button' type='submit' value='Archivia'/>
 								</form>
 							  </div>";
 					} else {
