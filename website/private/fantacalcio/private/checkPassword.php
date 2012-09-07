@@ -1,15 +1,13 @@
 <?php 
-if (md5($_POST['oldPassword']) != $ADMIN[$_POST['Squadra']] ) 
-{
+
+//$relocate_string = '../';
+
+if (md5($_POST['oldPassword']) != $ADMIN[$_GET['squadra']] ) {
 	header('Location: ../errors/error.php?error=wrongPass');
-}
-else if ($_POST['newPassword'] != $_POST['ripetiPassword']) 
-{
+} else if ($_POST['newPassword'] != $_POST['ripetiPassword'])  {
 	header('Location: ../errors/error.php?error=passDoNotMatch');
-}
-else
-{
-	$filename="..//777//setupSquadre.inc.php";
+} else {
+	$filename=$relocate_string . "777//setupSquadre.inc.php";
 	$tmpFile="tmp"; 
 	if(file_exists($filename))
 	{
@@ -22,29 +20,26 @@ else
 			$line=fgets($handle);
 			strtok($line,"[']");
 			$tmp=strtok("[']");
-			if($tmp=="")
-			{
+			if($tmp=="") {
 				continue;	
 			}
 			
-			if($tmp==$_POST['Squadra'])
-			{
-				fwrite($handle2, "\$ADMIN['" . $_POST['Squadra'] . "'] = \"" . md5($_POST['newPassword']) . "\";\n");
-			}
-			else
-			{
+			if($tmp==$_GET['squadra']) {
+				fwrite($handle2, "\$ADMIN['" . $_GET['squadra'] . "'] = \"" . md5($_POST['newPassword']) . "\";\n");
+			} else {
 				fwrite($handle2, $line);
 			}
 			$i++;
-		}		
+		}
+		
 		fwrite($handle2,"?>\n");			
 		fclose($handle);
 		fclose($handle2);
 		
-		copy($tmpFile,"..//private//setupSquadre.inc.php");
+		copy($tmpFile, $relocate_string . "777/setupSquadre.inc.php");
 		unlink($tmpFile);
 	}
 	else
-		exit ("<p>" . $filename . " non esiste!</p><p>Dillo al tuo amministratore del sito!!</p>");
+		exit ("<p>" . $filename . " non esiste!</p><p>Dillo all'amministratore del sito!!</p>");
 }
 ?>
