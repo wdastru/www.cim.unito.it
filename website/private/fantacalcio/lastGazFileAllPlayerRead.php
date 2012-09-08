@@ -67,6 +67,6 @@ if (count($fileGaz) > 0)
 	}
 } else {
 	$allPlayerCount = 0;
-	MySingleton::writeToLog('count($fileGaz) == 0', $relocate_string . "777/logs/lastGazFileAllPlayerRead.log");
+	//MySingleton::writeToLog('count($fileGaz) == 0', $relocate_string . "777/logs/lastGazFileAllPlayerRead.log");
 }
 ?>
