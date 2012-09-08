@@ -779,7 +779,11 @@ function saveData() {
 	}
 }
 
-function saveDataTipo() {
+function saveDataTipo(_squadra) {
+	
+	//alert(decodeURI(window.location.href));
+	//alert(decodeURI(window.location.pathname));
+	
 	if( document.getElementById ) 
 	{
 		form = document.getElementById('saveDataTipo');
@@ -797,11 +801,13 @@ function saveDataTipo() {
 		}
 		
 		// modulo 
-		form.getElementsByTagName('input').item(1).value = document.getElementById('chosenModule').innerHTML;
+		document.getElementById('modulo').value = document.getElementById('chosenModule').innerHTML;
 		// titolari 
-		form.getElementsByTagName('input').item(2).value=document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
+		document.getElementById('titolari').value = document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
 		// riserve 
-		form.getElementsByTagName('input').item(3).value=document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
+		document.getElementById('riserve').value = document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
+		// returnFromError 
+		//form.getElementsByTagName('input').item(3).value=document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
 		
 		document.getElementById('saveDataTipo').submit();
 	}	
