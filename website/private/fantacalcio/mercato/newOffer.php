@@ -4,11 +4,15 @@ session_start();
 require('../777/setupSquadre.inc.php');
 require('addEncryptClasses.php');
 
-if ( ( md5($_POST['PasswordTeam']) != $ADMIN[$_POST['Squadra']] ) || ( $_POST['PasswordOffer'] != $_POST['RepeatPasswordOffer'] ) )
-{
-	header('Location: ../errors/error.php?error=wrongPass');
+
+if ( md5($_POST['PasswordTeam']) != $ADMIN[$_GET['squadra']] ) {
+	header('Location: ../errors/error.php?error=wrongPass&returnFromError=' . $_POST['returnFromError']);
 	exit(); 
+} else if ( $_POST['PasswordOffer'] != $_POST['RepeatPasswordOffer'] ) {
+	header('Location: ../errors/error.php?error=passDoNotMatch&returnFromError=' . $_POST['returnFromError']);
+	exit();
 }
+
 
 if(!file_exists("..//777//offerte//")) 
 { 

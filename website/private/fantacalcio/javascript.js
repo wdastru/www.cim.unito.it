@@ -453,7 +453,7 @@ function enablePasswordButton() {
 function sendOffer() {
 	if (document.getElementById) {
 		form = document.getElementById('formOffer');
-		form.action = 'mercato/newOffer.php';
+		document.getElementById('returnFromError').value = decodeURI(window.location.href);
 		form.submit();
 	} else {
 		alert(":( DOM NON Supportato!");

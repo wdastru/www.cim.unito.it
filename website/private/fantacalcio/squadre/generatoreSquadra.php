@@ -326,7 +326,7 @@
 			</form>
 		</td>
 		<td>
-			<form method="post" action="../players.php">
+			<form method="post" action="../players.php?squadra=<?php echo $_SESSION['nomesquadra']; ?>">
 				<div>
 					<input class="button" type="submit" name="modifica" value="Fai un'offerta" /> <input
 						type="hidden" name="Squadra"

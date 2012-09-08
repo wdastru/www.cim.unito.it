@@ -12,9 +12,9 @@ require('statisticsAllPlayerRead.php'); // definito $allPlayerStats
 
 require('playersInTeamsReader.php'); // definito giocatore[squadra:8][index:25]
 
-if ($_POST['Squadra'] != '')
+if ($_GET['squadra'] != '')
 {
-	$_SESSION['Squadra']=$_POST['Squadra'];
+	$_SESSION['Squadra']=$_GET['squadra'];
 	$Squadra=$_SESSION['Squadra'];
 } else {
 	$Squadra='Squadra non definita!';
@@ -53,30 +53,29 @@ if ($_POST['Squadra'] != '')
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenOfferBox' style='visibility: hidden'>
 		<br /> <br />
-		<form method='post' id='formOffer' action=''>
+		<form method='post' id='formOffer' action='mercato/newOffer.php?squadra=<?php echo $_GET['squadra']; ?>'>
 			<fieldset class='noBorder'>
 				<div id='hiddenBoxTitleBox'>
-					<span id='offertaBoxMainTitle'><?php echo strtoupper($_POST['Squadra']); ?>
-					</span>
+					<span id='offertaBoxMainTitle'><?php echo strtoupper($longName[$_GET['squadra']]); ?></span>
 				</div>
 				<br /> <br />
 				<div class='hiddenBoxSubTitleBox'>
 					<span class='offertaBoxTitle'>OFFERTA </span>
 				</div>
-				<br /> <br /> Giocatore : <input type='text' name='Offerta_gio_in'
-					value='' /> <br /> <br /> Ruolo : <input type='text'
-					name='Offerta_ruo_in' value='' /> <br /> <br /> Squadra : <input
-					type='text' name='Offerta_squ_in' value='' /> <br /> <br />
-				Quotazione : <input type='text' id='bidField' name='Offerta_quo_in'
-					value='' -
-					onmouseup='enableSendButton();'
-					onkeyup='enableSendButton();' /> <br /> <br /> <br />
+				<br /> <br /> Giocatore : 
+				<input type='text' name='Offerta_gio_in' value='' /> 
+				<br /> <br /> Ruolo : 
+				<input type='text' name='Offerta_ruo_in' value='' /> 
+				<br /> <br /> Squadra :
+				<input type='text' name='Offerta_squ_in' value='' /> 
+				<br /> <br />Quotazione : 
+				<input type='text' id='bidField' name='Offerta_quo_in' value='' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
+				<br /> <br /> <br />
 				<div class='hiddenBoxSubTitleBox'>
 					<span class='offertaBoxTitle'>GIOCATORE TAGLIATO </span>
 				</div>
-				<br /> <br /> Giocatore : <select id='playerOutField'
-					name='Offerta_gio_out' onmouseup='enableSendButton();'
-					onkeyup='enableSendButton();' onchange='getSelectedPlayer();'>
+				<br /> <br /> Giocatore : 
+				<select id='playerOutField' name='Offerta_gio_out' onmouseup='enableSendButton();' onkeyup='enableSendButton();' onchange='getSelectedPlayer();'>
 					<option></option>
 					<?php
 					for ($i=0; $i<count($allPlayerStats); $i++)
@@ -93,32 +92,28 @@ if ($_POST['Squadra'] != '')
 						}
 					}
 					?>
-				</select> <br /> <br /> Ruolo : <input type='text' id='roleOutField'
-					name='Offerta_ruo_out' value='' onmouseup='enableSendButton();'
-					onkeyup='enableSendButton();' /> <br /> <br /> Squadra : <input
-					type='text' id='teamOutField' name='Offerta_squ_out' value=''
-					onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> <br />
-				<br /> <br />
+				</select> 
+				<br /> <br /> Ruolo : 
+				<input type='text' id='roleOutField' name='Offerta_ruo_out' value='' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
+				<br /> <br /> Squadra : 
+				<input type='text' id='teamOutField' name='Offerta_squ_out' value='' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
+				<br /> <br /> <br />
 				<div class='hiddenBoxSubTitleBox'>
 					<span class='offertaBoxTitle'>PASSWORDS </span>
 				</div>
-				<br /> <br /> <span class='offertaBoxTitle'>Password di squadra :</span>
-				<input type='password' id='passwordFieldTeam' name="PasswordTeam"
-					value='' autocomplete='off' onmouseup='enableSendButton();'
-					onkeyup='enableSendButton();' /> <br /> <br /> <span
-					class='offertaBoxTitle'>Password per offerta :</span> <input
-					type='password' id='passwordFieldOffer' name="PasswordOffer"
-					value='' autocomplete='off' onmouseup='enableSendButton();'
-					onkeyup='enableSendButton();' /> <br /> <br /> <span
-					class='offertaBoxTitle'>Ripeti password :</span> <input
-					type='password' id='repeatPasswordFieldOffer'
-					name="RepeatPasswordOffer" value='' autocomplete='off'
-					onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> <br />
-				<br /> <br /> <input class='button' type='button' id='sendButton' value='Send'
-					onclick='sendOffer();' /> <input class='button' type='button' value='Close'
-					onclick='hideOfferBox();' /> <input class='button' type='button' value='Reset'
-					onclick='offerBoxResetFields();' /> <input type='hidden'
-					name='Squadra' value='<?php echo $_POST['Squadra']; ?>' />
+				<br /> <br /> 
+				<span class='offertaBoxTitle'>Password di squadra :</span>
+				<input type='password' id='passwordFieldTeam' name="PasswordTeam" value='' autocomplete='off' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
+				<br /> <br /> 
+				<span class='offertaBoxTitle'>Password per offerta :</span> 
+				<input type='password' id='passwordFieldOffer' name="PasswordOffer" value='' autocomplete='off' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
+				<br /> <br /> 
+				<span class='offertaBoxTitle'>Ripeti password :</span> 
+				<input type='password' id='repeatPasswordFieldOffer' name="RepeatPasswordOffer" value='' autocomplete='off' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
+				<br /> <br /> <br /> 
+				<input class='button' type='button' id='sendButton' value='Send' onclick='sendOffer();' />
+				<input type="hidden" id="returnFromError" name="returnFromError" value="" />
+				<input class='button' type='button' value='Close' onclick='hideOfferBox();' /> <input class='button' type='button' value='Reset' onclick='offerBoxResetFields();' /> 
 			</fieldset>
 		</form>
 	</div>
