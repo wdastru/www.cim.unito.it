@@ -5,8 +5,8 @@ $relocate_string = "../";
 
 $toCancel = '';
 
-if (isset($_POST['Squadra'])) {
-	$Squadra = $_SESSION['Squadra'] = $_POST['Squadra'];
+if (isset($_GET['squadra'])) {
+	$Squadra = $_SESSION['Squadra'] = $_GET['squadra'];
 } else {
 	$Squadra = '';
 }
@@ -356,10 +356,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 						<input type="hidden" name="squadraSubmitted" value="true" />
 						<?php
 						echo "
-<input type='hidden' name='Modulo' value='" . $modulo . "' />
-<input type='hidden' name='Titolari' value='" . $titolari[0] . "' />
-<input type='hidden' name='Riserve' value='" . $riserve[0] . "' />
-";
+							<input type='hidden' id='modulo' name='Modulo' value='" . $modulo . "' />
+							<input type='hidden' id='titolari' name='Titolari' value='" . $titolari[0] . "' />
+							<input type='hidden' id='riserve' name='Riserve' value='" . $riserve[0] . "' />
+							";
 						$t = 0;
 						for ($i = 0; $i < 4; $i++)// loop sui ruoli
 						{
@@ -371,24 +371,19 @@ xmlns="http://www.w3.org/1999/xhtml">
 						}
 
 						echo "
-<input type='hidden' id='capitale' name='Capitale' value='" . $capitale . "' />
-<input type='hidden' id='telefono' name='Telefono' value='" . $telefono . "' />
-
-";
+							<input type='hidden' id='capitale' name='Capitale' value='" . $capitale . "' />
+							<input type='hidden' id='telefono' name='Telefono' value='" . $telefono . "' />
+							";
 						?>
-						<input type="hidden" id="file2save" name="file2save"
-						value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="squadra" name="Squadra"
-						value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="file" name="File"
-						value="<?php echo $File;?>" />
+						<input type="hidden" id="file2save" name="file2save" value="<?php echo $Squadra;?>" />
+						<input type="hidden" id="squadra" name="Squadra" value="<?php echo $Squadra;?>" />
+						<input type="hidden" id="file" name="File" value="<?php echo $File;?>" />
 						<span>password :</span>
-						<input type="password" id="password" name="Password" value=""
-						autocomplete="off" />
+						<input type="password" id="password" name="Password" value="" autocomplete="off" />
 						<span>id (facoltativo):</span>
 						<input type="text" id="spec" name="spec" value="" />
-						<input class="button" type="button" value="Salva dati formazione"
-						onclick="saveData();" />
+						<input type="hidden" id="returnFromError" name="returnFromError" value="" />
+						<input class="button" type="button" value="Salva dati formazione" onclick="saveData('<?php echo $Squadra;?>');" />
 						<!-- <input type="hidden" name="saveData" value="true" /> -->
 					</form></td>
 				</tr>
@@ -422,6 +417,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 						<input type="hidden" id="file2save" name="file2saveTipo" value="<?php echo $Squadra;?>" />
 						<input type="hidden" id="squadra" name="Squadra" value="<?php echo $Squadra;?>" />
 						<input type="hidden" id="file" name="File" value="<?php echo $File;?>" />
+						<input type="hidden" id="returnFromError" name="returnFromError" value="" />
 						<span>password :</span>
 						<input type="password" id="passwordTipo" name="Password" value="" autocomplete="off" />
 						<input class="button" type="button" value="Salva formazione tipo" onclick="saveDataTipo('<?php echo $Squadra;?>');" />

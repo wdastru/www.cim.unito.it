@@ -6,7 +6,7 @@ require $relocate_string . '777/setupSquadre.inc.php';
 
 if (md5($_POST['Password']) != $ADMIN[$_POST['Squadra']] )
 {
-	header('Location: ../errors/error.php?error=wrongPass');
+	header('Location: ../errors/error.php?error=wrongPass&returnFromError=' . $_POST['returnFromError']);
 	exit(); 
 }
 
