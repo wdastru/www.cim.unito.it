@@ -9,14 +9,15 @@ function showBoxCampionato( id, evt )
 		var source = document.getElementById( id );
 		var hiddenBox = document.getElementById( 'hiddenBox' );
 		var inputTags = hiddenBox.getElementsByTagName('input');
-		var goalDivs = hiddenBox.getElementsByTagName('div');
+		var goalDivs = document.getElementById( 'formRisultati').getElementsByTagName('div');
 		var visibility = hiddenBox.style.visibility;
-		
-		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione */
-		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
-		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
+	
+		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il - di separazione */
+		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML; // nome prima squadra
+		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML; // nome seconda squadra
 		
 		for (i=0; i<3; i++) {
+			// stili titolo box (squadra1 - squadra2)
 			hiddenBox.getElementsByTagName('span').item(i).style.fontSize = '14px';
 			hiddenBox.getElementsByTagName('span').item(i).style.color = 'specialColor';
 		}
@@ -36,12 +37,11 @@ function showBoxCampionato( id, evt )
 			
 			var tdDivs = source.getElementsByTagName('div');
 			
-			var div0 = tdDivs.item(0).firstChild.nodeValue.split("-");
-			var div1 = tdDivs.item(1).firstChild.nodeValue.split("-");
+			var div0 = tdDivs.item(0).firstChild.nodeValue.split("-"); // goal squadra 1 e squadra 2
+			var div1 = tdDivs.item(1).firstChild.nodeValue.split("-"); // punteggi squadra 1 e squadra 2
 			
-			// i primi tre input sono send close e reset.
-			inputTags.item(3).value = retiA = trimWS(div0[0]);
-			inputTags.item(4).value = retiB = trimWS(div0[1]);
+			inputTags.item(1).value = retiA = trimWS(div0[0]); // goal squadra 1
+			inputTags.item(2).value = retiB = trimWS(div0[1]); // goal squadra 2
 
 			if (retiA == '')
 				retiA = 0;
@@ -52,12 +52,12 @@ function showBoxCampionato( id, evt )
 			if (isNaN(goalsTot)) 
 				goalsTot = 0;
 			
-			inputTags.item(5).value = trimWS(div1[0]);
-			inputTags.item(6).value = trimWS(div1[1]);
+			inputTags.item(3).value = trimWS(div1[0]); // punti squadra 1
+			inputTags.item(4).value = trimWS(div1[1]); // punti squadra 2
 
 			for(i=0; i<goalsTot; i++) {
 				goalDivs.item(i).style.display = 'block';
-				inputTags.item(9+i).value = tdDivs.item(2+i).innerHTML // inputTags: saltare item 7 e 8 (aggiungi e togli un marcatore); tdDivs: saltare item 0 e 1 (goals e punteggi)
+				inputTags.item(5+i).value = tdDivs.item(2+i).innerHTML // marcatori
 			}
 			
 			inputTags.item(inputTags.length-1).value = id;
@@ -94,7 +94,7 @@ function showBoxCoppa( id, evt )
 		// titolo box 
 		if (id.substring(0,6) == 'gruppi')
 		{
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione			
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il - di separazione			
 			if ( id.substring(6,8) == '10' || id.substring(6,8) == '11' )
 			{
 				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('gruppi'+id.substring(6,8)+'_C_nome').innerHTML;
@@ -104,11 +104,11 @@ function showBoxCoppa( id, evt )
 				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('gruppi'+id.substring(6,7)+'_F_nome').innerHTML;
 			}				
 		} else if (id.substring(0,4) == 'semi') {
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione					
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il - di separazione					
 			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('semi'+id.substring(4,5)+'_C_nome').innerHTML;
 			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('semi'+id.substring(4,5)+'_F_nome').innerHTML;
 		} else if (id.substring(0,6) == 'finali') {
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione			
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il - di separazione			
 			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('finali'+id.substring(6,7)+'_C_nome').innerHTML;
 			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('finali'+id.substring(6,7)+'_F_nome').innerHTML;
 		}
@@ -197,7 +197,7 @@ function hideBox( id )
 	if( document.getElementById ) 
 	{
 		var hiddenBox = document.getElementById( "hiddenBox" );
-		var goalDivs = hiddenBox.getElementsByTagName('div');
+		var goalDivs = document.getElementById( 'formRisultati').getElementsByTagName('div');
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		
 		var visibility = hiddenBox.style.visibility;
@@ -282,7 +282,7 @@ function goals()
 	//alert(oldGoalsTot);
 	if((goalsTot-oldGoalsTot)>0)
 	{
-		if (goalsTot > 20) // perchè sono previsti al massimo 20 goal totali in hiddenBox
+		if (goalsTot > 20) // perche' sono previsti al massimo 20 goal totali in hiddenBox
 			goalsTot = 20;
 			
 		for(var i=0;i<(goalsTot-oldGoalsTot);i++)
@@ -292,7 +292,7 @@ function goals()
 	} 
 	else if((goalsTot-oldGoalsTot)<0)
 	{
-		if (oldGoalsTot > 20) // perchè sono previsti al massimo 20 goal totali in hiddenBox
+		if (oldGoalsTot > 20) // perche' sono previsti al massimo 20 goal totali in hiddenBox
 			oldGoalsTot = 20;
 
 		for(var i=0;i>(goalsTot-oldGoalsTot);i--)
@@ -328,7 +328,7 @@ function addField()
 function manualAddField()
 {
 	goalsTot += 1;
-	if (goalsTot > 20) // perchè sono previsti al massimo 20 goal totali in hiddenBox
+	if (goalsTot > 20) // perche' sono previsti al massimo 20 goal totali in hiddenBox
 		goalsTot = 20;
 	addField();	
 }

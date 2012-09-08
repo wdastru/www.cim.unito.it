@@ -42,25 +42,26 @@ $filter = "*.xls";
 $result = glob($dir . $filter);
 
 //print_r($result);
+//exit();
 
 if (count($result) != 1)
 {
 	unlink($dir . $_SESSION['uploaded_file']);
 	unset($_SESSION['uploaded_file']);
-	header('Location: ../errors/error.php?error=excelError');
+	header('Location: ../errors/error.php?error=excelErrorNoFilesFound');
+	exit();
 }
 else
 {
 	$parts = pathinfo($result[0]);
-	$filename = strtok($parts['basename'], '.'); // sul server la versione di php è probabilmente vecchia e non esiste filename 
-	
+	$filename = strtok($parts['basename'], '.'); // sul server la versione di php e' probabilmente vecchia e non esiste filename 
 	$nameTxt = strtok($filename, '-');
-	$check = strtok('-');
 
-	if( $check != "MCCMicropagamenti" )
+	if( !preg_match('/MCCMicroPagamenti/', $filename) )
 	{
 		unlink($result[0]);
 		header('Location: ../errors/error.php?error=excelError');
+		exit();
 	}
 	
 	$data->read($result[0]);
@@ -98,6 +99,9 @@ if ($nameTxt != '')
 	}
 	
 	fclose($handle);
+} else {
+	header('Location: ../errors/error.php?error=excelErrorEmptyFileName');
+	exit();	
 }
 
 unlink($result[0]);

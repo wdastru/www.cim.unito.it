@@ -749,41 +749,10 @@ function show() {
 	Count();	
 }
 
-function saveData() {
+function saveData(_squadra) {
 	if( document.getElementById ) 
 	{
 		form = document.getElementById('saveData');
-		form.action='savedata.php';
-		t=0;
-		counters = ['counterPorTitolari', 'counterPorRiserve', 'counterPorTribuna', 'counterDifTitolari', 'counterDifRiserve', 'counterDifTribuna', 'counterCenTitolari', 'counterCenRiserve', 'counterCenTribuna', 'counterAttTitolari', 'counterAttRiserve', 'counterAttTribuna'];
-		divs = ['PorTitolari', 'PorRiserve', 'PorTribuna', 'DifTitolari', 'DifRiserve', 'DifTribuna', 'CenTitolari', 'CenRiserve', 'CenTribuna', 'AttTitolari', 'AttRiserve', 'AttTribuna'];
-		for(j=0;j<counters.length;j++)
-		{
-			for(i=0;i<document.getElementById(counters[j]).innerHTML;i++)
-			{	
-				form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).innerHTML; 
-				t++;
-			}
-		}
-		
-		// modulo
-		form.getElementsByTagName('input').item(1).value = document.getElementById('chosenModule').innerHTML;
-		// titolari 
-		form.getElementsByTagName('input').item(2).value=document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
-		// riserve
-		form.getElementsByTagName('input').item(3).value=document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
-		document.getElementById('saveData').submit();
-	}	
-	else {
-		alert(":( DOM NON Supportato!");
-	}
-}
-
-function saveDataTipo() {
-	if( document.getElementById ) 
-	{
-		form = document.getElementById('saveDataTipo');
-		form.action='savedata.php';
 		t=0;
 		counters = ['counterPorTitolari', 'counterPorRiserve', 'counterPorTribuna', 'counterDifTitolari', 'counterDifRiserve', 'counterDifTribuna', 'counterCenTitolari', 'counterCenRiserve', 'counterCenTribuna', 'counterAttTitolari', 'counterAttRiserve', 'counterAttTribuna'];
 		divs = ['PorTitolari', 'PorRiserve', 'PorTribuna', 'DifTitolari', 'DifRiserve', 'DifTribuna', 'CenTitolari', 'CenRiserve', 'CenTribuna', 'AttTitolari', 'AttRiserve', 'AttTribuna'];
@@ -797,11 +766,45 @@ function saveDataTipo() {
 		}
 		
 		// modulo 
-		form.getElementsByTagName('input').item(1).value = document.getElementById('chosenModule').innerHTML;
+		document.getElementById('modulo').value = document.getElementById('chosenModule').innerHTML;
 		// titolari 
-		form.getElementsByTagName('input').item(2).value=document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
+		document.getElementById('titolari').value = document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
 		// riserve 
-		form.getElementsByTagName('input').item(3).value=document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
+		document.getElementById('riserve').value = document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
+		// returnFromError 
+		document.getElementById('returnFromError').value = decodeURI(window.location.href);
+
+		document.getElementById('saveData').submit();
+	}	
+	else {
+		alert(":( DOM NON Supportato!");
+	}
+}
+
+function saveDataTipo(_squadra) {
+	if( document.getElementById ) 
+	{
+		form = document.getElementById('saveDataTipo');
+		t=0;
+		counters = ['counterPorTitolari', 'counterPorRiserve', 'counterPorTribuna', 'counterDifTitolari', 'counterDifRiserve', 'counterDifTribuna', 'counterCenTitolari', 'counterCenRiserve', 'counterCenTribuna', 'counterAttTitolari', 'counterAttRiserve', 'counterAttTribuna'];
+		divs = ['PorTitolari', 'PorRiserve', 'PorTribuna', 'DifTitolari', 'DifRiserve', 'DifTribuna', 'CenTitolari', 'CenRiserve', 'CenTribuna', 'AttTitolari', 'AttRiserve', 'AttTribuna'];
+		for(j=0;j<counters.length;j++)
+		{
+			for(i=0;i<document.getElementById(counters[j]).innerHTML;i++)
+			{	
+				form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).innerHTML; 
+				t++;
+			}
+		}
+		
+		// modulo 
+		document.getElementById('moduloTipo').value = document.getElementById('chosenModule').innerHTML;
+		// titolari 
+		document.getElementById('titolariTipo').value = document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
+		// riserve 
+		document.getElementById('riserveTipo').value = document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
+		// returnFromError 
+		document.getElementById('returnFromErrorTipo').value = decodeURI(window.location.href);
 		
 		document.getElementById('saveDataTipo').submit();
 	}	

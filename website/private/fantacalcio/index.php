@@ -8,6 +8,7 @@ require_once $relocate_string . 'updateGazFiles.inc.php';
 require_once $relocate_string . 'include/updateFantaCalcGuiListOfDownloads.inc.php';
 require_once $relocate_string . '777/gazFiles.inc.php';
 require_once $relocate_string . 'recursiveChmod.inc.php';
+require $relocate_string . 'include/updateListaFormazioni.inc.php';
 
 //include "dBug.php";
 
@@ -30,7 +31,7 @@ if($statisticsHandle) {
 	if($fileGazCount != count($fileGaz)) // nuova giornata
 	include $relocate_string . 'updateStatistics.php';
 } else {
-	echo '777/statistics.txt non è apribile per la lettura!';
+	echo '777/statistics.txt non ï¿½ apribile per la lettura!';
 	exit();
 }
 
@@ -284,7 +285,7 @@ if(!file_exists($datiCampionatoFileName)) {
 		$classifica_calls_counter = 0;
 
 		echo "<div id='avulse_wrapper'>
-<input id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
+<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
 <br /><br />
 <div id='avulse'>";
 
@@ -325,7 +326,7 @@ if(!file_exists($datiCampionatoFileName)) {
 		for($i=0; $i<8; $i++)
 		{
 			echo " <tr>";
-			echo "   <td class='Squadra invlink' colspan='1'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
+			echo "   <td class='Squadra' colspan='1'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
 			echo "   <td colspan='1'>&nbsp;</td>";
 			echo "   <td class='Punti'>" . $classifica[$i][0] . "</td>";
 			echo "   <td colspan='1'>&nbsp;</td>";
@@ -358,45 +359,45 @@ Visualizzazione della classifica in tabella
 		<p>&nbsp;</p>
 		<?php
 		echo "<table class='classifica'>
-<tr  class='tableline'>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>pt</th>
-<th>g</th>
-<th>&nbsp;</th>
-<th>v</th>
-<th>n</th>
-<th>p</th>
-<th>&nbsp;</th>
-<th>gf</th>
-<th>gs</th>
-<th>&Delta;g</th>
-<th>&nbsp;</th>
-<th>tot</th>
-<th>&nbsp;</th>
-<th>media</th>
-</tr>";
+				<tr  class='tableline'>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+				<th>pt</th>
+				<th>g</th>
+				<th>&nbsp;</th>
+				<th>v</th>
+				<th>n</th>
+				<th>p</th>
+				<th>&nbsp;</th>
+				<th>gf</th>
+				<th>gs</th>
+				<th>&Delta;g</th>
+				<th>&nbsp;</th>
+				<th>tot</th>
+				<th>&nbsp;</th>
+				<th>media</th>
+				</tr>";
 
-		for($i = 0; $i < 8; $i++) {
-			echo "    <tr>";
-			echo "      <td class='Squadra invlink'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
-			echo "      <td >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][0] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][4] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][6] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][7] . "</td>";
-    echo "      <td class='Dati'>" . $classifica[$i][8] . "</td>";
-    echo "      <td class='Dati' >&nbsp;</td>";
-    echo "      <td class='Dati'>" . $classifica[$i][2] . "</td>";
-    echo "      <td class='Dati'>" . $classifica[$i][5] . "</td>";
-    echo "      <td class='Dati'>" . $classifica[$i][1] . "</td>";
-    echo "      <td class='Dati' >&nbsp;</td>";
-    echo "      <td class='Dati'>" . $classifica[$i][9] . "</td>";
-    echo "      <td class='Dati' >&nbsp;</td>";
-    echo "      <td class='Dati'>" . round($classifica[$i][10], 2) . "</td>";
-    echo "    </tr>";
-}
+	for($i = 0; $i < 8; $i++) {
+		echo "    <tr>";
+		echo "      <td class='Squadra'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
+		echo "      <td >&nbsp;</td>";
+		echo "      <td class='Dati'>" . $classifica[$i][0] . "</td>";
+		echo "      <td class='Dati'>" . $classifica[$i][4] . "</td>";
+		echo "      <td class='Dati' >&nbsp;</td>";
+		echo "      <td class='Dati'>" . $classifica[$i][6] . "</td>";
+		echo "      <td class='Dati'>" . $classifica[$i][7] . "</td>";
+	    echo "      <td class='Dati'>" . $classifica[$i][8] . "</td>";
+	    echo "      <td class='Dati' >&nbsp;</td>";
+	    echo "      <td class='Dati'>" . $classifica[$i][2] . "</td>";
+	    echo "      <td class='Dati'>" . $classifica[$i][5] . "</td>";
+	    echo "      <td class='Dati'>" . $classifica[$i][1] . "</td>";
+	    echo "      <td class='Dati' >&nbsp;</td>";
+	    echo "      <td class='Dati'>" . $classifica[$i][9] . "</td>";
+	    echo "      <td class='Dati' >&nbsp;</td>";
+	    echo "      <td class='Dati'>" . round($classifica[$i][10], 2) . "</td>";
+	    echo "    </tr>";
+	}
 
 echo "</table>";
 

@@ -41,18 +41,25 @@ $relocate_string = "../"
 				<th>Presidente</th>
 			</tr>
 			<tr>
-				<td align="center">2006/07</td>
-				<td align="center">18</td>
-				<td class="center marcatore">Totti</td>
-				<td align="center">Bradipo</td>
-				<td align="center">Valentina Mainero</td>
+				<td align="center">2011/12</td>
+				<td align="center">22</td>
+				<td class="center marcatore">Ibrahimovic</td>
+				<td align="center">Atletico? No Grazie!</td>
+				<td align="center">Enzo Terreno</td>
 			</tr>
 			<tr>
-				<td align="center">2007/08</td>
-				<td align="center">16</td>
-				<td class="center marcatore">Del Piero</td>
-				<td align="center">EPOrediese</td>
-				<td align="center">Erik Bruno &amp; Dario Longo</td>
+				<td align="center">2010/11</td>
+				<td align="center">18</td>
+				<td class="center marcatore">Cavani</td>
+				<td align="center">Lokomitiv Peccorino</td>
+				<td align="center">Claudia Cabella</td>
+			</tr>
+			<tr>
+				<td align="center">2009/10</td>
+				<td align="center">14</td>
+				<td class="center marcatore">Milito</td>
+				<td align="center">Dinamo Ciofeca</td>
+				<td align="center">Lorenzo Tei</td>
 			</tr>
 			<tr>
 				<td align="center">2008/09</td>
@@ -69,18 +76,18 @@ $relocate_string = "../"
 				<td align="center">Davide Corpillo</td>
 			</tr>
 			<tr>
-				<td align="center">2009/10</td>
-				<td align="center">14</td>
-				<td class="center marcatore">Milito</td>
-				<td align="center">Dinamo Ciofeca</td>
-				<td align="center">Lorenzo Tei</td>
+				<td align="center">2007/08</td>
+				<td align="center">16</td>
+				<td class="center marcatore">Del Piero</td>
+				<td align="center">EPOrediese</td>
+				<td align="center">Erik Bruno &amp; Dario Longo</td>
 			</tr>
 			<tr>
-				<td align="center">2010/11</td>
+				<td align="center">2006/07</td>
 				<td align="center">18</td>
-				<td class="center marcatore">Cavani</td>
-				<td align="center">Lokomitiv Peccorino</td>
-				<td align="center">Claudia cabella</td>
+				<td class="center marcatore">Totti</td>
+				<td align="center">Bradipo</td>
+				<td align="center">Valentina Mainero</td>
 			</tr>
 		</table>
 		<h2 class="albo">COPPA</h2>
@@ -93,39 +100,11 @@ $relocate_string = "../"
 				<th>Presidente</th>
 			</tr>
 			<tr>
-				<td align="center">2006/07</td>
-				<td align="center">5</td>
-				<td class="center marcatore">Lucarelli C.</td>
-				<td align="center">Real Mentescars</td>
-				<td align="center">Davide Corpillo</td>
-			</tr>
-			<tr>
-				<td align="center">2007/08</td>
-				<td align="center">3</td>
-				<td class="center marcatore">Ibrahimovic</td>
-				<td align="center">EPOrediese</td>
-				<td align="center">Erik Bruno &amp; Dario Longo</td>
-			</tr>
-			<tr>
-				<td align="center">2008/09</td>
-				<td align="center">4</td>
-				<td class="center marcatore">Inzaghi F.</td>
-				<td align="center">Lokomotiv Peccorino</td>
-				<td align="center">Claudia Cabella & Giuseppe Digilio</td>
-			</tr>
-			<tr>
-				<td align="center">&nbsp;</td>
-				<td align="center">4</td>
-				<td class="center marcatore">Milito</td>
-				<td align="center">Dinamo Ciofeca</td>
-				<td align="center">Lorenzo Tei</td>
-			</tr>
-			<tr>
-				<td align="center">2009/10</td>
-				<td align="center">4</td>
-				<td class="center marcatore">Milito</td>
-				<td align="center">Dinamo Ciofeca</td>
-				<td align="center">Lorenzo Tei</td>
+				<td align="center">2011/12</td>
+				<td align="center">???</td>
+				<td class="center marcatore">???</td>
+				<td align="center">???</td>
+				<td align="center">???</td>
 			</tr>
 			<tr>
 				<td align="center">2010/11</td>
@@ -147,6 +126,41 @@ $relocate_string = "../"
 				<td class="center marcatore">Cavani</td>
 				<td align="center">Lokomitiv Peccorino</td>
 				<td align="center">Claudia cabella</td>
+			</tr>
+			<tr>
+				<td align="center">2009/10</td>
+				<td align="center">4</td>
+				<td class="center marcatore">Milito</td>
+				<td align="center">Dinamo Ciofeca</td>
+				<td align="center">Lorenzo Tei</td>
+			</tr>
+			<tr>
+				<td align="center">2008/09</td>
+				<td align="center">4</td>
+				<td class="center marcatore">Inzaghi F.</td>
+				<td align="center">Lokomotiv Peccorino</td>
+				<td align="center">Claudia Cabella & Giuseppe Digilio</td>
+			</tr>
+			<tr>
+				<td align="center">&nbsp;</td>
+				<td align="center">4</td>
+				<td class="center marcatore">Milito</td>
+				<td align="center">Dinamo Ciofeca</td>
+				<td align="center">Lorenzo Tei</td>
+			</tr>
+			<tr>
+				<td align="center">2007/08</td>
+				<td align="center">3</td>
+				<td class="center marcatore">Ibrahimovic</td>
+				<td align="center">EPOrediese</td>
+				<td align="center">Erik Bruno &amp; Dario Longo</td>
+			</tr>
+			<tr>
+				<td align="center">2006/07</td>
+				<td align="center">5</td>
+				<td class="center marcatore">Lucarelli C.</td>
+				<td align="center">Real Mentescars</td>
+				<td align="center">Davide Corpillo</td>
 			</tr>
 		</table>
 		<!-- InstanceEndEditable -->

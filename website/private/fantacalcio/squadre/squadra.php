@@ -31,12 +31,12 @@ $filenameStats="..//777//statistics.txt";
 require $relocate_string . "statisticsAllPlayerRead.php";
 require $relocate_string . "lastGazFileAllPlayerRead.php";
 
-if ( isset($_POST['changeTeam']) )
+if ( isset($_POST['changeTeam']) ) // modifica rosa da modify.php
 {
 	if ($_POST['changeTeam']=="true")
 	{
-		if (md5($_POST['Password']) != $ADMIN[$_POST['Squadra']] )
-		header('Location: ../errors/error.php?error=wrongPass');
+		if (md5($_POST['Password']) != $ADMIN[$_GET['squadra']] )
+		header('Location: ../errors/error.php?error=wrongPass&returnFromError=../private/modify.php?squadra=' . $_GET['squadra']);
 	}
 }
 

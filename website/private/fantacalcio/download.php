@@ -32,23 +32,9 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 <!-- <body onresize="Count();"> -->
 <body>
 
-
-
-
-
-
-
-
 <?php require $relocate_string . 'include/title.inc.php'; ?>
-
-
-
-
-
-
-
-
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
+
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<!-- InstanceEndEditable -->
 	<div id="main">
@@ -58,7 +44,8 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 			98(?)/2000(?)/XP/Vista/7</p>
 		<br />
 
-		<table style="margin: auto; border: 2px solid #990000; padding: 10px;">
+		<table id='downloads' style="margin: auto; padding: 10px;">
+			<!--
 			<tr>
 				<td><img
 					src="<?php echo $relocate_string . 'figure/IconNew.gif'; ?>"
@@ -70,62 +57,25 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 					src="<?php echo $relocate_string . 'figure/IconNew.gif'; ?>"
 					alt="New!" /><img
 					src="<?php echo $relocate_string . 'figure/IconNew.gif'; ?>"
-					alt="New!" /></td>
-			</tr>
-			<tr>
-				<td><p class="link">
-						<a style="font-size: 14px; color: FF6600"
-							href="download/FantaCalcGui_v3.2.0_Setup.exe">FantaCalcGui v3.2.0<br />
-							(installer)
-						</a>
-					</p></td>
-			</tr>
-			<tr>
-				<td><p class="link">
-						<a style="font-size: 14px; color: FF6600"
-							href="download/FCG_v3.2.0.exe">FantaCalcGui v3.2.0<br />
-							(archivio auto-estraente : per chi non pu&ograve; installare)
-						</a>
-					</p>
+					alt="New!" />
 				</td>
 			</tr>
+			-->
+			<tr><td><img class='new' src='figure/new.gif'></td><td class='left'><a href="download/FantaCalcGui_v3.2.1_Setup.exe">FantaCalcGui v3.2.1 (installer)</a></td></tr>
+			<tr><td><img class='new' src='figure/new.gif'></td><td class='left'><a href="download/FantaCalcGui_v3.2.1.zip">FantaCalcGui v3.2.1.zip</a></td></tr>
+			<tr><td></td><td class='left'><a href="download/FantaCalcGui_v3.2.0_Setup.exe">FantaCalcGui v3.2.0 (installer)</a></td></tr>
+			<tr><td></td><td class='left'><a href="download/FCG_v3.2.0.exe">FantaCalcGui v3.2.0 (archivio auto-estraente : per chi non pu&ograve; installare)</a></td></tr>
+			<tr><td></td><td class='left'><a href="download/FantaCalcGui_v2.5.14_Setup.exe">FantaCalcGui v2.5.14 (installer)</a></td></tr>
+			<tr><td></td><td class='left'><a href="download/FCG_v2.5.14.exe">FantaCalcGui v2.5.14 (archivio auto-estraente : per chi non pu&ograve; installare)</a></td></tr>
 		</table>
 
 
-		<br />
-		<p class="link">
-			<a style="font-size: 14px; color: FF6600"
-				href="download/FantaCalcGui_v2.5.14_Setup.exe">FantaCalcGui2.5.14<br />
-				(installer)
-			</a> &nbsp;&nbsp;
-		</p>
-		<p class="link">
-			<a style="font-size: 14px; color: FF6600"
-				href="download/FCG_v2.5.14.exe">FantaCalcGui2.5.14<br /> (archivio
-				auto-estraente : per chi non pu&ograve; installare)
-			</a> &nbsp;&nbsp;
-		</p>
 		<br /> <br />
 		<h1 class="title">FILES GAZZETTA</h1>
-		<br /> <input type="submit"
+		<br /> <input class='button' type="submit"
 			onclick="window.location.href='uploader.php';" value="Upload" /> <br />
 		<br />
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 		<?php
 
 		$nPreCampionato = 3;

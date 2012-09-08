@@ -5,8 +5,8 @@ $relocate_string = "../";
 
 $toCancel = '';
 
-if (isset($_POST['Squadra'])) {
-	$Squadra = $_SESSION['Squadra'] = $_POST['Squadra'];
+if (isset($_GET['squadra'])) {
+	$Squadra = $_SESSION['Squadra'] = $_GET['squadra'];
 } else {
 	$Squadra = '';
 }
@@ -25,7 +25,7 @@ if (isset($_POST['toCancel'])) {
 
 		copy("..//777//formazioni//" . $toCancel, "..//777//formazioni//archive//" . $toCancel);
 		unlink("..//777//formazioni//" . $toCancel);
-		require ("updateListaFormazioni.inc.php");
+		require ($relocate_string . "includes//updateListaFormazioni.inc.php");
 	}
 }
 // <-- ARCHIVE FILE
@@ -352,14 +352,14 @@ xmlns="http://www.w3.org/1999/xhtml">
 				<!-- DATI FORMAZIONE -->
 				<tr>
 					<td>
-					<form id="saveData" method="post" action="">
+					<form id="saveData" method="post" action="savedata?squadra=<?php echo $Squadra;?>">
 						<input type="hidden" name="squadraSubmitted" value="true" />
 						<?php
 						echo "
-<input type='hidden' name='Modulo' value='" . $modulo . "' />
-<input type='hidden' name='Titolari' value='" . $titolari[0] . "' />
-<input type='hidden' name='Riserve' value='" . $riserve[0] . "' />
-";
+							<input type='hidden' id='modulo' name='Modulo' value='" . $modulo . "' />
+							<input type='hidden' id='titolari' name='Titolari' value='" . $titolari[0] . "' />
+							<input type='hidden' id='riserve' name='Riserve' value='" . $riserve[0] . "' />
+							";
 						$t = 0;
 						for ($i = 0; $i < 4; $i++)// loop sui ruoli
 						{
@@ -371,39 +371,32 @@ xmlns="http://www.w3.org/1999/xhtml">
 						}
 
 						echo "
-<input type='hidden' id='capitale' name='Capitale' value='" . $capitale . "' />
-<input type='hidden' id='telefono' name='Telefono' value='" . $telefono . "' />
-
-";
+							<input type='hidden' id='capitale' name='Capitale' value='" . $capitale . "' />
+							<input type='hidden' id='telefono' name='Telefono' value='" . $telefono . "' />
+							";
 						?>
-						<input type="hidden" id="file2save" name="file2save"
-						value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="squadra" name="Squadra"
-						value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="file" name="File"
-						value="<?php echo $File;?>" />
+						<input type="hidden" id="file2save" name="file2save" value="<?php echo $Squadra;?>" />
+						<input type="hidden" id="file" name="File" value="<?php echo $File;?>" />
 						<span>password :</span>
-						<input type="password" id="password" name="Password" value=""
-						autocomplete="off" />
+						<input type="password" id="password" name="Password" value="" autocomplete="off" />
 						<span>id (facoltativo):</span>
 						<input type="text" id="spec" name="spec" value="" />
-						<input type="button" value="Salva dati formazione"
-						onclick="saveData();" />
-						<!-- <input type="hidden" name="saveData" value="true" /> -->
+						<input type="hidden" id="returnFromError" name="returnFromError" value="" />
+						<input class="button" type="button" value="Salva dati formazione" onclick="saveData('<?php echo $Squadra;?>');" />
 					</form></td>
 				</tr>
 				<!-- DATI FORMAZIONE -->
 				<!-- DATI FORMAZIONE TIPO-->
 				<tr>
 					<td>
-					<form id="saveDataTipo" method="post" action="">
+					<form id="saveDataTipo" method="post" action="savedata?squadra=<?php echo $Squadra;?>">
 						<input type="hidden" name="squadraSubmittedTipo" value="true" />
 						<?php
 						echo "
-<input type='hidden' name='Modulo' value='" . $modulo . "' />
-<input type='hidden' name='Titolari' value='" . $titolari[0] . "' />
-<input type='hidden' name='Riserve' value='" . $riserve[0] . "' />
-";
+							<input type='hidden' id='moduloTipo' name='Modulo' value='" . $modulo . "' />
+							<input type='hidden' id='titolariTipo' name='Titolari' value='" . $titolari[0] . "' />
+							<input type='hidden' id='riserveTipo' name='Riserve' value='" . $riserve[0] . "' />
+							";
 						$t = 0;
 						for ($i = 0; $i < 4; $i++)// loop sui ruoli
 						{
@@ -415,21 +408,16 @@ xmlns="http://www.w3.org/1999/xhtml">
 						}
 
 						echo "
-<input type='hidden' id='capitale' name='Capitale' value='" . $capitale . "' />
-<input type='hidden' id='telefono' name='Telefono' value='" . $telefono . "' />
-";
+							<input type='hidden' id='capitale' name='Capitale' value='" . $capitale . "' />
+							<input type='hidden' id='telefono' name='Telefono' value='" . $telefono . "' />
+							";
 						?>
-						<input type="hidden" id="file2save" name="file2saveTipo"
-						value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="squadra" name="Squadra"
-						value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="file" name="File"
-						value="<?php echo $File;?>" />
+						<input type="hidden" id="file2save" name="file2saveTipo" value="<?php echo $Squadra;?>" />
+						<input type="hidden" id="file" name="File" value="<?php echo $File;?>" />
+						<input type="hidden" id="returnFromErrorTipo" name="returnFromErrorTipo" value="" />
 						<span>password :</span>
-						<input type="password" id="passwordTipo" name="Password" value=""
-						autocomplete="off" />
-						<input type="button" value="Salva formazione tipo"
-						onclick="saveDataTipo();" />
+						<input type="password" id="passwordTipo" name="Password" value="" autocomplete="off" />
+						<input class="button" type="button" value="Salva formazione tipo" onclick="saveDataTipo('<?php echo $Squadra;?>');" />
 					</form></td>
 				</tr>
 				<!-- DATI FORMAZIONE TIPO-->
@@ -455,7 +443,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<input type='hidden' name='toCancel' value='" . $out . "'/>
 								<input type='hidden' name='Squadra' value='" . $_SESSION['nomesquadra'] . "'/>
 								<input type='hidden' name='File' value='" . $out . "'/>
-								<input type='submit' value='Archivia'/>
+								<input class='button' type='submit' value='Archivia'/>
 								</form>
 							  </div>";
 					} else {
@@ -463,11 +451,11 @@ xmlns="http://www.w3.org/1999/xhtml">
 					}
 
 					echo "<div id='view'>
-							<input type='button' value='Visualizza' onclick='getJS(\"textFileBuilder.php?file=" . $out . "\")'/>
+							<input class='button' type='button' value='Visualizza' onclick='getJS(\"textFileBuilder.php?file=" . $out . "\")'/>
 						  </div>
 						  <div id='usa'>
 							<form action='dragdrop.php' method='post'>
-							<input type='submit' value='Usa'/>
+							<input class='button' type='submit' value='Usa'/>
 							<input type='hidden' name='Squadra' value='" . $_SESSION['nomesquadra'] . "'/>
 							<input type='hidden' name='File' value='" . $out . "'/>
 							</form>

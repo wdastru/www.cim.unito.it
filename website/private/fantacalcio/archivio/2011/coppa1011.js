@@ -3,19 +3,19 @@ calls = 0;
 classifiche_avulse = Array(0);
 
 /*******************************************************************************
- * squadra = Array[8][10]
- * 
+ * squadra = Array[8][11]
+ *
  * Contiene i dati di ogni squadra per elaborare la classifica.
- * 
- * squadra[i][0] -> nome 
- * squadra[i][1] -> punti 
+ *
+ * squadra[i][0] -> nome
+ * squadra[i][1] -> punti
  * squadra[i][3] -> vinte
- * squadra[i][4] -> pareggiate 
- * squadra[i][5] -> perse 
+ * squadra[i][4] -> pareggiate
+ * squadra[i][5] -> perse
  * squadra[i][6] -> fatti
- * squadra[i][7] -> subiti 
- * squadra[i][8] -> diff reti 
- * squadra[i][9] -> punti fatti 
+ * squadra[i][7] -> subiti
+ * squadra[i][8] -> diff reti
+ * squadra[i][9] -> punti fatti
  * squadra[i][10] -> diff punti
  * 
  ******************************************************************************/
@@ -47,38 +47,29 @@ function readDatiCoppa() {
 	// --> start read data
 	for (i = 0; i < 12; i++) // partite della fase a gruppi
 	{
-		var nome_C = datiCoppa[i][0] = document.getElementById('gruppi' + i
-				+ '_C_nome').innerHTML.replace(/\&nbsp;/, "");
-		var nome_F = datiCoppa[i][1] = document.getElementById('gruppi' + i
-				+ '_F_nome').innerHTML.replace(/\&nbsp;/, "");
-		var goal_C = datiCoppa[i][2] = parseInt(document.getElementById(
-				'gruppi' + i + '_C_dati').getElementsByTagName('div').item(0).innerHTML
-				.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
-		var goal_F = datiCoppa[i][3] = parseInt(document.getElementById(
-				'gruppi' + i + '_F_dati').getElementsByTagName('div').item(0).innerHTML
-				.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
-		var punteggio_C = datiCoppa[i][4] = parseFloat(document.getElementById(
-				'gruppi' + i + '_C_dati').getElementsByTagName('div').item(1).innerHTML
-				.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
-		var punteggio_F = datiCoppa[i][5] = parseFloat(document.getElementById(
-				'gruppi' + i + '_F_dati').getElementsByTagName('div').item(1).innerHTML
-				.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
+		var nome_C = datiCoppa[i][0] = document.getElementById('gruppi' + i	+ '_C_nome').innerHTML.replace(/\&nbsp;/, "");
+		var nome_F = datiCoppa[i][1] = document.getElementById('gruppi' + i	+ '_F_nome').innerHTML.replace(/\&nbsp;/, "");
+		var goal_C = datiCoppa[i][2] = parseInt(document.getElementById('gruppi' + i + '_C_dati').getElementsByTagName('div').item(0).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
+		var goal_F = datiCoppa[i][3] = parseInt(document.getElementById('gruppi' + i + '_F_dati').getElementsByTagName('div').item(0).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
+		var punteggio_C = datiCoppa[i][4] = parseFloat(document.getElementById('gruppi' + i + '_C_dati').getElementsByTagName('div').item(1).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
+		var punteggio_F = datiCoppa[i][5] = parseFloat(document.getElementById('gruppi' + i + '_F_dati').getElementsByTagName('div').item(1).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, "").replace(/-/, ""));
 
-		for ( var j = 2; j < 6; j++)
+		for (var j = 2; j < 6; j++) {
 			// i dati numerici non possono essere vuoti
 			datiCoppa[i][j] = (datiCoppa[i][j] == '') ? 0 : datiCoppa[i][j];
+		}
 	}
 	// <-- end read data
 }
 function switchSquadre(squadra, a, b) {
-	for ( var k = 0; k < 11; k++) {
+	for (var k = 0; k < 11; k++) {
 		var tmp = squadra[a][k];
 		squadra[a][k] = squadra[b][k];
 		squadra[b][k] = tmp;
 	}
 }
 function updateSquadra() {
-	for ( var i = 0; i < 12; i++) {
+	for (var i = 0; i < 12; i++) {
 		if (datiCoppa[i][2] > datiCoppa[i][3]) // vittoria squadra in casa
 		{
 			for (k = 0; k < 8; k++) // loop sulle squadre
@@ -89,25 +80,20 @@ function updateSquadra() {
 					squadra[k][3] += 1; // vinte
 					squadra[k][6] += datiCoppa[i][2]; // goal fatti
 					squadra[k][7] += datiCoppa[i][3]; // goal subiti
-					squadra[k][8] += (datiCoppa[i][2] - datiCoppa[i][3]); // differenza
-					// reti
+					squadra[k][8] += (datiCoppa[i][2] - datiCoppa[i][3]); // differenza reti
 					squadra[k][9] += datiCoppa[i][4]; // punti fatti
-					squadra[k][10] += (datiCoppa[i][4] - datiCoppa[i][5]); // differenza
-					// punti
+					squadra[k][10] += (datiCoppa[i][4] - datiCoppa[i][5]); // differenza punti
 				} else if (datiCoppa[i][1] == squadra[k][0]) {
 					squadra[k][2] += 1; // punti
 					squadra[k][5] += 1; // partite perse
 					squadra[k][6] += datiCoppa[i][3]; // goal fatti
 					squadra[k][7] += datiCoppa[i][2]; // goal subiti
-					squadra[k][8] += (datiCoppa[i][3] - datiCoppa[i][2]); // differenza
-					// reti
+					squadra[k][8] += (datiCoppa[i][3] - datiCoppa[i][2]); // differenza reti
 					squadra[k][9] += datiCoppa[i][5]; // punti fatti
-					squadra[k][10] += (datiCoppa[i][5] - datiCoppa[i][4]); // differenza
-					// punti
+					squadra[k][10] += (datiCoppa[i][5] - datiCoppa[i][4]); // differenza punti
 				}
 			}
-		} else if (datiCoppa[i][3] > datiCoppa[i][2]) // vittoria squadra
-		// fuori casa
+		} else if (datiCoppa[i][3] > datiCoppa[i][2]) // vittoria squadra fuori casa
 		{
 			for (k = 0; k < 8; k++) {
 				if (squadra[k][0] == datiCoppa[i][0]) {
@@ -163,15 +149,15 @@ function arrangeTeams() {
 	if (document.getElementById) {
 		// --> sort x punti
 		var xx = 3;
-		for ( var j = 0; j < xx; j++) {
+		for (var j = 0; j < xx; j++) {
 			// --> gruppo A
-			for ( var i = 0; i < xx - j; i++) {
+			for (var i = 0; i < xx - j; i++) {
 				if (squadra[i][1] < squadra[i + 1][1]) // punti
 					switchSquadre(squadra, i, i + 1);
 			}
 
 			// --> gruppo B
-			for ( var i = 4; i < xx - j + 4; i++) {
+			for (var i = 4; i < xx - j + 4; i++) {
 				if (squadra[i][1] < squadra[i + 1][1]) // punti
 					switchSquadre(squadra, i, i + 1);
 			}
@@ -180,14 +166,15 @@ function arrangeTeams() {
 
 		// --> ricerca gruppi per classifica avulsa
 		var containers = Array(8);
-		for ( var i = 0; i < containers.length; i++)
+		for (var i = 0; i < containers.length; i++)
 			containers[i] = Array(0);
 
 		var j = 0;
-		containers[j][0] = "0"; // la prima squadra del gruppo A sara'
+		containers[j][0] = "0";
+		// la prima squadra del gruppo A sara'
 		// sicuramente nel primo contenitore
 
-		for ( var i = 0; i < 3; i++) {
+		for (var i = 0; i < 3; i++) {
 			if ((squadra[i][1] == squadra[i + 1][1]))
 				containers[j].push(i + 1);
 			else {
@@ -197,10 +184,11 @@ function arrangeTeams() {
 		}
 
 		j++;
-		containers[j][0] = "4"; // la prima squadra del gruppo B sara' nel primo
+		containers[j][0] = "4";
+		// la prima squadra del gruppo B sara' nel primo
 		// contenitore libero
 
-		for ( var i = 4; i < 7; i++) {
+		for (var i = 4; i < 7; i++) {
 			if ((squadra[i][1] == squadra[i + 1][1]))
 				containers[j].push(i + 1);
 			else {
@@ -211,7 +199,7 @@ function arrangeTeams() {
 		// <-- ricerca gruppi per classifica avulsa
 
 		// --> risoluzione gruppi
-		for ( var i = 0; i < containers.length; i++) {
+		for (var i = 0; i < containers.length; i++) {
 			if (containers[i].length > 1)
 				squadra = classifica(squadra, containers[i]);
 		}
@@ -238,52 +226,25 @@ function arrangeTeams() {
 
 		if (playedCounter == 24) // finita la fase a gironi
 		{
-			var tr_semi = document.getElementById('semifinali_coppa')
-					.getElementsByTagName('tr');
-			var tr_gruppo1 = document.getElementById('classifica_gruppo_1')
-					.getElementsByTagName('tr');
-			var tr_gruppo2 = document.getElementById('classifica_gruppo_2')
-					.getElementsByTagName('tr');
+			var tr_semi = document.getElementById('semifinali_coppa').getElementsByTagName('tr');
+			var tr_gruppo1 = document.getElementById('classifica_gruppo_1').getElementsByTagName('tr');
+			var tr_gruppo2 = document.getElementById('classifica_gruppo_2').getElementsByTagName('tr');
 
 			// I semifinale
-			document.getElementById('semifinale0').getElementsByTagName('td')
-					.item(0).innerHTML = '&nbsp;'
-					+ document.getElementById('posizioneA0')
-							.getElementsByTagName('td').item(0).innerHTML;
-			document.getElementById('semifinale0').getElementsByTagName('td')
-					.item(6).innerHTML = document.getElementById('posizioneB1')
-					.getElementsByTagName('td').item(0).innerHTML
-					+ '&nbsp;';
+			document.getElementById('semifinale0').getElementsByTagName('td').item(0).innerHTML = '&nbsp;' + document.getElementById('posizioneA0').getElementsByTagName('td').item(0).innerHTML;
+			document.getElementById('semifinale0').getElementsByTagName('td').item(6).innerHTML = document.getElementById('posizioneB1').getElementsByTagName('td').item(0).innerHTML + '&nbsp;';
 
 			// II semifinale
-			document.getElementById('semifinale1').getElementsByTagName('td')
-					.item(0).innerHTML = '&nbsp;'
-					+ document.getElementById('posizioneB0')
-							.getElementsByTagName('td').item(0).innerHTML;
-			document.getElementById('semifinale1').getElementsByTagName('td')
-					.item(6).innerHTML = document.getElementById('posizioneA1')
-					.getElementsByTagName('td').item(0).innerHTML
-					+ '&nbsp;';
+			document.getElementById('semifinale1').getElementsByTagName('td').item(0).innerHTML = '&nbsp;' + document.getElementById('posizioneB0').getElementsByTagName('td').item(0).innerHTML;
+			document.getElementById('semifinale1').getElementsByTagName('td').item(6).innerHTML = document.getElementById('posizioneA1').getElementsByTagName('td').item(0).innerHTML + '&nbsp;';
 
 			// III semifinale
-			document.getElementById('semifinale2').getElementsByTagName('td')
-					.item(0).innerHTML = '&nbsp;'
-					+ document.getElementById('posizioneA2')
-							.getElementsByTagName('td').item(0).innerHTML;
-			document.getElementById('semifinale2').getElementsByTagName('td')
-					.item(6).innerHTML = document.getElementById('posizioneB3')
-					.getElementsByTagName('td').item(0).innerHTML
-					+ '&nbsp;';
+			document.getElementById('semifinale2').getElementsByTagName('td').item(0).innerHTML = '&nbsp;' + document.getElementById('posizioneA2').getElementsByTagName('td').item(0).innerHTML;
+			document.getElementById('semifinale2').getElementsByTagName('td').item(6).innerHTML = document.getElementById('posizioneB3').getElementsByTagName('td').item(0).innerHTML + '&nbsp;';
 
 			// IV semifinale
-			document.getElementById('semifinale3').getElementsByTagName('td')
-					.item(0).innerHTML = '&nbsp;'
-					+ document.getElementById('posizioneB2')
-							.getElementsByTagName('td').item(0).innerHTML;
-			document.getElementById('semifinale3').getElementsByTagName('td')
-					.item(6).innerHTML = document.getElementById('posizioneA3')
-					.getElementsByTagName('td').item(0).innerHTML
-					+ '&nbsp;';
+			document.getElementById('semifinale3').getElementsByTagName('td').item(0).innerHTML = '&nbsp;' + document.getElementById('posizioneB2').getElementsByTagName('td').item(0).innerHTML;
+			document.getElementById('semifinale3').getElementsByTagName('td').item(6).innerHTML = document.getElementById('posizioneA3').getElementsByTagName('td').item(0).innerHTML + '&nbsp;';
 		}
 
 		var winner = Array(4);
@@ -291,35 +252,17 @@ function arrangeTeams() {
 
 		for (i = 0; i < 4; i++) // semifinali
 		{
-			var goal_C = parseInt(document.getElementById('semifinale' + i)
-					.getElementsByTagName('td').item(2).getElementsByTagName(
-							'div').item(0).innerHTML.replace(/\&nbsp;/, "")
-					.replace(/\&nbsp;/, ""));
-			var goal_F = parseInt(document.getElementById('semifinale' + i)
-					.getElementsByTagName('td').item(4).getElementsByTagName(
-							'div').item(0).innerHTML.replace(/\&nbsp;/, "")
-					.replace(/\&nbsp;/, ""));
-			var punti_C = parseFloat(document.getElementById('semifinale' + i)
-					.getElementsByTagName('td').item(2).getElementsByTagName(
-							'div').item(1).innerHTML.replace(/\&nbsp;/, "")
-					.replace(/\&nbsp;/, ""));
-			var punti_F = parseFloat(document.getElementById('semifinale' + i)
-					.getElementsByTagName('td').item(4).getElementsByTagName(
-							'div').item(1).innerHTML.replace(/\&nbsp;/, "")
-					.replace(/\&nbsp;/, ""));
-			var sourceSemiHome = document.getElementById('semifinale' + i)
-					.getElementsByTagName('td').item(0).innerHTML.replace(
-					/\&nbsp;/, "");
-			var sourceSemiAway = document.getElementById('semifinale' + i)
-					.getElementsByTagName('td').item(6).innerHTML.replace(
-					/\&nbsp;/, "");
+			var goal_C = parseInt(document.getElementById('semifinale' + i).getElementsByTagName('td').item(2).getElementsByTagName('div').item(0).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, ""));
+			var goal_F = parseInt(document.getElementById('semifinale' + i).getElementsByTagName('td').item(4).getElementsByTagName('div').item(0).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, ""));
+			var punti_C = parseFloat(document.getElementById('semifinale' + i).getElementsByTagName('td').item(2).getElementsByTagName('div').item(1).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, ""));
+			var punti_F = parseFloat(document.getElementById('semifinale' + i).getElementsByTagName('td').item(4).getElementsByTagName('div').item(1).innerHTML.replace(/\&nbsp;/, "").replace(/\&nbsp;/, ""));
+			var sourceSemiHome = document.getElementById('semifinale' + i).getElementsByTagName('td').item(0).innerHTML.replace(/\&nbsp;/, "");
+			var sourceSemiAway = document.getElementById('semifinale' + i).getElementsByTagName('td').item(6).innerHTML.replace(/\&nbsp;/, "");
 
 			if (goal_C > goal_F) {
 				winner[i] = sourceSemiHome;
 				loser[i] = sourceSemiAway;
-			}
-
-			else if (goal_C < goal_F) {
+			} else if (goal_C < goal_F) {
 				winner[i] = sourceSemiAway;
 				loser[i] = sourceSemiHome;
 			} else {
@@ -336,33 +279,25 @@ function arrangeTeams() {
 			}
 		}
 
-		document.getElementById('finali0_C_nome').innerHTML = "&nbsp;"
-				+ winner[0];
-		document.getElementById('finali1_C_nome').innerHTML = "&nbsp;"
-				+ loser[0];
-		document.getElementById('finali0_F_nome').innerHTML = winner[1]
-				+ "&nbsp;";
-		document.getElementById('finali1_F_nome').innerHTML = loser[1]
-				+ "&nbsp;";
-		document.getElementById('finali2_C_nome').innerHTML = "&nbsp;"
-				+ winner[2];
-		document.getElementById('finali3_C_nome').innerHTML = "&nbsp;"
-				+ loser[2];
-		document.getElementById('finali2_F_nome').innerHTML = "&nbsp;"
-				+ winner[3];
-		document.getElementById('finali3_F_nome').innerHTML = "&nbsp;"
-				+ loser[3];
+		document.getElementById('finali0_C_nome').innerHTML = "&nbsp;" + winner[0];
+		document.getElementById('finali1_C_nome').innerHTML = "&nbsp;" + loser[0];
+		document.getElementById('finali0_F_nome').innerHTML = winner[1] + "&nbsp;";
+		document.getElementById('finali1_F_nome').innerHTML = loser[1] + "&nbsp;";
+		document.getElementById('finali2_C_nome').innerHTML = "&nbsp;" + winner[2];
+		document.getElementById('finali3_C_nome').innerHTML = "&nbsp;" + loser[2];
+		document.getElementById('finali2_F_nome').innerHTML = "&nbsp;" + winner[3];
+		document.getElementById('finali3_F_nome').innerHTML = "&nbsp;" + loser[3];
 		// <-- aggiornamento classifica
 
 		// --> classifiche avulse
 		var divAvulse = document.getElementById('avulse');
 		var tables = divAvulse.getElementsByTagName('table');
-		for ( var k = 0; k < classifiche_avulse.length; k++) {
-			document.getElementById('avulsa'+k).style.display = 'block';
+		for (var k = 0; k < classifiche_avulse.length; k++) {
+			document.getElementById('avulsa' + k).style.display = 'block';
 			var trs = tables.item(k).getElementsByTagName('tr');
-			for ( var i = 1; i < trs.length; i++) {
+			for (var i = 1; i < trs.length; i++) {
 				var tds = trs.item(i).getElementsByTagName('td');
-				for ( var j = 0; j < tds.length; j++) {
+				for (var j = 0; j < tds.length; j++) {
 					if (classifiche_avulse[k][i - 1][2] == 0)
 						trs.item(i).style.display = "none";
 					else
@@ -370,7 +305,7 @@ function arrangeTeams() {
 				}
 			}
 		}
-		
+
 		if (calls > 0)
 			document.getElementById('avulse_wrapper').style.display = 'block';
 		// <-- classifiche avulse
@@ -383,22 +318,23 @@ function arrangeTeams() {
 
 function classifica(
 /*
- * variable number of arguments, the first has to be the
- * array name
+ * variable number of arguments, the first has to be the array name
  */
-		) {
-	var datiCoppaPerAvulsa = Array(12); // copia di datiCoppa per non
+) {
+	var datiCoppaPerAvulsa = Array(12);
+	// copia di datiCoppa per non
 	// modificarlo (la classifica mostrata
 	// dipende da esso)
-	for ( var i = 0; i < 12; i++)
+	for (var i = 0; i < 12; i++)
 		datiCoppaPerAvulsa[i] = Array(6);
 
 	var squadra_local = arguments[0];
 
-	for ( var i = 0; i < 12; i++) {
-		for ( var j = 0; j < 6; j++) {
+	for (var i = 0; i < 12; i++) {
+		for (var j = 0; j < 6; j++) {
 			if (datiCoppa[i][j].toString() == 'NaN')
-				datiCoppaPerAvulsa[i][j] = 0; // pone i NaN a zero per la
+				datiCoppaPerAvulsa[i][j] = 0;
+			// pone i NaN a zero per la
 			// classifica avulsa
 			else
 				datiCoppaPerAvulsa[i][j] = datiCoppa[i][j];
@@ -407,7 +343,7 @@ function classifica(
 
 	var idx = new Array(arguments[1].length);
 	var argList = '';
-	for ( var i = 0; i < arguments[1].length; i++) {
+	for (var i = 0; i < arguments[1].length; i++) {
 		idx[i] = parseInt(arguments[1][i]);
 		argList += squadra_local[idx[i]][0];
 	}
@@ -488,7 +424,7 @@ function classifica(
 					avulsa[k][6] += datiCoppaPerAvulsa[i][3];
 					avulsa[k][7] += datiCoppaPerAvulsa[i][2];
 					avulsa[k][8] += (datiCoppaPerAvulsa[i][3] - datiCoppaPerAvulsa[i][2]);
-					avulsa[k][9] += datiCoppaPerAvulsa[i][4];
+					avulsa[k][9] += datiCoppaPerAvulsa[i][5];
 					avulsa[k][10] += (datiCoppaPerAvulsa[i][5] - datiCoppaPerAvulsa[i][4]);
 				}
 			}
@@ -521,8 +457,8 @@ function classifica(
 
 	// --> sort x punti
 	var xx = arguments[1].length - 1;
-	for ( var j = idx[0]; j < idx[xx]; j++) {
-		for ( var i = idx[0]; i < idx[0] + idx[xx] - j; i++) {
+	for (var j = idx[0]; j < idx[xx]; j++) {
+		for (var i = idx[0]; i < idx[0] + idx[xx] - j; i++) {
 			if (avulsa[i][1] < avulsa[i + 1][1]) // punti
 				switchSquadre(avulsa, i, i + 1);
 		}
@@ -530,8 +466,8 @@ function classifica(
 	// <-- sort x punti
 
 	// --> applica correzione a squadra[][]
-	for ( var i = idx[0]; i <= idx[xx]; i++) {
-		for ( var j = idx[0]; j <= idx[xx]; j++) {
+	for (var i = idx[0]; i <= idx[xx]; i++) {
+		for (var j = idx[0]; j <= idx[xx]; j++) {
 			if (squadra[i][0] == avulsa[j][0]) {
 				switchSquadre(squadra, i, j);
 				break;
@@ -542,14 +478,15 @@ function classifica(
 
 	// --> ricerca gruppi per classifica avulsa
 	var containers = Array(arguments[1].length);
-	for ( var i = 0; i < containers.length; i++)
+	for (var i = 0; i < containers.length; i++)
 		containers[i] = Array(0);
 
 	var j = 0;
-	containers[j][0] = parseInt(arguments[1][0]); // la prima squadra sara'
+	containers[j][0] = parseInt(arguments[1][0]);
+	// la prima squadra sara'
 	// sicuramente nel primo
 	// contenitore
-	for ( var i = parseInt(arguments[1][0]); i < parseInt(arguments[1][arguments[1].length - 1]); i++) {
+	for (var i = parseInt(arguments[1][0]); i < parseInt(arguments[1][arguments[1].length - 1]); i++) {
 		if ((avulsa[i][1] == avulsa[i + 1][1]))
 			containers[j].push(i + 1);
 		else {
@@ -560,7 +497,7 @@ function classifica(
 	// <-- ricerca gruppi per classifica avulsa
 
 	// --> risoluzione gruppi
-	for ( var i = 0; i < containers.length; i++) {
+	for (var i = 0; i < containers.length; i++) {
 		if (containers[i].length > 1) {
 			if (containers[i].length > 1
 					&& containers[i].length < arguments[1].length)
@@ -572,8 +509,8 @@ function classifica(
 	// --> sort avulsa
 	var xx = arguments[1].length - 1;
 
-	for ( var j = 0; j < idx[xx] - idx[0]; j++) {
-		for ( var i = idx[0]; i < idx[xx] - j; i++) {
+	for (var j = 0; j < idx[xx] - idx[0]; j++) {
+		for (var i = idx[0]; i < idx[xx] - j; i++) {
 			if (avulsa[i][1] < avulsa[i + 1][1]) // punti
 			{
 				switchSquadre(avulsa, i, i + 1);
@@ -618,8 +555,8 @@ function classifica(
 	// <-- visualizzazione classifica avulsa
 
 	// --> applica correzione a squadra[][]
-	for ( var i = idx[0]; i <= idx[xx]; i++) {
-		for ( var j = idx[0]; j <= idx[xx]; j++) {
+	for (var i = idx[0]; i <= idx[xx]; i++) {
+		for (var j = idx[0]; j <= idx[xx]; j++) {
 			if (squadra[i][0] == avulsa[j][0])
 				switchSquadre(squadra, i, j);
 		}
@@ -631,9 +568,8 @@ function classifica(
 
 function toggleAvulse() {
 	if (document.getElementById) {
-		if (document.getElementById('avulse').style.display == "none" || 
-			document.getElementById('avulse').style.display == ""
-			)
+		if (document.getElementById('avulse').style.display == "none" ||
+			document.getElementById('avulse').style.display == "")
 			document.getElementById('avulse').style.display = "block"
 		else
 			document.getElementById('avulse').style.display = "none"

@@ -99,12 +99,12 @@ if (isset($_POST['toCancel']))
 			if (strstr($filename[$i], '_locked.txt'))
 			{
 				echo "<div id='unlock'>
-							<input id='unlockBtn' type='button' value='Sblocca' 
+							<input class='button' id='unlockBtn' type='button' value='Sblocca' 
 							 	onclick='visualizePasswordBox(\"" . $filename[$i] . "\")'/>
 						  </div>";
 			} else {
 				echo "<div id='view'>
-							<input id='viewBtn' type='button' value='Visualizza' 
+							<input class='button' id='viewBtn' type='button' value='Visualizza' 
 								onclick='getJS(\"offerSender.php?file=archive/" . $filename[$i] . "\");'/>
 						  </div>";
 			}

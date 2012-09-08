@@ -202,7 +202,7 @@ function updateTable(tabId) {
 	var trs = table.item(0).getElementsByTagName('tr');
 	table.item(0).style.borderCollapse = 'collapse'; // IE 7
 
-	for (var k=0; k<1; k++) // ripetizione blocco per testing della velocità
+	for (var k=0; k<1; k++) // ripetizione blocco per testing della velocitï¿½
 	{
 		/**/
 		var newTBody = document.createElement('tbody');
@@ -231,7 +231,7 @@ function updateTable(tabId) {
 			else
 			{
 				newRow.setAttribute('class', 'alternateRow');		
-				newRow.bgColor = 'bkgdColorLigther'; // IE 7
+				newRow.bgColor = 'textColor1'; // IE 7
 			}
 	
 			for ( var i=0; i<cells_length[tabId]; i++ )
@@ -245,12 +245,12 @@ function updateTable(tabId) {
 				{
 					if ( data[tabId][j][2] == 'libero' )
 					{
-						newCell.style.color = 'textColor1'; // IE 7
+						newCell.style.color = 'textColor0'; // IE 7
 						className += ' free';
 					}
 					else
 					{
-						newCell.style.color = 'textColor2'; // IE 7
+						newCell.style.color = 'textColor6'; // IE 7
 						className += ' owned';
 					}
 				}
