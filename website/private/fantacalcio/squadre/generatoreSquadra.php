@@ -304,12 +304,9 @@
 <table class="buttonModify">
 	<tr>
 		<td>
-			<form method="post" action="../private/modify.php">
+			<form method="post" action="../private/modify.php?squadra=<?php echo $_SESSION['nomesquadra']; ?>">
 				<div>
-					<input class="button" type="submit" name="modifica" value="Modifica rosa" /> <input
-						type="hidden" name="Squadra"
-						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
-						type="hidden" name="Index" value="1" />
+					<input class="button" type="submit" value="Modifica rosa" /> 
 				</div>
 			</form>
 		</td>

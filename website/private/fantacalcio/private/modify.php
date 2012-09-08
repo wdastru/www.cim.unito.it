@@ -6,8 +6,8 @@ require("../squadre.inc.php");
 
 session_start();
 
-if (isset($_POST['Squadra']))
-	$Squadra = $_SESSION['Squadra']=$_POST['Squadra'];
+if (isset($_GET['squadra']))
+	$Squadra = $_SESSION['Squadra']=$_GET['squadra'];
 if (isset($_POST['Modulo']))
 	$Modulo = $_SESSION['Modulo']=$_POST['Modulo'];
 if (isset($_POST['Telefono']))
@@ -49,7 +49,7 @@ require("../777/gazFiles.inc.php");
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <?php
-	$filename="..//777//filesGazzetta//" . $fileGaz[count($fileGaz)-1];
+    $filename=$relocate_string . "777//filesGazzetta//" . $fileGaz[count($fileGaz)-1];
 	if(file_exists($filename))
 	{
 		$handle=fopen($filename, 'r');
@@ -70,7 +70,7 @@ require("../777/gazFiles.inc.php");
 	else
 		exit ("<p>" . $filename . " non esiste!</p><p>Dillo al tuo amministratore del sito!!</p>");
 	
-	$filename="..//777//formazioni//" . $Squadra . ".txt";
+	$filename=$relocate_string . "777//formazioni//" . $Squadra . ".txt";
 	if(file_exists($filename)) // il file della squadra esiste quindi legge quello
 	{
 		$handle=fopen($filename, 'r');
@@ -98,9 +98,7 @@ require("../777/gazFiles.inc.php");
 		$telefono = trim(fgets($handle));
 		
 		fclose($handle);
-	}
-	else if (isset($Modulo)) // il file squadra non esiste, ma � gi� stato scelto un modulo
-	{
+	} else if (isset($Modulo)) { // il file squadra non esiste, ma e' gia' stato scelto un modulo
 		$modulo[1] = 1;
 		$modulo[2] = substr($modulo[0], 0, 1);
 		$modulo[3] = substr($modulo[0], 4, 1);
@@ -111,9 +109,7 @@ require("../777/gazFiles.inc.php");
 			for ($i=0;$i<$ruolo[$j][0]; $i++)
 				$giocatore[$j][$i] = ""; // nome
 		}
-	}
-	else // il file squadra non esiste ed � la prima volta che si accede alla pagina (4 - 4 - 2 di default)
-	{
+	} else { // il file squadra non esiste ed e' la prima volta che si accede alla pagina (4 - 4 - 2 di default)
 		$modulo[0] = "4 - 4 - 2";
 		$modulo[1] = 1;
 		$modulo[2] = substr($modulo[0], 0, 1);
@@ -131,7 +127,7 @@ require("../777/gazFiles.inc.php");
 	
 	echo "
 	<div id='wrapper-moduli'>
-	<form action='modify.php' method='post' target='_self'>
+	<form action='modify.php?squadra=$Squadra' method='post' target='_self'>
 	<fieldset class='noBorder'>";
 	$checked="";
 	echo "
@@ -161,7 +157,6 @@ require("../777/gazFiles.inc.php");
 	echo "
 	</tr>
 	</table>
-	<input type='hidden' name='Squadra' value='" . $Squadra . "' />
 	<input type='hidden' name='Password' value='" . $Password . "' />
 	<br/>
 	<br/>
@@ -257,7 +252,6 @@ require("../777/gazFiles.inc.php");
 	<br/>
 	<input type='hidden' name='Modulo' value='" . $modulo[0] . "' />
 	<input type='hidden' name='changeTeam' value='true' />
-	<input type='hidden' name='Squadra' value='" . $Squadra . "' />
 	<input type='hidden' name='fromModifyPhp' value='1' />
 	<input class='button' type='submit' value='Invia'/>
 	</div>
