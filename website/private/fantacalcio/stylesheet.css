@@ -150,7 +150,7 @@ table.rosafooter td.buttonVista{ text-align:left; width:22em; }
 td.Nome { text-align:right; color:textColor0; font-size:2em; width:318px; }
 td.Immagine { text-align:center; width:320px; }
 td.Storico { text-align:left; width:318px; }
-td.Immagine img { border:1px solid textColor1; }
+td.Immagine img { border:1px solid borderColor; }
 span.stagione{ color:textColor0; }
 span.primo, span.coppe { background-color:historyColor1; color: textColor0; }
 span.secondo{ background-color:historyColor2; color: textColor0; }
@@ -161,7 +161,7 @@ span.sesto{ background-color:historyColor5; color: textColor0; }
 span.settimo{ background-color:historyColor7; color:color5; }
 span.ottavo{ background-color:historyColor7; color:color5; }
 span.oldName{ color:textColor0; }
-#vista { empty-cells:show; width:50%; border:solid 1px vistaBorderColor; background-color:bkgdColorDarker; font-size:10px; font-weight:bold; text-align:center; color:textColor0; padding:5px; margin:auto; }
+table#vista { empty-cells:show; width:50%; border:solid 1px borderColor; background-color:bkgdColorDarker; font-size:10px; font-weight:bold; text-align:center; color:textColor0; padding:5px; margin:auto; }
 #vista_head { font-weight:bold; font-size:14px; text-align:left; padding-left:20px; }
 #selectedVista { color:textColor0; }
 .vistaRowHeader { color:textColor0; }
