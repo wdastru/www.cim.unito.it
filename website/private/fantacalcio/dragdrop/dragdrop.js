@@ -753,7 +753,6 @@ function saveData(_squadra) {
 	if( document.getElementById ) 
 	{
 		form = document.getElementById('saveData');
-		form.action='savedata.php';
 		t=0;
 		counters = ['counterPorTitolari', 'counterPorRiserve', 'counterPorTribuna', 'counterDifTitolari', 'counterDifRiserve', 'counterDifTribuna', 'counterCenTitolari', 'counterCenRiserve', 'counterCenTribuna', 'counterAttTitolari', 'counterAttRiserve', 'counterAttTribuna'];
 		divs = ['PorTitolari', 'PorRiserve', 'PorTribuna', 'DifTitolari', 'DifRiserve', 'DifTribuna', 'CenTitolari', 'CenRiserve', 'CenTribuna', 'AttTitolari', 'AttRiserve', 'AttTribuna'];
@@ -786,7 +785,6 @@ function saveDataTipo(_squadra) {
 	if( document.getElementById ) 
 	{
 		form = document.getElementById('saveDataTipo');
-		form.action='savedata.php';
 		t=0;
 		counters = ['counterPorTitolari', 'counterPorRiserve', 'counterPorTribuna', 'counterDifTitolari', 'counterDifRiserve', 'counterDifTribuna', 'counterCenTitolari', 'counterCenRiserve', 'counterCenTribuna', 'counterAttTitolari', 'counterAttRiserve', 'counterAttTribuna'];
 		divs = ['PorTitolari', 'PorRiserve', 'PorTribuna', 'DifTitolari', 'DifRiserve', 'DifTribuna', 'CenTitolari', 'CenRiserve', 'CenTribuna', 'AttTitolari', 'AttRiserve', 'AttTribuna'];
@@ -800,13 +798,13 @@ function saveDataTipo(_squadra) {
 		}
 		
 		// modulo 
-		document.getElementById('modulo').value = document.getElementById('chosenModule').innerHTML;
+		document.getElementById('moduloTipo').value = document.getElementById('chosenModule').innerHTML;
 		// titolari 
-		document.getElementById('titolari').value = document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
+		document.getElementById('titolariTipo').value = document.getElementById('counterPorTitolari').innerHTML+" - "+document.getElementById('counterDifTitolari').innerHTML+" - "+document.getElementById('counterCenTitolari').innerHTML+" - "+document.getElementById('counterAttTitolari').innerHTML;
 		// riserve 
-		document.getElementById('riserve').value = document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
+		document.getElementById('riserveTipo').value = document.getElementById('counterPorRiserve').innerHTML+" - "+document.getElementById('counterDifRiserve').innerHTML+" - "+document.getElementById('counterCenRiserve').innerHTML+" - "+document.getElementById('counterAttRiserve').innerHTML;
 		// returnFromError 
-		document.getElementById('returnFromError').value = decodeURI(window.location.href);
+		document.getElementById('returnFromErrorTipo').value = decodeURI(window.location.href);
 		
 		document.getElementById('saveDataTipo').submit();
 	}	

@@ -352,7 +352,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				<!-- DATI FORMAZIONE -->
 				<tr>
 					<td>
-					<form id="saveData" method="post" action="">
+					<form id="saveData" method="post" action="savedata?squadra=<?php echo $Squadra;?>">
 						<input type="hidden" name="squadraSubmitted" value="true" />
 						<?php
 						echo "
@@ -376,7 +376,6 @@ xmlns="http://www.w3.org/1999/xhtml">
 							";
 						?>
 						<input type="hidden" id="file2save" name="file2save" value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="squadra" name="Squadra" value="<?php echo $Squadra;?>" />
 						<input type="hidden" id="file" name="File" value="<?php echo $File;?>" />
 						<span>password :</span>
 						<input type="password" id="password" name="Password" value="" autocomplete="off" />
@@ -384,20 +383,19 @@ xmlns="http://www.w3.org/1999/xhtml">
 						<input type="text" id="spec" name="spec" value="" />
 						<input type="hidden" id="returnFromError" name="returnFromError" value="" />
 						<input class="button" type="button" value="Salva dati formazione" onclick="saveData('<?php echo $Squadra;?>');" />
-						<!-- <input type="hidden" name="saveData" value="true" /> -->
 					</form></td>
 				</tr>
 				<!-- DATI FORMAZIONE -->
 				<!-- DATI FORMAZIONE TIPO-->
 				<tr>
 					<td>
-					<form id="saveDataTipo" method="post" action="">
+					<form id="saveDataTipo" method="post" action="savedata?squadra=<?php echo $Squadra;?>">
 						<input type="hidden" name="squadraSubmittedTipo" value="true" />
 						<?php
 						echo "
-							<input type='hidden' id='modulo' name='Modulo' value='" . $modulo . "' />
-							<input type='hidden' id='titolari' name='Titolari' value='" . $titolari[0] . "' />
-							<input type='hidden' id='riserve' name='Riserve' value='" . $riserve[0] . "' />
+							<input type='hidden' id='moduloTipo' name='Modulo' value='" . $modulo . "' />
+							<input type='hidden' id='titolariTipo' name='Titolari' value='" . $titolari[0] . "' />
+							<input type='hidden' id='riserveTipo' name='Riserve' value='" . $riserve[0] . "' />
 							";
 						$t = 0;
 						for ($i = 0; $i < 4; $i++)// loop sui ruoli
@@ -415,9 +413,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 							";
 						?>
 						<input type="hidden" id="file2save" name="file2saveTipo" value="<?php echo $Squadra;?>" />
-						<input type="hidden" id="squadra" name="Squadra" value="<?php echo $Squadra;?>" />
 						<input type="hidden" id="file" name="File" value="<?php echo $File;?>" />
-						<input type="hidden" id="returnFromError" name="returnFromError" value="" />
+						<input type="hidden" id="returnFromErrorTipo" name="returnFromErrorTipo" value="" />
 						<span>password :</span>
 						<input type="password" id="passwordTipo" name="Password" value="" autocomplete="off" />
 						<input class="button" type="button" value="Salva formazione tipo" onclick="saveDataTipo('<?php echo $Squadra;?>');" />
