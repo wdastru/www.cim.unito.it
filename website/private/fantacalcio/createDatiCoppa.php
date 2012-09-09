@@ -1,7 +1,7 @@
 <?php
-MySingleton::writeToLog('creazione di datiCoppa.txt', $relocate_string . "777/logs/createDatiCoppa.php.log");
+//MySingleton::writeToLog('creazione di datiCoppa.txt', $relocate_string . "777/logs/createDatiCoppa.php.log");
 
-$handle = fopen($datiCoppaFile, 'w');
+$handle = fopen($relocate_string . "777/datiCoppa.txt", 'w');
 for ($i=0; $i<12; $i++) {
 	fwrite($handle, 'gruppi' . $i . "/-/-/-/-/\n");
 }

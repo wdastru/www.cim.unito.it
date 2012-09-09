@@ -71,9 +71,7 @@ if (isset($_POST['toCancel']))
 		<h1 class="title">ELENCO OFFERTE</h1>
 		<!-- LISTA FILES -->
 		<p>Offerte presentate:</p>
-		<div class="link archiveButton">
-			<a class="link" href="archivioOfferte.php">Archivio</a>
-		</div>
+		<input class="button" type="submit" onclick="window.location.href='archivioOfferte.php';" value="Archivio">
 		<br />
 		<div id='listaOfferte'>
 			
@@ -116,18 +114,18 @@ if (isset($_POST['toCancel']))
 			if (strstr($filename[$i], '_locked.txt'))
 			{
 				echo "<div id='unlock'>
-							<input id='unlockBtn' type='button' value='Sblocca' 
+							<input id='unlockBtn' class='button' type='button' value='Sblocca' 
 							 	onclick='visualizePasswordBox(\"" . $filename[$i] . "\")'/>
 						  </div>";
 			} else {
 				echo "<div id='view'>
-							<input id='viewBtn' type='button' value='Visualizza' 
+							<input id='viewBtn' class='button' type='button' value='Visualizza' 
 								onclick='getJS(\"offerSender.php?file=" . $filename[$i] . "\");'/>
 						  </div>";
 				echo 	"<div id='archive'>
 								<form action='offerte.php' method='post'>
 									<input type='hidden' name='toCancel' value='" . $filename[$i] . "'/>
-									<input id='archiveBtn' type='submit' value='Archivia'/>
+									<input id='archiveBtn' class='button' type='submit' value='Archivia'/>
 								</form>
 						  	</div>";
 			}

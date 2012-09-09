@@ -88,9 +88,9 @@ fclose($handle);
 
 require("updateListaFormazioni.inc.php");
 
-$where = "Location: ../dragdrop/dragdrop.php?squadra=" . $_SESSION['Squadra'];
-header($where);
-
 $squadraSubmitted=='false';
 $squadraSubmittedTipo=='false';
+
+$where = "Location: ../dragdrop/dragdrop.php?squadra=" . $_SESSION['Squadra'];
+header($where);
 ?>

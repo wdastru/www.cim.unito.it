@@ -57,7 +57,7 @@ else
 	$filename = strtok($parts['basename'], '.'); // sul server la versione di php e' probabilmente vecchia e non esiste filename 
 	$nameTxt = strtok($filename, '-');
 
-	if( !preg_match('/MCCMicroPagamenti/', $filename) )
+	if( !preg_match('/MCCMicro[P|p]agamenti/', $filename) )
 	{
 		unlink($result[0]);
 		header('Location: ../errors/error.php?error=excelError');
