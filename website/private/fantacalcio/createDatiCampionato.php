@@ -1,7 +1,7 @@
 <?php
-MySingleton::writeToLog('creazione di datiCampionato.txt', $relocate_string . "777/logs/createDatiCampionato.php.log");
+//MySingleton::writeToLog('creazione di datiCampionato.txt', $relocate_string . "777/logs/createDatiCampionato.php.log");
 
-$handle = fopen("777/datiCampionato.txt", 'w');
+$handle = fopen($relocate_string . "777/datiCampionato.txt", 'w');
 for ($i=0; $i<4; $i++)
 {
 	for ($j=0; $j<7; $j++)
