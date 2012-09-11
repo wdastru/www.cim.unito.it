@@ -15,12 +15,12 @@ CURRENT_DATE=`date +"%F %a %X"`
 # Updating the download links:
 if [ $PLATFORM = "win32" ]
 then
-  EXE_FILE="KMaps-${PACKAGE_VERSION}-win32.exe"
-  ZIP_FILE="KMaps-${PACKAGE_VERSION}-win32.zip"
+  EXE_FILE="KMaps-${PACKAGE_VERSION}-r${REVISION}-win32.exe"
+  ZIP_FILE="KMaps-${PACKAGE_VERSION}-r${REVISION}-win32.zip"
   sed "1,31s/Windows x32.*/Windows x32 (revision: ${REVISION}, ${CURRENT_DATE}): <a href="${EXE_FILE}">${EXE_FILE}<\/a>, <a href="${ZIP_FILE}">${ZIP_FILE}<\/a>/g" website/aspect/index.html.in > website/aspect/index.html
 elif [ $PLATFORM = "win64" ]
 then
-  ZIP_FILE="KMaps-${PACKAGE_VERSION}-win64.zip"
+  ZIP_FILE="KMaps-${PACKAGE_VERSION}--r${REVISION}win64.zip"
   sed "1,31s/Windows x64.*/Windows x64 (revision: ${REVISION}, $CURRENT_DATE): <a href="${ZIP_FILE}">${ZIP_FILE}<\/a>/g" website/aspect/index.html.in > website/aspect/index.html
 elif [ $PLATFORM = "Linux" ]
 then
