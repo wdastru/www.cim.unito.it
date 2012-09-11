@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <queries>
   <query>
-    <user>Giuseppe D</user>
-    <data>20120906</data>
-    <instrument>300MHz</instrument>
-    <start>1400</start>
-    <end>1900</end>
+    <user>federica</user>
+    <data>20120912</data>
+    <instrument>Rilassometro</instrument>
+    <start>900</start>
+    <end>1100</end>
   </query>
 </queries>
