@@ -24,11 +24,11 @@ then
   sed -i "1,31s/Windows x64.*/Windows x64 (revision: ${REVISION}, $CURRENT_DATE): <a href="${ZIP_FILE}">${ZIP_FILE}<\/a>/g" website/aspect/index.html
 elif [ $PLATFORM = "Linux" ]
 then
-  TGZ_FILE="KMaps-${PACKAGE_VERSION}-Linux.tar.gz"
+  TGZ_FILE="KMaps-${PACKAGE_VERSION}-r${REVISION}-Linux.tar.gz"
   sed -i "1,31s/Linux x64.*/Linux x64 (revision: ${REVISION}, $CURRENT_DATE): <a href="${TGZ_FILE}">${TGZ_FILE}<\/a>/g" website/aspect/index.html
 elif [ $PLATFORM = "MacOSX" ]
 then
-  DMG_FILE="KMaps-${PACKAGE_VERSION}-Darwin.dmg"
+  DMG_FILE="KMaps-${PACKAGE_VERSION}-r${REVISION}-Darwin.dmg"
   sed -i "1,31s/Mac OS X.*/Mac OS X (revision: ${REVISION}, $CURRENT_DATE): <a href="${DMG_FILE}">${DMG_FILE}<\/a>/g" website/aspect/index.html
 fi
 

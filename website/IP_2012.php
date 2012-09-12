@@ -411,32 +411,32 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     -->
                                     <li>
                                         <a
-                                        href="documenti/IP_Probes_Turin_2012/Tumour_IP_Turin_2012_draft.pdf">IP
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Tumour_IP_Turin_2012_draft.pdf">IP
                                         PROBES 2012 schedule (draft)</a>
                                     </li>
                                     <li>
                                         <a
-                                        href="documenti/IP_Probes_Turin_2012/Probes_Imaging_Leaflet_2012.doc">IP
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Probes_Imaging_Leaflet_2012.doc">IP
                                         PROBES 2012 leaflet</a>
                                     </li>
                                     <li>
                                         <a
-                                        href="documenti/IP_Probes_Turin_2012/Registration_Form_IP_Turin_2012.doc">IP
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Registration_Form_IP_Turin_2012.doc">IP
                                         PROBES 2012 registration form</a>
                                     </li>
                                     <li>
                                         <a
-                                        href="documenti/IP_Probes_Turin_2012/Eligibility_Rules_IP_2012.doc">IP
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Eligibility_Rules_IP_2012.doc">IP
                                         PROBES 2012 stipend eligibility rules</a>
                                     </li>
                                     <li>
                                         <a
-                                        href="documenti/IP_Probes_Turin_2012/How_to_reach_the_MBC.doc">How
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/How_to_reach_the_MBC.doc">How
                                         to reach the MBC</a>
                                     </li>
                                     <li>
                                         <a
-                                        href="documenti/IP_Probes_Turin_2012/How_to_reach_student_residences.doc">How
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/How_to_reach_student_residences.doc">How
                                         to reach the residences</a>
                                     </li>
                                 </ul>
