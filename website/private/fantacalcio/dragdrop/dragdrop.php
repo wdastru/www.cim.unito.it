@@ -352,7 +352,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				<!-- DATI FORMAZIONE -->
 				<tr>
 					<td>
-					<form id="saveData" method="post" action="savedata?squadra=<?php echo $Squadra;?>">
+					<form id="saveData" method="post" action="savedata.php?squadra=<?php echo $Squadra;?>">
 						<input type="hidden" name="squadraSubmitted" value="true" />
 						<?php
 						echo "
@@ -389,7 +389,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				<!-- DATI FORMAZIONE TIPO-->
 				<tr>
 					<td>
-					<form id="saveDataTipo" method="post" action="savedata?squadra=<?php echo $Squadra;?>">
+					<form id="saveDataTipo" method="post" action="savedata.php?squadra=<?php echo $Squadra;?>">
 						<input type="hidden" name="squadraSubmittedTipo" value="true" />
 						<?php
 						echo "
