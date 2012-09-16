@@ -25,7 +25,7 @@ if( ! file_exists($relocate_string . '777/gazFiles.inc.php') ) {
 }
 
 require $relocate_string . "777/gazFiles.inc.php";
-require $relocate_string . "squadre.inc.php";
+require $relocate_string . "squadre.inc";
 
 $filenameStats="..//777//statistics.txt";
 require $relocate_string . "statisticsAllPlayerRead.php";

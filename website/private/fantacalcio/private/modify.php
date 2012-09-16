@@ -1,7 +1,7 @@
 <?php
 $relocate_string = "../";
 require("../777/setupSquadre.inc.php");
-require("../squadre.inc.php");
+require("../squadre.inc");
 //include "../dBug.php";
 
 session_start();

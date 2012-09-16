@@ -59,7 +59,7 @@ if (isset($_POST['File'])) {
 	$File = $lastFormazBasename;
 }
 
-include ($relocate_string . "squadre.inc.php");
+include ($relocate_string . "squadre.inc");
 include ($relocate_string . "moduli.inc.php");
 
 $ruolo[0] = 3;

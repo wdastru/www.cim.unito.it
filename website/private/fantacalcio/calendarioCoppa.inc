@@ -1,5 +1,5 @@
 <?php
-require_once('squadre.inc.php');
+require_once('squadre.inc');
 //require_once 'dBug.php';
 /*
  * superCoppa :		dati					(5)

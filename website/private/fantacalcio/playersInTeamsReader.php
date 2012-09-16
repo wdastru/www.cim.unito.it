@@ -1,6 +1,6 @@
 <?php
 /* Creazione liste giocatori per ogni squadra */
-require_once('squadre.inc.php'); // definito shortName[]
+require_once('squadre.inc'); // definito shortName[]
 
 for ($j=0; $j<8; $j++)
 {

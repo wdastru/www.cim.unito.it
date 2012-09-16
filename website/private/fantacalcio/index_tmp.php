@@ -1,8 +1,8 @@
 <?php
 $relocate_string = "./";
 
-require_once $relocate_string . 'squadre.inc.php';
-require_once $relocate_string . 'calendario.inc.php';
+require_once $relocate_string . 'squadre.inc';
+require_once $relocate_string . 'calendario.inc';
 require_once $relocate_string . 'classifica.inc.php';
 require_once $relocate_string . 'updateGazFiles.inc.php';
 require_once $relocate_string . 'include/updateFantaCalcGuiListOfDownloads.inc.php';
