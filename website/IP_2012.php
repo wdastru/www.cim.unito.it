@@ -82,7 +82,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <ul>
                                         <li>
                                             Master students
-                                        </li>
+                                        </li>                                        
                                         <li>
                                             PhD students (priority will be given to first year's students)
                                         </li>
@@ -210,109 +210,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </table>
                                 <br />
                                 <br />
-
-                                <!--
-                                <p style="font-weight: bold; font-size: 14px">
-                                Schedule
-                                </p>
-                                <br />
-                                <table>
-                                <tr style="font-weight: bold">
-                                <td style="width: 5%">Nr.</td>
-                                <td style="width: 5%">Day</td>
-                                <td style="width: 90%">The programme of lectures and other
-                                activities</td>
-                                </tr>
-                                <tr>
-                                <td>1</td>
-                                <td>-</td>
-                                <td>Arrival of the foreign students - welcome</td>
-                                </tr>
-                                <tr>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>Overview of Imaging Probes for MRI / PET-SPECT / OI</td>
-                                </tr>
-                                <tr>
-                                <td>3</td>
-                                <td>2</td>
-                                <td>Introduction to MRI mechanism of action and principles /
-                                Gd- and Mn-based contrast agent: theory and properties / MRI
-                                imaging experiments</td>
-                                </tr>
-                                <tr>
-                                <td>4</td>
-                                <td>3</td>
-                                <td>Responsive contrast agents and iron-oxide particles for
-                                MRI applications/ relaxometric characterization of contrast
-                                agents</td>
-                                </tr>
-                                <tr>
-                                <td>5</td>
-                                <td>4</td>
-                                <td>Introduction to CEST and hyperpolarized contrast agents:
-                                properties and applications / preparation and in vivo
-                                evaluation</td>
-                                </tr>
-                                <tr>
-                                <td>6</td>
-                                <td>5</td>
-                                <td>Nanoprobes: definition and exploitation for multi-modality
-                                imaging purposes / preparation, in vitro and in vivo
-                                characterization and detection</td>
-                                </tr>
-                                <tr>
-                                <td>7</td>
-                                <td>-</td>
-                                <td>Visit to Turin main historical buildings</td>
-                                </tr>
-                                <tr>
-                                <td>8</td>
-                                <td>-</td>
-                                <td>Free activities / Taste of italian gastronomy</td>
-                                </tr>
-                                <tr>
-                                <td>9</td>
-                                <td>6</td>
-                                <td>Basic principles of probe design and synthesis /
-                                properties required by MRI contrast agents / introduction to
-                                cellular labelling</td>
-                                </tr>
-                                <tr>
-                                <td>10</td>
-                                <td>7</td>
-                                <td>Strategies for the development of imaging probes / basic
-                                principles of ligand and peptide synthesis / cellular
-                                labelling experiment</td>
-                                </tr>
-                                <tr>
-                                <td>11</td>
-                                <td>8</td>
-                                <td>Procedures for ligand syntesis and purification / peptide
-                                synthesis practical session</td>
-                                </tr>
-                                <tr>
-                                <td>12</td>
-                                <td>9</td>
-                                <td>Introduction to peptide conjugation and to crommatography
-                                / imaging probe synthesis practical session</td>
-                                </tr>
-                                <tr>
-                                <td>13</td>
-                                <td>10</td>
-                                <td>Ultrasounds for probe preparation procedure and HPLC
-                                practical session / final remarks devoted to the elucidation
-                                of the most important issues of the IP and final students
-                                evaluation</td>
-                                </tr>
-                                <tr>
-                                <td>14</td>
-                                <td>-</td>
-                                <td>Departure</td>
-                                </tr>
-                                </table>
-                                <br />
-                                -->
                                 <p style="font-weight: bold; font-size: 14px">
                                     Location
                                 </p>
@@ -441,353 +338,336 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </li>
                                 </ul>
                                 <br />
-                                <!--
                                 <p style="font-weight: bold; font-size: 14px">
-                                Lecture notes
+                                Lecture notes and Program
                                 </p>
                                 <table id='lecture_notes'>
                                 <tr>
-                                <th>Mon, 19<sup>th</sup></th>
-                                <th>Tue, 20<sup>th</sup></th>
-                                <th>Wed, 21<sup>th</sup></th>
-                                <th>Thu, 22<sup>th</sup></th>
-                                <th>Fri, 23<sup>th</sup></th>
+                                <th></th>
+                                <th>Mon, 17<sup>th</sup></th>
+                                <th>Tue, 18<sup>th</sup></th>
+                                <th>Wed, 19<sup>th</sup></th>
+                                <th>Thu, 20<sup>th</sup></th>
+                                <th>Fri, 21<sup>th</sup></th>
                                 </tr>
                                 <tr>
+                                <td><p class='hour'>9h30-11h00</p></td>
                                 <td>
                                 <p class='lecture_title'>
                                 Wellcome and IP introduction
                                 </p>
                                 <p class='lecture_author'>
-                                (Silvio Aime)
+                                (Silvio Aime / Dario Longo)
                                 </p></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Walter Dastru' IP 2011 - handouts.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Walter Dastru' IP 2011 - handouts.pdf">-->
                                 <p class='lecture_title'>
-                                NMR and MRI introduction
+                                Preparation of radiolabelled probes
                                 </p>
                                 <p class='lecture_author'>
-                                (Walter Dastr&uacute;)
+                                (Frederic Doll&eacute; - Saclay/CEA)
                                 </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Hyperpolarized.zip">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Hyperpolarized.zip">-->
                                 <p class='lecture_title'>
-                                Hyper-polarized contrast agent
+                                Radiopeptides for imaging and therapies
                                 </p>
                                 <p class='lecture_author'>
-                                (A. Viale / F. Reineri)
+                                (Helmut Maecke - Freiburg/Klinik Univ)
                                 </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Robert Muller.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Robert Muller.pdf">-->
                                 <p class='lecture_title'>
                                 Iron oxide particles
                                 </p>
                                 <p class='lecture_author'>
-                                (Robert Muller)
+                                (Robert Muller - Mons/Univ)
                                 </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Strategies for cellular labeling - Geninatti.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Strategies for cellular labeling - Geninatti.pdf">-->
                                 <p class='lecture_title'>
-                                Strategies for cellular labeling
+                                Combined PET/MRI: where we stand
                                 </p>
                                 <p class='lecture_author'>
-                                (Simonetta Geninatti)
+                                (Markus Schwaiger - Munich/TUM)
                                 </p> </a></td>
                                 </tr>
                                 <tr>
-                                <td class='available'><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Introduction to MolecularImaging.pdf">
+                                <td><p class='hour'>11h30-13h00</p></td>
+                                <td><!--class='available'><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Introduction to MolecularImaging.pdf">-->
                                 <p class='lecture_title'>
-                                Imaging Probe: an overview
+                                Introduction to molecular imaging
                                 </p>
                                 <p class='lecture_author'>
-                                (Silvio Aime)
+                                (Silvio Aime - Torino/Univ)
                                 </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/M.Botta_2011.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/M.Botta_2011.pdf">-->
                                 <p class='lecture_title'>
-                                Gd(III) complexes: mechanism of
-                                action and relaxometric properties
+                                Imaging probe designs and synthesis
                                 </p>
                                 <p class='lecture_author'>
-                                (Mauro Botta)
+                                (Alessandro Barge - Torino/Univ)
                                 </p> </a></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Hyper-polarized experiment
+                                Platforms for drug delivery
                                 </p>
                                 <p class='lecture_author'>
-                                (F. Reineri / W. Dastr&uacute; / A.
-                                Viale)
+                                (Alessandro Maiocchi - Bracco Imaging SpA)
                                 </p></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/CEST agents.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/CEST agents.pdf">-->
                                 <p class='lecture_title'>
-                                CEST agents: basic principles,
-                                mechanism of action and classification
-                                </p>
+                                Gd-complexes: from low MW to nanosized systems</p>
                                 <p class='lecture_author'>
-                                (Enzo Terreno)
+                                (Mauro Botta - Alessandria/Univ)
                                 </p> </a></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Nano-particles for Multi-Modality
-                                Imaging
+                                CEST agents
                                 </p>
                                 <p class='lecture_author'>
-                                (Klaas Nicolaij)
+                                (Daniela Delli Castelli - Torino/Univ)
                                 </p></td>
                                 </tr>
                                 <tr>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Optical_Imaging_Probes_Sep_2011.pdf">
+                                <td><p class='hour'>14h00-15h30</p></td>
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Optical_Imaging_Probes_Sep_2011.pdf">-->
                                 <p class='lecture_title'>
-                                Optical imaging probes
+                                (Immune) Hallmarks of cancer
                                 </p>
                                 <p class='lecture_author'>
-                                (Giannis Zacharakis)
+                                (Federica Cavallo - Torino/Univ)
                                 </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/MEMRI-Annemie_VanderLinden.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/MEMRI-Annemie_VanderLinden.pdf">-->
                                 <p class='lecture_title'>
-                                Mn-based Contrast Agents
+                                Peptide synthesis and bioconjugation routes
                                 </p>
                                 <p class='lecture_author'>
-                                (Annemie Van der Linden)
+                                (Lorenzo Tei - Alessandria/Univ)
                                 </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Eliana_Gianolio.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Eliana_Gianolio.pdf">-->
                                 <p class='lecture_title'>
-                                Gd(III) complexes: basic
-                                relaxometric characterization
+                                MRI/NMR: introduction
                                 </p>
                                 <p class='lecture_author'>
-                                (Eliana Gianolio)
+                                (Walter Dastr&uacute; Torino/Univ)
                                 </p> </a></td>
-                                <td class='available'><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Responsive_probes_Digilio.pdf">
+                                <td><!--class='available'><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Responsive_probes_Digilio.pdf">-->
                                 <p class='lecture_title'>
-                                Responsive MRI Contrast Agents
+                                Gd(III) complexes: basic relaxometric characterization
                                 </p>
                                 <p class='lecture_author'>
-                                (Giuseppe Digilio)
+                                (Eliana Gianolio - Torino/Univ)
                                 </p> </a></td>
                                 <td>
                                 <p class='lecture_title'>
-                                NanoProbe practical session I
+                                Responsive contrast agents
                                 </p>
                                 <p class='lecture_author'>
-                                (D. Delli Castelli)
+                                (Giuseppe Digilio - Alessandria/Univ)
                                 </p></td>
                                 </tr>
                                 <tr>
-                                <td class='available'><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/EMMI-2011-dolle_summary.pdf">
+                                <td><p class='hour'>16h00-17h30</p></td>
+                                <td><!--class='available'><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/EMMI-2011-dolle_summary.pdf">-->
                                 <p class='lecture_title'>
-                                PET and SPECT radiochemistry :
-                                Selected examples of Labelling of Macromolecules
+                                Medical image analysis
                                 </p>
                                 <p class='lecture_author'>
-                                (Frederic Doll&eacute;
+                                (Alberto Bert - im3D SpA) 
                                 </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Walter Dastru' IP 2011 - handouts.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Walter Dastru' IP 2011 - handouts.pdf">-->
                                 <p class='lecture_title'>
-                                T<sub>1</sub> / T<sub>2</sub> measure experiments
+                                Overview of peptide synthesizer and HPLC/LC-MS purification systems
                                 </p>
                                 <p class='lecture_author'>
-                                (W. Dastr&uacute;
-                                </p> </a></td>
-                                <td>
-                                <p class='lecture_title'>
-                                Relaxometric characterization of
-                                Gd(III) complexes and NMRD/17O analysis
-                                </p>
-                                <p class='lecture_author'>
-                                (E. Gianolio / S. Baroni / F. Arena
-                                / D. Longo)
-                                </p></td>
-                                <td>
-                                <p class='lecture_title'>
-                                NanoProbes
-                                </p>
-                                <p class='lecture_author'>
-                                (Enzo Terreno)
-                                </p></td>
-                                <td>
-                                <p class='lecture_title'>
-                                NanoProbe practical session II
-                                </p>
-                                <p class='lecture_author'>
-                                (D. Delli Castelli)
-                                </p></td>
-                                </tr>
-                                <tr>
-                                <th>Mon, 26<sup>th</sup></th>
-                                <th>Tue, 27<sup>th</sup></th>
-                                <th>Wed, 28<sup>th</sup></th>
-                                <th>Thu, 29<sup>th</sup></th>
-                                <th>Fri, 30<sup>th</sup></th>
-                                </tr>
-                                <tr>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Ln(III) complexes_Geraldes.pdf">
-                                <p class='lecture_title'>
-                                Physico-chemical properties of
-                                Ln(III) complexes
-                                </p>
-                                <p class='lecture_author'>
-                                (Carlos Geraldes)
-                                </p> </a></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/Basic principles and procedures of SPPS 2011.pdf">
-                                <p class='lecture_title'>
-                                Basic principles and procedures of
-                                solid phase peptide synthesis
-                                </p>
-                                <p class='lecture_author'>
-                                (Lorenzo Tei)
+                                (Lorenzo Tei / Alessandro Barge)
                                 </p> </a></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Computational design of Imaging
-                                Probes
-                                </p>
-                                <p class='lecture_author'>
-                                (Dario Longo)
-                                </p></td>
-                                <td>
-                                <p class='lecture_title'>
-                                Preparation of Imaging Probes
-                                underbesid power utrasounds/microvawes irradation
-                                </p>
-                                <p class='lecture_author'>
-                                (Giancarlo Cravotto)
-                                </p></td>
-                                <td>
-                                <p class='lecture_title'>
-                                Analytical HPLC
+                                Design of imaging probes
                                 </p>
                                 <p class='lecture_author'>
                                 (Lorenzo Tei / Alessandro Barge)
                                 </p></td>
-                                </tr>
-                                <tr>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/TothIP2011.pdf"></a>
+                                <td>
                                 <p class='lecture_title'>
-                                Gd(III) complexes: the importance of
-                                kinetic and thermodynamic stability
+                                Relaxometric characterization of Gd(III) complexes and NMRD analysis
                                 </p>
                                 <p class='lecture_author'>
-                                (Imre Toth)
+                                (Eliana Gianolio / Simona Baroni / Francesca Arena)
+                                </p></td>
+                                <td>
+                                <p class='lecture_title'>
+                                CEST experiment
+                                </p>
+                                <p class='lecture_author'>
+                                (Daniela Delli Castelli / Giuseppe Ferrauto) 
+                                </p></td>
+                                </tr>
+                                <tr>
+                                <th></th>
+                                <th>Mon, 24<sup>th</sup></th>
+                                <th>Tue, 25<sup>th</sup></th>
+                                <th>Wed, 26<sup>th</sup></th>
+                                <th>Thu, 27<sup>th</sup></th>
+                                <th>Fri, 28<sup>th</sup></th>
+                                </tr>
+                                <tr>
+                                <td><p class='hour'>9h00-10h30</p></td>
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Ln(III) complexes_Geraldes.pdf">-->
+                                <p class='lecture_title'>
+                                DCE-MRI: principles and techniques
+                                </p>
+                                <p class='lecture_author'>
+                                (Dario Longo - Torino/Univ)
+                                </p> </a></td>
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/Basic principles and procedures of SPPS 2011.pdf">-->
+                                <p class='lecture_title'>
+                                Design MRI targeting agents
+                                </p>
+                                <p class='lecture_author'>
+                                (Simonetta Geninatti - Torino/Univ)
+                                </p> </a></td>
+                                <td>
+                                <p class='lecture_title'>
+                                Visit to Bracco Imaging facilities
+                                </p>
+                                <p class='lecture_author'>
+                                </p></td>
+                                <td>
+                                <p class='lecture_title'>
+                                MRI: what is most in need in the clinics
+                                </p>
+                                <p class='lecture_author'>
+                                (Luis Marti Bonmati - Valencia/Univ)
+                                </p></td>
+                                <td>
+                                <p class='lecture_title'>
+                                The study of molecular processes in living cells by fluorescence microscopy
+                                </p>
+                                <p class='lecture_author'>
+                                (Ferdinando di Cunto - Torino/Univ)
+                                </p></td>
+                                </tr>
+                                <tr>
+                                <td><p class='hour'>11h30-13h00</p></td>
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/TothIP2011.pdf"></a>-->
+                                <p class='lecture_title'>
+                                DCE-MRI at 1T
+                                </p>
+                                <p class='lecture_author'>
+                                (Dario Longo - Totino/Univ)
                                 </p> </a> </td>
                                 <td>
                                 <p class='lecture_title'>
-                                Developing an imaging probe
+                                Cell Labelling
                                 </p>
                                 <p class='lecture_author'>
-                                (Lorenzo Tei / Alessandro Barge)
+                                (Simonetta Geninatti - Torino/Univ)
                                 </p></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Ligand synthesis part II
+                                Visit to Advanced Accelerator Applications facilities
                                 </p>
                                 <p class='lecture_author'>
-                                (Luciano Lattuada)
                                 </p></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Peptide modification and conjugation
-                                to probes
+                                (Immuno) Imaging using nano-bodies
                                 </p>
                                 <p class='lecture_author'>
-                                (Lorenzo Tei)
+                                (Tony Lahoutte - Brussels/Univ)
                                 </p></td>
                                 <td>
                                 <p class='lecture_title'>
-                                HPLC separation: from analytical to
-                                preparative method I
+                                Imaging guided therapy
                                 </p>
                                 <p class='lecture_author'>
-                                (Lorenzo Tei / Alessandro Barge)
+                                (Enzo Terreno - Torino/Univ)
                                 </p></td>
                                 </tr>
                                 <tr>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/imag_probe_def_e_des.pdf">
+                                <td><p class='hour'>14h00-15h30</p></td>
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/imag_probe_def_e_des.pdf">-->
                                 <p class='lecture_title'>
-                                Design of Imaging Probes
+                                Hyperpolarized MRI: matabolic imaging
                                 </p>
                                 <p class='lecture_author'>
-                                (Alessandro Barge)
+                                (Alessandra Viale - Torino/Univ)
                                 </p> </a></td>
                                 <td>
                                 <p class='lecture_title'>
-                                MRI assessment of the cell labeling
-                                experiment
+                                targeting probes for PET/SPECT applications
                                 </p>
                                 <p class='lecture_author'>
-                                (Simonetta Geninatti / Walter
-                                Dastr&uacute;
+                                (Marion De Jong - Rotterdam/Erasmus MC)
                                 </p></td>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/basics of chromatography.pdf">
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/basics of chromatography.pdf">-->
                                 <p class='lecture_title'>
-                                Basic principles of chromatographic
-                                separation techniques
+                                US imaging: basic principles and ecographic agents
                                 </p>
                                 <p class='lecture_author'>
-                                (Alessandro Barge)
+                                (Filippo Molinari - Torino/Politecnico / Enzo Terreno - Torino/Univ)
                                 </p> </a></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Synthesis of metal-based imaging
-                                probe
+                                Targeted therapies
                                 </p>
                                 <p class='lecture_author'>
-                                (Lorenzo Tei / Alessandro Barge)
+                                (Federica Cavallo - Torino/Univ)
                                 </p></td>
                                 <td>
                                 <p class='lecture_title'>
-                                HPLC separation: from analytical to
-                                preparative method II
+                                Hyperpolarized experiment
                                 </p>
                                 <p class='lecture_author'>
-                                (Lorenzo Tei / Alessandro Barge)
+                                (Francesca Reineri - Torino/Univ)
                                 </p></td>
                                 </tr>
                                 <tr>
-                                <td class="available"><a
-                                href="documenti/IP_Probes_Turin_2011/lectures/ChemistryofConjugation-2011.pdf">
+                                <td><p class='hour'>16h00-17h30</p></td>
+                                <td><!--class="available"><a
+                                href="documenti/IP_Probes_Turin_2011/lectures/ChemistryofConjugation-2011.pdf">-->
                                 <p class='lecture_title'>
-                                Ligand synthesis part I
+                                Imaging-guided therapy: the advent of theragnostic agents
                                 </p>
                                 <p class='lecture_author'>
-                                (Giovanbattista Giovenzana)
+                                (Enzo Terreno - Torino/Univ)
                                 </p> </a></td>
                                 <td>
                                 <p class='lecture_title'>
-                                MRI assessment of the cell labeling
-                                experiment
+                                Optical imaging
                                 </p>
                                 <p class='lecture_author'>
-                                (Simonetta Geninatti / Walter
-                                Dastr&uacute;
+                                (Giannis Zacharakis - Crete/FORTH)
                                 </p></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Peptide Synthesis
+                                Visit to CEIP
                                 </p>
                                 <p class='lecture_author'>
-                                (Lorenzo Tei / Alessandro Barge)
                                 </p></td>
                                 <td>
                                 <p class='lecture_title'>
-                                Peptide Cleavage
+                                FACS and Ab quantification
                                 </p>
                                 <p class='lecture_author'>
-                                (Lorenzo Tei / Alessandro Barge)
+                                (Elena Quaglino / Laura Conti)
                                 </p></td>
                                 <td>
                                 <p class='lecture_title'>
@@ -796,7 +676,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p><p class='lecture_author'></p></td>
                                 </tr>
                                 </table>
-                                -->
 
                             </div>
                             <!-- InstanceEndEditable -->

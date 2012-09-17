@@ -246,6 +246,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 #lecture_notes .lecture_title {font-weight: bold; text-align: center; padding: 0;}
 #lecture_notes .lecture_author {font-size: 80%; text-align: center; padding: 0;}
 #lecture_notes td.available { background-color: #CCFFCC}
+#lecture_notes p.hour { text-align: center;} 
 /* End of PROBES2011 */
 
 /* HYPERPOLARIZATION */
