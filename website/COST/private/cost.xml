@@ -341,6 +341,14 @@
             <resources></resources>
         </person>
     </section>
+    <section id='Turkey'>
+        <person>
+            <role>MC Member</role>
+            <name>Mustafa Selman YAVUZ</name>
+            <address></address>
+            <mail>selmanyavuz@selcuk.edu.tr</mail>
+        </person>
+    </section>
     <section id='United Kingdom'>
         <person>
             <role>MC Member</role>
