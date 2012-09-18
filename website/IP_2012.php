@@ -450,8 +450,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Lorenzo Tei - Alessandria/Univ)
                                 </p> </a></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/Eliana_Gianolio.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/NMR-MRI_introduction.pdf">
                                 <p class='lecture_title'>
                                 MRI/NMR: introduction
                                 </p>
