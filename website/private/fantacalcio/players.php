@@ -3,7 +3,7 @@ session_start();
 
 $relocate_string = "./";
 
-require('squadre.inc.php');
+require('squadre.inc');
 require_once $relocate_string . 'updateGazFiles.inc.php';
 require('777/gazFiles.inc.php');
 

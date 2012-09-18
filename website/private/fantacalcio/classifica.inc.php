@@ -1,5 +1,5 @@
 <?php
-require_once('squadre.inc.php');
+require_once('squadre.inc');
 /*
 	array 8x20
 	righe 	: 8 squadre

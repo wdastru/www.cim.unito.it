@@ -1,5 +1,5 @@
 <?php 
-require('squadre.inc.php');
+require('squadre.inc');
 require('777/gazFiles.inc.php');
 
 $filenameStats="777//statistics.txt";

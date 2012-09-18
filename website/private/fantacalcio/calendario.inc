@@ -1,5 +1,5 @@
 <?php
-require_once('squadre.inc.php');
+require_once('squadre.inc');
 /*	
  * super [5] :	dati					(4)
  * 					[0] --> squadre

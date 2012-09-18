@@ -3,7 +3,7 @@ session_start();
 
 $relocate_string = "../";
 require($relocate_string . "777/setupSquadre.inc.php");
-include($relocate_string . "squadre.inc.php");
+include($relocate_string . "squadre.inc");
 
 if (isset($_GET['Squadra'])) {
 	$Squadra = $_SESSION['Squadra'] = $_GET['Squadra'];
