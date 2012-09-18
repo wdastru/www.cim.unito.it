@@ -37,7 +37,13 @@
             </table>
           </center></p>
           <br/>
-          <input type="button" value="Back" onclick="history.back();" />
+          
+          <?php if (isset($_GET['returnFromError'])) {
+          		echo "<input class='button' type='button' value='Back' onclick='window.location.href=\"" . $_GET['returnFromError'] . "\"' />";
+          	} else {
+           		echo "<input class='button' type='button' value='Back' onclick='history.back();' />";
+			}
+		  ?>
 		
         <!-- InstanceEndEditable --></div>
 

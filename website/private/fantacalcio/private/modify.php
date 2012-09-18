@@ -6,8 +6,8 @@ require("../squadre.inc.php");
 
 session_start();
 
-if (isset($_POST['Squadra']))
-	$Squadra = $_SESSION['Squadra']=$_POST['Squadra'];
+if (isset($_GET['squadra']))
+	$Squadra = $_SESSION['Squadra']=$_GET['squadra'];
 if (isset($_POST['Modulo']))
 	$Modulo = $_SESSION['Modulo']=$_POST['Modulo'];
 if (isset($_POST['Telefono']))
@@ -49,7 +49,7 @@ require("../777/gazFiles.inc.php");
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <?php
-	$filename="..//777//filesGazzetta//" . $fileGaz[count($fileGaz)-1];
+    $filename=$relocate_string . "777//filesGazzetta//" . $fileGaz[count($fileGaz)-1];
 	if(file_exists($filename))
 	{
 		$handle=fopen($filename, 'r');
@@ -70,7 +70,7 @@ require("../777/gazFiles.inc.php");
 	else
 		exit ("<p>" . $filename . " non esiste!</p><p>Dillo al tuo amministratore del sito!!</p>");
 	
-	$filename="..//777//formazioni//" . $Squadra . ".txt";
+	$filename=$relocate_string . "777//formazioni//" . $Squadra . ".txt";
 	if(file_exists($filename)) // il file della squadra esiste quindi legge quello
 	{
 		$handle=fopen($filename, 'r');
@@ -78,7 +78,7 @@ require("../777/gazFiles.inc.php");
 		if (!isset($modulo[0]))
 			array_push($modulo, trim(fgets($handle)));
 		else 
-			$trash=fgets($handle); // se il modulo è settato, devo lo stesso leggere la prima riga (il modulo appunto)
+			$trash=fgets($handle); // se il modulo ï¿½ settato, devo lo stesso leggere la prima riga (il modulo appunto)
 
 		array_push($modulo, 1);
 		array_push($modulo, substr($modulo[0], 0, 1));
@@ -98,9 +98,7 @@ require("../777/gazFiles.inc.php");
 		$telefono = trim(fgets($handle));
 		
 		fclose($handle);
-	}
-	else if (isset($Modulo)) // il file squadra non esiste, ma è già stato scelto un modulo
-	{
+	} else if (isset($Modulo)) { // il file squadra non esiste, ma e' gia' stato scelto un modulo
 		$modulo[1] = 1;
 		$modulo[2] = substr($modulo[0], 0, 1);
 		$modulo[3] = substr($modulo[0], 4, 1);
@@ -111,9 +109,7 @@ require("../777/gazFiles.inc.php");
 			for ($i=0;$i<$ruolo[$j][0]; $i++)
 				$giocatore[$j][$i] = ""; // nome
 		}
-	}
-	else // il file squadra non esiste ed è la prima volta che si accede alla pagina (4 - 4 - 2 di default)
-	{
+	} else { // il file squadra non esiste ed e' la prima volta che si accede alla pagina (4 - 4 - 2 di default)
 		$modulo[0] = "4 - 4 - 2";
 		$modulo[1] = 1;
 		$modulo[2] = substr($modulo[0], 0, 1);
@@ -127,15 +123,15 @@ require("../777/gazFiles.inc.php");
 		}
 	}
 	
-	echo "<h1 class=\"title\">" . $longName[$Squadra] . "</h1>";
+	echo "<h1 class='title'>" . $longName[$Squadra] . "</h1><br />";
 	
 	echo "
-	<div id=\"wrapper-moduli\">
-	<form action=\"modify.php\" method=\"post\" target=\"_self\">
+	<div id='wrapper-moduli'>
+	<form action='modify.php?squadra=$Squadra' method='post' target='_self'>
 	<fieldset class='noBorder'>";
 	$checked="";
 	echo "
-	<h2 class=\"modify\">MODULO</h2>
+	<h2 class='modify'>MODULO</h2>
 	<table id='moduli'>
 	<tr>";
 	for ($i=0; $i<7; $i++)
@@ -144,11 +140,11 @@ require("../777/gazFiles.inc.php");
 		if ($moduli[$i] == $modulo[0])
 		{
 			$checked="checked";
-			echo "	<input type=\"radio\" name=\"Modulo\" value=\"" . $moduli[$i] . "\" checked=\"" . $checked . "\"/>";
+			echo "	<input type='radio' name='Modulo' value='" . $moduli[$i] . "' checked='" . $checked . "'/>";
 			$checked="";
 		}
 		else
-		{	echo "	<input type=\"radio\" name=\"Modulo\" value=\"" . $moduli[$i] . "\"/>&nbsp;";	}
+		{	echo "	<input type='radio' name='Modulo' value='" . $moduli[$i] . "'/>&nbsp;";	}
 		echo "</td>";
 	}
 	echo "
@@ -161,11 +157,10 @@ require("../777/gazFiles.inc.php");
 	echo "
 	</tr>
 	</table>
-	<input type=\"hidden\" name=\"Squadra\" value=\"" . $Squadra . "\" />
-	<input type=\"hidden\" name=\"Password\" value=\"" . $Password . "\" />
+	<input type='hidden' name='Password' value='" . $Password . "' />
 	<br/>
 	<br/>
-	<input type=\"submit\" value=\"Invia\"/>
+	<input class='button' type='submit' value='Invia'/>
 	</fieldset>
 	</form>
 	</div>
@@ -173,20 +168,20 @@ require("../777/gazFiles.inc.php");
 	<br/>
 	<br/>
 	
-	<form action=\"../squadre/squadra.php?squadra=" . $Squadra . "\" method=\"post\" target=\"_self\">";
+	<form action='../squadre/squadra.php?squadra=" . $Squadra . "' method='post' target='_self'>";
 
 	$t=0;
 	
 	echo "
-	<div id=\"wrapper-ruoli\">
-	<h2 class=\"modify\">GESTIONE ROSA</h2>
-	<div>Giocatore non presente nelle liste della Gazzetta : <input id='txtInput' type='text' onkeyup=\"AddListItem(this)\"/></div>";
+	<div id='wrapper-ruoli'>
+	<h2 class='modify'>GESTIONE ROSA</h2>
+	<div>Giocatore non presente nelle liste della Gazzetta : <input id='txtInput' type='text' onkeyup='AddListItem(this)'/></div>";
 	
 	for ($i=0; $i<4; $i++) // loop sui ruoli
 	{
 		echo "
-		<div id=\"ruolo" . $i . "\">
-		<h2 class=\"modify\">" . $ruolo[$i][2] . "</h2>";
+		<div id='ruolo" . $i . "'>
+		<h2 class='modify'>" . $ruolo[$i][2] . "</h2>";
 		for ($j=0; $j<$ruolo[$i][0]; $j++) // loop sui giocatori del ruolo
 		{
 			echo "
@@ -199,16 +194,16 @@ require("../777/gazFiles.inc.php");
 				{
 					if ( $allPlayers[$k][0] == $giocatore[$i][$j] ) // se il giocatore coincide con quello trovato nel file
 					{
-						echo "<option value=\"" . $allPlayers[$k][0] . "\" selected=\"selected\">" . $allPlayers[$k][0] . "</option> ";
+						echo "<option value='" . $allPlayers[$k][0] . "' selected='selected'>" . $allPlayers[$k][0] . "</option> ";
 						$found = true;
 					}
 					else
-						echo "<option value=\"" . $allPlayers[$k][0] . "\">" . $allPlayers[$k][0] . "</option> ";
+						echo "<option value='" . $allPlayers[$k][0] . "'>" . $allPlayers[$k][0] . "</option> ";
 				}
 				
 			}
 			if (!$found)
-				echo "<option value=\"" . $giocatore[$i][$j] . "\" selected=\"selected\">" . $giocatore[$i][$j] . "</option> ";
+				echo "<option value='" . $giocatore[$i][$j] . "' selected='selected'>" . $giocatore[$i][$j] . "</option> ";
 			echo "</select>
 			&nbsp";
 			
@@ -217,22 +212,22 @@ require("../777/gazFiles.inc.php");
 			if($j < $modulo[$i+1])
 			{
 				echo"
-				<span class=\"titolare\">titolare</span></p>";
+				<span class='titolare'>titolare</span></p>";
 			}
 			else if( $i != 0 && $j >= $modulo[$i+1] && $j < $modulo[$i+1]+2 )
 			{
 				echo"
-				<span class=\"riserva\">riserva</span></p>";
+				<span class='riserva'>riserva</span></p>";
 			}
 			else if( $i == 0 && $j >= $modulo[$i+1] && $j < $modulo[$i+1]+1 )
 			{
 				echo"
-				<span class=\"riserva\">riserva</span></p>";
+				<span class='riserva'>riserva</span></p>";
 			}
 			else
 			{
 				echo"
-				<span class=\"tribuna\">tribuna</span></p>";
+				<span class='tribuna'>tribuna</span></p>";
 			}
 		}
 		echo "</div>";
@@ -244,22 +239,21 @@ require("../777/gazFiles.inc.php");
 	
 	<table id='gestRosaSend'>
 		<tr>
-			<td class=\"right\">capitale :</td><td><input type=\"text\" name=\"Capitale\" value=\"" . $capitale . "\"/></td>
+			<td class='right'>capitale :</td><td><input type='text' name='Capitale' value='" . $capitale . "'/></td>
 		</tr>
 		<tr>
-			<td class=\"right\">telefono :</td><td><input type=\"text\" name=\"Telefono\" value=\"" . $telefono . "\"/></td>
+			<td class='right'>telefono :</td><td><input type='text' name='Telefono' value='" . $telefono . "'/></td>
 		</tr>
 		<tr>
-			<td class=\"right\">password :</td><td><input type=\"password\" name=\"Password\" value=\"\"  autocomplete=\"off\"/></td>
+			<td class='right'>password :</td><td><input type='password' name='Password' value=''  autocomplete='off'/></td>
 		</tr>
 	</table>
 	<br/>
 	<br/>
-	<input type=\"hidden\" name=\"Modulo\" value=\"" . $modulo[0] . "\" />
-	<input type=\"hidden\" name=\"changeTeam\" value=\"true\" />
-	<input type=\"hidden\" name=\"Squadra\" value=\"" . $Squadra . "\" />
-	<input type=\"hidden\" name=\"fromModifyPhp\" value=\"1\" />
-	<input type=\"submit\" value=\"Invia\"/>
+	<input type='hidden' name='Modulo' value='" . $modulo[0] . "' />
+	<input type='hidden' name='changeTeam' value='true' />
+	<input type='hidden' name='fromModifyPhp' value='1' />
+	<input class='button' type='submit' value='Invia'/>
 	</div>
 	</form>
 		

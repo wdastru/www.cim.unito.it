@@ -6,3 +6,4 @@ FantaCalcGui_v2.5.14_Setup.exe
 FantaCalcGui_v3.0.0_Setup.exe
 FantaCalcGui_v3.1.0_Setup.exe
 FantaCalcGui_v3.2.0_Setup.exe
+FantaCalcGui_v3.2.1_Setup.exe

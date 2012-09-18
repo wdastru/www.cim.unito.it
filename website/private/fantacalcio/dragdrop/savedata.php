@@ -4,10 +4,15 @@ $relocate_string = "../";
 
 require $relocate_string . '777/setupSquadre.inc.php';
 
-if (md5($_POST['Password']) != $ADMIN[$_POST['Squadra']] )
+if (md5($_POST['Password']) != $ADMIN[$_GET['squadra']] )
 {
-	header('Location: ../errors/error.php?error=wrongPass');
-	exit(); 
+	if (isset($_POST['returnFromError'])) {
+		header('Location: ../errors/error.php?error=wrongPass&returnFromError=' . $_POST['returnFromError']);
+		exit(); 
+	} else if (isset($_POST['returnFromErrorTipo'])) {
+		header('Location: ../errors/error.php?error=wrongPass&returnFromError=' . $_POST['returnFromErrorTipo']);
+		exit(); 
+	}
 }
 
 $squadraSubmitted = $_POST['squadraSubmitted'];
@@ -83,9 +88,9 @@ fclose($handle);
 
 require("updateListaFormazioni.inc.php");
 
-$where = "Location: ../squadre/squadra.php?squadra=" . $_SESSION['Squadra'];
-header($where);
-
 $squadraSubmitted=='false';
 $squadraSubmittedTipo=='false';
+
+$where = "Location: ../dragdrop/dragdrop.php?squadra=" . $_SESSION['Squadra'];
+header($where);
 ?>

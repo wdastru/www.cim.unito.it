@@ -9,17 +9,17 @@ require_once ("logger.php");
 <head>
 <title>Fantacalcio NMR 2011/12</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="shortcut icon" href="<?php $relocate_string; ?>favicon.ico">
 	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+		href="<?php $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
 	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=stylesheet.css&type=css" />
-	<script type="text/javascript" src="chromejs/chrome.js"></script>
-	<script type="text/javascript" src="version.js"></script>
+		href="<?php $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+	<script type="text/javascript" src="<?php $relocate_string; ?>chromejs/chrome.js"></script>
+	<script type="text/javascript" src="<?php $relocate_string; ?>version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-
+	<script type="text/javascript" src="<?php $relocate_string; ?>marcatori.js"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
@@ -27,39 +27,22 @@ require_once ("logger.php");
 <body>
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
-
-
-
-
-
-
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<!-- InstanceEndEditable -->
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">MARCATORI CAMPIONATO</h1>
+		<br />
+		<div class="button" id='showAll' onclick=toggleExtraScorers();>
+			Mostra tutti
+		</div>
+		<br />
 		<table class="marcatori">
 			<tr>
 				<th align="center">Goal</th>
 				<th align="left">Marcatore</th>
 			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			<?php
 			//include "dBug.php";
 
@@ -104,15 +87,18 @@ require_once ("logger.php");
 
 			$i = 0;
 			foreach ($marcatoriCampionato as $key => $value) {
+				
+				$display = 'table-row';
+				
 				if ($i % 2) {
-					echo " <tr class=\"odd\">";
-					echo "   <td class=\"center\">" . $value . "</td>";
+					echo " <tr class='odd' style='display:$display;'>";
+					echo "   <td class='center'>" . $value . "</td>";
 					echo "   <td>" . $key . "</td>";
 					echo "   </tr>";
 				}
 				else {
-					echo "   <tr class=\"even\">";
-					echo "   <td class=\"center\">" . $value . "</td>";
+					echo " <tr class='even' style='display:$display;'>";
+					echo "   <td class='center'>" . $value . "</td>";
 					echo "   <td>" . $key . "</td>";
 					echo"   </tr>";
 				}
@@ -120,15 +106,15 @@ require_once ("logger.php");
 			}
 			?>
 		</table>
-
-
-
+		
 		<!-- InstanceEndEditable -->
 	</div>
 
 	<?php include $relocate_string . 'include/footer.inc.php'?>
 	<!-- dragHelper for dragdrop.php -->
 	<div id='dragHelper' style="position: absolute; visibility: hidden;"></div>
+	
+	<script type='text/javascript'>toggleExtraScorers();</script>
 </body>
 <!-- InstanceEnd -->
 </html>

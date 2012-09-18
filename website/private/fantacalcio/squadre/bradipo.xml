@@ -42,14 +42,18 @@
       <stagione>2008/09</stagione>
       <posizione>7</posizione>
     </campionato>
-      <campionato>
-        <stagione>2009/10</stagione>
-        <posizione>8</posizione>
-      </campionato>	
-	  <campionato>
-        <stagione>2010/11</stagione>
-        <posizione>6</posizione>
-      </campionato>
+    <campionato>
+      <stagione>2009/10</stagione>
+      <posizione>8</posizione>
+    </campionato>	
+	<campionato>
+      <stagione>2010/11</stagione>
+      <posizione>6</posizione>
+    </campionato>
+	<campionato>
+      <stagione>2011/12</stagione>
+      <posizione>8</posizione>
+    </campionato>
   </storico>
 </squadra>
 </squadre>

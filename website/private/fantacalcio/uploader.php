@@ -6,7 +6,7 @@ require('777/setupSquadre.inc.php');
 
 if (isset($_POST['submitted']))
 {
-	MySingleton::writeToLog('$_POST["submitted"] = ' . $_POST['submitted'], $relocate_string . "777/logs/uploader.log");
+	//MySingleton::writeToLog('$_POST["submitted"] = ' . $_POST['submitted'], $relocate_string . "777/logs/uploader.log");
 	$submitted = $_POST['submitted'];
 	if ($submitted == 1) // da uploader.php
 	{

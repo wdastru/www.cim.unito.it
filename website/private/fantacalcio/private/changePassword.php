@@ -1,28 +1,16 @@
 <?php
-$relocate_string = "../";
-require("../777/setupSquadre.inc.php");
-include("../squadre.inc.php");
-
 session_start();
 
-if (isset($_POST['Squadra']))
-	$Squadra = $_SESSION['Squadra']=$_POST['Squadra'];
-if (isset($_POST['Modulo']))
-	$Modulo = $_SESSION['Modulo']=$_POST['Modulo'];
-if (isset($_POST['Telefono']))
-	$Telefono = $_SESSION['Telefono']=$_POST['Telefono'];
-if (isset($_POST['Capitale']))
-	$Capitale = $_SESSION['Capitale']=$_POST['Capitale'];
-if (isset($_POST['Password']))
-	$Password = $_POST['Password'];
-else
-	$Password = "";
+$relocate_string = "../";
+require($relocate_string . "777/setupSquadre.inc.php");
+include($relocate_string . "squadre.inc.php");
 
-if(isset($Modulo))
-{	$modulo[0] = $Modulo;	}
-	
-include("../moduli.inc.php");
-include("../777/gazFiles.inc.php");
+if (isset($_GET['Squadra'])) {
+	$Squadra = $_SESSION['Squadra'] = $_GET['Squadra'];
+} else {
+	// ???
+}
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
@@ -46,40 +34,37 @@ include("../777/gazFiles.inc.php");
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-      <?php
-	echo "<h1 class=\"title\">" . $longName[$Squadra] . "</h1>";
-	
-	echo "
-	<div id=\"wrapper-changePassword\">
-	<h2 class=\"modify\">CAMBIO PASSWORD</h2>
-	<form action=\"../squadre/squadra.php?squadra=" . $Squadra . "\" method=\"post\" target=\"_self\">
+    
+    <h1 class='title'><?php echo $longName[$Squadra]; ?></h1>
+    <br/>
+	<div id='wrapper-changePassword'>
+	<h2 class='modify'>CAMBIO PASSWORD</h2>
+	<form action='../squadre/squadra.php?squadra=<?php echo $Squadra; ?>' method='post' target='_self'>
 	<fieldset class='noBorder'>
 		<table>
 			<tr>
-				<td class=\"right\">vecchia password :</td><td><input type=\"password\" type=\"text\" name=\"oldPassword\" value=\"\" autocomplete=\"off\"/></td>
+				<td class='right'>vecchia password :</td><td><input type='password' name='oldPassword' value='' autocomplete='off'/></td>
 			</tr>
 			<tr>
-				<td class=\"right\">nuova password :</td><td><input type=\"password\" type=\"text\" name=\"newPassword\" value=\"\" autocomplete=\"off\"/></td>
+				<td class='right'>nuova password :</td><td><input type='password' name='newPassword' value='' autocomplete='off'/></td>
 			</tr>
 			<tr>
-				<td class=\"right\">ripeti password :</td><td><input type=\"password\" type=\"text\" name=\"ripetiPassword\" value=\"\" autocomplete=\"off\"/></td>
+				<td class='right'>ripeti password :</td><td><input type='password' name='ripetiPassword' value='' autocomplete='off'/></td>
 			</tr>
 			<tr>
-				<td colspan=\"2\">&nbsp;</td>
+				<td colspan='2'>&nbsp;</td>
 			</tr>
-			<tr align=\"center\">
-				<td colspan=\"2\"><input type=\"submit\" value=\"Invia\"/></td>
+			<tr align='center'>
+				<td colspan='2'><input class='button' type='submit' value='Invia'/></td>
 			</tr>
 		</table>
-	<input type=\"hidden\" name=\"Squadra\" value=\"" . $Squadra . "\" />
-	<input type=\"hidden\" name=\"changePassword\" value=\"true\" />
+	<input type='hidden' name='Squadra' value='" . $Squadra . "' />
+	<input type='hidden' name='changePassword' value='true' />
 	</fieldset>
 	</form>
 	</div>
-	";
-?>
 
-	      <!-- InstanceEndEditable --></div>
+<!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>
 <!-- dragHelper for dragdrop.php -->

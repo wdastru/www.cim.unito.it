@@ -8,7 +8,7 @@ require_once ($relocate_string . "logger.php");
 $gazFileInc = $relocate_string . "777/gazFiles.inc.php";
 $gazFileList = $relocate_string . "777/filesGazzetta/listaGazFiles.txt";
 
-MySingleton::writeToLog('$gazFileInc = ' . $gazFileInc, $relocate_string . "777/logs/updateGazFiles.inc.php.log");
+//MySingleton::writeToLog('$gazFileInc = ' . $gazFileInc, $relocate_string . "777/logs/updateGazFiles.inc.php.log");
 
 if (!file_exists($gazFileInc))
 {
@@ -30,7 +30,7 @@ fwrite($hGazFileInc, "<?php\n \$fileGaz=array(");
 $dir = $relocate_string . "777//filesGazzetta//*.txt"; // lista dei file della Gazzetta presenti
 $result = glob($dir);
 
-MySingleton::writeToLog('count($result) = ' . count($result), $relocate_string . "777/logs/updateGazFiles.inc.php.log");
+//MySingleton::writeToLog('count($result) = ' . count($result), $relocate_string . "777/logs/updateGazFiles.inc.php.log");
 
 if ($hGazFileInc) 
 {

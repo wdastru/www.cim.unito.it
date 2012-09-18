@@ -253,11 +253,14 @@
 </table>
 <br />
 <br />
+<br />
 <div>
-	<p>
-		Ultima formazione : <?php echo $lastFormazBasename . " <span class='data'>(" . $lastModified . ")</span>"; ?>
+	Ultima formazione : 
+	<p class='ultimaFormazione'>
+		<?php echo $lastFormazBasename . " (" . $lastModified . ")"; ?>
 		
 	</p>
+	<br />	
 	<table class="rosafooter">
 		<tr>
 			<td class="testo">Fantamiliardi :</td>
@@ -301,39 +304,31 @@
 <table class="buttonModify">
 	<tr>
 		<td>
-			<form method="post" action="../private/modify.php">
+			<form method="post" action="../private/modify.php?squadra=<?php echo $_SESSION['nomesquadra']; ?>">
 				<div>
-					<input type="submit" name="modifica" value="Modifica rosa" /> <input
-						type="hidden" name="Squadra"
-						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
-						type="hidden" name="Index" value="1" />
+					<input class="button" type="submit" value="Modifica rosa" /> 
 				</div>
 			</form>
 		</td>
 		<td>
-			<form method="post" action="../dragdrop/dragdrop.php">
+			<form method="post" action="../dragdrop/dragdrop.php?squadra=<?php echo $_SESSION['nomesquadra']; ?>">
 				<div>
-					<input type="submit" name="modifica" value="Modifica formazioni" />
-					<input type="hidden" name="Squadra"
-						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
-						type="hidden" name="Index" value="1" />
+					<input class="button" type="submit" value="Modifica formazioni" />
 				</div>
 			</form>
 		</td>
 		<td>
-			<form method="post" action="../private/changePassword.php">
+			<form method="get" action="../private/changePassword.php">
 				<div>
-					<input type="submit" name="modifica" value="Cambia password" /> <input
-						type="hidden" name="Squadra"
-						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
-						type="hidden" name="Index" value="1" />
+					<input class="button" type="submit" value="Cambia password" /> 
+					<input type="hidden" name="Squadra" value="<?php echo $_SESSION['nomesquadra']; ?>" />
 				</div>
 			</form>
 		</td>
 		<td>
-			<form method="post" action="../players.php">
+			<form method="post" action="../players.php?squadra=<?php echo $_SESSION['nomesquadra']; ?>">
 				<div>
-					<input type="submit" name="modifica" value="Fai un'offerta" /> <input
+					<input class="button" type="submit" name="modifica" value="Fai un'offerta" /> <input
 						type="hidden" name="Squadra"
 						value="<?php echo $_SESSION['nomesquadra']; ?>" /> <input
 						type="hidden" name="Index" value="1" />

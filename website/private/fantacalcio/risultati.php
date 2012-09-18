@@ -39,15 +39,15 @@ include("calendario.inc.php");
 	<div id='hiddenBox' style='visibility: hidden'>
 		<br />
 		<div id='hiddenBoxTitleBox'>
-			<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
+			<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
 				id='squadra2'>squadra2</span>
 		</div>
 		<br /> <br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
-				<input type='button' id='sendButton' value='Send'
-					onclick='validate( "campionato" )' /> <input type='button'
-					value='Close this box!' onclick='hideBox();' /> <input
+				<input class='button' type='button' id='sendButton' value='Send'
+					onclick='validate( "campionato" )' /> <input class='button' type='button'
+					value='Close this box!' onclick='hideBox();' /> <input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
@@ -55,9 +55,9 @@ include("calendario.inc.php");
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
 				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> Marcatori:<br /> <br /> <input type='button'
+				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
 					style="display: inline" value='Aggiungi un marcatore'
-					onclick='manualAddField();' />      <input type='button'
+					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
 					style="display: inline" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
 				
@@ -101,11 +101,11 @@ include("calendario.inc.php");
 				if ($odd = $partitaIdx % 2){
 					echo"<tr class=\"odd\">";
 					for($i=0; $i<2; $i++) // in casa - fuori casa
-					echo "<td class=\"Squadra invlink\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+					echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
 				} else {
 					echo"<tr class=\"even\">";
 					for($i=0; $i<2; $i++) // in casa - fuori casa
-					echo "<td class=\"Squadra link\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+					echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
 						
 				}
 				echo "\n";
