@@ -54,21 +54,21 @@ Gli utenti sono divisi in due gruppi:
 	<li><strong>GRUPPO B</strong>: Simonetta, Dario, Eliana e collaboratori (Diego, Diana, Alice, Francesca, Giorgio)</li>
 </ul>
 <br/>
-Il tempo macchina sarà suddiviso in modo che ogni gruppo abbia a disposizione un’intera settimana a settimane alterne, a partire dal 31 ottobre 2011.
+Il tempo macchina sar&aacute; suddiviso in modo che ogni gruppo abbia a disposizione un’intera settimana a settimane alterne, a partire dal 31 ottobre 2011.
 <br/>
 <ul>
 	<li>Settimana 31 ottobre-5 novembre: <strong>GRUPPO B</strong></li>
 	<li>Settimana 7 novembre-11 novembre: <strong>GRUPPO A</strong></li>
 </ul>
-... e così via ... fino a data da destinarsi ...
+... e cos&iacute; via ... fino a data da destinarsi ...
 <br/><br/>
-Le prenotazioni per la settimana di pertinenza cominciano dal venerdì di due settimane prima e finiscono il mercoledì  di quella antecedente. Es. Per la settimana 31/10-05/10 i collaboratori di Simo, Dario e Eliana (gruppo B) possono prenotarsi da venerdì 21/10 fino a mercoledì 26/10. Nei giorni successivi le prenotazioni sono aperte anche agli utenti del gruppo A.
+Le prenotazioni per la settimana di pertinenza cominciano dal venerd&iacute; di due settimane prima e finiscono il mercoled&iacute;  di quella antecedente. Es. Per la settimana 31/10-05/10 i collaboratori di Simo, Dario e Eliana (gruppo B) possono prenotarsi da venerd&iacute; 21/10 fino a mercoled&iacute; 26/10. Nei giorni successivi le prenotazioni sono aperte anche agli utenti del gruppo A.
 <br/><br/>
 <strong><i>Importante</i></strong>:
 <br/>
 <ul>
-	<li>Il lunedì mattina (ore 9.00-14.00) di ogni settimana è dedicato al servizio esterno.</li>
-	<li>All’interno di ogni settimana si devono lasciare 5 ore (distribuite su più giorni nella fascia oraria 9.00-18.00) per le “emergenze” a cui tutti gli utenti possono accedere (previa prenotazione).</li>
+	<li>Il luned&iacute; mattina (ore 9.00-14.00) di ogni settimana &eacute; dedicato al servizio esterno.</li>
+	<li>All’interno di ogni settimana si devono lasciare 5 ore (distribuite su pi&uacute; giorni nella fascia oraria 9.00-18.00) per le “emergenze” a cui tutti gli utenti possono accedere (previa prenotazione).</li>
 	<li>Gli utenti che non sono compresi nei gruppi A e B ma che saltuariamente dovessero aver bisogno dello strumento possono prenotare del tempo macchina in qualsiasi momento.</li>
 </ul>
 "; 
@@ -92,7 +92,7 @@ nella settimana (dal lunedi) i buchi sono prenotabili liberamente.
 
 <strong>Esperimenti veloci:</strong>
 <br/>
-9-10 tutti in giorni. Il foglio elettronico delle prenotazioni verrà modificato e verrà aggiunta una coda alla tabella (o una tabellina a
+9-10 tutti in giorni. Il foglio elettronico delle prenotazioni verr&aacute; modificato e verr&aacute; aggiunta una coda alla tabella (o una tabellina a
 parte) in cui quell'ora sara prenotabile a pezzi di 15 min l'uno.
 <br/> <br/> 
 <strong>Specificare nelle note l&acute;orario di utilizzo (se non coincide con la mattinata o il pomeriggio interi).</strong><br />"; 
