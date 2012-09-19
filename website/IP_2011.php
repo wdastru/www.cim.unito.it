@@ -467,7 +467,7 @@ $localizer = "./";
 											<p class='lecture_author'>(Silvio Aime)</p>
 										</td>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/Walter Dastru' IP 2011 - handouts.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/Walter_Dastru'_IP_2011_-_handouts.pdf">
 												<p class='lecture_title'>NMR and MRI introduction</p>
 												<p class='lecture_author'>(Walter Dastr&uacute;)</p>
 										</a></td>
@@ -477,26 +477,26 @@ $localizer = "./";
 												<p class='lecture_author'>(A. Viale / F. Reineri)</p>
 										</a></td>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/Robert Muller.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/Robert_Muller.pdf">
 												<p class='lecture_title'>Iron oxide particles</p>
 												<p class='lecture_author'>(Robert Muller)</p>
 										</a></td>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/Strategies for cellular labeling - Geninatti.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/Strategies_for_cellular_labeling_-_Geninatti.pdf">
 												<p class='lecture_title'>Strategies for cellular labeling</p>
 												<p class='lecture_author'>(Simonetta Geninatti)</p>
 										</a></td>
 									</tr>
 									<tr>
 										<td class='available'><a
-											href="documenti/IP_Probes_Turin_2011/lectures/Introduction to MolecularImaging.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/Introduction_to_MolecularImaging.pdf">
 												<p class='lecture_title'>Imaging Probe: an overview</p>
 												<p class='lecture_author'>(Silvio Aime)</p>
 										</a></td>
 										<td class="available"><a
 											href="documenti/IP_Probes_Turin_2011/lectures/M.Botta_2011.pdf">
-												<p class='lecture_title'>Gd(III) complexes: mechanism of
-													action and relaxometric properties</p>
+												<p class='lecture_title'>Gd(III)_complexes:_mechanism_of
+													action_and_relaxometric_properties</p>
 												<p class='lecture_author'>(Mauro Botta)</p>
 										</a></td>
 										<td>
@@ -505,7 +505,7 @@ $localizer = "./";
 												Viale)</p>
 										</td>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/CEST agents.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/CEST_agents.pdf">
 												<p class='lecture_title'>CEST agents: basic principles,
 													mechanism of action and classification</p>
 												<p class='lecture_author'>(Enzo Terreno)</p>
@@ -551,7 +551,7 @@ $localizer = "./";
 												<p class='lecture_author'>(Frederic Doll&eacute;</p>
 										</a></td>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/Walter Dastru' IP 2011 - handouts.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/Walter_Dastru'_IP_2011_-_handouts.pdf">
 												<p class='lecture_title'>
 													T<sub>1</sub> / T<sub>2</sub> measure experiments
 												</p>
@@ -586,13 +586,13 @@ $localizer = "./";
 									</tr>
 									<tr>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/Ln(III) complexes_Geraldes.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/Ln(III)_complexes_Geraldes.pdf">
 												<p class='lecture_title'>Physico-chemical properties of
 													Ln(III) complexes</p>
 												<p class='lecture_author'>(Carlos Geraldes)</p>
 										</a></td>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/Basic principles and procedures of SPPS 2011.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/Basic_principles_and_procedures_of_SPPS_2011.pdf">
 												<p class='lecture_title'>Basic principles and procedures of
 													solid phase peptide synthesis</p>
 												<p class='lecture_author'>(Lorenzo Tei)</p>
@@ -651,7 +651,7 @@ $localizer = "./";
 												Dastr&uacute;</p>
 										</td>
 										<td class="available"><a
-											href="documenti/IP_Probes_Turin_2011/lectures/basics of chromatography.pdf">
+											href="documenti/IP_Probes_Turin_2011/lectures/basics_of_chromatography.pdf">
 												<p class='lecture_title'>Basic principles of chromatographic
 													separation techniques</p>
 												<p class='lecture_author'>(Alessandro Barge)</p>
