@@ -1,21 +1,21 @@
 <?php
-$shortName[0] = $shortName['a'] = 'atletico';
-$shortName[1] = $shortName['b'] = 'eporediese';
-$shortName[2] = $shortName['c'] = 'ciofeca';
-$shortName[3] = $shortName['d'] = 'patelavache';
-$shortName[4] = $shortName['e'] = 'bradipo';
-$shortName[5] = $shortName['f'] = 'lokomotiv';
-$shortName[6] = $shortName['g'] = 'fedora';
-$shortName[7] = $shortName['h'] = 'real';
+$shortName[0] = $shortName['a'] = 'ciofeca';
+$shortName[1] = $shortName['b'] = 'real';
+$shortName[2] = $shortName['c'] = 'patelavache';
+$shortName[3] = $shortName['d'] = 'lokomotiv';
+$shortName[4] = $shortName['e'] = 'eporediese';
+$shortName[5] = $shortName['f'] = 'fedora';
+$shortName[6] = $shortName['g'] = 'bradipo';
+$shortName[7] = $shortName['h'] = 'atletico';
 
-$longName[0] = $longName['a'] = 'Atletico? No Grazie!';
-$longName[1] = $longName['b'] = 'EPOrediese';
-$longName[2] = $longName['c'] = 'Dinamo Ciofeca';
-$longName[3] = $longName['d'] = 'Ij Patelavache';
-$longName[4] = $longName['e'] = 'Bradipo';
-$longName[5] = $longName['f'] = 'Lokomotiv Peccorino';
-$longName[6] = $longName['g'] = 'Fedora';
-$longName[7] = $longName['h'] = 'Real Mentescars';
+$longName[0] = $longName['a'] = 'Dinamo Ciofeca';
+$longName[1] = $longName['b'] = 'Real Mentescars';
+$longName[2] = $longName['c'] = 'Ij Patelavache';
+$longName[3] = $longName['d'] = 'Lokomotiv Peccorino';
+$longName[4] = $longName['e'] = 'EPOrediese';
+$longName[5] = $longName['f'] = 'Fedora';
+$longName[6] = $longName['g'] = 'Bradipo';
+$longName[7] = $longName['h'] = 'Atletico? No Grazie!';
 
 $longName[$shortName['a']] = $longName['a'];
 $longName[$shortName['b']] = $longName['b'];
