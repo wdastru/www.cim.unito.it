@@ -410,7 +410,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Alessandro Barge - Torino/Univ)
                                 </p> </a></td>
-                                <td>
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Torino19092012_Maiocchi.pdf">
                                 <p class='lecture_title'>
                                 Platforms for drug delivery
                                 </p>
