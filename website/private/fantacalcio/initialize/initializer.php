@@ -36,9 +36,6 @@ system("rm " . $relocate_string . "777//formazioni//*_*.txt");
 system("rm " . $relocate_string . "777//formazioni//listaFormazioni.txt");
 system("rm " . $relocate_string . "777//formazioni//archive//*.*");
 
-system("chmod -R 777 " . $relocate_string . "777//");
-
-
 $where = "Location: " . $relocate_string . "initialize/index.php";
 header($where); 
 ?>

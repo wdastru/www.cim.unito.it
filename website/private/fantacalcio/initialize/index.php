@@ -38,6 +38,15 @@
 	                    </center>
 	                  </td>            
 	              </tr>
+	              <tr>
+	                  <td>
+	                  	<center>
+	                  		<form method="post" action="chmod.php">
+						  		<input class='button' type='submit' value='chmod 777 to 777/' />
+						  	</form>
+	                    </center>
+	                  </td>            
+	              </tr>
 	          </table>
         	</center>
         </p>
