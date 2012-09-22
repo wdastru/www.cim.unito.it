@@ -25,7 +25,7 @@ if (isset($_POST['toCancel'])) {
 
 		copy("..//777//formazioni//" . $toCancel, "..//777//formazioni//archive//" . $toCancel);
 		unlink("..//777//formazioni//" . $toCancel);
-		require ($relocate_string . "includes//updateListaFormazioni.inc.php");
+		require ($relocate_string . "include//updateListaFormazioni.inc.php");
 	}
 }
 // <-- ARCHIVE FILE
