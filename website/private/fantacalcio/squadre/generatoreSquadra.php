@@ -56,7 +56,7 @@
 		$modulo[2] = substr($modulo[0], 0, 1);
 		$modulo[3] = substr($modulo[0], 4, 1);
 		$modulo[4] = substr($modulo[0], 8, 1);
-
+		
 		$player[0] = $_POST['player0'];
 		$player[1] = $_POST['player1'];
 		$player[2] = $_POST['player2'];

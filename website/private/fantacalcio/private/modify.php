@@ -50,6 +50,9 @@ require("../777/gazFiles.inc.php");
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <?php
     $filename=$relocate_string . "777//filesGazzetta//" . $fileGaz[count($fileGaz)-1];
+    
+	//echo $filename."<br>";
+	
 	if(file_exists($filename))
 	{
 		$handle=fopen($filename, 'r');
@@ -60,7 +63,10 @@ require("../777/gazFiles.inc.php");
 			$allPlayers[$i][0]=strtok($tmpStr,"\t");	// nome
 			$allPlayers[$i][1]=strtok("\t");			// squadra
 			$allPlayers[$i][2]=strtok("\t");			// ruolo
-			$i++;
+			//echo $allPlayers[$i][0]." - ";
+			//echo $allPlayers[$i][1]." - ";
+			//echo $allPlayers[$i][2]."<br>";
+			$i++;	
 		}		
 		
 		$allPlayerCount=$i-1;
@@ -75,10 +81,12 @@ require("../777/gazFiles.inc.php");
 	{
 		$handle=fopen($filename, 'r');
 		
+		//echo $filename."<br>";
+		
 		if (!isset($modulo[0]))
 			array_push($modulo, trim(fgets($handle)));
 		else 
-			$trash=fgets($handle); // se il modulo � settato, devo lo stesso leggere la prima riga (il modulo appunto)
+			$trash=fgets($handle); // se il modulo e' settato, devo lo stesso leggere la prima riga (il modulo appunto)
 
 		array_push($modulo, 1);
 		array_push($modulo, substr($modulo[0], 0, 1));
@@ -90,8 +98,10 @@ require("../777/gazFiles.inc.php");
 		
 		for ($j=0; $j<4; $j++)
 		{
-			for ($i=0; $i<$ruolo[$j][0]; $i++)
+			for ($i=0; $i<$ruolo[$j][0]; $i++) {
 				$giocatore[$j][$i] = trim(fgets($handle)); // nome
+				//echo $giocatore[$j][$i]."<br>";
+			}		
 		}
 		
 		$capitale = trim(fgets($handle));
@@ -194,16 +204,16 @@ require("../777/gazFiles.inc.php");
 				{
 					if ( $allPlayers[$k][0] == $giocatore[$i][$j] ) // se il giocatore coincide con quello trovato nel file
 					{
-						echo "<option value='" . $allPlayers[$k][0] . "' selected='selected'>" . $allPlayers[$k][0] . "</option> ";
+						echo "<option value=\"" . $allPlayers[$k][0] . "\" selected='selected'>" . $allPlayers[$k][0] . "</option> ";
 						$found = true;
+					} else {
+						echo "<option value=\"" . $allPlayers[$k][0] . "\">" . $allPlayers[$k][0] . "</option> ";
 					}
-					else
-						echo "<option value='" . $allPlayers[$k][0] . "'>" . $allPlayers[$k][0] . "</option> ";
 				}
 				
 			}
 			if (!$found)
-				echo "<option value='" . $giocatore[$i][$j] . "' selected='selected'>" . $giocatore[$i][$j] . "</option> ";
+				echo "<option value=\"" . $giocatore[$i][$j] . "\" selected='selected'>" . $giocatore[$i][$j] . "</option> ";
 			echo "</select>
 			&nbsp";
 			
@@ -233,7 +243,7 @@ require("../777/gazFiles.inc.php");
 		echo "</div>";
 	}
 	
-	echo " 
+	echo " 	
 	<br/>
 	<br/>
 	

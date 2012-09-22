@@ -2,6 +2,8 @@
 //include "../dBug.php";
 session_start();
 
+//print_r($_POST);
+
 $relocate_string = "../";
 require_once $relocate_string . 'logger.php';
 
