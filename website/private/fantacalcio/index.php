@@ -4,7 +4,7 @@ $relocate_string = "./";
 require_once $relocate_string . 'squadre.inc';
 require_once $relocate_string . 'calendario.inc';
 require_once $relocate_string . 'classifica.inc.php';
-require_once $relocate_string . 'updateGazFiles.inc.php';
+require_once $relocate_string . 'include/updateGazFiles.inc.php';
 require_once $relocate_string . 'include/updateFantaCalcGuiListOfDownloads.inc.php';
 require_once $relocate_string . '777/gazFiles.inc.php';
 require_once $relocate_string . 'recursiveChmod.inc.php';

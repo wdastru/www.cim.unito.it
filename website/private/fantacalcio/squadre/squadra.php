@@ -23,7 +23,7 @@ $_SESSION['nomesquadra']=$_GET['squadra'] . "";
 $_SESSION['nomefilephp']=$_GET['squadra'] . ".php";
 
 if( ! file_exists($relocate_string . '777/gazFiles.inc.php') ) {
-	require $relocate_string . 'updateGazFiles.inc.php';
+	require $relocate_string . 'include/updateGazFiles.inc.php';
 }
 
 require $relocate_string . "777/gazFiles.inc.php";

@@ -47,6 +47,15 @@
 	                    </center>
 	                  </td>            
 	              </tr>
+	              <tr>
+	                  <td>
+	                  	<center>
+	                  		<form method="post" action="replayStats.php">
+						  		<input class='button' type='submit' value='replay statistics' />
+						  	</form>
+	                    </center>
+	                  </td>            
+	              </tr>
 	          </table>
         	</center>
         </p>
