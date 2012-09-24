@@ -16,42 +16,42 @@ $turno[1] = "II&deg; TURNO";
 $turno[2] = "III&deg; TURNO";
 
 /*
- * 'a' = 'atletico';       
- * 'b' = 'eporediese';     
- * 'c' = 'ciofeca';        
- * 'd' = 'patelavache';    
- * 'e' = 'bradipo';        
- * 'f' = 'lokomotiv';      
- * 'g' = 'fedora';
- * 'h' = 'real';
- *         
- */
+ * 'a' = 'ciofeca';     
+ * 'b' = 'real';        
+ * 'c' = 'patelavache'; 
+ * 'd' = 'lokomotiv';   
+ * 'e' = 'eporediese';  
+ * 'f' = 'fedora';      
+ * 'g' = 'bradipo';     
+ * 'h' = 'atletico';    
+ * 
+ * * * * * * * * * * * * */
 
-$aCoppa = $longName['b'];
-$bCoppa = $longName['e'];
-$cCoppa = $longName['d'];
-$dCoppa = $longName['c'];
-$eCoppa = $longName['h'];
-$fCoppa = $longName['a'];
-$gCoppa = $longName['f'];
-$hCoppa = $longName['g'];
+$aCoppa = $longName['d'];
+$bCoppa = $longName['b'];
+$cCoppa = $longName['a'];
+$dCoppa = $longName['f'];
+$eCoppa = $longName['e'];
+$fCoppa = $longName['h'];
+$gCoppa = $longName['g'];
+$hCoppa = $longName['c'];
 
 $superCoppa = array();
 array_push($superCoppa, array());
 array_push($superCoppa, array());
 array_push($superCoppa, array());
 
-/* I° turno */
+/* Iï¿½ turno */
 $superCoppa[0][0][0] = $aCoppa;	$superCoppa[0][0][1] = $bCoppa;
 $superCoppa[0][1][0] = $cCoppa;	$superCoppa[0][1][1] = $dCoppa;
 $superCoppa[0][2][0] = $eCoppa;	$superCoppa[0][2][1] = $fCoppa;
 $superCoppa[0][3][0] = $gCoppa;	$superCoppa[0][3][1] = $hCoppa;
-/* II°  turno */
+/* IIï¿½  turno */
 $superCoppa[0][4][0] = $aCoppa;	$superCoppa[0][4][1] = $cCoppa;
 $superCoppa[0][5][0] = $bCoppa;	$superCoppa[0][5][1] = $dCoppa;
 $superCoppa[0][6][0] = $eCoppa;	$superCoppa[0][6][1] = $gCoppa;
 $superCoppa[0][7][0] = $fCoppa;	$superCoppa[0][7][1] = $hCoppa;
-/* III ° turno  */
+/* III ï¿½ turno  */
 $superCoppa[0][8][0] = $aCoppa;  $superCoppa[0][8][1] = $dCoppa;
 $superCoppa[0][9][0] = $bCoppa;  $superCoppa[0][9][1] = $cCoppa;
 $superCoppa[0][10][0] = $eCoppa; $superCoppa[0][10][1] = $hCoppa;

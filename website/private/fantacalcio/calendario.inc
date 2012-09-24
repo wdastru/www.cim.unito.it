@@ -27,16 +27,16 @@ array_push($super, array());
 array_push($super, array());
 
 /*
- * 'a' = 'atletico';       
- * 'b' = 'eporediese';     
- * 'c' = 'ciofeca';        
- * 'd' = 'patelavache';    
- * 'e' = 'bradipo';        
- * 'f' = 'lokomotiv';      
- * 'g' = 'fedora';
- * 'h' = 'real';
- *         
- */
+ * 'a' = 'ciofeca';     
+ * 'b' = 'real';        
+ * 'c' = 'patelavache'; 
+ * 'd' = 'lokomotiv';   
+ * 'e' = 'eporediese';  
+ * 'f' = 'fedora';      
+ * 'g' = 'bradipo';     
+ * 'h' = 'atletico';    
+ * 
+ * * * * * * * * * * * * */
 
 $super[0][0][0][0] = $longName['a'];	$super[0][0][0][1] = $longName['g'];
 $super[0][0][1][0] = $longName['b'];	$super[0][0][1][1] = $longName['e'];
