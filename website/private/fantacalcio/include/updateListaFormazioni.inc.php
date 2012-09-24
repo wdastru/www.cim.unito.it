@@ -8,15 +8,20 @@ if ($hListaFormazioni)
 {
 	$dir = "..//777//formazioni//*.txt"; 
 	$result = glob($dir);
-	
-	for($i=0; $i<count($result); $i++)
-	{
-		$out=pathinfo($result[$i],PATHINFO_BASENAME); // solo nome file dal path
-		if ($out=='listaFormazioni.txt')
-				continue;
-		
-		fwrite($hListaFormazioni, $out . "\n");
-	}
+    
+    
+    if (count($result) != 0) {
+    	for($i=0; $i<count($result); $i++)
+    	{
+    		$out=pathinfo($result[$i],PATHINFO_BASENAME); // solo nome file dal path
+    		if ($out=='listaFormazioni.txt')
+    				continue;
+    		
+    		fwrite($hListaFormazioni, $out . "\n");
+    	}
+    } else {
+        // empty $results could erases listaFormazioni.txt
+    }
 	
 	fclose($hListaFormazioni);
 } else {
