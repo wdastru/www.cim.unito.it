@@ -10,7 +10,6 @@
 .viminfo
 git/
 git_build/
-listaFormazioni.txt
 robots.txt
 site*
 website/.*
