@@ -1,0 +1,21 @@
+atletico.txt
+atletico_coppa 1.txt
+bradipo.txt
+bradipo_cam_01.txt
+bradipo_cop_01.txt
+ciofeca.txt
+ciofeca_coppa1.txt
+eporediese.txt
+eporediese_coppa1.txt
+eporediese_tipo_valida_fino_20120923-172804.txt
+fedora.txt
+fedora_coppa_1.txt
+fedora_tipo_valida_fino_20120924-161645.txt
+lokomotiv.txt
+lokomotiv_coppa_1.txt
+lokomotiv_tipo_valida_fino_20120922-150503.txt
+patelavache.txt
+patelavache_coppa_1.txt
+real.txt
+real_coppa_1.txt
+real_tipo_valida_fino_20120922-150909.txt
