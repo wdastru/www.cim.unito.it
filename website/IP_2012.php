@@ -367,16 +367,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Frederic Doll&eacute; - Saclay/CEA)
                                 </p> </a></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/Hyperpolarized.zip">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/120919Torino2_Maecke.pdf">
                                 <p class='lecture_title'>
                                 Radiopeptides for imaging and therapies
                                 </p>
                                 <p class='lecture_author'>
                                 (Helmut Maecke - Freiburg/Klinik Univ)
                                 </p> </a></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/Robert Muller.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/MULLER_R.pdf">
                                 <p class='lecture_title'>
                                 Iron oxide particles
                                 </p>
@@ -525,8 +525,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                 <td><p class='hour'>9h00-10h30</p></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/Ln(III) complexes_Geraldes.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/IP_Probes_2012_Longo_DCE_MRI_23_9_12.pdf">
                                 <p class='lecture_title'>
                                 DCE-MRI: principles and techniques
                                 </p>
@@ -602,8 +602,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                 <td><p class='hour'>14h00-15h30</p></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/imag_probe_def_e_des.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/scuolaEMMI2012_Viale.pdf">
                                 <p class='lecture_title'>
                                 Hyperpolarized MRI: metabolic imaging
                                 </p>
