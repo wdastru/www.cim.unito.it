@@ -439,9 +439,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 					if ($out != ($_SESSION['nomesquadra'] . ".txt")) {
 						echo "<div id='archive'>
-								<form action='dragdrop.php' method='post'>
+								<form action='dragdrop.php?squadra=" . $_SESSION['nomesquadra'] . "' method='post'>
 								<input type='hidden' name='toCancel' value='" . $out . "'/>
-								<input type='hidden' name='Squadra' value='" . $_SESSION['nomesquadra'] . "'/>
 								<input type='hidden' name='File' value='" . $out . "'/>
 								<input class='button' type='submit' value='Archivia'/>
 								</form>
@@ -454,9 +453,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 							<input class='button' type='button' value='Visualizza' onclick='getJS(\"textFileBuilder.php?file=" . $out . "\")'/>
 						  </div>
 						  <div id='usa'>
-							<form action='dragdrop.php' method='post'>
+							<form action='dragdrop.php?squadra=" . $_SESSION['nomesquadra'] . "' method='post'>
 							<input class='button' type='submit' value='Usa'/>
-							<input type='hidden' name='Squadra' value='" . $_SESSION['nomesquadra'] . "'/>
 							<input type='hidden' name='File' value='" . $out . "'/>
 							</form>
 						  </div>
