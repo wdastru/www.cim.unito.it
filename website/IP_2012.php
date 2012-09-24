@@ -383,8 +383,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Robert Muller - Mons/Univ)
                                 </p> </a></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/Strategies for cellular labeling - Geninatti.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/schwaiger_Torino.pdf">
                                 <p class='lecture_title'>
                                 Combined PET/MRI: where we stand
                                 </p>
@@ -459,8 +459,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Walter Dastr&uacute; Torino/Univ)
                                 </p> </a></td>
-                                <td><!--class='available'><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/Responsive_probes_Digilio.pdf">-->
+                                <td class='available'><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Eliana_Gianolio_IP_2012.pdf">
                                 <p class='lecture_title'>
                                 Gd(III) complexes: basic relaxometric characterization
                                 </p>
@@ -605,7 +605,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <td><!--class="available"><a
                                 href="documenti/IP_Probes_Turin_2012/lectures/imag_probe_def_e_des.pdf">-->
                                 <p class='lecture_title'>
-                                Hyperpolarized MRI: matabolic imaging
+                                Hyperpolarized MRI: metabolic imaging
                                 </p>
                                 <p class='lecture_author'>
                                 (Alessandra Viale - Torino/Univ)
@@ -642,8 +642,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                 <td><p class='hour'>16h00-17h30</p></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/ChemistryofConjugation-2011.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/terreno_theranostic_agents.pdf">
                                 <p class='lecture_title'>
                                 Imaging-guided therapy: the advent of theragnostic agents
                                 </p>
