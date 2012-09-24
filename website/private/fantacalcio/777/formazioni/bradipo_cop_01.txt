@@ -1,8 +1,6 @@
-nome squadra : bradipo
-modulo : 4 - 5 - 1
-
-(in casa ?)
-
+4 - 5 - 1
+1 - 4 - 5 - 1
+1 - 2 - 2 - 2
 MARCHETTI
 MIRANTE
 BIZZARRI
@@ -28,3 +26,6 @@ VARGAS E.
 PATO
 MURIEL
 TOTTI
+266
+3395989215
+Sat 22 Sep 2012 - 11:27:25
