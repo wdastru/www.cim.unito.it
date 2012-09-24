@@ -208,7 +208,7 @@ else
 } 
 
 /* --> crea backup di statistics.txt */
-backup($relocate_string . '777/statistics.txt');
+//backup($relocate_string . '777/statistics.txt');
 /* <-- crea backup di statistics.txt */
 
 /* scrittura delle nuove statistiche */

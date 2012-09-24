@@ -1,7 +1,7 @@
 <?php
 require_once $relocate_string . 'include/backup.inc.php';
 require_once $relocate_string . 'include/cleanAccentsAndApostrophes.inc.php';
-backup($relocate_string . $datiCoppaFile);
+//backup($relocate_string . $datiCoppaFile);
 
 $handle = fopen($datiCoppaFile,'w');
 
