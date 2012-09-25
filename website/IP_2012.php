@@ -533,8 +533,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Dario Longo - Torino/Univ)
                                 </p> </a></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/Basic principles and procedures of SPPS 2011.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Geninatti.pdf">
                                 <p class='lecture_title'>
                                 Design MRI targeting agents
                                 </p>
