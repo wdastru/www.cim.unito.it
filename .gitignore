@@ -40,6 +40,7 @@ website/private/fantacalcio/.htaccess
 website/private/fantacalcio/777/logs/
 website/private/fantacalcio/cimpass
 website/private/fantacalcio/download/*.exe
+website/private/fantacalcio/download/*.zip
 website/private/filemanager.php
 website/private/INTA/.htaccess
 website/private/INTA/intapass
