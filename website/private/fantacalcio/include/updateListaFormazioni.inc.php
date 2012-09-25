@@ -9,7 +9,6 @@ if ($hListaFormazioni)
 	$dir = "..//777//formazioni//*.txt"; 
 	$result = glob($dir);
     
-    
     if (count($result) != 0) {
     	for($i=0; $i<count($result); $i++)
     	{

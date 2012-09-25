@@ -12,7 +12,7 @@ require $relocate_string . 'include/updateListaFormazioni.inc.php';
 
 //include "dBug.php";
 
-//recursiveChmod('777/');
+@recursiveChmod($relocate_string . '777/');
 
 $statisticsFileName = $relocate_string . '777/statistics.txt';
 $datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
