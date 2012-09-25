@@ -2,11 +2,16 @@
 /* salva lista formazioni disponibili */
 $listaFormazioni = $relocate_string . "777//formazioni//listaFormazioni.txt";
 
+MySingleton::writeToLog(exec('date') . " : \$listaFormazioni = " . $listaFormazioni, $relocate_string . "777/logs/updateListaFormazioni.log");
+
 $hListaFormazioni=fopen($listaFormazioni, 'w');
 
 if ($hListaFormazioni) 
 {
-	$dir = "..//777//formazioni//*.txt"; 
+	$dir = $relocate_string . "777//formazioni//*.txt";
+    
+    MySingleton::writeToLog(exec('date') . " : \$dir = " . $dir, $relocate_string . "777/logs/updateListaFormazioni.log");
+     
 	$result = glob($dir);
     
     if (count($result) > 0) {
