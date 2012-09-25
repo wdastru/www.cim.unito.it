@@ -425,7 +425,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Mauro Botta - Alessandria/Univ)
                                 </p> </a></td>
-                                <td>
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/CEST_agents_Delli_Castelli.pdf">
                                 <p class='lecture_title'>
                                 CEST agents
                                 </p>
@@ -467,7 +468,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Eliana Gianolio - Torino/Univ)
                                 </p> </a></td>
-                                <td>
+                                <td class='available'><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Responsive_probes_Digilio.pdf">
                                 <p class='lecture_title'>
                                 Responsive contrast agents
                                 </p>
