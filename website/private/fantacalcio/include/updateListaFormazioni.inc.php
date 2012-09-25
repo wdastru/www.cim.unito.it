@@ -19,12 +19,12 @@ if ($hListaFormazioni)
     		fwrite($hListaFormazioni, $out . "\n");
     	}
     } else {
-        // empty $results could erases listaFormazioni.txt
+        MySingleton::writeToLog(exec('date') . " : count(\$result) is empty\n", $relocate_string . "777/logs/updateListaFormazioni.log");
     }
 	
 	fclose($hListaFormazioni);
 } else {
-	echo "Il file " . $listaFormazioni . " non &eacute; apribile!";		
+	MySingleton::writeToLog(exec('date') . " : \$hListaFormazioni is false\n", $relocate_string . "777/logs/updateListaFormazioni.log");		
 }
 /**/
 ?>

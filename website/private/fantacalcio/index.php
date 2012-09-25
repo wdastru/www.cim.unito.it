@@ -1,6 +1,7 @@
 <?php
 $relocate_string = "./";
 
+require_once $relocate_string . "logger.php";
 require_once $relocate_string . 'squadre.inc';
 require_once $relocate_string . 'calendario.inc';
 require_once $relocate_string . 'classifica.inc.php';
