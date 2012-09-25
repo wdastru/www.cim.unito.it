@@ -45,4 +45,3 @@ function recursiveChmod($path, $filePerm = 0777, $dirPerm = 0777) {
 	return (TRUE);
 }
 ?>
-
