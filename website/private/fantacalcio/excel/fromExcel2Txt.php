@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+$relocate_string = "../";
 // Test CVS
 
 require_once('Excel/reader.php');
@@ -86,10 +88,10 @@ else
 
 error_reporting(E_ALL ^ E_NOTICE);
 
-if ($nameTxt != '')
-{
-	$handle = fopen('..//777//filesGazzetta//' . $nameTxt . '.txt', 'w');
+$handle = fopen('..//777//filesGazzetta//' . $nameTxt . '.txt', 'w');
 	
+if ($handle)
+{
 	for ($i = 4; $i <= $data->sheets[0]['numRows']; $i++) 
 	{
 		for ($j = 1; $j <= $data->sheets[0]['numCols']; $j++) 
@@ -106,7 +108,9 @@ if ($nameTxt != '')
 
 unlink($result[0]);
 
-header('Location: ../index.php');
+include $relocate_string . "include/updateStatistics.inc.php";
+
+header('Location: ' . $relocate_string . 'download.php');
 
 //print_r($data);
 //print_r($data->formatRecords);

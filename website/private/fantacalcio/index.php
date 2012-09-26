@@ -15,26 +15,26 @@ require $relocate_string . 'include/updateListaFormazioni.inc.php';
 
 @recursiveChmod($relocate_string . '777/');
 
-$statisticsFileName = $relocate_string . '777/statistics.txt';
+//$statisticsFileName = $relocate_string . '777/statistics.txt';
 $datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
 
-if(! file_exists($statisticsFileName) ) {
-	$statisticsHandle = fopen($statisticsFileName, 'w');
-	fwrite($statisticsHandle, "0\n");
-	fclose($statisticsHandle);
-}
-
-$statisticsHandle = fopen($statisticsFileName, 'r');
-if($statisticsHandle) {
-	$fileGazCount = fread($statisticsHandle, 10);
-	// leggi la prima riga del file (ultima giornata)
-	fclose($statisticsHandle);
-	if($fileGazCount != count($fileGaz)) // nuova giornata
-	include $relocate_string . 'updateStatistics.php';
-} else {
-	echo '777/statistics.txt non � apribile per la lettura!';
-	exit();
-}
+//if(! file_exists($statisticsFileName) ) {
+//	$statisticsHandle = fopen($statisticsFileName, 'w');
+//	fwrite($statisticsHandle, "0\n");
+//	fclose($statisticsHandle);
+//}
+//
+//$statisticsHandle = fopen($statisticsFileName, 'r');
+//if($statisticsHandle) {
+//	$fileGazCount = fread($statisticsHandle, 10);
+//	// leggi la prima riga del file (ultima giornata)
+//	fclose($statisticsHandle);
+//	if($fileGazCount != count($fileGaz)) // nuova giornata
+//	include $relocate_string . 'updateStatistics.php';
+//} else {
+//	echo '777/statistics.txt non � apribile per la lettura!';
+//	exit();
+//}
 
 if(!file_exists($datiCampionatoFileName)) {
 	$handle = fopen($datiCampionatoFileName, 'w');
