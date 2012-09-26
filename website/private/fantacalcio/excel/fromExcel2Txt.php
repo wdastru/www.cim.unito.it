@@ -108,7 +108,8 @@ if ($handle)
 
 unlink($result[0]);
 
-include $relocate_string . "include/updateStatistics.inc.php";
+require $relocate_string . "include/updateStatistics.inc.php";
+require $relocate_string . 'include/updateGazFiles.inc.php';
 
 header('Location: ' . $relocate_string . 'download.php');
 
