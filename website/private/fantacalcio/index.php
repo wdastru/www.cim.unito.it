@@ -8,7 +8,7 @@ require_once $relocate_string . 'classifica.inc.php';
 require_once $relocate_string . 'include/updateFantaCalcGuiListOfDownloads.inc.php';
 require_once $relocate_string . '777/gazFiles.inc.php';
 require_once $relocate_string . 'recursiveChmod.inc.php';
-require $relocate_string . 'include/updateListaFormazioni.inc.php';
+//require $relocate_string . 'include/updateListaFormazioni.inc.php';
 
 //include "dBug.php";
 

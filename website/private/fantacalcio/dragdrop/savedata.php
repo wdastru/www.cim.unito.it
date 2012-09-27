@@ -86,7 +86,7 @@ fwrite($handle, date("D d M Y - H:i:s",time()) . "\n");
 
 fclose($handle);
 
-require("updateListaFormazioni.inc.php");
+require ($relocate_string . "include//updateListaFormazioni.inc.php");
 
 $squadraSubmitted=='false';
 $squadraSubmittedTipo=='false';
