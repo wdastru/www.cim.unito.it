@@ -84,8 +84,8 @@ table.risultati div.Punteggi{ width:100%; font-size:0.7em; font-weight:normal; }
 table.coppa { border-collapse:collapse; padding:0; margin:0; width:100%; }
 table.coppa td{ padding:0; height:25px; }
 table.classifica_gruppi_coppa { width: 550px; }
-table#coppa_gruppi td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; }
-table#coppa_gruppi td.coppaSinistra a:link{ color:linkCoppaLeft; text-decoration:none; }             
+table#coppa_gruppi td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color: }
+table#coppa_gruppi td.coppaSinistra a:link{ color:linkCoppaLeftLink; text-decoration:none; }             
 table#coppa_gruppi td.coppaSinistra a:visited{ color:linkCoppaLeftVisited; text-decoration:none;}   
 table#coppa_gruppi td.coppaSinistra a:active{ color:linkCoppaLeftActive; text-decoration:none;}     
 table#coppa_gruppi td.coppaSinistra a:hover{ color:linkCoppaLeftHover; text-decoration:none;}       
