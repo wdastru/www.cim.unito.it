@@ -7,7 +7,7 @@
     <new>- modifiche all'interfaccia utente</new>
   </resource>
   <resource>
-    <file>FCG_v3.2.1.exe</file>
+    <file>FantaCalcGui_v3.2.1.zip</file>
     <version>3.2.1</version>
     <description>archivio auto-estraente</description>
     <new>- modifiche all'interfaccia utente</new>
@@ -47,6 +47,18 @@
     <version>3.1.0</version>
     <description>archivio auto-estraente</description>
     <new>- updates system</new>
+  </resource>
+  <resource>
+    <file>FantaCalcGui_v3.0.0_Setup.exe</file>
+    <version>3.0.0</version>
+    <description>installer</description>
+    <new></new>
+  </resource>
+  <resource>
+    <file>FCG_v3.0.0.exe</file>
+    <version>3.0.0</version>
+    <description>archivio auto-estraente</description>
+    <new></new>
   </resource>
   <resource>
     <file>FantaCalcGui_v2.5.14_Setup.exe</file>
