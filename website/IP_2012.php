@@ -549,7 +549,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p>
                                 <p class='lecture_author'>
                                 </p></td>
-                                <td>
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/MRI_what_is_most_in_need_2012_Bonmati.pdf">
                                 <p class='lecture_title'>
                                 MRI: what is most in need in the clinics
                                 </p>
@@ -619,15 +620,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Marion De Jong - Rotterdam/Erasmus MC)
                                 </p></td>
-                                <td><!--class="available"><a
-                                href="documenti/IP_Probes_Turin_2012/lectures/basics of chromatography.pdf">-->
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Molinari_US_Modality-IP-26Sept.pdf">
                                 <p class='lecture_title'>
                                 US imaging: basic principles and ecographic agents
                                 </p>
                                 <p class='lecture_author'>
                                 (Filippo Molinari - Torino/Politecnico / Enzo Terreno - Torino/Univ)
                                 </p> </a></td>
-                                <td>
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Targeted_therapies_Cavallo_260912.pdf">
                                 <p class='lecture_title'>
                                 Targeted therapies
                                 </p>
@@ -652,7 +654,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p class='lecture_author'>
                                 (Enzo Terreno - Torino/Univ)
                                 </p> </a></td>
-                                <td>
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Optical_Imaging_Probes_Sep_2012.pdf">
                                 <p class='lecture_title'>
                                 Optical imaging
                                 </p>
