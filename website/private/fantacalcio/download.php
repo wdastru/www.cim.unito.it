@@ -88,7 +88,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 					<tr>";
 			for($i=0; $i<$nPreCampionato; $i++)
 			{
-				echo "<td class='link'>";
+				echo "<td class='link' style='width:" . 100/$nPreCampionato . "%'>";
 				if(isset($fileGaz[$i])) {
 					//MySingleton::writeToLog('$fileGaz[' . $i . '] = "' . $fileGaz[$i] . '"', $relocate_string . "777/logs/download.logs");
 					if($fileGaz[$i] != "")
@@ -150,7 +150,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 				for ($j = 0; $j < 4; $j++)
 				{
 					if(isset($fileGaz[ $i + 8 * $j + $nPreCampionato ]))
-					echo "<td class='link'><a href='777/filesGazzetta/" . $fileGaz[ $i + 8 * $j + $nPreCampionato ] . "'>" . $numeriRomani[ $i + 7 * $j + $nPreCampionato - 3 ] . " giornata</a></td>\n";
+					echo "<td class='link'><a href='777/filesGazzetta/" . $fileGaz[ $i + 8 * $j + $nPreCampionato ] . "'>" . $numeriRomani[ $i + 7 * $j ] . " giornata</a></td>\n";
 					else
 					echo "<td class='link'>&nbsp;</td>\n";
 				}
