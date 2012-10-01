@@ -588,7 +588,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p>
                                 <p class='lecture_author'>
                                 </p></td>
-                                <td>
+                                <td class="available"><a
+                                href="documenti/IP_Probes_Turin_2012/lectures/Lahoutte.pdf">
                                 <p class='lecture_title'>
                                 (Immuno) Imaging using nano-bodies
                                 </p>
