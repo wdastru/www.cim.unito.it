@@ -87,6 +87,10 @@ require_once ("logger.php");
 
 			$i = 0;
 			foreach ($marcatoriCampionato as $key => $value) {
+					
+				if ($key == "" || $key == "-") {
+					continue;
+				}
 				
 				$display = 'table-row';
 				
