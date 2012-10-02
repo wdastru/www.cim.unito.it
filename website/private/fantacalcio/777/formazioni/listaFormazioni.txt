@@ -35,4 +35,3 @@ real_camp_01.txt
 real_camp_02.txt
 real_coppa_1.txt
 real_tipo_valida_fino_20120922-150909.txt
-
