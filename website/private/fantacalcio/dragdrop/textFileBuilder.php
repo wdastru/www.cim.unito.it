@@ -44,6 +44,8 @@ if ($handle)
 		$giocatore[$i] = str_replace('\\', '', $giocatore[$i]);
 		fwrite($handle, $giocatore[$i] . "\n");
 	}
+
+	fwrite($handle, "\n" . $lastModified . "\n");
 }
 
 fclose($handle);
