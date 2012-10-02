@@ -1,5 +1,5 @@
 gruppi0/1/0/71.5/60/BORRIELLO/
-gruppi1/3/0/-/-/-/-/-/
+gruppi1/3/0/0/0/-/-/-/
 gruppi2/-/-/-/-/
 gruppi3/1/1/68/70.5/VIVIANO/ASAMOAH/
 gruppi4/-/-/-/-/
