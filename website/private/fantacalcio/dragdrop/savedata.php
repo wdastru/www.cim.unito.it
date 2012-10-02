@@ -1,6 +1,7 @@
 <?php
 session_start();
 $relocate_string = "../";
+require $relocate_string . 'recursiveChmod.inc.php';
 
 require $relocate_string . '777/setupSquadre.inc.php';
 
@@ -90,6 +91,8 @@ require ($relocate_string . "include//updateListaFormazioni.inc.php");
 
 $squadraSubmitted=='false';
 $squadraSubmittedTipo=='false';
+
+@recursiveChmod($relocate_string . '777/');
 
 $where = "Location: ../dragdrop/dragdrop.php?squadra=" . $_SESSION['Squadra'];
 header($where);
