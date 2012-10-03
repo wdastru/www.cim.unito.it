@@ -2,7 +2,7 @@
 session_start();
 $relocate_string = "../";
 require $relocate_string . 'recursiveChmod.inc.php';
-
+require $relocate_string . 'include/removeUnwantedChars.inc.php';
 require $relocate_string . '777/setupSquadre.inc.php';
 
 if (md5($_POST['Password']) != $ADMIN[$_GET['squadra']] )
@@ -21,14 +21,14 @@ $squadraSubmittedTipo = $_POST['squadraSubmittedTipo'];
 
 $path=$relocate_string . "777//formazioni//";
 
-if ($squadraSubmitted=='true')
-{
-	if ($_POST['spec'] != '')
+if ($squadraSubmitted=='true') {
+	if ($_POST['spec'] != '') {
+	    $_POST['spec'] = removeUnwantedChars($_POST['spec']);
 		$file2save = $path . $_SESSION['Squadra'] . "_" . $_POST['spec'] . ".txt";
-	else
+    } else {
 		$file2save = $path . $_SESSION['Squadra'] . "_" . date("Ymd-His",time()) . ".txt";
-} else if ($squadraSubmittedTipo=='true')
-{
+    }
+} else if ($squadraSubmittedTipo=='true') {
 	copy($path . $_SESSION['Squadra'] . ".txt", $path . $_SESSION['Squadra'] . "_tipo_valida_fino_" . date("Ymd-His",time()) . ".txt");
 	$file2save = $path . $_SESSION['Squadra'] . ".txt";
 }
