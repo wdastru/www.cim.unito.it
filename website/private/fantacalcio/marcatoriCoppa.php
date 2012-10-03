@@ -122,6 +122,10 @@ require_once ("logger.php");
 
 			$i = 0;
 			foreach ($marcatoriCoppa as $key => $value) {
+				
+				if ($key == "" || $key == "-") {
+					continue;
+				}
 
 				$display = 'table-row';
 				
