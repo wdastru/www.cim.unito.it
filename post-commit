@@ -5,8 +5,10 @@
 #
 # To enable this hook, rename this file to "post-commit"
 
-echo -e "\npost-commit hook execution"
+echo -e "\n +-------------------------------------------------+\n"
+echo -e " | post-commit hook execution                      |\n"
 
 chmod -R 777 website/private/fantacalcio/777/ > /dev/null 2>&1
 
-echo -e "website/private/fantacalcio/777/ chmoded to 777\n"
+echo -e " | website/private/fantacalcio/777/ chmoded to 777 |\n"
+echo -e " +-------------------------------------------------+\n\n"
