@@ -38,6 +38,7 @@ website/private/Enzo/cimpass
 website/private/Enzo/uploads/
 website/private/fantacalcio/.htaccess
 website/private/fantacalcio/777/logs/
+website/private/fantacalcio/777/temp.txt
 website/private/fantacalcio/cimpass
 website/private/fantacalcio/download/*.exe
 website/private/fantacalcio/download/*.zip
