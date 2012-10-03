@@ -25,7 +25,7 @@ if($handle)
 			fwrite($handle, "\n");
 		}
 
-		fwrite($handle,  $id[$q] . '/' . $superCoppa[1][$q][0] . '/' . $superCoppa[1][$q][1] . '/' . $superCoppa[2][$q][0] . '/' . $superCoppa[2][$q][1] . '/');
+		fwrite($handle,  $id[$q] . '/' . str_replace(",", ".", $superCoppa[1][$q][0]) . '/' . str_replace(",", ".", $superCoppa[1][$q][1]) . '/' . str_replace(",", ".", $superCoppa[2][$q][0]) . '/' . str_replace(",", ".", $superCoppa[2][$q][1]) . '/');
 
 		$i=0;
 		while( 1 ) // marcatori
@@ -59,7 +59,7 @@ if($handle)
 			fwrite($handle, "\n");
 		}
 
-		fwrite($handle,  $id[12+$s] . '/' . $superCoppa[1][12+$s][0] . '/' . $superCoppa[1][12+$s][1] . '/' . $superCoppa[2][12+$s][0] . '/' . $superCoppa[2][12+$s][1] . '/');
+		fwrite($handle,  $id[12+$s] . '/' . str_replace(",", ".", $superCoppa[1][12+$s][0]) . '/' . str_replace(",", ".", $superCoppa[1][12+$s][1]) . '/' . str_replace(",", ".", $superCoppa[2][12+$s][0]) . '/' . str_replace(",", ".", $superCoppa[2][12+$s][1]) . '/');
 
 		$i=0;
 		while( 1 )
@@ -98,7 +98,7 @@ if($handle)
 			fwrite($handle, "\n");
 		}
 
-		fwrite($handle,  $id[16+$f] . '/' . $superCoppa[1][16+$f][0] . '/' . $superCoppa[1][16+$f][1] . '/' . $superCoppa[2][16+$f][0] . '/' . $superCoppa[2][16+$f][1] . '/');
+		fwrite($handle,  $id[16+$f] . '/' . str_replace(",", ".", $superCoppa[1][16+$f][0]) . '/' . str_replace(",", ".", $superCoppa[1][16+$f][1]) . '/' . str_replace(",", ".", $superCoppa[2][16+$f][0]) . '/' . str_replace(",", ".", $superCoppa[2][16+$f][1]) . '/');
 
 		$i=0;
 		while( 1 )

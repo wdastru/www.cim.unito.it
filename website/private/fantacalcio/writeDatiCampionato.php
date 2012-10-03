@@ -42,7 +42,7 @@ if($handle)
 					}
 				}
 
-				fwrite($handle,  $j . $k . $t . '/' . $super[1][$k][$j][$t][0] . '/' . $super[1][$k][$j][$t][1] . '/' . $super[2][$k][$j][$t][0] . '/' . $super[2][$k][$j][$t][1] . '/');
+				fwrite($handle,  $j . $k . $t . '/' . str_replace(",", ".", $super[1][$k][$j][$t][0]) . '/' . str_replace(",", ".", $super[1][$k][$j][$t][1]) . '/' . str_replace(",", ".", $super[2][$k][$j][$t][0]) . '/' . str_replace(",", ".", $super[2][$k][$j][$t][1]) . '/');
 
 				$i=0;
 				while( $i < count($super[3][$k][$j][$t]) )
