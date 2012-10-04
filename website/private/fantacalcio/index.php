@@ -18,8 +18,9 @@ if(!file_exists($datiCampionatoFileName)) {
 	$handle = fopen($datiCampionatoFileName, 'w');
 	for($i = 0; $i < 4; $i++) {
 		for($j = 0; $j < 7; $j++) {
-			for($k = 0; $k < 4; $k++)
-			fwrite($handle, 'a' . $k . $j . $i . "/////\n");
+			for($k = 0; $k < 4; $k++) {
+				fwrite($handle, 'a' . $k . $j . $i . "/////\n");
+			}
 		}
 	}
 	fclose($handle);
@@ -50,11 +51,7 @@ if(!file_exists($datiCampionatoFileName)) {
 <!-- <body onresize="Count();"> -->
 <body>
 
-
-
 <?php require $relocate_string . 'include/title.inc.php'; ?>
-
-
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 
 	<!-- InstanceBeginEditable name="hiddenBox" -->
@@ -70,22 +67,21 @@ if(!file_exists($datiCampionatoFileName)) {
 		 */
 		$handle = fopen($datiCampionatoFileName,'r');
 
-		while(!feof($handle))
+		for($t=0; $t<4; $t++)	//A&R
 		{
-			for($t=0; $t<4; $t++)	//A&R
+			for($k=0; $k<7; $k++)	// giornate
 			{
-				for($k=0; $k<7; $k++)	// giornate
+				for($j=0; $j<4; $j++)	// partita
 				{
-					for($j=0; $j<4; $j++)	// partita
-					{
-						do{	$tmpString = trim(fgets($handle));
-						}while(substr($tmpString,0,1)=="#");	// commenti
-						$str = strtok($tmpString, "/");
-						$super[1][$k][$j][$t][0] = strtok("/");
-						$super[1][$k][$j][$t][1] = strtok("/");
-						$super[2][$k][$j][$t][0] = strtok("/");
-						$super[2][$k][$j][$t][1] = strtok("/");
-					}
+					do {
+						$tmpString = trim(fgets($handle));
+					} while(substr($tmpString,0,1)=="#");	// commenti
+					
+					$str = strtok($tmpString, "/");
+					$super[1][$k][$j][$t][0] = strtok("/");
+					$super[1][$k][$j][$t][1] = strtok("/");
+					$super[2][$k][$j][$t][0] = strtok("/");
+					$super[2][$k][$j][$t][1] = strtok("/");
 				}
 			}
 		}
