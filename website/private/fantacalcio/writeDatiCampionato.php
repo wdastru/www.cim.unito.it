@@ -14,7 +14,7 @@ if($handle)
 			for($j=0; $j<4; $j++)	// partita
 			{
 				if( $j + $k + $t == 0 ) {
-					// la prima riga non va a capo, dopo sì
+					// la prima riga non va a capo, dopo sï¿½
 					fwrite($handle, "a");
 				} else {
 					fwrite($handle, "\na");
@@ -66,6 +66,8 @@ else
 {
 	echo "file non apribile!";
 }
+
+fwrite($handle, "\n");
 fclose($handle);
 
 ?>
