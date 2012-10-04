@@ -3,13 +3,13 @@ a100/2/1/73.5/69.5/CASSANO/LODI/SPOLLI/
 a200/3/0/80.5/58/CAVANI/CAVANI/CAVANI/
 a300/0/1/65.5/67/BARRIENTOS/
 a010/-/-/-/-/
-a110/-/-/-/-/
+a110/1/1/69/70.5/EL SHAARAWY/CERCI/
 a210/4/1/88.5/70/BIANCHI/BIANCHI/VIDAL/RIGONI M/GILARDINO/
 a310/-/-/-/-/
 a020/-/-/-/-/
 a120/////
-a220/////
-a320/////
+a220/-/-/-/-/
+a320/-/-/-/-/
 a030/////
 a130/////
 a230/////
