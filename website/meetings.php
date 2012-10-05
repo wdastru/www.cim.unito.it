@@ -51,8 +51,7 @@ $localizer = "./";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Meeting /
-                            Congressi / Simposi ecc ... <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Meetings<!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->

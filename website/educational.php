@@ -52,7 +52,7 @@
 					<div class='paddingOuter'>
 						<div id='band'>
 							<h1 id='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->Scuole
+							<!-- InstanceBeginEditable name="subsection title" -->Educational
 							<!-- InstanceEndEditable -->
 							</h1>
 						</div>
