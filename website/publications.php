@@ -33,7 +33,7 @@
 		<div id='pubSubSectOpen'>
 			<!-- InstanceEndEditable -->
 			<div id="subsection0">
-				<div id='sidebar'>
+				<div id='sidebar-narrow'>
 					<div class='padding'>
 					<?php
 					$today = getdate();
@@ -46,7 +46,7 @@
 					?>
 					</div>
 				</div>
-				<div id='content'>
+				<div id='content-large'>
 					<div class='paddingOuter'>
 						<div id='band'>
 							<h1 id='subsectionTitle'>
