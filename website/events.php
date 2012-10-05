@@ -53,6 +53,7 @@
 						</h1>
 					</div>
 					<div class='paddingInner'>
+					    The Centre of Molecular Imaging hosts a number of educational and scientific events
 					</div>
 				</div>
 			</div>

@@ -60,16 +60,16 @@
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<ul>
 								<li>
-									<a href="IP_2009.php" target="_self">"Design, Synthesis and Validation of
-									Imaging Probes" 2009</a>
-								</li>
+                                    <a href="IP_2012.php" target="_self">"Probes and Models for Imaging Diseases and Therapy" 2012</a>
+                                </li>
 								<li>
                                     <a href="IP_2011.php" target="_self">"Design, Synthesis and Validation of
                                     Imaging Probes" 2011</a>
                                 </li>
                                 <li>
-                                    <a href="IP_2012.php" target="_self">"Probes and Models for Imaging Diseases and Therapy" 2012</a>
-                                </li>
+									<a href="IP_2009.php" target="_self">"Design, Synthesis and Validation of
+									Imaging Probes" 2009</a>
+								</li>
 							</ul>
 							<!-- InstanceEndEditable -->
 						</div>
