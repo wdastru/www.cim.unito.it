@@ -26,13 +26,6 @@ $localizer = "./";
 <body>
 	<div id='section2'>
 
-
-
-
-
-
-
-
 	<?php
 	require ('includes/main-nav.php');
 	?>
@@ -495,8 +488,8 @@ $localizer = "./";
 										</a></td>
 										<td class="available"><a
 											href="documenti/IP_Probes_Turin_2011/lectures/M.Botta_2011.pdf">
-												<p class='lecture_title'>Gd(III)_complexes:_mechanism_of
-													action_and_relaxometric_properties</p>
+												<p class='lecture_title'>Gd(III) complexes: mechanism of
+													action and relaxometric properties</p>
 												<p class='lecture_author'>(Mauro Botta)</p>
 										</a></td>
 										<td>
