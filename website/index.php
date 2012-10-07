@@ -73,7 +73,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div id='divider'></div>
                             <div id='columnWrapper'>
                                 <div id='col1'>
-                                    <h2 class='punch orange'><span>RECENT PUBS</span></h2>
+                                    <!--<h2 class='punch orange'><span>RECENT PUBS</span></h2>
                                     <span class="paperTitle">“Gadolinium-doped LipoCEST agents: A
                                         potential novel class of dual 1H-MRI probes”</span>
                                     <br />
@@ -85,7 +85,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <br />
                                     4667-4669, <span class="paperVol">47</span>
                                     <span class="paperVol">(16)</span> , <span>2011</span>
-                                    <div id='divider'></div>
+                                    <div id='divider'></div>-->
                                     <h2 class='punch purple'><span>COST Action TD1004</span></h2>
                                     <a href="COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
                                     <br />
