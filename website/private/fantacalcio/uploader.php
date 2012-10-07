@@ -15,6 +15,9 @@ if (isset($_POST['submitted']))
 			if ($_FILES["file1"]["name"] != "")
 			{
 				move_uploaded_file($_FILES["file1"]["tmp_name"], $_POST['dir'] . $_FILES["file1"]["name"]);
+				
+				shell_exec("cp " . $_POST['dir'] . $_FILES["file1"]["name"] . " " . $relocate_string . "/777/filesGazzetta/excel_files/."); // backup copy of excel file
+				
 				$_SESSION['uploaded_file'] = $_FILES["file1"]["name"];
 				$submitted = "0";
 
