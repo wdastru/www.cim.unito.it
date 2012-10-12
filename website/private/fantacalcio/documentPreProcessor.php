@@ -115,6 +115,13 @@ if(file_exists($filename))
 	$content = str_replace('historyColor8', $grigio_scuro, $content);
 	/* * * * * */
 	
+	/*
+	 * BANNER
+	 * * * * */
+	$content = str_replace('bannerBorderBottom', $panna, $content);
+	$content = str_replace('bannerBorderSide', $verde_scuro, $content);
+	/* * * * */
+	
 	$content = str_replace('bkgdColorMenu', $verde_scuro, $content);
 	$content = str_replace('bkgdColorNormal', $pistacchio, $content);
 	$content = str_replace('bkgdColorDarker', $verde_chiaro, $content);

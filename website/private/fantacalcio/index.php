@@ -42,18 +42,18 @@ if(!file_exists($datiCampionatoFileName)) {
 	<script type="text/javascript" src="version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=banner.css&type=css" />
+		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
-		src="documentPreProcessor.php?document=banner.js&type=javascript"></script>
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
-<!--<body onload="startBanner(0)">-->
-<body>
+<body onload="startBanner(1)">
+<!--<body>-->
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>

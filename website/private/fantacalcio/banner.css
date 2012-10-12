@@ -6,12 +6,13 @@
 	position: absolute;
 	z-index: 1;
 	height: 30px;
-	width: 958px;
-	border: 0 2 0 2;
-	border-color: #333;
+	width: 936px;
 	/*top: 0px;*/
-	background: #FED;
-	border: solid 1px #CCC;
+	border: solid 2px bannerBorderSide;
+	border-bottom: solid 4px bannerBorderBottom;
+	border-top: none;
+	background: textColor1;
+	padding: 0 10px 0 10px;
 }
 .banner h1 {
 	/*position: absolute;*/
@@ -22,21 +23,16 @@
 	/*float: right;*/
 	/*width: 50%;*/
 	font-size: 16px;
-	text-align: right;
+	text-align: left;
 	line-height: 100%;
 }
 #banner1 {
-	background-image: url(banner1.jpg);
 }
 #banner2 {
-	background-image: url(banner2.jpg);
 }
 #banner3 {
-	background: #F90
 }
 #banner4 {
-	background: #FFC
 }
 #banner5 {
-	background: #99CCFF
 }
