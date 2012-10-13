@@ -63,14 +63,10 @@ include("calendario.inc");
 					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
 					style="display: inline" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
-				
-				
-				
-				
-					<?php
+				<?php
 					for($i=0; $i<20; $i++)
 					echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
-					?>
+				?>
 				<input type='hidden' name='Id' value='' />
 			</fieldset>
 		</form>

@@ -1,6 +1,6 @@
 
 <?php
-	$messagesXml = "messages.xml";
+	$messagesXml = $relocate_string . "777/messages.xml";
 	if(file_exists($messagesXml))
 	{
 		//read the contents into a string
@@ -22,7 +22,7 @@
 			echo "<div id='marqueeSlowDown'><input class='button' type='button' value='-' onclick='slowDown();' /></div>";
 			echo "<div id='marqueeSpeedUp'><input class='button' type='button' value='+' onclick='speedUp();' /></div>";	
 			
-			echo "<div class='marquee' id='mycrawler'>
+			echo "<div class='marquee' id='mycrawler' onclick='addMessage();'>
 					<span style='color: #A9FA05;'>";
 					
 			for ($i=0; $i < 150; $i++) { 
@@ -43,8 +43,27 @@
 					echo " [" . $text[$i]['value'] . "]";
 				}
 			}
-			echo "</div>";		
-			
+			echo "
+				</div>
+				<div id='addMessageBox' style='visibility: hidden'>
+					<div id='addMessageBoxTitle'>Aggiungi un nuovo messaggio</div>
+					<br />
+					<form method='post' id='addMessageForm' action='" . $relocate_string . "addMessage.php'>
+						<fieldset class='noBorder'>
+							<textarea name='newMessageTextArea' rows='8' cols='50'></textarea>
+							<br />
+							<br />
+							Autore:&nbsp; <input type='text' value='' name='author'>
+							<br />
+							<br />
+							<input class='button' type='button'	value='Send' onclick='sendMessage();' />
+							&nbsp;&nbsp;&nbsp;
+							<input class='button' type='button'	value='Close' onclick='hideAddMessageBox();' />
+						</fieldset>
+					</form>
+				</div>
+				";
+				
 		} else {
 			/*
 			 * TODO 
@@ -58,3 +77,4 @@
 		 * * * * * * * * * */
 	}
 ?>
+

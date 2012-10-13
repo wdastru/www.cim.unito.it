@@ -377,3 +377,34 @@ function slowDown() {
 		inc_global = 1;
 	}
 }
+
+function addMessage() {
+	if (document.getElementById) {
+		var div = document.getElementById("addMessageBox");
+		div.style.visibility = 'visible';
+		
+	} else {
+		alert(":( DOM NON Supportato!");
+	}
+}
+
+function hideAddMessageBox() {
+	if (document.getElementById) {
+		var div = document.getElementById("addMessageBox");
+		div.style.visibility = 'hidden';
+		
+	} else {
+		alert(":( DOM NON Supportato!");
+	}
+}
+
+function sendMessage() {
+	if (document.getElementById) {
+		var box = document.getElementById("addMessageBox");
+		var form = box.getElementsByTagName('form').item(0);
+		form.submit();
+		div.style.visibility = 'hidden';
+	} else {
+		alert(":( DOM NON Supportato!");
+	}
+}

@@ -64,8 +64,6 @@ if(!file_exists($datiCampionatoFileName)) {
 <?php //require $relocate_string . 'include/banner.inc.php'; ?>
 <?php require $relocate_string . 'include/banner_slider.inc.php'; ?>
 
-	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<!-- InstanceEndEditable -->
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">CLASSIFICA</h1>
