@@ -45,6 +45,7 @@ if(!file_exists($datiCampionatoFileName)) {
 		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
+	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" 
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
 	<script type="text/javascript"
