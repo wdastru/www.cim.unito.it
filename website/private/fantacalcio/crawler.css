@@ -1,0 +1,34 @@
+#marqueeSlowDown {
+	/*width: 20px;*/
+	float: left;
+	padding-top: 4px;
+	padding-left: 4px;
+	background: textColor1;
+	height: 25px;
+	border-bottom: solid 4px textColor4
+}
+
+#marqueeSpeedUp {
+	/*width: 20px;*/
+	float: left;
+	padding-top: 4px;
+	padding-left: 4px;
+	background: textColor1;
+	height: 25px;
+	border-bottom: solid 4px textColor4	
+}
+
+#addMessageBox { 
+	position:absolute;
+	left:35%;
+	margin:auto; 
+	width:30%; 
+	border:2px solid borderColor; 
+	background-color:bkgdHiddenBox; 
+	color:textHiddenBox; 
+	padding:10px; 
+}
+
+#addMessageBoxTitle { height: 30px; width: 350px; line-height: 30px; margin: auto; }
+
+textarea { resize:vertical; }

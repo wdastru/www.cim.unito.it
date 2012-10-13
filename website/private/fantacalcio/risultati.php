@@ -20,21 +20,24 @@ include("calendario.inc");
 	<script type="text/javascript" src="chromejs/chrome.js"></script>
 	<script type="text/javascript" src="version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
+	<link rel="stylesheet" type="text/css"
+		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
+	<script type="text/javascript"
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
 <!-- <body onresize="Count();"> -->
-<body>
-
+<body onload="startBanner(1)">
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
-
-
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
+<?php require $relocate_string . 'include/banner.inc.php'; ?>
+
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenBox' style='visibility: hidden'>
 		<br />
@@ -60,14 +63,10 @@ include("calendario.inc");
 					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
 					style="display: inline" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
-				
-				
-				
-				
-					<?php
+				<?php
 					for($i=0; $i<20; $i++)
 					echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
-					?>
+				?>
 				<input type='hidden' name='Id' value='' />
 			</fieldset>
 		</form>

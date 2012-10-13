@@ -9,4 +9,5 @@
 	$error['missingFile'] = "Indicare un file per l'upload.";
 	$error['dragdrop_err1'] = "dragdrop.php : \$File e/o \$Squadra non sono state settate.";
 	$error['gazFileAlreadyPreset'] = "Il file gazzetta &eacute; gi&aacute presente.";
+	$error['addMessageErr'] = "Errore nel salvataggio del messaggio";
 ?>

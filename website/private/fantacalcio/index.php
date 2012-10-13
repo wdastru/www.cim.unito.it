@@ -41,21 +41,29 @@ if(!file_exists($datiCampionatoFileName)) {
 	<script type="text/javascript" src="chromejs/chrome.js"></script>
 	<script type="text/javascript" src="version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
+	<link rel="stylesheet" type="text/css"
+		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
+	<link rel="stylesheet" type="text/css"
+		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.css&type=css" />
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
+	<script type="text/javascript" 
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
+	<script type="text/javascript"
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>	
 	<!-- InstanceEndEditable -->
 
 </head>
-<!-- <body onresize="Count();"> -->
-<body>
+<body onload="startBanner(1)">
+<!--<body>-->
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
+<?php //require $relocate_string . 'include/banner.inc.php'; ?>
+<?php require $relocate_string . 'include/banner_slider.inc.php'; ?>
 
-	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<!-- InstanceEndEditable -->
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">CLASSIFICA</h1>

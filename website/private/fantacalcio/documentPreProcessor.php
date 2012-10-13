@@ -33,7 +33,7 @@ if(file_exists($filename))
 	$content = str_replace('titleColor', $giallo, $content);
 	$content = str_replace('sectionTitleColor', $verde_scuro, $content);
 	$content = str_replace('borderColor', $verde_scuro, $content);
-	$content = str_replace('white', $bianco, $content);
+	$content = str_replace('bianco', $bianco, $content);
 	$content = str_replace('textColor0', $verde_scuro, $content);
 	$content = str_replace('textColor1', $verde_chiaro, $content);
 	$content = str_replace('textColor2', $grigio_medio, $content);
@@ -114,6 +114,13 @@ if(file_exists($filename))
 	$content = str_replace('historyColor7', $grigio_scuro, $content);
 	$content = str_replace('historyColor8', $grigio_scuro, $content);
 	/* * * * * */
+	
+	/*
+	 * BANNER
+	 * * * * */
+	$content = str_replace('bannerBorderBottom', $panna, $content);
+	$content = str_replace('bannerBorderSide', $verde_scuro, $content);
+	/* * * * */
 	
 	$content = str_replace('bkgdColorMenu', $verde_scuro, $content);
 	$content = str_replace('bkgdColorNormal', $pistacchio, $content);
