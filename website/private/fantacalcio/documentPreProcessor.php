@@ -33,7 +33,7 @@ if(file_exists($filename))
 	$content = str_replace('titleColor', $giallo, $content);
 	$content = str_replace('sectionTitleColor', $verde_scuro, $content);
 	$content = str_replace('borderColor', $verde_scuro, $content);
-	$content = str_replace('white', $bianco, $content);
+	$content = str_replace('bianco', $bianco, $content);
 	$content = str_replace('textColor0', $verde_scuro, $content);
 	$content = str_replace('textColor1', $verde_chiaro, $content);
 	$content = str_replace('textColor2', $grigio_medio, $content);

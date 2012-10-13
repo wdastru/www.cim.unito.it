@@ -45,10 +45,31 @@ if(!file_exists($datiCampionatoFileName)) {
 		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
+	<script type="text/javascript" 
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>	
+	<script type="text/javascript">
+		marqueeInit({
+			uniqueid: 'mycrawler',
+			style: {
+				'padding': '5px',
+				'width': '946px',
+				'background': '#A9FA05',
+				'border': 'solid 2px #006600',
+				'border-bottom': 'solid 4px #FFFF99',
+				'border-top': 'none'
+			},
+			inc: 2, //speed - pixel increment for each iteration of this marquee's movement
+			mouse: 'pause', //mouseover behavior ('pause' 'cursor driven' or false)
+			moveatleast: 4,
+			neutral: 150,
+			savedirection: true
+		});
+	</script>
+	
 	<!-- InstanceEndEditable -->
 
 </head>
@@ -57,7 +78,8 @@ if(!file_exists($datiCampionatoFileName)) {
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
-<?php require $relocate_string . 'include/banner.inc.php'; ?>
+<?php //require $relocate_string . 'include/banner.inc.php'; ?>
+<?php require $relocate_string . 'include/banner_slider.inc.php'; ?>
 
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<!-- InstanceEndEditable -->
