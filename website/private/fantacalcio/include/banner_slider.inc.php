@@ -11,13 +11,20 @@
 		//print_r($text);		
 		
 		$messagesFound = FALSE;
+		$noRecentMessages = FALSE;
 		for($i=0; $i<count($text); ++$i) {
 			if ($text[$i]['tag'] == 'MESSAGE') {
 				$messagesFound = TRUE;
 			}
+			
+			if ($text[$i]['tag'] == 'TIME') {
+				if ((mktime() - $text[$i]['value']) < 7*24*60*60) {
+					$noRecentMessages = TRUE;
+				}
+			}
 		}
 			
-		if ($messagesFound) {
+		if ($messagesFound && $noRecentMessages) {
 				
 			echo "<div id='marqueeSlowDown'><input class='button' type='button' value='-' onclick='slowDown();' /></div>";
 			echo "<div id='marqueeSpeedUp'><input class='button' type='button' value='+' onclick='speedUp();' /></div>";	
@@ -31,6 +38,8 @@
 			echo "</span>";		
 		
 			$firstMessage = TRUE;
+			$nMessages = 0;
+			$maxNoOfMessages = 5;
 			for($i=0; $i<count($text); ++$i) {
 				if ($text[$i]['tag'] == 'BODY') {
 					if ($firstMessage) {
@@ -39,9 +48,20 @@
 						echo " &nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp; ";
 					}
 					echo $text[$i]['value'];
+					$nMessages += 1;
 				} else if ($text[$i]['tag'] == 'AUTHOR') {
 					echo " [" . $text[$i]['value'] . "]";
+				} else if ($text[$i]['tag'] == 'TIME') {
+					//echo ", " . date("d/m/Y", $text[$i]['value']) . "]";
+					
+					if ((mktime() - $text[$i]['value']) > 7*24*60*60) {
+						break; // skip messages older than a week
+					}
 				}
+				
+				//if ($nMessages >= $maxNoOfMessages) {
+				//	break;
+				//}
 			}
 			echo "
 				</div>
@@ -50,7 +70,7 @@
 					<br />
 					<form method='post' id='addMessageForm' action='" . $relocate_string . "addMessage.php'>
 						<fieldset class='noBorder'>
-							<textarea name='newMessageTextArea' rows='8' cols='50'></textarea>
+							<textarea name='newMessageTextArea' rows='3' cols='50'></textarea>
 							<br />
 							<br />
 							Autore:&nbsp; <input type='text' value='' name='author'>

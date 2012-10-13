@@ -31,3 +31,4 @@
 
 #addMessageBoxTitle { height: 30px; width: 350px; line-height: 30px; margin: auto; }
 
+textarea { resize:vertical; }
