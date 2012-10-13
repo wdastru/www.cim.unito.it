@@ -5,10 +5,14 @@
 html { background-color: #000000; /*background-image: url("./figure/ball_three.png");*/}
 body { 	background-color:#FFFFFF; color:textColor0; margin:auto; width:960px; font-size:75%; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:center;} 
 
-#title { background-color:bkgdColorMenu; color:titleColor; font-size:3em; font-weight:bold; line-height:60px; margin-top:20px; border:2px solid borderColor; border-bottom:none;}
-#menu { background-color:bkgdColorMenu; font-size:1em; font-weight:bold; border:2px solid borderColor; border-top:none; border-bottom:4px solid menuColor;}
-#main { background-color:bkgdColorNormal; font-size:12px; border-left:2px solid textColor0; border-right:2px solid borderColor; padding-bottom:16px; padding-top:46px; }
-#footer { background-color:bkgdColorMenu; border:2px solid borderColor; border-top:4px solid textColor4; font-size:1em; text-align:center; bottom: 0; margin-bottom:20px; }
+/*#title { background-color:bkgdColorMenu; color:titleColor; font-size:3em; font-weight:bold; line-height:60px; margin-top:20px; border:2px solid borderColor; border-bottom:none;}*/
+#title { background-color:bkgdColorMenu; color:titleColor; font-size:3em; font-weight:bold; line-height:60px; margin-top:20px; border: none;}
+/*#menu { background-color:bkgdColorMenu; font-size:1em; font-weight:bold; border:2px solid borderColor; border-top:none; border-bottom:4px solid menuColor;}*/
+#menu { background-color:bkgdColorMenu; font-size:1em; font-weight:bold; border:none; border-bottom:4px solid menuColor;}
+/*#main { background-color:bkgdColorNormal; font-size:12px; border-left:2px solid textColor0; border-right:2px solid borderColor; padding-bottom:16px; padding-top:46px; }*/
+#main { background-color:bkgdColorNormal; font-size:12px; border: none; padding-bottom:16px; padding-top:46px; }
+/*#footer { background-color:bkgdColorMenu; border:2px solid borderColor; border-top:4px solid textColor4; font-size:1em; text-align:center; bottom: 0; margin-bottom:20px; }*/
+#footer { background-color:bkgdColorMenu; border: none; border-top:4px solid textColor4; font-size:1em; text-align:center; bottom: 0; margin-bottom:20px; }
 
 tr.tableline {border-bottom:solid; border-bottom-color:tablelineBorder; border-width:1px; }
 .sorteggio { color:#FF0000; }

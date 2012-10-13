@@ -1,0 +1,19 @@
+#marqueeSlowDown {
+	/*width: 20px;*/
+	float: left;
+	padding-top: 4px;
+	padding-left: 4px;
+	background: textColor1;
+	height: 25px;
+	border-bottom: solid 4px textColor4
+}
+
+#marqueeSpeedUp {
+	/*width: 20px;*/
+	float: left;
+	padding-top: 4px;
+	padding-left: 4px;
+	background: textColor1;
+	height: 25px;
+	border-bottom: solid 4px textColor4	
+}

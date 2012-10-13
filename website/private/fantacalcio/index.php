@@ -43,6 +43,8 @@ if(!file_exists($datiCampionatoFileName)) {
 	<!-- InstanceBeginEditable name="additional css" -->
 	<link rel="stylesheet" type="text/css"
 		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
+	<link rel="stylesheet" type="text/css"
+		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.css&type=css" />
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
 	<script type="text/javascript" 
@@ -51,25 +53,6 @@ if(!file_exists($datiCampionatoFileName)) {
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>	
-	<script type="text/javascript">
-		marqueeInit({
-			uniqueid: 'mycrawler',
-			style: {
-				'padding': '5px',
-				'width': '946px',
-				'background': '#A9FA05',
-				'border': 'solid 2px #006600',
-				'border-bottom': 'solid 4px #FFFF99',
-				'border-top': 'none'
-			},
-			inc: 2, //speed - pixel increment for each iteration of this marquee's movement
-			mouse: 'pause', //mouseover behavior ('pause' 'cursor driven' or false)
-			moveatleast: 4,
-			neutral: 150,
-			savedirection: true
-		});
-	</script>
-	
 	<!-- InstanceEndEditable -->
 
 </head>

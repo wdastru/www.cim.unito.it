@@ -14,6 +14,8 @@ Internal workings enhanced for greater speed of execution, less memory usage.
 
 ///////////////// No Need to Edit - Configuration is Done in the On Page Call(s) /////////////////
 
+var inc_global = 2; 
+
 function marqueeInit(config) {
 	if (!document.createElement)
 		return;
@@ -37,29 +39,9 @@ function marqueeInit(config) {
 			'margin' : '0 auto'
 		},
 		direction : 'left',
-		inc : 2, //default speed - pixel increment for each iteration of a marquee's movement
+		inc : inc_global, //default speed - pixel increment for each iteration of a marquee's movement
 		mouse : 'pause' //default mouseover behavior ('pause' 'cursor driven' or false)
 	}, dash, ie = false, oldie = 0, ie5 = false, iever = 0;
-
-	/*@cc_on @*/
-	/*@if(@_jscript_version >= 5)
-	 ie = true;
-	 try{document.documentMode = 2000}catch(e){};
-	 iever = Math.min(document.documentMode, navigator.appVersion.replace(/^.*MSIE (\d+\.\d+).*$/, '$1'));
-	 if(iever < 6)
-	 oldie = 1;
-	 if(iever < 5.5){
-	 Array.prototype.push = function(el){this[this.length] = el;};
-	 ie5 = true;
-	 dash = /(-(.))/;
-	 String.prototype.encamel = function(s, m){
-	 s = this;
-	 while((m = dash.exec(s)))
-	 s = s.replace(m[1], m[2].toUpperCase());
-	 return s;
-	 };
-	 }
-	 @end @*/
 
 	if (!ie5) {
 		dash = /-(.)/g;
@@ -295,6 +277,13 @@ function marqueeInit(config) {
 			}, 300);
 			return;
 		}
+		
+		/*
+		 * aggiunto da me 
+		 * * * * * * * * * */
+		this.mq.inc = inc_global;
+		/* * * * * * * * * */
+		
 		if (this.mq.mouse != 'cursor driven')
 			this.mq.inc = Math.max(1, this.mq.inc);
 		if (d * parseInt(this.m[0].style.left) >= this.w)
@@ -355,3 +344,36 @@ function marqueeInit(config) {
 		window.attachEvent('onresize', resize);
 
 })();
+
+marqueeInit({
+	uniqueid: 'mycrawler',
+	style: {
+		'width': '888px',
+		'background': 'textColor1',
+		'padding': '5px',
+		'border': 'none',
+		'border-bottom': 'solid 4px textColor4',
+		'cursor': 'pointer',
+		'float': 'left'
+	},
+	
+	mouse: 'pause', //mouseover behavior ('pause' 'cursor driven' or false)
+	moveatleast: 4,
+	neutral: 150,
+	savedirection: true
+});
+
+/*
+ * functions added by me
+ * * * * * * * * * * * * */
+
+function speedUp() {
+	inc_global += 1;
+}
+
+function slowDown() {
+	inc_global -= 1;
+	if (inc_global < 1) {
+		inc_global = 1;
+	}
+}
