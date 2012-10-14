@@ -70,7 +70,7 @@
 					<br />
 					<form method='post' id='addMessageForm' action='" . $relocate_string . "addMessage.php'>
 						<fieldset class='noBorder'>
-							<textarea name='newMessageTextArea' rows='3' cols='50'></textarea>
+							<textarea name='newMessageTextArea' rows='3' ></textarea>
 							<br />
 							<br />
 							Autore:&nbsp; <input type='text' value='' name='author'>

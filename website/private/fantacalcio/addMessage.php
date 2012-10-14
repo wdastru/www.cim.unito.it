@@ -1,7 +1,23 @@
 <?php
-	$relocate_string = "./";
 	
+	$relocate_string = "./";
 	$success = TRUE;
+	
+	foreach ($_POST as $key => $value) {
+		$_POST[$key] = str_replace("\r\n", "", $_POST[$key]);
+		$_POST[$key] = str_replace("à", "a'",  $_POST[$key]);
+		$_POST[$key] = str_replace("è", "e'",  $_POST[$key]);
+		$_POST[$key] = str_replace("é", "e'",  $_POST[$key]);
+		$_POST[$key] = str_replace("ì", "i'",  $_POST[$key]);
+		$_POST[$key] = str_replace("ò", "o'",  $_POST[$key]);
+		$_POST[$key] = str_replace("ù", "u'",  $_POST[$key]);
+		$_POST[$key] = str_replace("<", "",    $_POST[$key]);
+		$_POST[$key] = str_replace(">", "",    $_POST[$key]);
+		$_POST[$key] = str_replace("/", "",    $_POST[$key]);
+		$_POST[$key] = str_replace("\\", "",   $_POST[$key]);
+		$_POST[$key] = str_replace("&", "",    $_POST[$key]);
+		$_POST[$key] = str_replace("\"", "'",    $_POST[$key]);
+	}
 	
 	$messagesXml = $relocate_string . "777/messages.xml";
 	if(file_exists($messagesXml))
@@ -12,7 +28,9 @@
 		xml_parse_into_struct($myparser, $str, $text);
 		xml_parser_free($myparser);
 		
+		
 		$handle = fopen($messagesXml, 'w');
+		//$handle = fopen($relocate_string . "777/messages_out.xml", 'w');
 		if($handle)
 		{
 			fwrite($handle, "<?xml version='1.0' encoding='utf-8'?>\n");
@@ -20,7 +38,7 @@
 				if ($text[$i]['type'] == 'open') {
 					fwrite($handle, "<" . strtolower($text[$i]['tag']) . ">\n");
 					if ($text[$i]['tag'] == 'MESSAGES') {
-						fwrite($handle, "<message>\n<body>" . str_replace("\n", "", $_POST['newMessageTextArea']) . "</body>\n<author>" . $_POST['author'] . "</author>\n<time>" . mktime() . "</time>\n</message>\n");
+						fwrite($handle, "<message>\n<body>" . $_POST['newMessageTextArea'] . "</body>\n<author>" . $_POST['author'] . "</author>\n<time>" . mktime() . "</time>\n</message>\n");
 					}	
 				} else if ($text[$i]['type'] == 'complete') {
 					fwrite($handle, "<" . strtolower($text[$i]['tag']) . ">" . $text[$i]['value'] . "</" . strtolower($text[$i]['tag']) . ">\n");

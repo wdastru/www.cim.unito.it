@@ -32,7 +32,7 @@ if(!file_exists($datiCampionatoFileName)) {
 <!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <title>Fantacalcio NMR 2011/12</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 <link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css"
 		href="documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
