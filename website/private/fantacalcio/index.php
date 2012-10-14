@@ -33,13 +33,14 @@ if(!file_exists($datiCampionatoFileName)) {
 <head>
 <title>Fantacalcio NMR 2011/12</title>
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
 	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
 	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=stylesheet.css&type=css" />
-	<script type="text/javascript" src="chromejs/chrome.js"></script>
-	<script type="text/javascript" src="version.js"></script>
+		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<link rel="stylesheet" type="text/css"
 		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
