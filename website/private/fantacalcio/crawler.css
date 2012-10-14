@@ -1,11 +1,17 @@
+#slidingBannerWrapper {
+	border-bottom: solid 4px textColor4;
+	background: textColor1;
+	height: 28px;	
+}
+
 #marqueeSlowDown {
 	/*width: 20px;*/
 	float: left;
 	padding-top: 4px;
 	padding-left: 4px;
 	background: textColor1;
-	height: 25px;
-	border-bottom: solid 4px textColor4
+	border: none;
+	height: 22px;
 }
 
 #marqueeSpeedUp {
@@ -14,10 +20,14 @@
 	padding-top: 4px;
 	padding-left: 4px;
 	background: textColor1;
-	height: 25px;
-	border-bottom: solid 4px textColor4	
+	border: none;
+	height: 22px;
 }
 
+
+#marqueeSlowDown input, #marqueeSpeedUp input { 
+	width: 28px;
+}
 #addMessageBox { 
 	position:absolute;
 	left:35%;

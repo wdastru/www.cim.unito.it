@@ -26,6 +26,7 @@
 			
 		if ($messagesFound && $noRecentMessages) {
 				
+			echo "<div id='slidingBannerWrapper'>";	
 			echo "<div id='marqueeSlowDown'><input class='button' type='button' value='-' onclick='slowDown();' /></div>";
 			echo "<div id='marqueeSpeedUp'><input class='button' type='button' value='+' onclick='speedUp();' /></div>";	
 			
@@ -64,7 +65,8 @@
 				//}
 			}
 			echo "
-				</div>
+					</div> <!-- end of mycrawler -->
+				</div> <!-- end of slidingBannerWrapper -->
 				<div id='addMessageBox' style='visibility: hidden'>
 					<div id='addMessageBoxTitle'>Aggiungi un nuovo messaggio</div>
 					<br />

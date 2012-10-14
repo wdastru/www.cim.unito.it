@@ -352,9 +352,9 @@ marqueeInit({
 		'background': 'textColor1',
 		'padding': '5px',
 		'border': 'none',
-		'border-bottom': 'solid 4px textColor4',
 		'cursor': 'pointer',
-		'float': 'left'
+		'float': 'left',
+		'height': '18px'
 	},
 	
 	mouse: 'pause', //mouseover behavior ('pause' 'cursor driven' or false)
