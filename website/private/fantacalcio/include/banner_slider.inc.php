@@ -42,7 +42,11 @@
 			$nMessages = 0;
 			$maxNoOfMessages = 5;
 			for($i=0; $i<count($text); ++$i) {
-				if ($text[$i]['tag'] == 'BODY') {
+				if ($text[$i]['tag'] == 'TIME') {
+					if ((mktime() - $text[$i]['value']) > 7*24*60*60 && $nMessages >= $maxNoOfMessages) {
+						break; // skip messages older than a week if the $maxNumberOfMessages ha been reached
+					}
+				} else if ($text[$i]['tag'] == 'BODY') {
 					if ($firstMessage) {
 						$firstMessage = FALSE;
 					} else {
@@ -52,18 +56,9 @@
 					$nMessages += 1;
 				} else if ($text[$i]['tag'] == 'AUTHOR') {
 					echo " [" . $text[$i]['value'] . "]";
-				} else if ($text[$i]['tag'] == 'TIME') {
-					//echo ", " . date("d/m/Y", $text[$i]['value']) . "]";
-					
-					if ((mktime() - $text[$i]['value']) > 7*24*60*60) {
-						break; // skip messages older than a week
-					}
 				}
-				
-				//if ($nMessages >= $maxNoOfMessages) {
-				//	break;
-				//}
 			}
+			
 			echo "
 					</div> <!-- end of mycrawler -->
 				</div> <!-- end of slidingBannerWrapper -->

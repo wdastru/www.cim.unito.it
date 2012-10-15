@@ -38,7 +38,7 @@
 				if ($text[$i]['type'] == 'open') {
 					fwrite($handle, "<" . strtolower($text[$i]['tag']) . ">\n");
 					if ($text[$i]['tag'] == 'MESSAGES') {
-						fwrite($handle, "<message>\n<body>" . $_POST['newMessageTextArea'] . "</body>\n<author>" . $_POST['author'] . "</author>\n<time>" . mktime() . "</time>\n</message>\n");
+						fwrite($handle, "<message>\n<time>" . mktime() . "</time>\n<body>" . $_POST['newMessageTextArea'] . "</body>\n<author>" . $_POST['author'] . "</author>\n</message>\n");
 					}	
 				} else if ($text[$i]['type'] == 'complete') {
 					fwrite($handle, "<" . strtolower($text[$i]['tag']) . ">" . $text[$i]['value'] . "</" . strtolower($text[$i]['tag']) . ">\n");
