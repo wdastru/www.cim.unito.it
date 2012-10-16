@@ -2,7 +2,7 @@
 function showBoxCampionato(id, evt) {
 	oldRetiA = 0;
 	oldRetiB = 0;
-
+	
 	if (document.getElementById) {
 		var source = document.getElementById(id);
 		var hiddenBox = document.getElementById('hiddenBox');
@@ -94,6 +94,7 @@ function showBoxCampionato(id, evt) {
 		alert(":( DOM NON Supportato!");
 	}
 }
+
 function showBoxCoppa(id, evt) {
 	oldRetiA = 0;
 	oldRetiB = 0;

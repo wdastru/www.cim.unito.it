@@ -39,7 +39,6 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<link rel="stylesheet" type="text/css"
 		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
-		<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 		<!-- InstanceBeginEditable name="additional css" -->
 		<link rel="stylesheet" type="text/css"
@@ -56,28 +55,32 @@ xmlns="http://www.w3.org/1999/xhtml">
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
 		<!-- InstanceEndEditable -->
 
+		<!-- InstanceBeginEditable name="jQuery" -->
+		<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#avulseToggleButton').click(function () {
+					$('#avulse').toggle('fast');
+				});
+			});
+		</script>
+		<!-- InstanceEndEditable -->
+
 	</head>
 	<body onload="startBanner(1)">
 		<!--<body>-->
-
+			
 		<?php
-	require $relocate_string . 'include/title.inc.php';
- ?>
-		<?php
+			require $relocate_string . 'include/title.inc.php';
 			require $relocate_string . 'include/menu.inc.php';
- ?>
-		<?php //require $relocate_string . 'include/banner.inc.php'; ?>
-		<?php
-			require $relocate_string . 'include/banner_slider.inc.php';
- ?>
+ 			require $relocate_string . 'include/banner_slider.inc.php';
+		 ?>
 
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
 			<h1 class="title">CLASSIFICA</h1>
-			<p>
-				&nbsp;
-			</p>
-
+			<br />
+			
 			<?php
 			/*
 			 *  lettura file datiCampionato
@@ -265,10 +268,18 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 			$classifica_calls_counter = 0;
 
-			echo "<div id='avulse_wrapper'>
-<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
-<br /><br />
-<div id='avulse'>";
+			/*echo 
+			<div id='avulse_wrapper'>
+				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
+				<br /><br />
+				<div id='avulse'>";
+			 */
+
+			echo "
+			<div id='avulse_wrapper'>
+				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' />
+				<br /><br />
+				<div id='avulse'>";
 
 			// --> risoluzione gruppi
 			for ($i = 0; $i < count($containers); $i++) {

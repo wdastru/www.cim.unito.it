@@ -29,6 +29,18 @@ include("calendarioCoppa.inc");
 		src="documentPreProcessor.php?document=coppa1213.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#avulseToggleButton').click(function () {
+				$('#avulse').toggle('fast');
+			});
+
+		});
+	</script>
+	<!-- InstanceEndEditable -->
+
 </head>
 <!-- <body onresize="Count();"> -->
 <body>
@@ -143,8 +155,10 @@ include("calendarioCoppa.inc");
 		<br />
 		<!-- classifiche avulse -->
 		<div id='avulse_wrapper'>
-			<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse'
-				onclick='toggleAvulse();' /> <br /> <br />
+			<!--<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse'
+				onclick='toggleAvulse();' /> --> 
+			<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse' /> 
+				<br /> <br />
 			<div id='avulse'>
 				<table id='avulsa0' class='classifica'>
 					<tr class='tableline'>

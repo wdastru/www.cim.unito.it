@@ -185,11 +185,11 @@ if ($_GET['squadra'] != '')
 				if ($allPlayerStats[$i][2] == $role[$k])
 				{
 					$row_counter = $row_counter + 1;
-					if ($i & 1)
+					if ($i % 2)
 						echo "<tr class='normalRow' id='offer_" . $k . "_" . $row_counter . "'>";
 					else
 						echo "<tr class='alternateRow' id='offer_" . $k . "_" . $row_counter . "'>";
-
+					
 					echo "<td class='bodyColumn0'>" . $allPlayerStats[$i][0] . "</td><td class='bodyColumn1'>" . $allPlayerStats[$i][1] . "</td>";
 
 					$libero = true;
