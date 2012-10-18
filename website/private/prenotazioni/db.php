@@ -71,19 +71,19 @@ $thisday = date("d");
 $thismonth = date("m");
 $thisyear = date("Y");
 
-if ($strumento == $instrument[4] || $strumento == $instrument[5] || $strumento == $instrument[6])// PharmaScan, Biospec e PET
-{
+//if ($strumento == $instrument[4] || $strumento == $instrument[5] || $strumento == $instrument[6])// PharmaScan, Biospec e PET
+//{
 	// delete old bookings (more than one year old)
 	$month2delete = $thismonth - 1;
 	$year2delete = $thisyear - 1;
 	$sql = "DELETE FROM `" . $DBName . "`.`" . $strumento . "` WHERE `" . $strumento . "`.`Date` < " . date("Ymd", get_sunday_before($year2delete, $month2delete, $thisday));
 	mysql_query($sql, $con);
-} else {
-	// delete old bookings (more than one month old)
-	$month2delete = $thismonth - 1;
-	$sql = "DELETE FROM `" . $DBName . "`.`" . $strumento . "` WHERE `" . $strumento . "`.`Date` < " . date("Ymd", get_sunday_before($thisyear, $month2delete, $thisday));
-	mysql_query($sql, $con);
-}
+//} else {
+//	// delete old bookings (more than one month old)
+//	$month2delete = $thismonth - 1;
+//	$sql = "DELETE FROM `" . $DBName . "`.`" . $strumento . "` WHERE `" . $strumento . "`.`Date` < " . date("Ymd", get_sunday_before($thisyear, $month2delete, $thisday));
+//	mysql_query($sql, $con);
+//}
 
 if ($tipo == "preno") {
 	$sql = "SELECT * FROM `" . $strumento . "` WHERE `Date` = " . $data . " AND `Hour` >= " . $oraStart . " AND `Hour` < " . $oraEnd;
