@@ -12,12 +12,15 @@ include ("variables.php");
 include ("instruments.php");
 include ("functions.php");
 include ("connect.php");
+
 if (isset($_GET['date'])) {
 	$date = $_GET['date'];
 }
+
 if (!isset($_SESSION['conflict'])) {
 	$_SESSION['conflict'] = "";
 }
+
 if (!isset($_POST['instrument']) && !isset($_SESSION['strumento'])) {
 	$_SESSION['strumento'] = $instrument[0];
 } else if (isset($_POST['instrument'])) {
@@ -592,19 +595,28 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 												echo "<td class=\"$class\">$content</td>";
 											}
-										}// fine loop giorni
+										} // fine loop giorni
 										echo "</tr>";
-									}// fine loop ore
+									} // fine loop ore
+								?>
 
-									echo "</table><br />";
-									echo "</div>";
-									// end of table div
+								</table>
+								<br />
+								</div>
+								<!-- end of table div -->
+								
+								<!-- <a href="<?php echo $localizer; ?>history.php" >Download history</a> -->
+								<a class="" href="history.php?instrument=<?php echo $_SESSION['strumento']?>" ><img src="images/Excel-icon.png" /></a><span class='history'>Download history</span></a>
+									
+								<?php
 									echo $guidelines[$_SESSION['strumento']];
-									echo "<br /><br />";
 									mysql_close($con);
 								?>
+								
+								<br /><br />
 								</div>
 								<!-- end of main div -->
+								
 								<!-- InstanceEndEditable name="subsection content" -->
 								</div>
 								</div>

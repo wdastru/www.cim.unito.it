@@ -77,3 +77,4 @@ div#conflict { margin:auto; padding:0; color:#FFFFFF; background-color: #FF0000;
 #conflictMessage { font-size:14px; font-weight:bold; text-align:center; }
 #conflictTitle { font-size:20px; font-weight:bold; text-align:center; }
 
+span.history { height: 39px; vertical-align: middle; padding-left: 5px; display: inline-block; font-weight: bold; }

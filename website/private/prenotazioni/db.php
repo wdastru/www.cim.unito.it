@@ -111,9 +111,9 @@ if ($tipo == "preno") {
 				$sql = "INSERT INTO `" . $DBName . "`.`" . $strumento . "` ( `Date` , `User` , `Hour` , `StartHour` , `EndHour`, `Note`, `Color` ) VALUES ( '" . $data . " ', '" . $utente . "', '" . $ore[$j] . "', '" . $oraStart . "', '" . $oraEnd . "', '" . $note . "', '" . $color . "')";
 				mysql_query($sql, $con);
 
-				$handle = fopen('db.log', 'a');
-				fwrite($handle, "\n" . date("d-m-Y H:i:s") . " (+) " . $sql);
-				fclose($handle);
+				//$handle = fopen('db.log', 'a');
+				//fwrite($handle, "\n" . date("d-m-Y H:i:s") . " (+) " . $sql);
+				//fclose($handle);
 			} else// c'e' gia' una prenotazione: si ferma e aggiorna la EndHour
 			{
 				//prima legge le informazioni presenti
@@ -127,9 +127,9 @@ if ($tipo == "preno") {
 				//				echo $sql;
 				$result = mysql_query($sql, $con);
 
-				$handle = fopen('db.log', 'a');
-				fwrite($handle, "\n" . date("d-m-Y H:i:s") . " (+) " . $sql);
-				fclose($handle);
+				//$handle = fopen('db.log', 'a');
+				//fwrite($handle, "\n" . date("d-m-Y H:i:s") . " (+) " . $sql);
+				//fclose($handle);
 
 				break;
 			}
