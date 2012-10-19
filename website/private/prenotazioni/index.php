@@ -74,7 +74,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 	<link rel="icon" href="<?php echo $localizer . 'images/favicon.gif'?>" type="image/gif" />
 	<body onload='aBoxIsOn=false;'>
 		<div id='section7'>
-			<div id='newPrenoBox' style='visibility: hidden'>
+			<div id='newPrenoBox' class='shadow' style='visibility: hidden'>
 				<h1>PRENOTAZIONE</h1>
 				<span>&nbsp;</span>
 				<br />
@@ -163,7 +163,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				</form>
 			</div>
 			<!-- end of newPrenoBox div -->
-			<div id='cancPrenoBox' style='visibility: hidden'>
+			<div id='cancPrenoBox' class='shadow' style='visibility: hidden'>
 				<h1>CANCELLAZIONE</h1>
 				<br />
 				<div id='giorno'>
@@ -606,7 +606,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<!-- end of table div -->
 								
 								<!-- <a href="<?php echo $localizer; ?>history.php" >Download history</a> -->
-								<a class="" href="history.php?instrument=<?php echo $_SESSION['strumento']?>" ><img src="images/Excel-icon.png" /></a><span class='history'>Download history</span></a>
+								<a class="" href="history.php?instrument=<?php echo $_SESSION['strumento']?>" ><img id='excel_icon' src="images/Excel-icon.png" /><span class='history'>Download history</span></a>
 									
 								<?php
 									echo $guidelines[$_SESSION['strumento']];
