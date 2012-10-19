@@ -40,15 +40,9 @@ if (isset($_POST['toCancel']))
 <!-- <body onresize="Count();"> -->
 <body>
 
-
-
-
 <?php require $relocate_string . 'include/title.inc.php'; ?>
-
-
-
-
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
+
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenPasswordBox' style='visibility: hidden'>
 		<br /> <br />
@@ -75,9 +69,6 @@ if (isset($_POST['toCancel']))
 		<br />
 		<div id='listaOfferte'>
 			
-			
-			
-			
 		<?php
 		if(!file_exists("..//777//offerte//"))
 		{
@@ -92,20 +83,22 @@ if (isset($_POST['toCancel']))
 		$dir = "..//777//offerte//*.txt";
 		$result = glob($dir);
 
-		for($i=0; $i<count($result); $i++)
-		{
-			strtok($result[$i],"//");
-			strtok("//");
-			strtok("//");
-			$filename[$i]=strtok("//");
-			strtok($filename[$i],"_");
-			strtok("_");
-			$day[$i]=strtok("-");
-			$time[$i]=strtok("_.");
-			$timeStamp[$i]=$day[$i].$time[$i]; 
+		if (count($result) > 0) {
+			for($i=0; $i<count($result); $i++)
+			{
+				strtok($result[$i],"//");
+				strtok("//");
+				strtok("//");
+				$filename[$i]=strtok("//");
+				strtok($filename[$i],"_");
+				strtok("_");
+				$day[$i]=strtok("-");
+				$time[$i]=strtok("_.");
+				$timeStamp[$i]=$day[$i].$time[$i]; 
+			}
+			
+			array_multisort($timeStamp, SORT_NUMERIC, SORT_DESC, $result, $filename);
 		}
-		
-		array_multisort($timeStamp, SORT_NUMERIC, SORT_DESC, $result, $filename);
 		
 		for($i=0; $i<count($result); $i++)
 		{
@@ -142,15 +135,8 @@ if (isset($_POST['toCancel']))
 		<!-- InstanceEndEditable -->
 	</div>
 	
-	
-	
-	
-	
-	
-	
-	
-
 	<?php include $relocate_string . 'include/footer.inc.php'?>
+	
 	<!-- dragHelper for dragdrop.php -->
 	<div id='dragHelper' style="position: absolute; visibility: hidden;"></div>
 </body>
