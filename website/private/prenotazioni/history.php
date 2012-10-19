@@ -6,16 +6,18 @@
 	$_SESSION['DBName'] = $DBName;
 	mysql_select_db($_SESSION['DBName'], $con);
 
-	$sql = mysql_query("SELECT `Date`,`User`,`StartHour`,`EndHour`,`Note` FROM `" . $strumento . "` ORDER BY `Date`");
+	$sql = mysql_query("SELECT `Date`,`User`,`StartHour`,`EndHour`,`Note` FROM `" . $strumento . "` ORDER BY `Date`,`StartHour`");
 	$count = mysql_num_fields($sql);
 	$header = '';
 	$data = '';
 	
-	//print_r($sql);
-
 	for ($i = 0; $i < $count; $i++) {
 		$header .= mysql_field_name($sql, $i) . "\t";
+        
 	}
+	
+	$header .= "Total\t";
+    $header .= "Night\t";
 
 	$prevUser = "";
 	$prevStartHour = "";
@@ -26,8 +28,8 @@
 
 		$line = '';
 		foreach ($row as $key => $value) {
-
-			if ($key == "User") {
+		    
+            if ($key == "User") {
 				$User = $value;
 			} else if ($key == "StartHour") {
 				$StartHour = $value;
@@ -50,11 +52,6 @@
 			}
 		}
 
-		//echo $User . "<br>";
-		//echo $StartHour . "<br>";
-		//echo $EndHour . "<br>";
-		//echo $Note . "<br>";
-        
 		if ($User == $prevUser && $StartHour == $prevStartHour && $EndHour == $prevEndHour && $Note == $prevNote) {
 			continue;
 		} else {
@@ -62,9 +59,29 @@
 			$prevStartHour = $StartHour;
 			$prevEndHour = $EndHour;
         	$prevNote = $Note;
-        
-        	$data .= $line . "\n";
+            
+            $StartHour = preg_replace("/^([0-9]{1,2})[1][5]$/", "$1 25", $StartHour);
+            $StartHour = preg_replace("/^([0-9]{1,2})[3][0]$/", "$1 50", $StartHour);
+            $StartHour = preg_replace("/^([0-9]{1,2})[4][5]$/", "$1 75", $StartHour);
+            $StartHour = preg_replace("/\s/", "", $StartHour);
+            
+            $EndHour = preg_replace("/^([0-9]{1,2})[1][5]$/", "$1 25", $EndHour);
+            $EndHour = preg_replace("/^([0-9]{1,2})[3][0]$/", "$1 50", $EndHour);
+            $EndHour = preg_replace("/^([0-9]{1,2})[4][5]$/", "$1 75", $EndHour);
+            $EndHour = preg_replace("/\s/", "", $EndHour);
+                
+            if ($EndHour == 2100) {
+                $Total = (($EndHour - $StartHour)/100 - 1);
+                $line .= "\t" . preg_replace("/\./", ",", $Total);
+                $line .= "\tnotte";
+            } else {
+                $Total = (($EndHour - $StartHour)/100);
+                preg_replace("/\./", ",", $Total);
+                $line .= "\t" . preg_replace("/\./", ",", $Total);    
+            }
 		}
+        
+        $data .= $line . "\n";
 	}
 
 	if ($data == "") {
