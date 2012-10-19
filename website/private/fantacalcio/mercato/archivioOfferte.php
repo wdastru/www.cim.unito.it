@@ -76,21 +76,23 @@ if (isset($_POST['toCancel']))
 		$dir = "..//777//offerte//archive//*.txt";
 		$result = glob($dir);
 		
-		for($i=0; $i<count($result); $i++)
-		{
-			strtok($result[$i],"//");
-			strtok("//");
-			strtok("//");
-			strtok("//");
-			$filename[$i]=strtok("//");
-			strtok($filename[$i],"_");
-			strtok("_");
-			$day[$i]=strtok("-");
-			$time[$i]=strtok("_.");
-			$timeStamp[$i]=$day[$i].$time[$i];
-		}
-		
-		array_multisort($timeStamp, SORT_NUMERIC, SORT_DESC, $result, $filename);
+        if (count($result) > 0) {
+    		for($i=0; $i<count($result); $i++)
+    		{
+    			strtok($result[$i],"//");
+    			strtok("//");
+    			strtok("//");
+    			strtok("//");
+    			$filename[$i]=strtok("//");
+    			strtok($filename[$i],"_");
+    			strtok("_");
+    			$day[$i]=strtok("-");
+    			$time[$i]=strtok("_.");
+    			$timeStamp[$i]=$day[$i].$time[$i];
+    		}
+    		
+    		array_multisort($timeStamp, SORT_NUMERIC, SORT_DESC, $result, $filename);
+        }
 		
 		for($i=0; $i<count($result); $i++)
 		{
