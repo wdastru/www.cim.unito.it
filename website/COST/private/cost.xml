@@ -7,11 +7,6 @@
             <mail>silvio.aime@unito.it</mail>
             <resources></resources>
         </person>
-        <!--
-        <person>
-        <role>Vice Chair</role>
-        </person>
-        -->
         <person>
             <role>DC Rapporteur of TD1004 BMBS</role>
             <name>Prof. Pavle ANDJUS</name>
@@ -347,6 +342,12 @@
             <name>Mustafa Selman YAVUZ</name>
             <address></address>
             <mail>selmanyavuz@selcuk.edu.tr</mail>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Donus TUNCEL</name>
+            <address></address>
+            <mail>dtuncel@fen.bilkent.edu.tr</mail>
         </person>
     </section>
     <section id='United Kingdom'>
