@@ -41,8 +41,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 		<!-- InstanceBeginEditable name="additional css" -->
-		<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
+		<!-- <link rel="stylesheet" type="text/css"
+		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" /> -->
 		<link rel="stylesheet" type="text/css"
 		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.css&type=css" />
 		<!-- InstanceEndEditable -->
@@ -51,8 +51,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
 		<script type="text/javascript"
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
-		<script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
+		<!-- <script type="text/javascript"
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script> -->
 		<!-- InstanceEndEditable -->
 
 		<!-- InstanceBeginEditable name="jQuery" -->

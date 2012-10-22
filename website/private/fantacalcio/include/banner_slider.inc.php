@@ -23,8 +23,16 @@
 				}
 			}
 		}
-			
-		if ($messagesFound && $noRecentMessages) {
+		
+		if ($messagesFound) {
+			//echo "messages found.";
+		}
+		
+		if ($noRecentMessages) {
+			//echo "no recent messages";
+		}
+		
+		if ($messagesFound) {
 				
 			echo "<div id='slidingBannerWrapper'>";	
 			echo "<div id='marqueeSlowDown'><input class='button' type='button' value='-' onclick='slowDown();' /></div>";
@@ -83,15 +91,15 @@
 				
 		} else {
 			/*
-			 * TODO 
 			 * no messaggi
 			 * presenti
 			 * * * * * * * */
 		}
 	} else {
 		/*
-		 * TODO completare ?
-		 * * * * * * * * * */
+		 * messages.xml
+		 * non trovato
+		 * * * * * * * */
 	}
 ?>
 
