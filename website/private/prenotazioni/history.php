@@ -19,8 +19,9 @@
 	$header .= "Total\t";
     $header .= "Night\t";
 
-	$prevUser = "";
-	$prevStartHour = "";
+	$prevDate = "";
+    $prevUser = "";
+    $prevStartHour = "";
 	$prevEndHour = "";
 	$prevNote = "";
 		
@@ -37,7 +38,9 @@
 				$EndHour = $value;
 			} else if ($key == "Note") {
 				$Note = $value;
-			}
+			} else if ($key == "Date") {
+                $Date = $value;
+            }  
 
 			if ($key === 'date_of_reg') {
 				$value = '"' . date('d/m/Y', $value) . '"';
@@ -52,11 +55,12 @@
 			}
 		}
 
-		if ($User == $prevUser && $StartHour == $prevStartHour && $EndHour == $prevEndHour && $Note == $prevNote) {
+		if ($Date == $prevDate && $User == $prevUser && $StartHour == $prevStartHour && $EndHour == $prevEndHour && $Note == $prevNote) {
 			continue;
 		} else {
-			$prevUser = $User;
-			$prevStartHour = $StartHour;
+			$prevDate = $Date;
+            $prevUser = $User;
+            $prevStartHour = $StartHour;
 			$prevEndHour = $EndHour;
         	$prevNote = $Note;
             
@@ -94,6 +98,5 @@
 	header("Expires: 0");
 
 	echo $header . "\n" . $data;
-
 }
 ?>

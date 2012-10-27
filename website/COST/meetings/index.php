@@ -53,6 +53,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <li>
                                     <a href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Feb2012.php">COST TD1004 Meeting - Torino, 17-18 February 2012</a>
                                 </li>
+                                <li>
+                                    <a href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Oct2012.php">COST TD1004 Meeting - London, 28-30 October 2012</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
