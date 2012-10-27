@@ -134,22 +134,22 @@ clearTimeout(this.delayhide)
 },
 
 startchrome:function(){
-for (var ids=0; ids<arguments.length; ids++){
-var menuitems=document.getElementById(arguments[ids]).getElementsByTagName("a")
-for (var i=0; i<menuitems.length; i++){
-if (menuitems[i].getAttribute("rel")){
-var relvalue=menuitems[i].getAttribute("rel")
-menuitems[i].onmouseover=function(e){
-var event=typeof e!="undefined"? e : window.event
-cssdropdown.dropit(this,event,this.getAttribute("rel"))
-}
-}
-}
-}
-if (window.createPopup && !window.XmlHttpRequest){ //if IE5.5 to IE6, create iframe for iframe shim technique
-document.write('<IFRAME id="iframeshim"  src="" style="display: none; left: 0; top: 0; z-index: 90; position: absolute; filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)" frameBorder="0" scrolling="no"></IFRAME>')
-this.shimobject=document.getElementById("iframeshim") //reference iframe object
-}
+	for (var ids=0; ids<arguments.length; ids++){
+		var menuitems=document.getElementById(arguments[ids]).getElementsByTagName("a")
+		for (var i=0; i<menuitems.length; i++){
+			if (menuitems[i].getAttribute("rel")){
+				var relvalue=menuitems[i].getAttribute("rel")
+				menuitems[i].onmouseover=function(e){
+					//var event=typeof e!="undefined"? e : window.event
+					//cssdropdown.dropit(this,event,this.getAttribute("rel"))
+				}
+			}
+		}
+	}
+	if (window.createPopup && !window.XmlHttpRequest){ //if IE5.5 to IE6, create iframe for iframe shim technique
+		document.write('<IFRAME id="iframeshim"  src="" style="display: none; left: 0; top: 0; z-index: 90; position: absolute; filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)" frameBorder="0" scrolling="no"></IFRAME>')
+		this.shimobject=document.getElementById("iframeshim") //reference iframe object
+	}
 }
 
 }

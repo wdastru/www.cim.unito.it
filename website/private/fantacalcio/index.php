@@ -63,9 +63,56 @@ xmlns="http://www.w3.org/1999/xhtml">
 					$('#avulse').toggle('fast');
 				});
 				
-				$('li.dropmenu3').mouseover(function() {
-					;
+				$('li.dropmenu1').mouseover(function() {
+					$('div#dropmenu1').css("left", "496px");
+					$('div#dropmenu1').fadeIn(250);
 				});
+				
+				$('li.dropmenu1').mouseout(function() {
+					//setTimeout(50);
+					//if ($('div#dropmenu1').is(':hover')) {
+					//		alert('hello');
+					//}
+				
+					$('div#dropmenu1').fadeOut(500);
+				});
+				
+				$('li.dropmenu2').mouseover(function() {
+					$('div#dropmenu2').css("left", "592px");
+					$('div#dropmenu2').fadeIn(250);
+				});
+				
+				$('li.dropmenu2').mouseout(function() {
+					$('div#dropmenu2').fadeOut(500);
+				});
+				
+				$('li.dropmenu3').mouseover(function() {
+					$('div#dropmenu3').css("left", "692px");
+					$('div#dropmenu3').fadeIn(250);
+				});
+				
+				$('li.dropmenu3').mouseout(function() {
+					$('div#dropmenu3').fadeOut(500);
+				});
+				
+				$('li.dropmenu4').mouseover(function() {
+					$('div#dropmenu4').css("left", "774px");
+					$('div#dropmenu4').fadeIn(250);
+				});
+				
+				$('li.dropmenu4').mouseout(function() {
+					$('div#dropmenu4').fadeOut(500);
+				});
+				
+				$('li.dropmenu5').mouseover(function() {
+					$('div#dropmenu5').css("left", "404px");
+					$('div#dropmenu5').fadeIn(250);
+				});
+				
+				$('li.dropmenu5').mouseout(function() {
+					$('div#dropmenu5').fadeOut(500);
+				});
+				
 			});
 		</script>
 		<!-- InstanceEndEditable -->
