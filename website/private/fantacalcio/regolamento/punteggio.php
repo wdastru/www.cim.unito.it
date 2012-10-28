@@ -9,6 +9,9 @@
 <link rel="stylesheet" type="text/css" href="../documentPreProcessor.php?document=stylesheet.css&type=css" />
 <script type="text/javascript" src="../chromejs/chrome.js"></script>
 <script type="text/javascript" src="../version.js"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 <!-- InstanceBeginEditable name="additional css" -->
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="additional js" -->
@@ -126,7 +129,7 @@
                 </tr>
                 <tr>
                   <td>&nbsp;</td>
-                  <td><p class="justify">Un giocatore di movimento che abbia giocato almeno 25 minuti (recupero escluso) senza bonus/malus e sia stato giudicato s.v. o n.g. riceverà 5,5 punti d’ufficio. Se ha giocato meno di 25 minuti verrà sostituito.</p></td>
+                  <td><p class="justify">Un giocatore di movimento che abbia giocato almeno 25 minuti (recupero escluso) senza bonus/malus e sia stato giudicato s.v. o n.g. riceverï¿½ 5,5 punti dï¿½ufficio. Se ha giocato meno di 25 minuti verrï¿½ sostituito.</p></td>
                 </tr>
                 <tr>
                   <td>&nbsp;</td>
@@ -134,7 +137,7 @@
                 </tr>
                 <tr>
                   <td>&nbsp;</td>
-                  <td><p class="justify">Un giocatore di movimento con bonus/malus che sia stato giudicato s.v. o n.g. riceverà 6 punti d’ufficio, +/- eventuali bonus/malus.</p></td>
+                  <td><p class="justify">Un giocatore di movimento con bonus/malus che sia stato giudicato s.v. o n.g. riceverï¿½ 6 punti dï¿½ufficio, +/- eventuali bonus/malus.</p></td>
                 </tr>
         </table></td>
     </tr>

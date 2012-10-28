@@ -28,6 +28,9 @@ include("calendario.inc");
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 	<!-- InstanceEndEditable -->
 
 </head>

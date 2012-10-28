@@ -51,36 +51,26 @@ xmlns="http://www.w3.org/1999/xhtml">
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
 		<script type="text/javascript"
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
-		<!-- <script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script> -->
-		<!-- InstanceEndEditable -->
-
 		<!-- InstanceBeginEditable name="jQuery" -->
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#avulseToggleButton').click(function () {
-					$('#avulse').toggle('fast');
-				});
-			});
-		</script>
+		<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 		<!-- InstanceEndEditable -->
 
 	</head>
 	<body onload="startBanner(1)">
 		<!--<body>-->
-			
+
 		<?php
-			require $relocate_string . 'include/title.inc.php';
-			require $relocate_string . 'include/menu.inc.php';
- 			require $relocate_string . 'include/banner_slider.inc.php';
-		 ?>
+		require $relocate_string . 'include/title.inc.php';
+		require $relocate_string . 'include/menu.inc.php';
+		require $relocate_string . 'include/banner_slider.inc.php';
+		?>
 
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
 			<h1 class="title">CLASSIFICA</h1>
 			<br />
-			
+
 			<?php
 			/*
 			 *  lettura file datiCampionato
@@ -268,18 +258,22 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 			$classifica_calls_counter = 0;
 
-			/*echo 
-			<div id='avulse_wrapper'>
-				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
-				<br /><br />
-				<div id='avulse'>";
+			/*echo
+			 <div id='avulse_wrapper'>
+			 <input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
+			 <br />
+			 <br />
+			 <div id='avulse'>
+			 ";
 			 */
 
 			echo "
-			<div id='avulse_wrapper'>
-				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' />
-				<br /><br />
-				<div id='avulse'>";
+					<div id='avulse_wrapper'>
+						<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' />
+						<br />
+						<br />
+						<div id='avulse'>
+							";
 
 			// --> risoluzione gruppi
 			for ($i = 0; $i < count($containers); $i++) {
@@ -299,17 +293,24 @@ xmlns="http://www.w3.org/1999/xhtml">
 			}
 			// <-- applica correzione a classifica[][]
 
-			echo "</div></div>";
+			echo "
+						</div>
+					</div>";
 
 			/*
 			 *  Visualizzazione della classifica con le barre
 			 */
-			echo "<table class='classificaBarre'>";
+			echo "
+					<table class='classificaBarre'>
+						";
 
-			echo "  <tr>";
+			echo "
+						<tr>
+							";
 			for ($i = 0; $i < $classifica[0][0] + 5; $i++) {	echo "<td>&nbsp;</td>";
 			}
-			echo "</tr>";
+			echo "
+						</tr>";
 
 			for ($i = 0; $i < 8; $i++) {
 				echo " <tr>";
@@ -337,66 +338,72 @@ xmlns="http://www.w3.org/1999/xhtml">
 				echo "</tr>";
 			}
 
-			echo "</table>";
-		?>
+			echo "
+					</table>";
+					?>
 
-		<!--
-Visualizzazione della classifica in tabella
--->
-		<p>&nbsp;</p>
-		<?php
-		echo "<table class='classifica'>
-				<tr  class='tableline'>
-				<th>&nbsp;</th>
-				<th>&nbsp;</th>
-				<th>pt</th>
-				<th>g</th>
-				<th>&nbsp;</th>
-				<th>v</th>
-				<th>n</th>
-				<th>p</th>
-				<th>&nbsp;</th>
-				<th>gf</th>
-				<th>gs</th>
-				<th>&Delta;g</th>
-				<th>&nbsp;</th>
-				<th>tot</th>
-				<th>&nbsp;</th>
-				<th>media</th>
-				</tr>";
+					<!--
+					Visualizzazione della classifica in tabella
+					-->
+					<p>
+						&nbsp;
+					</p>
+					<?php
+					echo "
+					<table class='classifica'>
+						<tr  class='tableline'>
+							<th>&nbsp;</th>
+							<th>&nbsp;</th>
+							<th>pt</th>
+							<th>g</th>
+							<th>&nbsp;</th>
+							<th>v</th>
+							<th>n</th>
+							<th>p</th>
+							<th>&nbsp;</th>
+							<th>gf</th>
+							<th>gs</th>
+							<th>&Delta;g</th>
+							<th>&nbsp;</th>
+							<th>tot</th>
+							<th>&nbsp;</th>
+							<th>media</th>
+						</tr>";
 
-		for ($i = 0; $i < 8; $i++) {
-			echo "    <tr>";
-			echo "      <td class='Squadra'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
-			echo "      <td >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][0] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][4] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][6] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][7] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][8] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][2] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][5] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][1] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][9] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . round($classifica[$i][10], 2) . "</td>";
-			echo "    </tr>";
-		}
+					for ($i = 0; $i < 8; $i++) {
+						echo "    <tr>";
+						echo "      <td class='Squadra'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
+						echo "      <td >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][0] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][4] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][6] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][7] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][8] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][2] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][5] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][1] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][9] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . round($classifica[$i][10], 2) . "</td>";
+						echo "    </tr>";
+					}
 
-		echo "</table>";
+					echo "
+					</table>";
 
-		if ($classifica_calls_counter != 0)
-			echo "<script type='text/javascript'>showAvulseToggleButton();</script>";
-	?>
-			<!-- InstanceEndEditable -->
-		</div>
+					if ($classifica_calls_counter != 0)
+						echo "<script type='text/javascript'>showAvulseToggleButton();</script>";
+					?>
+					<!-- InstanceEndEditable -->
+				</div>
 
-		<?php require $relocate_string . 'include/footer.inc.php'?>
-		<!-- dragHelper for dragdrop.php -->
-		<div id='dragHelper' style="position: absolute; visibility: hidden;"></div>
+				<?php require $relocate_string . 'include/footer.inc.php'
+				?>
+				<!-- dragHelper for dragdrop.php -->
+				<div id='dragHelper' style="position: absolute; visibility: hidden;"></div>
 	</body>
 	<!-- InstanceEnd -->
 </html>

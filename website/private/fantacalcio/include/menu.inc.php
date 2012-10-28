@@ -11,7 +11,7 @@
       <li> <a href='<?php echo $relocate_string; ?>download.php'>Download</a> </li>
     </ul>
   </div><!-- marcatori drop down menu -->
-  <div id='dropmenu1' class='dropmenudiv'> 
+  <div id='dropmenu1' class='dropmenudiv'>
   	<a href='<?php echo $relocate_string; ?>marcatoriCampionato.php'>Campionato</a> 
   	<a href='<?php echo $relocate_string; ?>marcatoriCoppa.php'>Coppa</a> 
   </div>
