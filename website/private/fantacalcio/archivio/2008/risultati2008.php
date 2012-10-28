@@ -15,6 +15,9 @@ include("calendario0708.inc");
 <link rel="stylesheet" type="text/css" href="../../documentPreProcessor.php?document=stylesheet.css&type=css" />
 <script type="text/javascript" src="../../chromejs/chrome.js"></script>
 <script type="text/javascript" src="../../version.js"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 <!-- InstanceBeginEditable name="additional css" -->
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="additional js" -->
@@ -28,7 +31,7 @@ include("calendario0708.inc");
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
         <div id='hiddenBox' style='visibility:hidden'><br />
-          <span id='squadra1'>squadra1</span><span> - </span><span id='squadra2'>squadra2</span> <br />
+          <span id='squadra1'>squadra1</span><span>ï¿½-ï¿½</span><span id='squadra2'>squadra2</span> <br />
           <br />
           <form method='post' name='formRisultati'>
             <input type='button' value='Close this box!' onclick='hideBox();'/>

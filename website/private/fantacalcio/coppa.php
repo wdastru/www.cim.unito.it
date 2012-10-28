@@ -27,10 +27,12 @@ include("calendarioCoppa.inc");
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=coppa1213.js&type=javascript"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 	<!-- InstanceEndEditable -->
 
 	<!-- InstanceBeginEditable name="jQuery" -->
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#avulseToggleButton').click(function () {

@@ -20,6 +20,7 @@ line-height:20px;
 text-align:left;
 z-index:100;
 background-color:bkgdColorMenu;
+background-color: rgba(00,102,00,0.90);
 width:100px;
 /*visibility: hidden;*/
 display:none;

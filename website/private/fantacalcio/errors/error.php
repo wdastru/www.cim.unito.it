@@ -12,6 +12,9 @@
 <link rel="stylesheet" type="text/css" href="../documentPreProcessor.php?document=stylesheet.css&type=css" />
 <script type="text/javascript" src="../chromejs/chrome.js"></script>
 <script type="text/javascript" src="../version.js"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 <!-- InstanceBeginEditable name="additional css" -->
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="additional js" -->

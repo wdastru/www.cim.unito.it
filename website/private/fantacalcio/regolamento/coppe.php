@@ -9,6 +9,9 @@
 <link rel="stylesheet" type="text/css" href="../documentPreProcessor.php?document=stylesheet.css&type=css" />
 <script type="text/javascript" src="../chromejs/chrome.js"></script>
 <script type="text/javascript" src="../version.js"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 <!-- InstanceBeginEditable name="additional css" -->
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="additional js" -->
@@ -26,7 +29,7 @@
         <table class="regole">
           <tr>
             <td align="justify"><h2 class="left">Fantacoppa</h2>
-              <p class="justify">Il primo turno si gioca prima della prima giornata di fantacampionato, il secondo prima dell’ottava, il terzo prima della 15&deg;, le semifinali prima della 22&deg; e le finali dopo l’ultima.</p>
+              <p class="justify">Il primo turno si gioca prima della prima giornata di fantacampionato, il secondo prima dellï¿½ottava, il terzo prima della 15&deg;, le semifinali prima della 22&deg; e le finali dopo lï¿½ultima.</p>
               <p class="justify">Valgono le stesse regole del fantacampionato, a parte il fatto che si gioca sempre in campo neutro, e quindi non ci sono i 2 punti del fattore campo.</p>
               <p class="justify">Durante la fanta-asta si sorteggiano 2 gironi da 4 squadre che si affrontano in campo neutro, secondo lo schema (per entrambi i gironi):</p>
               <br />
@@ -62,7 +65,7 @@
                 <li>7&deg; e 8&deg; posto : perdenti c) - d)</li>
               </ul>
               <br />
-              <p class="justify">Al termine dei 3 turni, la classifica di ciascuno dei 2 gironi verrà  stilata, nell’ordine, secondo:</p>
+              <p class="justify">Al termine dei 3 turni, la classifica di ciascuno dei 2 gironi verrï¿½  stilata, nellï¿½ordine, secondo:</p>
               <ul>
                 <li>i punti;</li>
                 <li>gli scontri diretti;</li>
@@ -70,8 +73,8 @@
                 <li>il numero di goals segnati;</li>
                 <li>il sorteggio.</li>
               </ul>
-              <p class="justify">Se le semifinali o le finali terminano in parità, la partita viene vinta “ai rigori” dalla squadra con il punteggio maggiore (per es., se il punteggio è A-B 75-74, la partita termina 2-2, ma A vince ai rigori). In caso di ulteriore parità, la partita viene vinta “ai rigori” secondo i criteri sopra elencati, applicati alla classifica finale dei gironi.</p>
-              <p class="justify">In caso di mancata comunicazione del risultato, valgono le regole del fantacampionato; nelle partite ad eliminazione diretta, nel caso entrambi non lo comunichino, entrambi verranno estromessi dalla competizione, e verrà ripescata la migliore esclusa (secondo i criteri sopra elencati). </p>
+              <p class="justify">Se le semifinali o le finali terminano in paritï¿½, la partita viene vinta ï¿½ai rigoriï¿½ dalla squadra con il punteggio maggiore (per es., se il punteggio ï¿½ A-B 75-74, la partita termina 2-2, ma A vince ai rigori). In caso di ulteriore paritï¿½, la partita viene vinta ï¿½ai rigoriï¿½ secondo i criteri sopra elencati, applicati alla classifica finale dei gironi.</p>
+              <p class="justify">In caso di mancata comunicazione del risultato, valgono le regole del fantacampionato; nelle partite ad eliminazione diretta, nel caso entrambi non lo comunichino, entrambi verranno estromessi dalla competizione, e verrï¿½ ripescata la migliore esclusa (secondo i criteri sopra elencati). </p>
               <br />
               <h2>Fantasupercoppa</h2>
               <p class="justify">Si disputa in un'unica partita, dopo la finale di fantacoppa  (o dopo l'eventuale spareggio di fantacampionato), tra la vincitrice del fantacampionato e quella della fantacoppa (nel caso fosse la stessa squadra, viene ripescata la seconda della fantacoppa).</p>

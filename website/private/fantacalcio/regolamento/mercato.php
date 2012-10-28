@@ -9,6 +9,9 @@
 <link rel="stylesheet" type="text/css" href="../documentPreProcessor.php?document=stylesheet.css&type=css" />
 <script type="text/javascript" src="../chromejs/chrome.js"></script>
 <script type="text/javascript" src="../version.js"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 <!-- InstanceBeginEditable name="additional css" -->
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="additional js" -->
@@ -31,7 +34,7 @@
               <p class="justify"> Successivamente, nel corso di un incontro tra tutti i partecipanti, i giocatori rimasti disponibili verranno acquistati all'asta, cos&iacute; da completare una rosa di 25 giocatori (3 portieri, 8 difensori, 8 centrocampisti e 6 attaccanti); per l'asta, ciascuna squadra avr&aacute; a disposizione 470 fmil, pi&uacute; quelli avanzati dalla stagione precedente (fino ad un massimo di 100 fmil), pi&uacute; quelli relativi ai premi per i piazzamenti in campionato e coppa nella stagione precedente, meno le eventuali sanzioni. </p>
               <p class="justify"> Se qualcuno dei 14 giocatori non mantenuti dalla stagione precedente saranno stati ceduti nel mercato estivo a qualcuna delle prime 50 squadre europee, italiane escluse, ( fa fede il sito:</p>
               <p class='link center'><a style="text-decoration:none" href="http://www.xs4all.nl/~kassiesa/bert/uefa/data/method4/trank2009.html">http://www.xs4all.nl/~kassiesa/bert/uefa/data/method4/trank2009.html</a></p>
-              <p class='justify'> al momento della comunicazione degli 11 ), a questa cifra andrà aggiunto un importo in fmil calcolato, per ciascun giocatore, con la formula: 51 – (posizione della squadra a cui è stato ceduto), fino ad un massimo di 100 fmil. </p>
+              <p class='justify'> al momento della comunicazione degli 11 ), a questa cifra andrï¿½ aggiunto un importo in fmil calcolato, per ciascun giocatore, con la formula: 51 ï¿½ (posizione della squadra a cui ï¿½ stato ceduto), fino ad un massimo di 100 fmil. </p>
               <p class="justify">A turno, seguendo l'ordine inverso della classifica della stagione precedente, ciascuna squadra proporr&aacute; il giocatore da mettere all'asta, fino al completamento di tutte le rose.</p>
               <p class="justify"> Al termine, ciascuna squadra potr&aacute; avere gratuitamente la riserva di uno dei due portieri acquistati; in alternativa, potr&aacute; decidere di acquisare un unico portiere e poi avere gratuitamente le sue due riserve (in totale, quindi, ogni squadra sar&aacute; composta da 25 giocatori).</p>
               <p class="justify">Il ruolo di ciascun giocatore sar&aacute; quello indicato sul sito Magic Cup di Gazzetta</p>
@@ -53,7 +56,7 @@
                 ( fa fede il sito:</p>
               <p class='link center'><a style="text-decoration:none" href="http://www.xs4all.nl/~kassiesa/bert/uefa/data/method4/trank2009.html">http://www.xs4all.nl/~kassiesa/bert/uefa/data/method4/trank2009.html</a></p>
               <p class='justify'> 
-                la sua squadra, nel momento in cui questo viene tagliato per acquistare un altro giocatore, recupererà un importo in fmil calcolato, per ciascun giocatore, con la formula: 51 – (posizione della squadra a cui è stato ceduto), fino ad un massimo complessivo di 100 fmil per squadra.</p>
+                la sua squadra, nel momento in cui questo viene tagliato per acquistare un altro giocatore, recupererï¿½ un importo in fmil calcolato, per ciascun giocatore, con la formula: 51 ï¿½ (posizione della squadra a cui ï¿½ stato ceduto), fino ad un massimo complessivo di 100 fmil per squadra.</p>
               <p class="justify"> E' possibile, in qualsiasi momento della stagione, cambiare il terzo portiere, gratuitamente, scegliendo la riserva di uno dei due portieri rimanenti, con il solo vincolo 
                 di non poter ricedere il nuovo scelto ne' riprendere quello ceduto prima che siano trascorse 5 giornate, tra campionato e coppa. La sostituzione va comunicata al presidente entro le h 24 del gioved&iacute;, e verra' poi da lui ufficializzata il venerd&iacute;, analogamente a quanto avviene per gli acquisti durante il periodo in cui il mercato e' aperto.</p>
               <p class="justify"> Nel caso in cui il terzo portiere cambi squadra durante il (vero) calciomercato, e quindi si arrivi ad avere 3 portieri di 3 squadre diverse, la sua sostituzione diventa obbligatoria, in quanto ciascuna fantasquadra deve avere portieri appartenenti al massimo a 2 societa' diverse. </p>

@@ -14,6 +14,9 @@
 <link rel="stylesheet" type="text/css" href="../../documentPreProcessor.php?document=stylesheet.css&type=css" />
 <script type="text/javascript" src="../../chromejs/chrome.js"></script>
 <script type="text/javascript" src="../../version.js"></script>
+	<!-- InstanceBeginEditable name="jQuery" -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
 <!-- InstanceBeginEditable name="additional css" -->
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="additional js" -->
@@ -26,7 +29,7 @@
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-<h1 class="title">XII° Campionato Fantacalcio NMR 2010/11</h1>
+<h1 class="title">XIIï¿½ Campionato Fantacalcio NMR 2010/11</h1>
         <br />
         <br />
         <h2 style="color:#333333">1&deg; Classificato: </h2>
