@@ -53,7 +53,16 @@ xmlns="http://www.w3.org/1999/xhtml">
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
 		<!-- InstanceBeginEditable name="jQuery" -->
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
-		<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>		
+		<script type="text/javascript" src="<?php echo $relocate_string; ?>menu_jquery.js"></script>	
+		<!-- InstanceBeginEditable name="jQuery" -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#avulseToggleButton').click(function () {
+					$('#avulse').toggle('fast');
+				});
+	
+			});
+		</script>
 		<!-- InstanceEndEditable -->
 
 	</head>

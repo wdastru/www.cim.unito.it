@@ -1,8 +1,5 @@
 // JavaScript Document
 $(document).ready(function() {
-	$('#avulseToggleButton').click(function() {
-		$('#avulse').toggle('fast');
-	});
 	
 	var debounce;
 	
