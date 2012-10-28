@@ -59,60 +59,168 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('#avulseToggleButton').click(function () {
+				$('#avulseToggleButton').click(function() {
 					$('#avulse').toggle('fast');
 				});
 				
-				$('li.dropmenu1').mouseover(function() {
-					$('div#dropmenu1').css("left", "496px");
-					$('div#dropmenu1').fadeIn(250);
+				var debounce;
+				
+				var li_targets = new Array();
+				li_targets[0] = "li.dropmenu1";
+				li_targets[1] = "li.dropmenu2";
+				li_targets[2] = "li.dropmenu3";
+				li_targets[3] = "li.dropmenu4";
+				li_targets[4] = "li.dropmenu5";
+				
+				var div_targets = new Array();
+				div_targets[0] = "div#dropmenu1";
+				div_targets[1] = "div#dropmenu2";
+				div_targets[2] = "div#dropmenu3";
+				div_targets[3] = "div#dropmenu4";
+				div_targets[4] = "div#dropmenu5";
+				
+				var div_targets_left = new Array();
+				div_targets_left[0] = "496px";
+				div_targets_left[1] = "592px";
+				div_targets_left[2] = "692px";
+				div_targets_left[3] = "774px";
+				div_targets_left[4] = "404px";
+				
+				$(li_targets[0]).mouseenter(function() {
+					$(div_targets[0]).css("left", div_targets_left[0]);
+					$(div_targets[0]).slideDown(200);
+					clearTimeout(debounce);
+				});
+							
+				$(li_targets[0]).mouseleave(function() {
+					
+					setTimeout(function() {
+						if ($(div_targets[0]).is(':hover')) {
+							;
+						} else {
+							$debounce = setTimeout(closeMenu1(), 100);
+						}
+					}, 100);
+					
+				});
+							
+				$(li_targets[1]).mouseenter(function() {
+					$(div_targets[1]).css("left", div_targets_left[1]);
+					$(div_targets[1]).slideDown(800);
+					clearTimeout(debounce);
+				});
+							
+				$(li_targets[1]).mouseleave(function() {
+					
+					setTimeout(function() {
+						if ($(div_targets[1]).is(':hover')) {
+							;
+						} else {
+							$debounce = setTimeout(closeMenu2(), 100);
+						}
+					}, 100);
+					
+				});
+							
+				$(li_targets[2]).mouseenter(function() {
+					$(div_targets[2]).css("left", div_targets_left[2]);
+					$(div_targets[2]).slideDown(1000);
+					clearTimeout(debounce);
 				});
 				
-				$('li.dropmenu1').mouseout(function() {
-					//setTimeout(50);
-					//if ($('div#dropmenu1').is(':hover')) {
-					//		alert('hello');
-					//}
-				
-					$('div#dropmenu1').fadeOut(500);
+				$(li_targets[2]).mouseleave(function() {
+					
+					setTimeout(function() {
+						if ($(div_targets[2]).is(':hover')) {
+							;
+						} else {
+							$debounce = setTimeout(closeMenu3(), 100);
+						}
+					}, 100);
+					
+				});				
+							
+				$(li_targets[3]).mouseenter(function() {
+					$(div_targets[3]).css("left", div_targets_left[3]);
+					$(div_targets[3]).slideDown(500);
+					clearTimeout(debounce);
 				});
 				
-				$('li.dropmenu2').mouseover(function() {
-					$('div#dropmenu2').css("left", "592px");
-					$('div#dropmenu2').fadeIn(250);
+				$(li_targets[3]).mouseleave(function() {
+					
+					setTimeout(function() {
+						if ($(div_targets[3]).is(':hover')) {
+							;
+						} else {
+							$debounce = setTimeout(closeMenu4(), 100);
+						}
+					}, 100);
+					
+				});
+							
+				$(li_targets[4]).mouseenter(function() {
+					$(div_targets[4]).css("left", div_targets_left[4]);
+					$(div_targets[4]).slideDown(200);
+					clearTimeout(debounce);
 				});
 				
-				$('li.dropmenu2').mouseout(function() {
-					$('div#dropmenu2').fadeOut(500);
+				$(li_targets[4]).mouseleave(function() {
+					
+					setTimeout(function() {
+						if ($(div_targets[4]).is(':hover')) {
+							;
+						} else {
+							$debounce = setTimeout(closeMenu5(), 100);
+						}
+					}, 100);
+					
 				});
-				
-				$('li.dropmenu3').mouseover(function() {
-					$('div#dropmenu3').css("left", "692px");
-					$('div#dropmenu3').fadeIn(250);
+							
+				$(div_targets[0]).mouseleave(function() {
+					$debounce = setTimeout(closeMenu1(), 100);
+				});                                      
+                                                         
+				$(div_targets[1]).mouseleave(function() {
+					$debounce = setTimeout(closeMenu2(), 100);
+				});                                      
+				                                         
+				$(div_targets[2]).mouseleave(function() {
+					$debounce = setTimeout(closeMenu3(), 100);
+				});                                      
+                                                         
+				$(div_targets[3]).mouseleave(function() {
+					$debounce = setTimeout(closeMenu4(), 100);
+				});                                      
+				                                         
+				$(div_targets[4]).mouseleave(function() {
+					$debounce = setTimeout(closeMenu5(), 100);
 				});
+
+				var closeMenu1 = function(dropmenu) {
+					$('div#dropmenu1').slideUp(500);
+					clearTimeout(debounce);
+				}
 				
-				$('li.dropmenu3').mouseout(function() {
-					$('div#dropmenu3').fadeOut(500);
-				});
+				var closeMenu2 = function(dropmenu) {
+					$('div#dropmenu2').slideUp(500);
+					clearTimeout(debounce);
+				}
+
+				var closeMenu3 = function(dropmenu) {
+					$('div#dropmenu3').slideUp(500);
+					clearTimeout(debounce);
+				}
 				
-				$('li.dropmenu4').mouseover(function() {
-					$('div#dropmenu4').css("left", "774px");
-					$('div#dropmenu4').fadeIn(250);
-				});
-				
-				$('li.dropmenu4').mouseout(function() {
-					$('div#dropmenu4').fadeOut(500);
-				});
-				
-				$('li.dropmenu5').mouseover(function() {
-					$('div#dropmenu5').css("left", "404px");
-					$('div#dropmenu5').fadeIn(250);
-				});
-				
-				$('li.dropmenu5').mouseout(function() {
-					$('div#dropmenu5').fadeOut(500);
-				});
-				
+				var closeMenu4 = function(dropmenu) {
+					$('div#dropmenu4').slideUp(500);
+					clearTimeout(debounce);
+				}
+
+				var closeMenu5 = function(dropmenu) {
+					$('div#dropmenu5').slideUp(500);
+					clearTimeout(debounce);
+				}
+
 			});
 		</script>
 		<!-- InstanceEndEditable -->
@@ -120,18 +228,18 @@ xmlns="http://www.w3.org/1999/xhtml">
 	</head>
 	<body onload="startBanner(1)">
 		<!--<body>-->
-			
+
 		<?php
-			require $relocate_string . 'include/title.inc.php';
-			require $relocate_string . 'include/menu.inc.php';
- 			require $relocate_string . 'include/banner_slider.inc.php';
-		 ?>
+		require $relocate_string . 'include/title.inc.php';
+		require $relocate_string . 'include/menu.inc.php';
+		require $relocate_string . 'include/banner_slider.inc.php';
+		?>
 
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
 			<h1 class="title">CLASSIFICA</h1>
 			<br />
-			
+
 			<?php
 			/*
 			 *  lettura file datiCampionato
@@ -319,18 +427,22 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 			$classifica_calls_counter = 0;
 
-			/*echo 
-			<div id='avulse_wrapper'>
-				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
-				<br /><br />
-				<div id='avulse'>";
+			/*echo
+			 <div id='avulse_wrapper'>
+			 <input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
+			 <br />
+			 <br />
+			 <div id='avulse'>
+			 ";
 			 */
 
 			echo "
-			<div id='avulse_wrapper'>
-				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' />
-				<br /><br />
-				<div id='avulse'>";
+					<div id='avulse_wrapper'>
+						<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' />
+						<br />
+						<br />
+						<div id='avulse'>
+							";
 
 			// --> risoluzione gruppi
 			for ($i = 0; $i < count($containers); $i++) {
@@ -350,17 +462,24 @@ xmlns="http://www.w3.org/1999/xhtml">
 			}
 			// <-- applica correzione a classifica[][]
 
-			echo "</div></div>";
+			echo "
+						</div>
+					</div>";
 
 			/*
 			 *  Visualizzazione della classifica con le barre
 			 */
-			echo "<table class='classificaBarre'>";
+			echo "
+					<table class='classificaBarre'>
+						";
 
-			echo "  <tr>";
+			echo "
+						<tr>
+							";
 			for ($i = 0; $i < $classifica[0][0] + 5; $i++) {	echo "<td>&nbsp;</td>";
 			}
-			echo "</tr>";
+			echo "
+						</tr>";
 
 			for ($i = 0; $i < 8; $i++) {
 				echo " <tr>";
@@ -388,66 +507,72 @@ xmlns="http://www.w3.org/1999/xhtml">
 				echo "</tr>";
 			}
 
-			echo "</table>";
-		?>
+			echo "
+					</table>";
+					?>
 
-		<!--
-Visualizzazione della classifica in tabella
--->
-		<p>&nbsp;</p>
-		<?php
-		echo "<table class='classifica'>
-				<tr  class='tableline'>
-				<th>&nbsp;</th>
-				<th>&nbsp;</th>
-				<th>pt</th>
-				<th>g</th>
-				<th>&nbsp;</th>
-				<th>v</th>
-				<th>n</th>
-				<th>p</th>
-				<th>&nbsp;</th>
-				<th>gf</th>
-				<th>gs</th>
-				<th>&Delta;g</th>
-				<th>&nbsp;</th>
-				<th>tot</th>
-				<th>&nbsp;</th>
-				<th>media</th>
-				</tr>";
+					<!--
+					Visualizzazione della classifica in tabella
+					-->
+					<p>
+						&nbsp;
+					</p>
+					<?php
+					echo "
+					<table class='classifica'>
+						<tr  class='tableline'>
+							<th>&nbsp;</th>
+							<th>&nbsp;</th>
+							<th>pt</th>
+							<th>g</th>
+							<th>&nbsp;</th>
+							<th>v</th>
+							<th>n</th>
+							<th>p</th>
+							<th>&nbsp;</th>
+							<th>gf</th>
+							<th>gs</th>
+							<th>&Delta;g</th>
+							<th>&nbsp;</th>
+							<th>tot</th>
+							<th>&nbsp;</th>
+							<th>media</th>
+						</tr>";
 
-		for ($i = 0; $i < 8; $i++) {
-			echo "    <tr>";
-			echo "      <td class='Squadra'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
-			echo "      <td >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][0] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][4] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][6] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][7] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][8] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][2] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][5] . "</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][1] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . $classifica[$i][9] . "</td>";
-			echo "      <td class='Dati' >&nbsp;</td>";
-			echo "      <td class='Dati'>" . round($classifica[$i][10], 2) . "</td>";
-			echo "    </tr>";
-		}
+					for ($i = 0; $i < 8; $i++) {
+						echo "    <tr>";
+						echo "      <td class='Squadra'><a href='squadre/squadra.php?squadra=" . $classifica[$i][19] . "'>" . $classifica[$i][3] . "</a></td>";
+						echo "      <td >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][0] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][4] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][6] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][7] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][8] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][2] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][5] . "</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][1] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . $classifica[$i][9] . "</td>";
+						echo "      <td class='Dati' >&nbsp;</td>";
+						echo "      <td class='Dati'>" . round($classifica[$i][10], 2) . "</td>";
+						echo "    </tr>";
+					}
 
-		echo "</table>";
+					echo "
+					</table>";
 
-		if ($classifica_calls_counter != 0)
-			echo "<script type='text/javascript'>showAvulseToggleButton();</script>";
-	?>
-			<!-- InstanceEndEditable -->
-		</div>
+					if ($classifica_calls_counter != 0)
+						echo "<script type='text/javascript'>showAvulseToggleButton();</script>";
+					?>
+					<!-- InstanceEndEditable -->
+				</div>
 
-		<?php require $relocate_string . 'include/footer.inc.php'?>
-		<!-- dragHelper for dragdrop.php -->
-		<div id='dragHelper' style="position: absolute; visibility: hidden;"></div>
+				<?php require $relocate_string . 'include/footer.inc.php'
+				?>
+				<!-- dragHelper for dragdrop.php -->
+				<div id='dragHelper' style="position: absolute; visibility: hidden;"></div>
 	</body>
 	<!-- InstanceEnd -->
 </html>
