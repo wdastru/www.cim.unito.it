@@ -45,9 +45,11 @@ $(document).ready(function() {
 	time_up[4] = 2 * multiplier_up;
 	
 	$(li_targets[0]).mouseenter(function() {
-		$(div_targets[0]).css("left", div_targets_left[0]);
-		$(div_targets[0]).slideDown(time_down[0]);
-		clearTimeout(debounce);
+		if ($(div_targets[0]).css("display") != "block" ) {
+			$(div_targets[0]).css("left", div_targets_left[0]);
+			$(div_targets[0]).slideDown(time_down[0]);
+			clearTimeout(debounce);
+		}
 	});
 				
 	$(li_targets[0]).mouseleave(function() {
@@ -63,9 +65,11 @@ $(document).ready(function() {
 	});
 				
 	$(li_targets[1]).mouseenter(function() {
-		$(div_targets[1]).css("left", div_targets_left[1]);
-		$(div_targets[1]).slideDown(time_down[1]);
-		clearTimeout(debounce);
+		if ($(div_targets[1]).css("display") != "block" ) {
+			$(div_targets[1]).css("left", div_targets_left[1]);
+			$(div_targets[1]).slideDown(time_down[1]);
+			clearTimeout(debounce);
+		}
 	});
 				
 	$(li_targets[1]).mouseleave(function() {
@@ -81,9 +85,11 @@ $(document).ready(function() {
 	});
 				
 	$(li_targets[2]).mouseenter(function() {
-		$(div_targets[2]).css("left", div_targets_left[2]);
-		$(div_targets[2]).slideDown(time_down[2]);
-		clearTimeout(debounce);
+		if ($(div_targets[2]).css("display") != "block" ) {
+			$(div_targets[2]).css("left", div_targets_left[2]);
+			$(div_targets[2]).slideDown(time_down[2]);
+			clearTimeout(debounce);
+		}
 	});
 	
 	$(li_targets[2]).mouseleave(function() {
@@ -99,9 +105,11 @@ $(document).ready(function() {
 	});				
 				
 	$(li_targets[3]).mouseenter(function() {
-		$(div_targets[3]).css("left", div_targets_left[3]);
-		$(div_targets[3]).slideDown(time_down[3]);
-		clearTimeout(debounce);
+		if ($(div_targets[3]).css("display") != "block" ) {
+			$(div_targets[3]).css("left", div_targets_left[3]);
+			$(div_targets[3]).slideDown(time_down[3]);
+			clearTimeout(debounce);
+		}
 	});
 	
 	$(li_targets[3]).mouseleave(function() {
@@ -117,9 +125,11 @@ $(document).ready(function() {
 	});
 				
 	$(li_targets[4]).mouseenter(function() {
-		$(div_targets[4]).css("left", div_targets_left[4]);
-		$(div_targets[4]).slideDown(time_down[4]);
-		clearTimeout(debounce);
+		if ($(div_targets[4]).css("display") != "block" ) {
+			$(div_targets[4]).css("left", div_targets_left[4]);
+			$(div_targets[4]).slideDown(time_down[4]);
+			clearTimeout(debounce);
+		}
 	});
 	
 	$(li_targets[4]).mouseleave(function() {
