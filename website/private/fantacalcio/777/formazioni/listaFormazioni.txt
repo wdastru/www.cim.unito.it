@@ -1,12 +1,9 @@
 atletico.txt
 atletico_camp_5.txt
+atletico_camp_6.txt
 bradipo.txt
-bradipo_cam_01.txt
-bradipo_cam_02.txt
-bradipo_cam_03.txt
-bradipo_cam_04.txt
 bradipo_cam_05.txt
-bradipo_cop_01.txt
+bradipo_cam_06.txt
 ciofeca.txt
 ciofeca_camp1.txt
 ciofeca_camp2.txt
@@ -49,5 +46,6 @@ real_camp_02.txt
 real_camp_03.txt
 real_camp_04.txt
 real_camp_05.txt
+real_camp_06.txt
 real_coppa_1.txt
 real_tipo_valida_fino_20120922-150909.txt
