@@ -120,38 +120,22 @@ function showBoxCoppa(id, evt) {
 			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e'
 			// il - di separazione
 			if (id.substring(6, 8) == '10' || id.substring(6, 8) == '11') {
-				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
-						.getElementById('gruppi' + id.substring(6, 8)
-								+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
-				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
-						.getElementById('gruppi' + id.substring(6, 8)
-								+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
+				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('gruppi' + id.substring(6, 8) + '_C_nome').getElementsByTagName('a').item(0).innerHTML;
+				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('gruppi' + id.substring(6, 8) + '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 			} else {
-				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
-						.getElementById('gruppi' + id.substring(6, 7)
-								+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
-				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
-						.getElementById('gruppi' + id.substring(6, 7)
-								+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
+				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('gruppi' + id.substring(6, 7) + '_C_nome').getElementsByTagName('a').item(0).innerHTML;
+				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('gruppi' + id.substring(6, 7) + '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 			}
 		} else if (id.substring(0, 4) == 'semi') {
 			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e'
 			// il - di separazione
-			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
-					.getElementById('semi' + id.substring(4, 5) 
-							+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
-			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
-					.getElementById('semi' + id.substring(4, 5) 
-							+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
+			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('semi' + id.substring(4, 5) + '_C_nome').getElementsByTagName('a').item(0).innerHTML;
+			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('semi' + id.substring(4, 5) + '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 		} else if (id.substring(0, 6) == 'finali') {
 			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e'
 			// il - di separazione
-			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document
-					.getElementById('finali' + id.substring(6, 7) 
-							+ '_C_nome').getElementsByTagName('a').item(0).innerHTML;
-			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document
-					.getElementById('finali' + id.substring(6, 7) 
-							+ '_F_nome').getElementsByTagName('a').item(0).innerHTML;
+			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('finali' + id.substring(6, 7) + '_C_nome').getElementsByTagName('a').item(0).innerHTML;
+			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('finali' + id.substring(6, 7) + '_F_nome').getElementsByTagName('a').item(0).innerHTML;
 		}
 
 		if (visibility == 'hidden') {
