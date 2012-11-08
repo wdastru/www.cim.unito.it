@@ -4,11 +4,11 @@ $(document).ready(function() {
 	var debounce;
 	
 	var li_targets = new Array();
-	li_targets[0] = "li.dropmenu1";
-	li_targets[1] = "li.dropmenu2";
-	li_targets[2] = "li.dropmenu3";
-	li_targets[3] = "li.dropmenu4";
-	li_targets[4] = "li.dropmenu5";
+	li_targets[0] = "li#dropmenuli1";
+	li_targets[1] = "li#dropmenuli2";
+	li_targets[2] = "li#dropmenuli3";
+	li_targets[3] = "li#dropmenuli4";
+	li_targets[4] = "li#dropmenuli5";
 	
 	var div_targets = new Array();
 	div_targets[0] = "div#dropmenu1";
@@ -18,11 +18,11 @@ $(document).ready(function() {
 	div_targets[4] = "div#dropmenu5";
 	
 	var div_targets_left = new Array();
-	div_targets_left[0] = "496px";
-	div_targets_left[1] = "592px";
-	div_targets_left[2] = "692px";
-	div_targets_left[3] = "774px";
-	div_targets_left[4] = "404px";
+	div_targets_left[0] = parseInt(document.getElementById("dropmenuli1").offsetLeft)+"px";
+	div_targets_left[1] = parseInt(document.getElementById("dropmenuli2").offsetLeft)+"px";
+	div_targets_left[2] = parseInt(document.getElementById("dropmenuli3").offsetLeft)+"px";
+	div_targets_left[3] = parseInt(document.getElementById("dropmenuli4").offsetLeft)+"px";
+	div_targets_left[4] = parseInt(document.getElementById("dropmenuli5").offsetLeft)+"px";
 
 	var multiplier_down = 50;
 	var multiplier_up = 100;

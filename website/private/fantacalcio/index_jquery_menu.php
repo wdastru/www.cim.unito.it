@@ -71,7 +71,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 		<?php
 		require $relocate_string . 'include/title.inc.php';
-		require $relocate_string . 'include/menu.inc.php';
+		require $relocate_string . 'include/menu_jquery.inc.php';
 		require $relocate_string . 'include/banner_slider.inc.php';
 		?>
 

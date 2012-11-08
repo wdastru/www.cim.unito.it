@@ -12,6 +12,7 @@ padding: 4px 0; margin: 0;text-align: center; /*set value to "left", "center", o
 .dropmenudiv{
 position:absolute;
 padding-left:4px;
+padding-right:8px;
 top: 102px;
 /*THEME CHANGE HERE*/
 border:none;
@@ -21,14 +22,14 @@ text-align:left;
 z-index:100;
 background-color:bkgdColorMenu;
 background-color: rgba(00,102,00,0.90);
-width:100px;
+width:auto;
 /*visibility: hidden;*/
 display:none;
 }
 
 .dropmenudiv a{
 color:menuColor;
-width: auto;
+/*width: auto;*/
 display: block;
 text-indent: 3px;
 /*THEME CHANGE HERE*/
@@ -44,7 +45,7 @@ width: 100%;
 
 .dropmenudiv a:hover{ 
 /*THEME CHANGE HERE*/
-background-color: bkgdColorMenu;
+/*background-color: bkgdColorMenu;*/
 color:menuHoverColor;
 }
 
