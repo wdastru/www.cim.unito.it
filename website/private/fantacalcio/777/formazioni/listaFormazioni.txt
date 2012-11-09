@@ -3,8 +3,8 @@ atletico_camp_5.txt
 atletico_camp_6.txt
 atletico_camp_7.txt
 bradipo.txt
-bradipo_cam_06.txt
 bradipo_cam_07.txt
+bradipo_cam_08.txt
 ciofeca.txt
 ciofeca_camp1.txt
 ciofeca_camp2.txt
