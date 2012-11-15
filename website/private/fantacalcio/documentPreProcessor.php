@@ -87,12 +87,14 @@ if(file_exists($filename))
 	/*
 	 * COPPA
 	 * * * * */
-	$content = str_replace('coppaRowEvenBkgd', $verde_scuro, $content);
-	$content = str_replace('coppaRowOddBkgd', $verde_chiaro, $content);
-	$content = str_replace('coppaRowEven', $panna, $content);
-	$content = str_replace('coppaRowOdd', $verde_scuro, $content);
-	$content = str_replace('coppaLeftHover', $panna, $content);
-	$content = str_replace('coppaRightHover', $panna, $content);
+	$content = str_replace('linkCoppaLeftLink', $verde_scuro, $content);
+	$content = str_replace('linkCoppaLeftVisited', $verde_scuro, $content);
+	$content = str_replace('linkCoppaLeftActive', $verde_scuro, $content);
+	$content = str_replace('linkCoppaLeftHover', $panna, $content);
+	$content = str_replace('linkCoppaRightLink', $verde_chiaro, $content);
+	$content = str_replace('linkCoppaRightVisited', $verde_chiaro, $content);
+	$content = str_replace('linkCoppaRightActive', $verde_chiaro, $content);
+	$content = str_replace('linkCoppaRightHover', $panna, $content);
 	/* * * * */
 	
 	/*
