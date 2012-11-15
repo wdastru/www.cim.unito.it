@@ -298,8 +298,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 <td><input id='iMalvern' class='instrumentButton' type='submit' name='instrument' value='Malvern' onmouseover='On(\"iMalvern\")' onmouseout='Off(\"iMalvern\")'/></td>
 <td><input id='iIcon' class='instrumentButton' type='submit' name='instrument' value='Icon' onmouseover='On(\"iIcon\")' onmouseout='Off(\"iIcon\")'/></td>
 <td><input id='iTriumph' class='instrumentButton' type='submit' name='instrument' value='Triumph' onmouseover='On(\"iTriumph\")' onmouseout='Off(\"iTriumph\")'/></td>
-<td><input id='iAuto' class='instrumentButton' type='submit' name='instrument' value='Auto' onmouseover='On(\"iAuto\")' onmouseout='Off(\"iAuto\")'/></td>
 <td><input id='iOIPearl' class='instrumentButton' type='submit' name='instrument' value='OIPearl' onmouseover='On(\"iOIPearl\")' onmouseout='Off(\"iOIPearl\")'/></td>
+<td><input id='iAuto' class='instrumentButton' type='submit' name='instrument' value='Auto' onmouseover='On(\"iAuto\")' onmouseout='Off(\"iAuto\")'/></td>
 </tr>
 </table>
 </form>
