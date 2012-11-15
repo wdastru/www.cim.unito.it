@@ -92,7 +92,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 		<p class="center" style="color: FF6600">COPPA</p>
 		<table id="download_coppa">
 			<tr class="tableline">
-				<th>Quarti</th>
+				<th>Gironi</th>
 				<th>Semifinali</th>
 				<th>Finali</th>
 			</tr>
