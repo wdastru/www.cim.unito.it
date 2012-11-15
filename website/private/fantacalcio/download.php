@@ -100,19 +100,24 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="link"><?php if(isset($fileGaz[0 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[0 + $nPreCampionato] . "'>andata</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[0 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[0 + $nPreCampionato] . "'>I</a>"; ?>
 				</td>
-				<td class="link"><?php if(isset($fileGaz[16 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[16 + $nPreCampionato] . "'>andata</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[26 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[26 + $nPreCampionato] . "'>semifinale</a>"; ?>
 				</td>
-				<td class="link"><?php if(isset($fileGaz[32 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[32 + $nPreCampionato] . "'>coppa</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[34 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[34 + $nPreCampionato] . "'>finale</a>"; ?>
 				</td>
 			</tr>
 			<tr>
-				<td class="link"><?php if(isset($fileGaz[8 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[8 + $nPreCampionato] . "'>ritorno</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[8 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[8 + $nPreCampionato] . "'>II</a>"; ?>
 				</td>
-				<td class="link"><?php if(isset($fileGaz[24 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[24 + $nPreCampionato] . "'>ritorno</a>"; ?>
+				<td class="link"></td>
+				<td class="link"></td>
+			</tr>
+			<tr>
+				<td class="link"><?php if(isset($fileGaz[18 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[18 + $nPreCampionato] . "'>III</a>"; ?>
 				</td>
-				<td class="link"><?php if(isset($fileGaz[33 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[33 + $nPreCampionato] . "'>supercoppa</a>"; ?>
+				<td class="link"></td>
+				<td class="link"><?php if(isset($fileGaz[35 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[35 + $nPreCampionato] . "'>supercoppa</a>"; ?>
 				</td>
 			</tr>
 		</table>
