@@ -10,12 +10,14 @@ $instrument = array(
 					"Malvern", 
 					"Rilassometro", 
 					"SmartTracer", 
-					"Waters", "AKTA", 
+					"Waters", 
+					"AKTA", 
 					"FLINK", 
 					"Auto", 
 					"FLINK_CIM", 
 					"Aspect", 
-					"Milestone", 
+                    "Aspect_Stab", 
+                    "Milestone", 
 					"SpinMaster", 
 					"Alliance", 
 					"Fluo", 
@@ -38,6 +40,7 @@ $instrString[ "FLINK" ] = "HPLC Fraction LINK";
 $instrString[ "Auto" ] = "Auto del dipartimento";
 $instrString[ "FLINK_CIM" ] = "HPLC Fraction LINK&nbsp;(CIM)"; 
 $instrString[ "Aspect" ] = "Aspect 1T";
+$instrString[ "Aspect_Stab" ] = "Aspect 1T (stabulario)";
 $instrString[ "Milestone" ] = "Milestone microwave oven (old)";
 $instrString[ "SpinMaster" ] = "Spinmaster (new 21.5 MHz)";
 $instrString[ "Alliance" ] = "HPLC Alliance";
@@ -119,6 +122,7 @@ $guidelines[ "FLINK" ] = "";
 $guidelines[ "Auto" ] = "";
 $guidelines[ "FLINK_CIM" ] = ""; 
 $guidelines[ "Aspect" ] = "";
+$guidelines[ "Aspect_Stab" ] = "";
 $guidelines[ "Milestone" ] = "";
 $guidelines[ "SpinMaster" ] = "";
 $guidelines[ "Alliance" ] = "";
@@ -142,6 +146,7 @@ $warning[ "FLINK" ] = "";
 $warning[ "Auto" ] = "";
 $warning[ "FLINK_CIM" ] = ""; 
 $warning[ "Aspect" ] = "";
+$warning[ "Aspect_Stab" ] = "";
 $warning[ "Milestone" ] = "";
 $warning[ "SpinMaster" ] = "";
 $warning[ "Alliance" ] = "";
