@@ -1,10 +1,10 @@
 atletico.txt
+atletico_camp_8.txt
+atletico_camp_8bis.txt
 atletico_camp_9.txt
 atletico_coppa_2.txt
 atletico_tipo_valida_fino_20121123-191250.txt
 bradipo.txt
-bradipo_cam_08.txt
-bradipo_cam_09.txt
 ciofeca.txt
 ciofeca_camp5.txt
 ciofeca_camp6.txt
