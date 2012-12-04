@@ -1,1 +1,3 @@
-uploader_FantaCalcGui.php
+<?php
+	include uploader_FantaCalcGui.php;
+?>
