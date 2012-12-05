@@ -57,6 +57,61 @@
 				</div>
 			</xsl:if>
 		</xsl:for-each>
+		<br />
+		<h2 class='teamTitle'>Probe Optimization Team (POT)</h2>
+        <xsl:for-each select="person">
+            <xsl:if test="child::team = 'POT'">
+                <div class='person'>
+                    <xsl:attribute name='id'><xsl:value-of
+                        select="name" /></xsl:attribute>
+                    <div class='personal_image'>
+                        <img>
+                            <xsl:attribute name='alt'><xsl:value-of
+                                select="altText" /></xsl:attribute>
+                            <xsl:attribute name='src'><xsl:value-of
+                                select="image" /></xsl:attribute>
+                        </img>
+                    </div>
+                    <div class='personal_contacts'>
+                        <div class='clickable' onclick='toggle_vis(this.parentNode.parentNode.id)'>
+                            <div class='name'>
+                                <xsl:value-of select="fullName" />
+                            </div>
+                            <div class='position'>
+                                <xsl:value-of select="position" />
+                            </div>
+                            <div class='contacts'>
+                                <p>
+                                    <xsl:value-of select="position" />
+                                </p>
+                                <p>
+                                    <xsl:if test='child::phone != ""'>
+                                        <b>Tel: </b>
+                                        <xsl:value-of select="phone" />
+                                        <br />
+                                    </xsl:if>
+                                    <xsl:if test='child::fax != ""'>
+                                        <b>Fax: </b>
+                                        <xsl:value-of select="fax" />
+                                        <br />
+                                    </xsl:if>
+                                    <xsl:if test='child::cell != ""'>
+                                        <b>Cell: </b>
+                                        <xsl:value-of select="cell" />
+                                        <br />
+                                    </xsl:if>
+                                    <xsl:if test='child::mail != ""'>
+                                        <b>e-mail: </b>
+                                        <xsl:value-of select="mail" />
+                                        <br />
+                                    </xsl:if>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xsl:if>
+        </xsl:for-each>
 
 		<br />
 		<h2 class='teamTitle'>Clinical and Experimental Center for Functional Magnetic
