@@ -108,6 +108,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <div id='col3'>
                                     <h2 class='punch orange'><span>EVENTS</span></h2>
 
+                                    <span class="date">Jan 10, 2013</span><a 
+href='documenti/Piattaforme_depliant_small.pdf'><span class="paperTitle">Networking nelle Scienze della Vita in 
+Piemonte</span></a>
+
+                                    <div id='divider'></div>
+
                                     <span class="date">Sep 17 - Sep 28, 2012</span><a href='IP_2012.php'>Intensive Programme 2012 <span class="paperTitle">"Probes and Models for Imaging Diseases and Therapy"</span></a>
 
                                     <div id='divider'></div>
