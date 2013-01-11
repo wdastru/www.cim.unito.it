@@ -58,9 +58,9 @@
 			</xsl:if>
 		</xsl:for-each>
 		<br />
-		<h2 class='teamTitle'>Probe Optimization Team (POT)</h2>
+		<h2 class='teamTitle'>Imaging Probe Chemistry Center (IPCT)</h2>
         <xsl:for-each select="person">
-            <xsl:if test="child::team = 'POT'">
+            <xsl:if test="child::team = 'IPCT'">
                 <div class='person'>
                     <xsl:attribute name='id'><xsl:value-of
                         select="name" /></xsl:attribute>
