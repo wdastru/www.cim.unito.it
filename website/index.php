@@ -107,17 +107,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </div>
                                 <div id='col3'>
                                     <h2 class='punch orange'><span>EVENTS</span></h2>
-
-                                    <span class="date">Sep 17 - Sep 28, 2012</span><a href='IP_2012.php'>Intensive Programme 2012 <span class="paperTitle">"Probes and Models for Imaging Diseases and Therapy"</span></a>
-
+                                    
+                                    <span class="date">26 to 28 May, 2013</span>
+                                    <a href='http://www.e-smi.eu/index.php?id=2504' target='_blank'><span class="paperTitle" style="text-decoration:blink">EMIM 2013 - EUROPEAN MOLECULAR IMAGING MEETING</span></a>
+                                    <img style="width: 99%" src="images/ESMI_logo_imaging_life.jpg" />                 
                                     <div id='divider'></div>
-
                                     <span class="date">6 March, 2013</span>
                                     EMIDS Kick-off Meeting
-                                    <!-- <a href="documenti/COST TD1004 meeting program.pdf">EMIDS Kick-off Meeting</a> -->
                                     <a href="http://www.emids.eu/"> <img
                                     style="width: 99%" src="images/Emids_Logo.jpg" /></a>
-
+                                    
                                     <!-- <div id='divider'></div> -->
 
                                 </div>

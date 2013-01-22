@@ -40,7 +40,7 @@
 		<name>geninatti</name>
 		<fullName>Simonetta Geninatti Crich</fullName>
 		<position>Researcher</position>
-		<image>images/non_disponibile.gif</image>
+		<image>images/geninatti_crich.jpg</image>
 		<altText>immagine non disponibile</altText>
 		<mail>simonetta.geninatti@unito.it</mail>
 		<phone>+39 011 6706473</phone>
@@ -223,17 +223,56 @@
 		<fax>+39 011 8146231</fax>
 		<cell></cell>
 	</person>
-	<person>
-		<team>CCSFMRI</team>
-		<name>geda</name>
-		<fullName>Elisabetta Geda</fullName>
-		<position>Student</position>
-		<image>images/non_disponibile.gif</image>
-		<altText>immagine non disponibile</altText>
-		<mail></mail>
-		<phone></phone>
-		<address></address>
-		<fax></fax>
-		<cell></cell>
-	</person>
+    <person>
+        <team>CCSFMRI</team>
+        <name>geda</name>
+        <fullName>Elisabetta Geda</fullName>
+        <position>Student</position>
+        <image>images/non_disponibile.gif</image>
+        <altText>immagine non disponibile</altText>
+        <mail></mail>
+        <phone></phone>
+        <address></address>
+        <fax></fax>
+        <cell></cell>
+    </person>
+    <person>
+        <team>IPCT</team>
+        <name>botta</name>
+        <fullName>Mauro Botta</fullName>
+        <position>Full Professor</position>
+        <image>images/botta.jpg</image>
+        <altText>immagine non disponibile</altText>
+        <mail>mauro.botta@mfn.unipmn.it</mail>
+        <phone>+39 0131360253</phone>
+        <address></address>
+        <fax></fax>
+        <cell></cell>
+    </person>
+    <person>
+        <team>IPCT</team>
+        <name>digilio</name>
+        <fullName>Giuseppe Digilio</fullName>
+        <position>Researcher</position>
+        <image>images/digilio.jpg</image>
+        <altText>immagine non disponibile</altText>
+        <mail>giuseppe.digilio@mfn.unipmn.it</mail>
+        <phone>+39 0131360371</phone>
+        <address></address>
+        <fax></fax>
+        <cell></cell>
+    </person>
+    <person>
+        <team>IPCT</team>
+        <name>tei</name>
+        <fullName>Lorenzo Tei</fullName>
+        <position>Researcher</position>
+        <image>images/tei.jpg</image>
+        <altText>immagine non disponibile</altText>
+        <mail>lorenzo.tei@mfn.unipmn.it</mail>
+        <phone>+39 0131360208</phone>
+        <address></address>
+        <fax></fax>
+        <cell></cell>
+    </person>
 </staff>
