@@ -116,7 +116,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 				<td class="link"></td>
 			</tr>
 			<tr>
-				<td class="link"><?php if(isset($fileGaz[18 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[18 + $nPreCampionato] . "'>III</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[16 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[16 + $nPreCampionato] . "'>III</a>"; ?>
 				</td>
 				<td class="link"></td>
 				<td class="link"><?php if(isset($fileGaz[35 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[35 + $nPreCampionato] . "'>supercoppa</a>"; ?>
