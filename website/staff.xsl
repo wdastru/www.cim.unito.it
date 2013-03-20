@@ -50,6 +50,15 @@
 										<xsl:value-of select="mail" />
 										<br />
 									</xsl:if>
+									<xsl:if test='child::CV != ""'>
+									    <a>
+                                            <xsl:attribute name='href'><xsl:value-of 
+                                                select="CV" /></xsl:attribute>
+                                            <xsl:attribute name='target'>_blank</xsl:attribute>
+                                                <b><xsl:text>Curriculum vitae</xsl:text></b>
+                                        </a>
+                                        <br />
+                                    </xsl:if>
 								</p>
 							</div>
 						</div>
@@ -103,6 +112,15 @@
                                     <xsl:if test='child::mail != ""'>
                                         <b>e-mail: </b>
                                         <xsl:value-of select="mail" />
+                                        <br />
+                                    </xsl:if>
+                                    <xsl:if test='child::CV != ""'>
+                                        <a>
+                                            <xsl:attribute name='href'><xsl:value-of 
+                                                select="CV" /></xsl:attribute>
+                                            <xsl:attribute name='target'>_blank</xsl:attribute>
+                                                <b><xsl:text>Curriculum vitae</xsl:text></b>
+                                        </a>
                                         <br />
                                     </xsl:if>
                                 </p>
@@ -162,6 +180,15 @@
 										<xsl:value-of select="mail" />
 										<br />
 									</xsl:if>
+									<xsl:if test='child::CV != ""'>
+                                        <a>
+                                            <xsl:attribute name='href'><xsl:value-of 
+                                                select="CV" /></xsl:attribute>
+                                            <xsl:attribute name='target'>_blank</xsl:attribute>
+                                                <b><xsl:text>Curriculum vitae</xsl:text></b>
+                                        </a>
+                                        <br />
+                                    </xsl:if>
 								</p>
 							</div>
 						</div>

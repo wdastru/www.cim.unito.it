@@ -200,7 +200,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 .clickable { width:528px; height:18px; background-color:#e4e4e4; cursor:pointer; padding:1px 5px 5px 5px; }
 .name { float:left; width:200px; height:16px; }
 .position { float:right; text-align:right; border:none; height:16px; width:250px; display:block; }
-.contacts { clear:both; padding:12px 5px; }
+.contacts { clear:both; padding:12px 5px; cursor:default; }
 /* End of STAFF */
 
 /* COLUMNS in index.html */

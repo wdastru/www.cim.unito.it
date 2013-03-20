@@ -10,6 +10,7 @@
 		<phone>+39 011 6706451</phone>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<CV>documenti/CV-Aime.pdf</CV>
 	</person>
 	<person>
 		<team>CPCRT</team>
@@ -120,7 +121,7 @@
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
 	</person>
-	<person>
+<!--	<person>
 		<team>CPCRT</team>
 		<name>espak</name>
 		<fullName>Miklos Espak</fullName>
@@ -132,6 +133,7 @@
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
 	</person>
+-->
 	<person>
 		<team>CCSFMRI</team>
 		<name>duca</name>
