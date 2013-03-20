@@ -10,10 +10,10 @@ gruppi8/0/2/60.5/72.5/GILARDINO/GILARDINO/
 gruppi9/3/1/78/69/PALACIO/PALACIO/GOMEZ/INLER/
 gruppi10/2/2/72/77.5/DI NATALE/DI NATALE/MAGGIO/SAU/
 gruppi11/2/2/75/77/GABBIADINI/PIRLO/MURIEL/INSIGNE/
-semi0/-/-/-/-/
-semi1/-/-/-/-/
-semi2/-/-/-/-/
-semi3/-/-/-/-/
+semi0/1/0/67.5/58.5/COSSU/
+semi13/3/0/80.5/63.5/DENIS/DENIS/GILARDINO/
+semi2/0/3/64/78.5/LJAJIC/JOVETIC/LAMELA/
+semi3/2/0/75/59.5/ROSINA/ROSINA/
 finali0/-/-/-/-/
 finali1/-/-/-/-/
 finali2/-/-/-/-/
