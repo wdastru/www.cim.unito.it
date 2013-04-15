@@ -78,7 +78,7 @@ $localizer = "./";
                                 <li> Hybrid modalities (MRI/PET, MRI/SPECT, MRI/CT) </li>
                                 <li> Cell culture / Cell microscopy / Histology </li>
                                 <li> Electron Microscopy </li>
-                                <li> Photoacoustic Imaging </li>
+                                <!--<li> Photoacoustic Imaging </li>-->
                                 <li> Hyperpolarized Imaging (DNP, para-H2) </li>
                                 <li> Repository of Imaging reporters </li>
                                 <li> Chemistry laboratory for synthesis and characterizazion of probes for the different imaging modalities </li>
