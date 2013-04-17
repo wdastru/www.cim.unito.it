@@ -55,13 +55,7 @@
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <ul>
-                                <li>Bruker Avance 7T equipped for &micro;-Imaging</li>
-                                <li>Bruker PharmaScan 7T</li>
-                                <li>Bruker BioSpec 3T</li>
-                                <li>Bruker ICON MRI 1T</li>
-                                <li>Aspect M2 1T</li>
-                            </ul>
+
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
