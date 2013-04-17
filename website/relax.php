@@ -1,5 +1,5 @@
 <?php
-$localizer = "./";
+$localizer = "../";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -64,6 +64,12 @@ $localizer = "./";
 					</div>
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
+						     <ul>
+                                <li>STELAR SMARTracer (0.01 - 10 MHz)</li>
+                                <li>STELAR SpinMaster (21 MHz)</li>
+                                <li>STELAR Fast Field Cycling (0.01 - 20 MHz)</li>
+                                <li>STELAR Variable Field Electromagnet (20 - 70 MHz)</li>
+                            </ul>
 						<!-- InstanceEndEditable -->
 					</div>
 				</div>
