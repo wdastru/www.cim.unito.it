@@ -54,6 +54,10 @@ Instruments<!-- InstanceEndEditable --></h1>
 </div>
 <div class='paddingInner'>
 <!-- InstanceBeginEditable name="subsection content" -->
+     <ul>
+         <li>Bruker Avance 600MHz</li>
+         <li>JEOL EX-400</li>
+     </ul>
 <!-- InstanceEndEditable --></div>
 </div>
 </div>

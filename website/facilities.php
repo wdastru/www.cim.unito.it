@@ -66,25 +66,27 @@ $localizer = "./";
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
+                            
+                            <p>The Molecular Imaging Center is well equipped in terms of chemical (synthesis and analytical 
+                                characterisation), biological and imaging laboratories.</p>
+                            
                             <ul>
-                                <li>(Micro)PET/SPECT</li>
-                                <li>(Micro)MRI/MRS (low / high field)</li>
+                                <li>(&micro;)PET/SPECT</li>
+                                <li>(&micro;)MRI/MRS (low &amp; high field)</li>
                                 <li>Field Cycling Relaxometry</li>
                                 <li>Optical Imaging</li>
-                                <li>(Micro)CT </li>
-                                <li>CT dual source </li>
-                                <li> (Micro)US </li>
-                                <li> Laser Doppler </li>
-                                <li> Hybrid modalities (MRI/PET, MRI/SPECT, MRI/CT) </li>
-                                <li> Cell culture / Cell microscopy / Histology </li>
-                                <li> Electron Microscopy </li>
+                                <li>&micro;-CT </li>
+                                <li>&micro;-US </li>
+                                <li>Hybrid modalities (MRI/PET, MRI/SPECT, MRI/CT) </li>
+                                <li>Cell culture / Cell microscopy / Histology </li>
+                                <li>Electron Microscopy </li>
                                 <!--<li> Photoacoustic Imaging </li>-->
-                                <li> Hyperpolarized Imaging (DNP, para-H2) </li>
-                                <li> Repository of Imaging reporters </li>
-                                <li> Chemistry laboratory for synthesis and characterizazion of probes for the different imaging modalities </li>
-                                <li> Image analysis </li>
-                                <li> Animal house </li>
-                                <li> Animal models preparation (including transgenic models) </li>
+                                <li>Hyperpolarized Imaging (DNP, para-H2) </li>
+                                <li>Repository of Imaging reporters </li>
+                                <li>Chemistry laboratory for synthesis and characterizazion of probes for the different imaging modalities </li>
+                                <li>Image analysis </li>
+                                <li>Animal house </li>
+                                <li>Animal models preparation (including transgenic models) </li>
                             </ul>
                             <!-- InstanceEndEditable -->
                         </div>
