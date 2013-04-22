@@ -5,27 +5,36 @@
     $mailer = new PHPMailer();
     $mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
     $body = '';
-    $eol = '\n';
-    //$eol = '<br />';
+    $eol = "\n";
+    //$eol = "<br />";
     
     if (isset($_GET['submit'])) { 
         if ($_GET['submit'] == 'yes') {
-            $valid = 
-                    isset($_POST['name']) || 
-                    isset($_POST['email']) ||
-                    isset($_POST['institution']) ||
-                    isset($_POST['instruments']) ||
-                    isset($_POST['description']) ||
-                    isset($_POST['consumables']) ||
-                    isset($_POST['notes']);  
+            $valid = (
+                         isset($_POST['name']) && 
+                         isset($_POST['email']) &&
+                         isset($_POST['institution']) && 
+                         isset($_POST['description']) && 
+                         $_POST['name'] != '' &&
+                         $_POST['email'] != '' &&
+                         $_POST['institution'] != '' &&
+                         $_POST['description'] != ''
+                     );
+                     
             if ($valid) {
-                $body .= "name        : " . $_POST['name'] . $eol;
-                $body .= "email       : " . $_POST['email'] . $eol;
-                $body .= "institution : " . $_POST['institution'] . $eol;
-                $body .= "instruments : " . $_POST['instruments'] . $eol;
-                $body .= "description : " . $_POST['description'] . $eol;
-                $body .= "consumables : " . $_POST['consumables'] . $eol;
-                $body .= "notes       : " . $_POST['notes'] . $eol;
+                $body .= "Name        : " . $_POST['name'] . $eol;
+                $body .= "E-mail      : " . $_POST['email'] . $eol;
+                $body .= "Institution : " . $_POST['institution'] . $eol;
+                $body .= "NMR         : " . $_POST['NMR'] . $eol;
+                $body .= "MRI         : " . $_POST['MRI'] . $eol;
+                $body .= "OI          : " . $_POST['OI'] . $eol;
+                $body .= "US          : " . $_POST['US'] . $eol;
+                $body .= "PET_SPECT   : " . $_POST['PET_SPECT'] . $eol;
+                $body .= "Instruments : " . $_POST['instruments'] . $eol;
+                $body .= "Description : " . $_POST['description'] . $eol;
+                $body .= "Animal use  : " . $_POST['animal'] . $eol;
+                $body .= "Consumables : " . $_POST['consumables'] . $eol;
+                $body .= "Notes       : " . $_POST['notes'] . $eol;
                 $vars = array('subject' => "Service request.", 'body' => $body);
                 
                 /*** SEND MAIL ***/
@@ -33,6 +42,9 @@
                 /*** SEND MAIL ***/
                 
                 header('Location: ' . $localizer . 'facilities/service.php');
+            } else {
+                $error_string = "Mandatory fields are missing !!!";
+                header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
             }
             
             unset($_POST);
@@ -72,24 +84,11 @@
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id='subsection0'>
+            <div id='subsection6'>
                 <!-- InstanceEndEditable -->
-                <div id='sidebar'>
-                    <div class='padding'>
-                        <dl id='list'>
-                            <dt id='section3-subsection1' class='subsection_link'><a href=
-                                'mri.php'>MRI</a></dt>
-                            <dt id='section3-subsection2' class='subsection_link'><a href=
-                                'nmr.php'>NMR</a></dt>
-                            <dt id='section3-subsection3' class='subsection_link'><a href=
-                                'relax.php'>Relaxometry</a></dt>
-                            <dt id='section3-subsection4' class='subsection_link'><a href=
-                                'org_lab.php'>Organic Laboratory</a></dt>
-                            <dt id='section3-subsection5' class='subsection_link'><a href=
-                                'cell_lab.php'>Cell Laboratory</a></dt>
-                        </dl>
-                    </div>
-                </div>
+                <?php
+                require ($localizer . 'includes/facilities-side-nav.php');
+                ?>
                 <div id='content'>
                 <div class='paddingOuter'>
                 <div id='band'>
@@ -100,50 +99,50 @@
                 <form method='post' action='<?php echo $localizer; ?>facilities/service.php?submit=yes'>
                 <table>
                     <tr>
-                        <td class='title'>Name :</td>
+                        <td class='title'>Name (*) :</td>
                         <td colspan="4"><input type="text" name="name" value=""/></td>
                     </tr>
                     <tr>
-                        <td class='title'>Institution :</td>
+                        <td class='title'>Institution (*) :</td>
                         <td colspan="4"><input type="text" name="institution" value=""/></td>
                     </tr>
                     <tr>
-                        <td class='title'>Contact email :</td>
+                        <td class='title'>Contact email (*) :</td>
                         <td colspan="4"><input type="text" name="email" value=""/></td>
                     </tr>
                     <tr>
                         <td class='col1 title'>Service requested :</td>
                         <td class='col2'>NMR</td>
                         <td class='col3'>&nbsp;</td>
-                        <td class='col4'><input type="checkbox" name="serviceType" value="NMR"></td>
+                        <td class='col4'><input type="checkbox" name="NMR" value="yes"></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>Imaging</td>
                         <td>MRI</td>
-                        <td><input type="checkbox" name="serviceType" value="MRI"></td>
+                        <td><input type="checkbox" name="MRI" value="yes"></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>Optical Imaging</td>
-                        <td><input type="checkbox" name="serviceType" value="OI"></td>
+                        <td><input type="checkbox" name="OI" value="yes"></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>Ultrasound</td>
-                        <td><input type="checkbox" name="serviceType" value="US"></td>
+                        <td><input type="checkbox" name="US" value="yes"></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>PET/SPECT</td>
-                        <td><input type="checkbox" name="serviceType" value="PET_SPECT"></td>
+                        <td><input type="checkbox" name="PET_SPECT" value="yes"></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
@@ -151,7 +150,7 @@
                         <td colspan="4"><input type="text" name="instruments" value=""/></td>
                     </tr>
                     <tr>
-                        <td colspan="5" class='title'>Brief description of experiment(s) to be carried out :</td>
+                        <td colspan="5" class='title'>Brief description of experiment(s) to be carried out (*) :</td>
                     </tr>
                     <tr>
                         <td colspan="5"><textarea name="description"></textarea></td>
@@ -190,6 +189,7 @@
                     </tr>                    
                 </table>
                 </form>
+                <p>(*) = mandatory field</p>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
