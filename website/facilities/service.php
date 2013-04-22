@@ -1,4 +1,46 @@
-<?php $localizer = "../"; ?>
+<?php 
+    $localizer = "../";
+    require_once ($localizer . 'includes/class.phpmailer.php');
+    require $localizer . 'includes/sendEMail.php';
+    $mailer = new PHPMailer();
+    $mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
+    $body = '';
+    $eol = '\n';
+    //$eol = '<br />';
+    
+    if (isset($_GET['submit'])) { 
+        if ($_GET['submit'] == 'yes') {
+            $valid = 
+                    isset($_POST['name']) || 
+                    isset($_POST['email']) ||
+                    isset($_POST['institution']) ||
+                    isset($_POST['instruments']) ||
+                    isset($_POST['description']) ||
+                    isset($_POST['consumables']) ||
+                    isset($_POST['notes']);  
+            if ($valid) {
+                $body .= "name        : " . $_POST['name'] . $eol;
+                $body .= "email       : " . $_POST['email'] . $eol;
+                $body .= "institution : " . $_POST['institution'] . $eol;
+                $body .= "instruments : " . $_POST['instruments'] . $eol;
+                $body .= "description : " . $_POST['description'] . $eol;
+                $body .= "consumables : " . $_POST['consumables'] . $eol;
+                $body .= "notes       : " . $_POST['notes'] . $eol;
+                $vars = array('subject' => "Service request.", 'body' => $body);
+                
+                /*** SEND MAIL ***/
+                sendEMail($vars, $mailer);
+                /*** SEND MAIL ***/
+                
+                header('Location: ' . $localizer . 'facilities/service.php');
+            }
+            
+            unset($_POST);
+            $body = '';
+        }
+    }
+ ?>
+ 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -55,7 +97,7 @@
                 </div>
                 <div class='paddingInner'>
                 <!-- InstanceBeginEditable name="subsection content" -->
-                <form>
+                <form method='post' action='<?php echo $localizer; ?>facilities/service.php?submit=yes'>
                 <table>
                     <tr>
                         <td class='title'>Name :</td>
@@ -64,6 +106,10 @@
                     <tr>
                         <td class='title'>Institution :</td>
                         <td colspan="4"><input type="text" name="institution" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td class='title'>Contact email :</td>
+                        <td colspan="4"><input type="text" name="email" value=""/></td>
                     </tr>
                     <tr>
                         <td class='col1 title'>Service requested :</td>
