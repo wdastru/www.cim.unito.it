@@ -1,0 +1,11 @@
+/* CSS Document */
+
+table { width: 100%; }
+input { width: 100%; }
+textarea { width: 630px; }
+.col1 { width: 150px; }
+.col2 { width: 100px; }
+.col3 { width: 100px; }
+.col5 { width: 250px; }
+
+.title { color:#DB6D16; font-weight: bold; } 
