@@ -7,7 +7,6 @@ function sendEMail(&$vars, &$mailer)
 
 	$host = $_SERVER['SERVER_NAME'];
 	$mailer->From = "nobody@$host";
-
 	$mailer->Body = $vars['body'];
 
 	/*
