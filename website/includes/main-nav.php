@@ -12,7 +12,7 @@
 					<a href='".$localizer."events.php'>EVENTS</a>
 				</dt>
 				<dt id='main-nav-section3'>
-					<a href='".$localizer."facilities.php'>FACILITIES</a>
+					<a href='".$localizer."facilities/index.php'>FACILITIES</a>
 				</dt>
 				<dt id='main-nav-section4'>
 					<a href='".$localizer."partners.php'>PARTNERS</a>
