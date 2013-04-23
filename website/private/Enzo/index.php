@@ -42,7 +42,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				</fieldset>
 			</form>
 		</div>
-		<div id='section5'>
+		<div id='section7'>
 			<?php
 			require ($localizer . 'includes/main-nav.php');
 			?>

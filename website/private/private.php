@@ -55,6 +55,7 @@ $localizer = "../";
 							<p><a class='link' href="<?php echo $localizer; ?>private/prenotazioni/index.php">Instrument booking</a></p>
 							<p><a class='link' href="<?php echo $localizer; ?>private/Enzo/index.php">Enzo's group</a></p>
 							<p><a class='link' href="<?php echo $localizer; ?>private/INTA/index.php">INTA project</a></p>
+							<p><a class='link' href="<?php echo $localizer; ?>private/passwords/index.php">Authors' Credentials</a></p>
 						<!-- InstanceEndEditable name="subsection content" -->
 					</div>
 				</div>
