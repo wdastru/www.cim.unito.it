@@ -42,6 +42,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
+                            <ul>
+                                <li>Analytical/Semipreparative HPLC-MS Waters Fraction Lynx with 3100 SQ Mass Detector and Dual &lambda; Absorbance Detector</li>
+                                <li>Analytical HPLC Waters Alliance 2695 with PDA Detector</li>
+                                <li>Automatic Microwave Peptide Synthesizer Liberty CEM</li>
+                            </ul>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

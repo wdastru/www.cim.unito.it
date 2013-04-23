@@ -32,26 +32,11 @@
 			<div id='header'>
 			</div>
 			<!-- InstanceBeginEditable name="subsection opening" -->
-			<div id='subsection3'>
+			<div id='subsection4'>
 				<!-- InstanceEndEditable -->
-				<div id='sidebar'>
-					<div class='padding'>
-						<dl id='list'>
-							<dt class='subsection_link' id='section0-subsection1'>
-								<a href=
-								'staff.php'>Staff</a>
-							</dt>
-							<dt class='subsection_link' id='section0-subsection2'>
-								<a href=
-								'where.php'>Where</a>
-							</dt>
-							<dt class='subsection_link' id='section0-subsection3'>
-								<a href=
-								'contacts.php'>Contacts</a>
-							</dt>
-						</dl>
-					</div>
-				</div>
+                <?php
+                require ($localizer . 'includes/home-side-nav.php');
+                ?>
 				<div id='content'>
 					<div class='paddingOuter'>
 						<div id='band'>
