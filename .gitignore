@@ -54,3 +54,5 @@ website/private/prenotazioni/db.log
 website/private/prenotazioni/db.log
 .cproject
 website/COST/documents/
+website/private/passwords/.htaccess
+website/private/passwords/cimpass
