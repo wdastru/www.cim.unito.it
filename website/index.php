@@ -95,7 +95,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </div>
                                 <div id='col3'>
                                     <h2 class='punch orange'><span>EVENTS</span></h2>
-                                    
+                                    <span class="date">23<sup>rd</sup> May, 2013</span>
+                                    <a href='<?php echo $localizer;?>documenti/TransInt course Dublin.doc' ><span class="paperTitle" style="text-decoration:blink">1<sup>st</sup> TRANS-INT training session in oral nanomedicine</span></a>
+                                    <img style="width: 99%" src="images/trans-int_logo.png" />
+                                    Veterinary Science Centre<br />
+                                    University College Dublin<br />
+                                    <div id='divider'></div>
                                     <span class="date">26 to 28 May, 2013</span>
                                     <a href='http://www.e-smi.eu/index.php?id=2504' target='_blank'><span class="paperTitle" style="text-decoration:blink">EMIM 2013 - EUROPEAN MOLECULAR IMAGING MEETING</span></a>
                                     <img style="width: 99%" src="images/ESMI_logo_imaging_life.jpg" />                 
