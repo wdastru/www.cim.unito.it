@@ -302,13 +302,22 @@ xmlns="http://www.w3.org/1999/xhtml">
 <td><input id='iIVIS200' class='instrumentButton' type='submit' name='instrument' value='IVIS200' onmouseover='On(\"iIVIS200\")' onmouseout='Off(\"iIVIS200\")'/></td>
 <td><input id='iAuto' class='instrumentButton' type='submit' name='instrument' value='Auto' onmouseover='On(\"iAuto\")' onmouseout='Off(\"iAuto\")'/></td>
 </tr>
+<tr>
+<td><input id='iSPPS' class='instrumentButton' type='submit' name='instrument' value='SPPS' onmouseover='On(\"iSPPS\")' onmouseout='Off(\"iSPPS\")'/></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </table>
 </form>
 </div>
 <div>";
 								echo "		<span class='date'>&nbsp;&nbsp;&nbsp;";
 								echo date_to_str(date("Ymd", $wkstart), "", false) . "&nbsp; - &nbsp;" . date_to_str(date("Ymd", $wkend), "", false);
-								echo "&nbsp;&nbsp;&nbsp;(" . "Week" . " " . week_number($wkstart) . ")</span>";
+								//echo "<br />&nbsp;&nbsp;&nbsp;(" . "Week" . " " . week_number($wkstart) . ")";
+								echo "</span>";
 								echo "</div>";
 								?>
 							</div>

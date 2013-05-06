@@ -23,7 +23,8 @@ $instrument = array(
 					"Fluo", 
                     "OIPearl", 
                     "IVIS200", 
-					"Icon");
+                    "SPPS", 
+                    "Icon");
 
 $instrString[ "300MHz" ] = "Bruker Avance 300 MHz"; 
 $instrString[ "600MHz" ] = "Bruker Avance 600 MHz"; 
@@ -48,6 +49,7 @@ $instrString[ "Alliance" ] = "HPLC Alliance";
 $instrString[ "Fluo" ] = "Fluorimetro";
 $instrString[ "OIPearl" ] = "OI Pearl's";
 $instrString[ "IVIS200" ] = "OI IVIS 200";
+$instrString[ "SPPS" ] = "Peptide Synthesizer";
 $instrString[ "Icon" ] = "Icon (Ivrea)";
 
 $guidelines[ "300MHz" ] = "<br/><h1>Regolamento prenotazioni 300MHz</h1>
@@ -131,6 +133,7 @@ $guidelines[ "Alliance" ] = "";
 $guidelines[ "Fluo" ] = "";
 $guidelines[ "OIPearl" ] = "";
 $guidelines[ "IVIS200" ] = "";
+$guidelines[ "SPPS" ] = "";
 $guidelines[ "Icon" ] = "";
 
 $warning[ "300MHz" ] = ""; 
@@ -156,6 +159,7 @@ $warning[ "Alliance" ] = "";
 $warning[ "Fluo" ] = "";
 $warning[ "OIPearl" ] = "";
 $warning[ "IVIS200" ] = "";
+$warning[ "SPPS" ] = "";
 $warning[ "Icon" ] = "";
 /*
 $generalWarning = "<div id='generalWarningDiv'><br /><h1 style='text-decoration:blink; text-align:center; color:#FFF;'>AVVISO</h1><br /><p class='generalWarning'>Si sono verificati dei problemi con le prenotazioni.<br />Siete pregati di fare particolare attenzione durante la prenotazione e cancellazione degli spazi, e di comunicare a Walter qualunque malfunzionamento incontriate.<br /><br />Saluti.</p></div>";
