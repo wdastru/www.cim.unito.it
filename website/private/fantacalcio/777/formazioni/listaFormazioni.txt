@@ -25,6 +25,7 @@ eporediese_camp_25.txt
 eporediese_camp_26.txt
 eporediese_camp_27.txt
 eporediese_camp_28.txt
+eporediese_coppa_finale.txt
 fedora.txt
 fedora_camp_1.txt
 fedora_camp_10.txt
@@ -136,6 +137,7 @@ real_coppa_1.txt
 real_coppa_2.txt
 real_coppa_3.txt
 real_coppa_4.txt
+real_coppa_5.txt
 real_tipo_valida_fino_20120922-150909.txt
 real_tipo_valida_fino_20121124-002318.txt
 real_tipo_valida_fino_20121129-214101.txt
