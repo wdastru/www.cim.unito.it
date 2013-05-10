@@ -294,12 +294,10 @@ $localizer = "../../";
                                 </p>
                                 <ul>
                                     <li>
-                                        <a href=
-                                        "documenti/COST_D38_Joint_WG2_WG6_Meeting_March%202011/COST%20D38%20Joint%20WG2_WG6%20Meeting%20Program_March%202011.pdf"> Program</a>
+                                        <a href="<?php echo $localizer ?>documenti/COST D38 Joint WG2_WG6 Meeting Program_March 2011.pdf"> Program</a>
                                     </li>
                                     <li>
-                                        <a href=
-                                        "documenti/COST_D38_Joint_WG2_WG6_Meeting_March%202011/leaflet.pdf"> Leaflet</a>
+                                        <a href="<?php echo $localizer ?>documenti/leaflet.pdf"> Leaflet</a>
                                     </li>
                                 </ul>
                                 <p style="font-weight:bold; font-size:14px">
