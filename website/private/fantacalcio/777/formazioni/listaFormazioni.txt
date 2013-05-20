@@ -20,12 +20,14 @@ ciofeca_camp26.txt
 ciofeca_camp27.txt
 ciofeca_camp28.txt
 ciofeca_coppa4.txt
+ciofeca_supercoppa.txt
 eporediese.txt
 eporediese_camp_25.txt
 eporediese_camp_26.txt
 eporediese_camp_27.txt
 eporediese_camp_28.txt
 eporediese_coppa_finale.txt
+eporediese_supercoppa.txt
 fedora.txt
 fedora_camp_1.txt
 fedora_camp_10.txt
@@ -95,6 +97,7 @@ lokomotiv_coppa_1.txt
 lokomotiv_coppa_2.txt
 lokomotiv_coppa_3.txt
 lokomotiv_coppa_4.txt
+lokomotiv_coppa_5.txt
 lokomotiv_tipo_valida_fino_20120922-150503.txt
 lokomotiv_tipo_valida_fino_20130112-172054.txt
 lokomotiv_tipo_valida_fino_20130119-164249.txt
@@ -104,6 +107,7 @@ lokomotiv_tipo_valida_fino_20130315-231133.txt
 patelavache.txt
 patelavache_camp_27.txt
 patelavache_camp_28.txt
+patelavache_coppa_finale.txt
 real.txt
 real_camp_01.txt
 real_camp_02.txt
