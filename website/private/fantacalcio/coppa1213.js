@@ -365,22 +365,14 @@ function arrangeTeams() {
 			}
 		}
 
-		document.getElementById('finali0_C_nome').innerHTML = "&nbsp;"
-				+ winner[0];
-		document.getElementById('finali1_C_nome').innerHTML = "&nbsp;"
-				+ loser[0];
-		document.getElementById('finali0_F_nome').innerHTML = winner[1]
-				+ "&nbsp;";
-		document.getElementById('finali1_F_nome').innerHTML = loser[1]
-				+ "&nbsp;";
-		document.getElementById('finali2_C_nome').innerHTML = "&nbsp;"
-				+ winner[2];
-		document.getElementById('finali3_C_nome').innerHTML = "&nbsp;"
-				+ loser[2];
-		document.getElementById('finali2_F_nome').innerHTML = "&nbsp;"
-				+ winner[3];
-		document.getElementById('finali3_F_nome').innerHTML = "&nbsp;"
-				+ loser[3];
+		document.getElementById('finali0_C_nome').innerHTML = "&nbsp;" + winner[0];
+		document.getElementById('finali1_C_nome').innerHTML = "&nbsp;" + loser[0];
+		document.getElementById('finali0_F_nome').innerHTML = winner[1] + "&nbsp;";
+		document.getElementById('finali1_F_nome').innerHTML = loser[1] + "&nbsp;";
+		document.getElementById('finali2_C_nome').innerHTML = "&nbsp;" + winner[2];
+		document.getElementById('finali3_C_nome').innerHTML = "&nbsp;" + loser[2];
+		document.getElementById('finali2_F_nome').innerHTML = winner[3] + "&nbsp";
+		document.getElementById('finali3_F_nome').innerHTML = loser[3] + "&nbsp";
 		// <-- aggiornamento classifica
 
 		// --> classifiche avulse

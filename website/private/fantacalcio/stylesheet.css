@@ -113,7 +113,7 @@ table#semifinali_coppa td.coppaDestra a:hover{ color:linkCoppaRightHover; text-d
 table#semifinali_coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; background-color:textColor1; color:textColor0; }
 table#semifinali_coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
 table#finali_coppa td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; }
-table#finali_coppa td.coppaSinistra a:link{ color:linkCoppaLeft; text-decoration:none; }             
+table#finali_coppa td.coppaSinistra a:link{ color:linkCoppaLeftLink; text-decoration:none; }             
 table#finali_coppa td.coppaSinistra a:visited{ color:linkCoppaLeftVisited; text-decoration:none;}   
 table#finali_coppa td.coppaSinistra a:active{ color:linkCoppaLeftActive; text-decoration:none;}     
 table#finali_coppa td.coppaSinistra a:hover{ color:linkCoppaLeftHover; text-decoration:none;}       
