@@ -461,6 +461,7 @@ include("calendarioCoppa.inc");
 		</table>
 		<!-- semifinali -->
 		<br />
+
 		<!-- finali -->
 		<table id='finali_coppa'>
 
