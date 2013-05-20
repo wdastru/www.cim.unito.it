@@ -271,6 +271,7 @@ table.modificatore{ margin:auto; color: textColor0; }
 table.download { width:80%; border:none; color:textColor1; }
 #download_pre{ width:360px; margin:auto; }
 #download_coppa{ width:360px; margin:auto; }
+#download_supercoppa{ width:360px; margin:auto; }
 #download_campionato{ width:480px; margin:auto; }
 
 table.main h2 { color:textColor0; font-size:1.5em; }
