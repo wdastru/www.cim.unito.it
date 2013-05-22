@@ -304,7 +304,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 </tr>
 <tr>
 <td><input id='iSPPS' class='instrumentButton' type='submit' name='instrument' value='SPPS' onmouseover='On(\"iSPPS\")' onmouseout='Off(\"iSPPS\")'/></td>
-<td></td>
+<td><input id='iICP' class='instrumentButton' type='submit' name='instrument' value='ICP' onmouseover='On(\"iICP\")' onmouseout='Off(\"iICP\")'/></td>
 <td></td>
 <td></td>
 <td></td>
