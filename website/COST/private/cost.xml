@@ -40,7 +40,7 @@
         <person>
             <role>MC Member</role>
             <name>Prof. Tamara CACEV</name>
-            <address>Ruđer Bošković Institute , Bijenička cesta 54, HR-10000 Zagreb, Croatia</address>
+            <address>Ruđer Bošković Institute, Bijenička cesta 54, HR-10000 Zagreb, Croatia</address>
             <mail>tcacev@irb.hr</mail>
             <resources></resources>
         </person>
@@ -51,6 +51,13 @@
             <name>Dr. Milan HAJEK</name>
             <address></address>
             <mail>milan.hajek@ikem.cz</mail>
+            <resources></resources>
+        </person>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Petr HERMANN</name>
+            <address>Universita Karlova, Hlavova 2030, 12840 Prague 2</address>
+            <mail>petrh@natur.cuni.cz</mail>
             <resources></resources>
         </person>
     </section>
@@ -310,6 +317,15 @@
             <name>Dr. Gerard TOBIAS</name>
             <address>Consejo Superior de Investigaciones Científicas - Institut de Ciencia de Materials - Campus de la UAB 08193 Bellaterra, Spain</address>
             <mail>gtobias@icmab.es</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Sweden'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr Andras GORZSAS</name>
+            <address>Ume&#229; University - Department of Chemistry - SE-90187 Ume&#229;, Sweden</address>
+            <mail>andras.gorzsas@chem.umu.se</mail>
             <resources></resources>
         </person>
     </section>
