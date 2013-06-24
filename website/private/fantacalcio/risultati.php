@@ -30,7 +30,7 @@ include("calendario.inc");
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 	
-	<!-- jQuery for hiddenBox-->
+	<!-- jQuery for hiddenBox START -->
 	<!-- Add jQuery library -->
 	<script type="text/javascript" src="<?php echo $relocate_string; ?>hiddenBoxes-jquery/lib/jquery-1.10.1.min.js"></script>
 
@@ -228,7 +228,7 @@ include("calendario.inc");
 
 		});
 	</script>
-	<!-- jQuery for hiddenBox-->
+	<!-- jQuery for hiddenBox END -->
 	
 	<style type="text/css">
 		.fancybox-custom .fancybox-skin {
@@ -250,7 +250,7 @@ include("calendario.inc");
 <?php require $relocate_string . 'include/banner.inc.php'; ?>
 
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBox' style='width:600px; display: none'>
+	<div id='hiddenBox' style='width:600px; display: none; visibility: hidden;'>
 		<br />
 		<div id='hiddenBoxTitleBox'>
 			<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
@@ -261,7 +261,7 @@ include("calendario.inc");
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
 					onclick='validate( "campionato" )' /> <input class='button' type='button'
-					value='Close this box!' onclick='$.fancybox.close();' /> <input class='button'
+					value='Close this box!' onclick='hideBox();' /> <input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
