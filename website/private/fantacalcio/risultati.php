@@ -261,7 +261,7 @@ include("calendario.inc");
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
 					onclick='validate( "campionato" )' /> <input class='button' type='button'
-					value='Close this box!' onclick='hideBox();' /> <input class='button'
+					value='Close this box!' onclick='$.fancybox.close();' /> <input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal

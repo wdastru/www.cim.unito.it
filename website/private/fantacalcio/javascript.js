@@ -88,11 +88,6 @@ function showBoxCampionato(id, evt) {
 			}
 
 			inputTags.item(inputTags.length - 1).value = id;
-
-			//hiddenBox.style.visibility = 'visible';
-			$.fancybox( '<div><h1>Lorem Lipsum</h1><p>Lorem lipsum</p></div>', {
-   			 title : 'Custom Title'
-			});
 		}
 	} else {
 		alert(":( DOM NON Supportato!");
