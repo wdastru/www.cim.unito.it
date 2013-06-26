@@ -32,7 +32,10 @@ include("calendario.inc");
 	
 	<!-- jQuery for hiddenBox START -->
 	<!-- Add jQuery library -->
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>jQuery/lib/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<!-- <script type="text/javascript" src="<?php echo $relocate_string; ?>jQuery/lib/jquery-1.10.1.min.js"></script> -->
 
 	<!-- Add mousewheel plugin (this is optional) -->
 	<script type="text/javascript" src="<?php echo $relocate_string; ?>jQuery/lib/jquery.mousewheel-3.0.6.pack.js"></script>
