@@ -56,7 +56,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<!-- InstanceEndEditable -->
 
 		<!-- InstanceBeginEditable name="jQuery" -->
-		<script type="text/javascript" src="<?php echo $relocate_string; ?>jquery.min.js"></script>
+		<script type="text/javascript" src="<?php echo $relocate_string; ?>jQuery/jquery.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#avulseToggleButton').click(function () {
