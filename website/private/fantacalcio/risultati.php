@@ -260,7 +260,7 @@ include("calendario.inc");
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "campionato" )' /> <input class='button' type='button'
+					onclick='validate( "campionato" )' /> <input id='closeBtn' class='button' type='button'
 					value='Close this box!' onclick='hideBox();' /> <input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''

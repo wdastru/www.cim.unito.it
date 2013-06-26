@@ -1,8 +1,6 @@
 // JavaScript Document
 function showBoxCampionato(id, evt) {
 	
-	clearHiddenBoxData();
-	
 	oldRetiA = 0;
 	oldRetiB = 0;
 	
@@ -223,12 +221,12 @@ function offerBoxResetFields() {
 		inputTags.item(i).value = '';
 }
 
-function hideBox(id) {
+function hideBox() {
 	if (document.getElementById) {
 		var visibility = hiddenBox.style.visibility;
 
 		if (visibility == 'visible') {
-			//clearHiddenBoxData();
+			clearHiddenBoxData();
 			hiddenBox.style.visibility = 'hidden';
 			$.fancybox.close();
 		}

@@ -86,7 +86,7 @@
 			autoPlay   : false,
 			playSpeed  : 3000,
 			preload    : 3,
-			modal      : false,
+			modal      : true, /* true : click outside the box is disabled */
 			loop       : true,
 
 			ajax  : {
@@ -420,6 +420,8 @@
 
 				F.transitions[ F.current.closeMethod ]();
 			}
+					
+			hideBox();
 		},
 
 		// Manage slideshow:
@@ -804,7 +806,7 @@
 			// 'modal' propery is just a shortcut
 			if (coming.modal) {
 				$.extend(true, coming, {
-					closeBtn   : false,
+					closeBtn   : true, /* modified by me: it was false */
 					closeClick : false,
 					nextClick  : false,
 					arrows     : false,
@@ -1435,7 +1437,7 @@
 				F.inner.css('cursor', 'pointer').bind('click.fb', function(e) {
 					if (!$(e.target).is('a') && !$(e.target).parent().is('a')) {
 						e.preventDefault();
-
+						
 						F[ current.closeClick ? 'close' : 'next' ]();
 					}
 				});

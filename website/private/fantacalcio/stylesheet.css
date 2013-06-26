@@ -61,6 +61,7 @@ table.classificaBarre td.Barra3{ background-color:barraColor3; text-align:right;
 .offertaBoxTitle { color:textHiddenBox; } 
 #hiddenBoxTitleBox { background-color: textColor0; border: 1px solid textColor1; height: 30px; width: 350px; line-height: 30px; margin: auto; }
 .hiddenBoxSubTitleBox { background-color: bkgdColorNormal; border: 1px solid textColor0; height: 20px; width:250px; line-height: 20px; margin: auto; }
+#closeBtn { visibility: hidden; width: 0px; }
 
 /*
  * RISULTATI CAMPIONATO
