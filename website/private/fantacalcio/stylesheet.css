@@ -55,7 +55,8 @@ table.classificaBarre td.Barra3{ background-color:barraColor3; text-align:right;
 /*
  * HIDDEN BOXES
  * * * * * * * */
-#hiddenBox, #hiddenOfferBox, #hiddenPasswordBox { /*position:absolute; left:30%; margin:auto; width:900px;*/ border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
+#hiddenBox { border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
+#hiddenOfferBox, #hiddenPasswordBox { position:absolute; left:30%; margin:auto; width:900px; border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
 #squadra1, #squadra2, #hiddenBoxHyphen, .passwordBoxTitle { color:titleHiddenBox; font-size: 14px; }
 #offertaBoxMainTitle, #passwordBoxMainTitle { color:specialColor; font-size:18px; }
 .offertaBoxTitle { color:textHiddenBox; } 

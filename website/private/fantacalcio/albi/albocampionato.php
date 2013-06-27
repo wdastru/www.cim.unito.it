@@ -25,6 +25,21 @@
 <h2 class="albo">CAMPIONATO</h2>
 <table class="albo">
   <tr>
+    <td>2012/13</td>
+    <td class="squadra">Dinamo Ciofeca</td>
+    <td>Presidente <span class="presidente">Lorenzo Tei</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2013/risultati2013.php">Risultati</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2013/classifica2013.php">Classifica Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2013/rosa2013.php">Rosa</a></td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>  
+  <tr>
     <td>2011/12</td>
     <td class="squadra">Dinamo Ciofeca</td>
     <td>Presidente <span class="presidente">Lorenzo Tei</span></td>
