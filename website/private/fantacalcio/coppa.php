@@ -29,12 +29,15 @@ include("calendarioCoppa.inc");
 		src="documentPreProcessor.php?document=coppa1213.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
-	<!-- InstanceBeginEditable name="jQuery" -->
-	
+	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>jQuery/lib/jquery-1.10.1.min.js"></script>
+	<?php
+		require $relocate_string . 'include/jquery.fancybox.inc.php';
+	 ?>
 
-	<!-- <script type="text/javascript" src="<?php echo $relocate_string; ?>/jQuery/lib/jquery-1.10.1.min.js"></script> -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#avulseToggleButton').click(function () {
@@ -43,17 +46,16 @@ include("calendarioCoppa.inc");
 
 		});
 	</script>
-	<!-- InstanceEndEditable -->
-
+	<!-- jQuery -->
+	
 </head>
 <!-- <body onresize="Count();"> -->
 <body>
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
-
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBox' style='visibility: hidden'>
+	<div id='hiddenBox' style='width:600px; display: none; visibility: hidden'>
 		<br />
 		<div id='hiddenBoxTitleBox'>
 			<span id='squadra1'>squadra1</span>
@@ -64,7 +66,7 @@ include("calendarioCoppa.inc");
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "coppa" )' /> <input class='button' type='button'
+					onclick='validate( "coppa" )' /> <input id='closeBtn' class='button' type='button'
 					value='Close this box!' onclick='hideBox();' /> <input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''
@@ -129,7 +131,7 @@ include("calendarioCoppa.inc");
 					<tr>
 						<td class='coppaSinistra' id='" . $id[$i*4+$j] . "_C_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i*4+$j][0]] . "'>" . $superCoppa[0][$i*4+$j][0] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaSinistra' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
+						<td href='#hiddenBox' class='datiCoppaSinistra fancybox' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][0] . "&nbsp;</div>";
 
@@ -138,7 +140,7 @@ include("calendarioCoppa.inc");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaDestra' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
+						<td href='#hiddenBox' class='datiCoppaDestra fancybox' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][1] . "&nbsp;</div>";
 				for($k=0; $k<count($superCoppa[3][$i*4+$j]); $k++)
@@ -434,7 +436,7 @@ include("calendarioCoppa.inc");
 			<tr id='semifinale" . $j . "'>
 				<td class='coppaSinistra' id='" . $id[12+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][12+$j][0] . "</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='datiCoppaSinistra pointer' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
+				<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
 					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][0] . "&nbsp;</div>	
 					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12+$j][0] . "&nbsp;</div>";
 
@@ -446,7 +448,7 @@ include("calendarioCoppa.inc");
 			echo "
 				</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='datiCoppaDestra pointer' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
+				<td href='#hiddenBox' class='datiCoppaDestra fancybox fancybox pointer' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
 					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][1] . "&nbsp;</div>
 					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12+$j][1] . "&nbsp;</div>";
 			if (isset($superCoppa[3][12+$j])) {
@@ -488,7 +490,7 @@ include("calendarioCoppa.inc");
 					<tr id='finali" . $j . "'>
 						<td class='coppaSinistra' id='" . $id[16+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][16+$j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaSinistra pointer' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
+						<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16+$j][0] . "&nbsp;</div>";
 
@@ -500,7 +502,7 @@ include("calendarioCoppa.inc");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaDestra pointer' id='" . $id[16+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16+$j] . "_F_dati\", event);'>
+						<td href='#hiddenBox' class='datiCoppaDestra fancybox pointer' id='" . $id[16+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16+$j][1] . "&nbsp;</div>";
 				if (isset($superCoppa[3][16+$j])) {
