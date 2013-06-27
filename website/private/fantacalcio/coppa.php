@@ -131,7 +131,7 @@ include("calendarioCoppa.inc");
 					<tr>
 						<td class='coppaSinistra' id='" . $id[$i*4+$j] . "_C_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i*4+$j][0]] . "'>" . $superCoppa[0][$i*4+$j][0] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
-						<td href='#hiddenBox' class='datiCoppaSinistra fancybox' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
+						<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][0] . "&nbsp;</div>";
 
@@ -140,7 +140,7 @@ include("calendarioCoppa.inc");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td href='#hiddenBox' class='datiCoppaDestra fancybox' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
+						<td href='#hiddenBox' class='datiCoppaDestra fancybox pointer' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][1] . "&nbsp;</div>";
 				for($k=0; $k<count($superCoppa[3][$i*4+$j]); $k++)
@@ -448,7 +448,7 @@ include("calendarioCoppa.inc");
 			echo "
 				</td>
 				<td class='void-5'>&nbsp;</td>
-				<td href='#hiddenBox' class='datiCoppaDestra fancybox fancybox pointer' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
+				<td href='#hiddenBox' class='datiCoppaDestra fancybox pointer' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
 					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][1] . "&nbsp;</div>
 					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12+$j][1] . "&nbsp;</div>";
 			if (isset($superCoppa[3][12+$j])) {
