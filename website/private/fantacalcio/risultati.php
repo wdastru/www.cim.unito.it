@@ -29,7 +29,16 @@ include("calendario.inc");
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
-
+	
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<!-- <script type="text/javascript" src="<?php echo $relocate_string; ?>jQuery/lib/jquery-1.10.1.min.js"></script> -->
+	<?php
+		require $relocate_string . 'include/jquery.fancybox.inc.php';
+	 ?>
+	<!-- jQuery -->
 </head>
 <!-- <body onresize="Count();"> -->
 <body onload="startBanner(1)">
@@ -39,7 +48,7 @@ include("calendario.inc");
 <?php require $relocate_string . 'include/banner.inc.php'; ?>
 
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBox' style='visibility: hidden'>
+	<div id='hiddenBox' style='width:600px; display: none; visibility: hidden;'>
 		<br />
 		<div id='hiddenBoxTitleBox'>
 			<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
@@ -49,7 +58,7 @@ include("calendario.inc");
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "campionato" )' /> <input class='button' type='button'
+					onclick='validate( "campionato" )' /> <input id='closeBtn' class='button' type='button'
 					value='Close this box!' onclick='hideBox();' /> <input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''
@@ -75,9 +84,6 @@ include("calendario.inc");
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">CALENDARIO</h1>
-		
-		
-		
 		
 		<?php
 
@@ -111,7 +117,7 @@ include("calendario.inc");
 
 				for($ARIdx=0; $ARIdx<4; $ARIdx++) //AR
 				{
-					echo "<td class='Dati' id='a" . $partitaIdx . $giornataIdx . $ARIdx . "' onmousedown='showBoxCampionato(\"a" . $partitaIdx . $giornataIdx . $ARIdx . "\", event);'>";
+					echo "<td href='#hiddenBox' class='Dati fancybox' id='a" . $partitaIdx . $giornataIdx . $ARIdx . "' onmousedown='showBoxCampionato(\"a" . $partitaIdx . $giornataIdx . $ARIdx . "\", event);'>";
 
 					echo "    <div class='RisultatiCampionato'>";
 					if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {

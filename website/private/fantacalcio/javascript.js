@@ -1,5 +1,6 @@
 // JavaScript Document
 function showBoxCampionato(id, evt) {
+	
 	oldRetiA = 0;
 	oldRetiB = 0;
 	
@@ -11,7 +12,7 @@ function showBoxCampionato(id, evt) {
 		var visibility = hiddenBox.style.visibility;
 
 		/*
-		 * nomi squadre : hiddenBox.getElementsByTagName('span').item(1) � il -
+		 * nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il -
 		 * di separazione
 		 */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source
@@ -43,7 +44,7 @@ function showBoxCampionato(id, evt) {
 
 			var div0 = tdDivs.item(0).firstChild.nodeValue.split("-");
 			var div1 = tdDivs.item(1).firstChild.nodeValue.split("-");
-
+			
 			// i primi tre input sono send close e reset.
 			inputTags.item(3).value = retiA = trimWS(div0[0]);
 			inputTags.item(4).value = retiB = trimWS(div0[1]);
@@ -62,32 +63,20 @@ function showBoxCampionato(id, evt) {
 
 			for (i = 0; i < goalsTot; i++) {
 				/*
-				 * riga sotto: item(i+1) perch� il primo div di hiddenBox � il
+				 * riga sotto: item(i+1) perche' il primo div di hiddenBox e' il
 				 * titolo dell'hiddenBox
 				 */
 				goalDivs.item(i + 1).style.display = 'block';
 				inputTags.item(9 + i).value = tdDivs.item(2 + i).innerHTML // inputTags:
-																			// saltare
-																			// item
-																			// 7 e
-																			// 8
-																			// (aggiungi
-																			// e
-																			// togli
-																			// un
-																			// marcatore);
+																			// saltare item 7 e 8
+																			// (aggiungi e togli un marcatore);
 																			// tdDivs:
-																			// saltare
-																			// item
-																			// 0 e
-																			// 1
-																			// (goals
-																			// e
-																			// punteggi)
+																			// saltare item 0 e 1
+																			// (goals e punteggi)
 			}
 
 			inputTags.item(inputTags.length - 1).value = id;
-
+			
 			hiddenBox.style.visibility = 'visible';
 		}
 	} else {
@@ -232,28 +221,38 @@ function offerBoxResetFields() {
 		inputTags.item(i).value = '';
 }
 
-function hideBox(id) {
+function hideBox() {
+	if (document.getElementById) {
+		var visibility = hiddenBox.style.visibility;
+
+		if (visibility == 'visible') {
+			clearHiddenBoxData();
+			hiddenBox.style.visibility = 'hidden';
+			$.fancybox.close();
+		}
+	} else {
+		alert(":( DOM NON Supportato!");
+	}
+}
+
+
+function clearHiddenBoxData() {
 	if (document.getElementById) {
 		var hiddenBox = document.getElementById("hiddenBox");
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var inputTags = hiddenBox.getElementsByTagName('input');
 
-		var visibility = hiddenBox.style.visibility;
-
-		if (visibility == 'visible') {
-			for (i = 3; i < inputTags.length; i++) {
-				if (i == 7 || i == 8)
-					continue;
-				inputTags.item(i).value = '';
-			}
-
-			for (i = 1; i < goalDivs.length; i++) { // il primo div � il titolo
-													// dell'hiddenBox
-				goalDivs.item(i).style.display = 'none';
-			}
-
-			hiddenBox.style.visibility = 'hidden';
+		for ( i = 3; i < inputTags.length; i++) {
+			if (i == 7 || i == 8)
+				continue;
+			inputTags.item(i).value = '';
 		}
+
+		for ( i = 1; i < goalDivs.length; i++) {// il primo div e' il titolo
+			// dell'hiddenBox
+			goalDivs.item(i).style.display = 'none';
+		}
+
 	} else {
 		alert(":( DOM NON Supportato!");
 	}

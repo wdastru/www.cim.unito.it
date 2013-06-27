@@ -1,9 +1,9 @@
-
 /* 
  * STILI GENERALI
  * * * * * * * * * */
 html { background-color: #000000; /*background-image: url("./figure/ball_three.png");*/}
-body { 	background-color:#FFFFFF; color:textColor0; margin:auto; width:960px; font-size:75%; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:center;} 
+body { 	background-color:#FFFFFF; color:textColor0; margin:0 auto; width:960px; font-size:75%; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:center; max-width: 1000px; }
+
 
 /*#title { background-color:bkgdColorMenu; color:titleColor; font-size:3em; font-weight:bold; line-height:60px; margin-top:20px; border:2px solid borderColor; border-bottom:none;}*/
 #title { background-color:bkgdColorMenu; color:titleColor; font-size:3em; font-weight:bold; line-height:60px; margin-top:20px; border: none;}
@@ -55,12 +55,14 @@ table.classificaBarre td.Barra3{ background-color:barraColor3; text-align:right;
 /*
  * HIDDEN BOXES
  * * * * * * * */
-#hiddenBox, #hiddenOfferBox, #hiddenPasswordBox { position:absolute; left:30%; margin:auto; width:40%; border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
+#hiddenBox, #hiddenOfferBox, #hiddenPasswordBox { /*position:absolute; left:30%; margin:auto; width:900px;*/ border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
 #squadra1, #squadra2, #hiddenBoxHyphen, .passwordBoxTitle { color:titleHiddenBox; font-size: 14px; }
 #offertaBoxMainTitle, #passwordBoxMainTitle { color:specialColor; font-size:18px; }
 .offertaBoxTitle { color:textHiddenBox; } 
 #hiddenBoxTitleBox { background-color: textColor0; border: 1px solid textColor1; height: 30px; width: 350px; line-height: 30px; margin: auto; }
 .hiddenBoxSubTitleBox { background-color: bkgdColorNormal; border: 1px solid textColor0; height: 20px; width:250px; line-height: 20px; margin: auto; }
+#closeBtn { visibility: hidden; width: 0px; }
+.fancybox-custom .fancybox-skin { box-shadow: 0 0 50px #222; }
 
 /*
  * RISULTATI CAMPIONATO
