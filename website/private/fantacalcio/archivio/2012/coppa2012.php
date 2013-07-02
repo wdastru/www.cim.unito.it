@@ -35,7 +35,7 @@ include("calendarioCoppa1112.inc.php");
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBox' style='visibility: hidden'>
+	<div id='hiddenBoxOld' style='visibility: hidden'>
 		<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
 			id='squadra2'>squadra2</span> <br /> <br />
 		<form method='post' id='formRisultati' action=''>
