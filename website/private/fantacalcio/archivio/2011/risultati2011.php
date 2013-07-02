@@ -11,18 +11,15 @@ include("calendario1011.inc.php");
 <head>
 <title>Fantacalcio NMR 2011/12</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="shortcut icon" href="../../favicon.ico">
-	<link rel="stylesheet" type="text/css"
-		href="../../documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
-	<link rel="stylesheet" type="text/css"
-		href="../../documentPreProcessor.php?document=stylesheet.css&type=css" />
-	<script type="text/javascript" src="../../chromejs/chrome.js"></script>
-	<script type="text/javascript" src="../../version.js"></script>
+<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript"
-		src="../../documentPreProcessor.php?document=archivio/2011/javascript2011.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2011/javascript2011.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 </head>
@@ -31,7 +28,7 @@ include("calendario1011.inc.php");
 	<?php require $relocate_string . 'include/title.inc.php'; ?>
 	<?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBox' style='visibility: hidden'>
+	<div id='hiddenBoxOld' style='visibility: hidden'>
 		<br /> 
 		<div id='hiddenBoxTitleBox'>
 			<span id='squadra1'>squadra1</span>
