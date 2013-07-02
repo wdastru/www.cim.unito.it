@@ -56,7 +56,7 @@ table.classificaBarre td.Barra3{ background-color:barraColor3; text-align:right;
  * HIDDEN BOXES
  * * * * * * * */
 #hiddenBox { border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
-#hiddenOfferBox, #hiddenPasswordBox { position:absolute; left:30%; margin:auto; width:900px; border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
+#hiddenBoxOld, #hiddenOfferBox, #hiddenPasswordBox { position:absolute; margin:auto; left:30%; width:40%; border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
 #squadra1, #squadra2, #hiddenBoxHyphen, .passwordBoxTitle { color:titleHiddenBox; font-size: 14px; }
 #offertaBoxMainTitle, #passwordBoxMainTitle { color:specialColor; font-size:18px; }
 .offertaBoxTitle { color:textHiddenBox; } 
@@ -72,10 +72,12 @@ table.risultati tr.odd{ background-color: campRowOddBkgd; }
 table.risultati tr.even{ background-color: campRowEvenBkgd; }
 table.risultati tr.odd td.Dati { color: campRowOdd; }
 table.risultati tr.even td.Dati { color: campRowEven; }
+table.risultati tr.odd td.Squadra { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:link { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:visited { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:active { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:hover { color: textColor4; text-decoration:none; }
+table.risultati tr.even td.Squadra { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:link { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:visited { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:active { color: campRowEven; text-decoration:none; }
