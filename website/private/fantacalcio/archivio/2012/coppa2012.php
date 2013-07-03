@@ -1,34 +1,27 @@
 <?php
 $relocate_string = "../../";
-
 require_once ($relocate_string . "logger.php");
 include("squadre1112.inc.php");
 include("calendarioCoppa1112.inc.php");
 //require_once ("dBug.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html
-	xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<title>Fantacalcio NMR 2011/12</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
-	<link rel="stylesheet" type="text/css"
-		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
-	<link rel="stylesheet" type="text/css"
-		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+	<title>Fantacalcio NMR 2011/12</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
 	<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
 	<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript"
-		src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2012/javascript2012.js&type=javascript"></script>
-	<script type="text/javascript"
-		src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2012/coppa1112.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2012/javascript2012.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2012/coppa1112.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
-
 </head>
 <!-- <body onresize="Count();"> -->
 <body>
