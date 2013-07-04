@@ -1,4 +1,9 @@
 <?php
+unset($hostname);
+exec('hostname', $hostname);
+if ($hostname[0] == "EPTADONE") {
+    session_save_path('D:\Temp');
+}
 session_start();
 
 $localizer = "../../";
@@ -53,10 +58,10 @@ $_POST['delete'] = 0;
 	content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
 <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet'
 	type='text/css' />
-<link href="catalog.css" rel='stylesheet' type='text/css' />
-<script type="text/javascript" src="script.js"></script>
+<link href="<?php echo $localizer; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
+<link rel="icon" href="<?php echo $localizer; ?>images/favicon.gif" type="image/gif" />
 </head>
-<link rel="icon" href="images/favicon.gif" type="image/gif" />
 <body>
 	<div id='section7'>
 	<?php
@@ -101,8 +106,7 @@ $_POST['delete'] = 0;
 									</form>
 								</td>
 								<td>
-									<form name="search" method="post"
-										action="<?php echo $_SERVER['PHP_SELF'];?>">
+									<form name="search" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 										<?php
 										for ($i = 0; $i < $_SESSION['nfields']; $i++) {
 
@@ -111,17 +115,17 @@ $_POST['delete'] = 0;
 											}
 
 											echo "
-					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
-					<Select NAME='field" . $i . "'>
-					<Option VALUE='name'>Name</option>
-					<Option VALUE='place'>Place</option>
-					<Option VALUE='quantity'>Quantity</option>
-					<Option VALUE='lab'>Laboratory</option>
-					<Option VALUE='note'>Note</option>
-					<Option VALUE='risk'>Risk phrase</option>	
-					</Select>
-					<br />
-				";
+                            					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
+                            					<Select NAME='field" . $i . "'>
+                            					<Option VALUE='name'>Name</option>
+                            					<Option VALUE='place'>Place</option>
+                            					<Option VALUE='quantity'>Quantity</option>
+                            					<Option VALUE='lab'>Laboratory</option>
+                            					<Option VALUE='note'>Note</option>
+                            					<Option VALUE='risk'>Risk phrase</option>	
+                            					</Select>
+                            					<br />
+                            				";
 										}
 										?>
 										<input type="hidden" name="searching" value="yes" /> <br /> <input
@@ -134,6 +138,9 @@ $_POST['delete'] = 0;
 						<form name="add" method="post" action="admin/add.php">
 							<input type="submit" name="add" value="Add a compound" />
 						</form>
+						<form name="print" method="post" action="downloadCatalog.php">
+                            <input type="submit" name="print" value="Download catalog" />
+                        </form>
 
 						<?php
 
@@ -141,6 +148,11 @@ $_POST['delete'] = 0;
 						require ("variables.php");
 
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
+						mysql_query('ALTER TABLE  `catalogo` CHANGE  `risk`  `phrase_R` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL');
+						mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NULL');
 
 						if ($_POST['edited'] == "yes") {
 							if ($_POST['newname'] != "") {
@@ -151,14 +163,14 @@ $_POST['delete'] = 0;
 									quantity='$_POST[newquantity]',
 									lab='$_POST[newlab]',
 									note='$_POST[newnote]',
-									risk='$_POST[newrisk]' 
+									phrase_R='$_POST[newphrase_R]' 
 								WHERE 	
 									name='$_SESSION[oldname]' AND
 									place='$_SESSION[oldplace]' AND
 									quantity='$_SESSION[oldquantity]' AND
 									lab='$_SESSION[oldlab]' AND
 									note='$_SESSION[oldnote]' AND
-									risk='$_SESSION[oldrisk]' 
+									phrase_R='$_SESSION[oldphrase_R]' 
 						";
 
 								mysql_query($sql);
@@ -177,17 +189,17 @@ $_POST['delete'] = 0;
 								quantity='$_SESSION[oldquantity]' AND
 								lab='$_SESSION[oldlab]' AND
 								note='$_SESSION[oldnote]' AND
-								risk='$_SESSION[oldrisk]'
-				");
+								phrase_R='$_SESSION[oldPhraseR]'
+                            ");
 
 							$_POST['removed'] = "no";
 						}
 
 						if ($_POST['added'] == "yes") {
 							if ($_POST['newname'] != "") {
-								mysql_query("	INSERT INTO catalogo ( name, place, quantity, lab, note, risk )
-						VALUES ( '$_POST[newname]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newrisk]')
-					");
+								mysql_query("	INSERT INTO catalogo ( name, place, quantity, lab, note, phrase_R )
+            						VALUES ( '$_POST[newname]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newphrase_R]')
+            					");
 								echo mysql_error();
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
@@ -241,33 +253,31 @@ $_POST['delete'] = 0;
 								$conditions .= "upper(" . $_POST["field" . $i] . ") LIKE'%" . $_POST["find" . $i] . "%'";
 							}
 
-							$data = mysql_query("	SELECT * FROM catalogo
-							WHERE " . $conditions . " ORDER BY name");
+							$data = mysql_query("	SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name");
 
 							//And we display the results
-							echo "<table border='1' frame='box' cellspacing='0' rules='all'>";
-							echo "
-		<tr>
-			<th class='headerButton'></th>
-			<th class='headerButton'></th>
-			<th class='headerName'>Name</th>
-			<th class='headerPlace'>Place</th>
-			<th class='headerQuantity'>Qt</th>
-			<th class='headerLab'>Lab</th>
-			<th class='headerNote'>Note</th>
-			<th class='headerRisk'>Risk</th>
-		</tr>
-		<tr>
-			<td class='void'>&nbsp;</td>
-			<td class='void'>&nbsp;</td>
-			<td class='void'>&nbsp;</td>
-			<td class='void'>&nbsp;</td>
-			<td class='void'>&nbsp;</td>
-			<td class='void'>&nbsp;</td>
-			<td class='void'>&nbsp;</td>
-			<td class='void'>&nbsp;</td>
-		</tr>
-		";
+							echo "<table border='1' frame='box' cellspacing='0' rules='all'>
+							         <tr>
+                            			<th class='headerButton'></th>
+                            			<th class='headerButton'></th>
+                            			<th class='headerName'>Name</th>
+                            			<th class='headerPlace'>Place</th>
+                            			<th class='headerQuantity'>Qt</th>
+                            			<th class='headerLab'>Lab</th>
+                            			<th class='headerNote'>Note</th>
+                            			<th class='headerRisk'>Phrase R</th>
+                            		</tr>
+                            		<tr>
+                            			<td class='void'>&nbsp;</td>
+                            			<td class='void'>&nbsp;</td>
+                            			<td class='void'>&nbsp;</td>
+                            			<td class='void'>&nbsp;</td>
+                            			<td class='void'>&nbsp;</td>
+                            			<td class='void'>&nbsp;</td>
+                            			<td class='void'>&nbsp;</td>
+                            			<td class='void'>&nbsp;</td>
+                            		</tr>
+                            	";
 
 							while ($result = mysql_fetch_array($data)) {
 								echo "<tr>";
@@ -278,7 +288,7 @@ $_POST['delete'] = 0;
 						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
 						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
 						<input type='hidden' name='note2edit' value='" . $result['note'] . "' />
-						<input type='hidden' name='risk2edit' value='" . $result['risk'] . "' />
+						<input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
 						<input type='submit' name='edit' value='Edit' />
 					</form>
 				</td>
@@ -289,7 +299,7 @@ $_POST['delete'] = 0;
 						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
 						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
 						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
-						<input type='hidden' name='risk2remove' value='" . $result['risk'] . "' />
+						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
 						<input class='removeButton' type='submit' name='remove' value='-' />
 					</form>
 				</td>";
@@ -298,7 +308,7 @@ $_POST['delete'] = 0;
 								echo "<td class='data'>" . $result['quantity'] . "</td>";
 								echo "<td class='data'>" . $result['lab'] . "</td>";
 								echo "<td class='data'>" . $result['note'] . "</td>";
-								echo "<td class='data'>" . $result['risk'] . "</td>";
+								echo "<td class='data'>" . $result['phrase_R'] . "</td>";
 								echo "</tr>";
 							}
 							echo "</table>";

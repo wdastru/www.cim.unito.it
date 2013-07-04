@@ -1,4 +1,9 @@
 <?php
+unset($hostname);
+exec('hostname', $hostname);
+if ($hostname[0] == "EPTADONE") {
+    session_save_path('D:\Temp');
+}
 session_start();
 $localizer = "../../../";
 ?>
@@ -80,12 +85,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                     <td>Frasi di rischio : </td>
-                                    <td><input type='text' size='50' name='newR'>
+                                    <td><input type='text' size='50' name='newphrase_R'>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Frasi di sicurezza : </td>
-                                    <td><input type='text' size='50' name='newS'>
+                                    <td><input type='text' size='50' name='newphrase_S'>
                                     </td>
                                 </tr>
                             </table>

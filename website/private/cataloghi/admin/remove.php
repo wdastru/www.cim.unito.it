@@ -1,11 +1,16 @@
 <?php
+unset($hostname);
+exec('hostname', $hostname);
+if ($hostname[0] == "EPTADONE") {
+    session_save_path('D:\Temp');
+}
 session_start();
 $_SESSION['oldname'] = $_POST['name2remove'];
 $_SESSION['oldplace'] = $_POST['place2remove'];
 $_SESSION['oldquantity'] = $_POST['quantity2remove'];
 $_SESSION['oldlab'] = $_POST['lab2remove'];
 $_SESSION['oldnote'] = $_POST['note2remove'];
-$_SESSION['oldrisk'] = $_POST['risk2remove'];
+$_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
 $localizer = "../../../";
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -82,7 +87,7 @@ $localizer = "../../../";
 								</tr>
 								<tr>
 									<td>Frase di rischio :</td>
-									<td><?php echo $_POST['risk2remove']; ?></td>
+									<td><?php echo $_POST['phrase_R2remove']; ?></td>
 								</tr>
 							</table>
 							<br/>

@@ -5,7 +5,7 @@ $_SESSION['oldplace']    = $_POST['place2edit'];
 $_SESSION['oldquantity'] = $_POST['quantity2edit'];
 $_SESSION['oldlab']      = $_POST['lab2edit'];
 $_SESSION['oldnote']     = $_POST['note2edit'];
-$_SESSION['oldrisk']     = $_POST['risk2edit'];
+$_SESSION['oldPhraseR']     = $_POST['risk2edit'];
 $localizer = "../../../";
 ?>
 
