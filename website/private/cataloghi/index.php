@@ -147,13 +147,18 @@ $_POST['delete'] = 0;
 						require ("connect.php");
 						require ("variables.php");
 
-						//mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
-						mysql_query('ALTER TABLE  `catalogo` CHANGE  `risk`  `phrase_R` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL');
+						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
+						//mysql_query('ALTER TABLE  `catalogo` CHANGE  `risk`  `phrase_R` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL');
 						mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NULL');
+						echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NULL');
+                        echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NULL');
+                        echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NULL');
+                        echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_R` VARCHAR( 50 ) NULL');
+                        echo mysql_error();
                         
 						if ($_POST['edited'] == "yes") {
 							if ($_POST['newname'] != "") {
