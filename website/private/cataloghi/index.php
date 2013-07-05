@@ -77,7 +77,7 @@ $_POST['delete'] = 0;
 					</dl>
 				</div>
 			</div>
-			<div id='content-large'>
+			<div id='content-larger'>
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
@@ -163,17 +163,28 @@ $_POST['delete'] = 0;
 									quantity='$_POST[newquantity]',
 									lab='$_POST[newlab]',
 									note='$_POST[newnote]',
-									phrase_R='$_POST[newphrase_R]' 
+                                    code='$_POST[newcode]',
+                                    supplier='$_POST[newsupplier]',
+                                    CAS='$_POST[newCAS]',
+                                    phrase_S='$_POST[newphrase_S]',
+                                    phrase_R='$_POST[newphrase_R]' 
 								WHERE 	
 									name='$_SESSION[oldname]' AND
 									place='$_SESSION[oldplace]' AND
 									quantity='$_SESSION[oldquantity]' AND
 									lab='$_SESSION[oldlab]' AND
 									note='$_SESSION[oldnote]' AND
+                                    code='$_SESSION[oldcode]' AND
+                                    supplier='$_SESSION[oldsupplier]' AND
+                                    CAS='$_SESSION[oldCAS]' AND
+                                    phrase_S='$_SESSION[oldphrase_S]' AND									
 									phrase_R='$_SESSION[oldphrase_R]' 
 						";
-
+                                
+                                echo $sql;
+                                
 								mysql_query($sql);
+								echo mysql_error();
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
 							}
@@ -189,16 +200,21 @@ $_POST['delete'] = 0;
 								quantity='$_SESSION[oldquantity]' AND
 								lab='$_SESSION[oldlab]' AND
 								note='$_SESSION[oldnote]' AND
-								phrase_R='$_SESSION[oldPhraseR]'
+                                code='$_SESSION[oldcode]' AND
+                                supplier='$_SESSION[oldsupplier]' AND
+                                CAS='$_SESSION[oldCAS]' AND
+                                phrase_S='$_SESSION[oldphrase_S]' AND                                  								
+								phrase_R='$_SESSION[oldphrase_R]'
                             ");
+                            echo mysql_error();
 
 							$_POST['removed'] = "no";
 						}
 
 						if ($_POST['added'] == "yes") {
 							if ($_POST['newname'] != "") {
-								mysql_query("	INSERT INTO catalogo ( name, place, quantity, lab, note, phrase_R )
-            						VALUES ( '$_POST[newname]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newphrase_R]')
+								mysql_query("INSERT INTO catalogo ( name, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R )
+            						VALUES ( '$_POST[newname]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]')
             					");
 								echo mysql_error();
 							} else {
@@ -256,60 +272,80 @@ $_POST['delete'] = 0;
 							$data = mysql_query("	SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name");
 
 							//And we display the results
-							echo "<table border='1' frame='box' cellspacing='0' rules='all'>
+							echo "<table id='catalog' border='1' frame='box' cellspacing='0' rules='all'>
 							         <tr>
-                            			<th class='headerButton'></th>
-                            			<th class='headerButton'></th>
+                            			<th class='headerButtonEdit'></th>
+                            			<th class='headerButtonRemove'></th>
                             			<th class='headerName'>Name</th>
                             			<th class='headerPlace'>Place</th>
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
                             			<th class='headerNote'>Note</th>
-                            			<th class='headerRisk'>Phrase R</th>
+                            			<th class='headerCode'>Code</th>
+                            			<th class='headerSupplier'>Supplier</th>
+                            			<th class='headerCAS'>CAS n&deg;</th>
+                            			<th class='headerPhraseS'>Phrase S</th>
+                            			<th class='headerPhraseR'>Phrase R</th>
                             		</tr>
                             		<tr>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
-                            			<td class='void'>&nbsp;</td>
-                            			<td class='void'>&nbsp;</td>
-                            			<td class='void'>&nbsp;</td>
-                            			<td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
                             		</tr>
                             	";
 
 							while ($result = mysql_fetch_array($data)) {
-								echo "<tr>";
-								echo "	<td>
-					<form name='edit' method='post' action='admin/edit.php'>
-						<input type='hidden' name='name2edit' value='" . $result['name'] . "' />
-						<input type='hidden' name='place2edit' value='" . $result['place'] . "' />
-						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
-						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
-						<input type='hidden' name='note2edit' value='" . $result['note'] . "' />
-						<input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
-						<input type='submit' name='edit' value='Edit' />
-					</form>
-				</td>
-				<td>
-					<form name='remove' method='post' action='admin/remove.php'>
-						<input type='hidden' name='name2remove' value='" . $result['name'] . "' />
-						<input type='hidden' name='place2remove' value='" . $result['place'] . "' />
-						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
-						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
-						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
-						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
-						<input class='removeButton' type='submit' name='remove' value='-' />
-					</form>
-				</td>";
-								echo "<td class='data'>" . $result['name'] . "</td>";
-								echo "<td class='data'>" . $result['place'] . "</td>";
-								echo "<td class='data'>" . $result['quantity'] . "</td>";
-								echo "<td class='data'>" . $result['lab'] . "</td>";
-								echo "<td class='data'>" . $result['note'] . "</td>";
-								echo "<td class='data'>" . $result['phrase_R'] . "</td>";
-								echo "</tr>";
+								echo "<tr>
+                                        <td>
+                        					<form name='edit' method='post' action='admin/edit.php'>
+                        						<input type='hidden' name='name2edit' value='" . $result['name'] . "' />
+                        						<input type='hidden' name='place2edit' value='" . $result['place'] . "' />
+                        						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
+                        						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
+                                                <input type='hidden' name='note2edit' value='" . $result['note'] . "' />
+                                                <input type='hidden' name='code2edit' value='" . $result['code'] . "' />
+                                                <input type='hidden' name='supplier2edit' value='" . $result['supplier'] . "' />
+                                                <input type='hidden' name='CAS2edit' value='" . $result['CAS'] . "' />
+                        						<input type='hidden' name='phrase_S2edit' value='" . $result['phrase_S'] . "' />
+                                                <input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
+                                                <input type='submit' name='edit' value='Edit' />
+                        					</form>
+                        				</td>
+                        				<td>
+                        					<form name='remove' method='post' action='admin/remove.php'>
+                        						<input type='hidden' name='name2remove' value='" . $result['name'] . "' />
+                        						<input type='hidden' name='place2remove' value='" . $result['place'] . "' />
+                        						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
+                        						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
+                        						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
+                                                <input type='hidden' name='code2remove' value='" . $result['code'] . "' />
+                                                <input type='hidden' name='supplier2remove' value='" . $result['supplier'] . "' />
+                                                <input type='hidden' name='CAS2remove' value='" . $result['CAS'] . "' />
+                                                <input type='hidden' name='phrase_S2remove' value='" . $result['phrase_S'] . "' />
+                        						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
+                        						<input class='removeButton' type='submit' name='remove' value='-' />
+                        					</form>
+                        				</td>
+                        				<td class='data'>" . $result['name'] . "</td>
+                        				<td class='data'>" . $result['place'] . "</td>
+                                        <td class='data'>" . $result['quantity'] . "</td>
+                                        <td class='data'>" . $result['lab'] . "</td>
+                                        <td class='data'>" . $result['note'] . "</td>
+                                        <td class='data'>" . $result['code'] . "</td>
+                                        <td class='data'>" . $result['supplier'] . "</td>
+                                        <td class='data'>" . $result['CAS'] . "</td>
+                                        <td class='data'>" . $result['phrase_S'] . "</td>
+                                        <td class='data'>" . $result['phrase_R'] . "</td>
+                                      </tr>";
 							}
 							echo "</table>";
 

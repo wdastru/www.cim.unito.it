@@ -10,6 +10,10 @@ $_SESSION['oldplace'] = $_POST['place2remove'];
 $_SESSION['oldquantity'] = $_POST['quantity2remove'];
 $_SESSION['oldlab'] = $_POST['lab2remove'];
 $_SESSION['oldnote'] = $_POST['note2remove'];
+$_SESSION['oldcode'] = $_POST['code2remove'];
+$_SESSION['oldsupplier'] = $_POST['supplier2remove'];
+$_SESSION['oldCAS'] = $_POST['CAS2remove'];
+$_SESSION['oldphrase_S'] = $_POST['phrase_S2remove'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
 $localizer = "../../../";
 ?>

@@ -15,9 +15,9 @@
            or die ( "Sql error : " . mysql_error( ) );
     $fields = mysql_num_fields ( $export );
     
-    $header;
-    $data;
-    $file_name;
+    $header='';
+    $data='';
+    $file_name='catalog';
     
     //create csv header row, to contain table headers 
     //with database field names
@@ -33,11 +33,9 @@
         //for each field in the row
         foreach( $row as $value ) {
             //if null, create blank field
-            if ( ( !isset( $value ) ) || ( $value == "" ) ){
-                $value = ",";
-            }
-            //else, assign field value to our data
-            else {
+            if ( ( !isset( $value ) ) || ( $value == "" ) ) {
+                $value = "\t";
+            } else { //else, assign field value to our data
                 $value = str_replace( '"' , '""' , $value );
                 $value = '"' . $value . '"' . "\t";
             }
@@ -50,11 +48,14 @@
     //remove all carriage returns from the data
     $data = str_replace( "\r" , "" , $data );
     
-    
     //create a file and send to browser for user to download
-    header("Content-type: application/vnd.ms-excel");
-    header("Content-disposition: csv" . date("Y-m-d") . ".csv");
-    header( "Content-disposition: filename=".$file_name.".csv");
+    
+    header("Content-Type:   application/vnd.ms-excel; charset=utf-8");
+    header("Content-type:   application/x-msexcel; charset=utf-8");
+    header("Content-Disposition: attachment; filename=".$file_name.".xls"); 
+    header("Expires: 0");
+    header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
+    header("Cache-Control: private",false);
     print "$header\n$data";
     exit;
 ?>

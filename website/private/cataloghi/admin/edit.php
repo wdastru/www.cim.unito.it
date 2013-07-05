@@ -1,11 +1,20 @@
 <?php
+unset($hostname);
+exec('hostname', $hostname);
+if ($hostname[0] == "EPTADONE") {
+    session_save_path('D:\Temp');
+}
 session_start();
 $_SESSION['oldname']     = $_POST['name2edit'];
 $_SESSION['oldplace']    = $_POST['place2edit'];
 $_SESSION['oldquantity'] = $_POST['quantity2edit'];
 $_SESSION['oldlab']      = $_POST['lab2edit'];
 $_SESSION['oldnote']     = $_POST['note2edit'];
-$_SESSION['oldPhraseR']     = $_POST['risk2edit'];
+$_SESSION['oldcode'] = $_POST['code2remove'];
+$_SESSION['oldsupplier'] = $_POST['supplier2remove'];
+$_SESSION['oldCAS'] = $_POST['CAS2remove'];
+$_SESSION['oldphrase_S'] = $_POST['phrase_S2remove'];
+$_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
 $localizer = "../../../";
 ?>
 
@@ -101,15 +110,47 @@ Note :
 			<input type=\"text\" name=\"newnote\" size=\"50\" value=\"" . $_POST['note2edit'] . "\"/>
 		</td>
 	</tr>
-	<tr>
-		<td>
-Risk :
-		</td>
-		<td>
-			<input type=\"text\" name=\"newrisk\" size=\"50\" value=\"" . $_POST['risk2edit'] . "\"/>
-		</td>
-	</tr>	
-</table>
+    <tr>
+        <td>
+Code :
+        </td>
+        <td>
+            <input type=\"text\" name=\"newcode\" size=\"50\" value=\"" . $_POST['code2edit'] . "\"/>
+        </td>
+    </tr>   
+    <tr>
+        <td>
+Supplier :
+        </td>
+        <td>
+            <input type=\"text\" name=\"newsupplier\" size=\"50\" value=\"" . $_POST['supplier2edit'] . "\"/>
+        </td>
+    </tr>   
+        <tr>
+        <td>
+CAS n&deg; :
+        </td>
+        <td>
+            <input type=\"text\" name=\"newCAS\" size=\"50\" value=\"" . $_POST['CAS2edit'] . "\"/>
+        </td>
+    </tr>   
+        <tr>
+        <td>
+Safety phrase :
+        </td>
+        <td>
+            <input type=\"text\" name=\"newphrase_S\" size=\"50\" value=\"" . $_POST['phrase_S2edit'] . "\"/>
+        </td>
+    </tr>   
+        <tr>
+        <td>
+Risk phrase :
+        </td>
+        <td>
+            <input type=\"text\" name=\"newphrase_R\" size=\"50\" value=\"" . $_POST['phrase_R2edit'] . "\"/>
+        </td>
+    </tr>   
+    </table>
 	<input type=\"hidden\" name=\"edited\" value=\"yes\" />
 	<input type=\"submit\" name=\"submit\" value=\"Submit\" />
 	";
