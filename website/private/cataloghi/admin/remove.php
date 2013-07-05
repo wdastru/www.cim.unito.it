@@ -1,11 +1,20 @@
 <?php
+unset($hostname);
+exec('hostname', $hostname);
+if ($hostname[0] == "EPTADONE") {
+    session_save_path('D:\Temp');
+}
 session_start();
 $_SESSION['oldname'] = $_POST['name2remove'];
 $_SESSION['oldplace'] = $_POST['place2remove'];
 $_SESSION['oldquantity'] = $_POST['quantity2remove'];
 $_SESSION['oldlab'] = $_POST['lab2remove'];
 $_SESSION['oldnote'] = $_POST['note2remove'];
-$_SESSION['oldrisk'] = $_POST['risk2remove'];
+$_SESSION['oldcode'] = $_POST['code2remove'];
+$_SESSION['oldsupplier'] = $_POST['supplier2remove'];
+$_SESSION['oldCAS'] = $_POST['CAS2remove'];
+$_SESSION['oldphrase_S'] = $_POST['phrase_S2remove'];
+$_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
 $localizer = "../../../";
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -76,13 +85,29 @@ $localizer = "../../../";
 									<td>Laboratory :</td>
 									<td><?php echo $_POST['lab2remove'];?></td>
 								</tr>
+                                <tr>
+                                    <td>Note :</td>
+                                    <td><?php echo $_POST['note2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Code :</td>
+                                    <td><?php echo $_POST['code2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Supplier :</td>
+                                    <td><?php echo $_POST['supplier2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>CAS n&deg; :</td>
+                                    <td><?php echo $_POST['CAS2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Risk phrase :</td>
+                                    <td><?php echo $_POST['phrase_R2remove']; ?></td>
+                                </tr>
 								<tr>
-									<td>Note :</td>
-									<td><?php echo $_POST['note2remove']; ?></td>
-								</tr>
-								<tr>
-									<td>Frase di rischio :</td>
-									<td><?php echo $_POST['risk2remove']; ?></td>
+									<td>Safety phrase :</td>
+									<td><?php echo $_POST['phrase_S2remove']; ?></td>
 								</tr>
 							</table>
 							<br/>
