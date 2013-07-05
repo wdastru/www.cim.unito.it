@@ -85,13 +85,29 @@ $localizer = "../../../";
 									<td>Laboratory :</td>
 									<td><?php echo $_POST['lab2remove'];?></td>
 								</tr>
+                                <tr>
+                                    <td>Note :</td>
+                                    <td><?php echo $_POST['note2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Code :</td>
+                                    <td><?php echo $_POST['code2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Supplier :</td>
+                                    <td><?php echo $_POST['supplier2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>CAS n&deg; :</td>
+                                    <td><?php echo $_POST['CAS2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Risk phrase :</td>
+                                    <td><?php echo $_POST['phrase_R2remove']; ?></td>
+                                </tr>
 								<tr>
-									<td>Note :</td>
-									<td><?php echo $_POST['note2remove']; ?></td>
-								</tr>
-								<tr>
-									<td>Frase di rischio :</td>
-									<td><?php echo $_POST['phrase_R2remove']; ?></td>
+									<td>Safety phrase :</td>
+									<td><?php echo $_POST['phrase_S2remove']; ?></td>
 								</tr>
 							</table>
 							<br/>

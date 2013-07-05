@@ -122,7 +122,11 @@ $_POST['delete'] = 0;
                             					<Option VALUE='quantity'>Quantity</option>
                             					<Option VALUE='lab'>Laboratory</option>
                             					<Option VALUE='note'>Note</option>
-                            					<Option VALUE='risk'>Risk phrase</option>	
+                                                <Option VALUE='code'>Code</option>
+                                                <Option VALUE='supplier'>Supplier</option>
+                                                <Option VALUE='CAS'>CAS n&deg;</option>
+                                                <Option VALUE='phrase_R'>Risk phrase</option>
+                                                <Option VALUE='phrase_S'>Satefy phrase</option>	
                             					</Select>
                             					<br />
                             				";
@@ -149,16 +153,18 @@ $_POST['delete'] = 0;
 
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
 						//mysql_query('ALTER TABLE  `catalogo` CHANGE  `risk`  `phrase_R` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL');
-						mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NULL');
-                        mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NULL');
-                        mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NULL');
-                        mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NULL');
-                        mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_R` VARCHAR( 50 ) NULL');
-                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `code`  `code` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `supplier`  `supplier` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_S`  `phrase_S` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_R`  `phrase_R` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+						//mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_R` VARCHAR( 50 ) NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `code`  `code` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `supplier`  `supplier` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_S`  `phrase_S` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_R`  `phrase_R` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        
+                        //print_r($_SESSION);
                         
 						if ($_POST['edited'] == "yes") {
 							if ($_POST['newname'] != "") {
@@ -186,6 +192,8 @@ $_POST['delete'] = 0;
                                             phrase_S='$_SESSION[oldphrase_S]' AND									
         									phrase_R='$_SESSION[oldphrase_R]' 
 									";
+                                
+                                //echo $sql;
                                 
 								mysql_query($sql);
 								echo mysql_error();

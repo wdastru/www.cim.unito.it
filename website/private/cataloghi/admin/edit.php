@@ -10,11 +10,11 @@ $_SESSION['oldplace']    = $_POST['place2edit'];
 $_SESSION['oldquantity'] = $_POST['quantity2edit'];
 $_SESSION['oldlab']      = $_POST['lab2edit'];
 $_SESSION['oldnote']     = $_POST['note2edit'];
-$_SESSION['oldcode'] = $_POST['code2remove'];
-$_SESSION['oldsupplier'] = $_POST['supplier2remove'];
-$_SESSION['oldCAS'] = $_POST['CAS2remove'];
-$_SESSION['oldphrase_S'] = $_POST['phrase_S2remove'];
-$_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
+$_SESSION['oldcode'] = $_POST['code2edit'];
+$_SESSION['oldsupplier'] = $_POST['supplier2edit'];
+$_SESSION['oldCAS'] = $_POST['CAS2edit'];
+$_SESSION['oldphrase_S'] = $_POST['phrase_S2edit'];
+$_SESSION['oldphrase_R'] = $_POST['phrase_R2edit'];
 $localizer = "../../../";
 ?>
 
@@ -67,95 +67,52 @@ $localizer = "../../../";
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<?php
-					echo "<form name=\"edit\" method=\"post\" action=\"../index.php\">";
-					echo "<table>
-	<tr>
-		<td>
-Name :
-		</td>
-		<td>
-			<input type=\"text\" name=\"newname\" size=\"50\" value=\"" . $_POST['name2edit'] . "\"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Place :
-		</td>
-		<td>
-			<input type=\"text\" name=\"newplace\" value=\"" . $_POST['place2edit'] . "\"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Quantity :
-		</td>
-		<td>
-			<input type=\"text\" name=\"newquantity\" value=\"" . $_POST['quantity2edit'] . "\"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Laboratory :
-		</td>
-		<td>
-			<input type=\"text\" name=\"newlab\" value=\"" . $_POST['lab2edit'] . "\"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Note :
-		</td>
-		<td>
-			<input type=\"text\" name=\"newnote\" size=\"50\" value=\"" . $_POST['note2edit'] . "\"/>
-		</td>
-	</tr>
-    <tr>
-        <td>
-Code :
-        </td>
-        <td>
-            <input type=\"text\" name=\"newcode\" size=\"50\" value=\"" . $_POST['code2edit'] . "\"/>
-        </td>
-    </tr>   
-    <tr>
-        <td>
-Supplier :
-        </td>
-        <td>
-            <input type=\"text\" name=\"newsupplier\" size=\"50\" value=\"" . $_POST['supplier2edit'] . "\"/>
-        </td>
-    </tr>   
-        <tr>
-        <td>
-CAS n&deg; :
-        </td>
-        <td>
-            <input type=\"text\" name=\"newCAS\" size=\"50\" value=\"" . $_POST['CAS2edit'] . "\"/>
-        </td>
-    </tr>   
-        <tr>
-        <td>
-Safety phrase :
-        </td>
-        <td>
-            <input type=\"text\" name=\"newphrase_S\" size=\"50\" value=\"" . $_POST['phrase_S2edit'] . "\"/>
-        </td>
-    </tr>   
-        <tr>
-        <td>
-Risk phrase :
-        </td>
-        <td>
-            <input type=\"text\" name=\"newphrase_R\" size=\"50\" value=\"" . $_POST['phrase_R2edit'] . "\"/>
-        </td>
-    </tr>   
-    </table>
-	<input type=\"hidden\" name=\"edited\" value=\"yes\" />
-	<input type=\"submit\" name=\"submit\" value=\"Submit\" />
-	";
-					echo "</form>";
-					?>
+					<form name='edit' method='post' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
+					    <table>
+					        <tr>
+					            <td>Name :</td>
+                        		<td><input type='text' name='newname' size='50' value='<?php echo $_POST['name2edit']; ?>'/></td>
+                        	</tr>
+                        	<tr>
+                        	    <td>Place :</td>
+                        	    <td><input type='text' name='newplace' value='<?php echo $_POST['place2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Quantity :</td>
+                                <td><input type='text' name='newquantity' value='<?php echo $_POST['quantity2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Laboratory :</td>
+                                <td><input type='text' name='newlab' value='<?php echo $_POST['lab2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Note :</td>
+                                <td><input type='text' name='newnote' size='50' value='<?php echo $_POST['note2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Code :</td>
+                                <td><input type='text' name='newcode' size='50' value='<?php echo $_POST['code2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Supplier :</td>
+                                <td><input type='text' name='newsupplier' size='50' value='<?php echo $_POST['supplier2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>CAS n&deg; :</td>
+                                <td><input type='text' name='newCAS' size='50' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Safety phrase :</td>
+                                <td><input type='text' name='newphrase_S' size='50' value='<?php echo $_POST['phrase_S2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Risk phrase :</td>
+                                <td><input type='text' name='newphrase_R' size='50' value='<?php echo $_POST['phrase_R2edit']; ?>'/></td>
+                            </tr>
+                        </table>
+                        <input type='hidden' name='edited' value='yes' />
+                        <input type='submit' name='submit' value='Submit' />
+                    </form>
 						<!-- InstanceEndEditable name="subsection content" -->
 					</div>
 				</div>
