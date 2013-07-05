@@ -150,44 +150,42 @@ $_POST['delete'] = 0;
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
 						//mysql_query('ALTER TABLE  `catalogo` CHANGE  `risk`  `phrase_R` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL');
 						mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NULL');
-						echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NULL');
-                        echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NULL');
-                        echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NULL');
-                        echo mysql_error();
                         mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_R` VARCHAR( 50 ) NULL');
-                        echo mysql_error();
+                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `code`  `code` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `supplier`  `supplier` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_S`  `phrase_S` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_R`  `phrase_R` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         
 						if ($_POST['edited'] == "yes") {
 							if ($_POST['newname'] != "") {
-								$sql = "	UPDATE catalogo
-								SET 	
-									name='$_POST[newname]',
-									place='$_POST[newplace]',
-									quantity='$_POST[newquantity]',
-									lab='$_POST[newlab]',
-									note='$_POST[newnote]',
-                                    code='$_POST[newcode]',
-                                    supplier='$_POST[newsupplier]',
-                                    CAS='$_POST[newCAS]',
-                                    phrase_S='$_POST[newphrase_S]',
-                                    phrase_R='$_POST[newphrase_R]' 
-								WHERE 	
-									name='$_SESSION[oldname]' AND
-									place='$_SESSION[oldplace]' AND
-									quantity='$_SESSION[oldquantity]' AND
-									lab='$_SESSION[oldlab]' AND
-									note='$_SESSION[oldnote]' AND
-                                    code='$_SESSION[oldcode]' AND
-                                    supplier='$_SESSION[oldsupplier]' AND
-                                    CAS='$_SESSION[oldCAS]' AND
-                                    phrase_S='$_SESSION[oldphrase_S]' AND									
-									phrase_R='$_SESSION[oldphrase_R]' 
-						";
-                                
-                                echo $sql;
+								$sql = "UPDATE catalogo
+        								SET 	
+        									name='$_POST[newname]',
+        									place='$_POST[newplace]',
+        									quantity='$_POST[newquantity]',
+        									lab='$_POST[newlab]',
+        									note='$_POST[newnote]',
+                                            code='$_POST[newcode]',
+                                            supplier='$_POST[newsupplier]',
+                                            CAS='$_POST[newCAS]',
+                                            phrase_S='$_POST[newphrase_S]',
+                                            phrase_R='$_POST[newphrase_R]' 
+        								WHERE 	
+        									name='$_SESSION[oldname]' AND
+        									place='$_SESSION[oldplace]' AND
+        									quantity='$_SESSION[oldquantity]' AND
+        									lab='$_SESSION[oldlab]' AND
+        									note='$_SESSION[oldnote]' AND
+                                            code='$_SESSION[oldcode]' AND
+                                            supplier='$_SESSION[oldsupplier]' AND
+                                            CAS='$_SESSION[oldCAS]' AND
+                                            phrase_S='$_SESSION[oldphrase_S]' AND									
+        									phrase_R='$_SESSION[oldphrase_R]' 
+									";
                                 
 								mysql_query($sql);
 								echo mysql_error();
