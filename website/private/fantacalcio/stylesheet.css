@@ -110,6 +110,7 @@ table.coppa td.coppaFinaliDestra{ cursor: pointer; text-align:center; background
 table.coppa td.datiCoppaFinali{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
 table.coppa td.goalSinistra { background-color:textColor1; color:textColor0; }
 table.coppa td.goalDestra { background-color:textColor0; color:textColor1; }
+table.coppa td.finaleTitle
 /* old coppa format */
 
 table#coppa_gruppi td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:textColor0; }
