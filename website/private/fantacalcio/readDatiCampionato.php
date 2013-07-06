@@ -8,7 +8,7 @@ for($t=0; $t<4; $t++)   //A&R
 		for($j=0; $j<4; $j++)   // partita
 		{
 			$tmpString = trim(fgets($handle));
-
+			
 			$id[$j][$k][$t] = strtok($tmpString, "/"); // ids
 
 			$super[1][$k][$j][$t][0] = strtok("/");
