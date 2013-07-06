@@ -7,12 +7,12 @@ function showBoxCampionato( id, evt )
 	if( document.getElementById ) 
 	{
 		var source = document.getElementById( id );
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var visibility = hiddenBox.style.visibility;
 		
-		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione */
+		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) ï¿½ il - di separazione */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
 		
@@ -80,7 +80,7 @@ function showBoxCoppa( id, evt )
 		var the_divs_0 = source_0.getElementsByTagName('div');
 		var the_divs_1 = source_1.getElementsByTagName('div');
 		
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var visibility = hiddenBox.style.visibility;
@@ -133,7 +133,7 @@ function hideBox( id )
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		
@@ -212,7 +212,7 @@ function addFieldA()
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		
 		for(i=0; i<goalDivs.length; i++) {
@@ -233,7 +233,7 @@ function addFieldB()
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		
 		for(i=0; i<goalDivs.length; i++) {
