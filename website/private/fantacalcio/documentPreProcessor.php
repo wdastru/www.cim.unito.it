@@ -130,7 +130,7 @@ if(file_exists($filename))
 	$content = str_replace('bkgdColorLigther', $panna, $content);
 	$content = str_replace('bkgdHiddenBox', $verde_chiaro, $content);
 	$content = str_replace('textHiddenBox', $verde_scuro, $content);
-	$content = str_replace('titleHiddenBox', $verde_scuro, $content);
+	$content = str_replace('titleHiddenBox', $giallo, $content);
 	
 	$content = str_replace('modulesChoiceBkgd', $verde_chiaro, $content);
 	$content = str_replace('dragdropBorderColor', $verde_scuro, $content);

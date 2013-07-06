@@ -32,9 +32,15 @@ include("calendarioCoppa0910.inc.php");
 	<?php require $relocate_string . 'include/title.inc.php'; ?>
 	<?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBox' style='visibility: hidden'>
-		<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
-			id='squadra2'>squadra2</span> <br /> <br />
+	<div id='hiddenBoxOld' style='visibility: hidden'>
+		
+		<div id='hiddenBoxTitleBox'>
+			<span id='squadra1'>squadra1</span>
+			<span id='hiddenBoxHyphen'> - </span>
+			<span id='squadra2'>squadra2</span>
+	  </div>
+		<br />
+		<br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input type='button' value='Close this box!' onclick='hideBox();' />
@@ -203,7 +209,7 @@ include("calendarioCoppa0910.inc.php");
 					<tr>
 						<td class='coppaSinistra' id='" . $id[$i*4+$j] . "_C_nome'>&nbsp;" . $partita[$i][$j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='pointer' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
+						<td class='datiCoppaSinistra pointer' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $risultatiCoppa[$i*4+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $punteggioCoppa[$i*4+$j][0] . "&nbsp;</div>";
 					
@@ -212,7 +218,7 @@ include("calendarioCoppa0910.inc.php");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='pointer' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
+						<td class='datiCoppaDestra pointer' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $risultatiCoppa[$i*4+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $punteggioCoppa[$i*4+$j][1] . "&nbsp;</div>";
 				for($k=0; $k<count($marcatori[$i*4+$j]); $k++)
@@ -324,7 +330,7 @@ include("calendarioCoppa0910.inc.php");
 					<tr id='semifinale" . $j . "'>
 						<td class='coppaSinistra' id='" . $id[12+$j] . "_C_nome'>&nbsp;" . $partita[3][$j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='pointer' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
+						<td class='datiCoppaSinistra pointer' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $risultatiCoppa[12+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $punteggioCoppa[12+$j][0] . "&nbsp;</div>";
 
@@ -333,7 +339,7 @@ include("calendarioCoppa0910.inc.php");
 			echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='pointer' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
+						<td class='datiCoppaDestra pointer' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $risultatiCoppa[12+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $punteggioCoppa[12+$j][1] . "&nbsp;</div>";
 			for($k=0; $k<count($marcatori[12+$j]); $k++)
@@ -371,7 +377,7 @@ include("calendarioCoppa0910.inc.php");
 					<tr id='finali" . $j . "'>
 						<td class='coppaSinistra' id='" . $id[16+$j] . "_C_nome'>&nbsp;" . $partita[4][$j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='pointer' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
+						<td class='datiCoppaSinistra pointer' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $risultatiCoppa[16+$j][0] . "&nbsp;</div>	
 							<div class='PunteggiCoppa'>&nbsp;" . $punteggioCoppa[16+$j][0] . "&nbsp;</div>";
 					
@@ -380,7 +386,7 @@ include("calendarioCoppa0910.inc.php");
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='pointer' id='" . $id[16+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16+$j] . "_F_dati\", event);'>
+						<td class='datiCoppaDestra pointer' id='" . $id[16+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16+$j] . "_F_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $risultatiCoppa[16+$j][1] . "&nbsp;</div>
 							<div class='PunteggiCoppa'>&nbsp;" . $punteggioCoppa[16+$j][1] . "&nbsp;</div>";
 				for($k=0; $k<count($marcatori[16+$j]); $k++)
