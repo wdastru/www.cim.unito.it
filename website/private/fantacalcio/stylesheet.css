@@ -72,6 +72,12 @@ table.risultati tr.odd{ background-color: campRowOddBkgd; }
 table.risultati tr.even{ background-color: campRowEvenBkgd; }
 table.risultati tr.odd td.Dati { color: campRowOdd; }
 table.risultati tr.even td.Dati { color: campRowEven; }
+
+/* old table risultati */
+table.risultati tr.odd td.RisultatiOld { color: campRowOdd; }
+table.risultati tr.even td.RisultatiOld { color: campRowEven; }
+/* old table risultati */
+
 table.risultati tr.odd td.Squadra { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:link { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:visited { color: campRowOdd; text-decoration:none; }
