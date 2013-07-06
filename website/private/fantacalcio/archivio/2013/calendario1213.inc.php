@@ -17,7 +17,7 @@ $giornata[2]="III";
 $giornata[3]="IV";
 $giornata[4]="V";
 $giornata[5]="VI";
-$giornata[6]="VII";		
+$giornata[6]="VII";
 
 $super = array();
 array_push($super, array());
