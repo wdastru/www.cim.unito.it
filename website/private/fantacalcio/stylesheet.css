@@ -108,6 +108,8 @@ table.coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-c
 table.coppa td.coppaFinaliSinistra{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
 table.coppa td.coppaFinaliDestra{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
 table.coppa td.datiCoppaFinali{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
+table.coppa td.goalSinistra { background-color:textColor1; color:textColor0; }
+table.coppa td.goalDestra { background-color:textColor0; color:textColor1; }
 /* old coppa format */
 
 table#coppa_gruppi td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:textColor0; }
@@ -148,7 +150,7 @@ table#finali_coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; bac
 table#finali_coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
 .coppaFinaliSinistra{ text-align:center; background-color:textColor1; color:textColor0; }
 .coppaFinaliDestra{ text-align:center; background-color:textColor0; color:textColor1; }
-#coppaWinner{  }
+.coppaWinner{ background-color:bkgdFinali; color:colorFinali; }
 .coppaCentro{ text-align:center; background-color:textColor0; color:textColor1; }
 .coppaWinner{ text-align:center; background-color:textColor0; color:specialColor; }
 
