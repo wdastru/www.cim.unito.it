@@ -93,6 +93,17 @@ table.risultati div.Punteggi{ width:100%; font-size:0.7em; font-weight:normal; }
 table.coppa { border-collapse:collapse; padding:0; margin:0; width:100%; }
 table.coppa td{ padding:0; height:25px; }
 table.classifica_gruppi_coppa { width: 550px; }
+
+/* old coppa format */
+table.coppa td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:textColor0; }
+table.coppa td.coppaDestra{ width:150px; text-align:right; background-color:textColor0; color:textColor1; }
+table.coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; background-color:textColor1; color:textColor0; }
+table.coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
+table.coppa td.coppaFinaliSinistra{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
+table.coppa td.coppaFinaliDestra{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
+table.coppa td.datiCoppaFinali{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
+/* old coppa format */
+
 table#coppa_gruppi td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:textColor0; }
 table#coppa_gruppi td.coppaSinistra a:link{ color:textColor0; text-decoration:none; }             
 table#coppa_gruppi td.coppaSinistra a:visited{ color:textColor0; text-decoration:none;}   
