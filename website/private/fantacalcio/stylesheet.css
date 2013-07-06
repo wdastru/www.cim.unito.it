@@ -55,7 +55,8 @@ table.classificaBarre td.Barra3{ background-color:barraColor3; text-align:right;
 /*
  * HIDDEN BOXES
  * * * * * * * */
-#hiddenBox, #hiddenOfferBox, #hiddenPasswordBox { /*position:absolute; left:30%; margin:auto; width:900px;*/ border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
+#hiddenBox { border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
+#hiddenBoxOld, #hiddenOfferBox, #hiddenPasswordBox { position:absolute; margin:auto; left:30%; width:40%; border:2px solid borderColor; background-color:bkgdHiddenBox; color:textHiddenBox; padding:10px; }
 #squadra1, #squadra2, #hiddenBoxHyphen, .passwordBoxTitle { color:titleHiddenBox; font-size: 14px; }
 #offertaBoxMainTitle, #passwordBoxMainTitle { color:specialColor; font-size:18px; }
 .offertaBoxTitle { color:textHiddenBox; } 
@@ -71,10 +72,18 @@ table.risultati tr.odd{ background-color: campRowOddBkgd; }
 table.risultati tr.even{ background-color: campRowEvenBkgd; }
 table.risultati tr.odd td.Dati { color: campRowOdd; }
 table.risultati tr.even td.Dati { color: campRowEven; }
+
+/* old table risultati */
+table.risultati tr.odd td.RisultatiOld { color: campRowOdd; }
+table.risultati tr.even td.RisultatiOld { color: campRowEven; }
+/* old table risultati */
+
+table.risultati tr.odd td.Squadra { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:link { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:visited { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:active { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:hover { color: textColor4; text-decoration:none; }
+table.risultati tr.even td.Squadra { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:link { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:visited { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:active { color: campRowEven; text-decoration:none; }
@@ -90,6 +99,20 @@ table.risultati div.Punteggi{ width:100%; font-size:0.7em; font-weight:normal; }
 table.coppa { border-collapse:collapse; padding:0; margin:0; width:100%; }
 table.coppa td{ padding:0; height:25px; }
 table.classifica_gruppi_coppa { width: 550px; }
+
+/* old coppa format */
+table.coppa td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:textColor0; }
+table.coppa td.coppaDestra{ width:150px; text-align:right; background-color:textColor0; color:textColor1; }
+table.coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; background-color:textColor1; color:textColor0; }
+table.coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
+table.coppa td.coppaFinaliSinistra{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
+table.coppa td.coppaFinaliDestra{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
+table.coppa td.datiCoppaFinali{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
+table.coppa td.goalSinistra { background-color:textColor1; color:textColor0; }
+table.coppa td.goalDestra { background-color:textColor0; color:textColor1; }
+table.coppa td.finaleTitle
+/* old coppa format */
+
 table#coppa_gruppi td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:textColor0; }
 table#coppa_gruppi td.coppaSinistra a:link{ color:textColor0; text-decoration:none; }             
 table#coppa_gruppi td.coppaSinistra a:visited{ color:textColor0; text-decoration:none;}   
@@ -102,24 +125,24 @@ table#coppa_gruppi td.coppaDestra a:active{ color:textColor1; text-decoration:no
 table#coppa_gruppi td.coppaDestra a:hover{ color:linkCoppaRightHover; text-decoration:none;}       
 table#coppa_gruppi td.datiCoppaSinistra{ cursor: pointer; text-align:center; background-color:textColor1; color:textColor0; }
 table#coppa_gruppi td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
-table#semifinali_coppa td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; }
+table#semifinali_coppa td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:linkCoppaLeftLink; text-decoration:none; }
 table#semifinali_coppa td.coppaSinistra a:link{ color:linkCoppaLeftLink; text-decoration:none; }             
 table#semifinali_coppa td.coppaSinistra a:visited{ color:linkCoppaLeftVisited; text-decoration:none;}   
 table#semifinali_coppa td.coppaSinistra a:active{ color:linkCoppaLeftActive; text-decoration:none;}     
 table#semifinali_coppa td.coppaSinistra a:hover{ color:linkCoppaLeftHover; text-decoration:none;}       
-table#semifinali_coppa td.coppaDestra{ width:150px; text-align:right; background-color:textColor0; }
+table#semifinali_coppa td.coppaDestra{ width:150px; text-align:right; background-color:textColor0; color:linkCoppaRightLink; text-decoration:none; }
 table#semifinali_coppa td.coppaDestra a:link{ color:linkCoppaRightLink; text-decoration:none;}             
 table#semifinali_coppa td.coppaDestra a:visited{ color:linkCoppaRightVisited; text-decoration:none;}   
 table#semifinali_coppa td.coppaDestra a:active{ color:linkCoppaRightActive; text-decoration:none;}     
 table#semifinali_coppa td.coppaDestra a:hover{ color:linkCoppaRightHover; text-decoration:none;}       
 table#semifinali_coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; background-color:textColor1; color:textColor0; }
 table#semifinali_coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
-table#finali_coppa td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; }
+table#finali_coppa td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:linkCoppaLeftLink; text-decoration:none; }
 table#finali_coppa td.coppaSinistra a:link{ color:linkCoppaLeftLink; text-decoration:none; }             
 table#finali_coppa td.coppaSinistra a:visited{ color:linkCoppaLeftVisited; text-decoration:none;}   
 table#finali_coppa td.coppaSinistra a:active{ color:linkCoppaLeftActive; text-decoration:none;}     
 table#finali_coppa td.coppaSinistra a:hover{ color:linkCoppaLeftHover; text-decoration:none;}       
-table#finali_coppa td.coppaDestra{ width:150px; text-align:right; background-color:textColor0; }
+table#finali_coppa td.coppaDestra{ width:150px; text-align:right; background-color:textColor0; color:linkCoppaRightLink; text-decoration:none; }
 table#finali_coppa td.coppaDestra a:link{ color:linkCoppaRightLink; text-decoration:none;}             
 table#finali_coppa td.coppaDestra a:visited{ color:linkCoppaRightVisited; text-decoration:none;}   
 table#finali_coppa td.coppaDestra a:active{ color:linkCoppaRightActive; text-decoration:none;}     
@@ -128,7 +151,7 @@ table#finali_coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; bac
 table#finali_coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
 .coppaFinaliSinistra{ text-align:center; background-color:textColor1; color:textColor0; }
 .coppaFinaliDestra{ text-align:center; background-color:textColor0; color:textColor1; }
-#coppaWinner{  }
+.coppaWinner{ background-color:bkgdFinali; color:colorFinali; }
 .coppaCentro{ text-align:center; background-color:textColor0; color:textColor1; }
 .coppaWinner{ text-align:center; background-color:textColor0; color:specialColor; }
 

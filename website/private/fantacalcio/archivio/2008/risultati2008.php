@@ -27,8 +27,13 @@ include("calendario0708.inc");
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-        <div id='hiddenBox' style='visibility:hidden'><br />
-          <span id='squadra1'>squadra1</span><span> - </span><span id='squadra2'>squadra2</span> <br />
+        <div id='hiddenBoxOld' style='visibility:hidden'><br />
+			<div id='hiddenBoxTitleBox'>
+				<span id='squadra1'>squadra1</span>
+				<span id='hiddenBoxHyphen'> - </span>
+				<span id='squadra2'>squadra2</span>
+		  </div>			
+		<br />
           <br />
           <form method='post' name='formRisultati'>
             <input type='button' value='Close this box!' onclick='hideBox();'/>

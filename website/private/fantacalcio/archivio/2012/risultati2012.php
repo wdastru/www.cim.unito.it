@@ -31,7 +31,7 @@ include("calendario1112.inc.php");
 	<?php require $relocate_string . 'include/title.inc.php'; ?>
 	<?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBox' style='visibility: hidden'>
+	<div id='hiddenBoxOld' style='visibility: hidden'>
 		<br /> 
 		<div id='hiddenBoxTitleBox'>
 			<span id='squadra1'>squadra1</span>

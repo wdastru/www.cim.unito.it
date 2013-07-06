@@ -95,7 +95,7 @@
           <td class="void-5">&nbsp;</td>
           <td class="goalSinistra">2</td>
           <td class="void-5">&nbsp;</td>
-		  <td colspan="3" style="color:#FF0000">Finale 1&deg;- 2&deg;</td>          
+		  <td colspan="3" class='finaleTitle'>Finale 1&deg;- 2&deg;</td>          
 		  <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -162,7 +162,7 @@
           <td class="void-5">&nbsp;</td>
           <td class="goalSinistra">1</td>
           <td>&nbsp;</td>
-          <td colspan="3"class="goalDestra"><span class="coppaCentro">R. Mentescars</span></td>
+          <td colspan="3"class="goalDestra"><span>R. Mentescars</span></td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -209,7 +209,7 @@
         </tr>
         <tr>
           <td colspan="11">&nbsp;</td>
-          <td colspan="5" style="color:#FF0000">Finale 3&deg;- 4&deg;</td>
+          <td colspan="5" class='finaleTitle'>Finale 3&deg;- 4&deg;</td>
           <td colspan="11">&nbsp;</td>
         </tr>
         <tr>
@@ -244,7 +244,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3"class="goalDestra"><span class="coppaCentro">Dinamo Ciofeca</span></td>
+          <td colspan="3"class="goalDestra">Dinamo Ciofeca</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -261,7 +261,7 @@
         </tr>
         <tr>
           <td colspan="11">&nbsp;</td>
-          <td colspan="5" style="color:#FF0000">Finale 5&deg;- 6&deg;</td>
+          <td colspan="5" class='finaleTitle'>Finale 5&deg;- 6&deg;</td>
           <td colspan="11">&nbsp;</td>
         </tr>
         <tr>
@@ -278,7 +278,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3"class="goalSinistra"><span class="coppaCentro">EPOrediese&sup1;</span></td>
+          <td colspan="3"class="goalSinistra">EPOrediese&sup1;</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -314,7 +314,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3"class="coppaCentro">A?NG!</td>
+          <td colspan="3">A?NG!</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -340,7 +340,7 @@
         </tr>
         <tr>
           <td colspan="11">&nbsp;</td>
-          <td colspan="5" style="color:#FF0000">Finale 7&deg;- 8&deg;</td>
+          <td colspan="5" class='finaleTitle'>Finale 7&deg;- 8&deg;</td>
           <td colspan="11">&nbsp;</td>
         </tr>
         <tr>
@@ -351,7 +351,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" class="goalSinistra"><span class="coppaCentro">Lokomotiv P. </span></td>
+          <td colspan="3" class="goalSinistra">Lokomotiv P.</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -375,7 +375,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" class="goalDestra"><span class="coppaCentro">A.S.C. Emo! </span></td>
+          <td colspan="3" class="goalDestra">A.S.C. Emo!</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>

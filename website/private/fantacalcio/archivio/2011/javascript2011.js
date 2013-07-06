@@ -7,7 +7,7 @@ function showBoxCampionato( id, evt )
 	if( document.getElementById ) 
 	{
 		var source = document.getElementById( id );
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = document.getElementById( 'formRisultati').getElementsByTagName('div');
 		var visibility = hiddenBox.style.visibility;
@@ -69,6 +69,7 @@ function showBoxCampionato( id, evt )
 		alert(":( DOM NON Supportato!");
 	}
 }
+
 function showBoxCoppa( id, evt )
 {
 	oldRetiA=0;
@@ -85,7 +86,7 @@ function showBoxCoppa( id, evt )
 		var divs_casa = source_casa.getElementsByTagName('div');
 		var divs_fuori = source_fuori.getElementsByTagName('div');
 		
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = hiddenBox.getElementsByTagName('div');
@@ -171,6 +172,7 @@ function showBoxCoppa( id, evt )
 		alert(":( DOM NON Supportato!");
 	}
 }
+
 function resetFields()
 {
 	var hiddenBox = document.getElementById( 'hiddenBox' );
@@ -184,6 +186,7 @@ function resetFields()
 	for (var i=0; i<20; i++)
 		inputTags.item(9+i).value = '';
 }
+
 function offerBoxResetFields()
 {
 	var hiddenBox = document.getElementById( 'hiddenOfferBox' );
@@ -192,11 +195,12 @@ function offerBoxResetFields()
 	for (var i=3; i<9; i++)
 		inputTags.item(i).value = '';
 }
+
 function hideBox( id )
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var goalDivs = document.getElementById( 'formRisultati').getElementsByTagName('div');
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		

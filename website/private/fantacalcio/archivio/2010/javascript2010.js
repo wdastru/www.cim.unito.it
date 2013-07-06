@@ -7,12 +7,12 @@ function showBoxCampionato( id, evt )
 	if( document.getElementById ) 
 	{
 		var source = document.getElementById( id );
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var visibility = hiddenBox.style.visibility;
 		
-		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione */
+		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) ï¿½ il - di separazione */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
 		
@@ -86,7 +86,7 @@ function showBoxCoppa( id, evt )
 		var divs_casa = source_casa.getElementsByTagName('div');
 		var divs_fuori = source_fuori.getElementsByTagName('div');
 		
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = hiddenBox.getElementsByTagName('div');
@@ -95,7 +95,7 @@ function showBoxCoppa( id, evt )
 		// titolo box 
 		if (id.substring(0,6) == 'gruppi')
 		{
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione			
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) ï¿½ il - di separazione			
 			if ( id.substring(6,8) == '10' || id.substring(6,8) == '11' )
 			{
 				hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('gruppi'+id.substring(6,8)+'_C_nome').innerHTML;
@@ -105,11 +105,11 @@ function showBoxCoppa( id, evt )
 				hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('gruppi'+id.substring(6,7)+'_F_nome').innerHTML;
 			}				
 		} else if (id.substring(0,4) == 'semi') {
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione					
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) ï¿½ il - di separazione					
 			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('semi'+id.substring(4,5)+'_C_nome').innerHTML;
 			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('semi'+id.substring(4,5)+'_F_nome').innerHTML;
 		} else if (id.substring(0,6) == 'finali') {
-			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) è il - di separazione			
+			// nomi squadre : hiddenBox.getElementsByTagName('span').item(1) ï¿½ il - di separazione			
 			hiddenBox.getElementsByTagName('span').item(0).innerHTML = document.getElementById('finali'+id.substring(6,7)+'_C_nome').innerHTML;
 			hiddenBox.getElementsByTagName('span').item(2).innerHTML = document.getElementById('finali'+id.substring(6,7)+'_F_nome').innerHTML;
 		}
@@ -176,7 +176,7 @@ function showBoxCoppa( id, evt )
 
 function resetFields()
 {
-	var hiddenBox = document.getElementById( 'hiddenBox' );
+	var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 	var inputTags = hiddenBox.getElementsByTagName('input');
 		
 	inputTags.item(3).value = '';
@@ -192,7 +192,7 @@ function hideBox( id )
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		
@@ -239,7 +239,7 @@ function goals()
 	//alert(oldGoalsTot);
 	if((goalsTot-oldGoalsTot)>0)
 	{
-		if (goalsTot > 20) // perchè sono previsti al massimo 20 goal totali in hiddenBox
+		if (goalsTot > 20) // perchï¿½ sono previsti al massimo 20 goal totali in hiddenBox
 			goalsTot = 20;
 			
 		for(var i=0;i<(goalsTot-oldGoalsTot);i++)
@@ -249,7 +249,7 @@ function goals()
 	} 
 	else if((goalsTot-oldGoalsTot)<0)
 	{
-		if (oldGoalsTot > 20) // perchè sono previsti al massimo 20 goal totali in hiddenBox
+		if (oldGoalsTot > 20) // perchï¿½ sono previsti al massimo 20 goal totali in hiddenBox
 			oldGoalsTot = 20;
 
 		for(var i=0;i>(goalsTot-oldGoalsTot);i--)
@@ -263,7 +263,7 @@ function addField()
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var visibleGoalDivs = 0;
 		for(i=0; i<goalDivs.length; i++) 
@@ -287,7 +287,7 @@ function addField()
 function manualAddField()
 {
 	goalsTot += 1;
-	if (goalsTot > 20) // perchè sono previsti al massimo 20 goal totali in hiddenBox
+	if (goalsTot > 20) // perchï¿½ sono previsti al massimo 20 goal totali in hiddenBox
 		goalsTot = 20;
 	addField();	
 }
@@ -296,7 +296,7 @@ function deleteField()
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = hiddenBox.getElementsByTagName('div');
 		var visibleGoalDivs = 20;

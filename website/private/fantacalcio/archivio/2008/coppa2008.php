@@ -26,7 +26,7 @@
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-        <div id='hiddenBox' style='visibility:hidden'>
+        <div id='hiddenBoxOld' style='visibility:hidden'>
           <form method='post' name='formRisultati'>
             <input type='button' value='Close this box!' onmousedown='hideBox();'/>
             <br /><br />
@@ -190,14 +190,14 @@ fclose($handle);
           <tr>
             <td class="coppaSinistra" id="quarti0C">&nbsp;<?php echo $squadraCoppa[0][0][0] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti0-0" onmousedown="showBoxCoppa('quarti0-0', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti0-0" onmousedown="showBoxCoppa('quarti0-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[0][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[0][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[0]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[0][$i] . "</div>";
 			?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti4-0" onmousedown="showBoxCoppa('quarti4-0', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti4-0" onmousedown="showBoxCoppa('quarti4-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[4][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[4][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[4]); $i++)
@@ -213,7 +213,7 @@ fclose($handle);
             <td colspan="6">&nbsp;</td>
             <td class="coppaSinistra" id="semi0C">&nbsp;<?php echo $squadraCoppa[0][0][1] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi0-0" onmousedown="showBoxCoppa('semi0-0', event);"><?php 
+				<td class='datiCoppaSinistra' id="semi0-0" onmousedown="showBoxCoppa('semi0-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[8][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[8][0] . "&nbsp;</div>";
 					for($i=0; $i<count($marcatori[8]); $i++)
@@ -234,14 +234,14 @@ fclose($handle);
           <tr>
             <td class="coppaSinistra" id='quarti0F'>&nbsp;<?php echo $squadraCoppa[1][0][0] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti0-1" onmousedown="showBoxCoppa('quarti0-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti0-1" onmousedown="showBoxCoppa('quarti0-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[0][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[0][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[0]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[0][$i] . "</div>";
 			?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti4-1" onmousedown="showBoxCoppa('quarti4-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti4-1" onmousedown="showBoxCoppa('quarti4-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[4][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[4][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[4]); $i++)
@@ -254,14 +254,14 @@ fclose($handle);
             <td colspan="12">&nbsp;</td>
             <td colspan="3" class="header">1&deg;- 2&deg;</td>
             <td colspan="7">&nbsp;</td>
-            <td id="quarti5-0" onmousedown="showBoxCoppa('quarti5-0', event);"><?php 
+				<td class='datiCoppaDestra' id="quarti5-0" onmousedown="showBoxCoppa('quarti5-0', event);"><?php 
 					echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[5][0] . "&nbsp;</div>";
 					echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[5][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[5]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[5][$i] . "</div>";
 				?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti1-0" onmousedown="showBoxCoppa('quarti1-0', event);"><?php 
+				<td class='datiCoppaDestra' id="quarti1-0" onmousedown="showBoxCoppa('quarti1-0', event);"><?php 
 					echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[1][0] . "&nbsp;</div>";
 					echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[1][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[1]); $i++)
@@ -277,7 +277,7 @@ fclose($handle);
             <td colspan="12">&nbsp;</td>
             <td colspan="3" class="coppaFinaliSinistra" id="finali0C">&nbsp;<?php echo $squadraCoppa[0][0][2] ?></td>
             <td>&nbsp;</td>
-            <td id="semi5-0" onmousedown="showBoxCoppa('semi5-0', event);"><?php 
+				<td class='datiCoppaDestra' id="semi5-0" onmousedown="showBoxCoppa('semi5-0', event);"><?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[13][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[13][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[13]); $i++)
@@ -285,7 +285,8 @@ fclose($handle);
 				?>
             </td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi1-0" onmousedown="showBoxCoppa('semi1-0', event);"><?php 
+				<td class='datiCoppaDestra' id="semi1-0" onmousedown="showBoxCoppa('semi1-0', event);">
+				<?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[9][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[9][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[9]); $i++)
@@ -301,14 +302,14 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="22">&nbsp;</td>
-            <td id="quarti5-1" onmousedown="showBoxCoppa('quarti5-1', event);"><?php 
+				<td class='datiCoppaDestra' id="quarti5-1" onmousedown="showBoxCoppa('quarti5-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[5][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[5][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[5]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[5][$i] . "</div>";
 				?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti1-1" onmousedown="showBoxCoppa('quarti1-1', event);"><?php
+				<td class='datiCoppaDestra' id="quarti1-1" onmousedown="showBoxCoppa('quarti1-1', event);"><?php
             	echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[1][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[1][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[1]); $i++)
@@ -319,7 +320,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali0-0" onmousedown="showBoxCoppa('finali0-0', event);"><?php 
+				<td class="coppaFinaliSinistra" id="finali0-0" onmousedown="showBoxCoppa('finali0-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[16][0] ."&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[16][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[16]); $i++)
@@ -338,7 +339,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali0-1" onmousedown="showBoxCoppa('finali0-1', event);"><?php 
+				<td class="datiCoppaFinali" id="finali0-1" onmousedown="showBoxCoppa('finali0-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[16][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[16][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[16]); $i++)
@@ -349,14 +350,14 @@ fclose($handle);
           <tr>
             <td class="coppaSinistra" id="quarti2C">&nbsp;<?php echo $squadraCoppa[0][2][0] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti2-0" onmousedown="showBoxCoppa('quarti2-0', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti2-0" onmousedown="showBoxCoppa('quarti2-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[2][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[2][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[2]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[2][$i] . "</div>";
 			?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti6-0" onmousedown="showBoxCoppa('quarti6-0', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti6-0" onmousedown="showBoxCoppa('quarti6-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[6][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[6][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[6]); $i++)
@@ -371,14 +372,14 @@ fclose($handle);
             <td colspan="6">&nbsp;</td>
             <td class="coppaSinistra" id="semi0F">&nbsp;<?php echo $squadraCoppa[1][0][1] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi0-1" onmousedown="showBoxCoppa('semi0-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="semi0-1" onmousedown="showBoxCoppa('semi0-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[8][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[8][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[8]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[8][$i] . "</div>";
 				?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi4-1" onmousedown="showBoxCoppa('semi4-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="semi4-1" onmousedown="showBoxCoppa('semi4-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[12][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[12][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[12]); $i++)
@@ -391,14 +392,14 @@ fclose($handle);
           <tr>
             <td class="coppaSinistra" id="quarti2F">&nbsp;<?php echo $squadraCoppa[1][2][0] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti2-1" onmousedown="showBoxCoppa('quarti2-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti2-1" onmousedown="showBoxCoppa('quarti2-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[2][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[2][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[2]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[2][$i] . "</div>";
 				?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti6-1" onmousedown="showBoxCoppa('quarti6-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="quarti6-1" onmousedown="showBoxCoppa('quarti6-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[6][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[6][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[6]); $i++)
@@ -411,7 +412,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="22">&nbsp;</td>
-            <td id="quarti7-0" onmousedown="showBoxCoppa('quarti7-0', event);"><?php 
+				<td class='datiCoppaDestra' id="quarti7-0" onmousedown="showBoxCoppa('quarti7-0', event);"><?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[7][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[7][0] . "&nbsp;</div>";
 				
@@ -420,7 +421,7 @@ fclose($handle);
 						echo "	  <div class='hidden'>" . $marcatori[7][$i] . "</div>";
 			?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti3-0" onmousedown="showBoxCoppa('quarti3-0', event);"><?php 
+				<td class='datiCoppaDestra' id="quarti3-0" onmousedown="showBoxCoppa('quarti3-0', event);"><?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[3][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[3][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[3]); $i++)
@@ -434,14 +435,14 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="16">&nbsp;</td>
-            <td id="semi5-1" onmousedown="showBoxCoppa('semi5-1', event);"><?php 
+				<td class='datiCoppaDestra' id="semi5-1" onmousedown="showBoxCoppa('semi5-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[13][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[13][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[13]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[13][$i] . "</div>";
 				?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi1-1" onmousedown="showBoxCoppa('semi1-1', event);"><?php 
+				<td class='datiCoppaDestra' id="semi1-1" onmousedown="showBoxCoppa('semi1-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[9][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[9][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[9]); $i++)
@@ -458,7 +459,7 @@ fclose($handle);
             <td colspan="11">&nbsp;</td>
             <td colspan="5" class="header">3&deg;- 4&deg;</td>
             <td colspan="6">&nbsp;</td>
-            <td id="quarti7-1" onmousedown="showBoxCoppa('quarti7-1', event);"><?php 
+				<td class='datiCoppaDestra' id="quarti7-1" onmousedown="showBoxCoppa('quarti7-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[7][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[7][1] . "&nbsp;</div>";
 				if (isset($marcatori[7]))
@@ -466,7 +467,7 @@ fclose($handle);
 						echo "	  <div class='hidden'>" . $marcatori[7][$i] . "</div>";
 				?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="quarti3-1" onmousedown="showBoxCoppa('quarti3-1', event);"><?php 
+				<td class='datiCoppaDestra' id="quarti3-1" onmousedown="showBoxCoppa('quarti3-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[3][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[3][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[3]); $i++)
@@ -488,7 +489,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali1-0" onmousedown="showBoxCoppa('finali1-0', event);"><?php 
+				<td class="datiCoppaFinali" id="finali1-0" onmousedown="showBoxCoppa('finali1-0', event);"><?php 
 			echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[17][0] . "&nbsp;</div>";
 			echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[17][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[17]); $i++)
@@ -507,7 +508,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali1-1" onmousedown="showBoxCoppa('finali1-1', event);"><?php 
+				<td class="datiCoppaFinali" id="finali1-1" onmousedown="showBoxCoppa('finali1-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[17][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[17][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[17]); $i++)
@@ -539,14 +540,14 @@ fclose($handle);
             <td colspan="6">&nbsp;</td>
             <td class="coppaSinistra" id="semi2C">&nbsp;<?php echo $squadraCoppa[0][2][1] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi2-0" onmousedown="showBoxCoppa('semi2-0', event);"><?php 
+				<td class='datiCoppaSinistra' id="semi2-0" onmousedown="showBoxCoppa('semi2-0', event);"><?php 
 			echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[10][0] . "&nbsp;</div>";
 			echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[10][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[10]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[10][$i] . "</div>";
 			?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi6-0" onmousedown="showBoxCoppa('semi6-0', event);"><?php 
+				<td class='datiCoppaSinistra' id="semi6-0" onmousedown="showBoxCoppa('semi6-0', event);"><?php 
 			echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[14][0] . "&nbsp;</div>";
 			echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[14][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[14]); $i++)
@@ -570,14 +571,14 @@ fclose($handle);
             <td colspan="6">&nbsp;</td>
             <td class="coppaSinistra" id="semi2F">&nbsp;<?php echo $squadraCoppa[1][2][1] ?>&nbsp;</td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi2-1" onmousedown="showBoxCoppa('semi2-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="semi2-1" onmousedown="showBoxCoppa('semi2-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[10][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[10][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[10]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[10][$i] . "</div>";
 				?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi6-1" onmousedown="showBoxCoppa('semi6-1', event);"><?php 
+				<td class='datiCoppaSinistra' id="semi6-1" onmousedown="showBoxCoppa('semi6-1', event);"><?php 
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[14][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[14][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[14]); $i++)
@@ -590,7 +591,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali2-0" onmousedown="showBoxCoppa('finali2-0', event);"><?php 
+				<td class="datiCoppaFinali" id="finali2-0" onmousedown="showBoxCoppa('finali2-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[18][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[18][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[18]); $i++)
@@ -606,7 +607,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali2-1" onmousedown="showBoxCoppa('finali2-1', event);"><?php 
+				<td class="datiCoppaFinali" id="finali2-1" onmousedown="showBoxCoppa('finali2-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[18][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[18][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[18]); $i++)
@@ -619,14 +620,14 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="16">&nbsp;</td>
-            <td id="semi7-0" onmousedown="showBoxCoppa('semi7-0', event);"><?php 
+				<td class='datiCoppaDestra' id="semi7-0" onmousedown="showBoxCoppa('semi7-0', event);"><?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[15][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;". $punteggioCoppa[15][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[15]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[15][$i] . "</div>";
 			?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi3-0" onmousedown="showBoxCoppa('semi3-0', event);"><?php 
+				<td class='datiCoppaDestra' id="semi3-0" onmousedown="showBoxCoppa('semi3-0', event);"><?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[11][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[11][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[11]); $i++)
@@ -649,14 +650,14 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="16">&nbsp;</td>
-            <td id="semi7-1" onmousedown="showBoxCoppa('semi7-1', event);"><?php 
+				<td class='datiCoppaDestra' id="semi7-1" onmousedown="showBoxCoppa('semi7-1', event);"><?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[15][1] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[15][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[15]); $i++)
 					echo "	  <div class='hidden'>" . $marcatori[15][$i] . "</div>";
 			?></td>
             <td class="void-5">&nbsp;</td>
-            <td id="semi3-1" onmousedown="showBoxCoppa('semi3-1', event);"><?php 
+				<td class='datiCoppaDestra' id="semi3-1" onmousedown="showBoxCoppa('semi3-1', event);"><?php 
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[11][1] . "&nbsp;</div>";
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[11][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[11]); $i++)
@@ -693,7 +694,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali3-0" onmousedown="showBoxCoppa('finali3-0', event);"><?php 
+				<td class="datiCoppaFinali" id="finali3-0" onmousedown="showBoxCoppa('finali3-0', event);"><?php 
 				echo "<div class='Risultati Sinistra'>&nbsp;" . $risultatiCoppa[19][0] . "&nbsp;</div>";
 				echo "<div class='Punteggi Sinistra'>&nbsp;" . $punteggioCoppa[19][0] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[19]); $i++)
@@ -709,7 +710,7 @@ fclose($handle);
           </tr>
           <tr>
             <td colspan="13">&nbsp;</td>
-            <td id="finali3-1" onmousedown="showBoxCoppa('finali3-1', event);"><?php 
+				<td class="datiCoppaFinali" id="finali3-1" onmousedown="showBoxCoppa('finali3-1', event);"><?php 
 				echo "<div class='Punteggi Destra'>&nbsp;" . $punteggioCoppa[19][1] . "&nbsp;</div>";
 				echo "<div class='Risultati Destra'>&nbsp;" . $risultatiCoppa[19][1] . "&nbsp;</div>";
 				for($i=0; $i<count($marcatori[19]); $i++)
