@@ -1,16 +1,18 @@
 <?php
 $relocate_string = "../../";
-require_once ($relocate_string . "logger.php");
-include("squadre1112.inc.php");
-include("calendarioCoppa1112.inc.php");
 //require_once ("dBug.php");
+require_once ($relocate_string . "logger.php");
+
+require $relocate_string . 'archivio/2013/squadre1213.inc.php';
+require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html
+	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-	<title>Fantacalcio NMR 2011/12</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Fantacalcio NMR 2011/12</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
 	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
@@ -19,32 +21,68 @@ include("calendarioCoppa1112.inc.php");
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2012/javascript2012.js&type=javascript"></script>
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2012/coppa1112.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2013/javascript2013.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2013/coppa1213.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
+
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<?php 
+		unset($hostname);
+		exec('hostname', $hostname);
+		if ($hostname[0] == "PESTODURO") {
+			echo "<script type='text/javascript' src='" . $relocate_string . "jQuery/lib/jquery-1.10.1.min.js'></script>";	
+		}
+		require $relocate_string . 'include/jquery.fancybox.inc.php';
+	 ?>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#avulseToggleButton').click(function() {
+				$('#avulse').toggle('fast');
+			});
+
+		});
+	</script>
+	<!-- jQuery -->
+	
 </head>
 <!-- <body onresize="Count();"> -->
 <body>
+
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
-	<div id='hiddenBoxOld' style='visibility: hidden'>
-		<span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
-			id='squadra2'>squadra2</span> <br /> <br />
+	<div id='hiddenBox' style='width:600px; display: none; visibility: hidden'>
+		<br />
+		<div id='hiddenBoxTitleBox'>
+			<span id='squadra1'>squadra1</span>
+			<span id='hiddenBoxHyphen'> - </span>
+			<span id='squadra2'>squadra2</span>
+		</div>
+		<br /> <br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
-				<input
-					type='button' value='Close this box!' onclick='hideBox();' /> <br /> <br /> Goal Squadra A : <input
-					type='text' name='goalA' value='' onkeyup="goals();"
-					onmousedown="goals();" /> <br /> <br /> Goal Squadra B : <input
-					type='text' name='goalB' value='' onkeyup="goals();"
-					onmousedown="goals();" /> <br /> <br /> Punti Squadra A : <input
-					type='text' name='puntiA' value='' /> <br /> <br /> Punti Squadra B
-				: <input type='text' name='puntiB' value='' /> <br /> <br /> <br />
-				Marcatori:<br /> <br />  
+				<input class='button' type='button' id='sendButton' value='Send'
+					onclick='validate( "coppa" )' /> <input id='closeBtn' class='button' type='button'
+					value='Close this box!' onclick='hideBox();' /> <input class='button'
+					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
+				Goal Squadra A : <input type='text' name='goalA' value=''
+					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
+				Squadra B : <input type='text' name='goalB' value=''
+					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
+				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
+				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
+				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
+					style="display: inline" value='Aggiungi un marcatore'
+					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
+					style="display: inline" value='Togli un marcatore'
+					onclick='manualDeleteField();' /> <br /> <br />
 					<?php
-					for($i=0; $i<20; $i++)
-					echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
+					for ($i = 0; $i < 20; $i++)
+						echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
 					?>
 				<input type='hidden' name='Id' value='' />
 			</fieldset>
@@ -60,168 +98,56 @@ include("calendarioCoppa1112.inc.php");
 	$finali[2] = '5&deg; - 6&deg;';
 	$finali[3] = '7&deg; - 8&deg;';
 
-	// --> leggi file datiCoppa.txt
-	$handle = fopen("datiCoppa1112.txt",'r');
-	for($q=0; $q<12; $q++) // gruppi
-	{
-		$tmpString = trim(fgets($handle));
-
-		$id[$q] = strtok($tmpString, "/"); // ids
-
-		$superCoppa[1][$q][0] = strtok("/");
-		$superCoppa[1][$q][1] = strtok("/");
-		$superCoppa[2][$q][0] = strtok("/");
-		$superCoppa[2][$q][1] = strtok("/");
-
-		if ($superCoppa[1][$q][0]=='')
-		$superCoppa[1][$q][0]='&nbsp;';
-		if ($superCoppa[1][$q][1]=='')
-		$superCoppa[1][$q][1]='&nbsp;';
-		if ($superCoppa[2][$q][0]=='')
-		$superCoppa[2][$q][0]='&nbsp;';
-		if ($superCoppa[2][$q][1]=='')
-		$superCoppa[2][$q][1]='&nbsp;';
-
-		$j=0;
-		while( 1 )
-		{
-			$tmpStr = strtok("/");
-			if( $tmpStr == '' )
-			{
-				$superCoppa[3][$q][$j] = '';
-				break;
-			}
-			else
-			$superCoppa[3][$q][$j] = $tmpStr;
-
-			$j++;
-		}
-	}
-
-	$q=12;
-
-	for($s=0; $s<4; $s++) // semifinali
-	{
-		$tmpString = trim(fgets($handle));
-
-		$id[$q+$s] = strtok($tmpString, "/"); // ids
-
-		$superCoppa[1][$q+$s][0] = strtok("/");
-		$superCoppa[1][$q+$s][1] = strtok("/");
-		$superCoppa[2][$q+$s][0] = strtok("/");
-		$superCoppa[2][$q+$s][1] = strtok("/");
-
-		if ($superCoppa[1][$q+$s][0]=='')
-		$superCoppa[1][$q+$s][0]='&nbsp;';
-		if ($superCoppa[1][$q+$s][1]=='')
-		$superCoppa[1][$q+$s][1]='&nbsp;';
-		if ($superCoppa[2][$q+$s][0]=='')
-		$superCoppa[2][$q+$s][0]='&nbsp;';
-		if ($superCoppa[2][$q+$s][1]=='')
-		$superCoppa[2][$q+$s][1]='&nbsp;';
-
-		$j=0;
-		while( 1 )
-		{
-			$tmpStr = strtok("/");
-			if( $tmpStr == '' )
-			{
-				$superCoppa[3][$q+$s][$j] = '';
-				break;
-			}
-			else
-			$superCoppa[3][$q+$s][$j] = $tmpStr;
-
-			$j++;
-		}
-	}
-
-	$s=4;
-
-	for($f=0; $f<4; $f++) //finali
-	{
-		$tmpString = trim(fgets($handle));
-
-		$id[$q+$s+$f] = strtok($tmpString, "/"); // ids
-
-		$superCoppa[1][$q+$s+$f][0] = strtok("/");
-		$superCoppa[1][$q+$s+$f][1] = strtok("/");
-		$superCoppa[2][$q+$s+$f][0] = strtok("/");
-		$superCoppa[2][$q+$s+$f][1] = strtok("/");
-
-		if ($superCoppa[1][$q+$s+$f][0]=='')
-		$superCoppa[1][$q+$s+$f][0]='&nbsp;';
-		if ($superCoppa[1][$q+$s+$f][1]=='')
-		$superCoppa[1][$q+$s+$f][1]='&nbsp;';
-		if ($superCoppa[2][$q+$s+$f][0]=='')
-		$superCoppa[2][$q+$s+$f][0]='&nbsp;';
-		if ($superCoppa[2][$q+$s+$f][1]=='')
-		$superCoppa[2][$q+$s+$f][1]='&nbsp;';
-
-
-		$j=0;
-		while( 1 )
-		{
-			$tmpStr = strtok("/");
-			if( $tmpStr == '' )
-			{
-				$superCoppa[3][$q+$s+$f][$j] = '';
-				break;
-			}
-			else
-			$superCoppa[3][$q+$s+$f][$j] = $tmpStr;
-
-			$j++;
-		}
-	}
-	fclose($handle);
-	// <-- leggi file datiCoppa.txt
+	$datiCoppaFile = $relocate_string . 'archivio/2013//datiCoppa1213.txt';
+	include $relocate_string . 'readDatiCoppa.php';
 	?>
-		<h1 class="title">FANTACOPPA NMR 2011/12</h1>
+		<h1 class="title">FANTACOPPA</h1>
 		<br /> <br />
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>
 		<?php
-		for ($i=0; $i<3; $i++) // loop turni fase a gruppi
+		for ($i = 0; $i < 3; $i++)// loop turni fase a gruppi
 		{
 			echo "
 					<tr>
 						<td colspan='7' class='center'>" . $turno[$i] . "</td>
 					</tr>
 					<tr><td colspan='7'>&nbsp;</td></tr>";
-			for ($j=0; $j<4; $j++) // loop partite x turno (2 x gruppo A e 2 x gruppo B)
+			for ($j = 0; $j < 4; $j++)// loop partite x turno (2 x gruppo A e 2 x gruppo B)
 			{
-				if ($j==0)
-				echo "<tr><td colspan='7'>Gruppo A</td></tr>";
-				if ($j==2)
-				echo "<tr><td colspan='7'>Gruppo B</td></tr>";
+				if ($j == 0) {
+					echo "<tr><td colspan='7'>Gruppo A</td></tr>";
+				}
+				if ($j == 2) {
+					echo "<tr><td colspan='7'>Gruppo B</td></tr>";
+				}
 
 				echo "
 					<tr>
-						<td class='coppaSinistra' id='" . $id[$i*4+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][$i*4+$j][0] . "</td>
+						<td class='coppaSinistra' id='" . $id[$i * 4 + $j] . "_C_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i * 4 + $j][0]] . "'>" . $superCoppa[0][$i * 4 + $j][0] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaSinistra' id='" . $id[$i*4+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[$i*4+$j] . "_C_dati\", event);'>
-							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][0] . "&nbsp;</div>	
-							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][0] . "&nbsp;</div>";
+						<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[$i * 4 + $j] . "_C_dati' onmousedown='showBoxCoppa(\"" . $id[$i * 4 + $j] . "_C_dati\", event);'>
+							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i * 4 + $j][0] . "&nbsp;</div>	
+							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i * 4 + $j][0] . "&nbsp;</div>";
 
-				for($k=0; $k<count($superCoppa[3][$i*4+$j]); $k++)
-				echo "<div class='hidden'>" . $superCoppa[3][$i*4+$j][$k] . "</div>";
+				for ($k = 0; $k < count($superCoppa[3][$i * 4 + $j]); $k++)
+					echo "<div class='hidden'>" . $superCoppa[3][$i * 4 + $j][$k] . "</div>";
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaDestra' id='" . $id[$i*4+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i*4+$j] . "_F_dati\", event);'>
-							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i*4+$j][1] . "&nbsp;</div>
-							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i*4+$j][1] . "&nbsp;</div>";
-				for($k=0; $k<count($superCoppa[3][$i*4+$j]); $k++)
-				echo "<div class='hidden'>" . $superCoppa[3][$i*4+$j][$k] . "</div>";
+						<td href='#hiddenBox' class='datiCoppaDestra fancybox pointer' id='" . $id[$i * 4 + $j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[$i * 4 + $j] . "_F_dati\", event);'>
+							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i * 4 + $j][1] . "&nbsp;</div>
+							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][$i * 4 + $j][1] . "&nbsp;</div>";
+				for ($k = 0; $k < count($superCoppa[3][$i * 4 + $j]); $k++)
+					echo "<div class='hidden'>" . $superCoppa[3][$i * 4 + $j][$k] . "</div>";
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='coppaDestra' id='" . $id[$i*4+$j] . "_F_nome'>" . $superCoppa[0][$i*4+$j][1] . "&nbsp;</td>
+						<td class='coppaDestra' id='" . $id[$i * 4 + $j] . "_F_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i * 4 + $j][1]] . "'>" . $superCoppa[0][$i * 4 + $j][1] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 					</tr>";
-				if ($j==1 || $j==3)
-				echo "<tr><td colspan='7'>&nbsp;</td></tr>";
+				if ($j == 1 || $j == 3)
+					echo "<tr><td colspan='7'>&nbsp;</td></tr>";
 			}
 		}
 		?>
@@ -230,8 +156,10 @@ include("calendarioCoppa1112.inc.php");
 		<br />
 		<!-- classifiche avulse -->
 		<div id='avulse_wrapper'>
-			<input type='button' value='Mostra/Nascondi classifiche avulse'
-				onclick='toggleAvulse();' /> <br /> <br />
+			<!--<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse'
+				onclick='toggleAvulse();' /> --> 
+			<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse' /> 
+				<br /> <br />
 			<div id='avulse'>
 				<table id='avulsa0' class='classifica'>
 					<tr class='tableline'>
@@ -248,25 +176,22 @@ include("calendarioCoppa1112.inc.php");
 					$header[9] = "P";
 					$header[10] = "&Delta;P";
 
-					for ($i=0; $i<11; $i++)
-					echo "<th>" . $header[$i] . "</th>";
+					for ($i = 0; $i < 11; $i++)
+						echo "<th>" . $header[$i] . "</th>";
 
-					for ($i=0; $i<8; $i++)
-					{
+					for ($i = 0; $i < 8; $i++) {
 						echo "<tr>";
-						for ($j=0; $j<9; $j++)
-						{
+						for ($j = 0; $j < 9; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='Dati'>&nbsp;</td>";
+								echo "<td class='Dati'>&nbsp;</td>";
 						}
-						for ($j=9; $j<11; $j++)
-						{
+						for ($j = 9; $j < 11; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='DatiWide'>&nbsp;</td>";
+								echo "<td class='DatiWide'>&nbsp;</td>";
 						}
 						echo "</tr>";
 					}
@@ -277,31 +202,29 @@ include("calendarioCoppa1112.inc.php");
 				<table id='avulsa1' class='classifica'>
 					<tr class='tableline'>
 					<?php
-					for ($i=0; $i<11; $i++)
-					echo "<th>" . $header[$i] . "</th>";
+					for ($i = 0; $i < 11; $i++)
+						echo "<th>" . $header[$i] . "</th>";
 
-					for ($i=0; $i<8; $i++)
-					{
+					for ($i = 0; $i < 8; $i++) {
 						echo "<tr>";
-						for ($j=0; $j<9; $j++)
-						{
+						for ($j = 0; $j < 9; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='Dati'>&nbsp;</td>";
+								echo "<td class='Dati'>&nbsp;</td>";
 						}
-						for ($j=9; $j<11; $j++)
-						{
+						for ($j = 9; $j < 11; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='DatiWide'>&nbsp;</td>";
+								echo "<td class='DatiWide'>&nbsp;</td>";
 						}
 						echo "</tr>";
 					}
 					?>
 					</tr>
 				</table>
+				<br /> <br />
 				<table id='avulsa2' class='classifica'>
 					<tr class='tableline'>
 					<?php
@@ -317,25 +240,22 @@ include("calendarioCoppa1112.inc.php");
 					$header[9] = "P";
 					$header[10] = "&Delta;P";
 
-					for ($i=0; $i<11; $i++)
-					echo "<th>" . $header[$i] . "</th>";
+					for ($i = 0; $i < 11; $i++)
+						echo "<th>" . $header[$i] . "</th>";
 
-					for ($i=0; $i<8; $i++)
-					{
+					for ($i = 0; $i < 8; $i++) {
 						echo "<tr>";
-						for ($j=0; $j<9; $j++)
-						{
+						for ($j = 0; $j < 9; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='Dati'>&nbsp;</td>";
+								echo "<td class='Dati'>&nbsp;</td>";
 						}
-						for ($j=9; $j<11; $j++)
-						{
+						for ($j = 9; $j < 11; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='DatiWide'>&nbsp;</td>";
+								echo "<td class='DatiWide'>&nbsp;</td>";
 						}
 						echo "</tr>";
 					}
@@ -358,25 +278,22 @@ include("calendarioCoppa1112.inc.php");
 					$header[9] = "P";
 					$header[10] = "&Delta;P";
 
-					for ($i=0; $i<11; $i++)
-					echo "<th>" . $header[$i] . "</th>";
+					for ($i = 0; $i < 11; $i++)
+						echo "<th>" . $header[$i] . "</th>";
 
-					for ($i=0; $i<8; $i++)
-					{
+					for ($i = 0; $i < 8; $i++) {
 						echo "<tr>";
-						for ($j=0; $j<9; $j++)
-						{
+						for ($j = 0; $j < 9; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='Dati'>&nbsp;</td>";
+								echo "<td class='Dati'>&nbsp;</td>";
 						}
-						for ($j=9; $j<11; $j++)
-						{
+						for ($j = 9; $j < 11; $j++) {
 							if ($j == 0)
-							echo "<td class='Squadra'>&nbsp;</td>";
+								echo "<td class='Squadra invlink'>&nbsp;</td>";
 							else
-							echo "<td class='DatiWide'>&nbsp;</td>";
+								echo "<td class='DatiWide'>&nbsp;</td>";
 						}
 
 						echo "</tr>";
@@ -389,17 +306,61 @@ include("calendarioCoppa1112.inc.php");
 		</div>
 		<br />
 		<!-- classifiche avulse -->
+		
+		<br/>
 
 		<!-- classifiche gruppi -->
 		<table id='classifica_gruppi'>
 			<tr>
 				<td class="center">CLASSIFICA GRUPPO A</td>
 				</td>
+			</tr>
+			<tr>
+				<td>
+				<table class='classifica classifica_gruppi_coppa' id='classifica_gruppo_1'>
+						<tr class='tableline'>
+							<th>&nbsp;</th>
+							<th>pt</th>
+							<th>g</th>
+							<th>v</th>
+							<th>n</th>
+							<th>p</th>
+							<th>gf</th>
+							<th>gs</th>
+							<th>&Delta;g</th>
+							<th>P</th>
+							<th>&Delta;P</th>
+						</tr>
+						<?php
+						for ($i = 0; $i < 4; $i++) {
+							echo "    <tr id='posizioneA" . $i . "'>";
+							echo "      <td class='Squadra invlink'>&nbsp;</td>";
+							echo "      <td class='Dati'>&nbsp;</td>";
+							echo "      <td class='Dati giocate'>&nbsp;</td>";
+							echo "      <td class='Dati'>&nbsp;</td>";
+							echo "      <td class='Dati'>&nbsp;</td>";
+							echo "      <td class='Dati'>&nbsp;</td>";
+							echo "      <td class='Dati'>&nbsp;</td>";
+							echo "      <td class='Dati'>&nbsp;</td>";
+							echo "      <td class='Dati'>&nbsp;</td>";
+							echo "      <td class='DatiWide'>&nbsp;</td>";
+							echo "      <td class='DatiWide'>&nbsp;</td>";
+							echo "    </tr>";
+						}
+						?>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
 				<td class="center">CLASSIFICA GRUPPO B</td>
 				</td>
 			</tr>
 			<tr>
-				<td><table class='classifica' id='classifica_gruppo_1'>
+				<td>
+					<table class='classifica classifica_gruppi_coppa' id='classifica_gruppo_2'>
 						<tr class='tableline'>
 							<th>&nbsp;</th>
 							<th>pt</th>
@@ -413,44 +374,14 @@ include("calendarioCoppa1112.inc.php");
 							<th>P</th>
 							<th>&Delta;P</th>
 						</tr>
+						
+						
+						
+						
 						<?php
-						for($i=0; $i<4; $i++)
-						{
-							echo "    <tr id='posizioneA" . $i . "'>";
-							echo "      <td class='Squadra'>&nbsp;</td>";
-							echo "      <td class='Dati'>&nbsp;</td>";
-							echo "      <td class='Dati giocate'>&nbsp;</td>";
-							echo "      <td class='Dati'>&nbsp;</td>";
-							echo "      <td class='Dati'>&nbsp;</td>";
-							echo "      <td class='Dati'>&nbsp;</td>";
-							echo "      <td class='Dati'>&nbsp;</td>";
-							echo "      <td class='Dati'>&nbsp;</td>";
-							echo "      <td class='Dati'>&nbsp;</td>";
-							echo "      <td class='DatiWide'>&nbsp;</td>";
-							echo "      <td class='DatiWide'>&nbsp;</td>";
-							echo "    </tr>";
-						}
-						?>
-					</table></td>
-				<td><table class='classifica' id='classifica_gruppo_2'>
-						<tr class='tableline'>
-							<th>&nbsp;</th>
-							<th>pt</th>
-							<th>g</th>
-							<th>v</th>
-							<th>n</th>
-							<th>p</th>
-							<th>gf</th>
-							<th>gs</th>
-							<th>&Delta;g</th>
-							<th>P</th>
-							<th>&Delta;P</th>
-						</tr>
-						<?php
-						for($i=0; $i<4; $i++)
-						{
+						for ($i = 0; $i < 4; $i++) {
 							echo "    <tr id='posizioneB" . $i . "'>";
-							echo "      <td class='Squadra'>&nbsp;</td>";
+							echo "      <td class='Squadra invlink'>&nbsp;</td>";
 							echo "      <td class='Dati'>&nbsp;</td>";
 							echo "      <td class='Dati giocate'>&nbsp;</td>";
 							echo "      <td class='Dati'>&nbsp;</td>";
@@ -464,7 +395,8 @@ include("calendarioCoppa1112.inc.php");
 							echo "    </tr>";
 						}
 						?>
-					</table></td>
+					</table>
+				</td>
 			</tr>
 		</table>
 		<!-- classifiche gruppi -->
@@ -479,30 +411,36 @@ include("calendarioCoppa1112.inc.php");
 			</tr>
 			<tr><td colspan='7'>&nbsp;</td></tr>";
 
-		for ($j=0; $j<4; $j++) // loop partite
+		for ($j = 0; $j < 4; $j++)// loop partite
 		{
 			echo "
 			<tr id='semifinale" . $j . "'>
-				<td class='coppaSinistra' id='" . $id[12+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][12+$j][0] . "</td>
+				<td class='coppaSinistra' id='" . $id[12 + $j] . "_C_nome'>&nbsp;" . $superCoppa[0][12 + $j][0] . "</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='datiCoppaSinistra' id='" . $id[12+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[12+$j] . "_C_dati\", event);'>
-					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][0] . "&nbsp;</div>	
-					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12+$j][0] . "&nbsp;</div>";
+				<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[12 + $j] . "_C_dati' onmousedown='showBoxCoppa(\"" . $id[12 + $j] . "_C_dati\", event);'>
+					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12 + $j][0] . "&nbsp;</div>	
+					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12 + $j][0] . "&nbsp;</div>";
 
-			for($k=0; $k<count($superCoppa[3][12+$j]); $k++)
-			echo "<div class='hidden'>" . $superCoppa[3][12+$j][$k] . "</div>";
+			if (isset($superCoppa[3][12 + $j])) {
+				for ($k = 0; $k < count($superCoppa[3][12 + $j]); $k++) {
+					echo "<div class='hidden'>" . $superCoppa[3][12 + $j][$k] . "</div>";
+				}
+			}
 			echo "
 				</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='datiCoppaDestra' id='" . $id[12+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12+$j] . "_F_dati\", event);'>
-					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12+$j][1] . "&nbsp;</div>
-					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12+$j][1] . "&nbsp;</div>";
-			for($k=0; $k<count($superCoppa[3][12+$j]); $k++)
-			echo "<div class='hidden'>" . $superCoppa[3][12+$j][$k] . "</div>";
+				<td href='#hiddenBox' class='datiCoppaDestra fancybox pointer' id='" . $id[12 + $j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[12 + $j] . "_F_dati\", event);'>
+					<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][12 + $j][1] . "&nbsp;</div>
+					<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][12 + $j][1] . "&nbsp;</div>";
+			if (isset($superCoppa[3][12 + $j])) {
+				for ($k = 0; $k < count($superCoppa[3][12 + $j]); $k++) {
+					echo "<div class='hidden'>" . $superCoppa[3][12 + $j][$k] . "</div>";
+				}
+			}
 			echo "
 				</td>
 				<td class='void-5'>&nbsp;</td>
-				<td class='coppaDestra' id='" . $id[12+$j] . "_F_nome'>" . $superCoppa[0][12+$j][1] . "&nbsp;</td>
+				<td class='coppaDestra' id='" . $id[12 + $j] . "_F_nome'>" . $superCoppa[0][12 + $j][1] . "&nbsp;</td>
 			</tr>";
 		}
 		?>
@@ -510,11 +448,12 @@ include("calendarioCoppa1112.inc.php");
 		</table>
 		<!-- semifinali -->
 		<br />
+
 		<!-- finali -->
 		<table id='finali_coppa'>
 
 		<?php
-		for ($i=0; $i<1; $i++) // loop finali
+		for ($i = 0; $i < 1; $i++)// loop finali
 		{
 			echo "
 					<tr>
@@ -523,33 +462,39 @@ include("calendarioCoppa1112.inc.php");
 					<tr>
 						<td colspan='7' class='center'>&nbsp;</td>
 					</tr>";
-			for ($j=0; $j<4; $j++) // loop partite
+			for ($j = 0; $j < 4; $j++)// loop partite
 			{
 				echo "
 					<tr>
 						<td colspan='7' class='center'>" . $finali[$j] . "</td>
 					</tr>
 					<tr id='finali" . $j . "'>
-						<td class='coppaSinistra' id='" . $id[16+$j] . "_C_nome'>&nbsp;" . $superCoppa[0][16+$j][0] . "</td>
+						<td class='coppaSinistra' id='" . $id[16 + $j] . "_C_nome'>&nbsp;" . $superCoppa[0][16 + $j][0] . "</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaSinistra' id='" . $id[16+$j] . "_C_dati' onmousedown='showBoxCoppa(\"". $id[16+$j] . "_C_dati\", event);'>
-							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16+$j][0] . "&nbsp;</div>	
-							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16+$j][0] . "&nbsp;</div>";
-					
-				for($k=0; $k<count($superCoppa[3][16+$j]); $k++)
-				echo "<div class='hidden'>" . $superCoppa[3][16+$j][$k] . "</div>";
+						<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[16 + $j] . "_C_dati' onmousedown='showBoxCoppa(\"" . $id[16 + $j] . "_C_dati\", event);'>
+							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16 + $j][0] . "&nbsp;</div>	
+							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16 + $j][0] . "&nbsp;</div>";
+
+				if (isset($superCoppa[3][16 + $j])) {
+					for ($k = 0; $k < count($superCoppa[3][16 + $j]); $k++) {
+						echo "<div class='hidden'>" . $superCoppa[3][16 + $j][$k] . "</div>";
+					}
+				}
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='datiCoppaDestra' id='" . $id[16+$j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16+$j] . "_F_dati\", event);'>
-							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16+$j][1] . "&nbsp;</div>
-							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16+$j][1] . "&nbsp;</div>";
-				for($k=0; $k<count($superCoppa[3][16+$j]); $k++)
-				echo "<div class='hidden'>" . $superCoppa[3][16+$j][$k] . "</div>";
+						<td href='#hiddenBox' class='datiCoppaDestra fancybox pointer' id='" . $id[16 + $j] . "_F_dati' onmousedown='showBoxCoppa(\"" . $id[16 + $j] . "_F_dati\", event);'>
+							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][16 + $j][1] . "&nbsp;</div>
+							<div class='PunteggiCoppa'>&nbsp;" . $superCoppa[2][16 + $j][1] . "&nbsp;</div>";
+				if (isset($superCoppa[3][16 + $j])) {
+					for ($k = 0; $k < count($superCoppa[3][16 + $j]); $k++) {
+						echo "<div class='hidden'>" . $superCoppa[3][16 + $j][$k] . "</div>";
+					}
+				}
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='coppaDestra' id='" . $id[16+$j] . "_F_nome'>" . $superCoppa[0][16+$j][1] . "&nbsp;</td>
+						<td class='coppaDestra' id='" . $id[16 + $j] . "_F_nome'>" . $superCoppa[0][16 + $j][1] . "&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan='7' class='center'>&nbsp;</td>
@@ -562,13 +507,65 @@ include("calendarioCoppa1112.inc.php");
 		</table>
 		<!-- finali -->
 
+		<?php
+		$_POST['Id'] = '';
+		$_POST['goalA'] = '';
+		$_POST['goalB'] = '';
+		$_POST['puntiA'] = '';
+		$_POST['puntiB'] = '';
+		$_POST['goals1'] = '';
+		$_POST['goals2'] = '';
+		$_POST['goals3'] = '';
+		$_POST['goals4'] = '';
+		$_POST['goals5'] = '';
+		$_POST['goals6'] = '';
+		$_POST['goals7'] = '';
+		$_POST['goals8'] = '';
+		$_POST['goals9'] = '';
+		$_POST['goals10'] = '';
+		$_POST['goals11'] = '';
+		$_POST['goals12'] = '';
+		$_POST['goals13'] = '';
+		$_POST['goals14'] = '';
+		$_POST['goals15'] = '';
+		$_POST['goals16'] = '';
+		$_POST['goals17'] = '';
+		$_POST['goals18'] = '';
+		$_POST['goals19'] = '';
+		$_POST['goals20'] = '';
+
+		$Id = '';
+		$goalA = '';
+		$goalB = '';
+		$puntiA = '';
+		$puntiB = '';
+		$goals[0] = '';
+		$goals[1] = '';
+		$goals[2] = '';
+		$goals[3] = '';
+		$goals[4] = '';
+		$goals[5] = '';
+		$goals[6] = '';
+		$goals[7] = '';
+		$goals[8] = '';
+		$goals[9] = '';
+		$goals[10] = '';
+		$goals[11] = '';
+		$goals[12] = '';
+		$goals[13] = '';
+		$goals[14] = '';
+		$goals[15] = '';
+		$goals[16] = '';
+		$goals[17] = '';
+		$goals[18] = '';
+		$goals[19] = '';
+		?>
 		<script type="text/javascript">
-        	arrangeTeams();
+			arrangeTeams();
         </script>
 		<!-- InstanceEndEditable -->
 	</div>
-
-	<?php include $relocate_string . 'include/footer.inc.php'?>
+	<?php require $relocate_string . 'include/footer.inc.php'?>
 	<!-- dragHelper for dragdrop.php -->
 	<div id='dragHelper' style="position: absolute; visibility: hidden;"></div>
 </body>
