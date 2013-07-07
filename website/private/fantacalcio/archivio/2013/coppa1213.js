@@ -240,8 +240,7 @@ function arrangeTeams() {
 			/*
 			 * nome squadra e link
 			 */
-			td.item(0).innerHTML = "<a href='squadre/squadra.php?squadra="
-					+ squadra[i][11] + "'>" + squadra[i][0] + "</a>";
+			td.item(0).innerHTML = "<a href=''>" + squadra[i][0] + "</a>";
 
 			for (j = 1; j < td.length; j++) {
 				td.item(j).innerHTML = squadra[i][j];
@@ -253,8 +252,7 @@ function arrangeTeams() {
 			/*
 			 * nome squadra e link
 			 */
-			td.item(0).innerHTML = "<a href='squadre/squadra.php?squadra="
-					+ squadra[i + 4][11] + "'>" + squadra[i + 4][0] + "</a>";
+			td.item(0).innerHTML = "<a href=''>" + squadra[i + 4][0] + "</a>";
 
 			for (j = 1; j < td.length; j++) {
 				td.item(j).innerHTML = squadra[i + 4][j];

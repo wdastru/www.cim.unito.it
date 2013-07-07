@@ -66,24 +66,31 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "coppa" )' /> <input id='closeBtn' class='button' type='button'
-					value='Close this box!' onclick='hideBox();' /> <input class='button'
+					onclick='validate( "coppa" )' /> 
+				<input id='closeBtn' class='button' type='button'
+					value='Close this box!' onclick='hideBox();' /> 
+				<input class='button'
 					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
-				Goal Squadra A : <input type='text' name='goalA' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
-				Squadra B : <input type='text' name='goalB' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
-				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
+				Goal Squadra A : 
+				<input type='text' name='goalA' value=''
+					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> 
+				Goal Squadra B : 
+				<input type='text' name='goalB' value=''
+					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> 
+				Punti Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
+				<br /> <br /> 
+				Marcatori:<br /> <br /> 
+				<input class='button' type='button'
 					style="display: inline" value='Aggiungi un marcatore'
-					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
+					onclick='manualAddField();' />&nbsp;
+				<input class='button' type='button'
 					style="display: inline" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
-					<?php
-					for ($i = 0; $i < 20; $i++)
-						echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
-					?>
+				<?php
+				for ($i = 0; $i < 20; $i++)
+					echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
+				?>
 				<input type='hidden' name='Id' value='' />
 			</fieldset>
 		</form>
@@ -101,7 +108,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 	$datiCoppaFile = $relocate_string . 'archivio/2013//datiCoppa1213.txt';
 	include $relocate_string . 'readDatiCoppa.php';
 	?>
-		<h1 class="title">FANTACOPPA</h1>
+		<h1 class="title">FANTACOPPA NMR 2012/13</h1>
 		<br /> <br />
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>
@@ -124,7 +131,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 
 				echo "
 					<tr>
-						<td class='coppaSinistra' id='" . $id[$i * 4 + $j] . "_C_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i * 4 + $j][0]] . "'>" . $superCoppa[0][$i * 4 + $j][0] . "</a>&nbsp;</td>
+						<td class='coppaSinistra' id='" . $id[$i * 4 + $j] . "_C_nome'>&nbsp;<a href=''>" . $superCoppa[0][$i * 4 + $j][0] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 						<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[$i * 4 + $j] . "_C_dati' onmousedown='showBoxCoppa(\"" . $id[$i * 4 + $j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i * 4 + $j][0] . "&nbsp;</div>	
@@ -143,7 +150,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='coppaDestra' id='" . $id[$i * 4 + $j] . "_F_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i * 4 + $j][1]] . "'>" . $superCoppa[0][$i * 4 + $j][1] . "</a>&nbsp;</td>
+						<td class='coppaDestra' id='" . $id[$i * 4 + $j] . "_F_nome'>&nbsp;<a href=''>" . $superCoppa[0][$i * 4 + $j][1] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 					</tr>";
 				if ($j == 1 || $j == 3)
