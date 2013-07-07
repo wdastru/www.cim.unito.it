@@ -5,7 +5,6 @@ require_once $relocate_string . "logger.php";
 require_once $relocate_string . 'squadre.inc';
 require_once $relocate_string . 'calendario.inc';
 require_once $relocate_string . 'classifica.inc.php';
-require_once $relocate_string . '777/gazFiles.inc.php';
 require_once $relocate_string . 'recursiveChmod.inc.php';
 
 //include "dBug.php";
@@ -13,18 +12,15 @@ require_once $relocate_string . 'recursiveChmod.inc.php';
 @recursiveChmod($relocate_string . '777/');
 
 $datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
-
 if (!file_exists($datiCampionatoFileName)) {
-	$handle = fopen($datiCampionatoFileName, 'w');
-	for ($i = 0; $i < 4; $i++) {
-		for ($j = 0; $j < 7; $j++) {
-			for ($k = 0; $k < 4; $k++) {
-				fwrite($handle, 'a' . $k . $j . $i . "/////\n");
-			}
-		}
-	}
-	fclose($handle);
+	require $relocate_string . 'writeEmptyCampionatoFile.php';
 }
+
+if (!file_exists($relocate_string . '777/gazFiles.inc.php')) {
+	require $relocate_string . 'include/updateGazFiles.inc.php';
+}
+require_once $relocate_string . '777/gazFiles.inc.php';
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
