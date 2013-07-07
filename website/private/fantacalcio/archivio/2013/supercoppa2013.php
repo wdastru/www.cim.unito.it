@@ -26,13 +26,13 @@
 	<!-- InstanceEndEditable -->
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
-		<h1 class="title">SUPERCOPPA 2012</h1>
+		<h1 class="title">SUPERCOPPA 2013</h1>
 		<br />
 		<table align="center" width="500" border="0">
 			<tr>
 				<td><table align="center" width="150" border="0">
 						<tr>
-							<td colspan="19" class="goalDestra">Atletico? No Grazie!</td>
+							<td colspan="19" class="goalDestra">EPOrediese</td>
 						</tr>
 						<tr>
 							<td align="center">&nbsp;</td>
@@ -68,7 +68,7 @@
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
-							<td colspan="3" class="goalSinistra">3</td>
+							<td colspan="3" class="goalSinistra">1</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
@@ -91,8 +91,8 @@
 			</tr>
 		</table>
 		<p>
-			Atletico? No Grazie! : 3 ( 80.5 : IBRAHIMOVIC, IBRAHIMOVIC, MAICON ) <br />
-			Dinamo Ciofeca : 3 ( 78 : MILITO, MILITO, MILITO )
+			EPOrediese        : 3 ( 82 : DI NATALE, DI NATALE, HAMSIK )<br/>
+			Dinamo Ciofeca    : 1 ( 69 : CERCI )
 		</p>
 		<!-- InstanceEndEditable -->
 	</div>
