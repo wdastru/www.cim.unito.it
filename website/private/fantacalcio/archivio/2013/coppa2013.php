@@ -44,6 +44,10 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 				$('#avulse').toggle('fast');
 			});
 
+		    $("a.disabled").click(function () { 
+		        //$(this).fadeTo("fast", .5).removeAttr("href");
+		        $(this).removeAttr("href"); 
+		    });
 		});
 	</script>
 	<!-- jQuery -->
@@ -66,11 +70,11 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "coppa" )' /> 
+					onclick='validate( "coppa" )' style='display: none;' /> 
 				<input id='closeBtn' class='button' type='button'
-					value='Close this box!' onclick='hideBox();' /> 
+					value='Close this box!' onclick='hideBox();' style='display: none;' /> 
 				<input class='button'
-					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
+					type='button' value='Reset' onclick="resetFields();" style='display: none;' /> <br /> <br />
 				Goal Squadra A : 
 				<input type='text' name='goalA' value=''
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> 
@@ -82,10 +86,10 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 				<br /> <br /> 
 				Marcatori:<br /> <br /> 
 				<input class='button' type='button'
-					style="display: inline" value='Aggiungi un marcatore'
+					style="display: none" value='Aggiungi un marcatore'
 					onclick='manualAddField();' />&nbsp;
 				<input class='button' type='button'
-					style="display: inline" value='Togli un marcatore'
+					style="display: none" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
 				<?php
 				for ($i = 0; $i < 20; $i++)
@@ -131,7 +135,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 
 				echo "
 					<tr>
-						<td class='coppaSinistra' id='" . $id[$i * 4 + $j] . "_C_nome'>&nbsp;<a href=''>" . $superCoppa[0][$i * 4 + $j][0] . "</a>&nbsp;</td>
+						<td class='coppaSinistra' id='" . $id[$i * 4 + $j] . "_C_nome'>&nbsp;<a class='disabled' href=''>" . $superCoppa[0][$i * 4 + $j][0] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 						<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[$i * 4 + $j] . "_C_dati' onmousedown='showBoxCoppa(\"" . $id[$i * 4 + $j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i * 4 + $j][0] . "&nbsp;</div>	
@@ -150,7 +154,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='coppaDestra' id='" . $id[$i * 4 + $j] . "_F_nome'>&nbsp;<a href=''>" . $superCoppa[0][$i * 4 + $j][1] . "</a>&nbsp;</td>
+						<td class='coppaDestra' id='" . $id[$i * 4 + $j] . "_F_nome'>&nbsp;<a class='disabled' href=''>" . $superCoppa[0][$i * 4 + $j][1] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 					</tr>";
 				if ($j == 1 || $j == 3)
