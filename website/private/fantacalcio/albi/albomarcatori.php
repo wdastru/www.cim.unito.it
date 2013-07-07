@@ -41,6 +41,13 @@ $relocate_string = "../"
 				<th>Presidente</th>
 			</tr>
 			<tr>
+				<td align="center">2012/13</td>
+				<td align="center">21</td>
+				<td class="center marcatore">Cavani</td>
+				<td align="center">Lokomotiv Peccorino</td>
+				<td align="center">Claudia Cabella</td>
+			</tr>
+			<tr>
 				<td align="center">2011/12</td>
 				<td align="center">22</td>
 				<td class="center marcatore">Ibrahimovic</td>
@@ -100,11 +107,18 @@ $relocate_string = "../"
 				<th>Presidente</th>
 			</tr>
 			<tr>
+				<td align="center">2012/13</td>
+				<td align="center">5</td>
+				<td class="center marcatore">Quagliarella</td>
+				<td align="center">EPOrediese</td>
+				<td align="center">Erik Bruno</td>
+			</tr>
+			<tr>
 				<td align="center">2011/12</td>
-				<td align="center">???</td>
-				<td class="center marcatore">???</td>
-				<td align="center">???</td>
-				<td align="center">???</td>
+				<td align="center">3</td>
+				<td class="center marcatore">Palacio</td>
+				<td align="center">Real Mentescars</td>
+				<td align="center">Davide Corpillo</td>
 			</tr>
 			<tr>
 				<td align="center">2010/11</td>
