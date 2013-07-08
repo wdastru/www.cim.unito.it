@@ -61,8 +61,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <td><input type='text' size='50' name='newCAS'/></td>
                                 </tr>
                                 <tr>
-                                    <td>Product name :</td>
-                                    <td><input type='text' size='50' name='newname'/></td>
+                                    <td>Product name (UK):</td>
+                                    <td><input type='text' size='50' name='newname_UK'/></td>
+                                </tr>
+                                <tr>
+                                    <td>Product name (IT):</td>
+                                    <td><input type='text' size='50' name='newname_IT'/></td>
                                 </tr>
                                 <tr>
                                     <td>Place :</td>

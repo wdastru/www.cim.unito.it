@@ -16,9 +16,11 @@ if (!isset($_POST['delete']))
 	$_POST['delete'] = "";
 if (!isset($_POST['edited']))
 	$_POST['edited'] = "";
-if (!isset($_POST['newname']))
-	$_POST['newname'] = "";
-if (!isset($_POST['removed']))
+if (!isset($_POST['newname_UK']))
+    $_POST['newname_UK'] = "";
+if (!isset($_POST['newname_IT']))
+    $_POST['newname_IT'] = "";
+    if (!isset($_POST['removed']))
 	$_POST['removed'] = "";
 if (!isset($_POST['added']))
 	$_POST['added'] = "";
@@ -117,8 +119,9 @@ $_POST['delete'] = 0;
 											echo "
                             					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
                             					<Select NAME='field" . $i . "'>
-                            					<Option VALUE='name'>Name</option>
-                            					<Option VALUE='place'>Place</option>
+                            					<Option VALUE='name_UK'>Name (UK)</option>
+                                                <Option VALUE='name_IT'>Name (IT)</option>
+                                                <Option VALUE='place'>Place</option>
                             					<Option VALUE='quantity'>Quantity</option>
                             					<Option VALUE='lab'>Laboratory</option>
                             					<Option VALUE='note'>Note</option>
@@ -152,12 +155,12 @@ $_POST['delete'] = 0;
 						require ("variables.php");
 
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
-						//mysql_query('ALTER TABLE  `catalogo` CHANGE  `risk`  `phrase_R` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL');
-						//mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_R` VARCHAR( 50 ) NULL');
+						mysql_query('ALTER TABLE  `catalogo` CHANGE  `name`  `name_UK` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+						//mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `name_IT` VARCHAR( 50 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `code`  `code` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `supplier`  `supplier` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
@@ -167,11 +170,12 @@ $_POST['delete'] = 0;
                         //print_r($_SESSION);
                         
 						if ($_POST['edited'] == "yes") {
-							if ($_POST['newname'] != "") {
+							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 								$sql = "UPDATE catalogo
         								SET 	
-        									name='$_POST[newname]',
-        									place='$_POST[newplace]',
+        									name_UK='$_POST[newname_UK]',
+                                            name_IT='$_POST[newname_IT]',
+                                            place='$_POST[newplace]',
         									quantity='$_POST[newquantity]',
         									lab='$_POST[newlab]',
         									note='$_POST[newnote]',
@@ -181,8 +185,9 @@ $_POST['delete'] = 0;
                                             phrase_S='$_POST[newphrase_S]',
                                             phrase_R='$_POST[newphrase_R]' 
         								WHERE 	
-        									name='$_SESSION[oldname]' AND
-        									place='$_SESSION[oldplace]' AND
+        									name_UK='$_SESSION[oldname_UK]' AND
+                                            name_IT='$_SESSION[oldname_IT]' AND
+                                            place='$_SESSION[oldplace]' AND
         									quantity='$_SESSION[oldquantity]' AND
         									lab='$_SESSION[oldlab]' AND
         									note='$_SESSION[oldnote]' AND
@@ -207,8 +212,9 @@ $_POST['delete'] = 0;
 						if ($_POST['removed'] == "yes") {
 							mysql_query("	DELETE FROM catalogo
 							WHERE 	
-								name='$_SESSION[oldname]' AND
-								place='$_SESSION[oldplace]' AND
+								name_UK='$_SESSION[oldname_UK]' AND
+                                name_IT='$_SESSION[oldname_IT]' AND
+                                place='$_SESSION[oldplace]' AND
 								quantity='$_SESSION[oldquantity]' AND
 								lab='$_SESSION[oldlab]' AND
 								note='$_SESSION[oldnote]' AND
@@ -224,9 +230,9 @@ $_POST['delete'] = 0;
 						}
 
 						if ($_POST['added'] == "yes") {
-							if ($_POST['newname'] != "") {
-								mysql_query("INSERT INTO catalogo ( name, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R )
-            						VALUES ( '$_POST[newname]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]')
+							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
+								mysql_query("INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R )
+            						VALUES ( '$_POST[newname_UK]', '$_POST[newname_IT]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]')
             					");
 								echo mysql_error();
 							} else {
@@ -235,8 +241,6 @@ $_POST['delete'] = 0;
 
 							$_POST['added'] = "no";
 						}
-
-						//echo "	UPDATE catalogo SET name='" . $_POST[editedname] . "'");
 
 						//This is only displayed if they have submitted the form
 						if ($_POST['searching'] == "yes") {
@@ -280,16 +284,19 @@ $_POST['delete'] = 0;
 
 								$conditions .= "upper(" . $_POST["field" . $i] . ") LIKE'%" . $_POST["find" . $i] . "%'";
 							}
-
-							$data = mysql_query("	SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name");
+                            
+                            $sql = "SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name_UK, name_IT";
+                            //echo $sql;
+							$data = mysql_query($sql);
 
 							//And we display the results
 							echo "<table id='catalog' border='1' frame='box' cellspacing='0' rules='all'>
 							         <tr>
                             			<th class='headerButtonEdit'></th>
                             			<th class='headerButtonRemove'></th>
-                            			<th class='headerName'>Name</th>
-                            			<th class='headerPlace'>Place</th>
+                            			<th class='headerName_UK'>Name (UK)</th>
+                                        <th class='headerName_IT'>Name (IT)</th>
+                                        <th class='headerPlace'>Place</th>
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
                             			<th class='headerNote'>Note</th>
@@ -303,7 +310,8 @@ $_POST['delete'] = 0;
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
-                            			<td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
@@ -319,8 +327,9 @@ $_POST['delete'] = 0;
 								echo "<tr>
                                         <td>
                         					<form name='edit' method='post' action='admin/edit.php'>
-                        						<input type='hidden' name='name2edit' value='" . $result['name'] . "' />
-                        						<input type='hidden' name='place2edit' value='" . $result['place'] . "' />
+                        						<input type='hidden' name='name_UK2edit' value='" . $result['name_UK'] . "' />
+                                                <input type='hidden' name='name_IT2edit' value='" . $result['name_IT'] . "' />
+                                                <input type='hidden' name='place2edit' value='" . $result['place'] . "' />
                         						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
                                                 <input type='hidden' name='note2edit' value='" . $result['note'] . "' />
@@ -334,8 +343,9 @@ $_POST['delete'] = 0;
                         				</td>
                         				<td>
                         					<form name='remove' method='post' action='admin/remove.php'>
-                        						<input type='hidden' name='name2remove' value='" . $result['name'] . "' />
-                        						<input type='hidden' name='place2remove' value='" . $result['place'] . "' />
+                        						<input type='hidden' name='name_UK2remove' value='" . $result['name_UK'] . "' />
+                                                <input type='hidden' name='name_IT2remove' value='" . $result['name_IT'] . "' />
+                                                <input type='hidden' name='place2remove' value='" . $result['place'] . "' />
                         						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
                         						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
@@ -347,8 +357,9 @@ $_POST['delete'] = 0;
                         						<input class='removeButton' type='submit' name='remove' value='-' />
                         					</form>
                         				</td>
-                        				<td class='data'>" . $result['name'] . "</td>
-                        				<td class='data'>" . $result['place'] . "</td>
+                        				<td class='data'>" . $result['name_UK'] . "</td>
+                                        <td class='data'>" . $result['name_IT'] . "</td>
+                                        <td class='data'>" . $result['place'] . "</td>
                                         <td class='data'>" . $result['quantity'] . "</td>
                                         <td class='data'>" . $result['lab'] . "</td>
                                         <td class='data'>" . $result['note'] . "</td>

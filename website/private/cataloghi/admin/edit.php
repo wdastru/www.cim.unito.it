@@ -5,7 +5,8 @@ if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
 }
 session_start();
-$_SESSION['oldname']     = $_POST['name2edit'];
+$_SESSION['oldname_UK']     = $_POST['name_UK2edit'];
+$_SESSION['oldname_IT']     = $_POST['name_IT2edit'];
 $_SESSION['oldplace']    = $_POST['place2edit'];
 $_SESSION['oldquantity'] = $_POST['quantity2edit'];
 $_SESSION['oldlab']      = $_POST['lab2edit'];
@@ -69,10 +70,14 @@ $localizer = "../../../";
 					<div class='paddingInner'>
 					<form name='edit' method='post' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
 					    <table>
-					        <tr>
-					            <td>Name :</td>
-                        		<td><input type='text' name='newname' size='50' value='<?php echo $_POST['name2edit']; ?>'/></td>
-                        	</tr>
+                            <tr>
+                                <td>Name (UK):</td>
+                                <td><input type='text' name='newname_UK' size='50' value='<?php echo $_POST['name_UK2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Name (IT):</td>
+                                <td><input type='text' name='newname_IT' size='50' value='<?php echo $_POST['name_IT2edit']; ?>'/></td>
+                            </tr>
                         	<tr>
                         	    <td>Place :</td>
                         	    <td><input type='text' name='newplace' value='<?php echo $_POST['place2edit']; ?>'/></td>

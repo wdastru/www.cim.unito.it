@@ -19,7 +19,8 @@ td { font-family: verdana, helvetica; overflow-x: auto; }
 .dateDom { color: #FF0000; font-weight: bold; width: 65px; background-color: #aaffaa; text-align: center; }
 th { background-color: #db6d16; color: white; text-align: left; font-weight: bold; padding-left: 2px; }
 .removeButton { }
-th.headerName { width: 300px; }
+th.headerName_UK { width: 300px; }
+th.headerName_IT { /*width: 300px;*/ }
 /*th.headerPlace { width: 50px; }*/
 th.headerQuantity { width: 5px; }
 /*th.headerLab { width: 50px; }

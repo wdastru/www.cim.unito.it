@@ -5,7 +5,8 @@ if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
 }
 session_start();
-$_SESSION['oldname'] = $_POST['name2remove'];
+$_SESSION['oldname_UK'] = $_POST['name_UK2remove'];
+$_SESSION['oldname_IT'] = $_POST['name_IT2remove'];
 $_SESSION['oldplace'] = $_POST['place2remove'];
 $_SESSION['oldquantity'] = $_POST['quantity2remove'];
 $_SESSION['oldlab'] = $_POST['lab2remove'];
@@ -69,10 +70,14 @@ $localizer = "../../../";
 					<p class='warning'>Do you really want to remove the following compound from the catalog?</p>
 						<form name='remove' method='post' action='../index.php'>
 							<table>
-								<tr>
-									<td>Name :</td>
-									<td><?php echo $_POST['name2remove']; ?></td>
-								</tr>
+                                <tr>
+                                    <td>Name (UK):</td>
+                                    <td><?php echo $_POST['name_UK2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Name (IT):</td>
+                                    <td><?php echo $_POST['name_IT2remove']; ?></td>
+                                </tr>
 								<tr>
 									<td>Place :</td>
 									<td><?php echo $_POST['place2remove']; ?></td>
