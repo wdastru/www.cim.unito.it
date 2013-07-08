@@ -16,6 +16,7 @@ $_SESSION['oldsupplier'] = $_POST['supplier2edit'];
 $_SESSION['oldCAS'] = $_POST['CAS2edit'];
 $_SESSION['oldphrase_S'] = $_POST['phrase_S2edit'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2edit'];
+$_SESSION['oldlink'] = $_POST['link2edit'];
 $localizer = "../../../";
 ?>
 
@@ -71,12 +72,12 @@ $localizer = "../../../";
 					<form name='edit' method='post' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
 					    <table>
                             <tr>
-                                <td>Name (UK):</td>
-                                <td><input type='text' name='newname_UK' size='50' value='<?php echo $_POST['name_UK2edit']; ?>'/></td>
+                                <td>Name (<img src="../en.png" alt="UK" />):</td>
+                                <td><input type='text' name='newname_UK' size='70' value='<?php echo $_POST['name_UK2edit']; ?>'/></td>
                             </tr>
                             <tr>
-                                <td>Name (IT):</td>
-                                <td><input type='text' name='newname_IT' size='50' value='<?php echo $_POST['name_IT2edit']; ?>'/></td>
+                                <td>Name (<img src="../it.jpg" alt="IT" />):</td>
+                                <td><input type='text' name='newname_IT' size='70' value='<?php echo $_POST['name_IT2edit']; ?>'/></td>
                             </tr>
                         	<tr>
                         	    <td>Place :</td>
@@ -92,27 +93,31 @@ $localizer = "../../../";
                             </tr>
                             <tr>
                                 <td>Note :</td>
-                                <td><input type='text' name='newnote' size='50' value='<?php echo $_POST['note2edit']; ?>'/></td>
+                                <td><input type='text' name='newnote' size='70' value='<?php echo $_POST['note2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Code :</td>
-                                <td><input type='text' name='newcode' size='50' value='<?php echo $_POST['code2edit']; ?>'/></td>
+                                <td><input type='text' name='newcode' size='70' value='<?php echo $_POST['code2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Supplier :</td>
-                                <td><input type='text' name='newsupplier' size='50' value='<?php echo $_POST['supplier2edit']; ?>'/></td>
+                                <td><input type='text' name='newsupplier' size='70' value='<?php echo $_POST['supplier2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>CAS n&deg; :</td>
-                                <td><input type='text' name='newCAS' size='50' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
+                                <td><input type='text' name='newCAS' size='70' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Safety phrase :</td>
-                                <td><input type='text' name='newphrase_S' size='50' value='<?php echo $_POST['phrase_S2edit']; ?>'/></td>
+                                <td><input type='text' name='newphrase_S' size='70' value='<?php echo $_POST['phrase_S2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Risk phrase :</td>
-                                <td><input type='text' name='newphrase_R' size='50' value='<?php echo $_POST['phrase_R2edit']; ?>'/></td>
+                                <td><input type='text' name='newphrase_R' size='70' value='<?php echo $_POST['phrase_R2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Link to the safety info :</td>
+                                <td><input type='text' name='newlink' size='70' value='<?php echo $_POST['link2edit']; ?>'/></td>
                             </tr>
                         </table>
                         <input type='hidden' name='edited' value='yes' />

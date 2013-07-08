@@ -19,7 +19,7 @@ td { font-family: verdana, helvetica; overflow-x: auto; }
 .dateDom { color: #FF0000; font-weight: bold; width: 65px; background-color: #aaffaa; text-align: center; }
 th { background-color: #db6d16; color: white; text-align: left; font-weight: bold; padding-left: 2px; }
 .removeButton { }
-th.headerName_UK { width: 300px; }
+th.headerName_UK { width: 250px; }
 th.headerName_IT { /*width: 300px;*/ }
 /*th.headerPlace { width: 50px; }*/
 th.headerQuantity { width: 5px; }
@@ -29,7 +29,8 @@ th.headerCode { width: 175px; }
 th.headerSupplier { width: 175px; } 
 th.headerCAS { width: 175px; } 
 th.headerPhraseS { width: 100px; }
-th.headerPhraseR { width: 100px; }*/
+th.headerPhraseR { width: 100px; }
+th.headerLink { width: 100px; }*/
 th.headerButtonDelete { width: 15px; }
 th.headerButtonRemove { width: 15px; }
 .userEven { background-color: #ffffff; text-align: center; width: 250px; font-weight: bold; color: #bb3902; border-bottom: none; }
@@ -45,3 +46,7 @@ th.headerButtonRemove { width: 15px; }
 .redBold { color: #ff0000; font-weight: bold; }
 .blackBold { color: #000000; font-weight: bold; }
 .plusButton,.minusButton { vertical-align: bottom; }
+
+img.scheda_download { width:20px; }
+td.scheda { padding: 10px; }
+

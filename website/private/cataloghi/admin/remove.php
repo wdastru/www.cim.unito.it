@@ -16,6 +16,7 @@ $_SESSION['oldsupplier'] = $_POST['supplier2remove'];
 $_SESSION['oldCAS'] = $_POST['CAS2remove'];
 $_SESSION['oldphrase_S'] = $_POST['phrase_S2remove'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
+$_SESSION['oldlink'] = $_POST['link2remove'];
 $localizer = "../../../";
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -71,11 +72,11 @@ $localizer = "../../../";
 						<form name='remove' method='post' action='../index.php'>
 							<table>
                                 <tr>
-                                    <td>Name (UK):</td>
+                                    <td>Name (<img src="../en.png" alt="UK" />):</td>
                                     <td><?php echo $_POST['name_UK2remove']; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Name (IT):</td>
+                                    <td>Name (<img src="../it.jpg" alt="IT" />):</td>
                                     <td><?php echo $_POST['name_IT2remove']; ?></td>
                                 </tr>
 								<tr>
@@ -113,6 +114,10 @@ $localizer = "../../../";
 								<tr>
 									<td>Safety phrase :</td>
 									<td><?php echo $_POST['phrase_S2remove']; ?></td>
+								</tr>
+								<tr>
+									<td>Link to the safety info :</td>
+									<td><?php echo $_POST['link2remove']; ?></td>
 								</tr>
 							</table>
 							<br/>

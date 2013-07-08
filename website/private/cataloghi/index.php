@@ -155,12 +155,13 @@ $_POST['delete'] = 0;
 						require ("variables.php");
 
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
-						mysql_query('ALTER TABLE  `catalogo` CHANGE  `name`  `name_UK` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+						mysql_query('ALTER TABLE  `catalogo` CHANGE  `name`  `name_UK` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
 						//mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NOT NULL');
-                        mysql_query('ALTER TABLE  `catalogo` ADD  `name_IT` VARCHAR( 50 ) NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `name_IT` VARCHAR( 100 ) NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `link` VARCHAR( 100 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `code`  `code` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `supplier`  `supplier` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
@@ -168,6 +169,7 @@ $_POST['delete'] = 0;
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_R`  `phrase_R` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         
                         //print_r($_SESSION);
+                        //print_r($_POST);
                         
 						if ($_POST['edited'] == "yes") {
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
@@ -183,7 +185,8 @@ $_POST['delete'] = 0;
                                             supplier='$_POST[newsupplier]',
                                             CAS='$_POST[newCAS]',
                                             phrase_S='$_POST[newphrase_S]',
-                                            phrase_R='$_POST[newphrase_R]' 
+                                            phrase_R='$_POST[newphrase_R]', 
+        					          		link='$_POST[newlink]' 
         								WHERE 	
         									name_UK='$_SESSION[oldname_UK]' AND
                                             name_IT='$_SESSION[oldname_IT]' AND
@@ -195,7 +198,8 @@ $_POST['delete'] = 0;
                                             supplier='$_SESSION[oldsupplier]' AND
                                             CAS='$_SESSION[oldCAS]' AND
                                             phrase_S='$_SESSION[oldphrase_S]' AND									
-        									phrase_R='$_SESSION[oldphrase_R]' 
+        									phrase_R='$_SESSION[oldphrase_R]' AND
+        									link='$_SESSION[oldlink]'
 									";
                                 
                                 //echo $sql;
@@ -222,7 +226,8 @@ $_POST['delete'] = 0;
                                 supplier='$_SESSION[oldsupplier]' AND
                                 CAS='$_SESSION[oldCAS]' AND
                                 phrase_S='$_SESSION[oldphrase_S]' AND                                  								
-								phrase_R='$_SESSION[oldphrase_R]'
+								phrase_R='$_SESSION[oldphrase_R]' AND                                  								
+								link='$_SESSION[oldlink]'
                             ");
                             echo mysql_error();
 
@@ -231,8 +236,8 @@ $_POST['delete'] = 0;
 
 						if ($_POST['added'] == "yes") {
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
-								mysql_query("INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R )
-            						VALUES ( '$_POST[newname_UK]', '$_POST[newname_IT]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]')
+								mysql_query("INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R, link )
+            						VALUES ( '$_POST[newname_UK]', '$_POST[newname_IT]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]', '$_POST[newlink]')
             					");
 								echo mysql_error();
 							} else {
@@ -294,8 +299,8 @@ $_POST['delete'] = 0;
 							         <tr>
                             			<th class='headerButtonEdit'></th>
                             			<th class='headerButtonRemove'></th>
-                            			<th class='headerName_UK'>Name (UK)</th>
-                                        <th class='headerName_IT'>Name (IT)</th>
+                            			<th class='headerName_UK'>Name <img src='./en.png' alt='UK' /></th>
+                                        <th class='headerName_IT'>Name <img src='./it.jpg' alt='IT' /></th>
                                         <th class='headerPlace'>Place</th>
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
@@ -305,11 +310,13 @@ $_POST['delete'] = 0;
                             			<th class='headerCAS'>CAS n&deg;</th>
                             			<th class='headerPhraseS'>Phrase S</th>
                             			<th class='headerPhraseR'>Phrase R</th>
+                            			<th class='headerLink'>Scheda</th>
                             		</tr>
                             		<tr>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
@@ -338,6 +345,7 @@ $_POST['delete'] = 0;
                                                 <input type='hidden' name='CAS2edit' value='" . $result['CAS'] . "' />
                         						<input type='hidden' name='phrase_S2edit' value='" . $result['phrase_S'] . "' />
                                                 <input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
+                                                <input type='hidden' name='link2edit' value='" . $result['link'] . "' />
                                                 <input type='submit' name='edit' value='Edit' />
                         					</form>
                         				</td>
@@ -354,6 +362,7 @@ $_POST['delete'] = 0;
                                                 <input type='hidden' name='CAS2remove' value='" . $result['CAS'] . "' />
                                                 <input type='hidden' name='phrase_S2remove' value='" . $result['phrase_S'] . "' />
                         						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
+                        						<input type='hidden' name='link2remove' value='" . $result['link'] . "' />
                         						<input class='removeButton' type='submit' name='remove' value='-' />
                         					</form>
                         				</td>
@@ -367,8 +376,13 @@ $_POST['delete'] = 0;
                                         <td class='data'>" . $result['supplier'] . "</td>
                                         <td class='data'>" . $result['CAS'] . "</td>
                                         <td class='data'>" . $result['phrase_S'] . "</td>
-                                        <td class='data'>" . $result['phrase_R'] . "</td>
-                                      </tr>";
+                                        <td class='data'>" . $result['phrase_R'] . "</td>";
+                                        if ($result['link'] != '') {
+		                                	echo "<td class='data scheda'><a href='safety_info/" . $result['link'] . "'><img src='arrow_3D_green_left.png' alt='Download' class='scheda_download' /></a></td>";
+	                                	} else {
+	                                		echo "<td class='data scheda'></td>";
+	                                	}
+                                      echo "</tr>";
 							}
 							echo "</table>";
 
