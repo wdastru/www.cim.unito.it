@@ -117,11 +117,21 @@ $localizer = "../../../";
                             </tr>
                             <tr>
                                 <td>Link to the safety info :</td>
-                                <td><input type='text' name='newlink' size='70' value='<?php echo $_POST['link2edit']; ?>'/></td>
+                                <td><?php echo $_POST['link2edit']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>Change the safety info :</td>
+                                <td>
+                                    	<!--<input type='text' size='70' name='newlink'>-->
+                            			<!--<label for='file1'>Filename:</label>-->
+										<input type='file' name='newlink' id='newlink' />
+										<input type='hidden' name='dir' value='<?php echo $localizer . 'private/cataloghi/safety_info/'; ?>' />                                    	
+								    </td>
                             </tr>
                         </table>
                         <input type='hidden' name='edited' value='yes' />
-                        <input type='submit' name='submit' value='Submit' />
+                        <br />
+                        <input type='submit' name='submit' value='Edit' />
                     </form>
 						<!-- InstanceEndEditable name="subsection content" -->
 					</div>

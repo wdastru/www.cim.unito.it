@@ -6,6 +6,8 @@ if ($hostname[0] == "EPTADONE") {
 }
 session_start();
 
+print_r($_FILES);
+
 $localizer = "../../";
 
 if (!isset($_SESSION['nfields']))
@@ -37,6 +39,31 @@ if ($_SESSION['nfields'] == "") {
 
 $_POST['add'] = 0;
 $_POST['delete'] = 0;
+
+function uploadFile($filename, $dir) {
+	
+	echo 'in uploadFile($filename, $dir)<br/>';
+	
+	print_r($filename);
+	
+	if ($filename["name"] != "")
+	{
+		move_uploaded_file($filename["tmp_name"], $dir . $filename["name"]);
+		
+		//shell_exec("cp " . $_POST['dir'] . $_FILES["file1"]["name"] . " " . $relocate_string . "/777/filesGazzetta/excel_files/."); // backup copy of excel file
+		//
+		//$_SESSION['uploaded_file'] = $_FILES["file1"]["name"];
+		//$submitted = "0";
+        //
+		//$where = "Location: ".$relocate_string."excel/fromExcel2Txt.php";
+		//header($where);
+	}
+	else
+	{
+		//$where = "Location: ".$relocate_string."errors/error.php?error=missingFile";
+		//header($where);
+	}	
+}
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -206,6 +233,9 @@ $_POST['delete'] = 0;
                                 
 								mysql_query($sql);
 								echo mysql_error();
+								
+								uploadFile($_FILES["newlink"], '.');
+								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
 							}
@@ -234,12 +264,15 @@ $_POST['delete'] = 0;
 							$_POST['removed'] = "no";
 						}
 
-						if ($_POST['added'] == "yes") {
+						if ($_POST['added'] == "yes") {							
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 								mysql_query("INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R, link )
             						VALUES ( '$_POST[newname_UK]', '$_POST[newname_IT]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]', '$_POST[newlink]')
             					");
 								echo mysql_error();
+								
+								uploadFile($_FILES["newlink"], '.');
+								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
 							}

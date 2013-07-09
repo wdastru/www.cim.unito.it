@@ -99,8 +99,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                     <td>Link to the safety info : </td>
-                                    <td><input type='text' size='70' name='newlink'>
-                                    </td>
+                                    <td>
+                                    	<!--<input type='text' size='70' name='newlink'>-->
+                            			<!--<label for='file1'>Filename:</label>-->
+										<input type='file' name='newlink' id='newlink' />
+										<input type='hidden' name='dir' value='<?php echo $localizer . 'private/cataloghi/safety_info/'; ?>' />                                    	
+								    </td>
                                 </tr>
                             </table>
                             <input type='hidden' name='added' value='yes' />
