@@ -6,6 +6,10 @@ if ($hostname[0] == "EPTADONE") {
 }
 session_start();
 
+//print_r($_FILES);
+//echo "<br>";
+//print_r($_POST);
+
 $localizer = "../../";
 
 if (!isset($_SESSION['nfields']))
@@ -16,9 +20,11 @@ if (!isset($_POST['delete']))
 	$_POST['delete'] = "";
 if (!isset($_POST['edited']))
 	$_POST['edited'] = "";
-if (!isset($_POST['newname']))
-	$_POST['newname'] = "";
-if (!isset($_POST['removed']))
+if (!isset($_POST['newname_UK']))
+    $_POST['newname_UK'] = "";
+if (!isset($_POST['newname_IT']))
+    $_POST['newname_IT'] = "";
+    if (!isset($_POST['removed']))
 	$_POST['removed'] = "";
 if (!isset($_POST['added']))
 	$_POST['added'] = "";
@@ -35,6 +41,30 @@ if ($_SESSION['nfields'] == "") {
 
 $_POST['add'] = 0;
 $_POST['delete'] = 0;
+
+function uploadFile($filename, $dir) {
+	
+	//echo 'in uploadFile($filename, $dir)<br/>';
+	//print_r($filename);
+	
+	if ($filename["name"] != "")
+	{
+		move_uploaded_file($filename["tmp_name"], $dir . $filename["name"]);
+		
+		//shell_exec("cp " . $_POST['dir'] . $_FILES["file1"]["name"] . " " . $relocate_string . "/777/filesGazzetta/excel_files/."); // backup copy of excel file
+		//
+		//$_SESSION['uploaded_file'] = $_FILES["file1"]["name"];
+		//$submitted = "0";
+        //
+		//$where = "Location: ".$relocate_string."excel/fromExcel2Txt.php";
+		//header($where);
+	}
+	else
+	{
+		//$where = "Location: ".$relocate_string."errors/error.php?error=missingFile";
+		//header($where);
+	}	
+}
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -117,8 +147,9 @@ $_POST['delete'] = 0;
 											echo "
                             					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
                             					<Select NAME='field" . $i . "'>
-                            					<Option VALUE='name'>Name</option>
-                            					<Option VALUE='place'>Place</option>
+                            					<Option VALUE='name_UK'>Name (UK)</option>
+                                                <Option VALUE='name_IT'>Name (IT)</option>
+                                                <Option VALUE='place'>Place</option>
                             					<Option VALUE='quantity'>Quantity</option>
                             					<Option VALUE='lab'>Laboratory</option>
                             					<Option VALUE='note'>Note</option>
@@ -152,12 +183,13 @@ $_POST['delete'] = 0;
 						require ("variables.php");
 
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
-						//mysql_query('ALTER TABLE  `catalogo` CHANGE  `risk`  `phrase_R` VARCHAR( 50 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL');
-						//mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_R` VARCHAR( 50 ) NULL');
+						mysql_query('ALTER TABLE  `catalogo` CHANGE  `name`  `name_UK` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+						//mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `name_IT` VARCHAR( 100 ) NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` ADD  `link` VARCHAR( 100 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `code`  `code` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `supplier`  `supplier` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
@@ -165,38 +197,45 @@ $_POST['delete'] = 0;
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_R`  `phrase_R` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         
                         //print_r($_SESSION);
+                        //print_r($_POST);
                         
 						if ($_POST['edited'] == "yes") {
-							if ($_POST['newname'] != "") {
+							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 								$sql = "UPDATE catalogo
         								SET 	
-        									name='$_POST[newname]',
-        									place='$_POST[newplace]',
-        									quantity='$_POST[newquantity]',
-        									lab='$_POST[newlab]',
-        									note='$_POST[newnote]',
-                                            code='$_POST[newcode]',
-                                            supplier='$_POST[newsupplier]',
-                                            CAS='$_POST[newCAS]',
-                                            phrase_S='$_POST[newphrase_S]',
-                                            phrase_R='$_POST[newphrase_R]' 
+        									name_UK='" . $_POST['newname_UK'] . "',
+                                            name_IT='" . $_POST['newname_IT'] . "',
+                                            place='" . $_POST['newplace'] . "',
+        									quantity='" . $_POST['newquantity'] . "',
+        									lab='" . $_POST['newlab'] . "',
+        									note='" . $_POST['newnote'] . "',
+                                            code='" . $_POST['newcode'] . "',
+                                            supplier='" . $_POST['newsupplier'] . "',
+                                            CAS='" . $_POST['newCAS'] . "',
+                                            phrase_S='" . $_POST['newphrase_S'] . "',
+                                            phrase_R='" . $_POST['newphrase_R'] . "', 
+        					          		link='" . $_FILES['newlink']['name'] . "' 
         								WHERE 	
-        									name='$_SESSION[oldname]' AND
-        									place='$_SESSION[oldplace]' AND
-        									quantity='$_SESSION[oldquantity]' AND
-        									lab='$_SESSION[oldlab]' AND
-        									note='$_SESSION[oldnote]' AND
-                                            code='$_SESSION[oldcode]' AND
-                                            supplier='$_SESSION[oldsupplier]' AND
-                                            CAS='$_SESSION[oldCAS]' AND
-                                            phrase_S='$_SESSION[oldphrase_S]' AND									
-        									phrase_R='$_SESSION[oldphrase_R]' 
-									";
+        									name_UK='" . $_SESSION['oldname_UK'] . "' AND
+                                            name_IT='" . $_SESSION['oldname_IT'] . "' AND
+                                            place='" . $_SESSION['oldplace'] . "' AND
+        									quantity='" . $_SESSION['oldquantity'] . "' AND
+        									lab='" . $_SESSION['oldlab'] . "' AND
+        									note='" . $_SESSION['oldnote'] . "' AND
+                                            code='" . $_SESSION['oldcode'] . "' AND
+                                            supplier='" . $_SESSION['oldsupplier'] . "' AND
+                                            CAS='" . $_SESSION['oldCAS'] . "' AND
+                                            phrase_S='" . $_SESSION['oldphrase_S'] . "' AND									
+        									phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
+        									link='" . $_SESSION['oldlink'] . "'";
                                 
                                 //echo $sql;
                                 
 								mysql_query($sql);
 								echo mysql_error();
+								
+								uploadFile($_FILES["newlink"], './safety_info/');
+								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
 							}
@@ -205,38 +244,57 @@ $_POST['delete'] = 0;
 						}
 
 						if ($_POST['removed'] == "yes") {
-							mysql_query("	DELETE FROM catalogo
-							WHERE 	
-								name='$_SESSION[oldname]' AND
-								place='$_SESSION[oldplace]' AND
-								quantity='$_SESSION[oldquantity]' AND
-								lab='$_SESSION[oldlab]' AND
-								note='$_SESSION[oldnote]' AND
-                                code='$_SESSION[oldcode]' AND
-                                supplier='$_SESSION[oldsupplier]' AND
-                                CAS='$_SESSION[oldCAS]' AND
-                                phrase_S='$_SESSION[oldphrase_S]' AND                                  								
-								phrase_R='$_SESSION[oldphrase_R]'
-                            ");
+						        $sql= "DELETE FROM catalogo
+                                        WHERE   
+                                            name_UK='" . $_SESSION['oldname_UK'] . "' AND
+                                            name_IT='" . $_SESSION['oldname_IT'] . "' AND
+                                            place='" . $_SESSION['oldplace'] . "' AND
+                                            quantity='" . $_SESSION['oldquantity'] . "' AND
+                                            lab='" . $_SESSION['oldlab'] . "' AND
+                                            note='" . $_SESSION['oldnote'] . "' AND
+                                            code='" . $_SESSION['oldcode'] . "' AND
+                                            supplier='" . $_SESSION['oldsupplier'] . "' AND
+                                            CAS='" . $_SESSION['oldCAS'] . "' AND
+                                            phrase_S='" . $_SESSION['oldphrase_S'] . "' AND                                                                 
+                                            phrase_R='" . $_SESSION['oldphrase_R'] . "' AND                                                                 
+                                            link='" . $_SESSION['oldlink'] . "'";
+						    
+							mysql_query($sql);
                             echo mysql_error();
 
 							$_POST['removed'] = "no";
 						}
 
-						if ($_POST['added'] == "yes") {
-							if ($_POST['newname'] != "") {
-								mysql_query("INSERT INTO catalogo ( name, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R )
-            						VALUES ( '$_POST[newname]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]')
-            					");
+						if ($_POST['added'] == "yes") {							
+							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
+							        
+							    $sql = "INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R, link )
+                                    VALUES ( '" 
+                                    . $_POST['newname_UK'] . "', '" 
+                                    . $_POST['newname_IT'] . "', '"
+                                    . $_POST['newplace'] . "', '"
+                                    . $_POST['newquantity'] . "', '"
+                                    . $_POST['newlab'] . "', '"
+                                    . $_POST['newnote'] . "', '"
+                                    . $_POST['newcode'] . "', '"
+                                    . $_POST['newsupplier'] . "', '"
+                                    . $_POST['newCAS'] . "', '"
+                                    . $_POST['newphrase_S'] . "', '"
+                                    . $_POST['newphrase_R'] . "', '"
+                                    . $_FILES['newlink']['name'] . "' )";
+                                    
+                                //echo $sql;
+								mysql_query($sql);
 								echo mysql_error();
+								
+								uploadFile($_FILES["newlink"], './safety_info/');
+								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
 							}
 
 							$_POST['added'] = "no";
 						}
-
-						//echo "	UPDATE catalogo SET name='" . $_POST[editedname] . "'");
 
 						//This is only displayed if they have submitted the form
 						if ($_POST['searching'] == "yes") {
@@ -280,16 +338,19 @@ $_POST['delete'] = 0;
 
 								$conditions .= "upper(" . $_POST["field" . $i] . ") LIKE'%" . $_POST["find" . $i] . "%'";
 							}
-
-							$data = mysql_query("	SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name");
+                            
+                            $sql = "SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name_UK, name_IT";
+                            //echo $sql;
+							$data = mysql_query($sql);
 
 							//And we display the results
 							echo "<table id='catalog' border='1' frame='box' cellspacing='0' rules='all'>
 							         <tr>
                             			<th class='headerButtonEdit'></th>
                             			<th class='headerButtonRemove'></th>
-                            			<th class='headerName'>Name</th>
-                            			<th class='headerPlace'>Place</th>
+                            			<th class='headerName_UK'>Name <img src='./en.png' alt='UK' /></th>
+                                        <th class='headerName_IT'>Name <img src='./it.jpg' alt='IT' /></th>
+                                        <th class='headerPlace'>Place</th>
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
                             			<th class='headerNote'>Note</th>
@@ -298,12 +359,15 @@ $_POST['delete'] = 0;
                             			<th class='headerCAS'>CAS n&deg;</th>
                             			<th class='headerPhraseS'>Phrase S</th>
                             			<th class='headerPhraseR'>Phrase R</th>
+                            			<th class='headerLink'>Scheda</th>
                             		</tr>
                             		<tr>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
-                            			<td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
@@ -319,8 +383,9 @@ $_POST['delete'] = 0;
 								echo "<tr>
                                         <td>
                         					<form name='edit' method='post' action='admin/edit.php'>
-                        						<input type='hidden' name='name2edit' value='" . $result['name'] . "' />
-                        						<input type='hidden' name='place2edit' value='" . $result['place'] . "' />
+                        						<input type='hidden' name='name_UK2edit' value='" . $result['name_UK'] . "' />
+                                                <input type='hidden' name='name_IT2edit' value='" . $result['name_IT'] . "' />
+                                                <input type='hidden' name='place2edit' value='" . $result['place'] . "' />
                         						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
                                                 <input type='hidden' name='note2edit' value='" . $result['note'] . "' />
@@ -329,13 +394,15 @@ $_POST['delete'] = 0;
                                                 <input type='hidden' name='CAS2edit' value='" . $result['CAS'] . "' />
                         						<input type='hidden' name='phrase_S2edit' value='" . $result['phrase_S'] . "' />
                                                 <input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
+                                                <input type='hidden' name='link2edit' value='" . $result['link'] . "' />
                                                 <input type='submit' name='edit' value='Edit' />
                         					</form>
                         				</td>
                         				<td>
                         					<form name='remove' method='post' action='admin/remove.php'>
-                        						<input type='hidden' name='name2remove' value='" . $result['name'] . "' />
-                        						<input type='hidden' name='place2remove' value='" . $result['place'] . "' />
+                        						<input type='hidden' name='name_UK2remove' value='" . $result['name_UK'] . "' />
+                                                <input type='hidden' name='name_IT2remove' value='" . $result['name_IT'] . "' />
+                                                <input type='hidden' name='place2remove' value='" . $result['place'] . "' />
                         						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
                         						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
@@ -344,11 +411,13 @@ $_POST['delete'] = 0;
                                                 <input type='hidden' name='CAS2remove' value='" . $result['CAS'] . "' />
                                                 <input type='hidden' name='phrase_S2remove' value='" . $result['phrase_S'] . "' />
                         						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
+                        						<input type='hidden' name='link2remove' value='" . $result['link'] . "' />
                         						<input class='removeButton' type='submit' name='remove' value='-' />
                         					</form>
                         				</td>
-                        				<td class='data'>" . $result['name'] . "</td>
-                        				<td class='data'>" . $result['place'] . "</td>
+                        				<td class='data'>" . $result['name_UK'] . "</td>
+                                        <td class='data'>" . $result['name_IT'] . "</td>
+                                        <td class='data'>" . $result['place'] . "</td>
                                         <td class='data'>" . $result['quantity'] . "</td>
                                         <td class='data'>" . $result['lab'] . "</td>
                                         <td class='data'>" . $result['note'] . "</td>
@@ -356,8 +425,13 @@ $_POST['delete'] = 0;
                                         <td class='data'>" . $result['supplier'] . "</td>
                                         <td class='data'>" . $result['CAS'] . "</td>
                                         <td class='data'>" . $result['phrase_S'] . "</td>
-                                        <td class='data'>" . $result['phrase_R'] . "</td>
-                                      </tr>";
+                                        <td class='data'>" . $result['phrase_R'] . "</td>";
+                                        if ($result['link'] != '') {
+		                                	echo "<td class='data scheda'><a href='safety_info/" . $result['link'] . "'><img src='arrow_3D_green_left.png' alt='Download' class='scheda_download' /></a></td>";
+	                                	} else {
+	                                		echo "<td class='data scheda'></td>";
+	                                	}
+                                      echo "</tr>";
 							}
 							echo "</table>";
 
