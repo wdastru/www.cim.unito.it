@@ -5,7 +5,8 @@ if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
 }
 session_start();
-$_SESSION['oldname'] = $_POST['name2remove'];
+$_SESSION['oldname_UK'] = $_POST['name_UK2remove'];
+$_SESSION['oldname_IT'] = $_POST['name_IT2remove'];
 $_SESSION['oldplace'] = $_POST['place2remove'];
 $_SESSION['oldquantity'] = $_POST['quantity2remove'];
 $_SESSION['oldlab'] = $_POST['lab2remove'];
@@ -15,6 +16,7 @@ $_SESSION['oldsupplier'] = $_POST['supplier2remove'];
 $_SESSION['oldCAS'] = $_POST['CAS2remove'];
 $_SESSION['oldphrase_S'] = $_POST['phrase_S2remove'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
+$_SESSION['oldlink'] = $_POST['link2remove'];
 $localizer = "../../../";
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -69,10 +71,14 @@ $localizer = "../../../";
 					<p class='warning'>Do you really want to remove the following compound from the catalog?</p>
 						<form name='remove' method='post' action='../index.php'>
 							<table>
-								<tr>
-									<td>Name :</td>
-									<td><?php echo $_POST['name2remove']; ?></td>
-								</tr>
+                                <tr>
+                                    <td>Name (<img src="../en.png" alt="UK" />):</td>
+                                    <td><?php echo $_POST['name_UK2remove']; ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Name (<img src="../it.jpg" alt="IT" />):</td>
+                                    <td><?php echo $_POST['name_IT2remove']; ?></td>
+                                </tr>
 								<tr>
 									<td>Place :</td>
 									<td><?php echo $_POST['place2remove']; ?></td>
@@ -108,6 +114,10 @@ $localizer = "../../../";
 								<tr>
 									<td>Safety phrase :</td>
 									<td><?php echo $_POST['phrase_S2remove']; ?></td>
+								</tr>
+								<tr>
+									<td>Link to the safety info :</td>
+									<td><?php echo $_POST['link2remove']; ?></td>
 								</tr>
 							</table>
 							<br/>

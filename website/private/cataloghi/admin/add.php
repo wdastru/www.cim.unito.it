@@ -46,52 +46,65 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> CHEMICALS CATALOG <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
-                            <form name='add' method='post' action="<?php echo $localizer; ?>private/cataloghi/index.php">
+                            <form name='add' method='post' enctype="multipart/form-data" action="<?php echo $localizer; ?>private/cataloghi/index.php">
                             <table>
                                 <tr>
                                     <td>Product code :</td>
-                                    <td><input type='text' size='50' name='newcode'/></td>
+                                    <td><input type='text' size='70' name='newcode'/></td>
                                 </tr>
                                 <tr>
                                     <td>Supplier :</td>
-                                    <td><input type='text' size='50' name='newsupplier'/></td>
+                                    <td><input type='text' size='70' name='newsupplier'/></td>
                                 </tr>
                                 <tr>
                                     <td>CAS n&deg; :</td>
-                                    <td><input type='text' size='50' name='newCAS'/></td>
+                                    <td><input type='text' size='70' name='newCAS'/></td>
                                 </tr>
                                 <tr>
-                                    <td>Product name :</td>
-                                    <td><input type='text' size='50' name='newname'/></td>
+                                    <td>Product name (<img src="../en.png" alt="UK" />)</td>
+                                    <td><input type='text' size='70' name='newname_UK'/></td>
+                                </tr>
+                                <tr>
+                                    <td>Product name (<img src="../it.jpg" alt="IT" />):</td>
+                                    <td><input type='text' size='70' name='newname_IT'/></td>
                                 </tr>
                                 <tr>
                                     <td>Place :</td>
-                                    <td><input type='text' size='50' name='newplace'/></td>
+                                    <td><input type='text' size='70' name='newplace'/></td>
                                 </tr>
                                 <tr>
                                     <td>Quantity :</td>
-                                    <td><input type='text' size='50' name='newquantity'>
+                                    <td><input type='text' size='70' name='newquantity'>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Laboratory : </td>
-                                    <td><input type='text' size='50' name='newlab'>
+                                    <td><input type='text' size='70' name='newlab'>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Note : </td>
-                                    <td><input type='text' size='50' name='newnote'>
+                                    <td><input type='text' size='70' name='newnote'>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Frasi di rischio : </td>
-                                    <td><input type='text' size='50' name='newphrase_R'>
+                                    <td>Risk phrases : </td>
+                                    <td><input type='text' size='70' name='newphrase_R'>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Frasi di sicurezza : </td>
-                                    <td><input type='text' size='50' name='newphrase_S'>
+                                    <td>Safety phrases : </td>
+                                    <td><input type='text' size='70' name='newphrase_S'>
                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>Link to the safety info : </td>
+                                    <td>
+                                    	<!--<input type='text' size='70' name='newlink'>-->
+                            			<!--<label for='file1'>Filename:</label>-->
+                            			<input type='file' name='newlink' id='newlink' />
+										<input type='hidden' name='dir' value='<?php echo $localizer . 'private/cataloghi/safety_info/'; ?>' />                                    	
+								    </td>
                                 </tr>
                             </table>
                             <input type='hidden' name='added' value='yes' />

@@ -5,7 +5,8 @@ if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
 }
 session_start();
-$_SESSION['oldname']     = $_POST['name2edit'];
+$_SESSION['oldname_UK']     = $_POST['name_UK2edit'];
+$_SESSION['oldname_IT']     = $_POST['name_IT2edit'];
 $_SESSION['oldplace']    = $_POST['place2edit'];
 $_SESSION['oldquantity'] = $_POST['quantity2edit'];
 $_SESSION['oldlab']      = $_POST['lab2edit'];
@@ -15,6 +16,7 @@ $_SESSION['oldsupplier'] = $_POST['supplier2edit'];
 $_SESSION['oldCAS'] = $_POST['CAS2edit'];
 $_SESSION['oldphrase_S'] = $_POST['phrase_S2edit'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2edit'];
+$_SESSION['oldlink'] = $_POST['link2edit'];
 $localizer = "../../../";
 ?>
 
@@ -67,12 +69,16 @@ $localizer = "../../../";
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<form name='edit' method='post' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
+					<form name='edit' method='post' enctype='multipart/form-data' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
 					    <table>
-					        <tr>
-					            <td>Name :</td>
-                        		<td><input type='text' name='newname' size='50' value='<?php echo $_POST['name2edit']; ?>'/></td>
-                        	</tr>
+                            <tr>
+                                <td>Name (<img src="../en.png" alt="UK" />):</td>
+                                <td><input type='text' name='newname_UK' size='70' value='<?php echo $_POST['name_UK2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Name (<img src="../it.jpg" alt="IT" />):</td>
+                                <td><input type='text' name='newname_IT' size='70' value='<?php echo $_POST['name_IT2edit']; ?>'/></td>
+                            </tr>
                         	<tr>
                         	    <td>Place :</td>
                         	    <td><input type='text' name='newplace' value='<?php echo $_POST['place2edit']; ?>'/></td>
@@ -87,31 +93,45 @@ $localizer = "../../../";
                             </tr>
                             <tr>
                                 <td>Note :</td>
-                                <td><input type='text' name='newnote' size='50' value='<?php echo $_POST['note2edit']; ?>'/></td>
+                                <td><input type='text' name='newnote' size='70' value='<?php echo $_POST['note2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Code :</td>
-                                <td><input type='text' name='newcode' size='50' value='<?php echo $_POST['code2edit']; ?>'/></td>
+                                <td><input type='text' name='newcode' size='70' value='<?php echo $_POST['code2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Supplier :</td>
-                                <td><input type='text' name='newsupplier' size='50' value='<?php echo $_POST['supplier2edit']; ?>'/></td>
+                                <td><input type='text' name='newsupplier' size='70' value='<?php echo $_POST['supplier2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>CAS n&deg; :</td>
-                                <td><input type='text' name='newCAS' size='50' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
+                                <td><input type='text' name='newCAS' size='70' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Safety phrase :</td>
-                                <td><input type='text' name='newphrase_S' size='50' value='<?php echo $_POST['phrase_S2edit']; ?>'/></td>
+                                <td><input type='text' name='newphrase_S' size='70' value='<?php echo $_POST['phrase_S2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Risk phrase :</td>
-                                <td><input type='text' name='newphrase_R' size='50' value='<?php echo $_POST['phrase_R2edit']; ?>'/></td>
+                                <td><input type='text' name='newphrase_R' size='70' value='<?php echo $_POST['phrase_R2edit']; ?>'/></td>
+                            </tr>
+                            <tr>
+                                <td>Link to the safety info :</td>
+                                <td><?php echo $_POST['link2edit']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>Change the safety info :</td>
+                                <td>
+                                    	<!--<input type='text' size='70' name='newlink'>-->
+                            			<!--<label for='file1'>Filename:</label>-->
+										<input type='file' name='newlink' id='newlink' />
+										<input type='hidden' name='dir' value='<?php echo $localizer . 'private/cataloghi/safety_info/'; ?>' />                                    	
+								    </td>
                             </tr>
                         </table>
                         <input type='hidden' name='edited' value='yes' />
-                        <input type='submit' name='submit' value='Submit' />
+                        <br />
+                        <input type='submit' name='submit' value='Edit' />
                     </form>
 						<!-- InstanceEndEditable name="subsection content" -->
 					</div>
