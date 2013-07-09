@@ -24,8 +24,13 @@
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" -->
-<div id='hiddenBox' style='visibility:hidden'><br />
-  <span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span id='squadra2'>squadra2</span> <br />
+<div id='hiddenBoxOld' style='visibility:hidden'><br />
+	<div id='hiddenBoxTitleBox'>
+		<span id='squadra1'>squadra1</span>
+		<span id='hiddenBoxHyphen'> - </span>
+		<span id='squadra2'>squadra2</span>
+  </div>
+  <br />
   <br />
   <form method='post' id='formRisultati' action=''>
     <fieldset class='noBorder'>

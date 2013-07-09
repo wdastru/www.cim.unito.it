@@ -95,6 +95,8 @@ if(file_exists($filename))
 	$content = str_replace('linkCoppaRightVisited', $verde_chiaro, $content);
 	$content = str_replace('linkCoppaRightActive', $verde_chiaro, $content);
 	$content = str_replace('linkCoppaRightHover', $panna, $content);
+	$content = str_replace('bkgdFinali', $giallo_chiaro, $content);
+	$content = str_replace('colorFinali', $verde_scuro, $content);
 	/* * * * */
 	
 	/*

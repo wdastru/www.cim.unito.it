@@ -1,3 +1,4 @@
+
 <?php $relocate_string = "../../";?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
@@ -21,7 +22,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">FANTACOPPA NMR 2005/06</h1>
-      <table width="800" border="0">
+      <table class='coppa'>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
@@ -80,62 +81,62 @@
           <td colspan="27">&nbsp;</td>
         </tr>
         <tr>
-          <td style="background-color:#993366">L. Peccorino</td>
+          <td class='coppaSinistra'>L. Peccorino</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">1</td>
+          <td class='datiCoppaSinistra'>1</td>
           <td colspan="22">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="6">&nbsp;</td>
-          <td style="background-color:#993366">EPOrediese</td>
+          <td class='coppaSinistra'>EPOrediese</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">1</td>
+          <td class='datiCoppaSinistra'>1</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">1</td>
+          <td class='datiCoppaSinistra'>1</td>
           <td>&nbsp;</td>
-		  <td colspan="3" style="color:#999999">Finale 1&deg;- 2&deg;</td>          
+		  <td colspan="3" class='finaleTitle'>Finale 1&deg;- 2&deg;</td>          
 		  <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
-          <td style="background-color:#993366">EPOrediese</td>
+          <td class='coppaSinistra'>EPOrediese</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">3</td>
+          <td class='datiCoppaSinistra'>3</td>
           <td colspan="22">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="22">&nbsp;</td>
-          <td style="background-color:#006000">3</td>
+          <td class='datiCoppaDestra'>3</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='datiCoppaDestra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">A.S.C. Emo!</td>
+          <td class='coppaDestra'>A.S.C. Emo!</td>
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" style="background-color:#993366">EPOrediese</td>
+          <td colspan="3" class='goalSinistra'>EPOrediese</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='datiCoppaDestra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='datiCoppaDestra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">Dep. Rufus</td>
+          <td class='coppaDestra'>Dep. Rufus</td>
           <td colspan="6">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="22">&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='datiCoppaDestra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">3</td>
+          <td class='datiCoppaDestra'>3</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">Dep Rufus&sup1;</td>
+          <td class='coppaDestra'>Dep Rufus&sup1;</td>
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#993366">1</td>
+          <td class='goalSinistra'>1</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
@@ -143,60 +144,60 @@
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='goalDestra'>2</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
-          <td style="background-color:#993366">R. Mentescars</td>
+          <td class='coppaSinistra'>R. Mentescars</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td colspan="22">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="6">&nbsp;</td>
-          <td style="background-color:#993366">R. Mentescars</td>
+          <td class='coppaSinistra'>R. Mentescars</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">0</td>
+          <td class='datiCoppaSinistra'>0</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td>&nbsp;</td>
           <td colspan="3" style="background-color:#FFFF00"><p style="color:#0000FF">Dep. Rufus</p> </td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
-          <td style="background-color:#993366">Bradipo</td>
+          <td class='coppaSinistra'>Bradipo</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">1</td>
+          <td class='datiCoppaSinistra'>1</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">1</td>
+          <td class='datiCoppaSinistra'>1</td>
           <td colspan="22">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="22">&nbsp;</td>
-          <td style="background-color:#006000">0</td>
+          <td class='datiCoppaDestra'>0</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">0</td>
+          <td class='datiCoppaDestra'>0</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">Din Ciofeca</td>
+          <td class='coppaDestra'>Din Ciofeca</td>
         </tr>
         <tr>
           <td colspan="16">&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='datiCoppaDestra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">0</td>
+          <td class='datiCoppaDestra'>0</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">A?NG!</td>
+          <td class='coppaDestra'>A?NG!</td>
           <td colspan="6">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="22">&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='datiCoppaDestra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">3</td>
+          <td class='datiCoppaDestra'>3</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">A?NG!</td>
+          <td class='coppaDestra'>A?NG!</td>
         </tr>
         <tr>
           <td colspan="27">&nbsp;</td>
@@ -209,7 +210,7 @@
         </tr>
         <tr>
           <td colspan="11">&nbsp;</td>
-          <td colspan="5" style="color:#999999">Finale 3&deg;- 4&deg;</td>
+          <td colspan="5" class='finaleTitle'>Finale 3&deg;- 4&deg;</td>
           <td colspan="11">&nbsp;</td>
         </tr>
         <tr>
@@ -220,7 +221,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" style="background-color:#993366">R. Mentescars </td>
+          <td colspan="3" class='goalSinistra'>R. Mentescars </td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -228,7 +229,7 @@
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#993366">3</td>
+          <td class='goalSinistra'>3</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
@@ -236,7 +237,7 @@
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#006000">3</td>
+          <td class='goalDestra'>3</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
@@ -244,7 +245,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" style="background-color:#006000">A?NG!&sup1;</td>
+          <td colspan="3" class='goalDestra'>A?NG!&sup1;</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -261,7 +262,7 @@
         </tr>
         <tr>
           <td colspan="11">&nbsp;</td>
-          <td colspan="5" style="color:#999999">Finale 5&deg;- 6&deg;</td>
+          <td colspan="5" class='finaleTitle'>Finale 5&deg;- 6&deg;</td>
           <td colspan="11">&nbsp;</td>
         </tr>
         <tr>
@@ -269,30 +270,30 @@
         </tr>
         <tr>
           <td colspan="6">&nbsp;</td>
-          <td style="background-color:#993366">L. Peccorino</td>
+          <td class='coppaSinistra'>L. Peccorino</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">4</td>
+          <td class='datiCoppaSinistra'>4</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td colspan="16">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" style="background-color:#993366">L. Peccorino </td>
+          <td colspan="3" class='goalSinistra'>L. Peccorino </td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="6">&nbsp;</td>
-          <td style="background-color:#993366">Bradipo</td>
+          <td class='coppaSinistra'>Bradipo</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='datiCoppaSinistra'>2</td>
           <td colspan="16">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#993366">2</td>
+          <td class='goalSinistra'>2</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
@@ -300,30 +301,30 @@
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#006000">0</td>
+          <td class='goalDestra'>0</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="16">&nbsp;</td>
-          <td style="background-color:#006000">0</td>
+          <td class='datiCoppaDestra'>0</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">3</td>
+          <td class='datiCoppaDestra'>3</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">A.S.C. Emo!</td>
+          <td class='coppaDestra'>A.S.C. Emo!</td>
           <td colspan="6">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" style="background-color:#006000">Din Ciofeca </td>
+          <td colspan="3" class='goalDestra'>Din Ciofeca </td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
           <td colspan="16">&nbsp;</td>
-          <td style="background-color:#006000">2</td>
+          <td class='datiCoppaDestra'>2</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">1</td>
+          <td class='datiCoppaDestra'>1</td>
           <td>&nbsp;</td>
-          <td style="background-color:#006000">Din Ciofeca</td>
+          <td class='coppaDestra'>Din Ciofeca</td>
           <td colspan="6">&nbsp;</td>
         </tr>
         <tr>
@@ -340,7 +341,7 @@
         </tr>
         <tr>
           <td colspan="11">&nbsp;</td>
-          <td colspan="5" style="color:#999999">Finale 7&deg;- 8&deg;</td>
+          <td colspan="5" class='finaleTitle'>Finale 7&deg;- 8&deg;</td>
           <td colspan="11">&nbsp;</td>
         </tr>
         <tr>
@@ -351,7 +352,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" style="background-color:#993366">Bradipo</td>
+          <td colspan="3" class='goalSinistra'>Bradipo</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>
@@ -359,7 +360,7 @@
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#993366">1</td>
+          <td class='goalSinistra'>1</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
@@ -367,7 +368,7 @@
         </tr>
         <tr>
           <td colspan="13">&nbsp;</td>
-          <td style="background-color:#006000">1</td>
+          <td class='goalDestra'>1</td>
           <td colspan="13">&nbsp;</td>
         </tr>
         <tr>
@@ -375,7 +376,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3" style="background-color:#006000">A.S.C. Emo!&sup1;</td>
+          <td colspan="3" class='goalDestra'>A.S.C. Emo!&sup1;</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>

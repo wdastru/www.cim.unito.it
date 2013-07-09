@@ -7,7 +7,7 @@ function showBoxCampionato( id, evt )
 	if( document.getElementById ) 
 	{
 		var source = document.getElementById( id );
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = document.getElementById( 'formRisultati').getElementsByTagName('div');
 		var visibility = hiddenBox.style.visibility;
@@ -85,7 +85,7 @@ function showBoxCoppa( id, evt )
 		var divs_casa = source_casa.getElementsByTagName('div');
 		var divs_fuori = source_fuori.getElementsByTagName('div');
 		
-		var hiddenBox = document.getElementById( 'hiddenBox' );
+		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
 		
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		var goalDivs = hiddenBox.getElementsByTagName('div');
@@ -196,7 +196,7 @@ function hideBox( id )
 {
 	if( document.getElementById ) 
 	{
-		var hiddenBox = document.getElementById( "hiddenBox" );
+		var hiddenBox = document.getElementById( "hiddenBoxOld" );
 		var goalDivs = document.getElementById( 'formRisultati').getElementsByTagName('div');
 		var inputTags = hiddenBox.getElementsByTagName('input');
 		
