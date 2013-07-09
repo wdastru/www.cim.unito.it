@@ -46,7 +46,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> CHEMICALS CATALOG <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
-                            <form name='add' method='post' action="<?php echo $localizer; ?>private/cataloghi/index.php">
+                            <form name='add' method='post' enctype="multipart/form-data" action="<?php echo $localizer; ?>private/cataloghi/index.php">
                             <table>
                                 <tr>
                                     <td>Product code :</td>
@@ -102,7 +102,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <td>
                                     	<!--<input type='text' size='70' name='newlink'>-->
                             			<!--<label for='file1'>Filename:</label>-->
-										<input type='file' name='newlink' id='newlink' />
+                            			<input type='file' name='newlink' id='newlink' />
 										<input type='hidden' name='dir' value='<?php echo $localizer . 'private/cataloghi/safety_info/'; ?>' />                                    	
 								    </td>
                                 </tr>

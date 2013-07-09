@@ -69,7 +69,7 @@ $localizer = "../../../";
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<form name='edit' method='post' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
+					<form name='edit' method='post' enctype='multipart/form-data' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
 					    <table>
                             <tr>
                                 <td>Name (<img src="../en.png" alt="UK" />):</td>

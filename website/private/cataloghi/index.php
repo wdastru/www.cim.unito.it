@@ -6,7 +6,9 @@ if ($hostname[0] == "EPTADONE") {
 }
 session_start();
 
-print_r($_FILES);
+//print_r($_FILES);
+//echo "<br>";
+//print_r($_POST);
 
 $localizer = "../../";
 
@@ -42,9 +44,8 @@ $_POST['delete'] = 0;
 
 function uploadFile($filename, $dir) {
 	
-	echo 'in uploadFile($filename, $dir)<br/>';
-	
-	print_r($filename);
+	//echo 'in uploadFile($filename, $dir)<br/>';
+	//print_r($filename);
 	
 	if ($filename["name"] != "")
 	{
@@ -202,39 +203,38 @@ function uploadFile($filename, $dir) {
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 								$sql = "UPDATE catalogo
         								SET 	
-        									name_UK='$_POST[newname_UK]',
-                                            name_IT='$_POST[newname_IT]',
-                                            place='$_POST[newplace]',
-        									quantity='$_POST[newquantity]',
-        									lab='$_POST[newlab]',
-        									note='$_POST[newnote]',
-                                            code='$_POST[newcode]',
-                                            supplier='$_POST[newsupplier]',
-                                            CAS='$_POST[newCAS]',
-                                            phrase_S='$_POST[newphrase_S]',
-                                            phrase_R='$_POST[newphrase_R]', 
-        					          		link='$_POST[newlink]' 
+        									name_UK='" . $_POST['newname_UK'] . "',
+                                            name_IT='" . $_POST['newname_IT'] . "',
+                                            place='" . $_POST['newplace'] . "',
+        									quantity='" . $_POST['newquantity'] . "',
+        									lab='" . $_POST['newlab'] . "',
+        									note='" . $_POST['newnote'] . "',
+                                            code='" . $_POST['newcode'] . "',
+                                            supplier='" . $_POST['newsupplier'] . "',
+                                            CAS='" . $_POST['newCAS'] . "',
+                                            phrase_S='" . $_POST['newphrase_S'] . "',
+                                            phrase_R='" . $_POST['newphrase_R'] . "', 
+        					          		link='" . $_FILES['newlink']['name'] . "' 
         								WHERE 	
-        									name_UK='$_SESSION[oldname_UK]' AND
-                                            name_IT='$_SESSION[oldname_IT]' AND
-                                            place='$_SESSION[oldplace]' AND
-        									quantity='$_SESSION[oldquantity]' AND
-        									lab='$_SESSION[oldlab]' AND
-        									note='$_SESSION[oldnote]' AND
-                                            code='$_SESSION[oldcode]' AND
-                                            supplier='$_SESSION[oldsupplier]' AND
-                                            CAS='$_SESSION[oldCAS]' AND
-                                            phrase_S='$_SESSION[oldphrase_S]' AND									
-        									phrase_R='$_SESSION[oldphrase_R]' AND
-        									link='$_SESSION[oldlink]'
-									";
+        									name_UK='" . $_SESSION['oldname_UK'] . "' AND
+                                            name_IT='" . $_SESSION['oldname_IT'] . "' AND
+                                            place='" . $_SESSION['oldplace'] . "' AND
+        									quantity='" . $_SESSION['oldquantity'] . "' AND
+        									lab='" . $_SESSION['oldlab'] . "' AND
+        									note='" . $_SESSION['oldnote'] . "' AND
+                                            code='" . $_SESSION['oldcode'] . "' AND
+                                            supplier='" . $_SESSION['oldsupplier'] . "' AND
+                                            CAS='" . $_SESSION['oldCAS'] . "' AND
+                                            phrase_S='" . $_SESSION['oldphrase_S'] . "' AND									
+        									phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
+        									link='" . $_SESSION['oldlink'] . "'";
                                 
                                 //echo $sql;
                                 
 								mysql_query($sql);
 								echo mysql_error();
 								
-								uploadFile($_FILES["newlink"], '.');
+								uploadFile($_FILES["newlink"], './safety_info/');
 								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
@@ -244,21 +244,22 @@ function uploadFile($filename, $dir) {
 						}
 
 						if ($_POST['removed'] == "yes") {
-							mysql_query("	DELETE FROM catalogo
-							WHERE 	
-								name_UK='$_SESSION[oldname_UK]' AND
-                                name_IT='$_SESSION[oldname_IT]' AND
-                                place='$_SESSION[oldplace]' AND
-								quantity='$_SESSION[oldquantity]' AND
-								lab='$_SESSION[oldlab]' AND
-								note='$_SESSION[oldnote]' AND
-                                code='$_SESSION[oldcode]' AND
-                                supplier='$_SESSION[oldsupplier]' AND
-                                CAS='$_SESSION[oldCAS]' AND
-                                phrase_S='$_SESSION[oldphrase_S]' AND                                  								
-								phrase_R='$_SESSION[oldphrase_R]' AND                                  								
-								link='$_SESSION[oldlink]'
-                            ");
+						        $sql= "DELETE FROM catalogo
+                                        WHERE   
+                                            name_UK='" . $_SESSION['oldname_UK'] . "' AND
+                                            name_IT='" . $_SESSION['oldname_IT'] . "' AND
+                                            place='" . $_SESSION['oldplace'] . "' AND
+                                            quantity='" . $_SESSION['oldquantity'] . "' AND
+                                            lab='" . $_SESSION['oldlab'] . "' AND
+                                            note='" . $_SESSION['oldnote'] . "' AND
+                                            code='" . $_SESSION['oldcode'] . "' AND
+                                            supplier='" . $_SESSION['oldsupplier'] . "' AND
+                                            CAS='" . $_SESSION['oldCAS'] . "' AND
+                                            phrase_S='" . $_SESSION['oldphrase_S'] . "' AND                                                                 
+                                            phrase_R='" . $_SESSION['oldphrase_R'] . "' AND                                                                 
+                                            link='" . $_SESSION['oldlink'] . "'";
+						    
+							mysql_query($sql);
                             echo mysql_error();
 
 							$_POST['removed'] = "no";
@@ -266,12 +267,27 @@ function uploadFile($filename, $dir) {
 
 						if ($_POST['added'] == "yes") {							
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
-								mysql_query("INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R, link )
-            						VALUES ( '$_POST[newname_UK]', '$_POST[newname_IT]', '$_POST[newplace]', '$_POST[newquantity]', '$_POST[newlab]', '$_POST[newnote]', '$_POST[newcode]', '$_POST[newsupplier]', '$_POST[newCAS]', '$_POST[newphrase_S]', '$_POST[newphrase_R]', '$_POST[newlink]')
-            					");
+							        
+							    $sql = "INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R, link )
+                                    VALUES ( '" 
+                                    . $_POST['newname_UK'] . "', '" 
+                                    . $_POST['newname_IT'] . "', '"
+                                    . $_POST['newplace'] . "', '"
+                                    . $_POST['newquantity'] . "', '"
+                                    . $_POST['newlab'] . "', '"
+                                    . $_POST['newnote'] . "', '"
+                                    . $_POST['newcode'] . "', '"
+                                    . $_POST['newsupplier'] . "', '"
+                                    . $_POST['newCAS'] . "', '"
+                                    . $_POST['newphrase_S'] . "', '"
+                                    . $_POST['newphrase_R'] . "', '"
+                                    . $_FILES['newlink']['name'] . "' )";
+                                    
+                                //echo $sql;
+								mysql_query($sql);
 								echo mysql_error();
 								
-								uploadFile($_FILES["newlink"], '.');
+								uploadFile($_FILES["newlink"], './safety_info/');
 								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
