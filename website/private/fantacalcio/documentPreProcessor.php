@@ -110,14 +110,14 @@ if(file_exists($filename))
 	/*
 	 * SQUADRE
 	 * * * * * */
-	$content = str_replace('historyColor1', $bianco, $content);
-	$content = str_replace('historyColor2', $giallo, $content);
-	$content = str_replace('historyColor3', $verde_chiaro, $content);
-	$content = str_replace('historyColor4', $verde_chiaro, $content);
-	$content = str_replace('historyColor5', $grigio_medio, $content);
-	$content = str_replace('historyColor6', $grigio_medio, $content);
-	$content = str_replace('historyColor7', $grigio_scuro, $content);
-	$content = str_replace('historyColor8', $grigio_scuro, $content);
+	$content = str_replace('historyBkgdColor1', $panna, $content);
+	$content = str_replace('historyBkgdColor2', $giallo, $content);
+	$content = str_replace('historyBkgdColor3', $verde_chiaro, $content);
+	$content = str_replace('historyBkgdColor4', $verde_chiaro, $content);
+	$content = str_replace('historyBkgdColor5', $grigio_medio, $content);
+	$content = str_replace('historyBkgdColor6', $grigio_medio, $content);
+	$content = str_replace('historyBkgdColor7', $grigio_scuro, $content);
+	$content = str_replace('historyBkgdColor8', $grigio_scuro, $content);
 	/* * * * * */
 	
 	/*
