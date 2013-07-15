@@ -218,7 +218,7 @@ span.tribuna{ color:color7; }
 /*
  * PLAYERS
  * * * * * */
-.owned { color: textColor6; }
+.owned { color: ownedColor; }
 .free { color: textColor0; }
 #por { display:block; }
 #dif, #cen, #att { display:none; }
@@ -397,7 +397,7 @@ p {color:textColor0; font-size:1em; }
 .hidden { display:none; }
 .goals { display:none; height:30px;}
 .noBorder { border:none; } 
-.notFound { color:textColor6; }
+.notFound { color:notFoundColor; }
 #moduli { width:95%; text-align:center;}
 
 td.bodyColumn0 { width:172px; } 

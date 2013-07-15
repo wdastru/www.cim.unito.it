@@ -19,7 +19,7 @@ $panna 			= '#FFFF99';
 $bianco 		= '#FFFFFF';
 $rosa 			= '#FFCCCC';
 $nero 			= '#000000';
-$rosso 			= '#d61d23';
+$rosso 			= '#D61D23';
  
 $filename=$_GET['document'];
 if(file_exists($filename))
@@ -40,7 +40,8 @@ if(file_exists($filename))
 	$content = str_replace('textColor3', $pistacchio, $content);
 	$content = str_replace('textColor4', $panna, $content);
 	$content = str_replace('textColor5', $giallo, $content);
-	$content = str_replace('textColor6', $rosso, $content);
+	$content = str_replace('ownedColor', $rosso, $content);
+	$content = str_replace('notFoundColor', $rosso, $content);
 	$content = str_replace('tablelineBorder', $verde_scuro, $content);
 	$content = str_replace('color1', $bianco, $content);      
 	$content = str_replace('color2', $giallo, $content);      
