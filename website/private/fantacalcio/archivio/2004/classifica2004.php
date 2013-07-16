@@ -20,10 +20,10 @@
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-      <h1 class="title">V&deg; Campionato Fantacalcio NMR 2003-2004</h1>
+      <h1 class="title">V Campionato Fantacalcio NMR 2003-2004</h1>
        <br />
           <br />
-          <h2 style="color:#333333">1&deg; Classificato: </h2>
+          <h2 class='firstClass'>1&deg; Classificato: </h2>
           <h2 class="title">MALDI Test</h2>
           <br />
       <table class="classifica">
@@ -45,122 +45,122 @@
         <tr>
           <td class="Squadra">MALDI Test </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">54 </td>
-          <td class="Dati">28 </td>
+          <td class="Dati">54</td>
+          <td class="Dati">28</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">16 </td>
-          <td class="Dati">6 </td>
-          <td class="Dati">6 </td>
+          <td class="Dati">16</td>
+          <td class="Dati">6</td>
+          <td class="Dati">6</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">56 </td>
-          <td class="Dati">37 </td>
+          <td class="Dati">56</td>
+          <td class="Dati">37</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">+19 </td>
+          <td class="Dati">+19</td>
         </tr>
         <tr>
           <td class="Squadra">EPOrediese </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">49 </td>
-          <td class="Dati">28 </td>
+          <td class="Dati">49</td>
+          <td class="Dati">28</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">15 </td>
-          <td class="Dati">4 </td>
-          <td class="Dati">9 </td>
+          <td class="Dati">15</td>
+          <td class="Dati">4</td>
+          <td class="Dati">9</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">44 </td>
-          <td class="Dati">33 </td>
+          <td class="Dati">44</td>
+          <td class="Dati">33</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">+11 </td>
+          <td class="Dati">+11</td>
         </tr>
         <tr>
           <td class="Squadra">DEPORTIVO RUFUS </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">44 </td>
-          <td class="Dati">28 </td>
+          <td class="Dati">44</td>
+          <td class="Dati">28</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">13 </td>
-          <td class="Dati">5 </td>
-          <td class="Dati">10 </td>
+          <td class="Dati">13</td>
+          <td class="Dati">5</td>
+          <td class="Dati">10</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">53 </td>
-          <td class="Dati">48 </td>
+          <td class="Dati">53</td>
+          <td class="Dati">48</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">+5 </td>
+          <td class="Dati">+5</td>
         </tr>
         <tr>
           <td class="Squadra">DINAMO CIOFECA </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">44 </td>
-          <td class="Dati">28 </td>
+          <td class="Dati">44</td>
+          <td class="Dati">28</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">13 </td>
-          <td class="Dati">5 </td>
-          <td class="Dati">10 </td>
+          <td class="Dati">13</td>
+          <td class="Dati">5</td>
+          <td class="Dati">10</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">51 </td>
-          <td class="Dati">48 </td>
+          <td class="Dati">51</td>
+          <td class="Dati">48</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">+3 </td>
+          <td class="Dati">+3</td>
         </tr>
         <tr>
           <td class="Squadra">LOKOMOTIV P. </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">39 </td>
-          <td class="Dati">28 </td>
+          <td class="Dati">39</td>
+          <td class="Dati">28</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">12 </td>
-          <td class="Dati">3 </td>
-          <td class="Dati">13 </td>
+          <td class="Dati">12</td>
+          <td class="Dati">3</td>
+          <td class="Dati">13</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">39 </td>
-          <td class="Dati">44 </td>
+          <td class="Dati">39</td>
+          <td class="Dati">44</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">-5 </td>
+          <td class="Dati">-5</td>
         </tr>
         <tr>
           <td class="Squadra">A?NG </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">37 </td>
-          <td class="Dati">28 </td>
+          <td class="Dati">37</td>
+          <td class="Dati">28</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">10 </td>
-          <td class="Dati">7 </td>
-          <td class="Dati">11 </td>
+          <td class="Dati">10</td>
+          <td class="Dati">7</td>
+          <td class="Dati">11</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">49 </td>
-          <td class="Dati">53 </td>
+          <td class="Dati">49</td>
+          <td class="Dati">53</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">-4 </td>
+          <td class="Dati">-4</td>
         </tr>
         <tr>
           <td class="Squadra">BRADIPO </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">31 </td>
+          <td class="Dati">31</td>
           <td class="Dati">28* </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">7 </td>
-          <td class="Dati">10 </td>
-          <td class="Dati">10 </td>
+          <td class="Dati">7</td>
+          <td class="Dati">10</td>
+          <td class="Dati">10</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">37 </td>
-          <td class="Dati">38 </td>
+          <td class="Dati">37</td>
+          <td class="Dati">38</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">-1 </td>
+          <td class="Dati">-1</td>
         </tr>
         <tr>
           <td class="Squadra">A.C. PICCHIA </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">12 </td>
+          <td class="Dati">12</td>
           <td class="Dati">28* </td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">2 </td>
-          <td class="Dati">6 </td>
-          <td class="Dati">19 </td>
+          <td class="Dati">2</td>
+          <td class="Dati">6</td>
+          <td class="Dati">19</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">22 </td>
-          <td class="Dati">50 </td>
+          <td class="Dati">22</td>
+          <td class="Dati">50</td>
           <td class="Dati">&nbsp;</td>
-          <td class="Dati">-28 </td>
+          <td class="Dati">-28</td>
         </tr>
       </table>
 <p>* un risultato non pervenuto</p>

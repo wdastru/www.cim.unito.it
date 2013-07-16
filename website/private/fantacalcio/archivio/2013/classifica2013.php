@@ -63,10 +63,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 		 ?>
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
-	<h1 class="title">XIV&deg; Campionato Fantacalcio NMR 2012/13</h1>
+	<h1 class="title">XIV Campionato Fantacalcio NMR 2012/13</h1>
         <br />
         <br />
-        <h2 style="color:#333333">1&deg; Classificato: </h2>
+        <h2 class='firstClass'>1&deg; Classificato: </h2>
         <h2 class="title">DINAMO CIOFECA</h2>
         <br />
 			

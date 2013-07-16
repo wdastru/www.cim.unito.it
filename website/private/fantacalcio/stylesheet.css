@@ -427,3 +427,9 @@ span.data { font-size: 10px; color: color7;}
 #unlockBtn, viewBtn, archiveBtn { width:80px; }
 #archiveButton { width:100px; }
 /* stili per lista files (dragdrop.php e offerte.php)*/
+
+/*
+ * ARCHIVI
+ * * * * * */
+ h2.firstClass { color: color7; }
+/* * * * * */
