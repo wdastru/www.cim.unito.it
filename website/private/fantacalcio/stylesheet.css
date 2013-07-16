@@ -1,8 +1,8 @@
 /* 
  * STILI GENERALI
  * * * * * * * * * */
-html { background-color: #000000; /*background-image: url("./figure/ball_three.png");*/}
-body { 	background-color:#FFFFFF; color:textColor0; margin:0 auto; width:960px; font-size:75%; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:center; max-width: 1000px; }
+html { background-color: htmlBkgdColor; /*background-image: url("./figure/ball_three.png");*/}
+body { 	background-color: bodyBkgdColor; color:textColor0; margin:0 auto; width:960px; font-size:75%; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:center; max-width: 1000px; }
 
 
 /*#title { background-color:bkgdColorMenu; color:titleColor; font-size:3em; font-weight:bold; line-height:60px; margin-top:20px; border:2px solid borderColor; border-bottom:none;}*/
@@ -15,7 +15,7 @@ body { 	background-color:#FFFFFF; color:textColor0; margin:0 auto; width:960px; 
 #footer { background-color:bkgdColorMenu; border: none; border-top:4px solid textColor4; font-size:1em; text-align:center; bottom: 0; margin-bottom:20px; }
 
 tr.tableline {border-bottom:solid; border-bottom-color:tablelineBorder; border-width:1px; }
-.sorteggio { color:#FF0000; }
+.sorteggio { color:sorteggioColor; }
 .button { cursor: pointer; color: textColor0; background-color:textColor4; border-color:textColor1; border:solid; border-width:1px; margin:auto; }
 
 /*
