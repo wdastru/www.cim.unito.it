@@ -116,7 +116,7 @@
         </tr>
         <tr>
           <td colspan="12">&nbsp;</td>
-          <td colspan="3"class="coppaWinner">Bradipo</td>
+          <td colspan="3"class="goalSinistra">Bradipo</td>
           <td>&nbsp;</td>
           <td class="goalDestra">2</td>
           <td class="void-5">&nbsp;</td>

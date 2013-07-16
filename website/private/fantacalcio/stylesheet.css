@@ -151,7 +151,6 @@ table#finali_coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; bac
 table#finali_coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
 .coppaFinaliSinistra{ text-align:center; background-color:textColor1; color:textColor0; }
 .coppaFinaliDestra{ text-align:center; background-color:textColor0; color:textColor1; }
-.coppaWinner{ background-color:bkgdFinali; color:colorFinali; }
 .coppaCentro{ text-align:center; background-color:textColor0; color:textColor1; }
 .coppaWinner{ text-align:center; background-color:textColor0; color:specialColor; }
 
