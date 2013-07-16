@@ -275,12 +275,11 @@ table.albo tr.tableline {border-bottom: 1px solid textColor1; }
  * DOWNLOAD
  * * * * * */
 table#downloads { line-height: 20px; height: 20px; }
-td a:link, p a:link { color:color7; text-deco
-ration: none;}
-td a:active, p a:active { color:color7; text-decoration: none;}
-td a:visited, p a:visited { color:color7; text-decoration: none;}
-td a:hover, p a:hover { color:textColor4; text-decoration: none;}
-th { color:color7; font-size:1.2em}
+td a:link, p a:link { color:color7; text-decoration: none; }
+td a:active, p a:active { color:color7; text-decoration: none; }
+td a:visited, p a:visited { color:color7; text-decoration: none; }
+td a:hover, p a:hover { color:textColor4; text-decoration: none; }
+th { color:color7; font-size:1.2em; }
 img.new { vertical-align: middle; }
 
 /****/
