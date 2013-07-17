@@ -20,15 +20,7 @@ function showBoxCampionato(id, evt) {
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source
 				.getElementsByTagName('span').item(1).innerHTML;
 
-		/*
-		 * titolo del Box
-		 */
-		for (i = 0; i < 3; i++) {
-			hiddenBox.getElementsByTagName('span').item(i).style.fontSize = '14px';
-			hiddenBox.getElementsByTagName('span').item(i).style.color = 'titleHiddenBox';
-		}
 		/* nomi squadre */
-
 		if (visibility == 'hidden') {
 			var offsetTop = evt.y - 200; // MSIE
 			hiddenBox.style.top = offsetTop + 'px';
