@@ -45,7 +45,7 @@ include("calendario.inc");
 	<!-- jQuery -->
 </head>
 <!-- <body onresize="Count();"> -->
-<body onload="startBanner(1)">
+<body>
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>

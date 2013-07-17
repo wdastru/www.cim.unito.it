@@ -369,8 +369,9 @@ function changeVistaDescription( sourceId, desc )
 	if( document.getElementById ) 
 	{	
 		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = '#88CCFF';
-		source.style.border = '1px solid #0055FF';
+		source.style.color = 'selectedVistaHoverColor';
+		source.style.backgroundColor = 'selectedVistaHoverBkgdColor';
+		source.style.border = '1px solid ' + 'selectedVistaHoverBorderColor';
 		
 		var selectedVista = document.getElementById('selectedVista');
 		selectedVista.innerHTML = desc.replace('_', ' ');
@@ -405,8 +406,9 @@ function hideVistaDescription( sourceId )
 	if( document.getElementById ) 
 	{
 		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = '#CCCCCC';
-		source.style.border = '1px solid #CCCCCC';
+		source.style.backgroundColor = 'unselectedVistaBkgdColor';
+		source.style.color = 'unselectedVistaColor';
+		source.style.border = '1px solid ' + 'unselectedVistaBorderColor';
 	}
 	else 
 	{
