@@ -15,11 +15,6 @@ function showBoxCampionato( id, evt )
 		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) � il - di separazione */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
-		
-		for (i=0; i<3; i++) {
-			hiddenBox.getElementsByTagName('span').item(i).style.fontSize = '14px';
-			hiddenBox.getElementsByTagName('span').item(i).style.color = '#FFFF00';
-		}
 		/* nomi squadre */
 		
 		if ( visibility == 'hidden' )
