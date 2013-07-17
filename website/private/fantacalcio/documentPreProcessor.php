@@ -135,9 +135,6 @@ if(file_exists($filename))
 	$content = str_replace('bkgdColorNormal', $pistacchio, $content);
 	$content = str_replace('bkgdColorDarker', $verde_chiaro, $content);
 	$content = str_replace('bkgdColorLigther', $panna, $content);
-	$content = str_replace('bkgdHiddenBox', $verde_chiaro, $content);
-	$content = str_replace('textHiddenBox', $verde_scuro, $content);
-	$content = str_replace('titleHiddenBox', $giallo, $content);
 	
 	$content = str_replace('modulesChoiceBkgd', $verde_chiaro, $content);
 	$content = str_replace('dragdropBorderColor', $verde_scuro, $content);
@@ -161,6 +158,14 @@ if(file_exists($filename))
 	$content = str_replace('specialColor', $giallo, $content);
 	$content = str_replace('errorColor', $rosa, $content);
 	$content = str_replace('okColor', $bianco, $content);
+	
+	/*
+	 * HIDDEN BOXES
+	 * * * * * * * */
+	$content = str_replace('bkgdHiddenBox', $verde_chiaro, $content);
+	$content = str_replace('textHiddenBox', $verde_scuro, $content);
+	$content = str_replace('titleHiddenBox', $giallo, $content);
+	/* * * * * * * */
 	
 	echo $content;
 } else {
