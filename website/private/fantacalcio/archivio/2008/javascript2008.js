@@ -289,23 +289,6 @@ function deleteFieldB()
 	return;
 }
 
-function validate( what )
-{
-	if( document.getElementById ) 
-	{
-		form = document.getElementById('formRisultati')
-		if( what == 'campionato' ) {
-			form.action = 'newRisultatiCampionato.php'; }
-		if( what == 'coppa' ) {
-			form.action = 'newRisultatiCoppa.php'; }
-		
-		form.submit();
-	}	
-	else {
-		alert(":( DOM NON Supportato!");
-	}
-}
-
 // Removes leading whitespaces
 function LTrim( value ) 
 {
@@ -598,63 +581,4 @@ function arrangeTeams()
 	}	
 	
 	return;
-}
-function changeVistaDescription( sourceId, desc ) {
-	if( document.getElementById ) 
-	{	
-		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = 'textColor3';
-		source.style.border = '1px solid ' + 'textColor0';
-		
-		var selectedVista = document.getElementById('selectedVista');
-		selectedVista.innerHTML = desc.replace('_', ' ');
-		
-		var table = document.getElementById('tableRosa');
-		var td = table.getElementsByTagName('td');
-		for (var i=0; i< td.length; i++)
-		{
-			if (td.item(i).className == 'titolare' || td.item(i).className == 'riserva' || td.item(i).className == 'tribuna')
-			{
-				var span = td.item(i).getElementsByTagName('span');
-				for (var j=0; j<span.length; j++)
-				{
-					if (span.item(j).className == desc)
-						span.item(j).style.display = 'inline';
-					else if (span.item(j).className == 'notFound')
-						span.item(j).style.display = 'inline';
-					else 
-						span.item(j).style.display = 'none';
-				}
-			}	
-		}
-	}
-	else 
-	{
-		alert(":( DOM NON Supportato!");
-	}	
-}
-
-function hideVistaDescription( sourceId ) {
-	if( document.getElementById ) 
-	{
-		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = 'bkgdColorDarker';
-		source.style.border = '1px solid ' + 'bkgdColorDarker';
-	}
-	else 
-	{
-		alert(":( DOM NON Supportato!");
-	}	
-}
-
-function vistaSubmit() {
-	if( document.getElementById ) 
-	{
-		var form = document.getElementById('vista_form');
-		form.submit();
-	}
-	else 
-	{
-		alert(":( DOM NON Supportato!");
-	}	
 }
