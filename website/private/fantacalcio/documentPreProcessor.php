@@ -52,7 +52,7 @@ if(file_exists($filename))
 	$content = str_replace('color7', $grigio_scuro, $content);
 	$content = str_replace('color8', $grigio_scuro, $content);
 	$content = str_replace('htmlBkgdColor', $nero, $content);
-	$content = str_replace('bodyBkgdColor', $bianco, $content);
+	$content = str_replace('bodyBkgdColor', $nero, $content);
 	$content = str_replace('sorteggioColor', $rosso, $content);
 	$content = str_replace('firstClassColor', $grigio_scuro, $content);
 	/* * * * * * * * */
