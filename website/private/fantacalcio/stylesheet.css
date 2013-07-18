@@ -63,7 +63,7 @@ table.classificaBarre td.Barra3{ background-color:barraColor3; text-align:right;
 #hiddenBoxTitleBox { background-color: textColor0; border: 1px solid textColor1; height: 30px; width: 350px; line-height: 30px; margin: auto; }
 .hiddenBoxSubTitleBox { background-color: bkgdColorNormal; border: 1px solid textColor0; height: 20px; width:250px; line-height: 20px; margin: auto; }
 #closeBtn { visibility: hidden; width: 0px; }
-.fancybox-custom .fancybox-skin { box-shadow: 0 0 50px #222; }
+.fancybox-custom .fancybox-skin { box-shadow: 0 0 50px fancyBoxShadowColor; }
 
 /*
  * RISULTATI CAMPIONATO
@@ -221,7 +221,7 @@ span.tribuna{ color:color7; }
 .free { color: textColor0; }
 #por { display:block; }
 #dif, #cen, #att { display:none; }
-#choosePlayersDiv { background-color: textColor4; margin:auto; width:200px; height:25px; border:1px solid #000; }
+#choosePlayersDiv { background-color: textColor4; margin:auto; width:200px; height:25px; border:1px solid choosePlayersDivBorderColor; }
 .playersDiv { width:25%; height:100%; line-height:25px; margin:auto; float:left; cursor:pointer; }
 div.tableContainer { border:1px solid textColor1; height:402px; overflow:auto; width:740px; margin:auto; }
 div.tableContainer table { float:left; width:100%; } 

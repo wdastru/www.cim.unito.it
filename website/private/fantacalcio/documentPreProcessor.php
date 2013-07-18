@@ -165,6 +165,13 @@ if(file_exists($filename))
 	$content = str_replace('bkgdHiddenBox', $verde_chiaro, $content);
 	$content = str_replace('textHiddenBox', $verde_scuro, $content);
 	$content = str_replace('titleHiddenBox', $giallo, $content);
+	$content = str_replace('fancyBoxShadowColor', $grigio_scuro, $content);
+	/* * * * * * * */
+	
+	/*
+	 * PLAYERS
+	 * * * * * * * */
+	$content = str_replace('choosePlayersDivBorderColor', $verde_scuro, $content);
 	/* * * * * * * */
 	
 	echo $content;
