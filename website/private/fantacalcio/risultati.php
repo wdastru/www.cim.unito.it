@@ -49,7 +49,6 @@ include("calendario.inc");
 
 <?php require $relocate_string . 'include/title.inc.php'; ?>
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
-<?php require $relocate_string . 'include/banner.inc.php'; ?>
 
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenBox' style='width:600px; display: none; visibility: hidden;'>
