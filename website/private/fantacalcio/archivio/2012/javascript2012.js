@@ -50,7 +50,7 @@ function showBoxCampionato( id, evt )
 			inputTags.item(4).value = trimWS(div1[1]); // punti squadra 2
 
 			for(i=0; i<goalsTot; i++) {
-				goalDivs.item(i).style.display = 'block';
+				goalDivs.item(i+1).style.display = 'block';
 				inputTags.item(5+i).value = tdDivs.item(2+i).innerHTML // marcatori
 			}
 			
@@ -154,7 +154,7 @@ function showBoxCoppa( id, evt )
 				inputTags.item(5+i).value = source_casa.getElementsByTagName('div').item(2+i).innerHTML; // inputTags: saltare item 7 e 8 (aggiungi e togli un marcatore); 
 				if(inputTags.item(5+i).value == '-')
 					inputTags.item(5+i).value = '';
-				goalDivs.item(i).style.display = 'block';
+				goalDivs.item(i+1).style.display = 'block';
 			}
 
 			inputTags.item(inputTags.length-1).value = id;
@@ -201,7 +201,7 @@ function hideBox( id )
 				if(i==7 || i==8) continue;
 				inputTags.item( i ).value = '';	}
 			
-			for(i=0; i<goalDivs.length; i++){ 
+			for(i=1; i<goalDivs.length; i++){ 
 				goalDivs.item(i).style.display = 'none'; }
 			
 			hiddenBox.style.visibility = 'hidden'; 
