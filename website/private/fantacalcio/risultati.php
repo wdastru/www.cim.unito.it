@@ -20,8 +20,6 @@ include("calendario.inc");
 	<script type="text/javascript" src="chromejs/chrome.js"></script>
 	<script type="text/javascript" src="version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
-	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.css&type=css" />
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
 	<script type="text/javascript"
