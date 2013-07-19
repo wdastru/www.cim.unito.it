@@ -14,18 +14,18 @@ $pistacchio 	= '#9BC200';
 $giallo 		= '#EBFF0A';
 $giallo_chiaro 	= '#DDFF33';
 
-//$verde_chiaro 	= '#C900F5';
-//$verde_scuro 	= '#3D004D';
-//$pistacchio 	= '#339966';
-//
-//$giallo 		= '#FF0AEB';
-//$giallo_chiaro 	= '#33FFDD';
+$verde_chiaro 	= '#CC99FF';
+$verde_scuro 	= '#660066';
+$pistacchio 	= '#E6BEE6';
+
+$giallo 		= '#FF0000';
+$giallo_chiaro 	= '#EDDBFF';
 
 $grigio_medio 	= '#7F7F7F';
 $grigio_scuro 	= '#333333';
 $grigio_chiaro 	= '#CCCCCC';
 
-$panna 			= '#FFFF99';
+$panna 			= '#FFFFCC';
 $bianco 		= '#FFFFFF';
 $nero 			= '#000000';
 $rosso 			= '#D61D23';
@@ -173,7 +173,7 @@ if(file_exists($filename))
 	
 	$content = str_replace('specialColor', $colore_2_scuro, $content);
 	//$content = str_replace('okColor', $nero, $content);
-	
+
 	/*
 	 * HIDDEN BOXES
 	 * * * * * * * */
