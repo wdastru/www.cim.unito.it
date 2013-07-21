@@ -7,16 +7,9 @@ if ($_GET['document'] == '')
 	header('Location: ../errors/error.php?error=noDocument');
 }
 
-$verde_chiaro 	= '#A9FA05';
-$verde_scuro 	= '#006600';
-$pistacchio 	= '#9BC200';
-
-$giallo 		= '#EBFF0A';
-$giallo_chiaro 	= '#DDFF33';
-
-$verde_chiaro 	= '#CC99FF';
-$verde_scuro 	= '#660066';
-$pistacchio 	= '#E6BEE6';
+$lilla_scuro 	= '#CC99FF';
+$viola 			= '#660066';
+$lilla_chiaro 	= '#E6BEE6';
 
 $giallo 		= '#FF0000';
 $giallo_chiaro 	= '#EDDBFF';
@@ -28,11 +21,11 @@ $grigio_chiaro 	= '#CCCCCC';
 $panna 			= '#FFFFCC';
 $bianco 		= '#FFFFFF';
 $nero 			= '#000000';
-$rosso 			= '#D61D23';
+$rosso 			= '#FF0000';
 
-$colore_1_chiaro = $verde_chiaro;
-$colore_1_medio  = $pistacchio;
-$colore_1_scuro  = $verde_scuro;
+$colore_1_chiaro = $lilla_scuro;
+$colore_1_medio  = $lilla_chiaro;
+$colore_1_scuro  = $viola;
 
 $colore_2_chiaro = $giallo_chiaro;
 $colore_2_scuro  = $giallo;
@@ -71,6 +64,8 @@ if(file_exists($filename))
 	$content = str_replace('bodyBkgdColor', $nero, $content);
 	$content = str_replace('sorteggioColor', $rosso, $content);
 	$content = str_replace('firstClassColor', $grigio_scuro, $content);
+	$content = str_replace('notHoverLinkColor', $colore_1_scuro, $content);
+	$content = str_replace('hoverLinkColor', $rosso, $content);
 	/* * * * * * * * */
 	
 	/*
@@ -99,23 +94,23 @@ if(file_exists($filename))
 	$content = str_replace('linkCampLink', $panna, $content);
 	$content = str_replace('linkCampVisited', $colore_1_chiaro, $content);
 	$content = str_replace('linkCampActive', $colore_1_chiaro, $content);
-	$content = str_replace('linkCampHover', $panna, $content);
+	$content = str_replace('linkCampHover', $rosso, $content);
 	$content = str_replace('invLinkCampLink', $colore_1_scuro, $content);
 	$content = str_replace('invLinkCampVisited' , $colore_1_scuro, $content);
 	$content = str_replace('invLinkCampActive', $colore_1_scuro, $content);
-	$content = str_replace('invLinkCampHover', $panna, $content);
-	
+	$content = str_replace('invLinkCampHover', $rosso, $content);
+		
 	/*
 	 * COPPA
 	 * * * * */
 	$content = str_replace('linkCoppaLeftLink', $colore_1_scuro, $content);
 	$content = str_replace('linkCoppaLeftVisited', $colore_1_scuro, $content);
 	$content = str_replace('linkCoppaLeftActive', $colore_1_scuro, $content);
-	$content = str_replace('linkCoppaLeftHover', $panna, $content);
+	$content = str_replace('linkCoppaLeftHover', $rosso, $content);
 	$content = str_replace('linkCoppaRightLink', $colore_1_chiaro, $content);
 	$content = str_replace('linkCoppaRightVisited', $colore_1_chiaro, $content);
 	$content = str_replace('linkCoppaRightActive', $colore_1_chiaro, $content);
-	$content = str_replace('linkCoppaRightHover', $panna, $content);
+	$content = str_replace('linkCoppaRightHover', $rosso, $content);
 	$content = str_replace('bkgdFinali', $colore_2_chiaro, $content);
 	$content = str_replace('colorFinali', $colore_1_scuro, $content);
 	/* * * * */
@@ -123,7 +118,7 @@ if(file_exists($filename))
 	/*
 	 * MENU
 	 * * * * */
-	$content = str_replace('menuHoverColor', $colore_1_chiaro, $content);
+	$content = str_replace('menuHoverColor', $rosso, $content);
 	$content = str_replace('menuColor', $panna, $content);
 	/* * * * */
 	
@@ -138,6 +133,9 @@ if(file_exists($filename))
 	$content = str_replace('historyBkgdColor6', $grigio_medio, $content);
 	$content = str_replace('historyBkgdColor7', $grigio_scuro, $content);
 	$content = str_replace('historyBkgdColor8', $grigio_scuro, $content);
+	$content = str_replace('titolareColor', $colore_1_scuro, $content);
+	$content = str_replace('riservaColor', $grigio_scuro, $content);
+	$content = str_replace('tribunaColor', $grigio_medio, $content);
 	/* * * * * */
 	
 	/*

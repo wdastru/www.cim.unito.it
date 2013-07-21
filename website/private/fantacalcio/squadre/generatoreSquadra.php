@@ -10,6 +10,12 @@
 		<th>Difensori</th>
 		<th>Centrocampisti</th>
 		<th>Attaccanti</th>
+	</tr>	
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
 	</tr>
 	<?php
 	$desc_Ultima = array("Squadra di appartenenza", "Fantavoto", "Voto", "Goal", "Ammonizioni", "Espulsioni", "Autoreti", "Assist");
@@ -187,7 +193,7 @@
 		for ($i=0; $i<4; $i++) // ruolo
 		{
 			echo "
-			<td class=\"";
+			<td class='";
 
 			if($j < $modulo[$i+1])
 			echo "titolare";
@@ -198,7 +204,7 @@
 			else
 			echo "tribuna";
 
-			echo "\">";
+			echo "'>";
 
 			if( isset($giocatore[$j][$i]) && $giocatore[$j][$i] != "" )
 			{

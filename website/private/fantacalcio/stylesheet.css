@@ -33,18 +33,18 @@ tr.tableline {border-bottom:solid; border-bottom-color:tablelineBorder; border-w
 table.classifica{ border:none; border-collapse:collapse; border-spacing:0px; margin:auto;}
 table.classifica th{ width:1em; font-size:0.8em; color: textColor0; }
 table.classifica td.Squadra{ text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:link { color: textColor0; text-decoration:none; text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:visited { color: textColor0; text-decoration:none; text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:active { color: textColor0; text-decoration:none; text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:hover { color: textColor4; text-decoration:none; text-align:right; width:12em; border:none}
+table.classifica td.Squadra a:link,
+table.classifica td.Squadra a:visited, 
+table.classifica td.Squadra a:active  { color: notHoverLinkColor; text-decoration:none; text-align:right; width:12em; border:none}
+table.classifica td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; text-align:right; width:12em; border:none}
 table.classifica td.Dati{ color:textColor0; text-align:center; width:2em; border:none; height:1.5em; }
 table.classifica td.DatiWide{ color:textColor0; text-align:center; width:3em; border:none; height:1.5em; }
 table.classificaBarre{ empty-cells:show; border:none; color:textColor0; margin:auto;}
 table.classificaBarre td.Squadra{ text-align:right; }
-table.classificaBarre td.Squadra a:link { color: textColor0; text-decoration:none; text-align:right; }
-table.classificaBarre td.Squadra a:visited { color: textColor0; text-decoration:none; text-align:right; }
-table.classificaBarre td.Squadra a:active { color: textColor0; text-decoration:none; text-align:right; }
-table.classificaBarre td.Squadra a:hover { color: textColor4; text-decoration:none; text-align:right; }
+table.classificaBarre td.Squadra a:link, 
+table.classificaBarre td.Squadra a:visited, 
+table.classificaBarre td.Squadra a:active { color: notHoverLinkColor; text-decoration:none; text-align:right; }
+table.classificaBarre td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; text-align:right; }
 table.classificaBarre td.Punti{ text-align:center; color:textColor0; }
 table.classificaBarre td.Barra{ background-color:barraColor0; text-align:right; color:textColor1; font-size:0.8em; }
 table.classificaBarre td.Barra0{ background-color:barraColor0; text-align:right; color:color2; font-size:0.8em; }
@@ -82,12 +82,12 @@ table.risultati tr.odd td.Squadra { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:link { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:visited { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:active { color: campRowOdd; text-decoration:none; }
-table.risultati tr.odd td.Squadra a:hover { color: textColor4; text-decoration:none; }
+table.risultati tr.odd td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; }
 table.risultati tr.even td.Squadra { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:link { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:visited { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:active { color: campRowEven; text-decoration:none; }
-table.risultati tr.even td.Squadra a:hover { color: textColor1; text-decoration:none; }
+table.risultati tr.even td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; }
 table.risultati td.Squadra{ width:190px; }
 table.risultati div.Risultati{ width:100%; }
 table.risultati div.Punteggi{ width:100%; font-size:0.7em; font-weight:normal; }
@@ -167,9 +167,9 @@ table.marcatori tr.even{ color:textColor1; background-color:textColor0; text-ali
  * SQUADRE
  * * * * * */
 table#tableRosa th { color:textColor0; }
-table#tableRosa td.titolare{ color:textColor0; }
-table#tableRosa td.riserva{ color:textColor4; }
-table#tableRosa td.tribuna{ color:color7; }
+table#tableRosa td.titolare{ color:titolareColor; }
+table#tableRosa td.riserva{ color:riservaColor; }
+table#tableRosa td.tribuna{ color:tribunaColor; }
 table.rosafooter td { color: textColor0;}
 table.rosafooter td.testo{ text-align:right; width:9em; }
 table.rosafooter td.capitale{ text-align:left; width:3em; }
