@@ -191,6 +191,9 @@ if(file_exists($filename))
 	 * ALBI
 	 * * * * * * * */
 	$content = str_replace('albiNotHoverLinkColor', $grigio_scuro, $content);
+	$content = str_replace('tableAlboMarcatoriLineColor', $colore_1_scuro, $content);
+	$content = str_replace('marcatoriHeaderColor', $grigio_scuro, $content);
+	$content = str_replace('marcatoreColor', $rosso, $content);
 	/* * * * * * * */
 	
 	echo $content;
