@@ -262,10 +262,8 @@ div.headerThirdRow div.header6 { width:52px; }
  * * * * */
 .albo { width:75%; margin:auto; margin-top:16px; margin-bottom:16px; }
 table.albo a{ width:80%; border:none; border-collapse:collapse; border-spacing:0px; text-decoration: none;  }
-table.albo a:link { color:color7; }
-table.albo a:active { color:color7; }
-table.albo a:visited { color:color7; }
-table.albo a:hover { color:textColor4; }
+table.albo a:link, table.albo a:active, table.albo a:visited { color:albiNotHoverLinkColor; }
+table.albo a:hover { color:hoverLinkColor; }
 table.albo th { color:textColor0; }
 table.albo td.marcatore {color: color7; }
 table.albo tr.tableline {border-bottom: 1px solid textColor1; }

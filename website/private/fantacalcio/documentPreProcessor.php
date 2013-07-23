@@ -187,6 +187,12 @@ if(file_exists($filename))
 	$content = str_replace('choosePlayersDivBorderColor', $colore_1_scuro, $content);
 	/* * * * * * * */
 	
+	/*
+	 * ALBI
+	 * * * * * * * */
+	$content = str_replace('albiNotHoverLinkColor', $grigio_scuro, $content);
+	/* * * * * * * */
+	
 	echo $content;
 } else {
 	header('Location: ../errors/error.php?error=documentNotExists');
