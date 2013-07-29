@@ -14,7 +14,7 @@ $_SESSION['oldnote'] = $_POST['note2remove'];
 $_SESSION['oldcode'] = $_POST['code2remove'];
 $_SESSION['oldsupplier'] = $_POST['supplier2remove'];
 $_SESSION['oldCAS'] = $_POST['CAS2remove'];
-$_SESSION['oldphrase_S'] = $_POST['phrase_S2remove'];
+$_SESSION['oldphrase_H'] = $_POST['phrase_H2remove'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
 $_SESSION['oldlink'] = $_POST['link2remove'];
 $localizer = "../../../";
@@ -95,14 +95,15 @@ $localizer = "../../../";
                                     <td>Note :</td>
                                     <td><?php echo $_POST['note2remove']; ?></td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <td>Code :</td>
                                     <td><?php echo $_POST['code2remove']; ?></td>
                                 </tr>
                                 <tr>
                                     <td>Supplier :</td>
                                     <td><?php echo $_POST['supplier2remove']; ?></td>
-                                </tr>
+                                </tr> -->
+                                
                                 <tr>
                                     <td>CAS n&deg; :</td>
                                     <td><?php echo $_POST['CAS2remove']; ?></td>
@@ -113,7 +114,7 @@ $localizer = "../../../";
                                 </tr>
 								<tr>
 									<td>Safety phrase :</td>
-									<td><?php echo $_POST['phrase_S2remove']; ?></td>
+									<td><?php echo $_POST['phrase_H2remove']; ?></td>
 								</tr>
 								<tr>
 									<td>Link to the safety info :</td>

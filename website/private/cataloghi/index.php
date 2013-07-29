@@ -153,11 +153,11 @@ function uploadFile($filename, $dir) {
                             					<Option VALUE='quantity'>Quantity</option>
                             					<Option VALUE='lab'>Laboratory</option>
                             					<Option VALUE='note'>Note</option>
-                                                <Option VALUE='code'>Code</option>
-                                                <Option VALUE='supplier'>Supplier</option>
+                                                <!-- <Option VALUE='code'>Code</option>
+                                                <Option VALUE='supplier'>Supplier</option> -->
                                                 <Option VALUE='CAS'>CAS n&deg;</option>
                                                 <Option VALUE='phrase_R'>Risk phrase</option>
-                                                <Option VALUE='phrase_S'>Satefy phrase</option>	
+                                                <Option VALUE='phrase_H'>Satefy phrase</option>	
                             					</Select>
                             					<br />
                             				";
@@ -183,17 +183,18 @@ function uploadFile($filename, $dir) {
 						require ("variables.php");
 
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
-						mysql_query('ALTER TABLE  `catalogo` CHANGE  `name`  `name_UK` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-						//mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NOT NULL');
+						mysql_query('ALTER TABLE  `catalogo` CHANGE  `name` `name_UK` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_S` `phrase_H` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `code` VARCHAR( 50 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` ADD  `supplier` VARCHAR( 50 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NOT NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_S` VARCHAR( 50 ) NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_H` VARCHAR( 50 ) NOT NULL');
                         mysql_query('ALTER TABLE  `catalogo` ADD  `name_IT` VARCHAR( 100 ) NOT NULL');
                         mysql_query('ALTER TABLE  `catalogo` ADD  `link` VARCHAR( 100 ) NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `code`  `code` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `supplier`  `supplier` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_S`  `phrase_S` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
+                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_H`  `phrase_H` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_R`  `phrase_R` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         
                         //print_r($_SESSION);
@@ -212,7 +213,7 @@ function uploadFile($filename, $dir) {
                                             code='" . $_POST['newcode'] . "',
                                             supplier='" . $_POST['newsupplier'] . "',
                                             CAS='" . $_POST['newCAS'] . "',
-                                            phrase_S='" . $_POST['newphrase_S'] . "',
+                                            phrase_H='" . $_POST['newphrase_H'] . "',
                                             phrase_R='" . $_POST['newphrase_R'] . "', 
         					          		link='" . $_FILES['newlink']['name'] . "' 
         								WHERE 	
@@ -225,7 +226,7 @@ function uploadFile($filename, $dir) {
                                             code='" . $_SESSION['oldcode'] . "' AND
                                             supplier='" . $_SESSION['oldsupplier'] . "' AND
                                             CAS='" . $_SESSION['oldCAS'] . "' AND
-                                            phrase_S='" . $_SESSION['oldphrase_S'] . "' AND									
+                                            phrase_H='" . $_SESSION['oldphrase_H'] . "' AND									
         									phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
         									link='" . $_SESSION['oldlink'] . "'";
                                 
@@ -255,7 +256,7 @@ function uploadFile($filename, $dir) {
                                             code='" . $_SESSION['oldcode'] . "' AND
                                             supplier='" . $_SESSION['oldsupplier'] . "' AND
                                             CAS='" . $_SESSION['oldCAS'] . "' AND
-                                            phrase_S='" . $_SESSION['oldphrase_S'] . "' AND                                                                 
+                                            phrase_H='" . $_SESSION['oldphrase_H'] . "' AND                                                                 
                                             phrase_R='" . $_SESSION['oldphrase_R'] . "' AND                                                                 
                                             link='" . $_SESSION['oldlink'] . "'";
 						    
@@ -268,7 +269,7 @@ function uploadFile($filename, $dir) {
 						if ($_POST['added'] == "yes") {							
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 							        
-							    $sql = "INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_S, phrase_R, link )
+							    $sql = "INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_H, phrase_R, link )
                                     VALUES ( '" 
                                     . $_POST['newname_UK'] . "', '" 
                                     . $_POST['newname_IT'] . "', '"
@@ -279,7 +280,7 @@ function uploadFile($filename, $dir) {
                                     . $_POST['newcode'] . "', '"
                                     . $_POST['newsupplier'] . "', '"
                                     . $_POST['newCAS'] . "', '"
-                                    . $_POST['newphrase_S'] . "', '"
+                                    . $_POST['newphrase_H'] . "', '"
                                     . $_POST['newphrase_R'] . "', '"
                                     . $_FILES['newlink']['name'] . "' )";
                                     
@@ -354,10 +355,10 @@ function uploadFile($filename, $dir) {
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
                             			<th class='headerNote'>Note</th>
-                            			<th class='headerCode'>Code</th>
-                            			<th class='headerSupplier'>Supplier</th>
+                            			<!-- <th class='headerCode'>Code</th>
+                            			<th class='headerSupplier'>Supplier</th> -->
                             			<th class='headerCAS'>CAS n&deg;</th>
-                            			<th class='headerPhraseS'>Phrase S</th>
+                            			<th class='headerPhraseS'>Phrase H</th>
                             			<th class='headerPhraseR'>Phrase R</th>
                             			<th class='headerLink'>Scheda</th>
                             		</tr>
@@ -370,8 +371,8 @@ function uploadFile($filename, $dir) {
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
-                                        <td class='void'>&nbsp;</td>
-                                        <td class='void'>&nbsp;</td>
+                                        <!-- <td class='void'>&nbsp;</td>
+                                        <td class='void'>&nbsp;</td> -->
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
@@ -389,10 +390,10 @@ function uploadFile($filename, $dir) {
                         						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
                                                 <input type='hidden' name='note2edit' value='" . $result['note'] . "' />
-                                                <input type='hidden' name='code2edit' value='" . $result['code'] . "' />
-                                                <input type='hidden' name='supplier2edit' value='" . $result['supplier'] . "' />
+                                                <input type='hidden' name='code2edit' value='' />
+                                                <input type='hidden' name='supplier2edit' value='' />
                                                 <input type='hidden' name='CAS2edit' value='" . $result['CAS'] . "' />
-                        						<input type='hidden' name='phrase_S2edit' value='" . $result['phrase_S'] . "' />
+                        						<input type='hidden' name='phrase_H2edit' value='" . $result['phrase_H'] . "' />
                                                 <input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
                                                 <input type='hidden' name='link2edit' value='" . $result['link'] . "' />
                                                 <input type='submit' name='edit' value='Edit' />
@@ -406,10 +407,10 @@ function uploadFile($filename, $dir) {
                         						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
                         						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
-                                                <input type='hidden' name='code2remove' value='" . $result['code'] . "' />
-                                                <input type='hidden' name='supplier2remove' value='" . $result['supplier'] . "' />
+                                                <input type='hidden' name='code2remove' value='' />
+                                                <input type='hidden' name='supplier2remove' value='' />
                                                 <input type='hidden' name='CAS2remove' value='" . $result['CAS'] . "' />
-                                                <input type='hidden' name='phrase_S2remove' value='" . $result['phrase_S'] . "' />
+                                                <input type='hidden' name='phrase_H2remove' value='" . $result['phrase_H'] . "' />
                         						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
                         						<input type='hidden' name='link2remove' value='" . $result['link'] . "' />
                         						<input class='removeButton' type='submit' name='remove' value='-' />
@@ -421,10 +422,10 @@ function uploadFile($filename, $dir) {
                                         <td class='data'>" . $result['quantity'] . "</td>
                                         <td class='data'>" . $result['lab'] . "</td>
                                         <td class='data'>" . $result['note'] . "</td>
-                                        <td class='data'>" . $result['code'] . "</td>
-                                        <td class='data'>" . $result['supplier'] . "</td>
+                                        <td class='data'></td>
+                                        <td class='data'></td>
                                         <td class='data'>" . $result['CAS'] . "</td>
-                                        <td class='data'>" . $result['phrase_S'] . "</td>
+                                        <td class='data'>" . $result['phrase_H'] . "</td>
                                         <td class='data'>" . $result['phrase_R'] . "</td>";
                                         if ($result['link'] != '') {
 		                                	echo "<td class='data scheda'><a href='safety_info/" . $result['link'] . "'><img src='arrow_3D_green_left.png' alt='Download' class='scheda_download' /></a></td>";
