@@ -76,8 +76,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <div id='divider'></div>-->
                                     <h2 class='punch purple'><span>COST Action TD1004</span></h2>
                                     <a href="<?php echo $localizer;?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
+                                    <div id='divider'></div>
+                                    <p>The <u><span style='text-align:left; color:#db6d16; font-weight:bold;'>NEXT ANNUAL WORKSHOP</span></u> will be held in Athens on September 1-3,2013. <br />
+                                    	Local Organizer: <br />
+                                    	<span>Penelope Bouziotis</span><br/>
+                                    	(<a href="mailto:bouzioti@rrp.demokritos.gr">bouzioti@rrp.demokritos.gr</a>).
                                     <br />
-                                    <a href="<?php echo $localizer;?>COST/documents/Postdoc_offer_Institut_Galien_Paris_Sud.pdf" style="color:#db6d16; text-decoration:blink"><strong>Available post-doctoral position (24 months): &quot;Perfluorinated nanocapsules for targeting endothelial cells&quot;</strong></a>
+                                    
                                 </div>
                                 <div id='col2'>
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
