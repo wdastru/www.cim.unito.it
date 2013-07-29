@@ -48,14 +48,17 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <form name='add' method='post' enctype="multipart/form-data" action="<?php echo $localizer; ?>private/cataloghi/index.php">
                             <table>
-                                <tr>
+                                <!--<tr>
                                     <td>Product code :</td>
                                     <td><input type='text' size='70' name='newcode'/></td>
                                 </tr>
                                 <tr>
                                     <td>Supplier :</td>
                                     <td><input type='text' size='70' name='newsupplier'/></td>
-                                </tr>
+                                </tr> -->
+                                
+                                <input type='hidden' name='newcode' value='' />
+                                <input type='hidden' name='newsupplier' value='' />
                                 <tr>
                                     <td>CAS n&deg; :</td>
                                     <td><input type='text' size='70' name='newCAS'/></td>
@@ -94,7 +97,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                     <td>Safety phrases : </td>
-                                    <td><input type='text' size='70' name='newphrase_S'>
+                                    <td><input type='text' size='70' name='newphrase_H'>
                                     </td>
                                 </tr>
                                 <tr>

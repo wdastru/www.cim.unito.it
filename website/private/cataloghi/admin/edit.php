@@ -14,7 +14,7 @@ $_SESSION['oldnote']     = $_POST['note2edit'];
 $_SESSION['oldcode'] = $_POST['code2edit'];
 $_SESSION['oldsupplier'] = $_POST['supplier2edit'];
 $_SESSION['oldCAS'] = $_POST['CAS2edit'];
-$_SESSION['oldphrase_S'] = $_POST['phrase_S2edit'];
+$_SESSION['oldphrase_H'] = $_POST['phrase_H2edit'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2edit'];
 $_SESSION['oldlink'] = $_POST['link2edit'];
 $localizer = "../../../";
@@ -95,21 +95,25 @@ $localizer = "../../../";
                                 <td>Note :</td>
                                 <td><input type='text' name='newnote' size='70' value='<?php echo $_POST['note2edit']; ?>'/></td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td>Code :</td>
                                 <td><input type='text' name='newcode' size='70' value='<?php echo $_POST['code2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Supplier :</td>
                                 <td><input type='text' name='newsupplier' size='70' value='<?php echo $_POST['supplier2edit']; ?>'/></td>
-                            </tr>
+                            </tr> -->
+                            
+                            <input type='hidden' name='newcode' value='' />
+                            <input type='hidden' name='newsupplier' value='' />
+                                
                             <tr>
                                 <td>CAS n&deg; :</td>
                                 <td><input type='text' name='newCAS' size='70' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Safety phrase :</td>
-                                <td><input type='text' name='newphrase_S' size='70' value='<?php echo $_POST['phrase_S2edit']; ?>'/></td>
+                                <td><input type='text' name='newphrase_H' size='70' value='<?php echo $_POST['phrase_H2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Risk phrase :</td>
