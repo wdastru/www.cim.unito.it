@@ -77,7 +77,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <h2 class='punch purple'><span>COST Action TD1004</span></h2>
                                     <a href="<?php echo $localizer;?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
                                     <div id='divider'></div>
-                                    <p>The <u><span style='text-align:left; color:#db6d16; font-weight:bold;'>NEXT ANNUAL WORKSHOP</span></u> will be held in Athens on September 1-3,2013. <br />
+                                    <p>The <u><span style='text-align:left; color:#db6d16; font-weight:bold;'><a href='COST/meetings/COST_TD1004-Sep2013.php'>NEXT ANNUAL WORKSHOP</a></span></u> will be held in Athens on September 1-3,2013. <br />
                                     	Local Organizer: <br />
                                     	<span>Penelope Bouziotis</span><br/>
                                     	(<a href="mailto:bouzioti@rrp.demokritos.gr">bouzioti@rrp.demokritos.gr</a>).
