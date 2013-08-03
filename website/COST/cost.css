@@ -47,3 +47,7 @@ input.deleteButton, input.uploadButton {
     top: 50%;
     left: 50%;
 }
+div.u {     
+   border-bottom: 1px solid #666666;  
+   display: inline;  
+ }  

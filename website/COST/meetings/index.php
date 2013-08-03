@@ -51,6 +51,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <ul>
                                 <li>
+                                    <a href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Sep2013.php">COST TD1004 Annual Meeting - Athens, 1-3 September 2012</a>
+                                </li>
+                                <li>
                                     <a href="<?php echo $localizer;?>COST/meetings/COST_TD1004-May2013.php">Inter WG COST Action TD1004 EMIM2013 - Torino, 26-28 May 2013</a>
                                 </li>
                                 <li>
