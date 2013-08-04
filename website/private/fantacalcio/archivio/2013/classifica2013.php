@@ -1,26 +1,13 @@
 <?php
-$relocate_string = "./";
+$relocate_string = "../../";
 
-require_once $relocate_string . "logger.php";
-require_once $relocate_string . 'squadre.inc';
-require_once $relocate_string . 'calendario.inc';
-require_once $relocate_string . 'classifica.inc.php';
-require_once $relocate_string . 'recursiveChmod.inc.php';
+require $relocate_string . 'archivio/2013/squadre1213.inc.php';
+require $relocate_string . 'archivio/2013/calendario1213.inc.php';
+require $relocate_string . 'archivio/2013/classifica1213.inc.php';
 
 //include "dBug.php";
 
-@recursiveChmod($relocate_string . '777/');
-
-$datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
-if (!file_exists($datiCampionatoFileName)) {
-	require $relocate_string . 'writeEmptyCampionatoFile.php';
-}
-
-if (!file_exists($relocate_string . '777/gazFiles.inc.php')) {
-	require $relocate_string . 'include/updateGazFiles.inc.php';
-}
-require_once $relocate_string . '777/gazFiles.inc.php';
-
+$datiCampionatoFileName = $relocate_string . 'archivio/2013/datiCampionato1213.txt';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -37,16 +24,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 		<!-- InstanceBeginEditable name="additional css" -->
-		<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.css&type=css" />
 		<!-- InstanceEndEditable -->
 		<!-- InstanceBeginEditable name="additional js" -->
-		<script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
-		<script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
-		<!-- <script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script> -->
+		<script type="text/javascript" src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
+		<script type="text/javascript" src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
 		<!-- InstanceEndEditable -->
 
 		<!-- InstanceBeginEditable name="jQuery" -->
@@ -77,18 +58,21 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<?php
 			require $relocate_string . 'include/title.inc.php';
 			require $relocate_string . 'include/menu.inc.php';
- 			require $relocate_string . 'include/banner_slider.inc.php';
 		 ?>
-
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
-			<h1 class="title">CLASSIFICA</h1>
-			<br />
+	<h1 class="title">XIV Campionato Fantacalcio NMR 2012/13</h1>
+        <br />
+        <br />
+        <h2 class='firstClass'>1&deg; Classificato: </h2>
+        <h2 class="title">DINAMO CIOFECA</h2>
+        <br />
 			
 			<?php
 			/*
 			 *  lettura file datiCampionato
 			 */
+			 
 			$handle = fopen($datiCampionatoFileName, 'r');
 
 			for ($t = 0; $t < 4; $t++)//A&R
@@ -111,7 +95,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			}
 
 			fclose($handle);
-
+			
 			/*
 			 *  aggiornamento classifica[][] (definito in classifica.inc.php)
 			 */
@@ -236,7 +220,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			 *  Sorting di classifica[][]
 			 */
 
-			include ("functions.inc.php");
+			require $relocate_string . 'archivio/2013/functions1213.inc.php';
 
 			$datiCampionato = readData();
 			$squadra = updateSquadra($datiCampionato);

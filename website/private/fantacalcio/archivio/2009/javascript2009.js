@@ -15,11 +15,6 @@ function showBoxCampionato( id, evt )
 		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il - di separazione */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
-		
-		for (i=0; i<3; i++) {
-			hiddenBox.getElementsByTagName('span').item(i).style.fontSize = '14px';
-			hiddenBox.getElementsByTagName('span').item(i).style.color = 'specialColor';
-		}
 		/* nomi squadre */
 		
 		if ( visibility == 'hidden' )
@@ -40,19 +35,13 @@ function showBoxCampionato( id, evt )
 			var div1 = tdDivs.item(1).firstChild.nodeValue.split("-");
 
 			inputTags.item(3).value = trim(div0[0]); // i primi tre input sono send close e reset.
-			retiA = trim(div0[0]);
-			
 			inputTags.item(4).value = trim(div0[1]);
-			retiB = trim(div0[1]);
-			
-			goalsTot = retiA + retiB;
-			
 			inputTags.item(5).value = trim(div1[0]);
 			inputTags.item(6).value = trim(div1[1]);
 			
 			for(i=2; i<tdDivs.length; i++) {
 				inputTags.item(7+i).value = tdDivs.item(i).firstChild.nodeValue; // saltare item 7 e 8 (aggiungi e togli un marcatore)
-				goalDivs.item(i-2).style.display = 'block';
+				goalDivs.item(i-1).style.display = 'block';
 			}
 			
 			inputTags.item(inputTags.length-1).value = id;
@@ -144,7 +133,7 @@ function hideBox( id )
 				if(i==7 || i==8) continue;
 				inputTags.item( i ).value = '';	}
 			
-			for(i=0; i<goalDivs.length; i++){ 
+			for(i=1; i<goalDivs.length; i++){ 
 				goalDivs.item(i).style.display = 'none'; }
 			
 			hiddenBox.style.visibility = 'hidden'; 

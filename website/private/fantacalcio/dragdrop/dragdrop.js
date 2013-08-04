@@ -486,7 +486,7 @@ function Count() {
 			the_divs.item(i+1).style.backgroundRepeat='no-repeat';
 		}
 	} else {
-		document.getElementById('PorTitolari').style.color = 'okColor';
+		//document.getElementById('PorTitolari').style.color = 'okColor';
 	}
 	
 	if ( cDifTit.innerHTML > 5 || cDifTit.innerHTML < 3 || cDifTit.innerHTML != document.getElementById('chosenModule').innerHTML.substr(0, 1) ) 
@@ -498,7 +498,7 @@ function Count() {
 			the_divs.item(i+1).style.backgroundRepeat='no-repeat';
 		}
 	} else {
-		document.getElementById('DifTitolari').style.color = 'okColor';
+		//document.getElementById('DifTitolari').style.color = 'okColor';
 	}
 
 	if (cCenTit.innerHTML > 5 || cCenTit.innerHTML < 3 || cCenTit.innerHTML != document.getElementById('chosenModule').innerHTML.substr(4, 1) ) 
@@ -510,7 +510,7 @@ function Count() {
 			the_divs.item(i+1).style.backgroundRepeat='no-repeat';
 		}
 	} else {
-		document.getElementById('CenTitolari').style.color = 'okColor';
+		//document.getElementById('CenTitolari').style.color = 'okColor';
 	}
 
 	if (cAttTit.innerHTML > 3 || cAttTit.innerHTML < 1 || cAttTit.innerHTML != document.getElementById('chosenModule').innerHTML.substr(8, 1) ) 
@@ -523,7 +523,7 @@ function Count() {
 			the_divs.item(i+1).style.backgroundRepeat='no-repeat';
 		}
 	} else {
-		document.getElementById('AttTitolari').style.color = 'okColor';
+		//document.getElementById('AttTitolari').style.color = 'okColor';
 	}
 	
 	/* check totale in campo */
@@ -561,9 +561,9 @@ function Count() {
 			the_divs.item(i+1).style.backgroundRepeat='no-repeat';
 		}
 	} else {
-		document.getElementById('DifTitolari').style.color = 'okColor';
-		document.getElementById('CenTitolari').style.color = 'okColor';
-		document.getElementById('AttTitolari').style.color = 'okColor';
+		//document.getElementById('DifTitolari').style.color = 'okColor';
+		//document.getElementById('CenTitolari').style.color = 'okColor';
+		//document.getElementById('AttTitolari').style.color = 'okColor';
 	}
 	
 	/* checks Riserve */

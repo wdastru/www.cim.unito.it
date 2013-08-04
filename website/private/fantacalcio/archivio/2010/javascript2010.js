@@ -15,11 +15,6 @@ function showBoxCampionato( id, evt )
 		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) � il - di separazione */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
-		
-		for (i=0; i<3; i++) {
-			hiddenBox.getElementsByTagName('span').item(i).style.fontSize = '14px';
-			hiddenBox.getElementsByTagName('span').item(i).style.color = '#FFFF00';
-		}
 		/* nomi squadre */
 		
 		if ( visibility == 'hidden' )
@@ -56,7 +51,7 @@ function showBoxCampionato( id, evt )
 			inputTags.item(4).value = trim(div1[1]);
 
 			for(i=0; i<goalsTot; i++) {
-				goalDivs.item(i).style.display = 'block';
+				goalDivs.item(i+1).style.display = 'block';
 				inputTags.item(5+i).value = tdDivs.item(2+i).innerHTML // tdDivs: saltare item 0 e 1 (goals e punteggi)
 			}
 			
@@ -162,7 +157,7 @@ function showBoxCoppa( id, evt )
 				inputTags.item(5+i).value = source_casa.getElementsByTagName('div').item(2+i).innerHTML; 
 				if(inputTags.item(5+i).value == '-')
 					inputTags.item(5+i).value = '';
-				goalDivs.item(i).style.display = 'block';
+				goalDivs.item(i+1).style.display = 'block';
 			}
 
 			inputTags.item(inputTags.length-1).value = id;
@@ -203,7 +198,7 @@ function hideBox( id )
 				if(i==7 || i==8) continue;
 				inputTags.item( i ).value = '';	}
 			
-			for(i=0; i<goalDivs.length; i++){ 
+			for(i=1; i<goalDivs.length; i++){ 
 				goalDivs.item(i).style.display = 'none'; }
 			
 			hiddenBox.style.visibility = 'hidden'; 
@@ -374,8 +369,9 @@ function changeVistaDescription( sourceId, desc )
 	if( document.getElementById ) 
 	{	
 		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = '#88CCFF';
-		source.style.border = '1px solid #0055FF';
+		source.style.color = 'selectedVistaHoverColor';
+		source.style.backgroundColor = 'selectedVistaHoverBkgdColor';
+		source.style.border = '1px solid ' + 'selectedVistaHoverBorderColor';
 		
 		var selectedVista = document.getElementById('selectedVista');
 		selectedVista.innerHTML = desc.replace('_', ' ');
@@ -410,8 +406,9 @@ function hideVistaDescription( sourceId )
 	if( document.getElementById ) 
 	{
 		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = '#CCCCCC';
-		source.style.border = '1px solid #CCCCCC';
+		source.style.backgroundColor = 'unselectedVistaBkgdColor';
+		source.style.color = 'unselectedVistaColor';
+		source.style.border = '1px solid ' + 'unselectedVistaBorderColor';
 	}
 	else 
 	{

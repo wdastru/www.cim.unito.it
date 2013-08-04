@@ -39,7 +39,7 @@
 			echo "<div id='marqueeSpeedUp'><input class='button' type='button' value='+' onclick='speedUp();' /></div>";	
 			
 			echo "<div class='marquee' id='mycrawler' onclick='addMessage();'>
-					<span style='color: #A9FA05;'>";
+					<span id='hyphens'>";
 					
 			for ($i=0; $i < 150; $i++) { 
 				echo "-";

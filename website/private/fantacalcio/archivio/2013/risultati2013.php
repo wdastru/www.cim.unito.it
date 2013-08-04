@@ -1,32 +1,27 @@
 <?php
-$relocate_string = "./";
+$relocate_string = "../../";
 //require_once ($relocate_string . "dBug.php");
-require_once ($relocate_string . "logger.php");
-include("squadre.inc");
-include("calendario.inc");
+//include($relocate_string . "logger.php");
+require($relocate_string . "archivio/2013/squadre1213.inc.php");
+require($relocate_string . "archivio/2013/calendario1213.inc.php");
 ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html
-	xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <title>Fantacalcio NMR 2011/12</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
-	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=stylesheet.css&type=css" />
-	<script type="text/javascript" src="chromejs/chrome.js"></script>
-	<script type="text/javascript" src="version.js"></script>
+	<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript"
-		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
-	<script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
-	<!-- InstanceEndEditable -->
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2013/javascript2013.js&type=javascript"></script>
+<!-- InstanceEndEditable -->
 	
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -59,19 +54,24 @@ include("calendario.inc");
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "campionato" )' /> <input id='closeBtn' class='button' type='button'
-					value='Close this box!' onclick='hideBox();' /> <input class='button'
-					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
+					onclick='validate( "campionato" )' 
+					style='display: none;' /> 
+				<input id='closeBtn' class='button' type='button' value='Close this box!' onclick='hideBox();' /> 
+					<input class='button' type='button' value='Reset' 
+					onclick="resetFields();" 
+					style='display:none;' /> <br /> <br />
 				Goal Squadra A : <input type='text' name='goalA' value=''
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
 				Squadra B : <input type='text' name='goalB' value=''
 					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
 				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
-					style="display: inline" value='Aggiungi un marcatore'
-					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
-					style="display: inline" value='Togli un marcatore'
+				<br /> <br /> Marcatori:<br /> <br /> 
+				<input class='button' type='button' 
+					style="display: none" value='Aggiungi un marcatore'
+					onclick='manualAddField();' />&nbsp;
+				<input class='button' type='button'
+					style="display: none" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
 				<?php
 					for($i=0; $i<20; $i++)
@@ -84,17 +84,12 @@ include("calendario.inc");
 	<!-- InstanceEndEditable -->
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
-		<h1 class="title">CALENDARIO</h1>
+		<h1 class="title">RISULTATI FANTACALCIO NMR 2012/13</h1>
 		
-		<?php
-
-		$datiCampionatoFile = $relocate_string . '777/datiCampionato.txt';
-		if (!file_exists($datiCampionatoFile)) {
-			require $relocate_string . 'createDatiCampionato.php';
-		}
-
+	<?php
+		$datiCampionatoFile = $relocate_string . 'archivio/2013/datiCampionato1213.txt';
 		require $relocate_string . 'readDatiCampionato.php';
-
+		
 		for($giornataIdx = 0; $giornataIdx < 7; $giornataIdx++) // giornata
 		{
 			echo "<br />";
@@ -107,11 +102,11 @@ include("calendario.inc");
 				if ($odd = $partitaIdx % 2){
 					echo"<tr class=\"odd\">";
 					for($i=0; $i<2; $i++) // in casa - fuori casa
-					echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+					echo "<td class=\"Squadra\">" . $super[0][$giornataIdx][$partitaIdx][$i] . "</td>";
 				} else {
 					echo"<tr class=\"even\">";
 					for($i=0; $i<2; $i++) // in casa - fuori casa
-					echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+					echo "<td class=\"Squadra\">" . $super[0][$giornataIdx][$partitaIdx][$i] . "</td>";
 						
 				}
 				echo "\n";

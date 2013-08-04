@@ -4,7 +4,7 @@ function showBoxCampionato( id, evt )
 	oldRetiA=0;
 	oldRetiB=0;
 	
-	if( document.getElementById ) 
+	if( document.getElementById )
 	{
 		var source = document.getElementById( id );
 		var hiddenBox = document.getElementById( 'hiddenBoxOld' );
@@ -15,12 +15,6 @@ function showBoxCampionato( id, evt )
 		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il - di separazione */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML; // nome prima squadra
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML; // nome seconda squadra
-		
-		for (i=0; i<3; i++) {
-			// stili titolo box (squadra1 - squadra2)
-			hiddenBox.getElementsByTagName('span').item(i).style.fontSize = '14px';
-			hiddenBox.getElementsByTagName('span').item(i).style.color = 'specialColor';
-		}
 		/* nomi squadre */
 		
 		if ( visibility == 'hidden' )
@@ -56,8 +50,8 @@ function showBoxCampionato( id, evt )
 			inputTags.item(4).value = trimWS(div1[1]); // punti squadra 2
 
 			for(i=0; i<goalsTot; i++) {
-				goalDivs.item(i).style.display = 'block';
-				inputTags.item(5+i).value = tdDivs.item(2+i).innerHTML // marcatori
+				goalDivs.item(i+1).style.display = 'block';
+				inputTags.item(6+i).value = tdDivs.item(2+i).innerHTML // marcatori
 			}
 			
 			inputTags.item(inputTags.length-1).value = id;
@@ -156,12 +150,12 @@ function showBoxCoppa( id, evt )
 				inputTags.item(4).value = '';
 			if(inputTags.item(4).value == '-')
 				inputTags.item(4).value = '';
-
+			
 			for(i=0; i<goalsTot; i++) {
 				inputTags.item(5+i).value = source_casa.getElementsByTagName('div').item(2+i).innerHTML; // inputTags: saltare item 7 e 8 (aggiungi e togli un marcatore); 
 				if(inputTags.item(5+i).value == '-')
 					inputTags.item(5+i).value = '';
-				goalDivs.item(i).style.display = 'block';
+				goalDivs.item(i+1).style.display = 'block';
 			}
 
 			inputTags.item(inputTags.length-1).value = id;
@@ -211,7 +205,7 @@ function hideBox( id )
 				if(i==7 || i==8) continue;
 				inputTags.item( i ).value = '';	}
 			
-			for(i=0; i<goalDivs.length; i++){ 
+			for(i=1; i<goalDivs.length; i++){ 
 				goalDivs.item(i).style.display = 'none'; }
 			
 			hiddenBox.style.visibility = 'hidden'; 

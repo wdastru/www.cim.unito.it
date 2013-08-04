@@ -6,11 +6,11 @@
 <head>
 <title>Fantacalcio NMR 2011/12</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="shortcut icon" href="../favicon.ico">
-<link rel="stylesheet" type="text/css" href="../documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
-<link rel="stylesheet" type="text/css" href="../documentPreProcessor.php?document=stylesheet.css&type=css" />
-<script type="text/javascript" src="../chromejs/chrome.js"></script>
-<script type="text/javascript" src="../version.js"></script>
+<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
+<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
+<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 <!-- InstanceBeginEditable name="additional css" -->
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="additional js" -->
@@ -26,6 +26,21 @@
   <h2 class="albo">SUPERCOPPA</h2>
   <table class="albo">
     <tr>
+      <td>2012/13</td>
+      <td class="squadra">EPOrediese</td>
+      <td>Presidente <span class="presidente">Erik Bruno</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2013/supercoppa2013.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2013/coppa_rosa2013.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>2011/12</td>
       <td class="squadra">Atletico? No Grazie!</td>
       <td>Presidente <span class="presidente">Enzo Terreno</span></td>
@@ -33,7 +48,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2012/supercoppa2012.php">Finale</a> &nbsp; <a href="../archivio/2012/coppa_rosa2012.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2012/supercoppa2012.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2012/coppa_rosa2012.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -48,7 +63,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2011/supercoppa2011.php">Finale</a> &nbsp; <a href="../archivio/2011/rosa2011.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2011/supercoppa2011.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2011/rosa2011.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -63,7 +78,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2010/supercoppa2010.php">Finale</a> &nbsp; <a href="../archivio/2010/rosa2010.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2010/supercoppa2010.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2010/rosa2010.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -78,7 +93,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2009/supercoppa2009.php">Finale</a> &nbsp; <a href="../archivio/2009/coppa_rosa2009.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2009/supercoppa2009.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2009/coppa_rosa2009.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -93,7 +108,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2008/supercoppa2008.php">Finale</a> &nbsp; <a href="../archivio/2008/rosa2008.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2008/supercoppa2008.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2008/rosa2008.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -108,7 +123,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2007/supercoppa2007.php">Finale</a> &nbsp; <a href="../archivio/2007/coppa_rosa2007.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2007/supercoppa2007.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2007/coppa_rosa2007.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -123,7 +138,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2006/supercoppa2006.php">Finale</a> &nbsp; <a href="../archivio/2006/rosa2006.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2006/supercoppa2006.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2006/rosa2006.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -138,7 +153,7 @@
     <tr>
       <td></td>
       <td></td>
-      <td class="link"><a href="../archivio/2005/supercoppa2005.php">Finale</a> &nbsp; <a href="../archivio/2005/coppa_rosa2005.php">Rosa</a></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2005/supercoppa2005.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2005/coppa_rosa2005.php">Rosa</a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>

@@ -163,7 +163,7 @@
           <td>&nbsp;</td>
           <td class='datiCoppaSinistra'>2</td>
           <td>&nbsp;</td>
-          <td colspan="3" style="background-color:#FFFF00"><p style="color:#0000FF">Dep. Rufus</p> </td>
+          <td colspan="3" class='coppaWinner'>Dep. Rufus</td>
           <td colspan="12">&nbsp;</td>
         </tr>
         <tr>

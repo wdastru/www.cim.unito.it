@@ -15,11 +15,6 @@ function showBoxCampionato( id, evt )
 		/* nomi squadre : hiddenBox.getElementsByTagName('span').item(1) � il - di separazione */
 		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
 		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
-		
-		for (i=0; i<3; i++) {
-			hiddenBox.getElementsByTagName('span').item(i).style.fontSize = '14px';
-			hiddenBox.getElementsByTagName('span').item(i).style.color = 'specialColor';
-		}
 		/* nomi squadre */
 		
 		if ( visibility == 'hidden' )
@@ -40,19 +35,13 @@ function showBoxCampionato( id, evt )
 			var div1 = tdDivs.item(1).firstChild.nodeValue.split("-");
 
 			inputTags.item(1).value = trim(div0[0]); // i primi tre input sono send close e reset.
-			retiA = trim(div0[0]);
-			
 			inputTags.item(2).value = trim(div0[1]);
-			retiB = trim(div0[1]);
-			
-			goalsTot = retiA + retiB;
-			
 			inputTags.item(3).value = trim(div1[0]);
 			inputTags.item(4).value = trim(div1[1]);
 			
 			for(i=2; i<tdDivs.length; i++) {
 				inputTags.item(3+i).value = tdDivs.item(i).firstChild.nodeValue; // saltare item 7 e 8 (aggiungi e togli un marcatore)
-				goalDivs.item(i-2).style.display = 'block';
+				goalDivs.item(i-1).style.display = 'block';
 			}
 			
 			inputTags.item(inputTags.length-1).value = id;
@@ -144,7 +133,7 @@ function hideBox( id )
 				if(i==7 || i==8) continue;
 				inputTags.item( i ).value = '';	}
 			
-			for(i=0; i<goalDivs.length; i++){ 
+			for(i=1; i<goalDivs.length; i++){ 
 				goalDivs.item(i).style.display = 'none'; }
 			
 			hiddenBox.style.visibility = 'hidden'; 
@@ -292,23 +281,6 @@ function deleteFieldB()
 	}	
 	
 	return;
-}
-
-function validate( what )
-{
-	if( document.getElementById ) 
-	{
-		form = document.getElementById('formRisultati')
-		if( what == 'campionato' ) {
-			form.action = 'newRisultatiCampionato.php'; }
-		if( what == 'coppa' ) {
-			form.action = 'newRisultatiCoppa.php'; }
-		
-		form.submit();
-	}	
-	else {
-		alert(":( DOM NON Supportato!");
-	}
 }
 
 // Removes leading whitespaces
@@ -603,63 +575,4 @@ function arrangeTeams()
 	}	
 	
 	return;
-}
-function changeVistaDescription( sourceId, desc ) {
-	if( document.getElementById ) 
-	{	
-		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = 'textColor3';
-		source.style.border = '1px solid ' + 'textColor0';
-		
-		var selectedVista = document.getElementById('selectedVista');
-		selectedVista.innerHTML = desc.replace('_', ' ');
-		
-		var table = document.getElementById('tableRosa');
-		var td = table.getElementsByTagName('td');
-		for (var i=0; i< td.length; i++)
-		{
-			if (td.item(i).className == 'titolare' || td.item(i).className == 'riserva' || td.item(i).className == 'tribuna')
-			{
-				var span = td.item(i).getElementsByTagName('span');
-				for (var j=0; j<span.length; j++)
-				{
-					if (span.item(j).className == desc)
-						span.item(j).style.display = 'inline';
-					else if (span.item(j).className == 'notFound')
-						span.item(j).style.display = 'inline';
-					else 
-						span.item(j).style.display = 'none';
-				}
-			}	
-		}
-	}
-	else 
-	{
-		alert(":( DOM NON Supportato!");
-	}	
-}
-
-function hideVistaDescription( sourceId ) {
-	if( document.getElementById ) 
-	{
-		var source = document.getElementById(sourceId);
-		source.style.backgroundColor = 'bkgdColorDarker';
-		source.style.border = '1px solid ' + 'bkgdColorDarker';
-	}
-	else 
-	{
-		alert(":( DOM NON Supportato!");
-	}	
-}
-
-function vistaSubmit() {
-	if( document.getElementById ) 
-	{
-		var form = document.getElementById('vista_form');
-		form.submit();
-	}
-	else 
-	{
-		alert(":( DOM NON Supportato!");
-	}	
 }

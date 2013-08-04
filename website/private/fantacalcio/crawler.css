@@ -1,3 +1,7 @@
+span#hyphens {
+	color: textColor1;
+} 
+
 #slidingBannerWrapper {
 	border-bottom: solid 4px textColor4;
 	background: textColor1;

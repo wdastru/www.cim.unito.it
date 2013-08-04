@@ -20,10 +20,10 @@
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-        <h1 class="title">IX° Campionato Fantacalcio NMR 2007/08</h1>
+        <h1 class="title">IX Campionato Fantacalcio NMR 2007/08</h1>
         <br />
         <br />
-        <h2 style="color:#333333">1&deg; Classificato: </h2>
+        <h2 class='firstClass'>1&deg; Classificato: </h2>
         <h2 class="title">REAL MENTESCARS</h2>
         <br />
         <table class='classificaBarre'>
@@ -94,7 +94,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>Real Mentescars</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>57</td>
+            <td class='Punti'>57&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='17' class='Barra0'>17&nbsp;</td>
             <td colspan='17' class='Barra1'>17&nbsp;</td>
@@ -106,7 +106,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>EPOrediese</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>50</td>
+            <td class='Punti'>50&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='12' class='Barra0'>12&nbsp;</td>
             <td colspan='13' class='Barra1'>13&nbsp;</td>
@@ -118,7 +118,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>Ij Patelavache</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>46</td>
+            <td class='Punti'>46&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='4' class='Barra0'>4&nbsp;</td>
             <td colspan='9' class='Barra1'>9&nbsp;</td>
@@ -130,7 +130,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>Atletico? No Grazie!</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>45</td>
+            <td class='Punti'>45&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='14' class='Barra0'>14&nbsp;</td>
             <td colspan='12' class='Barra1'>12&nbsp;</td>
@@ -142,7 +142,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>Bradipo</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>35</td>
+            <td class='Punti'>35&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='7' class='Barra0'>7&nbsp;</td>
             <td colspan='9' class='Barra1'>9&nbsp;</td>
@@ -154,7 +154,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>Lokomotiv Peccorino</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>31</td>
+            <td class='Punti'>31&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='7' class='Barra0'>7&nbsp;</td>
             <td colspan='3' class='Barra1'>3&nbsp;</td>
@@ -166,7 +166,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>Dinamo Ciofeca</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>29</td>
+            <td class='Punti'>29&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='10' class='Barra0'>10&nbsp;</td>
             <td colspan='5' class='Barra1'>5&nbsp;</td>
@@ -178,7 +178,7 @@
           <tr>
             <td class='Squadra invlink' colspan='1'>Deportivo Rufus</td>
             <td colspan='1'>&nbsp;</td>
-            <td class='Punti'>21</td>
+            <td class='Punti'>21&nbsp;</td>
             <td colspan='1'>&nbsp;</td>
             <td colspan='7' class='Barra0'>7&nbsp;</td>
             <td colspan='8' class='Barra1'>8&nbsp;</td>
@@ -211,34 +211,34 @@
           <tr>
             <td class='Squadra invlink'>Real Mentescars</td>
             <td >&nbsp;</td>
-            <td class='Dati'>57</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>57&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>17</td>
-            <td class='Dati'>6</td>
-            <td class='Dati'>5</td>
+            <td class='Dati'>17&nbsp;</td>
+            <td class='Dati'>6&nbsp;</td>
+            <td class='Dati'>5&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>62</td>
-            <td class='Dati'>42</td>
-            <td class='Dati'>20</td>
+            <td class='Dati'>62&nbsp;</td>
+            <td class='Dati'>42&nbsp;</td>
+            <td class='Dati'>20&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>2126</td>
+            <td class='Dati'>2126&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
             <td class='Dati'>75.93</td>
           </tr>
           <tr>
             <td class='Squadra invlink'>EPOrediese</td>
             <td >&nbsp;</td>
-            <td class='Dati'>50</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>50&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>15</td>
-            <td class='Dati'>5</td>
-            <td class='Dati'>8</td>
+            <td class='Dati'>15&nbsp;</td>
+            <td class='Dati'>5&nbsp;</td>
+            <td class='Dati'>8&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>54</td>
-            <td class='Dati'>38</td>
-            <td class='Dati'>16</td>
+            <td class='Dati'>54&nbsp;</td>
+            <td class='Dati'>38&nbsp;</td>
+            <td class='Dati'>16&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
             <td class='Dati'>2082.5</td>
             <td class='Dati' >&nbsp;</td>
@@ -247,16 +247,16 @@
           <tr>
             <td class='Squadra invlink'>Ij Patelavache</td>
             <td >&nbsp;</td>
-            <td class='Dati'>46</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>46&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>13</td>
-            <td class='Dati'>7</td>
-            <td class='Dati'>8</td>
+            <td class='Dati'>13&nbsp;</td>
+            <td class='Dati'>7&nbsp;</td>
+            <td class='Dati'>8&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>40</td>
-            <td class='Dati'>29</td>
-            <td class='Dati'>11</td>
+            <td class='Dati'>40&nbsp;</td>
+            <td class='Dati'>29&nbsp;</td>
+            <td class='Dati'>11&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
             <td class='Dati'>1965.5</td>
             <td class='Dati' >&nbsp;</td>
@@ -265,69 +265,69 @@
           <tr>
             <td class='Squadra invlink'>Atletico? No Grazie!</td>
             <td >&nbsp;</td>
-            <td class='Dati'>45</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>45&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>12</td>
-            <td class='Dati'>9</td>
-            <td class='Dati'>7</td>
+            <td class='Dati'>12&nbsp;</td>
+            <td class='Dati'>9&nbsp;</td>
+            <td class='Dati'>7&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>55</td>
-            <td class='Dati'>40</td>
-            <td class='Dati'>15</td>
+            <td class='Dati'>55&nbsp;</td>
+            <td class='Dati'>40&nbsp;</td>
+            <td class='Dati'>15&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>2071</td>
+            <td class='Dati'>2071&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
             <td class='Dati'>73.96</td>
           </tr>
           <tr>
             <td class='Squadra invlink'>Bradipo</td>
             <td >&nbsp;</td>
-            <td class='Dati'>35</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>35&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>11</td>
-            <td class='Dati'>2</td>
-            <td class='Dati'>15</td>
+            <td class='Dati'>11&nbsp;</td>
+            <td class='Dati'>2&nbsp;</td>
+            <td class='Dati'>15&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>42</td>
-            <td class='Dati'>54</td>
+            <td class='Dati'>42&nbsp;</td>
+            <td class='Dati'>54&nbsp;</td>
             <td class='Dati'>-12</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>2006</td>
+            <td class='Dati'>2006&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
             <td class='Dati'>71.64</td>
           </tr>
           <tr>
             <td class='Squadra invlink'>Lokomotiv Peccorino</td>
             <td >&nbsp;</td>
-            <td class='Dati'>31</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>31&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>8</td>
-            <td class='Dati'>7</td>
-            <td class='Dati'>13</td>
+            <td class='Dati'>8&nbsp;</td>
+            <td class='Dati'>7&nbsp;</td>
+            <td class='Dati'>13&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>36</td>
-            <td class='Dati'>45</td>
+            <td class='Dati'>36&nbsp;</td>
+            <td class='Dati'>45&nbsp;</td>
             <td class='Dati'>-9</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>1960</td>
+            <td class='Dati'>1960&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>70</td>
+            <td class='Dati'>70&nbsp;</td>
           </tr>
           <tr>
             <td class='Squadra invlink'>Dinamo Ciofeca</td>
             <td >&nbsp;</td>
-            <td class='Dati'>29</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>29&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>8</td>
-            <td class='Dati'>5</td>
-            <td class='Dati'>15</td>
+            <td class='Dati'>8&nbsp;</td>
+            <td class='Dati'>5&nbsp;</td>
+            <td class='Dati'>15&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>38</td>
-            <td class='Dati'>46</td>
+            <td class='Dati'>38&nbsp;</td>
+            <td class='Dati'>46&nbsp;</td>
             <td class='Dati'>-8</td>
             <td class='Dati' >&nbsp;</td>
             <td class='Dati'>1991.5</td>
@@ -337,15 +337,15 @@
           <tr>
             <td class='Squadra invlink'>Deportivo Rufus</td>
             <td >&nbsp;</td>
-            <td class='Dati'>21</td>
-            <td class='Dati'>28</td>
+            <td class='Dati'>21&nbsp;</td>
+            <td class='Dati'>28&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>6</td>
-            <td class='Dati'>3</td>
-            <td class='Dati'>19</td>
+            <td class='Dati'>6&nbsp;</td>
+            <td class='Dati'>3&nbsp;</td>
+            <td class='Dati'>19&nbsp;</td>
             <td class='Dati' >&nbsp;</td>
-            <td class='Dati'>15</td>
-            <td class='Dati'>48</td>
+            <td class='Dati'>15&nbsp;</td>
+            <td class='Dati'>48&nbsp;</td>
             <td class='Dati'>-33</td>
             <td class='Dati' >&nbsp;</td>
             <td class='Dati'>1798.5</td>

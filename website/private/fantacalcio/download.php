@@ -40,8 +40,6 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">FANTA CALCOLATORE GUI</h1>
-		<p style="color: #333333; font-size: 14px">per Windows
-			98(?)/2000(?)/XP/Vista/7</p>
 		<br />
 
 		<table id='downloads' style="margin: auto; padding: 10px;">

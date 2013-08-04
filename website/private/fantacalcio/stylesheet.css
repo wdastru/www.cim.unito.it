@@ -1,8 +1,8 @@
 /* 
  * STILI GENERALI
  * * * * * * * * * */
-html { background-color: #000000; /*background-image: url("./figure/ball_three.png");*/}
-body { 	background-color:#FFFFFF; color:textColor0; margin:0 auto; width:960px; font-size:75%; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:center; max-width: 1000px; }
+html { background-color: htmlBkgdColor; /*background-image: url("./figure/ball_three.png");*/}
+body { 	background-color: bodyBkgdColor; color:textColor0; margin:0 auto; width:960px; font-size:75%; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:center; max-width: 1000px; }
 
 
 /*#title { background-color:bkgdColorMenu; color:titleColor; font-size:3em; font-weight:bold; line-height:60px; margin-top:20px; border:2px solid borderColor; border-bottom:none;}*/
@@ -15,7 +15,7 @@ body { 	background-color:#FFFFFF; color:textColor0; margin:0 auto; width:960px; 
 #footer { background-color:bkgdColorMenu; border: none; border-top:4px solid textColor4; font-size:1em; text-align:center; bottom: 0; margin-bottom:20px; }
 
 tr.tableline {border-bottom:solid; border-bottom-color:tablelineBorder; border-width:1px; }
-.sorteggio { color:#FF0000; }
+.sorteggio { color:sorteggioColor; }
 .button { cursor: pointer; color: textColor0; background-color:textColor4; border-color:textColor1; border:solid; border-width:1px; margin:auto; }
 
 /*
@@ -33,18 +33,18 @@ tr.tableline {border-bottom:solid; border-bottom-color:tablelineBorder; border-w
 table.classifica{ border:none; border-collapse:collapse; border-spacing:0px; margin:auto;}
 table.classifica th{ width:1em; font-size:0.8em; color: textColor0; }
 table.classifica td.Squadra{ text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:link { color: textColor0; text-decoration:none; text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:visited { color: textColor0; text-decoration:none; text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:active { color: textColor0; text-decoration:none; text-align:right; width:12em; border:none}
-table.classifica td.Squadra a:hover { color: textColor4; text-decoration:none; text-align:right; width:12em; border:none}
+table.classifica td.Squadra a:link,
+table.classifica td.Squadra a:visited, 
+table.classifica td.Squadra a:active  { color: notHoverLinkColor; text-decoration:none; text-align:right; width:12em; border:none}
+table.classifica td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; text-align:right; width:12em; border:none}
 table.classifica td.Dati{ color:textColor0; text-align:center; width:2em; border:none; height:1.5em; }
 table.classifica td.DatiWide{ color:textColor0; text-align:center; width:3em; border:none; height:1.5em; }
 table.classificaBarre{ empty-cells:show; border:none; color:textColor0; margin:auto;}
 table.classificaBarre td.Squadra{ text-align:right; }
-table.classificaBarre td.Squadra a:link { color: textColor0; text-decoration:none; text-align:right; }
-table.classificaBarre td.Squadra a:visited { color: textColor0; text-decoration:none; text-align:right; }
-table.classificaBarre td.Squadra a:active { color: textColor0; text-decoration:none; text-align:right; }
-table.classificaBarre td.Squadra a:hover { color: textColor4; text-decoration:none; text-align:right; }
+table.classificaBarre td.Squadra a:link, 
+table.classificaBarre td.Squadra a:visited, 
+table.classificaBarre td.Squadra a:active { color: notHoverLinkColor; text-decoration:none; text-align:right; }
+table.classificaBarre td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; text-align:right; }
 table.classificaBarre td.Punti{ text-align:center; color:textColor0; }
 table.classificaBarre td.Barra{ background-color:barraColor0; text-align:right; color:textColor1; font-size:0.8em; }
 table.classificaBarre td.Barra0{ background-color:barraColor0; text-align:right; color:color2; font-size:0.8em; }
@@ -63,7 +63,7 @@ table.classificaBarre td.Barra3{ background-color:barraColor3; text-align:right;
 #hiddenBoxTitleBox { background-color: textColor0; border: 1px solid textColor1; height: 30px; width: 350px; line-height: 30px; margin: auto; }
 .hiddenBoxSubTitleBox { background-color: bkgdColorNormal; border: 1px solid textColor0; height: 20px; width:250px; line-height: 20px; margin: auto; }
 #closeBtn { visibility: hidden; width: 0px; }
-.fancybox-custom .fancybox-skin { box-shadow: 0 0 50px #222; }
+.fancybox-custom .fancybox-skin { box-shadow: 0 0 50px fancyBoxShadowColor; }
 
 /*
  * RISULTATI CAMPIONATO
@@ -82,12 +82,12 @@ table.risultati tr.odd td.Squadra { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:link { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:visited { color: campRowOdd; text-decoration:none; }
 table.risultati tr.odd td.Squadra a:active { color: campRowOdd; text-decoration:none; }
-table.risultati tr.odd td.Squadra a:hover { color: textColor4; text-decoration:none; }
+table.risultati tr.odd td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; }
 table.risultati tr.even td.Squadra { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:link { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:visited { color: campRowEven; text-decoration:none; }
 table.risultati tr.even td.Squadra a:active { color: campRowEven; text-decoration:none; }
-table.risultati tr.even td.Squadra a:hover { color: textColor1; text-decoration:none; }
+table.risultati tr.even td.Squadra a:hover { color: hoverLinkColor; text-decoration:none; }
 table.risultati td.Squadra{ width:190px; }
 table.risultati div.Risultati{ width:100%; }
 table.risultati div.Punteggi{ width:100%; font-size:0.7em; font-weight:normal; }
@@ -110,15 +110,15 @@ table.coppa td.coppaFinaliDestra{ cursor: pointer; text-align:center; background
 table.coppa td.datiCoppaFinali{ cursor: pointer; text-align:center; background-color:bkgdFinali; color:colorFinali; }
 table.coppa td.goalSinistra { background-color:textColor1; color:textColor0; }
 table.coppa td.goalDestra { background-color:textColor0; color:textColor1; }
-table.coppa td.finaleTitle
+table.coppa td.finaleTitle { }
 /* old coppa format */
 
-table#coppa_gruppi td.coppaSinistra{ width:150px; text-align:left; background-color:textColor1; color:textColor0; }
+table#coppa_gruppi td.coppaSinistra { width:150px; text-align:left; background-color:textColor1; color:textColor0; }
 table#coppa_gruppi td.coppaSinistra a:link{ color:textColor0; text-decoration:none; }             
 table#coppa_gruppi td.coppaSinistra a:visited{ color:textColor0; text-decoration:none;}   
 table#coppa_gruppi td.coppaSinistra a:active{ color:textColor0; text-decoration:none;}     
 table#coppa_gruppi td.coppaSinistra a:hover{ color:linkCoppaLeftHover; text-decoration:none;}       
-table#coppa_gruppi td.coppaDestra{ width:150px; text-align:right; background-color:textColor0; color:textColor1; }
+table#coppa_gruppi td.coppaDestra { width:150px; text-align:right; background-color:textColor0; color:textColor1; }
 table#coppa_gruppi td.coppaDestra a:link{ color:textColor1; text-decoration:none;}             
 table#coppa_gruppi td.coppaDestra a:visited{ color:textColor1; text-decoration:none;}   
 table#coppa_gruppi td.coppaDestra a:active{ color:textColor1; text-decoration:none;}     
@@ -151,7 +151,6 @@ table#finali_coppa td.datiCoppaSinistra{ cursor: pointer; text-align:center; bac
 table#finali_coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; background-color:textColor0; color:textColor1; }
 .coppaFinaliSinistra{ text-align:center; background-color:textColor1; color:textColor0; }
 .coppaFinaliDestra{ text-align:center; background-color:textColor0; color:textColor1; }
-.coppaWinner{ background-color:bkgdFinali; color:colorFinali; }
 .coppaCentro{ text-align:center; background-color:textColor0; color:textColor1; }
 .coppaWinner{ text-align:center; background-color:textColor0; color:specialColor; }
 
@@ -168,9 +167,9 @@ table.marcatori tr.even{ color:textColor1; background-color:textColor0; text-ali
  * SQUADRE
  * * * * * */
 table#tableRosa th { color:textColor0; }
-table#tableRosa td.titolare{ color:textColor0; }
-table#tableRosa td.riserva{ color:textColor4; }
-table#tableRosa td.tribuna{ color:color7; }
+table#tableRosa td.titolare{ color:titolareColor; }
+table#tableRosa td.riserva{ color:riservaColor; }
+table#tableRosa td.tribuna{ color:tribunaColor; }
 table.rosafooter td { color: textColor0;}
 table.rosafooter td.testo{ text-align:right; width:9em; }
 table.rosafooter td.capitale{ text-align:left; width:3em; }
@@ -181,14 +180,14 @@ td.Immagine { text-align:center; width:320px; }
 td.Storico { text-align:left; width:318px; }
 td.Immagine img { border:1px solid borderColor; }
 span.stagione{ color:textColor0; }
-span.primo, span.coppe { background-color:historyColor1; color: textColor0; }
-span.secondo{ background-color:historyColor2; color: textColor0; }
-span.terzo{ background-color:historyColor3; color: textColor0; }
-span.quarto{ background-color:historyColor4; color: textColor0; } 
-span.quinto{ background-color:historyColor5; color: textColor0; }
-span.sesto{ background-color:historyColor5; color: textColor0; }
-span.settimo{ background-color:historyColor7; color:color5; }
-span.ottavo{ background-color:historyColor7; color:color5; }
+span.primo, span.coppe { background-color:historyBkgdColor1; color: textColor0; }
+span.secondo{ background-color:historyBkgdColor2; color: textColor0; }
+span.terzo{ background-color:historyBkgdColor3; color: textColor0; }
+span.quarto{ background-color:historyBkgdColor4; color: textColor0; } 
+span.quinto{ background-color:historyBkgdColor5; color: textColor0; }
+span.sesto{ background-color:historyBkgdColor5; color: textColor0; }
+span.settimo{ background-color:historyBkgdColor7; color:color5; }
+span.ottavo{ background-color:historyBkgdColor7; color:color5; }
 span.oldName{ color:textColor0; }
 table#vista { empty-cells:show; width:50%; border:solid 1px borderColor; background-color:bkgdColorDarker; font-size:10px; font-weight:bold; text-align:center; color:textColor0; padding:5px; margin:auto; }
 #vista_head { font-weight:bold; font-size:14px; text-align:left; padding-left:20px; }
@@ -218,11 +217,11 @@ span.tribuna{ color:color7; }
 /*
  * PLAYERS
  * * * * * */
-.owned { color: textColor6; }
+.owned { color: ownedColor; }
 .free { color: textColor0; }
 #por { display:block; }
 #dif, #cen, #att { display:none; }
-#choosePlayersDiv { background-color: textColor4; margin:auto; width:200px; height:25px; border:1px solid #000; }
+#choosePlayersDiv { background-color: textColor4; margin:auto; width:200px; height:25px; border:1px solid choosePlayersDivBorderColor; }
 .playersDiv { width:25%; height:100%; line-height:25px; margin:auto; float:left; cursor:pointer; }
 div.tableContainer { border:1px solid textColor1; height:402px; overflow:auto; width:740px; margin:auto; }
 div.tableContainer table { float:left; width:100%; } 
@@ -261,26 +260,25 @@ div.headerThirdRow div.header6 { width:52px; }
 /*
  * ALBI
  * * * * */
-.albo { width:75%; margin:auto; margin-top:16px; margin-bottom:16px; }
+.albo { width:75%; margin:auto; margin-top:16px; margin-bottom:16px; border-collapse: collapse; }
 table.albo a{ width:80%; border:none; border-collapse:collapse; border-spacing:0px; text-decoration: none;  }
-table.albo a:link { color:color7; }
-table.albo a:active { color:color7; }
-table.albo a:visited { color:color7; }
-table.albo a:hover { color:textColor4; }
-table.albo th { color:textColor0; }
-table.albo td.marcatore {color: color7; }
-table.albo tr.tableline {border-bottom: 1px solid textColor1; }
+table.albo a:link, table.albo a:active, table.albo a:visited { color:albiNotHoverLinkColor; }
+table.albo a:hover { color:hoverLinkColor; }
+table.albo th { color:marcatoriHeaderColor; }
+table.albo td.marcatore {color: marcatoreColor; }
+table.albo tr.tableline {border-bottom: 1px solid tableAlboMarcatoriLineColor; }
+table.albo td.squadra { color:tableAlboSquadraColor; }
+table.albo span.presidente{ color:textColor0}
 
 /*
  * DOWNLOAD
  * * * * * */
 table#downloads { line-height: 20px; height: 20px; }
-td a:link, p a:link { color:color7; text-deco
-ration: none;}
-td a:active, p a:active { color:color7; text-decoration: none;}
-td a:visited, p a:visited { color:color7; text-decoration: none;}
-td a:hover, p a:hover { color:textColor4; text-decoration: none;}
-th { color:color7; font-size:1.2em}
+td a:link, p a:link { color:color7; text-decoration: none; }
+td a:active, p a:active { color:color7; text-decoration: none; }
+td a:visited, p a:visited { color:color7; text-decoration: none; }
+td a:hover, p a:hover { color:textColor4; text-decoration: none; }
+th { color:color7; font-size:1.2em; }
 img.new { vertical-align: middle; }
 
 /****/
@@ -304,8 +302,6 @@ table.main h2.modify { color:textColor1; font-size:1.5em; }
 
 h1.title{ text-align:center; font-size:2em; margin:0; color:sectionTitleColor; }
 h2.giornata { text-align:center; font-size:1em}
-h3{ text-align:right; color:#00FFFF; font-family:Arial, Helvetica, sans-serif; font-size:small; font-weight: bold; }
-h4{	font-family:Arial, Helvetica, sans-serif; font-style:normal; font-weight:bold; text-align:right; color:textColor2}
 
 #a000, #a001, #a002, #a003, 
 #a010, #a011, #a012, #a013,
@@ -368,9 +364,6 @@ table.modificatore th.header2{ text-align:center; color:textColor0; }
 table.modificatore td{ text-align:left; color:textColor0; }
 table.modificatore td.values{ text-align:center; color:textColor0; }
 
-table.albo td.squadra { color:textColor0; }
-table.albo span.presidente{ color:textColor0}
-
 table.regoleCalendario { border:none; width:65em; text-align:center;}
 .regoleTitoli{ color:textColor0; }
 #mercato_example { color: textColor1;}
@@ -397,7 +390,7 @@ p {color:textColor0; font-size:1em; }
 .hidden { display:none; }
 .goals { display:none; height:30px;}
 .noBorder { border:none; } 
-.notFound { color:textColor6; }
+.notFound { color:notFoundColor; }
 #moduli { width:95%; text-align:center;}
 
 td.bodyColumn0 { width:172px; } 
@@ -430,3 +423,9 @@ span.data { font-size: 10px; color: color7;}
 #unlockBtn, viewBtn, archiveBtn { width:80px; }
 #archiveButton { width:100px; }
 /* stili per lista files (dragdrop.php e offerte.php)*/
+
+/*
+ * ARCHIVI
+ * * * * * */
+ h2.firstClass { color: color7; }
+/* * * * * */

@@ -20,88 +20,88 @@
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-          <h1 class="title">VII&deg; Campionato Fantacalcio NMR 2005-2006</h1>
+          <h1 class="title">VII Campionato Fantacalcio NMR 2005-2006</h1>
 		  <br />
           <br />
-          <h2 style="color:#333333">1&deg; Classificato: </h2>
+          <h2 class='firstClass'>1&deg; Classificato: </h2>
           <h2 class="title">DINAMO CIOFECA</h2>
           <br />
           <table class="classificaBarre">
           <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
           </tr>
             <tr>
               <td align="right">Dinamo Ciofeca</td>
               <td>&nbsp;</td>
-              <td style="color:#333333">56</td>
+              <td>56</td>
               <td colspan="56" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
             <tr>
               <td align="right">A.S.C. Emo! </td>
               <td>&nbsp;</td>
-              <td style="color:#333333">49</td>
+              <td>49</td>
               <td colspan="49" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
               <td colspan="7" >&nbsp;</td>
@@ -109,7 +109,7 @@
             <tr>
               <td align="right">Deportivo Rufus</td>
               <td>&nbsp;</td>
-              <td style="color:#333333">45</td>
+              <td>45</td>
               <td colspan="45" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
               <td colspan="11" >&nbsp;</td>
@@ -117,7 +117,7 @@
             <tr>
               <td align="right">Real Mentescars </td>
               <td>&nbsp;</td>
-              <td style="color:#333333">43</td>
+              <td>43</td>
               <td colspan="43" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
               <td colspan="13" >&nbsp;</td>
@@ -125,7 +125,7 @@
             <tr>
               <td align="right">EPOrediese </td>
               <td>&nbsp;</td>
-              <td style="color:#333333">39</td>
+              <td>39</td>
               <td colspan="39" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
               <td colspan="17" >&nbsp;</td>
@@ -133,7 +133,7 @@
             <tr>
               <td align="right">Atletico? No Grazie!</td>
               <td>&nbsp;</td>
-              <td style="color:#333333">35</td>
+              <td>35</td>
               <td colspan="35" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
               <td colspan="21" >&nbsp;</td>
@@ -141,7 +141,7 @@
             <tr>
               <td align="right">Lokomotiv Peccorino</td>
               <td>&nbsp;</td>
-              <td style="color:#333333">30</td>
+              <td>30</td>
               <td colspan="30" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
               <td colspan="26" >&nbsp;</td>
@@ -149,7 +149,7 @@
             <tr>
               <td align="right">Bradipo</td>
               <td>&nbsp;</td>
-              <td style="color:#333333">13</td>
+              <td>13</td>
               <td colspan="13" class='Barra'>&nbsp;</td>
               <td>&nbsp;</td>
               <td colspan="43" >&nbsp;</td>

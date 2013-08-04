@@ -26,10 +26,10 @@
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-<h1 class="title">XII° Campionato Fantacalcio NMR 2010/11</h1>
+<h1 class="title">XII Campionato Fantacalcio NMR 2010/11</h1>
         <br />
         <br />
-        <h2 style="color:#333333">1&deg; Classificato: </h2>
+        <h2 class='firstClass'>1&deg; Classificato: </h2>
         <h2 class="title">ATLETICO? NO GRAZIE!</h2>
         <br />
 <?php
