@@ -56,9 +56,9 @@
                                 <br />
                                 <div id='scientific_program' style="line-height: 30px;">
 
-                                    <a href="../../documenti/COST_TD_1004_Athens_2013/Program_Athens_Annual Meeting_2013.pdf"><b>Download Programme</b></a>
+                                    <a href="../../documenti/COST_TD1004_Athens_2013/Program_Athens_Annual Meeting_2013.pdf"><b>Download Programme</b></a>
                                     <br />
-                                    <a href="../../documenti/COST_TD_1004_Athens_2013/Poster_presentations_Athens_2013.pdf"><b>Download Poster Presentations</b></a>
+                                    <a href="../../documenti/COST_TD1004_Athens_2013/Poster_presentations_Athens_2013.pdf"><b>Download Poster Presentations</b></a>
 
                                     <br />
                                     <br />
