@@ -30,6 +30,7 @@ $localizer = "../";
 <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
 	type="image/gif" />
 <body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
 	<div id='section5'>
 
 

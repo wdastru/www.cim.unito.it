@@ -24,6 +24,7 @@ $localizer = "./";
 </script>
 </head>
 <body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
 	<div id='section4'>
 
 	<?php require('includes/main-nav.php'); ?>

@@ -26,6 +26,7 @@ $localizer = "../../";
         <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
     </head>
     <body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section5'>
             <?php
             require ($localizer . 'includes/main-nav.php');

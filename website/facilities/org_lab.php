@@ -25,6 +25,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
     </head>
     <body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section3'>
 
             <?php require ($localizer . 'includes/main-nav.php'); ?>

@@ -24,6 +24,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section2'>
 
             <?php

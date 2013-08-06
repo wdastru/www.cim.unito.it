@@ -26,6 +26,7 @@
 </script>
 </head>  
 <body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
 	<div id='section6'>
 	<?php require('includes/main-nav.php'); ?>
 		<div id='header'></div>

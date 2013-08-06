@@ -9,5 +9,6 @@
 <title></title>
 </head>
 <body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
 </body>
 </html>
