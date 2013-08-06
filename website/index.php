@@ -26,7 +26,7 @@ xmlns="http://www.w3.org/1999/xhtml">
     </head>
     <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
-        <?php include_once($localizer . 'analyticstracking.php') ?>
+        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
             <?php
             require ('includes/main-nav.php');
