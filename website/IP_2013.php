@@ -204,8 +204,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <td><img class="probes2009" src="images/karolinska_logo.png"
                                         alt="Karolinska Institutet (SE)" /></td>
                                         <td>Karolinska Institutet (SE)</td>
-                                        <td></td>
-                                        <td><!--<a href="mailto:">--> <img
+                                        <td>Lars Holmgren</td>
+                                        <td><a href="mailto:lars.holmgren@ki.se"> <img
                                         style="border: none" src="images/icon-48x48-envelope_go.png"
                                         alt="mail to" width="24" height="24" /> <!--</a>--></td>
                                     </tr>
@@ -213,8 +213,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <td><img class="probes2009" src="images/lyon_logo.jpg"
                                         alt="University of Lyon 1 (FR)" /></td>
                                         <td>University of Lyon 1 (FR)</td>
-                                        <td></td>
-                                        <td><!--<a href="mailto:">--> <img
+                                        <td>Philippe Douek</td>
+                                        <td><a href="mailto:philippe.douek@creatis.univ-lyon1.fr"> <img
                                         style="border: none" src="images/icon-48x48-envelope_go.png"
                                         alt="mail to" width="24" height="24" /> <!--</a>--></td>
                                     </tr>
@@ -222,8 +222,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <td><img class="probes2009" src="images/santiago_compostela_logo.gif"
                                         alt="Universitat de Santiago de Compostela (ES)" /></td>
                                         <td>Universitat de Santiago de Compostela (ES)</td>
-                                        <td></td>
-                                        <td><!--<a href="mailto:">--> <img
+                                        <td>Maria Jos&eacute; Alonso Fern&aacute;ndez</td>
+                                        <td><a href="mailto:mariaj.alonso@usc.es"> <img
                                         style="border: none" src="images/icon-48x48-envelope_go.png"
                                         alt="mail to" width="24" height="24" /> <!--</a>--></td>
                                     </tr>
@@ -238,17 +238,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     Biotechnology Center, Via Nizza 52, Torino.
                                 </p>
                                 <p>
-                                    Students will be accommodated at EDISU, a student residence
-                                    held by the University of Torino in Corso Lungo Dora Siena,
-                                    150, Torino and at Open011, a residence located in Corso
-                                    Venezia, 11.
+                                    Students will be accommodated at <a href="http://www.hotelplazatorino.it/"><b>Hotel Plaza</b></a>
+                                    (via Ilarione Petitti, 18 - 5' walk from the Molecular Biotechnology Center, 23&euro; BB).
                                 </p>
-                                <p>
-                                    The following services are included:
-                                </p>
-                                <ul>
+                                <!--<ul>
                                     <li>
-                                        Breakfast
+                                        
                                     </li>
                                     <li>
                                         Blankets, bed linen and towel (changed once every 7 days)
@@ -259,7 +254,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <li>
                                         Free internet connection
                                     </li>
-                                </ul>
+                                </ul>-->
                                 <p>
                                     Information on how to reach the location of the IP from
                                     airport or by train and on how to reach the lecture room from
