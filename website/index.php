@@ -63,8 +63,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div id='columnWrapper'>
                                 <div id='col1'>
                                     <!--<h2 class='punch orange'><span>RECENT PUBS</span></h2>
-                                    <span class="paperTitle">�Gadolinium-doped LipoCEST agents: A
-                                        potential novel class of dual 1H-MRI probes�</span>
+                                    <span class="paperTitle">ï¿½Gadolinium-doped LipoCEST agents: A
+                                        potential novel class of dual 1H-MRI probesï¿½</span>
                                     <br />
                                     Terreno E., Boffa C., Menchise V., Fedeli F., Carrera C.,
                                     Castelli D.D., Digilio G., Aime S.
@@ -82,6 +82,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     	Local Organizer: <br />
                                     	<span>Penelope Bouziotis</span><br/>
                                     	(<a href="mailto:bouzioti@rrp.demokritos.gr">bouzioti@rrp.demokritos.gr</a>).
+                                    <div id='divider'></div>
+                                    <p>2<sup>nd</sup> NanoFar Autumn School, October 21-25, 2013 
+                                        <br/>
+                                        University of Santiago de Compostela, Spain
+                                        <br />
+                                        <a href="documenti/Nanofar_Flyer_USC_2013.pdf">
+                                            <span class='paperTitle'>Flyer</span>
+                                        </a>
                                     <br />
                                     
                                 </div>
