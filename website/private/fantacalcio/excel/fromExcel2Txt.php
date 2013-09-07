@@ -57,13 +57,17 @@ else
 {
 	$parts = pathinfo($result[0]);
 	$filename = strtok($parts['basename'], '.'); // sul server la versione di php e' probabilmente vecchia e non esiste filename 
-	$nameTxt = strtok($filename, '-');
-
-	if( !preg_match('/MCCMicro[P|p]agamenti/', $filename) )
+	
+	//if( !preg_match('/MCCMicro[P|p]agamenti/', $filename) )
+	if( !preg_match('/quotazioni_gazzetta_[0-9]{2}/', $filename) )
 	{
 		unlink($result[0]);
 		header('Location: ../errors/error.php?error=excelError');
 		exit();
+	} else {
+		$nameTxt = strtok($filename, '_');
+		$nameTxt = strtok('_');
+		$nameTxt = strtok('_');
 	}
 	
 	$data->read($result[0]);

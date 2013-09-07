@@ -194,7 +194,7 @@ if(file_exists($filename))
 	$content = str_replace('tableAlboMarcatoriLineColor', $colore_1_scuro, $content);
 	$content = str_replace('marcatoriHeaderColor', $grigio_scuro, $content);
 	$content = str_replace('marcatoreColor', $rosso, $content);
-	$content = str_replace('tableAlboSquadraColor', $rosso, $content);
+	/*$content = str_replace('tableAlboSquadraColor', $rosso, $content);*/
 	/* * * * * * * */
 	
 	echo $content;

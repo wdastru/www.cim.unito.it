@@ -267,8 +267,8 @@ table.albo a:hover { color:hoverLinkColor; }
 table.albo th { color:marcatoriHeaderColor; }
 table.albo td.marcatore {color: marcatoreColor; }
 table.albo tr.tableline {border-bottom: 1px solid tableAlboMarcatoriLineColor; }
-table.albo td.squadra { color:tableAlboSquadraColor; }
-table.albo span.presidente{ color:textColor0}
+/*table.albo td.squadra { color:tableAlboSquadraColor; }*/
+/*table.albo span.presidente{ color:textColor0}*/
 
 /*
  * DOWNLOAD
@@ -363,6 +363,9 @@ table.modificatore th.header{ text-align:center; color:textColor0; }
 table.modificatore th.header2{ text-align:center; color:textColor0; }
 table.modificatore td{ text-align:left; color:textColor0; }
 table.modificatore td.values{ text-align:center; color:textColor0; }
+
+table.albo td.squadra { color:textColor0; }
+table.albo span.presidente{ color:textColor0}
 
 table.regoleCalendario { border:none; width:65em; text-align:center;}
 .regoleTitoli{ color:textColor0; }
