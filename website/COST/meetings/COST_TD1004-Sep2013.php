@@ -57,11 +57,11 @@
                                 <br />
                                 <div id='scientific_program' style="line-height: 30px;">
 
-                                    <a href="../../documenti/COST_TD1004_Athens_2013/Program_Athens_Annual_Meeting_2013.pdf"><b>Download Programme</b></a>
+                                    <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Program_Athens_Annual_Meeting_2013.pdf"><b>Download Programme</b></a>
                                     <br />
-                                    <a href="../../documenti/COST_TD1004_Athens_2013/Poster_presentations_Athens_2013.pdf"><b>Download Poster Presentations</b></a>
+                                    <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Poster_presentations_Athens_2013.pdf"><b>Download Poster Presentations</b></a>
                                     <br />
-                                    <a href="../../documenti/COST_TD1004_Athens_2013/Athens_2013_Book_of_Abstracts_final.pdf"><b>Download Book of abstracts</b></a>
+                                    <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Athens_2013_Book_of_Abstracts_final.pdf"><b>Download Book of abstracts</b></a>
                                     
                                     <br />
                                     <br />
