@@ -203,33 +203,65 @@ function uploadFile($filename, $dir) {
                         
 						if ($_POST['edited'] == "yes") {
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
-								$sql = "UPDATE catalogo
-        								SET 	
-        									name_UK='" . $_POST['newname_UK'] . "',
-                                            name_IT='" . $_POST['newname_IT'] . "',
-                                            place='" . $_POST['newplace'] . "',
-        									quantity='" . $_POST['newquantity'] . "',
-        									lab='" . $_POST['newlab'] . "',
-        									note='" . $_POST['newnote'] . "',
-                                            code='" . $_POST['newcode'] . "',
-                                            supplier='" . $_POST['newsupplier'] . "',
-                                            CAS='" . $_POST['newCAS'] . "',
-                                            phrase_H='" . $_POST['newphrase_H'] . "',
-                                            phrase_R='" . $_POST['newphrase_R'] . "', 
-        					          		link='" . $_FILES['newlink']['name'] . "' 
-        								WHERE 	
-        									name_UK='" . $_SESSION['oldname_UK'] . "' AND
-                                            name_IT='" . $_SESSION['oldname_IT'] . "' AND
-                                            place='" . $_SESSION['oldplace'] . "' AND
-        									quantity='" . $_SESSION['oldquantity'] . "' AND
-        									lab='" . $_SESSION['oldlab'] . "' AND
-        									note='" . $_SESSION['oldnote'] . "' AND
-                                            code='" . $_SESSION['oldcode'] . "' AND
-                                            supplier='" . $_SESSION['oldsupplier'] . "' AND
-                                            CAS='" . $_SESSION['oldCAS'] . "' AND
-                                            phrase_H='" . $_SESSION['oldphrase_H'] . "' AND									
-        									phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
-        									link='" . $_SESSION['oldlink'] . "'";
+							        
+                                    if ($_FILES['newlink']['name'] != "") {
+							    
+        								$sql = "UPDATE catalogo
+                								SET 	
+                									name_UK='" . $_POST['newname_UK'] . "',
+                                                    name_IT='" . $_POST['newname_IT'] . "',
+                                                    place='" . $_POST['newplace'] . "',
+                									quantity='" . $_POST['newquantity'] . "',
+                									lab='" . $_POST['newlab'] . "',
+                									note='" . $_POST['newnote'] . "',
+                                                    code='" . $_POST['newcode'] . "',
+                                                    supplier='" . $_POST['newsupplier'] . "',
+                                                    CAS='" . $_POST['newCAS'] . "',
+                                                    phrase_H='" . $_POST['newphrase_H'] . "',
+                                                    phrase_R='" . $_POST['newphrase_R'] . "', 
+                					          		link='" . $_FILES['newlink']['name'] . "' 
+                								WHERE 	
+                									name_UK='" . $_SESSION['oldname_UK'] . "' AND
+                                                    name_IT='" . $_SESSION['oldname_IT'] . "' AND
+                                                    place='" . $_SESSION['oldplace'] . "' AND
+                									quantity='" . $_SESSION['oldquantity'] . "' AND
+                									lab='" . $_SESSION['oldlab'] . "' AND
+                									note='" . $_SESSION['oldnote'] . "' AND
+                                                    code='" . $_SESSION['oldcode'] . "' AND
+                                                    supplier='" . $_SESSION['oldsupplier'] . "' AND
+                                                    CAS='" . $_SESSION['oldCAS'] . "' AND
+                                                    phrase_H='" . $_SESSION['oldphrase_H'] . "' AND									
+                									phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
+                									link='" . $_SESSION['oldlink'] . "'";
+        							} else {
+        							    
+                                        $sql = "UPDATE catalogo
+                                                SET     
+                                                    name_UK='" . $_POST['newname_UK'] . "',
+                                                    name_IT='" . $_POST['newname_IT'] . "',
+                                                    place='" . $_POST['newplace'] . "',
+                                                    quantity='" . $_POST['newquantity'] . "',
+                                                    lab='" . $_POST['newlab'] . "',
+                                                    note='" . $_POST['newnote'] . "',
+                                                    code='" . $_POST['newcode'] . "',
+                                                    supplier='" . $_POST['newsupplier'] . "',
+                                                    CAS='" . $_POST['newCAS'] . "',
+                                                    phrase_H='" . $_POST['newphrase_H'] . "',
+                                                    phrase_R='" . $_POST['newphrase_R'] . "' 
+                                                WHERE   
+                                                    name_UK='" . $_SESSION['oldname_UK'] . "' AND
+                                                    name_IT='" . $_SESSION['oldname_IT'] . "' AND
+                                                    place='" . $_SESSION['oldplace'] . "' AND
+                                                    quantity='" . $_SESSION['oldquantity'] . "' AND
+                                                    lab='" . $_SESSION['oldlab'] . "' AND
+                                                    note='" . $_SESSION['oldnote'] . "' AND
+                                                    code='" . $_SESSION['oldcode'] . "' AND
+                                                    supplier='" . $_SESSION['oldsupplier'] . "' AND
+                                                    CAS='" . $_SESSION['oldCAS'] . "' AND
+                                                    phrase_H='" . $_SESSION['oldphrase_H'] . "' AND                                 
+                                                    phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
+                                                    link='" . $_SESSION['oldlink'] . "'";
+        							}
                                 
                                 //echo $sql;
                                 
