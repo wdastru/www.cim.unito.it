@@ -138,33 +138,34 @@ function uploadFile($filename, $dir) {
 								<td>
 									<form name="search" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 										<?php
-										for ($i = 0; $i < $_SESSION['nfields']; $i++) {
-
-											if (!isset($_POST['find' . $i])) {
-												$_POST['find' . $i] = "";
-											}
-
-											echo "
-                            					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
-                            					<Select NAME='field" . $i . "'>
-                            					<Option VALUE='name_UK'>Name (UK)</option>
-                                                <Option VALUE='name_IT'>Name (IT)</option>
-                                                <Option VALUE='place'>Place</option>
-                            					<Option VALUE='quantity'>Quantity</option>
-                            					<Option VALUE='lab'>Laboratory</option>
-                            					<Option VALUE='note'>Note</option>
-                                                <!-- <Option VALUE='code'>Code</option>
-                                                <Option VALUE='supplier'>Supplier</option> -->
-                                                <Option VALUE='CAS'>CAS n&deg;</option>
-                                                <Option VALUE='phrase_R'>Risk phrase</option>
-                                                <Option VALUE='phrase_H'>Satefy phrase</option>	
-                            					</Select>
-                            					<br />
-                            				";
-										}
+    										for ($i = 0; $i < $_SESSION['nfields']; $i++) {
+    
+    											if (!isset($_POST['find' . $i])) {
+    												$_POST['find' . $i] = "";
+    											}
+    
+    											echo "
+                                					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
+                                					<Select NAME='field" . $i . "'>
+                                    					<Option VALUE='name_UK'>Name (UK)</option>
+                                                        <Option VALUE='name_IT'>Name (IT)</option>
+                                                        <Option VALUE='place'>Place</option>
+                                    					<Option VALUE='quantity'>Quantity</option>
+                                    					<Option VALUE='lab'>Laboratory</option>
+                                    					<Option VALUE='note'>Note</option>
+                                                        <!-- <Option VALUE='code'>Code</option>
+                                                        <Option VALUE='supplier'>Supplier</option> -->
+                                                        <Option VALUE='CAS'>CAS n&deg;</option>
+                                                        <Option VALUE='phrase_R'>Risk phrase</option>
+                                                        <Option VALUE='phrase_H'>Satefy phrase</option>
+                                					</Select>
+                                					<br />
+                                				";
+    										}
 										?>
-										<input type="hidden" name="searching" value="yes" /> <br /> <input
-											type="submit" name="search" value="Submit" />
+										<input type="hidden" name="searching" value="yes" /> 
+										<br /> 
+										<input type="submit" name="search" value="Submit" />
 									</form>
 								</td>
 							</tr>
@@ -355,10 +356,8 @@ function uploadFile($filename, $dir) {
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
                             			<th class='headerNote'>Note</th>
-                            			<!-- <th class='headerCode'>Code</th>
-                            			<th class='headerSupplier'>Supplier</th> -->
                             			<th class='headerCAS'>CAS n&deg;</th>
-                            			<th class='headerPhraseS'>Phrase H</th>
+                            			<th class='headerPhraseH'>Phrase H</th>
                             			<th class='headerPhraseR'>Phrase R</th>
                             			<th class='headerLink'>Scheda</th>
                             		</tr>
@@ -371,8 +370,6 @@ function uploadFile($filename, $dir) {
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
-                                        <!-- <td class='void'>&nbsp;</td>
-                                        <td class='void'>&nbsp;</td> -->
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
@@ -390,8 +387,6 @@ function uploadFile($filename, $dir) {
                         						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
                                                 <input type='hidden' name='note2edit' value='" . $result['note'] . "' />
-                                                <input type='hidden' name='code2edit' value='' />
-                                                <input type='hidden' name='supplier2edit' value='' />
                                                 <input type='hidden' name='CAS2edit' value='" . $result['CAS'] . "' />
                         						<input type='hidden' name='phrase_H2edit' value='" . $result['phrase_H'] . "' />
                                                 <input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
@@ -407,8 +402,6 @@ function uploadFile($filename, $dir) {
                         						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
                         						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
                         						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
-                                                <input type='hidden' name='code2remove' value='' />
-                                                <input type='hidden' name='supplier2remove' value='' />
                                                 <input type='hidden' name='CAS2remove' value='" . $result['CAS'] . "' />
                                                 <input type='hidden' name='phrase_H2remove' value='" . $result['phrase_H'] . "' />
                         						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
@@ -422,8 +415,6 @@ function uploadFile($filename, $dir) {
                                         <td class='data'>" . $result['quantity'] . "</td>
                                         <td class='data'>" . $result['lab'] . "</td>
                                         <td class='data'>" . $result['note'] . "</td>
-                                        <td class='data'></td>
-                                        <td class='data'></td>
                                         <td class='data'>" . $result['CAS'] . "</td>
                                         <td class='data'>" . $result['phrase_H'] . "</td>
                                         <td class='data'>" . $result['phrase_R'] . "</td>";
