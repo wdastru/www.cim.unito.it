@@ -322,8 +322,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     -->
                                     <li>
                                         <a
-                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/Tumour_IP_Turin_2013_draft.pdf">IP
-                                        PROBES 2013 schedule (draft)</a>
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/Tumour_IP_Turin_2013.pdf">IP
+                                        PROBES 2013 schedule</a>
                                     </li>
                                     <li>
                                         <a
