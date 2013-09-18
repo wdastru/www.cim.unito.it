@@ -262,10 +262,10 @@ function uploadFile($filename, $dir) {
                                                                                                         
         							}
                                 
-                                //echo $sql;
                                 
 								mysql_query($sql);
-								echo "<br />mysql_error : " . mysql_error() . "<br />";
+								echo "<br />" . $sql . "<br />";
+                                echo "<br />mysql_error : " . mysql_error() . "<br />";
 								
 								if ($_FILES['newlink']['name'] != "") {
                                     uploadFile($_FILES["newlink"], './safety_info/');
