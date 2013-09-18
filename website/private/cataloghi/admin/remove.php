@@ -11,8 +11,6 @@ $_SESSION['oldplace'] = $_POST['place2remove'];
 $_SESSION['oldquantity'] = $_POST['quantity2remove'];
 $_SESSION['oldlab'] = $_POST['lab2remove'];
 $_SESSION['oldnote'] = $_POST['note2remove'];
-$_SESSION['oldcode'] = $_POST['code2remove'];
-$_SESSION['oldsupplier'] = $_POST['supplier2remove'];
 $_SESSION['oldCAS'] = $_POST['CAS2remove'];
 $_SESSION['oldphrase_H'] = $_POST['phrase_H2remove'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
@@ -95,25 +93,16 @@ $localizer = "../../../";
                                     <td>Note :</td>
                                     <td><?php echo $_POST['note2remove']; ?></td>
                                 </tr>
-                                <!-- <tr>
-                                    <td>Code :</td>
-                                    <td><?php echo $_POST['code2remove']; ?></td>
-                                </tr>
-                                <tr>
-                                    <td>Supplier :</td>
-                                    <td><?php echo $_POST['supplier2remove']; ?></td>
-                                </tr> -->
-                                
                                 <tr>
                                     <td>CAS n&deg; :</td>
                                     <td><?php echo $_POST['CAS2remove']; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Risk phrase :</td>
+                                    <td>Risk statements (R) :</td>
                                     <td><?php echo $_POST['phrase_R2remove']; ?></td>
                                 </tr>
 								<tr>
-									<td>Safety phrase :</td>
+									<td>Hazard statements (H) :</td>
 									<td><?php echo $_POST['phrase_H2remove']; ?></td>
 								</tr>
 								<tr>

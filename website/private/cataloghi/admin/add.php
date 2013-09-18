@@ -91,12 +91,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Risk phrases : </td>
+                                    <td>Risk Statements (R) : </td>
                                     <td><input type='text' size='70' name='newphrase_R'>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Safety phrases : </td>
+                                    <td>Hazard Statements (H) : </td>
                                     <td><input type='text' size='70' name='newphrase_H'>
                                     </td>
                                 </tr>

@@ -154,8 +154,8 @@ function uploadFile($filename, $dir) {
                                     					<Option VALUE='lab'>Laboratory</option>
                                     					<Option VALUE='note'>Note</option>
                                                         <Option VALUE='CAS'>CAS n&deg;</option>
-                                                        <Option VALUE='phrase_R'>Risk phrase</option>
-                                                        <Option VALUE='phrase_H'>Satefy phrase</option>
+                                                        <Option VALUE='phrase_R'>Risk Statements (R)</option>
+                                                        <Option VALUE='phrase_H'>Hazard statements (H)</option>
                                 					</Select>
                                 					<br />
                                 				";
