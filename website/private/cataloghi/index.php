@@ -265,12 +265,14 @@ function uploadFile($filename, $dir) {
                                 
 								mysql_query($sql);
 								
-                                if (mysql_errno() != 0) {
+                                //if (mysql_errno() != 0) 
+                                {
                                     echo "<br />" . $sql . "<br />";
                                     echo "<br />" . mysql_errno() . ": " . mysql_error(). "<br />";    
                                 }
 								
-								if ($_FILES['newlink']['name'] != "") {
+								if ($_FILES['newlink']['name'] != "")
+								{
                                     uploadFile($_FILES["newlink"], './safety_info/');
                                 }
                                 
