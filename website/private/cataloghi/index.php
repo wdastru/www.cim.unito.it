@@ -153,8 +153,6 @@ function uploadFile($filename, $dir) {
                                     					<Option VALUE='quantity'>Quantity</option>
                                     					<Option VALUE='lab'>Laboratory</option>
                                     					<Option VALUE='note'>Note</option>
-                                                        <!-- <Option VALUE='code'>Code</option>
-                                                        <Option VALUE='supplier'>Supplier</option> -->
                                                         <Option VALUE='CAS'>CAS n&deg;</option>
                                                         <Option VALUE='phrase_R'>Risk phrase</option>
                                                         <Option VALUE='phrase_H'>Satefy phrase</option>
@@ -261,14 +259,19 @@ function uploadFile($filename, $dir) {
                                                     phrase_H='" . $_SESSION['oldphrase_H'] . "' AND                                 
                                                     phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
                                                     link='" . $_SESSION['oldlink'] . "'";
+                                                                                                        
         							}
                                 
                                 //echo $sql;
                                 
 								mysql_query($sql);
-								echo mysql_error();
+								echo "<br />mysql_error : " . mysql_error() . "<br />";
 								
-								uploadFile($_FILES["newlink"], './safety_info/');
+								if ($_FILES['newlink']['name'] != "") {
+                                    uploadFile($_FILES["newlink"], './safety_info/');
+                                }
+                                
+                                exit();
 								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
