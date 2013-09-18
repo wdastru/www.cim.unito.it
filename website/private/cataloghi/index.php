@@ -286,8 +286,6 @@ function uploadFile($filename, $dir) {
                                             quantity='" . $_SESSION['oldquantity'] . "' AND
                                             lab='" . $_SESSION['oldlab'] . "' AND
                                             note='" . $_SESSION['oldnote'] . "' AND
-                                            code='" . $_SESSION['oldcode'] . "' AND
-                                            supplier='" . $_SESSION['oldsupplier'] . "' AND
                                             CAS='" . $_SESSION['oldCAS'] . "' AND
                                             phrase_H='" . $_SESSION['oldphrase_H'] . "' AND                                                                 
                                             phrase_R='" . $_SESSION['oldphrase_R'] . "' AND                                                                 
@@ -302,7 +300,7 @@ function uploadFile($filename, $dir) {
 						if ($_POST['added'] == "yes") {							
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 							        
-							    $sql = "INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, code, supplier, CAS, phrase_H, phrase_R, link )
+							    $sql = "INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, CAS, phrase_H, phrase_R, link )
                                     VALUES ( '" 
                                     . $_POST['newname_UK'] . "', '" 
                                     . $_POST['newname_IT'] . "', '"
@@ -310,8 +308,6 @@ function uploadFile($filename, $dir) {
                                     . $_POST['newquantity'] . "', '"
                                     . $_POST['newlab'] . "', '"
                                     . $_POST['newnote'] . "', '"
-                                    . $_POST['newcode'] . "', '"
-                                    . $_POST['newsupplier'] . "', '"
                                     . $_POST['newCAS'] . "', '"
                                     . $_POST['newphrase_H'] . "', '"
                                     . $_POST['newphrase_R'] . "', '"
