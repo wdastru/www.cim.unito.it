@@ -6,6 +6,7 @@ if ($hostname[0] == "EPTADONE") {
 }
 session_start();
 $localizer = "../../../";
+
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -48,14 +49,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <form name='add' method='post' enctype="multipart/form-data" action="<?php echo $localizer; ?>private/cataloghi/index.php">
                             <table>
-                                <!--<tr>
-                                    <td>Product code :</td>
-                                    <td><input type='text' size='70' name='newcode'/></td>
-                                </tr>
-                                <tr>
-                                    <td>Supplier :</td>
-                                    <td><input type='text' size='70' name='newsupplier'/></td>
-                                </tr> -->
                                 
                                 <input type='hidden' name='newcode' value='' />
                                 <input type='hidden' name='newsupplier' value='' />

@@ -5,17 +5,38 @@ if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
 }
 session_start();
-$_SESSION['oldname_UK']     = $_POST['name_UK2edit'];
-$_SESSION['oldname_IT']     = $_POST['name_IT2edit'];
+
+print_r($_POST);
+
+$_POST['name_UK2edit']  = html_apostrophes($_POST['name_UK2edit']);          
+$_POST['name_IT2edit']  = html_apostrophes($_POST['name_IT2edit']);        
+$_POST['place2edit']    = html_apostrophes($_POST['place2edit']);       
+$_POST['quantity2edit'] = html_apostrophes($_POST['quantity2edit']);        
+$_POST['lab2edit']      = html_apostrophes($_POST['lab2edit']);
+$_POST['note2edit']     = html_apostrophes($_POST['note2edit']);
+$_POST['CAS2edit']      = html_apostrophes($_POST['CAS2edit']);
+$_POST['phrase_H2edit'] = html_apostrophes($_POST['phrase_H2edit']);
+$_POST['phrase_R2edit'] = html_apostrophes($_POST['phrase_R2edit']);
+$_POST['link2edit']     = html_apostrophes($_POST['link2edit']);
+
+print_r($_POST);
+
+$_SESSION['oldname_UK']  = $_POST['name_UK2edit'];
+$_SESSION['oldname_IT']  = $_POST['name_IT2edit'];
 $_SESSION['oldplace']    = $_POST['place2edit'];
 $_SESSION['oldquantity'] = $_POST['quantity2edit'];
 $_SESSION['oldlab']      = $_POST['lab2edit'];
 $_SESSION['oldnote']     = $_POST['note2edit'];
-$_SESSION['oldCAS'] = $_POST['CAS2edit'];
+$_SESSION['oldCAS']      = $_POST['CAS2edit'];
 $_SESSION['oldphrase_H'] = $_POST['phrase_H2edit'];
 $_SESSION['oldphrase_R'] = $_POST['phrase_R2edit'];
-$_SESSION['oldlink'] = $_POST['link2edit'];
+$_SESSION['oldlink']     = $_POST['link2edit'];
 $localizer = "../../../";
+
+function html_apostrophes($arg) {
+    return str_replace("'", "&#39", $arg);
+}
+
 ?>
 
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"

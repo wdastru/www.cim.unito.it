@@ -65,9 +65,17 @@ function uploadFile($filename, $dir) {
 		//header($where);
 	}	
 }
+
+function html_apostrophes($arg) {
+    return str_replace("'", "&#39", $arg);
+}
+
 ?>
+
+
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
@@ -196,64 +204,65 @@ function uploadFile($filename, $dir) {
                         //print_r($_POST);
                         
 						if ($_POST['edited'] == "yes") {
-							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
+						    
+                            if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 							        
                                     if ($_FILES['newlink']['name'] != "") {
 							    
         								$sql = "UPDATE catalogo
                 								SET 	
-                									name_UK='" . $_POST['newname_UK'] . "',
-                                                    name_IT='" . $_POST['newname_IT'] . "',
-                                                    place='" . $_POST['newplace'] . "',
-                									quantity='" . $_POST['newquantity'] . "',
-                									lab='" . $_POST['newlab'] . "',
-                									note='" . $_POST['newnote'] . "',
-                                                    CAS='" . $_POST['newCAS'] . "',
-                                                    phrase_H='" . $_POST['newphrase_H'] . "',
-                                                    phrase_R='" . $_POST['newphrase_R'] . "', 
-                					          		link='" . $_FILES['newlink']['name'] . "' 
+                									name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])       . "',
+                                                    name_IT='"  . mysql_real_escape_string($_POST['newname_IT'])       . "',
+                                                    place='"    . mysql_real_escape_string($_POST['newplace'])         . "',
+                									quantity='" . mysql_real_escape_string($_POST['newquantity'])      . "',
+                									lab='"      . mysql_real_escape_string($_POST['newlab'])           . "',
+                									note='"     . mysql_real_escape_string($_POST['newnote'])          . "',
+                                                    CAS='"      . mysql_real_escape_string($_POST['newCAS'])           . "',
+                                                    phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])      . "',
+                                                    phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])      . "', 
+                					          		link='"     . mysql_real_escape_string($_FILES['newlink']['name']) . "' 
                 								WHERE 	
-                									name_UK='" . $_SESSION['oldname_UK'] . "' AND
-                                                    name_IT='" . $_SESSION['oldname_IT'] . "' AND
-                                                    place='" . $_SESSION['oldplace'] . "' AND
-                									quantity='" . $_SESSION['oldquantity'] . "' AND
-                									lab='" . $_SESSION['oldlab'] . "' AND
-                									note='" . $_SESSION['oldnote'] . "' AND
-                                                    CAS='" . $_SESSION['oldCAS'] . "' AND
-                                                    phrase_H='" . $_SESSION['oldphrase_H'] . "' AND									
-                									phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
-                									link='" . $_SESSION['oldlink'] . "'";
+                									name_UK='"  . mysql_real_escape_string($_SESSION['oldname_UK'])    . "' AND
+                                                    name_IT='"  . mysql_real_escape_string($_SESSION['oldname_IT'])    . "' AND
+                                                    place='"    . mysql_real_escape_string($_SESSION['oldplace'])      . "' AND
+                									quantity='" . mysql_real_escape_string($_SESSION['oldquantity'])   . "' AND
+                									lab='"      . mysql_real_escape_string($_SESSION['oldlab'])        . "' AND
+                									note='"     . mysql_real_escape_string($_SESSION['oldnote'])       . "' AND
+                                                    CAS='"      . mysql_real_escape_string($_SESSION['oldCAS'])        . "' AND
+                                                    phrase_H='" . mysql_real_escape_string($_SESSION['oldphrase_H'])   . "' AND									
+                									phrase_R='" . mysql_real_escape_string($_SESSION['oldphrase_R'])   . "' AND
+                									link='"     . mysql_real_escape_string($_SESSION['oldlink'])       . "'";
         							} else {
         							    
                                         $sql = "UPDATE catalogo
                                                 SET     
-                                                    name_UK='" . $_POST['newname_UK'] . "',
-                                                    name_IT='" . $_POST['newname_IT'] . "',
-                                                    place='" . $_POST['newplace'] . "',
-                                                    quantity='" . $_POST['newquantity'] . "',
-                                                    lab='" . $_POST['newlab'] . "',
-                                                    note='" . $_POST['newnote'] . "',
-                                                    CAS='" . $_POST['newCAS'] . "',
-                                                    phrase_H='" . $_POST['newphrase_H'] . "',
-                                                    phrase_R='" . $_POST['newphrase_R'] . "' 
+                                                    name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])     . "',
+                                                    name_IT='"  . mysql_real_escape_string($_POST['newname_IT'])     . "',
+                                                    place='"    . mysql_real_escape_string($_POST['newplace'])       . "',
+                                                    quantity='" . mysql_real_escape_string($_POST['newquantity'])    . "',
+                                                    lab='"      . mysql_real_escape_string($_POST['newlab'])         . "',
+                                                    note='"     . mysql_real_escape_string($_POST['newnote'])        . "',
+                                                    CAS='"      . mysql_real_escape_string($_POST['newCAS'])         . "',
+                                                    phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])    . "',
+                                                    phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])    . "' 
                                                 WHERE   
-                                                    name_UK='" . $_SESSION['oldname_UK'] . "' AND
-                                                    name_IT='" . $_SESSION['oldname_IT'] . "' AND
-                                                    place='" . $_SESSION['oldplace'] . "' AND
-                                                    quantity='" . $_SESSION['oldquantity'] . "' AND
-                                                    lab='" . $_SESSION['oldlab'] . "' AND
-                                                    note='" . $_SESSION['oldnote'] . "' AND
-                                                    CAS='" . $_SESSION['oldCAS'] . "' AND
-                                                    phrase_H='" . $_SESSION['oldphrase_H'] . "' AND                                 
-                                                    phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
-                                                    link='" . $_SESSION['oldlink'] . "'";
-                                                                                                        
+                                                    name_UK='"  . mysql_real_escape_string($_SESSION['oldname_UK'])  . "' AND
+                                                    name_IT='"  . mysql_real_escape_string($_SESSION['oldname_IT'])  . "' AND
+                                                    place='"    . mysql_real_escape_string($_SESSION['oldplace'])    . "' AND
+                                                    quantity='" . mysql_real_escape_string($_SESSION['oldquantity']) . "' AND
+                                                    lab='"      . mysql_real_escape_string($_SESSION['oldlab'])      . "' AND
+                                                    note='"     . mysql_real_escape_string($_SESSION['oldnote'])     . "' AND
+                                                    CAS='"      . mysql_real_escape_string($_SESSION['oldCAS'])      . "' AND
+                                                    phrase_H='" . mysql_real_escape_string($_SESSION['oldphrase_H']) . "' AND                                 
+                                                    phrase_R='" . mysql_real_escape_string($_SESSION['oldphrase_R']) . "' AND
+                                                    link='"     . mysql_real_escape_string($_SESSION['oldlink'])     . "'";
+                                                    
         							}
                                 
                                 
 								mysql_query($sql);
 								
-                                if (mysql_errno() != 0) 
+                                //if (mysql_errno() != 0) 
                                 {
                                     echo "<br />" . $sql . "<br />";
                                     echo "<br />" . mysql_errno() . ": " . mysql_error(). "<br />";    
@@ -276,16 +285,16 @@ function uploadFile($filename, $dir) {
 						if ($_POST['removed'] == "yes") {
 						        $sql= "DELETE FROM catalogo
                                         WHERE   
-                                            name_UK='" . $_SESSION['oldname_UK'] . "' AND
-                                            name_IT='" . $_SESSION['oldname_IT'] . "' AND
-                                            place='" . $_SESSION['oldplace'] . "' AND
-                                            quantity='" . $_SESSION['oldquantity'] . "' AND
-                                            lab='" . $_SESSION['oldlab'] . "' AND
-                                            note='" . $_SESSION['oldnote'] . "' AND
-                                            CAS='" . $_SESSION['oldCAS'] . "' AND
-                                            phrase_H='" . $_SESSION['oldphrase_H'] . "' AND                                                                 
-                                            phrase_R='" . $_SESSION['oldphrase_R'] . "' AND                                                                 
-                                            link='" . $_SESSION['oldlink'] . "'";
+                                            name_UK='"   . $_SESSION['oldname_UK']   . "' AND
+                                            name_IT='"   . $_SESSION['oldname_IT']   . "' AND
+                                            place='"     . $_SESSION['oldplace']     . "' AND
+                                            quantity='"  . $_SESSION['oldquantity']  . "' AND
+                                            lab='"       . $_SESSION['oldlab']       . "' AND
+                                            note='"      . $_SESSION['oldnote']      . "' AND
+                                            CAS='"       . $_SESSION['oldCAS']       . "' AND
+                                            phrase_H='"  . $_SESSION['oldphrase_H']  . "' AND                                                                 
+                                            phrase_R='"  . $_SESSION['oldphrase_R']  . "' AND                                                                 
+                                            link='"      . $_SESSION['oldlink']      . "'";
 						    
 							mysql_query($sql);
                             echo mysql_error();
@@ -298,16 +307,16 @@ function uploadFile($filename, $dir) {
 							        
 							    $sql = "INSERT INTO catalogo ( name_UK, name_IT, place, quantity, lab, note, CAS, phrase_H, phrase_R, link )
                                     VALUES ( '" 
-                                    . $_POST['newname_UK'] . "', '" 
-                                    . $_POST['newname_IT'] . "', '"
-                                    . $_POST['newplace'] . "', '"
-                                    . $_POST['newquantity'] . "', '"
-                                    . $_POST['newlab'] . "', '"
-                                    . $_POST['newnote'] . "', '"
-                                    . $_POST['newCAS'] . "', '"
-                                    . $_POST['newphrase_H'] . "', '"
-                                    . $_POST['newphrase_R'] . "', '"
-                                    . $_FILES['newlink']['name'] . "' )";
+                                    . mysql_real_escape_string($_POST['newname_UK'])        . "', '" 
+                                    . mysql_real_escape_string($_POST['newname_IT'])        . "', '"
+                                    . mysql_real_escape_string($_POST['newplace'])          . "', '"
+                                    . mysql_real_escape_string($_POST['newquantity'])       . "', '"
+                                    . mysql_real_escape_string($_POST['newlab'])            . "', '"
+                                    . mysql_real_escape_string($_POST['newnote'])           . "', '"
+                                    . mysql_real_escape_string($_POST['newCAS'])            . "', '"
+                                    . mysql_real_escape_string($_POST['newphrase_H'])       . "', '"
+                                    . mysql_real_escape_string($_POST['newphrase_R'])       . "', '"
+                                    . mysql_real_escape_string($_FILES['newlink']['name'])  . "' )";
                                     
                                 //echo $sql;
 								mysql_query($sql);
@@ -354,6 +363,7 @@ function uploadFile($filename, $dir) {
 								$_POST["find" . $i] = strtoupper($_POST["find" . $i]);
 								$_POST["find" . $i] = strip_tags($_POST["find" . $i]);
 								$_POST["find" . $i] = trim($_POST["find" . $i]);
+                                $_POST["find" . $i] = mysql_real_escape_string($_POST["find" . $i]);
 							}
 
 							//Now we search for our search term, in the field0 the user specified
@@ -402,44 +412,45 @@ function uploadFile($filename, $dir) {
                             	";
 
 							while ($result = mysql_fetch_array($data)) {
+							    
 								echo "<tr>
                                         <td>
                         					<form name='edit' method='post' action='admin/edit.php'>
-                        						<input type='hidden' name='name_UK2edit' value='" . $result['name_UK'] . "' />
-                                                <input type='hidden' name='name_IT2edit' value='" . $result['name_IT'] . "' />
-                                                <input type='hidden' name='place2edit' value='" . $result['place'] . "' />
-                        						<input type='hidden' name='quantity2edit' value='" . $result['quantity'] . "' />
-                        						<input type='hidden' name='lab2edit' value='" . $result['lab'] . "' />
-                                                <input type='hidden' name='note2edit' value='" . $result['note'] . "' />
-                                                <input type='hidden' name='CAS2edit' value='" . $result['CAS'] . "' />
-                        						<input type='hidden' name='phrase_H2edit' value='" . $result['phrase_H'] . "' />
-                                                <input type='hidden' name='phrase_R2edit' value='" . $result['phrase_R'] . "' />
-                                                <input type='hidden' name='link2edit' value='" . $result['link'] . "' />
+                        						<input type='hidden' name='name_UK2edit' value='"  .  html_apostrophes($result['name_UK'])  . "' />
+                                                <input type='hidden' name='name_IT2edit' value='"  .  html_apostrophes($result['name_IT'])  . "' />
+                                                <input type='hidden' name='place2edit' value='"    .  html_apostrophes($result['place'])    . "' />
+                        						<input type='hidden' name='quantity2edit' value='" .  html_apostrophes($result['quantity']) . "' />
+                        						<input type='hidden' name='lab2edit' value='"      .  html_apostrophes($result['lab'])      . "' />
+                                                <input type='hidden' name='note2edit' value='"     .  html_apostrophes($result['note'])     . "' />
+                                                <input type='hidden' name='CAS2edit' value='"      .  html_apostrophes($result['CAS'])      . "' />
+                        						<input type='hidden' name='phrase_H2edit' value='" .  html_apostrophes($result['phrase_H']) . "' />
+                                                <input type='hidden' name='phrase_R2edit' value='" .  html_apostrophes($result['phrase_R']) . "' />
+                                                <input type='hidden' name='link2edit' value='"     .  html_apostrophes($result['link'])     . "' />
                                                 <input type='submit' name='edit' value='Edit' />
                         					</form>
                         				</td>
                         				<td>
                         					<form name='remove' method='post' action='admin/remove.php'>
-                        						<input type='hidden' name='name_UK2remove' value='" . $result['name_UK'] . "' />
-                                                <input type='hidden' name='name_IT2remove' value='" . $result['name_IT'] . "' />
-                                                <input type='hidden' name='place2remove' value='" . $result['place'] . "' />
-                        						<input type='hidden' name='quantity2remove' value='" . $result['quantity'] . "' />
-                        						<input type='hidden' name='lab2remove' value='" . $result['lab'] . "' />
-                        						<input type='hidden' name='note2remove' value='" . $result['note'] . "' />
-                                                <input type='hidden' name='CAS2remove' value='" . $result['CAS'] . "' />
-                                                <input type='hidden' name='phrase_H2remove' value='" . $result['phrase_H'] . "' />
-                        						<input type='hidden' name='phrase_R2remove' value='" . $result['phrase_R'] . "' />
-                        						<input type='hidden' name='link2remove' value='" . $result['link'] . "' />
+                        						<input type='hidden' name='name_UK2remove' value='"  .  html_apostrophes($result['name_UK'])  . "' />   
+                                                <input type='hidden' name='name_IT2remove' value='"  .  html_apostrophes($result['name_IT'])  . "' />   
+                                                <input type='hidden' name='place2remove' value='"    .  html_apostrophes($result['place'])    . "' />   
+                        						<input type='hidden' name='quantity2remove' value='" .  html_apostrophes($result['quantity']) . "' />   
+                        						<input type='hidden' name='lab2remove' value='"      .  html_apostrophes($result['lab'])      . "' />   
+                        						<input type='hidden' name='note2remove' value='"     .  html_apostrophes($result['note'])     . "' />   
+                                                <input type='hidden' name='CAS2remove' value='"      .  html_apostrophes($result['CAS'])      . "' />   
+                                                <input type='hidden' name='phrase_H2remove' value='" .  html_apostrophes($result['phrase_H']) . "' />   
+                        						<input type='hidden' name='phrase_R2remove' value='" .  html_apostrophes($result['phrase_R']) . "' />   
+                        						<input type='hidden' name='link2remove' value='"     .  html_apostrophes($result['link'])     . "' />   
                         						<input class='removeButton' type='submit' name='remove' value='-' />
                         					</form>
                         				</td>
-                        				<td class='data'>" . $result['name_UK'] . "</td>
-                                        <td class='data'>" . $result['name_IT'] . "</td>
-                                        <td class='data'>" . $result['place'] . "</td>
+                        				<td class='data'>" . $result['name_UK']  . "</td>
+                                        <td class='data'>" . $result['name_IT']  . "</td>
+                                        <td class='data'>" . $result['place']    . "</td>
                                         <td class='data'>" . $result['quantity'] . "</td>
-                                        <td class='data'>" . $result['lab'] . "</td>
-                                        <td class='data'>" . $result['note'] . "</td>
-                                        <td class='data'>" . $result['CAS'] . "</td>
+                                        <td class='data'>" . $result['lab']      . "</td>
+                                        <td class='data'>" . $result['note']     . "</td>
+                                        <td class='data'>" . $result['CAS']      . "</td>
                                         <td class='data'>" . $result['phrase_H'] . "</td>
                                         <td class='data'>" . $result['phrase_R'] . "</td>";
                                         if ($result['link'] != '') {
