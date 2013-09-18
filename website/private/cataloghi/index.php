@@ -212,8 +212,6 @@ function uploadFile($filename, $dir) {
                 									quantity='" . $_POST['newquantity'] . "',
                 									lab='" . $_POST['newlab'] . "',
                 									note='" . $_POST['newnote'] . "',
-                                                    code='" . $_POST['newcode'] . "',
-                                                    supplier='" . $_POST['newsupplier'] . "',
                                                     CAS='" . $_POST['newCAS'] . "',
                                                     phrase_H='" . $_POST['newphrase_H'] . "',
                                                     phrase_R='" . $_POST['newphrase_R'] . "', 
@@ -225,8 +223,6 @@ function uploadFile($filename, $dir) {
                 									quantity='" . $_SESSION['oldquantity'] . "' AND
                 									lab='" . $_SESSION['oldlab'] . "' AND
                 									note='" . $_SESSION['oldnote'] . "' AND
-                                                    code='" . $_SESSION['oldcode'] . "' AND
-                                                    supplier='" . $_SESSION['oldsupplier'] . "' AND
                                                     CAS='" . $_SESSION['oldCAS'] . "' AND
                                                     phrase_H='" . $_SESSION['oldphrase_H'] . "' AND									
                 									phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
@@ -241,8 +237,6 @@ function uploadFile($filename, $dir) {
                                                     quantity='" . $_POST['newquantity'] . "',
                                                     lab='" . $_POST['newlab'] . "',
                                                     note='" . $_POST['newnote'] . "',
-                                                    code='" . $_POST['newcode'] . "',
-                                                    supplier='" . $_POST['newsupplier'] . "',
                                                     CAS='" . $_POST['newCAS'] . "',
                                                     phrase_H='" . $_POST['newphrase_H'] . "',
                                                     phrase_R='" . $_POST['newphrase_R'] . "' 
@@ -253,8 +247,6 @@ function uploadFile($filename, $dir) {
                                                     quantity='" . $_SESSION['oldquantity'] . "' AND
                                                     lab='" . $_SESSION['oldlab'] . "' AND
                                                     note='" . $_SESSION['oldnote'] . "' AND
-                                                    code='" . $_SESSION['oldcode'] . "' AND
-                                                    supplier='" . $_SESSION['oldsupplier'] . "' AND
                                                     CAS='" . $_SESSION['oldCAS'] . "' AND
                                                     phrase_H='" . $_SESSION['oldphrase_H'] . "' AND                                 
                                                     phrase_R='" . $_SESSION['oldphrase_R'] . "' AND
@@ -265,7 +257,7 @@ function uploadFile($filename, $dir) {
                                 
 								mysql_query($sql);
 								
-                                //if (mysql_errno() != 0) 
+                                if (mysql_errno() != 0) 
                                 {
                                     echo "<br />" . $sql . "<br />";
                                     echo "<br />" . mysql_errno() . ": " . mysql_error(). "<br />";    
