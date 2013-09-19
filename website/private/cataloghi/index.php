@@ -24,7 +24,6 @@ function uploadFile($filename, $dir) {
 }
 
 function html_apostrophes($arg) {
-    $arg = str_replace("\'", "'", $arg);
     return str_replace("'", "&#39", $arg);
 }
 
@@ -34,6 +33,11 @@ if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
 }
 session_start();
+
+foreach ($_POST as $key => $value) 
+{
+    $_POST[$key] = str_replace("\'", "'", $value);
+}
 
 //print_r($_FILES);
 echo "<br>";
@@ -106,6 +110,7 @@ $_POST['delete'] = 0;
 	<?php
 	require ($localizer . 'includes/main-nav.php');
 	?>
+		<div id='header'></div>
 		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection0">
