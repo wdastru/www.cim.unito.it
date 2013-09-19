@@ -111,7 +111,6 @@ $_POST['delete'] = 0;
 	require ($localizer . 'includes/main-nav.php');
 	?>
 		<div id='header'></div>
-		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection0">
 			<!-- InstanceEndEditable -->
@@ -159,7 +158,7 @@ $_POST['delete'] = 0;
     											}
     
     											echo "
-                                					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
+                                					<input type='text' size='50'name='find" . $i . "' value='" . html_apostrophes($_POST['find' . $i]) . "'/> in 
                                 					<Select NAME='field" . $i . "'>
                                     					<Option VALUE='name_UK'>Name (UK)</option>
                                                         <Option VALUE='name_IT'>Name (IT)</option>
