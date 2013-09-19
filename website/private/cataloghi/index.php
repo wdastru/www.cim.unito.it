@@ -40,8 +40,8 @@ foreach ($_POST as $key => $value)
 }
 
 //print_r($_FILES);
-echo "<br>";
-print_r($_POST);
+//echo "<br>";
+//print_r($_POST);
 
 $localizer = "../../";
 
