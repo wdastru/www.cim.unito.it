@@ -11,6 +11,11 @@ if ($hostname[0] == "EPTADONE") {
 }
 session_start();
 
+foreach ($_POST as $key => $value)
+{
+    $_POST[$key] = str_replace("\'", "'", $value);
+}
+
 $_POST['name_UK2edit']  = html_apostrophes($_POST['name_UK2edit']);          
 $_POST['name_IT2edit']  = html_apostrophes($_POST['name_IT2edit']);        
 $_POST['place2edit']    = html_apostrophes($_POST['place2edit']);       
