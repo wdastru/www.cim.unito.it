@@ -1,20 +1,27 @@
 <?php
+
+function html_apostrophes($arg) {
+    return str_replace("'", "&#39", $arg);
+}
+
 unset($hostname);
 exec('hostname', $hostname);
 if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
 }
 session_start();
-$_SESSION['oldname_UK'] = $_POST['name_UK2remove'];
-$_SESSION['oldname_IT'] = $_POST['name_IT2remove'];
-$_SESSION['oldplace'] = $_POST['place2remove'];
-$_SESSION['oldquantity'] = $_POST['quantity2remove'];
-$_SESSION['oldlab'] = $_POST['lab2remove'];
-$_SESSION['oldnote'] = $_POST['note2remove'];
-$_SESSION['oldCAS'] = $_POST['CAS2remove'];
-$_SESSION['oldphrase_H'] = $_POST['phrase_H2remove'];
-$_SESSION['oldphrase_R'] = $_POST['phrase_R2remove'];
-$_SESSION['oldlink'] = $_POST['link2remove'];
+
+$_POST['name_UK2remove']  = html_apostrophes($_POST['name_UK2remove']);          
+$_POST['name_IT2remove']  = html_apostrophes($_POST['name_IT2remove']);        
+$_POST['place2remove']    = html_apostrophes($_POST['place2remove']);       
+$_POST['quantity2remove'] = html_apostrophes($_POST['quantity2remove']);        
+$_POST['lab2remove']      = html_apostrophes($_POST['lab2remove']);
+$_POST['note2remove']     = html_apostrophes($_POST['note2remove']);
+$_POST['CAS2remove']      = html_apostrophes($_POST['CAS2remove']);
+$_POST['phrase_H2remove'] = html_apostrophes($_POST['phrase_H2remove']);
+$_POST['phrase_R2remove'] = html_apostrophes($_POST['phrase_R2remove']);
+$_POST['link2remove']     = html_apostrophes($_POST['link2remove']);
+
 $localizer = "../../../";
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -111,8 +118,18 @@ $localizer = "../../../";
 								</tr>
 							</table>
 							<br/>
-							<input type='hidden' name='removed' value='yes' /> <input
-								type='submit' name='submit' value='Confirm' />
+							<input type='hidden' name='removed' value='yes' />
+					        <input type='hidden' name='oldname_UK'    value='<?php echo mysql_real_escape_string($_POST['name_UK2remove' ]); ?>'/>
+                            <input type='hidden' name='oldname_IT'    value='<?php echo mysql_real_escape_string($_POST['name_IT2remove' ]); ?>'/>
+                            <input type='hidden' name='oldplace'      value='<?php echo mysql_real_escape_string($_POST['place2remove'   ]); ?>'/>
+                            <input type='hidden' name='oldquantity'   value='<?php echo mysql_real_escape_string($_POST['quantity2remove']); ?>'/>
+                            <input type='hidden' name='oldlab'        value='<?php echo mysql_real_escape_string($_POST['lab2remove'     ]); ?>'/>
+                            <input type='hidden' name='oldnote'       value='<?php echo mysql_real_escape_string($_POST['note2remove'    ]); ?>'/>
+                            <input type='hidden' name='oldCAS'        value='<?php echo mysql_real_escape_string($_POST['CAS2remove'     ]); ?>'/>
+                            <input type='hidden' name='oldphrase_H'   value='<?php echo mysql_real_escape_string($_POST['phrase_H2remove']); ?>'/>
+                            <input type='hidden' name='oldphrase_R'   value='<?php echo mysql_real_escape_string($_POST['phrase_R2remove']); ?>'/>
+                            <input type='hidden' name='oldlink'       value='<?php echo mysql_real_escape_string($_POST['link2remove'    ]); ?>'/> 
+							<input type='submit' name='submit' value='Confirm' />
 						</form>
 						<!-- InstanceEndEditable name="subsection content" -->
 					</div>
