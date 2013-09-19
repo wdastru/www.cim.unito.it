@@ -1,4 +1,37 @@
 <?php
+function uploadFile($filename, $dir) {
+    
+    //echo 'in uploadFile($filename, $dir)<br/>';
+    //print_r($filename);
+    
+    if ($filename["name"] != "")
+    {
+        move_uploaded_file($filename["tmp_name"], $dir . $filename["name"]);
+        
+        //shell_exec("cp " . $_POST['dir'] . $_FILES["file1"]["name"] . " " . $relocate_string . "/777/filesGazzetta/excel_files/."); // backup copy of excel file
+        //
+        //$_SESSION['uploaded_file'] = $_FILES["file1"]["name"];
+        //$submitted = "0";
+        //
+        //$where = "Location: ".$relocate_string."excel/fromExcel2Txt.php";
+        //header($where);
+    }
+    else
+    {
+        //$where = "Location: ".$relocate_string."errors/error.php?error=missingFile";
+        //header($where);
+    }   
+}
+
+function html_apostrophes($arg) {
+    return str_replace("'", "&#39", $arg);
+}
+
+function my_mysql_real_escape_string($arg) {
+    return str_replace("'", "\\'", $arg);
+}
+
+
 unset($hostname);
 exec('hostname', $hostname);
 if ($hostname[0] == "EPTADONE") {
@@ -41,34 +74,6 @@ if ($_SESSION['nfields'] == "") {
 
 $_POST['add'] = 0;
 $_POST['delete'] = 0;
-
-function uploadFile($filename, $dir) {
-	
-	//echo 'in uploadFile($filename, $dir)<br/>';
-	//print_r($filename);
-	
-	if ($filename["name"] != "")
-	{
-		move_uploaded_file($filename["tmp_name"], $dir . $filename["name"]);
-		
-		//shell_exec("cp " . $_POST['dir'] . $_FILES["file1"]["name"] . " " . $relocate_string . "/777/filesGazzetta/excel_files/."); // backup copy of excel file
-		//
-		//$_SESSION['uploaded_file'] = $_FILES["file1"]["name"];
-		//$submitted = "0";
-        //
-		//$where = "Location: ".$relocate_string."excel/fromExcel2Txt.php";
-		//header($where);
-	}
-	else
-	{
-		//$where = "Location: ".$relocate_string."errors/error.php?error=missingFile";
-		//header($where);
-	}	
-}
-
-function html_apostrophes($arg) {
-    return str_replace("'", "&#39", $arg);
-}
 
 ?>
 
@@ -208,7 +213,7 @@ function html_apostrophes($arg) {
                             if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 							        
                                     if ($_FILES['newlink']['name'] != "") {
-							    
+                                
         								$sql = "UPDATE catalogo
                 								SET 	
                 									name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])       . "',
@@ -222,16 +227,16 @@ function html_apostrophes($arg) {
                                                     phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])      . "', 
                 					          		link='"     . mysql_real_escape_string($_FILES['newlink']['name']) . "' 
                 								WHERE 	
-                									name_UK='"  . mysql_real_escape_string($_SESSION['oldname_UK'])    . "' AND
-                                                    name_IT='"  . mysql_real_escape_string($_SESSION['oldname_IT'])    . "' AND
-                                                    place='"    . mysql_real_escape_string($_SESSION['oldplace'])      . "' AND
-                									quantity='" . mysql_real_escape_string($_SESSION['oldquantity'])   . "' AND
-                									lab='"      . mysql_real_escape_string($_SESSION['oldlab'])        . "' AND
-                									note='"     . mysql_real_escape_string($_SESSION['oldnote'])       . "' AND
-                                                    CAS='"      . mysql_real_escape_string($_SESSION['oldCAS'])        . "' AND
-                                                    phrase_H='" . mysql_real_escape_string($_SESSION['oldphrase_H'])   . "' AND									
-                									phrase_R='" . mysql_real_escape_string($_SESSION['oldphrase_R'])   . "' AND
-                									link='"     . mysql_real_escape_string($_SESSION['oldlink'])       . "'";
+                									name_UK='"  . mysql_real_escape_string($_POST['oldname_UK'])    . "' AND
+                                                    name_IT='"  . mysql_real_escape_string($_POST['oldname_IT'])    . "' AND
+                                                    place='"    . mysql_real_escape_string($_POST['oldplace'])      . "' AND
+                									quantity='" . mysql_real_escape_string($_POST['oldquantity'])   . "' AND
+                									lab='"      . mysql_real_escape_string($_POST['oldlab'])        . "' AND
+                									note='"     . mysql_real_escape_string($_POST['oldnote'])       . "' AND
+                                                    CAS='"      . mysql_real_escape_string($_POST['oldCAS'])        . "' AND
+                                                    phrase_H='" . mysql_real_escape_string($_POST['oldphrase_H'])   . "' AND									
+                									phrase_R='" . mysql_real_escape_string($_POST['oldphrase_R'])   . "' AND
+                									link='"     . mysql_real_escape_string($_POST['oldlink'])       . "'";
         							} else {
         							    
                                         $sql = "UPDATE catalogo
@@ -246,23 +251,22 @@ function html_apostrophes($arg) {
                                                     phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])    . "',
                                                     phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])    . "' 
                                                 WHERE   
-                                                    name_UK='"  . mysql_real_escape_string($_SESSION['oldname_UK'])  . "' AND
-                                                    name_IT='"  . mysql_real_escape_string($_SESSION['oldname_IT'])  . "' AND
-                                                    place='"    . mysql_real_escape_string($_SESSION['oldplace'])    . "' AND
-                                                    quantity='" . mysql_real_escape_string($_SESSION['oldquantity']) . "' AND
-                                                    lab='"      . mysql_real_escape_string($_SESSION['oldlab'])      . "' AND
-                                                    note='"     . mysql_real_escape_string($_SESSION['oldnote'])     . "' AND
-                                                    CAS='"      . mysql_real_escape_string($_SESSION['oldCAS'])      . "' AND
-                                                    phrase_H='" . mysql_real_escape_string($_SESSION['oldphrase_H']) . "' AND                                 
-                                                    phrase_R='" . mysql_real_escape_string($_SESSION['oldphrase_R']) . "' AND
-                                                    link='"     . mysql_real_escape_string($_SESSION['oldlink'])     . "'";
+                                                    name_UK='"  . mysql_real_escape_string($_POST['oldname_UK'])  . "' AND
+                                                    name_IT='"  . mysql_real_escape_string($_POST['oldname_IT'])  . "' AND
+                                                    place='"    . mysql_real_escape_string($_POST['oldplace'])    . "' AND
+                                                    quantity='" . mysql_real_escape_string($_POST['oldquantity']) . "' AND
+                                                    lab='"      . mysql_real_escape_string($_POST['oldlab'])      . "' AND
+                                                    note='"     . mysql_real_escape_string($_POST['oldnote'])     . "' AND
+                                                    CAS='"      . mysql_real_escape_string($_POST['oldCAS'])      . "' AND
+                                                    phrase_H='" . mysql_real_escape_string($_POST['oldphrase_H']) . "' AND                                 
+                                                    phrase_R='" . mysql_real_escape_string($_POST['oldphrase_R']) . "' AND
+                                                    link='"     . mysql_real_escape_string($_POST['oldlink'])     . "'";
                                                     
         							}
                                 
-                                
 								mysql_query($sql);
 								
-                                //if (mysql_errno() != 0) 
+                                if (mysql_errno() != 0) 
                                 {
                                     echo "<br />" . $sql . "<br />";
                                     echo "<br />" . mysql_errno() . ": " . mysql_error(). "<br />";    
@@ -272,8 +276,6 @@ function html_apostrophes($arg) {
 								{
                                     uploadFile($_FILES["newlink"], './safety_info/');
                                 }
-                                
-                                exit();
 								
 							} else {
 								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
@@ -283,21 +285,27 @@ function html_apostrophes($arg) {
 						}
 
 						if ($_POST['removed'] == "yes") {
-						        $sql= "DELETE FROM catalogo
-                                        WHERE   
-                                            name_UK='"   . $_SESSION['oldname_UK']   . "' AND
-                                            name_IT='"   . $_SESSION['oldname_IT']   . "' AND
-                                            place='"     . $_SESSION['oldplace']     . "' AND
-                                            quantity='"  . $_SESSION['oldquantity']  . "' AND
-                                            lab='"       . $_SESSION['oldlab']       . "' AND
-                                            note='"      . $_SESSION['oldnote']      . "' AND
-                                            CAS='"       . $_SESSION['oldCAS']       . "' AND
-                                            phrase_H='"  . $_SESSION['oldphrase_H']  . "' AND                                                                 
-                                            phrase_R='"  . $_SESSION['oldphrase_R']  . "' AND                                                                 
-                                            link='"      . $_SESSION['oldlink']      . "'";
-						    
+                            
+                            $sql= "DELETE FROM catalogo
+                                    WHERE   
+                                        name_UK='"   . mysql_real_escape_string($_POST['oldname_UK'])   . "' AND
+                                        name_IT='"   . mysql_real_escape_string($_POST['oldname_IT'])   . "' AND
+                                        place='"     . mysql_real_escape_string($_POST['oldplace'])     . "' AND
+                                        quantity='"  . mysql_real_escape_string($_POST['oldquantity'])  . "' AND
+                                        lab='"       . mysql_real_escape_string($_POST['oldlab'])       . "' AND
+                                        note='"      . mysql_real_escape_string($_POST['oldnote'])      . "' AND
+                                        CAS='"       . mysql_real_escape_string($_POST['oldCAS'])       . "' AND
+                                        phrase_H='"  . mysql_real_escape_string($_POST['oldphrase_H'])  . "' AND                                                                 
+                                        phrase_R='"  . mysql_real_escape_string($_POST['oldphrase_R'])  . "' AND                                                                 
+                                        link='"      . mysql_real_escape_string($_POST['oldlink'])      . "'";
+
 							mysql_query($sql);
-                            echo mysql_error();
+                            
+                            if (mysql_errno() != 0) 
+                            {
+                                echo "<br />" . $sql . "<br />";
+                                echo "<br />" . mysql_errno() . ": " . mysql_error(). "<br />";    
+                            }
 
 							$_POST['removed'] = "no";
 						}
