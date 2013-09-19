@@ -24,13 +24,9 @@ function uploadFile($filename, $dir) {
 }
 
 function html_apostrophes($arg) {
+    $arg = str_replace("\'", "'", $arg);
     return str_replace("'", "&#39", $arg);
 }
-
-function my_mysql_real_escape_string($arg) {
-    return str_replace("'", "\\'", $arg);
-}
-
 
 unset($hostname);
 exec('hostname', $hostname);
