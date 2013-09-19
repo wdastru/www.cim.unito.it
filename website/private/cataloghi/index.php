@@ -27,11 +27,6 @@ function html_apostrophes($arg) {
     return str_replace("'", "&#39", $arg);
 }
 
-function my_mysql_real_escape_string($arg) {
-    return str_replace("'", "\\'", $arg);
-}
-
-
 unset($hostname);
 exec('hostname', $hostname);
 if ($hostname[0] == "EPTADONE") {
@@ -39,9 +34,14 @@ if ($hostname[0] == "EPTADONE") {
 }
 session_start();
 
+foreach ($_POST as $key => $value) 
+{
+    $_POST[$key] = str_replace("\'", "'", $value);
+}
+
 //print_r($_FILES);
-echo "<br>";
-print_r($_POST);
+//echo "<br>";
+//print_r($_POST);
 
 $localizer = "../../";
 
@@ -158,7 +158,7 @@ $_POST['delete'] = 0;
     											}
     
     											echo "
-                                					<input type='text' size='50'name='find" . $i . "' value='" . $_POST['find' . $i] . "'/> in 
+                                					<input type='text' size='50'name='find" . $i . "' value='" . html_apostrophes($_POST['find' . $i]) . "'/> in 
                                 					<Select NAME='field" . $i . "'>
                                     					<Option VALUE='name_UK'>Name (UK)</option>
                                                         <Option VALUE='name_IT'>Name (IT)</option>
