@@ -227,8 +227,8 @@ div.tableContainer { border:1px solid textColor1; height:402px; overflow:auto; w
 div.tableContainer table { float:left; width:100%; } 
 html > body tbody.scrollContent { display:block; overflow:auto; } 
 tbody.scrollContent tr.normalRow, tbody.scrollContent tr.alternateRow { height:15px; width:750px; line-height: 15px; }
-tbody.scrollContent tr.normalRow td { background:none repeat scroll 0 0 textColor4; border-color: plBorderColor; border-style:solid solid none none; border-width:1px 1px medium medium; padding:2px 0 3px 0; } 
-tbody.scrollContent tr.alternateRow td { background:none repeat scroll 0 0 textColor1; border-color:plBorderColor; border-style:solid solid none none; border-width:1px 1px medium medium; padding:2px 0 3px 0; } 
+tbody.scrollContent tr.normalRow td { background:none repeat scroll 0 0 textColor4; border-color: plBorderColor; border-style:solid solid none none; border-width:1px 1px medium medium; padding: 2px 0 3px 5px; font-size: 12px; font-weight: bold; } 
+tbody.scrollContent tr.alternateRow td { background:none repeat scroll 0 0 textColor1; border-color:plBorderColor; border-style:solid solid none none; border-width:1px 1px medium medium; padding: 2px 0 3px 5px; font-size: 12px; font-weight: bold; } 
 div.playersTableWrap { height:480px; width:750px; margin:auto; padding:0; border:1px solid textColor0; }
 div.playersTableWrap tr.titleRow { position:relative; display:block; background-color:color4; height:40px; } 
 div.playersTableWrap tr.titleRow td { color:textColor1; text-align:center; width:750px; line-height:40px; } 
