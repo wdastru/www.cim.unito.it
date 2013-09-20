@@ -11,6 +11,10 @@ if ($hostname[0] == "EPTADONE") {
 }
 session_start();
 
+$_SESSION['searchAfterEdit'] = 1;
+
+//print_r($_SESSION);
+
 foreach ($_POST as $key => $value)
 {
     $_POST[$key] = str_replace("\'", "'", $value);
@@ -182,5 +186,6 @@ $localizer = "../../../";
 			//]]>
 		</script>
 	<!-- InstanceEnd -->
+	
 </body>
 </html>

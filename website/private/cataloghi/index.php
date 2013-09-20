@@ -42,6 +42,8 @@ foreach ($_POST as $key => $value)
 //print_r($_FILES);
 //echo "<br>";
 //print_r($_POST);
+//echo "<br>";
+//print_r($_SESSION);
 
 $localizer = "../../";
 
@@ -149,7 +151,8 @@ $_POST['delete'] = 0;
 									</form>
 								</td>
 								<td>
-									<form name="search" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+									<form name="search" method="post" 
+										action="<?php echo $_SERVER['PHP_SELF'];?>">
 										<?php
     										for ($i = 0; $i < $_SESSION['nfields']; $i++) {
     
@@ -209,8 +212,8 @@ $_POST['delete'] = 0;
                         //print_r($_POST);
                         
 						if ($_POST['edited'] == "yes") {
-						    
-                            if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
+								
+							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 							        
                                     if ($_FILES['newlink']['name'] != "") {
                                 
@@ -340,53 +343,64 @@ $_POST['delete'] = 0;
 						}
 
 						//This is only displayed if they have submitted the form
-						if ($_POST['searching'] == "yes") {
+						if ($_POST['searching'] == "yes" || $_SESSION['searchAfterEdit'] == 1) {
 							echo "<h2>Results";
 							
-							//And we remind them what they searched for
-							echo "&nbsp;for:&nbsp;";
-							for ($i = 0; $i < $_SESSION['nfields']; $i++) {
-								if ($i != 0) {	echo " AND ";
+							if ($_SESSION['searchAfterEdit'] == 0) 
+							{
+								
+								//And we remind them what they searched for
+								echo "&nbsp;for:&nbsp;";
+								for ($i = 0; $i < $_SESSION['nfields']; $i++) {
+									if ($i != 0) {	echo " AND ";
+									}
+									echo "<i>" . $_POST['find' . $i] . "</i>";
 								}
-								echo "<i>" . $_POST['find' . $i] . "</i>";
-							}
-							echo"</h2><br/>";
-
-							//If they did not enter a search term we give them an error
-							$totalinputs = "";
-							for ($i = 0; $i < $_SESSION['nfields']; $i++) {
-								$totalinputs .= $_POST["find" . $i];
-							}
-
-							if ($totalinputs == "") {
-								echo "<p>You forgot to enter a search term";
-								exit ;
-							}
-
-							// Otherwise we connect to our Database
-							mysql_select_db($DBName) or die(mysql_error());
-
-							// We preform a bit of filtering
-							for ($i = 0; $i < $_SESSION['nfields']; $i++) {
-								$_POST["find" . $i] = strtoupper($_POST["find" . $i]);
-								$_POST["find" . $i] = strip_tags($_POST["find" . $i]);
-								$_POST["find" . $i] = trim($_POST["find" . $i]);
-                                $_POST["find" . $i] = mysql_real_escape_string($_POST["find" . $i]);
-							}
-
-							//Now we search for our search term, in the field0 the user specified
-							$conditions = "";
-							for ($i = 0; $i < $_SESSION['nfields']; $i++) {
-								if ($i != 0) {	$conditions .= " AND ";
+								echo"</h2><br/>";
+	
+								//If they did not enter a search term we give them an error
+								$totalinputs = "";
+								for ($i = 0; $i < $_SESSION['nfields']; $i++) {
+									$totalinputs .= $_POST["find" . $i];
 								}
-
-								$conditions .= "upper(" . $_POST["field" . $i] . ") LIKE'%" . $_POST["find" . $i] . "%'";
+	
+								if ($totalinputs == "") {
+									echo "<p>You forgot to enter a search term";
+									$_SESSION['searchAfterEdit'] = 0;
+									exit ;
+								}
+	
+								// Otherwise we connect to our Database
+								mysql_select_db($DBName) or die(mysql_error());
+	
+								// We preform a bit of filtering
+								for ($i = 0; $i < $_SESSION['nfields']; $i++) {
+									$_POST["find" . $i] = strtoupper($_POST["find" . $i]);
+									$_POST["find" . $i] = strip_tags($_POST["find" . $i]);
+									$_POST["find" . $i] = trim($_POST["find" . $i]);
+	                                $_POST["find" . $i] = mysql_real_escape_string($_POST["find" . $i]);
+								}
+	
+								//Now we search for our search term, in the field0 the user specified
+								$conditions = "";
+								for ($i = 0; $i < $_SESSION['nfields']; $i++) {
+									if ($i != 0) {	$conditions .= " AND ";
+									}
+	
+									$conditions .= "upper(" . $_POST["field" . $i] . ") LIKE'%" . $_POST["find" . $i] . "%'";
+								}
+							
+                            	$sql = "SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name_UK, name_IT";
+								$data = mysql_query($sql);
+								$_SESSION['lastSQL'] = $sql;
+								
+                            } 
+                            else 
+                            {
+                            	$data = mysql_query($_SESSION['lastSQL']);
+								$_SESSION['searchAfterEdit'] = 0;
 							}
-                            
-                            $sql = "SELECT * FROM catalogo WHERE " . $conditions . " ORDER BY name_UK, name_IT";
-                            //echo $sql;
-							$data = mysql_query($sql);
-
+							
 							//And we display the results
 							echo "<table id='catalog' border='1' frame='box' cellspacing='0' rules='all'>
 							         <tr>
@@ -475,6 +489,8 @@ $_POST['delete'] = 0;
 							if ($anymatches == 0) {
 								echo "<br />Sorry, nothing has been found!";
 							}
+							
+							$_SESSION['searchAfterEdit'] = 0;
 						}
 
 						?>
@@ -513,5 +529,6 @@ $_POST['delete'] = 0;
 		//]]>
 		</script>
 	<!-- InstanceEnd -->
+
 </body>
 </html>
