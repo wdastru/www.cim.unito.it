@@ -300,13 +300,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     News
                                 </p>
                                 <ul>
-                                    <!--
-                                    <li>
-                                    <a
-                                    href="documenti/IP_Probes_Turin_2012/Probes_IP_Turin_2012_final.pdf">IP
-                                    PROBES 2012 detailed schedule</a>
-                                    </li>
-                                    -->
                                     <li>
                                         <a
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Tumour_IP_Turin_2012_draft.pdf">IP
@@ -422,8 +415,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Alessandro Maiocchi - Bracco Imaging SpA)
                                         </p></a></td>
-                                        <td><!--class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/CEST agents.pdf">-->
+                                        <td>
                                         <p class='lecture_title'>
                                             Gd-complexes: from low MW to nanosized systems
                                         </p>

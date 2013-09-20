@@ -62,13 +62,20 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p>
                                 <ul>
                                     <li><u>23 Settembre</u></li>
-                                    <ul></ul>
+                                    <ul>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/lo_spettrometro_nmr.pdf">Lo spettrometro NMR - M. Cremonini (Agilent)</a></li>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/il_segnale_nmr.pdf">Il segnale NMR - M. Cremonini (Agilent)</a></li>
+                                    </ul>
                                     <li><u>24 Settembre</u></li>
                                     <ul>
-                                        <a href="documenti/Scuola_NMR_di_Base_2013/Beringhelli_Rilassamento_TO_13.pdf">Misure di Rilassamento - T. Beringhelli</a>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Beringhelli_Rilassamento_TO_13.pdf">Misure di Rilassamento - T. Beringhelli</a></li>
                                     </ul>
                                     <li><u>25 Settembre</u></li>
-                                    <ul></ul>
+                                    <ul>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Cicero_1.pdf">Disaccoppiamento - eccitazione a banda larga-impulsi profilati. Introduzione alla spettroscopia 2D - D.Cicero</a></li>    
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Cicero_2.pdf">Principi della spettroscopia 2D omo ed eteronucleare - D.Cicero</a></li>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/AZT_spectra.pdf">Esercitazioni sulle lezioni del giorno - D. Cicero/F. Benevelli</a></li>
+                                    </ul>                                                                                                                                                                                
                                     <li><u>26 Settembre</u></li>
                                     <ul></ul>
                                     <li><u>27 Settembre</u></li>
