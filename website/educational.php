@@ -61,7 +61,7 @@
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<ul>
                                 <li>
-                                    <a href="Scuola_NMR_Base_2013.php" target="_self">Scuola NMR Base 2013</a>
+                                    <a href="Scuola_NMR_Base_2013.php" target="_self">Scuola NMR di Base 2013</a>
                                 </li>
                                 <li>
                                     <a href="IP_2013.php" target="_self">"Probes and Models for Imaging Diseases and Therapy" 2013</a>
