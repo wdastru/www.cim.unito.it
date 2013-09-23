@@ -68,6 +68,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <li><u>24 Settembre</u></li>
                                     <ul>
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/Beringhelli_Rilassamento_TO_13.pdf">Misure di Rilassamento - T. Beringhelli</a></li>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/esercizi_rilax_stud_13.pdf">Esercitazioni sulle lezioni del giorno - M. Piccioli/T.Beringhelli</a></li>
                                     </ul>
                                     <li><u>25 Settembre</u></li>
                                     <ul>
