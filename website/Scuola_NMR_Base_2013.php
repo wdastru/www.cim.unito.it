@@ -24,12 +24,9 @@ xmlns="http://www.w3.org/1999/xhtml">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+      <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section2'>
-
-            <?php
-            require ('includes/main-nav.php');
-            ?>
+      <?php require ('includes/main-nav.php'); ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id='subsection1'>
@@ -63,6 +60,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <ul>
                                     <li><u>23 Settembre</u></li>
                                     <ul>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Mammi_2013_1.pdf">Concetti di base e parametri NMR - S. Mammi</a></li>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Mammi_2013_2.pdf">Esperimento NMR monodimensionale-FT - S.Mammi</a></li>
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/lo_spettrometro_nmr.pdf">Lo spettrometro NMR - M. Cremonini (Agilent)</a></li>
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/il_segnale_nmr.pdf">Il segnale NMR - M. Cremonini (Agilent)</a></li>
                                     </ul>
