@@ -16,28 +16,28 @@ $turno[1] = "II&deg; TURNO";
 $turno[2] = "III&deg; TURNO";
 
 /*
- * 'a' = 'ciofeca';     
- * 'b' = 'real';        
- * 'c' = 'patelavache'; 
- * 'd' = 'lokomotiv';   
- * 'e' = 'eporediese';  
- * 'f' = 'fedora';      
- * 'g' = 'bradipo';     
- * 'h' = 'atletico';    
+ * 'a' = 'Dinamo Ciofeca';       
+ * 'b' = 'Real Mentescars';      
+ * 'c' = 'Ij Patelavache';       
+ * 'd' = 'Lokomotiv Peccorino';  
+ * 'e' = 'EPOrediese';           
+ * 'f' = 'Fedora';               
+ * 'g' = 'Bradipo';              
+ * 'h' = 'Atletico? No Grazie!'; 
  * 
  * ricordarsi di modificare ad inizio 
  * stagione anche il file coppaxxxx.js
  * 
  * * * * * * * * * * * * */
 
-$aCoppa = $longName['d'];
-$bCoppa = $longName['b'];
-$cCoppa = $longName['a'];
-$dCoppa = $longName['f'];
-$eCoppa = $longName['e'];
-$fCoppa = $longName['h'];
-$gCoppa = $longName['g'];
-$hCoppa = $longName['c'];
+$aCoppa = $longName['f'];
+$bCoppa = $longName['e'];
+$cCoppa = $longName['h'];
+$dCoppa = $longName['a'];
+$eCoppa = $longName['b'];
+$fCoppa = $longName['g'];
+$gCoppa = $longName['c'];
+$hCoppa = $longName['d'];
 
 $superCoppa = array();
 array_push($superCoppa, array());
