@@ -78,6 +78,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </ul>                                                                                                                                                                                
                                     <li><u>26 Settembre</u></li>
                                     <ul>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Torino_2013_Lezione_Marco.pdf">Le interazioni di spin a stato solido: chemical shift e interazione dipolare - M. Geppi</a></li>
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/Borsacchi.pdf">Esperimenti base per i nuclei rari a spin 1/2 - S. Borsacchi</a></li>
                                     </ul>
                                     <li><u>27 Settembre</u></li>
