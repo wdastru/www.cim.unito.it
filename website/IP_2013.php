@@ -355,24 +355,24 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Silvio Aime / Dario Longo)
                                         </p></td>
-                                        <td> <!--class="available" <a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Preparation_of_radiolabelled_probes_F_Dolle_summary_as_pdf.pdf">-->
+                                        <td> <!--class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Preparation_of_radiolabelled_probes_F_Dolle_summary_as_pdf.pdf">-->
                                         <p class='lecture_title'>
                                             Imaging probe design and synthesis
                                         </p>
                                         <p class='lecture_author'>
                                             (Alessandro Barge - Torino/Univ)
                                         </p> <!--</a>--> </td>
-                                        <td><!--class="available"<a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/120919Torino2_Maecke.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/NMR_MRI_introduction.pdf">
                                         <p class='lecture_title'>
                                             MRI/NMR: introduction
                                         </p>
                                         <p class='lecture_author'>
                                             (Walter Dastr&uacute; - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/MULLER_R.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/MULLER_R.pdf">-->
                                         <p class='lecture_title'>
                                             Radiopeptides for imaging and therapies
                                         </p>
@@ -380,7 +380,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Helmut Maecke - Freiburg/Klinik Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/schwaiger_Torino.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/schwaiger_Torino.pdf">-->
                                         <p class='lecture_title'>
                                             PET/SPECT: introduction
                                         </p>
@@ -402,7 +402,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Daniela Delli Castelli - Torino/Univ)
                                         </p> </a> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/design_synt_ImagProbe_2012.pdf"> -->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/design_synt_ImagProbe_2012.pdf"> -->
                                         <p class='lecture_title'>
                                             Platform for drug delivery
                                         </p>
@@ -410,7 +410,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Alessandro Maiocchi - Bracco Imaging SpA/Italy)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Torino19092012_Maiocchi.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Torino19092012_Maiocchi.pdf">-->
                                         <p class='lecture_title'>
                                             Gd-complexes: from low MW to nanosized systems
                                         </p>
@@ -418,7 +418,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Mauro Botta - Alessandria/Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2012/lectures/CEST_agents_Delli_Castelli.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_Delli_Castelli.pdf">-->
                                         <p class='lecture_title'>
                                             Peptide synthesis and bioconjugation ruotes
                                         </p>
@@ -426,7 +426,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Lorenzo Tei - Alessandria/Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2012/lectures/CEST_agents_Delli_Castelli.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_Delli_Castelli.pdf">-->
                                         <p class='lecture_title'>
                                             Preparation of radiolabelled probes
                                         </p>
@@ -440,7 +440,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             14<sup>00</sup>-15<sup>30</sup>
                                         </p></td>
                                         <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2012/lectures/(Immune)_Hallmarks_of_Cancer.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/(Immune)_Hallmarks_of_Cancer.pdf">-->
                                         <p class='lecture_title'>
                                             (Immune) Hallmarks of cancer
                                         </p>
@@ -448,7 +448,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Federica Cavallo - Torino/Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Peptide_synthesis_and_bioconjugation_routes_2012.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Peptide_synthesis_and_bioconjugation_routes_2012.pdf">-->
                                         <p class='lecture_title'>
                                             Targeted delivery of vaccines and drugs
                                         </p>
@@ -456,7 +456,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Maria de la Fuente - Santiago de Compostela/Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/NMR-MRI_introduction.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/NMR-MRI_introduction.pdf">-->
                                         <p class='lecture_title'>
                                             Targeting probes for PET/SPECT applications 
                                         </p>
@@ -464,7 +464,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Marion de Jong - Rotterdam/Erasmus MC)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Eliana_Gianolio_IP_2012.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Eliana_Gianolio_IP_2012.pdf">-->
                                         <p class='lecture_title'>
                                             (Immuno)-imaging using nanobodies
                                         </p>
@@ -472,7 +472,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Tony Lahoutte - Brussels/Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Responsive_probes_Digilio.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Responsive_probes_Digilio.pdf">-->
                                         <p class='lecture_title'>
                                             Gd(III) complexes: basic relaxometric characterization
                                         </p>
@@ -486,7 +486,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             16<sup>00</sup>-17<sup>30</sup>
                                         </p></td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Bert_-_Medical_Image_Analysis_-_17_Sep_2012.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Bert_-_Medical_Image_Analysis_-_17_Sep_2012.pdf">-->
                                         <p class='lecture_title'>
                                             Angiogenesis
                                         </p>
@@ -536,7 +536,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             9<sup>00</sup>-11<sup>00</sup>
                                         </p></td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/IP_Probes_2012_Longo_DCE_MRI_23_9_12.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/IP_Probes_2012_Longo_DCE_MRI_23_9_12.pdf">-->
                                         <p class='lecture_title'>
                                             Responsive Contrast Agent
                                         </p>
@@ -544,7 +544,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Giuseppe Digilio - Alessandria/Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Geninatti.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Geninatti.pdf">-->
                                         <p class='lecture_title'>
                                             Design MRI targeting agents
                                         </p>
@@ -559,7 +559,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Robert Muller - Mons/Univ)
                                         </p></td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/MRI_what_is_most_in_need_2012_Bonmati.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/MRI_what_is_most_in_need_2012_Bonmati.pdf">-->
                                         <p class='lecture_title'>
                                             Combined PET/MRI: where we stand
                                         </p>
@@ -567,7 +567,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Ambros Beer - Munich/TUM)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/lezionisantorodicuntoip2012.zip">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/lezionisantorodicuntoip2012.zip">-->
                                         <p class='lecture_title'>
                                             The study of molecular processes in living cells by fluorescence microscopy
                                         </p>
@@ -601,7 +601,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             Daniela Delli Castelli - Torino/Univ
                                         </p></td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Lahoutte.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Lahoutte.pdf">-->
                                         <p class='lecture_title'>
                                             Imaging-Guided Therapy: the advent of theranostic agents
                                         </p>
@@ -622,7 +622,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             14<sup>00</sup>-15<sup>30</sup>
                                         </p></td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/scuolaEMMI2012_Viale.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/scuolaEMMI2012_Viale.pdf">-->
                                         <p class='lecture_title'>
                                             Medical Image analysis
                                         </p>
@@ -637,7 +637,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Giannis Zacharakis - Crete/FORTH)
                                         </p></td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Molinari_US_Modality-IP-26Sept.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Molinari_US_Modality-IP-26Sept.pdf">-->
                                         <p class='lecture_title'>
                                             MRI and CT for angiographic application
                                         </p>
@@ -645,7 +645,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Philippe Douek - Lione/Univ)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Targeted_therapies_Cavallo_260912.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Targeted_therapies_Cavallo_260912.pdf">-->
                                         <p class='lecture_title'>
                                             Hyperpolarized MRI : metabolic imaging
                                         </p>
@@ -666,7 +666,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             16<sup>00</sup>-17<sup>30</sup>
                                         </p></td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/terreno_theranostic_agents.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/terreno_theranostic_agents.pdf">-->
                                         <p class='lecture_title'>
                                             DCE-MRI at 1T
                                         </p>
@@ -674,7 +674,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Dario Longo / Walter Dastr&uacute;)
                                         </p> <!--</a>--> </td>
                                         <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Optical_Imaging_Probes_Sep_2012.pdf">-->
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Optical_Imaging_Probes_Sep_2012.pdf">-->
                                         <p class='lecture_title'>
                                             Cell labelling
                                         </p>
