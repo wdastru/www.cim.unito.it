@@ -77,6 +77,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <ul>
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/Cicero_1.pdf">Disaccoppiamento - eccitazione a banda larga-impulsi profilati. Introduzione alla spettroscopia 2D - D.Cicero</a></li>    
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/Cicero_2.pdf">Principi della spettroscopia 2D omo ed eteronucleare - D.Cicero</a></li>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Benevelli_SCUOLA_GIDRM_13.pdf">Introduzione ai gradienti - F. Benevelli (Bruker)</a></li>
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/AZT_spectra.pdf">Esercitazioni sulle lezioni del giorno - D. Cicero/F. Benevelli</a></li>
                                     </ul>                                                                                                                                                                                
                                     <li><u>26 Settembre</u></li>
