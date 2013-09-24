@@ -125,7 +125,7 @@ $localizer = "../../../";
                             </tr>
                             <tr>
                                 <td>Link to the safety info :</td>
-                                <td class='data scheda'><a href='safety_info/<?php echo $_POST['link2edit']; ?>'><?php echo $_POST['link2edit']; ?></a></td>";
+                                <td class='data scheda'><a href='../safety_info/<?php echo $_POST['link2edit']; ?>'><?php echo $_POST['link2edit']; ?></a></td>";
                                 <!--<td><?php echo $_POST['link2edit']; ?></td>-->
                             </tr>
                             <tr>
