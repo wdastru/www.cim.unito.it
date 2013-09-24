@@ -86,7 +86,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/Borsacchi.pdf">Esperimenti base per i nuclei rari a spin 1/2 - S. Borsacchi</a></li>
                                     </ul>
                                     <li><u>27 Settembre</u></li>
-                                    <ul></ul>
+                                    <ul>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/MRI_Tedoldi_Scuola_GDRM_2013.pdf">Introduzione alla risonanza magnetica per Immagine (MRI) - F. Tedoldi</a></li>
+                                    </ul>
                                 </ul>
                             </div>
                             <!-- InstanceEndEditable -->
