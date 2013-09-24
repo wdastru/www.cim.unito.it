@@ -393,14 +393,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             11<sup>30</sup>-13<sup>00</sup>
                                         </p></td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2012/lectures/Introduction_to_MolecularImaging.pdf"> -->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Introduction_to_molecular_imaging.pdf">
                                         <p class='lecture_title'>
                                             Introduction to molecular imaging
                                         </p>
                                         <p class='lecture_author'>
-                                            (Silvio Aime - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                            (Daniela Delli Castelli - Torino/Univ)
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a
                                         href="documenti/IP_Probes_Turin_2012/lectures/design_synt_ImagProbe_2012.pdf"> -->
                                         <p class='lecture_title'>
