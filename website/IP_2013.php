@@ -355,14 +355,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Silvio Aime / Dario Longo)
                                         </p></td>
-                                        <td> <!--class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Preparation_of_radiolabelled_probes_F_Dolle_summary_as_pdf.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/design_synt ImagProbe_2013_barge.pdf">
                                         <p class='lecture_title'>
                                             Imaging probe design and synthesis
                                         </p>
                                         <p class='lecture_author'>
                                             (Alessandro Barge - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/NMR_MRI_introduction.pdf">
                                         <p class='lecture_title'>
@@ -401,14 +401,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Daniela Delli Castelli - Torino/Univ)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/design_synt_ImagProbe_2012.pdf"> -->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Alessandro_Maiocchi_platform_drug_Delivery.pdf">
                                         <p class='lecture_title'>
                                             Platform for drug delivery
                                         </p>
                                         <p class='lecture_author'>
                                             (Alessandro Maiocchi - Bracco Imaging SpA/Italy)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a 
                                         href="documenti/IP_Probes_Turin_2013/lectures/Torino19092012_Maiocchi.pdf">-->
                                         <p class='lecture_title'>
