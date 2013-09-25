@@ -406,8 +406,8 @@ $_POST['delete'] = 0;
 							         <tr>
                             			<th class='headerButtonEdit'></th>
                             			<th class='headerButtonRemove'></th>
-                            			<th class='headerName_UK'>Name <img src='./en.png' alt='UK' /></th>
-                                        <th class='headerName_IT'>Name <img src='./it.jpg' alt='IT' /></th>
+                            			<th class='headerName_UK'>Name <!--<img src='./en.png' alt='UK' />--></th>
+                                        <!--<th class='headerName_IT'>Name <img src='./it.jpg' alt='IT' /></th>-->
                                         <th class='headerPlace'>Place</th>
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
@@ -420,7 +420,7 @@ $_POST['delete'] = 0;
                             		<tr>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
-                            			<td class='void'>&nbsp;</td>
+                            			<!--<td class='void'>&nbsp;</td>-->
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
@@ -466,8 +466,24 @@ $_POST['delete'] = 0;
                         						<input class='removeButton' type='submit' name='remove' value='-' />
                         					</form>
                         				</td>
-                        				<td class='data'>" . $result['name_UK']  . "</td>
-                                        <td class='data'>" . $result['name_IT']  . "</td>
+                        				<td>
+                        				<table>
+                            				<tr>
+                                				<td class='data'>";
+                                				if ($result['name_UK'] != "") {
+                                				    echo "<img src='./en.png' alt='UK' />";
+                                				}
+                                				echo "&nbsp;" . $result['name_UK']  . "</td>
+                                		    </tr>
+                            				<tr>
+                                                <td class='data'>";
+                                                if ($result['name_IT'] != "") {
+                                                    echo "<img src='./it.jpg' alt='IT' />";
+                                                }
+                                                echo "&nbsp;" . $result['name_IT']  . "</td>
+                                            </tr>
+                                        </table>
+                                        </td>
                                         <td class='data'>" . $result['place']    . "</td>
                                         <td class='data'>" . $result['quantity'] . "</td>
                                         <td class='data'>" . $result['lab']      . "</td>
