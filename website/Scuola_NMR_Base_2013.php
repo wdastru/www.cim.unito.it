@@ -90,6 +90,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <li><u>27 Settembre</u></li>
                                     <ul>
                                         <li><a href="documenti/Scuola_NMR_di_Base_2013/MRI_Tedoldi_Scuola_GDRM_2013.pdf">Introduzione alla risonanza magnetica per Immagine (MRI) - F. Tedoldi</a></li>
+                                        <li><a href="documenti/Scuola_NMR_di_Base_2013/Corso_NMR_di_Base_2013.pdf">Sequenze di impulsi base in MRI. Contrasto e pesatura delle immagini - W. Dastr&uacute;</a></li>
                                     </ul>
                                 </ul>
                             </div>
