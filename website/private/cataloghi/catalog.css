@@ -14,10 +14,11 @@ td { font-family: verdana, helvetica; overflow-x: auto; }
 .dateEven { font-weight: bold; width: 65px; background-color: #ffffff; text-align: center;}
 .void { border: none; }
 td.data { font-size: 12px; }
+td.data2 { font-size: 12px; padding-left: 5px; }
 .dateOdd { font-weight: bold; width: 65px; background-color: #f5f5c4; text-align: center; }
 .dateSab { color: #FF0000; font-weight: bold; width: 65px; background-color: #ddffdd; text-align: center; }
 .dateDom { color: #FF0000; font-weight: bold; width: 65px; background-color: #aaffaa; text-align: center; }
-th { background-color: #db6d16; color: white; text-align: left; font-weight: bold; padding-left: 2px; }
+th { background-color: #db6d16; color: white; text-align: center; font-weight: bold; padding-left: 2px; }
 .removeButton { }
 th.headerName_UK { width: 250px; }
 th.headerName_IT { /*width: 300px;*/ }

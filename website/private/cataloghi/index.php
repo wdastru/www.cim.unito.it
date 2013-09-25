@@ -465,25 +465,38 @@ $_POST['delete'] = 0;
                         						<input type='hidden' name='link2remove' value='"     .  html_apostrophes($result['link'])     . "' />   
                         						<input class='removeButton' type='submit' name='remove' value='-' />
                         					</form>
-                        				</td>
-                        				<td>
-                        				<table>
-                            				<tr>
-                                				<td class='data'>";
-                                				if ($result['name_UK'] != "") {
-                                				    echo "<img src='./en.png' alt='UK' />";
-                                				}
-                                				echo "&nbsp;" . $result['name_UK']  . "</td>
-                                		    </tr>
-                            				<tr>
-                                                <td class='data'>";
-                                                if ($result['name_IT'] != "") {
-                                                    echo "<img src='./it.jpg' alt='IT' />";
-                                                }
-                                                echo "&nbsp;" . $result['name_IT']  . "</td>
-                                            </tr>
-                                        </table>
-                                        </td>
+                        				</td>";
+                        				
+                        				if ($result['name_UK'] != "" && $result['name_IT'] != "") {
+                        				echo"
+                        				<td class='data'>
+                            				<table>
+                                				<tr>
+                                    				<td class='data'>";
+                                    				if ($result['name_UK'] != "") {
+                                    				    echo "<img src='./en.png' alt='UK' />";
+                                    				}
+                                    				echo "&nbsp;" . $result['name_UK']  . "</td>
+                                    		    </tr>
+                                				<tr>
+                                                    <td class='data'>";
+                                                    if ($result['name_IT'] != "") {
+                                                        echo "<img src='./it.jpg' alt='IT' />";
+                                                    }
+                                                    echo "&nbsp;" . $result['name_IT']  . "</td>
+                                                </tr>
+                                            </table>
+                                        </td>";
+                                        } else if ($result['name_UK'] != "") {
+                                            echo"
+                                            <td class='data2'>
+                                                <img src='./en.png' alt='UK' />&nbsp;" . $result['name_UK'] . "</td>";
+                                        } else if ($result['name_IT'] != "") {
+                                            echo"
+                                            <td class='data2'>
+                                                <img src='./it.jpg' alt='IT' />&nbsp;" . $result['name_IT'] . "</td>";
+                                        }
+                                        echo"
                                         <td class='data'>" . $result['place']    . "</td>
                                         <td class='data'>" . $result['quantity'] . "</td>
                                         <td class='data'>" . $result['lab']      . "</td>
