@@ -13,7 +13,7 @@ td { font-family: verdana, helvetica; overflow-x: auto; }
 .warning { color: #FF0000; font-size: 14px; font-weight: bold; }
 .dateEven { font-weight: bold; width: 65px; background-color: #ffffff; text-align: center;}
 .void { border: none; }
-.data { }
+td.data { font-size: 12px; }
 .dateOdd { font-weight: bold; width: 65px; background-color: #f5f5c4; text-align: center; }
 .dateSab { color: #FF0000; font-weight: bold; width: 65px; background-color: #ddffdd; text-align: center; }
 .dateDom { color: #FF0000; font-weight: bold; width: 65px; background-color: #aaffaa; text-align: center; }
@@ -29,8 +29,8 @@ th.headerCode { width: 175px; }
 th.headerSupplier { width: 175px; } 
 th.headerCAS { width: 175px; } 
 th.headerPhraseS { width: 100px; }
-th.headerPhraseR { width: 100px; }
-th.headerLink { width: 100px; }*/
+th.headerPhraseR { width: 100px; }*/
+th.headerLink { width: 28px; }
 th.headerButtonDelete { width: 15px; }
 th.headerButtonRemove { width: 15px; }
 .userEven { background-color: #ffffff; text-align: center; width: 250px; font-weight: bold; color: #bb3902; border-bottom: none; }

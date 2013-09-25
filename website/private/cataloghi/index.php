@@ -406,7 +406,7 @@ $_POST['delete'] = 0;
 							         <tr>
                             			<th class='headerButtonEdit'></th>
                             			<th class='headerButtonRemove'></th>
-                            			<th class='headerName_UK'>Name <img src='./en.png' alt='UK' /></th>
+                            			<th class='headerName_UK'>Name <!--<img src='./en.png' alt='UK' />--></th>
                                         <!--<th class='headerName_IT'>Name <img src='./it.jpg' alt='IT' /></th>-->
                                         <th class='headerPlace'>Place</th>
                             			<th class='headerQuantity'>Qt</th>
@@ -469,10 +469,18 @@ $_POST['delete'] = 0;
                         				<td>
                         				<table>
                             				<tr>
-                                				<td class='data'>" . $result['name_UK']  . "</td>
-                            				</tr>
+                                				<td class='data'>";
+                                				if ($result['name_UK'] != "") {
+                                				    echo "<img src='./en.png' alt='UK' />";
+                                				}
+                                				echo "&nbsp;" . $result['name_UK']  . "</td>
+                                		    </tr>
                             				<tr>
-                                                <td class='data'>" . $result['name_IT']  . "</td>
+                                                <td class='data'>";
+                                                if ($result['name_IT'] != "") {
+                                                    echo "<img src='./it.jpg' alt='IT' />";
+                                                }
+                                                echo "&nbsp;" . $result['name_IT']  . "</td>
                                             </tr>
                                         </table>
                                         </td>
