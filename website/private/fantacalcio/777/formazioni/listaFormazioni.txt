@@ -6,6 +6,7 @@ ciofeca.txt
 ciofeca_camp1.txt
 ciofeca_coppa1.txt
 eporediese.txt
+eporediese_camp_1.txt
 eporediese_coppa_1.txt
 fedora.txt
 fedora_camp_1.txt
