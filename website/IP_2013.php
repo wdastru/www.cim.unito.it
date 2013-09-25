@@ -409,14 +409,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Alessandro Maiocchi - Bracco Imaging SpA/Italy)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Torino19092012_Maiocchi.pdf">-->
+                                        <td class="available"><a 
+                                        href="documenti/IP_Probes_Turin_2013/lectures/MB_2013.pdf">
                                         <p class='lecture_title'>
                                             Gd-complexes: from low MW to nanosized systems
                                         </p>
                                         <p class='lecture_author'>
                                             (Mauro Botta - Alessandria/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a 
                                         href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_Delli_Castelli.pdf">-->
                                         <p class='lecture_title'>
