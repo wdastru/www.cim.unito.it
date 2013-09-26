@@ -371,14 +371,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Walter Dastr&uacute; - Torino/Univ)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/MULLER_R.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Helmut_Maecke.pdf">
                                         <p class='lecture_title'>
                                             Radiopeptides for imaging and therapies
                                         </p>
                                         <p class='lecture_author'>
                                             (Helmut Maecke - Freiburg/Klinik Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/schwaiger_Torino.pdf">-->
                                         <p class='lecture_title'>
@@ -417,14 +417,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Mauro Botta - Alessandria/Univ)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_Delli_Castelli.pdf">-->
+                                        <td class="available"><a 
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Peptide_synthesis_and_bioconjugation_routes_2013.pdf">
                                         <p class='lecture_title'>
                                             Peptide synthesis and bioconjugation ruotes
                                         </p>
                                         <p class='lecture_author'>
                                             (Lorenzo Tei - Alessandria/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a 
                                         href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_Delli_Castelli.pdf">-->
                                         <p class='lecture_title'>
@@ -439,14 +439,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             14<sup>00</sup>-15<sup>30</sup>
                                         </p></td>
-                                        <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/(Immune)_Hallmarks_of_Cancer.pdf">-->
+                                        <td class="available"><a 
+                                        href="documenti/IP_Probes_Turin_2013/lectures/federica_cavallo_IP_imaging_2013.pdf">
                                         <p class='lecture_title'>
                                             (Immune) Hallmarks of cancer
                                         </p>
                                         <p class='lecture_author'>
                                             (Federica Cavallo - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/Peptide_synthesis_and_bioconjugation_routes_2012.pdf">-->
                                         <p class='lecture_title'>
