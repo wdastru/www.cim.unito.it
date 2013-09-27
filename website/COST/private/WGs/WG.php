@@ -1,9 +1,17 @@
 <?php
 $localizer = "../../../";
 $table = "COST_WG_docs";
-
 $DBName = "cimdb";
-$WG = $_GET['WG'];
+$WG='';
+
+if (preg_match('/^[1-5]$/', $_GET['WG'])) {
+	$WG = $_GET['WG'];
+} else {
+	/* TODO
+	 * give error message
+	 */
+	exit();
+}
 
 $title[1] = "Workgroup 1 - Imaging reporters for theranostic agents";
 $title[2] = "Workgroup 2 - Nanocarrires for theranostic agents";
@@ -19,6 +27,7 @@ if (!$con) {
 $sql = "SELECT * FROM `" . $DBName . "`.`" . $table . "` WHERE `WG` = '" . $WG . "' ORDER BY `date` DESC";
 $result = mysql_query($sql, $con);
 ?>
+
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html

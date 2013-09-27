@@ -1,8 +1,8 @@
 <?php
-$relocate_string = '../../';
+$localizer = '../../';
 
-require_once($relocate_string . 'includes/class.phpmailer.php');
-require $relocate_string . 'includes/sendEMail.php';
+require_once($localizer . 'includes/class.phpmailer.php');
+require $localizer . 'includes/sendEMail.php';
 
 $uploaddir = "uploads/";
 $costXml = "cost.xml";
@@ -29,7 +29,7 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 				/*
 				 * bisogna togliere strlen($_POST['uploader']) caratteri
 				* per evitare la ripetizione di $_POST['uploader']
-				* 9 è la lunghezza di </person>
+				* 9 ï¿½ la lunghezza di </person>
 				*/
 				$end = substr($after[0], strlen($_POST['uploader']), $pos + 9 - strlen($_POST['uploader']));
 				$after[0] = substr($after[0], $pos + 9);
@@ -130,7 +130,7 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 				 * bisogna togliere strlen($_POST['uploader']) caratteri
 				* per evitare la ripetizione di $_POST['uploader']
 				*
-				* 9 è la lunghezza di </person>
+				* 9 ï¿½ la lunghezza di </person>
 				*/
 				$end = substr($after[0], strlen($_POST['uploader']), $pos + 9 - strlen($_POST['uploader']));
 				$after[0] = substr($after[0], $pos + 9);
@@ -181,6 +181,6 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 	}
 }
 
-header("Location: " . $relocate_string . "COST/private/mgmtCommitee.php");
+header("Location: " . $localizer . "COST/private/mgmtCommitee.php");
 
 ?>
