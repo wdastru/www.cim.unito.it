@@ -43,8 +43,8 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 		<br />
 
 		<table id='downloads' style="margin: auto; padding: 10px;">
-	    <tr><td><img class='new' src='figure/new.gif'></td><td class='left'><a href="download/FantaCalcGui_v3.3.5_Setup.exe">FantaCalcGui v3.3.5 (installer)</a></td></tr>
-            <tr><td><img class='new' src='figure/new.gif'></td><td class='left'><a href="download/FantaCalcGui_v3.3.5.zip">FantaCalcGui v3.3.5.zip</a></td></tr>
+	    <tr><td><!--<img class='new' src='figure/new.gif'>--></td><td class='left'><a href="download/FantaCalcGui_v3.3.5_Setup.exe">FantaCalcGui v3.3.5 (installer)</a></td></tr>
+            <tr><td><!--<img class='new' src='figure/new.gif'>--></td><td class='left'><a href="download/FantaCalcGui_v3.3.5.zip">FantaCalcGui v3.3.5.zip</a></td></tr>
 	    <!--<tr><td></td><td class='left'><a href="download/FantaCalcGui_v3.3.4_Setup.exe">FantaCalcGui v3.3.4 (installer)</a></td></tr>
             <tr><td></td><td class='left'><a href="download/FantaCalcGui_v3.3.4.zip">FantaCalcGui v3.3.4.zip</a></td></tr>
 	    <tr><td></td><td class='left'><a href="download/FantaCalcGui_v3.3.3_Setup.exe">FantaCalcGui v3.3.3 (installer)</a></td></tr>
