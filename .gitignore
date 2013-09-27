@@ -8,7 +8,6 @@
 .settings
 .ssh/
 .viminfo
-git/
 git_build/
 robots.txt
 site*
