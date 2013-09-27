@@ -31,17 +31,13 @@ xmlns="http://www.w3.org/1999/xhtml">
     type="image/gif" />
     <body>
         <div id='section5'>
-            <?php
-            require ($localizer . 'includes/main-nav.php');
-            ?>
+            <?php require ($localizer . 'includes/main-nav.php'); ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id="subsection0">
                 <!-- InstanceEndEditable -->
                 <div id='sidebar'>
-                    <?php
-                    require $localizer . 'COST/include/COST-sidebar.inc.php';
-                    ?>
+                    <?php require $localizer . 'COST/include/COST-sidebar.inc.php'; ?>
                     <div class='padding'>
                         <dl id='list'>
                             <!-- <dt class='subsection_link' id='section0-subsection1'>
@@ -64,7 +60,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <p>
-                                <?php echo "<b>! ! ! WARNING ! ! ! <br/>" . $error[$_GET['error']] . "</b>";?>
+                                <?php 
+                                	if (preg_match('/delete|upload|file_exists/', $_GET['error'])) {
+                                		echo "<b>! ! ! WARNING ! ! ! <br/>" . $error[$_GET['error']] . "</b>";
+									} else {
+										echo "<b>! ! ! WARNING ! ! ! <br/>Wrong error message.</b>";
+										exit();
+									}
+                                ?>
                             </p>
                             <input type="submit" value="Back"
                             onclick="javascript:history.back();" />
