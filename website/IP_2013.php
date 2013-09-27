@@ -471,14 +471,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Tony Lahoutte - Brussels/Univ)
                                         </p> <!--</a>--> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Responsive_probes_Digilio.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Eliana_Gianolio_Gd_characterization.pdf">
                                         <p class='lecture_title'>
                                             Gd(III) complexes: basic relaxometric characterization
                                         </p>
                                         <p class='lecture_author'>
                                             (Eliana Gianolio - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                     </tr>
                                     <tr>
                                         <td>
