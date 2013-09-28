@@ -92,31 +92,32 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <?php
                                     $i = 0;
                                     while ($temp = mysql_fetch_array($result)) {
-                                        echo "  <li>
-<input class='deleteButton' type='submit' value='-' onclick='showConfirmBox(\"del_$i\")'>
-<a href='" . $temp['path'] . $temp['filename'] . "'>" . $temp['desc'] . " (" . $temp['date'] . ")</a>
-<form class='deleteForm' action='" . $localizer . "COST/private/WGs/db.php' method='post' id='del_$i'>
-<input type='hidden' name='filename' value='" . $temp['filename'] . "' />
-<input type='hidden' name='desc' value='" . $temp['desc'] . "'>
-<input type='hidden' name='date' value='" . $temp['date'] . "'>
-<input type='hidden' name='path' value='" . $temp['path'] . "'>
-<input type='hidden' name='WG' value='" . $temp['WG'] . "'>
-<input type='hidden' name='table' value='" . $table . "'>
-<input type='hidden' name='type' value='del'>
-</form>
-</li>";
+                                        echo "  
+                                        <li>
+											<input class='deleteButton' type='submit' value='-' onclick='showConfirmBox(\"del_$i\")'>
+											<a href='" . $temp['path'] . $temp['filename'] . "'>" . $temp['desc'] . " (" . $temp['date'] . ")</a>
+											<form class='deleteForm' action='" . $localizer . "COST/private/WGs/db.php' method='post' id='del_$i'>
+												<input type='hidden' name='filename' value='" . $temp['filename'] . "' />
+												<input type='hidden' name='desc' value='" . $temp['desc'] . "'>
+												<input type='hidden' name='date' value='" . $temp['date'] . "'>
+												<input type='hidden' name='path' value='" . $temp['path'] . "'>
+												<input type='hidden' name='WG' value='" . $temp['WG'] . "'>
+												<input type='hidden' name='table' value='" . $table . "'>
+												<input type='hidden' name='type' value='del'>
+											</form>
+										</li>";
                                         $i++;
                                     }
                                     ?>
                                 </ul>
                                 <input type="submit" class="uploadButton" value="+" onclick="changeUploadFormVisibility('uploadFormWG<?php echo $WG;?>');" />
-                                <form id="uploadFormWG<?php echo $WG;?>" class="uploadForm" action="<?php echo $localizer;?>COST/private/WGs/db.php" method="post" enctype="multipart/form-data" >
+                                <form id="uploadFormWG<?php echo $WG;?>" class="uploadForm" 
+                                	action="<?php echo $localizer;?>COST/private/WGs/db.php" method="post" enctype="multipart/form-data" >
                                     Description:
                                     <input type="text" id="description" name="desc" />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File:
                                     <input type="file" id ="filename" name="filename" />
-                                    <input
-                                    type="button" value="Upload" onclick="validateFormWGs('<?php echo $WG;?>');"/>
+                                    <input type="button" value="Upload" onclick="validateFormWGs('<?php echo $WG;?>');"/>
                                     <input type="hidden" id="date" name="date" value="<?php echo date("Y-m-d");?>" />
                                     <input type="hidden" name="WG" value="<?php echo $WG;?>" />
                                     <input type="hidden" name="type" value="add" />
