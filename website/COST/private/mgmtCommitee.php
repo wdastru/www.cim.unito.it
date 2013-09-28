@@ -36,26 +36,19 @@ xmlns="http://www.w3.org/1999/xhtml">
                 The file will be deleted.
             </p>
             <form method='post' id='confirmDeletion' action=''>
-                <input type='button' id='deleteButton' value='Delete'
-                onclick='sendForm();' />
-                <input type='button'
-                value='Cancel' onclick="hideBox();" />
+                <input type='button' id='deleteButton' value='Delete' onclick='sendForm();' />
+                <input type='button' value='Cancel' onclick="hideBox();" />
                 <input type='hidden' name='Id' value='' />
-                </fieldset>
             </form>
         </div>
         <div id='section5'>
-            <?php
-            require ($localizer . 'includes/main-nav.php');
-            ?>
+            <?php require ($localizer . 'includes/main-nav.php'); ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id="subsection4">
                 <!-- InstanceEndEditable -->
                 <div id='sidebar'>
-                    <?php
-                    require $localizer . 'COST/include/COST-sidebar.inc.php';
-                    ?>
+                    <?php require $localizer . 'COST/include/COST-sidebar.inc.php'; ?>
                 </div>
                 <div id='content'>
                     <div class='paddingOuter'>

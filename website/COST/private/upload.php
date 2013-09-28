@@ -1,11 +1,21 @@
 <?php
 $localizer = '../../';
 
+print_r($_POST);
+exit();
+
 require_once($localizer . 'includes/class.phpmailer.php');
 require $localizer . 'includes/sendEMail.php';
 
 $uploaddir = "uploads/";
 $costXml = "cost.xml";
+
+$uploader = htmlentities($_POST['uploader']);
+$desc = htmlentities($_POST['desc']);
+$file = htmlentities($_POST['file']);
+if (is_numeric($_POST['MAX_FILE_SIZE'])) {
+	$max_file_size = $_POST['MAX_FILE_SIZE'];
+}
 
 $mailer = new PHPMailer();
 $mailer->AddAddress("walter.dastru@unito.it", "Walter Dastru'");
@@ -18,8 +28,8 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 			if (file_exists($costXml)) {
 				$str = file_get_contents($costXml);
 
-				preg_match('/<cost>.+?' . $_POST['uploader'] . '/s', $str, $before);
-				preg_match('/' . $_POST['uploader'] . '.+?<\/cost>/s', $str, $after);
+				preg_match('/<cost>.+?' . $uploader . '/s', $str, $before);
+				preg_match('/' . $uploader . '.+?<\/cost>/s', $str, $after);
 
 				$pos = strrpos($before[0], "<person>");
 				$start = substr($before[0], $pos);
@@ -27,11 +37,11 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 
 				$pos = strpos($after[0], "</person>");
 				/*
-				 * bisogna togliere strlen($_POST['uploader']) caratteri
-				* per evitare la ripetizione di $_POST['uploader']
+				 * bisogna togliere strlen($uploader) caratteri
+				* per evitare la ripetizione di $uploader
 				* 9 � la lunghezza di </person>
 				*/
-				$end = substr($after[0], strlen($_POST['uploader']), $pos + 9 - strlen($_POST['uploader']));
+				$end = substr($after[0], strlen($uploader), $pos + 9 - strlen($uploader));
 				$after[0] = substr($after[0], $pos + 9);
 
 				$person = $start . $end;
@@ -39,7 +49,7 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 				preg_match('/<resources>.*?<\/resources>/s', $person, $resources);
 
 				if (isset($resources[0])) {
-					$pattern = "/<resource>([^>]*>){3}[^>]*" . $_POST['file'] . ".+?<\/resource>/s";
+					$pattern = "/<resource>([^>]*>){3}[^>]*" . $file . ".+?<\/resource>/s";
 					$person = preg_replace($pattern, "", $person);
 				}
 
@@ -47,11 +57,11 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 				fwrite($file, $before[0] . $person . $after[0]);
 				fclose($file);
 
-				if (!@unlink($_POST['file']))
+				if (!@unlink($file))
 				{
-					$body = "The file could not be deleted:\r\n\r\nfilename: " . $_POST['file'] . "\r\nuploader: " . $_POST['uploader'];
+					$body = "The file could not be deleted:\r\n\r\nfilename: " . $file . "\r\nuploader: " . $uploader;
 				} else {
-					$body = "A file has been deleted:\r\n\r\nfilename: " . $_POST['file'] . "\r\nuploader: " . $_POST['uploader'];
+					$body = "A file has been deleted:\r\n\r\nfilename: " . $file . "\r\nuploader: " . $uploader;
 				}
 
 				$vars = array(
@@ -118,8 +128,8 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 			if (file_exists($costXml)) {
 				$str = file_get_contents($costXml);
 
-				preg_match('/<cost>.+?' . $_POST['uploader'] . '/s', $str, $before);
-				preg_match('/' . $_POST['uploader'] . '.+?<\/cost>/s', $str, $after);
+				preg_match('/<cost>.+?' . $uploader . '/s', $str, $before);
+				preg_match('/' . $uploader . '.+?<\/cost>/s', $str, $after);
 
 				$pos = strrpos($before[0], "<person>");
 				$start = substr($before[0], $pos);
@@ -127,12 +137,12 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 
 				$pos = strpos($after[0], "</person>");
 				/*
-				 * bisogna togliere strlen($_POST['uploader']) caratteri
-				* per evitare la ripetizione di $_POST['uploader']
+				 * bisogna togliere strlen($uploader) caratteri
+				* per evitare la ripetizione di $uploader
 				*
 				* 9 � la lunghezza di </person>
 				*/
-				$end = substr($after[0], strlen($_POST['uploader']), $pos + 9 - strlen($_POST['uploader']));
+				$end = substr($after[0], strlen($uploader), $pos + 9 - strlen($uploader));
 				$after[0] = substr($after[0], $pos + 9);
 
 				$person = $start . $end;
@@ -162,16 +172,20 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 				
 				</table>";
 			}
-			$body = "A new file has been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . $_POST['uploader'] . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
+			$body = "A new file has been uploaded:\r\n\r\nfilename: " . 
+					$theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . 
+					$uploader . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
 		} else {
-			$body = "The file has been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . $_POST['uploader'] . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
+			$body = "The file has been uploaded:\r\n\r\nfilename: " . 
+					$theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . 
+					$uploader . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
 			//PRINT AN ERROR IF THE FILE COULD NOT BE COPIED
 			header('Location: error.php');
 		}
 
 		$vars = array(
-								'subject'=>'COST: file upload notification.',
-								'body'=> $body
+			'subject'=>'COST: file upload notification.',
+			'body'=> $body
 		);
 		if (!sendEMail($vars, $mailer)) {
 			; // issue a notification!
