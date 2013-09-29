@@ -1,6 +1,15 @@
 <?php
 $localizer = "../../";
 require $localizer . 'COST/private/errors.inc.php';
+
+function valid_error() {	
+	if (preg_match('/^[delete|upload|file_exists|upload_dir_not_exist]$/', $_GET['error'])) { 
+		return TRUE;
+	} else { 
+		return FALSE;
+	}
+}
+
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -60,8 +69,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <p>
-                                <?php 
-                                	if (preg_match('/delete|upload|file_exists/', $_GET['error'])) {
+                                <?php
+                                	if (valid_error()) {
                                 		echo "<b>! ! ! WARNING ! ! ! <br/>" . $error[$_GET['error']] . "</b>";
 									} else {
 										echo "<b>! ! ! WARNING ! ! ! <br/>Wrong error message.</b>";
