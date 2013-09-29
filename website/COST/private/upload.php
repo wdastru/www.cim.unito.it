@@ -1,30 +1,35 @@
 <?php
+
+/* script variables */
 $localizer = '../../';
-
-print_r($_POST);
-exit();
-
-require_once($localizer . 'includes/class.phpmailer.php');
-require $localizer . 'includes/sendEMail.php';
-
-$uploaddir = "uploads/";
+$uploaddir = $localizer . "uploads/";
 $costXml = "cost.xml";
-
 $uploader = htmlentities($_POST['uploader']);
 $desc = htmlentities($_POST['desc']);
 $file = htmlentities($_POST['file']);
 if (is_numeric($_POST['MAX_FILE_SIZE'])) {
 	$max_file_size = $_POST['MAX_FILE_SIZE'];
 }
+if (preg_match('/^[01]$/', $_POST['delete'])) {
+	$delete = $_POST['delete'];
+}
+/* script variables */
+
+require_once($localizer . 'includes/class.phpmailer.php');
+require $localizer . 'includes/sendEMail.php';
 
 $mailer = new PHPMailer();
 $mailer->AddAddress("walter.dastru@unito.it", "Walter Dastru'");
-
-if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
-	if (!isset($_POST['delete'])) {
+	
+if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') 
+{
+	if (!isset($delete)) 
+	{
 		header('Location: error.php');
-	} else {
-		if ($_POST['delete'] == 1) {
+	} 
+	else 
+	{
+		if ($delete == 1) {
 			if (file_exists($costXml)) {
 				$str = file_get_contents($costXml);
 
@@ -39,7 +44,7 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 				/*
 				 * bisogna togliere strlen($uploader) caratteri
 				* per evitare la ripetizione di $uploader
-				* 9 � la lunghezza di </person>
+				* 9 e' la lunghezza di </person>
 				*/
 				$end = substr($after[0], strlen($uploader), $pos + 9 - strlen($uploader));
 				$after[0] = substr($after[0], $pos + 9);
@@ -69,7 +74,8 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 								'body'=> $body
 				);
 
-				if (!sendEMail($vars, $mailer)) {
+				if (!sendEMail($vars, $mailer)) 
+				{
 					;// issue a notification!
 				}
 
@@ -78,8 +84,9 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 			}
 		}
 	}
-} else {
-
+}
+else
+{
 	//The files have a link on a page for downloading
 	//and filenames are also put in the progress bar so
 	//the file can be viewed in the browser (ie. PDF files)
@@ -88,16 +95,25 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 	//are displayed, I wanted to use this method instead
 	//of url_encode() [just looks funny when displayed]
 
-	$SafeFile = $_FILES['ufile']['name'];
-	$SafeFile = str_replace("#", "No.", $SafeFile);
-	$SafeFile = str_replace("$", "Dollar", $SafeFile);
-	$SafeFile = str_replace("%", "Percent", $SafeFile);
-	$SafeFile = str_replace("^", "", $SafeFile);
-	$SafeFile = str_replace("&", "and", $SafeFile);
-	$SafeFile = str_replace("*", "", $SafeFile);
-	$SafeFile = str_replace("?", "", $SafeFile);
+	$SafeFileName = $_FILES['ufile']['name'];
+	$SafeFileName = str_replace("#", "No.", $SafeFileName);
+	$SafeFileName = str_replace("$", "Dollar", $SafeFileName);
+	$SafeFileName = str_replace("%", "Percent", $SafeFileName);
+	$SafeFileName = str_replace("^", "", $SafeFileName);
+	$SafeFileName = str_replace("&", "and", $SafeFileName);
+	$SafeFileName = str_replace("*", "", $SafeFileName);
+	$SafeFileName = str_replace("?", "", $SafeFileName);
 
-	$path = $uploaddir . $SafeFile;
+	if (is_dir($uploaddir)) {
+		$path = $uploaddir . $SafeFileName;
+	} else {
+		/* TODO
+		 * error message
+		 */
+		header('Location: error.php?error=upload_dir_not_exist');
+		exit();
+	}
+	
 
 	if ($_FILES['ufile'] != null) {
 		//AS LONG AS A FILE WAS SELECTED...
@@ -140,13 +156,13 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '') {
 				 * bisogna togliere strlen($uploader) caratteri
 				* per evitare la ripetizione di $uploader
 				*
-				* 9 � la lunghezza di </person>
+				* 9 e' la lunghezza di </person>
 				*/
 				$end = substr($after[0], strlen($uploader), $pos + 9 - strlen($uploader));
 				$after[0] = substr($after[0], $pos + 9);
 
 				$person = $start . $end;
-				$toAdd = "\n<resource>\n<desc>" . $_POST['desc'] . "</desc>\n<file>" . $SafeFile . "</file>\n</resource>";
+				$toAdd = "\n<resource>\n<desc>" . $desc . "</desc>\n<file>" . $SafeFileName . "</file>\n</resource>";
 
 				preg_match('/<resources>.*?<\/resources>/s', $person, $resources);
 
