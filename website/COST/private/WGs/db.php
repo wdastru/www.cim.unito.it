@@ -27,9 +27,13 @@ if (isset($_POST['WG'])) {
 	}
 }
 
+echo "<br>WG : " . $WG;
+
 if (isset($_POST['desc'])) {
 	$desc = htmlentities($_POST['desc']);
 }
+
+echo "<br>desc : " . $desc;
 
 if (isset($_FILES['filename']['name'])) {
     $addFilename = $_FILES['filename']['name'];
@@ -40,6 +44,8 @@ else
 	exit();
 }
 
+echo "<br>addFilename : " . $addFilename;
+
 if (isset($_POST['filename'])) {
     $delFilename = $_POST['filename'];
 } else { 
@@ -47,13 +53,19 @@ if (isset($_POST['filename'])) {
 	exit();
 }
 
+echo "<br>delFilename : " . $delFilename;
+
 if (isset($_POST['date'])) {
     $date = htmlentities($_POST['date']);
 }
 
+echo "<br>date : " . $date;
+
 if (isset($_POST['path'])) {
     $path = htmlentities($_POST['path']);
 }
+
+echo "<br>path : " . $path;
 
 if (isset($_POST['type'])) {
 	if (preg_match('/^(add|del)$/', $_POST['type']))
@@ -61,6 +73,8 @@ if (isset($_POST['type'])) {
     	$type = $_POST['type'];
 	}
 }
+
+echo "<br>type : " . $type;
 
 if (isset($_POST['$table'])) {
     $table = $_POST['table'];
@@ -71,13 +85,6 @@ else
 	exit();
 }
 
-echo "<br>WG : " . $WG;
-echo "<br>desc : " . $desc;
-echo "<br>addFilename : " . $addFilename;
-echo "<br>delFilename : " . $delFilename;
-echo "<br>date : " . $date;
-echo "<br>path : " . $path;
-echo "<br>type : " . $type;
 echo "<br>table : " . $table;
 
 mysql_select_db($DBName, $con);
