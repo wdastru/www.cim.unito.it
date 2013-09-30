@@ -3,7 +3,7 @@
 /* script variables */
 $localizer = '../../';
 $uploaddir = $localizer . "COST/private/uploads/";
-$costXml = $localizer . "COST/private/uploads/cost.xml";
+$costXml = $localizer . "COST/private/cost.xml";
 $uploader = htmlentities($_POST['uploader']);
 $desc = htmlentities($_POST['desc']);
 $file = htmlentities($_POST['file']);
@@ -183,6 +183,7 @@ else
 
 			} else {
 				header("Location: " . $localizer . "COST/private/error.php?error=cost_xml_not_found");
+                exit();
 			}
 			$body = "A new file has been uploaded:\r\n\r\nfilename: " . 
 					$theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . 
@@ -193,6 +194,7 @@ else
 					$uploader . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
 			//PRINT AN ERROR IF THE FILE COULD NOT BE COPIED
 			header("Location: " . $localizer . "COST/private/error.php?error=file_not_copied");
+            exit();
 		}
 
 		$vars = array(
@@ -208,5 +210,4 @@ else
 }
 
 header("Location: " . $localizer . "COST/private/mgmtCommitee.php");
-
 ?>
