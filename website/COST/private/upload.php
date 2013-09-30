@@ -2,7 +2,7 @@
 
 /* script variables */
 $localizer = '../../';
-$uploaddir = $localizer . "uploads/";
+$uploaddir = $localizer . "COST/private/uploads/";
 $costXml = "cost.xml";
 $uploader = htmlentities($_POST['uploader']);
 $desc = htmlentities($_POST['desc']);
