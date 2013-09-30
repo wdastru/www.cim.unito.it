@@ -1,9 +1,6 @@
 <?php
 session_start();
 
-print_r($_POST);
-print_r($_FILES);
-
 /* script variables */
 $localizer = "../../../";
 $DBName = "cimdb";
