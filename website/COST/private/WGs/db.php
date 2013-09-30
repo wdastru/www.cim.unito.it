@@ -46,15 +46,6 @@ else
 
 echo "<br>addFilename : " . $addFilename;
 
-if (isset($_POST['filename'])) {
-    $delFilename = $_POST['filename'];
-} else { 
-	header("Location: " . $localizer . "COST/private/error.php?error=missing_filename");
-	exit();
-}
-
-echo "<br>delFilename : " . $delFilename;
-
 if (isset($_POST['date'])) {
     $date = htmlentities($_POST['date']);
 }
@@ -75,6 +66,17 @@ if (isset($_POST['type'])) {
 }
 
 echo "<br>type : " . $type;
+
+if ($type == 'del') {
+    if (isset($_POST['filename'])) {
+        $delFilename = $_POST['filename'];
+    } else { 
+        header("Location: " . $localizer . "COST/private/error.php?error=missing_filename");
+        exit();
+    }
+}
+
+echo "<br>delFilename : " . $delFilename;
 
 if (isset($_POST['$table'])) {
     $table = $_POST['table'];
