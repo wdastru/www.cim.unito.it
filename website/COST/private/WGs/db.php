@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+print_r($_POST);
+print_r($_FILES);
+
 /* script variables */
 $localizer = "../../../";
 $DBName = "cimdb";
@@ -23,9 +26,15 @@ if (isset($_POST['WG'])) {
 		exit();
 	}
 }
+
+echo "<br>WG : " . $WG;
+
 if (isset($_POST['desc'])) {
 	$desc = htmlentities($_POST['desc']);
 }
+
+echo "<br>desc : " . $desc;
+
 if (isset($_FILES['filename']['name'])) {
     $addFilename = $_FILES['filename']['name'];
 } 
@@ -34,24 +43,39 @@ else
 	header("Location: " . $localizer . "COST/private/error.php?error=missing_upload_file");
 	exit();
 }
+
+echo "<br>addFileName : " . $addFilename;
+
 if (isset($_POST['filename'])) {
     $delFilename = $_POST['filename'];
 } else { 
 	header("Location: " . $localizer . "COST/private/error.php?error=missing_filename");
 	exit();
 }
+
+echo "<br>delFileName : " . $delFileName;
+
 if (isset($_POST['date'])) {
     $date = htmlentities($_POST['date']);
 }
+
+echo "<br>date : " . $date;
+
 if (isset($_POST['path'])) {
     $path = htmlentities($_POST['path']);
 }
+
+echo "<br>path : " . $path;
+
 if (isset($_POST['type'])) {
 	if (preg_match('/^(add|del)$/', $_POST['type']))
 	{
     	$type = $_POST['type'];
 	}
 }
+
+echo "<br>type : " . $type;
+
 if (isset($_POST['$table'])) {
     $table = $_POST['table'];
 }
@@ -60,6 +84,8 @@ else
 	header("Location: " . $localizer . "COST/private/error.php?error=missing_db_table_name");
 	exit();
 }
+
+echo "<br>table : " . $table;
 
 mysql_select_db($DBName, $con);
 
@@ -70,7 +96,7 @@ mysql_query($sql, $con);
 
 if ($type == "add") 
 {
-
+	
     if (!file_exists($path . $addFilename)) {
 
         if (move_uploaded_file($_FILES['filename']['tmp_name'], $path . $addFilename)) {
