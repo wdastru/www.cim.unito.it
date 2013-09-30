@@ -3,7 +3,7 @@
 /* script variables */
 $localizer = '../../';
 $uploaddir = $localizer . "COST/private/uploads/";
-$costXml = "cost.xml";
+$costXml = $localizer . "COST/private/uploads/cost.xml";
 $uploader = htmlentities($_POST['uploader']);
 $desc = htmlentities($_POST['desc']);
 $file = htmlentities($_POST['file']);
@@ -114,7 +114,6 @@ else
 		header('Location: error.php?error=upload_dir_not_exist');
 		exit();
 	}
-	
 
 	if ($_FILES['ufile'] != null) {
 		//AS LONG AS A FILE WAS SELECTED...
