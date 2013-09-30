@@ -182,13 +182,7 @@ else
 				fclose($file);
 
 			} else {
-				echo "
-				<table cellpadding='5' width='80%'> 
-				<tr> 
-				<td align='Center' colspan='2'><font color=\'#C80000\'><b>cost.xml is not found!</b></font></td> 
-				</tr> 
-				
-				</table>";
+				header("Location: " . $localizer . "COST/private/error.php?error=cost_xml_not_found");
 			}
 			$body = "A new file has been uploaded:\r\n\r\nfilename: " . 
 					$theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . 
@@ -198,7 +192,7 @@ else
 					$theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . 
 					$uploader . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
 			//PRINT AN ERROR IF THE FILE COULD NOT BE COPIED
-			header("Location: " . $localizer . "COST/private/error.php?error=");
+			header("Location: " . $localizer . "COST/private/error.php?error=file_not_copied");
 		}
 
 		$vars = array(
