@@ -25,7 +25,8 @@ if (!isset($_FILES['ufile']['name']) || $_FILES['ufile']['name'] == '')
 {
 	if (!isset($delete)) 
 	{
-		header('Location: error.php');
+		header('Location: error.php?error=delete_not_set');
+		exit();
 	} 
 	else 
 	{
@@ -129,13 +130,15 @@ else
 			$theFileSize = $_FILES['ufile']['size'];
 
 			if ($theFileSize > 20000000) {
-				header('Location: fileTooBig.php?size=' . $theFileSize);
+				//header('Location: fileTooBig.php?size=' . $theFileSize);
+				header('Location: error.php?error=file_too_big');
 			} else if ($theFileSize > 999999) {
 				//IF GREATER THAN 999KB, DISPLAY AS MB
 				$theDiv = $theFileSize / 1000000;
 				$theFileSize = round($theDiv, 1) . " MB";
 				//round($WhatToRound, $DecimalPlaces)
-			} else {//OTHERWISE DISPLAY AS KB
+			} else {
+				//OTHERWISE DISPLAY AS KB
 				$theDiv = $theFileSize / 1000;
 				$theFileSize = round($theDiv, 1) . " KB";
 				//round($WhatToRound, $DecimalPlaces)

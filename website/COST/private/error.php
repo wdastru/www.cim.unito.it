@@ -2,8 +2,8 @@
 $localizer = "../../";
 require $localizer . 'COST/private/errors.inc.php';
 
-function valid_error() {	
-	if (preg_match('/^[delete|upload|file_exists|upload_dir_not_exist]$/', $_GET['error'])) { 
+function valid_error() {
+	if (preg_match('/^(missing_db_table_name|missing_upload_file|invalid_type|delete|upload|missing_filename|file_exists|file_not_exists|upload_dir_not_exist|delete_not_set|not_valid_WG|file_too_big|could_not_delete_file)$/', $_GET['error'])) {
 		return TRUE;
 	} else { 
 		return FALSE;

@@ -1,15 +1,16 @@
 <?php
+
+/* script variables */
 $localizer = "../../../";
 $table = "COST_WG_docs";
 $DBName = "cimdb";
 $WG='';
+/* script variables */
 
 if (preg_match('/^[1-5]$/', $_GET['WG'])) {
 	$WG = $_GET['WG'];
 } else {
-	/* TODO
-	 * give error message
-	 */
+	header("Location: " . $localizer . "COST/private/error.php?error=not_valid_WG");
 	exit();
 }
 

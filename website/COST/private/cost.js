@@ -1,6 +1,9 @@
 /**
  * @author WAleViolaeIvan
  */
+
+var id;
+
 function loadXMLDoc(dname) {
     if(window.XMLHttpRequest) {
         xhttp = new XMLHttpRequest();
@@ -70,7 +73,6 @@ function sendForm() {
 }
 
 function sendFormMinutes() {
-
     if(document.getElementById) {
         form = document.getElementById(id);
         form.submit();
@@ -81,7 +83,7 @@ function sendFormMinutes() {
 }
 
 function sendFormWGs() {
-
+	
     if(document.getElementById) {
         form = document.getElementById(id);
         form.submit();
@@ -125,11 +127,11 @@ function validateFormWGs(_id) {
 }
 
 function showConfirmBox(_id) {
-    id = _id;
+	id = _id;
     if(document.getElementById) {
         var hiddenBox = document.getElementById("confirmDeletionHiddenBox");
         hiddenBox.style.visibility = 'visible';
-        hiddenBox.style.top = '30%';
+        hiddenBox.style.top = '30%';        
     } else {
         alert(":( DOM NON Supportato!");
     }
