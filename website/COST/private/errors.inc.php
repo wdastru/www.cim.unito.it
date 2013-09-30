@@ -3,6 +3,7 @@ $error['delete'] = "The file could not be deleted.";
 $error['upload'] = "The file could not be uploaded.";
 $error['file_exists'] = "The file already exists.";
 $error['file_not_exists'] = "The file does not exists.";
+$error['file_not_copied'] = "The file could not be copied.";
 $error['upload_dir_not_exist'] = "The upload directory does not exist.";
 $error['delete_not_set'] = "The \$delete variables ha not been set.";
 $error['not_valid_WG'] = "The \$_GET['WG'] variable has been set to an invalid value.";
