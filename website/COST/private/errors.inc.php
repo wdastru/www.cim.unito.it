@@ -13,4 +13,5 @@ $error['missing_filename'] = "The filename is missing.";
 $error['invalid_type'] = "The \$_POST['type'] variable has been set to an invalid value.";
 $error['missing_upload_file'] = "The file to be uploaded is missing.";
 $error['missing_db_table_name'] = "The database table name is missing.";
+$error['cost_xml_not_found'] = "The cost.xml file has not been found.";
 ?>
