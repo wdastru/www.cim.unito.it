@@ -198,7 +198,7 @@ else
 					$theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . 
 					$uploader . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
 			//PRINT AN ERROR IF THE FILE COULD NOT BE COPIED
-			header('Location: error.php');
+			header("Location: " . $localizer . "COST/private/error.php?error=");
 		}
 
 		$vars = array(
