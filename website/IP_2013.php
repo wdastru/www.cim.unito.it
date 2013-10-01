@@ -447,14 +447,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Federica Cavallo - Torino/Univ)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Peptide_synthesis_and_bioconjugation_routes_2012.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/PPT_M_de_la_Fuente.pdf">
                                         <p class='lecture_title'>
                                             Targeted delivery of vaccines and drugs
                                         </p>
                                         <p class='lecture_author'>
                                             (Maria de la Fuente - Santiago de Compostela/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/DeJong_2013.rar">
                                         <p class='lecture_title'>
@@ -543,14 +543,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Giuseppe Digilio - Alessandria/Univ)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Geninatti.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/scuola_emmi_2013.pdf">
                                         <p class='lecture_title'>
                                             Design MRI targeting agents
                                         </p>
                                         <p class='lecture_author'>
                                             (Simonetta Geninatti - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td>
                                         <p class='lecture_title'>
                                             Iron oxide complexes
@@ -588,13 +588,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Dario Longo - Torino/Univ)
                                         </p> </a> </td>
-                                        <td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/FM_US_Imaging-IP-01Oct.pdf">
                                         <p class='lecture_title'>
                                             US imaging: basic principles and echografic agents
                                         </p>
                                         <p class='lecture_author'>
                                             (Filippo Molinari - Torino/Polytechnic Univ)
-                                        </p></td>
+                                        </p> </a> </td>
                                         <td>
                                         <p class='lecture_title'>
                                             CEST agents
@@ -631,13 +632,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Alberto Bert- im3D SpA/Italy)
                                         </p> </a> </td>
-                                        <td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Optical_Imaging_Probes_Sep_2013.pdf">
                                         <p class='lecture_title'>
                                             Optical Imaging
                                         </p>
                                         <p class='lecture_author'>
                                             (Giannis Zacharakis - Crete/FORTH)
-                                        </p></td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/Molinari_US_Modality-IP-26Sept.pdf">-->
                                         <p class='lecture_title'>
