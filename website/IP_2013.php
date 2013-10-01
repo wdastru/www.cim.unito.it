@@ -379,14 +379,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Helmut Maecke - Freiburg/Klinik Univ)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/schwaiger_Torino.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/EMMI_PET-SPECT_F_Dolle_2013.pdf">
                                         <p class='lecture_title'>
                                             PET/SPECT: introduction
                                         </p>
                                         <p class='lecture_author'>
                                             (Frederic Doll&egrave; - Saclay/CEA-INSTN)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -425,14 +425,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Lorenzo Tei - Alessandria/Univ)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_Delli_Castelli.pdf">-->
+                                        <td class="available"><a 
+                                        href="documenti/IP_Probes_Turin_2013/lectures/EMMI_preparation_of_radiolabelled_probes_F_Dolle_summary_as_pdf.pdf">
                                         <p class='lecture_title'>
                                             Preparation of radiolabelled probes
                                         </p>
                                         <p class='lecture_author'>
                                             (Frederic Doll&egrave; - Saclay/CEA-INSTN)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -455,22 +455,22 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Maria de la Fuente - Santiago de Compostela/Univ)
                                         </p> <!--</a>--> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/NMR-MRI_introduction.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/DeJong_2013.rar">
                                         <p class='lecture_title'>
                                             Targeting probes for PET/SPECT applications 
                                         </p>
                                         <p class='lecture_author'>
                                             (Marion de Jong - Rotterdam/Erasmus MC)
-                                        </p> <!--</a>--> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Eliana_Gianolio_IP_2012.pdf">-->
+                                        </p> </a> </td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/imaging_Lahoutte_Torino_2013.pdf">
                                         <p class='lecture_title'>
                                             (Immuno)-imaging using nanobodies
                                         </p>
                                         <p class='lecture_author'>
                                             (Tony Lahoutte - Brussels/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/Eliana_Gianolio_Gd_characterization.pdf">
                                         <p class='lecture_title'>
@@ -535,14 +535,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             9<sup>00</sup>-11<sup>00</sup>
                                         </p></td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/IP_Probes_2012_Longo_DCE_MRI_23_9_12.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Responsive_probes_2013.pdf">
                                         <p class='lecture_title'>
                                             Responsive Contrast Agent
                                         </p>
                                         <p class='lecture_author'>
                                             (Giuseppe Digilio - Alessandria/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/Geninatti.pdf">-->
                                         <p class='lecture_title'>
@@ -580,12 +580,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             11<sup>30</sup>-13<sup>00</sup>
                                         </p></td>
-                                        <td><p class='lecture_title'>
+                                        <td> <!-- class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Lahoutte.pdf">-->
+                                        <p class='lecture_title'>
                                             DCE-MRI: principles and technique
                                         </p>
                                         <p class='lecture_author'>
                                             (Dario Longo - Torino/Univ)
-                                        </p></td>
+                                        </p> </a> </td>
                                         <td>
                                         <p class='lecture_title'>
                                             US imaging: basic principles and echografic agents
