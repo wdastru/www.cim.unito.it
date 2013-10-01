@@ -623,14 +623,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             14<sup>00</sup>-15<sup>30</sup>
                                         </p></td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/scuolaEMMI2012_Viale.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Bert-Medical_Image_Analysis-30_Sep_2013.pdf">
                                         <p class='lecture_title'>
                                             Medical Image analysis
                                         </p>
                                         <p class='lecture_author'>
                                             (Alberto Bert- im3D SpA/Italy)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td>
                                         <p class='lecture_title'>
                                             Optical Imaging
