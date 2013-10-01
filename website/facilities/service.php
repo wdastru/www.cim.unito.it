@@ -64,10 +64,7 @@
                     
                     /*** SEND MAIL ***/
                     sendEMail($vars, $mailer);
-                    /*** SEND MAIL ***/
-                    
-                    echo $body;
-                    exit();                    
+                    /*** SEND MAIL ***/             
                     
                     header('Location: ' . $localizer . 'facilities/service.php');
                 } else {
