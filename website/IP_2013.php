@@ -580,8 +580,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             11<sup>30</sup>-13<sup>00</sup>
                                         </p></td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Lahoutte.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/IP_Probes_2013_Longo_DCE_MRI.pdf">
                                         <p class='lecture_title'>
                                             DCE-MRI: principles and technique
                                         </p>
