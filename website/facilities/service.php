@@ -8,9 +8,14 @@
     $eol = "\n";
     //$eol = "<br />";
     
-    if (isset($_GET['submit'])) { 
+    if (isset($_GET['submit'])) {
         if ($_GET['submit'] == 'yes') {
-            $valid = (
+            
+            $regex = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/'; 
+            // Run the preg_match() function on regex against the email address
+            if (preg_match($regex, $_POST['email'])) {
+                
+                $valid = (
                          isset($_POST['name']) && 
                          isset($_POST['email']) &&
                          isset($_POST['institution']) && 
@@ -21,34 +26,64 @@
                          $_POST['description'] != ''
                      );
                      
-            if ($valid) {
-                $body .= "Name        : " . $_POST['name'] . $eol;
-                $body .= "E-mail      : " . $_POST['email'] . $eol;
-                $body .= "Institution : " . $_POST['institution'] . $eol;
-                $body .= "NMR         : " . $_POST['NMR'] . $eol;
-                $body .= "MRI         : " . $_POST['MRI'] . $eol;
-                $body .= "OI          : " . $_POST['OI'] . $eol;
-                $body .= "US          : " . $_POST['US'] . $eol;
-                $body .= "PET_SPECT   : " . $_POST['PET_SPECT'] . $eol;
-                $body .= "Instruments : " . $_POST['instruments'] . $eol;
-                $body .= "Description : " . $_POST['description'] . $eol;
-                $body .= "Animal use  : " . $_POST['animal'] . $eol;
-                $body .= "Consumables : " . $_POST['consumables'] . $eol;
-                $body .= "Notes       : " . $_POST['notes'] . $eol;
-                $vars = array('subject' => "Service request.", 'body' => $body);
+                if ($valid) {
+                    $body .= "Name        : " . htmlentities($_POST['name']        ) . $eol;
+                    $body .= "E-mail      : " . htmlentities($_POST['email']       ) . $eol;
+                    $body .= "Institution : " . htmlentities($_POST['institution'] ) . $eol;
+                    if (isset($_POST['NMR'])) {
+                        if ($_POST['NMR'] == 'yes') {
+                            $body .= "NMR         : " . htmlentities($_POST['NMR']         ) . $eol;
+                        }
+                    }
+                    if (isset($_POST['MRI'])) {
+                        if ($_POST['MRI'] == 'yes') {
+                            $body .= "MRI         : " . htmlentities($_POST['MRI']         ) . $eol;
+                        }
+                    }
+                    if (isset($_POST['OI'])) {
+                        if ($_POST['OI'] == 'yes') {
+                            $body .= "OI          : " . htmlentities($_POST['OI']          ) . $eol;
+                        }
+                    }
+                    if (isset($_POST['US'])) {
+                        if ($_POST['US'] == 'yes') {
+                            $body .= "US          : " . htmlentities($_POST['US']          ) . $eol;
+                        }
+                    }
+                    if (isset($_POST['PET_SPECT'])) {
+                        if ($_POST['PET_SPECT'] == 'yes') {
+                            $body .= "PET_SPECT   : " . htmlentities($_POST['PET_SPECT']   ) . $eol;
+                        }
+                    }
+                    $body .= "Instruments : " . htmlentities($_POST['instruments'] ) . $eol;
+                    $body .= "Description : " . htmlentities($_POST['description'] ) . $eol;
+                    $body .= "Animal use  : " . htmlentities($_POST['animal']      ) . $eol;
+                    $body .= "Consumables : " . htmlentities($_POST['consumables'] ) . $eol;
+                    $body .= "Notes       : " . htmlentities($_POST['notes']       ) . $eol;
+                    $vars = array('subject' => "Service request.", 'body' => $body);
+                    
+                    /*** SEND MAIL ***/
+                    sendEMail($vars, $mailer);
+                    /*** SEND MAIL ***/
+                    
+                    echo $body;
+                    exit();                    
+                    
+                    header('Location: ' . $localizer . 'facilities/service.php');
+                } else {
+                    $error_string = "Mandatory fields are missing !!!";
+                    header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                    exit();
+                }
                 
-                /*** SEND MAIL ***/
-                sendEMail($vars, $mailer);
-                /*** SEND MAIL ***/
+                unset($_POST);
+                $body = '';
                 
-                header('Location: ' . $localizer . 'facilities/service.php');
             } else {
-                $error_string = "Mandatory fields are missing !!!";
+                $error_string = "e-mail field is invalid !!!";
                 header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                exit();
             }
-            
-            unset($_POST);
-            $body = '';
         }
     }
  ?>
