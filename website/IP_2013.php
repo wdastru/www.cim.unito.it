@@ -485,14 +485,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             16<sup>00</sup>-17<sup>30</sup>
                                         </p></td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Bert_-_Medical_Image_Analysis_-_17_Sep_2012.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Lars_Holmgren_IP2013.pdf">
                                         <p class='lecture_title'>
                                             Angiogenesis
                                         </p>
                                         <p class='lecture_author'>
                                             (Lars Holmgren - Stockholm/Karolinska Institute)
-                                        </p></a></td>
+                                        </p> </a> </td>
                                         <td>
                                         <p class='lecture_title'>
                                             Design of imaging probes
