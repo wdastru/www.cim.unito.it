@@ -558,14 +558,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Robert Muller - Mons/Univ)
                                         </p></td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/MRI_what_is_most_in_need_2012_Bonmati.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/PETMR-MI_Course_Turin-BeerAJ_2013-09-30.pdf">
                                         <p class='lecture_title'>
                                             Combined PET/MRI: where we stand
                                         </p>
                                         <p class='lecture_author'>
                                             (Ambros Beer - Munich/TUM)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td> <!-- class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/lezionisantorodicuntoip2012.zip">-->
                                         <p class='lecture_title'>
@@ -596,21 +596,22 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Filippo Molinari - Torino/Polytechnic Univ)
                                         </p> </a> </td>
-                                        <td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_[2013].pdf">
                                         <p class='lecture_title'>
                                             CEST agents
                                         </p>
                                         <p class='lecture_author'>
                                             Daniela Delli Castelli - Torino/Univ
-                                        </p></td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Lahoutte.pdf">-->
+                                        </p> </a> </td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Presentazione_teranostici_IP_2013_Terreno.pdf">
                                         <p class='lecture_title'>
                                             Imaging-Guided Therapy: the advent of theranostic agents
                                         </p>
                                         <p class='lecture_author'>
                                             (Enzo Terreno - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td>
                                         <p class='lecture_title'>
                                             The EPR effect for tumor imaging, how far can it take us
@@ -640,14 +641,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Giannis Zacharakis - Crete/FORTH)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Molinari_US_Modality-IP-26Sept.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Techniques_CT_and_MR_for_angio_turin_2013.pdf">
                                         <p class='lecture_title'>
                                             MRI and CT for angiographic application
                                         </p>
                                         <p class='lecture_author'>
                                             (Philippe Douek - Lione/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/Viale_IP_2013.pdf">
                                         <p class='lecture_title'>
