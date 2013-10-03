@@ -648,14 +648,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Philippe Douek - Lione/Univ)
                                         </p> <!--</a>--> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Targeted_therapies_Cavallo_260912.pdf">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Viale_IP_2013.pdf">
                                         <p class='lecture_title'>
                                             Hyperpolarized MRI : metabolic imaging
                                         </p>
                                         <p class='lecture_author'>
                                             (Alessandra Viale - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        </p> </a> </td>
                                         <td>
                                         <p class='lecture_title'>
                                             Hyperpolarized experiment
