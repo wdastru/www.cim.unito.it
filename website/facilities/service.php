@@ -11,9 +11,7 @@
     if (isset($_GET['submit'])) {
         if ($_GET['submit'] == 'yes') {
             
-            $regex = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/'; 
-            // Run the preg_match() function on regex against the email address
-            if (preg_match($regex, $_POST['email'])) {
+            if (filter_var(filter_var($_POST['email'], FILTER_SANITIZE_EMAIL), FILTER_VALIDATE_EMAIL)) {
                 
                 $valid = (
                          isset($_POST['name']) && 
