@@ -26,7 +26,7 @@ include ("calendarioCoppa.inc");
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
-		src="documentPreProcessor.php?document=coppa1213.js&type=javascript"></script>
+		src="documentPreProcessor.php?document=coppa1314.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 	<!-- jQuery -->
