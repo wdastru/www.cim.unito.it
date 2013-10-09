@@ -11,9 +11,8 @@
     if (isset($_GET['submit'])) {
         if ($_GET['submit'] == 'yes') {
             
-            $regex = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/'; 
-            // Run the preg_match() function on regex against the email address
-            if (preg_match($regex, $_POST['email'])) {
+            $regex_valid_mail = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/';
+            if (preg_match($regex_valid_mail, $_POST['email'])) {
                 
                 $valid = (
                          isset($_POST['name']) && 
@@ -26,40 +25,85 @@
                          $_POST['description'] != ''
                      );
                      
+                $regex_allowed_chars = '/^[a-zA-ZùàâèéêëìòóôöüÂÈÉÊËÌÒÓÔÖÜ\.,;:-\?\(\)\"\'\s]*$/';     
                 if ($valid) {
-                    $body .= "Name        : " . htmlentities($_POST['name']        ) . $eol;
-                    $body .= "E-mail      : " . htmlentities($_POST['email']       ) . $eol;
-                    $body .= "Institution : " . htmlentities($_POST['institution'] ) . $eol;
+                    if (preg_match($regex_allowed_chars, $_POST['name'])) {
+                        $body .= "Name        : " . $_POST['name'] . $eol;
+                    } else {
+                        $error_string = "The name contains invalid characters !!!";
+                        header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                        exit();
+                    }
+                    
+                    $body .= "E-mail      : " . $_POST['email'] . $eol;
+                    
+                    if (preg_match($regex_allowed_chars, $_POST['institution'])) {
+                        $body .= "Institution : " . $_POST['institution'] . $eol;
+                    } else {
+                        $error_string = "The institution contains invalid characters !!!";
+                        header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                        exit();
+                    }
+                    
                     if (isset($_POST['NMR'])) {
                         if ($_POST['NMR'] == 'yes') {
-                            $body .= "NMR         : " . htmlentities($_POST['NMR']         ) . $eol;
+                            $body .= "NMR         : yes"    . $eol;
                         }
                     }
                     if (isset($_POST['MRI'])) {
                         if ($_POST['MRI'] == 'yes') {
-                            $body .= "MRI         : " . htmlentities($_POST['MRI']         ) . $eol;
+                            $body .= "MRI         : yes"    . $eol;
                         }
                     }
                     if (isset($_POST['OI'])) {
                         if ($_POST['OI'] == 'yes') {
-                            $body .= "OI          : " . htmlentities($_POST['OI']          ) . $eol;
+                            $body .= "OI          : yes"    . $eol;
                         }
                     }
                     if (isset($_POST['US'])) {
                         if ($_POST['US'] == 'yes') {
-                            $body .= "US          : " . htmlentities($_POST['US']          ) . $eol;
+                            $body .= "US          : yes"    . $eol;
                         }
                     }
                     if (isset($_POST['PET_SPECT'])) {
                         if ($_POST['PET_SPECT'] == 'yes') {
-                            $body .= "PET_SPECT   : " . htmlentities($_POST['PET_SPECT']   ) . $eol;
+                            $body .= "PET_SPECT   : yes"    . $eol;
                         }
                     }
-                    $body .= "Instruments : " . htmlentities($_POST['instruments'] ) . $eol;
-                    $body .= "Description : " . htmlentities($_POST['description'] ) . $eol;
-                    $body .= "Animal use  : " . htmlentities($_POST['animal']      ) . $eol;
-                    $body .= "Consumables : " . htmlentities($_POST['consumables'] ) . $eol;
-                    $body .= "Notes       : " . htmlentities($_POST['notes']       ) . $eol;
+                    if (preg_match($regex_allowed_chars, $_POST['instruments'])) {
+                        $body .= "Instruments : " . $_POST['instruments'] . $eol;
+                    } else {
+                        $error_string = "The required instruments contains invalid characters !!!";
+                        header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                        exit();
+                    }
+                    if (preg_match($regex_allowed_chars, $_POST['description'])) {
+                        $body .= "Description : " . $_POST['description'] . $eol;
+                    } else {
+                        $error_string = "The description contains invalid characters !!!";
+                        header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                        exit();
+                    }
+                    if (isset($_POST['animal'])) {
+                        if ($_POST['animal'] == 'yes') {
+                            $body .= "Animal use  : " . $_POST['animal'] . $eol;
+                        }
+                    }
+                    if (preg_match($regex_allowed_chars, $_POST['consumables'])) {
+                        $body .= "Consumables : " . $_POST['consumables'] . $eol;
+                    } else {
+                        $error_string = "The needed consumables contains invalid characters !!!";
+                        header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                        exit();
+                    }
+                    if (preg_match($regex_allowed_chars, $_POST['notes'])) {
+                        $body .= "Notes       : " . $_POST['notes'] . $eol;
+                    } else {
+                        $error_string = "The notes contains invalid characters !!!";
+                        header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                        exit();
+                    }
+                    
                     $vars = array('subject' => "Service request.", 'body' => $body);
                     
                     /*** SEND MAIL ***/
