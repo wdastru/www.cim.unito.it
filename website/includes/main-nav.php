@@ -24,7 +24,7 @@
 					<a href='".$localizer."publications.php'>PUBLICATIONS</a>
 				</dt>
 				<dt id='main-nav-section7'>
-					<a href='".$localizer."private/private.php'>PRIVATE</a>
+					<a href='".$localizer."private.php'>PRIVATE</a>
 				</dt>
 			</dl>
 		</div>
