@@ -1,4 +1,0 @@
-AuthType	Basic
-AuthName	CIM_local_access
-AuthUserFile    /var/www/localhost/htdocs/www.cim.unito.it/website/private/phpMyAdmin/cimpass
-require user laboratorio

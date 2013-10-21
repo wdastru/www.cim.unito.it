@@ -551,7 +551,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Simonetta Geninatti - Torino/Univ)
                                         </p> </a> </td>
-                                        <td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/MULLER_R.pdf">
                                         <p class='lecture_title'>
                                             Iron oxide complexes
                                         </p>
@@ -566,8 +567,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Ambros Beer - Munich/TUM)
                                         </p> </a> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/lezionisantorodicuntoip2012.zip">-->
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/DiCunto.pdf">
                                         <p class='lecture_title'>
                                             The study of molecular processes in living cells by fluorescence microscopy
                                         </p>
@@ -612,7 +613,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='lecture_author'>
                                             (Enzo Terreno - Torino/Univ)
                                         </p> </a> </td>
-                                        <td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/20131004_The_EPR_effect_Torino_Axelsson.pdf">
                                         <p class='lecture_title'>
                                             The EPR effect for tumor imaging, how far can it take us
                                         </p>

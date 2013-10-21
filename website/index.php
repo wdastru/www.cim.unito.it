@@ -1,8 +1,7 @@
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
@@ -63,8 +62,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div id='columnWrapper'>
                                 <div id='col1'>
                                     <!--<h2 class='punch orange'><span>RECENT PUBS</span></h2>
-                                    <span class="paperTitle">ï¿½Gadolinium-doped LipoCEST agents: A
-                                        potential novel class of dual 1H-MRI probesï¿½</span>
+                                    <span class="paperTitle">Gadolinium-doped LipoCEST agents: A
+                                        potential novel class of dual 1H-MRI probes</span>
                                     <br />
                                     Terreno E., Boffa C., Menchise V., Fedeli F., Carrera C.,
                                     Castelli D.D., Digilio G., Aime S.
