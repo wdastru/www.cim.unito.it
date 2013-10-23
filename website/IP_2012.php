@@ -330,6 +330,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/How_to_reach_student_residences.doc">How
                                         to reach the residences</a>
                                     </li>
+                                    <li>                                        
+                                        <a
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/lectures/list_participants_IP_Turin_2012.xlsx">List of participants</a>
+                                    </li>
                                 </ul>
                                 <br />
                                 <p style="font-weight: bold; font-size: 14px">
