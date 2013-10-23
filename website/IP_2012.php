@@ -332,7 +332,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </li>
                                     <li>                                        
                                         <a
-                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/lectures/list_participants_IP_Turin_2012.xlsx">List of participants</a>
+                                        href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/private/list_participants_IP_Turin_2012.xlsx">List of participants</a>
                                     </li>
                                 </ul>
                                 <br />
