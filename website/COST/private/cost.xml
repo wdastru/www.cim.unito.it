@@ -377,7 +377,13 @@
             <name>Vefa AHSEN</name>
             <address>Gebze Institute of Technology - Istanbul cad.101, 41400 Gebze, Turkey</address>
             <mail>ahsen@gyte.edu.tr</mail>
-        </person>        
+        </person>  
+        <person>
+            <role>MC Substitute</role>
+            <name>Ayse DULDA</name>
+            <address></address>
+            <mail>adulda@mevlana.edu.tr</mail>
+        </person>   
     </section>
     <section id='United Kingdom'>
         <person>
