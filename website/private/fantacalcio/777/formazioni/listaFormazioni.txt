@@ -32,6 +32,7 @@ fedora.txt
 fedora_camp_1.txt
 fedora_camp_3.txt
 fedora_camp_4.txt
+fedora_fedora_camp_7.txt
 fedora_tipo_valida_fino_20130924-162336.txt
 fedora_tipo_valida_fino_20130924-162433.txt
 fedora_tipo_valida_fino_20130924-162538.txt
