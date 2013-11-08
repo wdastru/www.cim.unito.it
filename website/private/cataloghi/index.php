@@ -188,8 +188,11 @@ $_POST['delete'] = 0;
 						<form name="add" method="post" action="admin/add.php">
 							<input type="submit" name="add" value="Add a compound" />
 						</form>
-						<form name="print" method="post" action="downloadCatalog.php">
+                        <form name="print" method="post" action="downloadCatalog.php">
                             <input type="submit" name="print" value="Download catalog" />
+                        </form>
+                        <form name="print" method="post" action="downloadSafetyInfos.php">
+                            <input type="submit" name="print" value="Download Safety Infos" />
                         </form>
 
 						<?php
