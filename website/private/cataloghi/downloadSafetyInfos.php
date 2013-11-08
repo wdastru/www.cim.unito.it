@@ -1,6 +1,23 @@
 <?php
     
-    exec('tar -zcvf safety_info.tar.gz safety_info/');
+    $file = 'safety_info.tar.gz';
+    exec("tar -zcvf $file safety_info/");
+    
+    if (file_exists($file)) {
+        header('Content-Description: File Transfer');
+        header('Content-Type: application/octet-stream');
+        header('Content-Disposition: attachment; filename='.basename($file));
+        header('Content-Transfer-Encoding: binary');
+        header('Expires: 0');
+        header('Cache-Control: must-revalidate');
+        header('Pragma: public');
+        header('Content-Length: ' . filesize($file));
+        ob_clean();
+        flush();
+        readfile($file);
+        exit;
+    }
+
     
     //header("Content-Type:   application/vnd.ms-excel; charset=utf-8");
     //header("Content-type:   application/x-msexcel; charset=utf-8");
