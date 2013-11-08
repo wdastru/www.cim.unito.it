@@ -55,8 +55,7 @@ $localizer = "../../../";
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 <meta name="keywords"
 	content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-<link href=<?php echo $localizer . "stylesheet.css"?> rel='stylesheet'
-	type='text/css' />
+<link href=<?php echo $localizer . "stylesheet.css"?> rel='stylesheet' type='text/css' />
 <link href="../catalog.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="script.js"></script>
 </head>
@@ -84,44 +83,49 @@ $localizer = "../../../";
 						</h1>
 					</div>
 					<div class='paddingInner'>
+					    
+                    <?php
+                        require 'db_fields_sizes.inc.php';
+                    ?>
+
 					<form name='edit' method='post' enctype='multipart/form-data' action='<?php echo $localizer; ?>private/cataloghi/index.php'>
 					    <table>
                             <tr>
                                 <td>Name (<img src="../en.png" alt="UK" />):</td>
-                                <td><input type='text' name='newname_UK' size='70' value='<?php echo $_POST['name_UK2edit']; ?>'/></td>
+                                <td><input type='text' name='newname_UK' size='70' maxlength='<?php echo $name_UK_maxlength; ?>' value='<?php echo $_POST['name_UK2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Name (<img src="../it.jpg" alt="IT" />):</td>
-                                <td><input type='text' name='newname_IT' size='70' value='<?php echo $_POST['name_IT2edit']; ?>'/></td>
+                                <td><input type='text' name='newname_IT' size='70' maxlength='<?php echo $name_IT_maxlength; ?>' value='<?php echo $_POST['name_IT2edit']; ?>'/></td>
                             </tr>
                         	<tr>
                         	    <td>Place :</td>
-                        	    <td><input type='text' name='newplace' value='<?php echo $_POST['place2edit']; ?>'/></td>
+                        	    <td><input type='text' name='newplace' maxlength='<?php echo $place_maxlength; ?>' value='<?php echo $_POST['place2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Quantity :</td>
-                                <td><input type='text' name='newquantity' value='<?php echo $_POST['quantity2edit']; ?>'/></td>
+                                <td><input type='text' name='newquantity' maxlength='<?php echo $quantity_maxlength; ?>' value='<?php echo $_POST['quantity2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Laboratory :</td>
-                                <td><input type='text' name='newlab' value='<?php echo $_POST['lab2edit']; ?>'/></td>
+                                <td><input type='text' name='newlab' maxlength='<?php echo $lab_maxlength; ?>' value='<?php echo $_POST['lab2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Note :</td>
-                                <td><input type='text' name='newnote' size='70' value='<?php echo $_POST['note2edit']; ?>'/></td>
+                                <td><input type='text' name='newnote' maxlength='100' size='<?php echo $note_maxlength; ?>' value='<?php echo $_POST['note2edit']; ?>'/></td>
                             </tr>
                             
                             <tr>
                                 <td>CAS n&deg; :</td>
-                                <td><input type='text' name='newCAS' size='70' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
+                                <td><input type='text' name='newCAS' maxlength='20' size='<?php echo $CAS_maxlength; ?>' value='<?php echo $_POST['CAS2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Hazard statements (H):</td>
-                                <td><input type='text' name='newphrase_H' size='70' value='<?php echo $_POST['phrase_H2edit']; ?>'/></td>
+                                <td><input type='text' name='newphrase_H' maxlength='50' size='<?php echo $phrase_H_maxlength; ?>' value='<?php echo $_POST['phrase_H2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Risk statements (R) :</td>
-                                <td><input type='text' name='newphrase_R' size='70' value='<?php echo $_POST['phrase_R2edit']; ?>'/></td>
+                                <td><input type='text' name='newphrase_R' maxlength='50' size='<?php echo $phrase_R_maxlength; ?>' value='<?php echo $_POST['phrase_R2edit']; ?>'/></td>
                             </tr>
                             <tr>
                                 <td>Link to the safety info :</td>

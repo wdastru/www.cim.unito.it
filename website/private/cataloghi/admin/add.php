@@ -47,6 +47,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> CHEMICALS CATALOG <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
+                            
+                            <?php
+                                require 'db_fields_sizes.inc.php';
+                            ?>
+                            
                             <form name='add' method='post' enctype="multipart/form-data" action="<?php echo $localizer; ?>private/cataloghi/index.php">
                             <table>
                                 
@@ -54,43 +59,43 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <input type='hidden' name='newsupplier' value='' />
                                 <tr>
                                     <td>CAS n&deg; :</td>
-                                    <td><input type='text' size='70' name='newCAS'/></td>
+                                    <td><input type='text' maxlength='<?php echo $CAS_maxlength; ?>' size='70' name='newCAS'/></td>
                                 </tr>
                                 <tr>
                                     <td>Product name (<img src="../en.png" alt="UK" />)</td>
-                                    <td><input type='text' size='70' name='newname_UK'/></td>
+                                    <td><input type='text' maxlength='<?php echo $name_UK_maxlength; ?>' size='70' name='newname_UK'/></td>
                                 </tr>
                                 <tr>
                                     <td>Product name (<img src="../it.jpg" alt="IT" />):</td>
-                                    <td><input type='text' size='70' name='newname_IT'/></td>
+                                    <td><input type='text' maxlength='<?php echo $name_IT_maxlength; ?>' size='70' name='newname_IT'/></td>
                                 </tr>
                                 <tr>
                                     <td>Place :</td>
-                                    <td><input type='text' size='70' name='newplace'/></td>
+                                    <td><input type='text' maxlength='<?php echo $place_maxlength; ?>' size='70' name='newplace'/></td>
                                 </tr>
                                 <tr>
                                     <td>Quantity :</td>
-                                    <td><input type='text' size='70' name='newquantity'>
+                                    <td><input type='text' maxlength='<?php echo $quantity_maxlength; ?>' size='70' name='newquantity'>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Laboratory : </td>
-                                    <td><input type='text' size='70' name='newlab'>
+                                    <td><input type='text' maxlength='<?php echo $lab_maxlength; ?>' size='70' name='newlab'>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Note : </td>
-                                    <td><input type='text' size='70' name='newnote'>
+                                    <td><input type='text' maxlength='<?php echo $note_maxlength; ?>' size='70' name='newnote'>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Risk Statements (R) : </td>
-                                    <td><input type='text' size='70' name='newphrase_R'>
+                                    <td><input type='text' maxlength='<?php echo $phrase_R_maxlength; ?>' size='70' name='newphrase_R'>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Hazard Statements (H) : </td>
-                                    <td><input type='text' size='70' name='newphrase_H'>
+                                    <td><input type='text' maxlength='<?php echo $phrase_H_maxlength; ?>' size='70' name='newphrase_H'>
                                     </td>
                                 </tr>
                                 <tr>
