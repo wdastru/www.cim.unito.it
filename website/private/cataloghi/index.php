@@ -38,8 +38,12 @@ foreach ($_POST as $key => $value)
 {
     $_POST[$key] = str_replace("\'", "'", $value);
 }
-$_FILES['newlink']['name'] = str_replace("'", '', $_FILES['newlink']['name']);
-$_FILES['newlink']['name'] = str_replace("\'", '', $_FILES['newlink']['name']);
+
+$_FILES['newlink']['name'] = str_replace("\'", "", $_FILES['newlink']['name']);
+$_FILES['newlink']['name'] = str_replace("'", "", $_FILES['newlink']['name']);
+$_POST['oldlink'] = str_replace("\'", "", $_POST['oldlink']);
+$_POST['oldlink'] = str_replace("'", "", $_POST['oldlink']);
+$_POST['oldlink'] = str_replace("\\", "", $_POST['oldlink']);
 
 //print_r($_FILES);
 //echo "<br>";
@@ -272,7 +276,7 @@ $_POST['delete'] = 0;
                                                     link='"     . mysql_real_escape_string($_POST['oldlink'])     . "'";
                                                     
         							}
-                                
+								
 								mysql_query($sql);
 								
                                 if (mysql_errno() != 0) 
