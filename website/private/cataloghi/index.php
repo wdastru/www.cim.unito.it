@@ -38,6 +38,8 @@ foreach ($_POST as $key => $value)
 {
     $_POST[$key] = str_replace("\'", "'", $value);
 }
+$_FILES['newlink']['name'] = str_replace("'", '', $_FILES['newlink']['name']);
+$_FILES['newlink']['name'] = str_replace("\'", '', $_FILES['newlink']['name']);
 
 //print_r($_FILES);
 //echo "<br>";
@@ -215,9 +217,7 @@ $_POST['delete'] = 0;
                         //print_r($_SESSION);
                         //print_r($_POST);
                         
-                        $_FILES['newlink']['name'] = str_replace("'", '', $_FILES['newlink']['name']);
-                        
-						if ($_POST['edited'] == "yes") {
+                        if ($_POST['edited'] == "yes") {
 								
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 							        
