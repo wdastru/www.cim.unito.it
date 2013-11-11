@@ -215,13 +215,15 @@ $_POST['delete'] = 0;
                         //print_r($_SESSION);
                         //print_r($_POST);
                         
+                        $_FILES['newlink']['name'] = str_replace("'", '', $_FILES['newlink']['name']);
+                        
 						if ($_POST['edited'] == "yes") {
 								
 							if ($_POST['newname_UK'] != "" || $_POST['newname_IT'] != "") {
 							        
                                     if ($_FILES['newlink']['name'] != "") {
-                                
-        								$sql = "UPDATE catalogo
+                                        
+                                        $sql = "UPDATE catalogo
                 								SET 	
                 									name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])       . "',
                                                     name_IT='"  . mysql_real_escape_string($_POST['newname_IT'])       . "',
@@ -231,8 +233,8 @@ $_POST['delete'] = 0;
                 									note='"     . mysql_real_escape_string($_POST['newnote'])          . "',
                                                     CAS='"      . mysql_real_escape_string($_POST['newCAS'])           . "',
                                                     phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])      . "',
-                                                    phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])      . "', 
-                					          		link='"     . mysql_real_escape_string($_FILES['newlink']['name']) . "' 
+                                                    phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])      . "',
+                					          		link='"     . mysql_real_escape_string($_FILES['newlink']['name']) . "'
                 								WHERE 	
                 									name_UK='"  . mysql_real_escape_string($_POST['oldname_UK'])    . "' AND
                                                     name_IT='"  . mysql_real_escape_string($_POST['oldname_IT'])    . "' AND
