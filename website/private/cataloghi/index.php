@@ -172,6 +172,7 @@ $_POST['delete'] = 0;
                                                         <Option VALUE='CAS'>CAS n&deg;</option>
                                                         <Option VALUE='phrase_R'>Risk Statements (R)</option>
                                                         <Option VALUE='phrase_H'>Hazard statements (H)</option>
+                                                        <Option VALUE='link'>link</option>
                                 					</Select>
                                 					<br />
                                 				";
