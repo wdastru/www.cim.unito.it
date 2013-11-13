@@ -274,9 +274,9 @@ $_POST['delete'] = 0;
                                                     phrase_H='" . mysql_real_escape_string($_POST['oldphrase_H']) . "' AND                                 
                                                     phrase_R='" . mysql_real_escape_string($_POST['oldphrase_R']) . "' AND
                                                     link='"     . mysql_real_escape_string($_POST['oldlink'])     . "'";
+                                }
                                                     
-								
-								echo $sql;
+                                //echo $sql;
 								mysql_query($sql);
 								
                                 if (mysql_errno() != 0) 
