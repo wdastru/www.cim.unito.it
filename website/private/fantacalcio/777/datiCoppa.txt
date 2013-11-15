@@ -3,9 +3,9 @@ gruppi1/1/6/70/96/REINA/GABBIADINI/ROSSI G./GABBIADINI/CERCI/LJAJIC/CAMBIASSO/
 gruppi2/2/0/73/64.5/PALACIO/ALVAREZ/
 gruppi3/0/3/57/81/TEVEZ/FERNANDEZ/BALZARETTI/
 gruppi4/-/-/-/-/
-gruppi5/-/-/-/-/
+gruppi5/0/3/61/80/LLORENTE/ROSSI G./ROSSI G./
 gruppi6/-/-/-/-/
-gruppi7/-/-/-/-/
+gruppi7/0/1/63.5/68/TEVEZ/
 gruppi8/-/-/-/-/
 gruppi9/-/-/-/-/
 gruppi10/-/-/-/-/
