@@ -37,7 +37,7 @@ session_start();
 foreach ($_POST as $key => $value) 
 {
     $_POST[$key] = str_replace("\'", "'", $value);
-    $_POST[$key] = htmlentities($value, ENT_QUOTES);
+    //$_POST[$key] = htmlentities($value, ENT_QUOTES);
 }
 
 $_FILES['newlink']['name'] = str_replace("\'", "", $_FILES['newlink']['name']);
