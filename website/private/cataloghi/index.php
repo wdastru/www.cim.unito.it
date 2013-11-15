@@ -228,57 +228,58 @@ $_POST['delete'] = 0;
                                     if ($_FILES['newlink']['name'] != "") {
                                         
                                         $sql = "UPDATE catalogo
-                								SET 	
-                									name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])       . "',
-                                                    name_IT='"  . mysql_real_escape_string($_POST['newname_IT'])       . "',
-                                                    place='"    . mysql_real_escape_string($_POST['newplace'])         . "',
-                									quantity='" . mysql_real_escape_string($_POST['newquantity'])      . "',
-                									lab='"      . mysql_real_escape_string($_POST['newlab'])           . "',
-                									note='"     . mysql_real_escape_string($_POST['newnote'])          . "',
-                                                    CAS='"      . mysql_real_escape_string($_POST['newCAS'])           . "',
-                                                    phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])      . "',
-                                                    phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])      . "',
-                					          		link='"     . mysql_real_escape_string($_FILES['newlink']['name']) . "'
-                								WHERE 	
-                									name_UK='"  . mysql_real_escape_string($_POST['oldname_UK'])    . "' AND
-                                                    name_IT='"  . mysql_real_escape_string($_POST['oldname_IT'])    . "' AND
-                                                    place='"    . mysql_real_escape_string($_POST['oldplace'])      . "' AND
-                									quantity='" . mysql_real_escape_string($_POST['oldquantity'])   . "' AND
-                									lab='"      . mysql_real_escape_string($_POST['oldlab'])        . "' AND
-                									note='"     . mysql_real_escape_string($_POST['oldnote'])       . "' AND
-                                                    CAS='"      . mysql_real_escape_string($_POST['oldCAS'])        . "' AND
-                                                    phrase_H='" . mysql_real_escape_string($_POST['oldphrase_H'])   . "' AND									
-                									phrase_R='" . mysql_real_escape_string($_POST['oldphrase_R'])   . "' AND
-                									link='"     . mysql_real_escape_string($_POST['oldlink'])       . "'";
+                				SET 	
+                					name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])       . "',
+                                                    	name_IT='"  . mysql_real_escape_string($_POST['newname_IT'])       . "',
+                                                    	place='"    . mysql_real_escape_string($_POST['newplace'])         . "',
+                					quantity='" . mysql_real_escape_string($_POST['newquantity'])      . "',
+                					lab='"      . mysql_real_escape_string($_POST['newlab'])           . "',
+                					note='"     . mysql_real_escape_string($_POST['newnote'])          . "',
+                                                    	CAS='"      . mysql_real_escape_string($_POST['newCAS'])           . "',
+                                                   	phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])      . "',
+                                                    	phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])      . "',
+                					link='"     . mysql_real_escape_string($_FILES['newlink']['name']) . "'
+                				WHERE 	
+                					name_UK='"  . mysql_real_escape_string($_POST['oldname_UK'])    . "' AND
+                                                    	name_IT='"  . mysql_real_escape_string($_POST['oldname_IT'])    . "' AND
+                                                    	place='"    . mysql_real_escape_string($_POST['oldplace'])      . "' AND
+                					quantity='" . mysql_real_escape_string($_POST['oldquantity'])   . "' AND
+                					lab='"      . mysql_real_escape_string($_POST['oldlab'])        . "' AND
+                					note='"     . mysql_real_escape_string($_POST['oldnote'])       . "' AND
+                                                    	CAS='"      . mysql_real_escape_string($_POST['oldCAS'])        . "' AND
+                                                    	phrase_H='" . mysql_real_escape_string($_POST['oldphrase_H'])   . "' AND									
+                					phrase_R='" . mysql_real_escape_string($_POST['oldphrase_R'])   . "' AND
+                					link='"     . mysql_real_escape_string($_POST['oldlink'])       . "'";
         							} else {
         							    
                                         $sql = "UPDATE catalogo
                                                 SET     
-                                                    name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])     . "',
-                                                    name_IT='"  . mysql_real_escape_string($_POST['newname_IT'])     . "',
-                                                    place='"    . mysql_real_escape_string($_POST['newplace'])       . "',
-                                                    quantity='" . mysql_real_escape_string($_POST['newquantity'])    . "',
-                                                    lab='"      . mysql_real_escape_string($_POST['newlab'])         . "',
-                                                    note='"     . mysql_real_escape_string($_POST['newnote'])        . "',
-                                                    CAS='"      . mysql_real_escape_string($_POST['newCAS'])         . "',
-                                                    phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])    . "',
-                                                    phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])    . "' 
+                                                    	name_UK='"  . mysql_real_escape_string($_POST['newname_UK'])     . "',
+                                                    	name_IT='"  . mysql_real_escape_string($_POST['newname_IT'])     . "',
+                                                    	place='"    . mysql_real_escape_string($_POST['newplace'])       . "',
+                                                    	quantity='" . mysql_real_escape_string($_POST['newquantity'])    . "',
+                                                    	lab='"      . mysql_real_escape_string($_POST['newlab'])         . "',
+                                                    	note='"     . mysql_real_escape_string($_POST['newnote'])        . "',
+                                                    	CAS='"      . mysql_real_escape_string($_POST['newCAS'])         . "',
+                                                    	phrase_H='" . mysql_real_escape_string($_POST['newphrase_H'])    . "',
+                                                    	phrase_R='" . mysql_real_escape_string($_POST['newphrase_R'])    . "' 
                                                 WHERE   
-                                                    name_UK='"  . mysql_real_escape_string($_POST['oldname_UK'])  . "' AND
-                                                    name_IT='"  . mysql_real_escape_string($_POST['oldname_IT'])  . "' AND
-                                                    place='"    . mysql_real_escape_string($_POST['oldplace'])    . "' AND
-                                                    quantity='" . mysql_real_escape_string($_POST['oldquantity']) . "' AND
-                                                    lab='"      . mysql_real_escape_string($_POST['oldlab'])      . "' AND
-                                                    note='"     . mysql_real_escape_string($_POST['oldnote'])     . "' AND
-                                                    CAS='"      . mysql_real_escape_string($_POST['oldCAS'])      . "' AND
-                                                    phrase_H='" . mysql_real_escape_string($_POST['oldphrase_H']) . "' AND                                 
-                                                    phrase_R='" . mysql_real_escape_string($_POST['oldphrase_R']) . "' AND
-                                                    link='"     . mysql_real_escape_string($_POST['oldlink'])     . "'";
+                                                    	name_UK='"  . mysql_real_escape_string(htmlentities($_POST['oldname_UK'], ENT_QUOTES))  . "'"/* AND
+                                                    	name_IT='"  . mysql_real_escape_string($_POST['oldname_IT'])  . "' AND
+                                                    	place='"    . mysql_real_escape_string($_POST['oldplace'])    . "' AND
+                                                    	quantity='" . mysql_real_escape_string($_POST['oldquantity']) . "' AND
+                                                    	lab='"      . mysql_real_escape_string($_POST['oldlab'])      . "' AND
+                                                    	note='"     . mysql_real_escape_string($_POST['oldnote'])     . "' AND
+                                                    	CAS='"      . mysql_real_escape_string($_POST['oldCAS'])      . "' AND
+                                                    	phrase_H='" . mysql_real_escape_string($_POST['oldphrase_H']) . "' AND                                 
+                                                    	phrase_R='" . mysql_real_escape_string($_POST['oldphrase_R']) . "' AND
+                                                    	link='"     . mysql_real_escape_string($_POST['oldlink'])     . "'"*/;
                                 }
                                                     
-                                //echo $sql;
+                                                                echo '<pre>' . $sql . '</pre>';
 								mysql_query($sql);
-								
+
+
                                 if (mysql_errno() != 0) 
                                 {
                                     echo "<br />" . $sql . "<br />";
