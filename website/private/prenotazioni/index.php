@@ -303,12 +303,12 @@ xmlns="http://www.w3.org/1999/xhtml">
 <td><input id='iAuto' class='instrumentButton' type='submit' name='instrument' value='Auto' onmouseover='On(\"iAuto\")' onmouseout='Off(\"iAuto\")'/></td>
 </tr>
 <tr>
+<td></td>
+<td></td>
+<td></td>
 <td><input id='iSPPS' class='instrumentButton' type='submit' name='instrument' value='SPPS' onmouseover='On(\"iSPPS\")' onmouseout='Off(\"iSPPS\")'/></td>
 <td><input id='iICP' class='instrumentButton' type='submit' name='instrument' value='ICP' onmouseover='On(\"iICP\")' onmouseout='Off(\"iICP\")'/></td>
 <td><input id='iICP' class='instrumentButton' type='submit' name='instrument' value='VevoLazr' onmouseover='On(\"iVevoLazr\")' onmouseout='Off(\"iVevoLazr\")'/></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </table>
 </form>
