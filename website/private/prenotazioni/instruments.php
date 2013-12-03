@@ -25,7 +25,8 @@ $instrument = array(
                     "IVIS200", 
                     "SPPS", 
                     "ICP", 
-                    "Icon");
+                    "Icon",
+                    "VevoLazr");
 
 $instrString[ "300MHz" ] = "Bruker Avance 300 MHz"; 
 $instrString[ "600MHz" ] = "Bruker Avance 600 MHz"; 
@@ -53,6 +54,7 @@ $instrString[ "IVIS200" ] = "OI IVIS 200";
 $instrString[ "SPPS" ] = "Peptide Synthesizer";
 $instrString[ "ICP" ] = "ICP Incubatore";
 $instrString[ "Icon" ] = "Icon (Ivrea)";
+$instrString[ "VevoLazr" ] = "VevoLazr (Ivrea)";
 
 $guidelines[ "300MHz" ] = "<br/><h1>Regolamento prenotazioni 300MHz</h1>
 <br/>
