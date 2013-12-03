@@ -211,13 +211,8 @@ $_POST['delete'] = 0;
 						mysql_select_db($DBName, $con) or die('Not connected : ' . mysql_error());
 						mysql_query('ALTER TABLE  `catalogo` CHANGE  `name` `name_UK` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_S` `phrase_H` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `CAS` VARCHAR( 50 ) NOT NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` ADD  `phrase_H` VARCHAR( 50 ) NOT NULL');
                         mysql_query('ALTER TABLE  `catalogo` ADD  `name_IT` VARCHAR( 100 ) NOT NULL');
                         mysql_query('ALTER TABLE  `catalogo` ADD  `link` VARCHAR( 100 ) NOT NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `CAS`  `CAS` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_H`  `phrase_H` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
-                        //mysql_query('ALTER TABLE  `catalogo` CHANGE  `phrase_R`  `phrase_R` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL');
                         
                         //print_r($_SESSION);
                         //print_r($_POST);
@@ -444,6 +439,8 @@ $_POST['delete'] = 0;
                                         <td class='void'>&nbsp;</td>
                             		</tr>
                             	";
+                            	
+                            	
 
 							while ($result = mysql_fetch_array($data)) {
 							    

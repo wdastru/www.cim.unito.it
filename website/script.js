@@ -257,4 +257,12 @@ function fillStaffContainer() {
 		document.getElementById("staffContainer").appendChild(resultDocument);
 	}
 }
+function countChars(name) {
+    if (document.getElementsByName(name)) {
+        input = document.getElementsByName(name);
+        alert(input.value);
+    } else {
+        alert(":( DOM NON Supportato!");
+    }
+}
 /* END - funzioni per client-side xslt */

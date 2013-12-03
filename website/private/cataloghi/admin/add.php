@@ -59,7 +59,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <input type='hidden' name='newsupplier' value='' />
                                 <tr>
                                     <td>CAS n&deg; :</td>
-                                    <td><input type='text' maxlength='<?php echo $CAS_maxlength; ?>' size='70' name='newCAS'/></td>
+                                    <td><input onkeyup="countChars('newCAS');" type='text' maxlength='<?php echo $CAS_maxlength; ?>' size='70' name='newCAS'/></td>
                                 </tr>
                                 <tr>
                                     <td>Product name (<img src="../en.png" alt="UK" />)</td>
