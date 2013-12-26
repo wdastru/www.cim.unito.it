@@ -51,6 +51,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <ul>
+                                <li>                                	
+                                    <h2 style="text-align:left"><a class="link" href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
+                                    <p>
+                                        <u>Meeting of Working Group 4 (Gerben Konings).</u>
+                                        <br>
+                                        Location : Hotel Zuiderduin, Egmond aan Zee, The Netherlands.
+                                        <br>
+                                        Date     : April 16-18, 2014
+                                    </p>
+                                </li>
                                 <li>
                                     <h2 style="text-align:left"><a href="http://www.cost.eu/events/pemed/" target="_blank">Personalised Medicine: Better Healthcare for the Future - A Rational Approach Focusing on Bioinformatics, Medicinal Chemistry and Medicine</a></h2>
                                     <p>
