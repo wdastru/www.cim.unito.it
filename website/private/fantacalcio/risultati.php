@@ -94,6 +94,8 @@ include("calendario.inc");
 		}
 
 		require $relocate_string . 'readDatiCampionato.php';
+		
+		$risultatiHandle = fopen("risultati.txt", 'w');
 
 		for($giornataIdx = 0; $giornataIdx < 7; $giornataIdx++) // giornata
 		{
@@ -106,45 +108,58 @@ include("calendario.inc");
 			{
 				if ($odd = $partitaIdx % 2){
 					echo"<tr class=\"odd\">";
-					for($i=0; $i<2; $i++) // in casa - fuori casa
-					echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+					for($i=0; $i<2; $i++) { // in casa - fuori casa
+						echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partiaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+					}
 				} else {
 					echo"<tr class=\"even\">";
-					for($i=0; $i<2; $i++) // in casa - fuori casa
-					echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
-						
+					for($i=0; $i<2; $i++) { // in casa - fuori casa
+						echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partiaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+					}
 				}
 				echo "\n";
-
+				
 				for($ARIdx=0; $ARIdx<4; $ARIdx++) //AR
 				{
+					for($i=0; $i<2; $i++) { // in casa - fuori casa
+						fwrite($risultatiHandle, $super[0][$giornataIdx][$partitaIdx][$i] . "/");
+					}
+
 					echo "<td href='#hiddenBox' class='Dati fancybox' id='a" . $partitaIdx . $giornataIdx . $ARIdx . "' onmousedown='showBoxCampionato(\"a" . $partitaIdx . $giornataIdx . $ARIdx . "\", event);'>";
 
 					echo "    <div class='RisultatiCampionato'>";
 					if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
 						echo "";
+						fwrite($risultatiHandle, "-/");
 					} else {
 						echo $super[1][$giornataIdx][$partitaIdx][$ARIdx][0];
+						fwrite($risultatiHandle, $super[1][$giornataIdx][$partitaIdx][$ARIdx][0] . "/");
 					}
 					echo " - ";
 					if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
 						echo "";
+						fwrite($risultatiHandle, "-/");
 					} else {
 						echo $super[1][$giornataIdx][$partitaIdx][$ARIdx][1];
+						fwrite($risultatiHandle, $super[1][$giornataIdx][$partitaIdx][$ARIdx][1] . "/");
 					}
 					echo "</div>";
 
 					echo "    <div class='PunteggiCampionato'>";
 					if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
 						echo "";
+						fwrite($risultatiHandle, "-/");
 					} else {
 						echo $super[2][$giornataIdx][$partitaIdx][$ARIdx][0];
+						fwrite($risultatiHandle, $super[2][$giornataIdx][$partitaIdx][$ARIdx][0] . "/");
 					}
 					echo " - ";
 					if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
 						echo "";
+						fwrite($risultatiHandle, "-/");
 					} else {
 						echo $super[2][$giornataIdx][$partitaIdx][$ARIdx][1];
+						fwrite($risultatiHandle, $super[2][$giornataIdx][$partitaIdx][$ARIdx][1] . "/");
 					}
 					echo "</div>";
 
@@ -154,12 +169,16 @@ include("calendario.inc");
 							echo "  <div class='hidden'>";
 							if ($super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] == "-") {
 								echo "";
+								fwrite($risultatiHandle, "-/");
 							} else {
 								echo $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i];
+								fwrite($risultatiHandle, $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] . "/");
 							}
 							echo "</div>";
 						}
 					}
+					
+					fwrite($risultatiHandle, "\n");
 
 					for($i=0; $i<2; $i++)
 					echo "  <span class='hidden'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</span>";
@@ -171,6 +190,8 @@ include("calendario.inc");
 			echo "</div>\n";
 		}
 
+		fclose($risultatiHandle);
+		
 		$_POST['Id']='';
 		$_POST['goalA']='';
 		$_POST['goalB']='';

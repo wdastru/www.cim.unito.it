@@ -48,7 +48,8 @@
   	<a href='<?php echo $relocate_string; ?>albi/albocoppa.php'>Coppa</a> 
   	<a href='<?php echo $relocate_string; ?>albi/albosupercoppa.php'>Supercoppa</a> 
 	<a href='<?php echo $relocate_string; ?>albi/albochampions.php'>Champions</a> 
-	<a href='<?php echo $relocate_string; ?>albi/albomarcatori.php'>Marcatori</a> 
+	<a href='<?php echo $relocate_string; ?>albi/albomarcatori.php'>Marcatori</a>
+	<a href='<?php echo $relocate_string; ?>albi/statistiche.php'>Statistiche</a> 
   </div>
   <!-- risultati drop down menu -->
   <div id='dropmenu5' class='dropmenudiv' style='width: 150px;'> 
