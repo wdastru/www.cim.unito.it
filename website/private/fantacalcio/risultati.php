@@ -87,16 +87,34 @@ include("calendario.inc");
 		<h1 class="title">CALENDARIO</h1>
 		
 		<?php
-
-		$datiCampionatoFile = $relocate_string . '777/datiCampionato.txt';
+		
+		$files[6] = $relocate_string . '777/datiCampionato.txt';
+		$files[5] = $relocate_string . 'archivio/2013/datiCampionato1213.txt';
+		$files[4] = $relocate_string . 'archivio/2012/datiCampionato1112.txt';
+		$files[3] = $relocate_string . 'archivio/2011/datiCampionato1011.txt';
+		$files[2] = $relocate_string . 'archivio/2010/datiCampionato0910.txt';
+		$files[1] = $relocate_string . 'archivio/2009/datiCampionato0809.txt';
+		$files[0] = $relocate_string . 'archivio/2008/datiCampionato0708.txt';
+		$year[6] = '1314';
+		$year[5] = '1213';
+		$year[4] = '1112';
+		$year[3] = '1011';
+		$year[2] = '0910';
+		$year[1] = '0809';
+		$year[0] = '0708';
+				
+		$allTimeStatsHandle = fopen("allTimeStats.txt", 'w');
+		
+for($filesCounter=0; $filesCounter<count($files); $filesCounter++) {
+	
+		//$datiCampionatoFile = $relocate_string . '777/datiCampionato.txt';
+		$datiCampionatoFile = $relocate_string . $files[$filesCounter];
 		if (!file_exists($datiCampionatoFile)) {
 			require $relocate_string . 'createDatiCampionato.php';
 		}
 
 		require $relocate_string . 'readDatiCampionato.php';
 		
-		$risultatiHandle = fopen("risultati.txt", 'w');
-
 		for($giornataIdx = 0; $giornataIdx < 7; $giornataIdx++) // giornata
 		{
 			echo "<br />";
@@ -121,8 +139,9 @@ include("calendario.inc");
 				
 				for($ARIdx=0; $ARIdx<4; $ARIdx++) //AR
 				{
+					fwrite($allTimeStatsHandle, $year[$filesCounter] . "/");
 					for($i=0; $i<2; $i++) { // in casa - fuori casa
-						fwrite($risultatiHandle, $super[0][$giornataIdx][$partitaIdx][$i] . "/");
+						fwrite($allTimeStatsHandle, $super[0][$giornataIdx][$partitaIdx][$i] . "/");
 					}
 
 					echo "<td href='#hiddenBox' class='Dati fancybox' id='a" . $partitaIdx . $giornataIdx . $ARIdx . "' onmousedown='showBoxCampionato(\"a" . $partitaIdx . $giornataIdx . $ARIdx . "\", event);'>";
@@ -130,36 +149,36 @@ include("calendario.inc");
 					echo "    <div class='RisultatiCampionato'>";
 					if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
 						echo "";
-						fwrite($risultatiHandle, "-/");
+						fwrite($allTimeStatsHandle, "-/");
 					} else {
 						echo $super[1][$giornataIdx][$partitaIdx][$ARIdx][0];
-						fwrite($risultatiHandle, $super[1][$giornataIdx][$partitaIdx][$ARIdx][0] . "/");
+						fwrite($allTimeStatsHandle, $super[1][$giornataIdx][$partitaIdx][$ARIdx][0] . "/");
 					}
 					echo " - ";
 					if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
 						echo "";
-						fwrite($risultatiHandle, "-/");
+						fwrite($allTimeStatsHandle, "-/");
 					} else {
 						echo $super[1][$giornataIdx][$partitaIdx][$ARIdx][1];
-						fwrite($risultatiHandle, $super[1][$giornataIdx][$partitaIdx][$ARIdx][1] . "/");
+						fwrite($allTimeStatsHandle, $super[1][$giornataIdx][$partitaIdx][$ARIdx][1] . "/");
 					}
 					echo "</div>";
 
 					echo "    <div class='PunteggiCampionato'>";
 					if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
 						echo "";
-						fwrite($risultatiHandle, "-/");
+						fwrite($allTimeStatsHandle, "-/");
 					} else {
 						echo $super[2][$giornataIdx][$partitaIdx][$ARIdx][0];
-						fwrite($risultatiHandle, $super[2][$giornataIdx][$partitaIdx][$ARIdx][0] . "/");
+						fwrite($allTimeStatsHandle, $super[2][$giornataIdx][$partitaIdx][$ARIdx][0] . "/");
 					}
 					echo " - ";
 					if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
 						echo "";
-						fwrite($risultatiHandle, "-/");
+						fwrite($allTimeStatsHandle, "-/");
 					} else {
 						echo $super[2][$giornataIdx][$partitaIdx][$ARIdx][1];
-						fwrite($risultatiHandle, $super[2][$giornataIdx][$partitaIdx][$ARIdx][1] . "/");
+						fwrite($allTimeStatsHandle, $super[2][$giornataIdx][$partitaIdx][$ARIdx][1] . "/");
 					}
 					echo "</div>";
 
@@ -169,16 +188,16 @@ include("calendario.inc");
 							echo "  <div class='hidden'>";
 							if ($super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] == "-") {
 								echo "";
-								fwrite($risultatiHandle, "-/");
+								fwrite($allTimeStatsHandle, "-/");
 							} else {
 								echo $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i];
-								fwrite($risultatiHandle, $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] . "/");
+								fwrite($allTimeStatsHandle, $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] . "/");
 							}
 							echo "</div>";
 						}
 					}
 					
-					fwrite($risultatiHandle, "\n");
+					fwrite($allTimeStatsHandle, "\n");
 
 					for($i=0; $i<2; $i++)
 					echo "  <span class='hidden'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</span>";
@@ -190,7 +209,8 @@ include("calendario.inc");
 			echo "</div>\n";
 		}
 
-		fclose($risultatiHandle);
+}
+		fclose($allTimeStatsHandle);
 		
 		$_POST['Id']='';
 		$_POST['goalA']='';
