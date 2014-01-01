@@ -198,11 +198,12 @@ for($filesCounter=0; $filesCounter<count($files); $filesCounter++) {
 						for($i=0; $i<count($super[3][$giornataIdx][$partitaIdx][$ARIdx]); $i++) {
 							echo "  <div class='hidden'>";
 							if ($super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] == "-") {
-								echo "";
 								fwrite($allTimeStatsHandle, "-/");
 							} else {
 								echo $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i];
-								fwrite($allTimeStatsHandle, $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] . "/");
+								if ($super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] != '') {
+									fwrite($allTimeStatsHandle, $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] . "/");
+								}
 							}
 							echo "</div>";
 						}
