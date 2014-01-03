@@ -32,15 +32,158 @@ $relocate_string = "../";
 		<?php 
 			$handle = fopen($relocate_string . '777/allTimeStats.txt', 'r');
 			$i = 0;
+			$stats = array();
 			while (!feof($handle)) {
-				$stats[$i] = fgets($handle); 
-				$i++;
+				array_push($stats, explode('/', fgets($handle))); 
 			}
 			fclose($handle);
 			
-			foreach($stats as $stat) {
-				echo "<pre>$stat</pre>";
+			
+			function pointsSingle( $a, $b ) { 
+			  if(  $a[5] ==  $b[5] && $a[6] ==  $b[6] ){
+			  		
+			  		return 0;
+			  } 
+			  return ( ($a[5] > $b[5] && $a[5] > $b[6]) || ($a[6] > $b[5] && $a[6] > $b[6]) ) ? -1 : 1;
 			}
+			
+			function pointsTotal( $a, $b ) { 
+			  if( $a[5] + $a[6] ==  $a[5] + $b[6] ){
+			  		return 0;
+			  } 
+			  return ( $a[5] + $a[6] > $b[5] + $b[6] ) ? -1 : 1;
+			} 
+
+			function pointsDiff( $a, $b ) { 
+			  if( abs($a[5] - $a[6]) ==  abs($b[5] - $b[6]) ){
+			  		return 0;
+			  } 
+			  return ( abs($a[5] - $a[6]) >  abs($b[5] - $b[6]) ) ? -1 : 1;
+			} 
+			
+			function pointsSingleMin( $a, $b ) { 
+			  if(  $a[5] ==  $b[5] && $a[6] ==  $b[6] ){
+			  		
+			  		return 0;
+			  } 
+			  return ( ($a[5] > $b[5] && $a[5] > $b[6]) || ($a[6] > $b[5] && $a[6] > $b[6]) ) ? 1 : -11;
+			}
+
+			usort($stats,'pointsSingle');
+
+			echo "<p>MAX points single team:</p><br />";	
+			echo "
+				<table style='margin:auto'>
+					<tr>
+						<th>anno</th>
+						<th>squadra</th>
+						<th>squadra</th>
+						<th>goal</th>
+						<th>goal</th>
+						<th>punti</th>
+						<th>punti</th>
+					</tr>";
+			for($i=0; $i<10; $i++) {
+				echo "<tr>
+						<td>" . $stats[$i][0] . "</td>
+						<td>" . $stats[$i][1] . "</td>
+						<td>" . $stats[$i][2] . "</td>
+						<td>" . $stats[$i][3] . "</td>
+						<td>" . $stats[$i][4] . "</td>
+						<td>" . $stats[$i][5] . "</td>
+						<td>" . $stats[$i][6] . "</td>
+					</tr>";
+			}
+			echo "</table>
+				<br />";
+			
+			usort($stats,'pointsTotal');
+			
+			echo "<p>MAX points match:</p><br />";	
+			echo "
+				<table style='margin:auto'>
+					<tr>
+						<th>anno</th>
+						<th>squadra</th>
+						<th>squadra</th>
+						<th>goal</th>
+						<th>goal</th>
+						<th>punti</th>
+						<th>punti</th>
+						<th>tot</th>
+					</tr>";
+			for($i=0; $i<10; $i++) {
+				echo "<tr>
+						<td>" . $stats[$i][0] . "</td>
+						<td>" . $stats[$i][1] . "</td>
+						<td>" . $stats[$i][2] . "</td>
+						<td>" . $stats[$i][3] . "</td>
+						<td>" . $stats[$i][4] . "</td>
+						<td>" . $stats[$i][5] . "</td>
+						<td>" . $stats[$i][6] . "</td>
+						<td>" . ($stats[$i][5] + $stats[$i][6]) . "</td>
+					</tr>";
+			}
+			echo "</table>
+				<br />";
+
+			usort($stats,'pointsDiff');
+			
+			echo "<p>MAX points diff:</p><br />";	
+			echo "
+				<table style='margin:auto'>
+					<tr>
+						<th>anno</th>
+						<th>squadra</th>
+						<th>squadra</th>
+						<th>goal</th>
+						<th>goal</th>
+						<th>punti</th>
+						<th>punti</th>
+						<th>diff</th>
+					</tr>";
+			for($i=0; $i<10; $i++) {
+				echo "<tr>
+						<td>" . $stats[$i][0] . "</td>
+						<td>" . $stats[$i][1] . "</td>
+						<td>" . $stats[$i][2] . "</td>
+						<td>" . $stats[$i][3] . "</td>
+						<td>" . $stats[$i][4] . "</td>
+						<td>" . $stats[$i][5] . "</td>
+						<td>" . $stats[$i][6] . "</td>
+						<td>" . abs($stats[$i][5] - $stats[$i][6]) . "</td>
+					</tr>";
+			}
+			echo "</table>
+				<br />";
+
+			usort($stats,'pointsSingleMin');
+			
+			echo "<p>MIN points single:</p><br />";	
+			echo "
+				<table style='margin:auto'>
+					<tr>
+						<th>anno</th>
+						<th>squadra</th>
+						<th>squadra</th>
+						<th>goal</th>
+						<th>goal</th>
+						<th>punti</th>
+						<th>punti</th>
+					</tr>";
+			for($i=0; $i<10; $i++) {
+				echo "<tr>
+						<td>" . $stats[$i][0] . "</td>
+						<td>" . $stats[$i][1] . "</td>
+						<td>" . $stats[$i][2] . "</td>
+						<td>" . $stats[$i][3] . "</td>
+						<td>" . $stats[$i][4] . "</td>
+						<td>" . $stats[$i][5] . "</td>
+						<td>" . $stats[$i][6] . "</td>
+					</tr>";
+			}
+			echo "</table>
+				<br />";
 		?>
 		
 	</div>

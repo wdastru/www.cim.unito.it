@@ -148,6 +148,8 @@ for($filesCounter=0; $filesCounter<count($files); $filesCounter++) {
 				}
 				echo "\n";
 				
+				//if ( $super[1][$giornataIdx][$partitaIdx][$ARIdx][0] != '' && $super[1][$giornataIdx][$partitaIdx][$ARIdx][1] != '' ) $write2File=1;
+				
 				for($ARIdx=0; $ARIdx<4; $ARIdx++) //AR
 				{
 					fwrite($allTimeStatsHandle, $year[$filesCounter] . "/");
