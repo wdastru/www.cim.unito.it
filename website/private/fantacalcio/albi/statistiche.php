@@ -38,10 +38,8 @@ $relocate_string = "../";
 			}
 			fclose($handle);
 			
-			
 			function pointsSingle( $a, $b ) { 
 			  if(  $a[5] ==  $b[5] && $a[6] ==  $b[6] ){
-			  		
 			  		return 0;
 			  } 
 			  return ( ($a[5] > $b[5] && $a[5] > $b[6]) || ($a[6] > $b[5] && $a[6] > $b[6]) ) ? -1 : 1;
@@ -62,12 +60,26 @@ $relocate_string = "../";
 			} 
 			
 			function pointsSingleMin( $a, $b ) { 
-			  if(  $a[5] ==  $b[5] && $a[6] ==  $b[6] ){
-			  		
+			  if ( $a[3]=='' ) return 1;
+			  if( $a[5] ==  $b[5] && $a[6] ==  $b[6] ){
 			  		return 0;
 			  } 
-			  return ( ($a[5] > $b[5] && $a[5] > $b[6]) || ($a[6] > $b[5] && $a[6] > $b[6]) ) ? 1 : -11;
+			  return ( ($a[5] < $b[5] && $a[5] < $b[6]) || ($a[6] < $b[5] && $a[6] < $b[6]) ) ? -1 : 1;
 			}
+
+			function pointsTotalMin( $a, $b ) { 
+			  if( $a[5] + $a[6] ==  $a[5] + $b[6] ){
+			  		return 0;
+			  } 
+			  return ( $a[5] + $a[6] < $b[5] + $b[6] ) ? -1 : 1;
+			} 
+
+			function diffRetiMax( $a, $b ) { 
+			  if( abs($a[3] - $a[4]) ==  abs($b[3] - $b[4]) ){
+			  		return 0;
+			  } 
+			  return ( abs($a[3] - $a[4]) > abs($b[3] - $b[4]) ) ? -1 : 1;
+			} 
 
 			usort($stats,'pointsSingle');
 
@@ -184,12 +196,72 @@ $relocate_string = "../";
 			}
 			echo "</table>
 				<br />";
+
+			usort($stats,'pointsTotMin');
+			
+			echo "<p>MIN points match:</p><br />";	
+			echo "
+				<table style='margin:auto'>
+					<tr>
+						<th>anno</th>
+						<th>squadra</th>
+						<th>squadra</th>
+						<th>goal</th>
+						<th>goal</th>
+						<th>punti</th>
+						<th>punti</th>
+						<th>tot</th>
+					</tr>";
+			for($i=0; $i<10; $i++) {
+				echo "<tr>
+						<td>" . $stats[$i][0] . "</td>
+						<td>" . $stats[$i][1] . "</td>
+						<td>" . $stats[$i][2] . "</td>
+						<td>" . $stats[$i][3] . "</td>
+						<td>" . $stats[$i][4] . "</td>
+						<td>" . $stats[$i][5] . "</td>
+						<td>" . $stats[$i][6] . "</td>
+						<td>" . ($stats[$i][5] + $stats[$i][6]) . "</td>
+					</tr>";
+			}
+			echo "</table>
+				<br />";
+
+			usort($stats,'diffRetiMax');
+			
+			echo "<p>MAX diff reti match:</p><br />";	
+			echo "
+				<table style='margin:auto'>
+					<tr>
+						<th>anno</th>
+						<th>squadra</th>
+						<th>squadra</th>
+						<th>goal</th>
+						<th>goal</th>
+						<th>punti</th>
+						<th>punti</th>
+						<th>tot</th>
+					</tr>";
+			for($i=0; $i<10; $i++) {
+				echo "<tr>
+						<td>" . $stats[$i][0] . "</td>
+						<td>" . $stats[$i][1] . "</td>
+						<td>" . $stats[$i][2] . "</td>
+						<td>" . $stats[$i][3] . "</td>
+						<td>" . $stats[$i][4] . "</td>
+						<td>" . $stats[$i][5] . "</td>
+						<td>" . $stats[$i][6] . "</td>
+						<td>" . abs($stats[$i][3] - $stats[$i][4]) . "</td>
+					</tr>";
+			}
+			echo "</table>
+				<br />";
+
+				
 		?>
 		
 	</div>
 	<?php include $relocate_string . 'include/footer.inc.php'?>
-	
-	<script type='text/javascript'>toggleExtraScorers();</script>
 </body>
 <!-- InstanceEnd -->
 </html>
