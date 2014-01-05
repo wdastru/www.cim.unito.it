@@ -219,28 +219,43 @@ include("calendario.inc");
 						for($i=0; $i<2; $i++) { // in casa - fuori casa
 							$string .= $super[0][$giornataIdx][$partitaIdx][$i] . "/";
 						}
-	
+						
+						// goal A
 						if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
 							$string .= "-/";
 						} else {
 							$string .= $super[1][$giornataIdx][$partitaIdx][$ARIdx][0] . "/";
 						}
+				
+						// goal B
 						if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
 							$string .= "-/";
 						} else {
 							$string .= $super[1][$giornataIdx][$partitaIdx][$ARIdx][1] . "/";
 						}
+				
+						// punti A
 						if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
 							$string .= "-/";
 						} else {
 							$string .= $super[2][$giornataIdx][$partitaIdx][$ARIdx][0] . "/";
 						}
+				
+						// punti B
 						if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
 							$string .= "-/";
 						} else {
 							$string .= $super[2][$giornataIdx][$partitaIdx][$ARIdx][1] . "/";
 						}
-	
+						
+						// casa
+						if ($ARIdx == 0 || $ARIdx == 2) {
+							$string .= "1/";
+						} else {
+							$string .= "0/";
+						}
+						
+						// marcatori
 						if ( count($super[3][$giornataIdx][$partitaIdx][$ARIdx]) > 0 )
 						{
 							for($i=0; $i<count($super[3][$giornataIdx][$partitaIdx][$ARIdx]); $i++) {
