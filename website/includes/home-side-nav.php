@@ -4,16 +4,16 @@ echo "
             <div class='padding'>
                 <dl id='list'>
                     <dt class='subsection_link' id='section0-subsection1'>
-                        <a href='aboutus.php'>About Us</a>
+                        <a href='" . $localizer . "aboutus.php'>About Us</a>
                     </dt>
                     <dt class='subsection_link' id='section0-subsection2'>
-                        <a href='staff.php'>Staff</a>
+                        <a href='" . $localizer . "staff.php'>Staff</a>
                     </dt>
                         <dt class='subsection_link' id='section0-subsection3'>
-                        <a href='where.php'>Where</a>
+                        <a href='" . $localizer . "where.php'>Where</a>
                     </dt>
                     <dt class='subsection_link' id='section0-subsection4'>
-                        <a href='contacts.php'>Contacts</a>
+                        <a href='" . $localizer . "contacts.php'>Contacts</a>
                     </dt>
                 </dl>
             </div>
