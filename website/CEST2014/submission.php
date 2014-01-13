@@ -42,39 +42,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
 
-                            <h1 style="line-height: 28px; text-align: center;">The 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer imaging</h1>
-
-                            <br />
+                            <h1 style="line-height: 28px; text-align: center;">Abstract submission</h1>
                             
-                            <p>
-                                After Torino (2010) and Annapolis (2012) the next CEST Workshop will be held again in Italy at the Bioindustry Park in Colleretto Giacosa 
-                                (55 km from Torino, Italy) on May 8-9<sup>th</sup>, 2014.
-                            </p>
-
-                            <p>
-                                The workshop will be a satellite-event of the ISMRM Conference that will take place in Milan (May 10-16th, 2014).
-                            </p>
-
-                            <p>
-                                The workshop is intended to bring together research groups worldwide involved in the improvement of CEST imaging and spectroscopy and highlight 
-                                new pulse sequences/imaging schemes, contrast agents and applications of this emerging new technology.
-                                <br/>
-                                This workshop will welcome both established and new investigators, and aims to provide a broad overview of the field, with two days of sessions 
-                                which include both oral and posters presentations.
-                            </p>
-                            
-                            <ul>
-                                <li>
-                                   <a href="<?php echo $localizer; ?>CEST2014/attendance.php"><b>Attending the meeting</b></a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $localizer; ?>CEST2014/about.php"><b>About the meeting</b></a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $localizer; ?>CEST2014/submission.php"><b>Abstract submission</b></a>
-                                </li>
-                            </ul>
-                            
+                            <br/>
+                            <b>Submission rules</b>
+                            <br/>
+                            <b>Online submission</b>
                         </div>
                     </div>
                 </div>
