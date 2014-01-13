@@ -41,6 +41,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Molecular Imaging Center <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
+                            
+                            <img src="images/bioparco_long.jpg" style="width:100%;"/>
 
                             <h1 style="line-height: 28px; text-align: center;">The 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer imaging</h1>
 
@@ -52,7 +54,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             </p>
 
                             <p>
-                                The workshop will be a satellite-event of the ISMRM Conference that will take place in Milan (May 10-16th, 2014).
+                                The workshop will be a satellite-event of the <a href="http://www.ismrm.org/14/" target="_blank"><u>ISMRM Conference</u></a> that will take place in Milan (May 10-16th, 2014).
                             </p>
 
                             <p>
@@ -72,6 +74,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </li>
                                 <li>
                                     <a href="<?php echo $localizer; ?>CEST2014/submission.php"><b>Abstract submission</b></a>
+                                </li>
+                                <li>
+                                    <!--<a href="<?php echo $localizer; ?>CEST2014/register.php"><b>Online Registration (soon available)</b></a>-->
+                                    <b>Online Registration (soon available)</b>
                                 </li>
                             </ul>
                             
