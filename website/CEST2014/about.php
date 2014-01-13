@@ -44,21 +44,14 @@ xmlns="http://www.w3.org/1999/xhtml">
 
                             <h1 style="line-height: 28px; text-align: center;">About the meeting</h1>
                             
-                            <pre>(farei vedere solo i titoli linkabili)
-                                  ------------------  Sentire Silvio</pre>
-                            
-                            <b>Preliminary Program</b>
+                            <b>Preliminary Program (soon available)</b>
                                 
                                 <ul>
-                                    <li>Day 1 - Thursday, May 8th
-                                        <br/>
-                                        From 8:30 to 18:30
+                                    <li>Day 1 - Thursday, May 8<sup>th</sup> from 8:30 to 18:30
                                     </li>
                                     
                                     <li>
-                                        Day 2 - Friday, May 9th
-                                        <br/>
-                                        From 8:30 to 18:30
+                                        Day 2 - Friday, May 9<sup>th</sup> from 8:30 to 18:30
                                     </li>
                                 </ul>
                             
@@ -74,7 +67,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             Daniela Delli Castelli
                                         </li>
                                         <li>
-                                           Dario Longo
+                                            Dario Longo
                                         </li>
                                         <li>
                                             Giuseppe Ferrauto

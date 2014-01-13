@@ -45,8 +45,40 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <h1 style="line-height: 28px; text-align: center;">Abstract submission</h1>
                             
                             <br/>
+                            
+                            <p>
+                                The Scientific Committee calls for abstract submission on original work for oral/poster presentations.
+                            </p>
+                            <p>
+                                Deadline for submission is 28 February 2014.    
+                            </p> 
+                            <p>
+                                All abstracts must be submitted via the CEST 2014 online submission system by following the submission rules
+                            </p>
+                            <p>
+                                The corresponding author will be notified of the acceptance of his/her abstract and type of presentation (oral/poster) by …
+                            </p>
+                            
                             <b>Submission rules</b>
                             <br/>
+                            
+                            <ul>
+                                <li>size limit: 250 words; using copy &amp; paste</li>
+                                <li>you can add a maximum of two figures/pictures (jpeg, png) each with a limited size file of 2MB</li>
+                                <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
+                                <li>See the abstract template</li>
+                                <li>you will be able to make changes on your submission until the submission deadline (28 February 2014)</li> 
+                            </ul>
+                            
+                            You will be notified of acceptance, type of presentation (poster/talk) and scheduled presentation time/duration by ….
+                            
+                            
+                            Online submission system
+                            
+                            VEDI TU COME PROCEDERE….
+
+                            
+                            
                             <b>Online submission</b>
                         </div>
                     </div>
