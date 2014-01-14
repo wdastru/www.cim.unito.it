@@ -3,7 +3,6 @@ $localizer = "../";
 
 if (isset($_POST['submitted']))
 {
-    echo "Submitted is set<br/>";
     $submitted = $_POST['submitted'];
     if ($submitted == 1) // da submission.php
     {
