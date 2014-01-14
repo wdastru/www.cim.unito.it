@@ -56,7 +56,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <script type="text/javascript">
             function checkSizeAndExtension()
             {
-                var max_img_size = 20*1024*1024;
+                var max_img_size = 2*1024*1024;
                 var input = document.getElementById("file1");
                 // check for browser support (may need to be modified)
                 if(input.files && input.files.length == 1)
@@ -130,7 +130,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <br/>
                             
                             <ul>
-                                <li>size limit: 1 page (max 20 MB)</li>
+                                <li>size limit: 1 page (max 2 MB)</li>
+                                <li>only Word (DOC or DOCX) or PDF documents are allowed</li>
                                 <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
                                 <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
                                 <li>you will be able to make changes on your submission until the submission deadline (28 February 2014)</li>
