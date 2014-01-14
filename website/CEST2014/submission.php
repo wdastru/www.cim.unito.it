@@ -1,4 +1,38 @@
-<?php $localizer = "../"; ?>
+<?php 
+$localizer = "../";
+
+if (isset($_POST['submitted']))
+{
+    echo "Submitted is set<br/>";
+    $submitted = $_POST['submitted'];
+    if ($submitted == 1) // da submission.php
+    {
+        if ($_FILES["file1"]["name"] != "")
+        {
+            $submitted = "0";
+                   
+            if (move_uploaded_file($_FILES["file1"]["tmp_name"], "uploads/" . $_FILES["file1"]["name"])) {$submitted = "0";
+                $where = "Location: ".$localizer."CEST2014/submissionOK.php";
+                header($where);    
+            } else {
+                $where = "Location: ".$localizer."CEST2014/submissionError.php";
+                header($where);    
+            }
+        }
+        else
+        {
+            $where = "Location: ".$localizer."CEST2014/missingFileError.php";
+            header($where);
+        }
+        $submitted = "0";
+    }
+}
+else
+{
+    $submitted = 0;
+}
+?>
+
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
@@ -20,6 +54,39 @@ xmlns="http://www.w3.org/1999/xhtml">
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript">
+            function checkSizeAndExtension()
+            {
+                var max_img_size = 20*1024*1024;
+                var input = document.getElementById("file1");
+                // check for browser support (may need to be modified)
+                if(input.files && input.files.length == 1)
+                {     
+                    // check size      
+                    if (input.files[0].size > max_img_size) 
+                    {
+                        alert("The file must be less than " + (max_img_size/1024/1024) + "MB");
+                        return false;
+                    }
+                    
+                    // check extension
+                    if (document.getElementById) {
+                        if (document.getElementById('file1') != null) {
+                            var id = document.getElementById('file1');
+                            var splitLength = parseInt(id.value.split('.').length)
+                            var extensionCaseInsensitive = id.value.split('.')[splitLength-1];
+                            if (extensionCaseInsensitive.toUpperCase() != 'DOC' || extensionCaseInsensitive.toUpperCase() != 'DOCX' || extensionCaseInsensitive.toUpperCase() != 'PDF') {
+                                alert("The file has to be a WORD or PDF document");
+                                return false;
+                            } else {
+                                return true;
+                            }
+                        }
+                    }
+                } else 
+                    return false;
+            }
+        </script>
     </head>
     <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
@@ -63,7 +130,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <br/>
                             
                             <ul>
-                                <li>size limit: 1 page;</li>
+                                <li>size limit: 1 page (max 20 MB)</li>
                                 <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
                                 <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
                                 <li>you will be able to make changes on your submission until the submission deadline (28 February 2014)</li>
@@ -75,6 +142,20 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <br/>
                                               
                             <b>Online submission</b>
+                            
+                            <?php
+                                echo "
+                                <form action='submission.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
+                                    <!--<label for='file1'>Filename:</label>-->
+                                    <br/>
+                                    <input type='file' name='file1' id='file1' />
+                                    <input type='hidden' name='dir' value='" . $localizer;
+                                echo "/uploads/' style='width:100%'/>
+                                    <br /><br /> 
+                                    <input type='hidden' name='submitted' value='1' />
+                                    <input type='submit' name='submit' value='Submit' />
+                                </form>";
+                            ?>
                         </div>
                     </div>
                 </div>
