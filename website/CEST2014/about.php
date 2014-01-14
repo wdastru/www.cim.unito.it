@@ -47,7 +47,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <b>Preliminary Program (soon available)</b>
                                 
                                 <ul>
-                                    <li>Day 1 - Thursday, May 8<sup>th</sup> from 8:30 to 18:30
+                                    <li>
+                                        Day 1 - Thursday, May 8<sup>th</sup> from 8:30 to 18:30
                                     </li>
                                     
                                     <li>
@@ -80,16 +81,21 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <b>Important Dates &amp; Deadlines</b>
                                 <ul>
                                     <li>
-                                        Abstract submission fine febbraio
+                                        Abstract submission : <u style="color: #db6d16">15 February 2014</u>
                                     </li>
                                     <li>
-                                        Abstract registration fine marzo
+                                        Definitive program : <u style="color: #db6d16">28 February 2014</u>
+                                    </li>
+                                    <li>
+                                        Early registration : <u style="color: #db6d16">11 April 2014</u>
                                     </li>
                                 </ul>
                             
                             
-                            <b>Supporters</b>
+                            <!--
+                                <b>Supporters</b>
                             <pre>   ------------------  Sentire Silvio</pre>
+                            -->
                             
                         </div>
                     </div>

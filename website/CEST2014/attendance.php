@@ -47,14 +47,15 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <b>Venue &amp; Travel Information</b>
                             <br />
                             <p>
-                                <a href="http://www.bioindustrypark.eu/index.php?lang=en" target="_blank"><u>Bioindustry Park Silvano Fumero</u></a> is a science and technology park 
-                                located near Turin in the north of Italy. The Park promotes and develops research in Life Sciences, hosting companies of the chemical, pharmaceutical, 
-                                diagnostic, bioengineering and information science fields. It has acted as system integrator for the development of Life Sciences in Piemonte since 
-                                its creation in 1998. 
+                                <a href="http://www.bioindustrypark.eu/index.php?lang=en" target="_blank"><u>Bioindustry Park Silvano Fumero</u></a> is a science and technology park
+                                located near Turin in the north of Italy. The Park promotes and develops research in Life Sciences, hosting companies of the chemical, pharmaceutical,
+                                diagnostic, bioengineering and information science fields. It acts as system integrator for the development of Life Sciences in Piedmont since
+                                its creation in 1998.
                             </p>
-                            <p>Bioindustry Park lies in the municipality of Colleretto Giacosa, 5 minutes from Ivrea, the heart of Canavese, an industrial area 
-                                of the province of Turin and the intersection point of the motorways connecting Turin, Milan and the tunnels under the Alps to France (Mont Blanc) and 
-                                Switzerland (Great Saint Bernard). 
+                            <p>
+                                Bioindustry Park lies in the municipality of Colleretto Giacosa, 5 minutes from Ivrea, the heart of Canavese, an industrial area
+                                of the province of Turin and the intersection point of the motorways connecting Turin, Milan and the tunnels under the Alps to France (Mont Blanc) and
+                                Switzerland (Great Saint Bernard).
                             </p>
                             <p>
                                 Thanks to its geographical position, the Park can be easily reached from all major European cities by car, train and plane.
@@ -68,43 +69,43 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <p>
                                 <span style="color: #db6d16">By plane:</span>
 
-                                In addition to domestic flights, daily flights depart from the <a href="http://www.aeroportoditorino.it/en/hp_en.html" target="_blank"><u>Torino Caselle</u></a> 
+                                In addition to domestic flights, daily flights depart from the <a href="http://www.aeroportoditorino.it/en/hp_en.html" target="_blank"><u>Torino Caselle</u></a>
                                 international airport to Paris, London, Frankfurt, Munich, Stuttgart and Zurich. Caselle airport can be reached in 30 minutes from the Park.
-                                Other suitable airports are <a href="http://www.milanomalpensa1.eu/en" target="_blank"><u>Malpensa 1</u></a> and <a href="http://www.milanomalpensa2.eu/en" target="_blank"><u>Malpensa 2</u></a> 
+                                Other suitable airports are <a href="http://www.milanomalpensa1.eu/en" target="_blank"><u>Malpensa 1</u></a> and <a href="http://www.milanomalpensa2.eu/en" target="_blank"><u>Malpensa 2</u></a>
                                 (125 km away) and <a href="http://www.milanolinate.eu/en"><u>Linate</u></a> (150 km away), all of them linked to Ivrea by motorway.
                             </p>
-                            <p> 
-                                <u>A shuttle bus service will be organized from the Torino and Milano Malpensa airports to the Bioindustry Park and the Hotels.</u>
+                            <p>
+                                <u>A shuttle bus service will be organized from the Turin and Milan Malpensa airports to the Bioindustry Park and the Hotels.</u>
                             </p>
                             <p>
                                 <span style="color: #db6d16">By train:</span>
                                 <br/>
-                                - from Torino to Ivrea (1 hour) and by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
+                                - from Turin to Ivrea (1 hour) then by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
                                 <br/>
-                                - from Milano to Santhi&agrave; (1 hour) and from Santhi&agrave; to Ivrea (1 hour) and by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
-                                
-                            <br/>
-                            Train Schedules: <a href="http://www.trenitalia.com/cms/v/index.jsp?vgnextoid=4ddd1a035296f310VgnVCM1000005817f90aRCRD" target="_blank"><u>Trenitalia</u></a>  
+                                - from Milan to Turin (2 hours, change train in Chivasso) then by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
+
+                                <br/>
+                                Train Schedules: <a href="http://www.trenitalia.com/cms/v/index.jsp?vgnextoid=4ddd1a035296f310VgnVCM1000005817f90aRCRD" target="_blank"><u>Trenitalia</u></a>
                             </p>
-                            
+
                             <b>Hotel Information</b>
-                            
+
                             <p>
                                 Each individual guest must make their own reservation by sending an email directly to the hotel.
                             </p>
                             <p>
-                                Reservations must be received <span style="color: #db6d16">BY THE END OF FEBRUARY</span>; late booking can lead to payment of higher rates or unavailability of rooms, so we advise prompt 
+                                Reservations must be received <span style="color: #db6d16">BY THE END OF FEBRUARY</span>; late booking can lead to payment of higher rates or unavailability of rooms, so we advise prompt
                                 booking.
                             </p>
                             <p>
                                 <u>A shuttle bus service will be organized from the Hotels to the Bioindustry Park.</u>
                             </p>
-                            
+
                             <a href="documents/HOTELS_CEST WORKSHOP.pdf"><u>Hotel information</u></a>
-                            
+
                             <br/>
                             <br/>
-                            
+
                             <b>Visa Information</b>
                             <p>
                                 <a href="http://www.esteri.it/MAE/EN/Ministero/Servizi/Stranieri/IngressoSoggiornoInItalia/" target="_blank"><u>The Ministry of Foreign Affairs (general information about visiting Italy)</u></a>
@@ -114,7 +115,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <a href="http://www.esteri.it/visti/rilascio_eng.asp" target="_blank"><u>Where should I apply for a visa?</u></a>
                                 <br/>
                             </p>
-                            
+
                         </div>
                     </div>
                 </div>

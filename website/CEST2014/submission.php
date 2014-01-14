@@ -120,10 +120,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 Deadline for submission is 28 February 2014.    
                             </p> 
                             <p>
-                                All abstracts must be submitted via the CEST 2014 online submission system by following the submission rules
-                            </p>
-                            <p>
-                                The corresponding author will be notified of the acceptance of his/her abstract and type of presentation (oral/poster) by …
+                                The corresponding author will be notified of the acceptance of his/her abstract and type of presentation 
+                                (oral/poster) by the end of February.
                             </p>
                             
                             <b>Submission rules</b>
