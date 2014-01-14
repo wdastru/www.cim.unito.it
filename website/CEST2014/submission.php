@@ -135,8 +135,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <li>you will be able to make changes on your submission until the submission deadline (15 February 2014)</li>
                             </ul>
                             
-                            You will be notified of acceptance, type of presentation (poster/talk) and scheduled presentation time/duration by ….
-                            
                             <br/>
                             <br/>
                                               
