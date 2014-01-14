@@ -76,8 +76,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <a href="<?php echo $localizer; ?>CEST2014/submission.php"><b>Abstract submission</b></a>
                                 </li>
                                 <li>
-                                    <!--<a href="<?php echo $localizer; ?>CEST2014/register.php"><b>Online Registration (soon available)</b></a>-->
-                                    <b>Online Registration (soon available)</b>
+                                    <a href="<?php echo $localizer; ?>CEST2014/register.php"><b>Online Registration</b></a>
                                 </li>
                             </ul>
                             
