@@ -75,7 +75,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                             var id = document.getElementById('file1');
                             var splitLength = parseInt(id.value.split('.').length)
                             var extensionCaseInsensitive = id.value.split('.')[splitLength-1];
-                            if (extensionCaseInsensitive.toUpperCase() != 'DOC' || extensionCaseInsensitive.toUpperCase() != 'DOCX' || extensionCaseInsensitive.toUpperCase() != 'PDF') {
+                            
+                            if (extensionCaseInsensitive.toUpperCase() != 'DOC' && extensionCaseInsensitive.toUpperCase() != 'DOCX' && extensionCaseInsensitive.toUpperCase() != 'PDF') {
                                 alert("The file has to be a WORD or PDF document");
                                 return false;
                             } else {
@@ -148,7 +149,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <form action='submission.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
                                     <!--<label for='file1'>Filename:</label>-->
                                     <br/>
-                                    <input type='file' name='file1' id='file1' />
+                                    <input type='file' name='file1' id='file1' style='width:100%'/>
                                     <input type='hidden' name='dir' value='" . $localizer;
                                 echo "/uploads/' style='width:100%'/>
                                     <br /><br /> 
