@@ -117,7 +117,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 The Scientific Committee calls for abstract submission on original work for oral/poster presentations.
                             </p>
                             <p>
-                                Deadline for submission is 28 February 2014.    
+                                Deadline for submission is 15 February 2014.    
                             </p> 
                             <p>
                                 The corresponding author will be notified of the acceptance of his/her abstract and type of presentation 
@@ -132,7 +132,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <li>only Word (DOC or DOCX) or PDF documents are allowed</li>
                                 <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
                                 <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
-                                <li>you will be able to make changes on your submission until the submission deadline (28 February 2014)</li>
+                                <li>you will be able to make changes on your submission until the submission deadline (15 February 2014)</li>
                             </ul>
                             
                             You will be notified of acceptance, type of presentation (poster/talk) and scheduled presentation time/duration by ….
