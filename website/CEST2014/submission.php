@@ -63,22 +63,17 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <br/>
                             
                             <ul>
-                                <li>size limit: 250 words; using copy &amp; paste</li>
-                                <li>you can add a maximum of two figures/pictures (jpeg, png) each with a limited size file of 2MB</li>
+                                <li>size limit: 1 page;</li>
                                 <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
-                                <li>See the abstract template</li>
-                                <li>you will be able to make changes on your submission until the submission deadline (28 February 2014)</li> 
+                                <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
+                                <li>you will be able to make changes on your submission until the submission deadline (28 February 2014)</li>
                             </ul>
                             
                             You will be notified of acceptance, type of presentation (poster/talk) and scheduled presentation time/duration by ….
                             
-                            
-                            Online submission system
-                            
-                            VEDI TU COME PROCEDERE….
-
-                            
-                            
+                            <br/>
+                            <br/>
+                                              
                             <b>Online submission</b>
                         </div>
                     </div>
