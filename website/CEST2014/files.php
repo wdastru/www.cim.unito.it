@@ -56,6 +56,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         echo "<div id='row'>";
                                         strtok($files[$i], "//");
                                         $out = strtok("//");
+                                        $out = strtok("//");
                                         echo "<p>$out</p>";
                                     }
                                     
