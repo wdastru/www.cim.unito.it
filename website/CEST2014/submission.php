@@ -147,8 +147,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 
                                 <?php
                                     echo "
-                                    <form action='submission.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
-                                        <!--<label for='file1'>Filename:</label>-->
+                                    <form action='upload.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
                                         <br/>
                                         <input type='file' name='file1' id='file1' style='width:100%'/>
                                         <input type='hidden' name='dir' value='" . $localizer;
@@ -158,6 +157,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <input type='submit' name='submit' value='Submit' />
                                     </form>";
                                 ?>
+                                
                             </div>
                         </div>
                     </div>

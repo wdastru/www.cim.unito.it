@@ -76,10 +76,18 @@ xmlns="http://www.w3.org/1999/xhtml">
                                                 Dario Longo
                                             </li>
                                             <li>
-                                                Giuseppe Ferrauto
+                                                Paola Bardini 
+                                            </li>
+                                            <li>
+                                                Walter Dastr&uacute;
                                             </li>
                                         </ul>
                                         
+                                        <p>
+                                            If you have any additional questions concerning logistics, please e-mail <a href="mailto:paola.bardini@unito.it">paola.bardini@unito.it</a>
+                                            <br/>
+                                            For suggestions and comments with the website, please e-mail <a href="mailto:walter.dastru@gmail.com">walter.dastru@gmail.com</a>
+                                        </p>
                                          
                                         
                                         

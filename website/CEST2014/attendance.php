@@ -80,7 +80,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     (125 km away) and <a href="http://www.milanolinate.eu/en"><u>Linate</u></a> (150 km away), all of them linked to Ivrea by motorway.
                                 </p>
                                 <p>
-                                    <u>A shuttle bus service will be organized from the Turin and Milan Malpensa airports to the Bioindustry Park and the Hotels.</u>
+                                    <u>A shuttle bus service will be organized from the Turin and Milan Malpensa airports to the Bioindustry Park and the Hotels on Wednesday, May 7<sup>th</sup> (timetable will be established on the basis of attendees' arrivals)</u>
                                 </p>
                                 <p>
                                     <span style="color: #db6d16">By train:</span>
@@ -103,7 +103,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     booking.
                                 </p>
                                 <p>
-                                    <u>A shuttle bus service will be organized from the Hotels to the Bioindustry Park.</u>
+                                    <u>A shuttle bus service will be organized from the Hotels to the Bioindustry Park on Thursday, May 8<sup>th</sup> and Friday, May 9<sup>th</sup></u>
                                 </p>
     
                                 <a href="documents/HOTELS_CEST WORKSHOP.pdf"><u>Hotel information</u></a>

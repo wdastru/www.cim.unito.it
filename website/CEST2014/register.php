@@ -50,9 +50,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <h1 style="line-height: 28px; text-align: center;">Registration</h1>
                                 <br />
                                 <p>
-                                    The registation fee (150&euro;) will cover the costs of coffee-breaks, lunches and transport on May 8-9<sup>th</sup>, 2014 and the annual subscription fee to the GIDRM.
+                                    The registation fee (<u style="color: #DB6D16">150&euro;</u>) will cover the costs of coffee-breaks, lunches and transport on May 8-9<sup>th</sup>, 2014 and the annual subscription fee to the GIDRM (Italian Magnetic Resonance Discussion Group).
                                     <br/>
-                                    After April 11<sup>th</sup> the fee will incresa to 200&euro;.
+                                    After April 11<sup>th</sup> the fee will increase to <u style="color: #DB6D16">200&euro;</u>.
+                                </p>
+                                <p>
+                                    GIDRM takes care of the registration/payment procedure.
+                                    <br/>
+                                    <u>The online procedure at the GIDRM website will be operative from Friday, February 24<sup>th</sup>.</u>
                                 </p>
                                 
                             </div>
