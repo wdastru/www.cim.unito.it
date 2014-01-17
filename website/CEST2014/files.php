@@ -52,13 +52,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     $files = glob($dir);
                                     // <-- elenco formazioni squadra
                                     
+                                    echo "<ol>";
                                     for ($i = 0; $i < count($files); $i++) {
-                                        echo "<div id='row'>";
                                         strtok($files[$i], "//");
                                         $out = strtok("//");
                                         $out = strtok("//");
-                                        echo "<p>$out</p>";
+                                        echo "<li>$out</li>";
                                     }
+                                    echo "</ol>";
                                     
                                 ?>
                             </div>
