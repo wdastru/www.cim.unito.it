@@ -52,7 +52,7 @@ if ($_FILES['file1'] != null) {
 		$body = "A new file has been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
 		$vars = array('subject' => "CEST 2014: file upload notification.", 'body' => $body);
 
-        echo $vars;
+        print_r($vars);
         exit();
         
         sendEMail($vars, $mailer);
@@ -63,7 +63,7 @@ if ($_FILES['file1'] != null) {
             $body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
             $vars = array('subject' => "CEST 2014: file upload failure.", 'body' => $body);
             
-            echo $vars;
+            print_r($vars);
             exit();
         
     		sendEMail($vars, $mailer);
