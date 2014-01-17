@@ -145,11 +145,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 
                                 <b>Online submission</b>
                                 <?php
-                                    echo "
+                                
+                                	echo "
                                     <form action='upload.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension();'>
                                         <br/>
                                         Submitter&nbsp;:&nbsp;<input class='required' type='text' name='submitter' value='' onkeyup='return checkSubmitterField();'/>
-                                        &nbsp;&nbsp;required field<br/><br/>
+                                        &nbsp;&nbsp;<span style='color: #db6d16'>required field</span><br/><br/>
                                         <input type='file' name='file1' id='file1' style='width:100%'/>
                                         <input type='hidden' name='dir' value='" . $localizer;
                                     echo "/uploads/' style='width:100%'/>

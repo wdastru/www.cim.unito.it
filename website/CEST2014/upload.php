@@ -12,7 +12,9 @@ require $relocate_string . 'includes/sendEMail.php';
 //are displayed, I wanted to use this method instead
 //of url_encode() [just looks funny when displayed]
 
-$SafeFile = $_POST['submitter'] . "_" . $_FILES['file1']['name'];
+
+
+$SafeFile = date("dmy-Hi_", time()) . "_" . $_POST['submitter'] . "_" . $_FILES['file1']['name'];
 $SafeFile = str_replace("#", "No.", $SafeFile);
 $SafeFile = str_replace(" ", "_", $SafeFile);
 $SafeFile = str_replace("\$", "Dollar", $SafeFile);
