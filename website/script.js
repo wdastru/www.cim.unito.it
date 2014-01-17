@@ -133,8 +133,7 @@ function hideInfoBox(id) {
 	}
 }
 
-/*
-var required_ele = document.getElementsById('submissionForm');
+var required_ele = document.getElementsByClassName('required');
 var allfilled=true;
 for (var i = 0; i < required_ele.length; ++i) {
     var item = required_ele[i];
@@ -143,12 +142,11 @@ for (var i = 0; i < required_ele.length; ++i) {
     }
 }
 if(allfilled){
-   document.getElementById("form-submit").disabled = false;
+   document.getElementById("submissionForm").disabled = false;
 }
 else{
-  document.getElementById("form-submit").disabled = true;
+  document.getElementById("submissionForm").disabled = true;
 }
-*/
 
 /* funzioni per client-side xslt */
 function loadXMLDoc(dname) {
