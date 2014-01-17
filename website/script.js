@@ -133,6 +133,23 @@ function hideInfoBox(id) {
 	}
 }
 
+/*
+var required_ele = document.getElementsById('submissionForm');
+var allfilled=true;
+for (var i = 0; i < required_ele.length; ++i) {
+    var item = required_ele[i];
+    if(item.value.length==0){
+      allfilled=false;
+    }
+}
+if(allfilled){
+   document.getElementById("form-submit").disabled = false;
+}
+else{
+  document.getElementById("form-submit").disabled = true;
+}
+*/
+
 /* funzioni per client-side xslt */
 function loadXMLDoc(dname) {
 	if (window.XMLHttpRequest) {
