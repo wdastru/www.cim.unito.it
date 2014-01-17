@@ -51,20 +51,17 @@ if ($_FILES['file1'] != null) {
 		$body = "A new file has been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
 		$vars = array('subject' => "Enzo's private area: file upload notification.", 'body' => $body);
 
-        //$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+        sendEMail($vars, $mailer);
+    	unset($mailer);
+    	header('Location: submissionOK.php');//$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
  
 		} else {
-			$body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
-		$vars = array('subject' => "Enzo's private area: file upload failure.", 'body' => $body);
-
-		sendEMail($vars, $mailer);
-		header('Location: submissionError.php');
-
-	}
-	sendEMail($vars, $mailer);
-	unset($mailer);
-	header('Location: submissionOK.php');
-}
-
-header('Location: submissionOK.php');
+            $body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
+            $vars = array('subject' => "Enzo's private area: file upload failure.", 'body' => $body);
+    		sendEMail($vars, $mailer);
+    		header('Location: submissionError.php');
+    	}
+    } else {
+        
+    }
 ?>
