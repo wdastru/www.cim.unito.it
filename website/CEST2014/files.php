@@ -52,7 +52,27 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     $files = glob($dir);
                                     // <-- elenco formazioni squadra
                                     
-                                    print_r($files);
+                                    for ($i = 0; $i < count($files); $i++) {
+                                        echo "<div id='row'>";
+                                        strtok($files[$i], "//");
+                                        $out = strtok("//");
+                                        echo "<p>$out</p>";
+                                    }
+                    
+                                    echo "<div id='view'>
+                                            <input class='button' type='button' value='Visualizza' onclick='getJS(\"textFileBuilder.php?file=" . $out . "\")'/>
+                                          </div>
+                                          <div id='usa'>
+                                            <form action='dragdrop.php?squadra=" . $_SESSION['nomesquadra'] . "' method='post'>
+                                            <input class='button' type='submit' value='Usa'/>
+                                            <input type='hidden' name='File' value='" . $out . "'/>
+                                            </form>
+                                          </div>
+                                          <div id='nomeFile'>&nbsp;&nbsp;" . $out . "&nbsp;&nbsp;<span class='data'>(" . date("D d M Y - H:i:s", $formazioniSquadraDate[$i]) . ")</span>
+                                            </div>
+                                          </div>";
+                                    }
+                                    
                                 ?>
                             </div>
                         </div>
