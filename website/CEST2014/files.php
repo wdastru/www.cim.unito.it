@@ -41,7 +41,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div id='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> CEST 2014 <!-- InstanceEndEditable --></h1>
                         </div>
-                        <div id='CEST-section0'>
+                        <div id='CEST-section3'>
                             <?php
                                 require ('include/CEST-nav.php');
                             ?>
