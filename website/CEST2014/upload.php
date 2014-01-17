@@ -35,7 +35,7 @@ if ($_FILES['file1'] != null) {
 	$mailer = new PHPMailer();
 	$mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
     //$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
- 
+
 	if (move_uploaded_file($_FILES['file1']['tmp_name'], $path)) {
 		//IF IT HAS BEEN COPIED...
 
@@ -54,30 +54,30 @@ if ($_FILES['file1'] != null) {
 		$vars = array('subject' => "CEST 2014: file upload notification.", 'body' => $body);
 
         if (sendEMail($vars, $mailer)) {
-            ;    
+            ;
         } else {
             print_r($mailer);
             print_r($vars);
             exit();
         }
-        
+
     	unset($mailer);
     	header('Location: submissionOK.php');
- 
-		} else {
-            $body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
-            $vars = array('subject' => "CEST 2014: file upload failure.", 'body' => $body);
-            
-            if (sendEMail($vars, $mailer)) {
-                ;    
-            } else {
-                print_r($mailer);
-                print_r($vars);
-                exit();
-            }
-    		header('Location: submissionError.php');
-    	}
-    } else {
-        
-    }
+
+	} else {
+        $body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
+        $vars = array('subject' => "CEST 2014: file upload failure.", 'body' => $body);
+
+        if (sendEMail($vars, $mailer)) {
+            ;
+        } else {
+            print_r($mailer);
+            print_r($vars);
+            exit();
+        }
+		header('Location: submissionError.php');
+	}
+} else {
+
+}
 ?>
