@@ -105,7 +105,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </div>
                                 <div id='col3'>
                                     <h2 class='punch orange'><span>EVENTS</span></h2>
-                                    <span class="date">8<sup>th</sup>-9<sup>th</sup> May, 2014</span>
+                                    <span class="date">May, 8<sup>th</sup>-9<sup>th</sup> 2014</span>
                                     <a href='<?php echo $localizer;?>CEST2014/index.php' ><span class="paperTitle">CEST 2014 - 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer Imaging</span></a>
                                     <div id='divider'></div>
                                     <span class="date">23<sup>rd</sup> May, 2013</span>
