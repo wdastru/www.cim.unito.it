@@ -144,7 +144,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <br/>
                                                   
                                 <b>Online submission</b>
-                                
+                                <!--
                                 <?php
                                     echo "
                                     <form id='submissionForm' action='upload.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
@@ -159,7 +159,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <input type='submit' name='submit' value='Submit' />
                                     </form>";
                                 ?>
-                                
+                                -->
                             </div>
                         </div>
                     </div>
