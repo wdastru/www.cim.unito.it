@@ -44,17 +44,20 @@ xmlns="http://www.w3.org/1999/xhtml">
                             
                             <img src="images/bioparco_long.jpg" style="width:100%;"/>
 
-                            <h1 style="line-height: 28px; text-align: center;">The 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer imaging</h1>
+                            <h1 style="line-height: 28px; text-align: center;">CEST 2014
+                                <br/>
+                                4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer Imaging</h1>
 
                             <br />
-                            
                             <p>
                                 After Turin (2010) and Annapolis (2012) the next CEST Workshop will be held again in Italy at the Bioindustry Park in Colleretto Giacosa 
                                 (55 km from Turin, Italy) on May 8-9<sup>th</sup>, 2014.
                             </p>
-
                             <p>
-                                The workshop will be a satellite-event of the <a href="http://www.ismrm.org/14/" target="_blank"><u>ISMRM Conference</u></a> that will take place in Milan (May 10-16<sup>th</sup>, 2014).
+                                <u>CEST 2014 is organized by the University of Turin, the Bioindustry Park and the GIDRM (Italian Magnetic Resonance Discussion Group).</u>
+                            </p>
+                            <p>
+                                It will be a satellite-event of the <a href="http://www.ismrm.org/14/" target="_blank"><u>ISMRM Conference</u></a> that will take place in Milan (May 10-16<sup>th</sup>, 2014).
                             </p>
 
                             <p>

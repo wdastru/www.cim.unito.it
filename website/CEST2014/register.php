@@ -45,7 +45,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <h1 style="line-height: 28px; text-align: center;">Registration</h1>
                             <br />
                             <p>
-                                The registation fee (150&euro;) will cover the costs of the coffee-breaks, lunches and transport on May 8-9<sup>th</sup>, 2014.
+                                The registation fee (150&euro;) will cover the costs of the coffee-breaks, lunches and transport on May 8-9<sup>th</sup>, 2014 and the annual subscription fee to the GIDRM.
                             </p>
                             
                         </div>

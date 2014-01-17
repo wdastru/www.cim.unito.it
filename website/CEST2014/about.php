@@ -1,4 +1,4 @@
-<?php $localizer = "../"; ?>
+<?php $localizer = "../"; ?>ine
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
@@ -92,10 +92,19 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </ul>
                             
                             
-                            <!--
-                                <b>Supporters</b>
-                            <pre>   ------------------  Sentire Silvio</pre>
-                            -->
+                            <b>Supporters</b>
+                            <br/>
+                            
+                            <div id="myoutercontainer">
+                                <div id="myinnercontainer">
+                                    <p>
+                                        <a href="http://www.aspectimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:200px; margin:35px;" src="images/aspect.jpg" /></a>
+                                        <a href="http://www.braccoimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bracco.jpg" /></a>
+                                        <a href="https://www.bruker.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bruker_logo.png" /></a>
+                                    </p>
+                                </div>
+                            </div>
+                            
                             
                         </div>
                     </div>
