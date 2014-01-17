@@ -33,7 +33,8 @@ if ($_FILES['file1'] != null) {
 
 	$mailer = new PHPMailer();
 	$mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
-
+    //$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+ 
 	if (move_uploaded_file($_FILES['file1']['tmp_name'], $path)) {
 		//IF IT HAS BEEN COPIED...
 
@@ -49,15 +50,22 @@ if ($_FILES['file1'] != null) {
 		}
 
 		$body = "A new file has been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
-		$vars = array('subject' => "Enzo's private area: file upload notification.", 'body' => $body);
+		$vars = array('subject' => "CEST 2014: file upload notification.", 'body' => $body);
 
+        echo $vars;
+        exit();
+        
         sendEMail($vars, $mailer);
     	unset($mailer);
-    	header('Location: submissionOK.php');//$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+    	header('Location: submissionOK.php');
  
 		} else {
             $body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
-            $vars = array('subject' => "Enzo's private area: file upload failure.", 'body' => $body);
+            $vars = array('subject' => "CEST 2014: file upload failure.", 'body' => $body);
+            
+            echo $vars;
+            exit();
+        
     		sendEMail($vars, $mailer);
     		header('Location: submissionError.php');
     	}
