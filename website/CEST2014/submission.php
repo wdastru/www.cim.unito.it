@@ -53,7 +53,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
         <script type="text/javascript">
             function checkSizeAndExtension()
             {
@@ -142,24 +142,22 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 
                                 <br/>
                                 <br/>
-                                                  
+                                
                                 <b>Online submission</b>
-                                <!--
                                 <?php
                                     echo "
-                                    <form id='submissionForm' action='upload.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
+                                    <form action='upload.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension();'>
                                         <br/>
-                                        Submitter&nbsp;:&nbsp;<input class='required' type='text' name='submitter' value='' />
-                                        <br/>
+                                        Submitter&nbsp;:&nbsp;<input class='required' type='text' name='submitter' value='' onkeyup='return checkSubmitterField();'/>
+                                        &nbsp;&nbsp;required field<br/><br/>
                                         <input type='file' name='file1' id='file1' style='width:100%'/>
                                         <input type='hidden' name='dir' value='" . $localizer;
                                     echo "/uploads/' style='width:100%'/>
                                         <br /><br /> 
                                         <input type='hidden' name='submitted' value='1' />
-                                        <input type='submit' name='submit' value='Submit' />
+                                        <input id='submissionButton' type='submit' name='submit' value='Submit' disabled='true' />
                                     </form>";
                                 ?>
-                                -->
                             </div>
                         </div>
                     </div>

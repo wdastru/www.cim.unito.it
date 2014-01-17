@@ -133,19 +133,22 @@ function hideInfoBox(id) {
 	}
 }
 
-var required_ele = document.getElementsByClassName('required');
-var allfilled=true;
-for (var i = 0; i < required_ele.length; ++i) {
-    var item = required_ele[i];
-    if(item.value.length==0){
-      allfilled=false;
-    }
-}
-if(allfilled){
-   document.getElementById("submissionForm").disabled = false;
-}
-else{
-  document.getElementById("submissionForm").disabled = true;
+function checkSubmitterField() {
+	var required_ele = document.getElementsByClassName('required');
+	var allfilled=true;
+	
+	for (var i = 0; i < required_ele.length; ++i) {
+	    var item = required_ele[i];
+	    if(item.value.length==0){
+	      allfilled=false;
+	    }
+	}
+	if(allfilled){
+	   document.getElementById('submissionButton').disabled = false;
+	}
+	else{
+	  document.getElementById('submissionButton').disabled = true;
+	}
 }
 
 /* funzioni per client-side xslt */
