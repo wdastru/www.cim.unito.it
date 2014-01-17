@@ -52,6 +52,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
         <script type="text/javascript">
             function checkSizeAndExtension()
@@ -107,52 +108,57 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div id='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Molecular Imaging Center <!-- InstanceEndEditable --></h1>
                         </div>
-                        <div class='paddingInner'>
-
-                            <h1 style="line-height: 28px; text-align: center;">Abstract submission</h1>
-                            
-                            <br/>
-                            
-                            <p>
-                                The Scientific Committee calls for abstract submission on original work for oral/poster presentations.
-                            </p>
-                            <p>
-                                Deadline for submission is 15 February 2014.    
-                            </p> 
-                            <p>
-                                The corresponding author will be notified of the acceptance of his/her abstract and type of presentation 
-                                (oral/poster) by the end of February.
-                            </p>
-                            
-                            <b>Submission rules</b>
-                            <br/>
-                            
-                            <ul>
-                                <li>size limit: 1 page (max 2 MB)</li>
-                                <li>only Word (DOC or DOCX) or PDF documents are allowed</li>
-                                <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
-                                <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
-                                <li>you will be able to make changes on your submission until the submission deadline (15 February 2014)</li>
-                            </ul>
-                            
-                            <br/>
-                            <br/>
-                                              
-                            <b>Online submission</b>
-                            
+                        <div id='CEST-section3'>
                             <?php
-                                echo "
-                                <form action='submission.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
-                                    <!--<label for='file1'>Filename:</label>-->
-                                    <br/>
-                                    <input type='file' name='file1' id='file1' style='width:100%'/>
-                                    <input type='hidden' name='dir' value='" . $localizer;
-                                echo "/uploads/' style='width:100%'/>
-                                    <br /><br /> 
-                                    <input type='hidden' name='submitted' value='1' />
-                                    <input type='submit' name='submit' value='Submit' />
-                                </form>";
+                                require ('include/CEST-nav.php');
                             ?>
+                            <div class='paddingInner'>
+    
+                                <h1 style="line-height: 28px; text-align: center;">Abstract submission</h1>
+                                
+                                <br/>
+                                
+                                <p>
+                                    The Scientific Committee calls for abstract submission on original work for oral/poster presentations.
+                                </p>
+                                <p>
+                                    Deadline for submission is 15 February 2014.    
+                                </p> 
+                                <p>
+                                    The corresponding author will be notified of the acceptance of his/her abstract and type of presentation 
+                                    (oral/poster) by the end of February.
+                                </p>
+                                
+                                <b>Submission rules</b>
+                                <br/>
+                                
+                                <ul>
+                                    <li>size limit: 1 page (max 2 MB)</li>
+                                    <li>only Word (DOC or DOCX) or PDF documents are allowed</li>
+                                    <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
+                                    <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
+                                    <li>you will be able to make changes on your submission until the submission deadline (15 February 2014)</li>
+                                </ul>
+                                
+                                <br/>
+                                <br/>
+                                                  
+                                <b>Online submission</b>
+                                
+                                <?php
+                                    echo "
+                                    <form action='submission.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension()'>
+                                        <!--<label for='file1'>Filename:</label>-->
+                                        <br/>
+                                        <input type='file' name='file1' id='file1' style='width:100%'/>
+                                        <input type='hidden' name='dir' value='" . $localizer;
+                                    echo "/uploads/' style='width:100%'/>
+                                        <br /><br /> 
+                                        <input type='hidden' name='submitted' value='1' />
+                                        <input type='submit' name='submit' value='Submit' />
+                                    </form>";
+                                ?>
+                            </div>
                         </div>
                     </div>
                 </div>

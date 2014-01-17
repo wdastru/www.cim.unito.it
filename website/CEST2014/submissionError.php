@@ -21,6 +21,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
     </head>
     <link rel="icon" href="images/favicon.gif" type="image/gif" />
@@ -42,17 +43,22 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div id='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Molecular Imaging Center <!-- InstanceEndEditable --></h1>
                         </div>
-                        <div class='paddingInner'>
-
-                            <h1 style="line-height: 28px; text-align: center;">Abstract submission</h1>
-                            
-                            <br/>
-                            
-                            <p>
-                                <img src="images/cross24.png" width="20px"/> &nbsp;Submission was not successful. Please check your data and try again.
-                            </p>
-                            <input type="submit" value="Back" onclick="javascript:history.back();" />
-                            
+                        <div id='CEST-section3'>
+                            <?php
+                                require ('include/CEST-nav.php');
+                            ?>
+                            <div class='paddingInner'>
+    
+                                <h1 style="line-height: 28px; text-align: center;">Abstract submission</h1>
+                                
+                                <br/>
+                                
+                                <p>
+                                    <img src="images/cross24.png" width="20px"/> &nbsp;Submission was not successful. Please check your data and try again.
+                                </p>
+                                <input type="submit" value="Back" onclick="javascript:history.back();" />
+                                
+                            </div>
                         </div>
                     </div>
                 </div>

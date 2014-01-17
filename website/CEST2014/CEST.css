@@ -1,0 +1,31 @@
+/* MAIN NAVIGATION */
+#CEST-nav { height: 30px; background-color:#ffffff; border-bottom: 8px solid #e4e4e4; margin-bottom: 10px; }
+#CEST-nav dl { margin: 0; padding: 0; }
+#CEST-nav dt { float: left; }
+#CEST-nav dt a { display: block; height: 30px; padding: 5px 0 0 0; overflow: hidden; text-decoration:none; text-align:center; line-height:30px; font-weight:bold; }
+
+/* --> comportamento dei link non selezionati */
+#CEST-nav #CEST-nav-section0 a:hover, 
+#CEST-nav #CEST-nav-section1 a:hover, 
+#CEST-nav #CEST-nav-section2 a:hover, 
+#CEST-nav #CEST-nav-section3 a:hover, 
+#CEST-nav #CEST-nav-section4 a:hover { color: #333333; }
+#CEST-nav #CEST-nav-section0 a { width: 136px; color:#666666; }
+#CEST-nav #CEST-nav-section1 a { width: 136px; color:#666666; }
+#CEST-nav #CEST-nav-section2 a { width: 136px; color:#666666; }
+#CEST-nav #CEST-nav-section3 a { width: 136px; color:#666666; }
+#CEST-nav #CEST-nav-section4 a { width: 136px; color:#666666; }
+/* <-- end */
+
+/* comportamento dei link selezionati */
+#CEST-section0 #CEST-nav-section0 a, 
+#CEST-section0 #CEST-nav-section0 a:hover, 
+#CEST-section1 #CEST-nav-section1 a, 
+#CEST-section1 #CEST-nav-section1 a:hover, 
+#CEST-section2 #CEST-nav-section2 a, 
+#CEST-section2 #CEST-nav-section2 a:hover, 
+#CEST-section3 #CEST-nav-section3 a, 
+#CEST-section3 #CEST-nav-section3 a:hover, 
+#CEST-section4 #CEST-nav-section4 a, 
+#CEST-section4 #CEST-nav-section4 a:hover { background-color:#e4e4e4; color:#db6d16; }
+/* <-- end */

@@ -1,4 +1,4 @@
-<?php $localizer = "../"; ?>ine
+<?php $localizer = "../"; ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
@@ -19,6 +19,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
     </head>
     <link rel="icon" href="images/favicon.gif" type="image/gif" />
@@ -40,72 +41,77 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div id='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Molecular Imaging Center <!-- InstanceEndEditable --></h1>
                         </div>
-                        <div class='paddingInner'>
-
-                            <h1 style="line-height: 28px; text-align: center;">About the meeting</h1>
-                            
-                            <b>Preliminary Program (soon available)</b>
+                        <div id='CEST-section1'>
+                            <?php
+                                require ('include/CEST-nav.php');
+                            ?>
+                            <div class='paddingInner'>
+    
+                                <h1 style="line-height: 28px; text-align: center;">About the meeting</h1>
                                 
-                                <ul>
-                                    <li>
-                                        Day 1 - Thursday, May 8<sup>th</sup> from 8:30 to 18:30
-                                    </li>
+                                <b>Preliminary Program (soon available)</b>
                                     
-                                    <li>
-                                        Day 2 - Friday, May 9<sup>th</sup> from 8:30 to 18:30
-                                    </li>
-                                </ul>
-                            
-                            <b>Local Organizing Committee</b>
                                     <ul>
                                         <li>
-                                            Silvio Aime
+                                            Day 1 - Thursday, May 8<sup>th</sup> from 8:30 to 18:30
                                         </li>
+                                        
                                         <li>
-                                            Enzo Terreno
-                                        </li>
-                                        <li>
-                                            Daniela Delli Castelli
-                                        </li>
-                                        <li>
-                                            Dario Longo
-                                        </li>
-                                        <li>
-                                            Giuseppe Ferrauto
+                                            Day 2 - Friday, May 9<sup>th</sup> from 8:30 to 18:30
                                         </li>
                                     </ul>
-                                    
-                                     
-                                    
-                                    
-                            <b>Important Dates &amp; Deadlines</b>
-                                <ul>
-                                    <li>
-                                        Abstract submission : <u style="color: #db6d16">15 February 2014</u>
-                                    </li>
-                                    <li>
-                                        Definitive program : <u style="color: #db6d16">28 February 2014</u>
-                                    </li>
-                                    <li>
-                                        Early registration : <u style="color: #db6d16">11 April 2014</u>
-                                    </li>
-                                </ul>
-                            
-                            
-                            <b>Supporters</b>
-                            <br/>
-                            
-                            <div id="myoutercontainer">
-                                <div id="myinnercontainer">
-                                    <p>
-                                        <a href="http://www.aspectimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:200px; margin:35px;" src="images/aspect.jpg" /></a>
-                                        <a href="http://www.braccoimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bracco.jpg" /></a>
-                                        <a href="https://www.bruker.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bruker_logo.png" /></a>
-                                    </p>
+                                
+                                <b>Local Organizing Committee</b>
+                                        <ul>
+                                            <li>
+                                                Silvio Aime
+                                            </li>
+                                            <li>
+                                                Enzo Terreno
+                                            </li>
+                                            <li>
+                                                Daniela Delli Castelli
+                                            </li>
+                                            <li>
+                                                Dario Longo
+                                            </li>
+                                            <li>
+                                                Giuseppe Ferrauto
+                                            </li>
+                                        </ul>
+                                        
+                                         
+                                        
+                                        
+                                <b>Important Dates &amp; Deadlines</b>
+                                    <ul>
+                                        <li>
+                                            Abstract submission : <u style="color: #db6d16">15 February 2014</u>
+                                        </li>
+                                        <li>
+                                            Definitive program : <u style="color: #db6d16">28 February 2014</u>
+                                        </li>
+                                        <li>
+                                            Early registration : <u style="color: #db6d16">11 April 2014</u>
+                                        </li>
+                                    </ul>
+                                
+                                
+                                <b>Supporters</b>
+                                <br/>
+                                
+                                <div id="myoutercontainer">
+                                    <div id="myinnercontainer">
+                                        <p>
+                                            <a href="http://www.aspectimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:200px; margin:35px;" src="images/aspect.jpg" /></a>
+                                            <a href="http://www.braccoimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bracco.jpg" /></a>
+                                            <a href="https://www.bruker.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bruker_logo.png" /></a>
+                                        </p>
+                                    </div>
                                 </div>
+                                
+                                
                             </div>
-                            
-                            
                         </div>
                     </div>
                 </div>
