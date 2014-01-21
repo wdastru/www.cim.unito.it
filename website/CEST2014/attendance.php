@@ -106,7 +106,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <u>A shuttle bus service will be organized from the Hotels to the Bioindustry Park on Thursday, May 8<sup>th</sup> and Friday, May 9<sup>th</sup></u>
                                 </p>
     
-                                <a href="documents/HOTELS_CEST WORKSHOP.pdf"><u>Hotel information</u></a>
+                                <a href="documents/HOTELS_CEST WORKSHOP.pdf"><u>Hotel information</u></a>&nbsp;<img src="images/updated.gif" />
     
                                 <br/>
                                 <br/>
