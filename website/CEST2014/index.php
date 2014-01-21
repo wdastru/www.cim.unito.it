@@ -55,7 +55,7 @@ xmlns="http://www.w3.org/1999/xhtml">
     
                                 <br />
                                 <p>
-                                    After Turin (2010) and Annapolis (2012) the next CEST Workshop will be held again in Italy at the Bioindustry Park in Colleretto Giacosa 
+                                    After Turin (2010), Dallas (2011) and Annapolis (2012) the next CEST Workshop will be held again in Italy at the Bioindustry Park in Colleretto Giacosa 
                                     (55 km from Turin, Italy) on May 8-9<sup>th</sup>, 2014.
                                 </p>
                                 <p>
