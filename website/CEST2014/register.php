@@ -57,7 +57,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p>
                                     GIDRM takes care of the registration/payment procedure.
                                     <br/>
-                                    <u>The online procedure at the GIDRM website will be operative from Friday, February 24<sup>th</sup>.</u>
+                                    <u>The online procedure at the GIDRM website will be operative from Friday, January 24<sup>th</sup>.</u>
                                 </p>
                                 
                             </div>
