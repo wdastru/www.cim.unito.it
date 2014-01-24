@@ -56,8 +56,15 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p>
                                 <p>
                                     GIDRM takes care of the registration/payment procedure.
+                                    <br/><br/>
+                                    <u>Procedure</u>
                                     <br/>
-                                    <u>The online procedure at the GIDRM website will be operative from Friday, January 24<sup>th</sup>.</u>
+                                    Please proceed to the registration by doing the following:
+                                    <ul>
+                                        <u><li><a href="http://www.gidrm.org/gidrmvending/index.php?route=account/register" target="_blank">Create a GIDRM account</a></li></u>
+                                        <u><li><a href="http://www.gidrm.org/gidrmvending/index.php?route=product/product&product_id=67" target="_blank">Buy the CEST 2014 event</a></li></u>
+                                        <u><li><a href="http://www.gidrm.org/index.php/activities/cest2014-the-4th-international-workshop-on-chemical-exchange-saturation-transfer-imaging/cest2014-submission-form" target="_blank">Fill in the Submission form</a></li></u>
+                                    </ul>
                                 </p>
                                 
                             </div>
