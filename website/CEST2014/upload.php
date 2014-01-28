@@ -50,10 +50,12 @@ if ($_FILES['file1'] != null) {
 			$theFileSize = round($theDiv, 1) . " Bytes";
 		}
 
-		$body = "A new file has been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
+		$body = "A new file has been uploaded:\r\n\r\nsubmitter: " . $_POST['submitter'] . "\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
 		$vars = array('subject' => "CEST2014: file upload notification.", 'body' => $body);
 
         $mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+        
+        $mailer -> AddAttachment($path . $theFileName);
  
 		} else {
 			$body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
