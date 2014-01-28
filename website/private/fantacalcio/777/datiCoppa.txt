@@ -6,10 +6,10 @@ gruppi4/0/2/65/74.5/POGBA/PIRLO/
 gruppi5/0/3/61/80/LLORENTE/ROSSI G./ROSSI G./
 gruppi6/1/0/70/61.5/MATUZALEM/
 gruppi7/0/1/63.5/68/TEVEZ/
-gruppi8/-/-/-/-/
-gruppi9/-/-/-/-/
+gruppi8/3/2/79.5/77/LUCARELLI/HIGUAIN/HIGUAIN/LLORENTE/IMMOBILE/
+gruppi9/3/0/79.5/62/MERTENS/NAGATOMO/MERTENS/
 gruppi10/-/-/-/-/
-gruppi11/-/-/-/-/
+gruppi11/2/2/72.5/74.5/CALLEJON/CANDREVA/VIDAL/VIDAL/
 semi0/-/-/-/-/
 semi1/-/-/-/-/
 semi2/-/-/-/-/
