@@ -31,7 +31,7 @@ if ($_FILES['file1'] != null) {
 
 	//GET FILE NAME AND SIZE
 	$theFileName = $_FILES['file1']['name'];
-    $theFileSize = $_FILES['file1']['size'];
+    	$theFileSize = $_FILES['file1']['size'];
 
 	$mailer = new PHPMailer();
 	$mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
@@ -53,9 +53,8 @@ if ($_FILES['file1'] != null) {
 		$body = "A new file has been uploaded:\r\n\r\nsubmitter: " . $_POST['submitter'] . "\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
 		$vars = array('subject' => "CEST2014: file upload notification.", 'body' => $body);
 
-        $mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
-        
-        $mailer -> AddAttachment($path . $theFileName);
+        	$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+        	$mailer -> AddAttachment($path);
  
 		} else {
 			$body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
