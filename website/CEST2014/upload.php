@@ -12,8 +12,6 @@ require $relocate_string . 'includes/sendEMail.php';
 //are displayed, I wanted to use this method instead
 //of url_encode() [just looks funny when displayed]
 
-
-
 $SafeFile = date("dmy-Hi_", time()) . "_" . $_POST['submitter'] . "_" . $_FILES['file1']['name'];
 $SafeFile = str_replace("#", "No.", $SafeFile);
 $SafeFile = str_replace(" ", "_", $SafeFile);
@@ -33,6 +31,7 @@ if ($_FILES['file1'] != null) {
 
 	//GET FILE NAME AND SIZE
 	$theFileName = $_FILES['file1']['name'];
+    $theFileSize = $_FILES['file1']['size'];
 
 	$mailer = new PHPMailer();
 	$mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
@@ -52,13 +51,13 @@ if ($_FILES['file1'] != null) {
 		}
 
 		$body = "A new file has been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
-		$vars = array('subject' => "Enzo's private area: file upload notification.", 'body' => $body);
+		$vars = array('subject' => "CEST2014: file upload notification.", 'body' => $body);
 
-        //$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+        $mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
  
 		} else {
 			$body = "The file has not been uploaded:\r\n\r\nfilename: " . $theFileName . "\r\nsize: " . $theFileSize . "\r\ndate: " . date(DATE_RFC822) . "\r\n\nRegards,\r\nWebmaster.\r\n";
-		$vars = array('subject' => "Enzo's private area: file upload failure.", 'body' => $body);
+		$vars = array('subject' => "CEST2014: file upload failure.", 'body' => $body);
 
 		sendEMail($vars, $mailer);
 		header('Location: submissionError.php');
