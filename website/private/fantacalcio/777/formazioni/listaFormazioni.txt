@@ -10,14 +10,8 @@ bradipo.txt
 bradipo_cam_15.txt
 bradipo_cop_3.txt
 ciofeca.txt
-ciofeca_camp10.txt
-ciofeca_camp11.txt
-ciofeca_camp12.txt
-ciofeca_camp13.txt
-ciofeca_camp14.txt
 ciofeca_camp15.txt
-ciofeca_camp8.txt
-ciofeca_camp9.txt
+ciofeca_camp16.txt
 ciofeca_coppa3.txt
 eporediese.txt
 eporediese_camp_1.txt
