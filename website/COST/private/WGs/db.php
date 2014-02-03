@@ -2,6 +2,7 @@
 session_start();
 
 print_r($_POST);
+echo "<br />";
 print_r($_FILES);
 
 /* script variables */
@@ -35,16 +36,17 @@ if (isset($_POST['desc'])) {
 
 echo "<br>desc : " . $desc;
 
-if (isset($_FILES['filename']['name'])) {
-    $addFilename = $_FILES['filename']['name'];
-} 
-else 
-{
-	header("Location: " . $localizer . "COST/private/error.php?error=missing_upload_file");
-	exit();
+if (isset($_POST['type']) && $_POST['type']=='add') {
+	if (isset($_FILES['filename']['name'])) {
+	    $addFilename = $_FILES['filename']['name'];
+	} 
+	else 
+	{
+		header("Location: " . $localizer . "COST/private/error.php?error=missing_upload_file");
+		exit();
+	}
+	echo "<br>addFilename : " . $addFilename;
 }
-
-echo "<br>addFilename : " . $addFilename;
 
 if (isset($_POST['date'])) {
     $date = htmlentities($_POST['date']);
@@ -78,7 +80,7 @@ echo "<br>type : " . $type;
 //
 //echo "<br>delFilename : " . $delFilename;
 
-if (isset($_POST['$table'])) {
+if (isset($_POST['table'])) {
     $table = $_POST['table'];
 }
 else
@@ -96,25 +98,32 @@ $sql = "OPTIMIZE TABLE `" . $DBName . "`.`" . $table . "`";
 mysql_query($sql, $con);
 /* */
 
+echo "<br />";
+echo "0";
+
 if ($type == "add") 
 {
-	
-    if (!file_exists($path . $addFilename)) {
-
-        if (move_uploaded_file($_FILES['filename']['tmp_name'], $path . $addFilename)) {
-
+echo "1";
+    if (!file_exists($path . $addFilename)) 
+    {
+echo "2";
+        if (move_uploaded_file($_FILES['filename']['tmp_name'], $path . $addFilename)) 
+	{
+echo "3";
             $sql = "INSERT INTO `" . $DBName . "`.`" . $table . "` ( `WG`, `desc`, `filename`, `date`, `path` ) VALUES ( '" . $WG . "', '" . $desc . "', '" . $addFilename . "', '" . $date . "', '" . $path . "')";
-            $result = mysql_query($sql, $con);
+		$result = mysql_query($sql, $con);
 
-		} 
-        else 
-        {
-			header("Location: " . $localizer . "COST/private/error.php?error=upload");
-			exit();
+	} 
+	else 
+	{
+echo "8";
+		header("Location: " . $localizer . "COST/private/error.php?error=upload");
+		exit();
         }
     } 
     else 
     {
+echo "9";
         header("Location: " . $localizer . "COST/private/error.php?error=file_exists");
         exit();
     }
@@ -122,20 +131,25 @@ if ($type == "add")
 } 
 else if ($type == "del") 
 {
+echo "4";
 	$sql = "DELETE FROM `" . $DBName . "`.`" . $table . "` WHERE `date` = '" . $date . "' AND `filename` = '" . $delFilename . "' AND `WG` = '" . $WG . "' AND `path` = '" . $path . "' AND `desc` = '" . $desc . "'";
 	$result = mysql_query($sql, $con);
 	
 	if (file_exists($path . $delFilename)) {
+echo "5";
 		if (!unlink($path . $delFilename)) {
+echo "10";
 			header("Location: " . $localizer . "COST/private/error.php?error=could_not_delete_file");
 			exit();
 	    }
 	} else {
+echo "6";
 		header("Location: " . $localizer . "COST/private/error.php?error=file_not_exists");
 		exit();
 	}
 
 } else {
+echo "7";
 	header("Location: " . $localizer . "COST/private/error.php?error=invalid_type");
 	exit();
 }
