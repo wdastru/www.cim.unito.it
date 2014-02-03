@@ -445,18 +445,26 @@ function classifica(
 	 * avulsa[i][8] -> diffReti
 	 * avulsa[i][9] -> punti fatti 
 	 * avulsa[i][10] -> differenza punti 
+	 * avulsa[i][11] -> array[12] dati squadra
 	 * 
 	 **************************************************************************/
 
+	// --> initialize avulsa
 	var avulsa = new Array(8);
 	for (i = 0; i < avulsa.length; i++) {
-		avulsa[i] = new Array(11);
+		avulsa[i] = new Array(12);
 		avulsa[i][0] = squadra_local[i][0];
 
-		for (j = 1; j < 11; j++)
+		for (j = 1; j < avulsa[i].length-1; j++) // last element is Array(12) 
 			avulsa[i][j] = 0;
-	}
 
+		avulsa[i][11] = new Array(12);
+		for (j = 0; j < avulsa[i][11].length; j++) 
+			avulsa[i][11][j] = squadra_local[i][j];
+		
+	}
+	// <-- initialize avulsa
+	
 	// --> aggiorna classifica avulsa
 	for (i = 0; i < 12; i++) // partite della fase a gruppi
 	{
@@ -592,6 +600,7 @@ function classifica(
 
 	for ( var j = 0; j < idx[xx] - idx[0]; j++) {
 		for ( var i = idx[0]; i < idx[xx] - j; i++) {
+			// **** DATI AVULSA **** //
 			if (avulsa[i][1] < avulsa[i + 1][1]) // punti
 			{
 				switchSquadre(avulsa, i, i + 1);
@@ -605,20 +614,20 @@ function classifica(
 					if (avulsa[i][6] < avulsa[i + 1][6]) // goal fatti
 					{
 						switchSquadre(avulsa, i, i + 1);
-					} else if (avulsa[i][6] == avulsa[i + 1][6]) // goal
-					// fatti
+					} 
+					// **** DATI GLOBALI **** //
+					else if (avulsa[i][6] == avulsa[i + 1][6]) // goal fatti  
 					{
-						if (avulsa[i][10] < avulsa[i + 1][10]) // diff punti
+						if (avulsa[i][11][8] < avulsa[i + 1][11][8]) // diff reti totali
 						{
 							switchSquadre(avulsa, i, i + 1);
-						} else if (avulsa[i][10] == avulsa[i + 1][10]) // diff
-						// punti
+						} else if (avulsa[i][11][8] == avulsa[i + 1][11][8]) // diff reti totali
 						{
-							if (avulsa[i][9] < avulsa[i + 1][9]) // punti
-							// totali
+							if (avulsa[i][11][6] < avulsa[i + 1][11][6]) // goal totali
 							{
 								switchSquadre(avulsa, i, i + 1);
-							} else { // sorteggio
+							} else // sorteggio 
+							{ 
 								if (avulsa[i][0] == 'Atletico? No Grazie!'
 										&& avulsa[i + 1][0] == 'Fedora')
 									switchSquadre(avulsa, i, i + 1);
@@ -644,6 +653,7 @@ function classifica(
 	}
 	// <-- applica correzione a squadra[][]
 	calls += 1;
+
 	return squadra_local;
 }
 

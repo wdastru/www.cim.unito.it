@@ -214,14 +214,19 @@ function classifica(/* variable number of arguments, the first has to be the arr
 	//		$avulsa[$i][8] -> diffReti
 	//		$avulsa[$i][9] -> punti fatti
 	//		$avulsa[$i][10] -> differenza punti
-
+	//		$avulsa[$i][11] -> array[12] dati squadra
+	
 	for ($i=0;$i<8;$i++)
 	{
 		$avulsa[] = array();
 		$avulsa[$i][] = $squadra[$i][0];
 
 		for ($j=1;$j<11;$j++)
-		$avulsa[$i][] = 0;
+			$avulsa[$i][] = 0;
+		$avulsa[$i][11] = array();
+		
+		for ($j=0;$j<12;$j++)
+			$avulsa[$i][11][$j] = $squadra[$i][$j];		
 	}
 
 	$counter = 0;
@@ -383,6 +388,7 @@ function classifica(/* variable number of arguments, the first has to be the arr
 	{
 		for ( $i=$idx[0]; $i<$idx[$xx]-$j; $i++ )
 		{
+			// **** DATI AVULSA *** //
 			if ($avulsa[$i][1] < $avulsa[$i+1][1]) // punti
 			{
 				$avulsa = switchSquadre($avulsa, $i, $i+1);
@@ -401,13 +407,14 @@ function classifica(/* variable number of arguments, the first has to be the arr
 					}
 					else if ($avulsa[$i][6] == $avulsa[$i+1][6]) // goal fatti
 					{
-						if ($avulsa[$i][10] < $avulsa[$i+1][10]) // diff punti
+						// **** DATI GLOBALI *** //
+						if ($avulsa[$i][11][8] < $avulsa[$i+1][11][8]) // diff reti
 						{
 							$avulsa = switchSquadre($avulsa, $i, $i+1);
 						}
-						else if ($avulsa[$i][10] == $avulsa[$i+1][10]) // diff punti
+						else if ($avulsa[$i][11][8] == $avulsa[$i+1][11][8]) // diff reti
 						{
-							if ($avulsa[$i][9] < $avulsa[$i+1][9]) // punti totali
+							if ($avulsa[$i][11][6] < $avulsa[$i+1][11][6]) // goal totali
 							{
 								$avulsa = switchSquadre($avulsa, $i, $i+1);
 							}
