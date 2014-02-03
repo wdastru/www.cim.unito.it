@@ -2,6 +2,7 @@
 session_start();
 
 print_r($_POST);
+echo "<br />";
 print_r($_FILES);
 
 /* script variables */
@@ -13,6 +14,9 @@ $delFilename = "";
 $type = "";
 $table = "";
  /* script variables */
+
+require $localizer . 'recursiveChmod.inc.php';
+@recursiveChmod($localizer . 'WG*_docs/');
 
 $con = mysql_connect("localhost", "cim_adm", "vpsyyAR4jp");
 if (!$con) {
