@@ -144,7 +144,8 @@ echo "<br />4";
 	if (file_exists($path . $delFilename)) {
 echo "<br />5";
 		if (!unlink($path . $delFilename)) {
-echo "<br />10 : $path . $delFilename";
+echo "<br />10 : $path";
+echo "<br />10 : $delFileName";
 			header("Location: " . $localizer . "COST/private/error.php?error=could_not_delete_file");
 			exit();
 	    }
