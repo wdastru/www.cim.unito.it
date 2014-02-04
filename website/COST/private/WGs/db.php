@@ -16,7 +16,11 @@ $table = "";
  /* script variables */
 
 require $localizer . 'recursiveChmod.inc.php';
-@recursiveChmod($localizer . 'COST/private/WGs/WG*_docs/');
+@recursiveChmod($localizer . 'COST/private/WGs/WG1_docs/');
+@recursiveChmod($localizer . 'COST/private/WGs/WG2_docs/');
+@recursiveChmod($localizer . 'COST/private/WGs/WG3_docs/');
+@recursiveChmod($localizer . 'COST/private/WGs/WG4_docs/');
+@recursiveChmod($localizer . 'COST/private/WGs/WG5_docs/');
 
 $con = mysql_connect("localhost", "cim_adm", "vpsyyAR4jp");
 if (!$con) {

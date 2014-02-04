@@ -21,7 +21,8 @@
 function recursiveChmod($path, $filePerm = 0777, $dirPerm = 0777) {
 	// Check if the path exists
 	if (!file_exists($path)) {
-		return (FALSE);
+	    echo "<br />file $path does not exists!";
+        return (FALSE);
 	}
 	// See whether this is a file
 	if (is_file($path)) {
