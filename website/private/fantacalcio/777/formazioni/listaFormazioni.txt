@@ -40,6 +40,8 @@ eporediese_tipo_valida_fino_20140111-003522.txt
 fedora.txt
 fedora_camp_1.txt
 fedora_camp_15.txt
+fedora_camp_16.txt
+fedora_camp_17.txt
 fedora_camp_3.txt
 fedora_camp_4.txt
 fedora_camp_8.txt
