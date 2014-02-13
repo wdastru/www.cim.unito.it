@@ -50,15 +50,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <h1 style="line-height: 28px; text-align: center;">About the meeting</h1>
                                 
                                 <b>Preliminary Program (soon available)</b>
-                                    
+                                
+                                    Speakers that have already accepted to contribute with keynote lectures:
+
                                     <ul>
-                                        <li>
-                                            Day 1 - Thursday, May 8<sup>th</sup> from 8:30 to 18:30
-                                        </li>
-                                        
-                                        <li>
-                                            Day 2 - Friday, May 9<sup>th</sup> from 8:30 to 18:30
-                                        </li>
+                                        <li>Xavier Golay (University College London)</li>
+                                        <li>Michael T. McMahon (Johns Hopkins University/Kennedy Krieger Institute)</li>
+                                        <li>Mark Pagel (University of Arizona)</li>
+                                        <li>Ravinder Reddy (University of Pennsylvania)</li>
+                                        <li>Philip Sun (Martinos Center, MGH/Harvard Medical School)</li>
+                                        <li>Jinyuan Zhou (Johns Hopkins University)</li>
                                     </ul>
                                 
                                 <b>Local Organizing Committee</b>
