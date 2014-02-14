@@ -94,25 +94,25 @@ include("calendario.inc");
 		}
 
 		require $relocate_string . 'readDatiCampionato.php';
-		
-		for($giornataIdx = 0; $giornataIdx < 7; $giornataIdx++) // giornata
+        
+        for($giornataIdx = 0; $giornataIdx < 7; $giornataIdx++) // giornata
 		{
 			echo "<br />";
 			echo "<h2 class=\"giornata\">" . $giornata[$giornataIdx] . "</h2>\n";
 			echo "<div class=\"center\">\n";
 			echo "<table class=\"risultati\">\n";
-
+            
 			for($partitaIdx=0; $partitaIdx<4; $partitaIdx++) // partita
 			{
 				if ($odd = $partitaIdx % 2){
 					echo"<tr class=\"odd\">";
 					for($i=0; $i<2; $i++) { // in casa - fuori casa
-						echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partiaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+						echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
 					}
 				} else {
 					echo"<tr class=\"even\">";
 					for($i=0; $i<2; $i++) { // in casa - fuori casa
-						echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partiaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
+						echo "<td class=\"Squadra\"><a href='squadre/squadra.php?squadra=" . $shortName[$super[0][$giornataIdx][$partitaIdx][$i]] . "'>" . $super[0][$giornataIdx][$partitaIdx][$i] . "</a></td>";
 					}
 				}
 				
