@@ -51,6 +51,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 
                                 <b>Preliminary Program (soon available)</b>
                                 
+                                    <br/>
+                                    
                                     Speakers that have already accepted to contribute with keynote lectures:
 
                                     <ul>
@@ -60,6 +62,20 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <li>Ravinder Reddy (University of Pennsylvania)</li>
                                         <li>Philip Sun (Martinos Center, MGH/Harvard Medical School)</li>
                                         <li>Jinyuan Zhou (Johns Hopkins University)</li>
+                                    </ul>
+                                    
+                                    <b>Timetable</b>
+                                    
+                                    <br/>
+                                    
+                                    <ul>
+                                        <li>
+                                            Day 1 - Thursday, May 8<sup>th</sup> from 8:30 to 18:30
+                                        </li>
+                                        
+                                        <li>
+                                            Day 2 - Friday, May 9<sup>th</sup> from 8:30 to 18:30
+                                        </li>
                                     </ul>
                                 
                                 <b>Local Organizing Committee</b>
@@ -95,10 +111,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <b>Important Dates &amp; Deadlines</b>
                                     <ul>
                                         <li>
-                                            Abstract submission : <u style="color: #db6d16">15 February 2014</u>
+                                            Abstract submission : <u style="color: #db6d16">1<sup>st</sup> March 2014</u>
                                         </li>
                                         <li>
-                                            Definitive program : <u style="color: #db6d16">28 February 2014</u>
+                                            Definitive program : <u style="color: #db6d16">Soon available</u>
                                         </li>
                                         <li>
                                             Early registration : <u style="color: #db6d16">11 April 2014</u>

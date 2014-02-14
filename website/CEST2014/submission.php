@@ -122,7 +122,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     The Scientific Committee calls for abstract submission on original work for oral/poster presentations.
                                 </p>
                                 <p>
-                                    Deadline for submission is 15 February 2014.    
+                                    Deadline for submission is 1<sup>st</sup> March 2014.    
                                 </p> 
                                 <p>
                                     The corresponding author will be notified of the acceptance of his/her abstract and type of presentation 
