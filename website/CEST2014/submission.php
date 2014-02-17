@@ -137,7 +137,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <li>only Word (DOC or DOCX) or PDF documents are allowed</li>
                                     <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
                                     <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
-                                    <li>you will be able to make changes on your submission until the submission deadline (15 February 2014)</li>
+                                    <li>you will be able to make changes on your submission until the submission deadline (1<sup>st</sup> March 2014)</li>
                                 </ul>
                                 
                                 <br/>

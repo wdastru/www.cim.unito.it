@@ -58,6 +58,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <ul>
                                         <li>Xavier Golay (University College London)</li>
                                         <li>Michael T. McMahon (Johns Hopkins University/Kennedy Krieger Institute)</li>
+                                        <li>Gil Navon (Tel Aviv University)</li>
                                         <li>Mark Pagel (University of Arizona)</li>
                                         <li>Ravinder Reddy (University of Pennsylvania)</li>
                                         <li>Philip Sun (Martinos Center, MGH/Harvard Medical School)</li>
