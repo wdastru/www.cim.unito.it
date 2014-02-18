@@ -97,7 +97,7 @@ $relocate_string = "../";
 					</tr>";
 			for($i=0; $i<10; $i++) {
 				echo "<tr>
-						<td>" . $stats[$i][0] . "</td>
+						<td>" . substr_replace($stats[$i][0], "/", 2, 0) . "</td>
 						<td>" . $stats[$i][1] . "</td>
 						<td>" . $stats[$i][2] . "</td>
 						<td>" . $stats[$i][3] . "</td>
@@ -126,7 +126,7 @@ $relocate_string = "../";
 					</tr>";
 			for($i=0; $i<10; $i++) {
 				echo "<tr>
-						<td>" . $stats[$i][0] . "</td>
+						<td>" . substr_replace($stats[$i][0], "/", 2, 0) . "</td>
 						<td>" . $stats[$i][1] . "</td>
 						<td>" . $stats[$i][2] . "</td>
 						<td>" . $stats[$i][3] . "</td>
@@ -156,7 +156,7 @@ $relocate_string = "../";
 					</tr>";
 			for($i=0; $i<10; $i++) {
 				echo "<tr>
-						<td>" . $stats[$i][0] . "</td>
+						<td>" . substr_replace($stats[$i][0], "/", 2, 0) . "</td>
 						<td>" . $stats[$i][1] . "</td>
 						<td>" . $stats[$i][2] . "</td>
 						<td>" . $stats[$i][3] . "</td>
@@ -185,7 +185,7 @@ $relocate_string = "../";
 					</tr>";
 			for($i=0; $i<10; $i++) {
 				echo "<tr>
-						<td>" . $stats[$i][0] . "</td>
+						<td>" . substr_replace($stats[$i][0], "/", 2, 0) . "</td>
 						<td>" . $stats[$i][1] . "</td>
 						<td>" . $stats[$i][2] . "</td>
 						<td>" . $stats[$i][3] . "</td>
@@ -214,7 +214,7 @@ $relocate_string = "../";
 					</tr>";
 			for($i=0; $i<10; $i++) {
 				echo "<tr>
-						<td>" . $stats[$i][0] . "</td>
+						<td>" . substr_replace($stats[$i][0], "/", 2, 0) . "</td>
 						<td>" . $stats[$i][1] . "</td>
 						<td>" . $stats[$i][2] . "</td>
 						<td>" . $stats[$i][3] . "</td>
@@ -244,7 +244,7 @@ $relocate_string = "../";
 					</tr>";
 			for($i=0; $i<10; $i++) {
 				echo "<tr>
-						<td>" . $stats[$i][0] . "</td>
+						<td>" . substr_replace($stats[$i][0], "/", 2, 0) . "</td>
 						<td>" . $stats[$i][1] . "</td>
 						<td>" . $stats[$i][2] . "</td>
 						<td>" . $stats[$i][3] . "</td>
