@@ -52,14 +52,14 @@ $localizer = "./";
                             </p>
                             <p>
                                 The main lines of research activities are the following:
-                                <ul>
-                                    <li>synthesis and MRI assessment of high-relaxivity Gd-based chelates (including multimeric
-                                        derivatives and nano-sized assemblies);</li>
-                                    <li>synthesis and MRI assessment of novel agents based on chemical exchange saturation transfer (CEST);</li>
-                                    <li>development of hyperpolarised molecules;</li>
-                                    <li>set up of cell labelling procedures (labelling of stem cells, leukocytes, tumour cells, etc.) by the internalisation of paramagnetic metal chelates; v) targeting receptors/transporters overexpressed / up-regulated on pathological cells with imaging probes (including particles); vi) targeting thrombi and plaques with suitably functionalised nanocarriers bearing different types of imaging reporters.</li>
-                                </ul>
                             </p>
+                            <ul>
+                                <li>synthesis and MRI assessment of high-relaxivity Gd-based chelates (including multimeric
+                                    derivatives and nano-sized assemblies);</li>
+                                <li>synthesis and MRI assessment of novel agents based on chemical exchange saturation transfer (CEST);</li>
+                                <li>development of hyperpolarised molecules;</li>
+                                <li>set up of cell labelling procedures (labelling of stem cells, leukocytes, tumour cells, etc.) by the internalisation of paramagnetic metal chelates; v) targeting receptors/transporters overexpressed / up-regulated on pathological cells with imaging probes (including particles); vi) targeting thrombi and plaques with suitably functionalised nanocarriers bearing different types of imaging reporters.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
