@@ -2,21 +2,17 @@
 $localizer = "./";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
-<html
-xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        <meta name="generator"
-        content="HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
+        <meta name="generator" content="HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
         <!-- InstanceBeginEditable name="title" -->
         <title>Molecular Imaging Center - University of Torino</title>
         <!-- InstanceEndEditable -->
         <!-- InstanceBeginEditable name="meta description" -->
-        <meta name="description"
-        content="University of Torino. Website of the Molecular Imaging Center." />
+        <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
         <!-- InstanceEndEditable -->
-        <meta name="google-site-verification"
-        content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
+        <meta name="google-site-verification" content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
@@ -37,11 +33,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <?php
                 require ($localizer . 'includes/home-side-nav.php');
                 ?>
-                <div id='content'>
+<!--                <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Molecular Imaging Center <!-- InstanceEndEditable --></h1>
-                        </div>
+<!--                        </div>
                         <div class='paddingInner'>
                             <p>
                                 The University of Torino is very experienced in the field of synthesis and physical-chemical
