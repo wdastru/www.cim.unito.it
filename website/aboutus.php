@@ -1,7 +1,7 @@
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
@@ -21,7 +21,7 @@ $localizer = "./";
     </head>
     <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
             <?php
             require ('includes/main-nav.php');
@@ -33,11 +33,11 @@ $localizer = "./";
                 <?php
                 require ($localizer . 'includes/home-side-nav.php');
                 ?>
-<!--                <div id='content'>
+                <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Molecular Imaging Center <!-- InstanceEndEditable --></h1>
-<!--                        </div>
+                        </div>
                         <div class='paddingInner'>
                             <p>
                                 The University of Torino is very experienced in the field of synthesis and physical-chemical
@@ -60,32 +60,12 @@ $localizer = "./";
                                     <li>set up of cell labelling procedures (labelling of stem cells, leukocytes, tumour cells, etc.) by the internalisation of paramagnetic metal chelates; v) targeting receptors/transporters overexpressed / up-regulated on pathological cells with imaging probes (including particles); vi) targeting thrombi and plaques with suitably functionalised nanocarriers bearing different types of imaging reporters.</li>
                                 </ul>
                             </p>
-                            <!--
-                            <p>
-                                The University of Torino is well equipped in terms of chemical (synthesis and analytical 
-                                characterisation) and biological laboratories (cell cultures and animal models preparation, 
-                                including transgenic animal models) and instrumentation for field cycling relaxometry 
-                                (4 STELAR relaxometers are installed: SMARTracer 0.01 - 10 MHz, SpinMaster 21 MHz, Fast 
-                                Field Cycling 0.01 - 20 MHz, Variable Field Electromagnet 20-70 MHz). A repository of 
-                                imaging probes for the different imaging modalities and animal models is present at the 
-                                Molecular Imaging Center.
-                            </p>
-                            <p>
-                                The Imaging Laboratories at CIM / CEIP consist of 7 MRI scanners at low and high field 
-                                (Bruker Pharmascan 7T, Bruker Biospec 7T equipped for m-imaging, Bruker BioSpec 3T, Bruker 
-                                Icon MRI 1T, Aspect M2 1T, Aspect  M2 Compact  1T, Esaote E-scan 0,2 T) two optical scanners 
-                                (Xenogen IVIS200optical, LI-COR Pearl Impulse), two ultrasound scanners (Visualsonic VEVO099, 
-                                Visualsonic VEVO2100), a PET-SPECT-CT scanner (GE Flex-Triumph Lab4), a PET/SPECT scanner 
-                                (Ise YAP-(S)-PET) paired with the PharmaScan 7T MRI system and a photoacoustic scanner 
-                                (Visualsonics VEVO-LAZR). A DNP polarizer is also available for HP-MRI.
-                            </p>
-                            -->
-                            </div>
-                            </div>
-                            </div>
-                            <!-- subsection closing -->
-                            </div>
-                            <!-- subsection closing -->
+                        </div>
+                    </div>
+                </div>
+                <!-- subsection closing -->
+            </div>
+            <!-- subsection closing -->
             <div id='after'></div>
             <div id='footer'>
                 <p>
@@ -93,8 +73,8 @@ $localizer = "./";
                     <br />
                     Fax. Tel. Mail
                 </p>
-                </div>
-                <div id='validators'>
+            </div>
+            <div id='validators'>
                 <p>
                     <a href="http://validator.w3.org/check?uri=referer"> <img
                     src="images/valid-xhtml10-blue_opt.png"
