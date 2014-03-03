@@ -58,7 +58,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 The Molecular Imaging Center hosts many foreign researchers
                                 (BE, CZ, SK, F, HUN, GR, UK, Japan and India)
                             </p>
-                            <div id='divider'></div>
+                            <div class='divider'></div>
                             <div id='columnWrapper'>
                                 <div id='col1'>
                                     <!--<h2 class='punch orange'><span>RECENT PUBS</span></h2>
@@ -73,12 +73,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <br />
                                     4667-4669, <span class="paperVol">47</span>
                                     <span class="paperVol">(16)</span> , <span>2011</span>
-                                    <div id='divider'></div>-->
+                                    <div class='divider'></div>-->
                                     <h2 class='punch purple'><span>COST Action TD1004</span></h2>
                                     <a href="<?php echo $localizer;?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
                                     <a class="link" href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery, April 16-18, 2014 - Hotel Zuiderduin, Egmond aan Zee, The Netherlands.</a>
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
                                     <p>2<sup>nd</sup> NanoFar Autumn School, October 21-25, 2013 
                                         <br/>
                                         University of Santiago de Compostela, Spain
@@ -95,11 +95,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
                                     <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" /></a>
 
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
 
                                     <span class="date">Apr 29, 2011</span><a href='eindhoven.php'> Prof. Silvio Aime has been awarded a <i>"Doctor Honoris Causa"</i> by the Eindhoven University of Technology (NL). </a>
 
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
 
                                     <span class="date">Jun 5, 2010</span><a href='debrecen.php'> Prof. Silvio Aime has been awarded a <i>"Doctor Honoris Causa"</i> by the Debrecen University (HU). </a>
                                 </div>
@@ -108,26 +108,26 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <span class="date">October, 3<sup>rd</sup>-5<sup>th</sup> 2014</span>
                                     <a href='<?php echo $localizer;?>COST/meetings/COST_TD1004-Oct2014.php' ><span class="paperTitle">Annual Workshop of the COST Action TD1004 (&quot;Theranostics&quot;)</span></a>
                                     Istanbul - Turkey<br />
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
                                     <span class="date">May, 8<sup>th</sup>-9<sup>th</sup> 2014</span>
                                     <a href='<?php echo $localizer;?>CEST2014/index.php' ><span class="paperTitle">CEST 2014 - 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer Imaging</span></a>
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
                                     <span class="date">23<sup>rd</sup> May, 2013</span>
                                     <a href='<?php echo $localizer;?>documenti/TransInt course Dublin.doc' ><span class="paperTitle" style="text-decoration:blink">1<sup>st</sup> TRANS-INT training session in oral nanomedicine</span></a>
                                     <img style="width: 99%" src="images/trans-int_logo.png" />
                                     Veterinary Science Centre<br />
                                     University College Dublin<br />
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
                                     <span class="date">26 to 28 May, 2013</span>
                                     <a href='http://www.e-smi.eu/index.php?id=2504' target='_blank'><span class="paperTitle" style="text-decoration:blink">EMIM 2013 - EUROPEAN MOLECULAR IMAGING MEETING</span></a>
                                     <img style="width: 99%" src="images/ESMI_logo_imaging_life.jpg" />                 
-                                    <div id='divider'></div>
+                                    <div class='divider'></div>
                                     <span class="date">6 March, 2013</span>
                                     EMIDS Kick-off Meeting
                                     <a href="http://www.emids.eu/"> <img
                                     style="width: 99%" src="images/Emids_Logo.jpg" /></a>
                                     
-                                    <!-- <div id='divider'></div> -->
+                                    <!-- <div class='divider'></div> -->
 
                                 </div>
                             </div>

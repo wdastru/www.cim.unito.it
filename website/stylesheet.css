@@ -204,8 +204,8 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 /* End of STAFF */
 
 /* COLUMNS in index.html */
-#divider { margin:8px 0px; height:2px; background:url(images/divider.gif) repeat-x scroll left top transparent; clear:left;}
-/*#divider-small { margin:8px 0px; height:2px; background:url(images/divider.gif) repeat-x scroll left top transparent; }*/
+.divider { margin:8px 0px; height:2px; background:url(images/divider.gif) repeat-x scroll left top transparent; clear:left;}
+/*.divider-small { margin:8px 0px; height:2px; background:url(images/divider.gif) repeat-x scroll left top transparent; }*/
 #columnWrapper { height:auto; margin:auto; background:url(images/divider-vertical-3-col.gif) repeat-y scroll 207px 0 transparent !important; overflow:auto; }
 #columnWrapper h2 { padding-bottom:4px; }
 #col1 { width:200px; float:left; margin-right:5px; }
