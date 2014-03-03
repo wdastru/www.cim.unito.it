@@ -23,6 +23,13 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="stylesheet.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
+        
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+        
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -119,12 +126,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     University College Dublin<br />
                                     <div class='divider'></div>
                                     <span class="date">26 to 28 May, 2013</span>
-                                    <a href='http://www.e-smi.eu/index.php?id=2504' target='_blank'><span class="paperTitle" style="text-decoration:blink">EMIM 2013 - EUROPEAN MOLECULAR IMAGING MEETING</span></a>
+                                    <a class="linkExternal" href='http://www.e-smi.eu/index.php?id=2504'><span class="paperTitle" style="text-decoration:blink">EMIM 2013 - EUROPEAN MOLECULAR IMAGING MEETING</span></a>
                                     <img style="width: 99%" src="images/ESMI_logo_imaging_life.jpg" alt="ESMI logo" />                 
                                     <div class='divider'></div>
                                     <span class="date">6 March, 2013</span>
                                     EMIDS Kick-off Meeting
-                                    <a href="http://www.emids.eu/"><img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo"/></a>
+                                    <a class="linkExternal" href="http://www.emids.eu/"><img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo"/></a>
                                     
                                     <!-- <div class='divider'></div> -->
 
