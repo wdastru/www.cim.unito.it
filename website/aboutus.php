@@ -16,10 +16,10 @@ $localizer = "./";
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="stylesheet.css" rel='stylesheet' type='text/css' />
+        <link href="stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
@@ -45,7 +45,7 @@ $localizer = "./";
                                 development of paramagnetic contrast agents for MRI (with projects in High Relaxivity,
                                 Blood Pool agents, Targeting and Responsive Probes). In 1998, a new laboratory was settled
                                 at the Bioindustry Park (in close collaboration with biology teams), dedicated to the
-                                identification of new targets and vectors (Center of Excellence for Preclinical Imaging– CEIP).
+                                identification of new targets and vectors (Center of Excellence for Preclinical Imaging - CEIP).
                                 In 2001 the fruitful collaboration between chemists, biologists and medical doctors led to the
                                 foundation of the Center for Molecular Imaging (CIM) of the University of Torino, located at
                                 the School of Biotechnology.
