@@ -20,7 +20,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="stylesheet.css" rel='stylesheet' type='text/css' />
+        <link href="stylesheet.css" rel='stylesheet' type='text/css'></link>
         <script type="text/javascript" src="script.js"></script>
     </head>
     <link rel="icon" href="images/favicon.gif" type="image/gif" />
