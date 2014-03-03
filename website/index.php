@@ -124,8 +124,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <div class='divider'></div>
                                     <span class="date">6 March, 2013</span>
                                     EMIDS Kick-off Meeting
-                                    <a href="http://www.emids.eu/"> <img
-                                    style="width: 99%" src="images/Emids_Logo.jpg" /></a>
+                                    <a href="http://www.emids.eu/"><img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo"/></a>
                                     
                                     <!-- <div class='divider'></div> -->
 
