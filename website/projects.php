@@ -34,7 +34,7 @@ $localizer = "./";
 			<!-- InstanceEndEditable -->
 			<div id='sidebar'>
 				<div class='padding'>
-					<dl id='list'></dl>
+					<!--<dl id='list'></dl>-->
 				</div>
 			</div>
 			<div id='content'>
