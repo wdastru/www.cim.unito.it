@@ -97,8 +97,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                     <br />
                     Fax. Tel. Mail
                 </p>
-            </div>
-            <div id='validators'>
+                </div>
+                <div id='validators'>
                 <p>
                     <a href="http://validator.w3.org/check?uri=referer"> <img
                     src="images/valid-xhtml10-blue_opt.png"
