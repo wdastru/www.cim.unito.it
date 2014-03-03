@@ -79,7 +79,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <div class='divider'></div>
                                     <a class="link" href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery, April 16-18, 2014 - Hotel Zuiderduin, Egmond aan Zee, The Netherlands.</a>
                                     <div class='divider'></div>
-                                    <p>2<sup>nd</sup> NanoFar Autumn School, October 21-25, 2013 
+                                    2<sup>nd</sup> NanoFar Autumn School, October 21-25, 2013 
                                         <br/>
                                         University of Santiago de Compostela, Spain
                                         <br />
@@ -93,7 +93,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
 
                                     The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
-                                    <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" /></a>
+                                    <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
 
                                     <div class='divider'></div>
 
@@ -114,13 +114,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <div class='divider'></div>
                                     <span class="date">23<sup>rd</sup> May, 2013</span>
                                     <a href='<?php echo $localizer;?>documenti/TransInt course Dublin.doc' ><span class="paperTitle" style="text-decoration:blink">1<sup>st</sup> TRANS-INT training session in oral nanomedicine</span></a>
-                                    <img style="width: 99%" src="images/trans-int_logo.png" />
+                                    <img style="width: 99%" src="images/trans-int_logo.png" alt="TransInt logo" />
                                     Veterinary Science Centre<br />
                                     University College Dublin<br />
                                     <div class='divider'></div>
                                     <span class="date">26 to 28 May, 2013</span>
                                     <a href='http://www.e-smi.eu/index.php?id=2504' target='_blank'><span class="paperTitle" style="text-decoration:blink">EMIM 2013 - EUROPEAN MOLECULAR IMAGING MEETING</span></a>
-                                    <img style="width: 99%" src="images/ESMI_logo_imaging_life.jpg" />                 
+                                    <img style="width: 99%" src="images/ESMI_logo_imaging_life.jpg" alt="ESMI logo" />                 
                                     <div class='divider'></div>
                                     <span class="date">6 March, 2013</span>
                                     EMIDS Kick-off Meeting
