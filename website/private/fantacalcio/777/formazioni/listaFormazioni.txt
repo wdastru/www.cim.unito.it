@@ -1,15 +1,22 @@
 atletico.txt
 atletico_camp_17.txt
 atletico_camp_18.txt
+atletico_camp_19.txt
+atletico_camp_20.txt
+atletico_camp_20_buona.txt
 atletico_coppa_3.txt
 bradipo.txt
 bradipo_cam_17.txt
+bradipo_cam_19.txt
+bradipo_cam_20.txt
+bradipo_tipo_valida_fino_20140221-195618.txt
 ciofeca.txt
 ciofeca_camp15.txt
 ciofeca_camp16.txt
 ciofeca_camp17.txt
 ciofeca_camp18.txt
-ciofeca_coppa3.txt
+ciofeca_camp19.txt
+ciofeca_camp20.txt
 eporediese.txt
 eporediese_camp_1.txt
 eporediese_camp_10.txt
@@ -19,6 +26,7 @@ eporediese_camp_14.txt
 eporediese_camp_15.txt
 eporediese_camp_16.txt
 eporediese_camp_17.txt
+eporediese_camp_19.txt
 eporediese_camp_1_corretta.txt
 eporediese_camp_2.txt
 eporediese_camp_3.txt
@@ -37,6 +45,7 @@ fedora_camp_1.txt
 fedora_camp_15.txt
 fedora_camp_16.txt
 fedora_camp_17.txt
+fedora_camp_19.txt
 fedora_camp_3.txt
 fedora_camp_4.txt
 fedora_camp_8.txt
@@ -75,6 +84,8 @@ lokomotiv_camp_15.txt
 lokomotiv_camp_16.txt
 lokomotiv_camp_17.txt
 lokomotiv_camp_18.txt
+lokomotiv_camp_19.txt
+lokomotiv_camp_20.txt
 lokomotiv_coppa_1.txt
 lokomotiv_coppa_2.txt
 lokomotiv_coppa_3.txt
@@ -84,8 +95,8 @@ lokomotiv_tipo_valida_fino_20140201-171453.txt
 lokomotiv_tipo_valida_fino_20140201-171511.txt
 lokomotiv_tipo_valida_fino_20140213-233456.txt
 patelavache.txt
-patelavache_camp_16.txt
-patelavache_camp_18.txt
+patelavache_camp_19.txt
+patelavache_camp_20.txt
 real.txt
 real_camp_01.txt
 real_camp_02.txt
@@ -105,6 +116,8 @@ real_camp_15.txt
 real_camp_16.txt
 real_camp_17.txt
 real_camp_18.txt
+real_camp_19.txt
+real_camp_20.txt
 real_coppa_1.txt
 real_coppa_2.txt
 real_coppa_3.txt
@@ -118,3 +131,5 @@ real_tipo_valida_fino_20131214-175345.txt
 real_tipo_valida_fino_20140124-231723.txt
 real_tipo_valida_fino_20140207-221436.txt
 real_tipo_valida_fino_20140213-233548.txt
+real_tipo_valida_fino_20140228-211156.txt
+real_tipo_valida_fino_20140228-211207.txt
