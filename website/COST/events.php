@@ -25,6 +25,13 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="cost.js"></script>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+                
     </head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -51,18 +58,18 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <li>                                	
                                     <h2 style="text-align:left"><a class="link" href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
                                     <p>
-                                        <u>Meeting of Working Group 4 (Gerben Konings).</u>
-                                        <br>
+                                        <span class="underline">Meeting of Working Group 4 (Gerben Konings).</span>
+                                        <br />
                                         Location : Hotel Zuiderduin, Egmond aan Zee, The Netherlands.
-                                        <br>
+                                        <br />
                                         Date     : April 16-18, 2014
                                     </p>
                                 </li>
                                 <li>
-                                    <h2 style="text-align:left"><a href="http://www.cost.eu/events/pemed/" target="_blank">Personalised Medicine: Better Healthcare for the Future - A Rational Approach Focusing on Bioinformatics, Medicinal Chemistry and Medicine</a></h2>
+                                    <h2 style="text-align:left"><a class='linkExternal' href="http://www.cost.eu/events/pemed/">Personalised Medicine: Better Healthcare for the Future - A Rational Approach Focusing on Bioinformatics, Medicinal Chemistry and Medicine</a></h2>
                                     <p>
                                         Location : Larnaca, Cyprus
-                                        <br>
+                                        <br />
                                         Date     : 17 - 22 June 2012
                                     </p>
                                 </li>
