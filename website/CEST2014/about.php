@@ -18,11 +18,11 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
-        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
@@ -112,13 +112,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <b>Important Dates &amp; Deadlines</b>
                                     <ul>
                                         <li>
-                                            Abstract submission : <u style="color: #db6d16">1<sup>st</sup> March 2014</u>
+                                            Abstract submission : <span style="color: #db6d16">1<sup>st</sup> March 2014</span>
                                         </li>
                                         <li>
-                                            Definitive program : <u style="color: #db6d16">Soon available</u>
+                                            Definitive program : <span style="color: #db6d16">Soon available</span>
                                         </li>
                                         <li>
-                                            Early registration : <u style="color: #db6d16">11 April 2014</u>
+                                            Early registration : <span style="color: #db6d16">11 April 2014</span>
                                         </li>
                                     </ul>
                                 
