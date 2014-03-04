@@ -92,9 +92,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p>
                                     <span style="color: #db6d16">By train:</span>
                                     <br/>
-                                    - from Turin to Ivrea (1 hour) then by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
+                                    - from Turin to Ivrea (1 hour) then by taxi from Ivrea to Bioindustry Park (10 minutes).
                                     <br/>
-                                    - from Milan to Turin (2 hours, change train in Chivasso) then by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
+                                    - from Milan to Turin (2 hours, change train in Chivasso) then by taxi from Ivrea to Bioindustry Park (10 minutes).
     
                                     <br/>
                                     Train Schedules: <a class="linkExternal" href="http://www.trenitalia.com/cms/v/index.jsp?vgnextoid=4ddd1a035296f310VgnVCM1000005817f90aRCRD"><span class='underline'>Trenitalia</span></a>
@@ -113,7 +113,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <span class='underline'>A shuttle bus service will be organized from the Hotels to the Bioindustry Park on Thursday, May 8<sup>th</sup> and Friday, May 9<sup>th</sup></span>
                                 </p>
     
-                                <a href="documents/HOTELS_CEST WORKSHOP.pdf"><span class='underline'>Hotel information</span></a>&nbsp;<img src="images/updated.gif" />
+                                <a href="documents/HOTELS_CEST WORKSHOP.pdf"><span class='underline'>Hotel information</span></a>&nbsp;<img src="images/updated.gif" alt='updated' />
     
                                 <br/>
                                 <br/>
