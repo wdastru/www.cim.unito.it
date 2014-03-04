@@ -1,8 +1,7 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
@@ -21,14 +20,12 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-        type='text/css' />
-        <link href="cost.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="cost.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="cost.js"></script>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
     </head>
-    <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-    type="image/gif" />
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section5'>
