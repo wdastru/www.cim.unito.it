@@ -18,11 +18,18 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
-        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
+        
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+                
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
@@ -47,7 +54,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             ?>
                             <div class='paddingInner'>
                                 
-                                <img src="images/bioparco_long.jpg" style="width:100%;"/>
+                                <img src="images/bioparco_long.jpg" style="width:100%;" alt="BioIndustry Park logo"/>
     
                                 <h1 style="line-height: 28px; text-align: center;">CEST 2014
                                     <br/>
@@ -62,7 +69,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <b style="color: #db6d16">CEST 2014 is jointly organized by the University of Turin, the Bioindustry Park and the GIDRM (Italian Magnetic Resonance Discussion Group).</b>
                                 </p>
                                 <p>
-                                    It will be a satellite-event of the <a href="http://www.ismrm.org/14/" target="_blank"><u>ISMRM Conference</u></a> that will take place in Milan (May 10-16<sup>th</sup>, 2014).
+                                    It will be a satellite-event of the <a class='linkExternal' href="http://www.ismrm.org/14/"><u>ISMRM Conference</u></a> that will take place in Milan (May 10-16<sup>th</sup>, 2014).
                                 </p>
     
                                 <p>
