@@ -1,8 +1,7 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
@@ -21,14 +20,19 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-        type='text/css' />
-        <link href="cost.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="cost.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="cost.js"></script>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+                
     </head>
-    <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-    type="image/gif" />
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section5'>
@@ -52,20 +56,20 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <ul>
                                 <li>                                	
-                                    <h2 style="text-align:left"><a class="link" href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
+                                    <h2 style="text-align:left"><a class='linkExternal' href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
                                     <p>
-                                        <u>Meeting of Working Group 4 (Gerben Konings).</u>
-                                        <br>
+                                        <span class="underline">Meeting of Working Group 4 (Gerben Konings).</span>
+                                        <br />
                                         Location : Hotel Zuiderduin, Egmond aan Zee, The Netherlands.
-                                        <br>
+                                        <br />
                                         Date     : April 16-18, 2014
                                     </p>
                                 </li>
                                 <li>
-                                    <h2 style="text-align:left"><a href="http://www.cost.eu/events/pemed/" target="_blank">Personalised Medicine: Better Healthcare for the Future - A Rational Approach Focusing on Bioinformatics, Medicinal Chemistry and Medicine</a></h2>
+                                    <h2 style="text-align:left"><a class='linkExternal' href="http://www.cost.eu/events/pemed/">Personalised Medicine: Better Healthcare for the Future - A Rational Approach Focusing on Bioinformatics, Medicinal Chemistry and Medicine</a></h2>
                                     <p>
                                         Location : Larnaca, Cyprus
-                                        <br>
+                                        <br />
                                         Date     : 17 - 22 June 2012
                                     </p>
                                 </li>

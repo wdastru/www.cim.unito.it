@@ -20,7 +20,6 @@ $localizer = "./";
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 <meta name="keywords" content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
 <link href='<?php echo $localizer . "stylesheet.css"?>' rel='stylesheet' type='text/css'></link>
-<link href='<?php echo $localizer . "catalog.css"?>' rel='stylesheet' type='text/css'></link>
 <link rel="icon" href='<?php echo $localizer . "images/favicon.gif"?>' type="image/gif"></link>
 <script type="text/javascript" src='<?php echo $localizer . "script.js"?>'></script>
 </head>

@@ -22,6 +22,13 @@
         type='text/css' />
         <link href="<?php echo $localizer; ?>COST/cost.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
+        
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+                
     </head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -45,7 +52,7 @@
                         </div>
                         <div class='paddingInner'>
                             <div style="padding: 0 27%">
-                                <a href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004" target="_blank"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" /></a>
+                                <a class="linkExternal" href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                             <div style="clear:both">
                                 <br />
@@ -61,7 +68,7 @@
                                 </p>
                                 
                                 <p>
-                                    Venue: Kaja Ramada Hotel (<a href="http://www.kajaramada.com" target="_blank">www.kajaramada.com</a>)<br />
+                                    Venue: Kaja Ramada Hotel (<a class='linkExternal' href="http://www.kajaramada.com">www.kajaramada.com</a>)<br />
                                     Local Organizer: Mustafa Selman Yavuz (<a href="mailto:selmanyavuz@selcuk.edu.tr">selmanyavuz@selcuk.edu.tr</a>)
                                 </p>
                                 

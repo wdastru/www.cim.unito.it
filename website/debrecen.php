@@ -79,7 +79,7 @@
 								style="display:block;width:520px;height:390px"
 								id="player"></a>
 								<!-- this will install flowplayer inside previous A- tag. -->
-								<script>flowplayer("player", "flowplayer/flowplayer-3.2.7.swf");</script>
+								<script type="text/javascript">flowplayer("player", "flowplayer/flowplayer-3.2.7.swf");</script>
 							</p>
 							<!--
 							<h2>UPCOMING EVENTS</h2>

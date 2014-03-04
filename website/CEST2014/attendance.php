@@ -18,11 +18,18 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
-        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
+
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+        
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
@@ -52,7 +59,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <b>Venue &amp; Travel Information</b>
                                 <br />
                                 <p>
-                                    <a href="http://www.bioindustrypark.eu/index.php?lang=en" target="_blank"><u>Bioindustry Park Silvano Fumero</u></a> is a science and technology park
+                                    <a class="linkExternal" href="http://www.bioindustrypark.eu/index.php?lang=en"><span class='underline'>Bioindustry Park Silvano Fumero</span></a> is a science and technology park
                                     located near Turin in the north of Italy. The Park promotes and develops research in Life Sciences, hosting companies of the chemical, pharmaceutical,
                                     diagnostic, bioengineering and information science fields. It acts as system integrator for the development of Life Sciences in Piedmont since
                                     its creation in 1998.
@@ -70,27 +77,27 @@ xmlns="http://www.w3.org/1999/xhtml">
     
                                     Leave the motorway at the Ivrea exit and follow the red arrow on the map:
                                 </p>
-                                <img style="width: 100%;margin-bottom: 20px;" src="images/cartina bioparco.jpg" />
+                                <img style="width: 100%;margin-bottom: 20px;" src="images/cartina bioparco.jpg" alt="Biopark map" />
                                 <p>
                                     <span style="color: #db6d16">By plane:</span>
     
-                                    In addition to domestic flights, daily flights depart from the <a href="http://www.aeroportoditorino.it/en/hp_en.html" target="_blank"><u>Torino Caselle</u></a>
+                                    In addition to domestic flights, daily flights depart from the <a class="linkExternal" href="http://www.aeroportoditorino.it/en/hp_en.html"><span class='underline'>Torino Caselle</span></a>
                                     international airport to Paris, London, Frankfurt, Munich, Stuttgart and Zurich. Caselle airport can be reached in 30 minutes from the Park.
-                                    Other suitable airports are <a href="http://www.milanomalpensa1.eu/en" target="_blank"><u>Malpensa 1</u></a> and <a href="http://www.milanomalpensa2.eu/en" target="_blank"><u>Malpensa 2</u></a>
-                                    (125 km away) and <a href="http://www.milanolinate.eu/en"><u>Linate</u></a> (150 km away), all of them linked to Ivrea by motorway.
+                                    Other suitable airports are <a class="linkExternal" href="http://www.milanomalpensa1.eu/en"><span class='underline'>Malpensa 1</span></a> and <a class="linkExternal" href="http://www.milanomalpensa2.eu/en"><span class='underline'>Malpensa 2</span></a>
+                                    (125 km away) and <a class="linkExternal" href="http://www.milanolinate.eu/en"><span class='underline'>Linate</span></a> (150 km away), all of them linked to Ivrea by motorway.
                                 </p>
                                 <p>
-                                    <u>A shuttle bus service will be organized from the Turin and Milan Malpensa airports to the Bioindustry Park and the Hotels on Wednesday, May 7<sup>th</sup> (timetable will be established on the basis of attendees' arrivals)</u>
+                                    <span class='underline'>A shuttle bus service will be organized from the Turin and Milan Malpensa airports to the Bioindustry Park and the Hotels on Wednesday, May 7<sup>th</sup> (timetable will be established on the basis of attendees' arrivals)</span>
                                 </p>
                                 <p>
                                     <span style="color: #db6d16">By train:</span>
                                     <br/>
-                                    - from Turin to Ivrea (1 hour) then by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
+                                    - from Turin to Ivrea (1 hour) then by taxi from Ivrea to Bioindustry Park (10 minutes).
                                     <br/>
-                                    - from Milan to Turin (2 hours, change train in Chivasso) then by taxi from Ivrea to Bioindustry Park (10 minutes).</li>
+                                    - from Milan to Turin (2 hours, change train in Chivasso) then by taxi from Ivrea to Bioindustry Park (10 minutes).
     
                                     <br/>
-                                    Train Schedules: <a href="http://www.trenitalia.com/cms/v/index.jsp?vgnextoid=4ddd1a035296f310VgnVCM1000005817f90aRCRD" target="_blank"><u>Trenitalia</u></a>
+                                    Train Schedules: <a class="linkExternal" href="http://www.trenitalia.com/cms/v/index.jsp?vgnextoid=4ddd1a035296f310VgnVCM1000005817f90aRCRD"><span class='underline'>Trenitalia</span></a>
                                 </p>
     
                                 <b>Hotel Information</b>
@@ -103,21 +110,21 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     booking.
                                 </p>
                                 <p>
-                                    <u>A shuttle bus service will be organized from the Hotels to the Bioindustry Park on Thursday, May 8<sup>th</sup> and Friday, May 9<sup>th</sup></u>
+                                    <span class='underline'>A shuttle bus service will be organized from the Hotels to the Bioindustry Park on Thursday, May 8<sup>th</sup> and Friday, May 9<sup>th</sup></span>
                                 </p>
     
-                                <a href="documents/HOTELS_CEST WORKSHOP.pdf"><u>Hotel information</u></a>&nbsp;<img src="images/updated.gif" />
+                                <a href="documents/HOTELS_CEST WORKSHOP.pdf"><span class='underline'>Hotel information</span></a>&nbsp;<img src="images/updated.gif" alt='updated' />
     
                                 <br/>
                                 <br/>
     
                                 <b>Visa Information</b>
                                 <p>
-                                    <a href="http://www.esteri.it/MAE/EN/Ministero/Servizi/Stranieri/IngressoSoggiornoInItalia/" target="_blank"><u>The Ministry of Foreign Affairs (general information about visiting Italy)</u></a>
+                                    <a class="linkExternal" href="http://www.esteri.it/MAE/EN/Ministero/Servizi/Stranieri/IngressoSoggiornoInItalia/"><span class='underline'>The Ministry of Foreign Affairs (general information about visiting Italy)</span></a>
                                     <br/>
-                                    <a href="http://www.esteri.it/visti/home_eng.asp" target="_blank"><u>Do I need a visa to enter Italy?</u></a>
+                                    <a class="linkExternal" href="http://www.esteri.it/visti/home_eng.asp"><span class='underline'>Do I need a visa to enter Italy?</span></a>
                                     <br/>
-                                    <a href="http://www.esteri.it/visti/rilascio_eng.asp" target="_blank"><u>Where should I apply for a visa?</u></a>
+                                    <a class="linkExternal" href="http://www.esteri.it/visti/rilascio_eng.asp"><span class='underline'>Where should I apply for a visa?</span></a>
                                     <br/>
                                 </p>
     

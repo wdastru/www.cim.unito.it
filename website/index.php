@@ -118,9 +118,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <div class='divider'></div>
                                     <span class="date">May, 8<sup>th</sup>-9<sup>th</sup> 2014</span>
                                     <a href='<?php echo $localizer;?>CEST2014/index.php' ><span class="paperTitle">CEST 2014 - 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer Imaging</span></a>
-                                    <div class='divider'></div>
+                                    <!--<div class='divider'></div>
                                     <span class="date">23<sup>rd</sup> May, 2013</span>
-                                    <a href='<?php echo $localizer;?>documenti/TransInt course Dublin.doc' ><span class="paperTitle" style="text-decoration:blink">1<sup>st</sup> TRANS-INT training session in oral nanomedicine</span></a>
+                                    <a href='<?php echo $localizer;?>documenti/TransInt%20course%20Dublin.doc' ><span class="paperTitle" style="text-decoration:blink">1<sup>st</sup> TRANS-INT training session in oral nanomedicine</span></a>
                                     <img style="width: 99%" src="images/trans-int_logo.png" alt="TransInt logo" />
                                     Veterinary Science Centre<br />
                                     University College Dublin<br />
@@ -132,7 +132,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <span class="date">6 March, 2013</span>
                                     EMIDS Kick-off Meeting
                                     <a class="linkExternal" href="http://www.emids.eu/"><img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo"/></a>
-                                    
+                                    -->
                                     <!-- <div class='divider'></div> -->
 
                                 </div>

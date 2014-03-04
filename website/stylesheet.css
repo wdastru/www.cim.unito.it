@@ -11,6 +11,7 @@ h3 { font-size:12px; text-align:center; }
 .images { border:1px solid #000; }
 .fullWidtdh { width:630px; }
 .teamTitle { text-align:left; color:#DB6D16; }
+.underline { text-decoration: underline; }
 /*     
  * after: nelle pagine sara' posizionato dopo la subsection e non visibile,
  * ma serve ad evitare che il footer copra parte dei contenuti     

@@ -51,10 +51,12 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
-        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
         <script type="text/javascript">
+            //<![CDATA[
             function checkSizeAndExtension()
             {
                 var max_img_size = 2*1024*1024;
@@ -87,9 +89,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                 } else 
                     return false;
             }
+            //]]>
         </script>
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
@@ -136,7 +138,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <li>size limit: 1 page (max 2 MB)</li>
                                     <li>only Word (DOC or DOCX) or PDF documents are allowed</li>
                                     <li>you strictly have to follow the scheme: Introduction, Methods, Results, Discussion, Conclusions, References</li>
-                                    <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><u>abstract template</u></a></li>
+                                    <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><span class='underline'>abstract template</span></a></li>
                                     <li>you will be able to make changes on your submission until the submission deadline (1<sup>st</sup> March 2014)</li>
                                 </ul>
                                 
@@ -148,7 +150,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 
                                 	echo "
                                     <form action='upload.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension();'>
-                                        <br/>
                                         Submitter&nbsp;:&nbsp;<input class='required' type='text' name='submitter' value='' onkeyup='return checkSubmitterField();'/>
                                         &nbsp;&nbsp;<span style='color: #db6d16'>required field</span><br/><br/>
                                         <input type='file' name='file1' id='file1' style='width:100%'/>

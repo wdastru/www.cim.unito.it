@@ -191,35 +191,35 @@
                         <td class='col1 title'>Service requested :</td>
                         <td class='col2'>NMR</td>
                         <td class='col3'>&nbsp;</td>
-                        <td class='col4'><input type="checkbox" name="NMR" value="yes"></td>
+                        <td class='col4'><input type="checkbox" name="NMR" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>Imaging</td>
                         <td>MRI</td>
-                        <td><input type="checkbox" name="MRI" value="yes"></td>
+                        <td><input type="checkbox" name="MRI" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>Optical Imaging</td>
-                        <td><input type="checkbox" name="OI" value="yes"></td>
+                        <td><input type="checkbox" name="OI" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>Ultrasound</td>
-                        <td><input type="checkbox" name="US" value="yes"></td>
+                        <td><input type="checkbox" name="US" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>PET/SPECT</td>
-                        <td><input type="checkbox" name="PET_SPECT" value="yes"></td>
+                        <td><input type="checkbox" name="PET_SPECT" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
@@ -230,7 +230,7 @@
                         <td colspan="5" class='title'>Brief description of experiment(s) to be carried out (*) :</td>
                     </tr>
                     <tr>
-                        <td colspan="5"><textarea name="description"></textarea></td>
+                        <td colspan="5"><textarea name="description" rows="4" cols="80"></textarea></td>
                     </tr>
                     <tr>
                         <td class='title'>Estimated machine time :</td>
@@ -251,13 +251,13 @@
                         <td colspan="5" class='title'>Needed consumables (solvents, NMR tubes, ...) :</td>
                     </tr>
                     <tr>
-                        <td colspan="5"><textarea name="consumables"></textarea></td>
+                        <td colspan="5"><textarea name="consumables" rows="4" cols="80"></textarea></td>
                     </tr>
                     <tr>
                         <td colspan="5" class='title'>Notes :</td>
                     </tr>
                     <tr>
-                        <td colspan="5"><textarea name="notes"></textarea></td>
+                        <td colspan="5"><textarea name="notes" rows="4" cols="80"></textarea></td>
                     </tr>
                     <tr>
                         <td><input type="submit" name="submit" value="Send Request"/></td>

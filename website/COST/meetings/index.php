@@ -1,8 +1,7 @@
 <?php
 $localizer = "../../";
 ?>
-<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
@@ -21,14 +20,11 @@ xmlns="http://www.w3.org/1999/xhtml">
         content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-        type='text/css' />
-        <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet'
-        type='text/css' />
+        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
     </head>
-    <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-    type="image/gif" />
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section5'>
@@ -51,6 +47,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <ul>
+                                <li>
+                                    <a href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Sep2013.php">COST TD1004 Annual Meeting - Instanbul, 3-5 October 2014</a>
+                                </li>
                                 <li>
                                     <a href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Sep2013.php">COST TD1004 Annual Meeting - Athens, 1-3 September 2013</a>
                                 </li>

@@ -1,8 +1,7 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
@@ -21,14 +20,19 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-        type='text/css' />
-        <link href="cost.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="cost.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="cost.js"></script>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+        
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+        
     </head>
-    <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-    type="image/gif" />
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section5'>
@@ -51,7 +55,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <div style="padding: 0 27%">
-                                <a href="http://www.cost.eu/domains_actions/cmst/Actions/TD1004" target="_blank"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" /></a>
+                                <a class='linkExternal' href="http://www.cost.eu/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                             <br />
                             <br />
@@ -86,8 +90,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 solutions for successfully combating the diseases.
                             </p>
                             <br />
-                            <a href="<?php echo $localizer . 'COST/MoU.pdf'?>"><strong>Memorandum of
-                            Understanding</strong></a>
+                            <a href="<?php echo $localizer . 'COST/MoU.pdf'?>"><strong>Memorandum of Understanding</strong></a>
                             <br />
                         </div>
                     </div>
