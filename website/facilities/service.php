@@ -230,7 +230,7 @@
                         <td colspan="5" class='title'>Brief description of experiment(s) to be carried out (*) :</td>
                     </tr>
                     <tr>
-                        <td colspan="5"><textarea name="description"></textarea></td>
+                        <td colspan="5"><textarea name="description" rows="4"></textarea></td>
                     </tr>
                     <tr>
                         <td class='title'>Estimated machine time :</td>
@@ -251,13 +251,13 @@
                         <td colspan="5" class='title'>Needed consumables (solvents, NMR tubes, ...) :</td>
                     </tr>
                     <tr>
-                        <td colspan="5"><textarea name="consumables"></textarea></td>
+                        <td colspan="5"><textarea name="consumables" rows="4"></textarea></td>
                     </tr>
                     <tr>
                         <td colspan="5" class='title'>Notes :</td>
                     </tr>
                     <tr>
-                        <td colspan="5"><textarea name="notes"></textarea></td>
+                        <td colspan="5"><textarea name="notes" rows="4"></textarea></td>
                     </tr>
                     <tr>
                         <td><input type="submit" name="submit" value="Send Request"/></td>
