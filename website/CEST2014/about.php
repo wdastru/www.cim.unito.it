@@ -22,6 +22,13 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
+        
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->        
+        
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -129,9 +136,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <div id="myoutercontainer">
                                     <div id="myinnercontainer">
                                         <p>
-                                            <a href="http://www.aspectimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:200px; margin:35px;" src="images/aspect.jpg" /></a>
-                                            <a href="http://www.braccoimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bracco.jpg" /></a>
-                                            <a href="https://www.bruker.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bruker_logo.png" /></a>
+                                            <a class='linkExternal' href="http://www.aspectimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:200px; margin:35px;" src="images/aspect.jpg" /></a>
+                                            <a class='linkExternal' href="http://www.braccoimaging.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bracco.jpg" /></a>
+                                            <a class='linkExternal' href="https://www.bruker.com/" target=_"blank"><img style="display:inline-block; vertical-align:middle; width:100px; margin:35px;" src="images/bruker_logo.png" /></a>
                                         </p>
                                     </div>
                                 </div>
