@@ -69,7 +69,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <b style="color: #db6d16">CEST 2014 is jointly organized by the University of Turin, the Bioindustry Park and the GIDRM (Italian Magnetic Resonance Discussion Group).</b>
                                 </p>
                                 <p>
-                                    It will be a satellite-event of the <a class='linkExternal' href="http://www.ismrm.org/14/"><u>ISMRM Conference</u></a> that will take place in Milan (May 10-16<sup>th</sup>, 2014).
+                                    It will be a satellite-event of the <a class='linkExternal' href="http://www.ismrm.org/14/"><span class='underline'>ISMRM Conference</span></a> that will take place in Milan (May 10-16<sup>th</sup>, 2014).
                                 </p>
     
                                 <p>
