@@ -20,14 +20,11 @@ xmlns="http://www.w3.org/1999/xhtml">
         content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-        type='text/css' />
-        <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet'
-        type='text/css' />
+        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
     </head>
-    <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-    type="image/gif" />
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section5'>
