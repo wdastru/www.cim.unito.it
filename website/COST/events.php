@@ -56,7 +56,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <ul>
                                 <li>                                	
-                                    <h2 style="text-align:left"><a class="link" href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
+                                    <h2 style="text-align:left"><a class='linkExternal' href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
                                     <p>
                                         <span class="underline">Meeting of Working Group 4 (Gerben Konings).</span>
                                         <br />
