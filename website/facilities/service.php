@@ -191,35 +191,35 @@
                         <td class='col1 title'>Service requested :</td>
                         <td class='col2'>NMR</td>
                         <td class='col3'>&nbsp;</td>
-                        <td class='col4'><input type="checkbox" name="NMR" value="yes"></td>
+                        <td class='col4'><input type="checkbox" name="NMR" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>Imaging</td>
                         <td>MRI</td>
-                        <td><input type="checkbox" name="MRI" value="yes"></td>
+                        <td><input type="checkbox" name="MRI" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>Optical Imaging</td>
-                        <td><input type="checkbox" name="OI" value="yes"></td>
+                        <td><input type="checkbox" name="OI" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>Ultrasound</td>
-                        <td><input type="checkbox" name="US" value="yes"></td>
+                        <td><input type="checkbox" name="US" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>PET/SPECT</td>
-                        <td><input type="checkbox" name="PET_SPECT" value="yes"></td>
+                        <td><input type="checkbox" name="PET_SPECT" value="yes"/></td>
                         <td class='col5'>&nbsp;</td>
                     </tr>
                     <tr>

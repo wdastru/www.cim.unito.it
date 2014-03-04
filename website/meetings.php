@@ -58,10 +58,10 @@ $localizer = "./";
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <ul>
                                 <li>
-                                    <a href="COST/meetings/COST_TD1004-Feb2012.php" target="_self">COST TD1004 Meeting - Torino, 17-18 February 2012</a>
+                                    <a href="COST/meetings/COST_TD1004-Feb2012.php">COST TD1004 Meeting - Torino, 17-18 February 2012</a>
                                 </li>
                                 <li>
-                                    <a href="COST/meetings/COST_D38-Mar2011.php" target="_self">COST Action D38 "Metal-Based Systems for Molecular
+                                    <a href="COST/meetings/COST_D38-Mar2011.php">COST Action D38 "Metal-Based Systems for Molecular
                                 Imaging Applications" - Working Groups 2 and 6 Joint Meeting - March 24-26, 2011</a>
                                 </li>
                                 
