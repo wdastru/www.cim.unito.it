@@ -62,15 +62,18 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     
                                     Speakers that have already accepted to contribute with keynote lectures:
 
-                                    <ul>
-                                        <li>Xavier Golay (University College London)</li>
-                                        <li>Michael T. McMahon (Johns Hopkins University/Kennedy Krieger Institute)</li>
-                                        <li>Gil Navon (Tel Aviv University)</li>
-                                        <li>Mark Pagel (University of Arizona)</li>
-                                        <li>Ravinder Reddy (University of Pennsylvania)</li>
-                                        <li>Philip Sun (Martinos Center, MGH/Harvard Medical School)</li>
-                                        <li>Jinyuan Zhou (Johns Hopkins University)</li>
-                                    </ul>
+                                <ul>
+                                    <li>Dan Gochberg (Vanderbilt University) </li>
+                                    <li>Xavier Golay (University College London) </li>
+                                    <li>Michael T. McMahon (Johns Hopkins University/Kennedy Krieger Institute) </li>
+                                    <li>Gil Navon (Tel Aviv University) </li>
+                                    <li>Mark Pagel (University of Arizona) </li>
+                                    <li>Ravinder Reddy (University of Pennsylvania) </li>
+                                    <li>Ravinder Regatte (NYU Langone Medical Center) </li>
+                                    <li>Philip Sun (Martinos Center, MGH/Harvard Medical School) </li>
+                                    <li>Christopher Witte (Leibniz-Institut f&uuml;r Molekulare Pharmakologie) </li>
+                                    <li>Jinyuan Zhou (Johns Hopkins University) </li>
+                                </ul>
                                     
                                     <b>Timetable</b>
                                     
