@@ -99,7 +99,50 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <br/>
                                     Train Schedules: <a class="linkExternal" href="http://www.trenitalia.com/cms/v/index.jsp?vgnextoid=4ddd1a035296f310VgnVCM1000005817f90aRCRD"><span class='underline'>Trenitalia</span></a>
                                 </p>
-    
+
+<!--
+                                <b>Arrival Information</b>
+                                <form id='arrivals' action="db.php" method="post">
+                                    <table style="text-align: right;">
+                                        <tr>
+                                            <td>Surname:</td><td>
+                                            <input type="text" name="surname" value="" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Name:</td><td>
+                                            <input type="text"  name="name" value="" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>e-mail:</td><td>
+                                            <input type="email" name="email"    value="" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Airport of arrival:</td><td>
+                                            <select id='playerOutField' name='airport'>
+                                                <option>Milano Malpensa</option>
+                                                <option>Torino Caselle</option>";
+                                            </select>
+                                            
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Italian hour of arrival (XX:XX 24h format please):</td><td>
+                                            <input type="text"  name="hour"     value="" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td><td>
+                                            <input type="submit" name="submit" value="Send" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                                <br />
+-->                                
+
                                 <b>Hotel Information</b>
     
                                 <p>
