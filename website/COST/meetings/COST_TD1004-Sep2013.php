@@ -103,7 +103,6 @@
                                                 <li>20:30 - Dinner</li>
                                             </ul>
                                         </li>
-                                        <br />
                                         <li><div class="u">MONDAY, Sep 2<sup>nd</sup>, 2013</div></li>
                                         <li>
                                             <ul>
@@ -155,7 +154,6 @@
     											<li>18:00 &minus; 19:30 - Cheese and Wine Reception with Poster Viewing</li>
     										</ul>
 										</li>
-										<br />
 										<li><div class="u">TUESDAY, Sep 3<sup>rd</sup>, 2013</div></li>
 										<li>
     										<ul>
