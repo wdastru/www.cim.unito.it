@@ -79,7 +79,7 @@
                                                 <li> 14:00 - 14:15 : Opening presentation by Prof. <b>Silvio Aime</b> (University of Torino, Torino, Italy) </li>
 
                                                 <li style="list-style-type: none;">&nbsp;</li>
-                                                <li><b><span class="underline">WG1 Imaging reporters for theranostic agents</span></b></li>
+                                                <li style="list-style-type: none;"><b><span class="underline">WG1 Imaging reporters for theranostic agents</span></b></li>
 
                                                 <li> 14:15 - 14:20 : Short introduction by WG1 leader <b>Eva Jakab-Toth</b> (CNRS, Orleans, France) </li>
                                                 <li> 14:20 - 14:35 : <b>Imre T&oacute;th</b> (University of Debrecen, Hungary)</li>
