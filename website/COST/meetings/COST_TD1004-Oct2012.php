@@ -334,7 +334,7 @@
                                             (Demokritos, Athens, Greece),
                                             <br>
                                             <i>&quot;Attempts toward the development of dual-modality imaging agents based on the conjugation of biphosphonates directly to the surface of superparamagnetic iron oxide nanoparticles&quot;.</i></li>
-                                        <li><b>Zsolt Baranyai, Anett Tak&aacute;cs, Bal&aacute;zs Podoly&aacute;k, Mih&aacute;ly Purgel, Roberta Napolitano, Silvio Aime, Erno Brücher and Imre T&oacute;th</b>
+                                        <li><b>Zsolt Baranyai, Anett Tak&aacute;cs, Bal&aacute;zs Podoly&aacute;k, Mih&aacute;ly Purgel, Roberta Napolitano, Silvio Aime, Erno Br&uuml;cher and Imre T&oacute;th</b>
                                             <br>
                                             (University of Debrecen, Hungary),
                                             <br>
