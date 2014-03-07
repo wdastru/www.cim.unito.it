@@ -155,7 +155,10 @@ $localizer = "../../";
                                         <li style="list-style: none">
                                             <ul>
                                                 <li>
-                                                    8.30 – 10.15: <a href="documents/prof aime 1 18 2 2012/muller Intro WG3.pdf"><b>WG3 &quot;Preparation and selection of targeting vectors&quot;</b></a>
+                                                    8.30 – 10.15: 
+                                                    <a href="documents/prof aime 1 18 2 2012/muller Intro WG3.pdf">
+                                                        <b>WG3 &quot;Preparation and selection of targeting vectors&quot;</b>
+                                                        </a>
                                                     <br />
                                                     moderator: <b>Robert Muller</b> (BE)
                                                     <ul>
