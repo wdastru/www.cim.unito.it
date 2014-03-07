@@ -74,7 +74,6 @@
                                     </p>
                                     <ul>
                                         <li> SUNDAY, 28<sup>th</sup> October 2012 - B5 Auditorium, Franklin-Wilkins Building Waterloo Campus </li>
-                                        <li style="list-style-type: none;">&nbsp;</li>
                                         <li style="list-style: none">
                                             <ul>
                                                 <li> 14:00 - 14:15 : Opening presentation by Prof. <b>Silvio Aime</b> (University of Torino, Torino, Italy) </li>
@@ -83,18 +82,17 @@
                                                 <li><b><span class="underline">WG1 Imaging reporters for theranostic agents</span></b></li>
 
                                                 <li> 14:15 - 14:20 : Short introduction by WG1 leader <b>Eva Jakab-Toth</b> (CNRS, Orleans, France) </li>
-                                                <li> 14:20 - 14:35 : <b>Imre T&oacute;th</b> (University of Debrecen, Hungary)
-                                                    <br>
-                                                    <i>&quot;Mixed ligand metal-complexes modelling anion binding: the hard aluminium(III) and the soft thallium(III)&quot;</i></li>
+                                                <li> 14:20 - 14:35 : <b>Imre T&oacute;th</b> (University of Debrecen, Hungary)</li>
+                                                <li style="list-style-type: none;">&nbsp;</li>
+                                                <li><i>&quot;Mixed ligand metal-complexes modelling anion binding: the hard aluminium(III) and the soft thallium(III)&quot;</i></li>
                                                 <li> 14:35 - 14:50 : <b>Hanno Schieferstein</b> (Johannes Gutenberg-University, Mainz, Germany)
                                                     <br>
                                                     <i>&quot;Folate receptor targeted delivery of supramolecular drug-carriers monitored by PET&quot;</i></li>
-                                                <li> 14:50 - 15:05 : <b>Tobias Ross</b> (Johannes Gutenberg-University, Mainz, Germany)
-                                                    <br>
-                                                    <i>&quot;Radiolabelling of TaOx nanoparticles for dual-modality imaging&quot;</i></li>
-                                                <li> 15:05 - 15:20 : <b>Jonathan Martinelli</b> (University of Piemonte Orientale A. Avogadro, Italy)
-                                                    <br/>
-                                                    <i>&quot;Host-guest paramagnetic supramolecular assemblies&quot;</i></li>
+                                                <li> 14:50 - 15:05 : <b>Tobias Ross</b> (Johannes Gutenberg-University, Mainz, Germany)</li>
+                                                <li style="list-style-type: none;">&nbsp;</li>    <i>&quot;Radiolabelling of TaOx nanoparticles for dual-modality imaging&quot;</i></li>
+                                                <li> 15:05 - 15:20 : <b>Jonathan Martinelli</b> (University of Piemonte Orientale A. Avogadro, Italy)</li>
+                                                <li style="list-style-type: none;">&nbsp;</li>
+                                                <li><i>&quot;Host-guest paramagnetic supramolecular assemblies&quot;</i></li>
                                                 <li> 15:20 - 15:35 : <b>Stephane Petoud</b> (CNRS, Orleans, France)
                                                     <br/>
                                                     <i>&quot;Polymetallic lanthanide metal-organic frameworks for biological imaging in cells&quot;</i></li>
