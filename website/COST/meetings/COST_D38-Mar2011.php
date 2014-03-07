@@ -20,10 +20,16 @@ $localizer = "../../";
         "q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
         <meta name="keywords" content=
         "NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-        type='text/css' />
+        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css' />
         <link href="<?php echo $localizer;?>COST/cost.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+      
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+                        
     </head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -56,7 +62,7 @@ $localizer = "../../";
                         </div>
                         <div class='paddingInner'>
                             <div style="padding: 0 27%">
-                                <a href="http://www.cost.eu/domains_actions/cmst/Actions/D38" target="_blank"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" /></a>
+                                <a class='linkExternal' href="http://www.cost.eu/domains_actions/cmst/Actions/D38"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                            <div style="float:left"><img src="<?php echo $localizer ?>images/meetings/logo_amedeo_avogadro.png" width="100" alt=
                                 "Università del Piemonte Orientale" />
@@ -83,7 +89,7 @@ $localizer = "../../";
                                 </h2>
                                 <h3>Molecular Biotechnology Center, University of Torino
                                 <br />
-                                Keplero & Leonardo Rooms</h3>
+                                Keplero &amp; Leonardo Rooms</h3>
                                 <br />
                                 <p style="font-weight:bold; font-size:14px">
                                     Local organizers
