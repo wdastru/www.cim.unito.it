@@ -319,21 +319,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             (Silvio Aime / Dario Longo)
                                         </p></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/design_synt ImagProbe_2013_barge.pdf">
-                                        <span class='lecture_title'>
-                                            Imaging probe design and synthesis
-                                        </span>
-                                        <span class='lecture_author'>
-                                            (Alessandro Barge - Torino/Univ)
-                                        </span> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/design_synt ImagProbe_2013_barge.pdf"> <span class='lecture_title'> Imaging probe design and synthesis </span> <span class='lecture_author'> (Alessandro Barge - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/NMR_MRI_introduction.pdf">
-                                        <p class='lecture_title'>
-                                            MRI/NMR: introduction
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Walter Dastr&uacute; - Torino/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/NMR_MRI_introduction.pdf"> <span class='lecture_title'> MRI/NMR: introduction </span> <span class='lecture_author'> (Walter Dastr&uacute; - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/Helmut_Maecke.pdf">
                                         <p class='lecture_title'>
@@ -341,15 +329,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         </p>
                                         <p class='lecture_author'>
                                             (Helmut Maecke - Freiburg/Klinik Univ)
-                                        </p> </a> </td>
+                                        </p> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/EMMI_PET-SPECT_F_Dolle_2013.pdf">
-                                        <p class='lecture_title'>
-                                            PET/SPECT: introduction
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Frederic Doll&egrave; - Saclay/CEA-INSTN)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/EMMI_PET-SPECT_F_Dolle_2013.pdf"> <span class='lecture_title'> PET/SPECT: introduction </span> <span class='lecture_author'> (Frederic Doll&egrave; - Saclay/CEA-INSTN) </span> </a></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -357,45 +339,15 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             11<sup>30</sup>-13<sup>00</sup>
                                         </p></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Introduction_to_molecular_imaging.pdf">
-                                        <p class='lecture_title'>
-                                            Introduction to molecular imaging
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Daniela Delli Castelli - Torino/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Introduction_to_molecular_imaging.pdf"> <span class='lecture_title'> Introduction to molecular imaging </span> <span class='lecture_author'> (Daniela Delli Castelli - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Alessandro_Maiocchi_platform_drug_Delivery.pdf">
-                                        <p class='lecture_title'>
-                                            Platform for drug delivery
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Alessandro Maiocchi - Bracco Imaging SpA/Italy)
-                                        </p> </a> </td>
-                                        <td class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/MB_2013.pdf">
-                                        <p class='lecture_title'>
-                                            Gd-complexes: from low MW to nanosized systems
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Mauro Botta - Alessandria/Univ)
-                                        </p> </a> </td>
-                                        <td class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Peptide_synthesis_and_bioconjugation_routes_2013.pdf">
-                                        <p class='lecture_title'>
-                                            Peptide synthesis and bioconjugation ruotes
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Lorenzo Tei - Alessandria/Univ)
-                                        </p> </a> </td>
-                                        <td class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/EMMI_preparation_of_radiolabelled_probes_F_Dolle_summary_as_pdf.pdf">
-                                        <p class='lecture_title'>
-                                            Preparation of radiolabelled probes
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Frederic Doll&egrave; - Saclay/CEA-INSTN)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Alessandro_Maiocchi_platform_drug_Delivery.pdf"> <span class='lecture_title'> Platform for drug delivery </span> <span class='lecture_author'> (Alessandro Maiocchi - Bracco Imaging SpA/Italy) </span> </a></td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/MB_2013.pdf"> <span class='lecture_title'> Gd-complexes: from low MW to nanosized systems </span> <span class='lecture_author'> (Mauro Botta - Alessandria/Univ) </span> </a></td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Peptide_synthesis_and_bioconjugation_routes_2013.pdf"> <span class='lecture_title'> Peptide synthesis and bioconjugation ruotes </span> <span class='lecture_author'> (Lorenzo Tei - Alessandria/Univ) </span> </a></td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/EMMI_preparation_of_radiolabelled_probes_F_Dolle_summary_as_pdf.pdf"> <span class='lecture_title'> Preparation of radiolabelled probes </span> <span class='lecture_author'> (Frederic Doll&egrave; - Saclay/CEA-INSTN) </span> </a></td>
                                     </tr>
                                     <tr>
                                         <td>
