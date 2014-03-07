@@ -22,6 +22,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
+
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -62,8 +63,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     Please proceed to the registration by doing the following:
                                 </p>
                                 <ul>
-                                    <li><a href="http://www.gidrm.org/gidrmvending/index.php?route=account/register" target="_blank">Create a GIDRM account</a></li>
-                                    <li><a href="http://www.gidrm.org/gidrmvending/index.php?route=product/product&product_id=67" target="_blank">Buy the CEST 2014 event</a></li>
+                                    <li><a class='linkExternal' href="http://www.gidrm.org/gidrmvending/index.php?route=account/register">Create a GIDRM account</a></li>
+                                    <li><a href='http://www.gidrm.org/gidrmvending/index.php?route=product/product&product_id=67' target="_blank">Buy the CEST 2014 event</a></li>
                                     <li><a href="http://www.gidrm.org/index.php/activities/cest2014-the-4th-international-workshop-on-chemical-exchange-saturation-transfer-imaging/cest2014-submission-form" target="_blank">Fill in the Submission form</a></li>
                                 </ul>
                             </div>
