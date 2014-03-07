@@ -113,7 +113,7 @@
                                                 <li> 16:40 - 16:55 : <b>Seweryn Krajewski</b> (Institute of Nuclear Chemistry and Technology, Warsaw, Poland)
                                                     <br/>
                                                     <i>&quot;44,43Sc and 47Sc as matched pair for theranostic approach to peptide receptor radionuclide therapy&quot;</i></li>
-                                                <li> 16:55 - 17:10 : <b>Sandip M. Vibhute</b> (Max Planck Institute for Biological Cybernetics, Tübingen, Germany)
+                                                <li> 16:55 - 17:10 : <b>Sandip M. Vibhute</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)
                                                     <br/>
                                                     <i>&quot;Synthetic modification of pH sensitive contrast agents for attachment to functional molecules and its utilization in biotin-avidin system&quot;</i></li>
                                                 <li> 17:10 - 17:25 : <b>Dorothea Moderegger</b> (Johannes Gutenberg-University, Mainz, Germany)
