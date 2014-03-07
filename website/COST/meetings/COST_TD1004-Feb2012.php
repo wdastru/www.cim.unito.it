@@ -16,14 +16,18 @@ $localizer = "../../";
         <!-- InstanceBeginEditable name="meta description" -->
         <meta name="description" content="" />
         <!-- InstanceEndEditable -->
-        <meta name="google-site-verification" content=
-        "q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
-        <meta name="keywords" content=
-        "NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-        type='text/css' />
+        <meta name="google-site-verification" content= "q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
+        <meta name="keywords" content= "NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
+        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css' />
         <link href="<?php echo $localizer;?>COST/cost.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+        
+        <!-- InstanceBeginEditable name="jQuery" -->
+        <?php
+            require($localizer . 'includes/jQuery.php');
+        ?>
+        <!-- InstanceEndEditable -->
+                
     </head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -47,32 +51,14 @@ $localizer = "../../";
                         </div>
                         <div class='paddingInner'>
                             <div style="padding: 0 27%">
-                                <a href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004" target="_blank"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" /></a>
+                                <a class="linkExternal" href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo /></a>
                             </div>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <!--
-                            <div style="float:left"><img src=
-                            "images/meetings/logo_amedeo_avogadro.png" width="100" alt=
-                            "Università del Piemonte Orientale" />
-                            </div>
-                            <div style="float:left; padding-left:25px; padding-top:40px;">
-                            <img src="images/meetings/logo_cost.png" width="150" alt=
-                            "COST Action" />
-                            </div>
-                            <div style="float:left; padding-left:25px; padding-top:25px;">
-                            <img src="images/meetings/logo_esf.png" width="130" alt=
-                            "European Science Foundation" />
-                            </div>
-                            <div style="float:right; padding-top:15px;"><img src=
-                            "images/meetings/logo_unito.jpg" width="200" alt=
-                            "Università di Torino" />
-                            </div>
-                            -->
                             <div style="clear:both">
                                 <br />
                                 <h1 style="text-align:center">COST Action TD1004</h1>
                                 <h1 style="text-align:center; line-height: 30px;">"Theragnostics Imaging and Therapy:
-                                <br>
+                                <br />
                                 An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery "</h1>
                                 <h2 style="text-align:center">February 17-18, 2012
                                 <br />
@@ -97,7 +83,7 @@ $localizer = "../../";
                                                 </li>
                                                 <li>
                                                     13:45 - 16:00 : <b>WG1 &quot;Imaging reporters for theranostic agents&quot;</b>
-                                                    <br>
+                                                    <br />
                                                     moderator: <b>Renata Mikolajczak</b> (PL)
                                                     <ul>
                                                         <li>
@@ -128,7 +114,7 @@ $localizer = "../../";
                                                 </li>
                                                 <li>
                                                     16:30 - 19:30 : <a href="documents/aime 2 17 2 12/schmid_Intro WG2.pdf"><b>WG2 &quot;Nanocarrires for theranostic agents&quot;</b></a>
-                                                    <br>
+                                                    <br />
                                                     moderator: <b>Ruth Schmid</b> (NO)
                                                     <ul>
                                                         <li>
@@ -170,7 +156,7 @@ $localizer = "../../";
                                             <ul>
                                                 <li>
                                                     8.30 – 10.15: <a href="documents/prof aime 1 18 2 2012/muller Intro WG3.pdf"><b>WG3 &quot;Preparation and selection of targeting vectors&quot;</b></a>
-                                                    <br>
+                                                    <br />
                                                     moderator: <b>Robert Muller</b> (BE)
                                                     <ul>
                                                         <li>
@@ -195,7 +181,7 @@ $localizer = "../../";
                                                 </li>
                                                 <li>
                                                     10:45 - 13:00 : <b>WG4 &quot;Theranostic agents responsive to endogenous and external stimuli&quot;</b>
-                                                    <br>
+                                                    <br />
                                                     moderator: <b>Gerben Koning</b> (NL)
                                                     <ul>
                                                         <li>
@@ -240,7 +226,7 @@ $localizer = "../../";
                                                 </li>
                                                 <li>
                                                     15:00 - 15:45 : <b>Round table: The industrial view</b>
-                                                    <br>
+                                                    <br />
                                                     moderator: <b>Silvio Aime</b> (IT)
                                                 </li>
                                                 <li>
@@ -255,37 +241,6 @@ $localizer = "../../";
                                 </div>
                                 <br />
                                 <br />
-                                <!--
-                                <p style="font-weight:bold; font-size:14px">
-                                Downloads
-                                </p>
-                                <ul>
-                                <li>
-                                <a href=
-                                "documenti/COST_D38_Joint_WG2_WG6_Meeting_March%202011/COST%20D38%20Joint%20WG2_WG6%20Meeting%20Program_March%202011.pdf"> Program</a>
-                                </li>
-                                <li>
-                                <a href=
-                                "documenti/COST_D38_Joint_WG2_WG6_Meeting_March%202011/leaflet.pdf"> Leaflet</a>
-                                </li>
-                                </ul>
-                                <p style="font-weight:bold; font-size:14px">
-                                Sponsors
-                                </p>
-                                <div style="height:100px;">
-                                <div style="float:left; padding-bottom:20px;"><img src=
-                                "images/meetings/logo_bracco.png" width="200" alt="Bracco" />
-                                </div>
-                                <div style="float:left; padding-top:60px;"><img src=
-                                "images/meetings/logo_rivoira.jpg" width="250" alt=
-                                "Rivoira" />
-                                </div>
-                                <div style="float:right; padding-left:15px; padding-top:45px;">
-                                <img src="images/meetings/logo_bruker.jpg" width="165" alt=
-                                "Bruker" />
-                                </div>
-                                </div>
-                                -->
                             </div>
                             <!-- InstanceEndEditable -->
                         </div>
