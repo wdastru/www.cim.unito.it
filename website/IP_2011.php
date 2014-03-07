@@ -104,7 +104,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </tr>
                                     <tr>
                                         <td><img class="probes2009" src="images/logo_unipmn.jpg"
-                                        alt="Unipmn" /><td>Universit&aacute; degli Studi del Piemonte Orientale
+                                        alt="Unipmn" /></td><td>Universit&aacute; degli Studi del Piemonte Orientale
                                         "Amedeo Avogadro" (I)</td><td>Mauro Botta</td><td><a href="mailto:mauro.botta@mfn.unipmn.it"> <img
                                         style="border: none"
                                         src="images/icon-48x48-envelope_go.png" alt="mail to"
