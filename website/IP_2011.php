@@ -452,8 +452,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </tr>
                                     <tr>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2011/lectures/TothIP2011.pdf"></a><span class='lecture_title'>Gd(III) complexes: the importance of
-                                            kinetic and thermodynamic stability </span><span class='lecture_author'>(Imre Toth)</span> </a> </td><td><span class='lecture_title'>Developing an imaging probe</span><span class='lecture_author'>(Lorenzo Tei / Alessandro Barge)</span></td>
+                                        href="documenti/IP_Probes_Turin_2011/lectures/TothIP2011.pdf"><span class='lecture_title'>Gd(III) complexes: the importance of
+                                            kinetic and thermodynamic stability </span><span class='lecture_author'>(Imre Toth)</span> </a></td><td><span class='lecture_title'>Developing an imaging probe</span><span class='lecture_author'>(Lorenzo Tei / Alessandro Barge)</span></td>
                                         <td><span class='lecture_title'>Ligand synthesis part II</span><span class='lecture_author'>(Luciano Lattuada)</span></td>
                                         <td><span class='lecture_title'>Peptide modification and conjugation
                                             to probes </span><span class='lecture_author'>(Lorenzo Tei)</span></td><td><span class='lecture_title'>HPLC separation: from analytical to
