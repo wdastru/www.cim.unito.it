@@ -83,8 +83,7 @@
 
                                                 <li> 14:15 - 14:20 : Short introduction by WG1 leader <b>Eva Jakab-Toth</b> (CNRS, Orleans, France) </li>
                                                 <li> 14:20 - 14:35 : <b>Imre T&oacute;th</b> (University of Debrecen, Hungary)</li>
-                                                <li style="list-style-type: none;">&nbsp;</li>
-                                                <li><i>&quot;Mixed ligand metal-complexes modelling anion binding: the hard aluminium(III) and the soft thallium(III)&quot;</i></li>
+                                                <li style="list-style-type: none;"><i>&quot;Mixed ligand metal-complexes modelling anion binding: the hard aluminium(III) and the soft thallium(III)&quot;</i></li>
                                                 <li> 14:35 - 14:50 : <b>Hanno Schieferstein</b> (Johannes Gutenberg-University, Mainz, Germany)
                                                     <br>
                                                     <i>&quot;Folate receptor targeted delivery of supramolecular drug-carriers monitored by PET&quot;</i></li>
