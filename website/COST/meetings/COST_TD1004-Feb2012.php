@@ -87,7 +87,7 @@ $localizer = "../../";
                                                     moderator: <b>Renata Mikolajczak</b> (PL)
                                                     <ul>
                                                         <li>
-                                                            <a href="documents/Prof. Aime 1 17- 2-12/ROESCH Torino COST_HPMA.pdf"><b>Frank Rösch</b> (DE): In vitro and in vivo evaluation of 18F-labelled HPMA polymeric architectures as potential carrier systems of drugs.</a>
+                                                            <a href="documents/Prof. Aime 1 17- 2-12/ROESCH Torino COST_HPMA.pdf"><b>Frank R&ouml;sch</b> (DE): In vitro and in vivo evaluation of 18F-labelled HPMA polymeric architectures as potential carrier systems of drugs.</a>
                                                         </li>
                                                         <li>
                                                             <a href="documents/Prof. Aime 1 17- 2-12/BOTTAFeb_2012_A.pdf"><b>Mauro Botta</b> (IT): Relaxivity Enhancement in Nanosized GdIII-based systems</a>
