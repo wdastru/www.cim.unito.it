@@ -214,7 +214,7 @@
                                                     <i>&quot;Different hyperthermia protocols and their effect on drug release&quot;</i></li>
                                                 <li> 17:10 - 17:30 : <b>Zahraa Al-Ahmady</b> (UCL School of Pharmacy, UK)
                                                     <br/>
-                                                    <i>&quot;Lipid–peptide vesicle nanoscale hybrids for triggered drug release by mild hyperthermia in vitro and in vivo&quot;</i></li>
+                                                    <i>&quot;Lipid-peptide vesicle nanoscale hybrids for triggered drug release by mild hyperthermia in vitro and in vivo&quot;</i></li>
                                                 <li> 17:30 - 18:30 : Cheese and wine reception &amp; poster session </li>
                                             </ul></li>
                                         <br>
