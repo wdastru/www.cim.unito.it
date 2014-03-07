@@ -142,7 +142,7 @@
                                                         <li> 09:20 - 09:35 : <b>Elias Fattal</b> (University Paris-Sud, France)
                                                             <br/>
                                                             <i>&quot;Physico-chemical characterization of nanoparticles in regards to fate and toxicity&quot;</i></li>
-                                                        <li> 09:35 - 09:50 : <b>Ulrich Schatzschneider</b> (Julius-Maximilians-Universit&auml;t, Würzburg, Germany)
+                                                        <li> 09:35 - 09:50 : <b>Ulrich Schatzschneider</b> (Julius-Maximilians-Universit&auml;t, W&uuml;rzburg, Germany)
                                                             <br/>
                                                             <i>&quot;Strategies for the modular conjugation of bioactive functional groups to solid nanocarrier materials&quot;</i></li>
                                                         <li> 09:50 - 10:05 : <b>Aur&eacute;lie Jacquart</b> (CEA-Leti, Grenoble, France)
