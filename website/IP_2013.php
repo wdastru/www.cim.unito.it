@@ -54,12 +54,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <div style="float: left">
-                                <img src="images/header_logo.png" width="295" height="100"
-                                alt="LLP" />
+                                <img src="images/header_logo.png" width="295" height="100" alt="LLP" />
                             </div>
                             <div style="float: right">
-                                <img src="images/socrateslogok.jpg" width="245" height="120"
-                                alt="Socrates" />
+                                <img src="images/socrateslogok.jpg" width="245" height="120" alt="Socrates" />
                             </div>
                             <div style="clear: both">
                                 <br />
@@ -80,18 +78,18 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p>
                                 <p>
                                     This IP will be addressed to students in biology, biotechnology, chemistry, medicine or physics at one of the following levels:
-                                    <ul>
-                                        <li>
-                                            Master students
-                                        </li>
-                                        <li>
-                                            PhD students (priority will be given to first year's students)
-                                        </li>
-                                        <li>
-                                            Undergraduate students who are expected to complete their bachelor studies by the end of September 2012
-                                        </li>
-                                    </ul>
                                 </p>
+                                <ul>
+                                    <li>
+                                        Master students
+                                    </li>
+                                    <li>
+                                        PhD students (priority will be given to first year's students)
+                                    </li>
+                                    <li>
+                                        Undergraduate students who are expected to complete their bachelor studies by the end of September 2012
+                                    </li>
+                                </ul>
                                 <p>
                                     The participation of 20 students from the partner institutions will be supported by the EC Erasmus Programme.
                                     In order to apply for a scholarship, students will be asked to certify to be enrolled  to one of the partner institutions.
@@ -129,103 +127,69 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </tr>
 
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_unipmn.jpg"
-                                        alt="Unipmn" /><td>Universit&aacute; degli Studi del Piemonte Orientale
-                                        "Amedeo Avogadro" (I)</td><td>Mauro Botta</td><td><a href="mailto:mauro.botta@mfn.unipmn.it"> <img
-                                        style="border: none"
-                                        src="images/icon-48x48-envelope_go.png" alt="mail to"
-                                        width="24" height="24" /> </a></td>
+                                        <td><img class="probes2009" src="images/logo_unipmn.jpg" alt="Unipmn" />
+                                        <td>Universit&aacute; degli Studi del Piemonte Orientale "Amedeo Avogadro" (I)</td><td>Mauro Botta</td>
+                                        <td><a href="mailto:mauro.botta@mfn.unipmn.it"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_uni_paris11.jpg"
-                                        alt="Univ Paris Sud 11" /></td>
+                                        <td><img class="probes2009" src="images/logo_uni_paris11.jpg" alt="Univ Paris Sud 11" /></td>
                                         <td>Universit&eacute; Paris sud 11 (F)</td>
                                         <td>Martine Raphael</td>
-                                        <td><a href="mailto:martine.raphael@bct.aphp.fr"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> </a></td>
+                                        <td><a href="mailto:martine.raphael@bct.aphp.fr"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_instn.jpg"
-                                        alt="INSTN" /></td>
-                                        <td>Institut National Des Science Et Technologies Nucleaires
-                                        (F)</td>
+                                        <td><img class="probes2009" src="images/logo_instn.jpg" alt="INSTN" /></td>
+                                        <td>Institut National Des Science Et Technologies Nucleaires (F)</td>
                                         <td>Vivienne Fardeau</td>
-                                        <td><a href="mailto:vivienne.fardeau@cea.fr"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> </a></td>
+                                        <td><a href="mailto:vivienne.fardeau@cea.fr"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_uni_crete.jpg"
-                                        alt="Creete" /></td>
+                                        <td><img class="probes2009" src="images/logo_uni_crete.jpg" alt="Creete" /></td>
                                         <td>University of Creete (GR)</td>
                                         <td>Giannis Zacharakis</td>
-                                        <td><a href="mailto:zahari@iesl.forth.gr"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> </a></td>
+                                        <td><a href="mailto:zahari@iesl.forth.gr"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_uni_VUB.jpg"
-                                        alt="VUB - Vrije Universiteit Brussel (B)" /></td>
+                                        <td><img class="probes2009" src="images/logo_uni_VUB.jpg" alt="VUB - Vrije Universiteit Brussel (B)" /></td>
                                         <td>VUB - Vrije Universiteit Brussel (B)</td>
                                         <td>Tony Lahoutte</td>
-                                        <td><a href="mailto:lahoutte@gmail.com"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> </a></td>
+                                        <td><a href="mailto:lahoutte@gmail.com"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_uni_TUM.jpg"
-                                        alt="TUM - Technische Universit&auml;t M&uuml;nchen (D)" /></td>
+                                        <td><img class="probes2009" src="images/logo_uni_TUM.jpg" alt="TUM - Technische Universit&auml;t M&uuml;nchen (D)" /></td>
                                         <td>TUM - Technische Universit&auml;t M&uuml;nchen (D)</td>
                                         <td>Markus Schwaiger</td>
-                                        <td><a href="mailto:markus.schwaiger@tum.de"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> </a></td>
+                                        <td><a href="mailto:markus.schwaiger@tum.de"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_uni_freiburg.jpg"
-                                        alt="Albert-Ludwigs-Universit&auml;t Freiburg Im Breisgau (D)" /></td>
+                                        <td><img class="probes2009" src="images/logo_uni_freiburg.jpg" alt="Albert-Ludwigs-Universit&auml;t Freiburg Im Breisgau (D)" /></td>
                                         <td>Albert-Ludwigs-Universit&auml;t Freiburg Im Breisgau (D)</td>
                                         <td>Helmut Maecke</td>
-                                        <td><a href="mailto:helmut.maecke@uniklinik-freiburg.de"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> </a></td>
+                                        <td><a href="mailto:helmut.maecke@uniklinik-freiburg.de"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/logo_uni_rotterdam.bmp"
-                                        alt="Erasmus MC Rotterdam (NL)" /></td>
+                                        <td><img class="probes2009" src="images/logo_uni_rotterdam.bmp" alt="Erasmus MC Rotterdam (NL)" /></td>
                                         <td>Erasmus MC Rotterdam (NL)</td>
                                         <td>Marion de Jong</td>
-                                        <td><a href="mailto:m.hendriks-dejong@erasmusmc.nl"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> </a></td>
+                                        <td><a href="mailto:m.hendriks-dejong@erasmusmc.nl"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/karolinska_logo.png"
-                                        alt="Karolinska Institutet (SE)" /></td>
+                                        <td><img class="probes2009" src="images/karolinska_logo.png" alt="Karolinska Institutet (SE)" /></td>
                                         <td>Karolinska Institutet (SE)</td>
                                         <td>Lars Holmgren</td>
-                                        <td><a href="mailto:lars.holmgren@ki.se"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> <!--</a>--></td>
+                                        <td><a href="mailto:lars.holmgren@ki.se"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/lyon_logo.jpg"
-                                        alt="University of Lyon 1 (FR)" /></td>
+                                        <td><img class="probes2009" src="images/lyon_logo.jpg" alt="University of Lyon 1 (FR)" /></td>
                                         <td>University of Lyon 1 (FR)</td>
                                         <td>Philippe Douek</td>
-                                        <td><a href="mailto:philippe.douek@creatis.univ-lyon1.fr"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> <!--</a>--></td>
+                                        <td><a href="mailto:philippe.douek@creatis.univ-lyon1.fr"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="probes2009" src="images/santiago_compostela_logo.gif"
-                                        alt="Universitat de Santiago de Compostela (ES)" /></td>
+                                        <td><img class="probes2009" src="images/santiago_compostela_logo.gif" alt="Universitat de Santiago de Compostela (ES)" /></td>
                                         <td>Universitat de Santiago de Compostela (ES)</td>
                                         <td>Maria Jos&eacute; Alonso Fern&aacute;ndez</td>
-                                        <td><a href="mailto:mariaj.alonso@usc.es"> <img
-                                        style="border: none" src="images/icon-48x48-envelope_go.png"
-                                        alt="mail to" width="24" height="24" /> <!--</a>--></td>
+                                        <td><a href="mailto:mariaj.alonso@usc.es"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                 </table>
                                 <br />
