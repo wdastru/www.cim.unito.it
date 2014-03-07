@@ -49,8 +49,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta name="google-site-verification"
         content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
-        <meta name="keywords"
-        content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
+        <meta name="keywords" content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
@@ -133,7 +132,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 
                                 <b>Submission rules</b>
                                 <br/>
-                                
+
                                 <ul>
                                     <li>size limit: 1 page (max 2 MB)</li>
                                     <li>only Word (DOC or DOCX) or PDF documents are allowed</li>
@@ -141,21 +140,25 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <li>see the <a href="documents/ABSTRACT_TEMPLATE.docx"><span class='underline'>abstract template</span></a></li>
                                     <li>you will be able to make changes on your submission until the submission deadline (1<sup>st</sup> March 2014)</li>
                                 </ul>
-                                
+
                                 <br/>
                                 <br/>
-                                
+
                                 <b>Online submission</b>
-                            
+
                             	<form action='upload.php' method='post' enctype='multipart/form-data' onsubmit='return checkSizeAndExtension();'>
-                                    Submitter&nbsp;:&nbsp;<input class='required' type='text' name='submitter' value='' onkeyup='return checkSubmitterField();'/>
-                                    &nbsp;&nbsp;<span style='color: #db6d16'>required field</span><br/><br/>
-                                    <input type='file' name='file1' id='file1' style='width:100%'/>
-                                    <input type='hidden' name='dir' value='<?php echo $localizer; ?>/uploads/' style='width:100%'/>
-                                    <br /><br /> 
-                                    <input type='hidden' name='submitted' value='1' />
-                                    <input id='submissionButton' type='submit' name='submit' value='Submit' disabled='true' />
-                                </form>
+                                    <p>Submitter&nbsp;:&nbsp;
+					<input class='required' type='text' name='submitter' value='' onkeyup='return checkSubmitterField();'/>
+					<span style='color: #db6d16'>&nbsp;&nbsp;required field</span>
+				    	<br/><br/>
+					<input type='file' name='file1' id='file1' style='width:100%'/>
+	                                <input type='hidden' name='dir' value='<?php echo $localizer; ?>/uploads/' style='width:100%'/>
+        		                <br /><br />
+                        	        <input type='hidden' name='submitted' value='1' />
+                                	<input id='submissionButton' type='submit' name='submit' value='Submit' disabled='disabled' />
+                        	   </p>
+			    </form>
+                                
                             </div>
                         </div>
                     </div>
