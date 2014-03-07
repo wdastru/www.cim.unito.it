@@ -384,7 +384,7 @@
                                             (Umons, Belgium),
                                             <br>
                                             <i>&quot;Flurophore-tagged iron oxide nanoparticles as bimodal contrast agents for MRI and optical imaging&quot;.</i></li>
-                                        <li><b>E. Lipani, S. Laurent, M. Surin, L. Vander Elst, P. Leclère, R. Lazzaroni, Robert Muller</b>
+                                        <li><b>E. Lipani, S. Laurent, M. Surin, L. Vander Elst, P. Lecl&egrave;re, R. Lazzaroni, Robert Muller</b>
                                             <br>
                                             (Umons, Belgium),
                                             <br>
