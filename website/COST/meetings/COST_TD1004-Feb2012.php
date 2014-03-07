@@ -132,7 +132,7 @@
                                                 <li> 10:15 - 10:45 : <i>Lunch break</i></li>
                                                 <li> 10:45 - 13:00 : <b>WG5 &quot;Set-up of preclinical theranostic protocols&quot;</b> moderator: <b>George Loudos</b> (GR)
                                                     <ul>
-                                                        <li><a href="documents/prof aime 3 18 2 2003/Bergstrom_COST_Torino_150212.pdf"><b>Kim Bergström</b> (FL): SPECT/CT in translational research</a></li>
+                                                        <li><a href="documents/prof aime 3 18 2 2003/Bergstrom_COST_Torino_150212.pdf"><b>Kim Bergstr&ouml;m</b> (FL): SPECT/CT in translational research</a></li>
                                                         <li><b>Twan Lammers</b> (DE): Image-guided nanomedicines for personalized therapeutic interventions </li>
                                                         <li><a href="documents/prof aime 3 18 2 2003/12.02.18.NBeziere.Torino2.pdf"><b>Nicolas Beziere</b> (DE): Optoacoustic imaging - achievements and perspectives</a></li>
                                                     </ul></li>
