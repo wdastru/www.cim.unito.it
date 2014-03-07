@@ -1,6 +1,4 @@
-<?php
-$localizer = "./";
-?>
+<?php $localizer = "./"; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
@@ -24,7 +22,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section2'>
 
             <?php
@@ -37,12 +35,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <div id='sidebar'>
                     <div class='padding'>
                         <dl id='list'>
-                            <dt id='section2-subsection1' class='subsection_link'>
-                                <a href='educational.php'>Educational</a>
-                            </dt>
-                            <dt id='section2-subsection2' class='subsection_link'>
-                                <a href='meetings.php'>Meetings</a>
-                            </dt>
+                            <dt id='section2-subsection1' class='subsection_link'><a href='educational.php'>Educational</a></dt>
+                            <dt id='section2-subsection2' class='subsection_link'><a href='meetings.php'>Meetings</a></dt>
                         </dl>
                     </div>
                 </div>
@@ -80,15 +74,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     This IP will be addressed to students in biology, biotechnology, chemistry, medicine or physics at one of the following levels:
                                 </p>
                                 <ul>
-                                    <li>
-                                        Master students
-                                    </li>
-                                    <li>
-                                        PhD students (priority will be given to first year's students)
-                                    </li>
-                                    <li>
-                                        Undergraduate students who are expected to complete their bachelor studies by the end of September 2012
-                                    </li>
+                                    <li> Master students </li>
+                                    <li> PhD students (priority will be given to first year's students) </li>
+                                    <li> Undergraduate students who are expected to complete their bachelor studies by the end of September 2012 </li>
                                 </ul>
                                 <p>
                                     The participation of 20 students from the partner institutions will be supported by the EC Erasmus Programme.
@@ -103,18 +91,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     To apply: please see below at the application section.
                                 </p>
                                 <ul>
-                                    <li>
-                                        Coordinator: Dario Longo
-                                    </li>
-                                    <li>
-                                        Assistant Coordinator: Paola Bardini
-                                    </li>
-                                    <li>
-                                        Coordinating Institution: University of Torino (Italy)
-                                    </li>
-                                    <li>
-                                        Location: Molecular Imaging Center, Via Nizza 52 - Torino (Italy)
-                                    </li>
+                                    <li> Coordinator: Dario Longo </li>
+                                    <li> Assistant Coordinator: Paola Bardini </li>
+                                    <li> Coordinating Institution: University of Torino (Italy) </li>
+                                    <li> Location: Molecular Imaging Center, Via Nizza 52 - Torino (Italy) </li>
                                 </ul>
                                 <p style="font-weight: bold; font-size: 14px">
                                     Partners
@@ -213,48 +193,33 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     Application
                                 </p>
                                 <ul>
-                                    <li>
-                                        The application for our Intensive Programme must be made
+                                    <li> The application for our Intensive Programme must be made
                                         exclusively by submitting the registration form to the
                                         corresponding local coordinator.
-                                        The deadline is set at 30<sup>th</sup>
-                                        of August, 2013.
-                                    </li>
-                                    <li>
-                                        The selection procedures are undertaken by each Local Coordinator of the corresponding partner institutions,
+                                        The deadline is set at 30<sup>th</sup> of August, 2013. </li>
+                                    <li> The selection procedures are undertaken by each Local Coordinator of the corresponding partner institutions,
                                         having a short interview with the candidate, so that the Local Coordinator verifies whether the applicants is
                                         well motivated and has the suitable background needed to attend the programme. This process will continue up
                                         to completion of the 20 available places.
                                         After the selection has been completed, the students awarded with the scholarship will receive an email with
                                         all the instructions for completing the registration procedure and for the participation.
-                                        Students selected to participate without fellowship will also receive a message by email.
-                                    </li>
-                                    <li>
-                                        Scholarships are offered to students from the partner institutions.
+                                        Students selected to participate without fellowship will also receive a message by email. </li>
+                                    <li> Scholarships are offered to students from the partner institutions.
                                         If you are applying for a scholarship, please notice that you will have to participate in all the 10 successive
                                         days of the programme. If you are planning to attend less than 10 successive days of the programme, you are not
-                                        eligible for a scholarship and your expenses cannot be reimbursed.
-                                    </li>
-                                    <li>
-                                        In case you have been selected to participate in the IP
+                                        eligible for a scholarship and your expenses cannot be reimbursed. </li>
+                                    <li> In case you have been selected to participate in the IP
                                         (with/without fellowship), please submit the following
                                         document, saved as a pdf file:
                                         <ul>
-                                            <li>
-                                                copy of your passport (or id card for EU applicants).
-                                            </li>
-                                            <li>
-                                                an official document certifying your enrollment to a
-                                                partner University for the current academic year.
-                                            </li>
-                                            <li>
-                                                flight electronic ticket (or a scanned copy of your
+                                            <li> copy of your passport (or id card for EU applicants). </li>
+                                            <li> an official document certifying your enrollment to a
+                                                partner University for the current academic year. </li>
+                                            <li> flight electronic ticket (or a scanned copy of your
                                                 flight ticket). Please notice that only tickets from/to your
                                                 home institution can be reimbursed (this only applies to
-                                                students who have been awarded a scholarship).
-                                            </li>
-                                        </ul>
-                                    </li>
+                                                students who have been awarded a scholarship). </li>
+                                        </ul></li>
                                 </ul>
                                 <br />
                                 <p style="font-weight: bold; font-size: 14px">
@@ -262,36 +227,24 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     News
                                 </p>
                                 <ul>
-                                    <li>
-                                        <a
+                                    <li><a
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/Tumour_IP_Turin_2013.pdf">IP
-                                        PROBES 2013 schedule</a>
-                                    </li>
-                                    <li>
-                                        <a
+                                        PROBES 2013 schedule</a></li>
+                                    <li><a
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/Probes_Imaging_Leaflet_2013.doc">IP
-                                        PROBES 2013 leaflet</a>
-                                    </li>
-                                    <li>
-                                        <a
+                                        PROBES 2013 leaflet</a></li>
+                                    <li><a
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/Registration_Form_IP_Turin_2013.doc">IP
-                                        PROBES 2013 registration form</a>
-                                    </li>
-                                    <li>
-                                        <a
+                                        PROBES 2013 registration form</a></li>
+                                    <li><a
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/Eligibility_Rules_IP_2013.doc">IP
-                                        PROBES 2013 stipend eligibility rules</a>
-                                    </li>
-                                    <li>
-                                        <a
+                                        PROBES 2013 stipend eligibility rules</a></li>
+                                    <li><a
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/How_to_reach_the_MBC.doc">How
-                                        to reach the MBC</a>
-                                    </li>
-                                    <li>
-                                        <a
+                                        to reach the MBC</a></li>
+                                    <li><a
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/How_to_reach_student_residences.doc">How
-                                        to reach the residences</a>
-                                    </li>
+                                        to reach the residences</a></li>
                                 </ul>
                                 <br />
                                 <p style="font-weight: bold; font-size: 14px">
@@ -311,13 +264,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             9<sup>30</sup>-11<sup>00</sup>
                                         </p></td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            Wellcome and IP introduction
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Silvio Aime / Dario Longo)
-                                        </p></td>
+                                        <td><span class='lecture_title'> Wellcome and IP introduction </span><span class='lecture_author'> (Silvio Aime / Dario Longo) </span></td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/design_synt ImagProbe_2013_barge.pdf"> <span class='lecture_title'> Imaging probe design and synthesis </span> <span class='lecture_author'> (Alessandro Barge - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
@@ -348,46 +295,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <p class='hour'>
                                             14<sup>00</sup>-15<sup>30</sup>
                                         </p></td>
-                                        <td class="available"><a 
-                                        href="documenti/IP_Probes_Turin_2013/lectures/federica_cavallo_IP_imaging_2013.pdf">
-                                        <span class='lecture_title'>
-                                            (Immune) Hallmarks of cancer
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Federica Cavallo - Torino/Univ)
-                                        </p> </a> </td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/PPT_M_de_la_Fuente.pdf">
-                                        <span class='lecture_title'>
-                                            Targeted delivery of vaccines and drugs
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Maria de la Fuente - Santiago de Compostela/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/federica_cavallo_IP_imaging_2013.pdf"> <span class='lecture_title'> (Immune) Hallmarks of cancer </span> <span class='lecture_author'> (Federica Cavallo - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/DeJong_2013.rar">
-                                        <span class='lecture_title'>
-                                            Targeting probes for PET/SPECT applications 
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Marion de Jong - Rotterdam/Erasmus MC)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/PPT_M_de_la_Fuente.pdf"> <span class='lecture_title'> Targeted delivery of vaccines and drugs </span> <span class='lecture_author'> (Maria de la Fuente - Santiago de Compostela/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/imaging_Lahoutte_Torino_2013.pdf">
-                                        <span class='lecture_title'>
-                                            (Immuno)-imaging using nanobodies
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Tony Lahoutte - Brussels/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/DeJong_2013.rar"> <span class='lecture_title'> Targeting probes for PET/SPECT applications </span> <span class='lecture_author'> (Marion de Jong - Rotterdam/Erasmus MC) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Eliana_Gianolio_Gd_characterization.pdf">
-                                        <span class='lecture_title'>
-                                            Gd(III) complexes: basic relaxometric characterization
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Eliana Gianolio - Torino/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/imaging_Lahoutte_Torino_2013.pdf"> <span class='lecture_title'> (Immuno)-imaging using nanobodies </span> <span class='lecture_author'> (Tony Lahoutte - Brussels/Univ) </span> </a></td>
+                                        <td class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Eliana_Gianolio_Gd_characterization.pdf"> <span class='lecture_title'> Gd(III) complexes: basic relaxometric characterization </span> <span class='lecture_author'> (Eliana Gianolio - Torino/Univ) </span> </a></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -395,41 +312,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             16<sup>00</sup>-17<sup>30</sup>
                                         </p></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Lars_Holmgren_IP2013.pdf">
-                                        <span class='lecture_title'>
-                                            Angiogenesis
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Lars Holmgren - Stockholm/Karolinska Institute)
-                                        </p> </a> </td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            Design of imaging probes
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Lorenzo Tei - Alessandro Barge)
-                                        </p></td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            FACS and Ab quantification
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Elena Quaglino - Laura Conti)
-                                        </p></td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            Overview of peptide synthesizer and HPLC/LC-MS purification systems
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Lorenzo Tei - Alessandro Barge)
-                                        </p></td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            Relaxometric characterization of Gd(III) complexes and NMRD analysis
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Eliana Gianolio - Simona Baroni)
-                                        </p></td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Lars_Holmgren_IP2013.pdf"> <span class='lecture_title'> Angiogenesis </span> <span class='lecture_author'> (Lars Holmgren - Stockholm/Karolinska Institute) </span> </a></td>
+                                        <td><span class='lecture_title'> Design of imaging probes </span><span class='lecture_author'> (Lorenzo Tei - Alessandro Barge) </span></td>
+                                        <td><span class='lecture_title'> FACS and Ab quantification </span><span class='lecture_author'> (Elena Quaglino - Laura Conti) </span></td>
+                                        <td><span class='lecture_title'> Overview of peptide synthesizer and HPLC/LC-MS purification systems </span><span class='lecture_author'> (Lorenzo Tei - Alessandro Barge) </span></td>
+                                        <td><span class='lecture_title'> Relaxometric characterization of Gd(III) complexes and NMRD analysis </span><span class='lecture_author'> (Eliana Gianolio - Simona Baroni) </span></td>
                                     </tr>
                                     <tr>
                                         <th></th>
@@ -445,45 +332,15 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             9<sup>00</sup>-11<sup>00</sup>
                                         </p></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Responsive_probes_2013.pdf">
-                                        <span class='lecture_title'>
-                                            Responsive Contrast Agent
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Giuseppe Digilio - Alessandria/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Responsive_probes_2013.pdf"> <span class='lecture_title'> Responsive Contrast Agent </span> <span class='lecture_author'> (Giuseppe Digilio - Alessandria/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/scuola_emmi_2013.pdf">
-                                        <span class='lecture_title'>
-                                            Design MRI targeting agents
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Simonetta Geninatti - Torino/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/scuola_emmi_2013.pdf"> <span class='lecture_title'> Design MRI targeting agents </span> <span class='lecture_author'> (Simonetta Geninatti - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/MULLER_R.pdf">
-                                        <span class='lecture_title'>
-                                            Iron oxide complexes
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Robert Muller - Mons/Univ)
-                                        </p></td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/MULLER_R.pdf"> <span class='lecture_title'> Iron oxide complexes </span> <span class='lecture_author'> (Robert Muller - Mons/Univ) </span></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/PETMR-MI_Course_Turin-BeerAJ_2013-09-30.pdf">
-                                        <span class='lecture_title'>
-                                            Combined PET/MRI: where we stand
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Ambros Beer - Munich/TUM)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/PETMR-MI_Course_Turin-BeerAJ_2013-09-30.pdf"> <span class='lecture_title'> Combined PET/MRI: where we stand </span> <span class='lecture_author'> (Ambros Beer - Munich/TUM) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/DiCunto.pdf">
-                                        <span class='lecture_title'>
-                                            The study of molecular processes in living cells by fluorescence microscopy
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Ferdinando di Cunto - Torino/Univ)
-                                        </p> <!--</a>--> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/DiCunto.pdf"> <span class='lecture_title'> The study of molecular processes in living cells by fluorescence microscopy </span> <span class='lecture_author'> (Ferdinando di Cunto - Torino/Univ) </span> <!--</a>--> </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -491,45 +348,15 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             11<sup>30</sup>-13<sup>00</sup>
                                         </p></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/IP_Probes_2013_Longo_DCE_MRI.pdf">
-                                        <span class='lecture_title'>
-                                            DCE-MRI: principles and technique
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Dario Longo - Torino/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/IP_Probes_2013_Longo_DCE_MRI.pdf"> <span class='lecture_title'> DCE-MRI: principles and technique </span> <span class='lecture_author'> (Dario Longo - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/FM_US_Imaging-IP-01Oct.pdf">
-                                        <span class='lecture_title'>
-                                            US imaging: basic principles and echografic agents
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Filippo Molinari - Torino/Polytechnic Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/FM_US_Imaging-IP-01Oct.pdf"> <span class='lecture_title'> US imaging: basic principles and echografic agents </span> <span class='lecture_author'> (Filippo Molinari - Torino/Polytechnic Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_[2013].pdf">
-                                        <span class='lecture_title'>
-                                            CEST agents
-                                        </p>
-                                        <span class='lecture_author'>
-                                            Daniela Delli Castelli - Torino/Univ
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/CEST_agents_[2013].pdf"> <span class='lecture_title'> CEST agents </span> <span class='lecture_author'> Daniela Delli Castelli - Torino/Univ </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Presentazione_teranostici_IP_2013_Terreno.pdf">
-                                        <span class='lecture_title'>
-                                            Imaging-Guided Therapy: the advent of theranostic agents
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Enzo Terreno - Torino/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Presentazione_teranostici_IP_2013_Terreno.pdf"> <span class='lecture_title'> Imaging-Guided Therapy: the advent of theranostic agents </span> <span class='lecture_author'> (Enzo Terreno - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/20131004_The_EPR_effect_Torino_Axelsson.pdf">
-                                        <span class='lecture_title'>
-                                            The EPR effect for tumor imaging, how far can it take us
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Oskar Axelsson - Spago Imaging AB/Sweden)
-                                        </p></td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/20131004_The_EPR_effect_Torino_Axelsson.pdf"> <span class='lecture_title'> The EPR effect for tumor imaging, how far can it take us </span> <span class='lecture_author'> (Oskar Axelsson - Spago Imaging AB/Sweden) </span></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -537,84 +364,27 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             14<sup>00</sup>-15<sup>30</sup>
                                         </p></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Bert-Medical_Image_Analysis-30_Sep_2013.pdf">
-                                        <span class='lecture_title'>
-                                            Medical Image analysis
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Alberto Bert- im3D SpA/Italy)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Bert-Medical_Image_Analysis-30_Sep_2013.pdf"> <span class='lecture_title'> Medical Image analysis </span> <span class='lecture_author'> (Alberto Bert- im3D SpA/Italy) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Optical_Imaging_Probes_Sep_2013.pdf">
-                                        <span class='lecture_title'>
-                                            Optical Imaging
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Giannis Zacharakis - Crete/FORTH)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Optical_Imaging_Probes_Sep_2013.pdf"> <span class='lecture_title'> Optical Imaging </span> <span class='lecture_author'> (Giannis Zacharakis - Crete/FORTH) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Techniques_CT_and_MR_for_angio_turin_2013.pdf">
-                                        <span class='lecture_title'>
-                                            MRI and CT for angiographic application
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Philippe Douek - Lione/Univ)
-                                        </p> </a> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Techniques_CT_and_MR_for_angio_turin_2013.pdf"> <span class='lecture_title'> MRI and CT for angiographic application </span> <span class='lecture_author'> (Philippe Douek - Lione/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Viale_IP_2013.pdf">
-                                        <span class='lecture_title'>
-                                            Hyperpolarized MRI : metabolic imaging
-                                        </p>
-                                        <span class='lecture_author'>
-                                            (Alessandra Viale - Torino/Univ)
-                                        </p> </a> </td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            Hyperpolarized experiment
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Francesca Reineri - Torino/Univ)
-                                        </p></td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Viale_IP_2013.pdf"> <span class='lecture_title'> Hyperpolarized MRI : metabolic imaging </span> <span class='lecture_author'> (Alessandra Viale - Torino/Univ) </span> </a></td>
+                                        <td><span class='lecture_title'> Hyperpolarized experiment </span><span class='lecture_author'> (Francesca Reineri - Torino/Univ) </span></td>
                                     </tr>
                                     <tr>
                                         <td>
                                         <p class='hour'>
                                             16<sup>00</sup>-17<sup>30</sup>
                                         </p></td>
-                                        <td> 
-                                        <p class='lecture_title'>
-                                            DCE-MRI at 1T
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Dario Longo / Walter Dastr&uacute;)
-                                        </p> </td>
-                                        <td> <!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Optical_Imaging_Probes_Sep_2012.pdf">-->
-                                        <p class='lecture_title'>
-                                            Cell labelling
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Simonetta Geninatti - Torino/Univ)
-                                        </p> <!--</a>--> </td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            CEST experiment
-                                        </p>
-                                        <p class='lecture_author'>
-                                            Daniela Delli Castelli - Giuseppe Ferrauto
-                                        </p></td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            Imaging-Guided Therapy experiment
-                                        </p>
-                                        <p class='lecture_author'>
-                                            (Pierangela Giustetto - Torino/Univ)
-                                        </p></td>
-                                        <td>
-                                        <p class='lecture_title'>
-                                            Final consideration and remarks /
-                                            Final student assesments
-                                        </p><p class='lecture_author'></p></td>
+                                        <td><span class='lecture_title'> DCE-MRI at 1T </span><span class='lecture_author'> (Dario Longo / Walter Dastr&uacute;) </span></td>
+                                        <td><!-- class="available"><a
+                                        href="documenti/IP_Probes_Turin_2013/lectures/Optical_Imaging_Probes_Sep_2012.pdf">--><span class='lecture_title'> Cell labelling </span><span class='lecture_author'> (Simonetta Geninatti - Torino/Univ) </span><!--</a>--></td>
+                                        <td><span class='lecture_title'> CEST experiment </span><span class='lecture_author'> Daniela Delli Castelli - Giuseppe Ferrauto </span></td>
+                                        <td><span class='lecture_title'> Imaging-Guided Therapy experiment </span><span class='lecture_author'> (Pierangela Giustetto - Torino/Univ) </span></td>
+                                        <td><span class='lecture_title'> Final consideration and remarks /
+                                            Final student assesments </span><span class='lecture_author'></span></td>
                                     </tr>
                                 </table>
                             </div>
