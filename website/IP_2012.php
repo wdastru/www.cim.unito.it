@@ -74,12 +74,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p>
                                 <p>
                                     This IP will be addressed to students in biology, biotechnology, chemistry, medicine or physics at one of the following levels:
-                                    <ul>
-                                        <li> Master students </li>
-                                        <li> PhD students (priority will be given to first year's students) </li>
-                                        <li> Undergraduate students who are expected to complete their bachelor studies by the end of September 2012 </li>
-                                    </ul>
                                 </p>
+                                <ul>
+                                    <li> Master students </li>
+                                    <li> PhD students (priority will be given to first year's students) </li>
+                                    <li> Undergraduate students who are expected to complete their bachelor studies by the end of September 2012 </li>
+                                </ul>
                                 <p>
                                     The participation of 20 students from the partner institutions will be supported by the EC Erasmus Programme.
                                     In order to apply for a scholarship, students will be asked to certify to be enrolled  to one of the partner institutions.
@@ -109,7 +109,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </tr>
                                     <tr>
                                         <td><img class="probes2009" src="images/logo_unipmn.jpg"
-                                        alt="Unipmn" /><td>Universit&aacute; degli Studi del Piemonte Orientale
+                                        alt="Unipmn" /></td><td>Universit&aacute; degli Studi del Piemonte Orientale
                                         "Amedeo Avogadro" (I)</td><td>Mauro Botta</td><td><a href="mailto:mauro.botta@mfn.unipmn.it"> <img
                                         style="border: none"
                                         src="images/icon-48x48-envelope_go.png" alt="mail to"
