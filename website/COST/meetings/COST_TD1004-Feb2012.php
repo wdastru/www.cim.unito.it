@@ -121,7 +121,7 @@
                                                     <br />
                                                     moderator: <b>Gerben Koning</b> (NL)
                                                     <ul>
-                                                        <li><b>Eric Allémann</b> (CH): Ultrasound bubbles for diagnostics and therapy </li>
+                                                        <li><b>Eric All&eacute;mann</b> (CH): Ultrasound bubbles for diagnostics and therapy </li>
                                                         <li><a href="documents/prof aime 2 18 2 2012/Schmid.pdf"><b>Ruth Schmid</b> (NO): Ultrasound bubbles stabilized with multifunctional nanoparticles for combined diagnostics and therapy</a></li>
                                                         <li><b>Gerben Koning</b> (NL): Strategies to improve liposomal drug delivery to solid tumors </li>
                                                         <li><a href="documents/prof aime 2 18 2 2012/ECOST Turin 2012_Lindner.pdf"><b>Lars Lindner</b> (DE): A novel intravascular drug delivery platform based on phosphatidyl-(oligo)-glycerols</a></li>
