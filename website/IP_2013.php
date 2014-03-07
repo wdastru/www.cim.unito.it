@@ -356,7 +356,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/Presentazione_teranostici_IP_2013_Terreno.pdf"> <span class='lecture_title'> Imaging-Guided Therapy: the advent of theranostic agents </span> <span class='lecture_author'> (Enzo Terreno - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/20131004_The_EPR_effect_Torino_Axelsson.pdf"> <span class='lecture_title'> The EPR effect for tumor imaging, how far can it take us </span> <span class='lecture_author'> (Oskar Axelsson - Spago Imaging AB/Sweden) </span></td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/20131004_The_EPR_effect_Torino_Axelsson.pdf"> <span class='lecture_title'> The EPR effect for tumor imaging, how far can it take us </span> <span class='lecture_author'> (Oskar Axelsson - Spago Imaging AB/Sweden) </span> </a></td>
                                     </tr>
                                     <tr>
                                         <td>
