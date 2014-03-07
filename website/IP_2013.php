@@ -336,11 +336,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/scuola_emmi_2013.pdf"> <span class='lecture_title'> Design MRI targeting agents </span> <span class='lecture_author'> (Simonetta Geninatti - Torino/Univ) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/MULLER_R.pdf"> <span class='lecture_title'> Iron oxide complexes </span> <span class='lecture_author'> (Robert Muller - Mons/Univ) </span></td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/MULLER_R.pdf"> <span class='lecture_title'> Iron oxide complexes </span> <span class='lecture_author'> (Robert Muller - Mons/Univ) </span> </a></td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/PETMR-MI_Course_Turin-BeerAJ_2013-09-30.pdf"> <span class='lecture_title'> Combined PET/MRI: where we stand </span> <span class='lecture_author'> (Ambros Beer - Munich/TUM) </span> </a></td>
                                         <td class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/DiCunto.pdf"> <span class='lecture_title'> The study of molecular processes in living cells by fluorescence microscopy </span> <span class='lecture_author'> (Ferdinando di Cunto - Torino/Univ) </span> <!--</a>--> </td>
+                                        href="documenti/IP_Probes_Turin_2013/lectures/DiCunto.pdf"> <span class='lecture_title'> The study of molecular processes in living cells by fluorescence microscopy </span> <span class='lecture_author'> (Ferdinando di Cunto - Torino/Univ) </span> </a></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -379,8 +379,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             16<sup>00</sup>-17<sup>30</sup>
                                         </p></td>
                                         <td><span class='lecture_title'> DCE-MRI at 1T </span><span class='lecture_author'> (Dario Longo / Walter Dastr&uacute;) </span></td>
-                                        <td><!-- class="available"><a
-                                        href="documenti/IP_Probes_Turin_2013/lectures/Optical_Imaging_Probes_Sep_2012.pdf">--><span class='lecture_title'> Cell labelling </span><span class='lecture_author'> (Simonetta Geninatti - Torino/Univ) </span><!--</a>--></td>
+                                        <td><span class='lecture_title'> Cell labelling </span><span class='lecture_author'> (Simonetta Geninatti - Torino/Univ) </span></td>
                                         <td><span class='lecture_title'> CEST experiment </span><span class='lecture_author'> Daniela Delli Castelli - Giuseppe Ferrauto </span></td>
                                         <td><span class='lecture_title'> Imaging-Guided Therapy experiment </span><span class='lecture_author'> (Pierangela Giustetto - Torino/Univ) </span></td>
                                         <td><span class='lecture_title'> Final consideration and remarks /
