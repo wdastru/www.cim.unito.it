@@ -51,7 +51,7 @@ $localizer = "../../";
                         </div>
                         <div class='paddingInner'>
                             <div style="padding: 0 27%">
-                                <a class="linkExternal" href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo /></a>
+                                <a class="linkExternal" href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <div style="clear:both">
