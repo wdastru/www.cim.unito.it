@@ -109,7 +109,7 @@
                                                 <li>09:00 &minus; 09:45 - Invited Lecture: Professor Mike Averkiou, University of Cyprus</li>
                                                 <li>09:45 &minus; 10:00 - Overall Lecture WG4, Gerben Koning (Erasmus MC, Rotterdam, The Netherlands): <i>Theranostic agents responsive to endogenous and external stimuli</i></li>                                      
                                           
-                                                Chairs: Chantal Pichon and Gerben Koning
+                                                <span>Chairs: Chantal Pichon and Gerben Koning</span>
                                                 
                                                 <li>10:00 &minus; 11:10 - Lectures WG4</li>
                                                 <li>
