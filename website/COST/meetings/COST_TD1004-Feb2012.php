@@ -136,7 +136,7 @@ $localizer = "../../";
                                                             <a href="documents/aime 2 17 2 12/Lipidots™_COST_17022012.pdf"><b>Fabrice Navarro y Garcia</b> (FR): Lipidots&#174; delivery platform</a>
                                                         </li>
                                                         <li>
-                                                            <b>Stefaan De Smedt</b> (BE): An update of recent work @ Ghent University on microbubbles and nanogels
+                                                            <b>Stefaan De Smedt</b> (BE): An update of recent work &#64; Ghent University on microbubbles and nanogels
                                                         </li>
                                                     </ul>
                                                 </li>
