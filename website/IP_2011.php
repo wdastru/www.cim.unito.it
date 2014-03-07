@@ -65,8 +65,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     Description
                                 </p>
                                 <p>
-                                    The purpose of the Intensive Programme (IP) in “Design,
-                                    Synthesis and Validation of Imaging Probes” is to develop an
+                                    The purpose of the Intensive Programme (IP) in "Design,
+                                    Synthesis and Validation of Imaging Probes" is to develop an
                                     in-depth and up-to-date training covering the design, synthesis
                                     and characterization of imaging probes, including their
                                     functionalization and labeling for different imaging modalities.
