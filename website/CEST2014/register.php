@@ -60,13 +60,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <span>Procedure</span>
                                     <br/>
                                     Please proceed to the registration by doing the following:
-                                    <ul>
-                                        <span><li><a href="http://www.gidrm.org/gidrmvending/index.php?route=account/register" target="_blank">Create a GIDRM account</a></li></span>
-                                        <span><li><a href="http://www.gidrm.org/gidrmvending/index.php?route=product/product&product_id=67" target="_blank">Buy the CEST 2014 event</a></li></span>
-                                        <span><li><a href="http://www.gidrm.org/index.php/activities/cest2014-the-4th-international-workshop-on-chemical-exchange-saturation-transfer-imaging/cest2014-submission-form" target="_blank">Fill in the Submission form</a></li></span>
-                                    </ul>
                                 </p>
-                                
+                                <ul>
+                                    <li><a href="http://www.gidrm.org/gidrmvending/index.php?route=account/register" target="_blank">Create a GIDRM account</a></li>
+                                    <li><a href="http://www.gidrm.org/gidrmvending/index.php?route=product/product&product_id=67" target="_blank">Buy the CEST 2014 event</a></li>
+                                    <li><a href="http://www.gidrm.org/index.php/activities/cest2014-the-4th-international-workshop-on-chemical-exchange-saturation-transfer-imaging/cest2014-submission-form" target="_blank">Fill in the Submission form</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
