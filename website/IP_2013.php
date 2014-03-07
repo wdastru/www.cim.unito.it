@@ -320,12 +320,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         </p></td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/design_synt ImagProbe_2013_barge.pdf">
-                                        <p class='lecture_title'>
+                                        <span class='lecture_title'>
                                             Imaging probe design and synthesis
-                                        </p>
-                                        <p class='lecture_author'>
+                                        </span>
+                                        <span class='lecture_author'>
                                             (Alessandro Barge - Torino/Univ)
-                                        </p> </a> </td>
+                                        </span> </a> </td>
                                         <td class="available"><a
                                         href="documenti/IP_Probes_Turin_2013/lectures/NMR_MRI_introduction.pdf">
                                         <p class='lecture_title'>
