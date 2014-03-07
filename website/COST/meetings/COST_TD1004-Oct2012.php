@@ -248,7 +248,7 @@
                                                 <li> 11:05 - 11:25 : <b>Fran&ccedil;ois Lux</b> (Universit&eacute; de Lyon, France)
                                                     <br/>
                                                     <i>&quot;AGuIX: a new class of theranostic particles&quot;</i></li>
-                                                <li> 11:25 - 11:45 : <b>Maria Laura Bolognesi</b> (Università di Bologna, Italy)
+                                                <li> 11:25 - 11:45 : <b>Maria Laura Bolognesi</b> (Universit&aacute; di Bologna, Italy)
                                                     <br/>
                                                     <i>&quot;A fluorescent small molecule with combined therapeutic and diagnostic activities against Alzheimer's and prion diseases&quot;</i></li>
                                                 <li> 11:45 - 12:05 : <b>Sijumon Kunjachan</b> (RWTH Aachen University Clinic, Germany)
