@@ -224,7 +224,7 @@
                                                 <p>
                                                     <b><u>WG4 Theranostic agents responsive to endogenous and external stimuli</u></b>
                                                 </p>
-                                                <li> 09:00 - 09:20 : <b>Goran Angelovski</b> (Max Planck Institute for Biological Cybernetics, Tübingen, Germany)
+                                                <li> 09:00 - 09:20 : <b>Goran Angelovski</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)
                                                     <br/>
                                                     <i>&quot;Dynamic and target-specific MRI probes for neuroimaging&quot;</i></li>
                                                 <li> 09:20 - 09:40 : <b>Catharina de Lange Davies</b> (NTNU, Trondheim, Norway)
