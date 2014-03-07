@@ -197,7 +197,7 @@
         										<li>	
         											<ul>
         												<li>15:00 &minus; 15:15 - <i>Superparamagentic iron oxide nanoparticles for local thermotherapy: potential and limitations</i>, Olivier Jordan</li>							
-        												<li>15:15 &minus; 15:30 - <i>Bimodal Imaging of Sentinel Lymph Node with 99mTc(CO)3-labeled Mannosylated Nanoparticles bearing a NIR-fluorophore</i>, Maurício Morais, Catarina Xavier, Sophie Hernot, Tony Lahoutte, Vicky Caveliers, Jo&atilde;o D. G. Correia, Isabel Santos</li>											
+        												<li>15:15 &minus; 15:30 - <i>Bimodal Imaging of Sentinel Lymph Node with 99mTc(CO)3-labeled Mannosylated Nanoparticles bearing a NIR-fluorophore</i>, Mauricio Morais, Catarina Xavier, Sophie Hernot, Tony Lahoutte, Vicky Caveliers, Jo&atilde;o D. G. Correia, Isabel Santos</li>											
         												<li>15:30 &minus; 15:45 - <i>Quantitative MRI approaches for tracking nano-sized systems</i>, Klaas Nicolay, Rik P.M. Moonen, Gustav J. Strijkers</li>
         												<li>15:45 &minus; 16:00 - <i>Non invasive temperature measurements during hyperthermia sessions with a near infrared camera</i>, Spiridon Spirou, Lazaros Palamaris, Eirini Fragogeorgi, George Loudos</li>
         											</ul>
