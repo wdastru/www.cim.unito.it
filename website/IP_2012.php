@@ -314,7 +314,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <td class='available'><a href="documenti/IP_Probes_Turin_2012/lectures/Introduction_to_MolecularImaging.pdf"> <span class='lecture_title'> Introduction to molecular imaging </span> <span class='lecture_author'> (Silvio Aime - Torino/Univ) </span> </a></td>
                                         <td class="available"><a href="documenti/IP_Probes_Turin_2012/lectures/design_synt_ImagProbe_2012.pdf"> <span class='lecture_title'> Imaging probe designs and synthesis </span> <span class='lecture_author'> (Alessandro Barge - Torino/Univ) </span> </a></td>
                                         <td class="available"><a href="documenti/IP_Probes_Turin_2012/lectures/Torino19092012_Maiocchi.pdf"> <span class='lecture_title'> Platforms for drug delivery </span> <span class='lecture_author'> (Alessandro Maiocchi - Bracco Imaging SpA) </span></a></td>
-                                        <td><span class='lecture_title'> Gd-complexes: from low MW to nanosized systems </span><span class='lecture_author'> (Mauro Botta - Alessandria/Univ) </span></a></td>
+                                        <td><span class='lecture_title'> Gd-complexes: from low MW to nanosized systems </span><span class='lecture_author'> (Mauro Botta - Alessandria/Univ) </span></td>
                                         <td class="available"><a href="documenti/IP_Probes_Turin_2012/lectures/CEST_agents_Delli_Castelli.pdf"> <span class='lecture_title'> CEST agents </span> <span class='lecture_author'> (Daniela Delli Castelli - Torino/Univ) </span></a></td>
                                     </tr>
                                     <tr>
