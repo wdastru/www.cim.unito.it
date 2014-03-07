@@ -64,7 +64,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p>
                                 <ul>
                                     <li><a class='linkExternal' href="http://www.gidrm.org/gidrmvending/index.php?route=account/register">Create a GIDRM account</a></li>
-                                    <li><a href='http://www.gidrm.org/gidrmvending/index.php?route=product/product&product_id=67' target="_blank">Buy the CEST 2014 event</a></li>
+                                    <li><a class='linkExternal' href='http://www.gidrm.org/gidrmvending/index.php?route=product/product&amp;product_id=67'>Buy the CEST 2014 event</a></li>
                                     <li><a href="http://www.gidrm.org/index.php/activities/cest2014-the-4th-international-workshop-on-chemical-exchange-saturation-transfer-imaging/cest2014-submission-form" target="_blank">Fill in the Submission form</a></li>
                                 </ul>
                             </div>
