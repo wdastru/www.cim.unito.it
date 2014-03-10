@@ -108,9 +108,9 @@
                                         <li> MONDAY, 29<sup>th</sup> October 2012 </li>
                                         <li style="list-style: none">
                                             <ul>
-                                                <p>
+                                                <li style="list-style-type: none;">
                                                     <b><u>WG2 Characterization of Nanocarriers for theranostic agents </u></b>
-                                                </p>
+                                                </li>
 
                                                 <li> 09:00 - 09:05 : Short introduction by WG leader <b>Ruth B. Schmid</b> (SINTEF, Norway)
                                                     <ul>
