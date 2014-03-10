@@ -77,13 +77,11 @@
                                         <li style="list-style: none">
                                             <ul>
                                                 <li> 14:00 - 14:15 : Opening presentation by Prof. <b>Silvio Aime</b> (University of Torino, Torino, Italy) </li>
-
                                                 <li style="list-style-type: none;"><b><span class="underline">WG1 Imaging reporters for theranostic agents</span></b></li>
-
                                                 <li> 14:15 - 14:20 : Short introduction by WG1 leader <b>Eva Jakab-Toth</b> (CNRS, Orleans, France) </li>
                                                 <li> 14:20 - 14:35 : <b>Imre T&oacute;th</b> (University of Debrecen, Hungary)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Mixed ligand metal-complexes modelling anion binding: the hard aluminium(III) and the soft thallium(III)&quot;</i></li>
-                                                <li> 14:35 - 14:50 : <b>Hanno Schieferstein</b> (Johannes Gutenberg-University, Mainz, Germany)
+                                                <li> 14:35 - 14:50 : <b>Hanno Schieferstein</b> (Johannes Gutenberg-University, Mainz, Germany)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Folate receptor targeted delivery of supramolecular drug-carriers monitored by PET&quot;</i></li>
                                                 <li> 14:50 - 15:05 : <b>Tobias Ross</b> (Johannes Gutenberg-University, Mainz, Germany)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Radiolabelling of TaOx nanoparticles for dual-modality imaging&quot;</i></li>
