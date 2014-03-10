@@ -134,39 +134,41 @@
                                                         <li style="list-style-type: none;"><b>In vitro and in vivo models:</b></li>
                                                         <li> 11:35 - 11:50 : <b>Maria Jos&eacute; Alonso</b> (University of Santiago de Compostela, Spain)</li>
                                                         <li style="list-style-type: none;"><i>&quot;Polymer nanostructures for overcoming biological barriers&quot;</i></li>
-                                                        <li> 11:50 - 12:05 : <b>Francesca Baldelli Bombelli</b> (University of East Anglia, Norwich, UK) <li style="list-style-type: none;"><i>&quot;Engineered nanoparticles: the bionano interface in a biological environment&quot;</i></li><li> 12:05 - 12:20 : <b>Maria Blanco Prieto</b> (University of Navarra, Spain)</li><li style="list-style-type: none;"><i>&quot;Complete inhibition of extranodal dissemination of lymphoma by edelfosine-loaded lipid nanoparticles&quot;</i></li><li> 12:20 - 12:35 : <b>Karine Andrieux</b> (University Paris-Sud, France)</li><li style="list-style-type: none;"><i>&quot;In vitro BBB models for studying nanoparticles translocation&quot;</i></li><li> 12:35 - 12:50 : <b>Huw Summers</b> (Swansea University, Swansea, UK)</li><li style="list-style-type: none;"><i>&quot;Development of assays and models for a pharmacology of nanoparticle drug delivery vectors&quot;</i></li><li> 12:50 - 13:05 : <b>Khuloud T. Al-Jamal</b> (Kings College London, London, UK)</li><li style="list-style-type: none;"><i>&quot;Magnetic carbon nanotubes for dual in vivo imaging&quot;</i></li><li> 13:05- 14:05 : Lunch break &amp; poster session </li>
-                                                    </ul></li>
-                                                <br>
-                                                <p>
-                                                    <b><u>WG4 Theranostic agents responsive to endogenous and external stimuli</u></b>
-                                                </p>
-                                                <li> 14:05 - 14:10 : Short introduction by WG4 leader <b>Gerben Koning</b> (Erasmus Medical Center, Rotterdam, Netherlands) </li>
-                                                <li> 14:10 - 14:40 : <b>David Needham</b> (University of Southern Denmark, Odense, Denmark; Duke University, Durham, USA)
-                                                    <br/>
-                                                    <i>&quot;Overcoming limitations in nanoparticle drug delivery: triggered, intravascular release to improve drug penetration into tumors&quot;</i></li>
-                                                <li> 14:40 - 15:00 : <b>Adam Gormley</b> (Imperial College London, London, UK)
-                                                    <br/>
-                                                    <i>&quot;Light and heat guided drug delivery&quot;</i></li>
-                                                <li> 15:00 - 15:20 : <b>Ann Seynhaeve</b> (Erasmus Medical Center, Rotterdam, Netherlands)
-                                                    <br/>
-                                                    <i>&quot;Tumor vessel manipulation to improve drug delivery&quot;</i></li>
-                                                <li> 15:20 - 15:40 : <b>Chantal Pichon</b> (Universit&eacute; d'Orl&eacute;ans, France)
-                                                    <br/>
-                                                    <i>&quot;Ultrasound and microbubbles assisted- gene delivery: in vitro mechanistic investigations and in vivo efficacy&quot;</i></li>
-                                                <li> 15:40 - 16:10 : Coffee break &amp; poster session </li>
-                                                <li> 16:10 - 16:30 : <b>Laila Kudsiova</b> (King's College London, London, UK)
-                                                    <br/>
-                                                    <i>&quot;Delivery of anionic vs. cationic lipopolyplexes to the brain via CED&quot;</i></li>
-                                                <li> 16:30 - 16:50 : <b>Olivier Tillement</b> (Universit&eacute; de Lyon, France)
-                                                    <br/>
-                                                    <i>&quot;Radiosensitizing effect of ultrasmall gadolinium based particles&quot;</i></li>
-                                                <li> 16:50 - 17:10 : <b>Wafa Al-Jamal</b> (UCL School of Pharmacy, UK)
+                                                        <li> 11:50 - 12:05 : <b>Francesca Baldelli Bombelli</b> (University of East Anglia, Norwich, UK)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Engineered nanoparticles: the bionano interface in a biological environment&quot;</i></li>
+                                                        <li> 12:05 - 12:20 : <b>Maria Blanco Prieto</b> (University of Navarra, Spain)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Complete inhibition of extranodal dissemination of lymphoma by edelfosine-loaded lipid nanoparticles&quot;</i></li>
+                                                        <li> 12:20 - 12:35 : <b>Karine Andrieux</b> (University Paris-Sud, France)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;In vitro BBB models for studying nanoparticles translocation&quot;</i></li>
+                                                        <li> 12:35 - 12:50 : <b>Huw Summers</b> (Swansea University, Swansea, UK)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Development of assays and models for a pharmacology of nanoparticle drug delivery vectors&quot;</i></li>
+                                                        <li> 12:50 - 13:05 : <b>Khuloud T. Al-Jamal</b> (Kings College London, London, UK)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Magnetic carbon nanotubes for dual in vivo imaging&quot;</i></li>
+                                                        <li> 13:05- 14:05 : Lunch break &amp; poster session </li>
+                                                        <li style="list-style-type: none;">&nbsp;</li>
+                                                        <li style="list-style-type: none;"><b><u>WG4 Theranostic agents responsive to endogenous and external stimuli</u></b></li>
+                                                        <li> 14:05 - 14:10 : Short introduction by WG4 leader <b>Gerben Koning</b> (Erasmus Medical Center, Rotterdam, Netherlands) </li>
+                                                        <li> 14:10 - 14:40 : <b>David Needham</b> (University of Southern Denmark, Odense, Denmark; Duke University, Durham, USA)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Overcoming limitations in nanoparticle drug delivery: triggered, intravascular release to improve drug penetration into tumors&quot;</i></li>
+                                                        <li> 14:40 - 15:00 : <b>Adam Gormley</b> (Imperial College London, London, UK)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Light and heat guided drug delivery&quot;</i></li>
+                                                        <li> 15:00 - 15:20 : <b>Ann Seynhaeve</b> (Erasmus Medical Center, Rotterdam, Netherlands)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Tumor vessel manipulation to improve drug delivery&quot;</i></li>
+                                                        <li> 15:20 - 15:40 : <b>Chantal Pichon</b> (Universit&eacute; d'Orl&eacute;ans, France)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Ultrasound and microbubbles assisted- gene delivery: in vitro mechanistic investigations and in vivo efficacy&quot;</i></li>
+                                                        <li> 15:40 - 16:10 : Coffee break &amp; poster session </li>
+                                                        <li> 16:10 - 16:30 : <b>Laila Kudsiova</b> (King's College London, London, UK)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Delivery of anionic vs. cationic lipopolyplexes to the brain via CED&quot;</i></li>
+                                                        <li> 16:30 - 16:50 : <b>Olivier Tillement</b> (Universit&eacute; de Lyon, France)</li>
+                                                        <br/>
+                                                        <i>&quot;Radiosensitizing effect of ultrasmall gadolinium based particles&quot;</i>
+                                                </li><li> 16:50 - 17:10 : <b>Wafa Al-Jamal</b> (UCL School of Pharmacy, UK)
                                                     <br/>
                                                     <i>&quot;Different hyperthermia protocols and their effect on drug release&quot;</i></li>
-                                                <li> 17:10 - 17:30 : <b>Zahraa Al-Ahmady</b> (UCL School of Pharmacy, UK)
+                                                    <li> 17:10 - 17:30 : <b>Zahraa Al-Ahmady</b> (UCL School of Pharmacy, UK)
                                                     <br/>
                                                     <i>&quot;Lipid-peptide vesicle nanoscale hybrids for triggered drug release by mild hyperthermia in vitro and in vivo&quot;</i></li>
-                                                <li> 17:30 - 18:30 : Cheese and wine reception &amp; poster session </li>
+                                                    <li> 17:30 - 18:30 : Cheese and wine reception &amp; poster session </li>
                                             </ul></li>
                                         <br>
                                         <li> TUESDAY, 30<sup>th</sup> October 2012 - Henriette Raphael Function Room Guy's Campus </li>
@@ -234,7 +236,6 @@
                                                 <li> 16:00 : Closing remarks by Prof. <b>Silvio Aime</b> (University of Torino, Torino, Italy) </li>
                                             </ul></li>
                                     </ul>
-
                                     <br />
                                     <p style="font-weight:bold; font-size:14px">
                                         POSTER PRESENTATION
