@@ -87,7 +87,7 @@
                                                 <li style="list-style-type: none;"><i>&quot;Radiolabelling of TaOx nanoparticles for dual-modality imaging&quot;</i></li>
                                                 <li> 15:05 - 15:20 : <b>Jonathan Martinelli</b> (University of Piemonte Orientale A. Avogadro, Italy)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Host-guest paramagnetic supramolecular assemblies&quot;</i></li>
-                                                <li> 15:20 - 15:35 : <b>Stephane Petoud</b> (CNRS, Orleans, France)
+                                                <li> 15:20 - 15:35 : <b>Stephane Petoud</b> (CNRS, Orleans, France)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Polymetallic lanthanide metal-organic frameworks for biological imaging in cells&quot;</i></li>
                                                 <li> 15.35 - 15.55 : Coffee break </li>
                                                 <li> 15:55 - 16:10 : <b>Alexandra Foucault</b> (CNRS, Orleans, France)</li>
