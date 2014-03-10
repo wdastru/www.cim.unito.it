@@ -101,71 +101,40 @@
                                                 <li> 16:55 - 17:10 : <b>Sandip M. Vibhute</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Synthetic modification of pH sensitive contrast agents for attachment to functional molecules and its utilization in biotin-avidin system&quot;</i></li>
                                                 <li> 17:10 - 17:25 : <b>Dorothea Moderegger</b> (Johannes Gutenberg-University, Mainz, Germany)</li>
-                                                <li style="list-style-type: none;"><i>&quot;Molecular imaging of HPMA-based drug carrier systems: Influence of size and polymer architecture on body distribution and tumor uptake in vivo&quot;</i></li>                                                <li> 17:30 - 19:30 : MC meeting (for MC members and the MC substitutes) </li>
+                                                <li style="list-style-type: none;"><i>&quot;Molecular imaging of HPMA-based drug carrier systems: Influence of size and polymer architecture on body distribution and tumor uptake in vivo&quot;</i></li><li> 17:30 - 19:30 : MC meeting (for MC members and the MC substitutes) </li>
                                             </ul>
                                             <br />
                                         </li>
                                         <li> MONDAY, 29<sup>th</sup> October 2012 </li>
                                         <li style="list-style: none">
                                             <ul>
-                                                <li style="list-style-type: none;">
-                                                    <b><u>WG2 Characterization of Nanocarriers for theranostic agents </u></b>
-                                                </li>
+                                                <li style="list-style-type: none;"><b><u>WG2 Characterization of Nanocarriers for theranostic agents </u></b></li>
 
                                                 <li> 09:00 - 09:05 : Short introduction by WG leader <b>Ruth B. Schmid</b> (SINTEF, Norway)
                                                     <ul>
-                                                        <br>
-                                                        <p>
-                                                            <b>Physico-chemical methods:</b>
-                                                        </p>
-                                                        <li> 09:05 - 09:20 : <b>Neus Lozano</b> (University College London, London, UK)
-                                                            <br/>
-                                                            <i>&quot;Liposome-gold nanorod hybrids for high-resolution visualization deep in tissues&quot;</i></li>
-                                                        <li> 09:20 - 09:35 : <b>Elias Fattal</b> (University Paris-Sud, France)
-                                                            <br/>
-                                                            <i>&quot;Physico-chemical characterization of nanoparticles in regards to fate and toxicity&quot;</i></li>
-                                                        <li> 09:35 - 09:50 : <b>Ulrich Schatzschneider</b> (Julius-Maximilians-Universit&auml;t, W&uuml;rzburg, Germany)
-                                                            <br/>
-                                                            <i>&quot;Strategies for the modular conjugation of bioactive functional groups to solid nanocarrier materials&quot;</i></li>
-                                                        <li> 09:50 - 10:05 : <b>Aur&eacute;lie Jacquart</b> (CEA-Leti, Grenoble, France)
-                                                            <br/>
-                                                            <i>&quot;Nanocharacterisation of Lipidots?&quot;</i></li>
-                                                        <li> 10:05 - 10:20 : <b>Magdalena Stevanovic</b> (Serbian Academy of Sciences and Arts, Belgrade, Serbia)
-                                                            <br/>
-                                                            <i>&quot;Polyester micro- and nanospheres as carriers for different medicaments&quot;</i></li>
-                                                        <li> 10:20 - 10.35 : <b>Vesa-Pekka Lehto</b> (University of Eastern Finland, Kuopio, Finland)
-                                                            <br/>
-                                                            <i>&quot;Characterization aspects of nanoporous inorganic materials&quot;</i></li>
-                                                        <li> 10:35 - 10:50 : <b>Stefaan de Smedt</b> (Ghent University, Belgium)
-                                                            <br/>
-                                                            <i>&quot;Advanced fluorescence microscopy to study nanomedicines&quot;</i></li>
+                                                        <li style="list-style-type: none;"><b>Physico-chemical methods:</b></li>
+                                                        <li> 09:05 - 09:20 : <b>Neus Lozano</b> (University College London, London, UK)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Liposome-gold nanorod hybrids for high-resolution visualization deep in tissues&quot;</i></li>
+                                                        <li> 09:20 - 09:35 : <b>Elias Fattal</b> (University Paris-Sud, France)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Physico-chemical characterization of nanoparticles in regards to fate and toxicity&quot;</i></li>
+                                                        <li> 09:35 - 09:50 : <b>Ulrich Schatzschneider</b> (Julius-Maximilians-Universit&auml;t, W&uuml;rzburg, Germany)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Strategies for the modular conjugation of bioactive functional groups to solid nanocarrier materials&quot;</i></li>
+                                                        <li> 09:50 - 10:05 : <b>Aur&eacute;lie Jacquart</b> (CEA-Leti, Grenoble, France)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Nanocharacterisation of Lipidots?&quot;</i></li>
+                                                        <li> 10:05 - 10:20 : <b>Magdalena Stevanovic</b> (Serbian Academy of Sciences and Arts, Belgrade, Serbia)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Polyester micro- and nanospheres as carriers for different medicaments&quot;</i></li>
+                                                        <li> 10:20 - 10.35 : <b>Vesa-Pekka Lehto</b> (University of Eastern Finland, Kuopio, Finland)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Characterization aspects of nanoporous inorganic materials&quot;</i></li>
+                                                        <li> 10:35 - 10:50 : <b>Stefaan de Smedt</b> (Ghent University, Belgium)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Advanced fluorescence microscopy to study nanomedicines&quot;</i></li>
                                                         <li> 10:50 - 11:20 : Coffee break & poster session </li>
-                                                        <li> 11:20 - 11:35 : <b>Maria Antonia Herrero Chamorro</b> (University of Castilla-La Mancha, Spain)
-                                                            <br/>
-                                                            <i>&quot;Chemical functionalization and characterization of carbon-based nanomaterials&quot;</i></li>
-                                                        <br>
-                                                        <p>
-                                                            <b>In vitro and in vivo models:</b>
-                                                        </p>
-                                                        <li> 11:35 - 11:50 : <b>Maria Jos&eacute; Alonso</b> (University of Santiago de Compostela, Spain)
-                                                            <br/>
-                                                            <i>&quot;Polymer nanostructures for overcoming biological barriers&quot;</i></li>
-                                                        <li> 11:50 - 12:05 : <b>Francesca Baldelli Bombelli</b> (University of East Anglia, Norwich, UK)
-                                                            <br/>
-                                                            <i>&quot;Engineered nanoparticles: the bionano interface in a biological environment&quot;</i></li>
-                                                        <li> 12:05 - 12:20 : <b>Maria Blanco Prieto</b> (University of Navarra, Spain)
-                                                            <br/>
-                                                            <i>&quot;Complete inhibition of extranodal dissemination of lymphoma by edelfosine-loaded lipid nanoparticles&quot;</i></li>
-                                                        <li> 12:20 - 12:35 : <b>Karine Andrieux</b> (University Paris-Sud, France)
-                                                            <br/>
-                                                            <i>&quot;In vitro BBB models for studying nanoparticles translocation&quot;</i></li>
-                                                        <li> 12:35 - 12:50 : <b>Huw Summers</b> (Swansea University, Swansea, UK)
-                                                            <br/>
-                                                            <i>&quot;Development of assays and models for a pharmacology of nanoparticle drug delivery vectors&quot;</i></li>
-                                                        <li> 12:50 - 13:05 : <b>Khuloud T. Al-Jamal</b> (Kings College London, London, UK)
-                                                            <br/>
-                                                            <i>&quot;Magnetic carbon nanotubes for dual in vivo imaging&quot;</i></li>
-                                                        <li> 13:05- 14:05 : Lunch break &amp; poster session </li>
+                                                        <li> 11:20 - 11:35 : <b>Maria Antonia Herrero Chamorro</b> (University of Castilla-La Mancha, Spain)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Chemical functionalization and characterization of carbon-based nanomaterials&quot;</i></li>
+                                                        <li style="list-style-type: none;">&nbsp;</li>
+                                                        <li style="list-style-type: none;"><b>In vitro and in vivo models:</b></li>
+                                                        <li> 11:35 - 11:50 : <b>Maria Jos&eacute; Alonso</b> (University of Santiago de Compostela, Spain)</li>
+                                                        <li style="list-style-type: none;"><i>&quot;Polymer nanostructures for overcoming biological barriers&quot;</i></li>
+                                                        <li> 11:50 - 12:05 : <b>Francesca Baldelli Bombelli</b> (University of East Anglia, Norwich, UK) <li style="list-style-type: none;"><i>&quot;Engineered nanoparticles: the bionano interface in a biological environment&quot;</i></li><li> 12:05 - 12:20 : <b>Maria Blanco Prieto</b> (University of Navarra, Spain)</li><li style="list-style-type: none;"><i>&quot;Complete inhibition of extranodal dissemination of lymphoma by edelfosine-loaded lipid nanoparticles&quot;</i></li><li> 12:20 - 12:35 : <b>Karine Andrieux</b> (University Paris-Sud, France)</li><li style="list-style-type: none;"><i>&quot;In vitro BBB models for studying nanoparticles translocation&quot;</i></li><li> 12:35 - 12:50 : <b>Huw Summers</b> (Swansea University, Swansea, UK)</li><li style="list-style-type: none;"><i>&quot;Development of assays and models for a pharmacology of nanoparticle drug delivery vectors&quot;</i></li><li> 12:50 - 13:05 : <b>Khuloud T. Al-Jamal</b> (Kings College London, London, UK)</li><li style="list-style-type: none;"><i>&quot;Magnetic carbon nanotubes for dual in vivo imaging&quot;</i></li><li> 13:05- 14:05 : Lunch break &amp; poster session </li>
                                                     </ul></li>
                                                 <br>
                                                 <p>
