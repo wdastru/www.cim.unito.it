@@ -86,26 +86,24 @@
                                                 <li> 14:35 - 14:50 : <b>Hanno Schieferstein</b> (Johannes Gutenberg-University, Mainz, Germany)
                                                 <li style="list-style-type: none;"><i>&quot;Folate receptor targeted delivery of supramolecular drug-carriers monitored by PET&quot;</i></li>
                                                 <li> 14:50 - 15:05 : <b>Tobias Ross</b> (Johannes Gutenberg-University, Mainz, Germany)</li>
-                                                <li style="list-style-type: none;">&nbsp;</li>    <i>&quot;Radiolabelling of TaOx nanoparticles for dual-modality imaging&quot;</i></li>
+                                                <li style="list-style-type: none;"><i>&quot;Radiolabelling of TaOx nanoparticles for dual-modality imaging&quot;</i></li>
                                                 <li> 15:05 - 15:20 : <b>Jonathan Martinelli</b> (University of Piemonte Orientale A. Avogadro, Italy)</li>
-                                                <li style="list-style-type: none;">&nbsp;</li>
-                                                <li><i>&quot;Host-guest paramagnetic supramolecular assemblies&quot;</i></li>
+                                                <li style="list-style-type: none;"><i>&quot;Host-guest paramagnetic supramolecular assemblies&quot;</i></li>
                                                 <li> 15:20 - 15:35 : <b>Stephane Petoud</b> (CNRS, Orleans, France)
                                                 <li style="list-style-type: none;"><i>&quot;Polymetallic lanthanide metal-organic frameworks for biological imaging in cells&quot;</i></li>
                                                 <li> 15.35 - 15.55 : Coffee break </li>
-                                                <li> 15:55 - 16:10 : <b>Alexandra Foucault</b> (CNRS, Orleans, France)
+                                                <li> 15:55 - 16:10 : <b>Alexandra Foucault</b> (CNRS, Orleans, France)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Near-infrared luminescent polyaminoamide lanthanide dendrimer for tumor diagnostic&quot;</i></li>
-                                                <li> 16:10 - 16:25 : <b>Rabha Kerdjoudj</b> (Subatech,Nantes, France)
+                                                <li> 16:10 - 16:25 : <b>Rabha Kerdjoudj</b> (Subatech,Nantes, France)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Evaluation of 44Sc radiopharmaceuticals derived from DOTA-based phosphonic acids &quot;</i></li>
-                                                <li> 16:25 - 16:40 : <b>Edyta Leszczuk</b> (Institute of Nuclear Chemistry and Technology, Warsaw, Poland)
+                                                <li> 16:25 - 16:40 : <b>Edyta Leszczuk</b> (Institute of Nuclear Chemistry and Technology, Warsaw, Poland)</li>
                                                 <li style="list-style-type: none;"><i>&quot;TiO2 nanoparticles as vehicles of 212Pb and 225Ac for internal radiotherapy&quot;</i></li>
-                                                <li> 16:40 - 16:55 : <b>Seweryn Krajewski</b> (Institute of Nuclear Chemistry and Technology, Warsaw, Poland)
+                                                <li> 16:40 - 16:55 : <b>Seweryn Krajewski</b> (Institute of Nuclear Chemistry and Technology, Warsaw, Poland)</li>
                                                 <li style="list-style-type: none;"><i>&quot;44,43Sc and 47Sc as matched pair for theranostic approach to peptide receptor radionuclide therapy&quot;</i></li>
-                                                <li> 16:55 - 17:10 : <b>Sandip M. Vibhute</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)
+                                                <li> 16:55 - 17:10 : <b>Sandip M. Vibhute</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)</li>
                                                 <li style="list-style-type: none;"><i>&quot;Synthetic modification of pH sensitive contrast agents for attachment to functional molecules and its utilization in biotin-avidin system&quot;</i></li>
-                                                <li> 17:10 - 17:25 : <b>Dorothea Moderegger</b> (Johannes Gutenberg-University, Mainz, Germany)
-                                                <li style="list-style-type: none;"><i>&quot;Molecular imaging of HPMA-based drug carrier systems: Influence of size and polymer architecture on body distribution and tumor uptake in vivo&quot;</i></li>
-                                                <li> 17:30 - 19:30 : MC meeting (for MC members and the MC substitutes) </li>
+                                                <li> 17:10 - 17:25 : <b>Dorothea Moderegger</b> (Johannes Gutenberg-University, Mainz, Germany)</li>
+                                                <li style="list-style-type: none;"><i>&quot;Molecular imaging of HPMA-based drug carrier systems: Influence of size and polymer architecture on body distribution and tumor uptake in vivo&quot;</i></li>                                                <li> 17:30 - 19:30 : MC meeting (for MC members and the MC substitutes) </li>
                                             </ul>
                                             <br />
                                         </li>
