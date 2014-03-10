@@ -18,11 +18,12 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
-        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
+        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
+        <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
+
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>
@@ -50,23 +51,22 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <h1 style="line-height: 28px; text-align: center;">Registration</h1>
                                 <br />
                                 <p>
-                                    The registation fee (<u style="color: #DB6D16">150&euro;</u>) will cover the costs of coffee-breaks, lunches and transport on May 8-9<sup>th</sup>, 2014 and the annual subscription fee to the GIDRM (Italian Magnetic Resonance Discussion Group).
+                                    The registation fee (<span class='underline' style="color: #DB6D16">150&euro;</span>) will cover the costs of coffee-breaks, lunches and transport on May 8-9<sup>th</sup>, 2014 and the annual subscription fee to the GIDRM (Italian Magnetic Resonance Discussion Group).
                                     <br/>
-                                    After April 11<sup>th</sup> the fee will increase to <u style="color: #DB6D16">200&euro;</u>.
+                                    After April 11<sup>th</sup> the fee will increase to <span class='underline' style="color: #DB6D16">200&euro;</span>.
                                 </p>
                                 <p>
                                     GIDRM takes care of the registration/payment procedure.
                                     <br/><br/>
-                                    <u>Procedure</u>
+                                    <span>Procedure</span>
                                     <br/>
                                     Please proceed to the registration by doing the following:
-                                    <ul>
-                                        <u><li><a href="http://www.gidrm.org/gidrmvending/index.php?route=account/register" target="_blank">Create a GIDRM account</a></li></u>
-                                        <u><li><a href="http://www.gidrm.org/gidrmvending/index.php?route=product/product&product_id=67" target="_blank">Buy the CEST 2014 event</a></li></u>
-                                        <u><li><a href="http://www.gidrm.org/index.php/activities/cest2014-the-4th-international-workshop-on-chemical-exchange-saturation-transfer-imaging/cest2014-submission-form" target="_blank">Fill in the Submission form</a></li></u>
-                                    </ul>
                                 </p>
-                                
+                                <ul>
+                                    <li><a class='linkExternal' href="http://www.gidrm.org/gidrmvending/index.php?route=account/register">Create a GIDRM account</a></li>
+                                    <li><a class='linkExternal' href='http://www.gidrm.org/gidrmvending/index.php?route=product/product&amp;product_id=67'>Buy the CEST 2014 event</a></li>
+                                    <li><a class='linkExternal' href="http://www.gidrm.org/index.php/activities/cest2014-the-4th-international-workshop-on-chemical-exchange-saturation-transfer-imaging/cest2014-submission-form">Fill in the Submission form</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
