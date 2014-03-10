@@ -108,7 +108,7 @@
                                         <li> MONDAY, 29<sup>th</sup> October 2012 </li>
                                         <li style="list-style: none">
                                             <ul>
-                                                <li style="list-style-type: none;"><b><u>WG2 Characterization of Nanocarriers for theranostic agents </u></b></li>
+                                                <li style="list-style-type: none;"><b><span class="underline">WG2 Characterization of Nanocarriers for theranostic agents </span></b></li>
 
                                                 <li> 09:00 - 09:05 : Short introduction by WG leader <b>Ruth B. Schmid</b> (SINTEF, Norway)
                                                     <ul>
@@ -146,7 +146,7 @@
                                                         <li style="list-style-type: none;"><i>&quot;Magnetic carbon nanotubes for dual in vivo imaging&quot;</i></li>
                                                         <li> 13:05- 14:05 : Lunch break &amp; poster session </li>
                                                         <li style="list-style-type: none;">&nbsp;</li>
-                                                        <li style="list-style-type: none;"><b><u>WG4 Theranostic agents responsive to endogenous and external stimuli</u></b></li>
+                                                        <li style="list-style-type: none;"><b><span class="underline">WG4 Theranostic agents responsive to endogenous and external stimuli</span></b></li>
                                                         <li> 14:05 - 14:10 : Short introduction by WG4 leader <b>Gerben Koning</b> (Erasmus Medical Center, Rotterdam, Netherlands) </li>
                                                         <li> 14:10 - 14:40 : <b>David Needham</b> (University of Southern Denmark, Odense, Denmark; Duke University, Durham, USA)</li>
                                                         <li style="list-style-type: none;"><i>&quot;Overcoming limitations in nanoparticle drug delivery: triggered, intravascular release to improve drug penetration into tumors&quot;</i></li>
@@ -175,7 +175,7 @@
                                         <li style="list-style: none">
                                             <ul>
                                                 <p>
-                                                    <b><u>WG4 Theranostic agents responsive to endogenous and external stimuli</u></b>
+                                                    <b><span class="underline">WG4 Theranostic agents responsive to endogenous and external stimuli</span></b>
                                                 </p>
                                                 <li> 09:00 - 09:20 : <b>Goran Angelovski</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)
                                                     <br/>
@@ -192,7 +192,7 @@
                                                 <li> 10:10 - 10:40 : Coffee break &amp; poster session </li>
                                                 <br>
                                                 <p>
-                                                    <b><u>WG3 Preparation and selection of targeting vectors</u></b>
+                                                    <b><span class="underline">WG3 Preparation and selection of targeting vectors</span></b>
                                                 </p>
                                                 <li> 10:40 - 10:45 : Short introduction by WG3 leader <b>Robert Muller</b> (University of Mons, Belgium) </li>
                                                 <li> 10:45 - 11:05 : <b>Sarah Bela&iuml;d</b> (University of Mons, Belgium)
@@ -216,7 +216,7 @@
 
                                                 <br>
                                                 <p>
-                                                    <b><u>WG5 Set-up of preclinical theranostic protocols</u></b>
+                                                    <b><span class="underline">WG5 Set-up of preclinical theranostic protocols</span></b>
                                                 </p>
 
                                                 <li> 14:05 - 14:10 : Short introduction by WG5 leader <b>George Loudos</b> (Technological Educational Institute of Athens, Greece) </li>
