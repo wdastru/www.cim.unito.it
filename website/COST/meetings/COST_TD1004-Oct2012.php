@@ -315,7 +315,8 @@
                                         <li style="list-style-type: none">(King's College London, UK)</li>
                                         <li style="list-style-type: none"><i>&quot;Image-guided focused ultrasound for targeted anticancer drug delivery&quot;.</i></li>
                                         <li><b>Patrick Wilhelm, Carsten Kroll, Helmut R. Maecke and Helma Wennemers</b></li>
-                                        <li style="list-style-type: none">(Laboratory of Organic Chemistry, ETH Z&uuml;rich, Switzerland) &quot;Oligoproline as a molecular scaffold for tumor targeting&quot;</i> </li>
+                                        <li style="list-style-type: none">(Laboratory of Organic Chemistry, ETH Z&uuml;rich, Switzerland)
+                                        <li style="list-style-type: none"><i>&quot;Oligoproline as a molecular scaffold for tumor targeting&quot;</i> </li>
                                     </ol>
                                 </div>
                             </div>
