@@ -233,113 +233,27 @@
                                         POSTER PRESENTATION
                                     </p>
                                     <ol>
-                                        <li><b>Florian Mayer, P. van der Est, R. Goverde and K. Djanashvili</b><li style="list-style-type: none">(Delft University of Technology, Netherlands),</li><li style="list-style-type: none"><i>&quot;Fluorogenic click reactions for nanoparticles functionalization&quot;.</i></li><li><b>W. Zhang, F. Mayer, J.A. Peters and Kristina Djanashvili</b>
-                                                <br>
-                                                (Delft University of Technology, Netherlands),
-                                                <br>
-                                                <i>&quot;Ln(III)-loaded zeolites for multimodal imaging&quot;.</i></li><li><b>Ana C. Mendon&ccedil;a, Andr&eacute; F. Martins, Andreia Melchiorre, S&eacute;rgio M. Marques, S&iacute;lvia Chaves, St&eacute;phane Petoud, P.L. Zanonato, Marilena Tolazzi, C&eacute;lia S. Bonnet, &Eacute;va T&oacute;th, Plinio di Bernardo, Carlos F.G.C. Geraldes and M. Am&eacute;lia Santos</b>
-                                                <br>
-                                                (University of Coimbra, Portugal),
-                                                <br>
-                                                <i>&quot;New lanthanide complexes with a Tris-3,4-HOPO ligand, as new potential imaging probes&quot;.</i></li><li><b>Lorenzo Tei</b>
-                                                <br>
-                                                (University of Piemonte Orientale A. Avogadro, Italy),
-                                                <br>
-                                                <i>&quot;Small sized liposomes and discoidal micelles by incorporation of amphiphilic Mn(II) complexes&quot;.</i></li><li><b>Mauro Botta</b>
-                                                <br>
-                                                (University of Piemonte A. Avogadro, Italy),
-                                                <br>
-                                                <i>&quot;A novel ditopic Gd(III) complex functionalized with an adamantyl moiety&quot;.</i></li><li><b>C&eacute;lia Bonnet</b>
-                                                <br>
-                                                (CNRS, Orleans, France),
-                                                <br>
-                                                <i>&quot;Zinc responsive agents&quot;.</i></li><li><b>Michal Maurin</b>
-                                                <br>
-                                                (NCNR Radioisotope Centre POLATOM, Poland),
-                                                <br>
-                                                <i>&quot;Preliminary results of 90Y radiolabelling of ultra small rigid particles as multimodal probes&quot;.</i></li><li><b>Agata Piotrowska, E.Leszczuk and A.Bilewicz</b>
-                                                <br>
-                                                (Institute of Nuclear Chemistry and Technology, Warsaw, Poland),
-                                                <br>
-                                                <i>&quot;Nanozeolite as a vehicle for 223,224,225Ra radionuclides&quot;.</i></li><li><b>C. Tsoukalas, T. Tsotakos, M. Meckel, V. Kubicek, S. Xanthopoulos, P. Hermann, F. Roesch and P. Bouziotis</b>
-                                                <br>
-                                                (Demokritos, Athens, Greece),
-                                                <br>
-                                                <i>&quot;Attempts toward the development of dual-modality imaging agents based on the conjugation of biphosphonates directly to the surface of superparamagnetic iron oxide nanoparticles&quot;.</i></li><li><b>Zsolt Baranyai, Anett Tak&aacute;cs, Bal&aacute;zs Podoly&aacute;k, Mih&aacute;ly Purgel, Roberta Napolitano, Silvio Aime, Erno Br&uuml;cher and Imre T&oacute;th</b>
-                                                <br>
-                                                (University of Debrecen, Hungary),
-                                                <br>
-                                                <i>&quot;Equilibrium, kinetic, relaxation and structural properties of H3DO3A-sulfonamide ligand and its Ca2+, Zn2+, Cu2+ and Ln3+-complexes&quot;.</i></li><li><b>Ondrej Zemek, Jan Kotek and Petr Hermann</b>
-                                                <br>
-                                                (Charles University, Czech Republic),
-                                                <br>
-                                                <i>&quot;Monophosphinic acid DOTA analog for click chemistry&quot;.</i></li><li><b>Eva Jakab-Toth</b>
-                                                <br>
-                                                (CNRS, Orleans, France),
-                                                <br>
-                                                <i>&quot;Liposomes and Lipoproteins as bimodal imaging probes&quot;.</i></li><li><b>Silvia Fontenete, N. Guimar&atilde;es, M. Leite, C. Figueiredo, J. Wengel and N.F. Azevedo</b>
-                                                <br>
-                                                (University of Porto, Portugal),
-                                                <br>
-                                                <i>&quot;Nucleic acid mimics hybridization at human body temperature in Heliobacter pylori&quot;.</i></li><li><b>Rita S. Santos, Nuno Guimar&atilde;es, Pedro Madureira and Nuno F. Azevedo</b>
-                                                <br>
-                                                (University of Porto, Portugal),
-                                                <br>
-                                                <i>&quot;Impact of the external cellular milieu on the diffusion and hybridization of nucleic acids in bacterial cells&quot;.</i></li><li><b>Jussi Rytk&ouml;nen</b>
-                                                <br>
-                                                (University of Eastern Finland, Finland),
-                                                <br>
-                                                <i>&quot;Intracellular delivery of antisense oligonucleotides with porous silicon nanoparticles&quot;.</i></li><li><b>Desire Di Silvio</b>
-                                                <br>
-                                                (University of East Anglia, UK),
-                                                <br>
-                                                <i>&quot;Study of the interaction between protein corona nanoparticles and lipid bilayers as cell membrane models&quot;.</i></li><li><b>Aarthi Rekha Devarajan</b>
-                                                <br>
-                                                (University of East Anglia, UK),
-                                                <br>
-                                                <i>&quot;Hazard assessment of engineered nanocarriers using in vitro and in vivo toxicity studies&quot;.</i></li><li><b>Francisco Silva, A. Zambre, An&oacute;nio Paulo, R. Kannan and Isabel Santos</b>
-                                                <br>
-                                                (Universidade T&eacute;cnica de Lisboa, Portugal),
-                                                <br>
-                                                <i>&quot;Multifunctional gold nanoparticles for theranostic applications&quot;.</i></li><li><b>D. Stanicki, S. Laurent, L. Vander Elst, R.N. Muller</b>
-                                                <br>
-                                                (Umons, Belgium),
-                                                <br>
-                                                <i>&quot;Flurophore-tagged iron oxide nanoparticles as bimodal contrast agents for MRI and optical imaging&quot;.</i></li><li><b>E. Lipani, S. Laurent, M. Surin, L. Vander Elst, P. Lecl&egrave;re, R. Lazzaroni, Robert Muller</b>
-                                                <br>
-                                                (Umons, Belgium),
-                                                <br>
-                                                <i>&quot;Characterization of biomedical nanomaterials for Magnetic Resonance Imaging&quot;.</i></li><li><b>Tamara Cacev and Kapitanovic, S</b>
-                                                <br>
-                                                (Rudjer Boskovic Institute, Croatia),
-                                                <br>
-                                                <i>&quot;Cancer as a challenge of the theranostic nanomedicine and Laboratory for Personalized Medicine (IRB)&quot;.</i></li><li><b>Lydia Sandiford and Rafael T. M. de Rosales</b>
-                                                <br>
-                                                (King's College London, UK),
-                                                <br>
-                                                <i>&quot;Bisphosphonate-anchored PEGylation and radiolabeling of superparamagnetic iron oxide: Ultra-stable nanoparticles for in vivo multimodal imaging&quot;.</i></li><li><b>Javier Guerra, A.M. Herreros, C. Mart&iacute;n-Jim&eacute;nez, M.D. P&eacute;rez-Carri&oacute;n, F.C. P&eacute;rez-Mart&iacute;nez, J.C. Garc&iacute;a-Mart&iacute;nez, S. Merino. J. Tejeda, P. S&aacute;nchez-Verd&uacute;, V. Ce&ntilde;a, J. Rodr&iacute;guez-L&oacute;pez</b>
-                                                <br>
-                                                (University of Castilla-La Mancha, Spain),
-                                                <br>
-                                                <i>&quot;Gold nanoparticles in assembled gene delivery carrier&quot;.</i></li><li><b>Raha Ahmad Khanbeigi, Zeina Hashim, Mark Green, Helen Collins and Lea Ann Dailey</b>
-                                                <br>
-                                                (King's College London, UK),
-                                                <br>
-                                                <i>&quot;Synthesis and safety assessment of conjugated polymer nanoparticles as photostable imaging agents&quot;.</i></li><li><b>Wouter JM. Lokerse, Sarah Belaid, Sophie Laurent, Timo LM. ten Hagen, Alexander MM. Eggermont, Holger Gruell, Robert N. Muller and Gerben A. Koning</b>
-                                                <br>
-                                                (Erasmus Medical Centre, Rotterdam, Netherlands)
-                                                <br>
-                                                <i>&quot;Magnetic nanoparticles for localized hyperthermia and controlled drug release in solid tumors&quot;.</i></li><li><b>Michiel Bolkestein, Dubravka Drabek, Timo L.M. ten Hagen, Alexander M.M. Eggermont, Frank G. Grosveld and Gerben A. Koning</b>
-                                                <br>
-                                                (Erasmus Medical Centre, Rotterdam, Netherlands)
-                                                <br>
-                                                <i>&quot;Immunoliposomes with single-domain antibodies targeted agains epidermal growth factor receptor (EGFR)&quot;.</i></li><li><b>Michael Wright, Elena Rosca, Roman Gonitel, Andrew D. Miller, Wladyslaw Gedroyc and Maya Thanou</b>
-                                                <br>
-                                                (King's College London, UK)
-                                                <br>
-                                                <i>&quot;Image-guided focused ultrasound for targeted anticancer drug delivery&quot;.</i></li><li><b>Patrick Wilhelm, Carsten Kroll, Helmut R. Maecke and Helma Wennemers</b>
-                                                <br>
-                                                (Laboratory of Organic Chemistry, ETH Z&uuml;rich, Switzerland) &quot;Oligoproline as a molecular scaffold for tumor targeting&quot;</i> </li>
+                                        <li><b>Florian Mayer, P. van der Est, R. Goverde and K. Djanashvili</b></li>
+                                        <li style="list-style-type: none">(Delft University of Technology, Netherlands),</li>
+                                        <li style="list-style-type: none"><i>&quot;Fluorogenic click reactions for nanoparticles functionalization&quot;.</i></li>
+                                        <li><b>W. Zhang, F. Mayer, J.A. Peters and Kristina Djanashvili</b></li>
+                                        <li style="list-style-type: none">(Delft University of Technology, Netherlands),</li>
+                                        <li style="list-style-type: none"><i>&quot;Ln(III)-loaded zeolites for multimodal imaging&quot;.</i></li>
+                                        <li><b>Ana C. Mendon&ccedil;a, Andr&eacute; F. Martins, Andreia Melchiorre, S&eacute;rgio M. Marques, S&iacute;lvia Chaves, St&eacute;phane Petoud, P.L. Zanonato, Marilena Tolazzi, C&eacute;lia S. Bonnet, &Eacute;va T&oacute;th, Plinio di Bernardo, Carlos F.G.C. Geraldes and M. Am&eacute;lia Santos</b></li>
+                                        <li style="list-style-type: none">(University of Coimbra, Portugal),</li>
+                                        <li style="list-style-type: none"><i>&quot;New lanthanide complexes with a Tris-3,4-HOPO ligand, as new potential imaging probes&quot;.</i></li>
+                                        <li><b>Lorenzo Tei</b></li>
+                                        <li style="list-style-type: none">(University of Piemonte Orientale A. Avogadro, Italy),</li>
+                                        <li style="list-style-type: none"><i>&quot;Small sized liposomes and discoidal micelles by incorporation of amphiphilic Mn(II) complexes&quot;.</i></li>
+                                        <li><b>Mauro Botta</b></li>
+                                        <li style="list-style-type: none">(University of Piemonte A. Avogadro, Italy),</li>
+                                        <li style="list-style-type: none"><i>&quot;A novel ditopic Gd(III) complex functionalized with an adamantyl moiety&quot;.</i></li>
+                                        <li><b>C&eacute;lia Bonnet</b></li>
+                                        <li style="list-style-type: none">(CNRS, Orleans, France),</li>
+                                        <li style="list-style-type: none"><i>&quot;Zinc responsive agents&quot;.</i></li>
+                                        <li><b>Michal Maurin</b></li>
+                                        <li style="list-style-type: none">(NCNR Radioisotope Centre POLATOM, Poland),</li>
+                                        <li style="list-style-type: none"><i>&quot;Preliminary results of 90Y radiolabelling of ultra small rigid particles as multimodal probes&quot;.</i></li><li><b>Agata Piotrowska, E.Leszczuk and A.Bilewicz</b></li><li style="list-style-type: none">(Institute of Nuclear Chemistry and Technology, Warsaw, Poland),</li><li style="list-style-type: none"><i>&quot;Nanozeolite as a vehicle for 223,224,225Ra radionuclides&quot;.</i></li><li><b>C. Tsoukalas, T. Tsotakos, M. Meckel, V. Kubicek, S. Xanthopoulos, P. Hermann, F. Roesch and P. Bouziotis</b></li><li style="list-style-type: none">(Demokritos, Athens, Greece),</li><li style="list-style-type: none"><i>&quot;Attempts toward the development of dual-modality imaging agents based on the conjugation of biphosphonates directly to the surface of superparamagnetic iron oxide nanoparticles&quot;.</i></li><li><b>Zsolt Baranyai, Anett Tak&aacute;cs, Bal&aacute;zs Podoly&aacute;k, Mih&aacute;ly Purgel, Roberta Napolitano, Silvio Aime, Erno Br&uuml;cher and Imre T&oacute;th</b></li><li style="list-style-type: none">(University of Debrecen, Hungary),</li><li style="list-style-type: none"><i>&quot;Equilibrium, kinetic, relaxation and structural properties of H3DO3A-sulfonamide ligand and its Ca2+, Zn2+, Cu2+ and Ln3+-complexes&quot;.</i></li><li><b>Ondrej Zemek, Jan Kotek and Petr Hermann</b></li><li style="list-style-type: none">(Charles University, Czech Republic),</li><li style="list-style-type: none"><i>&quot;Monophosphinic acid DOTA analog for click chemistry&quot;.</i></li><li><b>Eva Jakab-Toth</b></li><li style="list-style-type: none">(CNRS, Orleans, France),</li><li style="list-style-type: none"><i>&quot;Liposomes and Lipoproteins as bimodal imaging probes&quot;.</i></li><li><b>Silvia Fontenete, N. Guimar&atilde;es, M. Leite, C. Figueiredo, J. Wengel and N.F. Azevedo</b></li><li style="list-style-type: none">(University of Porto, Portugal),</li><li style="list-style-type: none"><i>&quot;Nucleic acid mimics hybridization at human body temperature in Heliobacter pylori&quot;.</i></li><li><b>Rita S. Santos, Nuno Guimar&atilde;es, Pedro Madureira and Nuno F. Azevedo</b></li><li style="list-style-type: none">(University of Porto, Portugal),</li><li style="list-style-type: none"><i>&quot;Impact of the external cellular milieu on the diffusion and hybridization of nucleic acids in bacterial cells&quot;.</i></li><li><b>Jussi Rytk&ouml;nen</b></li><li style="list-style-type: none">(University of Eastern Finland, Finland),</li><li style="list-style-type: none"><i>&quot;Intracellular delivery of antisense oligonucleotides with porous silicon nanoparticles&quot;.</i></li><li><b>Desire Di Silvio</b><li style="list-style-type: none">(University of East Anglia, UK), <li style="list-style-type: none"><i>&quot;Study of the interaction between protein corona nanoparticles and lipid bilayers as cell membrane models&quot;.</i></li><li><b>Aarthi Rekha Devarajan</b><li style="list-style-type: none">(University of East Anglia, UK), <li style="list-style-type: none"><i>&quot;Hazard assessment of engineered nanocarriers using in vitro and in vivo toxicity studies&quot;.</i></li><li><b>Francisco Silva, A. Zambre, An&oacute;nio Paulo, R. Kannan and Isabel Santos</b><li style="list-style-type: none">(Universidade T&eacute;cnica de Lisboa, Portugal), <li style="list-style-type: none"><i>&quot;Multifunctional gold nanoparticles for theranostic applications&quot;.</i></li><li><b>D. Stanicki, S. Laurent, L. Vander Elst, R.N. Muller</b><li style="list-style-type: none">(Umons, Belgium), <li style="list-style-type: none"><i>&quot;Flurophore-tagged iron oxide nanoparticles as bimodal contrast agents for MRI and optical imaging&quot;.</i></li><li><b>E. Lipani, S. Laurent, M. Surin, L. Vander Elst, P. Lecl&egrave;re, R. Lazzaroni, Robert Muller</b> (Umons, Belgium), <i>&quot;Characterization of biomedical nanomaterials for Magnetic Resonance Imaging&quot;.</i></li><li><b>Tamara Cacev and Kapitanovic, S</b> (Rudjer Boskovic Institute, Croatia), <i>&quot;Cancer as a challenge of the theranostic nanomedicine and Laboratory for Personalized Medicine (IRB)&quot;.</i></li><li><b>Lydia Sandiford and Rafael T. M. de Rosales</b> (King's College London, UK), <i>&quot;Bisphosphonate-anchored PEGylation and radiolabeling of superparamagnetic iron oxide: Ultra-stable nanoparticles for in vivo multimodal imaging&quot;.</i></li><li><b>Javier Guerra, A.M. Herreros, C. Mart&iacute;n-Jim&eacute;nez, M.D. P&eacute;rez-Carri&oacute;n, F.C. P&eacute;rez-Mart&iacute;nez, J.C. Garc&iacute;a-Mart&iacute;nez, S. Merino. J. Tejeda, P. S&aacute;nchez-Verd&uacute;, V. Ce&ntilde;a, J. Rodr&iacute;guez-L&oacute;pez</b> (University of Castilla-La Mancha, Spain), <i>&quot;Gold nanoparticles in assembled gene delivery carrier&quot;.</i></li><li><b>Raha Ahmad Khanbeigi, Zeina Hashim, Mark Green, Helen Collins and Lea Ann Dailey</b> (King's College London, UK), <i>&quot;Synthesis and safety assessment of conjugated polymer nanoparticles as photostable imaging agents&quot;.</i></li><li><b>Wouter JM. Lokerse, Sarah Belaid, Sophie Laurent, Timo LM. ten Hagen, Alexander MM. Eggermont, Holger Gruell, Robert N. Muller and Gerben A. Koning</b> (Erasmus Medical Centre, Rotterdam, Netherlands) <i>&quot;Magnetic nanoparticles for localized hyperthermia and controlled drug release in solid tumors&quot;.</i></li><li><b>Michiel Bolkestein, Dubravka Drabek, Timo L.M. ten Hagen, Alexander M.M. Eggermont, Frank G. Grosveld and Gerben A. Koning</b> (Erasmus Medical Centre, Rotterdam, Netherlands) <i>&quot;Immunoliposomes with single-domain antibodies targeted agains epidermal growth factor receptor (EGFR)&quot;.</i></li><li><b>Michael Wright, Elena Rosca, Roman Gonitel, Andrew D. Miller, Wladyslaw Gedroyc and Maya Thanou</b> (King's College London, UK) <i>&quot;Image-guided focused ultrasound for targeted anticancer drug delivery&quot;.</i></li><li><b>Patrick Wilhelm, Carsten Kroll, Helmut R. Maecke and Helma Wennemers</b> (Laboratory of Organic Chemistry, ETH Z&uuml;rich, Switzerland) &quot;Oligoproline as a molecular scaffold for tumor targeting&quot;</i> </li>
                                     </ol>
                                 </div>
                             </div>
