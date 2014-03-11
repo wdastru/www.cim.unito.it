@@ -174,7 +174,6 @@
                                                 <li> 17:30 - 18:30 : Cheese and wine reception &amp; poster session </li>
                                             </ul></li>
                                     </ul>
-                                    </li>
                                     </ul></li><li> TUESDAY, 30<sup>th</sup> October 2012 - Henriette Raphael Function Room Guy's Campus </li><li style="list-style: none">
                                         <ul>
                                             <li style="list-style-type: none;"><b><span class="underline">WG4 Theranostic agents responsive to endogenous and external stimuli</span></b></li>
