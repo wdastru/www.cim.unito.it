@@ -173,64 +173,66 @@
                                                 <li style="list-style-type: none;"><i>&quot;Lipid-peptide vesicle nanoscale hybrids for triggered drug release by mild hyperthermia in vitro and in vivo&quot;</i></li>
                                                 <li> 17:30 - 18:30 : Cheese and wine reception &amp; poster session </li>
                                             </ul></li>
-                                    </ul><li> TUESDAY, 30<sup>th</sup> October 2012 - Henriette Raphael Function Room Guy's Campus </li><li style="list-style: none">
-                                        <ul>
-                                            <li style="list-style-type: none;"><b><span class="underline">WG4 Theranostic agents responsive to endogenous and external stimuli</span></b></li>
-                                            <li style="list-style-type: none;">&nbsp;</li>
-                                            <li> 09:00 - 09:20 : <b>Goran Angelovski</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)</li>
-                                            <li style="list-style-type: none;"><i>&quot;Dynamic and target-specific MRI probes for neuroimaging&quot;</i></li>
-                                            <li> 09:20 - 09:40 : <b>Catharina de Lange Davies</b> (NTNU, Trondheim, Norway)</li>
-                                            <li style="list-style-type: none;"><i>&quot;Ultrasound enhanced uptake and improved microdistribution of multifunctional nanoparticles in prostate tumours in mice&quot;</i></li>
-                                            <li> 09:40 - 09:55 : <b>Stanley Fokong</b> (University of Aachen, Germany)</li>
-                                            <li style="list-style-type: none;"><i>&quot;Image-guided, targeted and triggered drug delivery to tumors using polymer-based microbubbles&quot;</i></li>
-                                            <li> 09:55 - 10:10 : <b>Silvia Rizzitelli</b> (University of Torino, Italy)</li>
-                                            <li style="list-style-type: none;"><i>&quot;In vivo MRI visualization of the intratumor release of doxorubicin from liposomes by non focused ultrasound&quot;</i></li>
-                                            <li> 10:10 - 10:40 : Coffee break &amp; poster session </li>
-                                            <br>
-                                            <p>
-                                                <b><span class="underline">WG3 Preparation and selection of targeting vectors</span></b>
-                                            </p>
-                                            <li> 10:40 - 10:45 : Short introduction by WG3 leader <b>Robert Muller</b> (University of Mons, Belgium) </li>
-                                            <li> 10:45 - 11:05 : <b>Sarah Bela&iuml;d</b> (University of Mons, Belgium)
-                                                <br/>
-                                                <i>&quot;Physicochemical properties of ultrasmall iron oxide nanoparticles synthesized by thermal decomposition&quot;</i></li>
-                                            <li> 11:05 - 11:25 : <b>Fran&ccedil;ois Lux</b> (Universit&eacute; de Lyon, France)
-                                                <br/>
-                                                <i>&quot;AGuIX: a new class of theranostic particles&quot;</i></li>
-                                            <li> 11:25 - 11:45 : <b>Maria Laura Bolognesi</b> (Universit&aacute; di Bologna, Italy)
-                                                <br/>
-                                                <i>&quot;A fluorescent small molecule with combined therapeutic and diagnostic activities against Alzheimer's and prion diseases&quot;</i></li>
-                                            <li> 11:45 - 12:05 : <b>Sijumon Kunjachan</b> (RWTH Aachen University Clinic, Germany)
-                                                <br/>
-                                                <i>&quot;Hybrid CT-FMT imaging of tumor vascular targeting&quot;</i></li>
-                                            <li> 12:05 - 12:25 : <b>Maria Garrido</b> (University of Navarra, Spain)
-                                                <br/>
-                                                <i>&quot;Targeting of epidermal growth factor receptor in colon cancer cell lines with PEGylated liposomes coupling to different ligands&quot;</i></li>
-                                            <li> 12:25 - 12:45 : <b>Twan Lammers</b> (Universiteit Utrecht, Netherlands)
-                                                : &quot;Passive versus active targeting&quot;</i> </li>
-                                            <li> 12:45 - 14:05 : Lunch break and poster session </li>
+                                    </ul>
+                                    <ul>
+                                        <li> TUESDAY, 30<sup>th</sup> October 2012 - Henriette Raphael Function Room Guy's Campus </li><li style="list-style: none">
+                                            <ul>
+                                                <li style="list-style-type: none;"><b><span class="underline">WG4 Theranostic agents responsive to endogenous and external stimuli</span></b></li>
+                                                <li style="list-style-type: none;">&nbsp;</li>
+                                                <li> 09:00 - 09:20 : <b>Goran Angelovski</b> (Max Planck Institute for Biological Cybernetics, T&uuml;bingen, Germany)</li>
+                                                <li style="list-style-type: none;"><i>&quot;Dynamic and target-specific MRI probes for neuroimaging&quot;</i></li>
+                                                <li> 09:20 - 09:40 : <b>Catharina de Lange Davies</b> (NTNU, Trondheim, Norway)</li>
+                                                <li style="list-style-type: none;"><i>&quot;Ultrasound enhanced uptake and improved microdistribution of multifunctional nanoparticles in prostate tumours in mice&quot;</i></li>
+                                                <li> 09:40 - 09:55 : <b>Stanley Fokong</b> (University of Aachen, Germany)</li>
+                                                <li style="list-style-type: none;"><i>&quot;Image-guided, targeted and triggered drug delivery to tumors using polymer-based microbubbles&quot;</i></li>
+                                                <li> 09:55 - 10:10 : <b>Silvia Rizzitelli</b> (University of Torino, Italy)</li>
+                                                <li style="list-style-type: none;"><i>&quot;In vivo MRI visualization of the intratumor release of doxorubicin from liposomes by non focused ultrasound&quot;</i></li>
+                                                <li> 10:10 - 10:40 : Coffee break &amp; poster session </li>
+                                                <br>
+                                                <p>
+                                                    <b><span class="underline">WG3 Preparation and selection of targeting vectors</span></b>
+                                                </p>
+                                                <li> 10:40 - 10:45 : Short introduction by WG3 leader <b>Robert Muller</b> (University of Mons, Belgium) </li>
+                                                <li> 10:45 - 11:05 : <b>Sarah Bela&iuml;d</b> (University of Mons, Belgium)
+                                                    <br/>
+                                                    <i>&quot;Physicochemical properties of ultrasmall iron oxide nanoparticles synthesized by thermal decomposition&quot;</i></li>
+                                                <li> 11:05 - 11:25 : <b>Fran&ccedil;ois Lux</b> (Universit&eacute; de Lyon, France)
+                                                    <br/>
+                                                    <i>&quot;AGuIX: a new class of theranostic particles&quot;</i></li>
+                                                <li> 11:25 - 11:45 : <b>Maria Laura Bolognesi</b> (Universit&aacute; di Bologna, Italy)
+                                                    <br/>
+                                                    <i>&quot;A fluorescent small molecule with combined therapeutic and diagnostic activities against Alzheimer's and prion diseases&quot;</i></li>
+                                                <li> 11:45 - 12:05 : <b>Sijumon Kunjachan</b> (RWTH Aachen University Clinic, Germany)
+                                                    <br/>
+                                                    <i>&quot;Hybrid CT-FMT imaging of tumor vascular targeting&quot;</i></li>
+                                                <li> 12:05 - 12:25 : <b>Maria Garrido</b> (University of Navarra, Spain)
+                                                    <br/>
+                                                    <i>&quot;Targeting of epidermal growth factor receptor in colon cancer cell lines with PEGylated liposomes coupling to different ligands&quot;</i></li>
+                                                <li> 12:25 - 12:45 : <b>Twan Lammers</b> (Universiteit Utrecht, Netherlands)
+                                                    : &quot;Passive versus active targeting&quot;</i> </li>
+                                                <li> 12:45 - 14:05 : Lunch break and poster session </li>
 
-                                            <br>
-                                            <p>
-                                                <b><span class="underline">WG5 Set-up of preclinical theranostic protocols</span></b>
-                                            </p>
+                                                <br>
+                                                <p>
+                                                    <b><span class="underline">WG5 Set-up of preclinical theranostic protocols</span></b>
+                                                </p>
 
-                                            <li> 14:05 - 14:10 : Short introduction by WG5 leader <b>George Loudos</b> (Technological Educational Institute of Athens, Greece) </li>
-                                            <li> 14:10 - 14:30 : <b>Tim Devling</b> (iTheraMedical, Neuherberg, Germany)
-                                                <br/>
-                                                <i>&quot;Multispectral Optoacoustic Tomography (MSOT) in drug delivery&quot;</i></li>
-                                            <li> 14:30 - 14:50 : <b>George Loudos</b> (Technological Educational Institute of Athens, Greece)
-                                                <br/>
-                                                <i>&quot;Initial experience from the assessment of magnetic hyperthermia effect using in vivo nuclear imaging&quot;</i></li>
-                                            <li> 14:50 - 15:20 : Coffee break &amp; poster session </li>
-                                            <li> 15:20 - 15:40 : <b>Eirini Fragogeorgi</b> (Technological Educational Institute of Athens, Greece)
-                                                <br/>
-                                                <i>&quot;Preliminary in vitro and in vivo evaluation of a 99mTc labelled hybrid magnetic nanocarrier&quot;</i></li>
-                                            <li> 15:40 - 16:00 : <b>Rafael Torres M. de Rosales</b> (King's College London, London, UK)
-                                                <br/>
-                                                <i>&quot;Exploring potential applications of bimodal PET-MR nanoprobes in imaging and therapy&quot;</i></li>
-                                            <li> 16:00 : Closing remarks by Prof. <b>Silvio Aime</b> (University of Torino, Torino, Italy) </li>
-                                        </ul></li>
+                                                <li> 14:05 - 14:10 : Short introduction by WG5 leader <b>George Loudos</b> (Technological Educational Institute of Athens, Greece) </li>
+                                                <li> 14:10 - 14:30 : <b>Tim Devling</b> (iTheraMedical, Neuherberg, Germany)
+                                                    <br/>
+                                                    <i>&quot;Multispectral Optoacoustic Tomography (MSOT) in drug delivery&quot;</i></li>
+                                                <li> 14:30 - 14:50 : <b>George Loudos</b> (Technological Educational Institute of Athens, Greece)
+                                                    <br/>
+                                                    <i>&quot;Initial experience from the assessment of magnetic hyperthermia effect using in vivo nuclear imaging&quot;</i></li>
+                                                <li> 14:50 - 15:20 : Coffee break &amp; poster session </li>
+                                                <li> 15:20 - 15:40 : <b>Eirini Fragogeorgi</b> (Technological Educational Institute of Athens, Greece)
+                                                    <br/>
+                                                    <i>&quot;Preliminary in vitro and in vivo evaluation of a 99mTc labelled hybrid magnetic nanocarrier&quot;</i></li>
+                                                <li> 15:40 - 16:00 : <b>Rafael Torres M. de Rosales</b> (King's College London, London, UK)
+                                                    <br/>
+                                                    <i>&quot;Exploring potential applications of bimodal PET-MR nanoprobes in imaging and therapy&quot;</i></li>
+                                                <li> 16:00 : Closing remarks by Prof. <b>Silvio Aime</b> (University of Torino, Torino, Italy) </li>
+                                            </ul></li>
                                     </ul>
                                     <p style="font-weight:bold; font-size:14px">
                                         POSTER PRESENTATION
