@@ -173,7 +173,6 @@
                                                 <li style="list-style-type: none;"><i>&quot;Lipid-peptide vesicle nanoscale hybrids for triggered drug release by mild hyperthermia in vitro and in vivo&quot;</i></li>
                                                 <li> 17:30 - 18:30 : Cheese and wine reception &amp; poster session </li>
                                             </ul></li>
-                                        </li>
                                     </ul>
                                     </li>
                                     </ul></li><li> TUESDAY, 30<sup>th</sup> October 2012 - Henriette Raphael Function Room Guy's Campus </li><li style="list-style: none">
