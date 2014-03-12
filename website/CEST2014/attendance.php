@@ -90,7 +90,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <span class='underline'>A shuttle bus service will be organized from the Turin and Milan Malpensa airports to the Bioindustry Park and the Hotels on Wednesday, May 7<sup>th</sup> (timetable will be established on the basis of attendees' arrivals)</span>
                                 </p>
                                 
-<!--                                
+<!--
                                 <span>Please fill in the following informations if interested.</p>
                                 <form id='arrivals' action="db.php" method="post">
                                     <table style="text-align: right;">
@@ -134,7 +134,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <p>
                                     
                                 </p>
-<!-- -->                                
+-->                                
                                
                                 
                                 <p>
