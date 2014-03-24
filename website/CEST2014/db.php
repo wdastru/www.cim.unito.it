@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-print_r($_POST);
+//print_r($_POST);
 
 $con = mysql_connect("localhost", "cim_adm","vpsyyAR4jp");
 if (!$con)
@@ -15,9 +15,10 @@ $table = "arrivals";
 
 mysql_select_db($DBName, $con);
 
-$sql = "REPLACE INTO `" . $DBName . "`.`" . $table . "` ( `surname` , `name` , `email` , `airport` , `hour` , `leave` ) VALUES ( '" . $_POST['surname'] . " ', '" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['airport'] . "', '" . $_POST['hour'] . "', '" . $_POST['leave'] . "')";
+$sql = "INSERT INTO `" . $DBName . "`.`" . $table . "` ( `surname` , `name` , `email` , `airport` , `hour` , `leave` ) VALUES ( '" . 
+$_POST['surname'] . " ', '" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['airport'] . "', '" . $_POST['hour'] . "', '" . $_POST['leave'] . "')";
 
-echo "<br/>$sql";
+//echo "<br/>$sql";
 
 $query = mysql_query($sql, $con);
 
