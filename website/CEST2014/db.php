@@ -15,7 +15,7 @@
     
     mysql_select_db($DBName, $con);
     
-    $sql = "INSERT INTO `" . $DBName . "`.`" . $table . "` ( `surname` , `name` , `email` , `airport` , `hour` , `leave` , `accompanying` ) VALUES ( '" . $_POST['surname'] . " ', '" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['airport'] . "', '" . $_POST['hour'] . "', '" . $_POST['leave'] . "', '" . $_POST['accompanying'] . "')";
+    $sql = "REPLACE INTO `" . $DBName . "`.`" . $table . "` ( `surname` , `name` , `email` , `airport` , `hour` , `leave` , `accompanying` ) VALUES ( '" . $_POST['surname'] . " ', '" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['airport'] . "', '" . $_POST['hour'] . "', '" . $_POST['leave'] . "', '" . $_POST['accompanying'] . "')";
     
     //echo "<br/>$sql";
     
