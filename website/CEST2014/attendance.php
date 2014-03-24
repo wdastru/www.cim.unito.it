@@ -125,7 +125,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         </tr>
                                         <tr>
                                             <td>Accompanying persons:</td><td>
-                                            <input type="text"  name="accompanying"     value="" />
+                                            <input type="text"  name="accompanying"     value="0" />
                                             </td>
                                         </tr>
                                         <tr>
