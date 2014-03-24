@@ -15,8 +15,8 @@ $table = "arrivals";
 
 mysql_select_db($DBName, $con);
 
-$sql = "INSERT INTO `" . $DBName . "`.`" . $table . "` ( `surname` , `name` , `email` , `airport` , `hour` , `leave` ) VALUES ( '" . 
-$_POST['surname'] . " ', '" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['airport'] . "', '" . $_POST['hour'] . "', '" . $_POST['leave'] . "')";
+$sql = "INSERT INTO `" . $DBName . "`.`" . $table . "` ( `surname` , `name` , `email` , `airport` , `hour` , `leave` , `accompanying` ) VALUES ( '" . 
+$_POST['surname'] . " ', '" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['airport'] . "', '" . $_POST['hour'] . "', '" . $_POST['leave'] . "', '" . $_POST['accompanying'] . "')";
 
 //echo "<br/>$sql";
 

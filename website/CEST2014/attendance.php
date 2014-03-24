@@ -124,6 +124,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>Accompanying persons:</td><td>
+                                            <input type="text"  name="accompanying"     value="" />
+                                            </td>
+                                        </tr>
+                                        <tr>
                                             <td>Day of leave:</td><td>
                                             <select name='leave'>
                                                 <option selected="selected">---</option>
