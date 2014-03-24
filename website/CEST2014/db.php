@@ -24,7 +24,7 @@
     
     $sql = "REPLACE INTO `" . $DBName . "`.`" . $table . "` ( `surname` , `name` , `email` , `airport` , `hour` , `leave` , `accompanying` ) VALUES ( '" . $_POST['surname'] . " ', '" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['airport'] . "', '" . $_POST['hour'] . "', '" . $_POST['leave'] . "', '" . $_POST['accompanying'] . "')";
     
-    echo "<br/>$sql";
+    //echo "<br/>$sql";
     
     $query = mysql_query($sql, $con);
     
