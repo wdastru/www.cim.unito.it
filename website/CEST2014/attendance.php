@@ -212,6 +212,15 @@ xmlns="http://www.w3.org/1999/xhtml">
             <!-- section closing -->
         </div>
         <!-- section closing -->
+        
+        <?php 
+            if ($_GET['confirm']=='yes') {
+                echo '<script type="text/javascript">
+                        alert("Thank you!\nYour request has been taken into account.");
+                    </script>';
+            } 
+        ?>
+        
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

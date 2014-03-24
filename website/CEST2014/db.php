@@ -30,6 +30,6 @@ if (!$query)
 
 mysql_close($con);
 
-header("Location: attendance.php");
+header("Location: attendance.php?confirm=yes");
 exit();
 ?>
