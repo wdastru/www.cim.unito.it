@@ -3,6 +3,13 @@
     
     //print_r($_POST);
     
+    
+    if ($_POST['mail']=='')
+    {
+        header("Location: attendance.php?confirm=no");
+        exit();
+    }
+    
     $con = mysql_connect("localhost", "cim_adm","vpsyyAR4jp");
     if (!$con)
     {

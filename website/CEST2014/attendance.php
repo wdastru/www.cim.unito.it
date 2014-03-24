@@ -223,7 +223,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                 echo '<script type="text/javascript">
                         alert("Thank you!\nYour request has been taken into account.");
                     </script>';
-            } 
+            } else if ($_GET['confirm']=='no') {
+                echo '<script type="text/javascript">
+                        alert("ATTENTION!\nemail field is mandatory!");
+                    </script>';
+            }
         ?>
         
         <script type="text/javascript">
