@@ -4,7 +4,7 @@
     //print_r($_POST);
     
     
-    if ($_POST['mail']=='')
+    if ($_POST['email']=='')
     {
         header("Location: attendance.php?confirm=no");
         exit();
