@@ -673,7 +673,7 @@
 1314/Dinamo Ciofeca/Bradipo/4/1/88/67.5/1/CERCI/CERCI/BENATIA/POLI/ROSSI G./
 1314/Dinamo Ciofeca/Bradipo/1/0/67/60.5/0/CERCI/
 1314/Dinamo Ciofeca/Bradipo/2/1/75/68.5/1/CERCI/LLORENTE/TOTTI/
-1314/Dinamo Ciofeca/Bradipo/////0/
+1314/Dinamo Ciofeca/Bradipo/0/3/65.5/83.5/0/IMMOBILE/IMMOBILE/IMMOBILE/
 1314/Lokomotiv Peccorino/Atletico? No Grazie!/2/2/74/72.5/1/BONAVENTURA/IBARBO/JONATHAN/BARRIENTOS/
 1314/Lokomotiv Peccorino/Atletico? No Grazie!/2/1/72/70/0/JONATHAN/TEVEZ/CANA/
 1314/Lokomotiv Peccorino/Atletico? No Grazie!/2/1/74/68.5/1/BALOTELLI/TEVEZ/GERVINHO/

@@ -18,6 +18,7 @@ ciofeca.txt
 ciofeca_camp20.txt
 ciofeca_camp21.txt
 ciofeca_camp22.txt
+ciofeca_camp23.txt
 ciofeca_coppa_semi.txt
 eporediese.txt
 eporediese_camp_1.txt
