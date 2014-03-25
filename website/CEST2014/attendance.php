@@ -86,10 +86,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     Other suitable airports are <a class="linkExternal" href="http://www.milanomalpensa1.eu/en"><span class='underline'>Malpensa 1</span></a> and <a class="linkExternal" href="http://www.milanomalpensa2.eu/en"><span class='underline'>Malpensa 2</span></a>
                                     (125 km away) and <a class="linkExternal" href="http://www.milanolinate.eu/en"><span class='underline'>Linate</span></a> (150 km away), all of them linked to Ivrea by motorway.
                                 </p>
+                                
+                                <a name="shuttle"></a> 
+                                
                                 <p>
                                     <span class='underline'>A shuttle bus service will be organized from the Turin and Milan Malpensa airports to the Bioindustry Park and the Hotels on Wednesday, May 7<sup>th</sup> (timetable will be established on the basis of attendees' arrivals)</span>
                                 </p>
-<!--                                
+                                
                                 <span>Please fill in the following informations if interested.</p>
                                 <form id='arrivals' action="db.php" method="post">
                                     <table style="text-align: right;">
@@ -145,7 +148,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         </tr>
                                     </table>
                                 </form>
--->
+
                                 <br />
                                 
                                 <p>

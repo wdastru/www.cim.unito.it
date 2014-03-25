@@ -1,8 +1,10 @@
 <?php
     session_start();
     
-    //print_r($_POST);
-    
+    $localizer = "../";
+
+    require_once ($localizer . 'includes/class.phpmailer.php');
+    require $localizer . 'includes/sendEMail.php';
     
     if ($_POST['email']=='')
     {
@@ -32,6 +34,21 @@
     {
         die('<br/>Query failed: ' . mysql_error());
         exit();
+    } else {
+        $mailer = new PHPMailer();
+        $mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
+        //$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+        
+        $body = "Arrivals info:\r\n\r\nSurname: " . $_POST['surname'] . "\r\n" . 
+        "\r\nName: " . $_POST['name'] . "\r\n" . 
+        "\r\nEmail: " . $_POST['email'] . "\r\n" .
+        "\r\nAirport: " . $_POST['airport'] . "\r\n" . 
+        "\r\nHour: " . $_POST['hour'] . "\r\n" .
+        "\r\nLeave: " . $_POST['leave'] . "\r\n" . 
+        "\r\nAccompanying: " . $_POST['accompanying'] . "\r\n\r\nRegards,\r\nWebmaster.\r\n";
+        
+        $vars = array('subject' => "CEST2014: arrivals info update.", 'body' => $body);
+        sendEMail($vars, $mailer);
     }
     
     mysql_close($con);

@@ -31,7 +31,7 @@ if ($_FILES['file1'] != null) {
 
 	//GET FILE NAME AND SIZE
 	$theFileName = $_FILES['file1']['name'];
-    	$theFileSize = $_FILES['file1']['size'];
+    $theFileSize = $_FILES['file1']['size'];
 
 	$mailer = new PHPMailer();
 	$mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
