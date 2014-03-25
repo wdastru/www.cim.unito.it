@@ -21,7 +21,6 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
-        <script type="text/javascript" src="script.js"></script>
         
         <!-- InstanceBeginEditable name="jQuery" -->
         <?php
@@ -178,11 +177,6 @@ xmlns="http://www.w3.org/1999/xhtml">
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
-            //<![CDATA[
-            changeSideNavStyles();
-            //]]>
-        </script>
         <!-- InstanceEnd -->
     </body>
 </html>
