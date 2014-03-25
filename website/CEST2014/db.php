@@ -37,7 +37,7 @@
     } else {
         $mailer = new PHPMailer();
         $mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
-        //$mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
+        $mailer -> AddAddress("paola.bardini@unito.it", "Paola Bardini");
         
         $body = "Arrivals info:\r\n\r\nSurname: " . $_POST['surname'] . "\r\n" . 
         "\r\nName: " . $_POST['name'] . "\r\n" . 
