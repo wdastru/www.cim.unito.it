@@ -127,7 +127,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </p> 
                                 <p>
                                     The corresponding author will be notified of the acceptance of his/her abstract and type of presentation 
-                                    (oral/poster) by the end of February.
+                                    (oral/poster) by the end of March.
                                 </p>
                                 
                                 <b>Submission rules</b>
