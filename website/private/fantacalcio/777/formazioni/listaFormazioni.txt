@@ -6,6 +6,7 @@ atletico_camp_20.txt
 atletico_camp_20_buona.txt
 atletico_camp_21.txt
 atletico_camp_22.txt
+atletico_camp_23.txt
 atletico_coppa_3.txt
 atletico_coppa_4.txt
 atletico_tipo_valida_fino_20140315-080615.txt
@@ -13,6 +14,7 @@ bradipo.txt
 bradipo_cam_20.txt
 bradipo_cam_21.txt
 bradipo_cam_22.txt
+bradipo_cam_23.txt
 bradipo_cop_.txt
 ciofeca.txt
 ciofeca_camp20.txt
@@ -96,6 +98,7 @@ lokomotiv_camp_19.txt
 lokomotiv_camp_20.txt
 lokomotiv_camp_21.txt
 lokomotiv_camp_22.txt
+lokomotiv_camp_23.txt
 lokomotiv_coppa_1.txt
 lokomotiv_coppa_2.txt
 lokomotiv_coppa_3.txt
@@ -131,6 +134,7 @@ real_camp_19.txt
 real_camp_20.txt
 real_camp_21.txt
 real_camp_22.txt
+real_camp_23.txt
 real_coppa_1.txt
 real_coppa_2.txt
 real_coppa_3.txt
