@@ -55,8 +55,9 @@ xmlns="http://www.w3.org/1999/xhtml">
     
                                 <h1 style="line-height: 28px; text-align: center;">About the meeting</h1>
                                 
-                                <b>Preliminary Program (soon available)</b>
-                                
+                                <a href="documents/CEST_2014_Workshop_Programme.pdf"><span class="underline"><b>Definitive program</b></span></a>
+                                        
+                                    <br/>
                                     <br/>
                                     
                                     Speakers that have already accepted to contribute with keynote lectures:
@@ -122,9 +123,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <ul>
                                         <li>
                                             Abstract submission : <span style="color: #db6d16">1<sup>st</sup> March 2014</span>
-                                        </li>
-                                        <li>
-                                            <a href="documents/CEST_2014_Workshop_Programme.pdf"><span class="underline">Definitive program</span></a>
                                         </li>
                                         <li>
                                             Early registration : <span style="color: #db6d16">11 April 2014</span>
