@@ -124,7 +124,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             Abstract submission : <span style="color: #db6d16">1<sup>st</sup> March 2014</span>
                                         </li>
                                         <li>
-                                            <a href="documents/CEST_2014_Workshop_Programme.pdf">Definitive program</a>
+                                            <a href="documents/CEST_2014_Workshop_Programme.pdf"><span class="underline">Definitive program</span></a>
                                         </li>
                                         <li>
                                             Early registration : <span style="color: #db6d16">11 April 2014</span>
