@@ -121,7 +121,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Italian hour of arrival (XX:XX 24h format please):</td><td>
+                                            <td>Day and Italian hour of arrival (XX:XX 24h format please):</td><td>
                                             <input type="text"  name="hour"     value="" />
                                             </td>
                                         </tr>
