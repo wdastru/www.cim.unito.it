@@ -101,13 +101,9 @@ xmlns="http://www.w3.org/1999/xhtml">
 
                                     The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
                                     <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
-
                                     <div class='divider'></div>
-
                                     <span class="date">Apr 29, 2011</span><a href='eindhoven.php'> Prof. Silvio Aime has been awarded a <i>"Doctor Honoris Causa"</i> by the Eindhoven University of Technology (NL). </a>
-
                                     <div class='divider'></div>
-
                                     <span class="date">Jun 5, 2010</span><a href='debrecen.php'> Prof. Silvio Aime has been awarded a <i>"Doctor Honoris Causa"</i> by the Debrecen University (HU). </a>
                                 </div>
                                 <div id='col3'>
@@ -118,13 +114,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <div class='divider'></div>
                                     <span class="date">May, 8<sup>th</sup>-9<sup>th</sup> 2014</span>
                                     <a href='<?php echo $localizer;?>CEST2014/index.php' ><span class="paperTitle">CEST 2014 - 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer Imaging</span></a>
-                                    <!--<div class='divider'></div>
-                                    <span class="date">23<sup>rd</sup> May, 2013</span>
-                                    <a href='<?php echo $localizer;?>documenti/TransInt%20course%20Dublin.doc' ><span class="paperTitle" style="text-decoration:blink">1<sup>st</sup> TRANS-INT training session in oral nanomedicine</span></a>
-                                    <img style="width: 99%" src="images/trans-int_logo.png" alt="TransInt logo" />
-                                    Veterinary Science Centre<br />
-                                    University College Dublin<br />
                                     <div class='divider'></div>
+                                    <span class="date">Feb, 2013</span>
+                                    Marie Curie Action
+                                    <br />
+                                    From february 2013 dr., He HU from Shangai University<sup>*</sup> has joined the Center of Molecular Imaging 
+                                    for carrying out a research project on &quot;Design and Testing of Gd<sup>3+</sup>-Loaded Ultrasmall Mesoporous Silica Nanosphere 
+                                    Platform as High Sensitivity Probes for Targeted Magnetic Resonance Imaging of Tumor In Vivo&quot;.
+                                    <br />
+                                    <span style='font-size: 10px; font-style: italic;'>* Dept. of Chemistry - Shangai Normal University - China</span> 
+                                    <!--<div class='divider'></div>
                                     <span class="date">26 to 28 May, 2013</span>
                                     <a class="linkExternal" href='http://www.e-smi.eu/index.php?id=2504'><span class="paperTitle" style="text-decoration:blink">EMIM 2013 - EUROPEAN MOLECULAR IMAGING MEETING</span></a>
                                     <img style="width: 99%" src="images/ESMI_logo_imaging_life.jpg" alt="ESMI logo" />                 
