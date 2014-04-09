@@ -136,10 +136,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <div id="myoutercontainer">
                                     <div id="myinnercontainer">
                                         <p>
-                                            <a class='linkExternal' href="http://www.aspectimaging.com/"><img style="display:inline-block; vertical-align:middle; width:110px; margin:35px;" src="images/aspect.jpg" alt="Aspect logo" /></a>
-                                            <a class='linkExternal' href="http://www.braccoimaging.com/"><img style="display:inline-block; vertical-align:middle; width:60px; margin:35px;" src="images/bracco.jpg" alt="Bracco logo" /></a>
-                                            <a class='linkExternal' href="https://www.bruker.com/"><img style="display:inline-block; vertical-align:middle; width:60px; margin:35px;" src="images/bruker_logo.png" alt="Bruker logo" /></a>
-                                            <a class='linkExternal' href="http://www.grupposapio.it/"><img style="display:inline-block; vertical-align:middle; width:60px; margin:35px;" src="images/sapio.jpg" alt="Sapio logo" /></a>
+                                            <a class='linkExternal' href="http://www.aspectimaging.com/"><img style="display:inline-block; vertical-align:middle; width:120px; margin-left:35px; margin-right:35px;" src="images/aspect.jpg" alt="Aspect logo" /></a>
+                                            <a class='linkExternal' href="http://www.braccoimaging.com/"><img style="display:inline-block; vertical-align:middle; width:60px; margin-left:35px; margin-right:35px;" src="images/bracco.jpg" alt="Bracco logo" /></a>
+                                            <a class='linkExternal' href="https://www.bruker.com/"><img style="display:inline-block; vertical-align:middle; width:80px; margin-left:35px; margin-right:35px;" src="images/bruker_logo.png" alt="Bruker logo" /></a>
+                                         </p>
+                                         <p>
+                                            <a class='linkExternal' href="http://www.grupposapio.it/"><img style="display:inline-block; vertical-align:middle; width:80px; margin-left:35px; margin-right:35px;" src="images/sapio.jpg" alt="Sapio logo" /></a>
+                                            <a class='linkExternal' href="http://www.bioindustrypark.eu/"><img style="display:inline-block; vertical-align:middle; width:130px; margin-left:35px; margin-right:35px;" src="images/BIPCA-logo.gif" alt="BIPCA logo" /></a>
                                         </p>
                                     </div>
                                 </div>
