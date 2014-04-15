@@ -129,7 +129,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         </li>
                                     </ul>
                                 
-                                
                                 <b>Supporters</b>
                                 <br/>
                                 
@@ -142,13 +141,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                                          </p>
                                          <p>
                                             <a class='linkExternal' href="http://www.grupposapio.it/"><img style="display:inline-block; vertical-align:middle; width:110px; margin-left:35px; margin-right:35px;" src="images/sapio.jpg" alt="Sapio logo" /></a>
-                                            <a class='linkExternal' href="http://www.bioindustrypark.eu/"><img style="display:inline-block; vertical-align:middle; width:130px; margin-left:35px; margin-right:35px;" src="images/BIPCA-logo.gif" alt="BIPCA logo" /></a>
+                                            <a class='linkExternal' href="http://www.bioindustrypark.eu/"><img style="display:inline-block; vertical-align:middle; width:130px; margin-left:35px; margin-right:35px;" src="images/BIPCA-logo.png" alt="BIPCA logo" /></a>
                                             <a class='linkExternal' href="http://www.biorep.it/"><img style="display:inline-block; vertical-align:middle; width:100px; margin-left:35px; margin-right:35px;" src="images/BioRep.jpg" alt="BioRep logo" /></a>
+                                        </p>
+                                        <p>
+                                            <a class='linkExternal' href="http://www.biopmed.eu/"><img style="display:inline-block; vertical-align:middle; width:120px; margin-left:35px; margin-right:35px;" src="images/bioPmed.png" alt="bioPmed logo" /></a>
                                         </p>
                                     </div>
                                 </div>
-                                
-                                
                             </div>
                         </div>
                     </div>
