@@ -725,7 +725,7 @@
 1314/Lokomotiv Peccorino/Real Mentescars/1/2/68/76.5/1/TEVEZ/PALACIO/PALACIO/
 1314/Lokomotiv Peccorino/Real Mentescars/5/1/93/68.5/0/TEVEZ/TEVEZ/KLOSE/TEVEZ/BORJA VALERO/EDER/
 1314/Lokomotiv Peccorino/Real Mentescars/1/1/70.5/69.5/1/BALOTELLI/CASSANO/
-1314/Lokomotiv Peccorino/Real Mentescars/////0/
+1314/Lokomotiv Peccorino/Real Mentescars/0/2/63/77/0/PAROLO/TAARABT/
 1314/Ij Patelavache/Bradipo/1/0/69.5/57.5/1/BERARDI/
 1314/Ij Patelavache/Bradipo/0/2/64/76/0/CALLEJON/INSIGNE/
 1314/Ij Patelavache/Bradipo/2/1/74.5/69.5/1/PAULINHO/MARCHISIO/ASAMOAH/
