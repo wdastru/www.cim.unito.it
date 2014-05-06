@@ -36,6 +36,15 @@
             </resources>
         </person>
     </section>
+    <section id='Bulgaria'>
+        <person>
+            <role>MC Member</role>
+            <name>Prof. Vladimir Konstantinov KOTEV</name>
+            <address></address>
+            <mail>kotev@imbm.bas.bg</mail>
+            <resources></resources>
+        </person>
+    </section>    
     <section id='Croatia'>
         <person>
             <role>MC Member</role>
@@ -58,6 +67,15 @@
             <name>Prof. Petr HERMANN</name>
             <address>Universita Karlova, Hlavova 2030, 12840 Prague 2</address>
             <mail>petrh@natur.cuni.cz</mail>
+            <resources></resources>
+        </person>
+    </section>
+    <section id='Denmark'>
+        <person>
+            <role>MC Member</role>
+            <name>Dr. David NEEDHAM</name>
+            <address>University of Southern Denmark - Campusvej 55 - DK-5230 Odense M, Denmark</address>
+            <mail>needham@sdu.dk</mail>
             <resources></resources>
         </person>
     </section>
