@@ -685,7 +685,7 @@
 1314/Fedora/EPOrediese/1/1/70.5/70/1/DENIS/DZEMAILI/
 1314/Fedora/EPOrediese/0/3/59.5/79/0/ZAZA/KAKA'/HEURTAUX/
 1314/Fedora/EPOrediese/1/1/70.5/66.5/1/GILARDINO/AMAURI/
-1314/Fedora/EPOrediese/////0/
+1314/Fedora/EPOrediese/0/2/60/75.5/0/ICARDI/DI NATALE/
 1314/Bradipo/Lokomotiv Peccorino/2/1/74/70/1/CANDREVA/NAINGGOLAN/TEVEZ/
 1314/Bradipo/Lokomotiv Peccorino/1/2/67.5/76/0/BORJA VALERO/BORJA VALERO/CALLEJON/
 1314/Bradipo/Lokomotiv Peccorino/2/1/76/70/1/CANDREVA/BERGESSIO/MORALEZ/
@@ -717,7 +717,7 @@
 1314/Fedora/Ij Patelavache/3/1/83.5/66/1/FLORENZI/TONI/JORGINHO/BERARDI D./
 1314/Fedora/Ij Patelavache/1/3/71.5/81/0/SAU/VIDAL/SAU/JORGINHO/
 1314/Fedora/Ij Patelavache/3/2/80.5/73.5/1/HIGUAIN/HIGUAIN/TONI/INLER/ROMULO/
-1314/Fedora/Ij Patelavache/////0/
+1314/Fedora/Ij Patelavache/2/1/73.5/69/0/LULIC/TONI/TONI/
 1314/EPOrediese/Dinamo Ciofeca/1/3/66.5/79/1/CIGARINI/ROSSI G./ROSSI G./ROSSI G./
 1314/EPOrediese/Dinamo Ciofeca/0/3/60/81/0/ROSSI G./CAMBIASSO/ROSSI G./
 1314/EPOrediese/Dinamo Ciofeca/1/3/69.5/82.5/1/DZEMAILI/CERCI/IMMOBILE/PJANIC/
@@ -737,48 +737,48 @@
 1314/Dinamo Ciofeca/Ij Patelavache/4/0/84/63.5/1/CUADRADO/CUADRADO/CAMBIASSO/CUADRADO/
 1314/Dinamo Ciofeca/Ij Patelavache/7/1/105.5/69/0/ROMULO/IMMOBILE/BENATIA/CERCI/IMMOBILE/BENATIA/ROSSI G./LLORENTE/
 1314/Dinamo Ciofeca/Ij Patelavache/2/2/73.5/76.5/1/CUADRADO/ITURBE/PAULINHO/THEREAU/
-1314/Dinamo Ciofeca/Ij Patelavache/////0/
+1314/Dinamo Ciofeca/Ij Patelavache/5/1/92.5/68.5/0/LULIC/LJAJIC/LLORENTE/CUADRADO/CERCI/IMMOBILE/
 1314/Fedora/Lokomotiv Peccorino/2/2/74.5/72.5/1/HIGUAIN/HIGUAIN/KLOSE/TEVEZ/
 1314/Fedora/Lokomotiv Peccorino/4/1/85/68/0/TONI/TONI/HIGUAIN/LUCARELLI/TEVEZ/
 1314/Fedora/Lokomotiv Peccorino/2/1/73.5/70.5/1/TONI/TONI/TEVEZ/
-1314/Fedora/Lokomotiv Peccorino/////0/
+1314/Fedora/Lokomotiv Peccorino/5/2/91.5/77/0/GIOVINCO/BORJA VALERO/HIGUAIN/HIGUAIN/HANDANOVIC/HIGUAIN/TONI/
 1314/Bradipo/EPOrediese/1/0/71/65.5/1/CANDREVA/
 1314/Bradipo/EPOrediese/1/1/68/70/0/HEURTAUX/CANDREVA/
 1314/Bradipo/EPOrediese/0/1/64/67.5/1/DI NATALE/
-1314/Bradipo/EPOrediese/////0/
+1314/Bradipo/EPOrediese/1/1/70/71/0/ICARDI/TOTTI/
 1314/Real Mentescars/Atletico? No Grazie!/1/1/70.5/70.5/1/PALACIO/STROOTMAN/
 1314/Real Mentescars/Atletico? No Grazie!/2/3/75/81/0/DESTRO/POGBA/DESTRO/PALACIO/DIAMANTI/
 1314/Real Mentescars/Atletico? No Grazie!/2/2/73.5/72.5/1/TAARABT/CASSANO/ROLANDO/ROLANDO/
-1314/Real Mentescars/Atletico? No Grazie!/////0/
+1314/Real Mentescars/Atletico? No Grazie!/4/2/87/77/0/GERVINHO/MERTENS/PALOSCHI/PALOSCHI/PALOSCHI/PALACIO/
 1314/Real Mentescars/Dinamo Ciofeca/1/3/69.5/78/1/ALVAREZ R./CERCI/ROSSI G./CERCI/
 1314/Real Mentescars/Dinamo Ciofeca/1/1/66/71.5/0/IMMOBILE/BONUCCI/
 1314/Real Mentescars/Dinamo Ciofeca/3/1/80/70/1/PAROLO/ANTONELLI/PAROLO/LLORENTE/
-1314/Real Mentescars/Dinamo Ciofeca/////0/
+1314/Real Mentescars/Dinamo Ciofeca/1/2/67/75/0/IMMOBILE/ITURBE/TAARABT/
 1314/Fedora/Bradipo/3/1/83/69/1/TONI/EMERSON/DENIS/CALLEJON/
 1314/Fedora/Bradipo/4/0/88.5/59/0/TONI/TONI/RODRIGUEZ GON/LUCARELLI/
 1314/Fedora/Bradipo/2/0/75/62.5/1/DAINELLI/EMERSON/
-1314/Fedora/Bradipo/////0/
+1314/Fedora/Bradipo/2/3/74.5/81.5/0/CANDREVA/CANDREVA/TONI/NAINGGOLAN/HANDANOVIC/
 1314/Atletico? No Grazie!/Ij Patelavache/1/1/68.5/67.5/1/PIRLO/PAULINHO/
 1314/Atletico? No Grazie!/Ij Patelavache/1/1/71/71.5/0/VIDAL/MERTENS/
 1314/Atletico? No Grazie!/Ij Patelavache/1/0/69.5/57/1/MERTENS/
-1314/Atletico? No Grazie!/Ij Patelavache/////0/
+1314/Atletico? No Grazie!/Ij Patelavache/2/1/76.5/68.5/0/BERARDI D./POGBA/ROLANDO/
 1314/Lokomotiv Peccorino/EPOrediese/1/3/70.5/79/1/TEVEZ/KONE/KAKA/DI NATALE/
 1314/Lokomotiv Peccorino/EPOrediese/1/2/71/72/0/KAKA'/KAKA'/KLOSE/
 1314/Lokomotiv Peccorino/EPOrediese/3/0/79/61.5/1/IBARBO/TEVEZ/IBARBO/
-1314/Lokomotiv Peccorino/EPOrediese/////0/
+1314/Lokomotiv Peccorino/EPOrediese/2/0/74/61/0/BALOTELLI/IBARBO/
 1314/Dinamo Ciofeca/Fedora/2/2/73.5/72.5/1/CERCI/CAMBIASSO/TONI/TONI/
 1314/Dinamo Ciofeca/Fedora/4/2/87.5/76/0/FLORENZI/FLORENZI/LLORENTE/LICHTSTEINER/LLORENTE/BENATIA/
 1314/Dinamo Ciofeca/Fedora/2/0/72.5/62.5/1/GABBIADINI/CAMBIASSO/
-1314/Dinamo Ciofeca/Fedora/////0/
+1314/Dinamo Ciofeca/Fedora/5/1/93/67.5/0/TONI/CUADRADO/CUADRADO/PJANIC/IMMOBILE/LLORENTE/
 1314/Bradipo/Real Mentescars/1/3/70/78/1/CALLEJON/PALACIO/PALACIO/EDER/
 1314/Bradipo/Real Mentescars/2/3/73/80/0/TOTTI/TOTTI/EDER/EDER/PALOSCHI/
 1314/Bradipo/Real Mentescars/2/1/74.5/71.5/1/CALLEJON/ASAMOAH/PALACIO/
-1314/Bradipo/Real Mentescars/////0/
+1314/Bradipo/Real Mentescars/1/1/67/71.5/0/PERIN/CANDREVA/
 1314/Ij Patelavache/Lokomotiv Peccorino/4/0/87.5/64.5/1/BERARDI D./BERARDI D./BERARDI D./PAULINHO/
 1314/Ij Patelavache/Lokomotiv Peccorino/2/1/72.5/71/0/MORALEZ/MAICON/ROBINHO/
 1314/Ij Patelavache/Lokomotiv Peccorino/1/1/66.5/70/1/ROMULO/MORALEZ/
-1314/Ij Patelavache/Lokomotiv Peccorino/////0/
+1314/Ij Patelavache/Lokomotiv Peccorino/2/2/76.5/73.5/0/TEVEZ/ILICIC/MARCHISIO/EL KADDOURI/
 1314/EPOrediese/Atletico? No Grazie!/0/2/63/77/1/POGBA/STROOTMAN/
 1314/EPOrediese/Atletico? No Grazie!/0/3/62/78/0/MERTENS/NAGATOMO/MERTENS/
 1314/EPOrediese/Atletico? No Grazie!/0/1/63.5/66.5/1/BIABIANY/
-1314/EPOrediese/Atletico? No Grazie!/////0/
+1314/EPOrediese/Atletico? No Grazie!/0/2/61/73.5/0/GERVINHO/PIRLO/
