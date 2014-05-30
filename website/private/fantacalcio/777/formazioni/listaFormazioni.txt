@@ -20,6 +20,7 @@ ciofeca_camp27.txt
 ciofeca_camp28.txt
 ciofeca_coppa_semi.txt
 ciofeca_coppa_ultima.txt
+ciofeca_supercoppa.txt
 eporediese.txt
 eporediese_camp_1.txt
 eporediese_camp_10.txt
@@ -114,6 +115,7 @@ lokomotiv_coppa_1.txt
 lokomotiv_coppa_2.txt
 lokomotiv_coppa_3.txt
 lokomotiv_coppa_4.txt
+lokomotiv_coppa_5.txt
 lokomotiv_tipo_valida_fino_20131122-174449.txt
 lokomotiv_tipo_valida_fino_20131122-174507.txt
 lokomotiv_tipo_valida_fino_20140201-171453.txt
@@ -158,6 +160,8 @@ real_coppa_1.txt
 real_coppa_2.txt
 real_coppa_3.txt
 real_coppa_4.txt
+real_coppa_5.txt
+real_supercoppa.txt
 real_tipo_valida_fino_20131122-174335.txt
 real_tipo_valida_fino_20131129-230117.txt
 real_tipo_valida_fino_20131129-230123.txt
