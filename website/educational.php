@@ -60,20 +60,23 @@
 						<div class='paddingInner'>
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<ul>
-                                <li>
-                                    <a href="Scuola_NMR_Base_2013.php">Scuola NMR di Base 2013</a>
+							    <li>
+                                    <a href="<?php echo $localizer; ?>EMIDS/EMIDS_June_2014.php">The breakthrough of Molecular Imaging in the field of the future in vivo diagnostic procedures</a>
                                 </li>
                                 <li>
-                                    <a href="IP_2013.php">"Probes and Models for Imaging Diseases and Therapy" 2013</a>
+                                    <a href="<?php echo $localizer; ?>Scuola_NMR_Base_2013.php">Scuola NMR di Base 2013</a>
                                 </li>
                                 <li>
-                                    <a href="IP_2012.php">"Probes and Models for Imaging Diseases and Therapy" 2012</a>
+                                    <a href="<?php echo $localizer; ?>IP_2013.php">"Probes and Models for Imaging Diseases and Therapy" 2013</a>
                                 </li>
                                 <li>
-                                    <a href="IP_2011.php">"Design, Synthesis and Validation of Imaging Probes" 2011</a>
+                                    <a href="<?php echo $localizer; ?>IP_2012.php">"Probes and Models for Imaging Diseases and Therapy" 2012</a>
                                 </li>
                                 <li>
-									<a href="IP_2009.php">"Design, Synthesis and Validation of Imaging Probes" 2009</a>
+                                    <a href="<?php echo $localizer; ?>IP_2011.php">"Design, Synthesis and Validation of Imaging Probes" 2011</a>
+                                </li>
+                                <li>
+									<a href="<?php echo $localizer; ?>IP_2009.php">"Design, Synthesis and Validation of Imaging Probes" 2009</a>
 								</li>
 							</ul>
 							<!-- InstanceEndEditable -->

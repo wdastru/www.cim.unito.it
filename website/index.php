@@ -94,11 +94,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                             <span class='paperTitle'>Flyer</span>
                                         </a>
                                     <br />
-                                    
                                 </div>
                                 <div id='col2'>
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
-
                                     The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
                                     <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
                                     <div class='divider'></div>
@@ -108,6 +106,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </div>
                                 <div id='col3'>
                                     <h2 class='punch orange'><span>EVENTS</span></h2>
+                                    <span class="date">June, 25<sup>th</sup>-27<sup>th</sup> 2014</span>
+                                    <a href='<?php echo $localizer;?>EMIDS/EMIDS_June_2014.php' ><span class="paperTitle">The breakthrough of Molecular Imaging in the field of the future in vivo diagnostic procedures</span></a>
+                                    <br />Torino - Italy<br />
+                                    <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
+                                    <div class='divider'></div>
                                     <span class="date">October, 3<sup>rd</sup>-5<sup>th</sup> 2014</span>
                                     <a href='<?php echo $localizer;?>COST/meetings/COST_TD1004-Oct2014.php' ><span class="paperTitle">Annual Workshop of the COST Action TD1004 (&quot;Theranostics&quot;)</span></a>
                                     Istanbul - Turkey<br />
