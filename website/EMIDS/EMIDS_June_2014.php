@@ -77,7 +77,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                     <td>Flyer</td>
-                                    <td><a class="paperTitle" href="EMIDS flyer.pdf">EMIDS flyer3.pdf</a></td>
+                                    <td><a class="paperTitle" href="EMIDS flyer.pdf">EMIDS flyer.pdf</a></td>
                                 </tr>
                             </table>
                             
