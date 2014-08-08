@@ -75,6 +75,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <td>Location</td>
                                     <td>University of Torino, Molecular Imaging Center - Via Nizza 52 - 10126 - Torino - Italy</td>
                                 </tr>
+                                <tr>
+                                    <td>Flyer</td>
+                                    <td><a class="paperTitle" href="EMIDS flyer.pdf">EMIDS flyer3.pdf</a></td>
+                                </tr>
                             </table>
                             
                             <br />
@@ -115,33 +119,42 @@ xmlns="http://www.w3.org/1999/xhtml">
 
                             <table>
                                 <tr>
-                                    <td style="width: 10%;">Day n&deg;</td><td>Program of the lectures and other activities</td>
+                                    <td style="width: 10%;">Day</td><td>Program of the lectures and other activities</td>
                                 </tr>
                                 <tr>
-                                    <td>1</td><td>
+                                    <td>Sept. 10</td><td>
                                     <ul>
-                                        <li>Arrival, registration, welcome and presentation of the workshop</li>
-                                        <li>Overview of Molecular Imaging</li>
-                                        <li>Lectures: Molecular imaging techniques at preclinical level (OI, MRI, PET/SPECT, Combined modalities)</li>
-                                        <li>Lecture: MRI probes</li>
-                                        <li>Practical session: MRI Gd probes</li>
+                                        <li>9h30-12h30: Welcome &amp; Registration</li>
+                                        <li>12h30-13h30: Introduction to Molecular Imaging (Silvio Aime - University of Torino)</li>
+                                        <li>13h30-14h30: <i>Lunch time</i></li>
+                                        <li>14h30-15h30: MRI introduction (Walter Dastr&uacute; - University of Torino)</li>
+                                        <li>15h30-16h30: Gd(III) complexes: basic relaxometric characterization (Eliana Gianolio - University of Torino)</li>
+                                        <li>16h30-17h00: <i>Coffee break</i></li>
+                                        <li>17h00-18h00: Responsive Contrast Agents (Giuseppe Digilio - University of Piemonte Orientale)</li>
                                     </ul></td>
                                 </tr>
                                 <tr>
-                                    <td>2</td><td>
+                                    <td>Sept. 11</td><td>
                                     <ul>
-                                        <li>Lectures: Smart probes (responsive probes, CEST agents, Hyperpolarized molecules)</li>
-                                        <li>Practical session: use and image analysis of smart imaging probes</li>
+                                        <li>9h00-10h00: DCE-MRI: principles and techniques (Dario Longo - IBB/CNR Napoli)</li>
+                                        <li>10h00-11h00: Designing MRI targeting agents (Simonetta Geninatti - University of Torino)</li>
+                                        <li>11h00-11h30: <i>Coffee break</i></li>
+                                        <li>11h30-12h30: CEST agents (Daniela Delli Castelli - University of Torino)</li>
+                                        <li>12h30-13h30: Hyperpolarized MRI: metabolic imaging (Francesca Reineri - University of Torino)</li>
+                                        <li>13h30-14h30: <i>Lunch time</i></li>
+                                        <li>14h30-16h00: Relaxometric characterization of Gd(III) complexes and NMRD analysis (Eliana Gianolio / Simona Baroni - University of Torino, practical session)</li>
+                                        <li>16h00-17h30: DCE-MRI at 1T (Dario Longo - IBB/CNR Napoli, practical session)</li>
                                     </ul></td>
                                 </tr>
                                 <tr>
-                                    <td>3</td><td>
+                                    <td>Sept. 12</td><td>
                                     <ul>
-                                        <li>Lectures: DCE-MRI: models, tumor assessment, image analysis</li>
-                                        <li>Practical session: DCE-MRI</li>
-                                        <li>Practical session: targeting tumors in animal models</li>
-                                        <li>Final students evaluation (written exam 1h) and assessment of the workshop</li>
-                                        <li>Departure</li>
+                                        <li>9h00-10h30: Cell labeling (Simonetta Geninatti - University of Torino, practical session)</li>
+                                        <li>10h30-12h00: CEST experiment (Giuseppe Ferrauto - University of Torino, practical session)</li>
+                                        <li>12h00-12h30: <i>Coffee break</i></li>
+                                        <li>12h30-14h00: Hyperpolarized experiment (Francesca Reineri - University of Torino, practical session)</li>
+                                        <li>14h00-15h00: <i>Lunch time</i></li>
+                                        <li>15h00-17h00: Final consideration and remarks - Final student assessment</li>
                                     </ul></td>
                                 </tr>
                             </table>
