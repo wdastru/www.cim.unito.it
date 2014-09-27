@@ -1,11 +1,11 @@
 <?php
 $relocate_string = "../../";
 
-require $relocate_string . 'archivio/2013/squadre1213.inc.php';
-require $relocate_string . 'archivio/2013/calendario1213.inc.php';
-require $relocate_string . 'archivio/2013/classifica1213.inc.php';
+require_once $relocate_string . 'archivio/2014/squadre1314.inc.php';
+require_once $relocate_string . 'archivio/2014/calendario1314.inc.php';
+require_once $relocate_string . 'archivio/2014/classifica1314.inc.php';
 
-$datiCampionatoFileName = $relocate_string . 'archivio/2013/datiCampionato1213.txt';
+$datiCampionatoFileName = $relocate_string . 'archivio/2014/datiCampionato1314.txt';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -21,7 +21,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 		<!-- InstanceBeginEditable name="additional css" -->
 		<!-- InstanceEndEditable -->
-		<!-- InstanceBeginEditable name="additional js" --> 
+		<!-- InstanceBeginEditable name="additional js" -->
 		<script type="text/javascript" src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
 		<!-- InstanceEndEditable -->
 
@@ -54,20 +54,20 @@ xmlns="http://www.w3.org/1999/xhtml">
 			require $relocate_string . 'include/title.inc.php';
 			require $relocate_string . 'include/menu.inc.php';
 		 ?>
+
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
-	<h1 class="title">XIV Campionato Fantacalcio NMR 2012/13</h1>
+  <h1 class="title">XV Campionato Fantacalcio NMR 2013/14</h1>
         <br />
         <br />
         <h2 class='firstClass'>1&deg; Classificato: </h2>
         <h2 class="title">DINAMO CIOFECA</h2>
         <br />
-			
-			<?php
+  
+  			<?php
 			/*
 			 *  lettura file datiCampionato
 			 */
-			 
 			$handle = fopen($datiCampionatoFileName, 'r');
 
 			for ($t = 0; $t < 4; $t++)//A&R
@@ -90,7 +90,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			}
 
 			fclose($handle);
-			
+
 			/*
 			 *  aggiornamento classifica[][] (definito in classifica.inc.php)
 			 */
@@ -215,7 +215,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			 *  Sorting di classifica[][]
 			 */
 
-			require $relocate_string . 'archivio/2013/functions1213.inc.php';
+			require $relocate_string . 'archivio/2014/functions1314.inc.php';
 
 			$datiCampionato = readData();
 			$squadra = updateSquadra($datiCampionato);

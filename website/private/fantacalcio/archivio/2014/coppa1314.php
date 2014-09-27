@@ -1,8 +1,8 @@
 <?php
 $relocate_string = "../../";
 
-require $relocate_string . 'archivio/2013/squadre1213.inc.php';
-require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
+require $relocate_string . 'archivio/2014/squadre1314.inc.php';
+require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -11,7 +11,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 <head>
 <title>Fantacalcio NMR 2011/12</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
+<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
 	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
 	<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
@@ -19,8 +19,8 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2013/javascript2013.js&type=javascript"></script>
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2013/coppa1213.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=javascript.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=coppa1314.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 	<!-- jQuery -->
@@ -42,10 +42,6 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 				$('#avulse').toggle('fast');
 			});
 
-		    $("a.disabled").click(function () { 
-		        //$(this).fadeTo("fast", .5).removeAttr("href");
-		        $(this).removeAttr("href"); 
-		    });
 		});
 	</script>
 	<!-- jQuery -->
@@ -54,8 +50,12 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 <!-- <body onresize="Count();"> -->
 <body>
 
-<?php require $relocate_string . 'include/title.inc.php'; ?>
-<?php require $relocate_string . 'include/menu.inc.php'; ?>
+<?php
+	require $relocate_string . 'include/title.inc.php';
+ ?>
+<?php
+	require $relocate_string . 'include/menu.inc.php';
+ ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenBox' style='width:600px; display: none; visibility: hidden'>
 		<br />
@@ -68,31 +68,24 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "coppa" )' style='display: none;' /> 
-				<input id='closeBtn' class='button' type='button'
-					value='Close this box!' onclick='hideBox();' style='display: none;' /> 
-				<input class='button'
-					type='button' value='Reset' onclick="resetFields();" style='display: none;' /> <br /> <br />
-				Goal Squadra A : 
-				<input type='text' name='goalA' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> 
-				Goal Squadra B : 
-				<input type='text' name='goalB' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> 
-				Punti Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
+					onclick='validate( "coppa" )' /> <input id='closeBtn' class='button' type='button'
+					value='Close this box!' onclick='hideBox();' /> <input class='button'
+					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
+				Goal Squadra A : <input type='text' name='goalA' value=''
+					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
+				Squadra B : <input type='text' name='goalB' value=''
+					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
+				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> 
-				Marcatori:<br /> <br /> 
-				<input class='button' type='button'
-					style="display: none" value='Aggiungi un marcatore'
-					onclick='manualAddField();' />&nbsp;
-				<input class='button' type='button'
-					style="display: none" value='Togli un marcatore'
+				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
+					style="display: inline" value='Aggiungi un marcatore'
+					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
+					style="display: inline" value='Togli un marcatore'
 					onclick='manualDeleteField();' /> <br /> <br />
-				<?php
-				for ($i = 0; $i < 20; $i++)
-					echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
-				?>
+					<?php
+					for ($i = 0; $i < 20; $i++)
+						echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
+					?>
 				<input type='hidden' name='Id' value='' />
 			</fieldset>
 		</form>
@@ -107,10 +100,13 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 	$finali[2] = '5&deg; - 6&deg;';
 	$finali[3] = '7&deg; - 8&deg;';
 
-	$datiCoppaFile = $relocate_string . 'archivio/2013//datiCoppa1213.txt';
+	$datiCoppaFile = $relocate_string . '777/datiCoppa.txt';
+	if (!file_exists($datiCoppaFile)) {
+		require $relocate_string . 'createDatiCoppa.php';
+	}
 	include $relocate_string . 'readDatiCoppa.php';
 	?>
-		<h1 class="title">FANTACOPPA NMR 2012/13</h1>
+		<h1 class="title">FANTACOPPA NMR 2013/14</h1>
 		<br /> <br />
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>
@@ -133,7 +129,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 
 				echo "
 					<tr>
-						<td class='coppaSinistra' id='" . $id[$i * 4 + $j] . "_C_nome'>&nbsp;<a class='disabled' href=''>" . $superCoppa[0][$i * 4 + $j][0] . "</a>&nbsp;</td>
+						<td class='coppaSinistra' id='" . $id[$i * 4 + $j] . "_C_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i * 4 + $j][0]] . "'>" . $superCoppa[0][$i * 4 + $j][0] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 						<td href='#hiddenBox' class='datiCoppaSinistra fancybox pointer' id='" . $id[$i * 4 + $j] . "_C_dati' onmousedown='showBoxCoppa(\"" . $id[$i * 4 + $j] . "_C_dati\", event);'>
 							<div class='RisultatiCoppa'>&nbsp;" . $superCoppa[1][$i * 4 + $j][0] . "&nbsp;</div>	
@@ -152,7 +148,7 @@ require $relocate_string . 'archivio/2013/calendarioCoppa1213.inc.php';
 				echo "
 						</td>
 						<td class='void-5'>&nbsp;</td>
-						<td class='coppaDestra' id='" . $id[$i * 4 + $j] . "_F_nome'>&nbsp;<a class='disabled' href=''>" . $superCoppa[0][$i * 4 + $j][1] . "</a>&nbsp;</td>
+						<td class='coppaDestra' id='" . $id[$i * 4 + $j] . "_F_nome'>&nbsp;<a href='squadre/squadra.php?squadra=" . $shortName[$superCoppa[0][$i * 4 + $j][1]] . "'>" . $superCoppa[0][$i * 4 + $j][1] . "</a>&nbsp;</td>
 						<td class='void-5'>&nbsp;</td>
 					</tr>";
 				if ($j == 1 || $j == 3)

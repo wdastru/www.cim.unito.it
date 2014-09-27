@@ -40,13 +40,20 @@ $relocate_string = "../"
 				<th>Squadra</th>
 				<th>Presidente</th>
 			</tr>
-			<tr class="tableline">
-				<td align="center">2012/13</td>
-				<td align="center">21</td>
-				<td class="center marcatore">Cavani</td>
-				<td align="center">Lokomotiv Peccorino</td>
-				<td align="center">Claudia Cabella</td>
-			</tr>
+      <tr class="tableline">
+        <td align="center">2013/14</td>
+        <td align="center">18</td>
+        <td class="center marcatore">Toni</td>
+        <td align="center">Fedora</td>
+        <td align="center">Dario Longo</td>
+      </tr>
+      <tr class="tableline">
+        <td align="center">2012/13</td>
+        <td align="center">21</td>
+        <td class="center marcatore">Cavani</td>
+        <td align="center">Lokomotiv Peccorino</td>
+        <td align="center">Claudia Cabella</td>
+      </tr>
 			<tr class="tableline">
 				<td align="center">2011/12</td>
 				<td align="center">22</td>
@@ -106,13 +113,20 @@ $relocate_string = "../"
 				<th>Squadra</th>
 				<th>Presidente</th>
 			</tr>
-			<tr class="tableline">
-				<td align="center">2012/13</td>
-				<td align="center">5</td>
-				<td class="center marcatore">Quagliarella</td>
-				<td align="center">EPOrediese</td>
-				<td align="center">Erik Bruno</td>
-			</tr>
+      <tr class="tableline">
+        <td align="center">2013/14</td>
+        <td align="center">4</td>
+        <td class="center marcatore">Higuain</td>
+        <td align="center">Fedora</td>
+        <td align="center">Dario Longo</td>
+      </tr>
+      <tr class="tableline">
+        <td align="center">2012/13</td>
+        <td align="center">5</td>
+        <td class="center marcatore">Quagliarella</td>
+        <td align="center">EPOrediese</td>
+        <td align="center">Erik Bruno</td>
+      </tr>
 			<tr class="tableline">
 				<td align="center">2011/12</td>
 				<td align="center">3</td>
