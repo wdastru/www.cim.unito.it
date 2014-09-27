@@ -9,7 +9,7 @@ include("calendarioCoppa1011.inc.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<title>Fantacalcio NMR 2011/12</title>
+<title>Fantacalcio NMR</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
 	<!-- InstanceBeginEditable name="additional css" -->
