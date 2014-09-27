@@ -174,13 +174,15 @@ include("calendario.inc");
 		
 		$createOldStats = 0;
 		if ($createOldStats) {
-			$files[5] = $relocate_string . 'archivio/2013/datiCampionato1213.txt';
-			$files[4] = $relocate_string . 'archivio/2012/datiCampionato1112.txt';
+			$files[6] = $relocate_string . 'archivio/2014/datiCampionato1314.txt';
+      $files[5] = $relocate_string . 'archivio/2013/datiCampionato1213.txt';
+      $files[4] = $relocate_string . 'archivio/2012/datiCampionato1112.txt';
 			$files[3] = $relocate_string . 'archivio/2011/datiCampionato1011.txt';
 			$files[2] = $relocate_string . 'archivio/2010/datiCampionato0910.txt';
 			$files[1] = $relocate_string . 'archivio/2009/datiCampionato0809.txt';
 			$files[0] = $relocate_string . 'archivio/2008/datiCampionato0708.txt';
-			$year[5] = '1213';
+			$year[6] = '1314';
+      $year[5] = '1213';
 			$year[4] = '1112';
 			$year[3] = '1011';
 			$year[2] = '0910';
@@ -189,7 +191,7 @@ include("calendario.inc");
 			$allTimeStatsHandle = fopen($relocate_string . "allTimeStatsOld.txt", 'w');
 		} else {
 			$files[0] = $relocate_string . '777/datiCampionato.txt';
-			$year[0] = '1314';
+			$year[0] = '1415';
 			if (copy($relocate_string . "allTimeStatsOld.txt", $relocate_string . "777/allTimeStats.txt")) {
 				$allTimeStatsHandle = fopen($relocate_string . "777/allTimeStats.txt", 'a');
 			} else {
