@@ -7,11 +7,11 @@ if ($_GET['document'] == '')
 	header('Location: ../errors/error.php?error=noDocument');
 }
 
-$lilla_scuro 	= '#CC99FF';
-$viola 			= '#660066';
-$lilla_chiaro 	= '#E6BEE6';
+$celeste 	      = '#99FFCC';
+$turchese 		  = '#006666';
+$lilla_chiaro 	= '#BEE6E6';
 
-$giallo 		= '#FF0000';
+$arancio 		    = '#FF6600';
 $giallo_chiaro 	= '#EDDBFF';
 
 $grigio_medio 	= '#7F7F7F';
@@ -23,12 +23,12 @@ $bianco 		= '#FFFFFF';
 $nero 			= '#000000';
 $rosso 			= '#FF0000';
 
-$colore_1_chiaro = $lilla_scuro;
+$colore_1_chiaro = $celeste;
 $colore_1_medio  = $lilla_chiaro;
-$colore_1_scuro  = $viola;
+$colore_1_scuro  = $turchese;
 
 $colore_2_chiaro = $giallo_chiaro;
-$colore_2_scuro  = $giallo;
+$colore_2_scuro  = $arancio;
  
 $filename=$_GET['document'];
 if(file_exists($filename))
@@ -65,7 +65,7 @@ if(file_exists($filename))
 	$content = str_replace('sorteggioColor', $rosso, $content);
 	$content = str_replace('firstClassColor', $grigio_scuro, $content);
 	$content = str_replace('notHoverLinkColor', $colore_1_scuro, $content);
-	$content = str_replace('hoverLinkColor', $rosso, $content);
+	$content = str_replace('hoverLinkColor', $arancio, $content);
 	/* * * * * * * * */
 	
 	/*
@@ -118,7 +118,7 @@ if(file_exists($filename))
 	/*
 	 * MENU
 	 * * * * */
-	$content = str_replace('menuHoverColor', $rosso, $content);
+	$content = str_replace('menuHoverColor', $colore_2_scuro, $content);
 	$content = str_replace('menuColor', $panna, $content);
 	/* * * * */
 	
