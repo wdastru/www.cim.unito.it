@@ -100,7 +100,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 	$finali[2] = '5&deg; - 6&deg;';
 	$finali[3] = '7&deg; - 8&deg;';
 
-	$datiCoppaFile = $relocate_string . '777/datiCoppa.txt';
+	$datiCoppaFile = $relocate_string . 'archivio/2014/datiCoppa1314.txt';
 	if (!file_exists($datiCoppaFile)) {
 		require $relocate_string . 'createDatiCoppa.php';
 	}
