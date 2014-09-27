@@ -14,7 +14,7 @@ $longName[2] = $longName['c'] = 'Ij Patelavache';
 $longName[3] = $longName['d'] = 'Lokomotiv Peccorino';
 $longName[4] = $longName['e'] = 'EPOrediese';
 $longName[5] = $longName['f'] = 'Fedora';
-$longName[6] = $longName['g'] = 'Bradipo';
+$longName[6] = $longName['g'] = 'Rapid Bradip';
 $longName[7] = $longName['h'] = 'Atletico? No Grazie!';
 
 $longName[$shortName['a']] = $longName['a'];

@@ -57,9 +57,13 @@
 	  <campionato>
         <stagione>2012/13</stagione>
         <posizione>2</posizione>
+		<coppa>C</coppa>
+		<supercoppa>SC</supercoppa>
       </campionato>
-      <coppa>C</coppa>
-      <supercoppa>SC</supercoppa>
-    </storico>
+ 	<campionato>
+      <stagione>2013/14</stagione>
+      <posizione>7</posizione>
+    </campionato>
+   </storico>
   </squadra>
 </squadre>

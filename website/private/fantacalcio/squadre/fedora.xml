@@ -73,6 +73,10 @@
         <stagione>2012/13</stagione>
         <posizione>7</posizione>
       </campionato>
+	  <campionato>
+	    <stagione>2013/14</stagione>
+	    <posizione>3</posizione>
+	  </campionato>
     </storico>
   </squadra>
 </squadre>

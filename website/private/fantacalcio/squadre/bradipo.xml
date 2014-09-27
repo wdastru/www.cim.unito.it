@@ -7,57 +7,75 @@
     <campionato>
       <stagione>2000/01</stagione>
       <posizione>6</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2001/02</stagione>
       <posizione>7</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2002/03</stagione>
       <posizione>6</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2003/04</stagione>
       <posizione>7</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2004/05</stagione>
       <posizione>7</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2005/06</stagione>
       <posizione>8</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2006/07</stagione>
       <posizione>2</posizione>
       <coppa>C</coppa>
       <supercoppa>SC</supercoppa>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2007/08</stagione>
       <posizione>5</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2008/09</stagione>
       <posizione>7</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2009/10</stagione>
       <posizione>8</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>	
 	<campionato>
       <stagione>2010/11</stagione>
       <posizione>6</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
 	<campionato>
       <stagione>2011/12</stagione>
       <posizione>8</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
 	<campionato>
       <stagione>2012/13</stagione>
       <posizione>8</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
+	<campionato>
+      <stagione>2013/14</stagione>
+      <posizione>8</posizione>
+	  <vecchio_nome>Bradipo</vecchio_nome>
+    </campionato>	
   </storico>
 </squadra>
 </squadre>
