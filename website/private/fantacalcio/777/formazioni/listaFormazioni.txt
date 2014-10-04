@@ -1,4 +1,6 @@
 atletico.txt
+atletico_coppa_1.txt
+atletico_tipo_valida_fino_20140929-094748.txt
 bradipo.txt
 bradipo_cam01.txt
 ciofeca.txt
