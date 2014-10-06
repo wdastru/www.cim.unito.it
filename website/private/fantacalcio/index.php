@@ -56,7 +56,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<?php
 			unset($hostname);
 			exec('hostname', $hostname);
-			if ($hostname[0] == "PESTODURO") {
+			if ($hostname[0] == "PESTODURO" || $hostname[0] == "VORTICE") {
 				echo "<script type='text/javascript' src='" . $relocate_string . "jQuery/lib/jquery-1.10.1.min.js'></script>";	
 			}
 		 ?>

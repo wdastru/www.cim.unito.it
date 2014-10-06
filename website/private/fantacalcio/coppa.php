@@ -3,7 +3,6 @@ $relocate_string = "./";
 //require_once ("dBug.php");
 require_once ($relocate_string . "logger.php");
 
-include ("squadre.inc");
 include ("calendarioCoppa.inc");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -26,7 +25,7 @@ include ("calendarioCoppa.inc");
 	<script type="text/javascript"
 		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
 	<script type="text/javascript"
-		src="documentPreProcessor.php?document=coppa1314.js&type=javascript"></script>
+		src="documentPreProcessor.php?document=coppa1415.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 	<!-- jQuery -->
@@ -36,7 +35,7 @@ include ("calendarioCoppa.inc");
 	<?php 
 		unset($hostname);
 		exec('hostname', $hostname);
-		if ($hostname[0] == "PESTODURO") {
+		if ($hostname[0] == "PESTODURO" || $hostname[0] == "VORTICE" ) {
 			echo "<script type='text/javascript' src='" . $relocate_string . "jQuery/lib/jquery-1.10.1.min.js'></script>";	
 		}
 		require $relocate_string . 'include/jquery.fancybox.inc.php';
