@@ -45,12 +45,12 @@ array_push($super, array());
  */
 $longName['A'] = $longName['a'];
 $longName['B'] = $longName['g'];
-$longName['C'] = $longName['h'];
-$longName['D'] = $longName['e'];
-$longName['E'] = $longName['f'];
-$longName['F'] = $longName['c'];
-$longName['G'] = $longName['b'];
-$longName['H'] = $longName['d'];
+$longName['C'] = $longName['f'];
+$longName['D'] = $longName['c'];
+$longName['E'] = $longName['d'];
+$longName['F'] = $longName['b'];
+$longName['G'] = $longName['e'];
+$longName['H'] = $longName['h'];
    
 /*
  * $super rispecchia il calendario campionato come da regolamento
