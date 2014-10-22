@@ -1,7 +1,7 @@
-gruppi0/-/-/-/-/
-gruppi1/-/-/-/-/
-gruppi2/-/-/-/-/
-gruppi3/-/-/-/-/
+gruppi0/1/1/68.5/69/OSVALDO/CASSANO/
+gruppi1/2/0/77.5/63.5/CALLEJON/CALLEJON/
+gruppi2/3/3/82/80.5/DI NATALE/DI NATALE/HEURTAUX/TEVEZ/TEVEZ/QUAGLIARELLA/
+gruppi3/2/0/76.5/63.5/DJORDJEVIC/DJORDJEVIC/
 gruppi4/-/-/-/-/
 gruppi5/-/-/-/-/
 gruppi6/-/-/-/-/

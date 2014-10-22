@@ -782,115 +782,115 @@
 1314/EPOrediese/Atletico? No Grazie!/0/3/62/78/0/MERTENS/NAGATOMO/MERTENS/
 1314/EPOrediese/Atletico? No Grazie!/0/1/63.5/66.5/1/BIABIANY/
 1314/EPOrediese/Atletico? No Grazie!/0/2/61/73.5/0/GERVINHO/PIRLO/
-1415/Dinamo Ciofeca/Rapid Bradip/////1/
+1415/Dinamo Ciofeca/Rapid Bradip/3/3/81/78/1/CALLEJON/CANDREVA/CANDREVA/CUADRADO/GABBIADINI/ITURBE/
 1415/Dinamo Ciofeca/Rapid Bradip/////0/
 1415/Dinamo Ciofeca/Rapid Bradip/////1/
 1415/Dinamo Ciofeca/Rapid Bradip/////0/
-1415/Lokomotiv Peccorino/Atletico? No Grazie!/////1/
-1415/Lokomotiv Peccorino/Atletico? No Grazie!/////0/
-1415/Lokomotiv Peccorino/Atletico? No Grazie!/////1/
-1415/Lokomotiv Peccorino/Atletico? No Grazie!/////0/
-1415/Ij Patelavache/Real Mentescars/////1/
-1415/Ij Patelavache/Real Mentescars/////0/
-1415/Ij Patelavache/Real Mentescars/////1/
-1415/Ij Patelavache/Real Mentescars/////0/
-1415/Fedora/EPOrediese/////1/
-1415/Fedora/EPOrediese/////0/
-1415/Fedora/EPOrediese/////1/
-1415/Fedora/EPOrediese/////0/
-1415/Rapid Bradip/Lokomotiv Peccorino/////1/
-1415/Rapid Bradip/Lokomotiv Peccorino/////0/
-1415/Rapid Bradip/Lokomotiv Peccorino/////1/
-1415/Rapid Bradip/Lokomotiv Peccorino/////0/
-1415/Atletico? No Grazie!/Dinamo Ciofeca/////1/
-1415/Atletico? No Grazie!/Dinamo Ciofeca/////0/
-1415/Atletico? No Grazie!/Dinamo Ciofeca/////1/
-1415/Atletico? No Grazie!/Dinamo Ciofeca/////0/
-1415/Real Mentescars/Fedora/////1/
-1415/Real Mentescars/Fedora/////0/
-1415/Real Mentescars/Fedora/////1/
-1415/Real Mentescars/Fedora/////0/
-1415/EPOrediese/Ij Patelavache/////1/
-1415/EPOrediese/Ij Patelavache/////0/
-1415/EPOrediese/Ij Patelavache/////1/
-1415/EPOrediese/Ij Patelavache/////0/
-1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
-1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
-1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
-1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
-1415/Rapid Bradip/Atletico? No Grazie!/////1/
-1415/Rapid Bradip/Atletico? No Grazie!/////0/
-1415/Rapid Bradip/Atletico? No Grazie!/////1/
-1415/Rapid Bradip/Atletico? No Grazie!/////0/
+1415/Fedora/Ij Patelavache/1/2/66/72.5/1/TONI/BERARDI/BERARDI/
+1415/Fedora/Ij Patelavache/////0/
+1415/Fedora/Ij Patelavache/////1/
+1415/Fedora/Ij Patelavache/////0/
+1415/Lokomotiv Peccorino/Real Mentescars/2/1/74/67.5/1/TEVEZ/TEVEZ/BONUCCI/
+1415/Lokomotiv Peccorino/Real Mentescars/////0/
+1415/Lokomotiv Peccorino/Real Mentescars/////1/
+1415/Lokomotiv Peccorino/Real Mentescars/////0/
+1415/EPOrediese/Atletico? No Grazie!/1/1/68.5/67.5/1/HONDA/MUNTARI/
+1415/EPOrediese/Atletico? No Grazie!/////0/
+1415/EPOrediese/Atletico? No Grazie!/////1/
+1415/EPOrediese/Atletico? No Grazie!/////0/
+1415/Rapid Bradip/Fedora/4/0/89.5/60/1/CALLEJON/CALLEJON/DYBALA/TOTTI/
+1415/Rapid Bradip/Fedora/////0/
+1415/Rapid Bradip/Fedora/////1/
+1415/Rapid Bradip/Fedora/////0/
+1415/Ij Patelavache/Dinamo Ciofeca/////1/
+1415/Ij Patelavache/Dinamo Ciofeca/////0/
+1415/Ij Patelavache/Dinamo Ciofeca/////1/
+1415/Ij Patelavache/Dinamo Ciofeca/////0/
 1415/Real Mentescars/EPOrediese/////1/
 1415/Real Mentescars/EPOrediese/////0/
 1415/Real Mentescars/EPOrediese/////1/
 1415/Real Mentescars/EPOrediese/////0/
-1415/Fedora/Ij Patelavache/////1/
-1415/Fedora/Ij Patelavache/////0/
-1415/Fedora/Ij Patelavache/////1/
-1415/Fedora/Ij Patelavache/////0/
-1415/EPOrediese/Dinamo Ciofeca/////1/
-1415/EPOrediese/Dinamo Ciofeca/////0/
-1415/EPOrediese/Dinamo Ciofeca/////1/
-1415/EPOrediese/Dinamo Ciofeca/////0/
-1415/Lokomotiv Peccorino/Real Mentescars/////1/
-1415/Lokomotiv Peccorino/Real Mentescars/////0/
-1415/Lokomotiv Peccorino/Real Mentescars/////1/
-1415/Lokomotiv Peccorino/Real Mentescars/////0/
-1415/Ij Patelavache/Rapid Bradip/////1/
-1415/Ij Patelavache/Rapid Bradip/////0/
-1415/Ij Patelavache/Rapid Bradip/////1/
-1415/Ij Patelavache/Rapid Bradip/////0/
-1415/Atletico? No Grazie!/Fedora/////1/
-1415/Atletico? No Grazie!/Fedora/////0/
-1415/Atletico? No Grazie!/Fedora/////1/
-1415/Atletico? No Grazie!/Fedora/////0/
-1415/Dinamo Ciofeca/Ij Patelavache/////1/
-1415/Dinamo Ciofeca/Ij Patelavache/////0/
-1415/Dinamo Ciofeca/Ij Patelavache/////1/
-1415/Dinamo Ciofeca/Ij Patelavache/////0/
-1415/Fedora/Lokomotiv Peccorino/////1/
-1415/Fedora/Lokomotiv Peccorino/////0/
-1415/Fedora/Lokomotiv Peccorino/////1/
-1415/Fedora/Lokomotiv Peccorino/////0/
-1415/Rapid Bradip/EPOrediese/////1/
-1415/Rapid Bradip/EPOrediese/////0/
-1415/Rapid Bradip/EPOrediese/////1/
-1415/Rapid Bradip/EPOrediese/////0/
-1415/Real Mentescars/Atletico? No Grazie!/////1/
-1415/Real Mentescars/Atletico? No Grazie!/////0/
-1415/Real Mentescars/Atletico? No Grazie!/////1/
-1415/Real Mentescars/Atletico? No Grazie!/////0/
-1415/Real Mentescars/Dinamo Ciofeca/////1/
-1415/Real Mentescars/Dinamo Ciofeca/////0/
-1415/Real Mentescars/Dinamo Ciofeca/////1/
-1415/Real Mentescars/Dinamo Ciofeca/////0/
-1415/Fedora/Rapid Bradip/////1/
-1415/Fedora/Rapid Bradip/////0/
-1415/Fedora/Rapid Bradip/////1/
-1415/Fedora/Rapid Bradip/////0/
-1415/Atletico? No Grazie!/Ij Patelavache/////1/
-1415/Atletico? No Grazie!/Ij Patelavache/////0/
-1415/Atletico? No Grazie!/Ij Patelavache/////1/
-1415/Atletico? No Grazie!/Ij Patelavache/////0/
-1415/Lokomotiv Peccorino/EPOrediese/////1/
-1415/Lokomotiv Peccorino/EPOrediese/////0/
-1415/Lokomotiv Peccorino/EPOrediese/////1/
-1415/Lokomotiv Peccorino/EPOrediese/////0/
+1415/Atletico? No Grazie!/Lokomotiv Peccorino/////1/
+1415/Atletico? No Grazie!/Lokomotiv Peccorino/////0/
+1415/Atletico? No Grazie!/Lokomotiv Peccorino/////1/
+1415/Atletico? No Grazie!/Lokomotiv Peccorino/////0/
 1415/Dinamo Ciofeca/Fedora/////1/
 1415/Dinamo Ciofeca/Fedora/////0/
 1415/Dinamo Ciofeca/Fedora/////1/
 1415/Dinamo Ciofeca/Fedora/////0/
-1415/Rapid Bradip/Real Mentescars/////1/
-1415/Rapid Bradip/Real Mentescars/////0/
-1415/Rapid Bradip/Real Mentescars/////1/
-1415/Rapid Bradip/Real Mentescars/////0/
+1415/Rapid Bradip/Ij Patelavache/////1/
+1415/Rapid Bradip/Ij Patelavache/////0/
+1415/Rapid Bradip/Ij Patelavache/////1/
+1415/Rapid Bradip/Ij Patelavache/////0/
+1415/Real Mentescars/Atletico? No Grazie!/////1/
+1415/Real Mentescars/Atletico? No Grazie!/////0/
+1415/Real Mentescars/Atletico? No Grazie!/////1/
+1415/Real Mentescars/Atletico? No Grazie!/////0/
+1415/EPOrediese/Lokomotiv Peccorino/////1/
+1415/EPOrediese/Lokomotiv Peccorino/////0/
+1415/EPOrediese/Lokomotiv Peccorino/////1/
+1415/EPOrediese/Lokomotiv Peccorino/////0/
+1415/Atletico? No Grazie!/Dinamo Ciofeca/////1/
+1415/Atletico? No Grazie!/Dinamo Ciofeca/////0/
+1415/Atletico? No Grazie!/Dinamo Ciofeca/////1/
+1415/Atletico? No Grazie!/Dinamo Ciofeca/////0/
+1415/Fedora/Real Mentescars/////1/
+1415/Fedora/Real Mentescars/////0/
+1415/Fedora/Real Mentescars/////1/
+1415/Fedora/Real Mentescars/////0/
+1415/Lokomotiv Peccorino/Rapid Bradip/////1/
+1415/Lokomotiv Peccorino/Rapid Bradip/////0/
+1415/Lokomotiv Peccorino/Rapid Bradip/////1/
+1415/Lokomotiv Peccorino/Rapid Bradip/////0/
+1415/Ij Patelavache/EPOrediese/////1/
+1415/Ij Patelavache/EPOrediese/////0/
+1415/Ij Patelavache/EPOrediese/////1/
+1415/Ij Patelavache/EPOrediese/////0/
+1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
+1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
+1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
+1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
+1415/EPOrediese/Fedora/////1/
+1415/EPOrediese/Fedora/////0/
+1415/EPOrediese/Fedora/////1/
+1415/EPOrediese/Fedora/////0/
+1415/Rapid Bradip/Atletico? No Grazie!/////1/
+1415/Rapid Bradip/Atletico? No Grazie!/////0/
+1415/Rapid Bradip/Atletico? No Grazie!/////1/
+1415/Rapid Bradip/Atletico? No Grazie!/////0/
+1415/Real Mentescars/Ij Patelavache/////1/
+1415/Real Mentescars/Ij Patelavache/////0/
+1415/Real Mentescars/Ij Patelavache/////1/
+1415/Real Mentescars/Ij Patelavache/////0/
+1415/Real Mentescars/Dinamo Ciofeca/////1/
+1415/Real Mentescars/Dinamo Ciofeca/////0/
+1415/Real Mentescars/Dinamo Ciofeca/////1/
+1415/Real Mentescars/Dinamo Ciofeca/////0/
+1415/EPOrediese/Rapid Bradip/////1/
+1415/EPOrediese/Rapid Bradip/////0/
+1415/EPOrediese/Rapid Bradip/////1/
+1415/EPOrediese/Rapid Bradip/////0/
 1415/Ij Patelavache/Lokomotiv Peccorino/////1/
 1415/Ij Patelavache/Lokomotiv Peccorino/////0/
 1415/Ij Patelavache/Lokomotiv Peccorino/////1/
 1415/Ij Patelavache/Lokomotiv Peccorino/////0/
-1415/EPOrediese/Atletico? No Grazie!/////1/
-1415/EPOrediese/Atletico? No Grazie!/////0/
-1415/EPOrediese/Atletico? No Grazie!/////1/
-1415/EPOrediese/Atletico? No Grazie!/////0/
+1415/Fedora/Atletico? No Grazie!/////1/
+1415/Fedora/Atletico? No Grazie!/////0/
+1415/Fedora/Atletico? No Grazie!/////1/
+1415/Fedora/Atletico? No Grazie!/////0/
+1415/Dinamo Ciofeca/EPOrediese/////1/
+1415/Dinamo Ciofeca/EPOrediese/////0/
+1415/Dinamo Ciofeca/EPOrediese/////1/
+1415/Dinamo Ciofeca/EPOrediese/////0/
+1415/Rapid Bradip/Real Mentescars/////1/
+1415/Rapid Bradip/Real Mentescars/////0/
+1415/Rapid Bradip/Real Mentescars/////1/
+1415/Rapid Bradip/Real Mentescars/////0/
+1415/Lokomotiv Peccorino/Fedora/////1/
+1415/Lokomotiv Peccorino/Fedora/////0/
+1415/Lokomotiv Peccorino/Fedora/////1/
+1415/Lokomotiv Peccorino/Fedora/////0/
+1415/Atletico? No Grazie!/Ij Patelavache/////1/
+1415/Atletico? No Grazie!/Ij Patelavache/////0/
+1415/Atletico? No Grazie!/Ij Patelavache/////1/
+1415/Atletico? No Grazie!/Ij Patelavache/////0/
