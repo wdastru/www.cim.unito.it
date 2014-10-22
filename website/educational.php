@@ -61,7 +61,7 @@
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<ul>
 							    <li>
-                                    <a href="<?php echo $localizer; ?>EMIDS/EMIDS_June_2014.php">The breakthrough of Molecular Imaging in the field of the future in vivo diagnostic procedures</a>
+                                    <a href="<?php echo $localizer; ?>EMIDS/EMIDS_September_2014.php">The breakthrough of Molecular Imaging in the field of the future in vivo diagnostic procedures</a>
                                 </li>
                                 <li>
                                     <a href="<?php echo $localizer; ?>Scuola_NMR_Base_2013.php">Scuola NMR di Base 2013</a>

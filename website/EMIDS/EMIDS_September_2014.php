@@ -61,7 +61,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                                 <tr>
                                     <td>Date</td>
-                                    <td>25-27/6/2014</td>
+                                    <td>10-12/9/2014</td>
                                 </tr>
                                 <tr>
                                     <td>Duration</td>
