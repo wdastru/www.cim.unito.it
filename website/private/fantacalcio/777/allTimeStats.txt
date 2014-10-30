@@ -802,15 +802,15 @@
 1415/Rapid Bradip/Fedora/////0/
 1415/Rapid Bradip/Fedora/////1/
 1415/Rapid Bradip/Fedora/////0/
-1415/Ij Patelavache/Dinamo Ciofeca/////1/
+1415/Ij Patelavache/Dinamo Ciofeca/3/0/78.5/65.5/1/DJORDJEVIC/LULIC/SAU/
 1415/Ij Patelavache/Dinamo Ciofeca/////0/
 1415/Ij Patelavache/Dinamo Ciofeca/////1/
 1415/Ij Patelavache/Dinamo Ciofeca/////0/
-1415/Real Mentescars/EPOrediese/////1/
+1415/Real Mentescars/EPOrediese/1/2/66.5/74/1/KOVACIC/HONDA/HONDA/
 1415/Real Mentescars/EPOrediese/////0/
 1415/Real Mentescars/EPOrediese/////1/
 1415/Real Mentescars/EPOrediese/////0/
-1415/Atletico? No Grazie!/Lokomotiv Peccorino/////1/
+1415/Atletico? No Grazie!/Lokomotiv Peccorino/1/1/71/70/1/DESTRO/QUAGLIARELLA/
 1415/Atletico? No Grazie!/Lokomotiv Peccorino/////0/
 1415/Atletico? No Grazie!/Lokomotiv Peccorino/////1/
 1415/Atletico? No Grazie!/Lokomotiv Peccorino/////0/
@@ -818,11 +818,11 @@
 1415/Dinamo Ciofeca/Fedora/////0/
 1415/Dinamo Ciofeca/Fedora/////1/
 1415/Dinamo Ciofeca/Fedora/////0/
-1415/Rapid Bradip/Ij Patelavache/////1/
+1415/Rapid Bradip/Ij Patelavache/2/1/72/70/1/CALLEJON/CALLEJON/SAU/
 1415/Rapid Bradip/Ij Patelavache/////0/
 1415/Rapid Bradip/Ij Patelavache/////1/
 1415/Rapid Bradip/Ij Patelavache/////0/
-1415/Real Mentescars/Atletico? No Grazie!/////1/
+1415/Real Mentescars/Atletico? No Grazie!/1/0/71.5/59/1/CASSANO/
 1415/Real Mentescars/Atletico? No Grazie!/////0/
 1415/Real Mentescars/Atletico? No Grazie!/////1/
 1415/Real Mentescars/Atletico? No Grazie!/////0/
