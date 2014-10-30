@@ -127,8 +127,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <li>9h30-12h30: Welcome &amp; Registration</li>
                                         <li>12h30-13h30: Introduction to Molecular Imaging (Silvio Aime - University of Torino)</li>
                                         <li>13h30-14h30: <i>Lunch time</i></li>
-                                        <li>14h30-15h30: MRI introduction (Walter Dastr&uacute; - University of Torino)</li>
-                                        <li>15h30-16h30: Gd(III) complexes: basic relaxometric characterization (Eliana Gianolio - University of Torino)</li>
+                                        <li>14h30-15h30: <a href="documenti/emids_Dastru.ppsx>">Gd(III) complexes: basic relaxometric characterization (Eliana Gianolio - University of Torino)</a></li>
                                         <li>16h30-17h00: <i>Coffee break</i></li>
                                         <li>17h00-18h00: Responsive Contrast Agents (Giuseppe Digilio - University of Piemonte Orientale)</li>
                                     </ul></td>
@@ -137,10 +136,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <td>Sept. 11</td><td>
                                     <ul>
                                         <li>9h00-10h00: DCE-MRI: principles and techniques (Dario Longo - IBB/CNR Napoli)</li>
-                                        <li>10h00-11h00: Designing MRI targeting agents (Simonetta Geninatti - University of Torino)</li>
+                                        <li>10h00-11h00: <a href="documenti/emids2014_geninatti.pdf">Designing MRI targeting agents (Simonetta Geninatti - University of Torino)</a></li>
                                         <li>11h00-11h30: <i>Coffee break</i></li>
-                                        <li>11h30-12h30: CEST agents (Daniela Delli Castelli - University of Torino)</li>
-                                        <li>12h30-13h30: Hyperpolarized MRI: metabolic imaging (Francesca Reineri - University of Torino)</li>
+                                        <li>11h30-12h30: CEST agents (Giuseppe Digilio - University of Torino)</li>
+                                        <li>12h30-13h30: <a href="documenti/emids2014_MetabolicImaging_Reineri.pdf">Hyperpolarized MRI: metabolic imaging (Francesca Reineri - University of Torino)</a></li>
                                         <li>13h30-14h30: <i>Lunch time</i></li>
                                         <li>14h30-16h00: Relaxometric characterization of Gd(III) complexes and NMRD analysis (Eliana Gianolio / Simona Baroni - University of Torino, practical session)</li>
                                         <li>16h00-17h30: DCE-MRI at 1T (Dario Longo - IBB/CNR Napoli, practical session)</li>
@@ -150,7 +149,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <td>Sept. 12</td><td>
                                     <ul>
                                         <li>9h00-10h30: Cell labeling (Simonetta Geninatti - University of Torino, practical session)</li>
-                                        <li>10h30-12h00: CEST experiment (Giuseppe Ferrauto - University of Torino, practical session)</li>
+                                        <li>10h30-12h00: <a href="documenti/EMIDS_2014_Ferrauto.pdf">CEST experiment (Giuseppe Ferrauto - University of Torino, practical session)</a></li>
                                         <li>12h00-12h30: <i>Coffee break</i></li>
                                         <li>12h30-14h00: Hyperpolarized experiment (Francesca Reineri - University of Torino, practical session)</li>
                                         <li>14h00-15h00: <i>Lunch time</i></li>
