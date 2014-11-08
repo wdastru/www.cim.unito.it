@@ -814,7 +814,7 @@
 1415/Atletico? No Grazie!/Lokomotiv Peccorino/////0/
 1415/Atletico? No Grazie!/Lokomotiv Peccorino/////1/
 1415/Atletico? No Grazie!/Lokomotiv Peccorino/////0/
-1415/Dinamo Ciofeca/Fedora/////1/
+1415/Dinamo Ciofeca/Fedora/1/4/66/86.5/1/LLORENTE/HIGUAIN/HIGUAIN/HIGUAIN/EKDAL/
 1415/Dinamo Ciofeca/Fedora/////0/
 1415/Dinamo Ciofeca/Fedora/////1/
 1415/Dinamo Ciofeca/Fedora/////0/
@@ -826,27 +826,27 @@
 1415/Real Mentescars/Atletico? No Grazie!/////0/
 1415/Real Mentescars/Atletico? No Grazie!/////1/
 1415/Real Mentescars/Atletico? No Grazie!/////0/
-1415/EPOrediese/Lokomotiv Peccorino/////1/
+1415/EPOrediese/Lokomotiv Peccorino/4/0/88/62/1/HAMSIK/DI NATALE/HAMSIK/ICARDI/
 1415/EPOrediese/Lokomotiv Peccorino/////0/
 1415/EPOrediese/Lokomotiv Peccorino/////1/
 1415/EPOrediese/Lokomotiv Peccorino/////0/
-1415/Atletico? No Grazie!/Dinamo Ciofeca/////1/
+1415/Atletico? No Grazie!/Dinamo Ciofeca/1/0/67.5/65.5/1/DESTRO/
 1415/Atletico? No Grazie!/Dinamo Ciofeca/////0/
 1415/Atletico? No Grazie!/Dinamo Ciofeca/////1/
 1415/Atletico? No Grazie!/Dinamo Ciofeca/////0/
-1415/Fedora/Real Mentescars/////1/
+1415/Fedora/Real Mentescars/3/0/80.5/64/1/DARMIAN/DENIS/TONI/
 1415/Fedora/Real Mentescars/////0/
 1415/Fedora/Real Mentescars/////1/
 1415/Fedora/Real Mentescars/////0/
-1415/Lokomotiv Peccorino/Rapid Bradip/////1/
+1415/Lokomotiv Peccorino/Rapid Bradip/2/0/73.5/65.5/1/BORJA VALERO/DE ROSSI/
 1415/Lokomotiv Peccorino/Rapid Bradip/////0/
 1415/Lokomotiv Peccorino/Rapid Bradip/////1/
 1415/Lokomotiv Peccorino/Rapid Bradip/////0/
-1415/Ij Patelavache/EPOrediese/////1/
+1415/Ij Patelavache/EPOrediese/1/2/71.5/73.5/1/LULIC/ICARDI/ICARDI/
 1415/Ij Patelavache/EPOrediese/////0/
 1415/Ij Patelavache/EPOrediese/////1/
 1415/Ij Patelavache/EPOrediese/////0/
-1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
+1415/Dinamo Ciofeca/Lokomotiv Peccorino/0/1/59/67.5/1/TEVEZ/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
@@ -854,11 +854,11 @@
 1415/EPOrediese/Fedora/////0/
 1415/EPOrediese/Fedora/////1/
 1415/EPOrediese/Fedora/////0/
-1415/Rapid Bradip/Atletico? No Grazie!/////1/
+1415/Rapid Bradip/Atletico? No Grazie!/3/1/80.5/71/1/CALLEJON/DYBALA/CANDREVA/PIRLO/
 1415/Rapid Bradip/Atletico? No Grazie!/////0/
 1415/Rapid Bradip/Atletico? No Grazie!/////1/
 1415/Rapid Bradip/Atletico? No Grazie!/////0/
-1415/Real Mentescars/Ij Patelavache/////1/
+1415/Real Mentescars/Ij Patelavache/0/1/64/69/1/LULIC/
 1415/Real Mentescars/Ij Patelavache/////0/
 1415/Real Mentescars/Ij Patelavache/////1/
 1415/Real Mentescars/Ij Patelavache/////0/
