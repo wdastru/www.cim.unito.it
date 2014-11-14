@@ -850,7 +850,7 @@
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
-1415/EPOrediese/Fedora/////1/
+1415/EPOrediese/Fedora/2/0/74/62/1/MORATA/DI NATALE/
 1415/EPOrediese/Fedora/////0/
 1415/EPOrediese/Fedora/////1/
 1415/EPOrediese/Fedora/////0/
@@ -862,7 +862,7 @@
 1415/Real Mentescars/Ij Patelavache/////0/
 1415/Real Mentescars/Ij Patelavache/////1/
 1415/Real Mentescars/Ij Patelavache/////0/
-1415/Real Mentescars/Dinamo Ciofeca/////1/
+1415/Real Mentescars/Dinamo Ciofeca/1/4/69.5/88/1/EDER/LLORENTE/LICHTSTEINER/LLORENTE/LICHTSTEINER/
 1415/Real Mentescars/Dinamo Ciofeca/////0/
 1415/Real Mentescars/Dinamo Ciofeca/////1/
 1415/Real Mentescars/Dinamo Ciofeca/////0/
@@ -870,7 +870,7 @@
 1415/EPOrediese/Rapid Bradip/////0/
 1415/EPOrediese/Rapid Bradip/////1/
 1415/EPOrediese/Rapid Bradip/////0/
-1415/Ij Patelavache/Lokomotiv Peccorino/////1/
+1415/Ij Patelavache/Lokomotiv Peccorino/1/2/69/75/1/DJORDJEVIC/TEVEZ/TEVEZ/
 1415/Ij Patelavache/Lokomotiv Peccorino/////0/
 1415/Ij Patelavache/Lokomotiv Peccorino/////1/
 1415/Ij Patelavache/Lokomotiv Peccorino/////0/
