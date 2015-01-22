@@ -304,11 +304,11 @@ xmlns="http://www.w3.org/1999/xhtml">
 </tr>
 <tr>
 <td></td>
-<td></td>
-<td></td>
 <td><input id='iSPPS' class='instrumentButton' type='submit' name='instrument' value='SPPS' onmouseover='On(\"iSPPS\")' onmouseout='Off(\"iSPPS\")'/></td>
 <td><input id='iICP' class='instrumentButton' type='submit' name='instrument' value='ICP' onmouseover='On(\"iICP\")' onmouseout='Off(\"iICP\")'/></td>
 <td><input id='iICP' class='instrumentButton' type='submit' name='instrument' value='VevoLazr' onmouseover='On(\"iVevoLazr\")' onmouseout='Off(\"iVevoLazr\")'/></td>
+<td><input id='iIVISSPE' class='instrumentButton' type='submit' name='instrument' value='IVISSPE' onmouseover='On(\"iIVISSPE\")' onmouseout='Off(\"iIVISSPE\")'/></td>
+<td><input id='iOMZ' class='instrumentButton' type='submit' name='instrument' value='OMZ' onmouseover='On(\"iOMZ\")' onmouseout='Off(\"iOMZ\")'/></td>
 </tr>
 </table>
 </form>
