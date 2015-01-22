@@ -2,10 +2,10 @@ gruppi0/1/1/68.5/69/OSVALDO/CASSANO/
 gruppi1/2/0/77.5/63.5/CALLEJON/CALLEJON/
 gruppi2/3/3/82/80.5/DI NATALE/DI NATALE/HEURTAUX/TEVEZ/TEVEZ/QUAGLIARELLA/
 gruppi3/2/0/76.5/63.5/DJORDJEVIC/DJORDJEVIC/
-gruppi4/-/-/-/-/
-gruppi5/-/-/-/-/
-gruppi6/-/-/-/-/
-gruppi7/-/-/-/-/
+gruppi4/1/1/71.5/67/EDER/DYBALA/
+gruppi5/4/2/87/75/PJANIC/PJANIC/MENEZ/MENEZ/GERVINHO/MORAS/
+gruppi6/0/2/64.5/72.5/VIDAL/RANOCCHIA/
+gruppi7/2/0/72.5/60.5/HOLEBAS/BORJA VALERO/
 gruppi8/-/-/-/-/
 gruppi9/-/-/-/-/
 gruppi10/-/-/-/-/
