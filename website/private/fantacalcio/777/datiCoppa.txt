@@ -6,10 +6,10 @@ gruppi4/1/1/71.5/67/EDER/DYBALA/
 gruppi5/4/2/87/75/PJANIC/PJANIC/MENEZ/MENEZ/GERVINHO/MORAS/
 gruppi6/0/2/64.5/72.5/VIDAL/RANOCCHIA/
 gruppi7/2/0/72.5/60.5/HOLEBAS/BORJA VALERO/
-gruppi8/-/-/-/-/
-gruppi9/-/-/-/-/
+gruppi8/0/2/60/75/PINILLA/N. SANSONE/
+gruppi9/1/1/70.5/70.5/MENEZ/DYBALA/
 gruppi10/-/-/-/-/
-gruppi11/-/-/-/-/
+gruppi11/3/1/80/71.5/QUAGLIARELLA/QUAGLIARELLA/QUAGLIARELLA/BERARDI/
 semi0/-/-/-/-/
 semi1/-/-/-/-/
 semi2/-/-/-/-/
