@@ -29,6 +29,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>Fantacalcio NMR</title>
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
 		<link rel="stylesheet" type="text/css"
 		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
