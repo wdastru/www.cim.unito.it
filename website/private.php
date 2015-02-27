@@ -19,7 +19,7 @@ meta-google
 meta-keywords
 link-style
 link-icon
-<script type="text/javascript" src='<?php echo $localizer . "script.js"?>'></script>
+script-script
 </head>
 <body>
 	<div id='section7'>
