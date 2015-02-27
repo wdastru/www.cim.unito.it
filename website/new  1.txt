@@ -1,3 +1,0 @@
-<link href=.<\?php echo \$localizer; \?>stylesheet\.css. rel=.stylesheet. type=.text\/css. />
-<link href=.stylesheet\.css. rel=.stylesheet. type=.text\/css. \/>
-link-style
