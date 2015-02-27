@@ -35,7 +35,7 @@ $result = mysql_query($sql, $con);
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=cp1252" />
+        meta-http
         
         <title>Molecular Imaging Center - University of Torino</title>
         

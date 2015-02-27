@@ -6,7 +6,7 @@ $localizer = "./";
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=cp1252" />
+        meta-http
         meta-gen
         
         <title>Molecular Imaging Center - University of Torino -
