@@ -16,7 +16,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         meta-google
         <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
         meta-keywords
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
+        link-style
         <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
     </head>
     <body>

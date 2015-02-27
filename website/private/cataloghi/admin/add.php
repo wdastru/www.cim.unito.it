@@ -25,7 +25,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         meta-keywords
         <link rel="icon" href="images/favicon.gif" type="image/gif" />
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css' />
+        link-style
         <link href="<?php echo $localizer; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
         <script src="<?php echo $localizer; ?>script.js" type="text/javascript" ></script>
     </head>
