@@ -53,7 +53,7 @@ $localizer = "../../../";
 meta-google
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 meta-keywords
-<link href=<?php echo $localizer . "stylesheet.css"?> rel='stylesheet' type='text/css' />
+link-style
 <link href="../catalog.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="script.js"></script>
 </head>
