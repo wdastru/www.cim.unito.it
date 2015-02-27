@@ -65,8 +65,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		link-style
 		link-icon
 		<link href="preno.css" rel='stylesheet' type='text/css' />
-		<script type="text/javascript"
-		src="<?php echo $localizer . 'script.js'?>"></script>
+		script-script
 		<script type="text/javascript" src="booking.js"></script>
 	</head>
 	<body onload='aBoxIsOn=false;'>
