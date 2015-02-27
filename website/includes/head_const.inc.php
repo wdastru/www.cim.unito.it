@@ -7,10 +7,9 @@ echo "
     <meta name='google-site-verification' content='q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0' />
     <meta http-equiv='Content-Type' content='text/php; charset=us-ascii' />
     <meta name='keywords' content='NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia' />
-    <!--<link href='stylesheet.css' rel='stylesheet' type='text/css'></link>-->
-	<link href=\"<?php echo $localizer; ?>stylesheet.css\" rel='stylesheet' type='text/css'></link>
-    <link rel='icon' href='images/favicon.gif' type='image/gif'></link>
-    <script type='text/javascript' src='script.js'></script>
+    <link href=\"<?php echo $localizer; ?>stylesheet.css\" rel='stylesheet' type='text/css' />
+    <link rel=\"icon\" href=\"<?php echo $localizer;?>images/favicon.gif\" type=\"image/gif\" />
+    <script type='text/javascript' src='script.js' />
     
     ";
  
