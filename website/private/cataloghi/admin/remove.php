@@ -49,7 +49,7 @@ meta-google
 meta-keywords
 link-style
 <link href="../catalog.css" rel='stylesheet' type='text/css' />
-<script type="text/javascript" src="script.js"></script>
+script-script
 </head>
 link-icon
 <body>

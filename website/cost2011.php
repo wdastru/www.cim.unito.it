@@ -19,7 +19,7 @@
 		"text/html; charset=us-ascii" />
 		meta-keywords
 		link-style
-		<script type="text/javascript" src="script.js"></script>
+		script-script
 		<!--
 		include flowplayer JavaScript file that does
 		Flash embedding and provides the Flowplayer API.

@@ -17,7 +17,7 @@ $localizer = "./";
         meta-keywords
         link-style
         link-icon
-        <script type="text/javascript" src="script.js"></script>
+        script-script
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>

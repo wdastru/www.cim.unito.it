@@ -18,7 +18,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         link-style
 		link-icon
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="script.js"></script>
+        script-script
     </head>
     
     <body>

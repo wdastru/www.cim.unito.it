@@ -19,7 +19,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         meta-keywords
         link-style
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="script.js"></script>
+        script-script
     </head>
     link-icon
     <body>
