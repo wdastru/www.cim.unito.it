@@ -11,10 +11,10 @@ meta-gen
 
 <title>Molecular Imaging Center - University of Torino - Publications</title>
 
-<!-- InstanceBeginEditable name="meta description" -->
+
 <meta name="description"
 	content="Publications from people at the Molecular Imaging Center" />
-<!-- InstanceEndEditable -->
+
 meta-google
 <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
 <meta name="keywords"

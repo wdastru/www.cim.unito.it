@@ -10,9 +10,9 @@
         <title>Molecular Imaging Center - University of Torino -
             Meetings</title>
         
-        <!-- InstanceBeginEditable name="meta description" -->
+        
         <meta name="description" content="" />
-        <!-- InstanceEndEditable -->
+        
         meta-google
         <meta name="keywords" content=
         "NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />

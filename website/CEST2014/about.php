@@ -8,10 +8,10 @@ xmlns="http://www.w3.org/1999/xhtml">
         
         <title>Molecular Imaging Center - University of Torino</title>
         
-        <!-- InstanceBeginEditable name="meta description" -->
+        
         <meta name="description"
         content="University of Torino. Website of the Molecular Imaging Center." />
-        <!-- InstanceEndEditable -->
+        
         meta-google
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
@@ -20,11 +20,9 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         
-        <!-- InstanceBeginEditable name="jQuery" -->
         <?php
             require($localizer . 'includes/jQuery.php');
         ?>
-        <!-- InstanceEndEditable -->        
         
     </head>
     <body>

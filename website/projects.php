@@ -11,9 +11,9 @@ meta-gen
 
 <title>Molecular Imaging Center - University of Torino - Projects</title>
 
-<!-- InstanceBeginEditable name="meta description" -->
+
 <meta name="description" content="" />
-<!-- InstanceEndEditable -->
+
 meta-google
 <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
 <meta name="keywords"

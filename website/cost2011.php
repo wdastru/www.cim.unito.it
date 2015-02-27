@@ -10,10 +10,10 @@
 		
 		<title>Molecular Imaging Center - University of Torino</title>
 		
-		<!-- InstanceBeginEditable name="meta description" -->
+		
 		<meta name="description" content=
 		"University of Torino. Website of the Molecular Imaging Center." />
-		<!-- InstanceEndEditable -->
+		
 		meta-google
 		<meta http-equiv="Content-Type" content=
 		"text/html; charset=us-ascii" />

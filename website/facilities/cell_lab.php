@@ -10,9 +10,9 @@ xmlns="http://www.w3.org/1999/xhtml">
         
         <title>Molecular Imaging Center - University of Torino - Cellular colture laboratory</title>
         
-        <!-- InstanceBeginEditable name="meta description" -->
+        
         <meta name="description" content="Cellular colture laboratory" />
-        <!-- InstanceEndEditable -->
+        
         meta-google
         <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
         <meta name="keywords"

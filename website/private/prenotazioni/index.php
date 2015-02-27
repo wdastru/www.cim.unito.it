@@ -55,10 +55,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<!-- InstanceBeginEditable name="title" -->
 		<title>Molecular Imaging Center - Booking of <?php echo $instrString[$_SESSION['strumento']];?></title>
 		<!-- InstanceEndEditable -->
-		<!-- InstanceBeginEditable name="meta description" -->
+		
 		<meta name="description"
 		content="University of Torino. Website of the Molecular Imaging Center." />
-		<!-- InstanceEndEditable -->
+		
 		meta-google
 		<meta http-equiv="Content-Type" content="text/php; charset=UTF-8" />
 		<meta name="keywords"

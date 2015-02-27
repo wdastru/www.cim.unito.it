@@ -11,8 +11,8 @@ meta-gen
 
 <title>Molecular Imaging Center - University of Torino - Partners</title>
 
-<!-- InstanceBeginEditable name="meta description" -->
-<!-- InstanceEndEditable -->
+
+
 meta-google
 <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
 <meta name="keywords"
