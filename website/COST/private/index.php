@@ -17,7 +17,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         
         meta-google
         meta-keywords
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css' />
+        link-style
         <link href="<?php echo $localizer;?>COST/cost.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="<?php echo $localizer;?>COST/private/cost.js"></script>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
