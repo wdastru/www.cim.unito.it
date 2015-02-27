@@ -17,7 +17,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         content="University of Torino. Website of the Molecular Imaging Center." />
         
         meta-google
-        <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
+        meta-http
         meta-keywords
         link-style
         <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet'

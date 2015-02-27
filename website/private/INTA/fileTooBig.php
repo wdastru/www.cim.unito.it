@@ -17,7 +17,7 @@ $localizer = "../";
 	content="University of Torino. Website of the Molecular Imaging Center." />
 
 meta-google
-<meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
+meta-http
 meta-keywords
 link-style
 <link href="cost.css" rel='stylesheet' type='text/css' />

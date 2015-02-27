@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
+        meta-http
         meta-gen
         
         <title>Molecular Imaging Center - University of Torino -

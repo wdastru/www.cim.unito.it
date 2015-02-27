@@ -13,7 +13,7 @@ $localizer = "./";
         <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
         
         meta-google
-        <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
+        meta-http
         meta-keywords
         link-style
         link-icon
