@@ -16,8 +16,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		
 		meta-google
 		<meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
-		<meta name="keywords"
-		content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
+		meta-keywords
 		<link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css' />
 		<link href="<?php echo $localizer;?>private/passwords/passwords.css" rel='stylesheet' type='text/css' />
 		<script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>

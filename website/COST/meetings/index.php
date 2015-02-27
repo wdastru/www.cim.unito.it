@@ -17,8 +17,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         content="University of Torino. Website of the Molecular Imaging Center." />
         
         meta-google
-        <meta name="keywords"
-        content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
+        meta-keywords
         <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css'></link>
         <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif"></link>
