@@ -15,7 +15,7 @@ meta-gen
 <meta name="description" content="" />
 
 meta-google
-<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+meta-http
 meta-keywords
 link-style
 script-script
