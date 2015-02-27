@@ -17,8 +17,7 @@ require('errors.inc.php');
 <meta name="description"
 	content="University of Torino. Website of the Molecular Imaging Center." />
 <!-- InstanceEndEditable -->
-<meta name="google-site-verification"
-	content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
+meta-google
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 <meta name="keywords"
 	content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
