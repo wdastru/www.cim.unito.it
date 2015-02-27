@@ -19,8 +19,7 @@ meta-google
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 meta-keywords
 link-style
-<script type="text/javascript" src="script.js">
-</script>
+script-script
 </head>
 <!-- link-icon -->
 <body>

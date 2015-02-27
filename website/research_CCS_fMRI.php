@@ -20,8 +20,7 @@ meta-google
 "text/html; charset=us-ascii" />
 meta-keywords
 link-style
-<script type="text/javascript" src="script.js">
-</script>
+script-script
 </head>
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
