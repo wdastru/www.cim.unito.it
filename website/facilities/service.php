@@ -148,7 +148,7 @@
         meta-keywords
         link-style
         <link href="<?php echo $localizer; ?>facilities/facilities.css" rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
+        script-script
     </head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>

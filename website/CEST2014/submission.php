@@ -51,7 +51,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         link-style
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
         link-icon
-        <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
+        script-script
         <script type="text/javascript">
             //<![CDATA[
             function checkSizeAndExtension()
