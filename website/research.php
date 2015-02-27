@@ -15,8 +15,7 @@ Research</title>
 <meta name="description" content=
 "Research topics at Molecular Imaging Center" />
 <!-- InstanceEndEditable -->
-<meta name="google-site-verification" content=
-"q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
+meta-google
 <meta http-equiv="Content-Type" content=
 "text/html; charset=us-ascii" />
 <meta name="keywords" content=
