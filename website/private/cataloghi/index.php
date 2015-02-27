@@ -105,8 +105,7 @@ $_POST['delete'] = 0;
 meta-google
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 meta-keywords
-<link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet'
-	type='text/css' />
+link-style
 <link href="<?php echo $localizer; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
 <link rel="icon" href="<?php echo $localizer; ?>images/favicon.gif" type="image/gif" />
