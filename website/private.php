@@ -18,7 +18,7 @@ meta-google
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 meta-keywords
 link-style
-<link rel="icon" href='<?php echo $localizer . "images/favicon.gif"?>' type="image/gif"></link>
+link-icon
 <script type="text/javascript" src='<?php echo $localizer . "script.js"?>'></script>
 </head>
 <body>

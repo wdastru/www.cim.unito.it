@@ -51,7 +51,7 @@ link-style
 <link href="../catalog.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="script.js"></script>
 </head>
-<link rel="icon" href="images/favicon.gif" type="image/gif" />
+link-icon
 <body>
 	<div id='section7'>
 	<?php

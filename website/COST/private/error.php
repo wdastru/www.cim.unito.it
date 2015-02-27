@@ -33,8 +33,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="cost.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="cost.js"></script>
     </head>
-    <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-    type="image/gif" />
+    link-icon
     <body>
         <div id='section5'>
             <?php require ($localizer . 'includes/main-nav.php'); ?>

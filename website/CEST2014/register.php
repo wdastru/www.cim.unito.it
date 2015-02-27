@@ -17,7 +17,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         meta-keywords
         link-style
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
-        <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
+        link-icon
 
     </head>
     <body>

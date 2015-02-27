@@ -63,12 +63,12 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<meta http-equiv="Content-Type" content="text/php; charset=UTF-8" />
 		meta-keywords
 		link-style
+		link-icon
 		<link href="preno.css" rel='stylesheet' type='text/css' />
 		<script type="text/javascript"
 		src="<?php echo $localizer . 'script.js'?>"></script>
 		<script type="text/javascript" src="booking.js"></script>
 	</head>
-	<link rel="icon" href="<?php echo $localizer . 'images/favicon.gif'?>" type="image/gif" />
 	<body onload='aBoxIsOn=false;'>
 		<div id='section7'>
 			<div id='newPrenoBox' class='shadow' style='visibility: hidden'>

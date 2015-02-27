@@ -50,7 +50,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <script type="text/javascript" src="<?php echo $localizer;?>COST/private/cost.js"></script>
         <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
     </head>
-    <link rel="icon" href="<?php echo $localizer;?>images/favicon.gif" type="image/gif" />
+    link-icon
     <body>
         <div id='confirmDeletionHiddenBox' style="visibility: hidden">
             <h1>WARNING !!!</h1>

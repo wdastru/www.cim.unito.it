@@ -16,10 +16,11 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         meta-keywords
         link-style
+		link-icon
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
+    
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section0'>

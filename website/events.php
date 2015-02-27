@@ -22,7 +22,7 @@ link-style
 <script type="text/javascript" src="script.js">
 </script>
 </head>
-<!-- <link rel="icon" href="images/favicon.gif" type="image/gif" /> -->
+<!-- link-icon -->
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
 	<div id='section2'>

@@ -21,8 +21,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<link href="<?php echo $localizer;?>private/passwords/passwords.css" rel='stylesheet' type='text/css' />
 		<script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
 	</head>
-	<link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-	type="image/gif" />
+	link-icon
 	<body>
 		<div id='section7'>
 			<?php

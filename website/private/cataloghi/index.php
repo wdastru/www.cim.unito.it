@@ -108,7 +108,7 @@ meta-keywords
 link-style
 <link href="<?php echo $localizer; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="<?php echo $localizer; ?>script.js"></script>
-<link rel="icon" href="<?php echo $localizer; ?>images/favicon.gif" type="image/gif" />
+link-icon
 </head>
 <body>
 	<div id='section7'>
