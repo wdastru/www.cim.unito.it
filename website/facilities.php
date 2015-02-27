@@ -6,8 +6,7 @@ $localizer = "./";
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        <meta name="generator" content=
-        "HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
+        meta-gen
         <!-- InstanceBeginEditable name="title" -->
         <title>Molecular Imaging Center - University of Torino -
             Facilities</title>
