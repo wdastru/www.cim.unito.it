@@ -17,7 +17,7 @@ meta-gen
 meta-google
 <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
 meta-keywords
-<link href='<?php echo $localizer . "stylesheet.css"?>' rel='stylesheet' type='text/css'></link>
+link-style
 <link rel="icon" href='<?php echo $localizer . "images/favicon.gif"?>' type="image/gif"></link>
 <script type="text/javascript" src='<?php echo $localizer . "script.js"?>'></script>
 </head>
