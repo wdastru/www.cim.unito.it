@@ -19,7 +19,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		meta-keywords
 		link-style
 		<link href="enzo.css" rel='stylesheet' type='text/css' />
-		<script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+		script-script
 		<script type="text/javascript" src="<?php echo $localizer;?>private/Enzo/enzo.js"></script>
 	</head>
 	link-icon

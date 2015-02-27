@@ -19,7 +19,7 @@ $localizer = "../../";
         meta-keywords
         link-style
         <link href="<?php echo $localizer;?>COST/cost.css" rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+        script-script
       
         <!-- InstanceBeginEditable name="jQuery" -->
         <?php

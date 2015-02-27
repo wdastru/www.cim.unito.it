@@ -21,7 +21,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         link-style
         <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet' type='text/css'></link>
         link-icon
-        <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+        script-script
     </head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>

@@ -21,7 +21,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="cost.css" rel='stylesheet' type='text/css'></link>
         link-icon
         <script type="text/javascript" src="cost.js"></script>
-        <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+        script-script
         
         <!-- InstanceBeginEditable name="jQuery" -->
         <?php

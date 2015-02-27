@@ -21,7 +21,7 @@ meta-keywords
 link-style
 <link href="cost.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="cost.js"></script>
-<script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+script-script
 </head>
 link-icon
 <body>

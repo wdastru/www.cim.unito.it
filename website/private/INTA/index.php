@@ -19,7 +19,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		meta-keywords
 		link-style
 		<link href="inta.css" rel='stylesheet' type='text/css' />
-		<script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
+		script-script
 		<script type="text/javascript" src="<?php echo $localizer;?>private/INTA/inta.js"></script>
 	</head>
 	link-icon
