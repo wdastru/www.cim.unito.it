@@ -8,10 +8,10 @@ $localizer = "./";
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=cp1252" />
         meta-gen
-        <!-- InstanceBeginEditable name="title" -->
+        
         <title>Molecular Imaging Center - University of Torino -
             Meetings</title>
-        <!-- InstanceEndEditable -->
+        
         <!-- InstanceBeginEditable name="meta description" -->
         <meta name="description" content="" />
         <!-- InstanceEndEditable -->

@@ -7,9 +7,9 @@
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		meta-gen
-		<!-- InstanceBeginEditable name="title" -->
+		
 		<title>Molecular Imaging Center - University of Torino</title>
-		<!-- InstanceEndEditable -->
+		
 		<!-- InstanceBeginEditable name="meta description" -->
 		<meta name="description" content=
 		"University of Torino. Website of the Molecular Imaging Center." />

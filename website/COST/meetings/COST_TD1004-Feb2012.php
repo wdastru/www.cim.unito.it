@@ -6,10 +6,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         meta-gen
-        <!-- InstanceBeginEditable name="title" -->
+        
         <title>Molecular Imaging Center - University of Torino -
             Meetings</title>
-        <!-- InstanceEndEditable -->
+        
         <!-- InstanceBeginEditable name="meta description" -->
         <meta name="description" content="" />
         <!-- InstanceEndEditable -->

@@ -10,9 +10,9 @@ require('errors.inc.php');
 <head>
 <meta name="generator"
 	content="HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
-<!-- InstanceBeginEditable name="title" -->
+
 <title>Molecular Imaging Center - University of Torino</title>
-<!-- InstanceEndEditable -->
+
 <!-- InstanceBeginEditable name="meta description" -->
 <meta name="description"
 	content="University of Torino. Website of the Molecular Imaging Center." />

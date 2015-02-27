@@ -7,9 +7,9 @@ $localizer = "../../";
 xmlns="http://www.w3.org/1999/xhtml">
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 	<head>
-		<!-- InstanceBeginEditable name="title" -->
+		
 		<title>Molecular Imaging Center - University of Torino</title>
-		<!-- InstanceEndEditable -->
+		
 		<!-- InstanceBeginEditable name="meta description" -->
 		<meta name="description"
 		content="University of Torino. Website of the Molecular Imaging Center." />

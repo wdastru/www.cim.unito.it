@@ -7,10 +7,10 @@
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		meta-gen
-		<!-- InstanceBeginEditable name="title" -->
+		
 		<title>Molecular Imaging Center - University of Torino -
 			Contacts</title>
-		<!-- InstanceEndEditable -->
+		
 		<!-- InstanceBeginEditable name="meta description" -->
 		<meta name="description" content="How to contact us" />
 		<!-- InstanceEndEditable -->

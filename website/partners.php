@@ -8,9 +8,9 @@ $localizer = "./";
 <!-- InstanceBegin template="/Templates/partners.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 meta-gen
-<!-- InstanceBeginEditable name="title" -->
+
 <title>Molecular Imaging Center - University of Torino - Partners</title>
-<!-- InstanceEndEditable -->
+
 <!-- InstanceBeginEditable name="meta description" -->
 <!-- InstanceEndEditable -->
 meta-google

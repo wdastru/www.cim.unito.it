@@ -9,10 +9,9 @@ xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="generator"
         content="HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
-        <!-- InstanceBeginEditable name="title" -->
-        <title>Molecular Imaging Center - University of Torino - Organic
-            synthesis</title>
-        <!-- InstanceEndEditable -->
+        
+        <title>Molecular Imaging Center - University of Torino - Organic synthesis</title>
+        
         <!-- InstanceBeginEditable name="meta description" -->
         <meta name="description" content="" />
         <!-- InstanceEndEditable -->

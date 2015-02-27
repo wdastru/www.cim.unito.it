@@ -7,10 +7,10 @@
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 meta-gen
-<!-- InstanceBeginEditable name="title" -->
+
 <title>Molecular Imaging Center - University of Torino -
 Hyperpolarized agents</title>
-<!-- InstanceEndEditable -->
+
 <!-- InstanceBeginEditable name="meta description" -->
 <meta name="description" content="" /><!-- InstanceEndEditable -->
 meta-google
