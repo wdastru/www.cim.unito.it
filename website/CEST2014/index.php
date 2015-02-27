@@ -15,7 +15,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         meta-google
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         meta-keywords
-        <link href="<?php echo $localizer; ?>stylesheet.css" rel='stylesheet' type='text/css'></link>
+        link-style
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         

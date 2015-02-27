@@ -15,7 +15,7 @@ $localizer = "./";
         meta-google
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         meta-keywords
-        <link href="stylesheet.css" rel='stylesheet' type='text/css'></link>
+        link-style
         <link rel="icon" href="images/favicon.gif" type="image/gif"></link>
         <script type="text/javascript" src="script.js"></script>
     </head>
