@@ -16,8 +16,7 @@ Hyperpolarized agents</title>
 meta-google
 <meta http-equiv="Content-Type" content=
 "text/html; charset=us-ascii" />
-<meta name="keywords" content=
-"NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
+meta-keywords
 <link href="stylesheet.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="script.js">
 </script>
