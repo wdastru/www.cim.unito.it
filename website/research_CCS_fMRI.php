@@ -1,19 +1,12 @@
-<?php
-	$localizer = "./";
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html
+	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-meta-gen
-meta-google
-meta-http
-meta-keywords
-link-style
-script-script
-<title>Molecular Imaging Center - University of Torino - Research</title>
-<meta name="description" content= "Research topics at Molecular Imaging Center" />
+	<?php require $localizer . 'includes/head_const.inc.php'?>
+	<title>Molecular Imaging Center - University of Torino - Research</title>
+	<meta name="description" content= "Research topics at Molecular Imaging Center" />
 </head>
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -151,7 +144,50 @@ landmark tasks for analyzing unilateral spatial neglect) are used
 as research tools in experiments involving specific neurological
 populations. The motor, sensory, visual and language paradigms are
 based on a block design, in which the activation condition
-alternates with a baseline or resting condition. The cognitive
+alternates with a baseline or lation investigated using
+electroencephalography Another research topic is concerned with the
+functional significance and modulation of evoked potentials,
+measured using electroencephalography (EEG). These evoked brain
+responses are shown as deviations in the EEG reading, and as
+alterations in brain activity within the specific frequency ranges
+that characterize spontaneous brain electrical activity (e.g.
+rhythms &alpha;, &beta;, &gamma;) following the administration of
+stimuli. One aim of our research in this area is to investigate and
+characterize the influence of attention and cognitive conflict
+(introduced, for instance, by the assumption of unusual postures,
+leading to misalignment of spatial and somatotopic maps) on these
+brain responses and their brain mapping.</p>
+<!-- InstanceEndEditable --></div>
+</div>
+</div>
+<!-- subsection closing --></div>
+<!-- subsection closing -->
+<div id='after'></div>
+<div id='footer'>
+<p>Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
+ITALY<br />
+Fax. Tel. Mail</p>
+</div>
+<div id='validators'>
+<p><a href="http://validator.w3.org/check?uri=referer"><img src=
+"images/valid-xhtml10-blue_opt.png" alt=
+"Valid XHTML 1.0 Transitional" height="31" width="88" /></a></p>
+<p><a href=
+"http://jigsaw.w3.org/css-validator/check?uri=referer"><img style=
+"border: 0; width: 88px; height: 31px" src=
+"images/vcss-blue_opt.gif" alt="CSS Valido!" /></a></p>
+</div>
+<!-- section closing --></div>
+<!-- section closing -->
+<script type="text/javascript">
+//<![CDATA[
+changeSideNavStyles();
+//]]>
+</script><!-- InstanceEnd -->
+</body>
+</html>
+
+resting condition. The cognitive
 paradigms, which require precise timing of the cognitive processes
 involved, are based on an event-correlated design. We use E-Prime
 software (Psychology Software Tools, Inc., Pittsburgh, PA, USA) to
@@ -236,45 +272,4 @@ of therapy in alleviating pain. We use fMRI to investigate
 functional changes in the primary motor area: the re-creation of a
 coherent body image should be accompanied by increased activation
 in this area. Modulatory effects of attention and cognition on
-brain responses to sensory stimulation investigated using
-electroencephalography Another research topic is concerned with the
-functional significance and modulation of evoked potentials,
-measured using electroencephalography (EEG). These evoked brain
-responses are shown as deviations in the EEG reading, and as
-alterations in brain activity within the specific frequency ranges
-that characterize spontaneous brain electrical activity (e.g.
-rhythms &alpha;, &beta;, &gamma;) following the administration of
-stimuli. One aim of our research in this area is to investigate and
-characterize the influence of attention and cognitive conflict
-(introduced, for instance, by the assumption of unusual postures,
-leading to misalignment of spatial and somatotopic maps) on these
-brain responses and their brain mapping.</p>
-<!-- InstanceEndEditable --></div>
-</div>
-</div>
-<!-- subsection closing --></div>
-<!-- subsection closing -->
-<div id='after'></div>
-<div id='footer'>
-<p>Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
-ITALY<br />
-Fax. Tel. Mail</p>
-</div>
-<div id='validators'>
-<p><a href="http://validator.w3.org/check?uri=referer"><img src=
-"images/valid-xhtml10-blue_opt.png" alt=
-"Valid XHTML 1.0 Transitional" height="31" width="88" /></a></p>
-<p><a href=
-"http://jigsaw.w3.org/css-validator/check?uri=referer"><img style=
-"border: 0; width: 88px; height: 31px" src=
-"images/vcss-blue_opt.gif" alt="CSS Valido!" /></a></p>
-</div>
-<!-- section closing --></div>
-<!-- section closing -->
-<script type="text/javascript">
-//<![CDATA[
-changeSideNavStyles();
-//]]>
-</script><!-- InstanceEnd -->
-</body>
-</html>
+brain responses to sensory stimu

@@ -4,21 +4,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        meta-http
-        meta-gen
-        
-        <title>Molecular Imaging Center - University of Torino -
-            Meetings</title>
-        
-        
+        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <title>Molecular Imaging Center - University of Torino - Meetings</title>
         <meta name="description" content="" />
-        
-        meta-google
-        meta-keywords
-        link-style
         <link href="<?php echo $localizer; ?>COST/cost.css" rel='stylesheet' type='text/css' />
-        script-script
-
         <!-- InstanceBeginEditable name="jQuery" -->
         <?php
         require ($localizer . 'includes/jQuery.php');

@@ -7,17 +7,7 @@ $localizer = "./";
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/partners.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-meta-gen
-
-<title>Molecular Imaging Center - University of Torino - Partners</title>
-
-
-
-meta-google
-meta-http
-meta-keywords
-link-style
-script-script
+<?php require $localizer . 'includes/head_const.inc.php'?>
 </head>
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>

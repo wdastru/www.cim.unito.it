@@ -7,18 +7,9 @@
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/publications.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-meta-gen
-
+<?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Publications</title>
-
-
-<meta name="description"
-	content="Publications from people at the Molecular Imaging Center" />
-
-meta-google
-meta-http
-meta-keywords
-link-style
+<meta name="description" content="Publications from people at the Molecular Imaging Center" />
 <script src="scriptLongPubs.js" type="text/javascript">
 </script>
 </head>  

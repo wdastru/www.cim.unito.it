@@ -134,12 +134,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        meta-gen
-        meta-google
-        meta-http
-        meta-keywords
-        link-style
-        script-script
+        <?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino - Facilities</title>
         <meta name="description" content="" />
         <link href="<?php echo $localizer; ?>facilities/facilities.css" rel='stylesheet' type='text/css' />        

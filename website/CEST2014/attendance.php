@@ -4,21 +4,10 @@
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        meta-gen
-        
-        <title>Molecular Imaging Center - University of Torino</title>
-        
-        
-        <meta name="description"
-        content="University of Torino. Website of the Molecular Imaging Center." />
-        
-        meta-google
-        meta-http
-        meta-keywords
-        link-style
+		<?php require $localizer . 'includes/head_const.inc.php'?>        
+		<title>Molecular Imaging Center - University of Torino</title>
+        <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
         <link href="<?php echo $localizer; ?>CEST2014/CEST.css" rel='stylesheet' type='text/css'></link>
-        link-icon
-
         <!-- InstanceBeginEditable name="jQuery" -->
         <?php
             require($localizer . 'includes/jQuery.php');
