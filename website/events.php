@@ -8,18 +8,13 @@
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
 meta-gen
-
-<title>Molecular Imaging Center - University of Torino</title>
-
-
-<meta name="description"
-	content="University of Torino. Website of the Molecular Imaging Center." />
-
 meta-google
 meta-http
 meta-keywords
 link-style
 script-script
+<title>Molecular Imaging Center - University of Torino</title>
+<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 </head>
 <!-- link-icon -->
 <body>

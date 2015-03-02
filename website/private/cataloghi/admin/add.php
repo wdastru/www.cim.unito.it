@@ -14,21 +14,17 @@ $localizer = "../../../";
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        meta-gen
-        
-        <title>Molecular Imaging Center - University of Torino</title>
-        
-        
-        <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
-        
+        meta-gen        
         meta-google
         meta-http
         meta-keywords
         link-icon
         link-style
-        <link href="<?php echo $localizer; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
         script-script
-    </head>
+		<title>Molecular Imaging Center - University of Torino</title>
+		<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
+        <link href="<?php echo $localizer; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
+	</head>
     <body>
         <div id='section7'>
             <?php

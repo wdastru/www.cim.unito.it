@@ -8,18 +8,13 @@
 <!-- InstanceBegin template="/Templates/publications.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 meta-gen
-
-<title>Molecular Imaging Center - University of Torino - Publications</title>
-
-
-<meta name="description"
-	content="Publications from people at the Molecular Imaging Center" />
-
 meta-google
 meta-http
 meta-keywords
 link-style
 script-script
+<title>Molecular Imaging Center - University of Torino - Publications</title>
+<meta name="description" content="Publications from people at the Molecular Imaging Center" />
 </head>  
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>

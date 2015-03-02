@@ -7,21 +7,16 @@ xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
         meta-gen
-        
-        <title>Molecular Imaging Center - University of Torino</title>
-        
-        
-        <meta name="description"
-        content="University of Torino. Website of the Molecular Imaging Center." />
-        
-        meta-google
+		meta-google
         meta-http
         meta-keywords
         link-style
-        <link href="cost.css" rel='stylesheet' type='text/css'></link>
         link-icon
-        <script type="text/javascript" src="cost.js"></script>
         script-script
+		<title>Molecular Imaging Center - University of Torino</title>
+		<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
+        <link href="cost.css" rel='stylesheet' type='text/css'></link>
+        <script type="text/javascript" src="cost.js"></script>
         
         <!-- InstanceBeginEditable name="jQuery" -->
         <?php

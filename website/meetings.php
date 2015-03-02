@@ -7,20 +7,15 @@ $localizer = "./";
     <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         meta-http
-        meta-gen
-        
-        <title>Molecular Imaging Center - University of Torino -
-            Meetings</title>
-        
-        
-        <meta name="description" content="" />
-        
+        meta-gen        
         meta-google
         meta-http
         meta-keywords
         link-style
         script-script
-    </head>
+		<title>Molecular Imaging Center - University of Torino - Meetings</title>
+        <meta name="description" content="" />
+	</head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section2'>

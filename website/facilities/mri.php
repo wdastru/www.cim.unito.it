@@ -5,19 +5,14 @@
     <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         meta-gen
-        
-        <title>Molecular Imaging Center - University of Torino - MRI
-            facilities</title>
-        
-        
-        <meta name="description" content="" />
-        
         meta-google
         meta-http
         meta-keywords
         link-style
         script-script
-    </head>
+		<title>Molecular Imaging Center - University of Torino - MRI facilities</title>
+        <meta name="description" content="" />
+	</head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section3'>
