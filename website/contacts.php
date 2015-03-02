@@ -6,13 +6,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
-		meta-gen
-		meta-google
-		meta-http
-		meta-keywords
-		link-style
-		script-script
-		<title>Molecular Imaging Center - University of Torino - Contacts</title>
+		<?php require $localizer . 'includes/head_const.inc.php'?>
+<title>Molecular Imaging Center - University of Torino - Contacts</title>
 		<meta name="description" content="How to contact us" />
 		</head>
 	<body>
