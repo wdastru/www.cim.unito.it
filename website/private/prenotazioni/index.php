@@ -50,21 +50,10 @@ for ($j = 0; $j < count($instrument); $j++) {
 xmlns="http://www.w3.org/1999/xhtml">
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 	<head>
-		meta-gen
-		<!-- InstanceBeginEditable name="title" -->
+		<?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - Booking of <?php echo $instrString[$_SESSION['strumento']];?></title>
-		<!-- InstanceEndEditable -->
-		
-		<meta name="description"
-		content="University of Torino. Website of the Molecular Imaging Center." />
-		
-		meta-google
-		meta-http
-		meta-keywords
-		link-style
-		link-icon
+		<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 		<link href="preno.css" rel='stylesheet' type='text/css' />
-		script-script
 		<script type="text/javascript" src="booking.js"></script>
 	</head>
 	<body onload='aBoxIsOn=false;'>

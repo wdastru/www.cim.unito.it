@@ -5,18 +5,9 @@
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        meta-gen
-        
+        <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Educational</title>
-        
-        
         <meta name="description" content="" />
-        
-        meta-google
-        meta-http
-        meta-keywords
-        link-style
-        script-script
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>

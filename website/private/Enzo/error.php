@@ -8,22 +8,12 @@ require('errors.inc.php');
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
-meta-gen
-
+<?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino</title>
-
-
-<meta name="description"
-	content="University of Torino. Website of the Molecular Imaging Center." />
-
-meta-google
-meta-http
-meta-keywords
-link-style
+<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 <link href="cost.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="cost.js"></script>
 </head>
-link-icon
 <body>
 	<div id='section5'>
 

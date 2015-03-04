@@ -7,23 +7,12 @@ $localizer = "../../";
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        meta-gen
-        
+        <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino</title>
-        
-        
-        <meta name="description"
-        content="University of Torino. Website of the Molecular Imaging Center." />
-        
-        meta-google
-        meta-http
-        meta-keywords
-        link-style
+        <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
         <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="<?php echo $localizer;?>COST/private/cost.js"></script>
-        script-script
     </head>
-    link-icon
     <body>
         <div id='confirmDeletionHiddenBox' style="visibility: hidden">
             <h1>WARNING !!!</h1>
