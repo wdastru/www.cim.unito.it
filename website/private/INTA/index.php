@@ -7,22 +7,12 @@ $localizer = "../../";
 xmlns="http://www.w3.org/1999/xhtml">
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 	<head>
-		
+		<?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino</title>
-		
-		
-		<meta name="description"
-		content="University of Torino. Website of the Molecular Imaging Center." />
-		
-		meta-google
-		meta-http
-		meta-keywords
-		link-style
+		<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 		<link href="inta.css" rel='stylesheet' type='text/css' />
-		script-script
 		<script type="text/javascript" src="<?php echo $localizer;?>private/INTA/inta.js"></script>
 	</head>
-	link-icon
 	<body>
 		<div id='confirmDeletionHiddenBox' style="visibility: hidden">
 			<h1>ATTENZIONE !!!</h1>
