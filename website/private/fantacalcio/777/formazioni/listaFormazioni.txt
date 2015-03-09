@@ -6,6 +6,9 @@ atletico_camp_13.txt
 atletico_camp_14.txt
 atletico_camp_15.txt
 atletico_camp_16.txt
+atletico_camp_17.txt
+atletico_camp_18.txt
+atletico_camp_19.txt
 atletico_camp_9.txt
 atletico_coppa_2.txt
 atletico_coppa_3.txt
@@ -16,14 +19,16 @@ atletico_tipo_valida_fino_20150123-174206.txt
 atletico_tipo_valida_fino_20150129-195558.txt
 atletico_tipo_valida_fino_20150206-142748.txt
 atletico_tipo_valida_fino_20150213-113604.txt
+atletico_tipo_valida_fino_20150219-172252.txt
+atletico_tipo_valida_fino_20150306-094805.txt
 bradipo.txt
-bradipo_cam16.txt
+bradipo_cam_19.txt
 ciofeca.txt
-ciofeca_camp13.txt
-ciofeca_camp14.txt
 ciofeca_camp15.txt
 ciofeca_camp16.txt
-ciofeca_coppa3.txt
+ciofeca_camp17.txt
+ciofeca_camp18.txt
+ciofeca_camp19.txt
 eporediese.txt
 eporediese_camp_11.txt
 eporediese_camp_12.txt
@@ -31,7 +36,8 @@ eporediese_camp_13.txt
 eporediese_camp_14.txt
 eporediese_camp_15.txt
 eporediese_camp_16.txt
-eporediese_camp_4.txt
+eporediese_camp_17.txt
+eporediese_camp_18.txt
 eporediese_camp_5.txt
 eporediese_camp_6.txt
 eporediese_camp_7.txt
@@ -39,8 +45,10 @@ eporediese_camp_9.txt
 eporediese_coppa_3.txt
 eporediese_tipo_valida_fino_20150110-165142.txt
 eporediese_tipo_valida_fino_20150124-014757.txt
+eporediese_tipo_valida_fino_20150220-200122.txt
 fedora.txt
 fedora_camp10.txt
+fedora_camp17.txt
 fedora_camp3.txt
 fedora_camp9.txt
 fedora_camp_1.txt
@@ -79,6 +87,9 @@ lokomotiv_camp_13.txt
 lokomotiv_camp_14.txt
 lokomotiv_camp_15.txt
 lokomotiv_camp_16.txt
+lokomotiv_camp_17.txt
+lokomotiv_camp_18.txt
+lokomotiv_camp_19.txt
 lokomotiv_coppa_1.txt
 lokomotiv_coppa_2.txt
 lokomotiv_coppa_3.txt
@@ -118,6 +129,9 @@ real_camp_13.txt
 real_camp_14.txt
 real_camp_15.txt
 real_camp_16.txt
+real_camp_17.txt
+real_camp_18.txt
+real_camp_19.txt
 real_coppa_1.txt
 real_coppa_2.txt
 real_coppa_3.txt
@@ -133,3 +147,5 @@ real_tipo_valida_fino_20150123-225654.txt
 real_tipo_valida_fino_20150206-231209.txt
 real_tipo_valida_fino_20150206-231218.txt
 real_tipo_valida_fino_20150214-000520.txt
+real_tipo_valida_fino_20150219-215649.txt
+real_tipo_valida_fino_20150227-215834.txt
