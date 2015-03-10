@@ -6,24 +6,10 @@ $localizer = "../../";
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=cp1252" />
-        <meta name="generator" content=
-        "HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
-        <!-- InstanceBeginEditable name="title" -->
-        <title>Molecular Imaging Center - University of Torino -
-            Meetings</title>
-        <!-- InstanceEndEditable -->
-        <!-- InstanceBeginEditable name="meta description" -->
+        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <title>Molecular Imaging Center - University of Torino - Meetings</title>
         <meta name="description" content="" />
-        <!-- InstanceEndEditable -->
-        <meta name="google-site-verification" content=
-        "q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
-        <meta name="keywords" content=
-        "NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet' type='text/css' />
         <link href="<?php echo $localizer;?>COST/cost.css" rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
-      
         <!-- InstanceBeginEditable name="jQuery" -->
         <?php
             require($localizer . 'includes/jQuery.php');

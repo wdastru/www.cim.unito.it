@@ -7,26 +7,12 @@ $localizer = "../../";
 xmlns="http://www.w3.org/1999/xhtml">
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 	<head>
-		<!-- InstanceBeginEditable name="title" -->
+		<?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino</title>
-		<!-- InstanceEndEditable -->
-		<!-- InstanceBeginEditable name="meta description" -->
-		<meta name="description"
-		content="University of Torino. Website of the Molecular Imaging Center." />
-		<!-- InstanceEndEditable -->
-		<meta name="google-site-verification"
-		content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
-		<meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
-		<meta name="keywords"
-		content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-		<link href="<?php echo $localizer;?>stylesheet.css" rel='stylesheet'
-		type='text/css' />
+		<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 		<link href="inta.css" rel='stylesheet' type='text/css' />
-		<script type="text/javascript" src="<?php echo $localizer;?>script.js"></script>
 		<script type="text/javascript" src="<?php echo $localizer;?>private/INTA/inta.js"></script>
 	</head>
-	<link rel="icon" href="<?php echo $localizer;?>images/favicon.gif"
-	type="image/gif" />
 	<body>
 		<div id='confirmDeletionHiddenBox' style="visibility: hidden">
 			<h1>ATTENZIONE !!!</h1>
