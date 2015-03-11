@@ -13,10 +13,7 @@ echo "
     <script src='" . $localizer . "script.js' type='text/javascript' />
     
     ";
- 
-        
-       /* InstanceBeginEditable name='jQuery' */
-       require($localizer . 'includes/jQuery.php');
-       /* InstanceEndEditable */
+    
+    require($localizer . 'includes/jQuery.php');
         
 ?>
