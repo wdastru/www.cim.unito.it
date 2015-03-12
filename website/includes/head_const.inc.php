@@ -8,9 +8,11 @@ echo "
     <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
     <meta http-equiv='Cache-control' content='public'>
     <meta name='keywords' content='NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia' />
-    <link href='" . $localizer . "stylesheet.css' rel='stylesheet' type='text/css' />
+    <!--<link href='" . $localizer . "stylesheet.css' rel='stylesheet' type='text/css' />-->
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' />
     <script src='" . $localizer . "script.js' type='text/javascript' />
+    <link rel='stylesheet' media='screen and (min-width: 100px) and (max-width: 500px)' href='" . $localizer . "smaller.css' />
+    <link rel='stylesheet' media='screen and (min-width: 501px) and (max-width: 2000px)' href='" . $localizer . "stylesheet.css' />
     
     ";
     
