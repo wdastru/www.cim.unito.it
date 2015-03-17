@@ -107,7 +107,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 
 /* SIDEBAR */
 #pubsSelector { margin: 19px; }
-#sidebar { float: left; width: 170px; font-weight:bold; padding: 0; }
+#sidebar { float: left; width: 70px; font-weight:bold; padding: 0; }
 #sidebar-narrow { float: left; width: 80px; font-weight:bold; padding: 0; }
 #sidebar-narrower { float: left; width: 0px; font-weight:bold; padding: 0; }
 #sidebar .padding { padding: 25px 8px 25px 12px; }
@@ -124,7 +124,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 .sidebar-indent { padding-left:15px; }
 
 /* --> comportamento dei link non selezionati */
-#sidebar .subsection_link a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+#sidebar .subsection_link a { color: #FF0000; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 /* <-- End */
 
 /* --> comportamento dei link selezionati */
@@ -139,7 +139,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 /* End of SWF PLAYER */
 
 /* CONTENT */
-#content { float: right; width: 730px; line-height: 22px; padding: 0; }
+#content { float: left; width: 230px; line-height: 22px; padding: 0; }
 #content-large { float: right; width: 820px; line-height: 22px; padding: 0; }
 #content-larger { float: right; width: 900px; line-height: 22px; padding: 0; }
 #content .paddingOuter { padding: 25px; }

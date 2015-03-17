@@ -8,7 +8,30 @@ header('Content-Type: text/html;charset=UTF-8');
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php require $localizer . 'includes/head_const.inc.php'; ?>
+        
+        <script type="text/javascript">
+            function adjustStyle(width) {
+                //width = parseInt(width);
+                if (width < 701) {
+                    $("#size-stylesheet").attr("href", "<?php echo $localizer; ?>smaller.css");
+                /*} else if ((width >= 701) && (width < 900)) {
+                    $("#size-stylesheet").attr("href", "<?php echo $localizer; ?>medium.css");*/
+                } else {
+                   $("#size-stylesheet").attr("href", "<?php echo $localizer; ?>stylesheet.css");
+                }
+            }
+        
+            $(window).load(function () {
+            //$(window).beforeunload(function () {
+            //$(function() {
+                adjustStyle($(this).width());
+                $(window).resize(function() {
+                    adjustStyle($(this).width());
+                });
+            });
+        </script>
+        <script src='" . $localizer . "script.js' type='text/javascript' />
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
