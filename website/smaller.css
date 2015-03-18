@@ -107,7 +107,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 
 /* SIDEBAR */
 #pubsSelector { margin: 19px; }
-#sidebar { float: left; width: 70px; font-weight:bold; padding: 0; }
+#sidebar { /*float: left;*/ width: 70px; font-weight:bold; padding: 0; }
 #sidebar-narrow { float: left; width: 80px; font-weight:bold; padding: 0; }
 #sidebar-narrower { float: left; width: 0px; font-weight:bold; padding: 0; }
 #sidebar .padding { padding: 25px 8px 25px 12px; }
@@ -123,8 +123,12 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 .sidebar-header { color: #DB6D16; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 .sidebar-indent { padding-left:15px; }
 
+div.menu_div { display: table-cell; }
+div.menu_div a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+div.menu_div .subsection_link a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+
 /* --> comportamento dei link non selezionati */
-#sidebar .subsection_link a { color: #FF0000; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+#sidebar .subsection_link a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 /* <-- End */
 
 /* --> comportamento dei link selezionati */

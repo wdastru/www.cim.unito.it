@@ -89,6 +89,7 @@ function toggleAbstract(button) {
 function changeSideNavStyles() {
 	if (document.getElementById) {
 		for ( var i = 0; i < section.length; i++) {
+		    alert(i);
 			for ( var j = 0; j < subsection.length; j++) {
 				if ((document.getElementById(section[i]) != null)
 						&& (document.getElementById(subsection[j]) != null)) {
@@ -115,6 +116,7 @@ function changeSideNavStyles() {
 		alert(":( DOM NON Supportato!");
 	}
 }
+
 function showInfoBox(id) {
 	if (document.getElementById) {
 		if (document.getElementById(id).style.display == 'none'
@@ -124,6 +126,7 @@ function showInfoBox(id) {
 		alert(":( DOM NON Supportato!");
 	}
 }
+
 function hideInfoBox(id) {
 	if (document.getElementById) {
 		if (document.getElementById(id).style.display == 'block')

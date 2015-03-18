@@ -123,6 +123,9 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 .sidebar-header { color: #DB6D16; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 .sidebar-indent { padding-left:15px; }
 
+div.menu_div a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+div.menu_div .subsection_link a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+
 /* --> comportamento dei link non selezionati */
 #sidebar .subsection_link a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 /* <-- End */

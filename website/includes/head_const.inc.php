@@ -13,7 +13,32 @@ echo "
     <meta name='keywords' content='NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia' />
     <link id='size-stylesheet' href='" . $localizer . "stylesheet.css' rel='stylesheet' type='text/css' />
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' />
-    <!--<script src='" . $localizer . "script.js' type='text/javascript' />-->
+
+        <script type='text/javascript'>
+            function adjustStyle(width) {
+                //width = parseInt(width);
+                if (width < 701) {
+                    $('#size-stylesheet').attr('href', '" . $localizer . "smaller.css');
+                } else {
+                   $('#size-stylesheet').attr('href', '" . $localizer . "stylesheet.css');
+                }
+            }
+        
+            $(window).load(function () {
+            //$(window).beforeunload(function () {
+            //$(function() {
+                adjustStyle($(this).width());
+                $(window).resize(function() {
+                    adjustStyle($(this).width());
+                });
+            });
+        </script>
+    
+    
+    
+    
+    
+    <script src='" . $localizer . "script.js' type='text/javascript' />
     
     ";
     
