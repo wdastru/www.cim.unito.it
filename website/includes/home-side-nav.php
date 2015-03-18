@@ -21,7 +21,7 @@ echo "
                         <dt class='subsection_link' id='section0-subsection3'>
                         <a href='" . $localizer . "where.php'>Where</a>
                     </dt>
-                    <dt class='subsection_link' id='section0-subsection4'>
+                        <dt class='subsection_link' id='section0-subsection4'>
                         <a href='" . $localizer . "contacts.php'>Contacts</a>
                     </dt>
                 </dl>

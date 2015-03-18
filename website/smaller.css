@@ -29,7 +29,7 @@ h3 { font-size:12px; text-align:center; }
 #section4, 
 #section5, 
 #section6, 
-#section7 { margin: auto; width: 900px; position:relative; clear:both; 
+#section7 { margin: auto; width: 400px; position:relative; clear:both; 
 
 /* --> important for footer at the bottom */
 min-height: 100%;             
@@ -123,7 +123,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 .sidebar-header { color: #DB6D16; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 .sidebar-indent { padding-left:15px; }
 
-div.menu_div { display: table-cell; }
+div.menu_div { display: table-cell; width:25%; }
 div.menu_div a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 div.menu_div .subsection_link a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
 
