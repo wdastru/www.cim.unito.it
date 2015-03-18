@@ -1,5 +1,6 @@
 <?php
 	echo "
+		<!--
 		<div id='main-nav'>
 			<dl>
 				<dt id='main-nav-section0'>
@@ -28,5 +29,22 @@
 				</dt>
 			</dl>
 		</div>
+		-->
+		
+	<nav id='menu'>
+        <ul class='navigation'>
+            <a  class='main active' href='#'>Navigation</a>
+            <li class='n1'><a href='#'>Item</a></li>
+            <li class='n2'><a href='#'>Item</a></li>
+            <li class='n3'><a href='#'>Item</a></li>
+            <li class='n4'><a href='#'>Item</a></li>
+            <li class='n5'><a href='#'>Item</a></li>
+        </ul>
+    </nav>
 	";
+    
+    
+    
+    
+    
 ?>
