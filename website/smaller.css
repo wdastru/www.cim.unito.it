@@ -95,26 +95,38 @@ nav#menu {
   }
 
   .navigation li.n1 {
+    -webkit-transition: 0.2s linear 1.2s;
+    -o-transition: 0.2s linear 1.2s;
+    transition: 0.2s linear 1.2s;
+  }
+  .navigation li.n2 {
+    -webkit-transition: 0.2s linear 1.0s;
+    -o-transition: 0.2s linear 1.0s;
+    transition: 0.2s linear 1.0s;
+  }
+  .navigation li.n3 {
     -webkit-transition: 0.2s linear 0.8s;
     -o-transition: 0.2s linear 0.8s;
     transition: 0.2s linear 0.8s;
   }
-  .navigation li.n2 {
+  .navigation li.n4 {
     -webkit-transition: 0.2s linear 0.6s;
     -o-transition: 0.2s linear 0.6s;
     transition: 0.2s linear 0.6s;
   }
-  .navigation li.n3 {
+  .navigation li.n5 {
+    border-radius: 0px 0px 4px 4px;
     -webkit-transition: 0.2s linear 0.4s;
     -o-transition: 0.2s linear 0.4s;
     transition: 0.2s linear 0.4s;
   }
-  .navigation li.n4 {
+  .navigation li.n6 {
+    border-radius: 0px 0px 4px 4px;
     -webkit-transition: 0.2s linear 0.2s;
     -o-transition: 0.2s linear 0.2s;
     transition: 0.2s linear 0.2s;
   }
-  .navigation li.n5 {
+  .navigation li.n7 {
     border-radius: 0px 0px 4px 4px;
     -webkit-transition: 0.2s linear 0s;
     -o-transition: 0.2s linear 0s;
@@ -148,6 +160,16 @@ nav#menu {
     -webkit-transition-delay: 0.8s;
     -o-transition-delay: 0.8s;
     transition-delay: 0.8s;
+  }
+  .navigation:hover .n6 {
+    -webkit-transition-delay: 1.0s;
+    -o-transition-delay: 1.0s;
+    transition-delay: 1.0s;
+  }
+  .navigation:hover .n7 {
+    -webkit-transition-delay: 1.2s;
+    -o-transition-delay: 1.2s;
+    transition-delay: 1.2s;
   }
 /* new menu*/
 
