@@ -25,7 +25,7 @@ if($handle)
 {
 	/* uso della classe cls_encrypt */
 	$obj = new cls_encrypt();
-	$str = strtoupper("GoodPassword!!!" . $_GET['squadra']) . ' - ' . date("D d M Y - H:i:s",time()) . "\n\n" . $_POST['Offerta_quo_in'] . ' fantamiliardi per : ' . $_POST['Offerta_gio_in'] . ' (' . $_POST['Offerta_squ_in'] . ', ' . $_POST['Offerta_ruo_in'] . ")\n" . 'al posto di : ' . strtoupper($_POST['Offerta_gio_out']) . ' (' . strtoupper($_POST['Offerta_squ_out']) . ', ' . strtoupper($_POST['Offerta_ruo_out']) . ")\n";
+	$str = strtoupper("GoodPassword!!!" . $_GET['squadra']) . ' - ' . date("D d M Y - H:i:s",time()) . "\n\n" . $_POST['Offerta_quo_in'] . ' fantamiliardi per : ' . stripcslashes($_POST['Offerta_gio_in']) . ' (' . $_POST['Offerta_squ_in'] . ', ' . $_POST['Offerta_ruo_in'] . ")\n" . 'al posto di : ' . stripcslashes(strtoupper($_POST['Offerta_gio_out'])) . ' (' . strtoupper($_POST['Offerta_squ_out']) . ', ' . strtoupper($_POST['Offerta_ruo_out']) . ")\n";
 	$pass = $_POST['PasswordOffer'];
 	$str = $obj->encrypt_value($str, $pass . $ADMIN['real']);
 	/* uso della classe cls_encrypt */

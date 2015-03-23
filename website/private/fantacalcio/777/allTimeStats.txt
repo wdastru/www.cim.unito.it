@@ -848,11 +848,11 @@
 1415/Ij Patelavache/EPOrediese/////0/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/0/1/59/67.5/1/TEVEZ/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/1/1/66.5/66/0/HOLEBAS/CUADRADO/
-1415/Dinamo Ciofeca/Lokomotiv Peccorino/////1/
+1415/Dinamo Ciofeca/Lokomotiv Peccorino/0/2/62/74/1/KLOSE/KLOSE/
 1415/Dinamo Ciofeca/Lokomotiv Peccorino/////0/
 1415/EPOrediese/Fedora/2/0/74/62/1/MORATA/DI NATALE/
 1415/EPOrediese/Fedora/3/2/82.5/72.5/0/FELIPE ANDERSON/FELIPE ANDERSON/ICARDI/TONI/EKDAL/
-1415/EPOrediese/Fedora/////1/
+1415/EPOrediese/Fedora/3/1/79/66.5/1/DI NATALE/ICARDI/HAMSIK/TONI/
 1415/EPOrediese/Fedora/////0/
 1415/Rapid Bradip/Atletico? No Grazie!/3/1/80.5/71/1/CALLEJON/DYBALA/CANDREVA/PIRLO/
 1415/Rapid Bradip/Atletico? No Grazie!/2/2/76/74/0/TOTTI/TOTTI/POGBA/MERTENS/
@@ -860,23 +860,23 @@
 1415/Rapid Bradip/Atletico? No Grazie!/////0/
 1415/Real Mentescars/Ij Patelavache/0/1/64/69/1/LULIC/
 1415/Real Mentescars/Ij Patelavache/5/1/91/68/0/VIDAL/EDER/MAURI/PALACIO/BRIENZA/LODI/
-1415/Real Mentescars/Ij Patelavache/////1/
+1415/Real Mentescars/Ij Patelavache/1/1/66.5/69.5/1/PALACIO/ETO'O/
 1415/Real Mentescars/Ij Patelavache/////0/
 1415/Real Mentescars/Dinamo Ciofeca/1/4/69.5/88/1/EDER/LLORENTE/LICHTSTEINER/LLORENTE/LICHTSTEINER/
 1415/Real Mentescars/Dinamo Ciofeca/1/0/70/63/0/BRIENZA/
-1415/Real Mentescars/Dinamo Ciofeca/////1/
+1415/Real Mentescars/Dinamo Ciofeca/2/0/72/52/1/PALACIO/PALACIO/
 1415/Real Mentescars/Dinamo Ciofeca/////0/
 1415/EPOrediese/Rapid Bradip/4/0/87/60.5/1/MORATA/MORATA/ICARDI/ICARDI/
 1415/EPOrediese/Rapid Bradip/1/1/69.5/67/0/DYBALA/PEREYRA/
-1415/EPOrediese/Rapid Bradip/////1/
+1415/EPOrediese/Rapid Bradip/3/1/78.5/68/1/FELIPE ANDERSON/FELIPE ANDERSON/FELIPE ANDERSON/MURIEL/
 1415/EPOrediese/Rapid Bradip/////0/
 1415/Ij Patelavache/Lokomotiv Peccorino/1/2/69/75/1/DJORDJEVIC/TEVEZ/TEVEZ/
 1415/Ij Patelavache/Lokomotiv Peccorino/3/3/80/82.5/0/BERARDI/ALLAN/BERARDI/TEVEZ/TEVEZ/THEREAU/
-1415/Ij Patelavache/Lokomotiv Peccorino/////1/
+1415/Ij Patelavache/Lokomotiv Peccorino/1/2/68/72.5/1/BERARDI/JOAQUIN/JOAQUIN/
 1415/Ij Patelavache/Lokomotiv Peccorino/////0/
 1415/Fedora/Atletico? No Grazie!/2/2/77.5/72/1/HIGUAIN/KEITA S./TOROSIDIS/TOROSIDIS/
 1415/Fedora/Atletico? No Grazie!/2/3/75/78.5/0/HIGUAIN/HIGUAIN/POGBA/DESTRO/POGBA/
-1415/Fedora/Atletico? No Grazie!/////1/
+1415/Fedora/Atletico? No Grazie!/2/1/73.5/71.5/1/TONI/TONI/DEFREL/
 1415/Fedora/Atletico? No Grazie!/////0/
 1415/Dinamo Ciofeca/EPOrediese/2/1/75.5/68.5/1/CUADRADO/MENEZ/DI NATALE/
 1415/Dinamo Ciofeca/EPOrediese/2/1/76/68/0/MENEZ/LICHSTEINER/DI NATALE/
@@ -892,5 +892,5 @@
 1415/Lokomotiv Peccorino/Fedora/////0/
 1415/Atletico? No Grazie!/Ij Patelavache/2/1/74/68/1/POGBA/POGBA/MORALEZ/
 1415/Atletico? No Grazie!/Ij Patelavache/1/0/66/64/0/POGBA/
-1415/Atletico? No Grazie!/Ij Patelavache/////1/
+1415/Atletico? No Grazie!/Ij Patelavache/-/-/-/-/1/
 1415/Atletico? No Grazie!/Ij Patelavache/////0/

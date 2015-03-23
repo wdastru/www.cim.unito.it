@@ -50,6 +50,10 @@ function getData(dataSource, elementID)
 
 function getDataIntoInputValue(player)
 {
+	
+	player = player.replace(/'/g, "\\'");
+	//alert(player);
+	
 	var XMLHttpRequestObject_1 = false;
 	var XMLHttpRequestObject_2 = false;
 
@@ -120,6 +124,7 @@ function getSelectedPlayer()
 		var player;
 		for (i=0;i<opt.length;i++)
 		{
+			//alert(opt.item(i).innerHTML);
 			if (opt.item(i).selected)
 			{
 				player = opt.item(i).innerHTML;

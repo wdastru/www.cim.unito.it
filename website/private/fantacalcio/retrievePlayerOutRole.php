@@ -1,4 +1,10 @@
 <?php 
+
+$player=stripslashes($_GET['player']);
+$player=stripslashes($player);
+
+//echo $player;
+
 require('squadre.inc');
 require('777/gazFiles.inc.php');
 
@@ -18,7 +24,7 @@ for ($i=0; $i<count($allPlayerStats); $i++)
 	{
 		for ($k=0; $k<25; $k++)
 		{
-			if (strtoupper($allPlayerStats[$i][0]) == $_GET['player'])
+			if (strtoupper($allPlayerStats[$i][0]) == $player)
 			{
 				{
 					echo $ruolo[$allPlayerStats[$i][2]];
