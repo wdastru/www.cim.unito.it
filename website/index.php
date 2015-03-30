@@ -45,13 +45,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <h2 class='punch purple'><span>COST Action TD1004</span></h2>
                                     <a href="<?php echo $localizer; ?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
                                     <div class='divider'></div>
-                                    <span class="date">September 10<sup>th</sup>-11<sup>th</sup>, 2015</span>The Annual Workshop of the TD1004 Action will be held in Belgrade, at the <a target="_blank" href="http://www.sanu.ac.rs/English/Index.aspx" ><span class="paperTitle">Serbian Academy of Sciences and Arts (SASA)</span></a> 
+                                    <span class="date">September 10<sup>th</sup>-11<sup>th</sup>, 2015</span>The Annual Workshop of the TD1004 Action will be held in Belgrade, at the <a href="http://www.sanu.ac.rs/English/Index.aspx" ><span class="paperTitle">Serbian Academy of Sciences and Arts (SASA)</span></a> 
                                     <br />The local organizer is <br />Magdalena Stefanovic <a href="mailto:magdalena.stefanovic@itn.sanu.ac.rs">magdalena.stefanovic@itn.sanu.ac.rs</a>.
                                 </div>
                                 <div id='col2'>
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
                                     The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
-                                    <a target="_blank" href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
+                                    <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
                                     <div class='divider'></div>
                                     <span class="date">April 29, 2011</span><a href='eindhoven.php'> Prof. Silvio Aime has been awarded a <i>"Doctor Honoris Causa"</i> by the Eindhoven University of Technology (NL). </a>
                                     <div class='divider'></div>
@@ -64,7 +64,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <br />
                                     Torino - Italy
                                     <br />
-                                    <a target="_blank" href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
+                                    <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
                                     <div class='divider'></div>
                                     <span class="date">October, 3<sup>rd</sup>-5<sup>th</sup> 2014</span>
                                     <a href='<?php echo $localizer; ?>COST/meetings/COST_TD1004-Oct2014.php' ><span class="paperTitle">Annual Workshop of the COST Action TD1004 (&quot;Theranostics&quot;)</span></a>
