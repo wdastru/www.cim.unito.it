@@ -5,13 +5,12 @@
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+    <?php require $localizer . 'includes/head_const.inc.php'?>
+    <title>Molecular Imaging Center - University of Torino - Intensive programme 2009</title>
 </head>
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
 	<div id='section2'>
-
-
 	<?php
 	require ('includes/main-nav.php');
 	?>

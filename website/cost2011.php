@@ -7,12 +7,12 @@
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino</title>
+        <title>Molecular Imaging Center - University of Torino - COST 2011</title>
 		<meta name="description" content= "University of Torino. Website of the Molecular Imaging Center." />
 		<!-- include flowplayer JavaScript file that does
 		Flash embedding and provides the Flowplayer API. -->
 		<script type="text/javascript" src="flowplayer-3.2.6.min.js"></script>
-		</head>
+	</head>
 	<body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
 		<div id='section0'>

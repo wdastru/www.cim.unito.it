@@ -6,6 +6,7 @@ xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
+        <title>Molecular Imaging Center - University of Torino - Scuola NMR di Base 2013</title>
     </head>
     <body>
       <?php require_once($localizer . 'includes/analyticstracking.php') ?>

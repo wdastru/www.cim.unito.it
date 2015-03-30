@@ -7,7 +7,7 @@
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino</title>
+<title>Molecular Imaging Center - University of Torino - Prof. Silvio Aime Eindhoven Doctor Honoris Causa</title>
 		<meta name="description" content= "University of Torino. Website of the Molecular Imaging Center." />
 	</head>
 	<body>

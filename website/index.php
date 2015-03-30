@@ -9,6 +9,7 @@ xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
+        <title>Molecular Imaging Center - University of Torino</title>
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>

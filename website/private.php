@@ -6,8 +6,8 @@ $localizer = "./";
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino</title>
+    <?php require $localizer . 'includes/head_const.inc.php'?>
+    <title>Molecular Imaging Center - University of Torino - Private section</title>
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 </head>
 <body>

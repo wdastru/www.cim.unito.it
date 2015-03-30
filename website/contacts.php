@@ -7,9 +7,9 @@
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino - Contacts</title>
+        <title>Molecular Imaging Center - University of Torino - Contacts</title>
 		<meta name="description" content="How to contact us" />
-		</head>
+	</head>
 	<body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
 		<div id='section0'>

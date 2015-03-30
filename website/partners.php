@@ -7,7 +7,8 @@ $localizer = "./";
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/partners.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+    <?php require $localizer . 'includes/head_const.inc.php'?>
+    <title>Molecular Imaging Center - University of Torino - Partners</title>
 </head>
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>

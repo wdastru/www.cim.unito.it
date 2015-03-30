@@ -7,7 +7,7 @@ $localizer = "./";
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino - Staff Information</title>
+<title>Molecular Imaging Center - University of Torino - Staff</title>
 		<meta name="description" content="" />
 		
 		</head>
