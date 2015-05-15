@@ -1,5 +1,10 @@
 <?php  session_start();
 
+function throwException() {
+    throw new Exception("Exception: ");
+}
+
+
 if (!ini_get('date.timezone')) {
 	ini_set('date.timezone', 'Europe/Rome');
 }
@@ -460,7 +465,17 @@ xmlns="http://www.w3.org/1999/xhtml">
 											 * */
 
 											$sql = "SELECT * FROM `" . $_SESSION['DBName'] . "`.`" . $_SESSION['strumento'] . "` WHERE ( `Date` ='" . date("Ymd", $date + (3600 * 24 * $j)) . "' AND `Hour` = '" . $ore[$i] . "')";
-											$result = mysql_query($sql, $con);
+                                            
+                                            try {
+                                                $result = mysql_query($sql, $con) or throwException();
+                                            } catch( Exception $e ) {
+                                                echo "<pre>" . $e . mysql_error() . '<br/>';
+                                            }
+
+                                            //while($row = mysql_fetch_assoc($result)){
+                                            //  //handle rows.
+                                            //}
+                                            
 											$row = mysql_fetch_assoc($result);
 
 											if (!isset($row['Date'])) {
