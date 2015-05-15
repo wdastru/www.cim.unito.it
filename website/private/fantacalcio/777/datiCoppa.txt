@@ -10,10 +10,10 @@ gruppi8/0/2/60/75/PINILLA/N. SANSONE/
 gruppi9/1/1/70.5/70.5/MENEZ/DYBALA/
 gruppi10/1/0/71/61/ZAZA/
 gruppi11/3/1/80/71.5/QUAGLIARELLA/QUAGLIARELLA/QUAGLIARELLA/BERARDI/
-semi0/-/-/-/-/
-semi1/-/-/-/-/
-semi2/-/-/-/-/
-semi3/-/-/-/-/
+semi0/4/2/84/76.5/SALAH/MENEZ/PJANIC/DIAMANTI/SAU/BERARDI/
+semi1/2/2/75/72.5/TEVEZ/THEREAU/GLIK/DYBALA/
+semi2/1/2/68/72.5/PINILLA/TONI/TONI/
+semi3/0/1/61.5/68/PAROLO/
 finali0/-/-/-/-/
 finali1/-/-/-/-/
 finali2/-/-/-/-/
