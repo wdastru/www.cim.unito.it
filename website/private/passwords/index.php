@@ -46,7 +46,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <tr>
                                     <td>RSC</td>
                                     <td>silvio.aime@unito.it</td>
-                                    <td>olga1olga2</td>
+                                    <td>olgaolga12</td>
                                 </tr>
                                 <tr>
                                     <td>Wiley</td>
