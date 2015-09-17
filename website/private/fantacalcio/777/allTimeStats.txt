@@ -871,7 +871,7 @@
 1415/EPOrediese/Rapid Bradip/3/1/78.5/68/1/FELIPE ANDERSON/FELIPE ANDERSON/FELIPE ANDERSON/MURIEL/
 1415/EPOrediese/Rapid Bradip/2/1/73/67/0/ZAZA/DI NATALE/CANDREVA/
 1415/Ij Patelavache/Lokomotiv Peccorino/1/2/69/75/1/DJORDJEVIC/TEVEZ/TEVEZ/
-1415/Ij Patelavache/Lokomotiv Peccorino/3/3/80/82.5/0/BERARDI/ALLAN/BERARDI/TEVEZ/TEVEZ/THEREAU/
+1415/Ij Patelavache/Lokomotiv Peccorino/3/3/80/82.5/0/BERARDI/ALL0AN/BERARDI/TEVEZ/TEVEZ/THEREAU/
 1415/Ij Patelavache/Lokomotiv Peccorino/1/2/68/72.5/1/BERARDI/JOAQUIN/JOAQUIN/
 1415/Ij Patelavache/Lokomotiv Peccorino/1/0/67.5/63/0/EL KADDOURI/
 1415/Fedora/Atletico? No Grazie!/2/2/77.5/72/1/HIGUAIN/KEITA S./TOROSIDIS/TOROSIDIS/
@@ -894,3 +894,115 @@
 1415/Atletico? No Grazie!/Ij Patelavache/1/0/66/64/0/POGBA/
 1415/Atletico? No Grazie!/Ij Patelavache/0/1/62/66/1/BASTA/
 1415/Atletico? No Grazie!/Ij Patelavache/3/3/79/79.5/0/BERARDI/BERARDI/BERARDI/MERTENS/MERTENS/MORAS/
+1516/EPOrediese/Atletico? No Grazie!/////1/
+1516/EPOrediese/Atletico? No Grazie!/////0/
+1516/EPOrediese/Atletico? No Grazie!/////1/
+1516/EPOrediese/Atletico? No Grazie!/////0/
+1516/Real Mentescars/L.A. Krakatoa/////1/
+1516/Real Mentescars/L.A. Krakatoa/////0/
+1516/Real Mentescars/L.A. Krakatoa/////1/
+1516/Real Mentescars/L.A. Krakatoa/////0/
+1516/Lokomotiv Peccorino/Dinamo Ciofeca/////1/
+1516/Lokomotiv Peccorino/Dinamo Ciofeca/////0/
+1516/Lokomotiv Peccorino/Dinamo Ciofeca/////1/
+1516/Lokomotiv Peccorino/Dinamo Ciofeca/////0/
+1516/Fedora/Rapid Bradip/////1/
+1516/Fedora/Rapid Bradip/////0/
+1516/Fedora/Rapid Bradip/////1/
+1516/Fedora/Rapid Bradip/////0/
+1516/Atletico? No Grazie!/Real Mentescars/////1/
+1516/Atletico? No Grazie!/Real Mentescars/////0/
+1516/Atletico? No Grazie!/Real Mentescars/////1/
+1516/Atletico? No Grazie!/Real Mentescars/////0/
+1516/L.A. Krakatoa/EPOrediese/////1/
+1516/L.A. Krakatoa/EPOrediese/////0/
+1516/L.A. Krakatoa/EPOrediese/////1/
+1516/L.A. Krakatoa/EPOrediese/////0/
+1516/Dinamo Ciofeca/Fedora/////1/
+1516/Dinamo Ciofeca/Fedora/////0/
+1516/Dinamo Ciofeca/Fedora/////1/
+1516/Dinamo Ciofeca/Fedora/////0/
+1516/Rapid Bradip/Lokomotiv Peccorino/////1/
+1516/Rapid Bradip/Lokomotiv Peccorino/////0/
+1516/Rapid Bradip/Lokomotiv Peccorino/////1/
+1516/Rapid Bradip/Lokomotiv Peccorino/////0/
+1516/EPOrediese/Real Mentescars/////1/
+1516/EPOrediese/Real Mentescars/////0/
+1516/EPOrediese/Real Mentescars/////1/
+1516/EPOrediese/Real Mentescars/////0/
+1516/Atletico? No Grazie!/L.A. Krakatoa/////1/
+1516/Atletico? No Grazie!/L.A. Krakatoa/////0/
+1516/Atletico? No Grazie!/L.A. Krakatoa/////1/
+1516/Atletico? No Grazie!/L.A. Krakatoa/////0/
+1516/Dinamo Ciofeca/Rapid Bradip/////1/
+1516/Dinamo Ciofeca/Rapid Bradip/////0/
+1516/Dinamo Ciofeca/Rapid Bradip/////1/
+1516/Dinamo Ciofeca/Rapid Bradip/////0/
+1516/Fedora/Lokomotiv Peccorino/////1/
+1516/Fedora/Lokomotiv Peccorino/////0/
+1516/Fedora/Lokomotiv Peccorino/////1/
+1516/Fedora/Lokomotiv Peccorino/////0/
+1516/Rapid Bradip/EPOrediese/////1/
+1516/Rapid Bradip/EPOrediese/////0/
+1516/Rapid Bradip/EPOrediese/////1/
+1516/Rapid Bradip/EPOrediese/////0/
+1516/Real Mentescars/Dinamo Ciofeca/////1/
+1516/Real Mentescars/Dinamo Ciofeca/////0/
+1516/Real Mentescars/Dinamo Ciofeca/////1/
+1516/Real Mentescars/Dinamo Ciofeca/////0/
+1516/Lokomotiv Peccorino/Atletico? No Grazie!/////1/
+1516/Lokomotiv Peccorino/Atletico? No Grazie!/////0/
+1516/Lokomotiv Peccorino/Atletico? No Grazie!/////1/
+1516/Lokomotiv Peccorino/Atletico? No Grazie!/////0/
+1516/L.A. Krakatoa/Fedora/////1/
+1516/L.A. Krakatoa/Fedora/////0/
+1516/L.A. Krakatoa/Fedora/////1/
+1516/L.A. Krakatoa/Fedora/////0/
+1516/EPOrediese/Lokomotiv Peccorino/////1/
+1516/EPOrediese/Lokomotiv Peccorino/////0/
+1516/EPOrediese/Lokomotiv Peccorino/////1/
+1516/EPOrediese/Lokomotiv Peccorino/////0/
+1516/Fedora/Real Mentescars/////1/
+1516/Fedora/Real Mentescars/////0/
+1516/Fedora/Real Mentescars/////1/
+1516/Fedora/Real Mentescars/////0/
+1516/Atletico? No Grazie!/Rapid Bradip/////1/
+1516/Atletico? No Grazie!/Rapid Bradip/////0/
+1516/Atletico? No Grazie!/Rapid Bradip/////1/
+1516/Atletico? No Grazie!/Rapid Bradip/////0/
+1516/Dinamo Ciofeca/L.A. Krakatoa/////1/
+1516/Dinamo Ciofeca/L.A. Krakatoa/////0/
+1516/Dinamo Ciofeca/L.A. Krakatoa/////1/
+1516/Dinamo Ciofeca/L.A. Krakatoa/////0/
+1516/Dinamo Ciofeca/EPOrediese/////1/
+1516/Dinamo Ciofeca/EPOrediese/////0/
+1516/Dinamo Ciofeca/EPOrediese/////1/
+1516/Dinamo Ciofeca/EPOrediese/////0/
+1516/Fedora/Atletico? No Grazie!/////1/
+1516/Fedora/Atletico? No Grazie!/////0/
+1516/Fedora/Atletico? No Grazie!/////1/
+1516/Fedora/Atletico? No Grazie!/////0/
+1516/L.A. Krakatoa/Lokomotiv Peccorino/////1/
+1516/L.A. Krakatoa/Lokomotiv Peccorino/////0/
+1516/L.A. Krakatoa/Lokomotiv Peccorino/////1/
+1516/L.A. Krakatoa/Lokomotiv Peccorino/////0/
+1516/Real Mentescars/Rapid Bradip/////1/
+1516/Real Mentescars/Rapid Bradip/////0/
+1516/Real Mentescars/Rapid Bradip/////1/
+1516/Real Mentescars/Rapid Bradip/////0/
+1516/EPOrediese/Fedora/////1/
+1516/EPOrediese/Fedora/////0/
+1516/EPOrediese/Fedora/////1/
+1516/EPOrediese/Fedora/////0/
+1516/Atletico? No Grazie!/Dinamo Ciofeca/////1/
+1516/Atletico? No Grazie!/Dinamo Ciofeca/////0/
+1516/Atletico? No Grazie!/Dinamo Ciofeca/////1/
+1516/Atletico? No Grazie!/Dinamo Ciofeca/////0/
+1516/Lokomotiv Peccorino/Real Mentescars/////1/
+1516/Lokomotiv Peccorino/Real Mentescars/////0/
+1516/Lokomotiv Peccorino/Real Mentescars/////1/
+1516/Lokomotiv Peccorino/Real Mentescars/////0/
+1516/Rapid Bradip/L.A. Krakatoa/////1/
+1516/Rapid Bradip/L.A. Krakatoa/////0/
+1516/Rapid Bradip/L.A. Krakatoa/////1/
+1516/Rapid Bradip/L.A. Krakatoa/////0/

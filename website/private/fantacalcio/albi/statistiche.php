@@ -88,7 +88,7 @@ xmlns="http://www.w3.org/1999/xhtml">
       }
 
       function pointsTotalMin($a, $b) {
-        if (isset($a[5]) && isset($a[6]) && isset($b[5]) && isset($b[6])) {
+        if (isset($a[5]) && isset($a[6]) && isset($b[5]) && isset($b[6]) /*&& $a[5]!=0 && $a[6]!=0 && $b[5]!=0 && $b[6]!=0 && $a[5]!='' && $a[6]!='' && $b[5]!='' && $b[6]!=''*/ ) {
           if ($a[5] + $a[6] == $b[5] + $b[6]) {
             return 0;
           }
@@ -233,7 +233,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 
         usort($stats, 'pointsTotalMin');
 
-        echo "<p>MIN points match:</p><br />";
+        
+        echo "<!--<p>MIN points match:</p><br />";
         echo "
   				<table style='margin:auto'>
   					<tr>
@@ -261,7 +262,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             }
         }
         echo "</table>
-  				<br />";
+  				<br />-->";
 
         usort($stats, 'diffRetiMax');
 
