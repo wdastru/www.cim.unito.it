@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <squadre>
 <squadra>
-  <nome>bradipo</nome>
-  <img>bradipo.jpg</img>
+  <nome>rapid</nome>
+  <img>rapid.jpg</img>
   <storico>
     <campionato>
       <stagione>2000/01</stagione>
@@ -39,7 +39,7 @@
       <posizione>2</posizione>
       <coppa>C</coppa>
       <supercoppa>SC</supercoppa>
-	  <vecchio_nome>Bradipo</vecchio_nome>
+	    <vecchio_nome>Bradipo</vecchio_nome>
     </campionato>
     <campionato>
       <stagione>2007/08</stagione>

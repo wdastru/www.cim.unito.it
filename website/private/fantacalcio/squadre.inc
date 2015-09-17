@@ -1,16 +1,16 @@
 <?php
 $shortName[0] = $shortName['a'] = 'ciofeca';
 $shortName[1] = $shortName['b'] = 'real';
-$shortName[2] = $shortName['c'] = 'patelavache';
+$shortName[2] = $shortName['c'] = 'krakatoa';
 $shortName[3] = $shortName['d'] = 'lokomotiv';
 $shortName[4] = $shortName['e'] = 'eporediese';
 $shortName[5] = $shortName['f'] = 'fedora';
-$shortName[6] = $shortName['g'] = 'bradipo';
+$shortName[6] = $shortName['g'] = 'rapid';
 $shortName[7] = $shortName['h'] = 'atletico';
 
 $longName[0] = $longName['a'] = 'Dinamo Ciofeca';
 $longName[1] = $longName['b'] = 'Real Mentescars';
-$longName[2] = $longName['c'] = 'Ij Patelavache';
+$longName[2] = $longName['c'] = 'L.A.Krakatoa';
 $longName[3] = $longName['d'] = 'Lokomotiv Peccorino';
 $longName[4] = $longName['e'] = 'EPOrediese';
 $longName[5] = $longName['f'] = 'Fedora';
