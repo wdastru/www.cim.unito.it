@@ -15,55 +15,60 @@
       </campionato>
       <campionato>
         <stagione>2002/03</stagione>
-        <posizione>7</posizione>        
+        <posizione>7</posizione>
       </campionato>
       <campionato>
         <stagione>2003/04</stagione>
-        <posizione>2</posizione>        
+        <posizione>2</posizione>
       </campionato>
       <campionato>
         <stagione>2004/05</stagione>
-        <posizione>2</posizione>        
+        <posizione>2</posizione>
         <champions>Ch</champions>
       </campionato>
       <campionato>
         <stagione>2005/06</stagione>
-        <posizione>5</posizione>        
+        <posizione>5</posizione>
       </campionato>
       <campionato>
         <stagione>2006/07</stagione>
-        <posizione>3</posizione>        
+        <posizione>3</posizione>
       </campionato>
       <campionato>
         <stagione>2007/08</stagione>
-        <posizione>2</posizione>        
+        <posizione>2</posizione>
       </campionato>
       <campionato>
         <stagione>2008/09</stagione>
         <posizione>8</posizione>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2009/10</stagione>
         <posizione>3</posizione>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2010/11</stagione>
         <posizione>3</posizione>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2011/12</stagione>
         <posizione>6</posizione>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2012/13</stagione>
         <posizione>2</posizione>
-		<coppa>C</coppa>
-		<supercoppa>SC</supercoppa>
+        <coppa>C</coppa>
+        <supercoppa>SC</supercoppa>
       </campionato>
- 	<campionato>
-      <stagione>2013/14</stagione>
-      <posizione>7</posizione>
-    </campionato>
-   </storico>
+      <campionato>
+        <stagione>2013/14</stagione>
+        <posizione>7</posizione>
+      </campionato>
+      <campionato>
+        <stagione>2014/15</stagione>
+        <posizione>1</posizione>
+      </campionato>
+      <supercoppa>SC</supercoppa>
+    </storico>
   </squadra>
 </squadre>

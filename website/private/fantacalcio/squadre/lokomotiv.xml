@@ -32,7 +32,7 @@
       <campionato>
         <stagione>2005/06</stagione>
         <posizione>7</posizione>
-        </campionato>
+      </campionato>
       <campionato>
         <stagione>2006/07</stagione>
         <posizione>7</posizione>
@@ -51,22 +51,27 @@
         <stagione>2009/10</stagione>
         <posizione>5</posizione>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2010/11</stagione>
         <posizione>7</posizione>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2011/12</stagione>
         <posizione>5</posizione>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2012/13</stagione>
         <posizione>3</posizione>
       </campionato>
-	<campionato>
-      <stagione>2013/14</stagione>
-      <posizione>5</posizione>
-    </campionato>
+      <campionato>
+        <stagione>2013/14</stagione>
+        <posizione>5</posizione>
+      </campionato>
+      <campionato>
+        <stagione>2014/15</stagione>
+        <posizione>5</posizione>
+      </campionato>
+      <coppa>C</coppa>
     </storico>
   </squadra>
 </squadre>

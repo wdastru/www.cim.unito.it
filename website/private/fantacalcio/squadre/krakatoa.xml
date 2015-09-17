@@ -54,26 +54,31 @@
         <posizione>6</posizione>
         <vecchio_nome>Ij Patelavache</vecchio_nome>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2010/11</stagione>
         <posizione>5</posizione>
         <vecchio_nome>Ij Patelavache</vecchio_nome>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2011/12</stagione>
         <posizione>4</posizione>
         <vecchio_nome>Ij Patelavache</vecchio_nome>
       </campionato>
-	  <campionato>
+      <campionato>
         <stagione>2012/13</stagione>
         <posizione>5</posizione>
         <vecchio_nome>Ij Patelavache</vecchio_nome>
       </campionato>
- 	<campionato>
-      <stagione>2013/14</stagione>
-      <posizione>6</posizione>
-      <vecchio_nome>Ij Patelavache</vecchio_nome>
-    </campionato>
-   </storico>
+      <campionato>
+        <stagione>2013/14</stagione>
+        <posizione>6</posizione>
+        <vecchio_nome>Ij Patelavache</vecchio_nome>
+      </campionato>
+      <campionato>
+        <stagione>2014/15</stagione>
+        <posizione>6</posizione>
+        <vecchio_nome>Ij Patelavache</vecchio_nome>
+      </campionato>      
+    </storico>
   </squadra>
 </squadre>
