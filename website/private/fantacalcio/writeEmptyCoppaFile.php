@@ -1,5 +1,5 @@
 <?php
-$handle = fopen($datiCoppaFile, 'w');
+$handle = fopen("777/datiCoppa.txt", 'w');
 
 for ($i=0; $i<12; $i++)
 fwrite($handle, 'gruppi' . $i . "/-/-/-/-/\n");

@@ -10,7 +10,7 @@ $shortName[7] = $shortName['h'] = 'atletico';
 
 $longName[0] = $longName['a'] = 'Dinamo Ciofeca';
 $longName[1] = $longName['b'] = 'Real Mentescars';
-$longName[2] = $longName['c'] = 'L.A.Krakatoa';
+$longName[2] = $longName['c'] = 'L.A. Krakatoa';
 $longName[3] = $longName['d'] = 'Lokomotiv Peccorino';
 $longName[4] = $longName['e'] = 'EPOrediese';
 $longName[5] = $longName['f'] = 'Fedora';
