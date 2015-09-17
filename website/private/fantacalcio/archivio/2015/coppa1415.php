@@ -1,9 +1,6 @@
 <?php
-$relocate_string = "./";
-//require_once ("dBug.php");
-require_once ($relocate_string . "logger.php");
-
-include ("calendarioCoppa.inc");
+$relocate_string = "../../";
+include ("calendarioCoppa1415.inc");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -12,20 +9,16 @@ include ("calendarioCoppa.inc");
 <head>
 <title>Fantacalcio NMR</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
-	<link rel="stylesheet" type="text/css"
-		href="documentPreProcessor.php?document=stylesheet.css&type=css" />
-	<script type="text/javascript" src="chromejs/chrome.js"></script>
-	<script type="text/javascript" src="version.js"></script>
+<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript"
-		src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
-	<script type="text/javascript"
-		src="documentPreProcessor.php?document=coppa1415.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=javascript.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=coppa1415.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 	<!-- jQuery -->
@@ -69,24 +62,26 @@ include ("calendarioCoppa.inc");
 			<span id='hiddenBoxHyphen'> - </span>
 			<span id='squadra2'>squadra2</span>
 		</div>
-		<br /> <br />
+		<br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
-				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "coppa" )' /> <input id='closeBtn' class='button' type='button'
-					value='Close this box!' onclick='hideBox();' /> <input class='button'
-					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
-				Goal Squadra A : <input type='text' name='goalA' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
-				Squadra B : <input type='text' name='goalB' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
-				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
+			  <input style="visibility: hidden" class='button' type='button' id='sendButton' value='Send' onclick='validate( "coppa" )' />
+				<input style="visibility: hidden" id='closeBtn' class='button' type='button' value='Close this box!' onclick='hideBox();' /> 
+				<input style="visibility: hidden" class='button' type='button' value='Reset' onclick="resetFields();" /> 
+				<br /> <br />
+				Goal Squadra A : 
+				<input type='text' name='goalA' value='' onkeyup="goals();" onmousedown="goals();" /> 
+				<br /> <br /> 
+				Goal Squadra B : 
+				<input type='text' name='goalB' value='' onkeyup="goals();" onmousedown="goals();" /> 
+				<br /> <br /> 
+				Punti Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
-					style="display: inline" value='Aggiungi un marcatore'
-					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
-					style="display: inline" value='Togli un marcatore'
-					onclick='manualDeleteField();' /> <br /> <br />
+				<br /> <br /> 
+				Marcatori:
+				<br /> 
+				<input style="visibility: hidden" class='button' type='button' style="display: inline" value='Aggiungi un marcatore' onclick='manualAddField();' />&nbsp;
+				<input style="visibility: hidden" class='button' type='button' style="display: inline" value='Togli un marcatore' onclick='manualDeleteField();' /> <br /> <br />
 					<?php
 					for ($i = 0; $i < 20; $i++)
 						echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
@@ -111,7 +106,7 @@ include ("calendarioCoppa.inc");
 	}
 	include $relocate_string . 'readDatiCoppa.php';
 	?>
-		<h1 class="title">FANTACOPPA</h1>
+    <h1 class="title">FANTACOPPA NMR 2014/15</h1>
 		<br /> <br />
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>

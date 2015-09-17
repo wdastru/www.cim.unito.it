@@ -26,6 +26,21 @@
   <h2 class="albo">COPPA</h2>
   <table class="albo">
     <tr>
+      <td>2014/15</td>
+      <td class="squadra">Lokomotiv Peccorino</td>
+      <td>Presidente <span class="presidente">Claudia Cabella</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2015/coppa1415.php">Tabellone</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2015/coppa_rosa1415.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>2013/14</td>
       <td class="squadra">Real Mentescars</td>
       <td>Presidente <span class="presidente">Davide Corpillo</span></td>
