@@ -196,19 +196,21 @@
 			<td class='";
 
 			if($j < $modulo[$i+1])
-			echo "titolare";
+				echo "titolare";
 			else if( $i != 0 && $j >= $modulo[$i+1] && $j < $modulo[$i+1]+2 )
-			echo "riserva";
+				echo "riserva";
 			else if( $i == 0 && $j >= $modulo[$i+1] && $j < $modulo[$i+1]+1 )
-			echo "riserva";
+				echo "riserva";
 			else
-			echo "tribuna";
+				echo "tribuna";
 
 			echo "'>";
 
 			if( isset($giocatore[$j][$i]) && $giocatore[$j][$i] != "" )
 			{
-				echo ucwords(strtolower($giocatore[$j][$i])) . " ";
+				$cognome = strtok($giocatore[$j][$i]," ");
+				//echo ucwords(strtolower($giocatore[$j][$i])) . " ";
+				echo ucwords(strtolower($cognome)) . " ";
 					
 				$found = false;
 					
@@ -218,15 +220,15 @@
 					{
 						if ( $letterRuolo[$i] != $allPlayers[$k][2] )
 						{
-							continue; // salta il giocatore se il ruolo non è giusto (per evitare doppi)
+							continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
 						}
 							
-						for ($t=0; $t<13; $t++) // 13 è la seconda dimensione di $allPlayers
+						for ($t=0; $t<13; $t++) // 13 e' la seconda dimensione di $allPlayers
 						{
 							if ($t==5) // fantavoto
-							echo "<span class='" . $spanIdUltima[$t] . "'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
+								echo "<span class='" . $spanIdUltima[$t] . "'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
 							else
-							echo "<span class='" . $spanIdUltima[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
+								echo "<span class='" . $spanIdUltima[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
 						}
 						$found = true;
 					}
@@ -237,15 +239,16 @@
 					if ($giocatore[$j][$i] == $allPlayerStats[$k][0])
 					{
 						if ( $letterRuolo[$i] != $allPlayerStats[$k][2] )
-						continue; // salta il giocatore se il ruolo non è giusto (per evitare doppi)
+						continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
 
-						for ($t=0; $t<13; $t++) // 13 è la seconda dimensione di $allPlayerStats
+						for ($t=0; $t<13; $t++) // 13 e' la seconda dimensione di $allPlayerStats
 						{
 							echo "<span class='" . $spanIdStats[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayerStats[$k][$t])) . ")</span>";
 						}
 						$found = true;
 					}
 				}
+				
 				if ($found == false)
 				{
 					echo "<span class='notFound'>(non trovato!)</span>";

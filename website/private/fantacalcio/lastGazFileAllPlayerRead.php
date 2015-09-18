@@ -11,9 +11,10 @@ if (count($fileGaz) > 0)
 		while(!feof($handle))
 		{
 			$tmpStr=substr(trim(fgets($handle)), 4);
-			$allPlayers[$i][0]=strtok($tmpStr,"\t");	// nome
+			$allPlayers[$i][0]=strtok($tmpStr,"\t");	// nome e cognome
 			$allPlayers[$i][1]=strtok("\t");			// squadra
-			$allPlayers[$i][2]=strtok("\t");			// ruolo
+			$tmpStr=strtok("\t");						// ruolo con trequartista
+			$allPlayers[$i][2]=strtok("\t");			// ruolo "classico"
 			$tmpStr=strtok("\t");
 			$tmpStr=strtok("\t");
 			$allPlayers[$i][3]="-";

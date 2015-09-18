@@ -62,7 +62,8 @@ require("../777/gazFiles.inc.php");
 			$tmpStr=substr(trim(fgets($handle)), 4);
 			$allPlayers[$i][0]=strtok($tmpStr,"\t");	// nome
 			$allPlayers[$i][1]=strtok("\t");			// squadra
-			$allPlayers[$i][2]=strtok("\t");			// ruolo
+			strtok("\t");								// ruolo con trequartista
+			$allPlayers[$i][2]=strtok("\t");			// ruolo "classico"
 			//echo $allPlayers[$i][0]." - ";
 			//echo $allPlayers[$i][1]." - ";
 			//echo $allPlayers[$i][2]."<br>";
