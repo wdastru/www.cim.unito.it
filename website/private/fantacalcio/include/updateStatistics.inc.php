@@ -58,11 +58,12 @@ foreach ($fileGaz as $file) {
 		{	
 			//lettura dati da file gazzetta
 			$dati[0]=strtok($tmpStr,"\t"); // codice
-			$dati[1]=strtok("\t");	// nome
+			$dati[1]=strtok("\t");	// nome e cognome
 			$dati[2]=strtok("\t");	// squadra
-			$dati[3]=strtok("\t");	// ruolo
+			$tmptmpStr=strtok("\t");	// ruolo (contiene il trequartista)
+			$dati[3]=strtok("\t");	// ruolo "classico"
 			$dati[4]=strtok("\t");	// stato (non lo uso, ma al suo posto metto il numero di partite giocate)
-			$tmptmpStr=strtok("\t");	// valore
+			$tmptmpStr=strtok("\t");	// quotazione
 			$dati[5]=strtok("\t");	// fantavoto
 			$dati[6]=strtok("\t");	// voto
 			$dati[7]=strtok("\t");	// goal
@@ -71,6 +72,8 @@ foreach ($fileGaz as $file) {
 			$dati[10]=strtok("\t");	// rigori
 			$dati[11]=strtok("\t");	// autoreti
 			$dati[12]=strtok("\t");	// assist
+			
+			print_r($dati);
 			
 			if($firstTime==false)
 			{
