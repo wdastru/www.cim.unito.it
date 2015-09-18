@@ -10,7 +10,7 @@ if (isset($_POST['submitted']))
 	$submitted = $_POST['submitted'];
 	if ($submitted == 1) // da uploader.php
 	{
-		if ( md5($_POST['Password']) == $ADMIN['patelavache'] || md5($_POST['Password']) == $ADMIN['real'] || md5($_POST['Password']) == $ADMIN['atletico'] || md5($_POST['Password']) == $ADMIN['ciofeca'] || md5($_POST['Password']) == $ADMIN['bradipo'] || md5($_POST['Password']) == $ADMIN['eporediese'] || md5($_POST['Password']) == $ADMIN['fedora'] || md5($_POST['Password']) == $ADMIN['real'] || md5($_POST['Password']) == $ADMIN['lokomotiv'] )
+		if ( md5($_POST['Password']) == $ADMIN['krakatoa'] || md5($_POST['Password']) == $ADMIN['real'] || md5($_POST['Password']) == $ADMIN['atletico'] || md5($_POST['Password']) == $ADMIN['ciofeca'] || md5($_POST['Password']) == $ADMIN['rapid'] || md5($_POST['Password']) == $ADMIN['eporediese'] || md5($_POST['Password']) == $ADMIN['fedora'] || md5($_POST['Password']) == $ADMIN['real'] || md5($_POST['Password']) == $ADMIN['lokomotiv'] )
 		{
 			if ($_FILES["file1"]["name"] != "")
 			{
