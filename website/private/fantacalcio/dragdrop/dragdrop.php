@@ -207,7 +207,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = 0; $i < $titolari[1]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][0] . "</div>";
+									$str = strtok($giocatore[$i][0], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -218,7 +219,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = 0; $i < $titolari[2]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][1] . "</div>";
+									$str = strtok($giocatore[$i][1], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -229,7 +231,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = 0; $i < $titolari[3]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][2] . "</div>";
+									$str = strtok($giocatore[$i][2], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -240,7 +243,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = 0; $i < $titolari[4]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][3] . "</div>";
+									$str = strtok($giocatore[$i][3], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -256,7 +260,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = $titolari[1]; $i < $titolari[1] + $riserve[1]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][0] . "</div>";
+									$str = strtok($giocatore[$i][0], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -267,7 +272,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = $titolari[2]; $i < $titolari[2] + $riserve[2]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][1] . "</div>";
+									$str = strtok($giocatore[$i][1], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -278,7 +284,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = $titolari[3]; $i < $titolari[3] + $riserve[3]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][2] . "</div>";
+									$str = strtok($giocatore[$i][2], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -289,7 +296,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = $titolari[4]; $i < $titolari[4] + $riserve[4]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][3] . "</div>";
+									$str = strtok($giocatore[$i][3], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -305,7 +313,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = $titolari[1] + $riserve[1]; $i < $ruolo[0]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][0] . "</div>";
+									$str = strtok($giocatore[$i][0], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -316,18 +325,20 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = $titolari[2] + $riserve[2]; $i < $ruolo[1]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][1] . "</div>";
+									$str = strtok($giocatore[$i][1], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
 							<div dropobj="0" class="DragContainer" id="CenTribuna"
 							overclass="OverDragContainer">
 								<div id="counterCenTribuna">
-									<?php echo $ruolo[2] - $titolari[3] - 2;?>
+									<?php echo $ruolo[2] - $titolari[3] - 2; ?>
 								</div>
 								<?php
 								for ($i = $titolari[3] + $riserve[3]; $i < $ruolo[2]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][2] . "</div>";
+									$str = strtok($giocatore[$i][2], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
@@ -338,7 +349,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<?php
 								for ($i = $titolari[4] + $riserve[4]; $i < $ruolo[3]; $i++) {
-									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $giocatore[$i][3] . "</div>";
+									$str = strtok($giocatore[$i][3], " ");
+									echo "<div dragobj='0' class='DragBox' id='Item1' overclass='OverDragBox' dragclass='DragDragBox'>" . $str . "</div>";
 								}
 								?>
 							</div>
