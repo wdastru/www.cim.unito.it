@@ -1,3 +1,17 @@
+<?php
+      function cognome($a) {
+        if (preg_match("/([A-Z]{2,} )([A-Z]{2,} )([A-Z]{2,} ).*/", $a)) { 
+          return preg_replace("/([A-Z]{2,} )([A-Z]{2,} )([A-Z]{2,} ).*/", "\\1\\2\\3", $a);
+        } else if (preg_match("/([A-Z]{2,} )([A-Z]{2,} ).*/", $a)) {
+          return preg_replace("/([A-Z]{2,} )([A-Z]{2,} ).*/", "\\1\\2", $a);
+        } else if (preg_match("/([A-Z]{2,} ).*/", $a)) {
+          return preg_replace("/([A-Z]{2,} ).*/", "\\1", $a);
+        } else {
+          return $a;
+        }
+      }
+?>
+  
 <table id='tableRosa' class="rosa">
 	<colgroup span="4">
 		<col width="200" />
@@ -205,12 +219,10 @@
 				echo "tribuna";
 
 			echo "'>";
-
+      
 			if( isset($giocatore[$j][$i]) && $giocatore[$j][$i] != "" )
 			{
-				$cognome = strtok($giocatore[$j][$i]," ");
-				//echo ucwords(strtolower($giocatore[$j][$i])) . " ";
-				echo ucwords(strtolower($cognome)) . " ";
+				echo ucwords(strtolower(cognome($giocatore[$j][$i]))) . " ";
 					
 				$found = false;
 					
