@@ -196,19 +196,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					</table>
 				</div>
 				<!-- END SCELTA MODULI -->
-				<?php 
-  				function cognome($a) {
-  				  if (preg_match("/([A-Z]{2,} )([A-Z]{2,} )([A-Z]{2,} ).*/", $a)) { 
-  				    return preg_replace("/([A-Z]{2,} )([A-Z]{2,} )([A-Z]{2,} ).*/", "\\1\\2\\3", $a);
-            } else if (preg_match("/([A-Z]{2,} )([A-Z]{2,} ).*/", $a)) {
-              return preg_replace("/([A-Z]{2,} )([A-Z]{2,} ).*/", "\\1\\2", $a);
-            } else if (preg_match("/([A-Z]{2,} ).*/", $a)) {
-              return preg_replace("/([A-Z]{2,} ).*/", "\\1", $a);
-            } else {
-              return $a;
-            }
-          }
-				?>
+        <?php require $relocate_string . "include/cognome.inc.php"; ?>
 				<fieldset id='Demo4'>
 					<div style="text-align: center;">
 						<!-- BEGIN CAMPO -->
