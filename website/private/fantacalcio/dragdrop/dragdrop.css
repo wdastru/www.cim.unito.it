@@ -27,6 +27,7 @@
 #counterCenTribuna,
 #counterAttTribuna { display:none; }
 
+.nameComplete { display:none; }
 #sceltaModuli { width:800px; height:25px; border:solid; border-width:2px 2px 1px 2px; border-color:dragdropBorderColor; background-color:modulesChoiceBkgd; }
 .moduloBox { width:114px; text-align:center; line-height:20px; color: textColor0; background-color: textColor1; cursor:pointer; }
 .defaultModule { color:textColor4; background-color:textColor0; }

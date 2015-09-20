@@ -760,7 +760,8 @@ function saveData(_squadra) {
 		{
 			for(i=0;i<document.getElementById(counters[j]).innerHTML;i++)
 			{	
-				form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).innerHTML; 
+				//form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).innerHTML;
+				form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).getElementsByTagName('span').item(0).innerHTML; 
 				t++;
 			}
 		}
@@ -792,7 +793,8 @@ function saveDataTipo(_squadra) {
 		{
 			for(i=0;i<document.getElementById(counters[j]).innerHTML;i++)
 			{	
-				form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).innerHTML; 
+				//form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).innerHTML;
+				form.getElementsByTagName('input').item(t+4).value=document.getElementById(divs[j]).getElementsByTagName('div').item(i+1).getElementsByTagName('span').item(0).innerHTML;
 				t++;
 			}
 		}
