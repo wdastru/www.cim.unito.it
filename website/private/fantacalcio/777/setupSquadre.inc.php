@@ -1,7 +1,6 @@
 <?php
 $ADMIN['krakatoa'] = "45f7ecd8afff4d8847a20d49c5a6c2d0";
-//$ADMIN['atletico'] = "cbfecc1a82915574e88db83ff02cd5a2";
-$ADMIN['atletico'] = "45f7ecd8afff4d8847a20d49c5a6c2d0";
+$ADMIN['atletico'] = "cbfecc1a82915574e88db83ff02cd5a2";
 $ADMIN['ciofeca'] = "fe247275412a63b05771266b972fc4fa";
 $ADMIN['bradipo'] = "f533ebcc9022e243f32a4ca6e64a7563";
 $ADMIN['eporediese'] = "e6a0de5c81dfd6d8177e09caed7d0d72";
