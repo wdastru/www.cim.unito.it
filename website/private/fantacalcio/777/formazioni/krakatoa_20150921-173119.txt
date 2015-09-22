@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
-1 - 2 - 2 - 2
+1 - 4 - 3 - 2
 SORRENTINO Stefano
 RAFAEL De Andrade Bittencourt Pinheiro
-COLOMBI Simone
-BASTA Dusan
-BLANCHARD Leonardo
-MASINA Adam
-RUDIGER Antonio
-ZAPPACOSTA Davide
+BIZZARRI Albano
 CASTAN Leandro
-ANTONELLI Luca
 ALONSO Marcos
-MARCHISIO Claudio
-SODDIMO Danilo
+BASTA Dusan
+RUDIGER Antonio
+MASINA Adam
+ZAPPACOSTA Davide
+BLANCHARD Leonardo
+ANTONELLI Luca
+HERNANES Anderson
+MORALEZ Maxi
 VIVIANI Federico
 ALLAN Marques Loureiro
-MISSIROLI Simone
-MORALEZ Maxi
-HERNANES Anderson
 CASTRO Lucas
+MISSIROLI Simone
+SODDIMO Danilo
+MARCHISIO Claudio
 MACCARONE Massimo
 BERARDI Domenico
 INSIGNE Lorenzo
-PAZZINI Giampaolo
 MATRI Alessandro
+PAZZINI Giampaolo
 DJORDJEVIC Filip
-
-
-Tue 22 Sep 2015 - 13:40:05
+149
+??????????
+Mon 21 Sep 2015 - 17:31:19
