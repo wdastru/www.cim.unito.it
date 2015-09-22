@@ -29,27 +29,31 @@ for (i = 0; i < 8; i++) {
 	}
 }
 
+/* 
+ * l'ordine non è importante
+ * per fase a gruppi
+ * * * * * * * * * * * * * * */
 // gruppo A
 squadra[0][0] = 'EPOrediese';
-squadra[1][0] = 'Fedora';
-squadra[2][0] = 'Dinamo Ciofeca';
-squadra[3][0] = 'Atletico? No Grazie!';
+squadra[1][0] = 'Dinamo Ciofeca';        
+squadra[2][0] = 'Real Mentescars';     
+squadra[3][0] = 'Fedora';
 // gruppo B
-squadra[4][0] = 'Real Mentescars';
-squadra[5][0] = 'Bradipo';
+squadra[4][0] = 'Atletico? No Grazie!';
+squadra[5][0] = 'L.A. Krakatoa'; 	   
 squadra[6][0] = 'Lokomotiv Peccorino';
-squadra[7][0] = 'Ij Patelavache';
+squadra[7][0] = 'Rapid Bradip';
 
 // gruppo A
 squadra[0][11] = 'eporediese';
-squadra[1][11] = 'fedora';
-squadra[2][11] = 'ciofeca';
-squadra[3][11] = 'atletico';
+squadra[1][11] = 'ciofeca';
+squadra[2][11] = 'real';
+squadra[3][11] = 'fedora';
 // gruppo B
-squadra[4][11] = 'real';
-squadra[5][11] = 'bradipo';
+squadra[4][11] = 'atletico';
+squadra[5][11] = 'krakatoa';
 squadra[6][11] = 'lokomotiv';
-squadra[7][11] = 'patelavache';
+squadra[7][11] = 'bradipo';
 
 function readDatiCoppa() {
 	datiCoppa = new Array(12); // inizializzazione
