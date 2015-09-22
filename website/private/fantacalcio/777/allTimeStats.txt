@@ -894,7 +894,7 @@
 1415/Atletico? No Grazie!/Ij Patelavache/1/0/66/64/0/POGBA/
 1415/Atletico? No Grazie!/Ij Patelavache/0/1/62/66/1/BASTA/
 1415/Atletico? No Grazie!/Ij Patelavache/3/3/79/79.5/0/BERARDI/BERARDI/BERARDI/MERTENS/MERTENS/MORAS/
-1516/EPOrediese/Atletico? No Grazie!/0/2/65/73.5/1/PINILLA Mauricio/GUARIN Fredy/
+1516/EPOrediese/Atletico? No Grazie!/////1/
 1516/EPOrediese/Atletico? No Grazie!/////0/
 1516/EPOrediese/Atletico? No Grazie!/////1/
 1516/EPOrediese/Atletico? No Grazie!/////0/

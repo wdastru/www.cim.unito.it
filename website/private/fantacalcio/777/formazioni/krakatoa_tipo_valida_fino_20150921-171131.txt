@@ -3,7 +3,7 @@
 1 - 2 - 2 - 2
 SORRENTINO Stefano
 RAFAEL De Andrade Bittencourt Pinheiro
-COLOMBI Simone
+BIZZARRI Albano
 BASTA Dusan
 BLANCHARD Leonardo
 MASINA Adam
@@ -26,6 +26,6 @@ INSIGNE Lorenzo
 PAZZINI Giampaolo
 MATRI Alessandro
 DJORDJEVIC Filip
-
-
-Tue 22 Sep 2015 - 13:40:05
+39
+??????????
+Mon 21 Sep 2015 - 17:10:15

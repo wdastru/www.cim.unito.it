@@ -2,30 +2,30 @@
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 LOPEZ Diego
-PERIN Mattia
 LAMANNA Eugenio
+PERIN Mattia
+BARZAGLI Andrea
 BONUCCI Leonardo
+ALEX SANDRO
 CISSOKHO Issa
 EL KAOUTARI Abdelhamid
-JUAN JESUS
-ALEX SANDRO
-BARZAGLI Andrea
 GOBBI Massimo
+JUAN JESUS
 STENDARDO Guglielmo
-CUADRADO Juan
-NTCHAM Olivier
-GOMEZ Alejandro
-BRIENZA Franco
-PAROLO Marco
-MAURI Stefano
-QUAISON Robin
 SAPONARA Riccardo
-IAGO Falque
-PALOSCHI Alberto
-PALACIO Rodrigo
+GOMEZ Alejandro
+CUADRADO Juan
+QUAISON Robin
+BRIENZA Franco
+NTCHAM Olivier
+MAURI Stefano
+PAROLO Marco
 EDER Citadin Martins
-LUIZ ADRIANO
+PALOSCHI Alberto
 FLORO FLORES Antonio
+IAGO Falque
+LUIZ ADRIANO
+PALACIO Rodrigo
 148
 347-2375356
-Mon 21 Sep 2015 - 21:00:32
+Mon 21 Sep 2015 - 22:14:45
