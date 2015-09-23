@@ -3,6 +3,7 @@ atletico_camp_1.txt
 atletico_coppa_1.txt
 ciofeca.txt
 ciofeca_camp1.txt
+ciofeca_coppa1.txt
 eporediese.txt
 fedora.txt
 fedora_tipo_valida_fino_20150921-214635.txt
