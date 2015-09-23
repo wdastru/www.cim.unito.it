@@ -8,8 +8,7 @@ echo $relocate_string . "figure/Valid XHTML 1.png'
 echo $relocate_string . "figure/Valid CSS 2.png'
           alt='Valid CSS 2.1!' height='31' width='88' /></a> </p>
   <br />
-  <p id='version'></p>
-  <script type='text/javascript'>print_version();</script>
+  <!--<p id='version'></p><script type='text/javascript'>print_version();</script>-->
   <br />
   <br />
 </div>";
