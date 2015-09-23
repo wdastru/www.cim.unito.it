@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <resource>
+    <file>FantaCalcGui_v3.4.1_Setup.exe</file>
+    <version>3.4.1</version>
+    <description>installer</description>
+    <new>- risolto baco GDV/GDP</new>
+  </resource>
+  <resource>
+    <file>FantaCalcGui_v3.4.1.zip</file>
+    <version>3.4.1</version>
+    <description>archivio</description>
+    <new>- risolto baco GDV/GDP</new>
+  </resource>
+  <resource>
     <file>FantaCalcGui_v3.4.0_Setup.exe</file>
     <version>3.4.0</version>
     <description>installer</description>
