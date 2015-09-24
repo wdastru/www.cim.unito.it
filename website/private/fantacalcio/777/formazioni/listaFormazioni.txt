@@ -5,6 +5,8 @@ ciofeca.txt
 ciofeca_camp1.txt
 ciofeca_coppa1.txt
 eporediese.txt
+eporediese_camp_1.txt
+eporediese_coppa_1.txt
 fedora.txt
 fedora_tipo_valida_fino_20150921-214635.txt
 krakatoa.txt
@@ -26,12 +28,6 @@ lokomotiv_tipo_valida_fino_20150922-111812.txt
 lokomotiv_tipo_valida_fino_20150922-111824.txt
 lokomotiv_tipo_valida_fino_20150922-111910.txt
 rapid.txt
-rapid_tipo_valida_fino_20150921-144745.txt
-rapid_tipo_valida_fino_20150921-144758.txt
-rapid_tipo_valida_fino_20150921-144807.txt
-rapid_tipo_valida_fino_20150921-144825.txt
-rapid_tipo_valida_fino_20150921-144834.txt
-rapid_tipo_valida_fino_20150921-232410.txt
 real.txt
 real_camp01.txt
 real_coppa1.txt
