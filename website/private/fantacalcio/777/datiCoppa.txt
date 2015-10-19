@@ -1,7 +1,7 @@
-gruppi0/-/-/-/-/
-gruppi1/-/-/-/-/
-gruppi2/-/-/-/-/
-gruppi3/-/-/-/-/
+gruppi0/1/1/70.5/66/SALAH MOHAMED/ICARDI MAURO/
+gruppi1/1/2/67.5/76.5/SAPONARA/HIGUAIN/HIGUAIN/
+gruppi2/1/3/70/78/ZAPATA D/INSIGNE/ALLAN/MORALEZ/
+gruppi3/2/1/77.5/69.5/QUAGLIARELLA/QUAGLIARELLA/BACCA/
 gruppi4/-/-/-/-/
 gruppi5/-/-/-/-/
 gruppi6/-/-/-/-/

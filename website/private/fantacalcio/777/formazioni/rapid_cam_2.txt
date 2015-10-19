@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+4 - 3 - 3
+1 - 4 - 3 - 3
 1 - 2 - 2 - 2
 PADELLI Daniele
 MARCHETTI Federico
 BERISHA Etrit
 GLIK Kamil
+LAZAAR Achraf
 PERES Bruno
 ADNAN Ali Kadhim
 GHOULAM Faouzi
-LAZAAR Achraf
-AVELAR Danilo
 HEURTAUX Thomas
+AVELAR Danilo
 MAKSIMOVIC Nikola
-CANDREVA Antonio
 BASELLI Daniele
-RIGONI Luca
-NAINGGOLAN Radja
 LULIC Senad
 JAJALO Mato
-FERNANDES Bruno
+NAINGGOLAN Radja
 CORREA Joaquin
-CALLEJON José Maria
+FERNANDES Bruno
+RIGONI Luca
+CANDREVA Antonio
 DYBALA Paulo
-BACCA Carlos
 MURIEL Luis
-VAZQUEZ Franco
+CALLEJON José Maria
+BACCA Carlos
 BALOTELLI Mario
+VAZQUEZ Franco
 22
 3395989215
-Thu 24 Sep 2015 - 14:23:51
+Sat 26 Sep 2015 - 12:06:58
