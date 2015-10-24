@@ -9,14 +9,15 @@ ciofeca_cam3.txt
 ciofeca_camp1.txt
 ciofeca_camp2.txt
 ciofeca_camp4.txt
+ciofeca_camp5.txt
 ciofeca_coppa1.txt
 eporediese.txt
 eporediese_camp_1.txt
 eporediese_camp_4.txt
 eporediese_coppa_1.txt
 fedora.txt
+fedora_4acamp.txt
 fedora_camp2.txt
-fedora_camp_4.txt
 fedora_tipo_valida_fino_20150921-214635.txt
 krakatoa.txt
 krakatoa_1a_coppa.txt
@@ -25,6 +26,7 @@ krakatoa_20150921-173119.txt
 krakatoa_2a_camp.txt
 krakatoa_3a_camp.txt
 krakatoa_4a_camp.txt
+krakatoa_5a_camp.txt
 krakatoa_tipo_valida_fino_20150921-171015.txt
 krakatoa_tipo_valida_fino_20150921-171131.txt
 krakatoa_tipo_valida_fino_20150921-171143.txt
