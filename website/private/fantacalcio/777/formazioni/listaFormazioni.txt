@@ -3,6 +3,8 @@ atletico_camp_1.txt
 atletico_camp_2.txt
 atletico_camp_3.txt
 atletico_camp_4.txt
+atletico_camp_5.txt
+atletico_camp_6.txt
 atletico_coppa_1.txt
 ciofeca.txt
 ciofeca_cam3.txt
@@ -46,6 +48,7 @@ lokomotiv_tipo_valida_fino_20150922-111824.txt
 lokomotiv_tipo_valida_fino_20150922-111910.txt
 rapid.txt
 rapid_cam04.txt
+rapid_cam05.txt
 rapid_cam3.txt
 rapid_cam_1.txt
 rapid_cam_2.txt
