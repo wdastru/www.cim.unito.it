@@ -28,7 +28,8 @@ $instrument = array(
                     "Icon",
                     "VevoLazr",
                     "IVISSPE",
-                    "OMZ"
+                    "OMZ",
+                    "Minispec"
                     );
 
 $instrString[ "300MHz" ] = "Bruker Avance 300 MHz"; 
@@ -60,6 +61,7 @@ $instrString[ "Icon" ] = "Icon (Ivrea)";
 $instrString[ "VevoLazr" ] = "VevoLazr (Ivrea)";
 $instrString[ "IVISSPE" ] = "IVIS Spectrum PerkinElmer (Ivrea)";
 $instrString[ "OMZ" ] = "Optical Microscope Zeiss (Ivrea)";
+$instrString[ "MiniSpec" ] = "MiniSpec (Ivrea)";
 
 $guidelines[ "300MHz" ] = "<br/><h1>Regolamento prenotazioni 300MHz</h1>
 <br/>
@@ -145,6 +147,10 @@ $guidelines[ "IVIS200" ] = "";
 $guidelines[ "SPPS" ] = "";
 $guidelines[ "ICP" ] = "";
 $guidelines[ "Icon" ] = "";
+$guidelines[ "VevoLazr" ] = "";
+$guidelines[ "IVISSPE" ] = "";
+$guidelines[ "OMZ" ] = "";
+$guidelines[ "MiniSpec" ] = "";
 
 $warning[ "300MHz" ] = ""; 
 $warning[ "600MHz" ] = ""; 
@@ -172,6 +178,10 @@ $warning[ "IVIS200" ] = "";
 $warning[ "SPPS" ] = "";
 $warning[ "ICP" ] = "";
 $warning[ "Icon" ] = "";
+$warning[ "VevoLazr" ] = "";
+$warning[ "IVISSPE" ] = "";
+$warning[ "OMZ" ] = "";
+$warning[ "MiniSpec" ] = "";
 /*
 $generalWarning = "<div id='generalWarningDiv'><br /><h1 style='text-decoration:blink; text-align:center; color:#FFF;'>AVVISO</h1><br /><p class='generalWarning'>Si sono verificati dei problemi con le prenotazioni.<br />Siete pregati di fare particolare attenzione durante la prenotazione e cancellazione degli spazi, e di comunicare a Walter qualunque malfunzionamento incontriate.<br /><br />Saluti.</p></div>";
 */
