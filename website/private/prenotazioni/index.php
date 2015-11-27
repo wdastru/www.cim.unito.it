@@ -289,21 +289,21 @@ xmlns="http://www.w3.org/1999/xhtml">
 <td><input id='iTriumph' class='instrumentButton' type='submit' name='instrument' value='Triumph' onmouseover='On(\"iTriumph\")' onmouseout='Off(\"iTriumph\")'/></td>
 <td><input id='iOIPearl' class='instrumentButton' type='submit' name='instrument' value='OIPearl' onmouseover='On(\"iOIPearl\")' onmouseout='Off(\"iOIPearl\")'/></td>
 <td><input id='iIVIS200' class='instrumentButton' type='submit' name='instrument' value='IVIS200' onmouseover='On(\"iIVIS200\")' onmouseout='Off(\"iIVIS200\")'/></td>
-<td><input id='iAuto' class='instrumentButton' type='submit' name='instrument' value='Auto' onmouseover='On(\"iAuto\")' onmouseout='Off(\"iAuto\")'/></td>
+<td><input id='iMiniSpec' class='instrumentButton' type='submit' name='instrument' value='MiniSpec' onmouseover='On(\"iMiniSpec\")' onmouseout='Off(\"iMiniSpec\")'/></td>
 </tr>
 <tr>
-<td></td>
 <td><input id='iSPPS' class='instrumentButton' type='submit' name='instrument' value='SPPS' onmouseover='On(\"iSPPS\")' onmouseout='Off(\"iSPPS\")'/></td>
 <td><input id='iICP' class='instrumentButton' type='submit' name='instrument' value='ICP' onmouseover='On(\"iICP\")' onmouseout='Off(\"iICP\")'/></td>
 <td><input id='iICP' class='instrumentButton' type='submit' name='instrument' value='VevoLazr' onmouseover='On(\"iVevoLazr\")' onmouseout='Off(\"iVevoLazr\")'/></td>
 <td><input id='iIVISSPE' class='instrumentButton' type='submit' name='instrument' value='IVISSPE' onmouseover='On(\"iIVISSPE\")' onmouseout='Off(\"iIVISSPE\")'/></td>
 <td><input id='iOMZ' class='instrumentButton' type='submit' name='instrument' value='OMZ' onmouseover='On(\"iOMZ\")' onmouseout='Off(\"iOMZ\")'/></td>
+<td><input id='iAuto' class='instrumentButton' type='submit' name='instrument' value='Auto' onmouseover='On(\"iAuto\")' onmouseout='Off(\"iAuto\")'/></td>
 </tr>
 </table>
 </form>
 </div>
 <div>";
-								echo "		<span class='date'>&nbsp;&nbsp;&nbsp;";
+								echo "		<br/><span class='date'>&nbsp;&nbsp;&nbsp;";
 								echo date_to_str(date("Ymd", $wkstart), "", false) . "&nbsp; - &nbsp;" . date_to_str(date("Ymd", $wkend), "", false);
 								//echo "<br />&nbsp;&nbsp;&nbsp;(" . "Week" . " " . week_number($wkstart) . ")";
 								echo "</span>";
