@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-PADELLI Daniele
 MARCHETTI Federico
+PADELLI Daniele
 BERISHA Etrit
-GLIK Kamil
 PERES Bruno
+GLIK Kamil
 ADNAN Ali Kadhim
-GHOULAM Faouzi
 LAZAAR Achraf
+GHOULAM Faouzi
 AVELAR Danilo
-KOULIBALY Kalidou
 MAKSIMOVIC Nikola
-CANDREVA Antonio
-BASELLI Daniele
-RIGONI Luca
+HEURTAUX Thomas
 NAINGGOLAN Radja
-LULIC Senad
-JAJALO Mato
+BASELLI Daniele
+CANDREVA Antonio
+RIGONI Luca
 FERNANDES Bruno
+LULIC Senad
 CORREA Joaquin
-CALLEJON José Maria
+JAJALO Mato
+VAZQUEZ Franco
 DYBALA Paulo
 BACCA Carlos
+CALLEJON José Maria
 MURIEL Luis
-VAZQUEZ Franco
 BALOTELLI Mario
-88
+22
 3395989215
-Sat 21 Nov 2015 - 10:11:52
+Tue 03 Nov 2015 - 10:19:25

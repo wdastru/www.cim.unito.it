@@ -4,28 +4,28 @@
 HANDANOVIC Samir
 VIVIANO Emiliano
 CARRIZO Juan Pablo
-ROMAGNOLI Alessio
-RODRIGUEZ Gonzalo
 ACERBI Francesco
 GAMBERINI Alessandro
-PASQUAL Manuel
 ROSI Aleandro
+RODRIGUEZ Gonzalo
+CASSANI Mattia
 DRAME' Boukary
-ASTORI Davide
-MELO Felipe
-KEITA Seydou
+PASQUAL Manuel
+ROMAGNOLI Alessio
 FLORENZI Alessandro
-CROCE Daniele
-HETEMAJ Perparim
 MAGNANELLI Francesco
 LAXALT Diego
 DE ROON Marten
-TONI Luca
-DZEKO Edin
+CROCE Daniele
+KEITA Seydou
+MELO Felipe
+HETEMAJ Perparim
 HIGUAIN Gonzalo
+DZEKO Edin
 GILARDINO Alberto
-LJAJIC Adem
 MATOS
-140
+LJAJIC Adem
+TONI Luca
+182
 3404073967
-Fri 20 Nov 2015 - 17:33:54
+Thu 05 Nov 2015 - 09:07:52

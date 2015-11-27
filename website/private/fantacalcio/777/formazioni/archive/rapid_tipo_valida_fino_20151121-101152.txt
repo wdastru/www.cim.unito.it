@@ -10,7 +10,7 @@ ADNAN Ali Kadhim
 GHOULAM Faouzi
 LAZAAR Achraf
 AVELAR Danilo
-KOULIBALY Kalidou
+HEURTAUX Thomas
 MAKSIMOVIC Nikola
 CANDREVA Antonio
 BASELLI Daniele
@@ -26,6 +26,6 @@ BACCA Carlos
 MURIEL Luis
 VAZQUEZ Franco
 BALOTELLI Mario
-88
+97
 3395989215
-Sat 21 Nov 2015 - 10:11:52
+Fri 20 Nov 2015 - 10:14:52

@@ -4,28 +4,28 @@
 TATARUSANU Ciprian
 SEPE Luigi
 SKORUPSKI Lukasz
-SANTON Davide
+LICHTSTEINER Stephan
 CHIELLINI Giorgio
 MANOLAS Kostas
+DE MAIO Sebastien
+SANTON Davide
 MIRANDA Joao
 MOISANDER Niklas
-DE MAIO Sebastien
-LICHTSTEINER Stephan
 HOEDT Wesley
-FERNANDO Lucas Martins
-BIGLIA Lucas
-BERTOLACCI Andrea
 PJANIC Miralem
-VAINQUEUR William
-FERNANDEZ Mati
-KISHNA Ricardo
+BERTOLACCI Andrea
 GIACCHERINI Emanuele
-SALAH Mohamed
-ROSSI Giuseppe
+BIGLIA Lucas
+KISHNA Ricardo
+FERNANDO Lucas Martins
+FERNANDEZ Mati
+VECINO Matias
 JOVETIC Stevan
-BABACAR Khouma
 GABBIADINI Manolo
+SALAH Mohamed
 MENEZ Jeremy
-130
+BABACAR Khouma
+ROSSI Giuseppe
+124
 3337815436
-Sat 26 Sep 2015 - 17:48:42
+Sat 21 Nov 2015 - 14:08:00
