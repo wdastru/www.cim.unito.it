@@ -1,5 +1,4 @@
 <?php
-//require_once ("dBug.php");
 session_start();
 $relocate_string = "./";
 require_once ($relocate_string . "logger.php");

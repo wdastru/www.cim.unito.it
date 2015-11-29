@@ -1,7 +1,5 @@
 <?php
-require_once $relocate_string . 'include/backup.inc.php';
 require_once $relocate_string . 'include/cleanAccentsAndApostrophes.inc.php';
-//backup($relocate_string . $datiCampionatoFile);
 
 $handle = fopen($datiCampionatoFile, 'w');
 
@@ -14,7 +12,7 @@ if($handle)
 			for($j=0; $j<4; $j++)	// partita
 			{
 				if( $j + $k + $t == 0 ) {
-					// la prima riga non va a capo, dopo s�
+					// la prima riga non va a capo, dopo si'
 					fwrite($handle, "a");
 				} else {
 					fwrite($handle, "\na");
