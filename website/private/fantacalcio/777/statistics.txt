@@ -1,658 +1,658 @@
-12
-102	ANDUJAR Mariano	Napoli	P	0	-	-							
+14
+102	ANDUJAR Mariano	Napoli	P	2	0	0	0	0	0	0	0	0	
 103	BASSI Davide	Atalanta	P	0	-	-							
 104	BENUSSI Francesco	Carpi	P	4	20	23	3	0	0	0	0	0	
 105	BERISHA Etrit	Lazio	P	2	8	12	4	0	0	0	0	0	
 106	BERNI Tommaso	Inter	P	0	-	-							
-107	BIZZARRI Albano	Chievo	P	12	64.5	77	12	1	0	0	0	0	
+107	BIZZARRI Albano	Chievo	P	14	74	89.5	15	1	0	0	0	0	
 108	BRIGNOLI Alberto	Sampdoria	P	0	-	-							
 109	BRKIC Zeljko	Carpi	P	3	9.5	16.5	7	0	0	0	0	0	
-110	BUFFON Gianluigi	Juventus	P	11	58	55.5	9	1	0	0	0	0	
+110	BUFFON Gianluigi	Juventus	P	13	70.5	62	9	1	0	0	0	0	
 111	CARRIZO Juan Pablo	Inter	P	0	-	-							
 112	CASTELLAZZI Luca	Torino	P	0	-	-							
 113	COLOMBI Simone	Palermo	P	1	5	6	1	0	0	0	0	0	
-114	CONSIGLI Andrea	Sassuolo	P	11	58.5	66	9	1	1	1	0	0	
+114	CONSIGLI Andrea	Sassuolo	P	13	69	78.5	11	1	1	1	0	0	
 115	COPPOLA Ferdinando	Verona	P	0	-	-							
 116	DA COSTA Angelo	Bologna	P	2	10	12	2	0	0	0	0	0	
-117	DE SANCTIS Morgan	Roma	P	3	16	18	5	0	0	1	0	0	
+117	DE SANCTIS Morgan	Roma	P	4	20	24	7	0	0	1	0	0	
 118	DONNARUMMA Antonio	Genoa	P	0	-	-							
-119	DONNARUMMA Gianluigi	Milan	P	5	28.5	31.5	3	0	0	0	0	0	
+119	DONNARUMMA Gianluigi	Milan	P	7	40	44	4	0	0	0	0	0	
 120	GABRIEL Ferreira Vasconcelos	Napoli	P	0	-	-							
-121	GOLLINI Pierluigi	Verona	P	2	7.5	11	3	1	0	0	0	0	
+121	GOLLINI Pierluigi	Verona	P	4	15.5	23	7	1	0	0	0	0	
 122	GOMIS Lys	Frosinone	P	0	-	-							
 123	GUERRIERI Guido	Lazio	P	0	-	-							
-124	HANDANOVIC Samir	Inter	P	12	68.5	77	7	3	0	0	0	0	
+124	HANDANOVIC Samir	Inter	P	14	79	89.5	9	3	0	0	0	0	
 125	ICHAZO Salvador	Torino	P	0	-	-							
-126	KARNEZIS Orestis	Udinese	P	12	58.5	67.5	15	0	0	0	0	0	
+126	KARNEZIS Orestis	Udinese	P	14	66	80	20	0	0	0	0	0	
 127	LAMANNA Eugenio	Genoa	P	6	28.5	36.5	6	0	0	0	1	0	
-128	LEALI Nicola	Frosinone	P	11	55.5	68.5	16	0	0	1	0	0	
+128	LEALI Nicola	Frosinone	P	13	63	80.5	20	1	0	1	0	0	
 129	LEZZERINI Luca	Fiorentina	P	1	5	6	1	0	0	0	0	0	
 130	LOBONT Bogdan	Roma	P	0	-	-							
 131	LOPEZ Diego	Milan	P	7	28	40.5	12	1	0	0	0	0	
-132	MARCHETTI Federico	Lazio	P	11	50.5	66.5	16	0	0	0	0	0	
+132	MARCHETTI Federico	Lazio	P	13	59	78	19	0	0	0	0	0	
 133	MERET Alex	Udinese	P	0	-	-							
-134	MIRANTE Antonio	Bologna	P	10	47	60.5	13	1	0	0	0	0	
-135	MURANO Maicol	Carpi	P	0	-	-							
+134	MIRANTE Antonio	Bologna	P	12	56	73.5	17	1	0	0	0	0	
+135	MURANO Maicol	Carpi	P	2	0	0	0	0	0	0	0	0	
 136	NETO Norberto	Juventus	P	1	4.5	5.5	1	0	0	0	0	0	
-137	PADELLI Daniele	Torino	P	12	51.5	71	17	1	0	0	1	0	
+137	PADELLI Daniele	Torino	P	14	61.5	76	18	1	0	0	1	0	
 138	PEGOLO Gianluca	Sassuolo	P	2	10.5	13	2	1	0	0	0	0	
 139	PELAGOTTI Alberto	Empoli	P	0	-	-							
-140	PERIN Mattia	Genoa	P	6	28.5	39	10	1	0	0	0	0	
-141	PIGLIACELLI Mirko	Frosinone	P	0	-	-							
+140	PERIN Mattia	Genoa	P	8	38	51.5	13	1	0	0	0	0	
+141	PIGLIACELLI Mirko	Frosinone	P	2	0	0	0	0	0	0	0	0	
 142	POMINI Alberto	Sassuolo	P	0	-	-							
 144	PUGGIONI Christian	Sampdoria	P	0	-	-							
 145	PUGLIESI Maurizio	Empoli	P	0	-	-							
 146	RADUNOVIC Boris	Atalanta	P	0	-	-							
-147	RAFAEL De Andrade Bittencourt Pinheiro	Verona	P	10	43.5	60.5	17	0	0	0	0	0	
-148	REINA José Manuel	Napoli	P	12	68.5	74.5	6	0	0	0	0	0	
+147	RAFAEL De Andrade Bittencourt Pinheiro	Verona	P	11	45.5	63.5	17	0	1	0	0	0	
+148	REINA José Manuel	Napoli	P	14	76.5	86.5	10	0	0	0	0	0	
 149	RUBINHO	Juventus	P	1	-	S.V.	0	0	0	0	0		
 150	SARR Mouhamadou	Bologna	P	0	-	-							
-151	SCUFFET Simone	Udinese	P	0	-	-							
+151	SCUFFET Simone	Udinese	P	2	0	0	0	0	0	0	0	0	
 152	SECULIN Andrea	Chievo	P	0	-	-							
 153	SEPE Luigi	Fiorentina	P	0	-	-							
-154	SKORUPSKI Lukasz	Empoli	P	12	56	73.5	17	1	0	0	0	0	
-155	SORRENTINO Stefano	Palermo	P	11	55.5	72	16	1	0	0	0	0	
-156	SPORTIELLO Marco	Atalanta	P	12	65.5	73.5	14	0	0	2	0	0	
-157	SVEDKAUSKAS Tomas	Roma	P	0	-	-							
-158	TATARUSANU Ciprian	Fiorentina	P	12	65	75.5	10	1	0	0	0	0	
+154	SKORUPSKI Lukasz	Empoli	P	14	71	88.5	17	1	0	0	0	0	
+155	SORRENTINO Stefano	Palermo	P	13	61.5	84	22	1	0	0	0	0	
+156	SPORTIELLO Marco	Atalanta	P	14	79	87.5	14	1	0	2	0	0	
+157	SVEDKAUSKAS Tomas	Roma	P	2	0	0	0	0	0	0	0	0	
+158	TATARUSANU Ciprian	Fiorentina	P	14	75	86.5	11	1	0	0	0	0	
 159	UJKANI Samir	Genoa	P	0	-	-							
-160	VIVIANO Emiliano	Sampdoria	P	12	59.5	75.5	16	0	0	0	0	0	
+160	VIVIANO Emiliano	Sampdoria	P	14	62.5	85.5	23	0	0	0	0	0	
 161	ZAPPINO Massimo	Frosinone	P	1	2	6	4	0	0	0	0	0	
 162	BRESSAN Walter	Chievo	P	0	-	-							
-163	SZCZESNY Wojciech	Roma	P	9	46	55.5	9	1	0	0	0	0	
+163	SZCZESNY Wojciech	Roma	P	10	51	61.5	10	1	0	0	0	0	
 164	RAFAEL Cabral barbosa	Napoli	P	0	-	-							
 165	PERISAN Samuele	Udinese	P	1	0	0	0	0	0	0	0	0	
 166	LIOTTI Andrea	Carpi	P	1	0	0	0	0	0	0	0	0	
-167	BELEC Vid	Carpi	P	7	22	33.5	11	1	0	0	0	0	
+167	BELEC Vid	Carpi	P	9	34.5	47	12	1	0	0	0	0	
 168	ALASTRA Fabrizio	Palermo	P	1	0	0	0	0	0	0	0	0	
-201	ABATE Ignazio	Milan	D	5	28	29	0	2	0	0	0	0	
-202	ACERBI Francesco	Sassuolo	D	10	66.5	64	1	1	0	0	0	0	
-203	ADNAN Ali Kadhim	Udinese	D	11	63.5	65	0	3	0	0	0	0	
+201	ABATE Ignazio	Milan	D	7	40	41	0	2	0	0	0	0	
+202	ACERBI Francesco	Sassuolo	D	12	82.5	77.5	2	2	0	0	0	0	
+203	ADNAN Ali Kadhim	Udinese	D	12	69.5	71	0	3	0	0	0	0	
 204	ALBERTAZZI Michelangelo	Verona	D	2	11	11.5	0	1	0	0	0	0	
-205	ALBIOL Raul	Napoli	D	12	74.5	75	0	1	0	0	0	0	
-206	ALEX	Milan	D	6	34.5	35	0	1	0	0	0	0	
-207	ALONSO Marcos	Fiorentina	D	9	62	57.5	1	3	0	0	0	3	
-208	ALTOBELLI Daniele	Frosinone	D	0	-	-							
-209	ANDELKOVIC Sinisa	Palermo	D	5	29.5	29	0	1	0	0	0	1	
-210	ANDREOLLI Marco	Inter	D	0	-	-							
+205	ALBIOL Raul	Napoli	D	14	86.5	86	0	1	0	0	0	1	
+206	ALEX	Milan	D	8	45.5	46.5	0	2	0	0	0	0	
+207	ALONSO Marcos	Fiorentina	D	10	68	63.5	1	3	0	0	0	3	
+208	ALTOBELLI Daniele	Frosinone	D	2	0	0	0	0	0	0	0	0	
+209	ANDELKOVIC Sinisa	Palermo	D	6	34	34	0	2	0	0	0	1	
+210	ANDREOLLI Marco	Inter	D	2	0	0	0	0	0	0	0	0	
 211	ANTEI Luca	Sassuolo	D	0	-	-							
-212	ANTONELLI Luca	Milan	D	8	48	45.5	1	1	0	0	0	0	
+212	ANTONELLI Luca	Milan	D	9	54	51.5	1	1	0	0	0	0	
 213	ARIAUDO Lorenzo	Sassuolo	D	2	12.5	12.5	0	0	0	0	0	0	
 214	AVELAR Danilo	Torino	D	1	7	7	0	0	0	0	0	0	
 215	BAGADUR Ricardo	Fiorentina	D	0	-	-							
-216	BARBA Federico	Empoli	D	4	23.5	23.5	0	0	0	0	0	0	
-217	BARZAGLI Andrea	Juventus	D	9	55.5	55.5	0	0	0	0	0	0	
-218	BASANTA José	Fiorentina	D	0	-	-							
-219	BASTA Dusan	Lazio	D	12	62.5	65	0	1	0	0	1	0	
+216	BARBA Federico	Empoli	D	5	30	30	0	0	0	0	0	0	
+217	BARZAGLI Andrea	Juventus	D	11	68.5	69	0	1	0	0	0	0	
+218	BASANTA José	Fiorentina	D	2	0	0	0	0	0	0	0	0	
+219	BASTA Dusan	Lazio	D	14	73	75.5	0	1	0	0	1	0	
 220	BELLINI Gianpaolo	Atalanta	D	8	45	46	0	2	0	0	0	0	
-221	BENALOUANE Yohann	Atalanta	D	0	-	-							
-222	BERTONCINI Davide	Frosinone	D	2	9.5	9.5	0	0	0	0	0	0	
-223	BIANCHETTI Matteo	Verona	D	4	22.5	22.5	0	0	0	0	0	0	
-224	BIRAGHI Cristiano	Chievo	D	0	-	-							
+221	BENALOUANE Yohann	Atalanta	D	2	0	0	0	0	0	0	0	0	
+222	BERTONCINI Davide	Frosinone	D	4	21.5	21.5	0	0	0	0	0	0	
+223	BIANCHETTI Matteo	Verona	D	6	34	34	0	0	0	0	0	0	
+224	BIRAGHI Cristiano	Chievo	D	2	0	0	0	0	0	0	0	0	
 225	BITTANTE Luca	Empoli	D	1	6	6	0	0	0	0	0	0	
-226	BLANCHARD Leonardo	Frosinone	D	10	60.5	57	2	5	0	0	0	0	
-227	BONI Filippo	Verona	D	0	-	-							
-228	BONUCCI Leonardo	Juventus	D	11	64	65	0	2	0	0	0	0	
+226	BLANCHARD Leonardo	Frosinone	D	11	66.5	63.5	2	6	0	0	0	0	
+227	BONI Filippo	Verona	D	2	0	0	0	0	0	0	0	0	
+228	BONUCCI Leonardo	Juventus	D	13	77	78	0	2	0	0	0	0	
 229	BORGHINI Diego	Empoli	D	0	-	-							
-230	BOVO Cesare	Torino	D	10	62.5	59	2	5	0	0	0	0	
+230	BOVO Cesare	Torino	D	12	74	70.5	2	5	0	0	0	0	
 231	BRAAFHEID Edson	Lazio	D	0	-	-							
-232	BRIVIO Davide	Atalanta	D	1	5	5	0	0	0	0	0	0	
+232	BRIVIO Davide	Atalanta	D	3	18	18	0	0	0	0	0	0	
 233	BUBNJIC Igor	Carpi	D	8	43.5	44	0	1	0	0	0	0	
-234	BURDISSO Nicolas	Genoa	D	10	56.5	58	0	3	0	0	0	0	
-235	CACCIATORE Fabrizio	Chievo	D	8	46.5	46.5	0	0	0	0	0	0	
+234	BURDISSO Nicolas	Genoa	D	12	69	70.5	0	3	0	0	0	0	
+235	CACCIATORE Fabrizio	Chievo	D	9	52	52.5	0	1	0	0	0	0	
 236	CACERES Martin	Juventus	D	2	11	11	0	0	0	0	0	0	
 237	CALABRIA Davide	Milan	D	4	22.5	24	0	3	0	0	0	0	
 238	CAMPORESE Michele	Empoli	D	0	-	-							
-239	CANA Lorik	Lazio	D	0	-	-							
-240	CANINI Michele	Atalanta	D	0	-	-							
-241	CANNAVARO Paolo	Sassuolo	D	10	58.5	60.5	0	4	0	0	0	0	
+239	CANA Lorik	Lazio	D	2	0	0	0	0	0	0	0	0	
+240	CANINI Michele	Atalanta	D	2	0	0	0	0	0	0	0	0	
+241	CANNAVARO Paolo	Sassuolo	D	12	71.5	73.5	0	4	0	0	0	0	
 242	CAPRADOSSI Elio	Roma	D	0	-	-							
-243	CASSANI Mattia	Sampdoria	D	5	28.5	29.5	0	2	0	0	0	0	
-244	CASTAN Leandro	Roma	D	1	6	6	0	0	0	0	0	0	
-245	CESAR Bostjan	Chievo	D	11	65	67	0	4	0	0	0	0	
-246	CHERUBIN Nicolò	Atalanta	D	4	22.5	17.5	0	1	0	0	0	0	
-247	CHIELLINI Giorgio	Juventus	D	10	56	58	0	2	1	0	0	0	
+243	CASSANI Mattia	Sampdoria	D	6	33	34.5	0	3	0	0	0	0	
+244	CASTAN Leandro	Roma	D	2	11	11	0	0	0	0	0	0	
+245	CESAR Bostjan	Chievo	D	12	69.5	72	0	5	0	0	0	0	
+246	CHERUBIN Nicolò	Atalanta	D	5	33	25	1	1	0	0	0	0	
+247	CHIELLINI Giorgio	Juventus	D	12	69.5	71.5	0	2	1	0	0	0	
 248	CIOFANI Matteo	Frosinone	D	3	16	16	0	0	0	0	0	0	
 249	CISSOKHO Issa	Genoa	D	9	53	53	0	0	1	0	0	1	
 250	CODA Andrea	Sampdoria	D	1	5.5	5.5	0	0	0	0	0	0	
 251	COLE Ashley	Roma	D	0	-	-							
 252	CONTI Andrea	Atalanta	D	0	-	-							
-253	COSTA Andrea	Empoli	D	8	45.5	46	0	1	0	0	0	0	
-254	CRIVELLO Roberto	Frosinone	D	8	40.5	41	0	1	0	0	0	0	
-255	D'AMBROSIO Danilo	Inter	D	2	12.5	12.5	0	0	0	0	0	0	
-256	DAINELLI Dario	Chievo	D	6	34.5	35	0	1	0	0	0	0	
-257	DANILO Larangeira	Udinese	D	11	64	65.5	0	3	0	0	0	0	
+253	COSTA Andrea	Empoli	D	10	61.5	59.5	1	2	0	0	0	0	
+254	CRIVELLO Roberto	Frosinone	D	9	47.5	47	0	1	0	0	0	1	
+255	D'AMBROSIO Danilo	Inter	D	4	22.5	23.5	0	0	1	0	0	0	
+256	DAINELLI Dario	Chievo	D	7	40	41	0	2	0	0	0	0	
+257	DANILO Larangeira	Udinese	D	13	75	77.5	0	5	0	0	0	0	
 258	DAPRELA' Fabio	Palermo	D	2	11	11.5	0	1	0	0	0	0	
-259	DE CEGLIE Paolo	Juventus	D	0	-	-							
-260	DE MAIO Sebastien	Genoa	D	8	40.5	42.5	0	2	1	0	0	0	
-261	DE SCIGLIO Mattia	Milan	D	9	46	46.5	0	1	0	0	0	0	
-262	DE SILVESTRI Lorenzo	Sampdoria	D	2	12	12	0	0	0	0	0	0	
+259	DE CEGLIE Paolo	Juventus	D	2	0	0	0	0	0	0	0	0	
+260	DE MAIO Sebastien	Genoa	D	9	45.5	47.5	0	2	1	0	0	0	
+261	DE SCIGLIO Mattia	Milan	D	10	52	52.5	0	1	0	0	0	0	
+262	DE SILVESTRI Lorenzo	Sampdoria	D	3	15.5	16	0	1	0	0	0	0	
 263	DE VRIJ Stefan	Lazio	D	1	4	4	0	0	0	0	0	0	
-264	DEL GROSSO Cristiano	Atalanta	D	0	-	-							
+264	DEL GROSSO Cristiano	Atalanta	D	2	0	0	0	0	0	0	0	0	
 265	DERMAKU Kastriot	Empoli	D	0	-	-							
-266	DIAKITE' Modibo	Frosinone	D	11	65.5	64	1	3	0	0	0	0	
+266	DIAKITE' Modibo	Frosinone	D	13	75.5	74.5	1	4	0	0	0	0	
 267	DIMARCO Federico	Inter	D	0	-	-							
 268	DODO'	Inter	D	0	-	-							
 269	DOMIZZI Maurizio	Udinese	D	1	5	5	0	0	0	0	0	0	
 270	DRAME' Boukary	Atalanta	D	9	53.5	53.5	0	0	0	0	0	0	
-271	EDENILSON Andrade Dos Santos	Udinese	D	12	66.5	67	0	1	0	0	0	0	
+271	EDENILSON Andrade Dos Santos	Udinese	D	14	77.5	78.5	0	2	0	0	0	0	
 272	ELY Rodrigo	Milan	D	2	7.5	10	0	1	0	0	1	0	
 273	EMERSON Palmieri	Roma	D	1	5	5.5	0	1	0	0	0	0	
-274	EVRA Patrice	Juventus	D	9	53.5	53	1	3	1	0	0	0	
-275	FARAONI Marco Davide	Udinese	D	0	-	-							
+274	EVRA Patrice	Juventus	D	11	65	65	1	4	1	0	0	0	
+275	FARAONI Marco Davide	Udinese	D	2	0	0	0	0	0	0	0	0	
 276	FERRARI Alex	Bologna	D	9	48	49.5	0	3	0	0	0	0	
-277	FIGUEIRAS Diogo	Genoa	D	7	40	41	0	2	0	0	0	0	
+277	FIGUEIRAS Diogo	Genoa	D	9	54	52	1	2	0	0	0	0	
 278	FONTANESI Leonardo	Sassuolo	D	0	-	-							
-279	FREY Nicolas	Chievo	D	7	43	43	0	0	0	0	0	0	
+279	FREY Nicolas	Chievo	D	8	45.5	48	0	1	0	0	1	0	
 280	GABRIEL SILVA Antunes	Carpi	D	12	69	69.5	0	3	0	0	0	1	
-281	GAGLIOLO Riccardo	Carpi	D	8	43.5	44.5	0	2	0	0	0	0	
-282	GAMBERINI Alessandro	Chievo	D	10	57.5	59.5	0	0	0	0	1	0	
-283	GASTALDELLO Daniele	Bologna	D	7	43.5	42	1	3	0	0	0	0	
+281	GAGLIOLO Riccardo	Carpi	D	10	54.5	56	0	3	0	0	0	0	
+282	GAMBERINI Alessandro	Chievo	D	12	69	71	0	0	0	0	1	0	
+283	GASTALDELLO Daniele	Bologna	D	9	56	54.5	1	3	0	0	0	0	
 284	GASTON SILVA	Torino	D	3	17	17.5	0	1	0	0	0	0	
 285	GAZZOLA Marcello	Sassuolo	D	4	24	24	0	0	0	0	0	0	
-286	GENTILETTI Santiago	Lazio	D	10	51	53.5	0	5	0	0	0	0	
-287	GHOULAM Faouzi	Napoli	D	11	68	67.5	0	1	0	0	0	1	
-288	GLIK Kamil	Torino	D	12	70.5	71	0	1	0	0	0	0	
-289	GOBBI Massimo	Chievo	D	12	69	69.5	0	3	0	0	0	1	
-290	GOLDANIGA Edoardo	Palermo	D	4	26.5	18.5	1	1	0	0	0	0	
-291	GONZALEZ Giancarlo	Palermo	D	12	72.5	69.5	2	2	0	0	1	0	
-292	HEGAZI Ahmed	Fiorentina	D	0	-	-							
+286	GENTILETTI Santiago	Lazio	D	11	53	58	0	6	0	0	1	0	
+287	GHOULAM Faouzi	Napoli	D	13	78.5	78	0	1	0	0	0	1	
+288	GLIK Kamil	Torino	D	14	81.5	82.5	0	2	0	0	0	0	
+289	GOBBI Massimo	Chievo	D	14	80.5	81	0	3	0	0	0	1	
+290	GOLDANIGA Edoardo	Palermo	D	6	38	30	1	1	0	0	0	0	
+291	GONZALEZ Giancarlo	Palermo	D	14	83	80.5	2	3	0	0	1	0	
+292	HEGAZI Ahmed	Fiorentina	D	2	0	0	0	0	0	0	0	0	
 293	HENRIQUE Adriano Buss	Napoli	D	0	-	-							
 294	HEURTAUX Thomas	Udinese	D	2	11	11	0	0	0	0	0	0	
-295	HOEDT Wesley	Lazio	D	5	25.5	25.5	0	0	0	0	0	0	
-296	HYSAJ Elseid	Napoli	D	12	70.5	71.5	0	2	0	0	0	0	
-297	ISLA Mauricio	Juventus	D	0	-	-							
-298	IZZO Armando	Genoa	D	10	56.5	59	0	3	1	0	0	0	
+295	HOEDT Wesley	Lazio	D	6	30.5	30.5	0	0	0	0	0	0	
+296	HYSAJ Elseid	Napoli	D	14	81	82.5	0	3	0	0	0	0	
+297	ISLA Mauricio	Juventus	D	2	0	0	0	0	0	0	0	0	
+298	IZZO Armando	Genoa	D	12	68	70.5	0	3	1	0	0	0	
 299	JANSSON Pontus	Torino	D	1	5.5	5.5	0	0	0	0	0	0	
 300	JUAN JESUS	Inter	D	5	29	29.5	0	1	0	0	0	0	
 301	KONKO Abdoulay	Lazio	D	1	6	6	0	0	0	0	0	0	
-302	KOULIBALY Kalidou	Napoli	D	9	56.5	59	0	5	0	0	0	0	
+302	KOULIBALY Kalidou	Napoli	D	11	66.5	69.5	0	6	0	0	0	0	
 303	KRESIC Anton	Atalanta	D	0	-	-							
-304	LAURINI Vincent	Empoli	D	8	44.5	40	0	2	0	0	0	0	
-305	LAZAAR Achraf	Palermo	D	12	67	67	0	2	0	0	0	1	
-306	LETIZIA Gaetano	Carpi	D	11	68.5	66	1	1	0	0	0	0	
-307	LICHTSTEINER Stephan	Juventus	D	5	27.5	28	0	1	0	0	0	0	
-308	LONGHI Alessandro	Sassuolo	D	1	5	5	0	0	0	0	0	0	
+304	LAURINI Vincent	Empoli	D	10	56.5	52	0	2	0	0	0	0	
+305	LAZAAR Achraf	Palermo	D	14	78	78	0	2	0	0	0	1	
+306	LETIZIA Gaetano	Carpi	D	13	81.5	79	1	1	0	0	0	0	
+307	LICHTSTEINER Stephan	Juventus	D	7	39.5	40	0	1	0	0	0	0	
+308	LONGHI Alessandro	Sassuolo	D	2	11.5	11.5	0	0	0	0	0	0	
 309	LUPERTO Sebastiano	Napoli	D	0	-	-							
-310	MAGGIO Christian	Napoli	D	2	10.5	10.5	0	0	0	0	0	0	
-311	MAICON Douglas Sisenando	Roma	D	5	34.5	30.5	1	2	0	0	0	2	
-312	MAIETTA Domenico	Bologna	D	5	29.5	30.5	0	2	0	0	0	0	
+310	MAGGIO Christian	Napoli	D	3	16	16	0	0	0	0	0	0	
+311	MAICON Douglas Sisenando	Roma	D	6	37.5	34.5	1	2	1	0	0	2	
+312	MAIETTA Domenico	Bologna	D	6	34	35.5	0	3	0	0	0	0	
 313	MAKSIMOVIC Nikola	Torino	D	1	6	6	0	0	0	0	0	0	
-314	MANOLAS Kostas	Roma	D	12	76.5	75.5	1	2	0	0	1	1	
+314	MANOLAS Kostas	Roma	D	14	87	86.5	1	3	0	0	1	1	
 315	MARCHESE Giovanni	Genoa	D	4	20.5	21.5	0	2	0	0	0	0	
-316	MARIO RUI	Empoli	D	12	69	70	0	2	0	0	0	0	
+316	MARIO RUI	Empoli	D	14	81	82.5	0	3	0	0	0	0	
 317	MARQUEZ Rafael	Verona	D	7	36	39	0	2	0	0	1	0	
-318	MARTINELLI Luca	Empoli	D	0	-	-							
+318	MARTINELLI Luca	Empoli	D	2	0	0	0	0	0	0	0	0	
 319	MASIELLO Andrea	Atalanta	D	9	50.5	51.5	0	2	0	0	0	0	
-320	MASINA Adam	Bologna	D	12	79.5	72.5	2	4	0	0	0	3	
+320	MASINA Adam	Bologna	D	14	90.5	84	2	5	0	0	0	3	
 321	MATTIELLO Federico	Chievo	D	1	6	5	0	0	0	0	0	1	
-322	MAURICIO	Lazio	D	8	40.5	43.5	0	4	1	0	0	0	
-323	MBAYE Ibrahima	Bologna	D	2	10	10.5	0	1	0	0	0	0	
-324	MESBAH Djamel	Sampdoria	D	6	33	34	0	2	0	0	0	0	
+322	MAURICIO	Lazio	D	10	49.5	53	0	5	1	0	0	0	
+323	MBAYE Ibrahima	Bologna	D	3	15.5	16	0	1	0	0	0	0	
+324	MESBAH Djamel	Sampdoria	D	7	37	38	0	2	0	0	0	0	
 325	MEXES Philippe	Milan	D	2	15	12.5	1	1	0	0	0	0	
-326	MIRANDA Joao	Inter	D	9	52.5	55	0	3	1	0	0	0	
-327	MOISANDER Niklas	Sampdoria	D	7	37.5	40	0	1	0	0	1	0	
-328	MOLINARO Cristian	Torino	D	10	57.5	58.5	0	0	1	0	0	0	
+326	MIRANDA Joao	Inter	D	11	66	68.5	0	3	1	0	0	0	
+327	MOISANDER Niklas	Sampdoria	D	8	42.5	45	0	1	0	0	1	0	
+328	MOLINARO Cristian	Torino	D	12	70	71	0	0	1	0	0	0	
 329	MONTOYA Martin	Inter	D	0	-	-							
-330	MORAS Evangelos	Verona	D	12	70	70	0	2	0	0	0	1	
-331	MORETTI Emiliano	Torino	D	11	65	62.5	1	1	0	0	0	0	
+330	MORAS Evangelos	Verona	D	14	84.5	82	1	3	0	0	0	1	
+331	MORETTI Emiliano	Torino	D	13	77	74.5	1	1	0	0	0	0	
 332	MORLEO Archimede	Bologna	D	0	-	-							
 333	MUNOZ Ezequiel	Genoa	D	3	15.5	16.5	0	2	0	0	0	0	
-334	MURILLO Jeison	Inter	D	9	58.5	56.5	1	0	1	0	0	0	
-335	NAGATOMO Yuto	Inter	D	5	28.5	28.5	0	0	0	0	0	0	
-336	OIKONOMOU Marios	Bologna	D	5	31	30	0	0	0	0	0	1	
-337	PALETTA Gabriel	Atalanta	D	10	57	59	0	2	1	0	0	0	
+334	MURILLO Jeison	Inter	D	11	70.5	68.5	1	0	1	0	0	0	
+335	NAGATOMO Yuto	Inter	D	6	32.5	33.5	0	0	1	0	0	0	
+336	OIKONOMOU Marios	Bologna	D	6	37.5	36.5	0	0	0	0	0	1	
+337	PALETTA Gabriel	Atalanta	D	12	70	72	0	2	1	0	0	0	
 338	PARENTE Paolo	Genoa	D	0	-	-							
-339	PASQUAL Manuel	Fiorentina	D	5	30	30.5	0	1	0	0	0	0	
+339	PASQUAL Manuel	Fiorentina	D	7	43	42.5	0	1	0	0	0	1	
 340	PASQUALE Giovanni	Udinese	D	3	17	12	0	1	0	0	0	0	
 341	PATRIC	Lazio	D	1	5.5	5.5	0	0	0	0	0	0	
-342	PAVLOVIC Daniel	Frosinone	D	4	23	24	0	2	0	0	0	0	
-343	PELUSO Federico	Sassuolo	D	10	53.5	55.5	0	4	0	0	0	0	
-344	PERES Bruno	Torino	D	9	55	54.5	0	3	0	0	0	2	
-345	PIRIS Ivan	Udinese	D	8	42.5	43.5	0	2	0	0	0	0	
+342	PAVLOVIC Daniel	Frosinone	D	5	29	30	0	2	0	0	0	0	
+343	PELUSO Federico	Sassuolo	D	12	65.5	67.5	0	4	0	0	0	0	
+344	PERES Bruno	Torino	D	11	67.5	67.5	0	4	0	0	0	2	
+345	PIRIS Ivan	Udinese	D	10	54	55	0	2	0	0	0	0	
 346	PIRRELLO Roberto	Palermo	D	0	-	-							
-347	PISANO Eros	Verona	D	12	72	68	2	4	0	0	0	0	
-348	POLI Fabrizio	Carpi	D	0	-	-							
+347	PISANO Eros	Verona	D	14	83	79	2	4	0	0	0	0	
+348	POLI Fabrizio	Carpi	D	2	0	0	0	0	0	0	0	0	
 349	PRCE Franjo	Lazio	D	0	-	-							
-350	PUCINO Raffaele	Chievo	D	0	-	-							
-351	RADU Stefan	Lazio	D	4	20	20.5	0	1	0	0	0	0	
-352	RAIMONDI Cristian	Atalanta	D	5	28	29	0	2	0	0	0	0	
+350	PUCINO Raffaele	Chievo	D	2	0	0	0	0	0	0	0	0	
+351	RADU Stefan	Lazio	D	6	30.5	31.5	0	2	0	0	0	0	
+352	RAIMONDI Cristian	Atalanta	D	7	41	42	0	2	0	0	0	0	
 353	RANOCCHIA Andrea	Inter	D	5	29	23.5	0	0	0	0	0	0	
-354	REGINI Vasco	Sampdoria	D	5	25	26	0	2	0	0	0	0	
-355	RISPOLI Andrea	Palermo	D	9	50	51.5	0	3	0	0	0	0	
-356	RODRIGUEZ Gonzalo	Fiorentina	D	11	70.5	69	1	3	0	0	0	0	
-357	ROMAGNOLI Alessio	Milan	D	11	62	64	0	2	1	0	0	0	
-358	ROMAGNOLI Simone	Carpi	D	7	39.5	40.5	0	2	0	0	0	0	
-359	RONCAGLIA Facundo	Fiorentina	D	9	51.5	52.5	0	2	0	0	0	0	
-360	ROSI Aleandro	Frosinone	D	9	54	54.5	0	1	0	0	0	0	
-361	ROSSETTINI Luca	Bologna	D	11	61.5	61.5	0	2	0	0	0	1	
+354	REGINI Vasco	Sampdoria	D	7	34.5	35.5	0	2	0	0	0	0	
+355	RISPOLI Andrea	Palermo	D	10	55	56.5	0	3	0	0	0	0	
+356	RODRIGUEZ Gonzalo	Fiorentina	D	13	85.5	81.5	2	4	0	0	0	0	
+357	ROMAGNOLI Alessio	Milan	D	13	73.5	76	0	3	1	0	0	0	
+358	ROMAGNOLI Simone	Carpi	D	9	50	51	0	2	0	0	0	0	
+359	RONCAGLIA Facundo	Fiorentina	D	10	57.5	58.5	0	2	0	0	0	0	
+360	ROSI Aleandro	Frosinone	D	11	66.5	67	0	1	0	0	0	0	
+361	ROSSETTINI Luca	Bologna	D	13	77.5	74.5	1	2	0	0	0	1	
 362	RUGANI Daniele	Juventus	D	0	-	-							
 363	RUSSO Adriano	Frosinone	D	1	6	6	0	0	0	0	0	0	
-364	SALAMON Bartosz	Sampdoria	D	0	-	-							
+364	SALAMON Bartosz	Sampdoria	D	2	0	0	0	0	0	0	0	0	
 365	SANTON Davide	Inter	D	8	46	46.5	0	1	0	0	0	0	
 366	SARDO Gennaro	Chievo	D	0	-	-							
-367	SARZI Daniele	Carpi	D	0	-	-							
-368	SILVESTRE Matias	Sampdoria	D	9	53	54.5	0	3	0	0	0	0	
-369	SOUPRAYEN Samuel	Verona	D	11	59	60	0	2	0	0	0	0	
-370	SPEROTTO Nicolò	Carpi	D	0	-	-							
-371	STENDARDO Guglielmo	Atalanta	D	6	39	36.5	1	1	0	0	0	0	
+367	SARZI Daniele	Carpi	D	2	0	0	0	0	0	0	0	0	
+368	SILVESTRE Matias	Sampdoria	D	11	63	65	0	4	0	0	0	0	
+369	SOUPRAYEN Samuel	Verona	D	13	71	72.5	0	3	0	0	0	0	
+370	SPEROTTO Nicolò	Carpi	D	2	0	0	0	0	0	0	0	0	
+371	STENDARDO Guglielmo	Atalanta	D	7	43.5	42	1	1	1	0	0	0	
 372	STRINIC Ivan	Napoli	D	0	-	-							
-373	STRUNA Aljaz	Palermo	D	10	50.5	53.5	0	4	1	0	0	0	
+373	STRUNA Aljaz	Palermo	D	11	55.5	59	0	5	1	0	0	0	
 374	SUAGHER Emanuele	Atalanta	D	0	-	-							
 375	TAMBE' Alassane	Genoa	D	0	-	-							
 376	TERRANOVA Emanuele	Sassuolo	D	4	23.5	24	0	1	0	0	0	0	
-377	TERZI Claudio	Palermo	D	0	-	-							
-378	TOMOVIC Nenad	Fiorentina	D	8	45	46	0	2	0	0	0	0	
-379	TONELLI Lorenzo	Empoli	D	12	69.5	71.5	0	4	0	0	0	0	
+377	TERZI Claudio	Palermo	D	2	0	0	0	0	0	0	0	0	
+378	TOMOVIC Nenad	Fiorentina	D	9	51.5	52.5	0	2	0	0	0	0	
+379	TONELLI Lorenzo	Empoli	D	13	79	78.5	1	5	0	0	0	0	
 380	TOROSIDIS Vassilis	Roma	D	6	32.5	27.5	0	1	0	0	0	0	
-381	TROIANI Michele	Chievo	D	0	-	-							
-382	VELAZQUEZ Julian	Palermo	D	0	-	-							
+381	TROIANI Michele	Chievo	D	2	0	0	0	0	0	0	0	0	
+382	VELAZQUEZ Julian	Palermo	D	2	0	0	0	0	0	0	0	0	
 383	VIDIC Nemanja	Inter	D	0	-	-							
 384	VITIELLO Roberto	Palermo	D	2	8.5	11	0	1	0	0	1	0	
-385	VRSALJKO Sime	Sassuolo	D	11	62	64	0	2	1	0	0	0	
+385	VRSALJKO Sime	Sassuolo	D	13	75.5	76.5	0	4	1	0	0	2	
 386	WAGUE Molla	Udinese	D	10	57	59	0	4	0	0	0	0	
 387	WALLACE	Carpi	D	5	28.5	18	0	1	0	0	0	0	
-388	WIDMER Silvan	Udinese	D	6	36	36	0	0	0	0	0	0	
+388	WIDMER Silvan	Udinese	D	8	49.5	49.5	0	0	0	0	0	0	
 389	WINCK Claudio	Verona	D	0	-	-							
-390	YANGA-MBIWA Mapou	Roma	D	0	-	-							
-391	ZACCARDO Cristian	Carpi	D	10	56	57.5	0	3	0	0	0	0	
-393	ZANON Damiano	Frosinone	D	0	-	-							
+390	YANGA-MBIWA Mapou	Roma	D	2	0	0	0	0	0	0	0	0	
+391	ZACCARDO Cristian	Carpi	D	12	71.5	70	1	3	0	0	0	0	
+393	ZANON Damiano	Frosinone	D	2	0	0	0	0	0	0	0	0	
 394	ZAPATA Cristian	Milan	D	6	34.5	32	1	1	0	0	0	0	
 395	ZAPPACOSTA Davide	Torino	D	7	43	40.5	1	1	0	0	0	0	
-396	ZUKANOVIC Ervin	Sampdoria	D	10	56.5	56.5	1	4	1	0	0	0	
+396	ZUKANOVIC Ervin	Sampdoria	D	11	65.5	62.5	2	4	1	0	0	0	
 397	ZUNIGA Juan Camilo	Napoli	D	0	-	-							
 398	GILBERTO	Fiorentina	D	3	17	17	0	0	0	0	0	0	
 399	HELANDER Filip	Verona	D	8	47	44.5	1	1	0	0	0	0	
 400	SPOLLI Nicolas	Carpi	D	3	15	16	0	2	0	0	0	0	
 401	EL KAOUTARI Abdelhamid	Palermo	D	6	32	33	0	2	0	0	0	0	
 402	CHIRICHES Vlad	Napoli	D	3	18	18	0	0	0	0	0	0	
-403	ASTORI Davide	Fiorentina	D	9	57.5	58	0	1	0	0	0	0	
+403	ASTORI Davide	Fiorentina	D	11	69.5	70	0	1	0	0	0	0	
 404	CECCARELLI Luca	Bologna	D	0	-	-							
-405	GARICS Gyorgy	Bologna	D	0	-	-							
-406	ZAMBELLI Marco	Empoli	D	6	35.5	35.5	0	0	0	0	0	0	
-407	DELL'ORCO Cristian	Sassuolo	D	0	-	-							
+405	GARICS Gyorgy	Bologna	D	2	0	0	0	0	0	0	0	0	
+406	ZAMBELLI Marco	Empoli	D	7	41.5	41.5	0	0	0	0	0	0	
+407	DELL'ORCO Cristian	Sassuolo	D	2	0	0	0	0	0	0	0	0	
 408	KRAFTH Emil	Bologna	D	1	5	5	0	0	0	0	0	0	
-409	RUDIGER Antonio	Roma	D	7	38.5	39	0	1	0	0	0	0	
-410	NEUTON	Udinese	D	0	-	-							
+409	RUDIGER Antonio	Roma	D	8	43	43.5	0	1	0	0	0	0	
+410	NEUTON	Udinese	D	2	0	0	0	0	0	0	0	0	
 411	GYOMBER Norbert	Roma	D	1	5.5	5.5	0	0	0	0	0	0	
-413	ALEX SANDRO	Juventus	D	5	32.5	31	0	1	0	0	0	2	
-414	DIGNE Lucas	Roma	D	11	70	68.5	1	3	0	0	0	0	
+413	ALEX SANDRO	Juventus	D	6	38.5	37.5	0	2	0	0	0	2	
+414	DIGNE Lucas	Roma	D	13	80.5	79	1	3	0	0	0	0	
 415	TOLOI Rafael	Atalanta	D	7	41.5	40	1	1	1	0	0	0	
 416	INSUA Emanuel	Udinese	D	0	-	-							
-417	ALDROVANDI Simone	Carpi	D	1	0	0	0	0	0	0	0	0	
+417	ALDROVANDI Simone	Carpi	D	3	0	0	0	0	0	0	0	0	
 418	POPA Razvan	Inter	D	1	0	0	0	0	0	0	0	0	
-419	PEREIRA Pedro	Sampdoria	D	8	41.5	40.5	0	0	0	0	0	1	
-420	TELLES Alex	Inter	D	8	42	41	0	0	0	0	0	1	
-421	ANSALDI Cristian	Genoa	D	5	24.5	24.5	0	0	0	0	0	0	
-422	MORGANELLA Michel	Palermo	D	1	0	0	0	0	0	0	0	0	
+419	PEREIRA Pedro	Sampdoria	D	9	47.5	46.5	0	0	0	0	0	1	
+420	TELLES Alex	Inter	D	10	54.5	54	0	1	0	0	0	1	
+421	ANSALDI Cristian	Genoa	D	7	36	36.5	0	1	0	0	0	0	
+422	MORGANELLA Michel	Palermo	D	2	6	6	0	0	0	0	0	0	
 423	COSIC Uros	Empoli	D	1	0	0	0	0	0	0	0	0	
-424	FELIPE	Udinese	D	7	38	39	0	4	0	0	0	1	
-501	ACQUAH Afriyie	Torino	C	11	68	66.5	1	3	0	0	0	0	
-502	ALLAN Marques Loureiro	Napoli	C	12	87.5	77.5	3	2	0	0	0	2	
-503	ANDERSON Felipe	Lazio	C	12	82	70	4	2	0	0	0	1	
-504	ASAMOAH Kwadwo	Juventus	C	1	6.5	6.5	0	0	0	0	0	0	
-505	BADELJ Milan	Fiorentina	C	9	54	56	0	2	1	0	0	0	
-506	BADU Emmanuel	Udinese	C	11	77	68	3	0	0	0	0	0	
+424	FELIPE	Udinese	D	9	49.5	51	0	5	0	0	0	1	
+501	ACQUAH Afriyie	Torino	C	13	80	79	1	4	0	0	0	0	
+502	ALLAN Marques Loureiro	Napoli	C	14	98.5	89	3	3	0	0	0	2	
+503	ANDERSON Felipe	Lazio	C	14	92.5	80.5	4	2	0	0	0	1	
+504	ASAMOAH Kwadwo	Juventus	C	2	13	13	0	0	0	0	0	0	
+505	BADELJ Milan	Fiorentina	C	11	65.5	68	0	3	1	0	0	0	
+506	BADU Emmanuel	Udinese	C	13	88.5	80	3	1	0	0	0	0	
 507	BAKIC Marko	Fiorentina	C	0	-	-							
-508	BARRETO Edgar	Sampdoria	C	11	65.5	65.5	0	2	0	0	0	1	
-509	BASELLI Daniele	Torino	C	11	77.5	69	3	3	0	0	0	1	
-510	BENALI Ahmad	Palermo	C	0	-	-							
-511	BENASSI Marco	Torino	C	7	46.5	44.5	1	2	0	0	0	0	
+508	BARRETO Edgar	Sampdoria	C	13	75	75	0	2	0	0	0	1	
+509	BASELLI Daniele	Torino	C	13	89.5	81	3	3	0	0	0	1	
+510	BENALI Ahmad	Palermo	C	2	0	0	0	0	0	0	0	0	
+511	BENASSI Marco	Torino	C	8	52.5	50.5	1	2	0	0	0	0	
 512	BERTOLACCI Andrea	Milan	C	7	43.5	40	1	1	0	0	0	1	
 513	BIANCO Raffaele	Carpi	C	8	45.5	46.5	0	2	0	0	0	0	
-514	BIGLIA Lucas	Lazio	C	7	46.5	42.5	2	4	0	0	0	0	
-515	BIONDINI Davide	Sassuolo	C	6	35.5	37	0	3	0	0	0	0	
-516	BIRSA Valter	Chievo	C	12	78	74	1	2	0	0	0	2	
+514	BIGLIA Lucas	Lazio	C	9	56.5	52.5	2	4	0	0	0	0	
+515	BIONDINI Davide	Sassuolo	C	8	48	49.5	0	3	0	0	0	0	
+516	BIRSA Valter	Chievo	C	14	90	86	1	2	0	0	0	2	
 517	BOLZONI Francesco	Palermo	C	0	-	-							
-518	BONAVENTURA Giacomo	Milan	C	11	80.5	71.5	2	4	0	0	0	5	
-519	BRIGHI Matteo	Bologna	C	3	18	18	0	0	0	0	0	0	
-520	BRILLANTE Joshua	Empoli	C	0	-	-							
+518	BONAVENTURA Giacomo	Milan	C	13	97	85	3	4	0	0	0	5	
+519	BRIGHI Matteo	Bologna	C	5	29	29	0	0	0	0	0	0	
+520	BRILLANTE Joshua	Empoli	C	2	0	0	0	0	0	0	0	0	
 521	BROH Jeremie	Sassuolo	C	0	-	-							
-522	BROZOVIC Marcelo	Inter	C	6	40	32	1	1	0	0	0	0	
-523	BRUGMAN Gaston	Palermo	C	3	17	17.5	0	1	0	0	0	0	
-524	CANDREVA Antonio	Lazio	C	8	46	43	1	0	0	0	0	0	
-525	CAPEZZI Leonardo	Fiorentina	C	0	-	-							
-526	CARLINI Massimiliano	Frosinone	C	3	17.5	17.5	0	0	0	0	0	0	
+522	BROZOVIC Marcelo	Inter	C	8	52.5	44.5	1	1	0	0	0	0	
+523	BRUGMAN Gaston	Palermo	C	5	28	28.5	0	1	0	0	0	0	
+524	CANDREVA Antonio	Lazio	C	10	56	53	1	0	0	0	0	0	
+525	CAPEZZI Leonardo	Fiorentina	C	2	0	0	0	0	0	0	0	0	
+526	CARLINI Massimiliano	Frosinone	C	4	22.5	22.5	0	0	0	0	0	0	
 527	CARMONA Carlos	Atalanta	C	5	27.5	28.5	0	2	0	0	0	0	
-528	CASTRO Lucas	Chievo	C	12	83	78.5	2	3	0	0	0	0	
+528	CASTRO Lucas	Chievo	C	13	88.5	84.5	2	4	0	0	0	0	
 529	CATALDI Danilo	Lazio	C	6	31	32	0	2	1	0	0	1	
 530	CHIBSAH Raman	Frosinone	C	8	49.5	48.5	0	0	0	0	0	1	
-531	CHOCHEV Ivaylo	Palermo	C	7	37.5	33	0	2	0	0	0	0	
+531	CHOCHEV Ivaylo	Palermo	C	9	48	43.5	0	2	0	0	0	0	
 532	CHRISTIANSEN Anders	Chievo	C	0	-	-							
-533	CIGARINI Luca	Atalanta	C	5	33	25	1	1	0	0	0	0	
+533	CIGARINI Luca	Atalanta	C	7	46.5	39	1	2	0	0	0	0	
 534	CORREA Joaquin	Sampdoria	C	8	45.5	46	0	1	0	0	0	0	
-535	COSTA Tino	Genoa	C	8	46.5	48	0	3	0	0	0	0	
-536	CRECCO Luca	Lazio	C	0	-	-							
+535	COSTA Tino	Genoa	C	10	58	60	0	4	0	0	0	0	
+536	CRECCO Luca	Lazio	C	2	0	0	0	0	0	0	0	0	
 537	CRISETIG Lorenzo	Bologna	C	2	10	10.5	0	1	0	0	0	0	
-538	CROCE Daniele	Empoli	C	5	30	30.5	0	1	0	0	0	0	
-539	D'ALESSANDRO Marco	Atalanta	C	5	30.5	24	0	0	0	0	0	1	
+538	CROCE Daniele	Empoli	C	6	36	36.5	0	1	0	0	0	0	
+539	D'ALESSANDRO Marco	Atalanta	C	6	36.5	30	0	0	0	0	0	1	
 540	DE GUZMAN Jonathan	Napoli	C	0	-	-							
 541	DE JONG Nigel	Milan	C	3	16.5	16.5	0	0	0	0	0	0	
-542	DE ROON Marten	Atalanta	C	12	70	72	0	4	0	0	0	0	
-543	DE ROSSI Daniele	Roma	C	8	48	47.5	1	5	0	0	0	0	
-544	DE VITIS Alessando	Sampdoria	C	0	-	-							
-545	DELLA ROCCA Francesco	Palermo	C	0	-	-							
+542	DE ROON Marten	Atalanta	C	13	80.5	79.5	1	4	0	0	0	0	
+543	DE ROSSI Daniele	Roma	C	10	60	59.5	1	5	0	0	0	0	
+544	DE VITIS Alessando	Sampdoria	C	2	0	0	0	0	0	0	0	0	
+545	DELLA ROCCA Francesco	Palermo	C	2	0	0	0	0	0	0	0	0	
 546	DEZI Jacopo	Napoli	C	0	-	-							
-547	DI GAUDIO Antonio	Carpi	C	7	43.5	41	1	1	0	0	0	0	
+547	DI GAUDIO Antonio	Carpi	C	9	57	53.5	1	1	0	0	0	1	
 548	DIAKHATE Abdou	Fiorentina	C	0	-	-							
-549	DIAWARA Amadou	Bologna	C	12	70	71.5	0	3	0	0	0	0	
+549	DIAWARA Amadou	Bologna	C	14	84	84.5	0	3	0	0	0	1	
 550	DIOUSSE' Assane	Empoli	C	10	58.5	60.5	0	2	1	0	0	0	
 551	DUNCAN Joseph Alfred	Sassuolo	C	9	52.5	53	0	1	0	0	0	0	
-552	EL KADDOURI Omar	Napoli	C	5	28	23.5	0	2	0	0	0	0	
+552	EL KADDOURI Omar	Napoli	C	6	33.5	29	0	2	0	0	0	0	
 553	ESTIGARRIBIA Marcelo	Atalanta	C	0	-	-							
 554	EVANGELISTA Lucas	Udinese	C	0	-	-							
 555	FARNERUD Alexander	Torino	C	0	-	-							
-556	FAZZI Nicolò	Fiorentina	C	0	-	-							
-557	FERNANDES Bruno	Udinese	C	9	52	54	0	2	1	0	0	0	
+556	FAZZI Nicolò	Fiorentina	C	2	0	0	0	0	0	0	0	0	
+557	FERNANDES Bruno	Udinese	C	11	62.5	64.5	0	2	1	0	0	0	
 558	FERNANDEZ Mati	Fiorentina	C	5	31	30.5	0	1	0	0	0	1	
-559	FERNANDO Lucas Martins	Sampdoria	C	11	64.5	66.5	0	6	0	0	0	1	
-560	FLORENZI Alessandro	Roma	C	11	75	70.5	1	1	0	0	0	2	
-561	FRARA Alessandro	Frosinone	C	3	21	18	1	0	0	0	0	0	
-562	GAGLIARDINI Roberto	Atalanta	C	0	-	-							
+559	FERNANDO Lucas Martins	Sampdoria	C	13	73.5	75.5	0	6	0	0	0	1	
+560	FLORENZI Alessandro	Roma	C	13	84	80	1	2	0	0	0	2	
+561	FRARA Alessandro	Frosinone	C	4	27	24	1	0	0	0	0	0	
+562	GAGLIARDINI Roberto	Atalanta	C	2	0	0	0	0	0	0	0	0	
 563	GAZZI Alessandro	Torino	C	2	11	11.5	0	1	0	0	0	0	
-564	GIORGI Luigi	Atalanta	C	1	6	6	0	0	0	0	0	0	
+564	GIORGI Luigi	Atalanta	C	3	6	6	0	0	0	0	0	0	
 565	GNOUKOURI Assane Demoya	Inter	C	0	-	-							
-566	GOMEZ Alejandro	Atalanta	C	12	89.5	79	3	1	0	0	0	2	
-567	GORI Mirko	Frosinone	C	7	39.5	40.5	0	2	0	0	0	0	
-568	GRASSI Alberto	Atalanta	C	8	46	47.5	0	3	0	0	0	0	
-569	GRECO Leandro	Verona	C	12	64.5	66.5	0	4	0	0	0	0	
-570	GUARIN Fredy	Inter	C	10	58	57.5	1	5	0	0	0	0	
-571	GUCHER Robert	Frosinone	C	7	39.5	28.5	0	0	0	0	0	0	
+566	GOMEZ Alejandro	Atalanta	C	14	108.5	94	4	1	0	0	0	3	
+567	GORI Mirko	Frosinone	C	9	51	52.5	0	3	0	0	0	0	
+568	GRASSI Alberto	Atalanta	C	9	50	52.5	0	3	1	0	0	0	
+569	GRECO Leandro	Verona	C	13	70	72	0	4	0	0	0	0	
+570	GUARIN Fredy	Inter	C	11	62.5	62.5	1	6	0	0	0	0	
+571	GUCHER Robert	Frosinone	C	8	44.5	33.5	0	0	0	0	0	0	
 572	GUILHERME Dos Santos Torres	Udinese	C	0	-	-							
-573	HALLBERG Melker	Udinese	C	0	-	-							
-574	HALLFREDSSON Emil	Verona	C	8	45	46.5	0	3	0	0	0	0	
-575	HAMSIK Marek	Napoli	C	12	77	75	0	0	0	0	0	2	
+573	HALLBERG Melker	Udinese	C	2	0	0	0	0	0	0	0	0	
+574	HALLFREDSSON Emil	Verona	C	10	57	59.5	0	5	0	0	0	0	
+575	HAMSIK Marek	Napoli	C	14	89	87	0	0	0	0	0	2	
 576	HERNANES Anderson	Juventus	C	7	37	26.5	0	1	0	0	0	0	
-577	HETEMAJ Perparim	Chievo	C	10	65.5	63.5	1	2	0	0	0	0	
-578	HILJEMARK Oscar	Palermo	C	12	77	63	3	3	0	0	0	1	
+577	HETEMAJ Perparim	Chievo	C	12	78	76	1	2	0	0	0	0	
+578	HILJEMARK Oscar	Palermo	C	14	87.5	73.5	3	3	0	0	0	1	
 579	HONDA Keisuke	Milan	C	5	25.5	20.5	0	1	0	0	0	0	
-580	INLER Gokhan	Napoli	C	0	-	-							
-581	IONITA Artur	Verona	C	4	25.5	22.5	1	0	0	0	0	0	
-582	ITURRA Manuel	Udinese	C	9	45.5	48.5	0	6	0	0	0	0	
-583	IVAN David	Sampdoria	C	7	41	41.5	0	1	0	0	0	0	
+580	INLER Gokhan	Napoli	C	2	0	0	0	0	0	0	0	0	
+581	IONITA Artur	Verona	C	6	37	34	1	0	0	0	0	0	
+582	ITURRA Manuel	Udinese	C	11	56.5	60.5	0	8	0	0	0	0	
+583	IVAN David	Sampdoria	C	8	47	47.5	0	1	0	0	0	0	
 584	IZCO Mariano	Chievo	C	0	-	-							
-585	JAJALO Mato	Palermo	C	6	33	33.5	0	1	0	0	0	0	
-586	JANKOVIC Bosko	Verona	C	8	42.5	44.5	0	2	1	0	0	0	
-587	JOAQUIN	Fiorentina	C	0	-	-							
-588	JORGINHO	Napoli	C	12	74.5	75	0	3	0	0	0	1	
+585	JAJALO Mato	Palermo	C	8	43.5	44.5	0	2	0	0	0	0	
+586	JANKOVIC Bosko	Verona	C	9	47.5	49.5	0	2	1	0	0	0	
+587	JOAQUIN	Fiorentina	C	2	0	0	0	0	0	0	0	0	
+588	JORGINHO	Napoli	C	14	85.5	86	0	3	0	0	0	1	
 589	KEITA Seydou	Roma	C	6	35	35	0	0	0	0	0	0	
 590	KHEDIRA Sami	Juventus	C	4	28.5	25	1	1	0	0	0	1	
-591	KISHNA Ricardo	Lazio	C	7	42	33.5	1	0	0	0	0	0	
+591	KISHNA Ricardo	Lazio	C	8	47.5	39	1	0	0	0	0	0	
 592	KONDOGBIA Geoffrey	Inter	C	11	61.5	59.5	1	4	0	0	0	1	
 593	KONE Panagiotis	Udinese	C	3	15.5	16.5	0	0	1	0	0	0	
-594	KOVACIC Mateo	Inter	C	0	-	-							
+594	KOVACIC Mateo	Inter	C	2	0	0	0	0	0	0	0	0	
 595	KRSTICIC Nenad	Sampdoria	C	0	-	-							
-596	KRUNIC Rade	Empoli	C	6	37	35	1	2	0	0	0	0	
-597	KUCKA Juraj	Milan	C	11	62.5	63	0	3	0	0	0	1	
-598	KURTIC Jasmin	Atalanta	C	9	51	51.5	0	1	0	0	0	0	
-599	LANER Simon	Verona	C	0	-	-							
-600	LARIBI Karim	Sassuolo	C	4	25	25	0	0	0	0	0	0	
-601	LAXALT Diego	Genoa	C	12	78.5	72.5	2	0	0	0	0	0	
-602	LAZOVIC Darko	Genoa	C	5	33	25.5	0	0	0	0	0	2	
+596	KRUNIC Rade	Empoli	C	7	42.5	35	1	2	0	0	0	0	
+597	KUCKA Juraj	Milan	C	13	74	75	0	4	0	0	0	1	
+598	KURTIC Jasmin	Atalanta	C	11	64.5	65.5	0	2	0	0	0	0	
+599	LANER Simon	Verona	C	2	0	0	0	0	0	0	0	0	
+600	LARIBI Karim	Sassuolo	C	6	37	37	0	0	0	0	0	0	
+601	LAXALT Diego	Genoa	C	14	90.5	84.5	2	0	0	0	0	0	
+602	LAZOVIC Darko	Genoa	C	7	43.5	36	0	0	0	0	0	2	
 603	LAZZARI Andrea	Carpi	C	5	29	29	0	0	0	0	0	0	
-604	LOLLO Lorenzo	Carpi	C	7	36.5	39.5	0	4	1	0	0	0	
-605	LOPEZ David	Napoli	C	7	41.5	36	0	0	0	0	0	0	
-606	LULIC Karlo	Sampdoria	C	0	-	-							
-607	LULIC Senad	Lazio	C	12	70	67	1	4	0	0	0	2	
-608	MAGNANELLI Francesco	Sassuolo	C	11	70.5	68.5	1	2	0	0	0	0	
-609	MARCHIONNI Marco	Sampdoria	C	0	-	-							
-610	MARCHISIO Claudio	Juventus	C	6	34	35.5	0	3	0	0	0	0	
+604	LOLLO Lorenzo	Carpi	C	9	48	51	0	4	1	0	0	0	
+605	LOPEZ David	Napoli	C	9	53	42	0	0	0	0	0	0	
+606	LULIC Karlo	Sampdoria	C	2	0	0	0	0	0	0	0	0	
+607	LULIC Senad	Lazio	C	13	75.5	72.5	1	4	0	0	0	2	
+608	MAGNANELLI Francesco	Sassuolo	C	12	76.5	74.5	1	2	0	0	0	0	
+609	MARCHIONNI Marco	Sampdoria	C	2	0	0	0	0	0	0	0	0	
+610	MARCHISIO Claudio	Juventus	C	8	46.5	48	0	3	0	0	0	0	
 611	MARESCA Enzo	Palermo	C	5	27	27.5	0	1	0	0	0	0	
 612	MARRONE Luca	Carpi	C	6	36	34.5	1	3	0	0	0	0	
-613	MASTOUR Hachim	Milan	C	0	-	-							
+613	MASTOUR Hachim	Milan	C	2	0	0	0	0	0	0	0	0	
 614	MAURI José	Milan	C	0	-	-							
-615	MBAYE Maodo Malick	Chievo	C	0	-	-							
-616	MEDEL Gary	Inter	C	10	66	65	1	4	0	0	0	0	
+615	MBAYE Maodo Malick	Chievo	C	2	0	0	0	0	0	0	0	0	
+616	MEDEL Gary	Inter	C	12	78.5	77.5	1	4	0	0	0	0	
 617	MERKEL Alexander	Udinese	C	1	4.5	5	0	1	0	0	0	0	
-618	MERTENS Dries	Napoli	C	9	58.5	55.5	1	2	0	0	0	1	
-619	MIGLIACCIO Giulio	Atalanta	C	4	23.5	24	0	1	0	0	0	0	
-620	MISSIROLI Simone	Sassuolo	C	12	75.5	74.5	1	4	0	0	0	0	
-621	MONTOLIVO Riccardo	Milan	C	11	64	63.5	0	1	0	0	0	1	
-622	MORALEZ Maxi	Atalanta	C	12	80.5	78	1	1	0	-1	0	3	
+618	MERTENS Dries	Napoli	C	10	65	62	1	2	0	0	0	1	
+619	MIGLIACCIO Giulio	Atalanta	C	6	33.5	35	0	1	1	0	0	0	
+620	MISSIROLI Simone	Sassuolo	C	14	89.5	88.5	1	4	0	0	0	0	
+621	MONTOLIVO Riccardo	Milan	C	13	76.5	76	0	1	0	0	0	1	
+622	MORALEZ Maxi	Atalanta	C	14	92	89.5	1	1	0	-1	0	3	
 623	MORRISON Ravel	Lazio	C	1	5	5	0	0	0	0	0	0	
-624	NAINGGOLAN Radja	Roma	C	12	75.5	75.5	0	2	0	0	0	1	
+624	NAINGGOLAN Radja	Roma	C	14	86	86.5	0	3	0	0	0	1	
 625	NOCERINO Antonio	Milan	C	1	4.5	4.5	0	0	0	0	0	0	
 626	OBI Joel	Torino	C	2	9	10	0	0	1	0	0	0	
 627	OIKONOMIDIS Christopher	Lazio	C	0	-	-							
 628	ONAZI Ogenyi	Lazio	C	5	26	26.5	0	1	0	0	0	0	
 629	PADOIN Simone	Juventus	C	4	21.5	22	0	1	0	0	0	0	
-630	PAGANINI Luca	Frosinone	C	9	54	53	1	4	0	0	0	0	
-631	PALOMBO Angelo	Sampdoria	C	3	17.5	17.5	0	0	0	0	0	0	
-632	PAREDES Leandro	Empoli	C	9	59	56	1	0	0	0	0	0	
-633	PAROLO Marco	Lazio	C	8	46.5	44	1	1	0	0	0	0	
-634	PASCIUTI Lorenzo	Carpi	C	2	11	11	0	0	0	0	0	0	
-635	PASQUATO Cristian	Juventus	C	0	-	-							
-636	PELLEGRINI Lorenzo	Sassuolo	C	1	5.5	6	0	1	0	0	0	0	
+630	PAGANINI Luca	Frosinone	C	11	67	66	1	4	0	0	0	0	
+631	PALOMBO Angelo	Sampdoria	C	5	29	29	0	0	0	0	0	0	
+632	PAREDES Leandro	Empoli	C	11	71	68	1	2	0	0	0	1	
+633	PAROLO Marco	Lazio	C	10	58	56	1	2	0	0	0	0	
+634	PASCIUTI Lorenzo	Carpi	C	4	22.5	22.5	0	0	0	0	0	0	
+635	PASQUATO Cristian	Juventus	C	2	0	0	0	0	0	0	0	0	
+636	PELLEGRINI Lorenzo	Sassuolo	C	2	15.5	13.5	1	2	0	0	0	0	
 637	PEREYRA Roberto	Juventus	C	6	38	37	0	0	0	0	0	1	
-638	PEROTTI Diego	Genoa	C	11	71	68	1	0	1	0	0	1	
-639	PETRICCIONE Jacopo	Fiorentina	C	0	-	-							
-640	PINZI Giampiero	Chievo	C	4	22	23	0	2	0	0	0	0	
-641	PJANIC Miralem	Roma	C	10	85.5	67	6	3	1	0	0	3	
-642	POGBA Paul	Juventus	C	12	71.5	70.5	2	4	0	-1	0	0	
-643	POLI Andrea	Milan	C	6	34	28.5	0	0	0	0	0	0	
-644	POLITANO Matteo	Sassuolo	C	7	44	41.5	1	1	0	0	0	0	
-645	PORCARI Filippo	Carpi	C	0	-	-							
-646	PUGLIESE Mario	Carpi	C	0	-	-							
-647	QUAISON Robin	Palermo	C	10	59.5	58.5	0	2	0	0	0	2	
-648	RADOVANOVIC Ivan	Chievo	C	3	18	18.5	0	1	0	0	0	0	
+638	PEROTTI Diego	Genoa	C	12	76.5	74	1	1	1	0	0	1	
+639	PETRICCIONE Jacopo	Fiorentina	C	2	0	0	0	0	0	0	0	0	
+640	PINZI Giampiero	Chievo	C	5	27.5	23	0	2	0	0	0	0	
+641	PJANIC Miralem	Roma	C	12	99	78	7	4	1	0	0	3	
+642	POGBA Paul	Juventus	C	13	78.5	77	2	5	0	-1	0	1	
+643	POLI Andrea	Milan	C	7	40	34.5	0	0	0	0	0	0	
+644	POLITANO Matteo	Sassuolo	C	8	52	48.5	1	1	0	0	0	1	
+645	PORCARI Filippo	Carpi	C	2	0	0	0	0	0	0	0	0	
+646	PUGLIESE Mario	Carpi	C	2	0	0	0	0	0	0	0	0	
+647	QUAISON Robin	Palermo	C	12	70.5	69.5	0	2	0	0	0	2	
+648	RADOVANOVIC Ivan	Chievo	C	4	24	24.5	0	1	0	0	0	0	
 649	RIGONI Luca	Palermo	C	8	49	47	1	0	1	0	0	0	
-650	RIGONI Nicola	Chievo	C	9	53.5	48.5	0	1	0	0	0	0	
-651	RINCON Tomas	Genoa	C	12	77	74.5	1	3	0	0	0	1	
-652	RIZZO Luca	Bologna	C	9	52.5	53	0	1	1	0	0	1	
+650	RIGONI Nicola	Chievo	C	11	65	61	0	3	0	0	0	0	
+651	RINCON Tomas	Genoa	C	14	89	86.5	1	3	0	0	0	1	
+652	RIZZO Luca	Bologna	C	11	65.5	66	0	1	1	0	0	1	
 653	ROMULO Souza Orestes Caldeira	Verona	C	0	-	-							
 654	RONALDO	Empoli	C	2	11.5	12	0	1	0	0	0	0	
-655	ROSSI Fausto	Juventus	C	0	-	-							
-656	SABBIONE Alessio	Carpi	C	0	-	-							
-657	SALA Jacopo	Verona	C	11	59	60	0	4	0	0	0	1	
-658	SAMMARCO Paolo	Frosinone	C	8	49	47	1	2	0	0	0	0	
-659	SAPONARA Riccardo	Empoli	C	9	70	59	3	2	1	0	0	4	
-660	SHAQIRI Xherdan	Inter	C	0	-	-							
-661	SIGNORELLI Franco	Empoli	C	0	-	-							
-662	SODDIMO Danilo	Frosinone	C	11	68	69	0	4	1	0	0	2	
-663	SORIANO Roberto	Sampdoria	C	12	82.5	73.5	3	2	0	0	0	1	
-664	STEVANOVIC Alen	Torino	C	0	-	-							
+655	ROSSI Fausto	Juventus	C	2	0	0	0	0	0	0	0	0	
+656	SABBIONE Alessio	Carpi	C	2	0	0	0	0	0	0	0	0	
+657	SALA Jacopo	Verona	C	12	64.5	65.5	0	4	0	0	0	1	
+658	SAMMARCO Paolo	Frosinone	C	10	63	60	1	2	0	0	0	1	
+659	SAPONARA Riccardo	Empoli	C	11	81	70	3	2	1	0	0	4	
+660	SHAQIRI Xherdan	Inter	C	2	0	0	0	0	0	0	0	0	
+661	SIGNORELLI Franco	Empoli	C	2	0	0	0	0	0	0	0	0	
+662	SODDIMO Danilo	Frosinone	C	13	79.5	80.5	0	4	1	0	0	2	
+663	SORIANO Roberto	Sampdoria	C	14	93	84.5	3	3	0	0	0	1	
+664	STEVANOVIC Alen	Torino	C	2	0	0	0	0	0	0	0	0	
 665	STROOTMAN Kevin	Roma	C	0	-	-							
-666	STURARO Stefano	Juventus	C	6	32.5	33	0	1	0	0	0	0	
+666	STURARO Stefano	Juventus	C	8	48	46	1	2	0	0	0	0	
 667	SUAREZ Mario	Fiorentina	C	6	37.5	35.5	1	2	0	0	0	0	
 668	SUSO	Milan	C	1	4.5	4.5	0	0	0	0	0	0	
 669	TACHTSIDIS Panagiotis	Genoa	C	5	31	25	1	1	0	0	1	0	
 670	UCAN Salih	Roma	C	2	12	12	0	0	0	0	0	0	
-671	VAJUSHI Armando	Chievo	C	0	-	-							
+671	VAJUSHI Armando	Chievo	C	2	0	0	0	0	0	0	0	0	
 672	VALDIFIORI Mirko	Napoli	C	3	13.5	14.5	0	2	0	0	0	0	
-673	VALERO Borja	Fiorentina	C	12	85.5	81	1	1	0	0	0	2	
-675	VECINO Matias	Fiorentina	C	9	57.5	58	0	3	0	0	0	1	
-676	VERDI Simone	Milan	C	0	-	-							
-677	VERRE Valerio	Udinese	C	0	-	-							
-678	VIVES Giuseppe	Torino	C	12	70.5	72.5	0	4	0	0	0	0	
-679	VIVIANI Federico	Verona	C	6	39	37	0	0	0	0	0	2	
-680	WSZOLEK Pawel	Verona	C	2	11.5	11.5	0	0	0	0	0	0	
-681	ZACCAGNI Mattia	Verona	C	2	12	12	0	0	0	0	0	0	
-682	ZIELINSKI Piotr	Empoli	C	10	64.5	62	1	3	1	0	0	2	
+673	VALERO Borja	Fiorentina	C	14	101	93.5	2	1	0	0	0	2	
+675	VECINO Matias	Fiorentina	C	11	70	70.5	0	3	0	0	0	1	
+676	VERDI Simone	Milan	C	2	0	0	0	0	0	0	0	0	
+677	VERRE Valerio	Udinese	C	2	0	0	0	0	0	0	0	0	
+678	VIVES Giuseppe	Torino	C	14	86	85	1	4	0	0	0	0	
+679	VIVIANI Federico	Verona	C	8	55	49.5	1	1	0	0	0	3	
+680	WSZOLEK Pawel	Verona	C	3	17.5	17.5	0	0	0	0	0	0	
+681	ZACCAGNI Mattia	Verona	C	3	18	18	0	0	0	0	0	0	
+682	ZIELINSKI Piotr	Empoli	C	12	76	73.5	1	3	1	0	0	2	
 683	ZUCULINI Franco	Bologna	C	0	-	-							
-684	BRIENZA Franco	Bologna	C	11	70.5	67.5	1	0	0	0	0	0	
-685	MARTINHO Raphael	Carpi	C	1	5.5	6	0	1	0	0	0	0	
+684	BRIENZA Franco	Bologna	C	13	83.5	79.5	1	0	0	0	0	1	
+685	MARTINHO Raphael	Carpi	C	3	17	17.5	0	1	0	0	0	0	
 686	FEDELE Matteo	Carpi	C	8	45.5	46.5	0	2	0	0	0	0	
-687	NTCHAM Olivier	Genoa	C	9	54.5	54.5	0	2	0	0	0	1	
-688	MILINKOVIC-SAVIC Sergej	Lazio	C	8	47	48.5	0	3	0	0	0	0	
+687	NTCHAM Olivier	Genoa	C	10	59.5	59.5	0	2	0	0	0	1	
+688	MILINKOVIC-SAVIC Sergej	Lazio	C	10	57	58.5	0	3	0	0	0	0	
 689	PULGAR Erick	Bologna	C	6	34.5	35	0	1	0	0	0	0	
-690	PEPE Simone	Chievo	C	10	60.5	47.5	1	2	0	0	0	0	
-691	MAIELLO Raffaele	Empoli	C	7	41.5	42	0	1	0	0	0	0	
-692	SCHELOTTO Ezequiel	Inter	C	0	-	-							
-693	CAPEL Diego	Genoa	C	6	34	34.5	0	1	0	0	0	0	
-694	MARQUINHO	Udinese	C	7	38.5	33.5	0	1	0	0	0	0	
+690	PEPE Simone	Chievo	C	12	68.5	56.5	1	2	1	0	0	0	
+691	MAIELLO Raffaele	Empoli	C	8	47.5	48	0	1	0	0	0	0	
+692	SCHELOTTO Ezequiel	Inter	C	2	0	0	0	0	0	0	0	0	
+693	CAPEL Diego	Genoa	C	7	39.5	40	0	1	0	0	0	0	
+694	MARQUINHO	Udinese	C	8	44.5	39.5	0	1	0	0	0	0	
 695	INIGUEZ Gaspar	Carpi	C	0	-	-							
 696	FALCO Filippo	Bologna	C	4	21	10.5	0	1	0	0	0	0	
 697	MAURI Stefano	Lazio	C	3	15.5	15.5	0	0	0	0	0	0	
-698	NTOW Isaac	Chievo	C	0	-	-							
+698	NTOW Isaac	Chievo	C	2	0	0	0	0	0	0	0	0	
 699	CRIMI Marco	Bologna	C	0	-	-							
-700	CUADRADO Juan	Juventus	C	10	69.5	65	1	1	0	0	0	2	
-701	DONSAH Godfred	Bologna	C	7	43	41	1	2	0	0	0	0	
+700	CUADRADO Juan	Juventus	C	11	75.5	71	1	1	0	0	0	2	
+701	DONSAH Godfred	Bologna	C	8	48.5	46.5	1	2	0	0	0	0	
 702	TONEV Aleksandar	Frosinone	C	7	41	41	0	0	0	0	0	0	
-703	CARBONERO Carlos	Sampdoria	C	7	42.5	42	0	1	0	0	0	1	
-704	PERISIC Ivan	Inter	C	11	64	58.5	2	1	0	0	0	0	
-705	MOUNIER Anthony	Bologna	C	12	72.5	65	3	3	0	0	0	0	
-706	VERDU Joan	Fiorentina	C	4	21.5	18.5	1	0	0	0	0	0	
-707	VAINQUEUR William	Roma	C	7	36	31.5	0	2	0	0	0	0	
+703	CARBONERO Carlos	Sampdoria	C	8	48	47.5	0	1	0	0	0	1	
+704	PERISIC Ivan	Inter	C	13	75	64	2	1	0	0	0	0	
+705	MOUNIER Anthony	Bologna	C	14	84	71	3	3	0	0	0	0	
+706	VERDU Joan	Fiorentina	C	5	27	24	1	0	0	0	0	0	
+707	VAINQUEUR William	Roma	C	8	42	37.5	0	2	0	0	0	0	
 708	SILVESTRO Vincenzo	Bologna	C	1	0	0	0	0	0	0	0	0	
 709	VITALE Mattia	Juventus	C	1	0	0	0	0	0	0	0	0	
 710	SERINELLI Leonardo	Sampdoria	C	1	0	0	0	0	0	0	0	0	
 711	CHECCHIN Luca	Verona	C	2	6	6	0	0	0	0	0	0	
 712	BLASZCZYKOWSKI Jakub	Fiorentina	C	8	46.5	38	1	0	0	0	0	0	
-713	COFIE Isaac	Carpi	C	8	36	38	0	4	0	0	0	0	
-714	GIACCHERINI Emanuele	Bologna	C	8	50.5	45	2	1	0	0	0	0	
-715	MELO Felipe	Inter	C	10	53.5	53.5	1	4	1	0	0	0	
+713	COFIE Isaac	Carpi	C	10	48	50	0	4	0	0	0	0	
+714	GIACCHERINI Emanuele	Bologna	C	9	56.5	51	2	1	0	0	0	0	
+715	MELO Felipe	Inter	C	11	59.5	59.5	1	4	1	0	0	0	
 716	PRCIC Sanjin	Torino	C	2	5.5	5.5	0	0	0	0	0	0	
-717	BUCHEL Marcel	Empoli	C	7	42	37	2	2	0	0	0	0	
-718	CHRISTODOULOPOULOS Lazaros	Sampdoria	C	3	10	10.5	0	1	0	0	0	0	
+717	BUCHEL Marcel	Empoli	C	9	53	48.5	2	3	0	0	0	0	
+718	CHRISTODOULOPOULOS Lazaros	Sampdoria	C	4	15.5	16	0	1	0	0	0	0	
 719	CHALOBAH Nathaniel	Napoli	C	1	0	0	0	0	0	0	0	0	
 720	DZEMAILI Blerim	Genoa	C	9	46.5	45.5	1	2	1	0	0	0	
-721	TAIDER Saphir	Bologna	C	10	50	51	0	2	0	0	0	0	
+721	TAIDER Saphir	Bologna	C	11	57	58	0	2	0	0	0	0	
 722	KRIVICIC Marko	Bologna	C	1	0	0	0	0	0	0	0	0	
 723	LEMINA Mario	Juventus	C	6	31	29.5	1	3	0	0	0	0	
 724	GINO Federico	Carpi	C	1	0	0	0	0	0	0	0	0	
 725	ROCCA Michele	Sampdoria	C	2	6	6	0	0	0	0	0	0	
-801	ACQUAFRESCA Robert	Bologna	A	0	-	-							
-802	AGUIRRE Rodrigo	Udinese	A	7	39.5	33.5	0	1	0	0	0	1	
+801	ACQUAFRESCA Robert	Bologna	A	1	6	6	0	0	0	0	0	0	
+802	AGUIRRE Rodrigo	Udinese	A	9	51	45	0	1	0	0	0	1	
 803	AMAURI De Oliveira	Torino	A	1	5.5	0	0	0	0	0	0	0	
 804	BABACAR Khouma	Fiorentina	A	7	56.5	43.5	4	0	0	0	0	1	
-805	BACCA Carlos	Milan	A	12	90.5	66.5	6	1	0	0	0	1	
-806	BELOTTI Andrea	Torino	A	9	53	51	0	0	0	0	0	2	
-807	BENTIVEGNA Accursio	Palermo	A	0	-	-							
+805	BACCA Carlos	Milan	A	14	100.5	76.5	6	1	0	0	0	1	
+806	BELOTTI Andrea	Torino	A	11	69	64	1	0	0	0	0	2	
+807	BENTIVEGNA Accursio	Palermo	A	2	0	0	0	0	0	0	0	0	
 808	BERARDI Domenico	Sassuolo	A	9	56.5	46.5	2	3	1	0	0	1	
-809	BERNARDESCHI Federico	Fiorentina	A	9	56.5	56.5	0	2	0	0	0	1	
-810	BIABIANY Jonathan	Inter	A	5	34.5	31	1	1	0	0	0	1	
-811	BIANCHI Rolando	Bologna	A	0	-	-							
-812	BOAKYE Richmond	Atalanta	A	0	-	-							
-813	BONAZZOLI Federico	Sampdoria	A	1	6	6	0	0	0	0	0	0	
-814	CACIA Daniele	Bologna	A	0	-	-							
-815	CALLEJON José Maria	Napoli	A	11	63.5	64.5	0	2	0	0	0	0	
+809	BERNARDESCHI Federico	Fiorentina	A	11	69	69	0	2	0	0	0	1	
+810	BIABIANY Jonathan	Inter	A	7	47.5	44	1	1	0	0	0	1	
+811	BIANCHI Rolando	Bologna	A	2	0	0	0	0	0	0	0	0	
+812	BOAKYE Richmond	Atalanta	A	2	0	0	0	0	0	0	0	0	
+813	BONAZZOLI Federico	Sampdoria	A	2	12	12	0	0	0	0	0	0	
+814	CACIA Daniele	Bologna	A	2	0	0	0	0	0	0	0	0	
+815	CALLEJON José Maria	Napoli	A	13	75.5	77	0	3	0	0	0	0	
 817	CASSINI Matheus	Palermo	A	0	-	-							
-818	CERCI Alessio	Milan	A	7	39.5	39.5	0	0	0	0	0	0	
-819	CIOFANI Daniel	Frosinone	A	11	66.5	63.5	1	0	0	0	0	0	
-820	COMAN Kingsley	Juventus	A	0	-	-							
-821	DENIS German	Atalanta	A	5	30.5	27.5	1	0	0	0	0	0	
-822	DESTRO Mattia	Bologna	A	12	69.5	66	2	5	0	0	0	0	
-823	DI NATALE Antonio	Udinese	A	10	65	61	1	0	0	0	0	1	
-824	DIONISI Federico	Frosinone	A	9	64.5	55.5	3	4	0	0	0	2	
-825	DJORDJEVIC Filip	Lazio	A	7	45.5	38.5	2	0	0	0	0	1	
-826	DOUMBIA Seydou	Roma	A	0	-	-							
-827	DYBALA Paulo	Juventus	A	11	89	64	6	1	0	0	0	2	
-828	EDER Citadin Martins	Sampdoria	A	12	97.5	76.5	7	2	0	0	0	1	
+818	CERCI Alessio	Milan	A	9	52	51	0	0	0	0	0	1	
+819	CIOFANI Daniel	Frosinone	A	13	85.5	76.5	3	0	0	0	0	0	
+820	COMAN Kingsley	Juventus	A	2	0	0	0	0	0	0	0	0	
+821	DENIS German	Atalanta	A	7	51	42	3	0	0	0	0	0	
+822	DESTRO Mattia	Bologna	A	13	83	74	4	6	0	0	0	0	
+823	DI NATALE Antonio	Udinese	A	12	78	73	1	0	0	0	0	2	
+824	DIONISI Federico	Frosinone	A	11	79.5	68	4	5	0	0	0	2	
+825	DJORDJEVIC Filip	Lazio	A	8	51	44	2	0	0	0	0	1	
+826	DOUMBIA Seydou	Roma	A	2	0	0	0	0	0	0	0	0	
+827	DYBALA Paulo	Juventus	A	13	107.5	78.5	7	1	0	0	0	3	
+828	EDER Citadin Martins	Sampdoria	A	14	111	87	8	2	0	0	0	1	
 829	FALCINELLI Diego	Sassuolo	A	5	28	23	0	1	0	0	0	0	
 830	FARES Mohamed Salim	Verona	A	0	-	-							
-831	FLOCCARI Sergio	Sassuolo	A	4	27	24	1	0	0	0	0	0	
-832	FLORO FLORES Antonio	Sassuolo	A	8	56.5	44	2	0	0	0	0	1	
+831	FLOCCARI Sergio	Sassuolo	A	6	46	37.5	3	1	0	0	0	0	
+832	FLORO FLORES Antonio	Sassuolo	A	9	62.5	50	2	0	0	0	0	1	
 833	GABBIADINI Manolo	Napoli	A	4	27	22.5	1	1	0	0	0	2	
-834	GAKPE' Serge	Genoa	A	7	53.5	44	3	1	0	0	0	1	
-835	GEIJO Alexandre	Udinese	A	0	-	-							
-836	GERVINHO	Roma	A	9	79	60	6	0	0	0	0	1	
+834	GAKPE' Serge	Genoa	A	9	64	54.5	3	1	0	0	0	1	
+835	GEIJO Alexandre	Udinese	A	2	0	0	0	0	0	0	0	0	
+836	GERVINHO	Roma	A	10	85	66	6	0	0	0	0	1	
 837	GHIGLIONE Paolo	Genoa	A	0	-	-							
-838	GLIOZZI Ettore	Sassuolo	A	0	-	-							
-839	GOMEZ Juanito Taleb	Verona	A	12	70	68	1	2	0	0	0	0	
-840	GOMEZ Mario	Fiorentina	A	0	-	-							
-841	HIGUAIN Gonzalo	Napoli	A	12	116.5	84.5	10	0	0	0	0	2	
-842	IAGO Falque	Roma	A	9	57.5	54	1	1	0	0	0	1	
-843	IBARBO Victor	Roma	A	0	-	-							
-844	ICARDI Mauro	Inter	A	10	71.5	58.5	4	0	0	0	0	1	
-845	ILICIC Josip	Fiorentina	A	8	65	47.5	3	0	0	0	0	3	
-846	INGLESE Roberto	Chievo	A	4	32	25.5	2	1	0	0	0	1	
-847	INSIGNE Lorenzo	Napoli	A	12	103.5	79	7	1	0	0	0	4	
-848	ITURBE Juan	Roma	A	7	41	33	1	1	0	0	0	0	
-849	KEITA Baldé Diao	Lazio	A	9	58.5	49.5	1	1	0	0	0	1	
-850	KLOSE Miroslav	Lazio	A	4	24.5	23	0	1	0	0	0	2	
+838	GLIOZZI Ettore	Sassuolo	A	2	0	0	0	0	0	0	0	0	
+839	GOMEZ Juanito Taleb	Verona	A	13	75	73	1	2	0	0	0	0	
+840	GOMEZ Mario	Fiorentina	A	2	0	0	0	0	0	0	0	0	
+841	HIGUAIN Gonzalo	Napoli	A	14	144	100	14	0	0	0	0	2	
+842	IAGO Falque	Roma	A	11	67	63.5	1	1	0	0	0	1	
+843	IBARBO Victor	Roma	A	2	0	0	0	0	0	0	0	0	
+844	ICARDI Mauro	Inter	A	11	76.5	63.5	4	0	0	0	0	1	
+845	ILICIC Josip	Fiorentina	A	10	81.5	61	4	0	0	0	0	3	
+846	INGLESE Roberto	Chievo	A	6	48	38.5	3	1	0	0	0	1	
+847	INSIGNE Lorenzo	Napoli	A	14	116.5	91	7	1	0	0	0	5	
+848	ITURBE Juan	Roma	A	9	50.5	42.5	1	1	0	0	0	0	
+849	KEITA Baldé Diao	Lazio	A	10	64.5	55.5	1	1	0	0	0	1	
+850	KLOSE Miroslav	Lazio	A	6	34.5	33.5	0	2	0	0	0	2	
 851	LA GUMINA Antonino	Palermo	A	0	-	-							
-852	LASAGNA Kevin	Carpi	A	9	53	53	0	0	0	0	0	0	
-853	LJAJIC Adem	Inter	A	6	39.5	37	0	1	0	0	0	3	
-854	LLORENTE Fernando	Juventus	A	0	-	-							
-855	LOI Antonio	Carpi	A	0	-	-							
-856	LOPEZ Maxi	Torino	A	10	67	60.5	2	1	0	0	0	1	
-857	LOPEZ Nico	Udinese	A	0	-	-							
-858	LUIZ ADRIANO	Milan	A	9	57.5	51	2	1	0	0	0	1	
-859	LUPOLI Arturo	Frosinone	A	0	-	-							
-860	MACCARONE Massimo	Empoli	A	11	76.5	67.5	3	2	0	0	0	1	
-861	MANCOSU Matteo	Bologna	A	6	32	26.5	0	0	0	0	0	0	
-862	MANDZUKIC Mario	Juventus	A	9	56.5	50.5	2	0	0	0	0	0	
-863	MARILUNGO Guido	Atalanta	A	0	-	-							
+852	LASAGNA Kevin	Carpi	A	11	66	66	0	0	0	0	0	0	
+853	LJAJIC Adem	Inter	A	8	60	51.5	2	1	0	0	0	3	
+854	LLORENTE Fernando	Juventus	A	2	0	0	0	0	0	0	0	0	
+855	LOI Antonio	Carpi	A	2	0	0	0	0	0	0	0	0	
+856	LOPEZ Maxi	Torino	A	12	83	73.5	3	1	0	0	0	1	
+857	LOPEZ Nico	Udinese	A	2	0	0	0	0	0	0	0	0	
+858	LUIZ ADRIANO	Milan	A	11	72.5	63	3	1	0	0	0	1	
+859	LUPOLI Arturo	Frosinone	A	2	0	0	0	0	0	0	0	0	
+860	MACCARONE Massimo	Empoli	A	13	89	80	3	2	0	0	0	1	
+861	MANCOSU Matteo	Bologna	A	7	36	30.5	0	0	0	0	0	0	
+862	MANDZUKIC Mario	Juventus	A	11	72.5	64	3	1	0	0	0	0	
+863	MARILUNGO Guido	Atalanta	A	2	0	0	0	0	0	0	0	0	
 864	MARTINEZ Josef	Torino	A	4	21	21	0	0	0	0	0	0	
-865	MATOS	Carpi	A	12	74	73	1	0	0	-1	0	1	
-866	MATRI Alessandro	Lazio	A	7	45.5	34.5	2	1	0	0	0	0	
-867	MBAKOGU Jerry	Carpi	A	4	24	24	0	0	0	0	0	0	
+865	MATOS	Carpi	A	13	79	78.5	1	1	0	-1	0	1	
+866	MATRI Alessandro	Lazio	A	9	56	45	2	1	0	0	0	0	
+867	MBAKOGU Jerry	Carpi	A	6	35.5	35.5	0	0	0	0	0	0	
 868	MCHEDLIDZE Levan	Empoli	A	1	5	5	0	0	0	0	0	0	
-869	MEGGIORINI Riccardo	Chievo	A	11	77.5	70.5	2	4	0	0	0	3	
+869	MEGGIORINI Riccardo	Chievo	A	13	94	84.5	3	5	0	0	0	3	
 870	MENEZ Jeremy	Milan	A	0	-	-							
 871	MONACHELLO Gaetano	Atalanta	A	2	11	11.5	0	1	0	0	0	0	
-872	MORATA Alvaro	Juventus	A	10	59.5	57	1	3	0	0	0	1	
-873	MORRA Claudio	Torino	A	0	-	-							
+872	MORATA Alvaro	Juventus	A	11	66.5	63	1	3	0	0	0	2	
+873	MORRA Claudio	Torino	A	2	0	0	0	0	0	0	0	0	
 874	MPOKU Paul-Jose	Chievo	A	2	11.5	12	0	1	0	0	0	0	
-875	MURIEL Luis	Sampdoria	A	12	78	70.5	2	1	0	0	0	2	
-876	NIANG M'Baye	Milan	A	2	12.5	12.5	0	0	0	0	0	0	
-877	OKAKA Stefano	Sampdoria	A	0	-	-							
-878	PALACIO Rodrigo	Inter	A	7	40.5	40	0	1	0	0	0	1	
-879	PALMIERI Federico	Carpi	A	0	-	-							
-880	PALOSCHI Alberto	Chievo	A	12	82	73	3	0	0	0	0	0	
-881	PANDEV Goran	Genoa	A	4	19.5	20.5	0	0	1	0	0	0	
+875	MURIEL Luis	Sampdoria	A	13	82.5	75	2	1	0	0	0	2	
+876	NIANG M'Baye	Milan	A	4	33.5	26.5	2	0	0	0	0	1	
+877	OKAKA Stefano	Sampdoria	A	2	0	0	0	0	0	0	0	0	
+878	PALACIO Rodrigo	Inter	A	8	47	46.5	0	1	0	0	0	1	
+879	PALMIERI Federico	Carpi	A	2	0	0	0	0	0	0	0	0	
+880	PALOSCHI Alberto	Chievo	A	14	102	86.5	5	1	0	0	0	1	
+881	PANDEV Goran	Genoa	A	6	30	25.5	0	0	1	0	0	0	
 882	PANICO Giuseppe	Genoa	A	0	-	-							
-883	PAVOLETTI Leonardo	Genoa	A	9	72.5	57	5	1	0	0	0	1	
-884	PAZZINI Giampaolo	Verona	A	8	46.5	44.5	1	2	0	0	0	0	
-885	PELLISSIER Sergio	Chievo	A	5	32	29	1	0	0	0	0	0	
-886	PEREA Brayan	Lazio	A	0	-	-							
+883	PAVOLETTI Leonardo	Genoa	A	10	75.5	61	5	1	1	0	0	1	
+884	PAZZINI Giampaolo	Verona	A	9	52	50	1	2	0	0	0	0	
+885	PELLISSIER Sergio	Chievo	A	6	37.5	34.5	1	0	0	0	0	0	
+886	PEREA Brayan	Lazio	A	2	0	0	0	0	0	0	0	0	
 887	PERICA Stipe	Udinese	A	3	17	17.5	0	1	0	0	0	0	
 888	PINILLA Mauricio	Atalanta	A	9	57.5	54.5	3	4	1	-1	0	0	
 889	PIU Alessandro	Empoli	A	2	11.5	11.5	0	0	0	0	0	0	
-890	PUCCIARELLI Manuel	Empoli	A	12	77	71	2	0	0	0	0	0	
-891	PUSCAS George	Inter	A	0	-	-							
-892	QUAGLIARELLA Fabio	Torino	A	11	74	65	3	0	0	0	0	0	
+890	PUCCIARELLI Manuel	Empoli	A	14	88	82.5	2	1	0	0	0	0	
+891	PUSCAS George	Inter	A	2	0	0	0	0	0	0	0	0	
+892	QUAGLIARELLA Fabio	Torino	A	13	84.5	75.5	3	0	0	0	0	0	
 893	REBIC Ante	Fiorentina	A	4	25.5	23.5	1	2	0	0	0	0	
-894	ROSSI Giuseppe	Fiorentina	A	7	42.5	36.5	0	1	0	0	0	1	
-895	SANABRIA Antonio	Roma	A	0	-	-							
-896	SANSONE Nicola	Sassuolo	A	11	65	58.5	2	4	0	-1	0	0	
-897	SERENI Marcello	Sassuolo	A	0	-	-							
-898	SILIGARDI Luca	Verona	A	7	39.5	34	0	0	0	0	0	0	
-899	SOWE Ali	Chievo	A	0	-	-							
-900	STOIAN Adrian	Chievo	A	0	-	-							
-901	THEREAU Cyril	Udinese	A	11	72	64	2	0	0	0	0	2	
-902	TONI Luca	Verona	A	4	25	22.5	1	1	0	0	0	0	
+894	ROSSI Giuseppe	Fiorentina	A	8	47.5	41.5	0	1	0	0	0	1	
+895	SANABRIA Antonio	Roma	A	2	0	0	0	0	0	0	0	0	
+896	SANSONE Nicola	Sassuolo	A	13	78	71.5	2	4	0	-1	0	0	
+897	SERENI Marcello	Sassuolo	A	2	0	0	0	0	0	0	0	0	
+898	SILIGARDI Luca	Verona	A	9	52.5	47	0	0	0	0	0	0	
+899	SOWE Ali	Chievo	A	2	0	0	0	0	0	0	0	0	
+900	STOIAN Adrian	Chievo	A	2	0	0	0	0	0	0	0	0	
+901	THEREAU Cyril	Udinese	A	13	92.5	78.5	4	0	0	0	0	2	
+902	TONI Luca	Verona	A	6	36	33.5	1	1	0	0	0	0	
 904	TOTTI Francesco	Roma	A	3	19.5	17	1	1	0	0	0	0	
-905	TRAJKOVSKI Aleksandar	Palermo	A	8	46	46.5	0	1	0	0	0	0	
-906	VARGAS Eduardo	Napoli	A	0	-	-							
-907	VAZQUEZ Franco	Palermo	A	12	75	72	1	4	0	0	0	2	
+905	TRAJKOVSKI Aleksandar	Palermo	A	10	55.5	56	0	1	0	0	0	0	
+906	VARGAS Eduardo	Napoli	A	2	0	0	0	0	0	0	0	0	
+907	VAZQUEZ Franco	Palermo	A	13	80	77.5	1	5	0	0	0	2	
 908	VERDE Daniele	Frosinone	A	3	17	6	0	0	0	0	0	0	
 909	WILCZEK Kamil	Carpi	A	2	10.5	5	0	0	0	0	0	0	
-910	YAMGA Arthur	Chievo	A	0	-	-							
-911	ZAPATA Alexis	Udinese	A	0	-	-							
+910	YAMGA Arthur	Chievo	A	2	0	0	0	0	0	0	0	0	
+911	ZAPATA Alexis	Udinese	A	2	0	0	0	0	0	0	0	0	
 912	ZAPATA Duvan	Udinese	A	5	41	32.5	3	1	0	0	0	0	
-913	ZAZA Simone	Juventus	A	5	29.5	16.5	1	2	0	0	0	0	
-914	JOVETIC Stevan	Inter	A	8	57.5	50.5	2	0	0	0	0	1	
+913	ZAZA Simone	Juventus	A	6	39	23	2	2	0	0	0	0	
+914	JOVETIC Stevan	Inter	A	10	69.5	62.5	2	0	0	0	0	1	
 915	SALAH Mohamed	Roma	A	10	76.5	62.5	5	0	1	0	0	0	
-916	DEFREL Gregoire	Sassuolo	A	12	73.5	67.5	2	0	0	0	0	0	
+916	DEFREL Gregoire	Sassuolo	A	14	85.5	79.5	2	0	0	0	0	0	
 917	LONGO Samuele	Frosinone	A	4	21	16	0	1	0	0	0	0	
-918	DZEKO Edin	Roma	A	10	69.5	61.5	3	2	0	0	0	0	
-919	PAPONI Daniele	Bologna	A	0	-	-							
-920	CASSANO Antonio	Sampdoria	A	6	34.5	34.5	0	0	0	0	0	0	
+918	DZEKO Edin	Roma	A	12	79.5	71.5	3	2	0	0	0	0	
+919	PAPONI Daniele	Bologna	A	2	0	0	0	0	0	0	0	0	
+920	CASSANO Antonio	Sampdoria	A	7	39.5	39.5	0	0	0	0	0	0	
 921	MANAJ Rey	Inter	A	1	6	6	0	0	0	0	0	0	
 922	ONETO Edoardo	Sampdoria	A	0	-	-							
-923	KALINIC Nikola	Fiorentina	A	11	101.5	74	9	1	0	0	0	1	
+923	KALINIC Nikola	Fiorentina	A	13	117.5	87	10	1	0	0	0	1	
 924	DJURDJEVIC Uros	Palermo	A	2	14.5	11.5	1	0	0	0	0	0	
 925	BALOTELLI Mario	Milan	A	4	29.5	27	1	1	0	0	0	0	
 926	BAEZ Jaime	Fiorentina	A	0	-	-							
-927	GILARDINO Alberto	Palermo	A	11	71.5	63	3	3	0	0	0	1	
-928	HIWAT Ryan	Carpi	A	0	-	-							
-929	CASTILLO Nicolas	Frosinone	A	4	16	16.5	0	1	0	0	0	0	
-930	BORRIELLO Marco	Carpi	A	9	55.5	49.5	2	0	1	0	0	1	
-931	LIVAJA Marko	Empoli	A	8	43	41.5	1	3	0	0	0	0	
-932	PONCE Andres	Sampdoria	A	1	0	0	0	0	0	0	0	0	
+927	GILARDINO Alberto	Palermo	A	13	82	73.5	3	3	0	0	0	1	
+928	HIWAT Ryan	Carpi	A	2	0	0	0	0	0	0	0	0	
+929	CASTILLO Nicolas	Frosinone	A	5	21	21.5	0	1	0	0	0	0	
+930	BORRIELLO Marco	Carpi	A	11	74	64.5	3	1	1	0	0	2	
+931	LIVAJA Marko	Empoli	A	9	48.5	47.5	1	4	0	0	0	0	
+932	PONCE Andres	Sampdoria	A	3	0	0	0	0	0	0	0	0	
 933	PONCE Ezequiel	Roma	A	1	0	0	0	0	0	0	0	0	
 934	RODRIGUEZ Alejandro	Sampdoria	A	1	0	0	0	0	0	0	0	0	
 935	MENDEZ Kevin	Roma	A	1	0	0	0	0	0	0	0	0	
 
 169	ROMO Rafael	Udinese	P	0	-	-							
-726	BELLOMO Nicola	Chievo	C	0	-	-							
-936	GOMES Bruno	Genoa	A	0	-	-							
+726	BELLOMO Nicola	Chievo	C	2	0	0	0	0	0	0	0	0	
+936	GOMES Bruno	Genoa	A	2	0	0	0	0	0	0	0	0	
 
 170	STOJANOVIC Dejan	Bologna	P	0	-	-							
 727	MATUZALEM Francelino	Verona	C	5	27	16.5	0	1	0	0	0	0	
 
-728	LODI Francesco	Udinese	C	7	45.5	43.5	1	2	0	0	0	0	
+728	LODI Francesco	Udinese	C	9	58.5	56.5	1	2	0	0	0	0	
 
 
 
@@ -661,4 +661,7 @@
 
 
 
+
+
+426	AJETI Arlind	Frosinone	D	0	-	-							
 

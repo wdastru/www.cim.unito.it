@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-LOPEZ Diego
-PERIN Mattia
 DONNARUMMA Gianluigi
-BONUCCI Leonardo
-CISSOKHO Issa
-ALBIOL Raul
-JUAN JESUS
-ALEX SANDRO
+PERIN Mattia
+LOPEZ Diego
 BARZAGLI Andrea
+BONUCCI Leonardo
+ALEX SANDRO
+ALBIOL Raul
 GOBBI Massimo
+CISSOKHO Issa
 STENDARDO Guglielmo
-CUADRADO Juan
-NTCHAM Olivier
+JUAN JESUS
 GOMEZ Alejandro
-BRIENZA Franco
-PAROLO Marco
-LODI Francesco
-QUAISON Robin
 SAPONARA Riccardo
-IAGO Falque
+CUADRADO Juan
+BRIENZA Franco
+LODI Francesco
+PAROLO Marco
+QUAISON Robin
+NTCHAM Olivier
 PALOSCHI Alberto
-DIONISI Federico
 EDER Citadin Martins
 LUIZ ADRIANO
 GERVINHO
+DIONISI Federico
+IAGO Falque
 13
 347-2375356
-Fri 11 Dec 2015 - 22:04:48
+Sat 12 Dec 2015 - 10:44:19

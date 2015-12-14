@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-HANDANOVIC Samir
 VIVIANO Emiliano
+HANDANOVIC Samir
 CARRIZO Juan Pablo
-ROMAGNOLI Alessio
-RODRIGUEZ Gonzalo
 ACERBI Francesco
-GAMBERINI Alessandro
+ASTORI Davide
+RODRIGUEZ Gonzalo
 PASQUAL Manuel
 ROSI Aleandro
-CANNAVARO Paolo
-ASTORI Davide
-MEDEL Gary
-KEITA Seydou
+GAMBERINI Alessandro
+ROMAGNOLI Alessio
+DRAME' Boukary
 FLORENZI Alessandro
-CROCE Daniele
+MEDEL Gary
 HETEMAJ Perparim
 MAGNANELLI Francesco
-LAXALT Diego
 DE ROON Marten
-TONI Luca
-DZEKO Edin
+LAXALT Diego
+CROCE Daniele
+KEITA Seydou
 HIGUAIN Gonzalo
-GILARDINO Alberto
+DZEKO Edin
 LJAJIC Adem
 MATOS
-125
+GILARDINO Alberto
+TONI Luca
+128
 3404073967
-Thu 03 Dec 2015 - 17:17:34
+Sat 28 Nov 2015 - 14:05:35

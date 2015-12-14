@@ -17,7 +17,7 @@ MOUNIER Anthony
 GUARIN Fredy
 POGBA Paul
 DONSAH Godfred
-BADU Emmanuel
+KONE Panagiotis
 BIRSA Valter
 PEROTTI Diego
 DESTRO Mattia
@@ -26,6 +26,6 @@ BELOTTI Andrea
 LOPEZ Maxi
 NIANG M'Baye
 MEGGIORINI Riccardo
-164
+167
 3474046541
-Sat 12 Dec 2015 - 16:55:06
+Fri 04 Dec 2015 - 08:17:39

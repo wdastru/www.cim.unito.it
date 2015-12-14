@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+4 - 4 - 2
+1 - 4 - 4 - 2
 1 - 2 - 2 - 2
+SKORUPSKI Lukasz
 TATARUSANU Ciprian
 SEPE Luigi
-SKORUPSKI Lukasz
-LICHTSTEINER Stephan
-CHIELLINI Giorgio
-MANOLAS Kostas
-DE MAIO Sebastien
-SANTON Davide
 MIRANDA Joao
+CHIELLINI Giorgio
+LICHTSTEINER Stephan
+MANOLAS Kostas
 MOISANDER Niklas
 HOEDT Wesley
+SANTON Davide
+DE MAIO Sebastien
 PJANIC Miralem
-BERTOLACCI Andrea
-GIACCHERINI Emanuele
+VECINO Matias
+FERNANDO Lucas Martins
 BIGLIA Lucas
 KISHNA Ricardo
-FERNANDO Lucas Martins
 FERNANDEZ Mati
-VECINO Matias
-JOVETIC Stevan
-GABBIADINI Manolo
+GIACCHERINI Emanuele
+BERTOLACCI Andrea
 SALAH Mohamed
 PUCCIARELLI Manuel
+JOVETIC Stevan
 BABACAR Khouma
 ROSSI Giuseppe
+GABBIADINI Manolo
 121
 3337815436
-Sat 28 Nov 2015 - 11:20:54
+Sat 12 Dec 2015 - 14:27:39
