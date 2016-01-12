@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+4 - 4 - 2
+1 - 4 - 4 - 2
 1 - 2 - 2 - 2
 REINA José Manuel
 SPORTIELLO Marco
 RAFAEL Cabral barbosa
+WIDMER Silvan
 MURILLO Jeison
+DANILO Larangeira
+MORAS Evangelos
 GONZALEZ Giancarlo
 TELLES Alex
-DANILO Larangeira
 GABRIEL SILVA Antunes
-WIDMER Silvan
 DE SILVESTRI Lorenzo
-MORAS Evangelos
-BROZOVIC Marcelo
-MOUNIER Anthony
-GUARIN Fredy
 POGBA Paul
-DONSAH Godfred
-BADU Emmanuel
 BIRSA Valter
+BADU Emmanuel
+BROZOVIC Marcelo
+GUARIN Fredy
+DONSAH Godfred
 PEROTTI Diego
+MOUNIER Anthony
 DESTRO Mattia
-ZAPATA Duvan
-BELOTTI Andrea
 LOPEZ Maxi
+BELOTTI Andrea
 NIANG M'Baye
+ZAPATA Duvan
 MEGGIORINI Riccardo
 156
 3474046541
-Fri 08 Jan 2016 - 19:25:56
+Sat 09 Jan 2016 - 12:17:58

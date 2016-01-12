@@ -15,7 +15,7 @@ ASTORI Davide
 MEDEL Gary
 KEITA Seydou
 FLORENZI Alessandro
-PAREDES Leandro
+CROCE Daniele
 HETEMAJ Perparim
 MAGNANELLI Francesco
 LAXALT Diego
@@ -26,6 +26,6 @@ HIGUAIN Gonzalo
 GILARDINO Alberto
 LJAJIC Adem
 MATOS
-122
+125
 3404073967
-Sat 09 Jan 2016 - 14:07:40
+Thu 03 Dec 2015 - 17:17:34

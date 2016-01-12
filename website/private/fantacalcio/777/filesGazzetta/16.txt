@@ -8,9 +8,9 @@
 109	BRKIC Zeljko	Carpi	P	P	SI	4	-	-							
 110	BUFFON Gianluigi	Juventus	P	P	SI	21	5	S.V.	-1	0	0	0	0	0	
 111	CARRIZO Juan Pablo	Inter	P	P	SI	1	-	-							
-112	CASTELLAZZI Luca	Torino	P	P	SI	1	5	S.V.	0	0	0	0	0	0	
+112	CASTELLAZZI Luca	Torino	P	P	SI	1	5	5	0	0	0	0	0	0	
 113	COLOMBI Simone	Palermo	P	P	SI	1	-	-							
-114	CONSIGLI Andrea	Sassuolo	P	P	SI	16	5	S.V.	0	0	0	0	0	0	
+114	CONSIGLI Andrea	Sassuolo	P	P	SI	16	5	5	0	0	0	0	0	0	
 115	COPPOLA Ferdinando	Verona	P	P	SI	1	-	-							
 116	DA COSTA Angelo	Bologna	P	P	SI	1	-	-							
 117	DE SANCTIS Morgan	Roma	P	P	SI	4	-	-							
@@ -21,7 +21,7 @@
 122	GOMIS Lys	Frosinone	P	P	SI	1	-	-							
 123	GUERRIERI Guido	Lazio	P	P	SI	1	-	-							
 124	HANDANOVIC Samir	Inter	P	P	SI	22	7.5	7.5	0	0	0	0	0	0	
-125	ICHAZO Salvador	Torino	P	P	SI	1	5	S.V.	0	0	0	0	0	0	
+125	ICHAZO Salvador	Torino	P	P	SI	1	5	6	0	0	0	0	0	0	
 126	KARNEZIS Orestis	Udinese	P	P	SI	14	1.5	5.5	-4	0	0	0	0	0	
 127	LAMANNA Eugenio	Genoa	P	P	SI	4	-	-							
 128	LEALI Nicola	Frosinone	P	P	SI	11	1.5	5.5	-4	0	0	0	0	0	
@@ -33,12 +33,12 @@
 134	MIRANTE Antonio	Bologna	P	P	SI	14	7	7	0	0	0	0	0	0	
 135	MURANO Maicol	Carpi	P	P	NO	1	0	0	0	0	0	0	0	0	
 136	NETO Norberto	Juventus	P	P	SI	1	-	-							
-137	PADELLI Daniele	Torino	P	P	SI	13	5	S.V.	0	0	0	0	0	0	
-138	PEGOLO Gianluca	Sassuolo	P	P	SI	1	5	S.V.	0	0	0	0	0	0	
+137	PADELLI Daniele	Torino	P	P	SI	13	5	6	0	0	0	0	0	0	
+138	PEGOLO Gianluca	Sassuolo	P	P	SI	1	5	6	0	0	0	0	0	0	
 139	PELAGOTTI Alberto	Empoli	P	P	SI	1	-	-							
 140	PERIN Mattia	Genoa	P	P	SI	13	5.5	6.5	-1	0	0	0	0	0	
 141	PIGLIACELLI Mirko	Frosinone	P	P	NO	1	0	0	0	0	0	0	0	0	
-142	POMINI Alberto	Sassuolo	P	P	SI	1	5	S.V.	0	0	0	0	0	0	
+142	POMINI Alberto	Sassuolo	P	P	SI	1	5	6	0	0	0	0	0	0	
 144	PUGGIONI Christian	Sampdoria	P	P	SI	1	-	-							
 145	PUGLIESI Maurizio	Empoli	P	P	SI	1	-	-							
 146	RADUNOVIC Boris	Atalanta	P	P	SI	1	-	-							
@@ -67,7 +67,7 @@
 169	ROMO Rafael	Udinese	P	P	SI	1	-	-							
 170	STOJANOVIC Dejan	Bologna	P	P	SI	1	-	-							
 201	ABATE Ignazio	Milan	D	D	SI	5	5	5.5	0	-0.5	0	0	0	0	
-202	ACERBI Francesco	Sassuolo	D	D	SI	15	6	S.V.	0	0	0	0	0	0	
+202	ACERBI Francesco	Sassuolo	D	D	SI	15	6	6	0	0	0	0	0	0	
 203	ADNAN Ali Kadhim	Udinese	D	D	SI	7	-	-							
 204	ALBERTAZZI Michelangelo	Verona	D	D	SI	2	-	-							
 205	ALBIOL Raul	Napoli	D	D	SI	10	5.5	6	0	-0.5	0	0	0	0	
@@ -76,10 +76,10 @@
 208	ALTOBELLI Daniele	Frosinone	D	D	NO	2	0	0	0	0	0	0	0	0	
 209	ANDELKOVIC Sinisa	Palermo	D	D	SI	4	-	-							
 210	ANDREOLLI Marco	Inter	D	D	NO	3	0	0	0	0	0	0	0	0	
-211	ANTEI Luca	Sassuolo	D	D	SI	3	6	S.V.	0	0	0	0	0	0	
+211	ANTEI Luca	Sassuolo	D	D	SI	3	6	6	0	0	0	0	0	0	
 212	ANTONELLI Luca	Milan	D	D	SI	9	-	-							
-213	ARIAUDO Lorenzo	Sassuolo	D	D	SI	4	6	S.V.	0	0	0	0	0	0	
-214	AVELAR Danilo	Torino	D	D	SI	4	6	S.V.	0	0	0	0	0	0	
+213	ARIAUDO Lorenzo	Sassuolo	D	D	SI	4	6	6	0	0	0	0	0	0	
+214	AVELAR Danilo	Torino	D	D	SI	4	6	6	0	0	0	0	0	0	
 215	BAGADUR Ricardo	Fiorentina	D	D	SI	1	-	-							
 216	BARBA Federico	Empoli	D	D	SI	4	-	-							
 217	BARZAGLI Andrea	Juventus	D	D	SI	12	6.5	6.5	0	0	0	0	0	0	
@@ -95,7 +95,7 @@
 227	BONI Filippo	Verona	D	D	NO	1	0	0	0	0	0	0	0	0	
 228	BONUCCI Leonardo	Juventus	D	D	SI	13	6.5	6.5	0	0	0	0	0	0	
 229	BORGHINI Diego	Empoli	D	D	SI	1	-	-							
-230	BOVO Cesare	Torino	D	D	SI	8	6	S.V.	0	0	0	0	0	0	
+230	BOVO Cesare	Torino	D	D	SI	8	6	6	0	0	0	0	0	0	
 231	BRAAFHEID Edson	Lazio	D	D	SI	4	-	-							
 232	BRIVIO Davide	Atalanta	D	D	SI	4	5	5	0	0	0	0	0	0	
 233	BUBNJIC Igor	Carpi	D	D	SI	4	-	-							
@@ -106,7 +106,7 @@
 238	CAMPORESE Michele	Empoli	D	D	SI	3	-	-							
 239	CANA Lorik	Lazio	D	D	NO	3	0	0	0	0	0	0	0	0	
 240	CANINI Michele	Atalanta	D	D	NO	2	0	0	0	0	0	0	0	0	
-241	CANNAVARO Paolo	Sassuolo	D	D	SI	8	6	S.V.	0	0	0	0	0	0	
+241	CANNAVARO Paolo	Sassuolo	D	D	SI	8	6	6	0	0	0	0	0	0	
 242	CAPRADOSSI Elio	Roma	D	D	SI	1	-	-							
 243	CASSANI Mattia	Sampdoria	D	D	SI	4	-	-							
 244	CASTAN Leandro	Roma	D	D	SI	4	-	-							
@@ -143,17 +143,17 @@
 275	FARAONI Marco Davide	Udinese	D	D	NO	2	0	0	0	0	0	0	0	0	
 276	FERRARI Alex	Bologna	D	D	SI	3	6	6	0	0	0	0	0	0	
 277	FIGUEIRAS Diogo	Genoa	D	D	SI	7	-	-							
-278	FONTANESI Leonardo	Sassuolo	D	D	SI	2	6	S.V.	0	0	0	0	0	0	
+278	FONTANESI Leonardo	Sassuolo	D	D	SI	2	6	6	0	0	0	0	0	0	
 279	FREY Nicolas	Chievo	D	D	SI	5	-	-							
 280	GABRIEL SILVA Antunes	Carpi	D	D	SI	7	5.5	S.V.	0	0	0	0	0	0	
 281	GAGLIOLO Riccardo	Carpi	D	D	SI	5	4.5	5	0	-0.5	0	0	0	0	
 282	GAMBERINI Alessandro	Chievo	D	D	SI	6	6	6	0	0	0	0	0	0	
 283	GASTALDELLO Daniele	Bologna	D	D	SI	8	5	5.5	0	-0.5	0	0	0	0	
-284	GASTON SILVA	Torino	D	D	SI	3	6	S.V.	0	0	0	0	0	0	
-285	GAZZOLA Marcello	Sassuolo	D	D	SI	4	6	S.V.	0	0	0	0	0	0	
+284	GASTON SILVA	Torino	D	D	SI	3	6	6	0	0	0	0	0	0	
+285	GAZZOLA Marcello	Sassuolo	D	D	SI	4	6	6	0	0	0	0	0	0	
 286	GENTILETTI Santiago	Lazio	D	D	SI	4	4.5	5	0	-0.5	0	0	0	0	
 287	GHOULAM Faouzi	Napoli	D	D	SI	9	6.5	6.5	0	0	0	0	0	0	
-288	GLIK Kamil	Torino	D	D	SI	13	6	S.V.	0	0	0	0	0	0	
+288	GLIK Kamil	Torino	D	D	SI	13	6	6	0	0	0	0	0	0	
 289	GOBBI Massimo	Chievo	D	D	SI	8	6	6	0	0	0	0	0	0	
 290	GOLDANIGA Edoardo	Palermo	D	D	SI	8	9	6	3	0	0	0	0	0	
 291	GONZALEZ Giancarlo	Palermo	D	D	SI	10	6	6.5	0	-0.5	0	0	0	0	
@@ -164,7 +164,7 @@
 296	HYSAJ Elseid	Napoli	D	D	SI	7	6	6	0	0	0	0	0	0	
 297	ISLA Mauricio	Juventus	D	D	NO	4	0	0	0	0	0	0	0	0	
 298	IZZO Armando	Genoa	D	D	SI	7	6	6	0	0	0	0	0	0	
-299	JANSSON Pontus	Torino	D	D	SI	3	6	S.V.	0	0	0	0	0	0	
+299	JANSSON Pontus	Torino	D	D	SI	3	6	6	0	0	0	0	0	0	
 300	JUAN JESUS	Inter	D	D	SI	4	-	-							
 301	KONKO Abdoulay	Lazio	D	D	SI	3	4.5	4.5	0	0	0	0	0	0	
 302	KOULIBALY Kalidou	Napoli	D	D	SI	10	7	7	0	0	0	0	0	0	
@@ -173,12 +173,12 @@
 305	LAZAAR Achraf	Palermo	D	D	SI	8	6.5	6.5	0	0	0	0	0	0	
 306	LETIZIA Gaetano	Carpi	D	D	SI	9	5.5	5.5	0	0	0	0	0	0	
 307	LICHTSTEINER Stephan	Juventus	D	D	SI	9	-	-							
-308	LONGHI Alessandro	Sassuolo	D	D	SI	4	6	S.V.	0	0	0	0	0	0	
+308	LONGHI Alessandro	Sassuolo	D	D	SI	4	6	6	0	0	0	0	0	0	
 309	LUPERTO Sebastiano	Napoli	D	D	SI	1	-	-							
 310	MAGGIO Christian	Napoli	D	D	SI	4	-	-							
 311	MAICON Douglas Sisenando	Roma	D	D	SI	7	-	-							
 312	MAIETTA Domenico	Bologna	D	D	SI	4	-	-							
-313	MAKSIMOVIC Nikola	Torino	D	D	SI	4	6	S.V.	0	0	0	0	0	0	
+313	MAKSIMOVIC Nikola	Torino	D	D	SI	4	6	6	0	0	0	0	0	0	
 314	MANOLAS Kostas	Roma	D	D	SI	14	7	7	0	0	0	0	0	0	
 315	MARCHESE Giovanni	Genoa	D	D	SI	4	-	-							
 316	MARIO RUI	Empoli	D	D	SI	9	7	7	0	0	0	0	0	0	
@@ -193,10 +193,10 @@
 325	MEXES Philippe	Milan	D	D	SI	4	-	-							
 326	MIRANDA Joao	Inter	D	D	SI	13	6.5	6.5	0	0	0	0	0	0	
 327	MOISANDER Niklas	Sampdoria	D	D	SI	5	6	6	0	0	0	0	0	0	
-328	MOLINARO Cristian	Torino	D	D	SI	7	6	S.V.	0	0	0	0	0	0	
+328	MOLINARO Cristian	Torino	D	D	SI	7	6	6	0	0	0	0	0	0	
 329	MONTOYA Martin	Inter	D	D	SI	4	6	6	0	0	0	0	0	0	
 330	MORAS Evangelos	Verona	D	D	SI	10	5.5	6	0	-0.5	0	0	0	0	
-331	MORETTI Emiliano	Torino	D	D	SI	10	6	S.V.	0	0	0	0	0	0	
+331	MORETTI Emiliano	Torino	D	D	SI	10	6	6	0	0	0	0	0	0	
 332	MORLEO Archimede	Bologna	D	D	SI	4	6	6	0	0	0	0	0	0	
 333	MUNOZ Ezequiel	Genoa	D	D	SI	4	-	-							
 334	MURILLO Jeison	Inter	D	D	SI	12	6.5	6.5	0	0	0	0	0	0	
@@ -208,7 +208,7 @@
 340	PASQUALE Giovanni	Udinese	D	D	SI	4	-	-							
 341	PATRIC	Lazio	D	D	SI	2	-	-							
 342	PAVLOVIC Daniel	Frosinone	D	D	SI	4	5.5	6	0	-0.5	0	0	0	0	
-343	PELUSO Federico	Sassuolo	D	D	SI	6	6	S.V.	0	0	0	0	0	0	
+343	PELUSO Federico	Sassuolo	D	D	SI	6	6	6	0	0	0	0	0	0	
 344	PERES Bruno	Torino	D	D	SI	11	-	-							
 345	PIRIS Ivan	Udinese	D	D	SI	5	5	5	0	0	0	0	0	0	
 346	PIRRELLO Roberto	Palermo	D	D	SI	1	-	-							
@@ -241,7 +241,7 @@
 373	STRUNA Aljaz	Palermo	D	D	SI	4	5.5	5.5	0	0	0	0	0	0	
 374	SUAGHER Emanuele	Atalanta	D	D	SI	3	-	-							
 375	TAMBE' Alassane	Genoa	D	D	SI	3	-	-							
-376	TERRANOVA Emanuele	Sassuolo	D	D	SI	4	6	S.V.	0	0	0	0	0	0	
+376	TERRANOVA Emanuele	Sassuolo	D	D	SI	4	6	6	0	0	0	0	0	0	
 377	TERZI Claudio	Palermo	D	D	NO	3	0	0	0	0	0	0	0	0	
 378	TOMOVIC Nenad	Fiorentina	D	D	SI	7	6	6	0	0	0	0	0	0	
 379	TONELLI Lorenzo	Empoli	D	D	SI	13	6	6	0	0	0	0	0	0	
@@ -250,7 +250,7 @@
 382	VELAZQUEZ Julian	Palermo	D	D	NO	4	0	0	0	0	0	0	0	0	
 383	VIDIC Nemanja	Inter	D	D	SI	4	-	-							
 384	VITIELLO Roberto	Palermo	D	D	SI	3	-	-							
-385	VRSALJKO Sime	Sassuolo	D	D	SI	10	6	S.V.	0	0	0	0	0	0	
+385	VRSALJKO Sime	Sassuolo	D	D	SI	10	6	6	0	0	0	0	0	0	
 386	WAGUE Molla	Udinese	D	D	SI	5	5	5	0	0	0	0	0	0	
 387	WALLACE	Carpi	D	D	SI	4	-	-							
 388	WIDMER Silvan	Udinese	D	D	SI	11	6	6	0	0	0	0	0	0	
@@ -259,7 +259,7 @@
 391	ZACCARDO Cristian	Carpi	D	D	SI	7	6	6	0	0	0	0	0	0	
 393	ZANON Damiano	Frosinone	D	D	NO	4	0	0	0	0	0	0	0	0	
 394	ZAPATA Cristian	Milan	D	D	SI	4	-	-							
-395	ZAPPACOSTA Davide	Torino	D	D	SI	10	6	S.V.	0	0	0	0	0	0	
+395	ZAPPACOSTA Davide	Torino	D	D	SI	10	6	6	0	0	0	0	0	0	
 396	ZUKANOVIC Ervin	Sampdoria	D	D	SI	11	8.5	6	3	-0.5	0	0	0	0	
 397	ZUNIGA Juan Camilo	Napoli	D	D	SI	4	-	-							
 398	GILBERTO	Fiorentina	D	D	SI	4	-	-							
@@ -288,9 +288,9 @@
 422	MORGANELLA Michel	Palermo	D	D	SI	3	-	-							
 423	COSIC Uros	Empoli	D	D	SI	3	-	-							
 424	FELIPE	Udinese	D	D	SI	6	-	-							
-425	PRYIMA Vasyl	Torino	D	D	SI	4	6	S.V.	0	0	0	0	0	0	
+425	PRYIMA Vasyl	Torino	D	D	SI	4	6	6	0	0	0	0	0	0	
 426	AJETI Arlind	Frosinone	D	D	SI	4	-	-							
-501	ACQUAH Afriyie	Torino	C	C	SI	9	6	S.V.	0	0	0	0	0	0	
+501	ACQUAH Afriyie	Torino	C	C	SI	9	6	6	0	0	0	0	0	0	
 502	ALLAN Marques Loureiro	Napoli	C	C	SI	17	6	6	0	0	0	0	0	0	
 503	ANDERSON Felipe	Lazio	T	C	SI	21	5	5	0	0	0	0	0	0	
 504	ASAMOAH Kwadwo	Juventus	C	C	SI	4	-	-							
@@ -298,19 +298,19 @@
 506	BADU Emmanuel	Udinese	C	C	SI	13	-	-							
 507	BAKIC Marko	Fiorentina	C	C	SI	2	-	-							
 508	BARRETO Edgar	Sampdoria	C	C	SI	10	5.5	5.5	0	0	0	0	0	0	
-509	BASELLI Daniele	Torino	C	C	SI	15	6	S.V.	0	0	0	0	0	0	
+509	BASELLI Daniele	Torino	C	C	SI	15	6	6	0	0	0	0	0	0	
 510	BENALI Ahmad	Palermo	C	C	NO	5	0	0	0	0	0	0	0	0	
-511	BENASSI Marco	Torino	C	C	SI	9	6	S.V.	0	0	0	0	0	0	
+511	BENASSI Marco	Torino	C	C	SI	9	6	6	0	0	0	0	0	0	
 512	BERTOLACCI Andrea	Milan	C	C	SI	11	6	6	0	0	0	0	0	0	
 513	BIANCO Raffaele	Carpi	C	C	SI	4	-	-							
 514	BIGLIA Lucas	Lazio	C	C	SI	13	6	6	0	0	0	0	0	0	
-515	BIONDINI Davide	Sassuolo	C	C	SI	6	6	S.V.	0	0	0	0	0	0	
+515	BIONDINI Davide	Sassuolo	C	C	SI	6	6	6	0	0	0	0	0	0	
 516	BIRSA Valter	Chievo	T	C	SI	15	10	7	3	0	0	0	0	0	
 517	BOLZONI Francesco	Palermo	C	C	SI	3	-	-							
 518	BONAVENTURA Giacomo	Milan	T	C	SI	22	6.5	7	0	-0.5	0	0	0	0	
 519	BRIGHI Matteo	Bologna	C	C	SI	5	6	6	0	0	0	0	0	0	
 520	BRILLANTE Joshua	Empoli	C	C	NO	3	0	0	0	0	0	0	0	0	
-521	BROH Jeremie	Sassuolo	C	C	SI	1	6	S.V.	0	0	0	0	0	0	
+521	BROH Jeremie	Sassuolo	C	C	SI	1	6	6	0	0	0	0	0	0	
 522	BROZOVIC Marcelo	Inter	C	C	SI	13	10	7	3	0	0	0	0	0	
 523	BRUGMAN Gaston	Palermo	C	C	SI	4	-	-							
 524	CANDREVA Antonio	Lazio	T	C	SI	16	6	6	0	0	0	0	0	0	
@@ -340,11 +340,11 @@
 548	DIAKHATE Abdou	Fiorentina	C	C	SI	1	-	-							
 549	DIAWARA Amadou	Bologna	C	C	SI	6	4	5	0	0	-1	0	0	0	
 550	DIOUSSE' Assane	Empoli	C	C	SI	5	5.5	S.V.	0	0	0	0	0	0	
-551	DUNCAN Joseph Alfred	Sassuolo	C	C	SI	7	6	S.V.	0	0	0	0	0	0	
+551	DUNCAN Joseph Alfred	Sassuolo	C	C	SI	7	6	6	0	0	0	0	0	0	
 552	EL KADDOURI Omar	Napoli	C	C	SI	5	-	-							
 553	ESTIGARRIBIA Marcelo	Atalanta	C	C	SI	4	-	-							
 554	EVANGELISTA Lucas	Udinese	T	C	SI	3	-	-							
-555	FARNERUD Alexander	Torino	C	C	SI	4	6	S.V.	0	0	0	0	0	0	
+555	FARNERUD Alexander	Torino	C	C	SI	4	6	6	0	0	0	0	0	0	
 556	FAZZI Nicolò	Fiorentina	T	C	NO	2	0	0	0	0	0	0	0	0	
 557	FERNANDES Bruno	Udinese	T	C	SI	8	5	5.5	0	-0.5	0	0	0	0	
 558	FERNANDEZ Mati	Fiorentina	C	C	SI	8	-	-							
@@ -352,7 +352,7 @@
 560	FLORENZI Alessandro	Roma	C	C	SI	15	5	5	0	0	0	0	0	0	
 561	FRARA Alessandro	Frosinone	C	C	SI	4	-	-							
 562	GAGLIARDINI Roberto	Atalanta	C	C	NO	3	0	0	0	0	0	0	0	0	
-563	GAZZI Alessandro	Torino	C	C	SI	4	6	S.V.	0	0	0	0	0	0	
+563	GAZZI Alessandro	Torino	C	C	SI	4	6	6	0	0	0	0	0	0	
 564	GIORGI Luigi	Atalanta	C	C	NO	3	0	0	0	0	0	0	0	0	
 565	GNOUKOURI Assane Demoya	Inter	C	C	SI	4	-	-							
 566	GOMEZ Alejandro	Atalanta	T	C	SI	22	5.5	5.5	0	0	0	0	0	0	
@@ -389,7 +389,7 @@
 597	KUCKA Juraj	Milan	C	C	SI	8	5	5.5	0	-0.5	0	0	0	0	
 598	KURTIC Jasmin	Atalanta	C	C	SI	7	3.5	4.5	0	0	-1	0	0	0	
 599	LANER Simon	Verona	C	C	NO	2	0	0	0	0	0	0	0	0	
-600	LARIBI Karim	Sassuolo	C	C	SI	5	6	S.V.	0	0	0	0	0	0	
+600	LARIBI Karim	Sassuolo	C	C	SI	5	6	6	0	0	0	0	0	0	
 601	LAXALT Diego	Genoa	T	C	SI	10	5.5	5.5	0	0	0	0	0	0	
 602	LAZOVIC Darko	Genoa	T	C	SI	7	-	-							
 603	LAZZARI Andrea	Carpi	C	C	SI	6	-	-							
@@ -397,7 +397,7 @@
 605	LOPEZ David	Napoli	C	C	SI	8	-	-							
 606	LULIC Karlo	Sampdoria	C	C	NO	1	0	0	0	0	0	0	0	0	
 607	LULIC Senad	Lazio	C	C	SI	11	-	-							
-608	MAGNANELLI Francesco	Sassuolo	C	C	SI	10	6	S.V.	0	0	0	0	0	0	
+608	MAGNANELLI Francesco	Sassuolo	C	C	SI	10	6	6	0	0	0	0	0	0	
 609	MARCHIONNI Marco	Sampdoria	C	C	NO	3	0	0	0	0	0	0	0	0	
 610	MARCHISIO Claudio	Juventus	C	C	SI	11	6	6.5	0	-0.5	0	0	0	0	
 611	MARESCA Enzo	Palermo	C	C	SI	4	-	-							
@@ -409,13 +409,13 @@
 617	MERKEL Alexander	Udinese	C	C	SI	4	-	-							
 618	MERTENS Dries	Napoli	T	C	SI	17	6	6.5	0	-0.5	0	0	0	0	
 619	MIGLIACCIO Giulio	Atalanta	C	C	SI	4	-	-							
-620	MISSIROLI Simone	Sassuolo	C	C	SI	14	6	S.V.	0	0	0	0	0	0	
+620	MISSIROLI Simone	Sassuolo	C	C	SI	14	6	6	0	0	0	0	0	0	
 621	MONTOLIVO Riccardo	Milan	C	C	SI	8	4.5	4.5	0	0	0	0	0	0	
 622	MORALEZ Maxi	Atalanta	T	C	SI	16	5	5	0	0	0	0	0	0	
 623	MORRISON Ravel	Lazio	C	C	SI	4	-	-							
 624	NAINGGOLAN Radja	Roma	C	C	SI	15	5.5	6	0	-0.5	0	0	0	0	
 625	NOCERINO Antonio	Milan	C	C	SI	4	-	-							
-626	OBI Joel	Torino	C	C	SI	2	6	S.V.	0	0	0	0	0	0	
+626	OBI Joel	Torino	C	C	SI	2	6	6	0	0	0	0	0	0	
 627	OIKONOMIDIS Christopher	Lazio	C	C	SI	2	-	-							
 628	ONAZI Ogenyi	Lazio	C	C	SI	4	-	-							
 629	PADOIN Simone	Juventus	C	C	SI	4	-	-							
@@ -425,7 +425,7 @@
 633	PAROLO Marco	Lazio	C	C	SI	13	5.5	5.5	0	0	0	0	0	0	
 634	PASCIUTI Lorenzo	Carpi	C	C	SI	4	5	5	0	0	0	0	0	0	
 635	PASQUATO Cristian	Juventus	T	C	NO	4	0	0	0	0	0	0	0	0	
-636	PELLEGRINI Lorenzo	Sassuolo	C	C	SI	1	6	S.V.	0	0	0	0	0	0	
+636	PELLEGRINI Lorenzo	Sassuolo	C	C	SI	1	6	6	0	0	0	0	0	0	
 637	PEREYRA Roberto	Juventus	T	C	SI	8	-	-							
 638	PEROTTI Diego	Genoa	T	C	SI	15	3	4	0	0	-1	0	0	0	
 639	PETRICCIONE Jacopo	Fiorentina	C	C	NO	1	0	0	0	0	0	0	0	0	
@@ -433,7 +433,7 @@
 641	PJANIC Miralem	Roma	C	C	SI	24	5.5	5.5	0	0	0	0	0	0	
 642	POGBA Paul	Juventus	C	C	SI	18	6	6.5	0	-0.5	0	0	0	0	
 643	POLI Andrea	Milan	C	C	SI	4	-	-							
-644	POLITANO Matteo	Sassuolo	T	C	SI	8	6	S.V.	0	0	0	0	0	0	
+644	POLITANO Matteo	Sassuolo	T	C	SI	8	6	6	0	0	0	0	0	0	
 645	PORCARI Filippo	Carpi	C	C	NO	4	0	0	0	0	0	0	0	0	
 646	PUGLIESE Mario	Carpi	C	C	NO	1	0	0	0	0	0	0	0	0	
 647	QUAISON Robin	Palermo	C	C	SI	9	-	-							
@@ -466,7 +466,7 @@
 675	VECINO Matias	Fiorentina	C	C	SI	10	5.5	6	0	-0.5	0	0	0	0	
 676	VERDI Simone	Milan	T	C	NO	5	0	0	0	0	0	0	0	0	
 677	VERRE Valerio	Udinese	C	C	NO	4	0	0	0	0	0	0	0	0	
-678	VIVES Giuseppe	Torino	C	C	SI	10	6	S.V.	0	0	0	0	0	0	
+678	VIVES Giuseppe	Torino	C	C	SI	10	6	6	0	0	0	0	0	0	
 679	VIVIANI Federico	Verona	C	C	SI	9	6.5	6.5	0	0	0	0	0	0	
 680	WSZOLEK Pawel	Verona	C	C	SI	4	5	5.5	0	-0.5	0	0	0	0	
 681	ZACCAGNI Mattia	Verona	C	C	SI	1	-	-							
@@ -504,7 +504,7 @@
 713	COFIE Isaac	Carpi	C	C	SI	6	6	6	0	0	0	0	0	0	
 714	GIACCHERINI Emanuele	Bologna	T	C	SI	15	-	-							
 715	MELO Felipe	Inter	C	C	SI	11	6.5	6.5	0	0	0	0	0	0	
-716	PRCIC Sanjin	Torino	C	C	SI	4	6	S.V.	0	0	0	0	0	0	
+716	PRCIC Sanjin	Torino	C	C	SI	4	6	6	0	0	0	0	0	0	
 717	BUCHEL Marcel	Empoli	C	C	SI	10	8	7	0	0	0	0	0	1	
 718	CHRISTODOULOPOULOS Lazaros	Sampdoria	C	C	SI	4	6	6	0	0	0	0	0	0	
 719	CHALOBAH Nathaniel	Napoli	C	C	SI	4	-	-							
@@ -519,10 +519,10 @@
 728	LODI Francesco	Udinese	C	C	SI	11	5.5	5.5	0	0	0	0	0	0	
 801	ACQUAFRESCA Robert	Bologna	A	A	SI	3	-	-							
 802	AGUIRRE Rodrigo	Udinese	A	A	SI	5	-	-							
-803	AMAURI De Oliveira	Torino	A	A	SI	4	6	S.V.	0	0	0	0	0	0	
+803	AMAURI De Oliveira	Torino	A	A	SI	4	6	6	0	0	0	0	0	0	
 804	BABACAR Khouma	Fiorentina	A	A	SI	17	-	-							
 805	BACCA Carlos	Milan	A	A	SI	28	9.5	6.5	3	0	0	0	0	0	
-806	BELOTTI Andrea	Torino	A	A	SI	17	6	S.V.	0	0	0	0	0	0	
+806	BELOTTI Andrea	Torino	A	A	SI	17	6	6	0	0	0	0	0	0	
 807	BENTIVEGNA Accursio	Palermo	T	A	NO	1	0	0	0	0	0	0	0	0	
 808	BERARDI Domenico	Sassuolo	T	A	SI	20	-	-							
 809	BERNARDESCHI Federico	Fiorentina	T	A	SI	13	6.5	6.5	0	0	0	0	0	0	
@@ -544,10 +544,10 @@
 826	DOUMBIA Seydou	Roma	A	A	NO	16	0	0	0	0	0	0	0	0	
 827	DYBALA Paulo	Juventus	A	A	SI	34	10.5	7.5	3	0	0	0	0	0	
 828	EDER Citadin Martins	Sampdoria	A	A	SI	30	-	-							
-829	FALCINELLI Diego	Sassuolo	A	A	SI	6	6	S.V.	0	0	0	0	0	0	
+829	FALCINELLI Diego	Sassuolo	A	A	SI	6	6	6	0	0	0	0	0	0	
 830	FARES Mohamed Salim	Verona	A	A	SI	2	-	-							
-831	FLOCCARI Sergio	Sassuolo	A	A	SI	13	6	S.V.	0	0	0	0	0	0	
-832	FLORO FLORES Antonio	Sassuolo	A	A	SI	16	6	S.V.	0	0	0	0	0	0	
+831	FLOCCARI Sergio	Sassuolo	A	A	SI	13	6	6	0	0	0	0	0	0	
+832	FLORO FLORES Antonio	Sassuolo	A	A	SI	16	6	6	0	0	0	0	0	0	
 833	GABBIADINI Manolo	Napoli	A	A	SI	12	-	-							
 834	GAKPE' Serge	Genoa	T	A	SI	12	5.5	5.5	0	0	0	0	0	0	
 835	GEIJO Alexandre	Udinese	A	A	NO	8	0	0	0	0	0	0	0	0	
@@ -571,7 +571,7 @@
 853	LJAJIC Adem	Inter	T	A	SI	16	6	6.5	0	-0.5	0	0	0	0	
 854	LLORENTE Fernando	Juventus	A	A	NO	14	0	0	0	0	0	0	0	0	
 855	LOI Antonio	Carpi	T	A	NO	1	0	0	0	0	0	0	0	0	
-856	LOPEZ Maxi	Torino	A	A	SI	20	6	S.V.	0	0	0	0	0	0	
+856	LOPEZ Maxi	Torino	A	A	SI	20	6	6	0	0	0	0	0	0	
 857	LOPEZ Nico	Udinese	A	A	NO	13	0	0	0	0	0	0	0	0	
 858	LUIZ ADRIANO	Milan	A	A	SI	20	6.5	5.5	0	0	0	0	0	1	
 859	LUPOLI Arturo	Frosinone	A	A	NO	7	0	0	0	0	0	0	0	0	
@@ -579,7 +579,7 @@
 861	MANCOSU Matteo	Bologna	A	A	SI	8	-	-							
 862	MANDZUKIC Mario	Juventus	A	A	SI	24	10	7.5	3	-0.5	0	0	0	0	
 863	MARILUNGO Guido	Atalanta	A	A	NO	8	0	0	0	0	0	0	0	0	
-864	MARTINEZ Josef	Torino	A	A	SI	7	6	S.V.	0	0	0	0	0	0	
+864	MARTINEZ Josef	Torino	A	A	SI	7	6	6	0	0	0	0	0	0	
 865	MATOS	Carpi	T	A	SI	12	6	6	0	0	0	0	0	0	
 866	MATRI Alessandro	Lazio	A	A	SI	14	9.5	6.5	3	0	0	0	0	0	
 867	MBAKOGU Jerry	Carpi	A	A	SI	8	-	-							
@@ -607,11 +607,11 @@
 889	PIU Alessandro	Empoli	A	A	SI	3	-	-							
 890	PUCCIARELLI Manuel	Empoli	A	A	SI	14	5.5	5.5	0	0	0	0	0	0	
 891	PUSCAS George	Inter	A	A	NO	4	0	0	0	0	0	0	0	0	
-892	QUAGLIARELLA Fabio	Torino	A	A	SI	22	6	S.V.	0	0	0	0	0	0	
+892	QUAGLIARELLA Fabio	Torino	A	A	SI	22	6	6	0	0	0	0	0	0	
 893	REBIC Ante	Fiorentina	A	A	SI	4	-	-							
 894	ROSSI Giuseppe	Fiorentina	A	A	SI	14	-	-							
 895	SANABRIA Antonio	Roma	A	A	NO	4	0	0	0	0	0	0	0	0	
-896	SANSONE Nicola	Sassuolo	T	A	SI	15	6	S.V.	0	0	0	0	0	0	
+896	SANSONE Nicola	Sassuolo	T	A	SI	15	6	6	0	0	0	0	0	0	
 897	SERENI Marcello	Sassuolo	A	A	NO	1	0	0	0	0	0	0	0	0	
 898	SILIGARDI Luca	Verona	T	A	SI	10	5.5	5.5	0	0	0	0	0	0	
 899	SOWE Ali	Chievo	A	A	NO	4	0	0	0	0	0	0	0	0	
@@ -630,7 +630,7 @@
 913	ZAZA Simone	Juventus	A	A	SI	10	-	-							
 914	JOVETIC Stevan	Inter	T	A	SI	24	9.5	6.5	3	0	0	0	0	0	
 915	SALAH Mohamed	Roma	T	A	SI	23	5	5	0	0	0	0	0	0	
-916	DEFREL Gregoire	Sassuolo	A	A	SI	16	6	S.V.	0	0	0	0	0	0	
+916	DEFREL Gregoire	Sassuolo	A	A	SI	16	6	6	0	0	0	0	0	0	
 917	LONGO Samuele	Frosinone	A	A	SI	6	-	-							
 918	DZEKO Edin	Roma	A	A	SI	23	6.5	6.5	0	0	0	0	0	0	
 919	PAPONI Daniele	Bologna	A	A	NO	4	0	0	0	0	0	0	0	0	

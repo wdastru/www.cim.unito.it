@@ -2,30 +2,30 @@
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 HANDANOVIC Samir
-VIVIANO Emiliano
 CARRIZO Juan Pablo
-ROMAGNOLI Alessio
+VIVIANO Emiliano
 RODRIGUEZ Gonzalo
-ACERBI Francesco
-GAMBERINI Alessandro
-PASQUAL Manuel
-ROSI Aleandro
-CANNAVARO Paolo
 ASTORI Davide
-MEDEL Gary
-KEITA Seydou
+ACERBI Francesco
+CANNAVARO Paolo
+PASQUAL Manuel
+GAMBERINI Alessandro
+ROMAGNOLI Alessio
+ROSI Aleandro
 FLORENZI Alessandro
-PAREDES Leandro
+MEDEL Gary
 HETEMAJ Perparim
+PAREDES Leandro
 MAGNANELLI Francesco
 LAXALT Diego
+KEITA Seydou
 DE ROON Marten
-TONI Luca
-DZEKO Edin
 HIGUAIN Gonzalo
-GILARDINO Alberto
 LJAJIC Adem
+GILARDINO Alberto
+TONI Luca
 MATOS
+DZEKO Edin
 122
 3404073967
-Sat 09 Jan 2016 - 14:07:40
+Sat 09 Jan 2016 - 14:12:31

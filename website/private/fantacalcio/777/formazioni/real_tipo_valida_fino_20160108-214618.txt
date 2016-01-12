@@ -18,7 +18,7 @@ GOMEZ Alejandro
 BRIENZA Franco
 PAROLO Marco
 LODI Francesco
-RINCON Tomas
+QUAISON Robin
 SAPONARA Riccardo
 IAGO Falque
 PALOSCHI Alberto
@@ -26,6 +26,6 @@ DIONISI Federico
 EDER Citadin Martins
 LUIZ ADRIANO
 GERVINHO
-11
+12
 347-2375356
-Fri 08 Jan 2016 - 21:46:18
+Mon 04 Jan 2016 - 17:27:35

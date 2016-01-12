@@ -17,7 +17,7 @@ SODDIMO Danilo
 LAZOVIC Darko
 ALLAN Marques Loureiro
 MISSIROLI Simone
-ZIELINSKI Piotr
+MORALEZ Maxi
 HERNANES Anderson
 CASTRO Lucas
 MACCARONE Massimo
@@ -28,4 +28,4 @@ MATRI Alessandro
 DJORDJEVIC Filip
 
 
-Mon 04 Jan 2016 - 11:32:33
+Fri 18 Dec 2015 - 18:27:44

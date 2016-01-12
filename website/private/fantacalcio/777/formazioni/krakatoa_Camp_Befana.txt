@@ -2,30 +2,30 @@
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 SORRENTINO Stefano
-RAFAEL De Andrade Bittencourt Pinheiro
 COLOMBI Simone
-BASTA Dusan
+RAFAEL De Andrade Bittencourt Pinheiro
+ALONSO Marcos
 BLANCHARD Leonardo
 MASINA Adam
+ANTONELLI Luca
 RUDIGER Antonio
 ZAPPACOSTA Davide
 CASTAN Leandro
-ANTONELLI Luca
-ALONSO Marcos
+BASTA Dusan
 MARCHISIO Claudio
-SODDIMO Danilo
-LAZOVIC Darko
 ALLAN Marques Loureiro
-MISSIROLI Simone
+LAZOVIC Darko
+CASTRO Lucas
 ZIELINSKI Piotr
 HERNANES Anderson
-CASTRO Lucas
-MACCARONE Massimo
-BERARDI Domenico
+SODDIMO Danilo
+MISSIROLI Simone
 INSIGNE Lorenzo
-CIOFANI Daniel
+BERARDI Domenico
 MATRI Alessandro
+CIOFANI Daniel
+MACCARONE Massimo
 DJORDJEVIC Filip
 
 
-Mon 04 Jan 2016 - 11:32:33
+Tue 05 Jan 2016 - 20:13:50
