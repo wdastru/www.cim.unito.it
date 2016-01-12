@@ -51,6 +51,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </div>
                                 <div id='col2'>
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
+                                    <br/>
+                                    <a href="http://www.eurobioimaging.eu/">
+                                    	<img style="width: 99%" src="images/EuroBioImaging_logo.jpg" alt="EuroBioImaging logo" /></a>
+                                    <a href="<?php echo $localizer; ?>documenti/EuBI Press release 8 Dec 2015 - Hub and Nodes.pdf">Press release 8 Dec 2015</a>
+                                    <div class='divider'></div>
                                     The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
                                     <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
                                     <div class='divider'></div>
