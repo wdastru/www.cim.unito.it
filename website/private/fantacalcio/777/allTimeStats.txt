@@ -1003,6 +1003,6 @@
 1516/Lokomotiv Peccorino/Real Mentescars/////1/
 1516/Lokomotiv Peccorino/Real Mentescars/////0/
 1516/Rapid Bradip/L.A. Krakatoa/0/0/65.5/63/1/
-1516/Rapid Bradip/L.A. Krakatoa/////0/
+1516/Rapid Bradip/L.A. Krakatoa/2/3/73/81.5/0/MACCARONE/BERARDI/SORRENTINO/DYBALA/CANDREVA/
 1516/Rapid Bradip/L.A. Krakatoa/////1/
 1516/Rapid Bradip/L.A. Krakatoa/////0/

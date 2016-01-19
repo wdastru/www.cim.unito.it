@@ -7,7 +7,7 @@ gruppi5/0/4/65.5/85.5/HIGUAIN/DZEKO/GILARDINO/HIGUAIN/
 gruppi6/1/0/68.5/63.5/DONSAH/
 gruppi7/1/1/71.5/66.5/DYBALA/BLANCHARD/
 gruppi8/-/-/-/-/
-gruppi9/-/-/-/-/
+gruppi9/0/2/62/76/ALEX SANDRO/RINCON TOMAS/
 gruppi10/-/-/-/-/
 gruppi11/-/-/-/-/
 semi0/-/-/-/-/

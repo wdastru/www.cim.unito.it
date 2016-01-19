@@ -14,7 +14,7 @@ ANTONELLI Luca
 ALONSO Marcos
 MARCHISIO Claudio
 SODDIMO Danilo
-DIAWARA Amadou
+LAZOVIC Darko
 ALLAN Marques Loureiro
 MISSIROLI Simone
 ZIELINSKI Piotr
@@ -28,4 +28,4 @@ MATRI Alessandro
 DJORDJEVIC Filip
 
 
-Fri 15 Jan 2016 - 11:12:27
+Mon 04 Jan 2016 - 11:32:33
