@@ -23,6 +23,7 @@
 				<div id='sidebar-narrow'>
 					<div class='padding'>
 					<?php
+					/*
 					$today = getdate();
 					echo "<select id='pubsSelector' onchange='showPubs(this)'>";
 					$lastYear = $today['year'];
@@ -30,6 +31,7 @@
 					for ($year=$lastYear; $year>=$firstYear; $year--)
 					echo "<option value='" . $year . "'>" . $year . "</option>";
 					echo "</select>";
+					*/
 					?>
 					</div>
 				</div>
@@ -46,10 +48,30 @@
 						<div class='paddingInner'>
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<div id="publicationsContainer">
-								<!-- 
-									
-									-->
-								
+								<a href='https://scholar.google.com/citations?user=UUy21EsAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Silvio Aime</b></a>
+								<br />                                                              
+								<a href='https://scholar.google.com/citations?user=9aBErO8AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Mauro Botta</b></a>
+								<br />
+								<a href='https://scholar.google.com/citations?user=RN1TohEAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Walter Dastru'</b></a>
+								<br />                                                              
+								<a href='https://scholar.google.com/citations?user=ibKYwMAAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Daniela Delli Castelli</b></a>
+								<br />                                                              
+								<a href='https://scholar.google.com/citations?user=o9WVftoAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Giuseppe Digilio</b></a>
+								<br />
+								<a href='https://scholar.google.com/citations?user=GwU4wk4AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Simonetta Geninatti Crich</b></a>
+								<br />                                                              
+								<a href='https://scholar.google.com/citations?user=WEQvUlMAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Eliana Gianolio</b></a>
+								<br />                                                              
+								<a href='https://scholar.google.com/citations?user=euGug2wAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Dario Longo</b></a>
+								<br />                                                              
+								<a href='https://scholar.google.com/citations?user=nYlL2XgAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Valeria Menchise</b></a>
+								<br />
+								<a href='https://scholar.google.com/citations?user=gjln1k0AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Lorenzo Tei</b></a>
+								<br />
+								<a href='https://scholar.google.com/citations?user=za1fQwwAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Enzo Terreno</b></a>
+								<br />                                                            								
+								<a href='https://scholar.google.com/citations?user=Lu_4eBIAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Alessandra Viale</b></a>
+								<br />
 							</div>
 						</div>
 						<!-- InstanceEndEditable -->
@@ -83,7 +105,7 @@
 	<!-- section closing -->
 	<script type="text/javascript">
 //<![CDATA[
-initPubs();
+//initPubs();
 //]]>
 </script>
 	<!-- <script type="text/javascript">changeSideNavStyles();</script> -->
