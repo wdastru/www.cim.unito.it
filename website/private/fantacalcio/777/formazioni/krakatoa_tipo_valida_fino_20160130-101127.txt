@@ -13,7 +13,7 @@ CASTAN Leandro
 ANTONELLI Luca
 ALONSO Marcos
 MARCHISIO Claudio
-TELLO Cristian
+SODDIMO Danilo
 DIAWARA Amadou
 ALLAN Marques Loureiro
 MISSIROLI Simone
@@ -28,4 +28,4 @@ IMMOBILE Ciro
 DJORDJEVIC Filip
 
 
-Sat 30 Jan 2016 - 10:11:27
+Fri 22 Jan 2016 - 13:28:09

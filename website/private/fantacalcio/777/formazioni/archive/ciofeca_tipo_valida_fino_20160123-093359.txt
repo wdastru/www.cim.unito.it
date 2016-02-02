@@ -18,7 +18,7 @@ GIACCHERINI Emanuele
 BIGLIA Lucas
 HILJEMARK Oscar
 FERNANDO Lucas Martins
-BOATENG Kevin prince
+FERNANDEZ Mati
 VECINO Matias
 JOVETIC Stevan
 GABBIADINI Manolo
@@ -26,6 +26,6 @@ SALAH Mohamed
 PUCCIARELLI Manuel
 BABACAR Khouma
 ROSSI Giuseppe
-117
+120
 3337815436
-Sat 23 Jan 2016 - 09:33:59
+Fri 18 Dec 2015 - 18:17:47
