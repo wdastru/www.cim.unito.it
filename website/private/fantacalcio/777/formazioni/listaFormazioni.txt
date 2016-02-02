@@ -1,15 +1,14 @@
 atletico.txt
-atletico_camp_14.txt
-atletico_camp_15.txt
 atletico_camp_16.txt
+atletico_camp_17.txt
 atletico_coppa_3.txt
-atletico_tipo_valida_fino_20160130-113619.txt
 ciofeca.txt
 ciofeca_camp12.txt
 ciofeca_camp13.txt
 ciofeca_camp14.txt
 ciofeca_camp15.txt
 ciofeca_camp16.txt
+ciofeca_camp17.txt
 ciofeca_coppa3.txt
 eporediese.txt
 eporediese_camp5.txt
@@ -60,6 +59,7 @@ krakatoa_10a_camp_UFFICIALE.txt
 krakatoa_11a_camp.txt
 krakatoa_12a_camp.txt
 krakatoa_16a_camp.txt
+krakatoa_17a_camp.txt
 krakatoa_1a_coppa.txt
 krakatoa_1camp.txt
 krakatoa_20150921-173119.txt
@@ -94,6 +94,11 @@ krakatoa_tipo_valida_fino_20160115-111227.txt
 krakatoa_tipo_valida_fino_20160122-132801.txt
 krakatoa_tipo_valida_fino_20160122-132809.txt
 krakatoa_tipo_valida_fino_20160130-101127.txt
+krakatoa_tipo_valida_fino_20160202-123216.txt
+krakatoa_tipo_valida_fino_20160202-123227.txt
+krakatoa_tipo_valida_fino_20160202-130044.txt
+krakatoa_tipo_valida_fino_20160202-130052.txt
+krakatoa_tipo_valida_fino_20160202-165726.txt
 lokomotiv.txt
 lokomotiv_camp02.txt
 lokomotiv_camp03.txt
@@ -110,6 +115,7 @@ lokomotiv_camp13.txt
 lokomotiv_camp14.txt
 lokomotiv_camp15.txt
 lokomotiv_camp16.txt
+lokomotiv_camp17.txt
 lokomotiv_camp_01.txt
 lokomotiv_coppa2.txt
 lokomotiv_coppa3.txt
@@ -120,9 +126,8 @@ lokomotiv_tipo_valida_fino_20151128-160128.txt
 lokomotiv_tipo_valida_fino_20151211-222313.txt
 lokomotiv_tipo_valida_fino_20151211-222321.txt
 rapid.txt
-rapid_cam_14.txt
-rapid_cam_15.txt
 rapid_cam_16.txt
+rapid_cam_17.txt
 rapid_cop_3.txt
 real.txt
 real_camp01.txt

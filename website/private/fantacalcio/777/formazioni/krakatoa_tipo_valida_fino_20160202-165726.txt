@@ -3,7 +3,7 @@
 1 - 2 - 2 - 2
 SORRENTINO Stefano
 CONSIGLI Andrea
-ALASTRA Fabrizio
+RAFAEL De Andrade Bittencourt Pinheiro
 BASTA Dusan
 BLANCHARD Leonardo
 MASINA Adam
@@ -28,4 +28,4 @@ IMMOBILE Ciro
 DJORDJEVIC Filip
 
 
-Tue 02 Feb 2016 - 16:57:26
+Tue 02 Feb 2016 - 13:00:52
