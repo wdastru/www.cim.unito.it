@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
+BERISHA Etrit
 PADELLI Daniele
 MARCHETTI Federico
-BERISHA Etrit
-GLIK Kamil
-PERES Bruno
-ADNAN Ali Kadhim
-GHOULAM Faouzi
-LAZAAR Achraf
-AVELAR Danilo
-KOULIBALY Kalidou
 MAKSIMOVIC Nikola
+KOULIBALY Kalidou
+GHOULAM Faouzi
+GLIK Kamil
+LAZAAR Achraf
+PERES Bruno
+AVELAR Danilo
+ADNAN Ali Kadhim
 CANDREVA Antonio
 BASELLI Daniele
-RIGONI Luca
 NAINGGOLAN Radja
-CRISTANTE Bryan
-BENASSI Marco
-FERNANDES Bruno
 JORGINHO
-CALLEJON José Maria
+FERNANDES Bruno
+BENASSI Marco
+RIGONI Luca
+CRISTANTE Bryan
 DYBALA Paulo
+CALLEJON José Maria
 BACCA Carlos
-MURIEL Luis
 VAZQUEZ Franco
 BALOTELLI Mario
+MURIEL Luis
 68
 3395989215
-Sat 16 Jan 2016 - 14:31:25
+Sat 23 Jan 2016 - 16:43:08

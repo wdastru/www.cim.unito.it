@@ -2,8 +2,8 @@
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 SORRENTINO Stefano
-CONSIGLI Andrea
-ALASTRA Fabrizio
+RAFAEL De Andrade Bittencourt Pinheiro
+COLOMBI Simone
 BASTA Dusan
 BLANCHARD Leonardo
 MASINA Adam
@@ -13,7 +13,7 @@ CASTAN Leandro
 ANTONELLI Luca
 ALONSO Marcos
 MARCHISIO Claudio
-TELLO Cristian
+SODDIMO Danilo
 DIAWARA Amadou
 ALLAN Marques Loureiro
 MISSIROLI Simone
@@ -28,4 +28,4 @@ IMMOBILE Ciro
 DJORDJEVIC Filip
 
 
-Tue 02 Feb 2016 - 16:57:26
+Fri 22 Jan 2016 - 13:28:09

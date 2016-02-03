@@ -14,10 +14,10 @@ DE SILVESTRI Lorenzo
 MORAS Evangelos
 BROZOVIC Marcelo
 MOUNIER Anthony
-SUSO
+GUARIN Fredy
 POGBA Paul
 MILINKOVIC-SAVIC Sergej
-CORREA Joaquin
+BADU Emmanuel
 BIRSA Valter
 PEROTTI Diego
 DESTRO Mattia
@@ -26,6 +26,6 @@ BELOTTI Andrea
 LOPEZ Maxi
 NIANG M'Baye
 MEGGIORINI Riccardo
-142
+154
 3474046541
-Tue 02 Feb 2016 - 17:10:41
+Sat 16 Jan 2016 - 14:52:01
