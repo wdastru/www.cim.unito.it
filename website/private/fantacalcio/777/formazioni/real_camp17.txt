@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-LOPEZ Diego
-PERIN Mattia
 DONNARUMMA Gianluigi
+PERIN Mattia
+LOPEZ Diego
+BARZAGLI Andrea
+ALEX SANDRO
 BONUCCI Leonardo
-CISSOKHO Issa
 ALBIOL Raul
 LETIZIA Gaetano
-ALEX SANDRO
-BARZAGLI Andrea
 GOBBI Massimo
+CISSOKHO Issa
 STENDARDO Guglielmo
+SAPONARA Riccardo
+RINCON Tomas
 CUADRADO Juan
-NTCHAM Olivier
 GOMEZ Alejandro
 BRIENZA Franco
-PAROLO Marco
 LODI Francesco
-RINCON Tomas
-SAPONARA Riccardo
+NTCHAM Olivier
+PAROLO Marco
 CASSANO Antonio
+EDER Citadin Martins
 PAZZINI Giampaolo
 DIONISI Federico
-EDER Citadin Martins
-LUIZ ADRIANO
 KEITA Baldé Diao
+LUIZ ADRIANO
 8
 347-2375356
-Tue 02 Feb 2016 - 18:55:13
+Tue 02 Feb 2016 - 18:57:27
