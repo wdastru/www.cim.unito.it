@@ -299,10 +299,18 @@ xmlns="http://www.w3.org/1999/xhtml">
 <td><input id='iOMZ' class='instrumentButton' type='submit' name='instrument' value='OMZ' onmouseover='On(\"iOMZ\")' onmouseout='Off(\"iOMZ\")'/></td>
 <td><input id='iAuto' class='instrumentButton' type='submit' name='instrument' value='Auto' onmouseover='On(\"iAuto\")' onmouseout='Off(\"iAuto\")'/></td>
 </tr>
+<tr>
+<td><input id='iUPLC' class='instrumentButton' type='submit' name='instrument' value='UPLC' onmouseover='On(\"iUPLC\")' onmouseout='Off(\"iUPLC\")'/></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </table>
 </form>
 </div>
-<div>";
+<div id='week'>";
 								echo "		<br/><span class='date'>&nbsp;&nbsp;&nbsp;";
 								echo date_to_str(date("Ymd", $wkstart), "", false) . "&nbsp; - &nbsp;" . date_to_str(date("Ymd", $wkend), "", false);
 								//echo "<br />&nbsp;&nbsp;&nbsp;(" . "Week" . " " . week_number($wkstart) . ")";
