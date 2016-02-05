@@ -44,6 +44,7 @@ fedora_camp_6.txt
 fedora_camp_7.txt
 fedora_camp_8.txt
 fedora_camp_9.txt
+fedora_cap_17.txt
 fedora_coppa_2.txt
 fedora_coppa_3.txt
 fedora_tipo_valida_fino_20150921-214635.txt
@@ -61,6 +62,7 @@ krakatoa_11a_camp.txt
 krakatoa_12a_camp.txt
 krakatoa_16a_camp.txt
 krakatoa_17a_camp.txt
+krakatoa_17a_camp_corretta.txt
 krakatoa_1a_coppa.txt
 krakatoa_1camp.txt
 krakatoa_20150921-173119.txt
