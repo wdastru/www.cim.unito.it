@@ -20,6 +20,7 @@ eporediese_camp_13.txt
 eporediese_camp_14.txt
 eporediese_camp_15.txt
 eporediese_camp_16.txt
+eporediese_camp_17.txt
 eporediese_camp_4.txt
 eporediese_camp_6.txt
 eporediese_camp_7.txt
@@ -43,6 +44,7 @@ fedora_camp_6.txt
 fedora_camp_7.txt
 fedora_camp_8.txt
 fedora_camp_9.txt
+fedora_cap_17.txt
 fedora_coppa_2.txt
 fedora_coppa_3.txt
 fedora_tipo_valida_fino_20150921-214635.txt
@@ -60,6 +62,7 @@ krakatoa_11a_camp.txt
 krakatoa_12a_camp.txt
 krakatoa_16a_camp.txt
 krakatoa_17a_camp.txt
+krakatoa_17a_camp_corretta.txt
 krakatoa_1a_coppa.txt
 krakatoa_1camp.txt
 krakatoa_20150921-173119.txt
@@ -146,6 +149,7 @@ real_camp13.txt
 real_camp14.txt
 real_camp15.txt
 real_camp16.txt
+real_camp17.txt
 real_coppa1.txt
 real_coppa2.txt
 real_coppa3.txt
@@ -165,3 +169,4 @@ real_tipo_valida_fino_20160104-172735.txt
 real_tipo_valida_fino_20160108-214618.txt
 real_tipo_valida_fino_20160122-211952.txt
 real_tipo_valida_fino_20160129-222238.txt
+real_tipo_valida_fino_20160202-185513.txt

@@ -6,7 +6,7 @@ NETO Norberto
 LEALI Nicola
 EVRA Patrice
 DE SCIGLIO Mattia
-PELUSO Federico
+DE VRIJ Stefan
 HYSAJ Elseid
 EDENILSON Andrade Dos Santos
 PALETTA Gabriel
@@ -28,4 +28,4 @@ THEREAU Cyril
 KLOSE Miroslav
 96
 347-4172758
-Fri 05 Feb 2016 - 12:42:18
+Fri 11 Dec 2015 - 22:23:21
