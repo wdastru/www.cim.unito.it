@@ -15,7 +15,7 @@ ZACCARDO Cristian
 VALERO Borja
 BONAVENTURA Giacomo
 SORIANO Roberto
-BLASZCZYKOWSKI Jakub
+TAIDER Saphir
 STURARO Stefano
 KUCKA Juraj
 DE ROSSI Daniele
@@ -28,4 +28,4 @@ THEREAU Cyril
 KLOSE Miroslav
 96
 347-4172758
-Fri 05 Feb 2016 - 12:42:18
+Thu 11 Feb 2016 - 12:40:43

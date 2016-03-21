@@ -7,7 +7,7 @@ CARRIZO Juan Pablo
 ROMAGNOLI Alessio
 RODRIGUEZ Gonzalo
 ACERBI Francesco
-GAMBERINI Alessandro
+IZZO Armando
 PASQUAL Manuel
 ROSI Aleandro
 CANNAVARO Paolo
@@ -25,7 +25,7 @@ DZEKO Edin
 HIGUAIN Gonzalo
 GILARDINO Alberto
 LJAJIC Adem
-MATOS
-122
+DEFREL Gregoire
+98
 3404073967
-Sat 09 Jan 2016 - 14:07:40
+Sat 19 Mar 2016 - 14:19:26
