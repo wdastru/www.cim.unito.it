@@ -1,3 +1,4 @@
+101	ABBIATI Christian	Milan	P	P	SI	1	-	-							
 102	ANDUJAR Mariano	Napoli	P	P	NO	0	0	0	0	0	0	0	0	0	
 103	BASSI Davide	Atalanta	P	P	SI	1	-	-							
 104	BENUSSI Francesco	Carpi	P	P	SI	4	-	-							

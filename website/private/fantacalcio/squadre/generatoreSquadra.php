@@ -236,11 +236,12 @@
 					
 				for ($k=0; $k<$allPlayerStatsCount; $k++) // loop su tutti i giocatori del file gazzetta
 				{
+					
 					if ($giocatore[$j][$i] == $allPlayerStats[$k][0])
 					{
 						if ( $letterRuolo[$i] != $allPlayerStats[$k][2] )
 						continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
-
+                    
 						for ($t=0; $t<13; $t++) // 13 e' la seconda dimensione di $allPlayerStats
 						{
 							echo "<span class='" . $spanIdStats[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayerStats[$k][$t])) . ")</span>";
