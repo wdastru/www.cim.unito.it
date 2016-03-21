@@ -96,7 +96,7 @@ $handle = fopen('..//777//filesGazzetta//' . $nameTxt . '.txt', 'w');
 	
 if ($handle)
 {
-	for ($i = 4; $i <= $data->sheets[0]['numRows']; $i++) 
+	for ($i = 3; $i <= $data->sheets[0]['numRows']; $i++) 
 	{
 		for ($j = 1; $j <= $data->sheets[0]['numCols']; $j++) 
 			fwrite($handle, $data->sheets[0]['cells'][$i][$j] . "\t");
