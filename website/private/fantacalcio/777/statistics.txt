@@ -644,29 +644,14 @@
 933	PONCE Ezequiel	Roma	A	1	0	0	0	0	0	0	0	0	
 934	RODRIGUEZ Alejandro	Sampdoria	A	2	5.5	0	0	0	0	0	0	0	
 935	MENDEZ Kevin	Roma	A	9	0	0	0	0	0	0	0	0	
-
 169	ROMO Rafael	Udinese	P	0	-	-							
 726	BELLOMO Nicola	Chievo	C	16	0	0	0	0	0	0	0	0	
 936	GOMES Bruno	Genoa	A	4	0	0	0	0	0	0	0	0	
-
 170	STOJANOVIC Dejan	Bologna	P	0	-	-							
 727	MATUZALEM Francelino	Verona	C	16	27	16.5	0	1	0	0	0	0	
-
 728	LODI Francesco	Udinese	C	20	123	121.5	1	3	0	0	0	0	
-
-
-
 425	PRYIMA Vasyl	Frosinone	D	2	12	12	0	0	0	0	0	0	
-
-
-
-
-
-
 426	AJETI Arlind	Frosinone	D	10	61	59	1	2	0	0	0	0	
-
-
-
 427	BISEVAC Milan	Lazio	D	5	23	23	0	0	0	0	0	0	
 729	BOATENG Kevin prince	Milan	C	4	26	23.5	1	1	0	0	0	0	
 730	EMANUELSON Urby	Verona	C	7	44	42	0	0	0	0	0	2	
@@ -674,9 +659,7 @@
 732	ALVAREZ Ricardo	Sampdoria	C	9	53	53.5	0	3	0	0	0	1	
 937	SADIQ Umar	Roma	A	2	15.5	12.5	1	0	0	0	0	0	
 938	ARTEAGA Manuel	Palermo	A	9	0	0	0	0	0	0	0	0	
-
 733	CRISTANTE Bryan	Palermo	C	3	11	11	0	0	0	0	0	0	
-
 428	CIONEK Thiago	Palermo	D	0	-	-							
 429	DJIMSITI Berat	Atalanta	D	1	0	0	0	0	0	0	0	0	
 734	DIAMANTI Alessandro	Atalanta	C	9	48.5	50.5	0	4	0	0	0	0	
@@ -684,13 +667,11 @@
 939	BALOGH Norbert	Palermo	A	1	5	5	0	0	0	0	0	0	
 940	IMMOBILE Ciro	Torino	A	11	89.5	70.5	7	2	0	-1	0	2	
 941	TROTTA Marcello	Sassuolo	A	6	27.5	16.5	0	0	0	0	0	0	
-
 430	SAMIR	Verona	D	0	-	-							
 431	SABELLI Stefano	Carpi	D	3	17.5	18	0	1	0	0	0	0	
 736	KUZMANOVIC Zdravko	Udinese	C	9	52	41.5	0	1	0	0	0	0	
 737	TELLO Cristian	Fiorentina	C	9	57	50	1	0	0	0	0	4	
 942	ZARATE Mauro	Fiorentina	A	5	39	31	3	0	1	0	0	0	
-
 171	MARCONE Richard	Verona	P	0	-	-							
 172	POSAVEC Josip	Palermo	P	1	7	7	0	0	0	0	0	0	
 173	BARDI Francesco	Frosinone	P	0	-	-							
@@ -699,7 +680,6 @@
 739	PONTISSO Simone	Udinese	C	0	-	-							
 740	SPORKSLEDE Fabian	Chievo	C	8	0	0	0	0	0	0	0	0	
 943	EL SHAARAWY	Roma	A	8	70	53	5	0	0	0	0	2	
-
 433	FIAMOZZI Riccardo	Genoa	D	1	5.5	5.5	0	0	0	0	0	0	
 434	ASMAH Kojo	Atalanta	D	0	-	-							
 435	CONSTANT Kevin	Bologna	D	4	23	23	0	0	0	0	0	0	
@@ -711,13 +691,6 @@
 944	NAPOL Nicolas	Atalanta	A	0	-	-							
 945	MATAVZ Tim	Genoa	A	3	15.5	15.5	0	0	0	0	0	0	
 946	MIRANDA Jhon rada	Chievo	A	0	-	-							
-
 437	COSTA Filippo	Chievo	D	2	11.5	11.5	0	0	0	0	0	0	
-
-
-
 438	PEZZELLA Giuseppe	Palermo	D	4	16.5	16.5	0	0	0	0	0	0	
-
-
-
 101	ABBIATI Christian	Milan	P	1	7	7	0	0	0	0	0	0	
