@@ -1,31 +1,31 @@
-3 - 5 - 2
-1 - 3 - 5 - 2
+3 - 4 - 3
+1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 TATARUSANU Ciprian
-SEPE Luigi
 SKORUPSKI Lukasz
-LICHTSTEINER Stephan
+SEPE Luigi
 MIRANDA Joao
+LICHTSTEINER Stephan
 MANOLAS Kostas
-MOISANDER Niklas
-HOEDT Wesley
-CHIELLINI Giorgio
 DE MAIO Sebastien
+MOISANDER Niklas
+CHIELLINI Giorgio
+HOEDT Wesley
 SANTON Davide
-GIACCHERINI Emanuele
-BERTOLACCI Andrea
-PJANIC Miralem
-BIGLIA Lucas
-FERNANDO Lucas Martins
 VECINO Matias
-HILJEMARK Oscar
+GIACCHERINI Emanuele
+BIGLIA Lucas
+PJANIC Miralem
+FERNANDO Lucas Martins
+BERTOLACCI Andrea
 BOATENG Kevin prince
-EL SHAARAWY
+HILJEMARK Oscar
 SALAH Mohamed
-PUCCIARELLI Manuel
-BABACAR Khouma
-JOVETIC Stevan
+EL SHAARAWY
 GABBIADINI Manolo
+PUCCIARELLI Manuel
+JOVETIC Stevan
+BABACAR Khouma
 2
 3337815436
-Fri 04 Mar 2016 - 18:46:22
+Tue 19 Apr 2016 - 20:38:44
