@@ -14,7 +14,7 @@ semi0/2/1/76.5/70.5/ICARDI MAURO/PERISIC IVAN/SORIANO ROBERTO/
 semi1/1/1/71/71.5/LJAJIC ADEM/BLANCHARD LEONARDO/
 semi14/2/1/72/70.5/BARZAGLI Andrea/BARZAGLI Andrea/PEROTTI Diego/
 semi15/2/3/72/81.5/CALLEJON JosE' Maria/GHOULAM Faouzi/SALAH Mohamed/SALAH Mohamed/EL SHAARAWY/
-finali0/-/-/-/-/
-finali1/-/-/-/-/
-finali2/-/-/-/-/
+finali16/2/1/77/69.5/HIGUAIN Gonzalo/HIGUAIN Gonzalo/ZAZA Simone/
+finali17/2/1/73.5/67/KLOSE Miroslav/KLOSE Miroslav/ANTONELLI Luca/
+finali18/1/1/66/68/DIONISI Federico/EL SHAARAWY/
 finali3/-/-/-/-/
