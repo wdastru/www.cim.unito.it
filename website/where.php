@@ -29,15 +29,7 @@
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <iframe width="630" height="500" frameborder="0" scrolling="no"
-                            marginheight="0" marginwidth="0" src=
-                            "http://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=torino+via+Nizza,52&amp;aq=&amp;sll=41.442726,12.392578&amp;sspn=25.708478,38.62793&amp;ie=UTF8&amp;hq=&amp;hnear=Via+Nizza,+52,+10126+Torino,+Piemonte&amp;ll=45.049752,7.673995&amp;spn=0.02371,0.037723&amp;z=14&amp;output=embed"></iframe>
-                            <br />
-
-                            <small><a target='_blank' href=
-                                "http://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=torino+via+Nizza,52&amp;aq=&amp;sll=41.442726,12.392578&amp;sspn=25.708478,38.62793&amp;ie=UTF8&amp;hq=&amp;hnear=Via+Nizza,+52,+10126+Torino,+Piemonte&amp;z=14&amp;ll=45.049752,7.673995"
-                                style="color:#0000FF;text-align:left">Visualizzazione ingrandita
-                                della mappa</a></small>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2818.7755057933828!2d7.6738996!3d45.0497773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d48f2272033%3A0xe5a0d880beff326b!2sVia+Nizza%2C+52%2C+10126+Torino!5e0!3m2!1sit!2sit!4v1464684837561" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                             <!-- <form action="http://maps.google.it/" target="_blank" method="get">
                             <p>
                             <label for="saddr">Where we are and how to reach us (Google Maps) </label>
