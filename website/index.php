@@ -54,6 +54,21 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <br/>
                                     <a href="http://www.eurobioimaging.eu/">
                                     	<img style="width: 99%" src="images/EuroBioImaging_logo.jpg" alt="EuroBioImaging logo" /></a>
+                                    	<b>Euro-BioImaging is starting Interim Operation!</b>
+                                    	<br/>
+                                    	European life science researchers now have the possibility to use state-of-the-art imaging technologies, which they do not find at 
+                                    	their home institutions or among their collaboration partners. All they need to do is to apply to <a href="http://www.eurobioimaging.eu/">Euro-BioImaging (EuBI)</a> via the 
+                                    	Interim Web Access Portal and visit one of the Euro-BioImaging Node Candidates (imaging facilities) to use their technology and profit 
+                                    	from their expertise. 29 Node Candidates in 11 countries and at the EMBL host a range of novel imaging technologies via which 
+                                    	scientists can study biological samples from protein to human size. This operation is part of the <a href="http://www.eurobioimaging.eu/">Euro-BioImaging</a> interim activities, 
+                                    	which are preparing the infrastructure for its full operation that is expected in 2017, after all legal requirements to become a 
+                                    	European Research Infrastructure Consortium (EuBI-ERIC) will be finalized. The University of Torino coordinates the multi-sited 
+                                    	<a href="http://www.eurobioimaging-interim.eu/miin.html">Multi-Modal Molecular Imaging (MMMI) Italian Node Candidate</a>.
+                                    	<br/>Please contact us for information about offered technolgies/services 
+                                    	and how to access our Node Candidate.
+                                    <div class='divider'></div>
+                                    <a href="http://www.eurobioimaging.eu/">
+                                    	<img style="width: 99%" src="images/EuroBioImaging_logo.jpg" alt="EuroBioImaging logo" /></a>
                                     <a href="<?php echo $localizer; ?>documenti/EuBI Press release 8 Dec 2015 - Hub and Nodes.pdf">Press release 8 Dec 2015</a>
                                     <div class='divider'></div>
                                     The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
