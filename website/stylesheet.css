@@ -152,6 +152,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 #content p { text-align:justify; }
 #content .indent { text-indent:30px; }
 #content .superscript .subscript { font-size:8px; }
+#content a.visible_link { color:#db6d16; text-decoration: underline;}
 #content a { color:#666666; text-decoration:none; }
 #content a:hover { color:#db6d16; }
 #content-large a { color:#666666; text-decoration:none; }
