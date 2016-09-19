@@ -26,6 +26,21 @@
   <h2 class="albo">COPPA</h2>
   <table class="albo">
     <tr>
+      <td>2015/16</td>
+      <td class="squadra">Fedora</td>
+      <td>Presidente <span class="presidente">Dario Longo</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2016/coppa1516.php">Tabellone</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2016/rosa1516.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>2014/15</td>
       <td class="squadra">Lokomotiv Peccorino</td>
       <td>Presidente <span class="presidente">Claudia Cabella</span></td>

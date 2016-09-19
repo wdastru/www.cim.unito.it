@@ -107,7 +107,7 @@ require_once ("logger.php");
 						{
 							break;
 						} else {
-							$marcatoriCoppa[$totMarcatori] = $superCoppa[3][16+$s][$i];
+							$marcatoriCoppa[$totMarcatori] = $superCoppa[3][16+$f][$i];
 							$totMarcatori++;
 						}
 						$i++;

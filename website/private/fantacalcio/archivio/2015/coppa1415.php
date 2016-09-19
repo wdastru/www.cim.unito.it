@@ -17,8 +17,8 @@ include ("calendarioCoppa1415.inc");
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=javascript.js&type=javascript"></script>
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=coppa1415.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2015/javascript1415.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2015/coppa1415.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 	<!-- jQuery -->
@@ -100,7 +100,7 @@ include ("calendarioCoppa1415.inc");
 	$finali[2] = '5&deg; - 6&deg;';
 	$finali[3] = '7&deg; - 8&deg;';
 
-	$datiCoppaFile = $relocate_string . '777/datiCoppa.txt';
+	$datiCoppaFile = $relocate_string . 'archivio/2015/datiCoppa1415.txt';
 	if (!file_exists($datiCoppaFile)) {
 		require $relocate_string . 'createDatiCoppa.php';
 	}

@@ -1,8 +1,6 @@
 <?php
 $relocate_string = "../../";
-
-require $relocate_string . 'archivio/2014/squadre1314.inc.php';
-require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
+include ("calendarioCoppa1516.inc");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -19,8 +17,8 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2014/javascript1314.js&type=javascript"></script>
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2014/coppa1314.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2016/javascript1516.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2016/coppa1516.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 	<!-- jQuery -->
@@ -30,7 +28,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 	<?php 
 		unset($hostname);
 		exec('hostname', $hostname);
-		if ($hostname[0] == "PESTODURO" || $hostname[0] == "VORTICE") {
+		if ($hostname[0] == "PESTODURO" || $hostname[0] == "VORTICE" ) {
 			echo "<script type='text/javascript' src='" . $relocate_string . "jQuery/lib/jquery-1.10.1.min.js'></script>";	
 		}
 		require $relocate_string . 'include/jquery.fancybox.inc.php';
@@ -64,24 +62,26 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 			<span id='hiddenBoxHyphen'> - </span>
 			<span id='squadra2'>squadra2</span>
 		</div>
-		<br /> <br />
+		<br />
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
-				<input class='button' type='button' id='sendButton' value='Send'
-					onclick='validate( "coppa" )' /> <input id='closeBtn' class='button' type='button'
-					value='Close this box!' onclick='hideBox();' /> <input class='button'
-					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
-				Goal Squadra A : <input type='text' name='goalA' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
-				Squadra B : <input type='text' name='goalB' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
-				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
+			  <input style="visibility: hidden" class='button' type='button' id='sendButton' value='Send' onclick='validate( "coppa" )' />
+				<input style="visibility: hidden" id='closeBtn' class='button' type='button' value='Close this box!' onclick='hideBox();' /> 
+				<input style="visibility: hidden" class='button' type='button' value='Reset' onclick="resetFields();" /> 
+				<br /> <br />
+				Goal Squadra A : 
+				<input type='text' name='goalA' value='' onkeyup="goals();" onmousedown="goals();" /> 
+				<br /> <br /> 
+				Goal Squadra B : 
+				<input type='text' name='goalB' value='' onkeyup="goals();" onmousedown="goals();" /> 
+				<br /> <br /> 
+				Punti Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
 				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
-					style="display: inline" value='Aggiungi un marcatore'
-					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
-					style="display: inline" value='Togli un marcatore'
-					onclick='manualDeleteField();' /> <br /> <br />
+				<br /> <br /> 
+				Marcatori:
+				<br /> 
+				<input style="visibility: hidden" class='button' type='button' style="display: inline" value='Aggiungi un marcatore' onclick='manualAddField();' />&nbsp;
+				<input style="visibility: hidden" class='button' type='button' style="display: inline" value='Togli un marcatore' onclick='manualDeleteField();' /> <br /> <br />
 					<?php
 					for ($i = 0; $i < 20; $i++)
 						echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
@@ -100,13 +100,13 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 	$finali[2] = '5&deg; - 6&deg;';
 	$finali[3] = '7&deg; - 8&deg;';
 
-	$datiCoppaFile = $relocate_string . 'archivio/2014/datiCoppa1314.txt';
+	$datiCoppaFile = $relocate_string . 'archivio/2016/datiCoppa1516.txt';
 	if (!file_exists($datiCoppaFile)) {
 		require $relocate_string . 'createDatiCoppa.php';
 	}
 	include $relocate_string . 'readDatiCoppa.php';
 	?>
-		<h1 class="title">FANTACOPPA NMR 2013/14</h1>
+    <h1 class="title">FANTACOPPA NMR 2015/16</h1>
 		<br /> <br />
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>
