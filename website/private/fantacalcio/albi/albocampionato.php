@@ -25,6 +25,21 @@
 <h2 class="albo">CAMPIONATO</h2>
 <table class="albo">
   <tr>
+    <td>2015/16</td>
+    <td class="squadra">Fedora</td>
+    <td>Presidente <span class="presidente">Dario Longo</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2016/risultati1516.php">Risultati</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2016/classifica1516.php">Classifica Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2016/rosa1516.php">Rosa</a></td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>  
+  <tr>
     <td>2014/15</td>
     <td class="squadra">EPOrediese</td>
     <td>Presidente <span class="presidente">Erik Bruno</span></td>
