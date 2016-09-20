@@ -1,7 +1,6 @@
 <?php
 $relocate_string = "./";
 
-require_once $relocate_string . "logger.php";
 require_once $relocate_string . 'squadre.inc';
 require_once $relocate_string . 'calendario.inc';
 require_once $relocate_string . 'classifica.inc.php';
@@ -9,7 +8,7 @@ require_once $relocate_string . 'recursiveChmod.inc.php';
 
 //include "dBug.php";
 
-@recursiveChmod($relocate_string . '777/');
+//@recursiveChmod($relocate_string . '777/');
 
 $datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
 if (!file_exists($datiCampionatoFileName)) {
