@@ -1,4 +1,5 @@
 atletico.txt
+atletico_coppa_1.txt
 ciofeca.txt
 eporediese.txt
 fedora.txt
