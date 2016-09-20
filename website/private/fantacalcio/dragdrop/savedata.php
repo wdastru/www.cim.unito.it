@@ -97,7 +97,7 @@ require ($relocate_string . "include//updateListaFormazioni.inc.php");
 $squadraSubmitted=='false';
 $squadraSubmittedTipo=='false';
 
-//@recursiveChmod($relocate_string . '777/');
+@recursiveChmod($relocate_string . '777/formazioni/');
 
 $where = "Location: ../dragdrop/dragdrop.php?squadra=" . $_SESSION['Squadra'];
 header($where);
