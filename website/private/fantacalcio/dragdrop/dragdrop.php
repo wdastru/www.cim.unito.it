@@ -3,6 +3,8 @@ session_start();
 //include '../dBug.php';
 $relocate_string = "../";
 
+require $relocate_string . 'recursiveChmod.inc.php';
+
 $toCancel = '';
 
 if (isset($_GET['squadra'])) {
@@ -27,6 +29,7 @@ if (isset($_POST['toCancel'])) {
 		unlink("..//777//formazioni//" . $toCancel);
 		require ($relocate_string . "include//updateListaFormazioni.inc.php");
 	}
+	@recursiveChmod($relocate_string . '777/formazioni/');
 }
 // <-- ARCHIVE FILE
 
