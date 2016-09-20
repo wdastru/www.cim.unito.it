@@ -27,30 +27,16 @@ array_push($super, array());
 array_push($super, array());
 
 /*
- * classifica anno precedente:
- * 
- * 1. Dinamo Ciofeca         ==> 'a' (da squadre.inc)
- * 2. Atletico? No Grazie!   ==> 'h' (da squadre.inc)
- * 3. Fedora                 ==> 'f' (da squadre.inc)
- * 4. Real Mentescars        ==> 'b' (da squadre.inc)
- * 5. Lokomotiv Peccorino    ==> 'd' (da squadre.inc)
- * 6. Ij Patelavache         ==> 'c' (da squadre.inc)
- * 7. EPOrediese             ==> 'e' (da squadre.inc)
- * 8. Bradipo                ==> 'g' (da squadre.inc)
- * 
- * * * * * * * * * * * * * * * * * */
- 
-/*
  * tabella di conversione
  */
-$longName['A'] = $longName['e'];
-$longName['B'] = $longName['h'];
+$longName['A'] = $longName['f'];
+$longName['B'] = $longName['g'];
 $longName['C'] = $longName['b'];
-$longName['D'] = $longName['c'];
-$longName['E'] = $longName['d'];
-$longName['F'] = $longName['a'];
-$longName['G'] = $longName['f'];
-$longName['H'] = $longName['g'];
+$longName['D'] = $longName['d'];
+$longName['E'] = $longName['a'];
+$longName['F'] = $longName['e'];
+$longName['G'] = $longName['h'];
+$longName['H'] = $longName['c'];
    
 /*
  * $super rispecchia il calendario campionato come da regolamento

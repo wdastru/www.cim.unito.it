@@ -16,28 +16,19 @@ $turno[1] = "II&deg; TURNO";
 $turno[2] = "III&deg; TURNO";
 
 /*
- * 'a' = 'Dinamo Ciofeca';       
- * 'b' = 'Real Mentescars';      
- * 'c' = 'Ij Patelavache';       
- * 'd' = 'Lokomotiv Peccorino';  
- * 'e' = 'EPOrediese';           
- * 'f' = 'Fedora';               
- * 'g' = 'Bradipo';              
- * 'h' = 'Atletico? No Grazie!'; 
- * 
  * ricordarsi di modificare ad inizio 
  * stagione anche il file coppaxxxx.js
  * 
  * * * * * * * * * * * * */
 
 $aCoppa = $longName['e'];
-$bCoppa = $longName['a'];
-$cCoppa = $longName['b'];
-$dCoppa = $longName['f'];
-$eCoppa = $longName['h'];
-$fCoppa = $longName['c'];
-$gCoppa = $longName['d'];
-$hCoppa = $longName['g'];
+$bCoppa = $longName['h'];
+$cCoppa = $longName['a'];
+$dCoppa = $longName['c'];
+$eCoppa = $longName['g'];
+$fCoppa = $longName['d'];
+$gCoppa = $longName['b'];
+$hCoppa = $longName['f'];
 
 $superCoppa = array();
 array_push($superCoppa, array());
