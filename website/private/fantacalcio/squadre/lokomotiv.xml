@@ -72,6 +72,10 @@
         <posizione>5</posizione>
       </campionato>
       <coppa>C</coppa>
+      <campionato>
+        <stagione>2015/16</stagione>
+        <posizione>6</posizione>
+      </campionato>
     </storico>
   </squadra>
 </squadre>

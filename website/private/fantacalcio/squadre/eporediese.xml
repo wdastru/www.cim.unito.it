@@ -69,6 +69,11 @@
         <posizione>1</posizione>
       </campionato>
       <supercoppa>SC</supercoppa>
+      <campionato>
+        <stagione>2015/16</stagione>
+        <posizione>4</posizione>
+      </campionato>
+      <supercoppa>SC</supercoppa>
     </storico>
   </squadra>
 </squadre>

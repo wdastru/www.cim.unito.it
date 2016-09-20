@@ -225,7 +225,7 @@ function classifica(/* variable number of arguments, the first has to be the arr
 			$avulsa[$i][] = 0;
 		$avulsa[$i][11] = array();
 		
-		for ($j=0;$j<12;$j++)
+		for ($j=0;$j<11;$j++)
 			$avulsa[$i][11][$j] = $squadra[$i][$j];		
 	}
 

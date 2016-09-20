@@ -224,9 +224,10 @@ function classifica(/* variable number of arguments, the first has to be the arr
 		for ($j=1;$j<11;$j++)
 			$avulsa[$i][] = 0;
 		$avulsa[$i][11] = array();
-		
-		for ($j=0;$j<12;$j++)
-			$avulsa[$i][11][$j] = $squadra[$i][$j];		
+    
+		for ($j=0;$j<11;$j++) {
+			$avulsa[$i][11][$j] = $squadra[$i][$j];
+    }		
 	}
 
 	$counter = 0;
