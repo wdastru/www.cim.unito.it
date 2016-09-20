@@ -5,7 +5,12 @@ require $relocate_string . 'recursiveChmod.inc.php';
 require $relocate_string . 'include/removeUnwantedChars.inc.php';
 require $relocate_string . '777/setupSquadre.inc.php';
 
-if (md5($_POST['Password']) != $ADMIN[$_GET['squadra']] )
+//echo $ADMIN['admin']." ";
+//echo md5($_POST['Password'])." ";
+//echo $_POST['Password']." ";
+//exit();
+
+if ( !( md5($_POST['Password']) != $ADMIN[$_GET['squadra']] || md5($_POST['Password']) != $ADMIN['admin'] ) )
 {
 	if (isset($_POST['returnFromError'])) {
 		header('Location: ../errors/error.php?error=wrongPass&returnFromError=' . $_POST['returnFromError']);
@@ -92,7 +97,7 @@ require ($relocate_string . "include//updateListaFormazioni.inc.php");
 $squadraSubmitted=='false';
 $squadraSubmittedTipo=='false';
 
-@recursiveChmod($relocate_string . '777/');
+//@recursiveChmod($relocate_string . '777/');
 
 $where = "Location: ../dragdrop/dragdrop.php?squadra=" . $_SESSION['Squadra'];
 header($where);
