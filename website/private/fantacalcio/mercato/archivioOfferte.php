@@ -2,14 +2,17 @@
 session_start();
 $relocate_string = "../";
 
+require_once $relocate_string . 'recursiveChmod.inc.php';
+@recursiveChmod($relocate_string . '777/offerte/');
+
 if (isset($_POST['toCancel']))
 {
 	$toCancel = $_SESSION['toCancel'] = $_POST['toCancel'];
 
-	if($toCancel != "" && file_exists("../777/offerte/" . $toCancel))
+	if($toCancel != "" && file_exists($relocate_string . '777/offerte/' . $toCancel))
 	{
-		copy("..//777//offerte//" . $toCancel, "..//777//offerte//archive//" . $toCancel);
-		unlink("..//777//offerte//" . $toCancel);
+		copy($relocate_string . '777/offerte/' . $toCancel, $relocate_string . '777/offerte/archive/' . $toCancel);
+		unlink($relocate_string . '777/offerte/' . $toCancel);
 	}
 }
 ?>

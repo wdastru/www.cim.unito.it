@@ -128,6 +128,7 @@ function getSelectedPlayer()
 			if (opt.item(i).selected)
 			{
 				player = opt.item(i).innerHTML;
+				//alert(player);
 				break;
 			}
 		}

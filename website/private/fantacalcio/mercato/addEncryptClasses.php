@@ -5,7 +5,7 @@ Class cls_encrypt
 {
 	var $s_array = array();
 	var $K_array = array();
-	var $return_val;
+	var $return_val = "";
 	var $num_count;
 	var $alp_count;
 	var $lwr_count;
@@ -67,7 +67,7 @@ Class cls_encrypt
             $y = $s_array[$t];
             $comp_val = $this -> get_ascii_val(substr($input_val, $x, 1)) ^ $y;
             $calc_val = Chr($this -> get_ascii_val(substr($input_val, $x, 1)) ^ $y);
-            $return_val = $return_val.$calc_val;
+            $return_val = isset($return_val) ? $return_val.$calc_val : '';
         }
         return $return_val;
     }

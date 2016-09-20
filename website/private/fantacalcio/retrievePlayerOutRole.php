@@ -18,16 +18,19 @@ $ruolo['D']='Difensore';
 $ruolo['C']='Centrocampista';
 $ruolo['A']='Attaccante';
 
+$found = 0;
+
 for ($i=0; $i<count($allPlayerStats); $i++)
 {
 	if ($allPlayerStats[$i][0] != '')
 	{
 		for ($k=0; $k<25; $k++)
 		{
-			if (strtoupper($allPlayerStats[$i][0]) == $player)
+			if ( strtoupper($allPlayerStats[$i][0]) == strtoupper($player) )
 			{
 				{
 					echo $ruolo[$allPlayerStats[$i][2]];
+					$found = 1;
 					exit();
 				}
 			}
@@ -35,4 +38,7 @@ for ($i=0; $i<count($allPlayerStats); $i++)
 	}
 }
 
+if ($found == 0) {
+	echo "Player not found!";
+}
 ?>

@@ -1,11 +1,14 @@
 <?php 
 session_start();
 
-require('../777/setupSquadre.inc.php');
+$relocate_string = "../";
+require($relocate_string . '777/setupSquadre.inc.php');
 require('addEncryptClasses.php');
+require $relocate_string . 'recursiveChmod.inc.php';
 
 
-if ( md5($_POST['PasswordTeam']) != $ADMIN[$_GET['squadra']] ) {
+if ( !(md5($_POST['PasswordTeam']) != $ADMIN[$_GET['squadra']] || 
+		md5($_POST['PasswordTeam']) != $ADMIN['admin']) ) {
 	header('Location: ../errors/error.php?error=wrongPass&returnFromError=' . $_POST['returnFromError']);
 	exit(); 
 } else if ( $_POST['PasswordOffer'] != $_POST['RepeatPasswordOffer'] ) {
@@ -35,13 +38,15 @@ if($handle)
 	/* uso della funzione encrypt_decrypt */
 	
 	fwrite($handle, $str);
+	
+	@recursiveChmod($relocate_string . '777/offerte/');
 }
 else
 {
 	echo "Il file " . $file2save . " non &eacute; apribile!";
 	exit();		
 }
-fclose($handle);	
+fclose($handle);
 
 $href='offerte.php';
 echo "<script type='text/javascript'>window.location.href='" . $href . "';</script>";

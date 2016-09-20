@@ -2,17 +2,20 @@
 session_start();
 $relocate_string = "../";
 
+require_once $relocate_string . 'recursiveChmod.inc.php';
+@recursiveChmod($relocate_string . '777/offerte/');
+
 if (isset($_POST['toCancel']))
 {
 	$toCancel = $_SESSION['toCancel'] = $_POST['toCancel'];
 
-	if($toCancel != "" && file_exists("../777/offerte/" . $toCancel))
+	if($toCancel != "" && file_exists($relocate_string . '777/offerte/' . $toCancel))
 	{
-		copy("..//777//offerte//" . $toCancel, "..//777//offerte//archive//" . $toCancel);
-		unlink("..//777//offerte//" . $toCancel);
+		copy($relocate_string . '777/offerte/' . $toCancel, $relocate_string . '777/offerte/archive/' . $toCancel);
+		unlink($relocate_string . '777/offerte/' . $toCancel);
 	}
 }
-
+@recursiveChmod($relocate_string . '777/offerte/');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -82,6 +85,8 @@ if (isset($_POST['toCancel']))
 
 		$dir = "..//777//offerte//*.txt";
 		$result = glob($dir);
+		
+		@recursiveChmod($relocate_string . '777/offerte/');
 
 		if (count($result) > 0) {
 			for($i=0; $i<count($result); $i++)
