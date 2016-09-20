@@ -73,7 +73,7 @@ foreach ($fileGaz as $file) {
 			$dati[11]=strtok("\t");	// autoreti
 			$dati[12]=strtok("\t");	// assist
 			
-			print_r($dati);
+			//print_r($dati);
 			
 			if($firstTime==false)
 			{

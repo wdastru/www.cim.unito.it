@@ -56,7 +56,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 				
 		<?php
 
-		$nPreCampionato = 2;
+		$nPreCampionato = 4;
 		if ($nPreCampionato!=0)
 		{
 			//MySingleton::writeToLog('$nPreCampionato = ' . $nPreCampionato, $relocate_string . "777/logs/download.log");
