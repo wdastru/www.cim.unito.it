@@ -5,5 +5,11 @@ eporediese.txt
 fedora.txt
 krakatoa.txt
 lokomotiv.txt
+lokomotiv_coppa_1.txt
+lokomotiv_tipo_valida_fino_20160920-164608.txt
+lokomotiv_tipo_valida_fino_20160920-224428.txt
+lokomotiv_tipo_valida_fino_20160920-224440.txt
 rapid.txt
 real.txt
+real_coppa1.txt
+real_tipo_valida_fino_20160920-224322.txt
