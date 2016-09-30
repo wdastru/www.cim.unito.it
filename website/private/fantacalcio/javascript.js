@@ -15,10 +15,14 @@ function showBoxCampionato(id, evt) {
 		 * nomi squadre : hiddenBox.getElementsByTagName('span').item(1) e' il -
 		 * di separazione
 		 */
-		hiddenBox.getElementsByTagName('span').item(0).innerHTML = source
-				.getElementsByTagName('span').item(0).innerHTML;
-		hiddenBox.getElementsByTagName('span').item(2).innerHTML = source
-				.getElementsByTagName('span').item(1).innerHTML;
+		
+		var hiddenSpans = hiddenBox.getElementsByTagName('span');
+		var sourceSpans = source.getElementsByTagName('span');
+		
+		//hiddenBox.getElementsByTagName('span').item(0).innerHTML = source.getElementsByTagName('span').item(0).innerHTML;
+		//hiddenBox.getElementsByTagName('span').item(2).innerHTML = source.getElementsByTagName('span').item(1).innerHTML;
+		hiddenSpans.item(0).innerHTML = sourceSpans.item(0).innerHTML;
+		hiddenSpans.item(2).innerHTML = sourceSpans.item(1).innerHTML;
 
 		/* nomi squadre */
 		if (visibility == 'hidden') {
@@ -226,7 +230,6 @@ function hideBox() {
 		alert(":( DOM NON Supportato!");
 	}
 }
-
 
 function clearHiddenBoxData() {
 	if (document.getElementById) {

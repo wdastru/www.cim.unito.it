@@ -440,14 +440,28 @@ function classifica(/* variable number of arguments, the first has to be the arr
 		echo "<tr><td colspan='11'>--------- OK ----------</td></tr>";
 	}
 
-	echo "<tr  class='tableline'><th>avulsa n&deg;";
+	echo "<tr  class='tableline'>
+			<th>avulsa n&deg;";
 	echo $local_call_number+1;
-	echo " </th><th>pt</th><th>g</th><th>v</th><th>n</th><th>p</th><th>gf</th><th>gs</th><th>&Delta;g</th><th>pt</th><th>&Delta;p</th></tr>";
-	echo "    <tr>";
+	echo " </th>
+			<th>pt</th>
+			<th>g</th>
+			<th>v</th>
+			<th>n</th>
+			<th>p</th>
+			<th>gf</th>
+			<th>gs</th>
+			<th>&Delta;g</th>
+			<th>pt</th>
+			<th>&Delta;p</th>
+			</tr>";
 	for($i=0; $i<8; $i++)
 	{
-		if ($avulsa[$i][2] == 0)
-		continue;
+		echo "    <tr>";
+		if ($avulsa[$i][2] == 0) {
+			echo "    </tr>";
+			continue;
+		}
 
 		echo "<td class='Squadra'>" . $avulsa[$i][0] . "</td>";
 		for($j=1; $j<11; $j++)

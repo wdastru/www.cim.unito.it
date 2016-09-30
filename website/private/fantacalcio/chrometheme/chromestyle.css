@@ -6,7 +6,7 @@ padding: 4px 0; margin: 0;text-align: center; /*set value to "left", "center", o
 .chromestyle ul li{display:block; float:left; width:12.5%;}
 .chromestyle ul li a{color:menuColor; padding: 4px 7px;margin: 0;text-decoration: none; text-align:left;}
 .chromestyle ul li a:hover{background:none; color:menuHoverColor; /*THEME CHANGE HERE*/}
-.chromestyle ul li a[rel]:after{ /*HTML to indicate drop down link*/ /*content:\"v\";*/ }
+.chromestyle ul li a[data-dropdown-id]:after{ /*HTML to indicate drop down link*/ /*content:\"v\";*/ }
 
 /* ######### Style for Drop Down Menu ######### */
 .dropmenudiv{

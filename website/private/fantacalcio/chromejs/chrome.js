@@ -137,11 +137,11 @@ startchrome:function(){
 	for (var ids=0; ids<arguments.length; ids++){
 		var menuitems=document.getElementById(arguments[ids]).getElementsByTagName("a")
 		for (var i=0; i<menuitems.length; i++){
-			if (menuitems[i].getAttribute("rel")){
-				var relvalue=menuitems[i].getAttribute("rel")
+			if (menuitems[i].getAttribute("data-dropdown-id")){
+				var relvalue=menuitems[i].getAttribute("data-dropdown-id")
 				menuitems[i].onmouseover=function(e){
 					var event=typeof e!="undefined"? e : window.event
-					cssdropdown.dropit(this,event,this.getAttribute("rel"))
+					cssdropdown.dropit(this,event,this.getAttribute("data-dropdown-id"))
 				}
 			}
 		}

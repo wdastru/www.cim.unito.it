@@ -1,12 +1,13 @@
-<div id='menu'>
+<!-- <div id='menu'> -->
+<nav>
   <div class='chromestyle' id='chromemenu'>
     <ul>
       <li> <a href='<?php echo $relocate_string; ?>index.php'>Home</a> </li>
-      <li class='dropmenu5'> <a href='<?php echo $relocate_string; ?>#' rel='dropmenu5'>Risultati</a> </li>
-      <li class='dropmenu1'> <a href='<?php echo $relocate_string; ?>#' rel='dropmenu1'>Marcatori</a> </li>
-      <li class='dropmenu2'> <a href='<?php echo $relocate_string; ?>#' rel='dropmenu2'>Squadre</a> </li>
-      <li class='dropmenu3'> <a href='<?php echo $relocate_string; ?>#' rel='dropmenu3'>Regole</a> </li>
-      <li class='dropmenu4'> <a href='<?php echo $relocate_string; ?>#' rel='dropmenu4'>Albo d'oro</a> </li>
+      <li class='dropmenu5'> <a href='<?php echo $relocate_string; ?>#' data-dropdown-id='dropmenu5'>Risultati</a> </li>
+      <li class='dropmenu1'> <a href='<?php echo $relocate_string; ?>#' data-dropdown-id='dropmenu1'>Marcatori</a> </li>
+      <li class='dropmenu2'> <a href='<?php echo $relocate_string; ?>#' data-dropdown-id='dropmenu2'>Squadre</a> </li>
+      <li class='dropmenu3'> <a href='<?php echo $relocate_string; ?>#' data-dropdown-id='dropmenu3'>Regole</a> </li>
+      <li class='dropmenu4'> <a href='<?php echo $relocate_string; ?>#' data-dropdown-id='dropmenu4'>Albo d'oro</a> </li>
       <li> <a href='<?php echo $relocate_string; ?>mercato/offerte.php'>Offerte</a> </li>
       <li> <a href='<?php echo $relocate_string; ?>download.php'>Download</a> </li>
     </ul>
@@ -57,4 +58,5 @@
   	<a href='<?php echo $relocate_string; ?>coppa.php'>Coppa</a>
   </div>
   <script type='text/javascript'>cssdropdown.startchrome('chromemenu')</script>
-</div>
+<!-- </div> -->
+</nav>

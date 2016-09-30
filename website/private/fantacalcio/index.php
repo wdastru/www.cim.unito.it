@@ -5,8 +5,6 @@ require_once $relocate_string . 'squadre.inc';
 require_once $relocate_string . 'calendario.inc';
 require_once $relocate_string . 'classifica.inc.php';
 
-//include "dBug.php";
-
 //require_once $relocate_string . 'recursiveChmod.inc.php';
 //@recursiveChmod($relocate_string . '777/');
 
@@ -21,13 +19,13 @@ if (!file_exists($relocate_string . '777/gazFiles.inc.php')) {
 require_once $relocate_string . '777/gazFiles.inc.php';
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html
-xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
 	<!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		<title>Fantacalcio NMR</title>
-		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
 		<link rel="stylesheet" type="text/css"
@@ -311,7 +309,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 			echo "<table class='classificaBarre'>";
 
 			echo "  <tr>";
-			for ($i = 0; $i < $classifica[0][0] + 5; $i++) {	echo "<td>&nbsp;</td>";
+			for ($i = 0; $i < $classifica[0][0] + 7; $i++) {	
+				echo "<td>&nbsp;</td>";
 			}
 			echo "</tr>";
 

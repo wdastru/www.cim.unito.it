@@ -4,13 +4,13 @@ require_once ($relocate_string . "logger.php");
 include ("squadre.inc");
 include ("calendario.inc");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html
-xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
   <!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
     <title>Fantacalcio NMR</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta charset="utf-8" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css"
     href="documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
@@ -59,7 +59,7 @@ xmlns="http://www.w3.org/1999/xhtml">
       </div>
       <br />
       <br />
-      <form method='post' id='formRisultati' action=''>
+      <form method='post' id='formRisultati' action='%20'>
         <fieldset class='noBorder'>
           <input class='button' type='button' id='sendButton' value='Send'
           onclick='validate( "campionato" )' />
