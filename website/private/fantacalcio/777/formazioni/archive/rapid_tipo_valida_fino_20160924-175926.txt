@@ -20,7 +20,7 @@ JORGINHO Frello
 BASELLI Daniele
 TAIDER Saphir
 DIAWARA Amadou
-CALLEJON José
+CALLEJON José Maria
 DYBALA Paulo
 BACCA Carlos
 MURIEL Luis
@@ -28,4 +28,4 @@ PERICA Stipe
 OCAMPOS Lucas
 130
 3395989215
-Sat 24 Sep 2016 - 17:59:26
+Sat 24 Sep 2016 - 17:56:25

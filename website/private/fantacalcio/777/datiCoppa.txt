@@ -1,7 +1,7 @@
-gruppi0/-/-/-/-/
-gruppi1/-/-/-/-/
-gruppi2/-/-/-/-/
-gruppi3/-/-/-/-/
+gruppi0/4/3/84/82/SZCZESNY/ICARDI/ICARDI/RUGANI/KREJCI/VERDI/ZAPATA/
+gruppi1/3/0/81/60/SALAH/EL SHAARAWY/EL SHAARAWY/
+gruppi2/2/2/75.5/73/BACCA Carlos/ALVES Dani/BABACAR Khouma/BERNARDESCHI Federico/
+gruppi3/0/4/64/86/DZEKO EDIN/DZEKO EDIN/HIGUAIN GONZALO/CASTRO LUCAS/
 gruppi4/-/-/-/-/
 gruppi5/-/-/-/-/
 gruppi6/-/-/-/-/
