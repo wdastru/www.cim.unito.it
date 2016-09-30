@@ -902,7 +902,7 @@
 1617/Real Mentescars/Lokomotiv Peccorino/////0/
 1617/Real Mentescars/Lokomotiv Peccorino/////1/
 1617/Real Mentescars/Lokomotiv Peccorino/////0/
-1617/Dinamo Ciofeca/EPOrediese/////1/
+1617/Dinamo Ciofeca/EPOrediese/0/2/64/74.5/1/IAGO/IAGO/
 1617/Dinamo Ciofeca/EPOrediese/////0/
 1617/Dinamo Ciofeca/EPOrediese/////1/
 1617/Dinamo Ciofeca/EPOrediese/////0/
