@@ -907,7 +907,7 @@
 1617/Dinamo Ciofeca/EPOrediese/////1/
 1617/Dinamo Ciofeca/EPOrediese/////0/
 1617/Atletico? No Grazie!/L.A. Krakatoa/2/2/73.5/74.5/1/BELOTTI/BELOTTI/JOAO PEDRO/LIROLA/
-1617/Atletico? No Grazie!/L.A. Krakatoa/-/-/-/-/0/
+1617/Atletico? No Grazie!/L.A. Krakatoa/////0/
 1617/Atletico? No Grazie!/L.A. Krakatoa/////1/
 1617/Atletico? No Grazie!/L.A. Krakatoa/////0/
 1617/Rapid Bradip/Real Mentescars/////1/
