@@ -5,21 +5,21 @@ HANDANOVIC Samir
 CARRIZO Juan Pablo
 SORRENTINO Stefano
 ACERBI Francesco
-BIRAGHI Cristiano
 FELIPE Dal Bello
+BIRAGHI Cristiano
 GOBBI Massimo
 REGINI Vasco
 MILIC Hrvoje
 ROMAGNOLI Alessio
 RODRIGUEZ Gonzalo
+ALVAREZ Ricardo
 BENALI Ahmad
 CASTRO Lucas
-HETEMAJ Perparim
-PAREDES Leandro
-HALLFREDSSON Emil
 LAXALT Diego
+PAREDES Leandro
+HETEMAJ Perparim
 LJAJIC Adem
-ALVAREZ Ricardo
+HALLFREDSSON Emil
 HIGUAIN Gonzalo
 DZEKO Edin
 DEFREL Gregoire
@@ -28,4 +28,4 @@ PALLADINO Raffaele
 LAPADULA Gianluca
 292
 3404073967
-Fri 23 Sep 2016 - 21:35:46
+Sat 24 Sep 2016 - 15:20:49
