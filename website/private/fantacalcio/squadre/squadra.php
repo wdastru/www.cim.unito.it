@@ -122,44 +122,59 @@ if(file_exists($fileSquadreXml))
 	<!-- InstanceEndEditable -->
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
-		<table class="mainSquadre">
-			<colgroup span="3">
-				<col width="270" />
-				<col width="270" />
-				<col width="270" />
-			</colgroup>
-			<tr>
-				<td class="Nome"><?php echo $longName[$_GET['squadra']]; ?></td>
-				<td class="Immagine"><img
-					src="<?php echo $relocate_string; ?>figure/<?php echo $imgSquadra; ?>"
-					height="150" alt="<?php echo $imgSquadra; ?>" /></td>
-				<td class="Storico"><table>
-						<tr>
-							<td><?php
-							for ($i=0; $i<count($storico); $i++)
-							{
-								echo "
-						<div class='stagione'>
-						  <span class='stagione'>" . $storico[$i]['stagione'] . " :</span>
-						  <span class='" . $numeroToAdjective[$storico[$i]['posizione']] . "'>&nbsp;" . $storico[$i]['posizione'] . "&deg;&nbsp;</span>";
-
-						  if ( isset($storico[$i]['coppa']) && $storico[$i]['coppa'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['coppa'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['supercoppa']) && $storico[$i]['supercoppa'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['supercoppa'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['champions']) && $storico[$i]['champions'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['champions'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['vecchio_nome']) && $storico[$i]['vecchio_nome'] != '' )
-						  echo "<span class='oldName'>&nbsp;" . $storico[$i]['vecchio_nome'] . "&nbsp;</span>";
-						  	
-						  echo "</div>";
-							}
-							?></td>
-						</tr>
-					</table></td>
-			</tr>
-		</table>
-		<br /> <br />
+		<div id="squadreName"><?php echo $longName[$_GET['squadra']]; ?></div>
+		<br />
+		<br />
+		<br />
+		<div id="datiStorici">
+			<div id="left">
+				<?php
+				
+				$half=count($storico)%2?intval(count($storico)/2+1):intval(count($storico)/2);
+				
+						for ($i=0; $i<$half; $i++)
+						{
+					echo "<div class='stagione'>";
+					if (isset ( $storico [$i] ['vecchio_nome'] ) && $storico [$i] ['vecchio_nome'] != '')
+						echo "<span class='oldName'>&nbsp;" . $storico [$i] ['vecchio_nome'] . "&nbsp;</span>";
+					if (isset ( $storico [$i] ['champions'] ) && $storico [$i] ['champions'] != '')
+						echo "<span class='coppe'>&nbsp;" . $storico [$i] ['champions'] . "&nbsp;</span>";
+					if (isset ( $storico [$i] ['supercoppa'] ) && $storico [$i] ['supercoppa'] != '')
+						echo "<span class='coppe'>&nbsp;" . $storico [$i] ['supercoppa'] . "&nbsp;</span>";
+					if (isset ( $storico [$i] ['coppa'] ) && $storico [$i] ['coppa'] != '')
+						echo "<span class='coppe'>&nbsp;" . $storico [$i] ['coppa'] . "&nbsp;</span>";
+					echo "<span class='" . $numeroToAdjective [$storico [$i] ['posizione']] . "'>&nbsp;" . $storico [$i] ['posizione'] . "&deg;&nbsp;</span>";
+					echo "<span class='stagione'>" . $storico [$i] ['stagione'] . " :</span>";
+					echo "</div>";
+						}
+				?>
+			</div>
+			<div id="center">
+				<img
+				src="<?php echo $relocate_string; ?>figure/<?php echo $imgSquadra; ?>"
+				height="150" border="2px solid #000" alt="<?php echo $imgSquadra; ?>" />
+			</div>
+			<div id="right">
+				<?php
+						for ($i=$half; $i<count($storico); $i++)
+						{
+							echo "
+								<div class='stagione'>
+							  	<span class='stagione'>" . $storico[$i]['stagione'] . " :</span>
+							  	<span class='" . $numeroToAdjective[$storico[$i]['posizione']] . "'>&nbsp;" . $storico[$i]['posizione'] . "&deg;&nbsp;</span>";
+							if ( isset($storico[$i]['coppa']) && $storico[$i]['coppa'] != '' )
+								echo "<span class='coppe'>&nbsp;" . $storico[$i]['coppa'] . "&nbsp;</span>";
+							if ( isset($storico[$i]['supercoppa']) && $storico[$i]['supercoppa'] != '' )
+								echo "<span class='coppe'>&nbsp;" . $storico[$i]['supercoppa'] . "&nbsp;</span>";
+							if ( isset($storico[$i]['champions']) && $storico[$i]['champions'] != '' )
+								echo "<span class='coppe'>&nbsp;" . $storico[$i]['champions'] . "&nbsp;</span>";
+							if ( isset($storico[$i]['vecchio_nome']) && $storico[$i]['vecchio_nome'] != '' )
+								echo "<span class='oldName'>&nbsp;" . $storico[$i]['vecchio_nome'] . "&nbsp;</span>";
+							echo "</div>";
+						}
+				?>
+			</div>
+		</div>
 	<?php include($relocate_string . "squadre/generatoreSquadra.php"); ?>
 		<!-- InstanceEndEditable -->
 	</div>
