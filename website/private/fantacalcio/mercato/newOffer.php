@@ -6,9 +6,10 @@ require($relocate_string . '777/setupSquadre.inc.php');
 require('addEncryptClasses.php');
 require $relocate_string . 'recursiveChmod.inc.php';
 
+//echo $_POST['PasswordTeam'] . "   " . $ADMIN[$_GET['squadra']] . "   " . md5($_POST['PasswordTeam']) . "   " . $ADMIN['admin']; 
 
-if ( !(md5($_POST['PasswordTeam']) != $ADMIN[$_GET['squadra']] || 
-		md5($_POST['PasswordTeam']) != $ADMIN['admin']) ) {
+if ( !(md5($_POST['PasswordTeam']) == $ADMIN[$_GET['squadra']] || 
+		md5($_POST['PasswordTeam']) == $ADMIN['admin']) ) {
 	header('Location: ../errors/error.php?error=wrongPass&returnFromError=' . $_POST['returnFromError']);
 	exit(); 
 } else if ( $_POST['PasswordOffer'] != $_POST['RepeatPasswordOffer'] ) {
@@ -16,21 +17,34 @@ if ( !(md5($_POST['PasswordTeam']) != $ADMIN[$_GET['squadra']] ||
 	exit();
 }
 
-
 if(!file_exists("..//777//offerte//")) 
 { 
 	@mkdir("..//777//offerte//");
 } 
+
+$obj = new cls_encrypt();
+
+$pass = $_POST['PasswordOffer'];
+//echo $pass . $ADMIN['real'];
+$str = "CICCIO";
+$str1 = $obj->encrypt_value($str, $pass . $ADMIN['real']);
+echo $str1;
+echo "<br><br>";
+$str2 = $obj->encrypt_value($str1, $pass . $ADMIN['real']);
+echo $str2;
+exit();
 
 $file2save = '../777/offerte/offerta_' . $_GET['squadra'] . "_" . date("Ymd-His",time()) . "_locked.txt";
 $handle = fopen($file2save, 'w');
 if($handle)
 {
 	/* uso della classe cls_encrypt */
-	$obj = new cls_encrypt();
+	//$obj = new cls_encrypt();
 	$str = strtoupper("GoodPassword!!!" . $_GET['squadra']) . ' - ' . date("D d M Y - H:i:s",time()) . "\n\n" . $_POST['Offerta_quo_in'] . ' fantamiliardi per : ' . stripcslashes($_POST['Offerta_gio_in']) . ' (' . $_POST['Offerta_squ_in'] . ', ' . $_POST['Offerta_ruo_in'] . ")\n" . 'al posto di : ' . stripcslashes(strtoupper($_POST['Offerta_gio_out'])) . ' (' . strtoupper($_POST['Offerta_squ_out']) . ', ' . strtoupper($_POST['Offerta_ruo_out']) . ")\n";
 	$pass = $_POST['PasswordOffer'];
+	
 	$str = $obj->encrypt_value($str, $pass . $ADMIN['real']);
+	
 	/* uso della classe cls_encrypt */
 	
 	/* uso della funzione encrypt_decrypt
