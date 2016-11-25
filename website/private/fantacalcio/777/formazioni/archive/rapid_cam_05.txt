@@ -1,25 +1,25 @@
-4 - 3 - 3
-1 - 4 - 3 - 3
+3 - 4 - 3
+1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 HART Joe
 PADELLI Daniele
 MARCHETTI Federico
-ALVES Dani
-PERES Bruno
-GHOULAM Faouzi
 KOULIBALY Kalidou
-MURRU Nicola
-BASTOS
-JESUS Juan
+ALVES Dani
 MAKSIMOVIC Nikola
+MURRU Nicola
+GHOULAM Faouzi
+JESUS Juan
+PERES Bruno
+BASTOS
 CANDREVA Antonio
-NAINGGOLAN Radja
 KESSIÉ Franck
+NAINGGOLAN Radja
+DIAWARA Amadou
 BENASSI Marco
 JORGINHO Frello
-BASELLI Daniele
 TAIDER Saphir
-DIAWARA Amadou
+BASELLI Daniele
 CALLEJON José
 MURIEL Luis
 BACCA Carlos
@@ -28,4 +28,4 @@ OCAMPOS Lucas
 DYBALA Paulo
 130
 3395989215
-Sat 24 Sep 2016 - 18:04:25
+Tue 25 Oct 2016 - 14:05:38

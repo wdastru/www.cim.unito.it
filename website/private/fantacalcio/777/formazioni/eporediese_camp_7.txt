@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+SZCZESNY Wojciech
+ALISSON Ramses Becker
+VIVIANO Emiliano
+BENATIA Medhi
+RUGANI Daniele
+CASTAN Leandro
+ALVES Bruno
+DAINELLI Dario
+ALBIOL Raul
+FLORENZI Alessandro
+TONELLI Lorenzo
+IAGO Falque
+HAMSIK Marek
+ANDERSON Felipe
+MERTENS Dries
+PERISIC Ivan
+KHEDIRA Sami
+BROZOVIC Marcelo
+MARCHISIO Claudio
+ICARDI Mauro
+KALINIC Nikola
+PAVOLETTI Leonardo
+CAPRARI Gianluca
+MACCARONE Massimo
+MARTINEZ Josef
+252
+3498318385
+Sat 05 Nov 2016 - 17:15:00

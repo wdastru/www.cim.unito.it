@@ -17,7 +17,7 @@ ALLAN Marques Loureiro
 JOAO PEDRO
 RINCON Tomas
 PRAET Dennis
-TELLO Cristian
+TELLO Andres
 ZIELINSKI Piotr
 MEMUSHAJ Ledian
 BERARDI Domenico
@@ -28,4 +28,4 @@ DJORDJEVIC Filip
 FALCINELLI Diego
 
 
-Fri 28 Oct 2016 - 17:40:27
+Tue 27 Sep 2016 - 09:59:04

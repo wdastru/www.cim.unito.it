@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+3 - 5 - 2
+1 - 3 - 5 - 2
 1 - 2 - 2 - 2
 CONSIGLI Andrea
 PEGOLO Gianluca
 DA COSTA Angelo
-DE VRIJ Stefan
 ANSALDI Cristian
 PALETTA Gabriel
-LIROLA Pol
 ANTONELLI Luca
 DANILO Larangeira
 MARTELLA Bruno
+DE VRIJ Stefan
+LIROLA Pol
 MASINA Adam
-STROOTMAN Kevin
-ALLAN Marques Loureiro
-JOAO PEDRO
 RINCON Tomas
-PRAET Dennis
-TELLO Cristian
 ZIELINSKI Piotr
 MEMUSHAJ Ledian
-BERARDI Domenico
+TELLO Cristian
+STROOTMAN Kevin
+ALLAN Marques Loureiro
+PRAET Dennis
+JOAO PEDRO
+FALCINELLI Diego
 IMMOBILE Ciro
 INSIGNE Lorenzo
-PJACA Marko
 DJORDJEVIC Filip
-FALCINELLI Diego
+BERARDI Domenico
+PJACA Marko
 
 
-Fri 28 Oct 2016 - 17:40:27
+Fri 04 Nov 2016 - 18:00:08

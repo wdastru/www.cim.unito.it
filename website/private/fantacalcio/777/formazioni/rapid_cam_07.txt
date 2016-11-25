@@ -1,31 +1,31 @@
-4 - 3 - 3
-1 - 4 - 3 - 3
+3 - 4 - 3
+1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 HART Joe
 PADELLI Daniele
 MARCHETTI Federico
+KOULIBALY Kalidou
 ALVES Dani
 PERES Bruno
 GHOULAM Faouzi
-KOULIBALY Kalidou
-MURRU Nicola
-BASTOS
 JESUS Juan
 MAKSIMOVIC Nikola
+MURRU Nicola
+BASTOS
 CANDREVA Antonio
+BENASSI Marco
 NAINGGOLAN Radja
 KESSIÉ Franck
-BENASSI Marco
+DIAWARA Amadou
+TAIDER Saphir
 JORGINHO Frello
 BASELLI Daniele
-TAIDER Saphir
-DIAWARA Amadou
 CALLEJON José
-MURIEL Luis
 BACCA Carlos
-PERICA Stipe
+MURIEL Luis
 OCAMPOS Lucas
+PERICA Stipe
 DYBALA Paulo
 130
 3395989215
-Sat 24 Sep 2016 - 18:04:25
+Sat 05 Nov 2016 - 15:48:39
