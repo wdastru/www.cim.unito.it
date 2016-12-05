@@ -15,10 +15,10 @@ DE MAIO Sebastian
 CUADRADO Juan
 JOAO MARIO
 GOMEZ Alejandro
-FERNANDES Bruno
+D'ALESSANDRO Marco
 PAROLO Marco
 DI GENNARO Davide
-POLITANO Matteo
+SOSA José
 SAPONARA Riccardo
 GABRIEL Barbosa
 KEITA Balde
@@ -26,6 +26,6 @@ EDER Citadin Martins
 LOPEZ Maxi
 MATRI Alessandro
 PUCCIARELLI Manuel
-96
+110
 347-2375356
-Thu 01 Dec 2016 - 21:41:28
+Tue 20 Sep 2016 - 22:43:22

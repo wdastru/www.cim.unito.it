@@ -10,7 +10,7 @@ PALETTA Gabriel
 LIROLA Pol
 ANTONELLI Luca
 DANILO Larangeira
-ZAPPACOSTA Davide
+MARTELLA Bruno
 MASINA Adam
 STROOTMAN Kevin
 ALLAN Marques Loureiro
@@ -28,4 +28,4 @@ NESTOROVSKI Ilija
 FALCINELLI Diego
 
 
-Thu 01 Dec 2016 - 14:05:35
+Wed 30 Nov 2016 - 21:39:55

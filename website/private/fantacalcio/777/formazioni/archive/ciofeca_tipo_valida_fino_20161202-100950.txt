@@ -14,7 +14,7 @@ VERMAELEN Thomas
 IZZO Armando
 PJANIC Miralem
 VERRE Valerio
-FOFANA Seko
+GIACCHERINI Emanuele
 BIGLIA Lucas
 BADELJ Milan
 RIGONI Luca
@@ -26,6 +26,6 @@ SALAH Mohamed
 MEGGIORINI Riccardo
 SAU Marco
 GABBIADINI Manolo
-115
+116
 3337815436
-Fri 02 Dec 2016 - 10:09:50
+Sat 26 Nov 2016 - 14:42:23

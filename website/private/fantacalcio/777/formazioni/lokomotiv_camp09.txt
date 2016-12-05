@@ -4,28 +4,28 @@
 BUFFON Gianluigi
 NETO Norberto
 AUDERO Emil
-EVRA Patrice
-DE SCIGLIO Mattia
-PELUSO Federico
-HYSAJ Elseid
 ASTORI Davide
-GASTALDELLO Daniele
+DE SCIGLIO Mattia
+EVRA Patrice
+HYSAJ Elseid
+PELUSO Federico
 CANNAVARO Paolo
 CALABRIA Davide
+GASTALDELLO Daniele
 VALERO Borja
-BONAVENTURA Giacomo
 BERNARDESCHI Federico
-ASAMOAH Kwadwo
 VALDIFIORI Mirko
 KUCKA Juraj
-GAKPÉ Serge
 LEMINA Mario
+ASAMOAH Kwadwo
+GAKPÉ Serge
+BONAVENTURA Giacomo
 MANDZUKIC Mario
-MILIK Arkadiusz
-BABACAR Khouma
 ILICIC Josip
-THEREAU Cyril
 SIMEONE Giovanni
+THEREAU Cyril
+BABACAR Khouma
+MILIK Arkadiusz
 60
 347-4172758
-Fri 25 Nov 2016 - 22:45:34
+Fri 02 Dec 2016 - 11:56:27

@@ -15,7 +15,7 @@ DE MAIO Sebastian
 CUADRADO Juan
 JOAO MARIO
 GOMEZ Alejandro
-FERNANDES Bruno
+D'ALESSANDRO Marco
 PAROLO Marco
 DI GENNARO Davide
 POLITANO Matteo
@@ -26,6 +26,6 @@ EDER Citadin Martins
 LOPEZ Maxi
 MATRI Alessandro
 PUCCIARELLI Manuel
-96
+99
 347-2375356
-Thu 01 Dec 2016 - 21:41:28
+Fri 25 Nov 2016 - 22:43:35
