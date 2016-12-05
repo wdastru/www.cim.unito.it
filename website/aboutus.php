@@ -30,14 +30,17 @@ $localizer = "./";
                         <div class='paddingInner'>
                             <p>
                                 The University of Torino is very experienced in the field of synthesis and physical-chemical
-                                characterisation of contrast agents. Since 1986, research activities have addressed the
+                                characterisation of contrast agents. 
+                                <br/>Since 1986, research activities have addressed the
                                 development of paramagnetic contrast agents for MRI (with projects in High Relaxivity,
-                                Blood Pool agents, Targeting and Responsive Probes). In 1998, a new laboratory was settled
-                                at the Bioindustry Park (in close collaboration with biology teams), dedicated to the
-                                identification of new targets and vectors (Center of Excellence for Preclinical Imaging - CEIP).
-                                In 2001 the fruitful collaboration between chemists, biologists and medical doctors led to the
+                                Blood Pool agents, Targeting and Responsive Probes).
+                                <br/>In 1998, a new laboratory was settled at the Bioindustry Park (in close collaboration with biology teams), 
+                                dedicated to the identification of new targets and vectors (Center of Excellence for Preclinical Imaging - CEIP).
+                                <br/>In 2001 the fruitful collaboration between chemists, biologists and medical doctors led to the
                                 foundation of the Center for Molecular Imaging (CIM) of the University of Torino, located at
                                 the School of Biotechnology.
+                                <br/>Since 2009 it hosts a research unit of the Institute of Biostructures and Bioimages (IBB) of the Consiglio 
+                                Nazionale delle Ricerche (CNR) in the context of a joined research program.
                             </p>
                             <p>
                                 The main lines of research activities are the following:
