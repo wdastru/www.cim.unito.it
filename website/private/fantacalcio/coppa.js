@@ -228,7 +228,7 @@ function arrangeTeams() {
 			}
 		}
 		// <-- ricerca gruppi per classifica avulsa
-
+		
 		// --> risoluzione gruppi
 		for ( var i = 0; i < containers.length; i++) {
 			if (containers[i].length > 1)
@@ -632,8 +632,8 @@ function classifica(
 								switchSquadre(avulsa, i, i + 1);
 							} else // sorteggio 
 							{ 
-								if (avulsa[i][0] == 'Atletico? No Grazie!'
-										&& avulsa[i + 1][0] == 'Fedora')
+								if (avulsa[i][0] == 'Rapid Bradip'
+										&& avulsa[i + 1][0] == 'Lokomotiv Peccorino')
 									switchSquadre(avulsa, i, i + 1);
 							}
 						}
