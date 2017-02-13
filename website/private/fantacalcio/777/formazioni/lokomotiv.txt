@@ -4,7 +4,7 @@
 BUFFON Gianluigi
 NETO Norberto
 AUDERO Emil
-EVRA Patrice
+ANTEI Luca
 DE SCIGLIO Mattia
 PELUSO Federico
 HYSAJ Elseid
@@ -18,14 +18,14 @@ BERNARDESCHI Federico
 ASAMOAH Kwadwo
 VALDIFIORI Mirko
 KUCKA Juraj
-GAKPÉ Serge
-LEMINA Mario
+STURARO Stefano
+PASALIC Mario
 MANDZUKIC Mario
 MILIK Arkadiusz
 BABACAR Khouma
 ILICIC Josip
 THEREAU Cyril
 SIMEONE Giovanni
-60
+52
 347-4172758
-Fri 25 Nov 2016 - 22:45:34
+Thu 09 Feb 2017 - 22:30:55

@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+HANDANOVIC Samir
+SORRENTINO Stefano
+CARRIZO Juan Pablo
+ACERBI Francesco
+MASIELLO Andrea
+ROMAGNOLI Alessio
+BURDISSO Nicolas
+REGINI Vasco
+SILVESTRE Matias
+BIRAGHI Cristiano
+GOBBI Massimo
+KURTIC Jasmin
+LULIC Senad
+LJAJIC Adem
+PAREDES Leandro
+LAXALT Diego
+BENALI Ahmad
+HETEMAJ Perparim
+CASTRO Lucas
+DZEKO Edin
+HIGUAIN Gonzalo
+DEFREL Gregoire
+LAPADULA Gianluca
+PALLADINO Raffaele
+BORRIELLO Marco
+170
+3404073967
+Wed 28 Dec 2016 - 17:30:52

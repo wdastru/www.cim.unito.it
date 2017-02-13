@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+HART Joe
+MARCHETTI Federico
+PADELLI Daniele
+FAZIO Federico
+BARRECA Antonio
+CALDARA Mattia
+PERES Bruno
+MAKSIMOVIC Nikola
+ALVES Dani
+GHOULAM Faouzi
+KOULIBALY Kalidou
+NAINGGOLAN Radja
+CANDREVA Antonio
+BENASSI Marco
+JORGINHO Frello
+MILINKOVIC Sergej
+DIAWARA Amadou
+BASELLI Daniele
+KESSIÉ Franck
+DYBALA Paulo
+BACCA Carlos
+OCAMPOS Lucas
+CALLEJON José
+MURIEL Luis
+SCHICK Patrik
+105
+3395989215
+Sat 21 Jan 2017 - 15:46:10

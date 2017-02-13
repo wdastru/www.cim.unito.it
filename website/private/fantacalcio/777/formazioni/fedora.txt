@@ -6,17 +6,17 @@ CARRIZO Juan Pablo
 SORRENTINO Stefano
 ACERBI Francesco
 BIRAGHI Cristiano
-FELIPE Dal Bello
+BURDISSO Nicolas
 GOBBI Massimo
-REGINI Vasco
+RISPOLI Andrea
 MASIELLO Andrea
 ROMAGNOLI Alessio
-RODRIGUEZ Gonzalo
-BENALI Ahmad
+SILVESTRE Matias
+TORREIRA Lucas
 CASTRO Lucas
 HETEMAJ Perparim
 PAREDES Leandro
-HALLFREDSSON Emil
+LULIC Senad
 LAXALT Diego
 LJAJIC Adem
 KURTIC Jasmin
@@ -26,6 +26,6 @@ DEFREL Gregoire
 BORRIELLO Marco
 PALLADINO Raffaele
 LAPADULA Gianluca
-198
+148
 3404073967
-Thu 01 Dec 2016 - 21:55:54
+Fri 10 Feb 2017 - 12:16:47

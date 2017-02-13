@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+4 - 3 - 3
+1 - 4 - 3 - 3
 1 - 2 - 2 - 2
+BERISHA Etrit
 CONSIGLI Andrea
 PEGOLO Gianluca
-DA COSTA Angelo
 DE VRIJ Stefan
-ANSALDI Cristian
+RUDIGER Antonio
 PALETTA Gabriel
-LIROLA Pol
-ANTONELLI Luca
-DANILO Larangeira
-ZAPPACOSTA Davide
 MASINA Adam
+DANILO Larangeira
+ANSALDI Cristian
+RODRIGUEZ Gonzalo
+LIROLA Pol
+ZIELINSKI Piotr
+GAGLIARDINI Roberto
+RINCON Tomas
 STROOTMAN Kevin
 ALLAN Marques Loureiro
+PELLEGRINI Lorenzo
 JOAO PEDRO
-RINCON Tomas
 PRAET Dennis
-TELLO Cristian
-ZIELINSKI Piotr
-MEMUSHAJ Ledian
-BERARDI Domenico
-IMMOBILE Ciro
 INSIGNE Lorenzo
 PJACA Marko
-NESTOROVSKI Ilija
 FALCINELLI Diego
+BERARDI Domenico
+NESTOROVSKI Ilija
+IMMOBILE Ciro
+212
 
-
-Thu 01 Dec 2016 - 14:05:35
+Thu 09 Feb 2017 - 21:46:33

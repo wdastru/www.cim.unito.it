@@ -19,13 +19,13 @@ VERDI Simone
 KREJCI Ladislav
 DIAMANTI Alessandro
 BIRSA Valter
-HILJEMARK Oscar
+DZEMAILI Blerim
 DESTRO Mattia
 ZAPATA Duvan
 BELOTTI Andrea
 PETAGNA Andrea
-NIANG M'Baye
+INGLESE Roberto
 SADIQ Umar
-154
+148
 3474046541
-Thu 01 Dec 2016 - 22:11:04
+Thu 09 Feb 2017 - 22:39:27
