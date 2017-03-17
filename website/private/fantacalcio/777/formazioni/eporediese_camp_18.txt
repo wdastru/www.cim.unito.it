@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+3 - 5 - 2
+1 - 3 - 5 - 2
 1 - 2 - 2 - 2
 SZCZESNY Wojciech
 ALISSON Ramses Becker
 VIVIANO Emiliano
-ALVES Bruno
-RUGANI Daniele
-CASTAN Leandro
-ZAPPACOSTA Davide
-DAINELLI Dario
 BENATIA Medhi
-FLORENZI Alessandro
 ALBIOL Raul
+ALVES Bruno
+DAINELLI Dario
+RUGANI Daniele
+FLORENZI Alessandro
+TONELLI Lorenzo
+CASTAN Leandro
+MERTENS Dries
 HAMSIK Marek
-IAGO Falque
+PERISIC Ivan
+ANDERSON Felipe
 KHEDIRA Sami
+IAGO Falque
 MARCHISIO Claudio
 BROZOVIC Marcelo
-ANDERSON Felipe
-MERTENS Dries
-PERISIC Ivan
-CAPRARI Gianluca
-MACCARONE Massimo
-ICARDI Mauro
-SAU Marco
 KALINIC Nikola
+CAPRARI Gianluca
 PAVOLETTI Leonardo
-234
+MACCARONE Massimo
+MARTINEZ Josef
+ICARDI Mauro
+252
 3498318385
-Fri 10 Mar 2017 - 14:32:05
+Fri 17 Feb 2017 - 18:20:08

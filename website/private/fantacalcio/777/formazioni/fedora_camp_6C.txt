@@ -5,21 +5,21 @@ HANDANOVIC Samir
 CARRIZO Juan Pablo
 SORRENTINO Stefano
 ACERBI Francesco
-BIRAGHI Cristiano
+MASIELLO Andrea
+SILVESTRE Matias
+RISPOLI Andrea
 BURDISSO Nicolas
 GOBBI Massimo
-RISPOLI Andrea
-MASIELLO Andrea
+BIRAGHI Cristiano
 ROMAGNOLI Alessio
-SILVESTRE Matias
-TORREIRA Lucas
-CASTRO Lucas
-SPINAZZOLA Leonardo
-PAREDES Leandro
-LULIC Senad
-LAXALT Diego
-LJAJIC Adem
 KURTIC Jasmin
+CASTRO Lucas
+LJAJIC Adem
+SPINAZZOLA Leonardo
+LULIC Senad
+TORREIRA Lucas
+LAXALT Diego
+PAREDES Leandro
 HIGUAIN Gonzalo
 DZEKO Edin
 DEFREL Gregoire
@@ -28,4 +28,4 @@ PALLADINO Raffaele
 LAPADULA Gianluca
 123
 3404073967
-Sat 04 Mar 2017 - 14:00:29
+Sat 04 Mar 2017 - 14:07:58

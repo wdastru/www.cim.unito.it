@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+4 - 3 - 3
+1 - 4 - 3 - 3
 1 - 2 - 2 - 2
 BUFFON Gianluigi
 NETO Norberto
 AUDERO Emil
-ANTEI Luca
-DE SCIGLIO Mattia
-PELUSO Federico
-HYSAJ Elseid
 ASTORI Davide
-GASTALDELLO Daniele
+HYSAJ Elseid
+DE SCIGLIO Mattia
 CANNAVARO Paolo
+PELUSO Federico
 CALABRIA Davide
+ANTEI Luca
+GASTALDELLO Daniele
 VALERO Borja
+VALDIFIORI Mirko
+KUCKA Juraj
+PASALIC Mario
+ASAMOAH Kwadwo
 BONAVENTURA Giacomo
 BERNARDESCHI Federico
-ASAMOAH Kwadwo
-JANKTO Jakub
-KUCKA Juraj
 STURARO Stefano
-PASALIC Mario
 MANDZUKIC Mario
+SIMEONE Giovanni
+THEREAU Cyril
 MILIK Arkadiusz
 BABACAR Khouma
 ILICIC Josip
-THEREAU Cyril
-SIMEONE Giovanni
-50
+52
 347-4172758
-Thu 09 Mar 2017 - 23:09:41
+Sat 04 Mar 2017 - 14:21:16

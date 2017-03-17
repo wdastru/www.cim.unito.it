@@ -1,31 +1,31 @@
-4 - 3 - 3
-1 - 4 - 3 - 3
+3 - 4 - 3
+1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-BERISHA Etrit
 CONSIGLI Andrea
 PEGOLO Gianluca
+BERISHA Etrit
 DE VRIJ Stefan
-RUDIGER Antonio
 PALETTA Gabriel
+RODRIGUEZ Gonzalo
+RUDIGER Antonio
 MASINA Adam
+LIROLA Pol
 DANILO Larangeira
 ANSALDI Cristian
-RODRIGUEZ Gonzalo
-D'AMBROSIO Danilo
 ZIELINSKI Piotr
-GAGLIARDINI Roberto
-RINCON Tomas
-STROOTMAN Kevin
-BENALI Ahmad
-PELLEGRINI Lorenzo
 JOAO PEDRO
+GAGLIARDINI Roberto
+BENALI Ahmad
+STROOTMAN Kevin
 PRAET Dennis
+PELLEGRINI Lorenzo
+RINCON Tomas
 INSIGNE Lorenzo
+BERARDI Domenico
 PJACA Marko
 FALCINELLI Diego
-BERARDI Domenico
 NESTOROVSKI Ilija
 IMMOBILE Ciro
 212
 
-Sat 04 Mar 2017 - 08:51:59
+Fri 24 Feb 2017 - 12:37:02

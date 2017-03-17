@@ -4,28 +4,28 @@
 SZCZESNY Wojciech
 ALISSON Ramses Becker
 VIVIANO Emiliano
+ALBIOL Raul
+ZAPPACOSTA Davide
+BENATIA Medhi
+DAINELLI Dario
 ALVES Bruno
+FLORENZI Alessandro
 RUGANI Daniele
 CASTAN Leandro
-ZAPPACOSTA Davide
-DAINELLI Dario
-BENATIA Medhi
-FLORENZI Alessandro
-ALBIOL Raul
-HAMSIK Marek
-IAGO Falque
-KHEDIRA Sami
-MARCHISIO Claudio
-BROZOVIC Marcelo
-ANDERSON Felipe
 MERTENS Dries
 PERISIC Ivan
+HAMSIK Marek
+ANDERSON Felipe
+IAGO Falque
+KHEDIRA Sami
+BROZOVIC Marcelo
+MARCHISIO Claudio
+ICARDI Mauro
+KALINIC Nikola
 CAPRARI Gianluca
 MACCARONE Massimo
-ICARDI Mauro
 SAU Marco
-KALINIC Nikola
 PAVOLETTI Leonardo
 234
 3498318385
-Fri 10 Mar 2017 - 14:32:05
+Fri 10 Mar 2017 - 14:51:41

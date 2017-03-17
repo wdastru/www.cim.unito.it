@@ -4,28 +4,28 @@
 SZCZESNY Wojciech
 ALISSON Ramses Becker
 VIVIANO Emiliano
-ALVES Bruno
 RUGANI Daniele
-CASTAN Leandro
-ZAPPACOSTA Davide
+ALBIOL Raul
+ALVES Bruno
 DAINELLI Dario
 BENATIA Medhi
 FLORENZI Alessandro
-ALBIOL Raul
+TONELLI Lorenzo
+CASTAN Leandro
+MERTENS Dries
 HAMSIK Marek
+PERISIC Ivan
+ANDERSON Felipe
 IAGO Falque
-KHEDIRA Sami
 MARCHISIO Claudio
 BROZOVIC Marcelo
-ANDERSON Felipe
-MERTENS Dries
-PERISIC Ivan
-CAPRARI Gianluca
-MACCARONE Massimo
+KHEDIRA Sami
 ICARDI Mauro
-SAU Marco
 KALINIC Nikola
 PAVOLETTI Leonardo
-234
+CAPRARI Gianluca
+MACCARONE Massimo
+MARTINEZ Josef
+252
 3498318385
-Fri 10 Mar 2017 - 14:32:05
+Sat 25 Feb 2017 - 16:27:53
