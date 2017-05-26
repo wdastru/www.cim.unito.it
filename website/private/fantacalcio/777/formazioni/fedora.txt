@@ -5,7 +5,7 @@ HANDANOVIC Samir
 CARRIZO Juan Pablo
 SORRENTINO Stefano
 ACERBI Francesco
-BIRAGHI Cristiano
+HOEDT Wesley
 BURDISSO Nicolas
 GOBBI Massimo
 RISPOLI Andrea
@@ -17,7 +17,7 @@ CASTRO Lucas
 SPINAZZOLA Leonardo
 PAREDES Leandro
 LULIC Senad
-LAXALT Diego
+CROCE Daniele
 LJAJIC Adem
 KURTIC Jasmin
 HIGUAIN Gonzalo
@@ -26,6 +26,6 @@ DEFREL Gregoire
 BORRIELLO Marco
 PALLADINO Raffaele
 LAPADULA Gianluca
-123
+100
 3404073967
-Sat 04 Mar 2017 - 14:00:29
+Fri 31 Mar 2017 - 13:25:02

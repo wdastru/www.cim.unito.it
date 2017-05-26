@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+HANDANOVIC Samir
+SORRENTINO Stefano
+CARRIZO Juan Pablo
+MASIELLO Andrea
+ACERBI Francesco
+SILVESTRE Matias
+RISPOLI Andrea
+ROMAGNOLI Alessio
+HOEDT Wesley
+GOBBI Massimo
+BURDISSO Nicolas
+CASTRO Lucas
+KURTIC Jasmin
+LJAJIC Adem
+SPINAZZOLA Leonardo
+TORREIRA Lucas
+PAREDES Leandro
+CROCE Daniele
+LULIC Senad
+HIGUAIN Gonzalo
+DZEKO Edin
+BORRIELLO Marco
+DEFREL Gregoire
+LAPADULA Gianluca
+PALLADINO Raffaele
+100
+3404073967
+Sat 22 Apr 2017 - 16:22:38

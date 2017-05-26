@@ -3,7 +3,7 @@
 1 - 2 - 2 - 2
 BERISHA Etrit
 CONSIGLI Andrea
-PEGOLO Gianluca
+GOLLINI Pierluigi
 DE VRIJ Stefan
 RUDIGER Antonio
 PALETTA Gabriel
@@ -14,7 +14,7 @@ RODRIGUEZ Gonzalo
 D'AMBROSIO Danilo
 ZIELINSKI Piotr
 GAGLIARDINI Roberto
-RINCON Tomas
+ROG Marko
 STROOTMAN Kevin
 BENALI Ahmad
 PELLEGRINI Lorenzo
@@ -28,4 +28,4 @@ NESTOROVSKI Ilija
 IMMOBILE Ciro
 212
 
-Sat 04 Mar 2017 - 08:51:59
+Fri 14 Apr 2017 - 14:07:05

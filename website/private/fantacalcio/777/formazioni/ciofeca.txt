@@ -8,7 +8,7 @@ LICHTSTEINER Stephan
 CHIELLINI Giorgio
 MANOLAS Kostas
 CONTI Andrea
-LUKAKU Jordan
+SKRINIAR Milan
 MIRANDA Joao
 VERMAELEN Thomas
 IZZO Armando
@@ -18,7 +18,7 @@ FOFANA Seko
 BIGLIA Lucas
 BADELJ Milan
 RIGONI Luca
-VELOSO Miguel
+DE ROSSI Daniele
 LOCATELLI Manuel
 QUAGLIARELLA Fabio
 EL SHAARAWY Stephan
@@ -26,6 +26,6 @@ SALAH Mohamed
 MEGGIORINI Riccardo
 CHIESA Federico
 MATRI Alessandro
-102
+100
 3337815436
-Sat 04 Feb 2017 - 14:29:03
+Fri 31 Mar 2017 - 21:51:28

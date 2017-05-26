@@ -8,10 +8,10 @@ TOLOI Rafael
 ALEX SANDRO
 BARZAGLI Andrea
 BONUCCI Leonardo
-ABATE Ignazio
+MOLINARO Cristian
 EMERSON Palmieri
 ISLA Mauricio
-ZUKANOVIC Ervin
+SAMIR
 GOMEZ Alejandro
 PAROLO Marco
 SAPONARA Riccardo
@@ -26,6 +26,6 @@ DEULOFEU Gerard
 CERRI Alberto
 MCHEDLIDZE Levan
 GABRIEL Barbosa
-73
+70
 347-2375356
-Thu 09 Mar 2017 - 23:08:37
+Fri 31 Mar 2017 - 21:20:44

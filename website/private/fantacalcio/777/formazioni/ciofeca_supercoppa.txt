@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+SPORTIELLO Marco
+TATARUSANU Ciprian
+LEZZERINI Luca
+CONTI Andrea
+LICHTSTEINER Stephan
+MANOLAS Kostas
+SKRINIAR Milan
+CHIELLINI Giorgio
+VERMAELEN Thomas
+IZZO Armando
+MIRANDA Joao
+PJANIC Miralem
+DE ROSSI Daniele
+BADELJ Milan
+BIGLIA Lucas
+RIGONI Luca
+VERRE Valerio
+FOFANA Seko
+LOCATELLI Manuel
+SALAH Mohamed
+CHIESA Federico
+EL SHAARAWY Stephan
+QUAGLIARELLA Fabio
+MATRI Alessandro
+MEGGIORINI Riccardo
+100
+3337815436
+Fri 26 May 2017 - 13:56:52
