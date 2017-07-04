@@ -44,6 +44,7 @@ eporediese_camp_9.txt
 eporediese_coppa_1.txt
 eporediese_coppa_2.txt
 eporediese_coppa_3.txt
+eporediese_supercoppa.txt
 fedora.txt
 fedora_VS_PAOLO.txt
 fedora_camp_1.txt

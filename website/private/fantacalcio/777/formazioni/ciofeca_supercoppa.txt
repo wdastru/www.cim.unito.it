@@ -12,14 +12,14 @@ CHIELLINI Giorgio
 VERMAELEN Thomas
 IZZO Armando
 MIRANDA Joao
-PJANIC Miralem
-DE ROSSI Daniele
-BADELJ Milan
 BIGLIA Lucas
-RIGONI Luca
+DE ROSSI Daniele
+PJANIC Miralem
+BADELJ Milan
 VERRE Valerio
-FOFANA Seko
 LOCATELLI Manuel
+FOFANA Seko
+RIGONI Luca
 SALAH Mohamed
 CHIESA Federico
 EL SHAARAWY Stephan
@@ -28,4 +28,4 @@ MATRI Alessandro
 MEGGIORINI Riccardo
 100
 3337815436
-Fri 26 May 2017 - 13:56:52
+Sat 27 May 2017 - 17:32:46
