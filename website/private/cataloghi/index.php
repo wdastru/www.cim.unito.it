@@ -183,6 +183,9 @@ $_POST['delete'] = 0;
                         <form name="print" method="post" action="downloadCatalog.php">
                             <input type="submit" name="print" value="Download catalog" />
                         </form>
+                        <form name="print" method="post" action="backupMsqDB.php">
+                            <input type="submit" name="print" value="Backup catalog" />
+                        </form>
                         <form name="print" method="post" action="downloadSafetyInfos.php">
                             <input type="submit" name="print" value="Download Safety Infos" />
                         </form>
