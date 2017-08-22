@@ -52,31 +52,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <div id='col2'>
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
                                     <br/>
-                                    <a href="http://www.eurobioimaging.eu/">
-                                    	<img style="width: 99%" src="images/EuroBioImaging_logo.jpg" alt="EuroBioImaging logo" /></a>
-                                    	<b>Euro-BioImaging is starting Interim Operation!</b>
-                                    	<br/>
-                                    	European life science researchers now have the possibility to use state-of-the-art imaging technologies, which they do not find at 
-                                    	their home institutions or among their collaboration partners. All they need to do is to apply to <a class="visible_link" href="http://www.eurobioimaging.eu/">Euro-BioImaging (EuBI)</a> via the 
-                                    	Interim Web Access Portal and visit one of the Euro-BioImaging Node Candidates (imaging facilities) to use their technology and profit 
-                                    	from their expertise. 29 Node Candidates in 11 countries and at the EMBL host a range of novel imaging technologies via which 
-                                    	scientists can study biological samples from protein to human size. This operation is part of the <a class="visible_link" href="http://www.eurobioimaging.eu/">Euro-BioImaging</a> interim activities, 
-                                    	which are preparing the infrastructure for its full operation that is expected in 2017, after all legal requirements to become a 
-                                    	European Research Infrastructure Consortium (EuBI-ERIC) will be finalized. The University of Torino coordinates the multi-sited 
-                                    	<a class="visible_link" href="http://www.eurobioimaging-interim.eu/miin.html">Multi-Modal Molecular Imaging (MMMI) Italian Node Candidate</a>.
-                                    	<br/>Please contact us for information about offered technolgies/services 
-                                    	and how to access our Node Candidate.
-                                    <div class='divider'></div>
-                                    <a href="http://www.eurobioimaging.eu/">
-                                    	<img style="width: 99%" src="images/EuroBioImaging_logo.jpg" alt="EuroBioImaging logo" /></a>
-                                    <a href="<?php echo $localizer; ?>documenti/EuBI Press release 8 Dec 2015 - Hub and Nodes.pdf">Press release 8 Dec 2015</a>
-                                    <div class='divider'></div>
-                                    The University of Torino has joined the EMIDS programme, an integrated European doctoral programme leading to a double or joint PhD degree in Molecular Imaging.
-                                    <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
-                                    <div class='divider'></div>
-                                    <span class="date">April 29, 2011</span><a href='eindhoven.php'> Prof. Silvio Aime has been awarded a <i>"Doctor Honoris Causa"</i> by the Eindhoven University of Technology (NL). </a>
-                                    <div class='divider'></div>
-                                    <span class="date">June 5, 2010</span><a href='debrecen.php'> Prof. Silvio Aime has been awarded a <i>"Doctor Honoris Causa"</i> by the Debrecen University (HU). </a>
+                                    The <a href="http://en.niumag.com/"><span class='paperTitle'>NIUMAG</span></a> Instrument for training students and newcomers on the procedures for the acquisition of MR images is now available at the Center of Molecular Imaging.
+									In the <a href='<?php echo $localizer; ?>niumag.php'><span class='paperTitle'>photos</span></a>, Professor Aime, Head of the Molecular Imaging Center, presents the new facility to his coworkers. 
                                 </div>
                                 <div id='col3'>
                                     <h2 class='punch orange'><span>EVENTS</span></h2>
