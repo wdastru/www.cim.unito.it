@@ -52,8 +52,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <div id='col2'>
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
                                     <br/>
-                                    The <a href="http://en.niumag.com/"><span class='paperTitle'>NIUMAG</span></a> Instrument for training students and newcomers on the procedures for the acquisition of MR images is now available at the Center of Molecular Imaging.
-									In the <a href='<?php echo $localizer; ?>niumag.php'><span class='paperTitle'>photos</span></a>, Professor Aime, Head of the Molecular Imaging Center, presents the new facility to his coworkers. 
+                                    The NIUMAG Instrument for training students and newcomers on the procedures for the acquisition of MR images is now available at the Center of Molecular Imaging.
+					<br/>
+					In the <a href='<?php echo $localizer; ?>niumag.php'><span 
+class='paperTitle'>photos</span></a>, Professor Aime, Head of the Molecular Imaging Center, presents the new facility to his coworkers. 
                                 </div>
                                 <div id='col3'>
                                     <h2 class='punch orange'><span>EVENTS</span></h2>
