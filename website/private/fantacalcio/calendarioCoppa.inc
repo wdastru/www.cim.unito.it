@@ -21,14 +21,14 @@ $turno[2] = "III&deg; TURNO";
  * 
  * * * * * * * * * * * * */
 
-$aCoppa = $longName['e'];
-$bCoppa = $longName['h'];
-$cCoppa = $longName['a'];
-$dCoppa = $longName['c'];
-$eCoppa = $longName['g'];
-$fCoppa = $longName['d'];
-$gCoppa = $longName['b'];
-$hCoppa = $longName['f'];
+$aCoppa = $longName['c'];
+$bCoppa = $longName['b'];
+$cCoppa = $longName['g'];
+$dCoppa = $longName['d'];
+$eCoppa = $longName['f'];
+$fCoppa = $longName['a'];
+$gCoppa = $longName['h'];
+$hCoppa = $longName['e'];
 
 $superCoppa = array();
 array_push($superCoppa, array());

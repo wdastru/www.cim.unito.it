@@ -214,7 +214,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			 *  Sorting di classifica[][]
 			 */
 
-			require $relocate_string . 'archivio/2016/functions1516.inc.php';
+			require $relocate_string . 'archivio/2017/functions1617.inc.php';
 
 			$datiCampionato = readData();
 			$squadra = updateSquadra($datiCampionato);
