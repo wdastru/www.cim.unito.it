@@ -53,8 +53,54 @@
 				<td>&nbsp;</td>
 				<td>&nbsp;</td>
 			</tr>
-
-
+			<tr>
+				<td class='titolare'>Sportiello (Fiorentina)</td>
+				<td class='titolare'>Conti (Atalanta)</td>
+				<td class='titolare'>Biglia (Lazio)</td>
+				<td class='titolare'>Salah (Roma)</td>
+			</tr>
+			<tr>
+				<td class='riserva'>Tatarusanu (Fiorentina)</td>
+				<td class='titolare'>Lichtsteiner (Juventus)</td>
+				<td class='titolare'>De Rossi (Roma)</td>
+				<td class='titolare'>Chiesa (Fiorentina)</td>
+			</tr>
+			<tr>
+				<td class='tribuna'>Lezzerini (Fiorentina)</td>
+				<td class='titolare'>Manolas (Roma)</td>
+				<td class='titolare'>Pjanic (Juventus)</td>
+				<td class='titolare'>El Shaarawy (Roma)</td>
+			</tr>
+			<tr>
+				<td class='tribuna'></td>
+				<td class='riserva'>Skriniar (Sampdoria)</td>
+				<td class='titolare'>Badelj (Fiorentina)</td>
+				<td class='riserva'>Quagliarella (Sampdoria)</td>
+			</tr>
+			<tr>
+				<td class='tribuna'></td>
+				<td class='riserva'>Chiellini (Juventus)</td>
+				<td class='riserva'>Verre (Pescara)</td>
+				<td class='riserva'>Matri (Sassuolo)</td>
+			</tr>
+			<tr>
+				<td class='tribuna'></td>
+				<td class='tribuna'>Vermaelen (Roma)</td>
+				<td class='riserva'>Locatelli (Milan)</td>
+				<td class='tribuna'>Meggiorini (Chievo)</td>
+			</tr>
+			<tr>
+				<td class='tribuna'></td>
+				<td class='tribuna'>Izzo (Genoa)</td>
+				<td class='tribuna'>Fofana (Udinese)</td>
+				<td class='tribuna'></td>
+			</tr>
+			<tr>
+				<td class='tribuna'></td>
+				<td class='tribuna'>Miranda (Inter)</td>
+				<td class='tribuna'>Rigoni (Genoa)</td>
+				<td class='tribuna'></td>
+			</tr>
 		</table>
 		<br /> <br />
 		<!-- InstanceEndEditable -->
