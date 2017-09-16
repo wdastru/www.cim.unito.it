@@ -32,7 +32,7 @@
 			<tr>
 				<td><table align="center" width="150" border="0">
 						<tr>
-							<td colspan="19" class="goalDestra">???</td>
+							<td colspan="19" class="goalDestra">Dinamo Ciofeca</td>
 						</tr>
 						<tr>
 							<td align="center">&nbsp;</td>
@@ -46,7 +46,7 @@
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
-							<td colspan="3" class="goalDestra">???</td>
+							<td colspan="3" class="goalDestra">0</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
@@ -68,7 +68,7 @@
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
-							<td colspan="3" class="goalSinistra">???</td>
+							<td colspan="3" class="goalSinistra">2</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
@@ -82,7 +82,7 @@
 							<td align="center">&nbsp;</td>
 						</tr>
 						<tr>
-							<td colspan="19" class="goalSinistra">???</td>
+							<td colspan="19" class="goalSinistra">EPOrediese</td>
 						</tr>
 					</table></td>
 			</tr>
@@ -91,9 +91,9 @@
 			</tr>
 		</table>
 		<p>
-		INSERIRE RISULTATO 
+		Dinamo Ciofeca : 0 ( 65 )
           <br/>
-		INSERIRE RISULTATO
+		EPOrediese : 2 ( 76 : CAPRARI, MERTENS )
 		</p>
 		<!-- InstanceEndEditable -->
 	</div>
