@@ -27,8 +27,8 @@
   <table class="albo">
     <tr>
       <td>2016/17</td>
-      <td class="squadra">????</td>
-      <td>Presidente <span class="presidente">??? ???</span></td>
+      <td class="squadra">Dinamo Ciofeca</td>
+      <td>Presidente <span class="presidente">Lorenzo Tei</span></td>
     </tr>
     <tr>
       <td></td>
