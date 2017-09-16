@@ -31,6 +31,21 @@
       <td>&nbsp;</td>
     </tr>
     <tr>
+      <td>2016/17</td>
+      <td class="squadra">???</td>
+      <td>Presidente <span class="presidente">??? ???</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2017/supercoppa1617.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2017/???.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>2015/16</td>
       <td class="squadra">EPOrediese</td>
       <td>Presidente <span class="presidente">Erik Bruno</span></td>
