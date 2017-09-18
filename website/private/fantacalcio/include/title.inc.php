@@ -1,3 +1,3 @@
 <?php
-    echo "<div id='title'>FANTACALCIO NMR 2016/17</div>";
+    echo "<div id='title'>FANTACALCIO NMR 2017/18</div>";
 ?>
