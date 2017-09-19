@@ -8,7 +8,7 @@ require_once $relocate_string . '777/gazFiles.inc.php';
 
 foreach ($fileGaz as $file) {
 	if ($file == ($nameTxt . '.txt')) {	
-		header("Location: " . $relocate_string . "errors/error.php?error=gazFileAlreadyPreset&returnFromError=" . $relocate_string . "download.php");
+		header("Location: " . $relocate_string . "errors/error.php?error=gazFileAlreadyPresent&returnFromError=" . $relocate_string . "download.php");
 		exit();
 	}
 }
