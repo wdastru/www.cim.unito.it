@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+3 - 5 - 2
+1 - 3 - 5 - 2
 1 - 2 - 2 - 2
 HANDANOVIC Samir
 GOMIS Alfred
 PADELLI Daniele
-ACERBI Francesco
-ALBIOL Raul
-MUSACCHIO Mateo
 GHOULAM Faouzi
 NUYTINCK Bram
 MASIELLO Andrea
-ROMAGNOLI Alessio
+ALBIOL Raul
+ACERBI Francesco
 VICARI Francesco
-TORREIRA Lucas
-CASTRO Lucas
-MATUIDI Blaise
-RIZZO Luca
-LULIC Senad
-LAZZARI Manuel
+MUSACCHIO Mateo
+ROMAGNOLI Alessio
 LJAJIC Adem
+MATUIDI Blaise
+TORREIRA Lucas
+LAZZARI Manuel
+CASTRO Lucas
+LULIC Senad
 KURTIC Jasmin
+RIZZO Luca
 HIGUAIN Gonzalo
 DZEKO Edin
-PUCCIARELLI Manuel
 BORRIELLO Marco
-PANDEV Goran
+PUCCIARELLI Manuel
 DI FRANCESCO Federico
+PANDEV Goran
 135
 3404073967
-Tue 19 Sep 2017 - 14:24:17
+Tue 19 Sep 2017 - 14:30:45
