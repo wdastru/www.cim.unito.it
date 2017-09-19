@@ -2,30 +2,30 @@
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 BUFFON Gianluigi
-NETO Norberto
-AUDERO Emil
-ANTEI Luca
-DE SCIGLIO Mattia
-PELUSO Federico
-HYSAJ Elseid
+SZCZESNY Wojciech
+PINSOGLIO Carlo
 ASTORI Davide
-GASTALDELLO Daniele
-CANNAVARO Paolo
-CALABRIA Davide
-VALERO Borja
-BONAVENTURA Giacomo
+TOLOI Rafael
+GENTILETTI Santiago
+DANILO Larangeira
+MASINA Adam
+BENATIA Medhi
+HYSAJ Elseid
+DE SCIGLIO Mattia
 BERNARDESCHI Federico
-ASAMOAH Kwadwo
+LAXALT Diego
 JANKTO Jakub
-KUCKA Juraj
-STURARO Stefano
-PASALIC Mario
-MANDZUKIC Mario
-MILIK Arkadiusz
-BABACAR Khouma
+VALERO Borja
+JORGINHO
 ILICIC Josip
-THEREAU Cyril
+DIAWARA Amadou
+BONAVENTURA Giacomo
+MANDZUKIC Mario
 SIMEONE Giovanni
-50
+THEREAU Cyril
+LASAGNA Kevin
+FARIAS Diego
+MILIK Arkadiusz
+245
 347-4172758
-Thu 09 Mar 2017 - 23:09:41
+Mon 18 Sep 2017 - 21:39:08
