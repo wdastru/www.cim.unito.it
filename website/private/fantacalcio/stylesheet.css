@@ -219,6 +219,7 @@ span.tribuna{ color:color7; }
  * * * * * */
 .owned { color: ownedColor; }
 .free { color: textColor0; }
+.ripetuto { color: red; }
 #por { display:block; }
 #dif, #cen, #att { display:none; }
 #choosePlayersDiv { background-color: textColor4; margin:auto; width:200px; height:25px; border:1px solid choosePlayersDivBorderColor; }

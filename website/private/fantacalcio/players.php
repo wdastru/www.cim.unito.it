@@ -1,4 +1,4 @@
-<?php
+<?php 
 session_start();
 
 $relocate_string = "./";
@@ -9,7 +9,6 @@ require('777/gazFiles.inc.php');
 
 $filenameStats="777//statistics.txt";
 require('statisticsAllPlayerRead.php'); // definito $allPlayerStats
-
 require('playersInTeamsReader.php'); // definito giocatore[squadra:8][index:25]
 
 if ($_GET['squadra'] != '')
@@ -125,7 +124,9 @@ if ($_GET['squadra'] != '')
 		<h1 class=title>
 		<?php echo $longName[$Squadra]; ?>
 		</h1>
-		<br /> <br />
+		<br />
+		<?php require $relocate_string . 'playersRepeated.php'; // controlla la presenza di giocatori ripetuti in più squadre ?>
+		<br />
 		<div id='choosePlayersDiv'>
 			<div class='playersDiv' onclick='togglePlayers("por")'>Por</div>
 			<div class='playersDiv' onclick='togglePlayers("dif")'>Dif</div>
@@ -180,23 +181,33 @@ if ($_GET['squadra'] != '')
 				<table class='scrollTable' width='100%' cellspacing='0' cellpadding='0' border='0'>
 					<tbody class='scrollContent'>";
 			$row_counter = -1;
+			
 			for ($i=0; $i<count($allPlayerStats); $i++)
 			{
 				if ($allPlayerStats[$i][2] == $role[$k])
 				{
+					
+					//print_r($allPlayerStats[$i]);
+					//echo "<br/>";
+					
 					$row_counter = $row_counter + 1;
 					if ($i % 2)
 						echo "<tr class='normalRow' id='offer_" . $k . "_" . $row_counter . "'>";
 					else
 						echo "<tr class='alternateRow' id='offer_" . $k . "_" . $row_counter . "'>";
 					
-					echo "<td class='bodyColumn0'>" . $allPlayerStats[$i][0] . "</td><td class='bodyColumn1'>" . $allPlayerStats[$i][1] . "</td>";
+					echo "	<td class='bodyColumn0'>" . $allPlayerStats[$i][0] . "</td>
+							<td class='bodyColumn1'>" . $allPlayerStats[$i][1] . "</td>";
 
 					$libero = true;
 					for ($t=0; $t<8; $t++)
 					{
+						//echo "<span>### " . $t . " ###</span><br/>";
 						for ($j=0; $j<25; $j++)
 						{
+							//print_r($giocatore[$t][$j]);
+							//echo "<br/>";
+							
 							if($giocatore[$t][$j]==$allPlayerStats[$i][0]){
 								echo "<td class='bodyColumn2 owned'>" . $giocatore[$t][25] . "</td>";
 								$libero = false;
@@ -206,9 +217,13 @@ if ($_GET['squadra'] != '')
 					}
 
 					if ($libero)
-					echo "<td class='bodyColumn2 free'>libero</td>";
+						echo "<td class='bodyColumn2 free'>libero</td>";
 
-					echo "<td class='bodyColumn3'>" . $allPlayerStats[$i][4] . "</td><td class='bodyColumn4'>" . $allPlayerStats[$i][5] . "</td><td class='bodyColumn5'>" . $allPlayerStats[$i][6] . "</td><td class='bodyColumn6'>" . $allPlayerStats[$i][7] . "</td><td class='bodyColumn7'>";
+					echo "<td class='bodyColumn3'>" . $allPlayerStats[$i][4] . 
+					"</td><td class='bodyColumn4'>" . $allPlayerStats[$i][5] . 
+					"</td><td class='bodyColumn5'>" . $allPlayerStats[$i][6] . 
+					"</td><td class='bodyColumn6'>" . $allPlayerStats[$i][7] . 
+					"</td><td class='bodyColumn7'>";
 
 					if ($libero)
 					{

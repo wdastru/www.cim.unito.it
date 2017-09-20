@@ -159,7 +159,12 @@ if(file_exists($fileSquadreXml))
 					</table></td>
 			</tr>
 		</table>
-		<br /> <br />
+		<br />
+		<?php 
+			require $relocate_string . 'playersInTeamsReader.php'; // definito giocatore[squadra:8][index:25]
+			require $relocate_string . 'playersRepeated.php'; // controlla la presenza di giocatori ripetuti in più squadre 
+		?>
+		<br />
 	<?php include($relocate_string . "squadre/generatoreSquadra.php"); ?>
 		<!-- InstanceEndEditable -->
 	</div>
