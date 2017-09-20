@@ -60,7 +60,7 @@ foreach ($fileGaz as $file) {
 			$dati[0]=strtok($tmpStr,"\t"); // codice
 			$dati[1]=strtok("\t");	// nome e cognome
 			$dati[2]=strtok("\t");	// squadra
-			$tmptmpStr=strtok("\t");	// ruolo (contiene il trequartista)
+			$dati[13]=strtok("\t");	// ruolo (contiene il trequartista)
 			$dati[3]=strtok("\t");	// ruolo "classico"
 			$dati[4]=strtok("\t");	// stato (non lo uso, ma al suo posto metto il numero di partite giocate)
 			$tmptmpStr=strtok("\t");	// quotazione
@@ -96,6 +96,7 @@ foreach ($fileGaz as $file) {
 						$datiStat[10]=strtok("\t");	// rigori
 						$datiStat[11]=strtok("\t");	// autoreti
 						$datiStat[12]=strtok("\t");	// assist
+						$datiStat[13]=strtok("\t");	// ruolo (con trequartista)
 						
 						//print_r($datiStat);
 						//echo "<br>";
@@ -107,17 +108,36 @@ foreach ($fileGaz as $file) {
 						$datiStat[1]=$dati[1];	// nome (puo' cambiare)
 						$datiStat[2]=$dati[2];	// squadra
 						$datiStat[3]=$dati[3];	// ruolo
+						$datiStat[13]=$dati[13];	// ruolo (con trequartista)
 						
-						if ( !( ($dati[5] == "6" && $dati[6] == "Non Gioc.")/* partita rinviata */ || ($dati[5] == "-" && $dati[6] == "-") || ($dati[5] == "0" && $dati[6] == "S.V.")/* giocatore non valutato */ || ($dati[5] == "" && $dati[6] == "") ) )
+						if ( !( ($dati[5] == "6" && $dati[6] == "Non Gioc.")/* partita rinviata */ || 
+								($dati[5] == "-" && $dati[6] == "-") || 
+								($dati[5] == "0" && $dati[6] == "S.V.")/* giocatore non valutato */ || 
+								($dati[5] == "" && $dati[6] == "") ) )
 						{
 							$datiStat[4]+=1;	// giocate
 							$datiStat[5]+=$dati[5];	// fantavoto
 							$datiStat[6]+=$dati[6];	// voto
 							
-							if($datiStat[3]=="P")
-								$datiStat[7]+=$dati[7] / -1.0;	// goal
-							else					
-								$datiStat[7]+=$dati[7] / 3.0;	// goal
+							if ($datiStat[3] == "P") {
+								$datiStat[7] += $dati[7] / - 1.0;  // goal
+							} else if ($datiStat[3] == "D") {
+								$datiStat[7] += $dati[7] / 4.5;   // goal
+							} else if ($datiStat[3] == "C") {
+								if ($datiStat[13] == 'T')
+									$datiStat[7] += $dati[7] / 3.5;   // goal
+								else
+									$datiStat[7] += $dati[7] / 4.0;   // goal
+							} else if ($datiStat[3] == "A") {
+								if ($datiStat[13] == 'T')
+									$datiStat[7] += $dati[7] / 3.5;   // goal
+								else
+									$datiStat[7] += $dati[7] / 3.0;   // goal
+							} else {
+								/*
+								 * $dati[3] has wrong value
+								 */
+							}
 		
 							$datiStat[8]+=$dati[8]/(-0.5);	// ammonizioni
 							$datiStat[9]+=$dati[9]/(-1.0);	// espulsioni
@@ -145,10 +165,25 @@ foreach ($fileGaz as $file) {
 					{
 						$dati[4] += 1;	// giocate
 						
-						if($dati[3]=="P")
-							$dati[7] /= -1;	// goal
-						else					
-							$dati[7] /= 3.0;	// goal
+						if ($dati [3] == "P") {
+							$dati [7] /= - 1; // goal
+						} else if ($dati [3] == "D") {
+							$dati [7] /= 4.5; // goal
+						} else if ($dati [3] == "C") {
+							if ($dati [13] == 'T')
+								$dati [7] /= 3.5; // goal
+								else
+									$dati [7] /= 4.0; // goal
+						} else if ($dati [3] == "A") {
+							if ($dati [13] == 'T')
+								$dati [7] /= 3.5; // goal
+								else
+									$dati [7] /= 3.0; // goal
+						} else {
+							/*
+							 * $dati[3] has wrong value
+							 */
+						}
 	
 						$dati[8] /= -0.5;	// ammonizioni
 						$dati[9] /= -1.0;	// espulsioni
@@ -156,12 +191,20 @@ foreach ($fileGaz as $file) {
 						$dati[11] /= -2.0;	// autoreti
 					}
 					
-					for ($i=0; $i<count($dati); $i++)
+					for ($i=0; $i<count($dati); $i++) {
 						$dati[$i] == '-0' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+						$dati[$i] == '-' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+						$dati[$i] == '' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+						$dati[$i] == ' ' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+					}
 					/**/
 	
 					$tmpStr="";
-					if ( ($dati[5] == "-" && $dati[6] == "-") || ($dati[5] == "0" && $dati[6] == "S.V.") || ($dati[5] == "" && $dati[6] == "") ) { 
+					if ( 
+							($dati[5] == "-" && $dati[6] == "-") || 
+							($dati[5] == "0" && $dati[6] == "S.V.") || 
+							($dati[5] == "" && $dati[6] == "") 
+						) { 
 						for ($i=0; $i<count($dati); $i++)
 						{
 							if ( $i == 4 )
@@ -181,18 +224,35 @@ foreach ($fileGaz as $file) {
 					$playerStats[$k] = $tmpStr;
 				}
 				
-			}
-			else // capita solo la prima giornata ( $firstTime == true ) : tutti i giocatori non sono trovati
-			{
+			} else { // capita solo la prima giornata ( $firstTime == true ) : tutti i giocatori non sono trovati
+			
 				/* aggiusta i dati */
-				if ( !( ($dati[5] == "6" && $dati[6] == "Non Gioc.") || ($dati[5] == "-" && $dati[6] == "-") || ($dati[5] == "0" && $dati[6] == "S.V.") || ($dati[5] == "" && $dati[6] == "") ) ) // partita rinviata || giocatore non valutato
+				if ( !( ($dati[5] == "6" && $dati[6] == "Non Gioc.") || 
+						($dati[5] == "-" && $dati[6] == "-") || 
+						($dati[5] == "0" && $dati[6] == "S.V.") || 
+						($dati[5] == "" && $dati[6] == "") ) ) // partita rinviata || giocatore non valutato
 				{
 					$dati[4] += 1;	// giocate
 					
-					if($dati[3]=="P")
-						$dati[7] /= -1;	// goal
-					else					
-						$dati[7] /= 3.0;	// goal
+					if ($dati [3] == "P") {
+						$dati [7] /= - 1; // goal
+					} else if ($dati [3] == "D") {
+						$dati [7] /= 4.5; // goal
+					} else if ($dati [3] == "C") {
+						if ($dati [13] == 'T')
+							$dati [7] /= 3.5; // goal
+						else
+							$dati [7] /= 4.0; // goal
+					} else if ($dati [3] == "A") {
+						if ($dati [13] == 'T')
+							$dati [7] /= 3.5; // goal
+						else
+							$dati [7] /= 3.0; // goal
+					} else {
+						/*
+						 * $dati[3] has wrong value
+						 */
+					}
 	
 					$dati[8] /= -0.5;	// ammonizioni
 					$dati[9] /= -1.0;	// espulsioni
@@ -202,6 +262,13 @@ foreach ($fileGaz as $file) {
 				for ($i=0; $i<count($dati); $i++)
 					$dati[$i] == '-0' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
 				/**/
+			
+				for ($i=0; $i<count($dati); $i++) {
+					$dati[$i] == '-0' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+					$dati[$i] == '-' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+					$dati[$i] == '' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+					$dati[$i] == ' ' ? $dati[$i] = '0' : $dati[$i] = $dati[$i];
+				}
 				
 				$tmpStr="";
 				if ( ($dati[5] == "-" && $dati[6] == "-") || ($dati[5] == "0" && $dati[6] == "S.V.") || ($dati[5] == "" && $dati[6] == "") ) 
