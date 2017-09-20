@@ -52,7 +52,11 @@ if(file_exists($filenameStats))
 		$allPlayerStats[$i][12]=strtok("\t");			// assist
 		if($allPlayerStats[$i][12]=="-0" || $allPlayerStats[$i][12]=="0")
 			$allPlayerStats[$i][12]="-";
-			
+		
+		$allPlayerStats[$i][13]=strtok("\t");			// ruolo (con trequartista)
+		if($allPlayerStats[$i][13]=="-0" || $allPlayerStats[$i][13]=="0")
+			$allPlayerStats[$i][13]="-";
+					
 		$i++;
 	}		
 	

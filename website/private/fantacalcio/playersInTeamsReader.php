@@ -14,10 +14,9 @@ for ($j=0; $j<8; $j++)
 		$trash=fgets($handle); // riserve (anche se poi non viene usata)
 		
 		for ($i=0; $i<25; $i++)
-		{
 			$giocatore[$j][$i] = trim(fgets($handle)); // nome
-			$giocatore[$j][25] = $shortName[$j];
-		}
+		
+		$giocatore[$j][25] = $shortName[$j];
 		
 		$trash = fgets($handle);
 		$trash = fgets($handle);
