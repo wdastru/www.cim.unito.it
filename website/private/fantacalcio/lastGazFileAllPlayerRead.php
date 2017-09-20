@@ -13,7 +13,7 @@ if (count($fileGaz) > 0)
 			$tmpStr=substr(trim(fgets($handle)), 4);
 			$allPlayers[$i][0]=strtok($tmpStr,"\t");	// nome e cognome
 			$allPlayers[$i][1]=strtok("\t");			// squadra
-			$tmpStr=strtok("\t");						// ruolo con trequartista
+			$allPlayers[$i][13]=strtok("\t");			// ruolo contrequartista
 			$allPlayers[$i][2]=strtok("\t");			// ruolo "classico"
 			$tmpStr=strtok("\t");
 			$tmpStr=strtok("\t");
@@ -27,13 +27,29 @@ if (count($fileGaz) > 0)
 			if($allPlayers[$i][6]=="-0" || $allPlayers[$i][6]=="0")
 			$allPlayers[$i][6]="-";
 
-			$allPlayers[$i][7]=strtok("\t");			// goal fatti
-			if($allPlayers[$i][7]=="-0" || $allPlayers[$i][7]=="0")
-			$allPlayers[$i][7]="-";
-			if($allPlayers[$i][2] == "P")
-			$allPlayers[$i][7]/=-1;
-			else
-			$allPlayers[$i][7]/=3;
+			$allPlayers[$i][7] = strtok ( "\t" ); // goal fatti
+			if ($allPlayers[$i][7] == "-0" || $allPlayers[$i][7] == "0")
+				$allPlayers[$i][7] = "-";
+
+			if ($allPlayers[$i][2] == "P") {
+				$allPlayers[$i][7] /= - 1;
+			} else if ($allPlayers[$i][2]== "D") {
+				$allPlayers[$i][7] /= 4.5;
+			} else if ($allPlayers[$i][2]== "C") {
+				if ($allPlayers[$i][13]== 'T')
+					$allPlayers[$i][7] /= 3.5;
+				else
+					$allPlayers[$i][7] /= 4.0;
+			} else if ($allPlayers[$i][2]== "A") {
+				if ($allPlayers[$i][13]== 'T')
+					$allPlayers[$i][7] /= 3.5;
+				else
+					$allPlayers[$i][7] /= 3.0;
+			} else {
+				/*
+				 * $dati[3] has wrong value
+				 */
+			}
 
 			$allPlayers[$i][8]=strtok("\t")/-0.5;		// ammonizioni
 			if($allPlayers[$i][8]=="-0" || $allPlayers[$i][8]=="0")
