@@ -11,13 +11,10 @@ fedora_camp_A1.txt
 fedora_tipo_valida_fino_20170919-142417.txt
 krakatoa.txt
 lokomotiv.txt
+lokomotiv_camp_01.txt
 lokomotiv_tipo_valida_fino_20170918-213908.txt
 rapid.txt
-rapid__tipo.txt
 rapid_cam_1.txt
-rapid_tipo_valida_fino_20170918-120810.txt
-rapid_tipo_valida_fino_20170918-120938.txt
-rapid_tipo_valida_fino_20170919-140613.txt
 real.txt
 real_camp01.txt
 real_coppa01.txt
