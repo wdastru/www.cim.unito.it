@@ -150,7 +150,7 @@
 			{
 				for ($i=0; $i<$ruolo[$j]; $i++)
 				{
-					$giocatore[$i][$j] = trim(fgets($handle)); // nome
+					$giocatoreSquadra[$i][$j] = trim(fgets($handle)); // nome
 				}
 			}
 
@@ -179,7 +179,7 @@
 		for ($j=0;$j<4; $j++)
 		{
 			for ($i=0;$i<8; $i++)
-			$giocatore[$j][$i] = "";
+			$giocatoreSquadra[$j][$i] = "";
 		}
 	}
 
@@ -208,15 +208,15 @@
 
 			echo "'>";
       
-			if( isset($giocatore[$j][$i]) && $giocatore[$j][$i] != "" )
+			if( isset($giocatoreSquadra[$j][$i]) && $giocatoreSquadra[$j][$i] != "" )
 			{
-				echo ucwords(strtolower(cognome($giocatore[$j][$i]))) . " ";
+				echo ucwords(strtolower(cognome($giocatoreSquadra[$j][$i]))) . " ";
 					
 				$found = false;
 					
 				for ($k=0; $k<$allPlayerCount; $k++) // loop su tutti i giocatori del file gazzetta
 				{
-					if ( $giocatore[$j][$i] == $allPlayers[$k][0] )
+					if ( $giocatoreSquadra[$j][$i] == $allPlayers[$k][0] )
 					{
 						if ( $letterRuolo[$i] != $allPlayers[$k][2] )
 						{
@@ -236,7 +236,7 @@
 					
 				for ($k=0; $k<$allPlayerStatsCount; $k++) // loop su tutti i giocatori del file gazzetta
 				{
-					if ($giocatore[$j][$i] == $allPlayerStats[$k][0])
+					if ($giocatoreSquadra[$j][$i] == $allPlayerStats[$k][0])
 					{
 						if ( $letterRuolo[$i] != $allPlayerStats[$k][2] )
 						continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
