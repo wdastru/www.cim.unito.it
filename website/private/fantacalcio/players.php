@@ -9,9 +9,7 @@ require('777/gazFiles.inc.php');
 
 $filenameStats="777//statistics.txt";
 require('statisticsAllPlayerRead.php'); // definito $allPlayerStats
-
 require('playersInTeamsReader.php'); // definito giocatore[squadra:8][index:25]
-require('playersRepeated.php'); // controllla la presenza di giocatori ripetuti in più squadre
 
 if ($_GET['squadra'] != '')
 {
@@ -126,7 +124,9 @@ if ($_GET['squadra'] != '')
 		<h1 class=title>
 		<?php echo $longName[$Squadra]; ?>
 		</h1>
-		<br /> <br />
+		<br />
+		<?php require $relocate_string . 'playersRepeated.php'; // controlla la presenza di giocatori ripetuti in più squadre ?>
+		<br />
 		<div id='choosePlayersDiv'>
 			<div class='playersDiv' onclick='togglePlayers("por")'>Por</div>
 			<div class='playersDiv' onclick='togglePlayers("dif")'>Dif</div>
@@ -217,7 +217,7 @@ if ($_GET['squadra'] != '')
 					}
 
 					if ($libero)
-					echo "<td class='bodyColumn2 free'>libero</td>";
+						echo "<td class='bodyColumn2 free'>libero</td>";
 
 					echo "<td class='bodyColumn3'>" . $allPlayerStats[$i][4] . 
 					"</td><td class='bodyColumn4'>" . $allPlayerStats[$i][5] . 

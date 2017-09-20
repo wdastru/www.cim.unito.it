@@ -1,36 +1,31 @@
 <?php
 /* Creazione liste giocatori per ogni squadra */
-require_once('squadre.inc'); // definito shortName[]
+
+require_once  $relocate_string . 'squadre.inc'; // definito shortName[]
 
 for ($j=0; $j<8; $j++)
 {
-	//$filename="777//formazioni//" . $shortName[$j] . ".txt";
-	//if(file_exists($filename)) // il file della squadra esiste quindi legge quello
-	//{
-	//	$handle=fopen($filename, 'r');
-	//	
-	//	$trash=fgets($handle); // modulo
-	//	$trash=fgets($handle); // titolari (anche se poi non viene usata)
-	//	$trash=fgets($handle); // riserve (anche se poi non viene usata)
-	//	
-	//	for ($i=0; $i<25; $i++)
-	//		$giocatore[$j][$i] = trim(fgets($handle)); // nome
-	//	
-	//	$giocatore[$j][25] = $shortName[$j];
-	//	
-	//	$trash = fgets($handle);
-	//	$trash = fgets($handle);
-	//	
-	//	fclose($handle);
-	//}
-	//
-	//for ($j=0; $j<24; $j++)
-	//{
-	//	if ($giocatore[$j][0]) {
-	//		
-	//	}
-	//}
+	//echo "A-" . $j . "-" . $giocatore[$j][25]."-A</br>";
 	
+	for ($i=0; $i<25; $i++)
+	{
+		//echo "A-" . $i . "-" . $giocatore[$j][$i]."-A</br>";
+			
+		for ($k=$j; $k<8; $k++)
+		{
+			//echo "B-" . $k . "-" . $giocatore[$k][25]."-B</br>";
+			
+			$start = $k==$j ? $i+1 : 0;
+			for ($m=$start; $m<25; $m++)
+			{
+				//echo "B-" . $m . "-" . $giocatore[$k][$m]."-B</br>";
+				
+				if ($giocatore[$j][$i] == $giocatore[$k][$m]) {
+					echo "<span class='ripetuto'>" . $giocatore[$j][$i]. " ripetuto - " . $giocatore[$j][25] . " - " . $giocatore[$k][25] . "</span><br/>";
+				}
+			}
+		}
+	}
 }
 
 

@@ -1,10 +1,12 @@
 <?php
 /* Creazione liste giocatori per ogni squadra */
-require_once('squadre.inc'); // definito shortName[]
+require_once $relocate_string . 'squadre.inc'; // definito shortName[]
+
+$giocatore = array(array());
 
 for ($j=0; $j<8; $j++)
 {
-	$filename="777//formazioni//" . $shortName[$j] . ".txt";
+	$filename=$relocate_string . "777//formazioni//" . $shortName[$j] . ".txt";
 	if(file_exists($filename)) // il file della squadra esiste quindi legge quello
 	{
 		$handle=fopen($filename, 'r');
@@ -22,6 +24,8 @@ for ($j=0; $j<8; $j++)
 		$trash = fgets($handle);
 		
 		fclose($handle);
+	} else {
+		echo "<span>filename " . $filename. " does not exists.</span><br/>";
 	}
 }
 /**/
