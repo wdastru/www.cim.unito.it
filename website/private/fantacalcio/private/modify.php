@@ -197,7 +197,7 @@ require("../777/gazFiles.inc.php");
 		{
 			echo "
 			<p>
-			<select id='select" . $t . "' name='player" . $t . "'>";
+			<select class='modifySelect' id='select" . $t . "' name='player" . $t . "'>";
 			$found = false;
 			for ($k=0; $k<$allPlayerCount; $k++) // loop su tutti i giocatori del file gazzetta
 			{

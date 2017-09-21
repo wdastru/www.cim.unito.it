@@ -213,6 +213,7 @@ span.tribuna{ color:color7; }
 #wrapper-moduli{ border:1px solid textColor0; padding:10px; background-color:bkgdColorDarker; width:600px; margin:auto;} 
 #wrapper-changePassword{ border:1px solid textColor0; padding:10px; background-color:bkgdColorDarker; width:350px; margin:auto;} 
 #gestRosaSend { margin:auto;}
+.modifySelect { width: 200px; }
 
 /*
  * PLAYERS
