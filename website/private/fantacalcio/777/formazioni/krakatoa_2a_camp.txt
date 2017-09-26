@@ -1,31 +1,31 @@
 4 - 3 - 3
 1 - 4 - 3 - 3
-1 - 2 - 2 - 2
+1 - 2 - 4 - 2
+CORDAZ Alex
 BERISHA Etrit
 GOLLINI Pierluigi
-CORDAZ Alex
+D'AMBROSIO Danilo
+PEZZELLA German
 RODRIGUEZ Ricardo
 CACCIATORE Fabrizio
-D'AMBROSIO Danilo
-FERRARI Gian Marco
-DE VRIJ Stefan
-PEZZELLA German
 HEURTAUX Thomas
+FERRARI Gian Marco
 CANCELO Joao
+DE VRIJ Stefan
 JOAO PEDRO
 STROOTMAN Kevin
 ZIELINSKI Piotr
-FOFANA Seko
 ROG Marko
 RINCON Tomas
-CICIRETTI Amato
+FOFANA Seko
 SPINAZZOLA Leonardo
-SILVA André
-IMMOBILE Ciro
+CICIRETTI Amato
 INSIGNE Lorenzo
-FALCINELLI Diego
+IMMOBILE Ciro
 BERARDI Domenico
+FALCINELLI Diego
+SILVA André
 PJACA Marko
 
 
-Fri 22 Sep 2017 - 13:45:07
+Mon 25 Sep 2017 - 08:12:35

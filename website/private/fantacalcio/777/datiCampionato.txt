@@ -1,10 +1,10 @@
-a000/-/-/-/-/
-a100/-/-/-/-/
-a200/-/-/-/-/
-a300/-/-/-/-/
+a000/2/2/77.5/75/MERTENS Dries/ICARDI Mauro/GOMEZ Alejandro/GOMEZ Alejandro/
+a100/2/1/76.5/67/RODRIGUEZ Ricardo/RODRIGUEZ Ricardo/BIGLIA Lucas/
+a200/4/2/84.5/76.5/CALDARA Mattia/CALLEJON José/KESSIE Franck/KOULIBALY Kalidou/PETAGNA Andrea/BELOTTI Andrea/
+a300/4/4/89/84.5/ILICIC Josip/MANDZUKIC Mario/ILICIC Josip/LAXALT Diego/DZEKO Edin/DZEKO Edin/LJAJIC Adem/DZEKO Edin/
 a010/-/-/-/-/
-a110/-/-/-/-/
-a210/-/-/-/-/
+a110/5/0/94/60/EL SHAARAWY Stephan/EL SHAARAWY Stephan/PJANIC Miralem/CHIESA Federico/EL SHAARAWY Stephan/
+a210/1/0/69.5/64.5/ZAPATA Duvan/
 a310/-/-/-/-/
 a020/-/-/-/-/
 a120/-/-/-/-/

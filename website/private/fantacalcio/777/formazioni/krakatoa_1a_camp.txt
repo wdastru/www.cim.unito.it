@@ -1,4 +1,4 @@
-4 - 3 - 3
+3 - 4 - 3
 1 - 4 - 3 - 3
 1 - 2 - 2 - 2
 BERISHA Etrit
@@ -28,4 +28,4 @@ BERARDI Domenico
 PJACA Marko
 
 
-Fri 22 Sep 2017 - 13:45:07
+Fri 22 Sep 2017 - 13:45:50

@@ -4,28 +4,28 @@
 ALISSON
 SKORUPSKI Lukasz
 SCUFFET Simone
-BARZAGLI Andrea
+FLORENZI Alessandro
 RUGANI Daniele
+BARZAGLI Andrea
+PELUSO Federico
 ROSSETTINI Luca
-CACERES Martin
 IZZO Armando
 WIDMER Silvan
-FLORENZI Alessandro
-PELUSO Federico
+CACERES Martin
+PERISIC Ivan
 HAMSIK Marek
 IAGO Falque
 COSTA Douglas
-MARCHISIO Claudio
 PELLEGRINI Lorenzo
 ANDERSON Felipe
+MARCHISIO Claudio
 MANDRAGORA Rolando
-PERISIC Ivan
-VERDI Simone
 MERTENS Dries
 ICARDI Mauro
-PALOSCHI Alberto
 KALINIC Nikola
+VERDI Simone
+PALOSCHI Alberto
 PAVOLETTI Leonardo
 234
 3498318385
-Thu 21 Sep 2017 - 17:26:57
+Sat 23 Sep 2017 - 14:52:52
