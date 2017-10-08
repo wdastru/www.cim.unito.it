@@ -46,8 +46,6 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
       <!-- <tr><td><img class='new' src='figure/new.gif'></td><td class='left'><a href="download/FantaCalcGui_v3.5.0_Setup.zip">FantaCalcGui v3.5.0 (installer)</a></td></tr> -->
       <tr><td><img class='new' src='figure/new.gif'></td><td class='left'><a href="download/FantaCalcGui_v3.5.2.zip">FantaCalcGui v3.5.2.zip</a></td></tr>
       <tr><td><!-- <img class='new' src='figure/new.gif'> --></td><td class='left'><a href="download/FantaCalcGui_v3.5.1.zip">FantaCalcGui v3.5.1.zip</a></td></tr>
-      <tr><td><!-- <img class='new' src='figure/new.gif'> --></td><td class='left'><a href="download/FantaCalcGui_v3.4.1_Setup.exe">FantaCalcGui v3.4.1 (installer)</a></td></tr>
-      <tr><td><!-- <img class='new' src='figure/new.gif'> --></td><td class='left'><a href="download/FantaCalcGui_v3.4.1.zip">FantaCalcGui v3.4.1.zip</a></td></tr>
     </table>
 
 
