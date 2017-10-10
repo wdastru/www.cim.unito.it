@@ -930,7 +930,7 @@
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/0/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/1/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/0/
-1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/1/
+1617/Real Mentescars/Dinamo Ciofeca/3/2/78.5/73/1/PAROLO Marco/PAROLO Marco/PAROLO Marco/DE PAUL Rodrigo/DE PAUL Rodrigo/
 1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/0/
 1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/1/
 1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/0/
@@ -938,7 +938,7 @@
 1617/Atletico? No Grazie!/Fedora/-/-/-/-/0/
 1617/Atletico? No Grazie!/Fedora/-/-/-/-/1/
 1617/Atletico? No Grazie!/Fedora/-/-/-/-/0/
-1617/Lokomotiv Peccorino/Rapid Bradip/-/-/-/-/1/
+1617/Lokomotiv Peccorino/Rapid Bradip/1/2/71.5/76/1/BERNARDESCHI Federico/CALDARA Mattia/KOULIBALY Kalidou/
 1617/Lokomotiv Peccorino/Rapid Bradip/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Rapid Bradip/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Rapid Bradip/-/-/-/-/0/
