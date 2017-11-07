@@ -31,16 +31,30 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <p>
-                                The Molecular Imaging Center was founded by a joined initiative of chemists, biologists and physicians approved by the Italian Ministry of University and Research in 2001
-                            </p>
-                            <p>
-                                The Molecular Imaging Center gathers ca. 30 researchers whit projects supported by National and Regional Agencies, EU and Industries
-                            </p>
-                            <p>
-                                The Molecular Imaging Center hosts many foreign researchers (BE, CZ, SK, F, HUN, GR, UK, Japan and India)
-                            </p>
-                            <div class='divider'></div>
+
+						<p>The Molecular Imaging Center was founded by a joined initiative
+							of chemists, biologists and physicians approved by the Italian
+							Ministry of University and Research in 2001.</p>
+						<p>It gathers ca. 30 researchers whit projects supported by
+							National and Regional Agencies, EU and Industries and hosts many
+							foreign researchers (BE, CZ, SK, F, HUN, GR, UK, Japan and
+							India).</p>
+						<p>
+							Since 2016, it coordinates the activities of the <a
+								href="http://www.eurobioimaging.eu/"><span class='paperTitle'>Euro-BioImaging</span></a>
+							multi-sited "Multi-Modal Molecular Imaging Italian Node" (MMMI),
+							which offers access to Molecular Imaging technologies and related
+							services to national and trans-national reasearchers. Users can
+							access our services at a discounted rate by applying at the <a
+								href="https://www.eurobioimaging-interim.eu/"><span
+								class='paperTitle'>Euro-BioImaging Web Access Portal</span></a>.
+							More info on the MMMI Node <a href="http://www.mmmi.unito.it/"><span
+								class='paperTitle'>website. 
+						
+						</p>
+
+
+						<div class='divider'></div>
                             <div id='columnWrapper'>
                                 <div id='col1'>
                                     <h2 class='punch purple'><span>COST Action TD1004</span></h2>
@@ -51,7 +65,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </div>
                                 <div id='col2'>
                                     <h2 class='punch orange'><span>LATEST NEWS</span></h2>
-                                    <br/>
+                                    On Sept. 29<sup>th</sup> a Carnegie Group delegation visited the Center of Excellence for Preclinical Imaging site at Colleretto Giacosa.
+                                    <br/><a href='<?php echo $localizer; ?>carnegie.php'><span class='paperTitle'>photos</span></a>
+                                    <div class='divider'></div>
                                     The NIUMAG Instrument for training students and newcomers on the procedures for the acquisition of MR images is now available at the Center of Molecular Imaging.
 					<br/>
 					In the <a href='<?php echo $localizer; ?>niumag.php'><span 
