@@ -4,28 +4,28 @@
 SPORTIELLO Marco
 PUGGIONI Christian
 VIVIANO Emiliano
-CHIELLINI Giorgio
-MANOLAS Kostas
-MIRANDA Joao
-SILVESTRE Matias
 PERES Bruno
 ASAMOAH Kwadwo
+MIRANDA Joao
+SILVESTRE Matias
 BIRAGHI Cristiano
+CHIELLINI Giorgio
+MANOLAS Kostas
 CONTI Andrea
-CHIESA Federico
-DE ROSSI Daniele
 ALBERTO Luis
-DE PAUL Rodrigo
-BIGLIA Lucas
-VECINO Matias
-DE ROON Marten
+CHIESA Federico
 PJANIC Miralem
+DE ROSSI Daniele
+BIGLIA Lucas
+DE PAUL Rodrigo
+DE ROON Marten
+VECINO Matias
 QUAGLIARELLA Fabio
-NIANG M'Baye
-BUDIMIR Ante
 EL SHAARAWY Stephan
-CAPRARI Gianluca
 DEFREL Gregoire
+NIANG M'Baye
+CAPRARI Gianluca
+BUDIMIR Ante
 100
 3337815436
-Sat 14 Oct 2017 - 11:16:56
+Tue 24 Oct 2017 - 13:34:07
