@@ -57,6 +57,15 @@ xmlns="http://www.w3.org/1999/xhtml">
 						<div class='divider'></div>
                             <div id='columnWrapper'>
                                 <div id='col1'>
+                                    <h2 class='punch purple'><span>Euro-BioImaging</span></h2>
+                                    <br/>
+                                    <a href="http://www.eurobioimaging.eu/"> <img style="width: 99%" src="images/Euro-BioImaging_Logo_CMYK.gif" alt="Euro-BioImaging logo" /></a>
+                                    
+                                    
+                                    <br/>
+                                    <a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian Multi-sited Multi-Modal Molecular Imaging (MMMI) Node Candidate</span> </a>
+                                    
+                                    <div class='divider'></div>
                                     <h2 class='punch purple'><span>COST Action TD1004</span></h2>
                                     <a href="<?php echo $localizer; ?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
                                     <div class='divider'></div>
