@@ -38,71 +38,70 @@ $localizer = "./";
 						<!-- <h1>EU Projects</h1> -->
 						<ul>
 
+							<li><strong>H2020-MSCA-ITN-2017</strong> project "Zero and
+								ultra-low field nuclear magnetic resonance" - <strong>ZULF</strong>
+								(2018-2022)</li>
+							<li><strong>H2020-PHC-2015 project</strong>: "Improving Diagnosis
+								by Fast Field-Cycling MRI" - <strong><a href='http://www.identify-project.eu/' ><span class='paperTitle'>Identify</span></a></strong>
+								(2016-2020)</li>
+							<li><strong>H2020-PHC-2015 project</strong>: "In Vivo Spectral
+								Photon Counting CT Molecular Imaging in Cardio- and
+								Neuro-Vascular Diseases" - <strong>SPCCT</strong> (2016-2020)</li>
+							<li><strong>H2020-PHC-2015 project</strong>: "GlucoCEST Imaging
+								of Neoplastic Tumours" - <strong><a href='http://www.glint-project.eu/' ><span class='paperTitle'>GLINT</span></a></strong> (2016-2020)</li>
+							<li><strong>H2020 INFRADEV-1-2015-2</strong>: "Coordinated
+								Research Infrastructures Building Enduring Life-science
+								services" <strong><a href='http://www.corbel-project.eu/home.html' ><span class='paperTitle'>CORBEL</span></a></strong> (2015-2019)</li>
+							<li>National project <strong>F.E.S.R. 2014/2020</strong>, "Green
+								Factory for Composites" (2017-2019)
+							</li>
 							<li><strong>H2020-INFRASUPP-2014-2</strong>: Global BioImaging
 								Project - International imaging infrastructure services for the
 								life science community, 2016-2018</li>
-							<li><strong>FP7-INFRASTRUCTURES-2010-1</strong>: Euro-BioImaging
-								- Research infrastructure for imaging technologies in biological
-								and biomedical sciences, 2012-2014</li>
-							<li><strong>FP7-HEALTH-2013 (602306) MITIGATE</strong>:
-								"Closed-loop Molecular Environment for Minimally Invasive
-								Treatment of Patients with Metastatic Gastrointestinal Stromal
-								Tumours"; 2013-2017</li>
 							<li><strong>H2020-INFRADEV-1-2015-2</strong>: "Euro-BioImaging
 								Preparatory Phase 2", 2015-2017 (EuBI PP2) (siamo dentro come
 								CNR e non come UNiTO)</li>
+							<li>Research project of the Green Chemistry Cluster: "Development
+								of second generation technologies for the conversion of organic
+								derivatives in green dicarboxylic acids, as building blocks of
+								renewable origin for the synthesis of chemicals and polymers" - <strong>LIDIA</strong>
+								(2014-2017).
+							</li>
+							<li><strong>FP7-HEALTH-2013 (602306)</strong>:
+								"Closed-loop Molecular Environment for Minimally Invasive
+								Treatment of Patients with Metastatic Gastrointestinal Stromal
+								Tumours" - <a href='http://www.mitigate-project.eu/' ><span class='paperTitle'>MITIGATE</span></a> (2013-2017)</li>
+							<li>Integrated EU Project "Imaging of Neuroinflammation in
+								Neurodegenerative Diseases" - <strong>InMIND</strong>
+								(2012-2017);
+							</li>
 							<li>National project <strong>AIRC IG2013</strong>: "Dual
-								MRI-Optical imaging agents in prostatectomy"( 2014-2016);
-							</li>
-							<li>National project funded by San Paolo Foundation: "Validation
-								of VHH type molecules and aptamers for the tumor-specific
-								release of drugs and the contextual evaluation of the response
-								by focused functional imaging" (2012-2014)</li>
-							<li>National project funded by San Paolo Foundation: "Innovative
-								Nanosized Theranostic Agents: design, preparartion and
-								preclinical in vivo validation - <strong>INTA</strong>"
-								(2012-2015);
-							</li>
-							<li>National <strong>POR-FESR 2007-13</strong> project "Solid
-								Lipidic Nanoparticles for Imaging Atheroschlerotic Plaques - <strong>ATHIMAG</strong>"
-								(2011-2013);
+								MRI-Optical imaging agents in prostatectomy" (2014-2016);
 							</li>
 							<li>National <strong>PRIN</strong> project "Innovative chemical
 								tools for improved molecular approaches in biomedicine"
 								(2013-2015);
 							</li>
-							<li>Integrated EU Project "Imaging of Neuroinflammation in
-								Neurodegenerative Diseases - <strong>InMIND</strong>"
-								(2012-2017);
+							<li>National project funded by San Paolo Foundation: "Innovative
+								Nanosized Theranostic Agents: design, preparartion and
+								preclinical in vivo validation" - <strong>INTA</strong>
+								(2012-2015);
 							</li>
+							<li><strong>CA COST Action CA16103</strong> "Magnetic Resonance
+								Imaging Biomarkers for Chronic Kidney Disease"</li>
 							<li><strong>COST Action TD1004</strong> "Theragnostics Imaging
 								and Therapy" (2011-2015)</li>
-							<li><strong>H2020-PHC-2015 project</strong>: "GlucoCEST Imaging
-								of Neoplastic Tumours - <strong>GLINT</strong>" (2016-2020)</li>
-							<li><strong>H2020-PHC-2015 project</strong>: "Improving Diagnosis
-								by Fast Field-Cycling MRI - <strong>Identify</strong>"
-								(2016-2020)</li>
-							<li><strong>H2020-PHC-2015 project</strong>: "In Vivo Spectral
-								Photon Counting CT Molecular Imaging in Cardio- and
-								Neuro-Vascular Diseases - <strong>SPCCT</strong>" (2016-2020)</li>
-							<li><strong>H2020 INFRADEV-1-2015-2</strong>: "Coordinated
-								Research Infrastructures Building Enduring Life-science
-								services" (<strong>CORBEL</strong>) (2015-2019)</li>
-							<li>Research project of the Green Chemistry Cluster: "Development
-								of second generation technologies for the conversion of organic
-								derivatives in green dicarboxylic acids, as building blocks of
-								renewable origin for the synthesis of chemicals and polymers (<strong>LIDIA</strong>)"
-								(2014-2017).
+							<li><strong>FP7-INFRASTRUCTURES-2010-1</strong>: Euro-BioImaging
+								- Research infrastructure for imaging technologies in biological
+								and biomedical sciences, 2012-2014</li>
+							<li>National project funded by San Paolo Foundation: "Validation
+								of VHH type molecules and aptamers for the tumor-specific
+								release of drugs and the contextual evaluation of the response
+								by focused functional imaging" (2012-2014)</li>
+							<li>National <strong>POR-FESR 2007-13</strong> project "Solid
+								Lipidic Nanoparticles for Imaging Atheroschlerotic Plaques" - <strong>ATHIMAG</strong>
+								(2011-2013);
 							</li>
-							<li><strong>H2020-MSCA-ITN-2017</strong> project "Zero and
-								ultra-low field nuclear magnetic resonance (<strong>ZULF</strong>)"
-								(2018-2022)</li>
-							<li>National project <strong>F.E.S.R. 2014/2020</strong>, "Green
-								Factory for Composites" (2017-2019)
-							</li>
-
-
-
 
 
 							<!-- 
