@@ -6,14 +6,7 @@ atletico_coppa_2.txt
 atletico_tipo_valida_fino_20170918-224408.txt
 atletico_tipo_valida_fino_20170918-224940.txt
 ciofeca.txt
-ciofeca_camp01.txt
-ciofeca_camp02.txt
-ciofeca_camp03.txt
-ciofeca_camp04.txt
-ciofeca_camp06.txt
 ciofeca_camp07.txt
-ciofeca_camp16.txt
-ciofeca_coppa1.txt
 ciofeca_coppa2.txt
 eporediese.txt
 eporediese_camp_1.txt
