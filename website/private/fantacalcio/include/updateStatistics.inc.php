@@ -3,7 +3,7 @@
 require_once $relocate_string . "logger.php";
 require_once $relocate_string . '777/gazFiles.inc.php';
 
-/* --> legge le statistiche esistenti */
+
 //MySingleton::writeToLog(exec('date') . " : count(\$fileGaz) is " . count($fileGaz), $relocate_string . "777/logs/updateStatistics.log");
 
 foreach ($fileGaz as $file) {
@@ -13,23 +13,8 @@ foreach ($fileGaz as $file) {
 	}
 }
 
-	if( count($fileGaz) == 0) {
-		$firstTime=true; // prima giornata
-	} else {
-		$statisticsHandle = fopen($relocate_string . '777/statistics.txt', 'r');
-		$giornate=trim( fgets( $statisticsHandle ) ); // la prima riga va letta perche' contiene il numero delle giornate gia' analizzate, ma in questo momento il dato non serve
-		//MySingleton::writeToLog(exec('date') . " : $tmpStr", $relocate_string . "777/logs/updateStatistics.log");
-		$k=0;
-		while( !feof( $statisticsHandle ) )
-		{
-			$tmpStr=trim( fgets( $statisticsHandle ) );
-			//MySingleton::writeToLog(exec('date') . " : $tmpStr", $relocate_string . "777/logs/updateStatistics.log");
-			$playerStats[$k] = $tmpStr;
-			$k++;		
-		}
-		$firstTime=false; // non prima giornata
-		fclose( $statisticsHandle );
-	}
+/* --> legge le statistiche esistenti */
+require_once $relocate_string . 'include/readExistingStats.inc.php';
 	/* <-- legge le statistiche esistenti */
 	
 	//print_r($playerStats);
