@@ -1,12 +1,15 @@
 <?php
 $handle = fopen($relocate_string . '777//filesGazzetta//' . $nameTxt . '.txt', 'r');
 
+//echo "(readGazFile.inc.php) handle : ".$handle."</br>";
+
 $i=0;
 $k=0;
 while(!feof($handle))
 {
 	$tmpStr=trim( fgets( $handle ) );
 	
+	//echo "(readGazFile.inc.php) \$tmpStr : ".$tmpStr."</br>";
 	
 	$found="false";
 	

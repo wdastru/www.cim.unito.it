@@ -12,12 +12,23 @@ unlink($relocate_string . '777/statistics.txt');
 $statisticsHandle = fopen ( $relocate_string . '777/statistics.txt', 'w' );
 fclose ( $statisticsHandle );
 
+$firstTime = true;
+
 foreach ($fileGaz as $file) {
 	
 	$nameTxt = strtok($file, '.');
-	//echo $nameTxt;
-	require $relocate_string . "include/readExistingStats.inc.php";
-	require $relocate_string . "include/addStat.inc.php";	
+	
+	if ($firstTime == true) {
+		echo "first time $nameTxt $giornate</br>";
+		require $relocate_string . "include/readGazFile.inc.php";
+		$firstTime = false;	
+	} else {
+		echo "$nameTxt $giornate</br>";
+		require_once $relocate_string . 'include/readExistingStats.inc.php';
+		require $relocate_string . "include/readGazFile.inc.php";
+	}
+	
+	require_once $relocate_string . 'include/writeStats.inc.php';
 }
 
 ?>

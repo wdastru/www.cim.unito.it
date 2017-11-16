@@ -1,7 +1,4 @@
 <?php
-if (count ( $fileGaz ) == 0) {
-	$firstTime = true; // prima giornata
-} else {
 	$statisticsHandle = fopen ( $relocate_string . '777/statistics.txt', 'r' );
 	$giornate = trim ( fgets ( $statisticsHandle ) ); // la prima riga va letta perche' contiene il numero delle giornate gia' analizzate, ma in questo momento il dato non serve
 
@@ -13,5 +10,4 @@ if (count ( $fileGaz ) == 0) {
 	}
 	$firstTime = false; // non prima giornata
 	fclose ( $statisticsHandle );
-}
 ?>
