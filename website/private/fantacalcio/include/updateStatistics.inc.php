@@ -13,19 +13,18 @@ foreach ( $fileGaz as $file ) {
 if (count ( $fileGaz ) == 0) {
 	$firstTime = true; // prima giornata
 } else {
-	require_once $relocate_string . 'include/readExistingStats.inc.php';
+	require $relocate_string . 'include/readExistingStats.inc.php';
 }
-
 
 // print_r($playerStats);
 // exit();
 
 /* --> aggiornamento delle statistiche */
-require_once $relocate_string . 'include/readGazFile.inc.php';
+require $relocate_string . 'include/readGazFile.inc.php';
 
 /* --> crea backup di statistics.txt */
 // backup($relocate_string . '777/statistics.txt');
 
 /* --> scrittura delle nuove statistiche */
-require_once $relocate_string . 'include/writeStats.inc.php';
+require $relocate_string . 'include/writeStats.inc.php';
 ?>

@@ -13,22 +13,23 @@ $statisticsHandle = fopen ( $relocate_string . '777/statistics.txt', 'w' );
 fclose ( $statisticsHandle );
 
 $firstTime = true;
+$giornate = 0;
 
 foreach ($fileGaz as $file) {
 	
 	$nameTxt = strtok($file, '.');
 	
 	if ($firstTime == true) {
-		echo "first time $nameTxt $giornate</br>";
+		//echo "(reCreateStatistics.php) first time $nameTxt</br>";
 		require $relocate_string . "include/readGazFile.inc.php";
 		$firstTime = false;	
 	} else {
-		echo "$nameTxt $giornate</br>";
-		require_once $relocate_string . 'include/readExistingStats.inc.php';
+		//echo "(reCreateStatistics.php) $nameTxt</br>";
+		require $relocate_string . 'include/readExistingStats.inc.php';
 		require $relocate_string . "include/readGazFile.inc.php";
 	}
 	
-	require_once $relocate_string . 'include/writeStats.inc.php';
+	require $relocate_string . 'include/writeStats.inc.php';
 }
 
 ?>

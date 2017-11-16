@@ -1,6 +1,8 @@
 <?php
 	$statisticsHandle = fopen ( $relocate_string . '777/statistics.txt', 'r' );
 	$giornate = trim ( fgets ( $statisticsHandle ) ); // la prima riga va letta perche' contiene il numero delle giornate gia' analizzate, ma in questo momento il dato non serve
+	
+	//echo "(readExistingStats.inc.php) giornata existing : $giornate</br>";
 
 	$k = 0;
 	while ( ! feof ( $statisticsHandle ) ) {

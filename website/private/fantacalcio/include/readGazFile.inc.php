@@ -1,7 +1,7 @@
 <?php
 $handle = fopen($relocate_string . '777//filesGazzetta//' . $nameTxt . '.txt', 'r');
 
-//echo "(readGazFile.inc.php) handle : ".$handle."</br>";
+//echo "(readGazFile.inc.php) name   : ".$nameTxt.".txt</br>";
 
 $i=0;
 $k=0;
