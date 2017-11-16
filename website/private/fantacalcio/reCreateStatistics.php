@@ -7,11 +7,17 @@ require_once $relocate_string . 'classifica.inc.php';
 
 require_once $relocate_string . '777/gazFiles.inc.php';
 
+unlink($relocate_string . '777/statistics.txt');
+
+$statisticsHandle = fopen ( $relocate_string . '777/statistics.txt', 'w' );
+fclose ( $statisticsHandle );
+
 foreach ($fileGaz as $file) {
 	
 	$nameTxt = strtok($file, '.');
 	//echo $nameTxt;
-	require $relocate_string . "include/updateStatistics.inc.php";	
+	require $relocate_string . "include/readExistingStats.inc.php";
+	require $relocate_string . "include/addStat.inc.php";	
 }
 
 ?>
