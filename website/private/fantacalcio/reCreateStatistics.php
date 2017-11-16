@@ -6,7 +6,31 @@ require_once $relocate_string . 'calendario.inc';
 require_once $relocate_string . 'classifica.inc.php';
 
 require_once $relocate_string . '777/gazFiles.inc.php';
-//require $relocate_string . "include/updateStatistics.inc.php";
+
+unlink($relocate_string . '777/statistics.txt');
+
+$statisticsHandle = fopen ( $relocate_string . '777/statistics.txt', 'w' );
+fclose ( $statisticsHandle );
+
+$firstTime = true;
+$giornate = 0;
+
+foreach ($fileGaz as $file) {
+	
+	$nameTxt = strtok($file, '.');
+	
+	if ($firstTime == true) {
+		//echo "(reCreateStatistics.php) first time $nameTxt</br>";
+		require $relocate_string . "include/readGazFile.inc.php";
+		$firstTime = false;	
+	} else {
+		//echo "(reCreateStatistics.php) $nameTxt</br>";
+		require $relocate_string . 'include/readExistingStats.inc.php';
+		require $relocate_string . "include/readGazFile.inc.php";
+	}
+	
+	require $relocate_string . 'include/writeStats.inc.php';
+}
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
