@@ -7,7 +7,7 @@ require_once $relocate_string . 'classifica.inc.php';
 
 //include "dBug.php";
 
-require_once $relocate_string . 'recursiveChmod.inc.php';
+require $relocate_string . 'recursiveChmod.inc.php';
 @recursiveChmod($relocate_string . '777/');
 
 $datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
