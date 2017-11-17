@@ -21,9 +21,10 @@ require $relocate_string . "777/setupSquadre.inc.php";
 $_SESSION['nomefiletxt']=$_GET['squadra'] . ".txt";
 $_SESSION['nomesquadra']=$_GET['squadra'] . "";
 $_SESSION['nomefilephp']=$_GET['squadra'] . ".php";
-
-if( ! file_exists($relocate_string . '777/gazFiles.inc.php') ) {
-	require $relocate_string . 'include/updateGazFiles.inc.php';
+if (! file_exists ( $relocate_string . '777/gazFiles.inc.php' ) || 
+	! file_exists ( $relocate_string . '777/filesGazzetta/listaGazFiles.txt' )) {
+		
+	require $relocate_string . 'include/createGazFilesAndList.inc.php';
 }
 
 require $relocate_string . "777/gazFiles.inc.php";

@@ -113,7 +113,7 @@ if ($handle)
 unlink($result[0]);
 
 require $relocate_string . "include/updateStatistics.inc.php";
-require $relocate_string . 'include/updateGazFiles.inc.php';
+require $relocate_string . 'include/createGazFilesAndList.inc.php';
 
 header('Location: ' . $relocate_string . 'download.php');
 

@@ -1,6 +1,6 @@
 <?php
 $relocate_string = "./";
-require_once $relocate_string . 'include/updateGazFiles.inc.php';
+require $relocate_string . 'include/createGazFilesAndList.inc.php';
 require_once $relocate_string . '777/gazFiles.inc.php';
 require $relocate_string . '777/setupSquadre.inc.php';
 require_once ($relocate_string . "logger.php");

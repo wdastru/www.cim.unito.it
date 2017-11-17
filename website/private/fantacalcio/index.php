@@ -5,20 +5,19 @@ require $relocate_string . 'squadre.inc';
 require $relocate_string . 'calendario.inc';
 require $relocate_string . 'classifica.inc.php';
 
-//include "dBug.php";
-
+/* set permission of 777/ to 777 recursively */
 require $relocate_string . 'include/recursiveChmod.inc.php';
 @recursiveChmod($relocate_string . '777/');
 
 $datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
 if (!file_exists($datiCampionatoFileName)) {
-	require $relocate_string . 'writeEmptyCampionatoFile.php';
+	require $relocate_string . 'include/writeEmptyCampionatoFile.inc.php';
 }
 
-if (!file_exists($relocate_string . '777/gazFiles.inc.php')) {
-	require $relocate_string . 'include/updateGazFiles.inc.php';
+if (!file_exists($relocate_string . '777/gazFiles.inc.php') || !file_exists($relocate_string . '777/filesGazzetta/listaGazFiles.txt')) {
+	require $relocate_string . 'include/createGazFilesAndList.inc.php';
 }
-require_once $relocate_string . '777/gazFiles.inc.php';
+require $relocate_string . '777/gazFiles.inc.php';
 require ($relocate_string . "include/updateListaFormazioni.inc.php");
 
 ?>
