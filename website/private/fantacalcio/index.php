@@ -1,9 +1,9 @@
 <?php
 $relocate_string = "./";
 
-require_once $relocate_string . 'squadre.inc';
-require_once $relocate_string . 'calendario.inc';
-require_once $relocate_string . 'classifica.inc.php';
+require $relocate_string . 'squadre.inc';
+require $relocate_string . 'calendario.inc';
+require $relocate_string . 'classifica.inc.php';
 
 //include "dBug.php";
 
