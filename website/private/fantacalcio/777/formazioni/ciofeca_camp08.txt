@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
+SPORTIELLO Marco
 VIVIANO Emiliano
 PUGGIONI Christian
-SPORTIELLO Marco
+MIRANDA Joao
+BASTOS
+MANOLAS Kostas
 SILVESTRE Matias
 CHIELLINI Giorgio
-MANOLAS Kostas
-CONTI Andrea
-BASTOS
-MIRANDA Joao
 BIRAGHI Cristiano
+CONTI Andrea
 PERES Bruno
+CHIESA Federico
 PJANIC Miralem
 ALBERTO Luis
 DE PAUL Rodrigo
-BIGLIA Lucas
 VECINO Matias
-DE ROON Marten
 DE ROSSI Daniele
-CHIESA Federico
-QUAGLIARELLA Fabio
+DE ROON Marten
+BIGLIA Lucas
 EL SHAARAWY Stephan
-NIANG M'Baye
+QUAGLIARELLA Fabio
 BUDIMIR Ante
-CAPRARI Gianluca
+NIANG M'Baye
 DEFREL Gregoire
+CAPRARI Gianluca
 122
 3337815436
-Sat 18 Nov 2017 - 14:39:52
+Sat 18 Nov 2017 - 14:55:18

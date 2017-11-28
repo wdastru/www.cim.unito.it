@@ -895,19 +895,19 @@
 1415/Atletico? No Grazie!/Ij Patelavache/0/1/62/66/1/BASTA/
 1415/Atletico? No Grazie!/Ij Patelavache/3/3/79/79.5/0/BERARDI/BERARDI/BERARDI/MERTENS/MERTENS/MORAS/
 1617/EPOrediese/Real Mentescars/2/2/77.5/75/1/MERTENS DRIES/ICARDI MAURO/GOMEZ ALEJANDRO/GOMEZ ALEJANDRO/
-1617/EPOrediese/Real Mentescars/-/-/-/-/0/
+1617/EPOrediese/Real Mentescars/2/0/73.5/65.5/0/ICARDI MAURO/ICARDI MAURO/
 1617/EPOrediese/Real Mentescars/-/-/-/-/1/
 1617/EPOrediese/Real Mentescars/-/-/-/-/0/
 1617/L.A. Krakatoa/Dinamo Ciofeca/2/1/76.5/67/1/RODRIGUEZ RICARDO/RODRIGUEZ RICARDO/BIGLIA LUCAS/
-1617/L.A. Krakatoa/Dinamo Ciofeca/-/-/-/-/0/
+1617/L.A. Krakatoa/Dinamo Ciofeca/4/1/85/67/0/CHIESA FEDERICO/INSIGNE LORENZO/JOAO PEDRO/IMMOBILE CIRO/INSIGNE LORENZO/
 1617/L.A. Krakatoa/Dinamo Ciofeca/-/-/-/-/1/
 1617/L.A. Krakatoa/Dinamo Ciofeca/-/-/-/-/0/
 1617/Rapid Bradip/Atletico? No Grazie!/4/2/84.5/76.5/1/CALDARA MATTIA/CALLEJON JOSE'/KESSIE FRANCK/KOULIBALY KALIDOU/PETAGNA ANDREA/BELOTTI ANDREA/
-1617/Rapid Bradip/Atletico? No Grazie!/-/-/-/-/0/
+1617/Rapid Bradip/Atletico? No Grazie!/2/2/73/73.5/0/ZAPATA DUVAN/PEROTTI DIEGO/NAINGGOLAN RADJA/NAINGGOLAN RADJA/
 1617/Rapid Bradip/Atletico? No Grazie!/-/-/-/-/1/
 1617/Rapid Bradip/Atletico? No Grazie!/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Fedora/4/4/89/84.5/1/ILICIC JOSIP/MANDZUKIC MARIO/ILICIC JOSIP/LAXALT DIEGO/DZEKO EDIN/DZEKO EDIN/LJAJIC ADEM/DZEKO EDIN/
-1617/Lokomotiv Peccorino/Fedora/-/-/-/-/0/
+1617/Lokomotiv Peccorino/Fedora/0/3/60/83/0/TORREIRA LUCAS/ROMAGNOLI ALESSIO/HIGUAIN GONZALO/
 1617/Lokomotiv Peccorino/Fedora/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Fedora/-/-/-/-/0/
 1617/Real Mentescars/L.A. Krakatoa/2/4/73.5/87/1/FREULER REMO/ALEX SANDRO/IMMOBILE CIRO/IMMOBILE CIRO/D'AMBROSIO DANILO/IMMOBILE CIRO/

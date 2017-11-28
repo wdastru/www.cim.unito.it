@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-BUFFON Gianluigi
 SZCZESNY Wojciech
+BUFFON Gianluigi
 PINSOGLIO Carlo
+HYSAJ Elseid
 ASTORI Davide
 TOLOI Rafael
-BERESZYNSKI Bartosz
+BENATIA Medhi
+DE SCIGLIO Mattia
 DANILO Larangeira
 MASINA Adam
-BENATIA Medhi
-HYSAJ Elseid
-DE SCIGLIO Mattia
-BERNARDESCHI Federico
-LAXALT Diego
-JANKTO Jakub
+GENTILETTI Santiago
 VALERO Borja
-JORGINHO
 ILICIC Josip
-DIAWARA Amadou
+BERNARDESCHI Federico
+JANKTO Jakub
+JORGINHO
 BONAVENTURA Giacomo
+LAXALT Diego
+DIAWARA Amadou
 MANDZUKIC Mario
 SIMEONE Giovanni
-THEREAU Cyril
 LASAGNA Kevin
 FARIAS Diego
+THEREAU Cyril
 MILIK Arkadiusz
-244
+245
 347-4172758
-Fri 24 Nov 2017 - 22:53:17
+Sat 18 Nov 2017 - 16:25:55

@@ -6,7 +6,7 @@ SZCZESNY Wojciech
 PINSOGLIO Carlo
 ASTORI Davide
 TOLOI Rafael
-BERESZYNSKI Bartosz
+GENTILETTI Santiago
 DANILO Larangeira
 MASINA Adam
 BENATIA Medhi
@@ -26,6 +26,6 @@ THEREAU Cyril
 LASAGNA Kevin
 FARIAS Diego
 MILIK Arkadiusz
-244
+245
 347-4172758
-Fri 24 Nov 2017 - 22:53:17
+Mon 18 Sep 2017 - 21:39:08
