@@ -2,7 +2,7 @@
 session_start();
 $relocate_string = "../";
 
-require_once $relocate_string . 'recursiveChmod.inc.php';
+require $relocate_string . 'include/recursiveChmod.inc.php';
 @recursiveChmod($relocate_string . '777/offerte/');
 
 if (isset($_POST['toCancel']))

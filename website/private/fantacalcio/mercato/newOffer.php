@@ -4,7 +4,7 @@ session_start();
 $relocate_string = "../";
 require($relocate_string . '777/setupSquadre.inc.php');
 require('addEncryptClasses.php');
-require $relocate_string . 'recursiveChmod.inc.php';
+require $relocate_string . 'include/recursiveChmod.inc.php';
 
 
 if ( !(md5($_POST['PasswordTeam']) != $ADMIN[$_GET['squadra']] || 
