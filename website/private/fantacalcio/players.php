@@ -4,7 +4,7 @@ session_start();
 $relocate_string = "./";
 
 require('squadre.inc');
-require_once $relocate_string . 'include/updateGazFiles.inc.php';
+require $relocate_string . 'include/createGazFilesAndList.inc.php';
 require('777/gazFiles.inc.php');
 
 $filenameStats="777//statistics.txt";
