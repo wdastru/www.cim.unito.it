@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+ALISSON
+SKORUPSKI Lukasz
+SCUFFET Simone
+FLORENZI Alessandro
+IZZO Armando
+WIDMER Silvan
+BARZAGLI Andrea
+CACERES Martin
+ROSSETTINI Luca
+RUGANI Daniele
+PELUSO Federico
+PERISIC Ivan
+HAMSIK Marek
+IAGO Falque
+COSTA Douglas
+MARCHISIO Claudio
+PELLEGRINI Lorenzo
+MANDRAGORA Rolando
+ANDERSON Felipe
+MERTENS Dries
+ICARDI Mauro
+VERDI Simone
+KALINIC Nikola
+PAVOLETTI Leonardo
+PALOSCHI Alberto
+234
+3498318385
+Thu 30 Nov 2017 - 15:41:55

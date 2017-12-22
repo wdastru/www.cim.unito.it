@@ -9,16 +9,16 @@ KOULIBALY Kalidou
 FAZIO Federico
 LICHTSTEINER Stephan
 HOWEDES Benedikt
-MBAYE Ibrahima
+MORENO Hector
 WALLACE
-MARTELLA Bruno
+VITOR HUGO Franchescoli de Souza
 CANDREVA Antonio
 NAINGGOLAN Radja
 KESSIE Franck
 BASELLI Daniele
 MILINKOVIC Sergej
 ALLAN Marques Loureiro
-BARAK Antonin
+LEIVA Lucas
 KHEDIRA Sami
 CALLEJON José
 DYBALA Paulo
@@ -26,6 +26,6 @@ SAU Marco
 SCHICK Patrik
 PERICA Stipe
 NANI Luís carlos
-157
+105
 3395989215
-Fri 22 Dec 2017 - 11:38:44
+Tue 19 Sep 2017 - 14:06:13

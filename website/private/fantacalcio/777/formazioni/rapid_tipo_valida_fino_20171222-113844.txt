@@ -18,7 +18,7 @@ KESSIE Franck
 BASELLI Daniele
 MILINKOVIC Sergej
 ALLAN Marques Loureiro
-BARAK Antonin
+LEIVA Lucas
 KHEDIRA Sami
 CALLEJON José
 DYBALA Paulo
@@ -26,6 +26,6 @@ SAU Marco
 SCHICK Patrik
 PERICA Stipe
 NANI Luís carlos
-157
+163
 3395989215
-Fri 22 Dec 2017 - 11:38:44
+Sat 16 Dec 2017 - 13:47:15

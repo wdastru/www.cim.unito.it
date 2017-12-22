@@ -1,31 +1,31 @@
-3 - 4 - 3
-1 - 3 - 4 - 3
+3 - 5 - 2
+1 - 3 - 5 - 2
 1 - 2 - 2 - 2
 STRAKOSHA Thomas
 SIRIGU Salvatore
 MARCHETTI Federico
 CALDARA Mattia
 KOULIBALY Kalidou
+MARTELLA Bruno
 FAZIO Federico
 LICHTSTEINER Stephan
-HOWEDES Benedikt
 MBAYE Ibrahima
 WALLACE
-MARTELLA Bruno
-CANDREVA Antonio
+HOWEDES Benedikt
 NAINGGOLAN Radja
-KESSIE Franck
-BASELLI Daniele
-MILINKOVIC Sergej
+CANDREVA Antonio
 ALLAN Marques Loureiro
-BARAK Antonin
+BASELLI Daniele
 KHEDIRA Sami
+KESSIE Franck
+MILINKOVIC Sergej
+LEIVA Lucas
 CALLEJON José
 DYBALA Paulo
-SAU Marco
 SCHICK Patrik
 PERICA Stipe
 NANI Luís carlos
-157
+SAU Marco
+163
 3395989215
-Fri 22 Dec 2017 - 11:38:44
+Sat 16 Dec 2017 - 13:59:10
