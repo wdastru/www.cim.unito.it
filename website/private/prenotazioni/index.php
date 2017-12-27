@@ -301,8 +301,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 </tr>
 <tr>
 <td><input id='iUPLC' class='instrumentButton' type='submit' name='instrument' value='UPLC' onmouseover='On(\"iUPLC\")' onmouseout='Off(\"iUPLC\")'/></td>
-<td><input id='iCappa1' class='instrumentButton' type='submit' name='instrument' value='Cappa1' onmouseover='On(\"iCappa1\")' onmouseout='Off(\"iCappa1\")'/></td>
-<td><input id='iCappa2' class='instrumentButton' type='submit' name='instrument' value='Cappa2' onmouseover='On(\"iCappa2\")' onmouseout='Off(\"iCappa2\")'/></td>
+<td><input id='iScanlaf' class='instrumentButton' type='submit' name='instrument' value='Scanlaf' onmouseover='On(\"iScanlaf\")' onmouseout='Off(\"iScanlaf\")'/></td>
+<td><input id='iTelstar' class='instrumentButton' type='submit' name='instrument' value='Telstar' onmouseover='On(\"iTelstar\")' onmouseout='Off(\"iTelstar\")'/></td>
 <td></td>
 <td></td>
 <td></td>

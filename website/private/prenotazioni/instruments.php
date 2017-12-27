@@ -65,8 +65,8 @@ $instrString[ "VevoLazr" ] = "VevoLazr (Ivrea)";
 $instrString[ "IVISSPE" ] = "IVIS Spectrum PerkinElmer (Ivrea)";
 $instrString[ "OMZ" ] = "Optical Microscope Zeiss (Ivrea)";
 $instrString[ "MiniSpec" ] = "MiniSpec (Ivrea)";
-$instrString[ "Cappa1" ] = "Cappa 1";
-$instrString[ "Cappa2" ] = "Cappa 2";
+$instrString[ "Scanlaf" ] = "Scanlaf";
+$instrString[ "Telstar" ] = "Telstar";
 $instrString[ "UPLC" ] = "UPLC (Torino)";
 
 $guidelines[ "300MHz" ] = "<br/><h1>Regolamento prenotazioni 300MHz</h1>
@@ -157,8 +157,8 @@ $guidelines[ "VevoLazr" ] = "";
 $guidelines[ "IVISSPE" ] = "";
 $guidelines[ "OMZ" ] = "";
 $guidelines[ "MiniSpec" ] = "";
-$guidelines[ "Cappa1" ] = "";
-$guidelines[ "Cappa2" ] = "";
+$guidelines[ "Scanlaf" ] = "";
+$guidelines[ "Telstar" ] = "";
 $guidelines[ "UPLC" ] = "";
 
 $warning[ "300MHz" ] = ""; 
@@ -191,8 +191,8 @@ $warning[ "VevoLazr" ] = "";
 $warning[ "IVISSPE" ] = "";
 $warning[ "OMZ" ] = "";
 $warning[ "MiniSpec" ] = "";
-$warning[ "Cappa1" ] = "";
-$warning[ "Cappa2" ] = "";
+$warning[ "Scanlaf" ] = "";
+$warning[ "Telstar" ] = "";
 $warning[ "UPLC" ] = "";
 /*
 $generalWarning = "<div id='generalWarningDiv'><br /><h1 style='text-decoration:blink; text-align:center; color:#FFF;'>AVVISO</h1><br /><p class='generalWarning'>Si sono verificati dei problemi con le prenotazioni.<br />Siete pregati di fare particolare attenzione durante la prenotazione e cancellazione degli spazi, e di comunicare a Walter qualunque malfunzionamento incontriate.<br /><br />Saluti.</p></div>";
