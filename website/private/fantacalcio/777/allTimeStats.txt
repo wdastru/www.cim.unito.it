@@ -959,15 +959,15 @@
 1617/Dinamo Ciofeca/Lokomotiv Peccorino/-/-/-/-/1/
 1617/Dinamo Ciofeca/Lokomotiv Peccorino/-/-/-/-/0/
 1617/EPOrediese/Rapid Bradip/2/1/75/70.5/1/RUGANI DANIELE/RUGANI DANIELE/CANDREVA ANTONIO/
-1617/EPOrediese/Rapid Bradip/2/3/73.5/80/0/CALDARA Mattia/KOULIBALY Kalidou/KOULIBALY Kalidou/HAMSIK Marek/ICARDI Mauro/
+1617/EPOrediese/Rapid Bradip/2/3/73.5/80/0/CALDARA MATTIA/KOULIBALY KALIDOU/KOULIBALY KALIDOU/HAMSIK MAREK/ICARDI MAURO/
 1617/EPOrediese/Rapid Bradip/-/-/-/-/1/
 1617/EPOrediese/Rapid Bradip/-/-/-/-/0/
 1617/Lokomotiv Peccorino/L.A. Krakatoa/0/2/65.5/73.5/1/IMMOBILE CIRO/IMMOBILE CIRO/
-1617/Lokomotiv Peccorino/L.A. Krakatoa/3/1/80/69/0/ZIELINSKI Piotr/ILICIC Josip/ILICIC Josip/MANDZUKIC Mario/
+1617/Lokomotiv Peccorino/L.A. Krakatoa/3/1/80/69/0/ZIELINSKI PIOTR/ILICIC JOSIP/ILICIC JOSIP/MANDZUKIC MARIO/
 1617/Lokomotiv Peccorino/L.A. Krakatoa/-/-/-/-/1/
 1617/Lokomotiv Peccorino/L.A. Krakatoa/-/-/-/-/0/
 1617/Real Mentescars/Fedora/3/1/78.5/69.5/1/POLITANO MATTEO/PAZZINI GIAMPAOLO/POLITANO MATTEO/GOMIS ALFRED/
-1617/Real Mentescars/Fedora/0/1/58.5/71.5/0/MATUIDI Blaise/
+1617/Real Mentescars/Fedora/0/1/58.5/71.5/0/MATUIDI BLAISE/
 1617/Real Mentescars/Fedora/-/-/-/-/1/
 1617/Real Mentescars/Fedora/-/-/-/-/0/
 1617/Atletico? No Grazie!/Dinamo Ciofeca/5/2/92/77.5/1/INGLESE ROBERTO/KOLAROV ALEKSANDAR/BENASSI MARCO/INGLESE ROBERTO/KOLAROV ALEKSANDAR/PJANIC MIRALEM/CAPRARI GIANLUCA/
@@ -979,7 +979,7 @@
 1617/Atletico? No Grazie!/EPOrediese/-/-/-/-/1/
 1617/Atletico? No Grazie!/EPOrediese/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Real Mentescars/3/2/81/76.5/1/SIMEONE GIOVANNI/BERNARDESCHI FEDERICO/ILICIC JOSIP/FREULER REMO/CUADRADO JUAN/
-1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/
+1617/Lokomotiv Peccorino/Real Mentescars/4/2/86/72/0/LAPADULA Gianluca/LAPADULA Gianluca/BENATIA Medhi/LASAGNA Kevin/ILICIC Josip/BENATIA Medhi/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/
 1617/Dinamo Ciofeca/Rapid Bradip/2/2/72/74.5/1/QUAGLIARELLA FABIO/ALBERTO LUIS/DYBALA PAULO/MILINKOVIC SERGEJ/
@@ -987,7 +987,7 @@
 1617/Dinamo Ciofeca/Rapid Bradip/-/-/-/-/1/
 1617/Dinamo Ciofeca/Rapid Bradip/-/-/-/-/0/
 1617/L.A. Krakatoa/Fedora/0/1/63/66/1/HIGUAIN GONZALO/
-1617/L.A. Krakatoa/Fedora/-/-/-/-/0/
+1617/L.A. Krakatoa/Fedora/3/0/79/65/0/IMMOBILE Ciro/INSIGNE Lorenzo/CACCIATORE Fabrizio/
 1617/L.A. Krakatoa/Fedora/-/-/-/-/1/
 1617/L.A. Krakatoa/Fedora/-/-/-/-/0/
 1617/EPOrediese/Lokomotiv Peccorino/4/1/86/69.5/1/PERISIC IVAN/MERTENS DRIES/IAGO FALQUE/PERISIC IVAN/VALERO BORJA/
