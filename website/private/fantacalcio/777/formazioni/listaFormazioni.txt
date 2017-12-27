@@ -2,6 +2,7 @@ atletico.txt
 atletico_camp_10.txt
 atletico_camp_11.txt
 atletico_camp_12.txt
+atletico_camp_13.txt
 atletico_coppa_2.txt
 ciofeca.txt
 ciofeca_camp07.txt
@@ -10,12 +11,14 @@ ciofeca_camp09.txt
 ciofeca_camp10.txt
 ciofeca_camp11.txt
 ciofeca_camp12.txt
+ciofeca_camp13.txt
 ciofeca_coppa2.txt
 eporediese.txt
 eporediese_camp_1.txt
 eporediese_camp_10.txt
 eporediese_camp_11.txt
 eporediese_camp_12.txt
+eporediese_camp_13.txt
 eporediese_camp_2.txt
 eporediese_camp_3.txt
 eporediese_camp_4.txt
@@ -49,6 +52,7 @@ krakatoa_6a_camp_ufficiale.txt
 krakatoa_7a_camp_da_mail.txt
 krakatoa_8a_camp.txt
 krakatoa_9a_camp.txt
+krakatoa_camp_221217.txt
 krakatoa_camp_4a_da_mail.txt
 krakatoa_coppa_2a_da_mail.txt
 krakatoa_tipo_valida_fino_20170922-133752.txt
@@ -69,12 +73,13 @@ lokomotiv_camp_09.txt
 lokomotiv_camp_10.txt
 lokomotiv_camp_11.txt
 lokomotiv_camp_12.txt
+lokomotiv_camp_13.txt
 lokomotiv_coppa02.txt
 lokomotiv_tipo_valida_fino_20170918-213908.txt
 lokomotiv_tipo_valida_fino_20171124-225317.txt
 rapid.txt
-rapid_cam_10.txt
 rapid_cam_11.txt
+rapid_cam_13.txt
 real.txt
 real_camp01.txt
 real_camp02.txt
