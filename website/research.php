@@ -30,38 +30,276 @@ $localizer = "./";
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <h1>What Molecular Imaging is?</h1>
+                            
                             <p>
-                                In vivo characterization of and measurement of biological
-                                process at cellular and molecular level
+                                The Molecular Imaging Center brings together scientists who share a common 
+                                interest in developing imaging probes and protocols and exploiting using state-of-the-art imaging technology 
+                                for studying important biological-related issues.
                             </p>
-                            <p>
-                                Probe the molecular abnormalities at the basis of disease rather
-                                than imaging the end effects of the molecular alterations
-                            </p>
-                            <p>
-                                Combine new molecular agents with traditional imaging tools to
-                                create targeted, tailored therapies with the ability to
-                                simultaneously find, diagnose and treat disease
-                            </p>
-                            <h1>Main lines of research activity at CIM:</h1>
-                            <ul>
-                                <li>High Sensitivity MR Imaging Reporter (Gd-complexes, <a href=
-                                    "research_cest.php"><strong>CEST agents</strong></a> , <a href=
-                                    "research_hyper.php"><strong>Hyperpolarized molecules</strong></a> )</li>
-                                <li>Imaging reporters responsive to specific physicochemical and
-                                    biological parameters of the cellular microenvironment (pH,
-                                    temperature, metabolites' concentration, enzymatic activity)</li>
-                                <li><a href="research_cell.php"><strong>Cellular
-                                    labelling</strong></a> (staminal cells)</li>
-                                <li>Tumor targeting (AA, LDL, Anionic and cationic transporters,
-                                    Adhesion molecules, Hyperexpressed receptors, fibrin)</li>
-                                <li>"Targeting" of Atherosclerotic Plaques (HDL,
-                                    macrofaphages&Atilde;&cent;&acirc;&sbquo;&not;&Acirc;&brvbar;)</li>
-                                <li>Multiple Sclerosis</li>
-                                <li>Assessment of changes in Vascular Permeability in neo-formed
-                                    vessels</li>
-                            </ul>
+                            
+                            <h1 id="research1">Probes development at CIM:</h1>
+
+						<div class="w3-row-padding" style="background: #E6E6E6;">
+							<div class="w3-container">
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;">
+											<font color="red">Probe synthesis</font> </h13>
+										</div>
+										<img src="images/figure_research_synthesis.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Stefania</span></a>, <a
+											title="Opens in new window" href="#"><span class="PIname">Tei</span></a>
+
+
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research.php"><span class="PIname">
+											<h13 style="text-transform: none;"> <font color="red">Gd-complexes</font>
+											 </h13></a>
+										</div>
+										<img src="images/figure_research_Gdcomplex.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Gianolio</span></a>, <a
+											title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
+									
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">CEST
+											contrast agents</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_CEST.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Terreno</span></a>, <a
+											title="Opens in new window" href="#"><span class="PIname">Delli Castelli, </span></a>
+											<a title="Opens in new window" href="PI/Longo/home.html" target="_blank"><span class="PIname">Longo</span></a>
+									
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">Hyperpolarized
+											agents</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_hyperpolarized.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Reineri</span></a>, <a
+											title="Opens in new window" href="#"><span class="PIname">Dastru'</span></a>
+									
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+						<div class="w3-row-padding" style="background: #E6E6E6;">
+							<div class="w3-container">
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;">
+											<font color="red">Multi-modality agents</font> </h13>
+										</div>
+										<img src="images/figure_research_multimodal.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Terreno</span></a>, <a
+											title="Opens in new window" href="#"><span class="PIname">Terreno</span></a>
+
+
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 style="text-transform: none;"> <font color="red">Responsive agents</font>
+											</a> </h13>
+										</div>
+										<img src="images/figure_research_responsive.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="PI/Longo/home.html" target="_blank"><span class="PIname"> Longo,</span></a> <a
+											title="Opens in new window" href="#"><span class="PIname">Delli Castelli,</span></a>
+											<a title="Opens in new window" href="#"><span class="PIname">Digilio,</span></a>
+									
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">Targeting agents</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Terreno</span></a>, <a
+											title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
+									
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">Theranostic agents</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_theranostic.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Terreno</span></a>, <a
+											title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
+									
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+                            
+                                <h1 id="research2">Main lines of research activity at CIM:</h1>
+
+						<div class="w3-row-padding" style="background: #E6E6E6;">
+							<div class="w3-container">
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;">
+											<font color="red">Cell labeling and tracking</font> </h13>
+										</div>
+										<img src="images/figure_research_cell_labeling.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Gianolio/home.html"><span class="PIname">Gianolio</span></a>, 
+										<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Geninatti</span></a>,
+										<a title="Opens in new window" href="PI/DelliCastelli/home.html"><span class="PIname">Delli Castelli</span></a>
+
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research.php"><span class="PIname">
+											<h13 style="text-transform: none;"> <font color="red">Targeting receptors</font>
+											 </h13></a>
+										</div>
+										<img src="images/figure_research_receptors.jpg" alt="" class="w3-image-left">
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname">Terreno</span></a>, 
+										<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Geninatti</span></a>,
+										<a title="Opens in new window" href="PI/Stefania/home.html"><span class="PIname">Stefania</span></a>
+										
+									
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">Tumor angiogenesis</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_CEST.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>, 
+										<a title="Opens in new window" href="PI/Dastru/home.html"><span class="PIname">Dastru'</span></a>,
+										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname">Terreno</span></a>
+										
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">Tumor acidosis</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_hyperpolarized.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>, 										
+										<a title="Opens in new window" href="PI/DelliCastelli/home.html"><span class="PIname">Delli Castelli</span></a>
+										
+									
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+						<div class="w3-row-padding" style="background: #E6E6E6;">
+							<div class="w3-container">
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;">
+											<font color="red">Tumor metabolism</font> </h13>
+										</div>
+										<img src="images/figure_research_multimodal.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Reineri/home.html"><span class="PIname">Reineri</span></a>, 
+										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>,
+										
+
+
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 style="text-transform: none;"> <font color="red">Atherosclerotic plaques</font>
+											</a> </h13>
+										</div>
+										<img src="images/figure_research_responsive.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname">Terreno</span></a>										
+										
+									
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">Imaging &amp; Therapy</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname"> Terreno</span></a>, 
+										<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Geninatti</span></a>,
+									
+									</div>
+								</div>
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;"> <font color="red">Imaging enzyme activity</font> </a> </h13>
+										</div>
+										<img src="images/figure_research_theranostic.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="#"><span class="PIname"> Digilio</span></a>, 										
+										<a title="Opens in new window" href="PI/DelliCastelli/home.html"><span class="PIname">Delli Castelli</span></a>
+										
+									
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+                            
+                       
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

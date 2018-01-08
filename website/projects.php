@@ -29,7 +29,7 @@ $localizer = "./";
 					<div id='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
-							Projects
+							On going Projects
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
@@ -57,6 +57,19 @@ $localizer = "./";
 							</li>
 							<li><strong>H2020-INFRASUPP-2014-2</strong>: <strong><a href='http://www.eurobioimaging.eu/global-bioimaging/' ><span class='paperTitle'>Global BioImaging Project</span></a></strong> - International imaging infrastructure services for the
 								life science community, 2016-2018</li>
+								
+								</ul>
+								</div>
+								
+								<div id='band'>
+						<h1 id='subsectionTitle'>
+							<!-- InstanceBeginEditable name="subsection title" -->
+							Past Projects
+							<!-- InstanceEndEditable -->
+						</h1>
+					</div>
+					<div class='paddingInner'>
+								<ul>
 							<li><strong>H2020-INFRADEV-1-2015-2</strong>: "Euro-BioImaging
 								Preparatory Phase 2", 2015-2017 (<strong><a href='http://www.eurobioimaging.eu/prep-phase2016' ><span class='paperTitle'>EuBI PP2</span></a></strong>)</li>
 							<li>Research project of the Green Chemistry Cluster: "Development
@@ -106,7 +119,7 @@ $localizer = "./";
 							</li>
 
 
-							<!-- 
+							 
 							<li><a href="http://www.emilnet.org" rel="external">Network of
 									Excellence <strong>EMIL</strong>(European Molecular Imaging
 									Laboratories) (combating cancer), 2004-2009
@@ -137,11 +150,13 @@ $localizer = "./";
 							<li><a
 								href="<?php echo $localizer; ?>COST/index.php"><strong>COST</strong> Action 2011-16 &quot;Theragnostics Imaging and Therapy: An Action to Develop
 							Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; (Coord.)</a></li>
-						 -->
+						 
 						 
 						</ul>
 						<!-- InstanceEndEditable -->
 					</div>
+					
+					
 				</div>
 			</div>
 			<!-- subsection closing -->

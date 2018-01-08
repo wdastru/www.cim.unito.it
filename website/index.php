@@ -32,13 +32,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
 
-						<p>The Molecular Imaging Center was founded by a joined initiative
-							of chemists, biologists and physicians approved by the Italian
+						<p> The Molecular Imaging Center at the University of Torino, directed by Silvio Aime, 
+							is a cross-disciplinary chemistry and life science lab. Our work at the CIM is to develop imaging probes that support 
+							preclinical research with focus in several life science areas. 
+							It  was founded by a joined initiative of chemists, biologists and physicians approved by the Italian
 							Ministry of University and Research in 2001.</p>
-						<p>It gathers ca. 30 researchers whit projects supported by
-							National and Regional Agencies, EU and Industries and hosts many
-							foreign researchers (BE, CZ, SK, F, HUN, GR, UK, Japan and
-							India).</p>
+						
 						<p>
 							Since 2016, it coordinates the activities of the <a
 								href="http://www.eurobioimaging.eu/"><span class='paperTitle'>Euro-BioImaging</span></a>
@@ -49,59 +48,373 @@ xmlns="http://www.w3.org/1999/xhtml">
 								href="https://www.eurobioimaging-interim.eu/"><span
 								class='paperTitle'>Euro-BioImaging Web Access Portal</span></a>.
 							More info on the MMMI Node <a href="http://www.mmmi.unito.it/"><span
-								class='paperTitle'>website. 
+								class='paperTitle'>website.</span></a> 
 						
 						</p>
+						</div>
 
-
-						<div class='divider'></div>
-                            <div id='columnWrapper'>
-                                <div id='col1'>
-                                    <h2 class='punch purple'><span>Euro-BioImaging</span></h2>
-                                    <br/>
-                                    <a href="http://www.eurobioimaging.eu/"> <img style="width: 99%" src="images/Euro-BioImaging_Logo_CMYK.gif" alt="Euro-BioImaging logo" /></a>
-                                    
-                                    
-                                    <br/>
-                                    <a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian Multi-sited Multi-Modal Molecular Imaging (MMMI) Node Candidate</span> </a>
-                                    
-                                    <div class='divider'></div>
-                                    <h2 class='punch purple'><span>COST Action TD1004</span></h2>
-                                    <a href="<?php echo $localizer; ?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
-                                    <div class='divider'></div>
-                                    <span class="date">September 10<sup>th</sup>-11<sup>th</sup>, 2015</span>The Annual Workshop of the TD1004 Action will be held in Belgrade, at the <a href="http://www.sanu.ac.rs/English/Index.aspx" ><span class="paperTitle">Serbian Academy of Sciences and Arts (SASA)</span></a> 
-                                    <br />The local organizer is <br />Magdalena Stefanovic <a href="mailto:magdalena.stefanovic@itn.sanu.ac.rs">magdalena.stefanovic@itn.sanu.ac.rs</a>.
-                                </div>
-                                <div id='col2'>
-                                    <h2 class='punch orange'><span>LATEST NEWS</span></h2>
-                                    On Sept. 29<sup>th</sup> a Carnegie Group delegation visited the Center of Excellence for Preclinical Imaging site at Colleretto Giacosa.
-                                    <br/><a href='<?php echo $localizer; ?>carnegie.php'><span class='paperTitle'>photos</span></a>
-                                    <div class='divider'></div>
-                                    The NIUMAG Instrument for training students and newcomers on the procedures for the acquisition of MR images is now available at the Center of Molecular Imaging.
-					<br/>
-					In the <a href='<?php echo $localizer; ?>niumag.php'><span 
-class='paperTitle'>photos</span></a>, Professor Aime, Head of the Molecular Imaging Center, presents the new facility to his coworkers. 
-                                </div>
-                                <div id='col3'>
-                                    <h2 class='punch orange'><span>EVENTS</span></h2>
-                                    <span class="date">September, 10<sup>th</sup>-12<sup>th</sup> 2014</span>
-                                    <a href='<?php echo $localizer; ?>EMIDS/EMIDS_September_2014.php' ><span class="paperTitle">The breakthrough of Molecular Imaging in the field of the future in vivo diagnostic procedures</span></a>
-                                    <br />
-                                    Torino - Italy
-                                    <br />
-                                    <a href="http://www.emids.eu/"> <img style="width: 99%" src="images/Emids_Logo.jpg" alt="EMIDS logo" /></a>
-                                    <div class='divider'></div>
-                                    <span class="date">October, 3<sup>rd</sup>-5<sup>th</sup> 2014</span>
-                                    <a href='<?php echo $localizer; ?>COST/meetings/COST_TD1004-Oct2014.php' ><span class="paperTitle">Annual Workshop of the COST Action TD1004 (&quot;Theranostics&quot;)</span></a>
-                                    Istanbul - Turkey
-                                    <br />
-                                    <div class='divider'></div>
-                                    <span class="date">May, 8<sup>th</sup>-9<sup>th</sup> 2014</span>
-                                    <a href='<?php echo $localizer; ?>CEST2014/index.php' ><span class="paperTitle">CEST 2014 - 4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer Imaging</span></a>
-                                </div>
-                            </div>
+						<div id='band'>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Research Areas <!-- InstanceEndEditable --></h1>
                         </div>
-                    </div>
+
+     					<div class='paddingInner'>
+						<div class="w3-row-padding">
+						<div class="w3-container">
+						
+						<div class="w3-content w3-display-container" style="max-width: 600px">
+							
+							<div class="w3-display-container mySlides">
+							<a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_theranostic.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Imaging &amp; Therapy</strong>
+                              </div>
+                            </div>
+                            
+							<div class="w3-display-container mySlides">
+							<a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_CEST.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>CEST imaging</strong>
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides">
+                            <a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_enzyme.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Imaging enzyme activity</strong>
+                              </div>
+                            </div>
+							
+							<div class="w3-display-container mySlides">
+							<a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_cell_labeling.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Cell labeling and tracking</strong>
+                              </div>
+                            </div>
+                            
+							<div class="w3-display-container mySlides">
+							<a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_receptors.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Targeting receptors</strong>
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides">
+                            <a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_angiogenesis.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor angiogenesis</strong>
+                              </div>
+                            </div>
+							
+							<div class="w3-display-container mySlides">
+							<a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_tumor_acidosis.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor acidosis</strong>
+                              </div>
+                            </div>
+                            
+                            <div class="w3-display-container mySlides">
+                            <a href='research_cest.php' target="_blank">
+							<img class="w3-image" src="images/figure_research_tumor_metabolism.jpg" style="width: 70%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor metabolism</strong>
+                              </div>
+                            </div>
+                            
+     									<div
+											class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle"
+											style="width: 60%">
+											
+									<!-- 		<div class="w3-left w3-hover-text-khaki"
+												onclick="plusDivs(-1)">&#10094;</div>
+											<div class="w3-right w3-hover-text-khaki"
+												onclick="plusDivs(1)">&#10095;</div> -->
+											<span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(1)"></span> <span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(2)"></span> <span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(3)"></span> <span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(4)"></span> <span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(5)"></span> <span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(6)"></span> <span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(7)"></span> <span
+												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												onclick="currentDiv(8)"></span>
+										</div>
+						</div>
+						</div>
+						</div>
+					</div>
+
+					<div id='band'>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> News and Events <!-- InstanceEndEditable --></h1>
+                        </div>
+
+
+					<div class='paddingInner'>
+
+						<div class="w3-container">
+						
+						
+							<div class="w3-cell-row" style="margin-top:2em;">
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									<h12>News</h12>
+								</div>
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									
+								</div>
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									
+								</div>
+							</div>
+							
+							<div class="w3-cell-row" style="margin-top:2em;">
+								<div class="w3-container w3-cell" style="width:250px;">
+									
+									<h2 class='punch purple'><span>Euro-BioImaging</span></h2>
+                                    <br/>
+                                    <a href="http://www.eurobioimaging.eu/"> <img style="width: 99%" src="images/Euro-BioImaging_Logo_CMYK.gif" alt="Euro-BioImaging logo" /></a>                                   
+                                    <br/>
+                                    <a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian Multi-sited Multi-Modal Molecular Imaging (MMMI) Node Candidate</span> </a>                                   									
+								</div>
+																
+								<div class="w3-container w3-cell" style="width:250px;">
+									 <h2 class='punch purple'><span>COST Action TD1004</span></h2>
+                                    <a href="<?php echo $localizer; ?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
+								</div>
+								
+								<div class="w3-container w3-cell" style="width:250px;">
+									<h2 class='punch purple'><span>COST Action CA16103</span></h2>
+                                    <a href="http://www.cost.eu/COST_Actions/ca/CA16103">&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot; </a>
+                                   
+								</div>																						
+							</div>
+							
+							<div class="w3-cell-row" style="margin-top:2em;">
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									<h12>Upcoming events</h12>
+								</div>
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									
+								</div>
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									
+								</div>
+							</div>
+							
+							<div class="w3-cell-row" style="margin-top:2em;">
+							
+								<div class="w3-container w3-cell" style="width:250px;">
+								<h2 class='punch orange'><span>EMIM meeting</span></h2>
+								<br/>
+								<img style="width: 99%" src="images/meetings/EMIM_2018.jpg">
+                                 <a href="http://www.e-smi.eu/index.php?id=emim-2018"><span class='paperTitle'>13th
+												European Molecular Imaging Meeting,</span></a><span class="date"> 20-23 March 2018 </span>
+												<span> San Sebastian, Spain</span>    	
+								</div>
+														
+								<div class="w3-container w3-cell" style="width:250px;">
+									<h2 class='punch orange'><span>WMIC meeting</span></h2>
+								<br/>
+								<img style="width: 99%" src="images/meetings/WMIC_2018.jpg">
+                                 <a href="http://www.wmis.org/2018-wmic"><span class='paperTitle'>World
+												Molecular Imaging Congress,</span></a><span class="date">  12-15 September 2018 </span>
+												<span> Seattle, USA</span>    	
+
+								</div>
+															
+								<div class="w3-container w3-cell" style="width:250px;">									
+								 	<h2 class='punch orange'><span>ISMRM meeting</span></h2>
+								<br/>
+								<img style="width: 99%" src="images/meetings/ISMRM_2018.jpg">
+                                 <a href="https://www.ismrm.org/18m/"><span class='paperTitle'>Joint Annual Meeting ISMRM-ESMRMB 2018,</span></a><span class="date">  16-21 June 2018 </span>
+												<span> Paris, France</span>    	
+								
+								</div>									
+								 									
+								</div>
+								
+							
+							
+							<div class="w3-cell-row" style="margin-top:2em;">
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									<h12>Recent papers</h12>
+								</div>
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									
+								</div>
+								<div class="w3-container w3-cell-title" style="width:250px;">
+									
+								</div>
+							</div>
+							
+							
+							<div class="w3-cell-row" style="margin-top:2em;">
+																
+								<div class="animSlides w3-animate-right ">
+								
+								<div class="w3-container w3-cell" style="width:250px;">
+									<div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/longo_JMR2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29272735" target="_blank">
+                                      <b>Flip-angle based ratiometric approach for pulsed CEST-MRI pH imaging</b></h4>
+                                      <span><font color="blue"><b>Longo D. et al; </b></font></span>
+                                      <p><font color="blue">J Magnetic Resonance 2017, 187, 1</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								  </div>
+								 
+								 <div class="w3-container w3-cell" style="width:250px;">
+									<div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/gianolio_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28873047" target="_blank">
+                                      <b>Gadolinium Retention in the Rat Brain: Assessment of the Amounts of Insoluble Gadolinium-containing Species and Intact Gadolinium Complexes after Repeated Administration of Gadolinium-based Contrast Agents.</b></h4>
+                                      <span><font color="blue"><b>Gianolio E. et al; </b></font></span>
+                                      <p><font color="blue">Radiology. 2017 Dec;285(3):839</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								  </div>
+								  
+								   <div class="w3-container w3-cell" style="width:250px;">
+								 <div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/terreno_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29079529" target="_blank">
+                                      <b>MRI visualization of neuroinflammation using VCAM-1 targeted paramagnetic micelles.</b></h4>
+                                      <span><font color="blue"><b>Terreno E. et al; </b></font></span>
+                                      <p><font color="blue">Nanomedicine. 2017, S1549-9634(17)30181</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								 </div>
+								 
+							</div>
+							
+							<div class="animSlides w3-animate-right">
+								
+								<div class="w3-container w3-cell" style="width:250px;">
+									<div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/geninatti_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28301933" target="_blank">
+                                      <b>Ferritin Decorated PLGA/Paclitaxel Loaded Nanoparticles Endowed with an Enhanced Toxicity Toward MCF-7 Breast Tumor Cells.</b></h4>
+                                      <span><font color="blue"><b>Geninatti S. et al; </b></font></span>
+                                      <p><font color="blue">Bioconjug Chem. 2017, 28, 1283</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								  </div>
+								 
+								 <div class="w3-container w3-cell" style="width:250px;">
+									<div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/reineri_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27870463" target="_blank">
+                                      <b>13C MR Hyperpolarization of Lactate by Using ParaHydrogen and Metabolic Transformation in Vitro.</b></h4>
+                                      <span><font color="blue"><b>Reineri F. et al; </b></font></span>
+                                      <p><font color="blue">Chemistry. 2017, 23, 1200</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								  </div>
+								  
+								   <div class="w3-container w3-cell" style="width:250px;">
+								 <div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/dellicastelli_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27049069" target="_blank">
+                                      <b>The release of Doxorubicin from liposomes monitored by MRI and triggered by a combination of US stimuli led to a complete tumor regression in a breast cancer mouse model.</b></h4>
+                                      <span><font color="blue"><b>Delli Castelli D. et al; </b></font></span>
+                                      <p><font color="blue">J Control Release. 2016, 230,57</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								 </div>
+								 
+							</div>
+							
+							<div class="animSlides w3-animate-right">
+								
+								<div class="w3-container w3-cell" style="width:250px;">
+									<div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/stefania_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28783106" target="_blank">
+                                      <b>Melanin-Based Contrast Agents for Biomedical Optoacoustic Imaging and Theranostic Applications.</b></h4>
+                                      <span><font color="blue"><b>Stefania R et al; </b></font></span>
+                                      <p><font color="blue">Int J Mol Sci. 2017, 18, E1719</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								  </div>
+								 
+								 <div class="w3-container w3-cell" style="width:250px;">
+									<div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/dastru_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27995483" target="_blank">
+                                      <b>Assessing tumor vascularization as a potential biomarker of imatinib resistance in gastrointestinal stromal tumors by dynamic contrast-enhanced magnetic resonance imaging</b></h4>
+                                      <span><font color="blue"><b>Dastru' W. et al; </b></font></span>
+                                      <p><font color="blue">Gastric Cancer. 2017, 20, 629</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								  </div>
+								  
+								   <div class="w3-container w3-cell" style="width:250px;">
+								 <div class="w3-card" style="width:100%">
+									<div class="w3-container">
+                                    <img src="images/papers/cutrin_2018.jpg" alt="" style="width:100%">
+                                    <div class="w3-container">
+                                      <h4 style="margin-top: 2px;margin-bottom: 2px;">
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28301933" target="_blank">
+                                      <b>Ferritin Decorated PLGA/Paclitaxel Loaded Nanoparticles Endowed with an Enhanced Toxicity Toward MCF-7 Breast Tumor Cells.</b></h4>
+                                      <span><font color="blue"><b>Cutrin JC et al;</b></font> </span>
+                                      <p><font color="blue">Bioconjug Chem. 2017, 28, 1283</font></p></a>
+                                    </div>
+                                  </div>
+								 </div>
+								 </div>
+								 
+							</div>
+							
+							
+							
+							
+
+						</div>
+					</div>
+
+
+
+
+
+					</div>
+				</div>
                 </div>
                 <!-- subsection closing -->
             </div>
@@ -133,6 +446,52 @@ class='paperTitle'>photos</span></a>, Professor Aime, Head of the Molecular Imag
 //<![CDATA[
 changeSideNavStyles();
 //]]>
+
+var slideIndex = 1;
+showDivs();
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+     dots[i].className = dots[i].className.replace(" w3-black", "");
+     
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}    
+  x[slideIndex-1].style.display = "block";  
+  setTimeout(showDivs, 2000); // Change image every 2 seconds
+	  x[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " w3-black";
+}
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("animSlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);
+     
+}
+
+
         </script>
         <!-- InstanceEnd -->
     </body>

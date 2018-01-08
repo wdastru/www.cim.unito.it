@@ -3,7 +3,7 @@ echo "
 		<div id='sidebar'>
 			<div class='padding'>
 				<dl id='list'>
-					<dt class='sidebar-header'>CPRT</dt>
+					<dt class='sidebar-header'><a href='research.php#research1'>Probes Development</dt>
 					<dt id='section1-subsection1' class='subsection_link sidebar-indent'>
 						<a href='research_cest.php'>CEST Agents</a>
 					</dt>
@@ -25,8 +25,36 @@ echo "
 						<a href='research_responsive.php'>Responsive Agents</a>
 					</dt>
 					<dt id='section1-subsection7' class='subsection_link sidebar-indent'>
+						<a href='research_imaging_therapy.php'>Theranostic agents</a>
+					</dt>
+
+                    <dt class='sidebar-header'><a href='research.php#research2'>Research Focus</dt>
+					<dt id='section1-subsection1' class='subsection_link sidebar-indent'>
+						<a href='research_cell.php'>Cell labeling and tracking</a>
+					</dt>
+					<dt id='section1-subsection2' class='subsection_link sidebar-indent'>
+						<a href='research_target.php'>Targeting receptors</a>
+					</dt>
+					<dt id='section1-subsection3' class='subsection_link sidebar-indent'>
+						<a href='research_angiogenesis.php'>Tumor angiogenesis</a>
+					</dt>
+					
+					<dt id='section1-subsection4' class='subsection_link sidebar-indent'>
+						<a href='research_acidosis.php'>Tumor acidosis</a
+					</dt>
+                    <dt id='section1-subsection5' class='subsection_link sidebar-indent'>
+						<a href='research_metabolism.php'>Tumor metabolism</a>
+					</dt>
+					<dt id='section1-subsection6' class='subsection_link sidebar-indent'>
+						<a href='research_plaques.php'>Atherosclerotic plaques</a>
+					</dt>
+					<dt id='section1-subsection7' class='subsection_link sidebar-indent'>
 						<a href='research_imaging_therapy.php'>Imaging &amp; Therapy</a>
 					</dt>
+                    <dt id='section1-subsection8' class='subsection_link sidebar-indent'>
+						<a href='research_enzyme.php'>Imaging enzymatic activity</a>
+					</dt>
+
 					<dt>
 					<br />
 					</dt>
