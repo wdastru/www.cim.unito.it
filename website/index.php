@@ -69,64 +69,63 @@ xmlns="http://www.w3.org/1999/xhtml">
 							
 							<div class="w3-display-container mySlides">
 							<a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_theranostic.jpg" style="width: 70%"> </a>
+							<img class="w3-image-box" src="images/figure_research_theranostic.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Imaging &amp; Therapy</strong>
                               </div>
                             </div>
                             
 							<div class="w3-display-container mySlides">
 							<a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_CEST.jpg" style="width: 70%"> </a>
+							<img class="w3-image-box" src="images/figure_research_CEST.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>CEST imaging</strong>
                               </div>
                             </div>
                             
                             <div class="w3-display-container mySlides">
                             <a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_enzyme.jpg" style="width: 70%"> </a>
+							<img class="w3-image-box" src="images/figure_research_enzyme.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Imaging enzyme activity</strong>
                               </div>
                             </div>
 							
 							<div class="w3-display-container mySlides">
 							<a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_cell_labeling.jpg" style="width: 70%"> </a>
+							<img class="w3-image-box" src="images/figure_research_cell_labeling.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Cell labeling and tracking</strong>
                               </div>
                             </div>
                             
 							<div class="w3-display-container mySlides">
 							<a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_receptors.jpg" style="width: 70%"> </a>
+							<img class="w3-image-box" src="images/figure_research_receptors.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Targeting receptors</strong>
                               </div>
                             </div>
                             
                             <div class="w3-display-container mySlides">
                             <a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_angiogenesis.jpg" style="width: 70%"> </a>
+							<img class="w3-image-box" src="images/figure_research_angiogenesis.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor angiogenesis</strong>
                               </div>
                             </div>
 							
 							<div class="w3-display-container mySlides">
 							<a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_tumor_acidosis.jpg" style="width: 70%"> </a>
+							<img class="w3-image-box" src="images/figure_research_tumor_acidosis.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor acidosis</strong>
                               </div>
                             </div>
                             
                             <div class="w3-display-container mySlides">
                             <a href='research_cest.php' target="_blank">
-							<img class="w3-image" src="images/figure_research_tumor_metabolism.jpg" style="width: 70%"> </a>
-							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor metabolism</strong>
+							<img class="w3-image-box" src="images/figure_research_tumor_metabolism.jpg" style="width: 50%"> </a>
+							<div class="w3-display-topleft w3-large w3-display-container w3-gray-inv"><strong>Tumor metabolism</strong>
                               </div>
                             </div>
-                            </div>
-                            </div>
-                            <div class="w3-row-padding">
-                            <div class="w3-container">
-                            <div class="w3-content w3-display-container" style="max-width: 600px">
+                            
+                            
+                            
+                            <br/><br/>
      									<div
 											class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle"
 											style="width: 60%">
@@ -136,24 +135,24 @@ xmlns="http://www.w3.org/1999/xhtml">
 											<div class="w3-right w3-hover-text-khaki"
 												onclick="plusDivs(1)">&#10095;</div> -->
 											<span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(1)"></span> <span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(2)"></span> <span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(3)"></span> <span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(4)"></span> <span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(5)"></span> <span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(6)"></span> <span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(7)"></span> <span
-												class="w3-badge demo w3-border w3-transparent w3-hover-black"
+												class="w3-badge demo w3-border w3-transparent w3-hover-gray"
 												onclick="currentDiv(8)"></span>
 										</div>
-						</div>
+						
 						</div>
 						 </div>
 						</div>
@@ -497,7 +496,7 @@ function showDivs() {
   var dots = document.getElementsByClassName("demo");
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";
-     dots[i].className = dots[i].className.replace(" w3-black", "");
+     dots[i].className = dots[i].className.replace(" w3-dark-gray", "");
      
   }
   slideIndex++;
@@ -505,7 +504,7 @@ function showDivs() {
   x[slideIndex-1].style.display = "block";  
   setTimeout(showDivs, 2000); // Change image every 2 seconds
 	  x[slideIndex-1].style.display = "block";  
-	  dots[slideIndex-1].className += " w3-black";
+	  dots[slideIndex-1].className += " w3-dark-gray";
 }
 
 var myIndex = 0;
