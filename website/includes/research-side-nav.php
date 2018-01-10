@@ -3,7 +3,7 @@ echo "
 		<div id='sidebar'>
 			<div class='padding'>
 				<dl id='list'>
-					<dt class='sidebar-header'><a href='research.php#research1'>Probes Development</dt>
+					<dt class='sidebar-header'><a href='research.php#research1'>Probes Development</a></dt>
 					<dt id='section1-subsection1' class='subsection_link sidebar-indent'>
 						<a href='research_cest.php'>CEST Agents</a>
 					</dt>

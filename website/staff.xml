@@ -10,6 +10,7 @@
 		<phone>+39 011 6706451</phone>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<homepage></homepage>
 		<CV>documenti/CV-Aime.pdf</CV>
 	</person>
 	<person>
@@ -23,6 +24,7 @@
 		<phone>+39 011 6707523</phone>
 		<fax></fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
@@ -35,18 +37,20 @@
 		<phone>+39 011 6706452</phone>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
 		<name>geninatti</name>
 		<fullName>Simonetta Geninatti Crich</fullName>
-		<position>Researcher</position>
+		<position>Associate Professor</position>
 		<image>images/geninatti_crich.jpg</image>
 		<altText>immagine non disponibile</altText>
 		<mail>simonetta.geninatti@unito.it</mail>
 		<phone>+39 011 6706473</phone>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
@@ -59,6 +63,7 @@
 		<phone>+39 011 6706475</phone>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
@@ -71,6 +76,7 @@
 		<phone>+39 011 6706493</phone>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
@@ -83,24 +89,26 @@
 		<phone>+39 011 6707521</phone>
 		<fax></fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
 		<name>reineri</name>
 		<fullName>Francesca Reineri</fullName>
-		<position>Researcher</position>
+		<position>Assistant Professor</position>
 		<image>images/non_disponibile.gif</image>
 		<altText>immagine non disponibile</altText>
 		<mail>francesca.reineri@unito.it</mail>
 		<phone>+39 011 6707543</phone>
 		<fax></fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
 		<name>longo</name>
 		<fullName>Dario Longo</fullName>
-		<position>Post Doctoral Fellow</position>
+		<position>Research Fellow</position>
 		<image>images/Dario_Longo.jpg</image>
 		<altText></altText>
 		<mail>dario.longo@unito.it</mail>
@@ -108,20 +116,35 @@
 		<address></address>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<homepage>PI/Longo/home.html</homepage>
 	</person>
 	<person>
 		<team>CPCRT</team>
 		<name>dellicastelli</name>
 		<fullName>Daniela Delli Castelli</fullName>
-		<position>Post Doctoral Fellow</position>
+		<position>Assistant Professor</position>
 		<image>images/non_disponibile.gif</image>
 		<altText>immagine non disponibile</altText>
 		<mail>daniela.dellicastelli@unito.it</mail>
 		<phone>+39 011 6706493</phone>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
+		<homepage></homepage>
 	</person>
-<!--	<person>
+	<person>
+		<team>CPCRT</team>
+		<name>cutrin</name>
+		<fullName>Juan Carlos Cutrin</fullName>
+		<position>Assistant Professor</position>
+		<image>images/cutrin.jpg</image>
+		<altText></altText>
+		<mail>juancarlos.cutrin@unito.it</mail>
+		<phone>+39 011 6706473</phone>
+		<fax></fax>
+		<cell></cell>
+		<homepage></homepage>
+	</person>
+	<!--	<person>
 		<team>CPCRT</team>
 		<name>espak</name>
 		<fullName>Miklos Espak</fullName>

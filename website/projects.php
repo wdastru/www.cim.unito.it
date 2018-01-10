@@ -41,6 +41,19 @@ $localizer = "./";
 							<li><strong>H2020-MSCA-ITN-2017</strong> project "Zero and
 								ultra-low field nuclear magnetic resonance" - <strong>ZULF</strong>
 								(2018-2022)</li>
+								<li>National project funded by San Paolo Foundation: "Imaging extracellular pH as a MRI
+									diagnostic tool" - <strong>CSTO165925</strong>
+								(2017-2019);
+							</li>
+							<li>National project funded by San Paolo Foundation: "Gd retention in brain after Contrast Enhanced MRI" - <strong>CSTO160182</strong>
+								(2017-2019);
+							</li>
+							<li>National project funded by San Paolo Foundation: "MRI guided therapy for combating ovarian cancer" - <strong>CSTO165439</strong>
+								(2017-2019);
+							</li>
+							<li>National project funded by San Paolo Foundation: "Hyperpolarized metabolites for MRI of cancer" - <strong>CSTO164550</strong>
+								(2017-2019);
+							</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "Improving Diagnosis
 								by Fast Field-Cycling MRI" - <strong><a href='http://www.identify-project.eu/' ><span class='paperTitle'>Identify</span></a></strong>
 								(2016-2020)</li>

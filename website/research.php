@@ -59,24 +59,24 @@ $localizer = "./";
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research.php"><span class="PIname">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window" href="research.php">
 											<h13 style="text-transform: none;"> <font color="red">Gd-complexes</font>
 											 </h13></a>
 										</div>
-										<img src="images/figure_research_Gdcomplex.jpg" alt="" class="w3-image-left"> <span
-											class="PIname">PI: </span> <a title="Opens in new window"
-											href="#"><span class="PIname"> Gianolio</span></a>, <a
-											title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
+										<img src="images/figure_research_Gdcomplex.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="#"><span class="PIname">Gianolio, </span></a> 
+										<a title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
 									
 									</div>
 								</div>
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research_cest.php">
 											<h13 font style="text-transform: none;"> <font color="red">CEST
-											contrast agents</font> </a> </h13>
+											contrast agents</font> </h13></a> 
 										</div>
 										<img src="images/figure_research_CEST.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
@@ -89,7 +89,8 @@ $localizer = "./";
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research_hyper.php">
 											<h13 font style="text-transform: none;"> <font color="red">Hyperpolarized
 											agents</font> </a> </h13>
 										</div>
@@ -124,7 +125,8 @@ $localizer = "./";
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research_responsive.php">
 											<h13 style="text-transform: none;"> <font color="red">Responsive agents</font>
 											</a> </h13>
 										</div>
@@ -139,7 +141,8 @@ $localizer = "./";
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research_target.php">
 											<h13 font style="text-transform: none;"> <font color="red">Targeting agents</font> </a> </h13>
 										</div>
 										<img src="images/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"> <span
@@ -152,7 +155,8 @@ $localizer = "./";
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research_imaging_therapy.php">
 											<h13 font style="text-transform: none;"> <font color="red">Theranostic agents</font> </a> </h13>
 										</div>
 										<img src="images/figure_research_theranostic.jpg" alt="" class="w3-image-left"> <span

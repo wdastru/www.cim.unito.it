@@ -32,11 +32,15 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
 
-						<p> The Molecular Imaging Center at the University of Torino, directed by Silvio Aime, 
+						<p> The Molecular Imaging Center (CIM) at the University of Torino, directed by Silvio Aime, 
 							is a cross-disciplinary chemistry and life science lab. Our work at the CIM is to develop imaging probes that support 
 							preclinical research with focus in several life science areas. 
 							It  was founded by a joined initiative of chemists, biologists and physicians approved by the Italian
 							Ministry of University and Research in 2001.</p>
+							<p>
+							Currently, the CIM is an international imaging science center equipped with state-of-the-art imaging instrumentations covering all the available imaging modalities
+							as well as multimodality imaging.
+							</p>
 						
 						<p>
 							Since 2016, it coordinates the activities of the <a
@@ -118,7 +122,11 @@ xmlns="http://www.w3.org/1999/xhtml">
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor metabolism</strong>
                               </div>
                             </div>
-                            
+                            </div>
+                            </div>
+                            <div class="w3-row-padding">
+                            <div class="w3-container">
+                            <div class="w3-content w3-display-container" style="max-width: 600px">
      									<div
 											class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle"
 											style="width: 60%">
@@ -147,6 +155,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 										</div>
 						</div>
 						</div>
+						 </div>
 						</div>
 					</div>
 
@@ -168,7 +177,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 									
 								</div>
 								<div class="w3-container w3-cell-title" style="width:250px;">
-									
+									<h14 class="html"> <a href="news.php">More News...</h14></a>
 								</div>
 							</div>
 							
@@ -183,15 +192,24 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 																
 								<div class="w3-container w3-cell" style="width:250px;">
-									 <h2 class='punch purple'><span>COST Action TD1004</span></h2>
-                                    <a href="<?php echo $localizer; ?>COST/index.php">&quot;Theragnostics Imaging and Therapy: An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; </a>
+									 <h2 class='punch purple'><span>COST Actions</span></h2>
+									 <span ><b>COST Actions CA15209 - Eurelax</b></span>
+									 <br />
+                                    <a href="http://www.cost.eu/COST_Actions/ca/CA15209"><span class='paperTitle'>&quot;European Network on NMR Relaxometry&quot;</span> </a>
+									<br /><br />
+									<span ><b>COST Actions  CA16103 - Parenchima</b></span><br />
+								    <a href="http://www.cost.eu/COST_Actions/ca/CA16103"><span class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span> </a>
+                                   
 								</div>
 								
 								<div class="w3-container w3-cell" style="width:250px;">
-									<h2 class='punch purple'><span>COST Action CA16103</span></h2>
-                                    <a href="http://www.cost.eu/COST_Actions/ca/CA16103">&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot; </a>
-                                   
-								</div>																						
+									<h2 class='punch purple'><span>Veronesi Foundation Fellowship</span></h2>
+									<span><b>Lorena Consolino</b> and <b>Eleonora Cavallari</b> are recipients of the 
+									<a title="Open in a new window" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">
+									<span class='paperTitle'>Umberto Veronesi Foundation Postdoctoral Fellowships</span></a> congratulations!</span>
+                                    
+								</div>	
+																												
 							</div>
 							
 							<div class="w3-cell-row" style="margin-top:2em;">
@@ -202,11 +220,20 @@ xmlns="http://www.w3.org/1999/xhtml">
 									
 								</div>
 								<div class="w3-container w3-cell-title" style="width:250px;">
-									
+									<h14 class="html"> <a href="events.php">More events...</h14></a>
 								</div>
 							</div>
 							
 							<div class="w3-cell-row" style="margin-top:2em;">
+							
+								<div class="w3-container w3-cell" style="width:250px;">
+									<h2 class='punch orange'><span>TOPIM meeting</span></h2>
+								<br/>
+								<img style="width: 99%; max-height:80px" src="images/meetings/TOPIM_2018.jpg">
+                                 <a href="http://www.e-smi.eu/index.php?id=topim-2018"><span class='paperTitle'>12th ESMI Winter Conference "hot TOPIics in IMaging - TOPIM 2018,</span></a><span class="date">  21-26 January 2018 </span>
+												<span> Les Houches, France</span>    	
+
+								</div>
 							
 								<div class="w3-container w3-cell" style="width:250px;">
 								<h2 class='punch orange'><span>EMIM meeting</span></h2>
@@ -216,25 +243,31 @@ xmlns="http://www.w3.org/1999/xhtml">
 												European Molecular Imaging Meeting,</span></a><span class="date"> 20-23 March 2018 </span>
 												<span> San Sebastian, Spain</span>    	
 								</div>
-														
+								
+								
+								
 								<div class="w3-container w3-cell" style="width:250px;">
-									<h2 class='punch orange'><span>WMIC meeting</span></h2>
+								<div class="fadeImage zero">
+									
+								 	<h2 class='punch orange'><span>ISMRM meeting</span></h2>
+								<br/>
+								<img style="width: 99%" src="images/meetings/ISMRM_2018.jpg" >
+                                 <a href="https://www.ismrm.org/18m/"><span class='paperTitle'>Joint Annual Meeting ISMRM-ESMRMB 2018,</span></a><span class="date">  16-21 June 2018 </span>
+												<span> Paris, France</span> 
+									 	
+								</div>
+								
+								<div class="fadeImage first">	
+								<h2 class='punch orange'><span>WMIC meeting</span></h2>
 								<br/>
 								<img style="width: 99%" src="images/meetings/WMIC_2018.jpg">
                                  <a href="http://www.wmis.org/2018-wmic"><span class='paperTitle'>World
 												Molecular Imaging Congress,</span></a><span class="date">  12-15 September 2018 </span>
-												<span> Seattle, USA</span>    	
-
-								</div>
-															
-								<div class="w3-container w3-cell" style="width:250px;">									
-								 	<h2 class='punch orange'><span>ISMRM meeting</span></h2>
-								<br/>
-								<img style="width: 99%" src="images/meetings/ISMRM_2018.jpg">
-                                 <a href="https://www.ismrm.org/18m/"><span class='paperTitle'>Joint Annual Meeting ISMRM-ESMRMB 2018,</span></a><span class="date">  16-21 June 2018 </span>
-												<span> Paris, France</span>    	
+												<span> Seattle, USA</span>    
 								
-								</div>									
+								</div>
+								</div>		
+																		
 								 									
 								</div>
 								
@@ -290,7 +323,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								   <div class="w3-container w3-cell" style="width:250px;">
 								 <div class="w3-card" style="width:100%">
 									<div class="w3-container">
-                                    <img src="images/papers/terreno_2018.jpg" alt="" style="width:100%">
+                                    <img src="images/papers/terreno_2018.jpg" alt="" style="width:auto; height:100px">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
                                       <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29079529" target="_blank">
@@ -370,10 +403,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 								 </div>
 								  </div>
 								 
-								 <div class="w3-container w3-cell" style="width:250px;">
+								 <div class="w3-container w3-cell" style="width:250px; ">
 									<div class="w3-card" style="width:100%">
 									<div class="w3-container">
-                                    <img src="images/papers/dastru_2018.jpg" alt="" style="width:100%">
+                                    <img src="images/papers/dastru_2018.jpg" alt="" style="width:auto; height:100px">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
                                       <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27995483" target="_blank">
@@ -480,13 +513,13 @@ carousel();
 
 function carousel() {
     var i;
-    var x = document.getElementsByClassName("animSlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
+    var y = document.getElementsByClassName("animSlides");
+    for (i = 0; i < y.length; i++) {
+      y[i].style.display = "none";  
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > y.length) {myIndex = 1}    
+    y[myIndex-1].style.display = "block";  
     setTimeout(carousel, 4000);
      
 }
