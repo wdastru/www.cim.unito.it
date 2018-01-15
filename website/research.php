@@ -302,6 +302,24 @@ $localizer = "./";
 							</div>
 						</div>
 						
+						<div class="w3-row-padding" style="background: #E6E6E6;">
+							<div class="w3-container">
+
+								<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;">
+											<h13 font style="text-transform: none;">
+											<font color="red">Image Processing</font> </h13>
+										</div>
+										<img src="images/figure_research_image_processing.jpg" alt="" class="w3-image-left"> 
+										<span class="PIname">PI: </span> 
+										<a title="Opens in new window" href="PI/Dastru/home.html"><span class="PIname">Dastru</span></a> 
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						
                             
                        
                             <!-- InstanceEndEditable -->
