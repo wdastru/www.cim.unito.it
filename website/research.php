@@ -264,7 +264,7 @@ $localizer = "./";
 											<h13 style="text-transform: none;"> <font color="red">Atherosclerotic plaques</font>
 											</a> </h13>
 										</div>
-										<img src="images/figure_research_responsive.jpg" alt="" class="w3-image-left"> 
+										<img src="images/figure_research_plaques.jpg" alt="" class="w3-image-left"> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname">Terreno</span></a>										
 										

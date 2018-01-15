@@ -147,7 +147,7 @@
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id='subsection6'>
+            <div id='subsection8'>
                 <!-- InstanceEndEditable -->
                 <?php
                 require ($localizer . 'includes/facilities-side-nav.php');

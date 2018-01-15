@@ -1,13 +1,11 @@
-<?php
-$localizer = "../";
-?>
+<?php $localizer = "../"; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-		<title>Molecular Imaging Center - University of Torino - Facilities</title>
+<title>Molecular Imaging Center - University of Torino - MRI facilities</title>
         <meta name="description" content="" />
 	</head>
     <body>
@@ -18,45 +16,49 @@ $localizer = "../";
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id='subsection0'>
+            <div id='subsection2'>
                 <!-- InstanceEndEditable -->
              <?php
             require ($localizer . 'includes/facilities-side-nav.php');
             ?>
-            <div id='content'>
+              <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Facilities <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->PET/SPECT/CT
+                            Instruments<!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            
-                            <p>The Molecular Imaging Center is well equipped in terms of chemical (synthesis and analytical 
-                                characterisation), biological and imaging laboratories.</p>
-                            
-                            <ul>
-                                <li>(&micro;)PET/SPECT</li>
-                                <li>(&micro;)MRI/MRS (low &amp; high field)</li>
-                                <li>Field Cycling Relaxometry</li>
-                                <li>Optical Imaging</li>
-                                <li>&micro;-CT </li>
-                                <li>&micro;-US </li>
-                                <li>Hybrid modalities (MRI/PET, MRI/SPECT, MRI/CT) </li>
-                                <li>Cell culture / Cell microscopy / Histology </li>
-                                <li>Electron Microscopy </li>
-                                <li>Photoacoustic Imaging </li>
-                                <li>Hyperpolarized Imaging (DNP, para-H2) </li>
-                                <li>Repository of Imaging reporters </li>
-                                <li>Chemistry laboratory for synthesis and characterizazion of probes for the different imaging modalities </li>
-                                <li>Image analysis </li>
-                                <li>Animal house </li>
-                                <li>Animal models preparation (including transgenic models) </li>
-                            </ul>
-                            <!-- InstanceEndEditable -->
-                        </div>
-                    </div>
-                </div>
-                <!-- subsection closing -->
+
+
+						<div class="w3-cell-row">
+							<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">PET/SPECT/CT: GE Healtcare Triumph</span></strong></h3>
+									<img alt="" src="../images/strumenti/Triumph.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">This preclinical system is a fully integrated molecular imaging system 
+										PET/SPEC/CT for biomedical research and pharmaceutical development. Equipment providing high quality 
+										images and data for optimal resolution, contrast, noise-to-image quality and accurate 3D rendering 
+										 with minimal x-ray dose. CT detector with 120x120 mm of active area and 50 &microm of pixel size; PET detector
+										  with an axial field of view (FOV) of 11.8 cm and a inner ring diameter of 16.5 cm; the SPECT gamma camera
+										   provides a total of 80x80 pixel array within the FOV of 12.7x12.7 cm.</p>
+										<p>The system is designed to hold up to four identical high resolution, small FOV gamma camera heads, 
+										each equipped with interchangeable pinhole or parallel hole collimators</p>											
+									<p>Available at the Centre for Pre-Clinical Imaging of the University of
+												Torino, Bioindustry Park S. Fumero, Colleretto Giacosa
+												(Torino).</p>
+									</div>
+									
+									
+									
+											</div>
+
+									<!-- InstanceEndEditable -->
+								</div>
+							</div>
+						</div>
+						<!-- subsection closing -->
             </div>
             <!-- subsection closing -->
             <div id='after'></div>
@@ -77,8 +79,8 @@ $localizer = "../";
                 <p>
                     <a href=
                     "http://jigsaw.w3.org/css-validator/check?uri=referer"><img style=
-                    "border: 0; width: 88px; height: 31px" src=
-                    "images/vcss-blue_opt.gif" alt="CSS Valido!" /></a>
+                    "border:0;width:88px;height:31px" src="images/vcss-blue_opt.gif"
+                    alt="CSS Valido!" /></a>
                 </p>
             </div>
             <!-- section closing -->
