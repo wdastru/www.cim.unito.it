@@ -44,14 +44,14 @@ xmlns="http://www.w3.org/1999/xhtml">
 						
 						<p>
 							Since 2016, it coordinates the activities of the <a
-								href="http://www.eurobioimaging.eu/"><span class='paperTitle'>Euro-BioImaging</span></a>
+								href="http://www.eurobioimaging.eu/"><span class='paperTitle' target="_blank">Euro-BioImaging</span></a>
 							multi-sited "Multi-Modal Molecular Imaging Italian Node" (MMMI),
 							which offers access to Molecular Imaging technologies and related
 							services to national and trans-national reasearchers. Users can
 							access our services at a discounted rate by applying at the <a
-								href="https://www.eurobioimaging-interim.eu/"><span
+								href="https://www.eurobioimaging-interim.eu/" target="_blank"><span
 								class='paperTitle'>Euro-BioImaging Web Access Portal</span></a>.
-							More info on the MMMI Node <a href="http://www.mmmi.unito.it/"><span
+							More info on the MMMI Node <a href="http://www.mmmi.unito.it/" target="_blank"><span
 								class='paperTitle'>website.</span></a> 
 						
 						</p>
@@ -119,7 +119,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div class="w3-display-container mySlides">
                             <a href='research_cest.php' target="_blank">
 							<img class="w3-image-box" src="images/figure_research_tumor_metabolism.jpg" style="width: 50%"> </a>
-							<div class="w3-display-topleft w3-large w3-display-container w3-gray-inv"><strong>Tumor metabolism</strong>
+							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor metabolism</strong>
                               </div>
                             </div>
                             

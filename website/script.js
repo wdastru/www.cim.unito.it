@@ -11,7 +11,7 @@ section[7] = 'section7';
 section[8] = 'section8';
 section[9] = 'section9';
 
-subsection = Array(10);
+subsection = Array(16);
 subsection[0] = 'subsection0';
 subsection[1] = 'subsection1';
 subsection[2] = 'subsection2';
@@ -22,6 +22,12 @@ subsection[6] = 'subsection6';
 subsection[7] = 'subsection7';
 subsection[8] = 'subsection8';
 subsection[9] = 'subsection9';
+subsection[10] = 'subsection10';
+subsection[11] = 'subsection11';
+subsection[12] = 'subsection12';
+subsection[13] = 'subsection13';
+subsection[14] = 'subsection14';
+subsection[15] = 'subsection15';
 
 d = new Date();
 curr_year = d.getFullYear();

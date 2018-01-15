@@ -213,7 +213,7 @@ $localizer = "./";
 										<div class="w3-header" style="height: 70px;">
 											<h13 font style="text-transform: none;"> <font color="red">Tumor angiogenesis</font> </a> </h13>
 										</div>
-										<img src="images/figure_research_CEST.jpg" alt="" class="w3-image-left"> 
+										<img src="images/figure_research_angiogenesis.jpg" alt="" class="w3-image-left"> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>, 
 										<a title="Opens in new window" href="PI/Dastru/home.html"><span class="PIname">Dastru'</span></a>,
@@ -227,7 +227,7 @@ $localizer = "./";
 										<div class="w3-header" style="height: 70px;">
 											<h13 font style="text-transform: none;"> <font color="red">Tumor acidosis</font> </a> </h13>
 										</div>
-										<img src="images/figure_research_hyperpolarized.jpg" alt="" class="w3-image-left"> 
+										<img src="images/figure_research_tumor_acidosis.jpg" alt="" class="w3-image-left"> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>, 										
 										<a title="Opens in new window" href="PI/DelliCastelli/home.html"><span class="PIname">Delli Castelli</span></a>
@@ -248,7 +248,7 @@ $localizer = "./";
 											<h13 font style="text-transform: none;">
 											<font color="red">Tumor metabolism</font> </h13>
 										</div>
-										<img src="images/figure_research_multimodal.jpg" alt="" class="w3-image-left"> 
+										<img src="images/figure_research_tumor_metabolism.jpg" alt="" class="w3-image-left"> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Reineri/home.html"><span class="PIname">Reineri</span></a>, 
 										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>,
@@ -277,7 +277,7 @@ $localizer = "./";
 										<div class="w3-header" style="height: 70px;">
 											<h13 font style="text-transform: none;"> <font color="red">Imaging &amp; Therapy</font> </a> </h13>
 										</div>
-										<img src="images/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"> 
+										<img src="images/figure_research_theranostic.jpg" alt="" class="w3-image-left"> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname"> Terreno</span></a>, 
 										<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Geninatti</span></a>,
@@ -290,7 +290,7 @@ $localizer = "./";
 										<div class="w3-header" style="height: 70px;">
 											<h13 font style="text-transform: none;"> <font color="red">Imaging enzyme activity</font> </a> </h13>
 										</div>
-										<img src="images/figure_research_theranostic.jpg" alt="" class="w3-image-left"> 
+										<img src="images/figure_research_enzyme.jpg" alt="" class="w3-image-left"> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="#"><span class="PIname"> Digilio</span></a>, 										
 										<a title="Opens in new window" href="PI/DelliCastelli/home.html"><span class="PIname">Delli Castelli</span></a>

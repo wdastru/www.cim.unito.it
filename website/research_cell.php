@@ -20,7 +20,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection4">
+            <div id="subsection7">
                 <!-- InstanceEndEditable -->
 
                 <?php

@@ -18,7 +18,7 @@ $localizer = "./";
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection5">
+            <div id="subsection4">
                 <!-- InstanceEndEditable -->
                 <?php
                     require ('includes/research-side-nav.php');

@@ -9,7 +9,7 @@ $localizer = "./";
 		<?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Staff</title>
 		<meta name="description" content="" />
-		
+		<link rel="stylesheet" href="hexagon2.css"/>
 		</head>
 	<body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -30,10 +30,182 @@ $localizer = "./";
 							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> People at CIM <!-- InstanceEndEditable --></h1>
 						</div>
 						<div class='paddingInner'>
-							<!-- InstanceBeginEditable name="subsection content" -->
-							<div id="staffContainer"></div>
-							<!-- InstanceEndEditable -->
-						</div>
+
+						
+<h1><span style="text-align:center">Chemistry and Preclinical Research Team (CPRT)</span></h1>
+
+<div class="lab">
+    <article> 
+
+        <div class="lab_item">		
+        <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-image: url(images/aime.jpg);">
+                <h2 class="hexagon-middle">Silvio Aime</h2>
+                <p class="hexagon-middle-text"><b><br/>Director</b></p>                        
+                </div>
+             </div>
+         </div>
+         </div>
+         
+          <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Terreno/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/terreno.jpg);"> 
+                <h2 class="hexagon-middle">Enzo Terreno</h2>
+                <p class="hexagon-middle-text"><b>Associate Professor</b></p></a>                   
+                </div>
+             </div>
+         </div>
+         </div>
+		 
+		 <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Geninatti/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/geninatti_crich.jpg);">
+                <h2 class="hexagon-middle">Simonetta Geninatti</h2>
+                <p class="hexagon-middle-text"><b>Associate Professor</b></p></a>                  
+                </div>
+             </div>
+         </div>
+         </div>
+         
+ 		<div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Gianolio/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/gianolio.jpg);"> 
+                <h2 class="hexagon-middle">Eliana Gianalio</h2>
+                <p class="hexagon-middle-text"><b><br/>Researcher</b></p></a>                    
+                </div>
+             </div>
+         </div>
+         </div>
+              
+        <div class="lab_item">        
+        <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Dastru/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/dastru2.jpg);">
+                <h2 class="hexagon-middle">Walter Dastru</h2>
+                <p class="hexagon-middle-text"><b>Assistant Professor</b></p></a>   
+                </div> 
+             </div>
+         </div>
+         </div>
+         
+          <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Reineri/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/reineri.jpg);">
+                <h2 class="hexagon-middle">Francesca Reineri</h2>
+                <p class="hexagon-middle-text"><b>Assistant Professor</b></p></a>                   
+                </div>
+             </div>
+         </div>
+         </div>
+         
+          <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/DelliCastelli/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/viale.jpg);">
+                <h2 class="hexagon-middle">Daniela DelliCastelli</h2>
+                <p class="hexagon-middle-text"><b>Assistant Professor</b></p></a>                   
+                </div>
+             </div>
+         </div>
+         </div>
+		 
+          <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Viale/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/viale.jpg);">
+                <h2 class="hexagon-middle">Alessandra Viale</h2>
+                <p class="hexagon-middle-text"><b><br/>Researcher</b></p></a>                   
+                </div>
+             </div>
+         </div>
+         </div>
+		  
+          <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Cutrin/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/cutrin.jpg);">
+                <h2 class="hexagon-middle">JuanCarlos Cutrin</h2>
+                <p class="hexagon-middle-text"><b>Assistant Professor</b></p></a>                   
+                </div>
+             </div>
+         </div>
+         </div>
+		 
+		 <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+            <a title="Homepage" href="PI/Longo/home.html" target="_blank">
+                <div class="hexagon-in2" style="background-image: url(images/Dario_Longo.jpg);">
+                <h2 class="hexagon-middle">Dario Longo</h2>
+                <p class="hexagon-middle-text"><b>Research Fellow</b></p></a>                   
+                </div>
+             </div>
+         </div>
+         </div>
+            
+			</article>
+			</div>
+
+					</div>
+					
+					<div class='paddingInner'>
+						
+					<h1><span style="text-align:center">Imaging Probe Chemistry Center (IPCT)</span></h1>
+					
+					<div class="lab">
+					<article> 
+
+					<div class="lab_item">		
+					<div class="hexagon hexagon2">
+						<div class="hexagon-in1">
+							<div class="hexagon-in2" style="background-image: url(images/botta.jpg);">
+							<h2 class="hexagon-middle">Mauro Botta</h2>
+							<p class="hexagon-middle-text"><b>Full Professor</b></p>                        
+							</div>
+						 </div>
+					 </div>
+					 </div>
+					 
+					  <div class="lab_item">
+					  <div class="hexagon hexagon2">
+						<div class="hexagon-in1">
+							<div class="hexagon-in2" style="background-image: url(images/tei.jpg);"> 
+							<h2 class="hexagon-middle">Lorenzo Tei</h2>
+							<p class="hexagon-middle-text"><b>Associate Professor</b></p>                   
+							</div>
+						 </div>
+					 </div>
+					 </div>
+					 
+					<div class="lab_item">
+					  <div class="hexagon hexagon2">
+						<div class="hexagon-in1">
+							<div class="hexagon-in2" style="background-image: url(images/digilio.jpg);"> 
+							<h2 class="hexagon-middle">Giuseppe Digilio</h2>
+							<p class="hexagon-middle-text"><b>Assistant Professor</b></p>                    
+							</div>
+						 </div>
+					 </div>
+					 </div>
+					 
+				</div>
+					
+					
+					</div>
+					
 					</div>
 				</div>
 				<!-- subsection closing -->
