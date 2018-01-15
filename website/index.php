@@ -68,7 +68,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 						<div class="w3-content w3-display-container" style="max-width: 600px">
 							
 							<div class="w3-display-container mySlides">
-							<a href='research_cest.php' >
+							<a href='research_imaging_therapy.php' >
 							<img class="w3-image-box" src="images/figure_research_theranostic.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Imaging &amp; Therapy</strong>
                               </div>
@@ -96,7 +96,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             </div>
                             
 							<div class="w3-display-container mySlides">
-							<a href='research_cest.php' >
+							<a href='research_target.php' >
 							<img class="w3-image-box" src="images/figure_research_receptors.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Targeting receptors</strong>
                               </div>
