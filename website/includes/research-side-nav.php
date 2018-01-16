@@ -24,7 +24,7 @@ echo "
 						<a href='research_imaging_therapy.php'>Theranostic agents</a>
 					</dt>
 
-                    <dt class='sidebar-header'><a href='research.php#research2'>Research Focus</dt>
+                    <dt class='sidebar-header'><a href='research.php#research2'>Research Focus</a></dt>
 
 					<dt id='section1-subsection7' class='subsection_link sidebar-indent'>
 						<a href='research_cell.php'>Cell labeling and tracking</a>

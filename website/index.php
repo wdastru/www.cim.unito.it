@@ -286,6 +286,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 							
 							
 							<div class="w3-cell-row" style="margin-top:2em;">
+							
+							<div class="w3-container" style="padding-left: 40px;">
 																
 								<div class="animSlides w3-animate-right ">
 								
@@ -434,7 +436,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								 
 							</div>
 							
-							
+							</div>
 							
 							
 

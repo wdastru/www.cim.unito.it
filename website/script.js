@@ -102,9 +102,10 @@ function changeSideNavStyles() {
 						var id = section[i] + '-' + subsection[k];
 						if (document.getElementById(id) != null) {
 							if (k == j) {
+								
 								document.getElementById(id).style.backgroundColor = '#e4e4e4';
 								document.getElementById(id)
-										.getElementsByTagName('a').item(0).style.color = '#db6d16';
+										.getElementsByTagName('a').item(0).style.color = '#db6d16';								
 								document.getElementById(id).style.textAlign = 'right';
 							} else {
 								document.getElementById(id).style.backgroundColor = null;
