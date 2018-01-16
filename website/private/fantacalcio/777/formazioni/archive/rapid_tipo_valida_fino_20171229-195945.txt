@@ -3,12 +3,12 @@
 1 - 2 - 2 - 2
 STRAKOSHA Thomas
 SIRIGU Salvatore
-MILINKOVIC Vanja
+MARCHETTI Federico
 CALDARA Mattia
 KOULIBALY Kalidou
 FAZIO Federico
 LICHTSTEINER Stephan
-ADNAN Ali
+HOWEDES Benedikt
 MBAYE Ibrahima
 WALLACE
 MARTELLA Bruno
@@ -22,10 +22,10 @@ BARAK Antonin
 KHEDIRA Sami
 CALLEJON José
 DYBALA Paulo
-EDERA Simone
+SAU Marco
 SCHICK Patrik
 PERICA Stipe
 NANI Luís carlos
-154
+157
 3395989215
-Fri 05 Jan 2018 - 15:42:54
+Fri 22 Dec 2017 - 11:38:44

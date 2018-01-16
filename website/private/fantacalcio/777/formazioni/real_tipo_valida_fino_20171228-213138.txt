@@ -3,13 +3,13 @@
 1 - 2 - 2 - 2
 DONNARUMMA Gianluigi
 PERIN Mattia
-LAMANNA Eugenio
+STORARI Marco
 DE SILVESTRI Lorenzo
 BONUCCI Leonardo
 STRINIC Ivan
 ALEX SANDRO
 N'KOULOU Nicolas
-LUKAKU Jordan
+CANNAVARO Paolo
 SAMIR
 ASAMOAH Kwadwo
 PRAET Dennis
@@ -26,6 +26,6 @@ PAZZINI Giampaolo
 BORINI Fabio
 POLITANO Matteo
 LAPADULA Gianluca
-120
+122
 347-2375356
-Thu 28 Dec 2017 - 21:31:38
+Thu 21 Dec 2017 - 22:39:43
