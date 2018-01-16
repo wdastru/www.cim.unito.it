@@ -16,7 +16,7 @@ include("calendarioCoppa1011.inc.php");
 	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
 	<!-- InstanceEndEditable -->
-</he<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
+    <script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
 	<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 	<!-- InstanceBeginEditable name="additional js" -->
 	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2011/javascript2011.js&type=javascript"></script>
