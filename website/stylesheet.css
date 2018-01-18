@@ -88,7 +88,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 #section4 #header, 
 #section5 #header, 
 #section6 #header,
-#section7 #header { height: 150px; background: url(images/header_large.jpg); }
+#section7 #header { height: 200px; background: url(images/header_large.jpg); }
 
 /* END OF SECTION SPECIFIC STYLES */
 

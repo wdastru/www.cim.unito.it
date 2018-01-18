@@ -109,7 +109,7 @@
 									<div class="w3-container">
 									<h3><strong><span style="font-size: 14px; ">Aspect M2 1T</span></strong></h3>
 									<img alt="" src="../images/strumenti/aspect.jpg"
-										style="width: 180px; height: auto; float: left; margin: 10px 10px 100px 0;" />
+										style="width: 180px; height: auto; float: left; margin: 10px 10px 100px 10px;" />
 									<br/>
 										<p style="text-align: justify;">The
 												Aspect M2 scanner is a compact 1 Tesla micro MRI system used
@@ -136,7 +136,7 @@
 									<div class="w3-container">
 									<h3><strong><span style="font-size: 14px; ">Aspect M2 1T</span></strong></h3>
 									<img alt="" src="../images/strumenti/aspect2.jpg"
-										style="width: 180px; height: auto; float: left; margin: 10px 10px 60px 0;" />
+										style="width: 180px; height: auto; float: left; margin: 10px 10px 60px 10px;" />
 									<br/>
 										<p style="text-align: justify;">Located inside the animal house,									
 												is dedicated to immunecompromised mice.</p>

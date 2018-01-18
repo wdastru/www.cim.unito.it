@@ -89,7 +89,7 @@
 
 		.container.\31 25\25 {
 			width: 100%;
-			max-width: 1500px;
+			max-width: 1250px; /*1500px*/
 			min-width: 1200px;
 		}
 
@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 1200px;
+			width: 1120px; /* 1200px */
 		}
 		
 		h4 {
@@ -1079,10 +1079,13 @@
 	}
 
 	body {
-		background: #303238 url("images/bg01.png");
+		background: #666666 url("images/bg01.png");
 		font-family: 'Open Sans', sans-serif;
 		color: #7b818c;
 		font-weight: 400;
+	/* width: 1250px; /*static dimension, lose adaptative size changes*/ 
+		margin: 10px auto auto auto; 
+		border: 3px #333333 solid;"
 	}
 
 		body.is-loading * {
@@ -1465,6 +1468,45 @@
 			}
 
 /* Logo */
+
+.unito-logo-container {
+   
+    position: fixed;
+    width: 150px;
+    height: 120px;
+    padding: 1em;
+    right: 15%;
+    top: 15%;
+    transform: translateX(-50%);
+}
+
+.cim-logo-container {
+   
+    position: fixed;
+    width: 150px;
+    height: 120px;
+    padding: 1em;
+    left: 15%;
+    top: 15%;
+    transform: translateX(50%);
+}
+
+
+
+
+
+/*
+.cim-logo-container {
+	position: absolute;
+	z-index: 2;
+	top: 140px;
+	left: 370px;
+	width: 120px;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+
 .unito-logo-container {
 	position: absolute;
 	z-index: 2;
@@ -1475,6 +1517,7 @@
 	box-sizing: border-box;
 }
 
+
 .unito-logo {
 	position: relative;
 	z-index: 2;	
@@ -1483,17 +1526,26 @@
 }
 
 
-.unito-logo-text {
+.cim-logo-text {
 	
+	font-family:serif;
 	font-weight: bold;
-	letter-spacing: 0.065em;
+	letter-spacing: 0.045em;
 	margin: 0;
 	position: relative;
-	font-size: 13px;
-	line-height: 2;
-	color: rgb(255, 255, 255);
+	font-size: 11px;
+	line-height: 1.0;
+	color: #ffff80;
 	z-index: 2;
+	
 }
+
+.cim-logo-text p b {
+    font-size: 150%;
+    color: #ffff80;
+}
+
+*/
 
 /* Button */
 input[type="button"],
@@ -1811,7 +1863,7 @@ input[type="button"],
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/header.jpg");
+		background: url("images/bg02.png"), url("../../images/header.jpg");		
 		background-position: top left, center center;
 		background-size: auto, cover;
 		
@@ -1861,6 +1913,11 @@ input[type="button"],
 
 	#header {
 		margin-bottom: 0;
+	}
+	
+	#header .inner {
+		width:960px; 
+		margin-left: 40px;
 	}
 
 /* Footer */
@@ -1941,6 +1998,8 @@ input[type="button"],
 				font-size: 11pt;
 				line-height: 1.85em;
 			}
+			
+			body {width: 1200px;}
 
 		/* Sidebar */
 
@@ -1951,7 +2010,7 @@ input[type="button"],
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 5em 0;
+				padding: 3em 0 3.5em 0;
 			}
 
 			.wrapper {
@@ -1968,7 +2027,7 @@ input[type="button"],
 				position: relative;
 				border-radius: 10px;
 				background: rgba(255, 255, 255, 0.1);
-				padding: 0.75em;
+				padding: 0.75em;				
 			}
 
 				#header .inner {
@@ -1979,8 +2038,8 @@ input[type="button"],
 					position: relative;
 					height: 5.5em;
 					background-color: #3B3E45;
-					background-color: rgba(59, 62, 69, 0.9);
-					border-radius: 8px;
+					background-color: rgba(59, 62, 69, 0.9); /*#db6d16*/
+					border-radius: 8px; 
 					box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
 					text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 				}
@@ -2100,6 +2159,7 @@ input[type="button"],
 				line-height: 1.75em;
 				font-size: 10.75pt;
 			}
+			
 
 			input, select, textarea {
 				line-height: 1.75em;
@@ -2165,6 +2225,8 @@ input[type="button"],
 				font-size: 10pt;
 				letter-spacing: 0;
 			}
+			
+			body {max-width: 700px;}
 
 			h2, h3, h4, h5, h6 {
 				font-size: 13pt !important;

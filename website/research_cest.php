@@ -38,6 +38,8 @@ $localizer = "./";
                                 intensity of the saturating RF field, ... ). The following
                                 activities are under development:
                             </p>
+							
+							
                             <ul>
                                 <li><b>Observation of more agents in the same anatomical region</b>
                                     <p class="indent">
@@ -112,6 +114,18 @@ $localizer = "./";
                                         vivo</i>side.
                                     </p></li>
                             </ul>
+							<h2 style="text-align:left;"> Group Leaders: </h2>
+							
+							
+							<a href="#" target="_blankk" title="Enzo Terreno">
+							<img src="images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							
+							<a href="#" target="_blankk" title="Daniela Delli Castelli">
+							<img src="images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							
+							<a href="PI/LONGO/home.html" target="_blankk" title="Dario Longo">
+							<img src="images/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

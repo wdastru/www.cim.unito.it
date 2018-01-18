@@ -63,7 +63,7 @@
 									<div class="w3-container">
 									<h3><strong><span style="font-size: 14px; ">Visualsonics VEVO LAZR 2100</span></strong></h3>
 									<img alt="" src="../images/strumenti/vevo_lazr.jpg"
-										style="width: 180px; height: auto; float: left; margin: 10px 10px 100px 0;" />
+										style="width: 180px; height: auto; float: left; margin: 10px 10px 100px 10px;" />
 									<br/>
 										<p style="text-align: justify;">The Vevo LAZR system is a versatile multi-modality imaging platform based on the Vevo 2100 which 
 										combines high resolution anatomical visualization with functional data such as oxygen saturation, hemodynamics and biomarker 
@@ -80,7 +80,7 @@
 									<div class="w3-container">
 									<h3><strong><span style="font-size: 14px; ">Tomowave LOIS 3D</span></strong></h3>
 									<img alt="" src="../images/strumenti/tomowave.jpg"
-										style="width: 180px; height: auto; float: left; margin: 10px 10px 100px 0;" />
+										style="width: 180px; height: auto; float: left; margin: 10px 10px 100px 10px;" />
 									<br/>
 										<p style="text-align: justify;">LOIS-3D   is   an   optoacoustic   imaging   
                                             system  specifically  designed  for  in-vivo  
