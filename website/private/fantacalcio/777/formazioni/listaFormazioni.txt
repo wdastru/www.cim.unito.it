@@ -40,6 +40,7 @@ fedora_tipo_valida_fino_20171130-133235.txt
 fedora_tipo_valida_fino_20171209-152608.txt
 krakatoa.txt
 krakatoa_12a_da_mail.txt
+krakatoa_15a_camp.txt
 krakatoa_1a_camp.txt
 krakatoa_2a_camp.txt
 krakatoa_2a_camp_OK.txt
@@ -61,6 +62,8 @@ krakatoa_tipo_valida_fino_20170922-134507.txt
 krakatoa_tipo_valida_fino_20171117-105255.txt
 krakatoa_tipo_valida_fino_20171124-173631.txt
 krakatoa_tipo_valida_fino_20171124-173718.txt
+krakatoa_tipo_valida_fino_20180119-134904.txt
+krakatoa_tipo_valida_fino_20180119-134917.txt
 lokomotiv.txt
 lokomotiv_camp_01.txt
 lokomotiv_camp_02.txt
