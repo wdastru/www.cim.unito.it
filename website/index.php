@@ -187,26 +187,46 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <br/>
                                     <a href="http://www.eurobioimaging.eu/"> <img style="width: 99%" src="images/Euro-BioImaging_Logo_CMYK.gif" alt="Euro-BioImaging logo" /></a>                                   
                                     <br/>
-                                    <a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian Multi-sited Multi-Modal Molecular Imaging (MMMI) Node Candidate</span> </a>                                   									
+                                    <a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian Multi-sited Multi-Modal Molecular Imaging (MMMI) Node Candidate</span> </a>
+                                    <a href="news.php#Eurobioimaging"><p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p></a>                                   									
 								</div>
 																
 								<div class="w3-container w3-cell" style="width:250px;">
 									 <h2 class='punch purple'><span>COST Actions</span></h2>
 									 <span ><b>COST Actions CA15209 - Eurelax</b></span>
 									 <br />
-                                    <a href="http://www.cost.eu/COST_Actions/ca/CA15209"><span class='paperTitle'>&quot;European Network on NMR Relaxometry&quot;</span> </a>
-									<br /><br />
+                                    <a href="http://www.cost.eu/COST_Actions/ca/CA15209" target="_blank"><span class='paperTitle'>&quot;European Network on NMR Relaxometry&quot;</span> </a>
+                                    <p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p>
+									<br />
 									<span ><b>COST Actions  CA16103 - Parenchima</b></span><br />
-								    <a href="http://www.cost.eu/COST_Actions/ca/CA16103"><span class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span> </a>
-                                   
+								    <a href="http://www.cost.eu/COST_Actions/ca/CA16103" target="_blank"><span class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span> </a>
+                                     <p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p>
 								</div>
 								
+								
 								<div class="w3-container w3-cell" style="width:250px;">
-									<h2 class='punch purple'><span>Veronesi Foundation Fellowship</span></h2>
-									<span><b>Lorena Consolino</b> and <b>Eleonora Cavallari</b> are recipients of the 
-									<a title="Open in a new window" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">
-									<span class='paperTitle'>Umberto Veronesi Foundation Postdoctoral Fellowships</span></a> congratulations!</span>
-                                    
+								<h2 class='punch purple'><span>Ongoing Projects</span></h2>
+								<div class="fadeImage zero">
+									
+								<img style="width: 70%" src="news/glint.svg" >
+								<br />
+								<span>CIM partecipates to the H2020 project
+                                 <a href="http://www.glint-project.eu/" target="_blank"><span class='paperTitle'>GLINT</span></a> aimed to investigate GlucoCESt imaging as a potentially disruptive 
+                                 new diagnostic tool.</span>
+                                  <a href="news.php#Glint"><p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p></a>
+									 	
+								</div>
+								
+								<div class="fadeImage first">	
+								
+								<img style="width: 70%" src="news/Identify_logo.jpg" >
+								<br />
+								<span>CIM partecipates to the H2020 project
+                                 <a href="http://www.identify-project.eu/" target="_blank"><span class='paperTitle'>IDENTIFY</span></a> aimed to bring 
+                                 Fast Field-Cycling MRI (FFC-MRI) to the stage where it can be used as a routine tool for clinical diagnosis.</span>
+                                  <a href="news.php#Identify"><p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p></a>
+									 	
+								</div>
 								</div>	
 																												
 							</div>

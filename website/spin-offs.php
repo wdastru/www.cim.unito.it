@@ -25,7 +25,7 @@ $localizer = "./";
                     <div class='padding'>
                         <dl id='list'>
                             <dt id='section4-subsection1' class='subsection_link'><a href=
-                                'institutional.php'>Institutional</a></dt>
+                                'academic.php'>Academic</a></dt>
                             <dt id='section4-subsection2' class='subsection_link'><a href=
                                 'industrial.php'>Industrial</a></dt>
                             <dt id='section4-subsection3' class='subsection_link'><a href=
