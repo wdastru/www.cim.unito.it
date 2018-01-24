@@ -9,6 +9,7 @@ $localizer = "./";
         <?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino - Facilities</title>
         <meta name="description" content="" />
+       <link rel="stylesheet" href="hexag.css"/>
 	</head>
     <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -56,7 +57,7 @@ $localizer = "./";
                             
                             <p>The Molecular Imaging Center is well equipped in terms of chemical (synthesis and analytical 
                                 characterisation), biological and imaging laboratories.</p>
-
+                                
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

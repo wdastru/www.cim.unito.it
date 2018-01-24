@@ -28,6 +28,10 @@
 						<dt id='section2-subsection2' class='subsection_link'>
 							<a href='meetings.php'>Meetings</a>
 						</dt>
+						<dt id='section2-subsection3' class='subsection_link'>
+							<a href='news.php'>News</a>
+						</dt>
+						
 					</dl>
 				</div>
 			</div>
@@ -39,7 +43,9 @@
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					    The Centre of Molecular Imaging hosts a number of educational and scientific events
+					   <p>The Centre of Molecular Imaging hosts several educational, teaching, workshop and scientific events to promote the field of imaging science.</p>
+					   <p>In addition, we provide molecular imaging courses within the <a href="http://www.molecularbiotechnology.unito.it/do/home.pl/Home" target="_blank">
+					   <span class='paperTitle'>Biotechnology Master degree</span></a> to educate students and to train young investigators.</p> 
 					</div>
 				</div>
 			</div>

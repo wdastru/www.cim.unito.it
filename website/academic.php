@@ -32,45 +32,52 @@
 <div class='paddingOuter'>
 <div id='band'>
 <h1 id='subsectionTitle'>
-<!-- InstanceBeginEditable name="subsection title" -->Academic
-Partners <!-- InstanceEndEditable --></h1>
+<!-- InstanceBeginEditable name="subsection title" -->Academic Partners <!-- InstanceEndEditable --></h1>
 </div>
-<div class='paddingInner'>
-<!-- InstanceBeginEditable name="subsection content" -->
+					<div class='paddingInner'>
+						<!-- InstanceBeginEditable name="subsection content" -->
 
 
-<h1><span style="text-align:left">Partners in Italy</span></h1>
+						<h1>
+							<span style="text-align: left">Partners in Italy</span>
+						</h1>
 
 
-<ul>
-<li>Department of Biotechnology, University of Verona (Prof. Michael Assfalg)</li>
+						<ul>
+							<li>Department of Biotechnology, University of Verona (Prof. Michael Assfalg)</li>
 
-</ul>
-
-
-<h1><span style="text-align:left">Partners in Europe</span></h1>
-
-<ul>
-<li>Department of Biological Regulation, Weizmann Institute of Science, Rehovot (Prof. Michal Neeman)</li>
-<li>Medical Faculty Mannheim, Heidelberg University (Prof. Frank Zoellner)</li>
-<li>Biomedical Imaging Group, Erasmus MC - University, Rotterdam (Prof. Stefan Klein)</li>
-
-</ul>
-
-<h1><span style="text-align:left">Partners in USA</span></h1>
-
-<ul>
-<li>Biomedical Imaging Group, Erasmus MC - University, Rotterdam (Prof. Stefan Klein)</li>
-
-</ul>
+						</ul>
 
 
+						<h1>
+							<span style="text-align: left">Partners in Europe</span>
+						</h1>
+
+						<ul>
+							<li>Department of Biological Regulation, Weizmann Institute of Science, Rehovot (Prof. Michal Neeman)</li>
+							<li>Medical Faculty Mannheim, Heidelberg University (Prof. Frank Zoellner)</li>
+							<li>Biomedical Imaging Group, Erasmus MC - University, Rotterdam (Prof. Stefan Klein)</li>
+
+						</ul>
+
+						<h1>
+							<span style="text-align: left">Partners in USA</span>
+						</h1>
+
+						<ul>
+							<li>Athinoula A. Martinos Center for Biomedical Imaging, Massachussets General Hospital, Boston, MA (Prof. Phillip Zhe Sun)</li>
+							<li>Department of Cancer Imaging and Metabolism, Moffit Cancer Center, Tampa, FL (Prof. Robert Gillies)</li>
+
+						</ul>
 
 
 
 
-<!-- InstanceEndEditable --></div>
-</div>
+
+
+						<!-- InstanceEndEditable -->
+					</div>
+				</div>
 </div>
 <!-- subsection closing --></div>
 <!-- subsection closing -->

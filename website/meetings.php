@@ -31,6 +31,9 @@ $localizer = "./";
                                 <a href=
                                 '<?php echo $localizer ?>meetings.php'>Meetings</a>
                             </dt>
+                            <dt id='section2-subsection3' class='subsection_link'>
+							<a href='news.php'>News</a>
+						    </dt>
                         </dl>
                     </div>
                 </div>

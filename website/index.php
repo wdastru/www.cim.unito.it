@@ -200,7 +200,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 									<br />
 									<span ><b>COST Actions  CA16103 - Parenchima</b></span><br />
 								    <a href="http://www.cost.eu/COST_Actions/ca/CA16103" target="_blank"><span class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span> </a>
-                                     <p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p>
+                                     <a href="news.php#COST"><p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p></a>
 								</div>
 								
 								

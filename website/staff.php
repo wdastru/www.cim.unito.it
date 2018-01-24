@@ -488,12 +488,13 @@ $localizer = "./";
 										style="background-image: url(images/botta.jpg);">
 										<div class="content">
 											<div class="table">
+											<a title="Homepage" href="https://upobook.uniupo.it/mauro.botta" target="_blank">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Mauro Botta</b>
 													</h2>
 													<p style="font-size: 16px;">Full Professor</p>
-												</div>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -501,12 +502,13 @@ $localizer = "./";
 										style="background-image: url(images/tei.jpg);"">
 										<div class="content">
 											<div class="table">
+											<a title="Homepage" href="https://upobook.uniupo.it/lorenzo.tei" target="_blank">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Lorenzo Tei</b>
 													</h2>
 													<p style="font-size: 16px;">Associate Professor</p>
-												</div>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -514,12 +516,13 @@ $localizer = "./";
 										style="background-image: url(images/digilio.jpg);">
 										<div class="content">
 											<div class="table">
+											<a title="Homepage" href="https://upobook.uniupo.it/giuseppe.digilio" target="_blank">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Giuseppe Digilio</b>
 													</h2>
 													<p style="font-size: 16px;">Assistant Professor</p>
-												</div>
+												</div></a>
 											</div>
 										</div>
 									</div>
