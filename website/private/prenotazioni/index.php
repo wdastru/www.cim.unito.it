@@ -34,8 +34,10 @@ if (!isset($_POST['instrument']) && !isset($_SESSION['strumento'])) {
 
 if ($_SESSION['strumento'] == "600MHz") {
 	$ore = array(900, 915, 930, 945, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000);
+} else if ($_SESSION['strumento'] == "Scanlaf" || $_SESSION['strumento'] == "Telstar" ) {
+    $ore = array(800, 830, 900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000);
 } else {
-	$ore = array(800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000);
+    $ore = array(800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000);
 }
 
 // Connect to server
@@ -431,6 +433,9 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 													$string = substr_replace($ore[$i], ":", strlen($ore[$i]) - 2, 0);
 													$content = str_replace(":00", "", $string);
+													$content = str_replace(":15", "&frac14;", $content);
+													$content = str_replace(":30", "&frac12;", $content);
+													$content = str_replace(":45", "&frac34;", $content);
 
 													if ($ore[$i] == 1300 || $ore[$i] == 1900) {// separazione mattino pomeriggio
 														$class .= "Separate ";
@@ -446,7 +451,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 													$string = substr_replace($ore[$i], ":", strlen($ore[$i]) - 2, 0);
 													$content = str_replace(":00", "", $string);
-
+													$content = str_replace(":15", "&frac14;", $content);
+													$content = str_replace(":30", "&frac12;", $content);
+													$content = str_replace(":45", "&frac34;", $content);
+													
 													if ($ore[$i] == 1300 || $ore[$i] == 1900) {// separazione mattino pomeriggio
 														$class .= "Separate ";
 													}
@@ -458,7 +466,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 													$string = substr_replace($ore[$i], ":", strlen($ore[$i]) - 2, 0);
 													$content = str_replace(":00", "", $string);
-
+													$content = str_replace(":15", "&frac14;", $content);
+													$content = str_replace(":30", "&frac12;", $content);
+													$content = str_replace(":45", "&frac34;", $content);
+													
 													if ($ore[$i] == 1300 || $ore[$i] == 1900) {// separazione mattino pomeriggio
 														$class .= "Separate ";
 													}

@@ -30,8 +30,8 @@ $instrument = array(
                     "IVISSPE",
                     "OMZ",
 					"MiniSpec",
-					"Cappa1",
-					"Cappa2",
+					"Scanlaf",
+					"Telstar",
                     "UPLC"
                     );
 
