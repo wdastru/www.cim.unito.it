@@ -109,18 +109,20 @@
 						<div class="row" id="#COST">
 							<div class="w3-col w3-quarter">
 
-								<img src="news/eurobioimaging_MMMII_node.png" class="w3-image"
+								<img src="news/logo_cost.png" class="w3-image"
 									style="max-width: 200px;" />
 							</div>
 
 							<div class="w3-col w3-threequarter">
-								<h2 style="color:#8c1515; text-align:left;">Partecipation to Euro-BioImaging</h2>
-								<p>The <b>Molecular Imaging Center</b> participates as a Node in the European Research Infrastructure for Imaging Technologies in Biological 
-								and Biomedical Sciences (Euro-BioImaging, EuBI)  with the laboratories of the University of Torino located  at the Department of Molecular 
-								Biotechnology and Health Sciences and at the BioIndustry Park Silvano Fumero (Center of Excellence for Preclinical Imaging - CEIP). 
-								It offers specific expertise in the field of probe design, development and evaluation both in cell cultures and in small animal models 
-								(probes for all the different imaging modalities, including hybrid modalities, and for different biological applications such as visualization 
-								of biological parameters and enzyme activities, targeting of specific cells/tissues, etc.).</p>
+								<h2 style="color:#8c1515; text-align:left;">Partecipation to COST actions</h2>
+								<p>The <b>Molecular Imaging Center</b> participates in the COST actions <span ><b>COST Actions CA15209 - Eurelax</b></span>
+								<a href="http://www.cost.eu/COST_Actions/ca/CA15209" target="_blank"> 
+								<span class='paperTitle'>&quot;European Network on NMR Relaxometry&quot;</span></a> and in the <span ><b>COST Actions  CA16103 - Parenchima</b></span>
+								    <a href="http://www.cost.eu/COST_Actions/ca/CA16103" target="_blank">
+								    <span class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span> </a>
+								
+								
+								</p>
 							</div>
 						</div>
 						

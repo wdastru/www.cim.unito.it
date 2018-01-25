@@ -188,6 +188,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <a href="http://www.eurobioimaging.eu/"> <img style="width: 99%" src="images/Euro-BioImaging_Logo_CMYK.gif" alt="Euro-BioImaging logo" /></a>                                   
                                     <br/>
                                     <a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian Multi-sited Multi-Modal Molecular Imaging (MMMI) Node Candidate</span> </a>
+                                     <br />
                                     <a href="news.php#Eurobioimaging"><p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p></a>                                   									
 								</div>
 																
@@ -195,11 +196,12 @@ xmlns="http://www.w3.org/1999/xhtml">
 									 <h2 class='punch purple'><span>COST Actions</span></h2>
 									 <span ><b>COST Actions CA15209 - Eurelax</b></span>
 									 <br />
-                                    <a href="http://www.cost.eu/COST_Actions/ca/CA15209" target="_blank"><span class='paperTitle'>&quot;European Network on NMR Relaxometry&quot;</span> </a>
-                                    <p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p>
+                                    <span >&quot;European Network on NMR Relaxometry&quot;</span>
+                                    <br />
 									<br />
 									<span ><b>COST Actions  CA16103 - Parenchima</b></span><br />
-								    <a href="http://www.cost.eu/COST_Actions/ca/CA16103" target="_blank"><span class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span> </a>
+								   <span>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span>
+								    <br />
                                      <a href="news.php#COST"><p style="text-align:right; color:blue; font-size:100%"><b>Read more &#8594;</b></p></a>
 								</div>
 								

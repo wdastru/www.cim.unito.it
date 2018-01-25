@@ -28,12 +28,54 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <ul>
-                                <li>STELAR SMARTracer (0.01 - 10 MHz)</li>
-                                <li>STELAR SpinMaster (21 MHz)</li>
-                                <li>STELAR Fast Field Cycling (0.01 - 20 MHz)</li>
-                                <li>STELAR Variable Field Electromagnet (20 - 70 MHz)</li>
-                            </ul>
+                           
+                            <div class="w3-cell-row">
+							<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">STELAR SMARtracer </span></strong></h3>
+									<img alt="" src="../images/strumenti/smartracer.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Bench-top Fast Field Cycling NMR Relaxometer for the measurement of the of the nuclear spin-lattice relaxation rate 
+										(1/T1) over a large range of magnetic field strengths in the range 0.01 to 10 MHz as proton Larmor frequency (NMRD profile).</p>
+										
+									</div>
+									
+									<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">STELAR SPINMASTER FFC2000 </span></strong></h3>
+									<img alt="" src="../images/strumenti/spinmaster.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Fast Field Cycling NMR Relaxometer for the measurement of the of the nuclear spin-lattice relaxation rate (1/T1) 
+										over a large range of magnetic field strengths (0.01 - 30 MHz as proton Larmor frequency). It is also equipped with a wide bore probe for the acquisition of in vivo 1H NMRD profile 
+										on mouse leg.</p>
+									
+									</div>
+									
+									<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">STELAR Variable Field Electromagnet </span></strong></h3>
+									<img alt="" src="../images/strumenti/variablefield.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Time-Domain NMR or Low Resolution NMR (FID and relaxation times acquisition). In combination with either SPINMASTER or Smartracer, 
+										it allows extension of the magnetic field strength range for the acquisition of NMRD profiles (20 - 70 MHz as proton Larmor frequency).</p>
+																				
+									</div>
+									
+									<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">STELAR Spectrometer </span></strong></h3>
+									<img alt="" src="../images/strumenti/spectrometer.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Proton Time-Domain NMR or Low Resolution NMR (FID and relaxation times acquisition, 0.5 T, 21 MHz). </p>
+																				
+									</div>
+                            
+                            </div>
+                           
+                           
+                           
+                           
+                           
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

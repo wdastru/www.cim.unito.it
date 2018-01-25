@@ -112,7 +112,7 @@ $localizer = "../";
 										<div class="hex-hide"></div>
 										<div class="hex-img">
 											<img
-												src="synthesis.jpg">
+												src="synthesis2.jpg" style="max-height:120%">
 										
 										</div>
 									</div></a>
