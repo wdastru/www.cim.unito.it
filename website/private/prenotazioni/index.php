@@ -433,6 +433,9 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 													$string = substr_replace($ore[$i], ":", strlen($ore[$i]) - 2, 0);
 													$content = str_replace(":00", "", $string);
+													$content = str_replace(":15", "&frac14;", $content);
+													$content = str_replace(":30", "&frac12;", $content);
+													$content = str_replace(":45", "&frac34;", $content);
 
 													if ($ore[$i] == 1300 || $ore[$i] == 1900) {// separazione mattino pomeriggio
 														$class .= "Separate ";
@@ -448,7 +451,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 													$string = substr_replace($ore[$i], ":", strlen($ore[$i]) - 2, 0);
 													$content = str_replace(":00", "", $string);
-
+													$content = str_replace(":15", "&frac14;", $content);
+													$content = str_replace(":30", "&frac12;", $content);
+													$content = str_replace(":45", "&frac34;", $content);
+													
 													if ($ore[$i] == 1300 || $ore[$i] == 1900) {// separazione mattino pomeriggio
 														$class .= "Separate ";
 													}
@@ -460,7 +466,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 													$string = substr_replace($ore[$i], ":", strlen($ore[$i]) - 2, 0);
 													$content = str_replace(":00", "", $string);
-
+													$content = str_replace(":15", "&frac14;", $content);
+													$content = str_replace(":30", "&frac12;", $content);
+													$content = str_replace(":45", "&frac34;", $content);
+													
 													if ($ore[$i] == 1300 || $ore[$i] == 1900) {// separazione mattino pomeriggio
 														$class .= "Separate ";
 													}

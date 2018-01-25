@@ -77,6 +77,7 @@ function showNewPrenoBox(_date, _startHour, _strumento) {
     var ore = new Array();
     
     ore = oreStrumento(_strumento);
+    
     aBoxIsOn = true;
     if(document.getElementById && document.getElementsByTagName) {
         var cancPrenoBox = document.getElementById('cancPrenoBox');
