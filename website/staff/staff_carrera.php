@@ -35,15 +35,15 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/baroni.jpg" class="w3-image"
+								<img src="../images/carrera.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
 							<div class="w3-col w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Simona Baroni</h1>
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Carla Carrera</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
-								Geninatti Lab</a>
+								Reineri Lab</a>
 								</b></p>
 									
 							</div>
@@ -54,8 +54,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												Ph.D. Biochemical Science, University of Torino<br />
+												 M.Sc. Pharmaceutical Chemistry and Technology, University of Torino<br>
 											</p>
 					
 					
@@ -65,7 +65,11 @@
 					
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focus on </p>
+					<p>My research focuses on the design and synthesis of new contrast agents for MRI and their charaterization. 
+					My expertise covers the synthesis, among others, of Lantanide Complexes used as classic imaging probes, and innovative Hyperpolarized 
+					molecules exploited to visualize in real time the metabolic transformations of biomolecules in physiological and pathological pathways. 
+					I am personally involved in the complete workflow, starting from the synthesis and purification of the molecules, their charaterization 
+					by means of HPLC, Mass and NMR spectoscopy, and their use as molecular probes for in vitro and in vivo MRI experiments.</p>
 					
 					</div>
 					
@@ -75,8 +79,8 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706476<br /> 
-					E-mail: <a href="mailto:simona.baroni@unito.it"><span style="color:#007c92">simona.baroni@unito.it</span></a></p>
+					Phone: +390116706493<br /> 
+					E-mail: <a href="mailto:carla.carrera@unito.it"><span style="color:#007c92">carla.carrera@unito.it</span></a></p>
 					
 					</div>
 					   
@@ -85,7 +89,7 @@
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Simona+Baroni" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Carla+Carrera" target="_blank" style="color:#007c92">PubMed </a>
 					
 					</div>
 					   

@@ -35,15 +35,15 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/baroni.jpg" class="w3-image"
+								<img src="../images/consolino.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
 							<div class="w3-col w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Simona Baroni</h1>
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorena Consolino</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
-								Geninatti Lab</a>
+								Longo Lab</a>
 								</b></p>
 									
 							</div>
@@ -54,8 +54,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												Ph.D. Molecular Bioscience, University of Torino, Italy<br />
+												 M.Sc. Biotechnology, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -65,7 +65,9 @@
 					
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focus on </p>
+					<p>The focus of my reaserch is developing multi-parametric imaging approaches for the characterization of the tumor microenvironment 
+					(tumor vasculature, acidosis, hypoxia, and cellularity). The main goal is to identify and validate imaging parameters as novel tumor biomarkers
+					 in order to improve early detection, cancer treatment monitoring and formation of tumor metastasis.</p>
 					
 					</div>
 					
@@ -76,7 +78,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706476<br /> 
-					E-mail: <a href="mailto:simona.baroni@unito.it"><span style="color:#007c92">simona.baroni@unito.it</span></a></p>
+					E-mail: <a href="mailto:lorena.consolino@unito.it"><span style="color:#007c92">lorena.consolino@unito.it</span></a></p>
 					
 					</div>
 					   
@@ -85,7 +87,7 @@
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Simona+Baroni" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Lorena+Consolino" target="_blank" style="color:#007c92">PubMed </a>
 					
 					</div>
 					   

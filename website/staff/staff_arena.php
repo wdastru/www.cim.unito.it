@@ -35,15 +35,15 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/baroni.jpg" class="w3-image"
+								<img src="../images/arena.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
 							<div class="w3-col w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Simona Baroni</h1>
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Francesca Arena</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
-								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
-								Geninatti Lab</a>
+								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
+								Terreno Lab</a>
 								</b></p>
 									
 							</div>
@@ -54,8 +54,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												Ph.D. in Biochemistry, University of Torino, Italy<br />
+												M.Sc. in Pharmaceutical Chemistry and Technology, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -65,7 +65,11 @@
 					
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focus on </p>
+					<p>My research focuses on the characterization of tumor microenvironment in tumor murine models by exploiting several imaging modalities 
+					(MRI, Optical Imaging, PET/SPECT). Hereby I have gained considerable experience in the imaging procedure and post processing analysis especially 
+					in the MRI field. Furthermore, my skills cover the preparation and characterization of various micro and nano-carriers, primary and non-primary 
+					cell-culture handling, small animal handling, development of preclinical models of cancer, peripheral and cerebral inflammation,
+					 as well as knowledge and application of the following imaging techniques: <sup>1H</sup> and <sup>19</sup>F MRI, OI, PET/SPECT. </p>
 					
 					</div>
 					
@@ -73,10 +77,10 @@
 					
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
-					<p>
-					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706476<br /> 
-					E-mail: <a href="mailto:simona.baroni@unito.it"><span style="color:#007c92">simona.baroni@unito.it</span></a></p>
+					<p>Centre of Preclinical Imaging c/o Bioindustry Park of Canavese <br/>
+					Address: Via Ribes 5, 10010 - Colleretto Giacosa (TO) <br/>
+					Phone: +39-0125-561876<br /> 
+					E-mail: <a href="mailto:francesca.arena@unito.it"><span style="color:#007c92">francesca.arena@unito.it</span></a></p>
 					
 					</div>
 					   
@@ -85,7 +89,7 @@
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Simona+Baroni" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Francesca+Arena" target="_blank" style="color:#007c92">PubMed </a>
 					
 					</div>
 					   
