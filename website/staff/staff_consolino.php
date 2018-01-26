@@ -33,20 +33,22 @@
 					<div class='paddingInner'>
 					
 					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
+							<div class="w3-quarter">						
 
 								<img src="../images/consolino.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
-							<div class="w3-col w3-threequarter">
+							<div class="w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorena Consolino</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
-								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
+								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
 								Longo Lab</a>
 								</b></p>
 									
 							</div>
+							
+							
 						</div>
 					
 					<hr></hr>
@@ -64,16 +66,25 @@
 						<hr></hr>
 					
 					<div class="w3-row" >
+					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>The focus of my reaserch is developing multi-parametric imaging approaches for the characterization of the tumor microenvironment 
 					(tumor vasculature, acidosis, hypoxia, and cellularity). The main goal is to identify and validate imaging parameters as novel tumor biomarkers
 					 in order to improve early detection, cancer treatment monitoring and formation of tumor metastasis.</p>
+					 </div>
+					
+					<div class="w3-quarter">
+							<h2>Research Topics</h2>
+								<img src="../images/wordcloud/consolino_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+							</div>
 					
 					</div>
 					
 						<hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
@@ -84,12 +95,15 @@
 					   
 					   <hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
+					
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Lorena+Consolino" target="_blank" style="color:#007c92">PubMed </a>
-					
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Lorena+Consolino" target="_blank" style="color:#007c92">PubMed </a></p>
 					</div>
+				
+					
+					
 					   
 					   
 					   
