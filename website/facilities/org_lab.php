@@ -18,7 +18,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <?php require ($localizer . 'includes/main-nav.php'); ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id='subsection6'>
+            <div id='subsection5'>
                 <!-- InstanceEndEditable -->
               <?php
             require ($localizer . 'includes/facilities-side-nav.php');

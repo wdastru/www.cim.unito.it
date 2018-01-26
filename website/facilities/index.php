@@ -94,7 +94,7 @@ $localizer = "../";
 
 							<div class="right-side">
 								<div class="row-hex" style="padding-left: 0px;">
-								<a href="nmr.php">
+								<a href="relax.php">
 									<div class="hex">
 										<div class="hex-title">NMR/Relaxometry</div>
 										<div class="hex-hide"></div>

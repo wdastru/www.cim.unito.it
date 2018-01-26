@@ -33,21 +33,23 @@
 					<div class='paddingInner'>
 					
 					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
+							<div class="w3-quarter">						
 
-								<img src="../images/carrera.jpg" class="w3-image"
+								<img src="../images/zullino.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
-							<div class="w3-col w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Carla Carrera</h1>
+							<div class="w3-threequarter">
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Sara Zullino</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Reineri/home.html" target="_blank" style="color:#dc6a10">
-								Reineri Lab</a>
+								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
+								Longo Lab</a>
 								</b></p>
 									
 							</div>
+							
+							
 						</div>
 					
 					<hr></hr>
@@ -55,8 +57,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
-												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
+												Ph.D. Complex Systems for Life Sciences, University of Torino, Italy<br />
+												 M.Sc. Bioengineering and Biomedical Engineering, University of Rome "La Sapienza", Italy<br>
 											</p>
 					
 					
@@ -67,16 +69,13 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on the design and synthesis of new contrast agents for MRI and their charaterization. 
-					My expertise covers the synthesis, among others, of Lantanide Complexes used as classic imaging probes, and innovative Hyperpolarized 
-					molecules exploited to visualize in real time the metabolic transformations of biomolecules in physiological and pathological pathways. 
-					I am personally involved in the complete workflow, starting from the synthesis and purification of the molecules, their charaterization 
-					by means of HPLC, Mass and NMR spectoscopy, and their use as molecular probes for in vitro and in vivo MRI experiments.</p>
-					</div>
+					<p>My research focuses on developing novel image-processing tools based on matlab and python code for preclinical images.
+												My project includes the development of tools for image management and processing exploiting the <a href="www.xnat.org" target="_blank">XNAT database</a>.</p>
+					 </div>
 					
 					<div class="w3-quarter">
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/carrera_wordcloud.png" class="w3-image"
+								<img src="../images/wordcloud/zullino_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 							</div>
@@ -85,23 +84,26 @@
 					
 						<hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706493<br /> 
-					E-mail: <a href="mailto:carla.carrera@unito.it"><span style="color:#007c92">carla.carrera@unito.it</span></a></p>
+					Phone: +390116706499<br /> 
+					E-mail: <a href="mailto:sara.zullino@unito.it"><span style="color:#007c92">sara.zullino@unito.it</span></a></p>
 					
 					</div>
 					   
 					   <hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
+					
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Carla+Carrera" target="_blank" style="color:#007c92">PubMed </a>
-					
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Sara+Zullino" target="_blank" style="color:#007c92">PubMed </a></p>
 					</div>
+				
+					
+					
 					   
 					   
 					   

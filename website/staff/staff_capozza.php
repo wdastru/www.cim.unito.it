@@ -42,7 +42,8 @@
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Martina Capozza</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
-								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
+								Department of Molecular Biotechnology and Health Sciences<br />
+								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
 								Longo Lab</a>
 								</b></p>
 									
@@ -64,12 +65,21 @@
 						<hr></hr>
 					
 					<div class="w3-row" >
+					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research is focused on the evaluation of the physico-chemical properties, biodistribution and imaging performance of different contrast agents 
 					for photoacoustic and optical imaging. PhotoAcoustic Imaging (PAI) is a biomedical imaging modality based on the use of laser-generated ultrasounds, 
 					a PA image can be considered as an ultrasound image in which the contrast depends from the optical properties, particularly optical absorption. 
 					In particular, my research interests are focused on the evaluation in vitro and in vivo of several small near infrared (NIR) absorbing dyes, 
 					dye loaded nanosystems and metal phthalocyanine. </p>
+					</div>
+					
+					<div class="w3-quarter">
+							<h2>Research Topics</h2>
+								<img src="../images/wordcloud/capozza_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+							</div>
 					
 					</div>
 					
@@ -89,7 +99,7 @@
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Francesca+Arena" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Martina+Capozza" target="_blank" style="color:#007c92">PubMed </a>
 					
 					
 					</div>

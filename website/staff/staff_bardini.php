@@ -35,16 +35,16 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/carrera.jpg" class="w3-image"
+								<img src="../images/bardini.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
 							<div class="w3-col w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Carla Carrera</h1>
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Paola Bardini</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Reineri/home.html" target="_blank" style="color:#dc6a10">
-								Reineri Lab</a>
+								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
+								Terreno Lab</a>
 								</b></p>
 									
 							</div>
@@ -55,8 +55,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
-												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
+												Ph.D. in Biochemistry, University of Torino, Italy<br />
+												M.Sc. in Pharmaceutical Chemistry and Technology, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -67,39 +67,37 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on the design and synthesis of new contrast agents for MRI and their charaterization. 
-					My expertise covers the synthesis, among others, of Lantanide Complexes used as classic imaging probes, and innovative Hyperpolarized 
-					molecules exploited to visualize in real time the metabolic transformations of biomolecules in physiological and pathological pathways. 
-					I am personally involved in the complete workflow, starting from the synthesis and purification of the molecules, their charaterization 
-					by means of HPLC, Mass and NMR spectoscopy, and their use as molecular probes for in vitro and in vivo MRI experiments.</p>
-					</div>
+					<p>My research focuses on </p>
+					 </div>
 					
 					<div class="w3-quarter">
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/carrera_wordcloud.png" class="w3-image"
+								<img src="../images/wordcloud/bardini_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 							</div>
 					
 					</div>
 					
+					
+					
 						<hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
-					<p>
-					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706493<br /> 
-					E-mail: <a href="mailto:carla.carrera@unito.it"><span style="color:#007c92">carla.carrera@unito.it</span></a></p>
+					<p>Centre of Preclinical Imaging c/o Bioindustry Park of Canavese <br/>
+					Address: Via Ribes 5, 10010 - Colleretto Giacosa (TO) <br/>
+					Phone: +39-0125-561876<br /> 
+					E-mail: <a href="mailto:paola.bardini@unito.it"><span style="color:#007c92">paola.bardini@unito.it</span></a></p>
 					
 					</div>
 					   
 					   <hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Carla+Carrera" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Paola+Bardini" target="_blank" style="color:#007c92">PubMed </a></p>
 					
 					</div>
 					   

@@ -42,6 +42,7 @@
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Francesca Arena</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
+								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
 								Terreno Lab</a>
 								</b></p>
@@ -64,18 +65,29 @@
 						<hr></hr>
 					
 					<div class="w3-row" >
+					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focuses on the characterization of tumor microenvironment in tumor murine models by exploiting several imaging modalities 
 					(MRI, Optical Imaging, PET/SPECT). Hereby I have gained considerable experience in the imaging procedure and post processing analysis especially 
 					in the MRI field. Furthermore, my skills cover the preparation and characterization of various micro and nano-carriers, primary and non-primary 
 					cell-culture handling, small animal handling, development of preclinical models of cancer, peripheral and cerebral inflammation,
 					 as well as knowledge and application of the following imaging techniques: <sup>1H</sup> and <sup>19</sup>F MRI, OI, PET/SPECT. </p>
+					 </div>
+					
+					<div class="w3-quarter">
+							<h2>Research Topics</h2>
+								<img src="../images/wordcloud/arena_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+							</div>
 					
 					</div>
 					
+					
+					
 						<hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>Centre of Preclinical Imaging c/o Bioindustry Park of Canavese <br/>
 					Address: Via Ribes 5, 10010 - Colleretto Giacosa (TO) <br/>
@@ -86,10 +98,10 @@
 					   
 					   <hr></hr>
 					
-					<div class="row" >
+					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Francesca+Arena" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Francesca+Arena" target="_blank" style="color:#007c92">PubMed </a></p>
 					
 					</div>
 					   

@@ -42,6 +42,7 @@
 							<div class="w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorena Consolino</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
+								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
 								Longo Lab</a>
 								</b></p>

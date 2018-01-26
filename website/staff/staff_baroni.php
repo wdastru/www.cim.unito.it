@@ -42,6 +42,7 @@
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Simona Baroni</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
+								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
 								Geninatti Lab</a>
 								</b></p>
@@ -64,8 +65,18 @@
 						<hr></hr>
 					
 					<div class="w3-row" >
+					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focus on </p>
+					</div>
+					
+					<div class="w3-quarter">
+							<h2>Research Topics</h2>
+								<img src="../images/wordcloud/baroni_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+							</div>
+					
 					
 					</div>
 					
