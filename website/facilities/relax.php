@@ -24,12 +24,30 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Relaxometry Instruments <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> NMR and Relaxometry Instruments <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                            
                             <div class="w3-cell-row">
+                            
+                            <div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">Bruker Avance 14T</span></strong></h3>
+									<img alt="" src="../images/strumenti/600.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">The Avance
+												14T NMR spectrometer is equipped with several dedicated
+												micro-MRI probes for high resolution imaging of in-vitro
+												samples and mice. Breath- and hearth-rate gating available.</p>
+										<p>Available MRI and MRS protocols: T<sub>1</sub>, T<sub>2</sub>, DWI,
+												CSI, DCE-MRI, CEST-MRI, single voxel spectroscopy and
+												spectroscopy imaging.</p>
+										<p>Also tunable for <sup>19</sup>F and <sup>13</sup>C.</p>											
+									<p>Available at the Center for Molecular Imaging,
+													University of Torino.</p>
+									</div>
+                            
 							<div class="w3-container">
 									<h3><strong><span style="font-size: 14px; ">STELAR SMARtracer </span></strong></h3>
 									<img alt="" src="../images/strumenti/smartracer.jpg"

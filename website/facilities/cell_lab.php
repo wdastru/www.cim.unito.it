@@ -27,6 +27,77 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
+                            
+                             <div class="w3-cell-row">
+							<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">Biological Safety Cabinets </span></strong></h3>
+									<img alt="" src="../images/strumenti/stanza_cell1.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Class II SCANLAF MARS 1200
+                                                TELSTAR AV 100
+                                                </p>
+										
+									</div>
+									
+									<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">CO2 Incubators </span></strong></h3>
+									<img alt="" src="../images/strumenti/stanza_cell2.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Sanyo MCO 18AIC
+                                                        Sanyo MCO 19AIC (UV)
+                                                        </p>
+									
+									</div>
+									
+									<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">New Brunswick Galaxy 48R (Hypoxia)</span></strong></h3>
+									<img alt="" src="../images/strumenti/galaxy48R.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;"></p>
+																				
+									</div>
+									
+									<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">Malvern Zetasizer Nano – ZS </span></strong></h3>
+									<img alt="" src="../images/strumenti/malvern.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Provides the ability to measure three characteristics of particles or molecules in a liquid medium:
+										 particle size, Zeta Potential and Molecular weight. The Zetasizer system also enables determination of Protein melting point plus
+										  the ability to perform Trend and Autotitration measurements.</p>
+																				
+									</div>
+									
+									<div class="w3-container">
+									<h3><strong><span style="font-size: 14px; ">Spectrofluorometer Horiba Jobin Yvon Fluoromax 4</span></strong></h3>
+									<img alt="" src="../images/strumenti/horiba.jpg"
+										style="width: 180px; height: auto; float: left; margin: 10px;" />
+									<br/>
+										<p style="text-align: justify;">Used to measure and record the fluorescence of a sample. While recording the fluorescence, 
+										the excitation, emission, or both wavelengths may be scanned.</p>
+																				
+									</div>
+									
+									
+									
+                            
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

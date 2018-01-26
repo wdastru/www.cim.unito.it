@@ -38,7 +38,7 @@
 										style="width: 180px; height: auto; float: left; margin: 10px;" />
 									<br/>
 										<p style="text-align: justify;">The Avance
-												7T NMR spectrometer is equipped with several dedicated
+												7T MRI spectrometer is equipped with several dedicated
 												micro-MRI probes for high resolution imaging of in-vitro
 												samples and mice. Breath- and hearth-rate gating available.</p>
 										<p>Available MRI and MRS protocols: T<sub>1</sub>, T<sub>2</sub>, DWI,
