@@ -23,10 +23,11 @@ xmlns="http://www.w3.org/1999/xhtml">
                <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Cellular Colture Laboratory <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Cellular Culture Laboratory <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
+                            <p>The cell culture laboratory provides equipment and technical expertise to who utilize cultured murine or human cells and services encompassing stem cells, microinjections, repositories.</p>
                             
                              <div class="w3-cell-row">
 							<div class="w3-container">

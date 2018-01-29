@@ -62,7 +62,7 @@ $localizer = "./";
 
 
 					<div id='band'>
-						<h1 id='subsectionTitle'>
+						<h1 id='subsectionTitle' id="leadership">
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Leadership
 							<!-- InstanceEndEditable -->

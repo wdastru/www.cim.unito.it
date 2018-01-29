@@ -40,7 +40,8 @@ $localizer = "./";
 				<div class="square bg"
 					style="background-image: url(images/aime.jpg);">
 					<div class="content">
-						<div class="table">						
+						<div class="table">			
+						<a title="Homepage" href="aboutus.php#leadership" target="_blank">			
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Silvio Aime</b>
