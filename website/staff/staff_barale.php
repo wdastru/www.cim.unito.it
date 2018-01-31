@@ -27,29 +27,27 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Research Scientists
+							PhD and Graduate Students
 						</h1>
 					</div>
 					<div class='paddingInner'>
 					
 					<div class="w3-row" >
-							<div class="w3-quarter">						
+							<div class="w3-col w3-quarter">						
 
-								<img src="../images/cavallari.jpg" class="w3-image"
+								<img src="../images/barale.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
-							<div class="w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Eleonora Cavallari</h1>
-								<p style="text-align:left;"><b>Research Fellow<br />
+							<div class="w3-col w3-threequarter">
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Andrea Barale</h1>
+								<p style="text-align:left;"><b>PhD student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Reineri/home.html" target="_blank" style="color:#dc6a10">
-								Reineri Lab</a>
+								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
+								  Geninatti Lab</a>
 								</b></p>
 									
 							</div>
-							
-							
 						</div>
 					
 					<hr></hr>
@@ -57,8 +55,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br />
-												M.Sc. Physics, University of Torino, Italy<br>
+												
+												 M.Sc. Chemistry, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -69,43 +67,32 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research is focused on developing a new hyperpolarization method, using ParaHydrogen Induced Polarization&minus;Said Arm 
-					Hydrogenation (PHIP&minus;SAH) approach, to visualize in real time and understand altered metabolic conditions in several diseases. I am particularly interested 
-					in improving the heteronuclear polarization transfer and whole production process of hyperpolarized (HP) imaging probes. My ultimate goal is to refine 
-					this promising diagnostic tool that gives the opportunity of a wide application of HP molecules to medical research.</p>
-					 </div>
+					<p>My research focuses on .</p>
+					</div>
 					
-					<div class="w3-quarter">
-							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/cavallari_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-							</div>
+					
 					
 					</div>
 					
 						<hr></hr>
 					
-					<div class="w3-row" >
+					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706452<br /> 
-					E-mail: <a href="mailto:eleonora.cavallari@unito.it"><span style="color:#007c92">eleonora.cavallari@unito.it</span></a></p>
+					Phone: +390116706493<br /> 
+					E-mail: <a href="mailto:deyssyj@gmail.com"><span style="color:#007c92">deyssyj@gmail.com</span></a></p>
 					
 					</div>
 					   
 					   <hr></hr>
 					
-					<div class="w3-row" >
-					
+					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Eleonora+Cavallari" target="_blank" style="color:#007c92">PubMed </a></p>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Andrea+Barale" target="_blank" style="color:#007c92">PubMed </a>
+					
 					</div>
-				
-					
-					
 					   
 					   
 					   

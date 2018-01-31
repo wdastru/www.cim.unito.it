@@ -69,7 +69,10 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>The focus of my reaserch is .</p>
+					<p>My research is focused on the development of novel peptidic probes for targeted diagnostic approcheas, exploited in different pathological conditions.
+					 In particular, the   MRI visualization of early neuroinflammation was one of my main goals: for this purpose biocompatible nanosized systems based on
+					  Gd(III), properly tailored with peptides, were recently proposed. Currently, I am also focusing on treatment of localized tumors, exploiting 
+					  peptide&minus;based optical dyes designed for Image&minus;Guided Surgery (IGS) applications.</p>
 					 </div>
 					
 					<div class="w3-quarter">

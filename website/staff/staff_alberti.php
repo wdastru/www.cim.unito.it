@@ -43,7 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Diego Alberti</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Reineri/home.html" target="_blank" style="color:#dc6a10">
+								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
 								 Geninatti Lab</a>
 								</b></p>
 									
@@ -55,7 +55,7 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
+												Ph.D. Bio-Chemical Sciences, University of Torino, Italy<br />
 												 M.Sc. Biotechnologies, University of Torino, Italy<br>
 											</p>
 					
@@ -67,7 +67,14 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>My research focuses on the development and characterization of innovative nano-systems for molecular imaging and theranostic applications. 
+					These systems include low density lipoproteins (20 nm of diamenter), liposomes and polylactic&minus;co&minus;glycolic acid (PLGA) nanoparticles 
+					(100&minus;200 nm of diameter) able to deliver a high payload of amphiphilic MRI reporter agents (Gd-complexes), chemotherapeutic agents (doxorubicin, 
+					curcumin) and boron containing compounds (to perform the Boron Neutron Capture Therapy) at the site of interest.  Since these carriers specifically 
+					recognized over&minus;expressed cell receptors on cancer cells, it is possible to accumulate them inside target cells and explore their effectiveness and 
+					efficiency both in vitro and in vivo studies. Our aim is to improve disease diagnosis, to perform therapy (by delivering drugs more specifically to 
+					the pathological site) but also to facilitate (pre&minus;) clinical efficacy and toxicity analyses, and to better understand various important aspects 
+					of the drug delivery process.</p>
 					</div>
 					
 					<div class="w3-quarter">

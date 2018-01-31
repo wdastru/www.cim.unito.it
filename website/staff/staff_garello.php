@@ -55,11 +55,9 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
+												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br />
 												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
-											</p>
-					
-					
+											</p>					
 					</div>
 					
 						<hr></hr>
@@ -67,12 +65,16 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>My research is focused on the design and testing of molecular imaging probes to visualize and monitor inflammatory processes by <sup>1</sup>H and
+					 <sup>19</sup>F Magnetic Resonance, Optical and Photoacoustic Imaging. My expertise covers the preparation and characterization of various targeted nano&minus;microsystems, 
+					in vitro toxicity and binding assays, and in vivo validation of the designed probes in preclinical models of inflammation. Thanks to various 
+					collaborations I achieved a good knowledge of MRI and MR Spectroscopy of the central nervous system. Recently my research interest was devoted to
+					 molecular imaging of prostate cancer, by means of targeted probes suitable for MRI and Image Guided Surgery.</p>
 					</div>
 					
 					<div class="w3-quarter">
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/carrera_wordcloud.png" class="w3-image"
+								<img src="../images/wordcloud/garello_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 							</div>

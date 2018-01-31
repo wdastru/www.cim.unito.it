@@ -33,7 +33,7 @@ $localizer = "./";
 						<div class='paddingInner'>
 
 						
-<h1><span style="text-align:center">Faculty Members</span></h1>
+<h1><span style="text-align:center">Group Leaders</span></h1>
 
 <div class="row">
 			<div class="w3-container">
@@ -47,7 +47,7 @@ $localizer = "./";
 									<b>Silvio Aime</b>
 								</h2>
 								<p style="font-size: 16px;">Director</p>
-							</div>					
+							</div></a>					
 						</div>
 					</div>
 				</div>
@@ -198,7 +198,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Simona Baroni</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div></a>
 											</div>
 										</div>
@@ -211,7 +211,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Rachele Stefania</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
 											</div>
 										</div>
@@ -225,7 +225,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Francesca Arena</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div></a>
 											</div>
 										</div>
@@ -238,7 +238,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Paola Bardini</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
 											</div>
 										</div>
@@ -252,7 +252,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Carla Carrera</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div></a>
 											</div>
 										</div>
@@ -261,12 +261,13 @@ $localizer = "./";
 										style="background-image: url(images/alberti.jpg);">
 										<div class="content">
 											<div class="table">
+											<a title="Profile" href="staff/staff_alberti.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Diego Alberti</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
-												</div>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -292,7 +293,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Lorena Consolino</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div></a>
 											</div>
 										</div>
@@ -305,7 +306,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Maria Rosaria Ruggiero</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
 											</div>
 										</div>
@@ -314,12 +315,13 @@ $localizer = "./";
 										style="background-image: url(images/garello.jpg);">
 										<div class="content">
 											<div class="table">
+											<a title="Profile" href="staff/staff_garello.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Francesca Garello</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
-												</div>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -331,7 +333,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Giuseppe Ferrauto</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
 											</div>
 										</div>
@@ -344,7 +346,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Enza Di Gregorio</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
 											</div>
 										</div>
@@ -353,12 +355,13 @@ $localizer = "./";
 										style="background-image: url(images/cavallari.jpg);">
 										<div class="content">
 											<div class="table">
+											<a title="Profile" href="staff/staff_cavallari.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Eleonora Cavallari</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
-												</div>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -366,12 +369,13 @@ $localizer = "./";
 										style="background-image: url(images/pagoto.jpg);">
 										<div class="content">
 											<div class="table">
+											<a title="Profile" href="staff/staff_pagoto.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Amerigo Pagoto</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
-												</div>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -384,7 +388,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Martina Capozza</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div></a>
 											</div>
 										</div>
@@ -398,7 +402,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Sara Zullino</b>
 													</h2>
-													<p style="font-size: 16px;">Research Fellows</p>
+													<p style="font-size: 16px;">Research Fellow</p>
 												</div></a>
 											</div>
 										</div>
@@ -414,36 +418,151 @@ $localizer = "./";
 							</h1>
 							
 							<div class="row">
-							<div class="w3-container">
-							
-							<div class="w3-col w3-quarter">							
-							<p><b>Anemone Annasofia</b></p>
-							</div>
-							<div class="w3-col w3-quarter">							
-							<p><b>Bitonto Valeria</b></p>
-							</div>
-							<div class="w3-col w3-quarter">							
-							<p><b>Hawala Ivan</b></p>
-							</div>
-							<div class="w3-col w3-quarter">							
-							<p><b>Giulia Spatola</b></p>
-							</div>
-							
-							<div class="w3-col w3-quarter">							
-							<p><b>Martina Tripepi</b></p>
-							</div>
-							<div class="w3-col w3-quarter">							
-							<p><b>Deisy Patrucco</b></p>
-							</div>
-							<div class="w3-col w3-quarter">							
-							<p>Nome Cognome</p>
-							</div>
-							<div class="w3-col w3-quarter">							
-							<p>Nome Cognome</p>
-							</div>
-							
-							
-							</div>
+								<div class="w3-container">
+									<div class="square bg"
+										style="background-image: url(images/anemone.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_anemone.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Annasofia Anemone</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/hawala.jpg);"">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_hawala.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Ivan Hawala</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/bitonto.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_bitonto.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Valeria Bitonto</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/tripepi.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_tripepi.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Martina Tripepi</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/patrucco.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_patrucco.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Deissy Patrucco</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/spatola.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_spatola.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Giulia Spatola</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/barale.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_barale.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Andrea Barale</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/capuana.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_capuana.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Fedrico Capuana</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/marini.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_marini.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Giada Maria Marini</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/galate.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_galati.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Antonello Galati</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									
+									
+									
+								</div>
 							</div>
 							
 
@@ -493,12 +612,13 @@ $localizer = "./";
 					style="background-image: url(images/padovan.jpg);">
 					<div class="content">
 						<div class="table">
+						<a title="Profile" href="staff/staff_padovan.php">
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Sergio Padovan</b>
 								</h2>
-								<p style="font-size: 16px;">Technician</p>
-							</div>
+								<p style="font-size: 16px;">Technical Assistant</p>
+							</div></a>
 						</div>
 					</div>
 				</div>

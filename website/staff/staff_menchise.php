@@ -56,8 +56,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												 Ph.D. Protein Chemistry, University  of  Torino, Italy<br>
-												 M.Sc. Chemistry, University  of  Napoli, Italy<br>
+												 Ph.D. Chemistry, University of Nancy 1 &#34;Henri Poincar&egrave;&#34;, France<br>
+												 M.Sc. Chemistry, University of Naples &#34;Federico II&#34;, Italy<br>
 											</p>
 					
 					
@@ -68,7 +68,12 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>
+					<p>My research interests are focused on structural studies of proteins involved in the etiology of human diseases. These studies are paralleled
+					 by the development of new strategies for the in vivo targeting of drug and contrast agents for Molecular Imaging applications. More recently my activity
+					 has also been focused on the design and characterization of new paramagnetic compounds to be used as <sup>19</sup>F and/or Gd(III)&minus;based contrast agents 
+					 for cellular labelling and Molecular Imaging through Magnetic Resonance. 
+
+					
 					
 					</p>
 					</div>
