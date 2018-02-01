@@ -40,7 +40,7 @@
 							</div>
 
 							<div class="w3-col w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Luca D'Andrea</h1>
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Luca Domenico D'Andrea</h1>
 								<p style="text-align:left;"><b>Researcher<br />
 								Institute of Biostructure and Bioimaging<br />
 								National Research Council of Italy<br />
@@ -56,8 +56,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												 Ph.D. Protein Chemistry, University  of  Torino, Italy<br>
-												 M.Sc. Chemistry, University  of  Napoli, Italy<br>
+												 Ph.D. Chemical Sciences, University  of  Naples &#34;Federico II&#34, Italy<br>
+												 M.Sc. Chemistry, University  of  Naples &#34;Federico II&#34, Italy<br>
 											</p>
 					
 					
@@ -68,7 +68,19 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>
+					<p>The research activity is related to peptide and protein chemistry. In particular, it is focused on the development of peptide/peptidomimetics 
+					and small proteins as therapeutic/diagnostic agents for pharmaceutical and chemical biology applications. <br /><br />
+
+Main research activities:<br />
+-	Design and characterization of peptide binders of VEGF receptors.<br />
+-	Development of Axl/Gas6 peptide binders.<br />
+-	Protein (semi&minus;)synthesis by chemical ligation reactions<br />
+-	Protein/peptide modification by chemoselective reaction.<br /><br />
+
+Expertise<br />
+Structure&minus; based molecular design; peptide synthesis and characterization; chemical protein synthesis by native chemical ligation and expressed protein ligation; 
+protein cloning and expression in E.Coli; protein characterization; peptide/protein bioconjugation. 
+					
 					
 					</p>
 					</div>

@@ -67,7 +67,11 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>My project focuses on developing new theranostic systems for the specific targeting, diagnosis and treatment of cancer. In particular I'm involved
+					 in the preparation, characterization and in vitro / in vivo evaluation of the biodistribution and citotoxicity of agents like ferritin and liposomes.
+					I'm also interested in defining the biological and molecular dynamics of tumor microenvironment and inflammation through confocal microscopy 
+					and magnetic resonance imaging techniques.
+					</p>
 					</div>
 					
 					
@@ -81,7 +85,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706476<br /> 
-					E-mail: <a href="mailto:valeria.bitonto@edu.unito.it"><span style="color:#007c92">valeria.bitonto@edu.unito.it</span></a></p>
+					E-mail: <a href="mailto:valeria.bitonto@unito.it"><span style="color:#007c92">valeria.bitonto@unito.it</span></a></p>
 					
 					</div>
 					   

@@ -41,7 +41,7 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Andrea Barale</h1>
-								<p style="text-align:left;"><b>PhD student<br />
+								<p style="text-align:left;"><b>Graduate student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
 								  Geninatti Lab</a>
@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												 M.Sc. Pharmaceutical Chemistry and Technologies, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -67,7 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>The aim of my project is to study the effect of Gadolinium retention in vivo on different tissues after repeated administrations of 
+					Gadolinium&minus;based contrast agents (GBCAs). Moreover, we study the retention of GBCAs into different blood constituents: erythrocytes, leukocytes and 
+					serum in human and mouse blood. We use mainly BALB&minus;C and CD1 mice for these studies, whereas for the human blood we use buffy coat from healthy donor.</p>
 					</div>
 					
 					
@@ -81,7 +83,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706493<br /> 
-					E-mail: <a href="mailto:deyssyj@gmail.com"><span style="color:#007c92">deyssyj@gmail.com</span></a></p>
+					E-mail: <a href="mailto:andrea.barale@edu.unito.it"><span style="color:#007c92">andrea.barale@edu.unito.it</span></a></p>
 					
 					</div>
 					   

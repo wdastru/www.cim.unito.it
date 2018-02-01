@@ -100,7 +100,7 @@ $localizer = "./";
 						<a title="Homepage" href="PI/Dastru/home.html" target="_blank">
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
-									<b>Walter Dastru</b>
+									<b>Walter Dastr&ugrave;</b>
 								</h2>
 								<p style="font-size: 16px;">Assistant Professor</p>
 							</div></a>
@@ -498,7 +498,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Giulia Spatola</b>
 													</h2>
-													<p style="font-size: 16px;">Graduate student</p>
+													<p style="font-size: 16px;">PhD student</p>
 												</div></a>
 											</div>
 										</div>
@@ -512,7 +512,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Andrea Barale</b>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
+													<p style="font-size: 16px;">Graduate student</p>
 												</div></a>
 											</div>
 										</div>
@@ -599,12 +599,13 @@ $localizer = "./";
 					style="background-image: url(images/dandrea.jpg);"">
 					<div class="content">
 						<div class="table">
+						<a title="Profile" href="staff/staff_dandrea.php">
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Luca D'Andrea</b>
 								</h2>
 								<p style="font-size: 16px;">Researcher</p>
-							</div>
+							</div></a>
 						</div>
 					</div>
 				</div>

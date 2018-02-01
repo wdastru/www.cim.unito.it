@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -67,7 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>After a thesis in Organic Chemistry, during which I learnt how to plan a drug synthesis and how to use several analytical instruments 
+					(NMR, HPLC&minus;MS, GC, UPLC, etc), I started my PhD at the Department of Molecular Biotechnology and Health Sciences with a project about the study 
+					of physical and chemical properties of the phenomenon known as Exclusion Zone through NMR and MRI techniques.</p>
 					</div>
 					
 					
