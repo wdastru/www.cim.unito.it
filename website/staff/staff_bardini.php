@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Research Scientists
+							Senior Research Scientists
 						</h1>
 					</div>
 					<div class='paddingInner'>
@@ -55,7 +55,7 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. in Biochemistry, University of Torino, Italy<br />
+												Post Graduate Diploma in Clinical Pathology, University of Torino, Italy<br />
 												M.Sc. in Pharmaceutical Chemistry and Technology, University of Torino, Italy<br>
 											</p>
 					
@@ -67,7 +67,14 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on </p>
+					<p>My research focuses on the preclinical application of new imaging probes for the study of neoplastic, inflammatory, and neurodegenerative pathologies
+					 using molecular imaging techniques in animal models. 
+                    I am specialized in the small animal model preparation, animal handling, in vivo pharmacological treatments, necroscopy, collection, processing and 
+                    sectioning of organs, tissues and blood. My research activity includes the use of Nuclear Medicine instrumentations (PET/SPECT/CT Triumph II Imaging 
+                    System,Trifoil Imaging; Wizard2 Detector Gamma Counter, PerkinElmer), MRI scanners (ICON 1T, Biospec 3T, Pharmascan 7T - Bruker), and in vivo Optical 
+                    Imaging system (IVIS Spectrum, PerkinElmer), and the acquisition, reconstruction and quantitative analysis of PET, SPECT and CT, MRI, and OI images. 
+                    In addition, I am responsible for the design of pre-clinical studies and for the preparation of study documentations, such as study protocols and 
+                    amendments, study reports, Standard Operating Procedures, experimental protocol procedures.</p>
 					 </div>
 					
 					<div class="w3-quarter">

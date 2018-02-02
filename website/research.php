@@ -39,8 +39,8 @@ $localizer = "./";
                             
                             <h1 id="research1">Probes development at CIM:</h1>
 
-						<div class="w3-row-padding" style="background: #E6E6E6;">
-							<div class="w3-container">
+						<div class="w3-row-padding" style="background: #E6E6E6; padding-bottom:0px;">
+							<div class="w3-container" style="margin-bottom:0px; margin-top:0px;">
 
 								<div class="w3-quarter">
 									<div class="w3-container">
@@ -106,8 +106,8 @@ $localizer = "./";
 							</div>
 						</div>
 						
-						<div class="w3-row-padding" style="background: #E6E6E6;">
-							<div class="w3-container">
+						<div class="w3-row-padding" style="background: #E6E6E6; padding-bottom:0px; padding-top:0px;">
+							<div class="w3-container" style="margin-bottom:0px; margin-top:0px;">
 
 								<div class="w3-quarter">
 									<div class="w3-container">
@@ -144,8 +144,8 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research/research_target.php">
-											<h13 font style="text-transform: none;"> <font color="red">Targeting agents</font> </h13></a> 
+											href="research/research_nanotarget.php">
+											<h13 font style="text-transform: none;"> <font color="red">Nanosized and Targeting agents</font> </h13></a> 
 										</div>
 										<img src="images/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
@@ -172,8 +172,8 @@ $localizer = "./";
 							</div>
 						</div>
 						
-						<div class="w3-row-padding" style="background: #E6E6E6;">
-							<div class="w3-container">
+						<div class="w3-row-padding" style="background: #E6E6E6; padding-bottom:0px; padding-top:0px;">
+							<div class="w3-container" style="margin-bottom:0px; margin-top:0px;">
 
 								<div class="w3-quarter">
 									<div class="w3-container">
@@ -191,6 +191,20 @@ $localizer = "./";
 
 									</div>
 								</div>
+									<div class="w3-quarter">
+									<div class="w3-container">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research/research_Gdboro.php">
+											<h13 font style="text-transform: none;">
+											<font color="red">Gd&minus;boron agents for NCT</font> </h13></a>
+										</div>
+										<img src="images/figure_research_multimodal.jpg" alt="" class="w3-image-left"> <span
+											class="PIname">PI: </span> <a title="Opens in new window"
+											href="#"><span class="PIname"> Geninatti </span></a> 
+											
+
+									</div>
+								</div>
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
@@ -198,8 +212,7 @@ $localizer = "./";
 											<h13 font style="text-transform: none;"> <font color="red">Optoacoustic probes</font> </a> </h13>
 										</div>
 										<img src="images/figure_research_theranostic.jpg" alt="" class="w3-image-left"> <span
-											class="PIname">PI: </span> <a title="Opens in new window"
-											href="#"><span class="PIname"> Terreno, </span></a> 
+											class="PIname">PI: </span> 
 											<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo </span></a>
 									</div>
 								</div>
@@ -210,14 +223,15 @@ $localizer = "./";
                             
                                 <h1 id="research2">Main lines of research activity at CIM:</h1>
 
-						<div class="w3-row-padding" style="background: #E6E6E6;">
-							<div class="w3-container">
+						<div class="w3-row-padding" style="background: #E6E6E6; padding-bottom:0px;">
+							<div class="w3-container" style="margin-bottom:0px; margin-top:0px;">
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research/research_cell.php">
 											<h13 font style="text-transform: none;">
-											<font color="red">Cell labeling and tracking</font> </h13>
+											<font color="red">Cell labeling and tracking</font> </h13></a>
 										</div>
 										<img src="images/figure_research_cell_labeling.jpg" alt="" class="w3-image-left"> 
 										<span class="PIname">PI: </span> 
@@ -230,7 +244,7 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research.php"><span class="PIname">
+											href="research/research_receptors.php">
 											<h13 style="text-transform: none;"> <font color="red">Targeting receptors</font>
 											 </h13></a>
 										</div>
@@ -246,7 +260,8 @@ $localizer = "./";
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research/research_angiogenesis.php">
 											<h13 font style="text-transform: none;"> <font color="red">Tumor angiogenesis</font> </a> </h13>
 										</div>
 										<img src="images/figure_research_angiogenesis.jpg" alt="" class="w3-image-left"> 
@@ -258,7 +273,8 @@ $localizer = "./";
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<div class="w3-header" style="height: 70px;">
+										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
+											href="research/research_acidosis.php">
 											<h13 font style="text-transform: none;"> <font color="red">Tumor acidosis</font> </a> </h13>
 										</div>
 										<img src="images/figure_research_tumor_acidosis.jpg" alt="" class="w3-image-left"> 
@@ -273,8 +289,8 @@ $localizer = "./";
 							</div>
 						</div>
 						
-						<div class="w3-row-padding" style="background: #E6E6E6;">
-							<div class="w3-container">
+						<div class="w3-row-padding" style="background: #E6E6E6; padding-bottom:0px; padding-top:0px;">
+							<div class="w3-container" style="margin-bottom:0px; margin-top:0px;">
 
 								<div class="w3-quarter">
 									<div class="w3-container">
@@ -335,8 +351,8 @@ $localizer = "./";
 							</div>
 						</div>
 						
-						<div class="w3-row-padding" style="background: #E6E6E6;">
-							<div class="w3-container">
+						<div class="w3-row-padding" style="background: #E6E6E6; padding-bottom:0px; padding-top:0px;">
+							<div class="w3-container" style="margin-bottom:0px; margin-top:0px;">
 
 								<div class="w3-quarter">
 									<div class="w3-container">

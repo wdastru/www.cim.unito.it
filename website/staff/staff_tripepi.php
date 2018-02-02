@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												 M.Sc. Clinical, Forensic and Sports Chemistry, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -67,7 +67,11 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>I focused my thesis on the synthesis, purification and characterization of MRI and fluorescent probes for imaging application (early detection of 
+					Prostate Cancer and Alzheimer Disease) exploiting conventional synthesis techniques and manual or automatic solid phase peptide synthesis (SPPS). 
+					Since October 2017 I started my PhD program broadening my knowledge through the study of CEST agents, in particular supramolecular adducts as 
+					non-conventional LipoCEST for in vitro application, mixing my skills between chemistry and biotechnology. To achieve purification and characterization 
+					of the probes, different techniques such as NMR spectroscopy, HPLC&minus;MS, DLS, relaxometry and biological assays are used.</p>
 					</div>
 					
 					
@@ -81,7 +85,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706493<br /> 
-					E-mail: <a href="mailto:martina.tripepi@gmail.com"><span style="color:#007c92">martina.tripepi@gmail.com</span></a></p>
+					E-mail: <a href="mailto:mtripepi@unito.it"><span style="color:#007c92">mtripepi@unito.it</span></a></p>
 					
 					</div>
 					   

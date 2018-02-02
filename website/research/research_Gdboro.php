@@ -7,7 +7,7 @@ $localizer = "../";
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-        <title>Molecular Imaging Center - University of Torino - Responsive agents</title>
+        <title>Molecular Imaging Center - University of Torino - CEST agents</title>
         <meta name="description" content="" />
     </head>
     <body>
@@ -18,7 +18,7 @@ $localizer = "../";
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection1">
+            <div id="subsection10">
                 <!-- InstanceEndEditable -->
                 <?php
                     require ('../includes/research-side-nav.php');
@@ -26,24 +26,23 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Synthesis of contrast agents <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Optoacoustic Contrast Agents <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
-                                
-                                
-                                
+                                Such class of agents is 
                             </p>
-                            
-                            <h2 style="text-align:left;"> Group Leaders: </h2>					
-														
-							<a href="#" target="_blank" title="Rachele Stefania">
-							<img src="../images/stefania.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
-							<a href="../staff/staff_tei.php" title="Lorenzo Tei">
-							<img src="../images/tei.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-                           
+							
+                            
+							<h2 style="text-align:left;"> Group Leaders: </h2>					
+														
+							<a href="#" target="_blank" title="Simonetta Geninatti Crich">
+							<img src="../images/geninatti.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+														
+							
+							
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

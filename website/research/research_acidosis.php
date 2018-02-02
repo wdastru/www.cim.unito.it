@@ -1,5 +1,5 @@
 <?php
-$localizer = "./";
+$localizer = "../";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -14,14 +14,14 @@ $localizer = "./";
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section1'>
             <?php
-            require ('includes/main-nav.php');
+            require ('../includes/main-nav.php');
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection10">
+            <div id="subsection14">
                 <!-- InstanceEndEditable -->
                 <?php
-                    require ('includes/research-side-nav.php');
+                    require ('../includes/research-side-nav.php');
                 ?>
                 <div id='content'>
                     <div class='paddingOuter'>

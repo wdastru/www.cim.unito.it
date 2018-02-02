@@ -18,7 +18,7 @@ $localizer = "../";
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection10">
+            <div id="subsection11">
                 <!-- InstanceEndEditable -->
                 <?php
                     require ('../includes/research-side-nav.php');
@@ -38,13 +38,13 @@ $localizer = "../";
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 							
-							
-							<a href="#" target="_blank" title="Enzo Terreno">
-							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
-							
 							<a href="../PI/LONGO/home.html" target="_blank" title="Dario Longo">
 							<img src="../images/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+														
+							<a href="#" target="_blank" title="Enzo Terreno">
+							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+														
+							
 							
                             <!-- InstanceEndEditable -->
                         </div>

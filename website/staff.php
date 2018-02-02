@@ -33,7 +33,7 @@ $localizer = "./";
 						<div class='paddingInner'>
 
 						
-<h1><span style="text-align:center">Group Leaders</span></h1>
+<h1><span style="text-align:center">Research Group Leaders</span></h1>
 
 <div class="row">
 			<div class="w3-container">
@@ -184,7 +184,7 @@ $localizer = "./";
 		</div>
 
 						<h1>
-								<span style="text-align: left">Research Scientists</span>
+								<span style="text-align: left">Senior Research Scientists</span>
 							</h1>
 
 							<div class="row">
@@ -207,12 +207,13 @@ $localizer = "./";
 										style="background-image: url(images/stefania.jpg);"">
 										<div class="content">
 											<div class="table">
+											<a title="Profile" href="staff/staff_stefania.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Rachele Stefania</b>
 													</h2>
 													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -234,12 +235,13 @@ $localizer = "./";
 										style="background-image: url(images/bardini.jpg);">
 										<div class="content">
 											<div class="table">
+											<a title="Profile" href="staff/staff_bardini.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Paola Bardini</b>
 													</h2>
 													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
+												</div></a>
 											</div>
 										</div>
 									</div>
@@ -482,7 +484,7 @@ $localizer = "./";
 											<a title="Profile" href="staff/staff_patrucco.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Deissy Patrucco</b>
+														<b>Deyssy Patrucco</b>
 													</h2>
 													<p style="font-size: 16px;">PhD student</p>
 												</div></a>

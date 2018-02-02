@@ -40,7 +40,7 @@
 							</div>
 
 							<div class="w3-col w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Deissy Patrucco</h1>
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Deyssy Patrucco</h1>
 								<p style="text-align:left;"><b>PhD student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												 M.Sc. Molecular Biotechnology, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -67,7 +67,13 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>My educational and academic background concerns different technical skills in molecular and cell biology. In particular I had the opportunity,
+					 during my research experience, to deepen my knowledge in drug&minus;loaded nanosystem preparation, finally characterized in vitro and in vivo. I also acquired 
+					 competences in MRI images acquisition and analysis, allowing to study the dynamic release of MRI contrast agents in tumour mouse model. The main aim 
+					 of my PhD project is the preclinical development of a new MRI&minus;guided therapeutic strategy to cure the ovarian cancer. The procedure is based on the 
+					 systemic administration of theranostic nanocarriers followed by a tumour-directed application of combined sequence of nonthermal ultrasounds. 
+					 The ultimate goals of my project are to improve the therapeutic performance of the drug, reducing the side effects and predicting the long&minus;term 
+					 outcome on an individual basis.</p>
 					</div>
 					
 					
@@ -81,7 +87,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706493<br /> 
-					E-mail: <a href="mailto:deyssyj@gmail.com"><span style="color:#007c92">deyssyj@gmail.com</span></a></p>
+					E-mail: <a href="mailto:deyssy.patrucco@unito.it"><span style="color:#007c92">deyssy.patrucco@unito.it</span></a></p>
 					
 					</div>
 					   

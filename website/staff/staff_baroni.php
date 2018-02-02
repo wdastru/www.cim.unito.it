@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Research Scientists
+							Senior Research Scientists
 						</h1>
 					</div>
 					<div class='paddingInner'>
@@ -67,7 +67,11 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focus on </p>
+					<p>Thanks to my previous experience, I have specialized in NMR spectroscopy and relaxometry, working mainly in the field of synthesis and physicochemical 
+					characterization of paramagnetic metal complexes, liposomes and nanoparticles with potential application as MRI contrast agents. Currently, my research 
+					focus on the development of a new imaging technique for clinical application, the Fast Field&minus;Cycling MRI (FFC&minus;MRI), where scanners have the 
+					ability to switch magnetic field rapidly while scanning. My research work deals with the development of the theory of relaxation in tissue at low magnetic
+					 field strengths and the in vitro, in vivo study of FFC contrast agents.</p>
 					</div>
 					
 					<div class="w3-quarter">

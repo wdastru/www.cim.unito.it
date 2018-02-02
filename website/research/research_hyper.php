@@ -151,7 +151,7 @@ $localizer = "../";
                                     <li>Unsaturated substrate for the preparation of <sup>13</sup>C
                                         hyperpolarized succinate</li>
                                 </ul>
-                                <div class='imgCenter'><img src="images/Hyperpolarization/TOC.png"
+                                <div class='imgCenter'><img src="../images/Hyperpolarization/TOC.png"
                                     alt="p-Hydrogenation" style="width:500px;" />
                                 </div>
                                 <p class='indent'>
@@ -196,8 +196,8 @@ $localizer = "../";
                                     para-hydrogenation to in-phase signal (suitable for MRI)</b>
                                 </p>
                                 <div class='imgRight'><img src=
-                                    "images/Hyperpolarization/hyper-heart.jpg" alt=
-                                    "heart 13C image" />
+                                    "../images/Hyperpolarization/hyper-heart.jpg" alt=
+                                    "heart 13C image" style="align:left;"/>
                                 </div>
                                 <p class='indent'>
                                     Polarization transfer from para-hydrogen to
@@ -212,7 +212,14 @@ $localizer = "../";
                                     with Stelar srl (link), in which the pulse sequence is applied on
                                     the para-hydrogenated sample.
                                 </p>
+                                
+                               
+                                
                             </div>
+                            
+                             <a href="#" target="_blank" title="Francesca Reineri">
+							<img src="../images/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+                            
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

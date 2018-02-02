@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Research Scientists
+							Senior Research Scientists
 						</h1>
 					</div>
 					<div class='paddingInner'>
