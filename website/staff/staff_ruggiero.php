@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Research Scientists
+							 Post Doctoral Research Fellows
 						</h1>
 					</div>
 					<div class='paddingInner'>
@@ -57,8 +57,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Molecular Bioscience, University of Torino, Italy<br />
-												 M.Sc. Biotechnology, University of Torino, Italy<br>
+												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br />
+												 M.Sc. Molecular Biotechnology, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -69,7 +69,11 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>The focus of my reaserch is .</p>
+					<p>My research focus is the implementation of advanced diagnostic technologies into the field of magnetic resonance imaging (MRI), especially at 
+					low magnetic field, using the FFC technique (Fast Field Cycling). Clinically&minus;relevant pilot studies using FFC&minus;MRI have shown that this
+					 technique provides pertinent and unique information on disease mechanisms, and has a unique ability to characterise tissue remodelling thanks to 
+					 its facility to measure the effects of molecular dynamics and protein networks at the nanometre scale. These capabilities bring enormous potential 
+					 for exploitation in the screening and early diagnosis of diseases, evaluation of patients response to treatment and disease prognosis.</p>
 					 </div>
 					
 					<div class="w3-quarter">

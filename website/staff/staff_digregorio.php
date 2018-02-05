@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Research Scientists
+							Post Doctoral Research Fellows
 						</h1>
 					</div>
 					<div class='paddingInner'>
@@ -57,8 +57,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Molecular Bioscience, University of Torino, Italy<br />
-												 M.Sc. Biotechnology, University of Torino, Italy<br>
+												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br />
+												 M.Sc. Molecular Biotechnology, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -69,7 +69,11 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>The focus of my reaserch is .</p>
+					<p>The research activity is mainly focused on the development of strategies for cells visualization by MRI (e.g.  Hypotonic swelling, macropinocytosis,
+					 etc..) upon loading of Gd&minus;complexes and on the investigation of the intracellular fate of these complexes. Furthermore, she was involved in the study 
+					 of the Gd&minus;retention and accumulation in the body upon multiple administrations of clinically approved Gd&minus;chelates. Finally, she is interested in the 
+					 Relaxometric characterization of small molecules, supramolecular adducts and tissues and in the development of FFC-NMRD based methods for the the 
+					 early diagnosis of diseases (e.g. breast cancer) .</p>
 					 </div>
 					
 					<div class="w3-quarter">
@@ -88,7 +92,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706476<br /> 
-					E-mail: <a href="mailto:endigreg@gmail.com"><span style="color:#007c92">endigreg@gmail.com</span></a></p>
+					E-mail: <a href="mailto:enza.digregorio@unito.it"><span style="color:#007c92">enza.digregorio@unito.it</span></a></p>
 					
 					</div>
 					   

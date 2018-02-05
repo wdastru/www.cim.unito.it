@@ -43,8 +43,8 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Federico Capuana</h1>
 								<p style="text-align:left;"><b>PhD student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="staff_tei.php" target="_blank" style="color:#dc6a10">
-								 Tei Lab</a>
+								<a href="staff_digilio.php" style="color:#dc6a10">
+								 Digilio Lab</a>
 								</b></p>
 									
 							</div>
@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. Chemistry, University of Torino, Italy<br>
+												 M.Sc. Chemical Science, University of Eastern Piedmont, Italy<br>
 											</p>
 					
 					
@@ -67,7 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on .</p>
+					<p>The PhD project focuses on the development of new contrast agents for molecular and cellular imaging by means of Spectral Photon Counting Computed 
+					Tomography (SPCCT) Magnetic Resonance Imaging (MRI) and X-Ray Computed Tomography (CT) including dual modality. New probes based on Gadolinium, 
+					either in form of chelates or nanoparticles, are considered because of their physico-chemical proprieties suitable for the imaging modalities. </p>
 					</div>
 					
 					

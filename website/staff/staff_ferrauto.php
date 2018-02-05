@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Research Scientists
+							Post Doctoral Research Fellows
 						</h1>
 					</div>
 					<div class='paddingInner'>
@@ -57,8 +57,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Molecular Bioscience, University of Torino, Italy<br />
-												 M.Sc. Biotechnology, University of Torino, Italy<br>
+												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br />
+												 M.Sc. Molecular Biotechnology, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -69,7 +69,12 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>The focus of my reaserch is .</p>
+					<p>The research activity is essentially focused on four main fields:<br />
+					 i) development of highly sensitive metal-containing probes for MRI (T<sub>1</sub>, T<sub>2</sub> and CEST agents) and their application in cells systems or in vivo, <br />
+					 ii) development of &quot;smart&quot; nano&minus; or micro&minus;carriers (micelles, liposomes, MSNs, RBCs, etc..) for delivery of imaging probes and 
+					 for the development of in vitro analytical assays <br />
+					 iii) development of MRI procedures for the characterization of tumor microenvironment (pH, temperature, vascular volume etc..), <br />
+					  iv) development and characterization of probes for photoacoustic imaging. </p>
 					 </div>
 					
 					<div class="w3-quarter">
@@ -87,7 +92,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706476<br /> 
+					Phone: +390116708459<br /> 
 					E-mail: <a href="mailto:giuseppe.ferrauto@unito.it"><span style="color:#007c92">giuseppe.ferrauto@unito.it</span></a></p>
 					
 					</div>

@@ -55,7 +55,7 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
+												Ph.D. Biochemistry, University of Torino, Italy<br />
 												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
 											</p>
 					
@@ -67,7 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focus on </p>
+					<p>Research activity in the field of design and synthesis of MRI, Optical or Photoacoustic Imaging probes. Synthesis, purification and characterization 
+					of functionalized systems of various nature for bioconjugation to biological carriers, for the visualization of tumor cells and neuroinflammation. 
+					Technical manager for instrumentations.</p>
 					</div>
 					
 					<div class="w3-quarter">

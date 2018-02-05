@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												M.Sc. in Biotechnology, University of Torino, Italy<br>
+												M.Sc. in Clinical, forensic and sport chemestry, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -67,7 +67,10 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research is focused on . </p>
+					<p>My principal activities include the preparation and preclinical validation of contrast agents for novel theranostic protocols for different 
+					imaging techniques (MRI, PET/SPECT, optical imaging). I am particulary focused in the development of optical imaging contrast agents for 
+					image&minus;guided procedures. To achieve this, I work with cell culture activities, manipulation of radiopharmaceuticals and rodents, drugs administration, 
+					sacrifice and necropsy. I help in the writing of scientific reports and protocols about experiments design and data results.</p>
 					</div>
 					</div>
 					
