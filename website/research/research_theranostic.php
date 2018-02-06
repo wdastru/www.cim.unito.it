@@ -7,7 +7,7 @@ $localizer = "../";
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-        <title>Molecular Imaging Center - University of Torino - Imaging &amp; Therapy</title>
+        <title>Molecular Imaging Center - University of Torino - Theranostic Agents</title>
         <meta name="description" content="" />
     </head>
     <body>
@@ -18,7 +18,7 @@ $localizer = "../";
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection17">
+            <div id="subsection8">
                 <!-- InstanceEndEditable -->
                 <?php
                     require ('../includes/research-side-nav.php');
@@ -26,8 +26,7 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Imaging &amp;
-                            Therapy <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Theranostic Agents<!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
@@ -92,7 +91,9 @@ $localizer = "../";
 							
 							<a href="#" target="_blank" title="Simonetta Geninatti">
 							<img src="../images/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-														
+							
+							<a href="#" target="_blank" title="Juan Carlos Cutrin">
+							<img src="../images/cutrin.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
                             
                             <!-- InstanceEndEditable -->
                         </div>

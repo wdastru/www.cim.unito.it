@@ -360,10 +360,10 @@ a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:
 
 
 h11{font-size:36px}h12{font-size:30px}h13{font-size:24px}h14{font-size:20px}h15{font-size:18px}h16{font-size:16px}.w3-serif{font-family:serif}
-h11,h12,h13,h14,h15,h16{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
+h11,h12,h13,h14,h15,h16{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:8px 0}.w3-wide{letter-spacing:4px}
 .PIname { font-size:15px; font-weight:bold; color:black; }
 .PIname:HOVER { text-decoration: underline; }
-h13:hover { font-size:26px;}
+h13:hover { font-size:24px;}
 
 .mySlides {display:none}
 .animSlides {display:none}

@@ -7,7 +7,7 @@ $localizer = "../";
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-        <title>Molecular Imaging Center - University of Torino - CEST agents</title>
+        <title>Molecular Imaging Center - University of Torino - Gadolinium Retention in the body </title>
         <meta name="description" content="" />
     </head>
     <body>
@@ -18,7 +18,7 @@ $localizer = "../";
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection10">
+            <div id="subsection20">
                 <!-- InstanceEndEditable -->
                 <?php
                     require ('../includes/research-side-nav.php');
@@ -26,7 +26,8 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Boron and Gadolinium containing agents for Neutron Capture Therapy <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Gadolinium Retention in the body 
+                             <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
@@ -37,10 +38,9 @@ $localizer = "../";
 							
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
-														
-							<a href="#" target="_blank" title="Simonetta Geninatti Crich">
-							<img src="../images/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-														
+																					
+							<a href="#" target="_blank" title="Eliana Gianolio">
+							<img src="../images/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							
                             <!-- InstanceEndEditable -->

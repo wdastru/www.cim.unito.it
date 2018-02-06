@@ -35,10 +35,10 @@ $localizer = "../";
 								ensuring the blood support necessary to tumor expansion and metastasis to distant organs. In cancer biology, this process is highly deregulated. 
 								As a consequence, tumor vasculature displays a highly destructured and dysfunctional network, mainly characterized by hyperpermeability and reduced 
 								tumor perfusion. These structural features contribute to vascular heterogeneity and impair tumor blood flow responsible of hypoxia, 
-								interstitial pressure and acidosis. Therefore, several therapeutic strategies are under investigation to “normalize” the tumor vasculature
+								interstitial pressure and acidosis. Therefore, several therapeutic strategies are under investigation tonormalize the tumor vasculature
 								throughout antiangiogenic therapies for improving blood perfusion and for decreasing level of hypoxia that makes the cells resistant 
 								to radiotherapy and cytotoxic agents. <br />
-								Several imaging techniques have been developed to “visualize” these structural abnormalities.</p>
+								Several imaging techniques have been developed to visualize these structural abnormalities.</p>
 								
 								<ul>
                                 <li><b>Dynamic Contrast Enhanced (DCE) MRI</b>
@@ -71,12 +71,6 @@ $localizer = "../";
 							
 							<a href="../PI/LONGO/home.html" target="_blankk" title="Dario Longo">
 							<img src="../images/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
-							<a href="#" target="_blank" title="Enzo Terreno">
-							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
-							
-							
 							
 							
                             <!-- InstanceEndEditable -->

@@ -551,7 +551,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/galate.jpg);">
+										style="background-image: url(images/galati.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_galati.php">

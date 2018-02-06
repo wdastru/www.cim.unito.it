@@ -217,6 +217,8 @@ $localizer = "../";
                                 
                             </div>
                             
+                            <h2 style="text-align:left;"> Group Leaders: </h2>					
+														
                              <a href="#" target="_blank" title="Francesca Reineri">
 							<img src="../images/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
                             

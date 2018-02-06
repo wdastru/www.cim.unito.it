@@ -84,6 +84,23 @@ $localizer = "../";
                                             the observed relaxation rates into pH maps.</li>
                                     </ul></li>
                             </ul>
+                            
+                            
+                            <h2 style="text-align:left;"> Group Leaders: </h2>
+							
+							<a href="../PI/LONGO/home.html" target="_blank" title="Dario Longo">
+							<img src="../images/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+														
+							<a href="#" target="_blank" title="Daniela Delli Castelli">
+							<img src="../images/dellicastelli.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							
+							<a href="../staff/staff_digilio.php" title="Giuseppe Digilio">
+							<img src="../images/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							
+							<a href="#" target="_blank" title="Eliana Gianolio">
+							<img src="../images/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							
+                            
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

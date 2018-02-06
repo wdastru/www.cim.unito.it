@@ -3,6 +3,7 @@ echo "
 		<div id='sidebar'>
 			<div class='padding'>
 				<dl id='list'>
+
 					<dt class='sidebar-header'><a href='" . $localizer . "research.php#research1'>Probes Development</a></dt>
 
                     <dt id='section1-subsection1' class='subsection_link sidebar-indent'>
@@ -27,7 +28,7 @@ echo "
 						<a href='" . $localizer . "research/research_responsive.php'>Responsive Agents</a>
 					</dt>
 					<dt id='section1-subsection8' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_imaging_therapy.php'>Theranostic agents</a>
+						<a href='" . $localizer . "research/research_theranostic.php'>Theranostic agents</a>
 					</dt>
 					<dt id='section1-subsection9' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_Fprobes.php'><sup>19</sup>F-based agents</a>
@@ -45,37 +46,31 @@ echo "
 						<a href='" . $localizer . "research/research_cell.php'>Cell labeling and tracking</a>
 					</dt>
 					<dt id='section1-subsection13' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_nanotarget.php'>Targeting receptors</a>
-					</dt>
-					<dt id='section1-subsection14' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_angiogenesis.php'>Tumor angiogenesis</a>
 					</dt>					
-					<dt id='section1-subsection15' class='subsection_link sidebar-indent'>
+					<dt id='section1-subsection14' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_acidosis.php'>Tumor acidosis</a
 					</dt>
-                    <dt id='section1-subsection16' class='subsection_link sidebar-indent'>
+                    <dt id='section1-subsection15' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_metabolism.php'>Tumor metabolism</a>
 					</dt>
-					<dt id='section1-subsection17' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_plaques.php'>Atherosclerotic plaques</a>
+					<dt id='section1-subsection16' class='subsection_link sidebar-indent'>
+						<a href='" . $localizer . "research/research_inflammation.php'>Tumor Inflammation</a>
 					</dt>
-					<dt id='section1-subsection18' class='subsection_link sidebar-indent'>
+					<dt id='section1-subsection17' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_imaging_therapy.php'>Imaging &amp; Therapy</a>
 					</dt>
-                    <dt id='section1-subsection19' class='subsection_link sidebar-indent'>
+                    <dt id='section1-subsection18' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_enzyme.php'>Imaging enzymatic activity</a>
+					</dt>				
+					<dt id='section1-subsection19' class='subsection_link sidebar-indent'>
+						<a href='" . $localizer . "research/research_FFCrelax.php'>In vivo FFC Relaxometry</a>
 					</dt>
-					<dt id='section1-subsection20' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_processing.php'>Atherosclerotic plaques</a>
+                    <dt id='section1-subsection20' class='subsection_link sidebar-indent'>
+						<a href='" . $localizer . "research/research_Gd_depo.php'>Gd Deposition</a>
 					</dt>
-					<dt id='section1-subsection21' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_FFCrelax.php'>Imaging &amp; Therapy</a>
-					</dt>
-                    <dt id='section1-subsection22' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_gd_depo.php'>Imaging enzymatic activity</a>
-					</dt>
-					<dt id='section1-subsection23' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_inflammation.php'>Imaging enzymatic activity</a>
+                    <dt id='section1-subsection21' class='subsection_link sidebar-indent'>
+						<a href='" . $localizer . "research/research_processing.php'>Image Processing</a>
 					</dt>
 
 					
@@ -83,7 +78,7 @@ echo "
 					<br />
 					</dt>
 					<dt class='sidebar-header'>CCS fMRI</dt>
-					<dt id='section1-subsection24' class='subsection_link sidebar-indent'>
+					<dt id='section1-subsection22' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research_CCS_fMRI.php'>Research topics</a>
 					</dt>
 				</dl>

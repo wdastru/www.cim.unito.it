@@ -1,5 +1,5 @@
 <?php
-$localizer = "./";
+$localizer = "../";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -14,14 +14,14 @@ $localizer = "./";
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section1'>
             <?php
-            require ('includes/main-nav.php');
+            require ('../includes/main-nav.php');
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection11">
+            <div id="subsection15">
                 <!-- InstanceEndEditable -->
                 <?php
-                    require ('includes/research-side-nav.php');
+                    require ('../includes/research-side-nav.php');
                 ?>
                 <div id='content'>
                     <div class='paddingOuter'>
@@ -31,87 +31,31 @@ $localizer = "./";
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
-                                Such class of agents is based on the
-                                magnetization transfer of saturation on the water NMR signal. The
-                                amount of such a transfer depends on a number of factors (number of
-                                exchangeable protons in the CEST agent and their rate of exchange,
-                                intensity of the saturating RF field, ... ). The following
-                                activities are under development:
-                            </p>
-                            <ul>
-                                <li><b>Observation of more agents in the same anatomical region</b>
-                                    <p class="indent">
-                                        Non-spherical liposomes that contain chemical
-                                        shift agents both in the inner cavity and on the membrane are used.
-                                        We have already demonstrated that such category of liposomes
-                                        (LipoCEST) is particularly suited because it produces big shifts of
-                                        the intraliposomial water proton resonance; the latter are well
-                                        accepted as they permit to exploit high values of the exchange rate
-                                        K <sub>ex</sub>. The aim of the research is to produce a series of
-                                        systems that differ for the irradiation frequency; they will be
-                                        used both unmodified and functionalized in order to make them
-                                        responsive to particular targets.
-                                    </p></li>
-                                <li><b>Iopamidol as a CEST agent</b>
-                                    <p class="indent">
-                                        Iopamidol is one of the most used contrast agent
-                                        for X-ray CT scans. It contains three iodine atoms (that makes it
-                                        an X-ray opaque agent) and three amides functionalities that could
-                                        act as a pool of exchanging protons, making it a potential CEST
-                                        agent. Being it a diamagnetic species, the amide chemical shifts
-                                        are near to the water chemical shift and this feature could
-                                        potentially harm its role as a CEST agent, because of the extensive
-                                        direct saturation of the water signal. We then carefully adjusted
-                                        the acquisition of the images and developed post-processing
-                                        procedures in order to definitely extract its true CEST
-                                        contribution to the image. For the sake of sensitivity, the target
-                                        organ was identified in the kidney, being the region where
-                                        iopamidol accumulates prior to urinary excretion. The possibility
-                                        to develop a protocol to quantitatively extract the efficacy of
-                                        glomerular filtration on a voxelwise basis is under intense
-                                        scrutiny.
-                                    </p></li>
-                                <li><b>Diagnostics based on water diffusing from CEST containing
-                                    regions</b>
-                                    <p class="indent">
-                                        The intrinsic mechanism of action of the CEST
-                                        agents implies that the effect itself could be observed not only in
-                                        the voxels where the agent distributes, but also from voxels that
-                                        do not contain any quantity of the agent. The effective observation
-                                        of such phenomenon depends on a number of factors such as the
-                                        duration of the irradiation, the CEST agent concentration, the
-                                        existence of favorable diffusion pathways ... It is our intention
-                                        to develop diagnostic agents and protocols that exploit this
-                                        peculiar characteristic of the CEST effect.
-                                    </p></li>
-                                <li><b>T2 vs CEST: a method for macrophages uptake
-                                    determination</b>
-                                    <p class="indent">
-                                        Liposomes loaded with paramagnetic complexes
-                                        could act both as T <sub>2</sub><sup>*</sup>and as CEST agents.
-                                        However, when these agents are captured by macrophages, the CEST
-                                        effect is lost, while the T <sub>2</sub><sup>*</sup>contribution
-                                        to the image remains. It then follows that by comparing the CEST
-                                        vs. the T <sub>2</sub><sup>*</sup>effects in the MRI images, a map
-                                        of the macrophages sequestration activity could in principle be
-                                        obtained.
-                                    </p></li>
-                                <li><b>Polimersomes</b>
-                                    <p class="indent">
-                                        The main problem dealing with the use of LipoCEST
-                                        agents, is their limited blood half-life time because of the
-                                        sequestration by macrophages. For targeting applications it is then
-                                        essential to develop new systems with longer blood half-life time.
-                                        Polymersomes could represent useful alternatives to liposomes for
-                                        these applications; they are made of block-polymers (containig both
-                                        lipophilic and hydrophilic regions) that tack together in way
-                                        similar to phospholipids in the membranes of liposomes. It has been
-                                        verified that polymersomes loaded with paramagnetic chemical shift
-                                        reagents could be a real alternative to <i>in vivo</i>LipoCEST
-                                        agents. We are now trying to transfer this on the <i>in
-                                        vivo</i>side.
-                                    </p></li>
-                            </ul>
+                                The term cancer does not refer to a single disorder, but to a large number of diseases characterized by the uncontrolled growth of abnormal
+                                 or mutated cells in the body that have the ability to proliferate and infiltrate normal body tissue.
+                                Cancer metabolism is one of the oldest and most important field of research in biology, by some fifty years, also because cancers are one of 
+                                the leading cause of death in Western countries. Over time, there has been an increase of survival rates for many types of tumours, thanks to 
+                                available screening programmes and treatments&#39; improvement.<br />
+                                Researches related to tumour metabolism are based on the principle that cancer cells exhibit altered metabolic activities relative to normal 
+                                cells, as originally observed by Otto Warburg almost 100 years ago. The energetics reprogramming, that allows to take up abundant nutrients
+                                 to produce ATP, and increased localised ROS are considered a hallmark of cancer.<br />                                
+                                Glycolysis is an early attractive target for understanding cancer, as many tumours show a significant increase in glucose uptake compared 
+                                with adjacent normal tissue. Cancer cells are able to maintain a high rate of glycolysis even under oxygen&minus;sufficient conditions, a process 
+                                known as aerobic glycolysis or Warburg effect. This observation is at the basis of [<sup>18</sup>F]&minus;fluorodeoxyglucose accumulation in tumour tissues 
+                                used in positron emission tomography (FDG&minus;PET).<br />
+                                                            
+                                In last decades, hyperpolarized (HP) probes have provided a unique tool for the non-invasive assessment of altered metabolic conditions 
+                                through magnetic resonance (MR) spectroscopy and imaging. <sup>13</sup>C&minus;HP pyruvate, obtained using dissolution Dynamic Nuclear Polarization (d&minus;DNP) 
+                                and more recently by Parahydrogen Induced Hyperpolarization (PHIP), is the most widely applied HP metabolite. Unfortunately, 
+                                the wide application of this powerful diagnostic method is limited to few laboratories due to the high costs of the polarizer.
+                                
+                                                            </p>
+                            
+                            <h2 style="text-align:left;"> Group Leaders: </h2>					
+														
+                             <a href="#" target="_blank" title="Francesca Reineri">
+							<img src="../images/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+                            
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

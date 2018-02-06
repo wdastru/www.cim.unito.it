@@ -1,5 +1,5 @@
 <?php
-$localizer = "./";
+$localizer = "../";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -16,15 +16,15 @@ xmlns="http://www.w3.org/1999/xhtml">
         <div id='section1'>
 
             <?php
-    require ('includes/main-nav.php');
+    require ('../includes/main-nav.php');
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection7">
+            <div id="subsection12">
                 <!-- InstanceEndEditable -->
 
                 <?php
-    require ('includes/research-side-nav.php');
+    require ('../includes/research-side-nav.php');
                 ?>
                 <div id='content'>
                     <div class='paddingOuter'>
@@ -121,6 +121,17 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         absent in the differentiation to glia.
                                     </p></li>
                             </ul>
+                            
+                               
+							<h2 style="text-align:left;"> Group Leaders: </h2>
+							
+							<a href="#" target="_blank" title="Simonetta Geninatti Crich">
+							<img src="../images/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+														
+							<a href="#" target="_blank" title="Enzo Terreno">
+							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+                            
+                            
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

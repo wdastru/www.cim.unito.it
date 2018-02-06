@@ -41,7 +41,7 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Antonello Galati</h1>
-								<p style="text-align:left;"><b>Graduate student<br />
+								<p style="text-align:left;"><b>Research Fellow<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
 								Terreno Lab</a>
@@ -55,8 +55,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												
-												M.Sc. in Biotechnology, University of Torino, Italy<br>
+												Specialization in Nuclear Medicine, University of Torino, Italy<br>
+												M.Sc. in Medicine and Surgery, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -67,7 +67,8 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research is focused on . </p>
+					<p>My research is focused on developing new methods for preclinical Nuclear Medicine. Personal Skills: Evalutation of clinical Nuclear Medicine images, 
+					administration of radionuclide therapy in humans. Using and develop specific software and algorithms to perform these tasks.</p>
 					</div>
 					</div>
 					
