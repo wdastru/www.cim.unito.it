@@ -49,7 +49,9 @@ $localizer = "../";
                                 and more recently by Parahydrogen Induced Hyperpolarization (PHIP), is the most widely applied HP metabolite. Unfortunately, 
                                 the wide application of this powerful diagnostic method is limited to few laboratories due to the high costs of the polarizer.
                                 
-                                                            </p>
+                             </p>
+                            
+                            <hr></hr>
                             
                             <h2 style="text-align:left;"> Group Leaders: </h2>					
 														

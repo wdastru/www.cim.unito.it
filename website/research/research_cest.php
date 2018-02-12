@@ -114,6 +114,9 @@ $localizer = "../";
                                         vivo</i>side.
                                     </p></li>
                             </ul>
+                            
+                            <hr></hr>
+                            
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 							
 							

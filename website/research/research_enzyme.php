@@ -34,6 +34,9 @@ $localizer = "../";
                                 Such class of agents 
                             </p>
 			
+			
+							<hr></hr>
+							
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 							
 							

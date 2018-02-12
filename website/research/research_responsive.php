@@ -54,7 +54,7 @@ $localizer = "../";
                                         around the physiological values via suitable substitutions. The
                                         deprotonation of the N-H permits the entrance of the nitrogen atom
                                         into the coordination sphere of the complex, eventually changing
-                                        its relaxivity. By comparing the T <sub>1</sub>values obtained
+                                        its relaxivity. By comparing the T<sub>1</sub> values obtained
                                         using two complexes that differ only in the pK <sub>a</sub>is
                                         possible to obtain a pH map. The assumption is that the two
                                         complexes show the same biodistribution.
@@ -85,6 +85,7 @@ $localizer = "../";
                                     </ul></li>
                             </ul>
                             
+                            <hr></hr>
                             
                             <h2 style="text-align:left;"> Group Leaders: </h2>
 							

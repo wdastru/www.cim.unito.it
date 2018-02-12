@@ -16,7 +16,7 @@ echo "
 						<a href='" . $localizer . "research/research_cest.php'>CEST Agents</a>
 					</dt>
 					<dt id='section1-subsection4' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_hyper.php'>Hyperpolarization</a>
+						<a href='" . $localizer . "research/research_hyper.php'>Hyperpolarized Agents</a>
 					</dt>
                     <dt id='section1-subsection5' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_multi.php'>Multi-Modality Agents</a>

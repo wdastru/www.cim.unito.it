@@ -31,10 +31,48 @@ $localizer = "../";
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
-                                Such class of agents is 
-                            </p>
-							
-							
+                                Boron neutron capture therapy (BNCT) is an unconventional radiotherapy that combines low-energy neutron irradiation in the presence of boron-containing compounds at targeted cells. 
+                                The low range of the charged particles permits selective destruction of tumor cells without affecting adjacent healthy cells. The delivery of boron should be as selective as possible
+                                 to tumor cells in order to increase the amount of internalized B in neoplastic cells, while minimizing uptake in surrounding healthy tissues and permanence in blood, which could 
+                                 damage normal organs and vessels.<br />
+								In collaboration with prof. A Deagostino of the Chemistry Department, University of Torino, we synthesized and tested for tumours treatment, different targeted both small- and 
+								nanosized boron carriers:</p> 
+
+                                  <ul>
+                                
+                                <li><b>AT101/lDL</b><br />
+                                                            		
+                                       <img src="../images/research_lines/gadoboro1.jpg" style="width: 180px; height: auto;  margin: 10px;" > </img> <br/>
+                                       <p>
+                                       Alberti D, Geninatti Crich S, Aime S et al. Nanomedicine. 2015 Apr;11(3):741-50                                                                     
+                                     </p></li>
+                                     
+                                     
+                                      <li><b>Rubrocurcumin</b><br />
+                                                            		
+                                       <img src="../images/research_lines/gadoboro2.jpg" style="width: 180px; height: auto;  margin: 10px;" > </img> <br/>
+                                       <p>
+                                      Alberti D, Geninatti Crich S, et al. ChemMedChem. 2017 Apr 6;12(7):502-509                                                               
+                                     </p></li>
+                                     
+                                     <li><b>Cholesterol</b><br />
+                                                            		
+                                       <img src="../images/research_lines/gadoboro3.jpg" style="width: 180px; height: auto;  margin: 10px;" > </img> <br/>
+                                       <p>
+                                       Alberti D, Toppino A, Geninatti Crich S, Meraldi C, Prandi C, Protti N, Bortolussi S, Altieri S, Aime S, Deagostino A. Org Biomol Chem. 2014 Mar 18;12(15):2457-67                                                                   
+                                     </p></li>
+                                     
+                                     <li><b>MEA01</b><br />
+                                                            		
+                                       <img src="../images/research_lines/gadoboro4.jpg" style="width: 180px; height: auto;  margin: 10px;" > </img> <br/>
+                                       <p>
+                                       Toppino A, Bova ME, Geninatti Crich S, Alberti D, Diana E, Barge A, Aime S, Venturello P, Deagostino A. t. Chemistry. 2013  Jan 7;19(2):721-8                                                                   
+                                     </p></li>
+                                     
+                                     
+                                     </ul>
+                                
+							<hr></hr>
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
 														

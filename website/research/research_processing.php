@@ -37,6 +37,8 @@ $localizer = "../";
 							
 							
                             
+                            <hr></hr>
+                            
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
 																					
 							<a href="../PI/LONGO/home.html" target="_blankk" title="Dario Longo">

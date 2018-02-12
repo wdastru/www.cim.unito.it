@@ -122,7 +122,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </p></li>
                             </ul>
                             
-                               
+                             <hr></hr>
+                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 							
 							<a href="#" target="_blank" title="Simonetta Geninatti Crich">

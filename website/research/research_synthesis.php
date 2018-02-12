@@ -32,13 +32,66 @@ $localizer = "../";
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
                                 
+                                The synthesis of an imaging probe is the first step of the process of a molecular imaging investigation. The optimization of innovative imaging probes can be pursued through 
+                                different approaches: from the design of imaging units endowed with enhanced sensitivity, to the development of high-affinity ligands and their conjugation to the targeting vector, 
+                                and to the control of the structural and electronic determinants responsible for the molecular recognition of the target molecule.
+                                Importantly, in case of metal-based imaging reporters, the observation of toxic effects related to fast release of the metal ion from the corresponding complex committed our research
+                                 towards the use and modification of chelates with high thermodynamic stability and most of all high kinetic inertness to allow their safe in vivo application.<br />
+                                A more detailed explanation of the synthetic approaches developed in our laboratories is listed below:
+                                
+                                 <ul>
+                                
+                                <li><b>Nanosystems and targeting agents</b>
+                                    <p class="indent">
+                                       In the group, various nanosystems such as liposomes, micelles, proteins and polymeric nanoparticles (PLGA) for diagnostic and/ or theranostic applications are investigated. 
+                                       Although, nanoparticles passively accumulate in tissue inflammation or cancer, as a consequence of the EPR effect, internalization e.g. by endocytosis, ofsuch nanosystems can 
+                                       be greatly improved by attachment of a high-affinity targeting ligand.To functionalize the particles for targeting, it is necessary to append reactive functional groups to the 
+                                       surface, to allow conjugation to vectors such as antibodies, peptides, small molecules. Another approachis to prepare newly phospholipid-based vectors, by conjugation of peptides,
+                                        folic acid, high afinity ligands to DSPE-PEG2000 and, subsequently, use to formulate targeted lipid-based nanosystems.                                
+                                     </p></li>
+                                     
+                                     <li><b>MRI and SPCCT Multimeric contrast agents</b>
+                                    <p class="indent">
+                                    Design and synthesis of multimeric polyaminocarboxylate ligands for complexation of paramagnetic Gd<sup>3+</sup> ions as contrast agents (CAs) for Magnetic Resonance Imaging (MRI) and for 
+                                    Spectral Photon-Counting Computed Tomography (SPCCT) having Gd<sup>3+</sup> almost ideal physico-chemical properties in terms of K-edge absorption energy to behave as a CA for SPCCT. 
+                                    The synthesis of improved multimeric CAs greatly enhance the sensitivity of both imaging techniques. Typical approach is the attachment of a number of Gd-chelates to 
+                                    multimeric-dendrimerics tructures like poliamidoamine or branched poly(lysine). 
+                                     </p></li>
+                                     
+                                     <li><b>Molecular Imaging Probes</b>
+                                    <p class="indent">
+                                    A molecular imaging probe typically consists of a signaling agent, a targeting moiety, and a linker. Various types of linkers can be used to modulate the pharmacokinetics 
+                                    and the selectivity of the imaging probe (the length, flexibility, hydrophilicity, and charges). Many aspects need to be optimized to obtain an efficient probe for MRI
+                                     and nuclear medicine techniques (PET and SPECT): we use various bioconjugation approaches and different BFCAs (bifunctional chelating agents) for connecting metal 
+                                     complexes to targeting vectors. For optical bioluminescence/fluorescence imaging, near infrared (NIR) optical dye such as sulfoCy5.5 are coupled with targeting moiety. 
+                                     </p></li>
+                                     
+                                      <li><b>CEST and hyperpolarized agents</b>
+                                    <p class="indent">
+                                    Also Chemical Exchange Saturation Transfer (CEST) MRI applications often requires the synthesis of probes able to enhance the effect and allow the in vivo application. 
+                                    Several Ln(III) chelates optimized for this type of imaging technique are synthesized in our labs.
+									Similarly, <sup>13</sup>C labelled unsaturated small molecules involved in particular metabolic processes are also synthesized as hyperpolarized probes for para-hydrogen polarization method.
+                                    
+                                     </p></li>
+                                     
+                                     <li><b>Contrast agents for Photoacoustic Imaging (PAI)</b>
+                                    <p class="indent">
+                                    Hemoglobin and melanin are the two most important naturally occurring contrast agents to enhance photoacoustic effect. Melanin can be used as exogenous PAI CA only after 
+                                    preparation of highly water-soluble systems by fabrication of ultrasmall melanin nanoparticle with good dispersion stability, e.g. MFA (melanin free acid) starting from melanin
+                                     granules through a slight degradation after oxidative treatments. 
+                                     </p></li>
+                            </ul>
+                                
+                                
                                 
                                 
                             </p>
                             
+                            <hr></hr>
+                            
                             <h2 style="text-align:left;"> Group Leaders: </h2>					
 														
-							<a href="#" target="_blank" title="Rachele Stefania">
+							<a href="../staff/staff_stefania.php"  title="Rachele Stefania">
 							<img src="../images/stefania.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="../staff/staff_tei.php" title="Lorenzo Tei">

@@ -26,7 +26,7 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Hyperpolarization <!-- InstanceEndEditable --></h1>
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Hyperpolarized Agents <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
@@ -216,6 +216,8 @@ $localizer = "../";
                                
                                 
                             </div>
+                            
+                            <hr></hr>
                             
                             <h2 style="text-align:left;"> Group Leaders: </h2>					
 														
