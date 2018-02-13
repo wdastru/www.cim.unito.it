@@ -69,56 +69,56 @@ xmlns="http://www.w3.org/1999/xhtml">
 							
 							<div class="w3-display-container mySlides">
 							<a href='research/research_imaging_therapy.php' >
-							<img class="w3-image-box" src="images/figure_research_theranostic.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_theranostic.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Imaging &amp; Therapy</strong>
                               </div>
                             </div>
                             
 							<div class="w3-display-container mySlides">
 							<a href='research/research_cest.php' >
-							<img class="w3-image-box" src="images/figure_research_CEST.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_CEST.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>CEST imaging</strong>
                               </div>
                             </div>
                             
                             <div class="w3-display-container mySlides">
                             <a href='research/research_enzyme.php' >
-							<img class="w3-image-box" src="images/figure_research_enzyme.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_enzyme.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Imaging enzyme activity</strong>
                               </div>
                             </div>
 							
 							<div class="w3-display-container mySlides">
 							<a href='research/research_cell.php' >
-							<img class="w3-image-box" src="images/figure_research_cell_labeling.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_cell_labeling.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Cell labeling and tracking</strong>
                               </div>
                             </div>
                             
 							<div class="w3-display-container mySlides">
 							<a href='research/research_target.php' >
-							<img class="w3-image-box" src="images/figure_research_receptors.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_receptors.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Targeting receptors</strong>
                               </div>
                             </div>
                             
                             <div class="w3-display-container mySlides">
                             <a href='research/research_angiogenesis.php' >
-							<img class="w3-image-box" src="images/figure_research_angiogenesis.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_angiogenesis.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor angiogenesis</strong>
                               </div>
                             </div>
 							
 							<div class="w3-display-container mySlides">
 							<a href='research/research_acidosis.php'>
-							<img class="w3-image-box" src="images/figure_research_tumor_acidosis.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_tumor_acidosis.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor acidosis</strong>
                               </div>
                             </div>
                             
                             <div class="w3-display-container mySlides">
                             <a href='research/research_metabolism.php' >
-							<img class="w3-image-box" src="images/figure_research_tumor_metabolism.jpg" style="width: 50%"> </a>
+							<img class="w3-image-box" src="images/research/figure_research_tumor_metabolism.jpg" style="width: 50%"> </a>
 							<div class="w3-display-topleft w3-large w3-display-container w3-black-inv"><strong>Tumor metabolism</strong>
                               </div>
                             </div>
