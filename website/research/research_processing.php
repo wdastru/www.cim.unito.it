@@ -32,7 +32,58 @@ $localizer = "../";
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
-                                Such class of agents is 
+                               
+                               Extraction of information from raw images (coming from several modalities) is a fundamental step in molecular imaging applications. In our center we develop novel image processing 
+                               methods and use them in several applications. These applications are mainly focused on quantitative MRI analysis. Our research cover several imaging applications:<br />
+ 
+ 							   <ul>
+ 							   <li><b>DCE-MRI</b>
+                                    <p class="indent">
+                                     This research line covers different approaches to analyze DCE-MRI experiments for assessing tumor vasculature properties. We have developed both semi-quantitative 
+                                     (shape analysis) and quantitative (Tofts&#39; compartment models) approaches implemented in Matalb and C++ languages for preclinical DCE-MRI studies acquired with Bruker or
+                                      Aspect MRI scanners. These methods have been integrated in the open source KMaps software (link github), based on the 
+                                      <a href= "http://mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK)" target="_blank" style="color:#dc6a10">MITK</a> (The Medical Imaging Interaction Toolkit) libraries. 
+                                      This software allows image registration, automatic AIF (arterial input function) extraction and clustering of parametric images.                            
+                                    </p></li>
+                                
+                                 <li><b>CEST-MRI</b>
+                                    <p class="indent">
+                                    This research area cover several approaches for an accurate quantification of CEST contrast. We have developed matlab-based tools for reading MR images
+                                     (for all Bruker MRI scanners and both PV5.1 and PV6), Z-spectra interpolation, B<sub>0</sub>-shift correction, removal of noisy data and several approaches for enhanced quantification 
+                                     of the CEST contrast. These tools are used extensively by several groups worldwide.                                
+                                    </p></li>
+                                    
+                                 <li><b>Quantitative MRI</b>
+                                    <p class="indent">
+                                    This theme cover the post-processing of different MRI approaches. We have developed several tools (Matlab and C++ based) for model fitting to any quantitative MRI technique, 
+                                    such as T<sub>1</sub> relaxometry (saturation recovery, inversion recovery, variable flip angle), T<sub>2</sub> relaxometry, diffusion imaging (including IWIM approach), contrast enhanced images, 
+                                    <sup>19</sup>F-probes quantification, hyperpolarized image quantification and kinetic analysis, compartment modelling, for both Bruker and Aspect obtained MR images.                           
+                                    </p></li>
+                                    
+                                 <li><b>Fat imaging</b>
+                                    <p class="indent">
+                                     We have developed clustering-based algorithms to segment T<sub>1</sub>-weighted images and extract fat volume.
+                                    </p></li>  
+                                    
+                                  <li><b>IT workflow for processing preclinical images</b>
+                                    <p class="indent">
+                                    This research line covers the development of IT tools foran easy-to-use, adaptable and implementable workflow for preclinical imaging centers for the fully exploitation
+                                     of images-derived information. The workflow is based on the following steps:
+                                     
+                                     <ol>
+                                     <li>an archiving/searching/retrieving step for merging and collecting multiple image datasets related to the same study coming from several modalities (e.g. imaging scanners) 
+                                     by exploiting <a href= "https://www.xnat.org" target="_blank" style="color:#dc6a10">XNAT</a>, an open-source imaging informatics software platform</li>
+                                	<li>a first-level image processing step producing parametric images related to biological aspects</li>
+                                <li>a second-level image processing step to extract features related to both raw and parametric images</li>
+                                <li>a data analysis step to combine both features and mean-extracted parameters to identify relevant imaging-based biomarkers</li>
+                                    
+                                    </ol>
+                                    </p></li>      
+                                    
+                                
+                               </ul>
+                               
+                               
                             </p>
 							
 							
