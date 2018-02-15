@@ -75,7 +75,7 @@ $localizer = "../";
                                     equilibrium value described by the Boltzmann equation. Since the
                                     signal intensity is proportional to the spin populations
                                     difference, hyperpolarization leads to an increase in the NMR
-                                    signal intensity which may reach values as high as 10 <sup>5</sup>.
+                                    signal intensity which may reach values as high as 10<sup>5</sup>.
                                     This can be exploited in the fast acquisition of high resolution MR
                                     images and spectra and allows to use nuclei other than protons,
                                     allowing to obtain images which are characterized by high signal to
@@ -147,12 +147,22 @@ $localizer = "../";
                                 </p>
                                 <ul>
                                     <li><sup>13</sup>C-enriched unsaturated derivatives of glucose</li>
-                                    <li><sup>15</sup>N enriched unsatured derivatives of choline</li>
-                                    <li>Unsaturated substrate for the preparation of <sup>13</sup>C
-                                        hyperpolarized succinate</li>
+                                    <li><sup>15</sup>N-enriched unsaturated derivatives of choline</li>
+                                   
                                 </ul>
-                                <div class='imgCenter'><img src="../images/Hyperpolarization/TOC.png"
-                                    alt="p-Hydrogenation" style="width:500px;" />
+                                
+                                <p class="indent">
+                                Among the <sup>13</sup>C hyperpolarized substrates that have been used for in-vivo studies, pyruvate is the most widely exploited for the investigation of pathologies. 
+                                Since a de-hydrogenated precursor of pyruvate does not exist, a method named <b>PHIP-SAH</b> (PHIP-Side Arm Hydrogenation) has been developed in our laboratories that allows
+                                 to obtain this HP metabolite through the following passages: 1) functionalization of the carboxylic group with an unsaturated alcohol (the Side-Arm); 2) hydrogenation of th
+                                 e double-triple bond using parahydrogen; 3) spin order transfer from the parahydrogen protons to the 13C carboxylate nucleus (Magnetic Field Cycle); 4) cleavage of the 
+                                 hydrogenated side-arm by means of hydrolysis. Hydrogenation is carried out in  an organic, hydrophobic solvent and the HP metabolite is extracted in the aqueous phase, 
+                                 according to the phase transfer method (see the following section).
+                                The PHIP-SAH strategy can be applied to other metabolites (e.g. lactate, acetate, ..) and, in principle, to all the molecules containing a carboxylic group.
+                                </p>
+                                
+                                <div class='imgCenter'><img src="../images/research_lines/hyperpolarized1.jpg"
+                                    alt="p-Hydrogenation" style="width:700px;" />
                                 </div>
                                 <p class='indent'>
                                     <b>2) Quick methods for the catalyst and organic
@@ -171,7 +181,7 @@ $localizer = "../";
                                 </p>
                                 <p class='indent'>
                                     c) use of water-soluble catalysts and ion
-                                    exchange chromatogrophy
+                                    exchange chromatography
                                 </p>
                                 <p class='indent'>
                                     All the three possibilities are studied at the
@@ -190,29 +200,20 @@ $localizer = "../";
                                     succinate has been produced by para-hydrogenation of maleic
                                     anhydride in chloroform and subsequent hydrolysis.
                                 </p>
-                                <p class='indent'>
-                                    <b>3) Procedures to convert the <sup class=
-                                    'superscript'>13</sup>C anti-phase signal obtained after
-                                    para-hydrogenation to in-phase signal (suitable for MRI)</b>
-                                </p>
-                                <div class='imgRight'><img src=
-                                    "../images/Hyperpolarization/hyper-heart.jpg" alt=
-                                    "heart 13C image" style="align:left;"/>
-                                </div>
-                                <p class='indent'>
-                                    Polarization transfer from para-hydrogen to
-                                    heteronuclei results into adsorption-emission <sup class=
-                                    'superscript'>13</sup>C signals which must be converted to in-phase
-                                    signal in order to be used for MRI. This can be achieved by
-                                    application of an opportune magnetic field cycle or by the use of
-                                    pulse sequences. The first method simply consists in two asymmetric
-                                    transformations of the magnetic field which can be obtained by the
-                                    use of an opportunely designed m-metal shield. For the second, a
-                                    low frequency spectrometer has been constructed in collaboration
-                                    with Stelar srl (link), in which the pulse sequence is applied on
-                                    the para-hydrogenated sample.
-                                </p>
                                 
+                                <p class='indent'>
+                                    <b>3. Transfer of parahydrogen spin order to  <sup>13</sup>C net polarization.</b>
+                                    </p>
+                                    
+                                    Spin order must be transferred from para-hydrogen protons to heteronuclei, in order to obtain heteronuclear net polarization that can be used for the acquisition of MR mages. 
+                                    This can be achieved by application of an opportune magnetic field cycle (MFC) or by the use of pulse sequences. The first method is currently exploited in the CIM laboratories.
+                                     A dedicated set-up has been built by Aspect Imaging and it consists in a magnetic field shield (three concentric cylinders made of mu-metal) bearing a solenoid coil that
+                                      is supplied with electric current  controlled with a custom-written function. This allows to carry out MFC in a completely controlled manner. 
+
+                                </p>
+                                <div class='imgCenter'><img src="../images/research_lines/hyperpolarized2.jpg"
+                                    alt="p-Hydrogenation" style="width:200px;" />
+                                </div>
                                
                                 
                             </div>
@@ -222,7 +223,7 @@ $localizer = "../";
                             <h2 style="text-align:left;"> Group Leaders: </h2>					
 														
                              <a href="#" target="_blank" title="Francesca Reineri">
-							<img src="../images/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
                             
                             <!-- InstanceEndEditable -->
                         </div>

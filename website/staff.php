@@ -38,7 +38,7 @@ $localizer = "./";
 <div class="row">
 			<div class="w3-container">
 				<div class="square bg"
-					style="background-image: url(images/aime.jpg);">
+					style="background-image: url(images/staff/aime.jpg);">
 					<div class="content">
 						<div class="table">			
 						<a title="Homepage" href="aboutus.php#leadership" target="_blank">			
@@ -52,7 +52,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/terreno.jpg);"">
+					style="background-image: url(images/staff/terreno.jpg);"">
 					<div class="content">
 						<div class="table">
 						<a title="Homepage" href="PI/Terreno/home.html" target="_blank">
@@ -66,7 +66,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/geninatti_crich.jpg);">
+					style="background-image: url(images/staff/geninatti_crich.jpg);">
 					<div class="content">
 						<div class="table">
 						<a title="Homepage" href="PI/Geninatti/home.html" target="_blank">
@@ -80,7 +80,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/gianolio.jpg);">
+					style="background-image: url(images/staff/gianolio.jpg);">
 					<div class="content">
 						<div class="table">
 						<a title="Homepage" href="PI/Gianolio/home.html" target="_blank">
@@ -94,7 +94,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/dastru2.jpg);">
+					style="background-image: url(images/staff/dastru2.jpg);">
 					<div class="content">
 						<div class="table">
 						<a title="Homepage" href="PI/Dastru/home.html" target="_blank">
@@ -108,7 +108,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/reineri.jpg);">
+					style="background-image: url(images/staff/reineri.jpg);">
 					<div class="content">
 						<div class="table">
 						<a title="Homepage" href="PI/Reineri/home.html" target="_blank">
@@ -122,7 +122,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/dellicastelli.jpg);">
+					style="background-image: url(images/staff/dellicastelli.jpg);">
 					<div class="content">
 						<div class="table">
 						<a title="Homepage" href="PI/DelliCastelli/home.html" target="_blank">
@@ -136,7 +136,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/viale.jpg);">
+					style="background-image: url(images/staff/viale.jpg);">
 					<div class="content">
 						<div class="table">
 						 <a title="Homepage" href="PI/Viale/home.html" target="_blank">
@@ -150,7 +150,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/cutrin.jpg);">
+					style="background-image: url(images/staff/cutrin.jpg);">
 					<div class="content">
 						<div class="table">
 						 <a title="Homepage" href="PI/Cutrin/home.html" target="_blank">
@@ -164,7 +164,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/Dario_Longo.jpg);">
+					style="background-image: url(images/staff/Dario_Longo.jpg);">
 					<div class="content">
 						<div class="table">
 						  <a title="Homepage" href="PI/Longo/home.html" target="_blank">
@@ -190,7 +190,7 @@ $localizer = "./";
 							<div class="row">
 								<div class="w3-container">
 									<div class="square bg"
-										style="background-image: url(images/baroni.jpg);">
+										style="background-image: url(images/staff/baroni.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_baroni.php">
@@ -204,7 +204,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/stefania.jpg);"">
+										style="background-image: url(images/staff/stefania.jpg);"">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_stefania.php">
@@ -218,7 +218,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/arena.jpg);">
+										style="background-image: url(images/staff/arena.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_arena.php">
@@ -232,7 +232,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/bardini.jpg);">
+										style="background-image: url(images/staff/bardini.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_bardini.php">
@@ -246,7 +246,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/carrera.jpg);">
+										style="background-image: url(images/staff/carrera.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_carrera.php">
@@ -260,7 +260,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/alberti.jpg);">
+										style="background-image: url(images/staff/alberti.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_alberti.php">
@@ -287,7 +287,7 @@ $localizer = "./";
 							<div class="row">
 								<div class="w3-container">
 									<div class="square bg"
-										style="background-image: url(images/consolino.jpg);">
+										style="background-image: url(images/staff/consolino.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_consolino.php">
@@ -301,7 +301,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/ruggiero.jpg);"">
+										style="background-image: url(images/staff/ruggiero.jpg);"">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_ruggiero.php">
@@ -315,7 +315,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/garello.jpg);">
+										style="background-image: url(images/staff/garello.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_garello.php">
@@ -329,7 +329,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/ferrauto.jpg);">
+										style="background-image: url(images/staff/ferrauto.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_ferrauto.php">
@@ -343,7 +343,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/digregorio.jpg);">
+										style="background-image: url(images/staff/digregorio.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_digregorio.php">
@@ -357,7 +357,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/cavallari.jpg);">
+										style="background-image: url(images/staff/cavallari.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_cavallari.php">
@@ -371,7 +371,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/pagoto.jpg);">
+										style="background-image: url(images/staff/pagoto.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_pagoto.php">
@@ -385,7 +385,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/capozza.jpg);">
+										style="background-image: url(images/staff/capozza.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_capozza.php">
@@ -399,7 +399,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/zullino.jpg);">
+										style="background-image: url(images/staff/zullino.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_zullino.php">
@@ -425,7 +425,7 @@ $localizer = "./";
 							<div class="row">
 								<div class="w3-container">
 									<div class="square bg"
-										style="background-image: url(images/anemone.jpg);">
+										style="background-image: url(images/staff/anemone.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_anemone.php">
@@ -439,7 +439,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/hawala.jpg);"">
+										style="background-image: url(images/staff/hawala.jpg);"">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_hawala.php">
@@ -453,7 +453,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/bitonto.jpg);">
+										style="background-image: url(images/staff/bitonto.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_bitonto.php">
@@ -467,7 +467,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/tripepi.jpg);">
+										style="background-image: url(images/staff/tripepi.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_tripepi.php">
@@ -481,7 +481,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/patrucco.jpg);">
+										style="background-image: url(images/staff/patrucco.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_patrucco.php">
@@ -495,7 +495,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/spatola.jpg);">
+										style="background-image: url(images/staff/spatola.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_spatola.php">
@@ -509,7 +509,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/barale.jpg);">
+										style="background-image: url(images/staff/barale.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_barale.php">
@@ -523,7 +523,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/capuana.jpg);">
+										style="background-image: url(images/staff/capuana.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_capuana.php">
@@ -537,7 +537,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/marini.jpg);">
+										style="background-image: url(images/staff/marini.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_marini.php">
@@ -551,7 +551,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/galati.jpg);">
+										style="background-image: url(images/staff/galati.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_galati.php">
@@ -565,7 +565,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/irrera.jpg);">
+										style="background-image: url(images/staff/irrera.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_irrera.php">
@@ -600,7 +600,7 @@ $localizer = "./";
 		<div class="row">
 			<div class="w3-container">
 				<div class="square bg"
-					style="background-image: url(images/menchise.jpg);">
+					style="background-image: url(images/staff/menchise.jpg);">
 					<div class="content">
 						<div class="table">
 						<a title="Profile" href="staff/staff_menchise.php">
@@ -614,7 +614,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/dandrea.jpg);"">
+					style="background-image: url(images/staff/dandrea.jpg);"">
 					<div class="content">
 						<div class="table">
 						<a title="Profile" href="staff/staff_dandrea.php">
@@ -628,7 +628,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/padovan.jpg);">
+					style="background-image: url(images/staff/padovan.jpg);">
 					<div class="content">
 						<div class="table">
 						<a title="Profile" href="staff/staff_padovan.php">
@@ -658,7 +658,7 @@ $localizer = "./";
 							<div class="row">
 								<div class="w3-container">
 									<div class="square bg"
-										style="background-image: url(images/botta.jpg);">
+										style="background-image: url(images/staff/botta.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_botta.php">
@@ -672,7 +672,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/tei.jpg);"">
+										style="background-image: url(images/staff/tei.jpg);"">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_tei.php">
@@ -686,7 +686,7 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/digilio.jpg);">
+										style="background-image: url(images/staff/digilio.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_digilio.php">

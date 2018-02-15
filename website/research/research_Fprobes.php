@@ -80,16 +80,16 @@ $localizer = "../";
 							
 							
 							<a href="#" target="_blank" title="Enzo Terreno">
-							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="#" target="_blank" title="Daniela Delli Castelli">
-							<img src="../images/dellicastelli.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/dellicastelli.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="../staff/staff_menchise.php" title="Valeria Menchise">
-							<img src="../images/menchise.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/menchise.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="#" target="_blank" title="Walter Dastr&ugrave;">
-							<img src="../images/dastru.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/dastru.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
                             <!-- InstanceEndEditable -->
                         </div>

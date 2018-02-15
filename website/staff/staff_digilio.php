@@ -35,7 +35,7 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/digilio.jpg" class="w3-image"
+								<img src="../images/staff/digilio.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 

@@ -32,68 +32,41 @@ $localizer = "../";
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class="indent">
-                                The possibility to guide a therapeutic treatment
-                                with imaging is an extremely interesting opportunity. A really
-                                important advance in this field was represented by the advent of
-                                MRI tomographs coupled with high frequency ultrasound systems for
-                                iperthermia localized treatments. Our activities in the files
-                                are:
-                            </p>
-                            <br />
-                            <ul>
-                                <li><b>Drug releasing liposomes</b>
-                                    <p class='indent'>
-                                        Liposomes loaded with both MRI contrast agents
-                                        and drug molecules are used. They are administered to model animals
-                                        and their MRI visualization permits to quantify the number of
-                                        liposomes (hence drug molecules) that are present at the site of
-                                        interest. The liposomes are engineered in order to release
-                                        (possibly triggered) the drug and the contrast agent. The liposomes
-                                        could be further engineered in order to be a reporter of the
-                                        therapeutic efficacy of the drug. To reach this goal, both Gd and
-                                        CEST MRI probes will be used.
-                                    </p></li>
-                                <li><b>Neutron Capture Therapy and Imaging</b>
-                                    <p class='indent'>
-                                        The Neutron Capture Therapy (NCT) approach is of
-                                        great interest mostly for brain tumors, and is based on the ability
-                                        of a number of nuclei (among them <sup>10</sup>B) to absorb
-                                        neutrons to start a nuclear reaction that causes the destruction of
-                                        the cells. The success of the treatment is dependent on the
-                                        quantity of active compound that reaches the ill cell, with respect
-                                        to the quantity that distributes among vases and healthy cells. To
-                                        this goal B and Gd containing probes are synthesized; from the MRI
-                                        images it is possible to know the concentration of Gd and then
-                                        calculate that of B. The probes contain carboranes, Gd complexes
-                                        and a vector to drive them to the target of interest. It is worth
-                                        noting that Gd exists in a form ( <sup>157</sup>Gd) that is
-                                        sensible to neutron capture, and its presence in the probe
-                                        represents a strengthening of the therapeutic action.
-                                    </p></li>
-                                <li><b>Controlled Gd release systems</b>
-                                    <p class='indent'>
-                                        It is well known that the free Gd <sup>3+</sup>ion is really toxic; for this reason, it is used in
-                                        the MRI applications only complexed in extremely stable compounds.
-                                        This line of activity exploits the cytotoxicity of Gd
-                                        <sup>3+</sup>by allowing the ion to be released in a controlled way
-                                        at the site of interest. We are now considering probes that can
-                                        recognise targets on the tumoral cells and then release the Gd
-                                        <sup>3+</sup>inside the cell. In order to reduce the systemic
-                                        toxicity of the metal ion, the probe is engineered to be
-                                        deactivated (with respect to the release of Gd <sup>3+</sup>)
-                                        shortly after reaching its target.
-                                    </p></li>
+                                The synergy between Imaging and Therapy gave the birth to the neologism &quot;Theranosis&quot; that represents a new research area where imaging is not merely used for diagnostic purposes,
+                                 but it offers to pharmacologists and physicians a robust tool for assessing the therapeutic outcome.
+                                Typical applications of Theranosis include the in vivo assessment of drug biodistribution and accumulation at the target site, visualization of the drug release from a given nanocarrier,
+                                 and real-time monitoring of the therapeutic effect.<br />
+                                Most of the theranostic procedures requires the use of specific imaging probes, named theranostic agents. The expected end-point of theranostic agents is to provide a fundamental 
+                                support for the optimization of innovative diagnostic and therapeutic strategies that could significantly contribute to achieve important advances in the field of the &quot;personalized
+                                 medicine&quot;.<br />
+                                Theranosis is intimately linked with nanomedicine, because nanocarriers, besides improving the therapeutic index of a drug and reducing side effects, can be easily loaded with imaging
+                                 probes. First, the imaging-detectable nanocarrier can be administered without the drug to evaluate its ability to reach the biological target. Then, the theranostic nanomedicine 
+                                 can be injected and imaging can monitor the effective delivery of the drug as well as its release from the nanocarrier.<br />
+                                Another important application area of Theranosis is the support that imaging provides to cellular and regenerative therapies. Here, in general, therapeutic cells are labelled with
+                                 imaging probes that make possible to localize with accuracy the transplantation site of the cells or to track the destiny of cells after their injection.<br />
+                                However, imaging can support not only pharmacological or cellular therapies, but can have a strong and beneficial impact on surgery. Most of the clinical interventional procedures 
+                                are guided by human vision and perception. However, human eyes are not sensitive or accurate enough in detecting the cellular or molecular signature of a given disease. 
+                                For this reason, advanced optical and opto-acoustic methods have been considering to complement human vision for making clinical decision during interventions.<br /><br />
+                                
+                                In our Center, several theranostic procedure have been developed and preclinically validated aimed at: <br />
+                                
+                                <ul>
+                                <li>monitoring by MRI the biodistribution of a drug transported by a given nanocarrier (liposomes, PLGA micelles, apoferritin)</li>
+                                <li>assessing by MRI the release of a drug (e.g. doxorubicin) from a nanocarrier (liposomes) triggered by a local application of low intensity ultrasound </li>
+                                 <li>providing a fluorescent guide to discriminate tumor and healthy tissue in prostatectomy</li>
+                                                            
                             </ul>
+                            </p>
                             
                             <hr></hr>
                             
                             <h2 style="text-align:left;"> Group Leaders: </h2>
 														
 							<a href="#" target="_blank" title="Enzo Terreno">
-							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="#" target="_blank" title="Simonetta Geninatti">
-							<img src="../images/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 														
                             
                             <!-- InstanceEndEditable -->

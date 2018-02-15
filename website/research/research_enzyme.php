@@ -41,10 +41,10 @@ $localizer = "../";
 							
 							
 							<a href="#" target="_blank" title="Francesca Reineri">
-							<img src="../images/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="../staff/staff_digilio" target="_blank" title="Giuseppe Digilio">
-							<img src="../images/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							
 							

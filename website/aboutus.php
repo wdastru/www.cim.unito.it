@@ -76,7 +76,7 @@ $localizer = "./";
 										<font color="red">Director, Molecular Imaging Center</font>
 									</h3>
 								</div>
-								<figure> <img src="images/silvio_aime.jpg" alt=""
+								<figure> <img src="images/staff/silvio_aime.jpg" alt=""
 									class="w3-image-left" width="250px"> <figcaption> <a
 										href="http://www.dbmss.unito.it/do/docenti.pl/Alias?silvio.aime#profilo"
 										target="_blank"><font color="blue">Silvio Aime, PhD</font></a></figcaption></figure>

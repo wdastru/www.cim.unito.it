@@ -76,10 +76,10 @@ $localizer = "../";
 							
 							
 							<a href="#" target="_blankk" title="Enzo Terreno">
-							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="#" target="_blankk" title="Eliana Gianolio">
-							<img src="../images/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							
 							

@@ -93,10 +93,10 @@ $localizer = "../";
                             <h2 style="text-align:left;"> Group Leaders: </h2>
 														
 							<a href="#" target="_blank" title="Enzo Terreno">
-							<img src="../images/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 														
 							<a href="#" target="_blank" title="Rachele Stefania">
-							<img src="../images/stefania.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/stefania.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

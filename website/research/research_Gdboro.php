@@ -77,7 +77,7 @@ $localizer = "../";
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
 														
 							<a href="#" target="_blank" title="Simonetta Geninatti Crich">
-							<img src="../images/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img src="../images/staff/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 														
 							
 							

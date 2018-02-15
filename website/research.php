@@ -180,7 +180,7 @@ $localizer = "./";
 											<font color="red"><sup>19</sup>F based contrast agents</font> </h13>
 										</div>
 										<a href="research/research_Fprobes.php">
-										<img src="images/research/figure_research_multimodal.jpg" alt="" class="w3-image-left"></img></a> 
+										<img src="images/research/figure_research_Fprobes.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="#"><span class="PIname"> Terreno, </span></a> 
 											<a title="Opens in new window" href="#"><span class="PIname">Dastr&ugrave;, </span></a>
@@ -209,7 +209,7 @@ $localizer = "./";
 											<h13 font style="text-transform: none;"> <font color="red">Optoacoustic probes</font></h13>
 										</div>
 										<a href="research/research_optoacoustic.php">
-										<img src="images/research/figure_research_theranostic.jpg" alt="" class="w3-image-left"></img></a> 
+										<img src="images/research/figure_research_optoacoustic.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
 											<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo </span></a>
 									</div>
@@ -360,7 +360,7 @@ $localizer = "./";
 											<font color="red">Gadolinium deposition</font> </h13>
 										</div>
 										<a href="research/research_Gd_depo.php">
-										<img src="images/research/figure_research_image_processing.jpg" alt="" class="w3-image-left"></img></a> 
+										<img src="images/research/figure_research_Gd_deposition.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Gianolio/home.html"><span class="PIname">Gianolio</span></a> 
 										
