@@ -1,6 +1,8 @@
 atletico.txt
 atletico_camp_14.txt
 atletico_camp_16.txt
+atletico_camp_17.txt
+atletico_camp_18.txt
 atletico_copp_3.txt
 atletico_coppa_2.txt
 ciofeca.txt
@@ -9,6 +11,8 @@ ciofeca_camp13.txt
 ciofeca_camp14.txt
 ciofeca_camp15.txt
 ciofeca_camp16.txt
+ciofeca_camp17.txt
+ciofeca_camp18.txt
 eporediese.txt
 eporediese_camp_1.txt
 eporediese_camp_10.txt
@@ -17,6 +21,7 @@ eporediese_camp_12.txt
 eporediese_camp_13.txt
 eporediese_camp_14.txt
 eporediese_camp_15.txt
+eporediese_camp_17.txt
 eporediese_camp_2.txt
 eporediese_camp_3.txt
 eporediese_camp_4.txt
@@ -34,12 +39,17 @@ fedora_camp_A1.txt
 fedora_camp_A6.txt
 fedora_camp_B1.txt
 fedora_camp_C1.txt
+fedora_camp_C2.txt
+fedora_camp_C3.txt
 fedora_coppa_2.txt
+fedora_coppa_3.txt
 fedora_tipo_valida_fino_20170919-142417.txt
 fedora_tipo_valida_fino_20171124-173103.txt
 fedora_tipo_valida_fino_20171130-133235.txt
 fedora_tipo_valida_fino_20171209-152608.txt
 fedora_tipo_valida_fino_20180120-144326.txt
+fedora_tipo_valida_fino_20180208-133339.txt
+fedora_tipo_valida_fino_20180208-133347.txt
 krakatoa.txt
 krakatoa_12a_da_mail.txt
 krakatoa_15a_camp.txt
@@ -56,9 +66,11 @@ krakatoa_8a_camp.txt
 krakatoa_9a_camp.txt
 krakatoa_camp_221217.txt
 krakatoa_camp_29122017.txt
+krakatoa_camp_3febb.txt
 krakatoa_camp_4a_da_mail.txt
 krakatoa_coppa_060118.txt
 krakatoa_coppa_2a_da_mail.txt
+krakatoa_form_090218.txt
 krakatoa_tipo_valida_fino_20170922-133752.txt
 krakatoa_tipo_valida_fino_20170922-134507.txt
 krakatoa_tipo_valida_fino_20171117-105255.txt
@@ -66,6 +78,8 @@ krakatoa_tipo_valida_fino_20171124-173631.txt
 krakatoa_tipo_valida_fino_20171124-173718.txt
 krakatoa_tipo_valida_fino_20180119-134904.txt
 krakatoa_tipo_valida_fino_20180119-134917.txt
+krakatoa_tipo_valida_fino_20180202-085748.txt
+krakatoa_tipo_valida_fino_20180208-135502.txt
 lokomotiv.txt
 lokomotiv_camp_01.txt
 lokomotiv_camp_02.txt
@@ -83,6 +97,8 @@ lokomotiv_camp_13.txt
 lokomotiv_camp_14.txt
 lokomotiv_camp_15.txt
 lokomotiv_camp_16.txt
+lokomotiv_camp_17.txt
+lokomotiv_camp_18.txt
 lokomotiv_coppa02.txt
 lokomotiv_coppa03.txt
 lokomotiv_tipo_valida_fino_20170918-213908.txt
@@ -91,6 +107,8 @@ rapid.txt
 rapid_cam_14.txt
 rapid_cam_15.txt
 rapid_cam_16.txt
+rapid_cam_17.txt
+rapid_cam_18.txt
 rapid_cop_03.txt
 real.txt
 real_camp01.txt
@@ -109,6 +127,8 @@ real_camp13.txt
 real_camp14.txt
 real_camp15.txt
 real_camp16.txt
+real_camp17.txt
+real_camp18.txt
 real_coppa01.txt
 real_coppa02.txt
 real_coppa03.txt
@@ -123,3 +143,4 @@ real_tipo_valida_fino_20171221-223943.txt
 real_tipo_valida_fino_20171228-213138.txt
 real_tipo_valida_fino_20180121-105602.txt
 real_tipo_valida_fino_20180126-204854.txt
+real_tipo_valida_fino_20180202-221440.txt

@@ -1,0 +1,31 @@
+3 - 5 - 2
+1 - 3 - 5 - 2
+1 - 2 - 2 - 2
+HANDANOVIC Samir
+GOMIS Alfred
+PADELLI Daniele
+ALBIOL Raul
+MARUSIC Adam
+NUYTINCK Bram
+MASIELLO Andrea
+ROMAGNOLI Alessio
+MUSACCHIO Mateo
+ACERBI Francesco
+GHOULAM Faouzi
+BROZOVIC Marcelo
+TORREIRA Lucas
+MATUIDI Blaise
+LJAJIC Adem
+LAZZARI Manuel
+LULIC Senad
+KURTIC Jasmin
+CASTRO Lucas
+DZEKO Edin
+HIGUAIN Gonzalo
+PALACIO Rodrigo
+TAARABT Adel
+PUCCIARELLI Manuel
+PANDEV Goran
+120
+3404073967
+Mon 05 Feb 2018 - 09:11:53

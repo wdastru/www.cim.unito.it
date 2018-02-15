@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+CORDAZ Alex
+GOLLINI Pierluigi
+BERISHA Etrit
+D'AMBROSIO Danilo
+FERRARI Gian Marco
+DE VRIJ Stefan
+RODRIGUEZ Ricardo
+CANCELO Joao
+PEZZELLA German
+HEURTAUX Thomas
+CACCIATORE Fabrizio
+RAFINHA Rafael alcantara
+CRISTANTE Bryan
+JOAO PEDRO
+ZIELINSKI Piotr
+BERENGUER Alejandro
+STROOTMAN Kevin
+DZEMAILI Blerim
+VERETOUT Jordan
+INSIGNE Lorenzo
+IMMOBILE Ciro
+BERARDI Domenico
+FALCINELLI Diego
+SILVA André
+PJACA Marko
+18
+
+Fri 09 Feb 2018 - 14:19:40
