@@ -10,6 +10,11 @@
 <?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Events</title>
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
+
+
+<link href='includes/calendar/fullcalendar.min.css' rel='stylesheet' />
+<link href='includes/calendar/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+
 </head>
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -46,7 +51,16 @@
 					   <p>The Centre of Molecular Imaging hosts several educational, teaching, workshop and scientific events to promote the field of imaging science.</p>
 					   <p>In addition, we provide molecular imaging courses within the <a href="http://www.molecularbiotechnology.unito.it/do/home.pl/Home" target="_blank">
 					   <span class='paperTitle'>Biotechnology Master degree</span></a> to educate students and to train young investigators.</p> 
+					   <br /><br />
+					
+					
+					
+					 <div id='calendar'></div>
+					
+					
+					
 					</div>
+					
 				</div>
 			</div>
 			<!-- subsection closing -->
@@ -74,11 +88,70 @@
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
+	<script type="text/javascript" src="includes/jQuery/jquery.js"></script>
+<script type="text/javascript" src="includes/jQuery/monthly.js"></script>
 	<script type="text/javascript">
 //<![CDATA[
 changeSideNavStyles();
 //]]>
 </script>
+<script src='includes/calendar/lib/moment.min.js'></script>
+<script src='includes/calendar/lib/jquery.min.js'></script>
+<script src='includes/calendar/fullcalendar.min.js'></script>
+<script>
+
+  $(document).ready(function() {
+
+    $('#calendar').fullCalendar({
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,listWeek'
+      },
+      defaultDate: '2018-02-12',
+      editable: false,
+      navLinks: false, // can click day/week names to navigate views
+      eventLimit: true, // allow "more" link when too many events
+      events: {
+        url: 'includes/calendar/php/get-events.php',
+        error: function() {
+          $('#script-warning').show();
+        }
+      },
+      eventClick: function(event) {
+          if (event.url) {
+              window.open(event.url);
+              return false;
+          }
+      },
+      loading: function(bool) {
+        $('#loading').toggle(bool);
+      }
+    });
+
+  });
+
+</script>
+
+
+
+
 	<!-- InstanceEnd -->
 </body>
 </html>
+
+<style>
+
+  
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 16px; 
+  }
+  
+  #content a {
+  color: #fff;
+  }
+
+</style>
