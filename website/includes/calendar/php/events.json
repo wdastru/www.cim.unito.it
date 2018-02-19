@@ -1,14 +1,60 @@
 [
+
+{
+    "title": "ISMRM Italian Chapter meeting",
+    "url": "http://www.ismrm.it/wp-content/uploads/2018/01/Flyer_2018.png",
+    "start": "2018-05-10",
+    "end": "2018-05-12",
+	"color": "red",
+	"description": "IX Congresso Associazione Italiana di Risonanza Magnetica in Medicina - Padova (Italia) 10-11 May 2018"
+  },
+{
+    "title": "Imaging 2020",
+    "url": "http://www.imagingin2020.com/",
+    "start": "2018-09-23",
+    "end": "2018-09-28",
+	"color": "red",
+	"description": "Imaging in 2020: Visualizing the Future of Health Care with MR Imaging - Jackson Lake Lodge, Wyoming (USA) 23-27 September 2018"
+  },
+{
+    "title": "ISMRM/ESMRMB 2018 Meeting",
+    "url": "https://www.ismrm.org/18m/",
+    "start": "2018-06-16",
+    "end": "2018-06-22",
+	"color": "red",
+	"description": "Joint Annual Meeting ISMRM-ESMRMB 2018 - Paris (France) 16-21 June 2018"
+  },
+{
+    "title": "WMIC 2018 Meeting",
+    "url": "http://www.wmis.org/2018-wmic",
+    "start": "2018-09-12",
+    "end": "2018-09-16",
+	"color": "red",
+	"description": "World Molecular Imaging Congress - Seattle (USA) 12-15 September 2018"
+  },
+{
+    "title": "seminar",
+    "start": "2018-02-08T13:00:00",
+     "allDay": false,
+	"color": "blue",
+	"description": "New aptamer-based approaches for cancer diagnosis and therapy by Silvia Nuzzo, Aula Seminari"
+  },
   {
     "title": "EMIM 2018 Meeting",
     "url": "http://www.e-smi.eu/index.php?id=emim-2018",
     "start": "2018-03-20",
-    "end": "2018-03-23"
+    "end": "2018-03-24",
+	"color": "red",
+	"description": "European Molecular Imaging Meeting - San Sebastian (Spain) 21-23 March 2018"
   },
   {
     "title": "12th ESMI Winter Conference hot TOPIics in IMaging - TOPIM 2018",
+	"url": "http://www.e-smi.eu/index.php?id=topim_2018",
      "start": "2018-01-21",
-    "end": "2018-01-26"
+    "end": "2018-01-27",
+	"color": "red",
+	"description": "TOPIM - Les Houches, (France) 21-26 January 2018, IMAGING METABOLISM"
   }
   
 ]
+

@@ -55,7 +55,7 @@ echo "
 						<a href='" . $localizer . "research/research_metabolism.php'>Tumor metabolism</a>
 					</dt>
 					<dt id='section1-subsection16' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_inflammation.php'>Tumor Inflammation</a>
+						<a href='" . $localizer . "research/research_inflammation.php'>Inflammation &amp; Infectious Diseases</a>
 					</dt>
 					<dt id='section1-subsection17' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_imaging_therapy.php'>Imaging &amp; Therapy</a>

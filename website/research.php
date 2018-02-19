@@ -292,7 +292,7 @@ $localizer = "./";
 									<div class="w3-container">
 										<div class="w3-header" style="height: 65px;">
 											<h13 font style="text-transform: none;">
-											<font color="red">Tumor inflammation</font> </h13>
+											<font color="red">Inflammation &amp; Infectious Diseases</font> </h13>
 										</div>
 										<a href="research/research_inflammation.php">
 										<img src="images/research/figure_research_image_processing.jpg" alt="" class="w3-image-left"></img></a> 
