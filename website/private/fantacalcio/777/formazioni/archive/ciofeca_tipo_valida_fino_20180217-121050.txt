@@ -18,7 +18,7 @@ DE PAUL Rodrigo
 BIGLIA Lucas
 VECINO Matias
 DE ROON Marten
-UNDER Cengiz
+DE ROSSI Daniele
 CHIESA Federico
 QUAGLIARELLA Fabio
 EL SHAARAWY Stephan
@@ -26,6 +26,6 @@ NIANG M'Baye
 BUDIMIR Ante
 CAPRARI Gianluca
 DEFREL Gregoire
-111
+122
 3337815436
-Sat 17 Feb 2018 - 12:10:50
+Sat 18 Nov 2017 - 14:39:52

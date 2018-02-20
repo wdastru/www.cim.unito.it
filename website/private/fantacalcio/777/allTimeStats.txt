@@ -948,7 +948,7 @@
 1617/Fedora/EPOrediese/-/-/-/-/0/
 1617/L.A. Krakatoa/Atletico? No Grazie!/3/2/83/75/1/IMMOBILE CIRO/IMMOBILE CIRO/INSIGNE LORENZO/ROMULO/SUSO JESUS/
 1617/L.A. Krakatoa/Atletico? No Grazie!/0/3/58.5/78/0/RAMIREZ GASTON/ROMULO/DESTRO MATTIA/
-1617/L.A. Krakatoa/Atletico? No Grazie!/-/-/-/-/1/
+1617/L.A. Krakatoa/Atletico? No Grazie!/3/1/83/69/1/ZIELINSKI Piotr/ZIELINSKI Piotr/DE VRIJ Stefan/BELOTTI Andrea/
 1617/L.A. Krakatoa/Atletico? No Grazie!/-/-/-/-/0/
 1617/Rapid Bradip/Real Mentescars/0/1/61.5/68.5/1/STRINIC IVAN/
 1617/Rapid Bradip/Real Mentescars/0/2/57.5/76/0/POLITANO MATTEO/POLITANO MATTEO/
