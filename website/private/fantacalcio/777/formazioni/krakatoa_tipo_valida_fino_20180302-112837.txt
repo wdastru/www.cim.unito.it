@@ -10,7 +10,7 @@ D'AMBROSIO Danilo
 FERRARI Gian Marco
 DE VRIJ Stefan
 PEZZELLA German
-RUI Mario
+HEURTAUX Thomas
 CANCELO Joao
 JOAO PEDRO
 STROOTMAN Kevin
@@ -28,4 +28,4 @@ BERARDI Domenico
 PJACA Marko
 17
 
-Fri 02 Mar 2018 - 11:28:55
+Fri 23 Feb 2018 - 10:14:35

@@ -10,7 +10,7 @@ D'AMBROSIO Danilo
 FERRARI Gian Marco
 DE VRIJ Stefan
 PEZZELLA German
-RUI Mario
+HEURTAUX Thomas
 CANCELO Joao
 JOAO PEDRO
 STROOTMAN Kevin
@@ -18,7 +18,7 @@ ZIELINSKI Piotr
 DZEMAILI Blerim
 VERETOUT Jordan
 CRISTANTE Bryan
-LEIVA Lucas
+BERENGUER Alejandro
 RAFINHA Rafael alcantara
 SILVA André
 IMMOBILE Ciro
@@ -26,6 +26,6 @@ INSIGNE Lorenzo
 FALCINELLI Diego
 BERARDI Domenico
 PJACA Marko
-17
+18
 
-Fri 02 Mar 2018 - 11:28:55
+Thu 08 Feb 2018 - 13:55:02
