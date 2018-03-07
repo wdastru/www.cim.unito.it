@@ -78,8 +78,8 @@ a052/2/2/73.5/77/SKRINIAR Milan/SKRINIAR Milan/HAMSIK Marek/MERTENS Dries/
 a152/1/2/71/73/ASTORI Davide/CUTRONE Patrik/ANTENUCCI Mirco/
 a252/2/4/73.5/87.5/SILVESTRE Matias/NIANG M'Baye/MILINKOVIC Sergej/MILINKOVIC Sergej/MILINKOVIC Sergej/CALLEJON José/
 a352/2/1/75.5/69/INSIGNE Lorenzo/IMMOBILE Ciro/LAZZARI Manuel/
-a062/-/-/-/-/
-a162/-/-/-/-/
+a062/2/0/72/65.5/MERTENS Dries/FLORENZI Alessandro/
+a162/1/0/66.5/62/ANTENUCCI Mirco/
 a262/-/-/-/-/
 a362/-/-/-/-/
 a003/-/-/-/-/
