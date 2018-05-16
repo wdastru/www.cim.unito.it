@@ -4,7 +4,7 @@
 BUFFON Gianluigi
 SZCZESNY Wojciech
 PINSOGLIO Carlo
-ASTORI Davide
+HATEBOER Hans
 TOLOI Rafael
 BERESZYNSKI Bartosz
 DANILO Larangeira
@@ -28,4 +28,4 @@ KEAN Moise
 MILIK Arkadiusz
 200
 347-4172758
-Fri 02 Mar 2018 - 22:59:09
+Thu 08 Mar 2018 - 22:44:30

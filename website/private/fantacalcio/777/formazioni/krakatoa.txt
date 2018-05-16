@@ -12,7 +12,7 @@ DE VRIJ Stefan
 PEZZELLA German
 RUI Mario
 CANCELO Joao
-JOAO PEDRO
+GIACCHERINI Emanuele
 STROOTMAN Kevin
 ZIELINSKI Piotr
 DZEMAILI Blerim
@@ -26,6 +26,6 @@ INSIGNE Lorenzo
 FALCINELLI Diego
 BERARDI Domenico
 PJACA Marko
-17
 
-Fri 02 Mar 2018 - 11:28:55
+
+Fri 16 Mar 2018 - 08:50:07
