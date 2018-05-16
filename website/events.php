@@ -16,6 +16,8 @@
 <link href='includes/calendar/fullcalendar.print.min.css' rel='stylesheet' media='print' />
 <link href='includes/calendar/lib/jquery.qtip.min.css' rel='stylesheet' />
 
+
+
 </head>
 <body>
 <?php require_once($localizer . 'includes/analyticstracking.php') ?>
