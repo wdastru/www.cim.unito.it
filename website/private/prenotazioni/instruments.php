@@ -32,7 +32,9 @@ $instrument = array(
 					"MiniSpec",
 					"Scanlaf",
 					"Telstar",
-                    "UPLC"
+                    "UPLC",
+                    "IsoFO2",
+                    "Infuser"
                     );
 
 $instrString[ "300MHz" ] = "Bruker Avance 300 MHz"; 
@@ -68,6 +70,9 @@ $instrString[ "MiniSpec" ] = "MiniSpec (Ivrea)";
 $instrString[ "Scanlaf" ] = "Scanlaf";
 $instrString[ "Telstar" ] = "Telstar";
 $instrString[ "UPLC" ] = "UPLC (Torino)";
+$instrString[ "IsoFO2" ] = "Isofluorane/O2";
+$instrString[ "Infuser" ] = "Infuser";
+
 
 $guidelines[ "300MHz" ] = "<br/><h1>Regolamento prenotazioni 300MHz</h1>
 <br/>
@@ -160,6 +165,8 @@ $guidelines[ "MiniSpec" ] = "";
 $guidelines[ "Scanlaf" ] = "";
 $guidelines[ "Telstar" ] = "";
 $guidelines[ "UPLC" ] = "";
+$guidelines[ "IsoFO2" ] = "";
+$guidelines[ "Infuser" ] = "";
 
 $warning[ "300MHz" ] = ""; 
 $warning[ "600MHz" ] = ""; 
@@ -194,6 +201,8 @@ $warning[ "MiniSpec" ] = "";
 $warning[ "Scanlaf" ] = "";
 $warning[ "Telstar" ] = "";
 $warning[ "UPLC" ] = "";
+$warning[ "IsoFO2" ] = "";
+$warning[ "Infuser" ] = "";
 /*
 $generalWarning = "<div id='generalWarningDiv'><br /><h1 style='text-decoration:blink; text-align:center; color:#FFF;'>AVVISO</h1><br /><p class='generalWarning'>Si sono verificati dei problemi con le prenotazioni.<br />Siete pregati di fare particolare attenzione durante la prenotazione e cancellazione degli spazi, e di comunicare a Walter qualunque malfunzionamento incontriate.<br /><br />Saluti.</p></div>";
 */
