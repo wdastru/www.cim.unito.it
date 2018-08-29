@@ -46,6 +46,7 @@ eporediese_camp_9.txt
 eporediese_coppa_1.txt
 eporediese_coppa_2.txt
 eporediese_coppa_3.txt
+eporediese_supercoppa.txt
 eporediese_tipo_valida_fino_20180215-104130.txt
 eporediese_tipo_valida_fino_20180215-104205.txt
 fedora.txt
@@ -68,6 +69,7 @@ fedora_coppa_semi.txt
 fedora_da_mail_del_240218.txt
 fedora_fedora_camp_D6.txt
 fedora_finale_di_coppa_da_mail.txt
+fedora_finale_supercoppa.txt
 fedora_tipo_valida_fino_20170919-142417.txt
 fedora_tipo_valida_fino_20171124-173103.txt
 fedora_tipo_valida_fino_20171130-133235.txt
@@ -81,6 +83,7 @@ krakatoa_15a_camp.txt
 krakatoa_1a_camp.txt
 krakatoa_2a_camp.txt
 krakatoa_2a_camp_OK.txt
+krakatoa_36a_krak.txt
 krakatoa_3a_camp.txt
 krakatoa_5a_camp_da_mail.txt
 krakatoa_6a_camp.txt
