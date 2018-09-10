@@ -203,11 +203,11 @@ function arrangeTeams() {
 			containers[i] = Array(0);
 
 		var j = 0;
-		containers[j][0] = "0"; // la prima squadra del gruppo A sara'
+		containers[j][0] = 0; // la prima squadra del gruppo A sara'
 		// sicuramente nel primo contenitore
 
 		for ( var i = 0; i < 3; i++) {
-			if ((squadra[i][1] == squadra[i + 1][1]))
+			if ((squadra[i][1] == squadra[i + 1][1])) // check punti
 				containers[j].push(i + 1);
 			else {
 				j++;
@@ -216,11 +216,11 @@ function arrangeTeams() {
 		}
 
 		j++;
-		containers[j][0] = "4"; // la prima squadra del gruppo B sara' nel primo
+		containers[j][0] = 4; // la prima squadra del gruppo B sara' nel primo
 		// contenitore libero
 
 		for ( var i = 4; i < 7; i++) {
-			if ((squadra[i][1] == squadra[i + 1][1]))
+			if ((squadra[i][1] == squadra[i + 1][1])) // check punti
 				containers[j].push(i + 1);
 			else {
 				j++;

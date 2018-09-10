@@ -105,7 +105,7 @@ include ("calendarioCoppa.inc");
 	if (!file_exists($datiCoppaFile)) {
 		require $relocate_string . 'createDatiCoppa.php';
 	}
-	include $relocate_string . 'readDatiCoppa.php';
+	include $relocate_string . 'readDatiCoppa.php'; // viene settato $id
 	?>
 		<h1 class="title">FANTACOPPA</h1>
 		<br /> <br />
