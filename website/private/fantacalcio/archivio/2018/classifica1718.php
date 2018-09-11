@@ -1,11 +1,11 @@
 <?php
 $relocate_string = "../../";
 
-require_once $relocate_string . 'archivio/2017/squadre1617.inc';
-require_once $relocate_string . 'archivio/2017/calendario1617.inc';
-require_once $relocate_string . 'archivio/2017/classifica1617.inc.php';
+require_once $relocate_string . 'archivio/2018/squadre1718.inc';
+require_once $relocate_string . 'archivio/2018/calendario1718.inc';
+require_once $relocate_string . 'archivio/2018/classifica1718.inc.php';
 
-$datiCampionatoFileName = $relocate_string . 'archivio/2017/datiCampionato1617.txt';
+$datiCampionatoFileName = $relocate_string . 'archivio/2018/datiCampionato1718.txt';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -57,7 +57,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
-			<h1 class="title">XVIII Campionato Fantacalcio NMR 2016/17</h1>
+			<h1 class="title">XIX Campionato Fantacalcio NMR 2017/18</h1>
 			<br />
         <br />
         <h2 class='firstClass'>1&deg; Classificato: </h2>
@@ -215,7 +215,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			 *  Sorting di classifica[][]
 			 */
 
-			require $relocate_string . 'archivio/2017/functions1617.inc.php';
+			require $relocate_string . 'archivio/2018/functions1718.inc.php';
 
 			$datiCampionato = readData();
 			$squadra = updateSquadra($datiCampionato);

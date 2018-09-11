@@ -26,6 +26,21 @@
   <h2 class="albo">COPPA</h2>
   <table class="albo">
     <tr>
+      <td>2017/18</td>
+      <td class="squadra">Fedora</td>
+      <td>Presidente <span class="presidente">Dario Longo</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2018/coppa1718.php">Tabellone</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2018/coppa_rosa1718.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>2016/17</td>
       <td class="squadra">Dinamo Ciofeca</td>
       <td>Presidente <span class="presidente">Lorenzo Tei</span></td>
