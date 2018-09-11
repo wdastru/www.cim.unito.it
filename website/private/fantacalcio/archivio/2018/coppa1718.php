@@ -1,6 +1,6 @@
 <?php
 $relocate_string = "../../";
-include ($relocate_string . 'archivio/2017/calendarioCoppa1617.inc');
+include ($relocate_string . "archivio/2018/calendarioCoppa1718.inc");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -17,8 +17,8 @@ include ($relocate_string . 'archivio/2017/calendarioCoppa1617.inc');
 	<!-- InstanceBeginEditable name="additional css" -->
 	<!-- InstanceEndEditable -->
 	<!-- InstanceBeginEditable name="additional js" -->
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2017/javascript1617.js&type=javascript"></script>
-	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2017/coppa1617.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2018/javascript1718.js&type=javascript"></script>
+	<script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=archivio/2018/coppa1718.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
 	<!-- jQuery -->
@@ -100,13 +100,13 @@ include ($relocate_string . 'archivio/2017/calendarioCoppa1617.inc');
 	$finali[2] = '5&deg; - 6&deg;';
 	$finali[3] = '7&deg; - 8&deg;';
 
-	$datiCoppaFile = $relocate_string . 'archivio/2017/datiCoppa1617.txt';
+	$datiCoppaFile = $relocate_string . 'archivio/2018/datiCoppa1718.txt';
 	if (!file_exists($datiCoppaFile)) {
 		require $relocate_string . 'createDatiCoppa.php';
 	}
-	include $relocate_string . 'readDatiCoppa.php';
+	include $relocate_string . 'readDatiCoppa.php'; // viene settato $id
 	?>
-    <h1 class="title">FANTACOPPA NMR 2016/17</h1>
+		<h1 class="title">FANTACOPPA NMR 2017/18</h1>
 		<br /> <br />
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>

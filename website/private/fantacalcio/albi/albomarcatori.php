@@ -41,6 +41,13 @@ $relocate_string = "../"
 				<th>Presidente</th>
 			</tr>
       <tr class="tableline">
+        <td align="center">2017/18</td>
+        <td align="center">21</td>
+        <td class="center marcatore">Immobile (Lazio)</td>
+        <td align="center">L.A. Krakatoa</td>
+        <td align="center">Paolo Oliva</td>
+      </tr>
+      <tr class="tableline">
         <td align="center">2016/17</td>
         <td align="center">22</td>
         <td class="center marcatore">Belotti (Torino)</td>
@@ -134,6 +141,13 @@ $relocate_string = "../"
 				<th>Squadra</th>
 				<th>Presidente</th>
 			</tr>
+      <tr class="tableline">
+        <td align="center">2017/18</td>
+        <td align="center">5</td>
+        <td class="center marcatore">Immobile (Lazio)</td>
+        <td align="center">L.A. Krakatoa</td>
+        <td align="center">Paolo Oliva</td>
+      </tr>
       <tr class="tableline">
         <td align="center">2016/17</td>
         <td align="center">5</td>
