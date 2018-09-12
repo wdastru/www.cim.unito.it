@@ -1,4 +1,6 @@
 atletico.txt
+atletico_tipo_valida_fino_20180911-170230.txt
+atletico_tipo_valida_fino_20180911-170716.txt
 ciofeca.txt
 eporediese.txt
 fedora.txt

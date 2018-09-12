@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-BUFFON Gianluigi
+SCUFFET Simone
 SZCZESNY Wojciech
-PINSOGLIO Carlo
-HATEBOER Hans
-TOLOI Rafael
+NICOLAS Andrade
+HEURTAUX Thomas
+ADNAN Ali Kadhim
 BERESZYNSKI Bartosz
 DANILO Larangeira
-MASINA Adam
-BENATIA Medhi
-HYSAJ Elseid
-DE SCIGLIO Mattia
+FELIPE Dal Belo
+GAGLIOLO Riccardo
+PASQUAL Manuel
+RUGANI Daniele
 BERNARDESCHI Federico
-LAXALT Diego
+LEIVA Lucas
 JANKTO Jakub
-VALERO Borja
-JORGINHO
-ILICIC Josip
-DIAWARA Amadou
+LINETTY Karol
+PAROLO Marco
+BARAK Antonin
+PULGAR Erick
 BONAVENTURA Giacomo
 MANDZUKIC Mario
 SIMEONE Giovanni
-THEREAU Cyril
+ILICIC Josip
 LASAGNA Kevin
-KEAN Moise
+RONALDO Cristiano
 MILIK Arkadiusz
-200
+80
 347-4172758
-Thu 08 Mar 2018 - 22:44:30
+Tue 11 Sep 2018 - 22:14:15
