@@ -6,5 +6,7 @@ eporediese.txt
 fedora.txt
 krakatoa.txt
 lokomotiv.txt
+lokomotiv_tipo_valida_fino_20180911-221415.txt
 rapid.txt
 real.txt
+real_tipo_valida_fino_20180911-220656.txt

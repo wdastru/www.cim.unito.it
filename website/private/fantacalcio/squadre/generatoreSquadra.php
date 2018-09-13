@@ -187,7 +187,7 @@
 	$letterRuolo[1] = 'D';
 	$letterRuolo[2] = 'C';
 	$letterRuolo[3] = 'A';
-
+	
 	// visualizzazione dei giocatori
 	for ($j=0; $j<8; $j++) // giocatori per ruolo
 	{
@@ -207,21 +207,25 @@
 				echo "tribuna";
 
 			echo "'>";
-      
+			
+			// $allPlayers e $allPlayerCount definiti in lastGazFileAllPlayerRead.php
+			// $allPlayerStats e $allPlayerStatsCount definiti in statisticsAllPlayerRead.php
+			
 			if( isset($giocatoreSquadra[$j][$i]) && $giocatoreSquadra[$j][$i] != "" )
 			{
-				echo ucwords(strtolower(cognome($giocatoreSquadra[$j][$i]))) . " ";
+			    //echo "<br/>#" . $giocatoreSquadra[$j][$i] . "# ";
+			    //echo "#" . cognome($giocatoreSquadra[$j][$i]) . "# ";
+			    //echo "#" . strtolower(cognome($giocatoreSquadra[$j][$i])) . "# ";
+         	    echo ucwords(strtolower(cognome($giocatoreSquadra[$j][$i])));
 					
 				$found = false;
-					
+				
 				for ($k=0; $k<$allPlayerCount; $k++) // loop su tutti i giocatori del file gazzetta
 				{
-					if ( $giocatoreSquadra[$j][$i] == $allPlayers[$k][0] )
+				    if ( cognome($giocatoreSquadra[$j][$i]) == cognome($allPlayers[$k][0]) ) 
 					{
 						if ( $letterRuolo[$i] != $allPlayers[$k][2] )
-						{
-							continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
-						}
+						  continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
 							
 						for ($t=0; $t<13; $t++) // 13 e' la seconda dimensione di $allPlayers
 						{
@@ -234,12 +238,12 @@
 					}
 				}
 					
-				for ($k=0; $k<$allPlayerStatsCount; $k++) // loop su tutti i giocatori del file gazzetta
+				for ($k=0; $k<$allPlayerStatsCount; $k++) // loop su tutti i giocatori del file statistics.txt
 				{
-					if ($giocatoreSquadra[$j][$i] == $allPlayerStats[$k][0])
+				    if ( cognome($giocatoreSquadra[$j][$i]) == cognome($allPlayerStats[$k][0]) )
 					{
 						if ( $letterRuolo[$i] != $allPlayerStats[$k][2] )
-						continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
+						  continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
 
 						for ($t=0; $t<13; $t++) // 13 e' la seconda dimensione di $allPlayerStats
 						{
@@ -251,7 +255,7 @@
 				
 				if ($found == false)
 				{
-					echo "<span class='notFound'>(non trovato!)</span>";
+					echo "<span class='notFound'> (non trovato!)</span>";
 				}
 			}
 			echo "</td>";
@@ -261,6 +265,23 @@
 	?>
 </table>
 <br />
+
+<?php
+//echo "<span>####</span><br/>";
+//for ($j=0; $j<8; $j++) {
+//    for ($i=0; $i<4; $i++) {// ruolo
+//        echo "<span>" . $giocatoreSquadra[$j][$i] . "</span></br>";
+//    }
+//}
+//
+//echo "<span>####</span><br/>";
+//
+//for ($k=0; $k<$allPlayerCount; $k++) // loop su tutti i giocatori del file gazzetta
+//    echo "<span>" . $allPlayers[$k][0] . "</span></br>";
+//
+//    echo "<span>####</span><br/>";
+?>
+
 <br />
 <br />
 <div>
