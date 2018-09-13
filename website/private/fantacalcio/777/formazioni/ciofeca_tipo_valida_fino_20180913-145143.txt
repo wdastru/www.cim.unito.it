@@ -6,7 +6,7 @@ LAFONT Alban
 DRAGOWSKI Bartlomiej
 VITOR HUGO Franchescoli de Souza
 CHIELLINI Giorgio
-MANOLAS Konstantinos
+MANOLAS Kostas
 CONTI Andrea
 MARUSIC Adam
 ANDERSEN Joachim
@@ -18,7 +18,7 @@ DE PAUL Rodrigo
 CRISTANTE Bryan
 SORIANO Roberto
 GERSON Santos Da Silva
-ÜNDER Cengiz
+UNDER Cengiz
 CHIESA Federico
 QUAGLIARELLA Fabio
 EL SHAARAWY Stephan
@@ -28,4 +28,4 @@ MARTINEZ Lautaro
 DEFREL Gregoire
 70
 3337815436
-Thu 13 Sep 2018 - 14:51:43
+Thu 13 Sep 2018 - 14:50:22
