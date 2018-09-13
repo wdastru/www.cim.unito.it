@@ -31,8 +31,8 @@ require $relocate_string . "777/gazFiles.inc.php";
 require $relocate_string . "squadre.inc";
 
 $filenameStats="..//777//statistics.txt";
-require $relocate_string . "statisticsAllPlayerRead.php";
-require $relocate_string . "lastGazFileAllPlayerRead.php";
+require $relocate_string . "statisticsAllPlayerRead.php"; // legge statistics.txt; popola $allPlayerStats
+require $relocate_string . "lastGazFileAllPlayerRead.php"; // legge l'ultimo file gazzetta; popola $allPlayers
 
 if ( isset($_POST['changeTeam']) ) // modifica rosa da modify.php
 {

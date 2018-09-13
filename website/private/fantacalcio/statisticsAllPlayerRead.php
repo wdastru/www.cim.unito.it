@@ -6,7 +6,7 @@ if(file_exists($filenameStats))
 	while(!feof($handle))
 	{
 		$tmpStr=substr(trim(fgets($handle)), 4);
-		$allPlayerStats[$i][0]=strtok($tmpStr,"\t");	// nome
+		$allPlayerStats[$i][0]=trim(strtok($tmpStr,"\t"));	// nome
 		$allPlayerStats[$i][1]=strtok("\t");			// squadra
 		$allPlayerStats[$i][2]=strtok("\t");			// ruolo
 
