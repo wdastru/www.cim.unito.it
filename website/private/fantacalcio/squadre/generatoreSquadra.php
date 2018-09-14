@@ -207,57 +207,61 @@
 				echo "tribuna";
 
 			echo "'>";
-			
-			// $allPlayers e $allPlayerCount definiti in lastGazFileAllPlayerRead.php
-			// $allPlayerStats e $allPlayerStatsCount definiti in statisticsAllPlayerRead.php
-			
-			if( isset($giocatoreSquadra[$j][$i]) && $giocatoreSquadra[$j][$i] != "" )
-			{
-			    //echo "<br/>#" . $giocatoreSquadra[$j][$i] . "# ";
-			    //echo "#" . cognome($giocatoreSquadra[$j][$i]) . "# ";
-			    //echo "#" . strtolower(cognome($giocatoreSquadra[$j][$i])) . "# ";
-         	    echo ucwords(strtolower(cognome($giocatoreSquadra[$j][$i])));
-					
-				$found = false;
-				
-				for ($k=0; $k<$allPlayerCount; $k++) // loop su tutti i giocatori del file gazzetta
-				{
-				    if ( cognome($giocatoreSquadra[$j][$i]) == cognome($allPlayers[$k][0]) ) 
-					{
-						if ( $letterRuolo[$i] != $allPlayers[$k][2] )
-						  continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
-							
-						for ($t=0; $t<13; $t++) // 13 e' la seconda dimensione di $allPlayers
-						{
-							if ($t==5) // fantavoto
-								echo "<span class='" . $spanIdUltima[$t] . "'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
-							else
-								echo "<span class='" . $spanIdUltima[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
-						}
-						$found = true;
-					}
-				}
-					
-				for ($k=0; $k<$allPlayerStatsCount; $k++) // loop su tutti i giocatori del file statistics.txt
-				{
-				    if ( cognome($giocatoreSquadra[$j][$i]) == cognome($allPlayerStats[$k][0]) )
-					{
-						if ( $letterRuolo[$i] != $allPlayerStats[$k][2] )
-						  continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
-
-						for ($t=0; $t<13; $t++) // 13 e' la seconda dimensione di $allPlayerStats
-						{
-							echo "<span class='" . $spanIdStats[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayerStats[$k][$t])) . ")</span>";
-						}
-						$found = true;
-					}
-				}
-				
-				if ($found == false)
-				{
-					echo "<span class='notFound'> (non trovato!)</span>";
-				}
-			}
+            
+        // $allPlayers e $allPlayerCount definiti in lastGazFileAllPlayerRead.php
+        // $allPlayerStats e $allPlayerStatsCount definiti in statisticsAllPlayerRead.php
+        if (isset($giocatoreSquadra[$j][$i]) && $giocatoreSquadra[$j][$i] != "") {
+            
+            echo ucwords(strtolower(cognome($giocatoreSquadra[$j][$i])));
+            
+            $found = false;
+            $roleChanged = ""; 
+            
+            for ($k = 0; $k < $allPlayerCount; $k ++) // loop su tutti i giocatori del file gazzetta
+            {
+                if ($giocatoreSquadra[$j][$i] == $allPlayers[$k][0]) {
+                    
+                    if ($letterRuolo[$i] != $allPlayers[$k][2]) {
+                        
+                        $roleChanged .= $letterRuolo[$i] . " --> " . $allPlayers[$k][2];
+                        //echo "<span>" . $letterRuolo[$i] . " " . $allPlayers[$k][2] . "</span></br>";
+                        //continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
+                    }
+                    
+                    for ($t = 0; $t < 13; $t ++) // 13 e' la seconda dimensione di $allPlayers
+                    {
+                        if ($t == 5) // fantavoto
+                            echo "<span class='" . $spanIdUltima[$t] . "'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
+                        else
+                            echo "<span class='" . $spanIdUltima[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayers[$k][$t])) . ")</span>";
+                    }
+                    $found = true;
+                }
+            }
+            
+            for ($k = 0; $k < $allPlayerStatsCount; $k ++) // loop su tutti i giocatori del file statistics.txt
+            {
+                if ($giocatoreSquadra[$j][$i] == $allPlayerStats[$k][0]) {
+                    if ($letterRuolo[$i] != $allPlayerStats[$k][2])
+                        continue; // salta il giocatore se il ruolo non e' giusto (per evitare doppi)
+                    
+                    for ($t = 0; $t < 13; $t ++) // 13 e' la seconda dimensione di $allPlayerStats
+                    {
+                        echo "<span class='" . $spanIdStats[$t] . "' style='display:none'>(" . ucwords(strtolower($allPlayerStats[$k][$t])) . ")</span>";
+                    }
+                    $found = true;
+                }
+            }
+            
+            if ($found == false) {
+                echo "<span class='notFound'> (non trovato!)</span>";
+            }
+        
+            if ($roleChanged != "") {
+                echo "<span class='notFound'> (cambio di ruolo! " . $roleChanged . ")</span>";
+                $roleChanged = "";
+            }
+        }
 			echo "</td>";
 		}
 		echo "</tr>";
@@ -268,18 +272,19 @@
 
 <?php
 //echo "<span>####</span><br/>";
-//for ($j=0; $j<8; $j++) {
-//    for ($i=0; $i<4; $i++) {// ruolo
-//        echo "<span>" . $giocatoreSquadra[$j][$i] . "</span></br>";
+//for ($j = 0; $j < 8; $j ++) {
+//    for ($i = 0; $i < 4; $i ++) { // ruolo
+//        echo "<span>" . $giocatoreSquadra[$j][$i] . " " . cognome($giocatoreSquadra[$j][$i]) . "</span></br>";
 //    }
 //}
 //
 //echo "<span>####</span><br/>";
 //
-//for ($k=0; $k<$allPlayerCount; $k++) // loop su tutti i giocatori del file gazzetta
-//    echo "<span>" . $allPlayers[$k][0] . "</span></br>";
-//
-//    echo "<span>####</span><br/>";
+//for ($k = 0; $k < $allPlayerCount; $k ++) { // loop su tutti i giocatori del file gazzetta    
+//    echo "<span>" . $allPlayers[$k][0] . " " . cognome($allPlayers[$k][0]) . "</span></br>";
+//}
+// 
+//echo "<span>####</span><br/>";
 ?>
 
 <br />
