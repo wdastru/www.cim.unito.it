@@ -2,8 +2,7 @@ atletico.txt
 atletico_tipo_valida_fino_20180911-170230.txt
 atletico_tipo_valida_fino_20180911-170716.txt
 ciofeca.txt
-ciofeca_tipo_valida_fino_20180913-145022.txt
-ciofeca_tipo_valida_fino_20180913-145143.txt
+ciofeca_coppa1.txt
 eporediese.txt
 eporediese_tipo_valida_fino_20180913-103820.txt
 eporediese_tipo_valida_fino_20180913-103838.txt
@@ -18,6 +17,7 @@ krakatoa_tipo_valida_fino_20180912-175435.txt
 lokomotiv.txt
 lokomotiv_tipo_valida_fino_20180911-221415.txt
 rapid.txt
+rapid_tipo_valida_fino_20180913-152930.txt
 real.txt
 real_tipo_valida_fino_20180911-220656.txt
 real_tipo_valida_fino_20180912-224023.txt
