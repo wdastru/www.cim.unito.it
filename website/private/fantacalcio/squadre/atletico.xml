@@ -60,7 +60,7 @@
       <supercoppa>SC</supercoppa>
       <campionato>
         <stagione>2012/13</stagione>
-        <posizione>6</posizione>
+	<posizione>6</posizione>
       </campionato>
       <campionato>
         <stagione>2013/14</stagione>
@@ -73,7 +73,15 @@
       <campionato>
         <stagione>2015/16</stagione>
         <posizione>7</posizione>
-      </campionato>      
+      </campionato>
+      <campionato>
+      	<stagione>2016/17</stagione>
+      	<posizione>4</posizione>
+      </campionato>
+      <coppa>C</coppa>
+      <campionato>
+      	<stagione>2017/18</stagione>
+      	<posizione>8</posizione></campionato>
     </storico>
   </squadra>
 </squadre>

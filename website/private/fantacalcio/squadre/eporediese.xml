@@ -66,14 +66,23 @@
       </campionato>
       <campionato>
         <stagione>2014/15</stagione>
-        <posizione>1</posizione>
+        <posizione>1</posizione><supercoppa>SC</supercoppa>
       </campionato>
-      <supercoppa>SC</supercoppa>
+      
       <campionato>
         <stagione>2015/16</stagione>
-        <posizione>4</posizione>
+        <posizione>4</posizione><supercoppa>SC</supercoppa>
       </campionato>
-      <supercoppa>SC</supercoppa>
+      
+      <campionato>
+      	<stagione>2016/17</stagione>
+      	<posizione>1</posizione><supercoppa>SC</supercoppa></campionato>
+      
+      <campionato>
+	<stagione>2017/18</stagione>
+	<posizione>1</posizione><supercoppa>SC</supercoppa>
+	</campionato>
+      
     </storico>
   </squadra>
 </squadre>

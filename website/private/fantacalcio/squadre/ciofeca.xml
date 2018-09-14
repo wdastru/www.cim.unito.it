@@ -74,7 +74,13 @@
       <campionato>
         <stagione>2015/16</stagione>
         <posizione>5</posizione>
-      </campionato>      
+      </campionato>
+      <campionato>
+      	<stagione>2016/17</stagione>
+      	<posizione>6</posizione></campionato>
+      <campionato>
+      	<stagione>2017/18</stagione>
+      	<posizione>7</posizione></campionato>
     </storico>
   </squadra>
 </squadre>

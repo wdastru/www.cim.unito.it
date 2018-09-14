@@ -85,7 +85,11 @@
         <stagione>2015/16</stagione>
         <posizione>1</posizione>
       </campionato>
-      <coppa>C</coppa>      
+      <coppa>C</coppa>
+      <campionato>
+      	<stagione>2016/17</stagione>
+      	<posizione>2</posizione></campionato>
+      <coppa>C</coppa>
     </storico>
   </squadra>
 </squadre>
