@@ -60,8 +60,7 @@ if(file_exists($fileSquadreXml))
 	$myparser = xml_parser_create();
 	xml_parse_into_struct($myparser, $str, $text);
 	xml_parser_free($myparser);
-	//print_r($text);
-
+	
 	$imgSquadra = $text[4]['value'];
 
 	$j=0;
