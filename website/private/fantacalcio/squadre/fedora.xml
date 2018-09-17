@@ -4,92 +4,92 @@
     <nome>fedora</nome>
     <img>fedora.jpg</img>
     <storico>
-      <campionato>
-        <stagione>1999/00</stagione>
+      <stagione 
+        year="1999/00">
         <posizione>1</posizione>
         <vecchio_nome>Gimme 5</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2000/01</stagione>
+      </stagione>
+      <stagione 
+        year="2000/01">
         <posizione>5</posizione>
         <vecchio_nome>Gimme 5</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2001/02</stagione>
+      </stagione>
+      <stagione 
+        year="2001/02">
         <posizione>2</posizione>
         <vecchio_nome>Deportivo Rufus</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2002/03</stagione>
+      </stagione>
+      <stagione 
+        year="2002/03">
         <posizione>8</posizione>
         <vecchio_nome>Deportivo Rufus</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2003/04</stagione>
+      </stagione>
+      <stagione 
+        year="2003/04">
         <posizione>3</posizione>
         <vecchio_nome>Deportivo Rufus</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2004/05</stagione>
+      </stagione>
+      <stagione 
+        year="2004/05">
         <posizione>8</posizione>
         <vecchio_nome>Deportivo Rufus</vecchio_nome>
         <coppa>C</coppa>
         <supercoppa>SC</supercoppa>
-      </campionato>
-      <campionato>
-        <stagione>2005/06</stagione>
+      </stagione>
+      <stagione 
+        year="2005/06">
         <posizione>3</posizione>
         <vecchio_nome>Deportivo Rufus</vecchio_nome>
         <coppa>C</coppa>
-      </campionato>
-      <campionato>
-        <stagione>2006/07</stagione>
+      </stagione>
+      <stagione 
+        year="2006/07">
         <posizione>5</posizione>
         <vecchio_nome>Deportivo Rufus</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2007/08</stagione>
+      </stagione>
+      <stagione 
+        year="2007/08">
         <posizione>8</posizione>
         <vecchio_nome>Deportivo Rufus</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2008/09</stagione>
+      </stagione>
+      <stagione 
+        year="2008/09">
         <posizione>6</posizione>
-      </campionato>
-      <campionato>
-        <stagione>2009/10</stagione>
+      </stagione>
+      <stagione 
+        year="2009/10">
         <posizione>7</posizione>
-      </campionato>
-      <campionato>
-        <stagione>2010/11</stagione>
+      </stagione>
+      <stagione 
+        year="2010/11">
         <posizione>8</posizione>
-      </campionato>
-      <coppa>C</coppa>
-      <campionato>
-        <stagione>2011/12</stagione>
+      <coppa>C</coppa></stagione>
+      
+      <stagione 
+        year="2011/12">
         <posizione>7</posizione>
-      </campionato>
-      <campionato>
-        <stagione>2012/13</stagione>
+      </stagione>
+      <stagione 
+        year="2012/13">
         <posizione>7</posizione>
-      </campionato>
-      <campionato>
-        <stagione>2013/14</stagione>
+      </stagione>
+      <stagione 
+        year="2013/14">
         <posizione>3</posizione>
-      </campionato>
-      <campionato>
-        <stagione>2014/15</stagione>
+      </stagione>
+      <stagione 
+        year="2014/15">
         <posizione>7</posizione>
-      </campionato>      
-      <campionato>
-        <stagione>2015/16</stagione>
+      </stagione>      
+      <stagione 
+        year="2015/16">
         <posizione>1</posizione>
-      </campionato>
-      <coppa>C</coppa>
-      <campionato>
-      	<stagione>2016/17</stagione>
-      	<posizione>2</posizione></campionato>
-      <coppa>C</coppa>
+      <coppa>C</coppa></stagione>
+      
+      <stagione 
+      	year="2016/17">
+      	<posizione>2</posizione><coppa>C</coppa></stagione>
+      
     </storico>
   </squadra>
 </squadre>
