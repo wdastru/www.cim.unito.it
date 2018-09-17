@@ -1,94 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <squadre>
-  <squadra>
-    <nome>krakatoa</nome>
-    <img>krakatoa.jpg</img>
-    <storico>
-      <campionato>
-        <stagione>2000/01</stagione>
-        <posizione>3</posizione>
-        <vecchio_nome>A.C. Picchia</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2001/02</stagione>
-        <posizione>5</posizione>
-        <vecchio_nome>A.C. Picchia</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2002/03</stagione>
-        <posizione>5</posizione>
-        <vecchio_nome>A.C. Picchia</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2003/04</stagione>
-        <posizione>8</posizione>
-        <vecchio_nome>A.C. Picchia</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2004/05</stagione>
-        <posizione>3</posizione>
-        <vecchio_nome>A.S.C. Emo!</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2005/06</stagione>
-        <posizione>2</posizione>
-        <vecchio_nome>A.S.C. Emo!</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2006/07</stagione>
-        <posizione>8</posizione>
-        <vecchio_nome>A.S.C. Emo!</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2007/08</stagione>
-        <posizione>3</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2008/09</stagione>
-        <posizione>5</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2009/10</stagione>
-        <posizione>6</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2010/11</stagione>
-        <posizione>5</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2011/12</stagione>
-        <posizione>4</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2012/13</stagione>
-        <posizione>5</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2013/14</stagione>
-        <posizione>6</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>
-      <campionato>
-        <stagione>2014/15</stagione>
-        <posizione>6</posizione>
-        <vecchio_nome>Ij Patelavache</vecchio_nome>
-      </campionato>      
-      <campionato>
-        <stagione>2015/16</stagione>
-        <posizione>2</posizione>
-      </campionato>
-      <campionato>
-      	<stagione>2016/17</stagione>
-      	<posizione>3</posizione></campionato>
-      <campionato>
-      	<stagione>2017/18</stagione>
-      	<posizione>3</posizione></campionato>
-    </storico>
-  </squadra>
+	<squadra>
+		<nome>krakatoa</nome>
+		<img>krakatoa.jpg</img>
+		<storico>
+			<stagione year="2000/01">
+				<posizione>3</posizione>
+				<vecchio_nome>A.C. Picchia</vecchio_nome>
+			</stagione>
+			<stagione year="2001/02">
+				<posizione>5</posizione>
+				<vecchio_nome>A.C. Picchia</vecchio_nome>
+			</stagione>
+			<stagione year="2002/03">
+				<posizione>5</posizione>
+				<vecchio_nome>A.C. Picchia</vecchio_nome>
+			</stagione>
+			<stagione year="2003/04">
+				<posizione>8</posizione>
+				<vecchio_nome>A.C. Picchia</vecchio_nome>
+			</stagione>
+			<stagione year="2004/05">
+				<posizione>3</posizione>
+				<vecchio_nome>A.S.C. Emo!</vecchio_nome>
+			</stagione>
+			<stagione year="2005/06">
+				<posizione>2</posizione>
+				<vecchio_nome>A.S.C. Emo!</vecchio_nome>
+			</stagione>
+			<stagione year="2006/07">
+				<posizione>8</posizione>
+				<vecchio_nome>A.S.C. Emo!</vecchio_nome>
+			</stagione>
+			<stagione year="2007/08">
+				<posizione>3</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2008/09">
+				<posizione>5</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2009/10">
+				<posizione>6</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2010/11">
+				<posizione>5</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2011/12">
+				<posizione>4</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2012/13">
+				<posizione>5</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2013/14">
+				<posizione>6</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2014/15">
+				<posizione>6</posizione>
+				<vecchio_nome>Ij Patelavache</vecchio_nome>
+			</stagione>
+			<stagione year="2015/16">
+				<posizione>2</posizione>
+			</stagione>
+			<stagione year="2016/17">
+				<posizione>3</posizione>
+			</stagione>
+			<stagione year="2017/18">
+				<posizione>3</posizione>
+			</stagione>
+		</storico>
+	</squadra>
 </squadre>
