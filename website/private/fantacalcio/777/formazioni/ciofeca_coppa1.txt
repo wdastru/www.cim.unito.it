@@ -4,28 +4,28 @@
 AUDERO Emil
 DRAGOWSKI Bartlomiej
 LAFONT Alban
-MARUSIC Adam
-CHIELLINI Giorgio
 MANOLAS Konstantinos
+MARUSIC Adam
+ANDERSEN Joachim
+CHIELLINI Giorgio
 BIRAGHI Cristiano
 VITOR HUGO Franchescoli de Souza
 CONTI Andrea
-ANDERSEN Joachim
 CIONEK Thiago
 ÜNDER Cengiz
-PJANIC Miralem
+RIGONI Emiliano
 CRISTANTE Bryan
 CHIESA Federico
 DE PAUL Rodrigo
-GERSON Santos Da Silva
-RIGONI Emiliano
+PJANIC Miralem
 SORIANO Roberto
+GERSON Santos Da Silva
 QUAGLIARELLA Fabio
-DEFREL Gregoire
-LUIS ALBERTO Romero Alconchel
 EL SHAARAWY Stephan
+LUIS ALBERTO Romero Alconchel
+DEFREL Gregoire
 BARROW Musa
 MARTINEZ Lautaro
 70
 3337815436
-Thu 13 Sep 2018 - 16:34:58
+Sat 15 Sep 2018 - 14:33:22
