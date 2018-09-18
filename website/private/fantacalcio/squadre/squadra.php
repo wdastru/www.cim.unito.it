@@ -56,7 +56,7 @@ $fileSquadreXml = $_GET['squadra'] . ".xml";
 if(file_exists($fileSquadreXml))
 {
     
-    $xml=simplexml_load_file($fileSquadreXml) or die("Error: Cannot create object");
+    $xml=simplexml_load_file($fileSquadreXml)/* or die("Error: Cannot create object")*/;
     //print_r($xml);
 	$imgSquadra = $xml->squadra->img;
 	
