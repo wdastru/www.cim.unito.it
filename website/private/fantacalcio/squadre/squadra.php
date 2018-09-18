@@ -55,6 +55,11 @@ if ( isset($_POST['changePassword']) )
 $fileSquadreXml = $_GET['squadra'] . ".xml";
 if(file_exists($fileSquadreXml))
 {
+    
+    $xmlDoc = new DOMDocument();
+    $xmlDoc->load($fileSquadreXml);
+    print $xmlDoc->saveXML();
+    
 	//read the contents into a string
 	$str = file_get_contents($fileSquadreXml,"rb");
 	$myparser = xml_parser_create();
