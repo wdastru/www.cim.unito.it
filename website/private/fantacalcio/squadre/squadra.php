@@ -56,119 +56,10 @@ $fileSquadreXml = $_GET['squadra'] . ".xml";
 if(file_exists($fileSquadreXml))
 {
     
-    $xmlDoc = new DOMDocument();
-    $xmlDoc->load($fileSquadreXml);
-    //print $xmlDoc->saveXML();
-    
-    $x = $xmlDoc->documentElement; // root del documento <squadre>
-    
-    echo "#<br/>";
-    print_r($x->childNodes->length);   
-    echo "<br/>#<br/>";
-    
-    $level_1_length = $x->childNodes->length;
-    
-    for ($i=0; $i<$level_1_length; $i++) { // primo livello
-        
-        if ($x->childNodes->item($i)->nodeName != "#text")
-        {
-            /*
-             * contiene :
-             * <squadra>
-             * 
-             */
-            
-            $node_1 = $x->childNodes->item($i);
-            print_r($node_1);
-            echo "<br/>";
-            echo $i . " " . $node_1->nodeName . "<br/>";
-            echo $i . " " . $node_1->nodeValue . "<br/>";
-            
-            $level_2_length = $node_1->childNodes->length;
-            
-            for ($j=0; $j<$level_2_length; $j++) { // secondo livello
-                
-                if ($node_1->childNodes->item($j)->nodeName != "#text")
-                {
-                    /*
-                     * contiene :
-                     * <nome>
-                     * <img>
-                     * <storico>
-                     *
-                     */
-                    
-                    $node_2 = $node_1->childNodes->item($j);
-                    print_r($node_2);
-                    echo "<br/>";
-                    echo $j . " " . $node_2->nodeName . "<br/>";
-                    echo $j . " " . $node_2->nodeValue . "<br/>";
-                    
-                    if ($node_2->nodeName == 'img') {
-                        $imgSquadra = $node_2->nodeValue;
-                    }
-                    
-                    $level_3_length = $node_2->childNodes->length;
-                    
-                    for ($k=0; $k<$level_3_length; $k++) { // terzo livello
-                        if ($node_1->childNodes->item($j)->nodeName != "#text")
-                        {
-                            /*
-                             * contiene :
-                             * <stagione>
-                             *
-                             */
-                            
-                            $node_3 = $node_2->childNodes->item($k);
-                            print_r($node_3);
-                            echo "<br/>";
-                            echo $k . " " . $node_3->nodeName . "<br/>";
-                            echo $k . " " . $node_3->nodeValue . "<br/>";
-                            
-                            if ($node_3->nodeName == 'stagione') {
-                                
-                                echo $k . " " . $node_3->attributes->item(0)->value . "<br/>";
-                                
-                            }
-                        }
-                    }
-                }
-            }            
-        }
-    }
-    
-	//read the contents into a string
-	$str = file_get_contents($fileSquadreXml,"rb");
-	$myparser = xml_parser_create();
-	xml_parse_into_struct($myparser, $str, $text);
-	xml_parser_free($myparser);
-	//print_r($text);
-
-	//$imgSquadra = $text[4]['value'];
-
-	$j=0;
-	for ($i=0;$i<count($text);$i++)
-	{
-		if ($text[$i]['tag'] == 'CAMPIONATO' && $text[$i]['type'] == 'open')
-		{
-			if ($text[$i+1]['tag'] == 'STAGIONE')
-			$storico[$j]['stagione'] = $text[$i+1]['value'];
-			if ($text[$i+3]['tag'] == 'POSIZIONE')
-			$storico[$j]['posizione'] = $text[$i+3]['value'];
-			if ($text[$i+5]['tag'] == 'VECCHIO_NOME')
-			$storico[$j]['vecchio_nome'] = $text[$i+5]['value'];
-			if ($text[$i+7]['tag'] == 'COPPA' || $text[$i+7]['tag'] == 'SUPERCOPPA' || $text[$i+7]['tag'] == 'CHAMPIONS')
-			$storico[$j]['coppa'] = $text[$i+7]['value'];
-			if ($text[$i+9]['tag'] == 'COPPA' || $text[$i+9]['tag'] == 'SUPERCOPPA' || $text[$i+9]['tag'] == 'CHAMPIONS')
-			$storico[$j]['supercoppa'] = $text[$i+9]['value'];
-			if ($text[$i+11]['tag'] == 'COPPA' || $text[$i+11]['tag'] == 'SUPERCOPPA' || $text[$i+11]['tag'] == 'CHAMPIONS')
-			$storico[$j]['champions'] = $text[$i+11]['value'];
-
-			$j++;
-		}
-	}
-	//show the contents
-	//print_r($storico);
+    $xml=simplexml_load_file($fileSquadreXml)/* or die("Error: Cannot create object")*/;
+    //print_r($xml);
+	$imgSquadra = $xml->squadra->img;
+	
 } else {
 	echo "Il file " . $fileSquadreXml . " non esiste!";
 	exit();
@@ -223,24 +114,31 @@ if(file_exists($fileSquadreXml))
 				<td class="Storico"><table>
 						<tr>
 							<td><?php
-							for ($i=0; $i<count($storico); $i++)
-							{
-								echo "
-						<div class='stagione'>
-						  <span class='stagione'>" . $storico[$i]['stagione'] . " :</span>
-						  <span class='" . $numeroToAdjective[$storico[$i]['posizione']] . "'>&nbsp;" . $storico[$i]['posizione'] . "&deg;&nbsp;</span>";
-
-						  if ( isset($storico[$i]['coppa']) && $storico[$i]['coppa'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['coppa'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['supercoppa']) && $storico[$i]['supercoppa'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['supercoppa'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['champions']) && $storico[$i]['champions'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['champions'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['vecchio_nome']) && $storico[$i]['vecchio_nome'] != '' )
-						  echo "<span class='oldName'>&nbsp;" . $storico[$i]['vecchio_nome'] . "&nbsp;</span>";
-						  	
-						  echo "</div>";
+							
+							foreach($xml->squadra->storico->children() as $stagione) {
+							    echo "<div class='stagione'>
+							            <span class='stagione'>"
+                                    . $stagione['year'] .
+                                    " : </span>";
+                                echo "<span class='"
+                                . $numeroToAdjective[(int)$stagione->posizione] . "'>&nbsp;"
+                                . $stagione->posizione . "&deg;&nbsp;</span>";
+                                
+                                if (isset( $stagione->coppa ))
+                                    echo "<span class='coppe'>&nbsp" . $stagione->coppa . "&nbsp;</span>";
+                                
+                                    if (isset( $stagione->supercoppa ))
+                                        echo "<span class='coppe'>&nbsp" . $stagione->supercoppa . "&nbsp;</span>";
+                                    
+                                    if (isset( $stagione->champions ))
+                                        echo "<span class='coppe'>&nbsp" . $stagione->champions . "&nbsp;</span>";
+                                    
+                                    if (isset( $stagione->vecchio_nome ))
+                                        echo "<span class='oldName'>&nbsp" . $stagione->vecchio_nome . "&nbsp;</span>";
+                                                
+                                echo "</div>";
 							}
+                                    
 							?></td>
 						</tr>
 					</table></td>
