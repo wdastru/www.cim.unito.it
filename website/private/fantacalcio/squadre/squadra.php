@@ -58,7 +58,22 @@ if(file_exists($fileSquadreXml))
     
     $xmlDoc = new DOMDocument();
     $xmlDoc->load($fileSquadreXml);
-    print $xmlDoc->saveXML();
+    
+    $x = $xmlDoc->documentElement;
+    
+    foreach ($x->childNodes as $item) {
+        
+        foreach ($item->childNodes as $item2) {
+                        
+            if ($item2->nodeName == "img") {
+                $imgSquadra = $item2->nodeValue;
+            }
+            
+            if ($item2->nodeName == "storico") {
+                $imgSquadra = $item2->nodeValue;
+            }
+        }
+    }
     
 	//read the contents into a string
 	$str = file_get_contents($fileSquadreXml,"rb");
@@ -67,7 +82,7 @@ if(file_exists($fileSquadreXml))
 	xml_parser_free($myparser);
 	//print_r($text);
 
-	$imgSquadra = $text[4]['value'];
+	//$imgSquadra = $text[4]['value'];
 
 	$j=0;
 	for ($i=0;$i<count($text);$i++)
