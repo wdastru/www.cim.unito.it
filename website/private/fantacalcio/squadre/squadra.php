@@ -58,20 +58,82 @@ if(file_exists($fileSquadreXml))
     
     $xmlDoc = new DOMDocument();
     $xmlDoc->load($fileSquadreXml);
+    //print $xmlDoc->saveXML();
     
-    $x = $xmlDoc->documentElement;
+    $x = $xmlDoc->documentElement; // root del documento <squadre>
     
-    foreach ($x->childNodes as $item) {
+    echo "#<br/>";
+    print_r($x->childNodes->length);   
+    echo "<br/>#<br/>";
+    
+    $level_1_length = $x->childNodes->length;
+    
+    for ($i=0; $i<$level_1_length; $i++) { // primo livello
         
-        foreach ($item->childNodes as $item2) {
-                        
-            if ($item2->nodeName == "img") {
-                $imgSquadra = $item2->nodeValue;
-            }
+        if ($x->childNodes->item($i)->nodeName != "#text")
+        {
+            /*
+             * contiene :
+             * <squadra>
+             * 
+             */
             
-            if ($item2->nodeName == "storico") {
-                $imgSquadra = $item2->nodeValue;
-            }
+            $node_1 = $x->childNodes->item($i);
+            print_r($node_1);
+            echo "<br/>";
+            echo $i . " " . $node_1->nodeName . "<br/>";
+            echo $i . " " . $node_1->nodeValue . "<br/>";
+            
+            $level_2_length = $node_1->childNodes->length;
+            
+            for ($j=0; $j<$level_2_length; $j++) { // secondo livello
+                
+                if ($node_1->childNodes->item($j)->nodeName != "#text")
+                {
+                    /*
+                     * contiene :
+                     * <nome>
+                     * <img>
+                     * <storico>
+                     *
+                     */
+                    
+                    $node_2 = $node_1->childNodes->item($j);
+                    print_r($node_2);
+                    echo "<br/>";
+                    echo $j . " " . $node_2->nodeName . "<br/>";
+                    echo $j . " " . $node_2->nodeValue . "<br/>";
+                    
+                    if ($node_2->nodeName == 'img') {
+                        $imgSquadra = $node_2->nodeValue;
+                    }
+                    
+                    $level_3_length = $node_2->childNodes->length;
+                    
+                    for ($k=0; $k<$level_3_length; $k++) { // terzo livello
+                        if ($node_1->childNodes->item($j)->nodeName != "#text")
+                        {
+                            /*
+                             * contiene :
+                             * <stagione>
+                             *
+                             */
+                            
+                            $node_3 = $node_2->childNodes->item($k);
+                            print_r($node_3);
+                            echo "<br/>";
+                            echo $k . " " . $node_3->nodeName . "<br/>";
+                            echo $k . " " . $node_3->nodeValue . "<br/>";
+                            
+                            if ($node_3->nodeName == 'stagione') {
+                                
+                                echo $k . " " . $node_3->attributes->item(0)->value . "<br/>";
+                                
+                            }
+                        }
+                    }
+                }
+            }            
         }
     }
     
