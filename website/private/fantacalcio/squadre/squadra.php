@@ -52,41 +52,127 @@ if ( isset($_POST['changePassword']) )
 	}
 }
 
+$stagione = array();
+
 $fileSquadreXml = $_GET['squadra'] . ".xml";
 if(file_exists($fileSquadreXml))
 {
-	//read the contents into a string
-	$str = file_get_contents($fileSquadreXml,"rb");
-	$myparser = xml_parser_create();
-	xml_parse_into_struct($myparser, $str, $text);
-	xml_parser_free($myparser);
-	//print_r($text);
-
-	$imgSquadra = $text[4]['value'];
-
-	$j=0;
-	for ($i=0;$i<count($text);$i++)
-	{
-		if ($text[$i]['tag'] == 'CAMPIONATO' && $text[$i]['type'] == 'open')
-		{
-			if ($text[$i+1]['tag'] == 'STAGIONE')
-			$storico[$j]['stagione'] = $text[$i+1]['value'];
-			if ($text[$i+3]['tag'] == 'POSIZIONE')
-			$storico[$j]['posizione'] = $text[$i+3]['value'];
-			if ($text[$i+5]['tag'] == 'VECCHIO_NOME')
-			$storico[$j]['vecchio_nome'] = $text[$i+5]['value'];
-			if ($text[$i+7]['tag'] == 'COPPA' || $text[$i+7]['tag'] == 'SUPERCOPPA' || $text[$i+7]['tag'] == 'CHAMPIONS')
-			$storico[$j]['coppa'] = $text[$i+7]['value'];
-			if ($text[$i+9]['tag'] == 'COPPA' || $text[$i+9]['tag'] == 'SUPERCOPPA' || $text[$i+9]['tag'] == 'CHAMPIONS')
-			$storico[$j]['supercoppa'] = $text[$i+9]['value'];
-			if ($text[$i+11]['tag'] == 'COPPA' || $text[$i+11]['tag'] == 'SUPERCOPPA' || $text[$i+11]['tag'] == 'CHAMPIONS')
-			$storico[$j]['champions'] = $text[$i+11]['value'];
-
-			$j++;
-		}
-	}
-	//show the contents
-	//print_r($storico);
+    
+    $xmlDoc = new DOMDocument();
+    $xmlDoc->load($fileSquadreXml);
+    //print $xmlDoc->saveXML();
+    
+    $x = $xmlDoc->documentElement; // root del documento <squadre>
+    
+    //echo "#<br/>";
+    //print_r($x->childNodes->length);
+    //echo "<br/>#<br/>";
+    
+    $nodes_1 = $x->childNodes;
+    for ($i=0; $i<$nodes_1->length; $i++) { // primo livello
+        
+        $node_1 = $nodes_1->item($i);
+        if ($node_1->nodeName != "#text")
+        {
+            /*
+             * contiene :
+             * <squadra>
+             *
+             */
+            
+            $nodes_2 = $node_1->childNodes;
+            for ($j=0; $j<$nodes_2->length; $j++) { // secondo livello
+                
+                $node_2 = $nodes_2->item($j);
+                if ($node_2->nodeName != "#text")
+                {
+                    /*
+                     * contiene :
+                     * <nome>
+                     * <img>
+                     * <storico>
+                     *
+                     */
+                    
+                    if ($node_2->nodeName == 'img') {
+                        $imgSquadra = $node_2->nodeValue;
+                    }
+                    
+                    $nodes_3 = $node_2->childNodes;
+                    for ($k=0; $k<$nodes_3->length; $k++) { // terzo livello
+                        
+                        $node_3 = $nodes_3->item($k);
+                        if ($node_3->nodeName != "#text")
+                        {
+                            /*
+                             * contiene :
+                             * <stagione>
+                             *
+                             */
+                            
+                            $tmpArray = array();
+                            /*
+                             * [0] => anno
+                             * [1] => posizione
+                             * [2] => vecchio_nome
+                             * [3] => champions
+                             * [4] => coppa
+                             * [5] => supercoppa
+                             * 
+                             */
+                            
+                            if ($node_3->nodeName == 'stagione') {
+                                array_push($tmpArray, $node_3->attributes->item(0)->value);
+                            }
+                            
+                            //print_r($tmpArray);
+                        
+                            $nodes_4 = $node_3->childNodes;
+                            for ($t=0; $t<$nodes_4->length; $t++) { // quarto livello
+                                
+                                $node_4 = $nodes_4->item($t);
+                                if ($node_4->nodeName != "#text")
+                                {
+                                    /*
+                                     * contiene :
+                                     * <posizione>
+                                     * <coppa>
+                                     * <supercoppa>
+                                     * <champions>
+                                     * <vecchio_nome>
+                                     * 
+                                     */
+                                    
+                                    if ($node_4->nodeName == 'posizione') {
+                                        array_push($tmpArray, $node_4->nodeValue);
+                                    }
+                                    
+                                    if ($node_4->nodeName == 'vecchio_nome') {
+                                        array_push($tmpArray, $node_4->nodeValue);
+                                    }
+                                    
+                                    if ($node_4->nodeName == 'champions') {
+                                        array_push($tmpArray, $node_4->nodeValue);
+                                    }
+                                    
+                                    if ($node_4->nodeName == 'coppa') {
+                                        array_push($tmpArray, $node_4->nodeValue);
+                                    }
+                                    
+                                    if ($node_4->nodeName == 'supercoppa') {
+                                        array_push($tmpArray, $node_4->nodeValue);
+                                    }
+                                }
+                            }
+                            
+                            array_push($stagione, $tmpArray);
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
 } else {
 	echo "Il file " . $fileSquadreXml . " non esiste!";
 	exit();
@@ -140,26 +226,55 @@ if(file_exists($fileSquadreXml))
 					height="150" alt="<?php echo $imgSquadra; ?>" /></td>
 				<td class="Storico"><table>
 						<tr>
-							<td><?php
-							for ($i=0; $i<count($storico); $i++)
-							{
-								echo "
-						<div class='stagione'>
-						  <span class='stagione'>" . $storico[$i]['stagione'] . " :</span>
-						  <span class='" . $numeroToAdjective[$storico[$i]['posizione']] . "'>&nbsp;" . $storico[$i]['posizione'] . "&deg;&nbsp;</span>";
+							<td>
+							
+<?php
+    foreach ($stagione as $content) {
+        
+        /*
+         * $content e' array che può contenere fino a 6 campi:
+         * => anno
+         * => posizione
+         * => vecchio_nome
+         * => champions
+         * => coppa
+         * => supercoppa
+         * 
+         * in realtà 
+         * => vecchio_nome
+         * => champions
+         * => coppa
+         * => supercoppa         * 
+         *
+         * possono essere mancanti anno e posizione ci sono sempre 
+         * ed in quell'ordine; gli altri si o no e in ordine sparso.
+         * 
+         */
+        
+        foreach ($content as $item) {
+            if (preg_match('/^[0-9]{4}\/[0-9]{2}$/', $item, $match)) {
+                echo "<div class='stagione'>
+                <span class='stagione'>" . $match[0] . " : </span>";
+            } else if (preg_match('/^[1-8]{1}$/', $item, $match)) {
+                echo "<span class='" . $numeroToAdjective[(int) $match[0]] . 
+                "'>&nbsp;" . $match[0] . "&deg;&nbsp;</span>";           
+            } else if (preg_match('/^.{3,}$/', $item, $match)) {
+                echo "<span class='oldName'>&nbsp" . $match[0] . "&nbsp;</span>";
+            } else if (preg_match('/^C$/', $item, $match)) {
+                echo "<span class='coppe'>&nbsp" . $match[0] . "&nbsp;</span>";
+            } else if (preg_match('/^SC$/', $item, $match)) {
+                echo "<span class='coppe'>&nbsp" . $match[0] . "&nbsp;</span>";
+            } else if (preg_match('/^Ch$/', $item, $match)) {
+                echo "<span class='coppe'>&nbsp" . $match[0] . "&nbsp;</span>";
+            }
+        }
+        
+        echo "</div>";
+    }
+                                    
+?>
 
-						  if ( isset($storico[$i]['coppa']) && $storico[$i]['coppa'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['coppa'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['supercoppa']) && $storico[$i]['supercoppa'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['supercoppa'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['champions']) && $storico[$i]['champions'] != '' )
-						  echo "<span class='coppe'>&nbsp;" . $storico[$i]['champions'] . "&nbsp;</span>";
-						  if ( isset($storico[$i]['vecchio_nome']) && $storico[$i]['vecchio_nome'] != '' )
-						  echo "<span class='oldName'>&nbsp;" . $storico[$i]['vecchio_nome'] . "&nbsp;</span>";
-						  	
-						  echo "</div>";
-							}
-							?></td>
+</td>
 						</tr>
 					</table></td>
 			</tr>
