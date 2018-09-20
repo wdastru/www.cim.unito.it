@@ -6,6 +6,9 @@ ciofeca.txt
 ciofeca_coppa1.txt
 eporediese.txt
 eporediese_coppa_1.txt
+eporediese_tipo_valida_fino_20180913-103820.txt
+eporediese_tipo_valida_fino_20180913-103838.txt
+eporediese_tipo_valida_fino_20180913-103848.txt
 fedora.txt
 krakatoa.txt
 krakatoa_1a_coppa.txt
