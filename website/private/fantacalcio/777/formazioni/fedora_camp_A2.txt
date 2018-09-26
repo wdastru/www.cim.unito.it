@@ -2,24 +2,24 @@
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 HANDANOVIC Samir
-SORRENTINO Stefano
 PADELLI Daniele
+SORRENTINO Stefano
 ACERBI Francesco
-ALBIOL Raúl
+MASIELLO Andrea
 HATEBOER Hans
+ROMAGNOLI Alessio
+ALBIOL Raúl
 GHOULAM Faouzi
 VRSALJKO Sime
-MASIELLO Andrea
-ROMAGNOLI Alessio
 VICARI Francesco
-DE ROON Marten
-BARILLÀ Antonino
 MATUIDI Blaise
-BROZOVIC Marcelo
-KURTIC Jasmin
-LAZZARI Manuel
 MEITE Soualiho
+BROZOVIC Marcelo
+LAZZARI Manuel
+DE ROON Marten
+KURTIC Jasmin
 KRUNIC Rade
+BARILLÀ Antonino
 HIGUAIN Gonzalo
 DZEKO Edin
 KLUIVERT Justin
@@ -28,4 +28,4 @@ PANDEV Goran
 CUTRONE Patrick
 110
 3404073967
-Tue 25 Sep 2018 - 11:57:23
+Tue 25 Sep 2018 - 12:00:27

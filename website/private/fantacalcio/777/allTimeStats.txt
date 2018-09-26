@@ -902,7 +902,7 @@
 1617/L.A. Krakatoa/Rapid Bradip/-/-/-/-/0/
 1617/L.A. Krakatoa/Rapid Bradip/-/-/-/-/1/
 1617/L.A. Krakatoa/Rapid Bradip/-/-/-/-/0/
-1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/1/
+1617/Lokomotiv Peccorino/Real Mentescars/4/2/86.5/77.5/1/BERNARDESCHI Federico/RONALDO Cristiano/BONAVENTURA Giacomo/BERNARDESCHI Federico/INSIGNE Lorenzo/GERVINHO /
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/

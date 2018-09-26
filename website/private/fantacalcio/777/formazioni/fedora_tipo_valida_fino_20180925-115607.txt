@@ -2,30 +2,30 @@
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
 HANDANOVIC Samir
-SORRENTINO Stefano
+GOMIS Alfred
 PADELLI Daniele
 ACERBI Francesco
-ALBIOL Raúl
-HATEBOER Hans
+ALBIOL Raul
+MUSACCHIO Mateo
 GHOULAM Faouzi
-VRSALJKO Sime
+NUYTINCK Bram
 MASIELLO Andrea
 ROMAGNOLI Alessio
-VICARI Francesco
-DE ROON Marten
-BARILLÀ Antonino
+MARUSIC Adam
+TORREIRA Lucas
+CASTRO Lucas
 MATUIDI Blaise
 BROZOVIC Marcelo
-KURTIC Jasmin
+LULIC Senad
 LAZZARI Manuel
-MEITE Soualiho
-KRUNIC Rade
+LJAJIC Adem
+FARAGÒ Paolo
 HIGUAIN Gonzalo
 DZEKO Edin
-KLUIVERT Justin
-SCHICK Patrik
+PUCCIARELLI Manuel
+PALACIO Rodrigo
 PANDEV Goran
-CUTRONE Patrick
+TAARABT Adel
 110
 3404073967
-Tue 25 Sep 2018 - 11:57:23
+Thu 08 Feb 2018 - 13:33:47
