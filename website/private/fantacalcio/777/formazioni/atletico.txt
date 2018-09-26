@@ -12,7 +12,7 @@ LIROLA Pol
 CALABRIA Davide
 MIRANDA Joao
 MARCANO Iván
-RAMIREZ Gaston
+RAMIREZ Gastón
 NAINGGOLAN Radja
 BIRSA Valter
 BENASSI Marco
@@ -21,7 +21,7 @@ LULIC Senad
 BOATENG Kevin-Prince
 SAPONARA Riccardo
 ANTENUCCI Mirco
-SUSO Jesus
+SUSO Jesus Fernandez Saez
 BELOTTI Andrea
 ZAZA Simone
 INGLESE Roberto

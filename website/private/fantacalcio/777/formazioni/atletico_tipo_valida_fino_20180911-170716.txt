@@ -12,7 +12,7 @@ LIROLA Pol
 REGINI Vasco
 DALBERT Henrique
 ROMULO
-RAMIREZ Gaston
+RAMIREZ Gastón
 PEROTTI Diego
 BIRSA Valter
 BENASSI Marco
@@ -21,7 +21,7 @@ IONITA Artur
 BESSA Daniel
 DONSAH Godfred
 ANTENUCCI Mirco
-SUSO Jesus
+SUSO Jesus Fernandez Saez
 BELOTTI Andrea
 ZAZA Simone
 INGLESE Roberto
