@@ -898,35 +898,35 @@
 1617/EPOrediese/Atletico? No Grazie!/-/-/-/-/0/
 1617/EPOrediese/Atletico? No Grazie!/-/-/-/-/1/
 1617/EPOrediese/Atletico? No Grazie!/-/-/-/-/0/
-1617/L.A. Krakatoa/Rapid Bradip/-/-/-/-/1/
+1617/L.A. Krakatoa/Rapid Bradip/3/2/78.5/75/1/IMMOBILE CIRO/IMMOBILE CIRO/PIATEK KRZYSZTOF/MILINKOVIC SERGEJ/MILENKOVIC NIKOLA/
 1617/L.A. Krakatoa/Rapid Bradip/-/-/-/-/0/
 1617/L.A. Krakatoa/Rapid Bradip/-/-/-/-/1/
 1617/L.A. Krakatoa/Rapid Bradip/-/-/-/-/0/
-1617/Lokomotiv Peccorino/Real Mentescars/4/2/86.5/77.5/1/BERNARDESCHI Federico/RONALDO Cristiano/BONAVENTURA Giacomo/BERNARDESCHI Federico/INSIGNE Lorenzo/GERVINHO /
+1617/Lokomotiv Peccorino/Real Mentescars/4/2/86.5/77.5/1/BERNARDESCHI FEDERICO/RONALDO CRISTIANO/BONAVENTURA GIACOMO/BERNARDESCHI FEDERICO/INSIGNE LORENZO/GERVINHO /
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/
-1617/Dinamo Ciofeca/Fedora/-/-/-/-/1/
+1617/Dinamo Ciofeca/Fedora/1/1/71/71.5/1/CHIESA/BROZOVIC/
 1617/Dinamo Ciofeca/Fedora/-/-/-/-/0/
 1617/Dinamo Ciofeca/Fedora/-/-/-/-/1/
 1617/Dinamo Ciofeca/Fedora/-/-/-/-/0/
-1617/Atletico? No Grazie!/L.A. Krakatoa/-/-/-/-/1/
+1617/Atletico? No Grazie!/L.A. Krakatoa/0/4/63.5/84.5/1/D'AMBROSIO DANILO/PASTORE JAVIER/PIATEK KRZYSZTOF/D'AMBROSIO DANILO/
 1617/Atletico? No Grazie!/L.A. Krakatoa/-/-/-/-/0/
 1617/Atletico? No Grazie!/L.A. Krakatoa/-/-/-/-/1/
 1617/Atletico? No Grazie!/L.A. Krakatoa/-/-/-/-/0/
-1617/Rapid Bradip/EPOrediese/-/-/-/-/1/
+1617/Rapid Bradip/EPOrediese/2/1/73.5/68.5/1/DYBALA PAULO/DYBALA PAULO/ICARDI MAURO/
 1617/Rapid Bradip/EPOrediese/-/-/-/-/0/
 1617/Rapid Bradip/EPOrediese/-/-/-/-/1/
 1617/Rapid Bradip/EPOrediese/-/-/-/-/0/
-1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/1/
+1617/Real Mentescars/Dinamo Ciofeca/2/3/77.5/79/1/INSIGNE LORENZO/INSIGNE LORENZO/ÜNDER CENGIZ/EL SHAARAWY STEPHAN/ÜNDER CENGIZ/
 1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/0/
 1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/1/
 1617/Real Mentescars/Dinamo Ciofeca/-/-/-/-/0/
-1617/Fedora/Lokomotiv Peccorino/-/-/-/-/1/
+1617/Fedora/Lokomotiv Peccorino/4/0/85/64/1/MATUIDI BLAISE/ACERBI FRANCESCO/PANDEV GORAN/MATUIDI BLAISE/
 1617/Fedora/Lokomotiv Peccorino/-/-/-/-/0/
 1617/Fedora/Lokomotiv Peccorino/-/-/-/-/1/
 1617/Fedora/Lokomotiv Peccorino/-/-/-/-/0/
-1617/EPOrediese/L.A. Krakatoa/-/-/-/-/1/
+1617/EPOrediese/L.A. Krakatoa/1/4/71/86/1/PELLEGRINI LORENZO/PIATEK KRZYSZTOF/PIATEK KRZYSZTOF/VERETOUT JORDAN/IMMOBILE CIRO/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/0/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/1/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/0/
@@ -934,11 +934,11 @@
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/0/
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/1/
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/0/
-1617/Real Mentescars/Fedora/-/-/-/-/1/
+1617/Real Mentescars/Fedora/3/0/78/64/1/GERVINHO /BONUCCI LEONARDO/GERVINHO /
 1617/Real Mentescars/Fedora/-/-/-/-/0/
 1617/Real Mentescars/Fedora/-/-/-/-/1/
 1617/Real Mentescars/Fedora/-/-/-/-/0/
-1617/Dinamo Ciofeca/Lokomotiv Peccorino/-/-/-/-/1/
+1617/Dinamo Ciofeca/Lokomotiv Peccorino/2/3/77/78/1/DEFREL GREGOIRE/QUAGLIARELLA FABIO/MANDZUKIC MARIO/MANDZUKIC MARIO/RONALDO CRISTIANO/
 1617/Dinamo Ciofeca/Lokomotiv Peccorino/-/-/-/-/0/
 1617/Dinamo Ciofeca/Lokomotiv Peccorino/-/-/-/-/1/
 1617/Dinamo Ciofeca/Lokomotiv Peccorino/-/-/-/-/0/
@@ -946,15 +946,15 @@
 1617/Fedora/EPOrediese/-/-/-/-/0/
 1617/Fedora/EPOrediese/-/-/-/-/1/
 1617/Fedora/EPOrediese/-/-/-/-/0/
-1617/L.A. Krakatoa/Real Mentescars/-/-/-/-/1/
+1617/L.A. Krakatoa/Real Mentescars/2/2/77.5/72/1/IMMOBILE Ciro/PIATEK Krzysztof/JOAO PEDRO Geraldino Galvao/INSIGNE Lorenzo/
 1617/L.A. Krakatoa/Real Mentescars/-/-/-/-/0/
 1617/L.A. Krakatoa/Real Mentescars/-/-/-/-/1/
 1617/L.A. Krakatoa/Real Mentescars/-/-/-/-/0/
-1617/Lokomotiv Peccorino/Atletico? No Grazie!/-/-/-/-/1/
+1617/Lokomotiv Peccorino/Atletico? No Grazie!/2/1/77.5/71/1/BONAVENTURA Giacomo/RONALDO Cristiano/SUSO Jesus Fernandez Saez/
 1617/Lokomotiv Peccorino/Atletico? No Grazie!/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Atletico? No Grazie!/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Atletico? No Grazie!/-/-/-/-/0/
-1617/Rapid Bradip/Dinamo Ciofeca/-/-/-/-/1/
+1617/Rapid Bradip/Dinamo Ciofeca/0/1/65.5/69/1/MARTINEZ Lautaro/
 1617/Rapid Bradip/Dinamo Ciofeca/-/-/-/-/0/
 1617/Rapid Bradip/Dinamo Ciofeca/-/-/-/-/1/
 1617/Rapid Bradip/Dinamo Ciofeca/-/-/-/-/0/
