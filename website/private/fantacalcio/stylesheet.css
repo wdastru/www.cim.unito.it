@@ -157,8 +157,8 @@ table#finali_coppa td.datiCoppaDestra{ cursor: pointer; text-align:center; backg
 /*
  * MARCATORI
  * * * * * * */
-table.marcatori{ width:15%; border:none; margin:auto; border-collapse:collapse; }
-table.marcatori th{ color:textColor0; }
+table.marcatori{ width:35%; border:none; margin:auto; border-collapse:collapse; }
+table.marcatori th{ color:textColor0; text-align: center; }
 table.marcatori tr.odd{ color:textColor0; background-color:textColor1; text-align:left; }
 table.marcatori tr.even{ color:textColor1; background-color:textColor0; text-align:left; }
 #showAll { width: 100px; display: none; }
