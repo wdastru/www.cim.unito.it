@@ -1,3 +1,3 @@
 <?php
- $fileGaz=array(""); 
+ $fileGaz=array(); 
 ?>
