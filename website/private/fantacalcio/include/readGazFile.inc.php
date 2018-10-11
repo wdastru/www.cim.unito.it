@@ -195,7 +195,7 @@ while(!feof($handle))
 				
 				if ($dati [3] == "P") {
 					$dati [7] /= - 1; // goal
-				} else if ($dati [3] == "D") {
+				} /*else if ($dati [3] == "D") {
 					$dati [7] /= 4.5; // goal
 				} else if ($dati [3] == "C") {
 					if ($dati [13] == 'T')
@@ -211,7 +211,7 @@ while(!feof($handle))
 					/*
 					 * $dati[3] has wrong value
 					 */
-				}
+				//} 
 				
 				$dati[8] /= -0.5;	// ammonizioni
 				$dati[9] /= -1.0;	// espulsioni
