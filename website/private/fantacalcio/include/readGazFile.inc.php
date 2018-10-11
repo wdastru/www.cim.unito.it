@@ -80,7 +80,7 @@ while(!feof($handle))
 						
 						if ($datiStat[3] == "P") {
 							$datiStat[7] += $dati[7] / - 1.0;  // goal
-						} else if ($datiStat[3] == "D") {
+						} /*else if ($datiStat[3] == "D") {
 							$datiStat[7] += $dati[7] / 4.5;   // goal
 						} else if ($datiStat[3] == "C") {
 							if ($datiStat[13] == 'T')
@@ -96,7 +96,7 @@ while(!feof($handle))
 							/*
 							 * $dati[3] has wrong value
 							 */
-						}
+						//}
 						
 						$datiStat[8]+=$dati[8]/(-0.5);	// ammonizioni
 						$datiStat[9]+=$dati[9]/(-1.0);	// espulsioni
@@ -126,7 +126,7 @@ while(!feof($handle))
 					
 					if ($dati [3] == "P") {
 						$dati [7] /= - 1; // goal
-					} else if ($dati [3] == "D") {
+					} /*else if ($dati [3] == "D") {
 						$dati [7] /= 4.5; // goal
 					} else if ($dati [3] == "C") {
 						if ($dati [13] == 'T')
@@ -142,7 +142,7 @@ while(!feof($handle))
 						/*
 						 * $dati[3] has wrong value
 						 */
-					}
+					//}
 					
 					$dati[8] /= -0.5;	// ammonizioni
 					$dati[9] /= -1.0;	// espulsioni
