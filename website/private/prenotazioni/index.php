@@ -307,6 +307,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 <td><input id='iTelstar' class='instrumentButton' type='submit' name='instrument' value='Telstar' onmouseover='On(\"iTelstar\")' onmouseout='Off(\"iTelstar\")'/></td>
 <td><input id='iIsoFO2' class='instrumentButton' type='submit' name='instrument' value='IsoFO2' onmouseover='On(\"iIsoFO2\")' onmouseout='Off(\"iIsoFO2\")'/></td>
 <td><input id='iInfuser' class='instrumentButton' type='submit' name='instrument' value='Infuser' onmouseover='On(\"iInfuser\")' onmouseout='Off(\"iInfuser\")'/></td>
+<td><input id='iThermoMixer' class='instrumentButton' type='submit' name='instrument' value='ThermoMixer' onmouseover='On(\"iThermoMixer\")' onmouseout='Off(\"iThermoMixer\")'/></td>
 <td></td>
 </tr>
 </table>
