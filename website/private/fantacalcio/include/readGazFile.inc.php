@@ -80,7 +80,9 @@ while(!feof($handle))
 						
 						if ($datiStat[3] == "P") {
 							$datiStat[7] += $dati[7] / - 1.0;  // goal
-						} /*else if ($datiStat[3] == "D") {
+						} else {
+						    $datiStat[7] += $dati[7];  // goal
+						}/*else if ($datiStat[3] == "D") {
 							$datiStat[7] += $dati[7] / 4.5;   // goal
 						} else if ($datiStat[3] == "C") {
 							if ($datiStat[13] == 'T')
