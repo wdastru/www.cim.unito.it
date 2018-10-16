@@ -906,7 +906,7 @@
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Real Mentescars/-/-/-/-/0/
-1617/Dinamo Ciofeca/Fedora/1/1/71/71.5/1/CHIESA/BROZOVIC/
+1617/Dinamo Ciofeca/Fedora/1/1/71/71.5/1/CHIESA FEDERICO/BROZOVIC MARCELO/
 1617/Dinamo Ciofeca/Fedora/-/-/-/-/0/
 1617/Dinamo Ciofeca/Fedora/-/-/-/-/1/
 1617/Dinamo Ciofeca/Fedora/-/-/-/-/0/
@@ -930,7 +930,7 @@
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/0/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/1/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/0/
-1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/1/
+1617/Atletico? No Grazie!/Rapid Bradip/3/3/82/78.5/1/SUSO JESUS FERNANDEZ SAEZ/SUSO JESUS FERNANDEZ SAEZ/KOLAROV ALEKSANDAR/KESSIE FRANCK/FAZIO FEDERICO/KOUAMÉ CHRISTIAN/
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/0/
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/1/
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/0/
@@ -946,15 +946,15 @@
 1617/Fedora/EPOrediese/-/-/-/-/0/
 1617/Fedora/EPOrediese/-/-/-/-/1/
 1617/Fedora/EPOrediese/-/-/-/-/0/
-1617/L.A. Krakatoa/Real Mentescars/2/2/77.5/72/1/IMMOBILE Ciro/PIATEK Krzysztof/JOAO PEDRO Geraldino Galvao/INSIGNE Lorenzo/
+1617/L.A. Krakatoa/Real Mentescars/2/2/77.5/72/1/IMMOBILE CIRO/PIATEK KRZYSZTOF/JOAO PEDRO GERALDINO GALVAO/INSIGNE LORENZO/
 1617/L.A. Krakatoa/Real Mentescars/-/-/-/-/0/
 1617/L.A. Krakatoa/Real Mentescars/-/-/-/-/1/
 1617/L.A. Krakatoa/Real Mentescars/-/-/-/-/0/
-1617/Lokomotiv Peccorino/Atletico? No Grazie!/2/1/77.5/71/1/BONAVENTURA Giacomo/RONALDO Cristiano/SUSO Jesus Fernandez Saez/
+1617/Lokomotiv Peccorino/Atletico? No Grazie!/2/1/77.5/71/1/BONAVENTURA GIACOMO/RONALDO CRISTIANO/SUSO JESUS FERNANDEZ SAEZ/
 1617/Lokomotiv Peccorino/Atletico? No Grazie!/-/-/-/-/0/
 1617/Lokomotiv Peccorino/Atletico? No Grazie!/-/-/-/-/1/
 1617/Lokomotiv Peccorino/Atletico? No Grazie!/-/-/-/-/0/
-1617/Rapid Bradip/Dinamo Ciofeca/0/1/65.5/69/1/MARTINEZ Lautaro/
+1617/Rapid Bradip/Dinamo Ciofeca/0/1/65.5/69/1/MARTINEZ LAUTARO/
 1617/Rapid Bradip/Dinamo Ciofeca/-/-/-/-/0/
 1617/Rapid Bradip/Dinamo Ciofeca/-/-/-/-/1/
 1617/Rapid Bradip/Dinamo Ciofeca/-/-/-/-/0/
