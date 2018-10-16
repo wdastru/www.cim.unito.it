@@ -11,7 +11,7 @@ if (count($fileGaz) > 0)
 		while(!feof($handle))
 		{
 			$tmpStr=substr(trim(fgets($handle)), 4);
-			$allPlayers[$i][0]=trim(strtok($tmpStr,"\t"));	// nome e cognome
+			$allPlayers[$i][0]=strtok($tmpStr,"\t");	// nome e cognome
 			$allPlayers[$i][1]=strtok("\t");			// squadra
 			$allPlayers[$i][13]=strtok("\t");			// ruolo con trequartista
 			$allPlayers[$i][2]=strtok("\t");			// ruolo "classico"
@@ -33,7 +33,7 @@ if (count($fileGaz) > 0)
 
 			if ($allPlayers[$i][2] == "P") {
 				$allPlayers[$i][7] /= - 1;
-			} else if ($allPlayers[$i][2]== "D") {
+			} /*else if ($allPlayers[$i][2]== "D") {
 				$allPlayers[$i][7] /= 4.5;
 			} else if ($allPlayers[$i][2]== "C") {
 				if ($allPlayers[$i][13]== 'T')
@@ -49,7 +49,7 @@ if (count($fileGaz) > 0)
 				/*
 				 * $dati[3] has wrong value
 				 */
-			}
+			//}
 
 			$allPlayers[$i][8]=strtok("\t")/-0.5;		// ammonizioni
 			if($allPlayers[$i][8]=="-0" || $allPlayers[$i][8]=="0")
