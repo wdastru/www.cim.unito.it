@@ -50,6 +50,14 @@
 										<xsl:value-of select="mail" />
 										<br />
 									</xsl:if>
+									<xsl:if test='child::homepage != ""'>
+										<a>
+                                            <xsl:attribute name='href'><xsl:value-of select="homepage" /></xsl:attribute>
+                                            <xsl:attribute name='target'>_blank</xsl:attribute>
+											<b><xsl:text>personal homepage</xsl:text></b>
+                                        </a>
+										<br />
+									</xsl:if>
 									<xsl:if test='child::CV != ""'>
 									    <a>
                                             <xsl:attribute name='href'><xsl:value-of 
