@@ -74,6 +74,19 @@
 	</person>
 	<person>
 		<team>CPCRT</team>
+		<name>cutrin</name>
+		<fullName>Juan Carlos Cutrin</fullName>
+		<position>Researcher</position>
+		<image>images/cutrin.jpg</image>
+		<altText>cutrin.jpg</altText>
+		<mail>juancarlos.cutrin@unito.it</mail>
+		<phone>+39 011 6706473</phone>
+		<homepage>http://www.cim.unito.it/website/PI/Cutrin/home.html</homepage>
+		<fax>+39 011 6706487</fax>
+		<cell></cell>
+	</person>
+	<person>
+		<team>CPCRT</team>
 		<name>viale</name>
 		<fullName>Alessandra Viale</fullName>
 		<position>Researcher</position>
@@ -105,6 +118,7 @@
 		<altText>immagine non disponibile</altText>
 		<mail>dario.longo@unito.it</mail>
 		<phone>+39 011 6706473</phone>
+		<homepage>http://www.cim.unito.it/website/PI/Longo/home.html</homepage>
 		<address></address>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
