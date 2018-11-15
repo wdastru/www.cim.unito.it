@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <resource>
+    <file>FantaCalcGui_v3.5.5.zip</file>
+    <version>3.5.5</version>
+    <description>archivio</description>
+    <new>- corretto baco sostituzioni (rev. 1f37bef)</new>
+  </resource>
+  <resource>
     <file>FantaCalcGui_v3.5.4.zip</file>
     <version>3.5.4</version>
     <description>archivio</description>
