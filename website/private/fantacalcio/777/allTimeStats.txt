@@ -990,7 +990,7 @@
 1617/L.A. Krakatoa/Fedora/-/-/-/-/0/
 1617/L.A. Krakatoa/Fedora/-/-/-/-/1/
 1617/L.A. Krakatoa/Fedora/-/-/-/-/0/
-1617/EPOrediese/Dinamo Ciofeca/-/-/-/-/1/
+1617/EPOrediese/Dinamo Ciofeca/4/0/89/55.5/1/MERTENS Dries/MERTENS Dries/MERTENS Dries/MERTENS Dries/
 1617/EPOrediese/Dinamo Ciofeca/-/-/-/-/0/
 1617/EPOrediese/Dinamo Ciofeca/-/-/-/-/1/
 1617/EPOrediese/Dinamo Ciofeca/-/-/-/-/0/
