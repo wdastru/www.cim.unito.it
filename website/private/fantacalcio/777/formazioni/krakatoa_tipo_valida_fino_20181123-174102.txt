@@ -15,7 +15,7 @@ CANCELO Joao
 GIACCHERINI Emanuele
 BERISHA Valon
 ZIELINSKI Piotr
-RUIZ Fabian
+DZEMAILI Blerim
 VERETOUT Jordan
 PASTORE Javier
 ZAJC Miha
@@ -28,4 +28,4 @@ BERARDI Domenico
 PJACA Marko
 
 
-Fri 23 Nov 2018 - 17:41:10
+Wed 12 Sep 2018 - 17:54:35

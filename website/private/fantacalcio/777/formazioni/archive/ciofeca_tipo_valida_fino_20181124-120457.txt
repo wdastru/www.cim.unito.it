@@ -11,7 +11,7 @@ CONTI Andrea
 MARUSIC Adam
 ANDERSEN Joachim
 BIRAGHI Cristiano
-MANCINI Gianluca
+CIONEK Thiago
 PJANIC Miralem
 RIGONI Emiliano
 DE PAUL Rodrigo
@@ -26,6 +26,6 @@ LUIS ALBERTO Romero Alconchel
 BARROW Musa
 MARTINEZ Lautaro
 DEFREL Gregoire
-59
+70
 3337815436
-Sat 24 Nov 2018 - 12:05:06
+Thu 13 Sep 2018 - 14:51:43
