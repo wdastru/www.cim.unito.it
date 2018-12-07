@@ -53,10 +53,11 @@
 		<name>gianolio</name>
 		<fullName>Eliana Gianolio</fullName>
 		<position>Researcher</position>
-		<image>images/non_disponibile.gif</image>
-		<altText>immagine non disponibile</altText>
+		<image>images/gianolio.jpg</image>
+		<altText>gianolio.jpg</altText>
 		<mail>eliana.gianolio@unito.it</mail>
 		<phone>+39 011 6706475</phone>
+		<homepage>http://www.cim.unito.it/website/PI/Gianolio/home.html</homepage>
 		<fax>+39 011 6706487</fax>
 		<cell></cell>
 	</person>

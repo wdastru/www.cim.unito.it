@@ -245,6 +245,7 @@ function initPubs() {
 	document.getElementById('publicationYear').innerHTML = curr_year;
 }
 function fillStaffContainer() {
+	
 	var container = document.getElementById('staffContainer');
 
 	var xmlFile = "staff.xml";
