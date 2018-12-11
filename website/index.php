@@ -409,7 +409,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                       <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30257047" target="_blank">
                                       <b>An efficient MRI agent targeting extracellular markers in prostate adenocarcinoma.</b></h4>
                                       <span><font color="blue"><b>Stefania R et al; </b></font></span>
-                                      <p><font color="blue">Magn Reson Med . 2018; 1-12</font></p></a>
+                                      <p><font color="blue">Magn Reson Med. 2018; 1-12</font></p></a>
                                     </div>
                                   </div>
 								 </div>
@@ -421,10 +421,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/dastru_2018.jpg" alt="" style="width:auto; height:100px">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27995483" target="_blank">
-                                      <b>Assessing tumor vascularization as a potential biomarker of imatinib resistance in gastrointestinal stromal tumors by dynamic contrast-enhanced magnetic resonance imaging</b></h4>
-                                      <span><font color="blue"><b>Dastru' W. et al; </b></font></span>
-                                      <p><font color="blue">Gastric Cancer. 2017, 20, 629</font></p></a>
+                                      <a title="Open in a new window" class="http" href="https://onlinelibrary.wiley.com/doi/full/10.1002/slct.201800283" target="_blank">
+                                      <b>Modulation of the Prototropic Exchange Rate in pH-Responsive Yb-HPDO3A Derivatives as ParaCEST Agents</b></h4>
+                                      <span><font color="blue"><b>Dastru W. et al; </b></font></span>
+                                      <p><font color="blue">ChemistrySelect 2018, 3, 6035-6041</font></p></a>
                                     </div>
                                   </div>
 								 </div>
