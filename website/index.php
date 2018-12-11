@@ -387,10 +387,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/dellicastelli_2018.jpg" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27049069" target="_blank">
-                                      <b>The release of Doxorubicin from liposomes monitored by MRI and triggered by a combination of US stimuli led to a complete tumor regression in a breast cancer mouse model.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29411832" target="_blank">
+                                      <b>[Yb(AAZTA)(H<sub>2</sub>O)]-: an unconventional ParaCEST MRI probe.</b></h4>
                                       <span><font color="blue"><b>Delli Castelli D. et al; </b></font></span>
-                                      <p><font color="blue">J Control Release. 2016, 230,57</font></p></a>
+                                      <p><font color="blue">Chem Commun. 2018 Feb 20;54(16):2004-2007.</font></p></a>
                                     </div>
                                   </div>
 								 </div>
