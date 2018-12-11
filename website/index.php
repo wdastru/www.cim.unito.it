@@ -252,7 +252,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<br/>
 								<img style="width: 99%" src="images/meetings/EMIM_2019.jpg">
                                  <a href="http://www.e-smi.eu/index.php?id=emim-2019"><span class='paperTitle'>14th
-												European Molecular Imaging Meeting,</span></a><span class="date"> 19-22 March 2019 </span>
+												European Molecular Imaging Meeting</span></a><span class="date"> 19-22 March 2019 </span>
 												<span> Glasgow, United Kingdom</span>    	
 								</div>
 							
@@ -260,39 +260,26 @@ xmlns="http://www.w3.org/1999/xhtml">
 									<h2 class='punch orange'><span>ISMRM meeting</span></h2>
 								<br/>
 								<img style="width: 99%; max-height:80px" src="images/meetings/ISMRM_2019.jpg">
-                                 <a href="https://www.ismrm.org/19m/"><span class='paperTitle'>ISMRM 27th Annual Meeting 2019,</span></a><span class="date">  11-16 May 2019 </span>
+                                 <a href="https://www.ismrm.org/19m/"><span class='paperTitle'>ISMRM 27th Annual Meeting 2019</span></a><span class="date">  11-16 May 2019 </span>
 												<span> Montreal, QC, Canada</span>    	
 
 								</div>
-							
+																					
 								
 								
-								
-								
-								<div class="w3-container w3-cell" style="width:250px;">
-								<div class="fadeImage zero">
-									
-								 	<h2 class='punch orange'><span>ISMRM meeting</span></h2>
-								<br/>
-								<img style="width: 99%" src="images/meetings/ISMRM_2018.jpg" >
-                                 <a href="https://www.ismrm.org/18m/"><span class='paperTitle'>Joint Annual Meeting ISMRM-ESMRMB 2018,</span></a><span class="date">  16-21 June 2018 </span>
-												<span> Paris, France</span> 
-									 	
-								</div>
-								
-								<div class="fadeImage first">	
+								<div class="w3-container w3-cell" style="width:250px;">		
 								<h2 class='punch orange'><span>WMIC meeting</span></h2>
 								<br/>
-								<img style="width: 99%" src="images/meetings/WMIC_2018.jpg">
-                                 <a href="http://www.wmis.org/2018-wmic"><span class='paperTitle'>World
-												Molecular Imaging Congress,</span></a><span class="date">  12-15 September 2018 </span>
-												<span> Seattle, USA</span>    
+								<img style="width: 99%" src="images/meetings/WMIC_2019.jpg">
+                                 <a href="http://www.wmis.org/2019-wmic/"><span class='paperTitle'>World
+												Molecular Imaging Congress</span></a><span class="date">  4-7 September 2019 </span>
+												<span> Montreal, QC, Canada</span>    
 								
 								</div>
 								</div>		
 																		
 								 									
-								</div>
+								
 								
 							
 							
