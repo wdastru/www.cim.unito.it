@@ -338,10 +338,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/terreno_2018.jpg" alt="" style="width:auto; height:100px">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29079529" target="_blank">
-                                      <b>MRI visualization of neuroinflammation using VCAM-1 targeted paramagnetic micelles.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30471202" target="_blank">
+                                      <b>Indocyanine Green labeling for optical and photoacoustic imaging of Mesenchymal Stem Cells after in vivo transplantation.</b></h4>
                                       <span><font color="blue"><b>Terreno E. et al; </b></font></span>
-                                      <p><font color="blue">Nanomedicine. 2017, S1549-9634(17)30181</font></p></a>
+                                      <p><font color="blue">J Biophotonics. 2018</font></p></a>
                                     </div>
                                   </div>
 								 </div>
