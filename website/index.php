@@ -406,10 +406,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/stefania_2018.jpg" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28783106" target="_blank">
-                                      <b>Melanin-Based Contrast Agents for Biomedical Optoacoustic Imaging and Theranostic Applications.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30257047" target="_blank">
+                                      <b>An efficient MRI agent targeting extracellular markers in prostate adenocarcinoma.</b></h4>
                                       <span><font color="blue"><b>Stefania R et al; </b></font></span>
-                                      <p><font color="blue">Int J Mol Sci. 2017, 18, E1719</font></p></a>
+                                      <p><font color="blue">Magn Reson Med . 2018; 1-12</font></p></a>
                                     </div>
                                   </div>
 								 </div>
