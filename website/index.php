@@ -372,10 +372,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/reineri_2018.jpg" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27870463" target="_blank">
-                                      <b>13C MR Hyperpolarization of Lactate by Using ParaHydrogen and Metabolic Transformation in Vitro.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30248218" target="_blank">
+                                      <b>Metabolic Studies of Tumor Cells Using [1-<sup>13</sup> C] Pyruvate Hyperpolarized by Means of PHIP-Side Arm Hydrogenation.</b></h4>
                                       <span><font color="blue"><b>Reineri F. et al; </b></font></span>
-                                      <p><font color="blue">Chemistry. 2017, 23, 1200</font></p></a>
+                                      <p><font color="blue">Chemphyschem. 2018, 19, 1-9.</font></p></a>
                                     </div>
                                   </div>
 								 </div>
