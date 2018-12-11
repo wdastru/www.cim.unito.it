@@ -436,10 +436,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/cutrin_2018.jpg" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28301933" target="_blank">
-                                      <b>Ferritin Decorated PLGA/Paclitaxel Loaded Nanoparticles Endowed with an Enhanced Toxicity Toward MCF-7 Breast Tumor Cells.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29963255" target="_blank">
+                                      <b>Cancer cell death induced by ferritins and the peculiar role of their labile iron pool.</b></h4>
                                       <span><font color="blue"><b>Cutrin JC et al;</b></font> </span>
-                                      <p><font color="blue">Bioconjug Chem. 2017, 28, 1283</font></p></a>
+                                      <p><font color="blue">Oncotarget. 2018 Jun 15; 9(46): 27974-27984</font></p></a>
                                     </div>
                                   </div>
 								 </div>
