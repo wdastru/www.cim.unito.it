@@ -305,13 +305,13 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<div class="w3-container w3-cell" style="width:250px;">
 									<div class="w3-card" style="width:100%">
 									<div class="w3-container">
-                                    <img src="images/papers/longo_JMR2018.jpg" alt="" style="width:100%">
+                                    <img src="images/papers/longo_2018.jpg" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29272735" target="_blank">
-                                      <b>Flip-angle based ratiometric approach for pulsed CEST-MRI pH imaging</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29672976" target="_blank">
+                                      <b>Dual-frequency irradiation CEST-MRI of endogenous bulk mobile proteins.</b></h4>
                                       <span><font color="blue"><b>Longo D. et al; </b></font></span>
-                                      <p><font color="blue">J Magnetic Resonance 2017, 187, 1</font></p></a>
+                                      <p><font color="blue">NMR Biomed. 2018 Jun;31(6):e3920</font></p></a>
                                     </div>
                                   </div>
 								 </div>
@@ -323,10 +323,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/gianolio_2018.jpg" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28873047" target="_blank">
-                                      <b>Gadolinium Retention in the Rat Brain: Assessment of the Amounts of Insoluble Gadolinium-containing Species and Intact Gadolinium Complexes after Repeated Administration of Gadolinium-based Contrast Agents.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30377745" target="_blank">
+                                      <b>Gadolinium presence, MRI hyperintensities, and glucose uptake in the hypoperfused rat brain after repeated administrations of gadodiamide.</b></h4>
                                       <span><font color="blue"><b>Gianolio E. et al; </b></font></span>
-                                      <p><font color="blue">Radiology. 2017 Dec;285(3):839</font></p></a>
+                                      <p><font color="blue">Neuroradiology. 2018</font></p></a>
                                     </div>
                                   </div>
 								 </div>
