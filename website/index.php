@@ -357,10 +357,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <img src="images/papers/geninatti_2018.jpg" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28301933" target="_blank">
-                                      <b>Ferritin Decorated PLGA/Paclitaxel Loaded Nanoparticles Endowed with an Enhanced Toxicity Toward MCF-7 Breast Tumor Cells.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30087935" target="_blank">
+                                      <b>Efficient Route to Label Mesenchymal Stromal Cell-Derived Extracellular Vesicles.</b></h4>
                                       <span><font color="blue"><b>Geninatti S. et al; </b></font></span>
-                                      <p><font color="blue">Bioconjug Chem. 2017, 28, 1283</font></p></a>
+                                      <p><font color="blue">ACS Omega. 2018 Jul 31;3(7):8097-8103.</font></p></a>
                                     </div>
                                   </div>
 								 </div>
