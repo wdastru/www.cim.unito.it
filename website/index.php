@@ -259,10 +259,10 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<div class="w3-container w3-cell" style="width:250px;">
 								<h2 class='punch orange'><span>EMIM meeting</span></h2>
 								<br/>
-								<img style="width: 99%" src="images/meetings/EMIM_2018.jpg">
-                                 <a href="http://www.e-smi.eu/index.php?id=emim-2018"><span class='paperTitle'>13th
-												European Molecular Imaging Meeting,</span></a><span class="date"> 20-23 March 2018 </span>
-												<span> San Sebastian, Spain</span>    	
+								<img style="width: 99%" src="images/meetings/EMIM_2019.jpg">
+                                 <a href="http://www.e-smi.eu/index.php?id=emim-2019"><span class='paperTitle'>14th
+												European Molecular Imaging Meeting,</span></a><span class="date"> 19-22 March 2019 </span>
+												<span> Glasgow, United Kingdom</span>    	
 								</div>
 								
 								
