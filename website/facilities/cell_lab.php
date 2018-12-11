@@ -62,7 +62,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 									</div>
 									
 									<div class="w3-container">
-									<h3><strong><span style="font-size: 14px; ">Malvern Zetasizer Nano – ZS </span></strong></h3>
+									<h3><strong><span style="font-size: 14px; ">Malvern Zetasizer Nano - ZS </span></strong></h3>
 									<img alt="" src="../images/strumenti/malvern.jpg"
 										style="width: 180px; height: auto; float: left; margin: 10px;" />
 									<br/>
