@@ -247,16 +247,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 							
 							<div class="w3-cell-row" style="margin-top:2em;">
 							
-								<div class="w3-container w3-cell" style="width:250px;">
-									<h2 class='punch orange'><span>TOPIM meeting</span></h2>
-								<br/>
-								<img style="width: 99%; max-height:80px" src="images/meetings/TOPIM_2018.jpg">
-                                 <a href="http://www.e-smi.eu/index.php?id=topim-2018"><span class='paperTitle'>12th ESMI Winter Conference "hot TOPIics in IMaging - TOPIM 2018,</span></a><span class="date">  21-26 January 2018 </span>
-												<span> Les Houches, France</span>    	
-
-								</div>
-							
-								<div class="w3-container w3-cell" style="width:250px;">
+							<div class="w3-container w3-cell" style="width:250px;">
 								<h2 class='punch orange'><span>EMIM meeting</span></h2>
 								<br/>
 								<img style="width: 99%" src="images/meetings/EMIM_2019.jpg">
@@ -264,6 +255,17 @@ xmlns="http://www.w3.org/1999/xhtml">
 												European Molecular Imaging Meeting,</span></a><span class="date"> 19-22 March 2019 </span>
 												<span> Glasgow, United Kingdom</span>    	
 								</div>
+							
+								<div class="w3-container w3-cell" style="width:250px;">
+									<h2 class='punch orange'><span>ISMRM meeting</span></h2>
+								<br/>
+								<img style="width: 99%; max-height:80px" src="images/meetings/ISMRM_2019.jpg">
+                                 <a href="https://www.ismrm.org/19m/"><span class='paperTitle'>ISMRM 27th Annual Meeting 2019,</span></a><span class="date">  11-16 May 2019 </span>
+												<span> Montreal, QC, Canada</span>    	
+
+								</div>
+							
+								
 								
 								
 								
