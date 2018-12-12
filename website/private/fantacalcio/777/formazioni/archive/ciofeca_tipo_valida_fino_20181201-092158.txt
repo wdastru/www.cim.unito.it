@@ -16,7 +16,7 @@ PJANIC Miralem
 RIGONI Emiliano
 DE PAUL Rodrigo
 CRISTANTE Bryan
-GAGLIARDINI Roberto
+SORIANO Roberto
 GERSON Santos Da Silva
 ÜNDER Cengiz
 CHIESA Federico
@@ -26,6 +26,6 @@ LUIS ALBERTO Romero Alconchel
 BARROW Musa
 MARTINEZ Lautaro
 DEFREL Gregoire
-54
+59
 3337815436
-Sat 01 Dec 2018 - 09:21:58
+Sat 24 Nov 2018 - 12:05:06

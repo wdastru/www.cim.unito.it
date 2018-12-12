@@ -1,0 +1,31 @@
+4 - 3 - 3
+1 - 4 - 3 - 3
+1 - 2 - 2 - 2
+OSPINA David
+KARNEZIS Orestis
+MERET Alex
+CANCELO Joao
+FERRARI Gianmarco
+CRISCITO Domenico
+TONELLI Lorenzo
+ALVES Bruno
+D'AMBROSIO Danilo
+CACCIATORE Fabrizio
+PEZZELLA German
+RUIZ Fabian
+VERETOUT Jordan
+ZAJC Miha
+ZIELINSKI Piotr
+PASTORE Javier
+STULAC Leo
+GIACCHERINI Emanuele
+BERISHA Valon
+IMMOBILE Ciro
+PIATEK Krzysztof
+BERARDI Domenico
+STEPINSKI Mariusz
+PJACA Marko
+TEODORCZYK Lukasz
+
+
+Fri 30 Nov 2018 - 16:34:43

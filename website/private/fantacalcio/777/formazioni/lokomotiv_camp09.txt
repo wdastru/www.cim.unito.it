@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-SCUFFET Simone
 SZCZESNY Wojciech
 MUSSO Juan
+SCUFFET Simone
 DE SCIGLIO Mattia
-ADNAN Ali Kadhim
-BERESZYNSKI Bartosz
-DANILO Larangeira
-FELIPE Dal Belo
 GAGLIOLO Riccardo
-PASQUAL Manuel
+BERESZYNSKI Bartosz
+FELIPE Dal Belo
+DANILO Larangeira
 RUGANI Daniele
-BERNARDESCHI Federico
-LEIVA Lucas
-JANKTO Jakub
-LINETTY Karol
-PAROLO Marco
-BARAK Antonin
-PULGAR Erick
+PASQUAL Manuel
+ADNAN Ali Kadhim
 BENTANCUR Rodrigo
-MANDZUKIC Mario
-SIMEONE Giovanni
-ILICIC Josip
-LASAGNA Kevin
+BERNARDESCHI Federico
+PAROLO Marco
+LINETTY Karol
+PULGAR Erick
+JANKTO Jakub
+BARAK Antonin
+LEIVA Lucas
 RONALDO Cristiano
+MANDZUKIC Mario
 MILIK Arkadiusz
+SIMEONE Giovanni
+LASAGNA Kevin
+ILICIC Josip
 58
 347-4172758
-Fri 30 Nov 2018 - 23:50:38
+Sat 01 Dec 2018 - 14:35:24

@@ -1,14 +1,19 @@
 atletico.txt
+atletico_camp_10.txt
 atletico_camp_7.txt
 atletico_camp_8.txt
+atletico_camp_9.txt
 atletico_coppa_1.txt
 atletico_coppa_2.txt
 atletico_tipo_valida_fino_20180911-170230.txt
 atletico_tipo_valida_fino_20180911-170716.txt
 ciofeca.txt
+ciofeca_camp10.txt
 ciofeca_camp8.txt
+ciofeca_camp9.txt
 ciofeca_coppa2.txt
 eporediese.txt
+eporediese_camp_10.txt
 eporediese_camp_2.txt
 eporediese_camp_3.txt
 eporediese_camp_33.txt
@@ -16,6 +21,7 @@ eporediese_camp_5.txt
 eporediese_camp_6.txt
 eporediese_camp_7.txt
 eporediese_camp_8.txt
+eporediese_camp_9.txt
 eporediese_coppa_1.txt
 eporediese_tipo_valida_fino_20180913-103820.txt
 eporediese_tipo_valida_fino_20180913-103838.txt
@@ -28,6 +34,7 @@ fedora_fedora_camp_A6.txt
 fedora_tipo_valida_fino_20180925-115607.txt
 fedora_tipo_valida_fino_20180925-115723.txt
 krakatoa.txt
+krakatoa_10a_camp_da_mail.txt
 krakatoa_1a_camp.txt
 krakatoa_1a_coppa.txt
 krakatoa_1a_coppa_definitiva.txt
@@ -42,6 +49,7 @@ krakatoa_5a_camp.txt
 krakatoa_6a_camp.txt
 krakatoa_7a_camp_da_mail_021118.txt
 krakatoa_8a_camp.txt
+krakatoa_9a_camp.txt
 krakatoa_tipo_valida_fino_20180912-175335.txt
 krakatoa_tipo_valida_fino_20180912-175345.txt
 krakatoa_tipo_valida_fino_20180912-175435.txt
@@ -57,11 +65,16 @@ lokomotiv_camp05.txt
 lokomotiv_camp06.txt
 lokomotiv_camp07.txt
 lokomotiv_camp08.txt
+lokomotiv_camp09.txt
+lokomotiv_camp10.txt
 lokomotiv_coppa01.txt
 lokomotiv_coppa02.txt
 lokomotiv_tipo_valida_fino_20180911-221415.txt
 lokomotiv_tipo_valida_fino_20181123-232305.txt
 lokomotiv_tipo_valida_fino_20181123-232309.txt
+lokomotiv_tipo_valida_fino_20181130-235014.txt
+lokomotiv_tipo_valida_fino_20181130-235032.txt
+lokomotiv_tipo_valida_fino_20181130-235038.txt
 rapid.txt
 rapid_cam_02.txt
 rapid_cam_07.txt
@@ -76,6 +89,8 @@ real_camp05.txt
 real_camp06.txt
 real_camp07.txt
 real_camp08.txt
+real_camp09.txt
+real_camp10.txt
 real_coppa01.txt
 real_coppa02.txt
 real_tipo_valida_fino_20180911-220656.txt
@@ -85,3 +100,6 @@ real_tipo_valida_fino_20180912-224234.txt
 real_tipo_valida_fino_20180912-224235.txt
 real_tipo_valida_fino_20181123-232213.txt
 real_tipo_valida_fino_20181123-232221.txt
+real_tipo_valida_fino_20181130-235107.txt
+real_tipo_valida_fino_20181130-235112.txt
+real_tipo_valida_fino_20181206-215600.txt

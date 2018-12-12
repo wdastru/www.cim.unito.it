@@ -15,7 +15,7 @@ SRNA Darijo
 BARELLA Nicolò
 JOAO MARIO -
 CALHANOGLU Hakan
-TRAORÉ Hamed Junior
+CANDREVA Antonio
 CUADRADO Juan
 FREULER Remo
 JOAO PEDRO Geraldino Galvao
@@ -26,6 +26,6 @@ GERVINHO
 GOMEZ Alejandro
 INSIGNE Lorenzo
 POLITANO Matteo
-35
+36
 347-2375356
-Thu 06 Dec 2018 - 21:56:00
+Fri 30 Nov 2018 - 23:51:12
