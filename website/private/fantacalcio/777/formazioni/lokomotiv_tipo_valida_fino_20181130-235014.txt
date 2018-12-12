@@ -4,7 +4,7 @@
 SCUFFET Simone
 SZCZESNY Wojciech
 MUSSO Juan
-DE SCIGLIO Mattia
+HEURTAUX Thomas
 ADNAN Ali Kadhim
 BERESZYNSKI Bartosz
 DANILO Larangeira
@@ -26,6 +26,6 @@ ILICIC Josip
 LASAGNA Kevin
 RONALDO Cristiano
 MILIK Arkadiusz
-58
+59
 347-4172758
-Fri 30 Nov 2018 - 23:50:38
+Fri 23 Nov 2018 - 23:23:09
