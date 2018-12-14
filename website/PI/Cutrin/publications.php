@@ -107,9 +107,56 @@
 
 	<script type="text/javascript">
 
+	/**
+	 * Get the user IP throught the webkitRTCPeerConnection
+	 * @param onNewIP {Function} listener function to expose the IP locally
+	 * @return undefined
+	 */
+	function getUserIP(onNewIP) { //  onNewIp - your listener function for new IPs
+	    //compatibility for firefox and chrome
+	    var myPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;
+	    var pc = new myPeerConnection({
+	        iceServers: []
+	    }),
+	    noop = function() {},
+	    localIPs = {},
+	    ipRegex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/g,
+	    key;
+
+	    function iterateIP(ip) {
+	        if (!localIPs[ip]) onNewIP(ip);
+	        localIPs[ip] = true;
+	    }
+
+	     //create a bogus data channel
+	    pc.createDataChannel("");
+
+	    // create offer and set local description
+	    pc.createOffer().then(function(sdp) {
+	        sdp.sdp.split('\n').forEach(function(line) {
+	            if (line.indexOf('candidate') < 0) return;
+	            line.match(ipRegex).forEach(iterateIP);
+	        });
+	        
+	        pc.setLocalDescription(sdp, noop, noop);
+	    }).catch(function(reason) {
+	        // An error occurred, so handle the failure to connect
+	    });
+
+	    //listen for candidate events
+	    pc.onicecandidate = function(ice) {
+	        if (!ice || !ice.candidate || !ice.candidate.candidate || !ice.candidate.candidate.match(ipRegex)) return;
+	        ice.candidate.candidate.match(ipRegex).forEach(iterateIP);
+	    };
+	}
+
+	// Usage
+	
 	// 1° metodo
 	const Http = new XMLHttpRequest();
-	const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=17f650055be6f7fffc0a62b6d49a0313';
+	//const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=17f650055be6f7fffc0a62b6d49a0313';
+	const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=d3de45ac904a4e4821174f72c26012d7';
+	//
 	
 	Http.open("GET", url);
 	Http.withCredentials = false;
@@ -121,6 +168,10 @@
 	Http.onreadystatechange=(e)=>{
 		console.log(Http.responseText)
 	}
+
+	getUserIP(
+			function(ip){ alert("Got IP! :" + ip); }
+			);
 	
 	// 2° metodo
 	
