@@ -109,11 +109,11 @@
 
 	// 1° metodo
 	const Http = new XMLHttpRequest();
-	const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=7f59af901d2d86f78a1fd60c1bf9426a';
+	const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=17f650055be6f7fffc0a62b6d49a0313';
 	
 	Http.open("GET", url);
 	Http.withCredentials = true;
-	Http.setRequestHeader("Content-Type", "text/plain");
+	Http.setRequestHeader("Content-Type", "application/json");
 	Http.send({ 'request': "authentication token" });
 
 	//const url='https://jsonplaceholder.typicode.com/posts';
