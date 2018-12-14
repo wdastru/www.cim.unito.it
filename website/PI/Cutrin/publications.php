@@ -112,7 +112,7 @@
 	const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=17f650055be6f7fffc0a62b6d49a0313';
 	
 	Http.open("GET", url);
-	Http.withCredentials = true;
+	Http.withCredentials = false;
 	Http.setRequestHeader("Content-Type", "application/json");
 	Http.send({ 'request': "authentication token" });
 
