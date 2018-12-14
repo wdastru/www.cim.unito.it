@@ -103,24 +103,48 @@
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
 	
-	<?php	
-		// Get cURL resource
-$curl = curl_init();
-// Set some options - we are passing in a useragent too here
-curl_setopt_array($curl, array(
-    CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=7f59af901d2d86f78a1fd60c1bf9426a',
-    CURLOPT_USERAGENT => 'Scopus cURL Request'
-));
-// Send the request & save response to $resp
-$resp = curl_exec($curl);
-// Print the response
-print_r($resp);
-// Close request to clear up some resources
-curl_close($curl);
-?>
-		
-		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+	// 1° metodo
+	const Http = new XMLHttpRequest();
+	const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=7f59af901d2d86f78a1fd60c1bf9426a';
+	
+	Http.open("GET", url);
+	Http.withCredentials = true;
+	Http.setRequestHeader("Content-Type", "text/plain");
+	Http.send({ 'request': "authentication token" });
+
+	//const url='https://jsonplaceholder.typicode.com/posts';
+	
+	Http.onreadystatechange=(e)=>{
+		console.log(Http.responseText)
+	}
+	
+	// 2° metodo
+	
+	//$(document).ready(function(){
+	//	const Url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=7f59af901d2d86f78a1fd60c1bf9426a';
+	//	$('.btn').click(function(){
+	//		$.ajax({
+	//			url: Url,
+	//			type:"GET",
+	//			dataType:'json',
+	//			success: function(result){
+	//				console.log(result)
+	//				},
+	//				error:function(error){
+	//					console.log('Error ${error}')
+	//					}
+	//		})
+	//		})
+	//	})
+	
+	</script>
+	<!-- 
+		//const Url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=7f59af901d2d86f78a1fd60c1bf9426a';
+     -->
 		
 			<div class="wrapper style2">
 				<div class="inner">
@@ -130,7 +154,7 @@ curl_close($curl);
 						<div id="content">
 
 							<!-- Content -->
-							<article>
+							<article class="btn">
 								
 									<h2 class="icon fa-file-text-o">Journal Papers</h2>
 								
