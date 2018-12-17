@@ -1,14 +1,12 @@
 atletico.txt
 atletico_camp_10.txt
-atletico_camp_7.txt
-atletico_camp_8.txt
-atletico_camp_9.txt
-atletico_coppa_1.txt
+atletico_camp_11.txt
 atletico_coppa_2.txt
 atletico_tipo_valida_fino_20180911-170230.txt
 atletico_tipo_valida_fino_20180911-170716.txt
 ciofeca.txt
 ciofeca_camp10.txt
+ciofeca_camp11.txt
 ciofeca_camp8.txt
 ciofeca_camp9.txt
 ciofeca_coppa2.txt
@@ -67,6 +65,7 @@ lokomotiv_camp07.txt
 lokomotiv_camp08.txt
 lokomotiv_camp09.txt
 lokomotiv_camp10.txt
+lokomotiv_camp11.txt
 lokomotiv_coppa01.txt
 lokomotiv_coppa02.txt
 lokomotiv_tipo_valida_fino_20180911-221415.txt
@@ -91,6 +90,7 @@ real_camp07.txt
 real_camp08.txt
 real_camp09.txt
 real_camp10.txt
+real_camp11.txt
 real_coppa01.txt
 real_coppa02.txt
 real_tipo_valida_fino_20180911-220656.txt

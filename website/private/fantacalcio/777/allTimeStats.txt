@@ -931,7 +931,7 @@
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/1/
 1617/EPOrediese/L.A. Krakatoa/-/-/-/-/0/
 1617/Atletico? No Grazie!/Rapid Bradip/3/3/82/78.5/1/SUSO JESUS FERNANDEZ SAEZ/SUSO JESUS FERNANDEZ SAEZ/KOLAROV ALEKSANDAR/KESSIE FRANCK/FAZIO FEDERICO/KOUAMÉ CHRISTIAN/
-1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/0/
+1617/Atletico? No Grazie!/Rapid Bradip/2/1/72/71.5/0/LA GUMINA Antonino/KOLAROV Aleksandar/BENASSI Marco/
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/1/
 1617/Atletico? No Grazie!/Rapid Bradip/-/-/-/-/0/
 1617/Real Mentescars/Fedora/3/0/78/64/1/GERVINHO /BONUCCI LEONARDO/GERVINHO /
