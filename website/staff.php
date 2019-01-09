@@ -218,20 +218,6 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/staff/arena.jpg);">
-										<div class="content">
-											<div class="table">
-											<a title="Profile" href="staff/staff_arena.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Francesca Arena</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div></a>
-											</div>
-										</div>
-									</div>
-									<div class="square bg"
 										style="background-image: url(images/staff/bardini.jpg);">
 										<div class="content">
 											<div class="table">
@@ -245,20 +231,7 @@ $localizer = "./";
 											</div>
 										</div>
 									</div>
-									<div class="square bg"
-										style="background-image: url(images/staff/carrera.jpg);">
-										<div class="content">
-											<div class="table">
-											<a title="Profile" href="staff/staff_carrera.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Carla Carrera</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div></a>
-											</div>
-										</div>
-									</div>
+									
 									<div class="square bg"
 										style="background-image: url(images/staff/alberti.jpg);">
 										<div class="content">
@@ -651,6 +624,34 @@ $localizer = "./";
 									<b>Sergio Padovan</b>
 								</h2>
 								<p style="font-size: 16px;">Technical Assistant</p>
+							</div></a>
+						</div>
+					</div>
+				</div>
+				<div class="square bg"
+					style="background-image: url(images/staff/carrera.jpg);">
+					<div class="content">
+						<div class="table">
+						<a title="Profile" href="staff/staff_carrera.php">
+							<div class="table-cell">
+								<h2 style="font-size: 20px;">
+									<b>Carla Carrera</b>
+								</h2>
+								<p style="font-size: 16px;">Research Fellow</p>
+							</div></a>
+						</div>
+					</div>
+				</div>
+				<div class="square bg"
+					style="background-image: url(images/staff/arena.jpg);">
+					<div class="content">
+						<div class="table">
+						<a title="Profile" href="staff/staff_arena.php">
+							<div class="table-cell">
+								<h2 style="font-size: 20px;">
+									<b>Francesca Arena</b>
+								</h2>
+								<p style="font-size: 16px;">Research Fellow</p>
 							</div></a>
 						</div>
 					</div>
