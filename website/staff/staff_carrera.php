@@ -42,7 +42,8 @@
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Carla Carrera</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
-								Department of Molecular Biotechnology and Health Sciences<br />
+								Institute of Biostructure and Bioimaging<br>
+								National Research Council of Italy<br>
 								<a href="../PI/Reineri/home.html" target="_blank" style="color:#dc6a10">
 								Reineri Lab</a>
 								</b></p>
