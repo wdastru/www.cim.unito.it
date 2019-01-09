@@ -482,20 +482,6 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
-										style="background-image: url(images/staff/barale.jpg);">
-										<div class="content">
-											<div class="table">
-											<a title="Profile" href="staff/staff_barale.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Andrea Barale</b>
-													</h2>
-													<p style="font-size: 16px;">Graduate student</p>
-												</div></a>
-											</div>
-										</div>
-									</div>
-									<div class="square bg"
 										style="background-image: url(images/staff/capuana.jpg);">
 										<div class="content">
 											<div class="table">
@@ -505,34 +491,6 @@ $localizer = "./";
 														<b>Fedrico Capuana</b>
 													</h2>
 													<p style="font-size: 16px;">PhD student</p>
-												</div></a>
-											</div>
-										</div>
-									</div>
-									<div class="square bg"
-										style="background-image: url(images/staff/marini.jpg);">
-										<div class="content">
-											<div class="table">
-											<a title="Profile" href="staff/staff_marini.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Giada Maria Marini</b>
-													</h2>
-													<p style="font-size: 16px;">Graduate student</p>
-												</div></a>
-											</div>
-										</div>
-									</div>
-									<div class="square bg"
-										style="background-image: url(images/staff/galati.jpg);">
-										<div class="content">
-											<div class="table">
-											<a title="Profile" href="staff/staff_galati.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Antonello Galati</b>
-													</h2>
-													<p style="font-size: 16px;">Graduate student</p>
 												</div></a>
 											</div>
 										</div>
@@ -718,6 +676,71 @@ $localizer = "./";
 							</div>
 						</div>
 	
+	<div id='band'>
+							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Past Members <!-- InstanceEndEditable --></h1>
+						</div>
+						<div class='paddingInner'>
+
+							
+
+
+							<div class="row">
+								<div class="w3-container">
+									<div class="square bg"
+										style="background-image: url(images/staff/bardini.jpg);">
+										<div class="content">
+											<div class="table">
+													<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Paola Bardini</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/staff/barale.jpg);"">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Andrea Barale</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate Student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/staff/marini.jpg);">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Giada Maria Marini</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate Student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/staff/galati.jpg);">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Antonello Galati</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate Student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
 
 
