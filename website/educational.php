@@ -49,6 +49,9 @@
 						<div class='paddingInner'>
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<ul>
+							<li>
+                                    <a href="http://www.gidrm.org/index.php/activities/nmr-school-torino">Scuola Nazionale di Risonanza Magnetica Nucleare 2018</a>
+                                </li>
 							 	<li>
                                     <a href="http://www.gidrm.org/index.php/activities/nmr-school-torino/2017-1st-year">Scuola Nazionale di Risonanza Magnetica Nucleare 2017</a>
                                 </li>
