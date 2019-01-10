@@ -68,11 +68,8 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on the characterization of tumor microenvironment in tumor murine models by exploiting several imaging modalities 
-					(MRI, Optical Imaging, PET/SPECT). Hereby I have gained considerable experience in the imaging procedure and post processing analysis especially 
-					in the MRI field. Furthermore, my skills cover the preparation and characterization of various micro and nano-carriers, primary and non-primary 
-					cell-culture handling, small animal handling, development of preclinical models of cancer, peripheral and cerebral inflammation,
-					 as well as knowledge and application of the following imaging techniques: <sup>1H</sup> and <sup>19</sup>F MRI, OI, PET/SPECT. </p>
+					<p>My research mainly focused on the design of innovative MRI-based imaging probes for the development and preclinical
+					 validation of improved diagnostic/theranostic procedures</p>
 					 </div>
 					
 					<div class="w3-quarter">
