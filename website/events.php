@@ -45,13 +45,9 @@
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					   <p>The Centre of Molecular Imaging hosts several educational, teaching, workshop and scientific events to promote the field of imaging science.</p>
-					   <p>In addition, we provide molecular imaging courses within the <a href="http://www.molecularbiotechnology.unito.it/do/home.pl/Home" target="_blank">
-					   <span class='paperTitle'>Biotechnology Master degree</span></a> to educate students and to train young investigators.</p> 
+					   
 					   <br /><br />
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=2&amp;hl=en&amp;bgcolor=%23ff6600&amp;src=unito.it_rhlc94gnpnlqnus7u9e9i61120%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FRome" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>					
-					
-					<!-- calendario preso da https://fullcalendar.io/  -->
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ccccff&amp;src=unito.it_rhlc94gnpnlqnus7u9e9i61120%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FRome" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>					<!-- calendario preso da https://fullcalendar.io/  -->
 					 <div id='calendar'></div>
 					
 					
