@@ -12,9 +12,6 @@
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 
 
-<link href='includes/calendar/fullcalendar.min.css' rel='stylesheet' />
-<link href='includes/calendar/fullcalendar.print.min.css' rel='stylesheet' media='print' />
-<link href='includes/calendar/lib/jquery.qtip.min.css' rel='stylesheet' />
 
 
 
@@ -52,7 +49,7 @@
 					   <p>In addition, we provide molecular imaging courses within the <a href="http://www.molecularbiotechnology.unito.it/do/home.pl/Home" target="_blank">
 					   <span class='paperTitle'>Biotechnology Master degree</span></a> to educate students and to train young investigators.</p> 
 					   <br /><br />
-					
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=2&amp;hl=en&amp;bgcolor=%23ff6600&amp;src=unito.it_rhlc94gnpnlqnus7u9e9i61120%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FRome" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>					
 					
 					<!-- calendario preso da https://fullcalendar.io/  -->
 					 <div id='calendar'></div>
@@ -94,72 +91,6 @@
 //<![CDATA[
 changeSideNavStyles();
 //]]>
-</script>
-<script src='includes/calendar/lib/moment.min.js'></script>
-<script src='includes/calendar/lib/jquery.min.js'></script>
-<script src='includes/calendar/fullcalendar.min.js'></script>
-<script src='includes/calendar/lib/jquery.qtip.js'></script>
-<script src='includes/calendar/lib/jquery.qtip.min.js'></script>
-<script src='includes/calendar/lib/jquery.qtip.min.map'></script>
-<script>
-
-  $(document).ready(function() {
-
-	  
-		
-    $('#calendar').fullCalendar({
-      header: {
-        left: 'prev,next today',
-        center: 'title',
-        right: 'month,listMonth'
-      },
-      defaultDate: '2018-02-12',
-      editable: false,
-      navLinks: false, // can click day/week names to navigate views
-      eventLimit: true, // allow "more" link when too many events
-      timeFormat: 'H:mm', 
-      events: {
-        url: 'includes/calendar/php/get-events.php',
-       // url: '/https://docs.google.com/document/d/1gnKVvk7UjPiuSGUv2tuxad65kYrFKxfjBIfWZEcJ7nU/od6/public/values?alt=json',
-        error: function() {
-          $('#script-warning').show();
-        }
-      },
-      
-
-      eventClick: function(event) {
-          if (event.url) {
-              window.open(event.url);
-              return false;
-          }
-      },
-
-      eventMouseover: function(calEvent, jsEvent) {
-          var tooltip = '<div class="tooltipevent" style="width:200px;height:200px;background:#efefef;position:absolute;z-index:10001;">' + calEvent.title + '<br />' + calEvent.description + '</div>';
-          $("body").append(tooltip);
-          $(this).mouseover(function(e) {
-              $(this).css('z-index', 10000);
-              $('.tooltipevent').fadeIn('500');
-              $('.tooltipevent').fadeTo('10', 1.9);
-          }).mousemove(function(e) {
-              $('.tooltipevent').css('top', e.pageY + 10);
-              $('.tooltipevent').css('left', e.pageX + 20);
-          });
-      },
-
-      eventMouseout: function(calEvent, jsEvent) {
-           $(this).css('z-index', 8);
-           $('.tooltipevent').remove();
-      },
-
-
-      loading: function(bool) {
-        $('#loading').toggle(bool);
-      }
-    });
-
-  });
-
 </script>
 
 
