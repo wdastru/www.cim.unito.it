@@ -57,7 +57,7 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. ???<br />
+												Ph.D. Biomedical Imaging, University of Oxford, Oxford, United Kingdom<br />
 												 M.Sc. ???<br>
 											</p>
 					
@@ -69,7 +69,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>My research focuses on pre-clinical and clinical development of high relaxivity magnetic resonance contrast agents. 
+												Relaxometric and structural characterisation of complexes with gadolinium and other lanthanides, 
+												with the aim to identify and understand their molecular characteristics.</p>
 					 </div>
 					<!-- 
 					<div class="w3-quarter">

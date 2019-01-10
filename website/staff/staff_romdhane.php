@@ -71,14 +71,14 @@
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focuses on ...</p>
 					 </div>
-					<!-- 
+		
 					<div class="w3-quarter">
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/atlante_wordcloud.png" class="w3-image"
+								<img src="../images/wordcloud/romdhane_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 							</div>
-					 -->
+					
 					</div>
 					
 						<hr></hr>

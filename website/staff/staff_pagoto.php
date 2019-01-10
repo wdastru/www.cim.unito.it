@@ -43,8 +43,8 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Amerigo Pagoto</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
-								Terreno Lab</a>
+								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
+								Longo Lab</a>
 								</b></p>
 									
 							</div>
@@ -57,8 +57,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Molecular Bioscience, University of Torino, Italy<br />
-												 M.Sc. Biotechnology, University of Torino, Italy<br>
+												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br />
+												 M.Sc. Molecular Biotechnology and Molecular Imaging, University of Torino, Italy<br>
 											</p>
 					
 					
@@ -69,10 +69,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research is focused on the development of novel peptidic probes for targeted diagnostic approcheas, exploited in different pathological conditions.
-					 In particular, the   MRI visualization of early neuroinflammation was one of my main goals: for this purpose biocompatible nanosized systems based on
-					  Gd(III), properly tailored with peptides, were recently proposed. Currently, I am also focusing on treatment of localized tumors, exploiting 
-					  peptide&minus;based optical dyes designed for Image&minus;Guided Surgery (IGS) applications.</p>
+					<p>The main activity where I am involved on at CIM is the design and tests of novel optical probes for oncologic imaging 
+					applications. Moreover, I am recently collaborating on the development of CEST-MRI tools based on endogenous protein unfolding
+					 processes, mainly for preclinical oncology.</p>
 					 </div>
 					
 					<div class="w3-quarter">
