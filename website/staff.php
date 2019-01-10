@@ -371,6 +371,20 @@ $localizer = "./";
 											</div>
 										</div>
 									</div>
+									<div class="square bg"
+										style="background-image: url(images/staff/atlante.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_atlante.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Sandra Atlante</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
 									
 									
 									
