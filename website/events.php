@@ -47,8 +47,7 @@
 					<div class='paddingInner'>
 					   
 					   <br /><br />
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ccccff&amp;src=unito.it_rhlc94gnpnlqnus7u9e9i61120%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FRome" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>					<!-- calendario preso da https://fullcalendar.io/  -->
-					 <div id='calendar'></div>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=2&amp;hl=en&amp;bgcolor=%23ccccff&amp;src=unito.it_rhlc94gnpnlqnus7u9e9i61120%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FRome" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>					 <div id='calendar'></div>
 					
 					
 					
