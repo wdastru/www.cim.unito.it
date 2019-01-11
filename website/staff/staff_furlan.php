@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. Biotechnologies, University of Torino, Italy<br>
+												 M.Sc. Molecular Biotechnology , University of Torino, Italy<br>
 											</p>
 					
 					
@@ -81,7 +81,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706476<br /> 
-					E-mail: <a href="mailto:chiara.furlan@edu.unito.it"><span style="color:#007c92">chiara.furlan@edu.unito.it</span></a></p>
+					E-mail: <a href="mailto:chiara.furlan@unito.it"><span style="color:#007c92">chiara.furlan@unito.it</span></a></p>
 					
 					</div>
 					   
@@ -90,7 +90,7 @@
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Chiara+Furlan" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.scopus.com/results/authorNamesList.uri?origin=searchauthorlookup&src=al&edit=&poppUp=&basicTab=&affiliationTab=&advancedTab=&st1=Furlan&st2=Chiara&institute=University+of+Torino&orcidId=&authSubject=LFSC&_authSubject=on&authSubject=HLSC&_authSubject=on&authSubject=PHSC&_authSubject=on&authSubject=SOSC&_authSubject=on&s=AUTHLASTNAME%28Furlan%29+AND+AUTHFIRST%28Chiara%29&sdt=al&sot=al&searchId=7f80c4ab0c868e56696bba78fa07cf3d&exactSearch=off&sid=7f80c4ab0c868e56696bba78fa07cf3d" target="_blank" style="color:#007c92">Scopus </a>
 					
 					</div>
 					   
