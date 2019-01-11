@@ -621,6 +621,34 @@ $localizer = "./";
 											</div>
 										</div>
 									</div>
+									<div class="square bg"
+										style="background-image: url(images/staff/villano.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_villano.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Daisy Villano</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
+										style="background-image: url(images/staff/paglialonga.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_paglialonga.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Alessandro Paglialonga</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
 									
 								</div>
 							</div>
