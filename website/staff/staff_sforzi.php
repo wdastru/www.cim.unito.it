@@ -88,7 +88,7 @@
 					E-mail: <a href="mailto:jacopo.sforzi@unito.it"><span style="color:#007c92">jacopo.sforzi@unito.it</span></a></p>
 					
 					</div>
-					   
+					  <!-- 
 					   <hr></hr>
 					
 					<div class="row" >
@@ -97,7 +97,7 @@
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Jacopo+Sforzi" target="_blank" style="color:#007c92">PubMed </a>
 					
 					</div>
-					   
+					   -->
 					   
 					   
 					</div>
