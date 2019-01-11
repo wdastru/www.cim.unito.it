@@ -43,7 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giulia Spatola</h1>
 								<p style="text-align:left;"><b>PhD student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Viale/home.html" target="_blank" style="color:#dc6a10">
+								<a> <!-- href="../PI/Viale/home.html" target="_blank" style="color:#dc6a10"> -->
 								  Viale Lab</a>
 								</b></p>
 									
@@ -83,10 +83,10 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706475<br /> 
-					E-mail: <a href="mailto:spatolagiulia@gmail.com"><span style="color:#007c92">spatolagiulia@gmail.com</span></a></p>
+					E-mail: <a href="mailto:giulia.spatola@unito.it"><span style="color:#007c92">giulia.spatola@unito.it</span></a></p>
 					
 					</div>
-					   
+					<!--    
 					   <hr></hr>
 					
 					<div class="row" >
@@ -95,7 +95,7 @@
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Giulia+Spatola" target="_blank" style="color:#007c92">PubMed </a>
 					
 					</div>
-					   
+					    -->
 					   
 					   
 					</div>
