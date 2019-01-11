@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 MSc in Biomedical Engineering, University of Naples, Italy <br>
+												 M.Sc. in Biomedical Engineering, University of Naples, Italy <br>
 											</p>
 					
 					

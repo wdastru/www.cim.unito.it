@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 MSc in Computer Science, Politecnico di Milano, Italy  <br>
+												 M.Sc. in Computer Science, Politecnico di Milano, Italy  <br>
 											</p>
 					
 					

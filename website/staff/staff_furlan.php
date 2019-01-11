@@ -67,7 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>My project focuses on Gadolinium retention in organs and tissues after the administration of Gadolinium Based 
+					Contrast Agents (GBCAs) in murine models. The main target of the research is to investigate causes and mechanisms 
+					behind this process, in order to avoid it..</p>
 					</div>
 					
 					
