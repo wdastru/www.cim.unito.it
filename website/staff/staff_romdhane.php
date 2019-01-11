@@ -98,7 +98,7 @@
 					
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Feriel+Romdhane" target="_blank" style="color:#007c92">PubMed </a></p>
+									<a title="Open in a new window" href="https://www.scopus.com/authid/detail.uri?authorId=55844359800" target="_blank" style="color:#007c92">Scopus </a></p>
 					</div>
 				
 					
