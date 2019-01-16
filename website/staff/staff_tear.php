@@ -89,7 +89,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706499<br /> 
+					Phone: +390116706454<br /> 
 					E-mail: <a href="mailto:lrtear05@googlemail.com"><span style="color:#007c92">lrtear05@googlemail.com</span></a></p>
 					
 					</div>
