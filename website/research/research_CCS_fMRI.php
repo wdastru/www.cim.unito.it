@@ -1,3 +1,6 @@
+<?php
+$localizer = "../";
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
@@ -5,21 +8,21 @@ xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-        <title>Molecular Imaging Center - University of Torino - Research at CCS fMRI</title>
-        <meta name="description" content= "Research topics at Molecular Imaging Center" />
+        <title>Molecular Imaging Center - University of Torino - CEST agents</title>
+        <meta name="description" content="" />
     </head>
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section1'>
             <?php
-            require ('includes/main-nav.php');
+            require ($localizer . 'includes/main-nav.php');
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id="subsection21">
                 <!-- InstanceEndEditable -->
                 <?php
-                    require ('includes/research-side-nav.php');
+                require ($localizer . 'includes/research-side-nav.php');
                 ?>
                 <div id='content'>
                     <div class='paddingOuter'>
@@ -211,90 +214,4 @@ xmlns="http://www.w3.org/1999/xhtml">
     </body>
 </html>
 
-resting condition. The cognitive
-paradigms, which require precise timing of the cognitive processes
-involved, are based on an event-correlated design. We use E-Prime
-software (Psychology Software Tools, Inc., Pittsburgh, PA, USA) to
-create paradigms. Functional magnetic resonance imaging studies
-without using activation paradigms. - Resting-State (RS) This is an
-advanced technique that we use in some fMRI studies. It is based on
-an analysis of the low-frequency fluctuations of the BOLD signal
-during resting-state brain activity. We use this technique for two
-main purposes: a) to investigate functional connectivity of brain
-networks in specific patient populations where this may be reduced
-or altered as a consequence of the disease. It has been shown that
-the brain at rest is characterized by an organized, baseline level
-of activity, which represents a default mode of brain function in
-the absence of goal-oriented mental activity. This resting-state
-functional connectivity &ndash; which has been implicated in an
-introspectively oriented self-referential mode of mental activity,
-e.g. self-awareness, sensory input processing, and self-monitoring
-&ndash; is a potential marker in the diagnosis of several
-neurological and psychiatric disorders. Our studies have
-demonstrated the presence of significant modifications in
-resting-state functional connectivity in the permanent vegetative
-state (Cauda et al., 2009a) and neuropathic pain (Cauda et al.,
-2009b). b) to study the functioning of brain networks in
-uncooperative patients (or those unable to perform motor and
-cognitive tasks). Slow fluctuations in the resting-state level of
-brain activity correspond to resting-state activity of specific
-functional networks, such as the motor, visual, auditory, mnestic
-and executive function networks. Using certain statistical models,
-such as independent component analysis (ICA), resting-state brain
-activity can be broken down into different spatial components, on
-the basis of their temporal correlation: different regions in which
-activity is synchronized are assumed to be functionally related and
-thus considered as belonging to the same network. This enables us
-to analyze the functioning of motor or cognitive networks even in
-patients who are unable to perform the relative tasks.</p>
-<h2>RESEARCH TOPICS USING ADVANCED TECHNOLOGY</h2>
-<p class="indent">
-    Walking rehabilitation in patients with paresis
-    using pneumatically-powered robotic orthotics and motor imagery The
-    rehabilitation protocol, used for paretic patients with brain
-    injury, consists of passive movements of the lower limbs using a
-    robotic system to reproduce the normal walking step. The system was
-    designed and developed by a group of engineers from the Department
-    of Mechanical Engineering at Turin Polytechnic. In the brain, the
-    proprioception and kinesthesia triggered by the passive movement
-    provide an afferent input to the supraspinal neural networks that
-    control gait, thus stimulating these networks. The passive
-    movements are accompanied by cognitive training with exercises in
-    motor imagery and focusing of attention, aimed at reconstructing
-    gait patterns. Effectiveness is evaluated in clinical and
-    functional terms and also using fMRI to assess alterations in the
-    brain motor networks. Memory rehabilitation using virtual reality
-    The protocol, used for patients with memory disorders as a result
-    of traumatic or degenerative brain damage, is based on a videogame
-    designed and developed in collaboration with the Department of
-    Computer Science at the University of Turin. The game is a 3D
-    simulation of a city that provides a complex, detailed, large-scale
-    spatial layout. As they control the spatial navigation within a
-    virtual environment, patients perform spatial coding with
-    activation of a network of brain regions involved in the memory
-    process. We perform fMRI to reveal any alterations in these brain
-    networks, especially in the hippocampus and surrounding cortices
-    (entorhinal and para-entorhinal cortex). Training with virtual
-    visual feedback to alleviate pain in paraplegic patients The
-    protocol consists in the use of mirror therapy, a cognitive
-    technique for alleviating neuropathic pain. This technique is based
-    on the assumption that in patients who are unable to move, or
-    amputees, neuropathic pain is caused by a discrepancy between the
-    commands sent by the motor cortex and the absence of sensory
-    feedback; the motor intention cannot activate proprioception in the
-    muscles and joints and visual feedback is inhibited. This lack of
-    feedback is thought to activate the right parietal cortex, which
-    monitors the incongruence between motor intention, proprioception
-    and vision, causing the pain. Mirror therapy tends to correct this
-    conflict: for example, in a virtual walking protocol, the patient
-    watches a video of a person walking on a treadmill and can see the
-    upper part of his or her own body reflected in a mirror placed over
-    the upper half of the screen. The patient moves the upper part of
-    his or her body in time with the lower part of the body of the
-    person in the video, which creates the illusion of walking. A
-    number of studies have demonstrated the effectiveness of this type
-    of therapy in alleviating pain. We use fMRI to investigate
-    functional changes in the primary motor area: the re-creation of a
-    coherent body image should be accompanied by increased activation
-    in this area. Modulatory effects of attention and cognition on
-    brain responses to sensory stimu
+
