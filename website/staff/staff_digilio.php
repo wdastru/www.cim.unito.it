@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Imaging Probe Chemistry Center (IPCT)
+							University of Eastern Piedmont Amedeo Avogadro
 						</h1>
 					</div>
 					<div class='paddingInner'>

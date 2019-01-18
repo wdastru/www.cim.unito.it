@@ -28,7 +28,7 @@ $localizer = "./";
 				<div id='content'>
 					<div class='paddingOuter'>
 						<div id='band'>
-							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Chemistry and Preclinical Research Team (CPRT) <!-- InstanceEndEditable --></h1>
+							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> University of Torino <!-- InstanceEndEditable --></h1>
 						</div>
 						<div class='paddingInner'>
 
@@ -162,22 +162,7 @@ $localizer = "./";
 							</div></a>
 						</div>
 					</div>
-				</div>
-				<div class="square bg"
-					style="background-image: url(images/staff/Dario_Longo.jpg);">
-					<div class="content">
-						<div class="table">
-						  <a title="Homepage" href="PI/Longo/home.html" target="_blank">
-							<div class="table-cell">
-								<h2 style="font-size: 20px;">
-									<b>Dario Longo</b>
-								</h2>
-								<p style="font-size: 16px;">Assistant Professor</p>
-							</div></a>
-						</div>
-					</div>
-				</div>
-				
+				</div>		
 				
 				
 			</div>
@@ -661,14 +646,31 @@ $localizer = "./";
 </div>
 
 						<div id='band'>
-							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> IBB-CNR Torino Unit <!-- InstanceEndEditable --></h1>
+							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Institute of Biostructures and Bioimaging (CNR) <!-- InstanceEndEditable --></h1>
 						</div>
 						<div class='paddingInner'>
 
+<h1><span style="text-align:center">Research Group Leaders</span></h1>
 
-
+		
 		<div class="row">
 			<div class="w3-container">
+			
+				<div class="square bg"
+					style="background-image: url(images/staff/Dario_Longo.jpg);">
+					<div class="content">
+						<div class="table">
+						  <a title="Homepage" href="PI/Longo/home.html" target="_blank">
+							<div class="table-cell">
+								<h2 style="font-size: 20px;">
+									<b>Dario Longo</b>
+								</h2>
+								<p style="font-size: 16px;">Researcher</p>
+							</div></a>
+						</div>
+					</div>
+				</div>
+				
 				<div class="square bg"
 					style="background-image: url(images/staff/menchise.jpg);">
 					<div class="content">
@@ -697,6 +699,14 @@ $localizer = "./";
 						</div>
 					</div>
 				</div>
+				</div>
+				
+				<h1>
+					<span style="text-align: left">Senior Research Scientists</span>
+				</h1>
+				
+				<div class="row">
+				<div class="w3-container">
 				<div class="square bg"
 					style="background-image: url(images/staff/padovan.jpg);">
 					<div class="content">
@@ -740,13 +750,15 @@ $localizer = "./";
 					</div>
 				</div>
 			</div>
+			</div>
+			
+			
 		</div>
 
 	</div>
 
 						<div id='band'>
-							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Imaging Probe Chemistry Center
-									(IPCT) <!-- InstanceEndEditable --></h1>
+							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->  University of Eastern Piedmont Amedeo Avogadro  <!-- InstanceEndEditable --></h1>
 						</div>
 						<div class='paddingInner'>
 
