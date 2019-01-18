@@ -57,7 +57,7 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Surgical Experimental Sciences and Cellular Therapies, University of Bari "Aldo Moro", Italy<br/> 
+												Ph.D. Surgical Experimental Sciences and Cellular Therapies, University of Bari "Aldo Moro", Italy (under Marie Curie ITN program)<br/> 
 												M.Sc. Oncology, Vrije Universiteit Amsterdam, The Netherlands<br>
 											</p>
 					
@@ -69,7 +69,11 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>The focus of my research is to develop novel pH imaging approaches to assess spatial and temporal tumor pH evolution during cancer progression. 
+					The main goal is to access the pH heterogeneity during the cancer progression (starting from dysplasia to invasive cancer) using MRI-CEST pH imaging approaches, 
+					histological and protein level analyses of tumor acidosis, glucose transporters and proton transporters markers in breast cancer (PyMT) and prostate (TRAMP) 
+					transgenic mouse models. I am also interested in exploring how metabolic pathway affected during pH evolution by analyzing metabolic imaging of Glycolysis, 
+					Pentose phosphate pathway (PPP) and Tricarboxylic acid pathway (TCA) pathway. </p>
 					 </div>
 					
 					<div class="w3-quarter">
@@ -88,7 +92,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706499<br /> 
-					E-mail: <a href="mailto:singh.bhavna10@gmail.com"><span style="color:#007c92">singh.bhavna10@gmail.com</span></a></p>
+					E-mail: <a href="mailto:bhavna.rani@unito.it"><span style="color:#007c92">bhavna.rani@unito.it</span></a></p>
 					
 					</div>
 					   

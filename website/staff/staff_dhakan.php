@@ -43,6 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Chetan Dhakan</h1>
 								<p style="text-align:left;"><b>PhD Student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
+								Institute of Biostructures and Bioimaging (CNR)</br>
 								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
 								 Longo Lab</a>
 								</b></p>
@@ -56,7 +57,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. ???<br>
+												 M.Sc. Pharmacology & Toxicology, Gujarat University, India<br>
 											</p>
 					
 					
@@ -67,7 +68,10 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>The target of my project is validation and evaluation of novel biomarkers in atherosclerosis by means of DCE-MRI 
+					and Ultrasound Imaging. The final pathway is to identify and validate imaging parameters in order to differentiate 
+					between stable and vulnerable atherosclerotic plaques in genetically modified mouse models. I am also interested in 
+					MRI-CEST pH imaging for the evaluation of tumor acidosis.</p>
 					</div>
 					
 					
