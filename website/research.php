@@ -65,9 +65,9 @@ $localizer = "./";
 										<a href="research/research_gado.php">
 										<img src="images/research/figure_research_Gdcomplex.jpg" alt="" class="w3-image-left"> </img></a>
 										<span class="PIname">PI: </span> 
-										<a title="Opens in new window" href="#"><span class="PIname">Terreno, </span></a> 
-										<a title="Opens in new window" href="#"><span class="PIname">Gianolio, </span></a> 
-										<a title="Opens in new window" href="#"><span class="PIname">Longo</span></a>
+										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname">Terreno, </span></a> 
+										<a title="Opens in new window" href="PI/Gianolio/home.html"><span class="PIname">Gianolio, </span></a> 
+										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>
 									
 									</div>
 								</div>
@@ -81,7 +81,7 @@ $localizer = "./";
 										<a href="research/research_cest.php">
 										<img src="images/research/figure_research_CEST.jpg" alt="" class="w3-image-left"> </img></a>
 										<span class="PIname">PI: </span> 
-										<a title="Opens in new window" href="#"><span class="PIname">Terreno, </span></a>
+										<a title="Opens in new window" href="../PI/Terreno/home.html"><span class="PIname">Terreno, </span></a>
 										<a title="Opens in new window" href="#"><span class="PIname">Delli Castelli, </span></a>
 										<a title="Opens in new window" href="PI/Longo/home.html" target="_blank"><span class="PIname">Longo</span></a>
 									
@@ -116,7 +116,7 @@ $localizer = "./";
 										<a href="research/research_multi.php">
 										<img src="images/research/figure_research_multimodal.jpg" alt="" class="w3-image-left"></img></a>
 										 <span class="PIname">PI: </span> 
-										 <a title="Opens in new window" href="#"><span class="PIname"> Terreno</span></a>
+										 <a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname"> Terreno</span></a>
 
 
 									</div>
@@ -133,8 +133,8 @@ $localizer = "./";
 										 <span class="PIname">PI: </span> 
 										 <a title="Opens in new window" href="PI/Longo/home.html" target="_blank"><span class="PIname"> Longo, </span></a> 
 										 <a title="Opens in new window" href="#"><span class="PIname">Delli Castelli, </span></a>
-											<a title="Opens in new window" href="#"><span class="PIname">Gianolio, </span></a>
-											<a title="Opens in new window" href="#"><span class="PIname">Digilio </span></a>
+											<a title="Opens in new window" href="PI/Gianolio/home.html"><span class="PIname">Gianolio, </span></a>
+											<a title="Opens in new window" href="staff/staff_digilio.php"><span class="PIname">Digilio </span></a>
 									
 									</div>
 								</div>
@@ -147,8 +147,8 @@ $localizer = "./";
 										<a	href="research/research_nanotarget.php">
 										<img src="images/research/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"></img></a>
 										 <span class="PIname">PI: </span> 
-										 <a title="Opens in new window" href="#"><span class="PIname"> Terreno, </span></a>
-											<a title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
+										 <a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname"> Terreno, </span></a>
+											<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Geninatti</span></a>
 											<a href="staff/staff_stefania.php"><span class="PIname"> Stefania, </span></a>									
 									</div>
 								</div>
@@ -161,9 +161,9 @@ $localizer = "./";
 										<a	href="research/research_imaging_therapy.php">
 										<img src="images/research/figure_research_theranostic.jpg" alt="" class="w3-image-left"></img></a>
 										 <span class="PIname">PI: </span> 
-										 <a title="Opens in new window" href="#"><span class="PIname"> Terreno, </span></a> 
-											<a title="Opens in new window" href="#"><span class="PIname">Geninatti, </span></a>
-											<a title="Opens in new window" href="#"><span class="PIname">Cutrin</span></a>
+										 <a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname"> Terreno, </span></a> 
+											<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Geninatti, </span></a>
+											<a title="Opens in new window" href="PI/Cutrin/home.html"><span class="PIname">Cutrin</span></a>
 									
 									</div>
 								</div>
@@ -182,7 +182,7 @@ $localizer = "./";
 										<a href="research/research_Fprobes.php">
 										<img src="images/research/figure_research_Fprobes.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
-										<a title="Opens in new window" href="#"><span class="PIname"> Terreno, </span></a> 
+										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname"> Terreno, </span></a> 
 											<a title="Opens in new window" href="#"><span class="PIname">Dastr&ugrave;, </span></a>
 											<a title="Opens in new window" href="#"><span class="PIname">Delli Castelli, </span></a>
 											<a href="../staff/staff_menchise.php"><span class="PIname">Menchise</span></a>
@@ -198,7 +198,7 @@ $localizer = "./";
 										<a	href="research/research_Gdboro.php">
 										<img src="images/research/figure_research_Gd_boron.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
-										<a title="Opens in new window" href="#"><span class="PIname"> Geninatti </span></a> 
+										<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname"> Geninatti </span></a> 
 											
 
 									</div>
@@ -261,7 +261,7 @@ $localizer = "./";
 										<img src="images/research/figure_research_tumor_acidosis.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo, </span></a>										
-										<a title="Opens in new window" href="PI/DelliCastelli/home.html"><span class="PIname">Delli Castelli</span></a>
+										<a title="Opens in new window" href="#"><span class="PIname">Delli Castelli</span></a>
 										
 									
 									</div>
@@ -276,7 +276,7 @@ $localizer = "./";
 										<a href="research/research_metabolism.php">
 										<img src="images/research/figure_research_tumor_metabolism.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
-										<a title="Opens in new window" href="PI/Reineri/home.html"><span class="PIname">Reineri</span></a> 
+										<a title="Opens in new window" href="#"><span class="PIname">Reineri</span></a> 
 
 									</div>
 								</div>
@@ -312,7 +312,7 @@ $localizer = "./";
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="PI/Terreno/home.html"><span class="PIname"> Terreno, </span></a> 
 										<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Geninatti, </span></a>
-										<a title="Opens in new window" href="PI/Geninatti/home.html"><span class="PIname">Cutrin</span></a>
+										<a title="Opens in new window" href="PI/Cutrin/home.html"><span class="PIname">Cutrin</span></a>
 									
 									</div>
 								</div>
@@ -326,7 +326,7 @@ $localizer = "./";
 										<img src="images/research/figure_research_enzyme.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
 										<a title="Opens in new window" href="staff/staff_digilio.php"><span class="PIname"> Digilio, </span></a> 										
-										<a title="Opens in new window" href="PI/Reineri/home.html"><span class="PIname">Reineri</span></a>									
+										<a title="Opens in new window" href="#"><span class="PIname">Reineri</span></a>									
 									
 									</div>
 								</div>
@@ -376,7 +376,7 @@ $localizer = "./";
 										<a href="research/research_processing.php">
 										<img src="images/research/figure_research_image_processing.jpg" alt="" class="w3-image-left"></img></a> 
 										<span class="PIname">PI: </span> 
-										<a title="Opens in new window" href="PI/Dastru/home.html"><span class="PIname">Dastr&ugrave;, </span></a> 
+										<a title="Opens in new window" href="#"><span class="PIname">Dastr&ugrave;, </span></a> 
 										<a title="Opens in new window" href="PI/Longo/home.html"><span class="PIname">Longo</span></a>										
 										
 									</div>

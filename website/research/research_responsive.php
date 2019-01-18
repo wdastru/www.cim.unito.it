@@ -98,7 +98,7 @@ $localizer = "../";
 							<a href="../staff/staff_digilio.php" title="Giuseppe Digilio">
 							<img src="../images/staff/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
-							<a href="#" target="_blank" title="Eliana Gianolio">
+							<a href="../PI/Gianolio/home.html" target="_blank" title="Eliana Gianolio">
 							<img src="../images/staff/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
                             

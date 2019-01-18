@@ -31,19 +31,41 @@ $localizer = "../";
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <p class='indent'>
-                                Such class of agents is 
-                            </p>
+										<p align="justify">
+											It was established through in vivo T1 measurements at low magnetic fields that tumour 
+											cells display proton T1 values that are markedly longer than those shown by healthy tissue.</p>
+											
+										<div style="text-align: center;">		
+										<img src="../PI/Geninatti/images/figureresearch31.jpg" style="width:300px;height:600px;">  
+										</div>
+										<p align="justify">
+											Moreover, it has been found that the elongation of T1 parallels the aggressiveness of the investigated tumour. 
+											The T1 lengthening is associated with an enhanced water exchange rate across the transcytolemmal membrane through 
+											an overexpression/ upregulation of GLUT1 and Na+/K+ ATPase transporters. It follows that the intracellular water 
+											lifetime represents a hallmark of tumour cells that can be easily monitored by measuring T1 at different magnetic 
+											field strengths ranging from 0.2 to 200 mT.
+										</p>
+										<div style="text-align: center;">		
+										<img src="../PI/Geninatti/images/figureresearch32.jpg" style="width:600px;height:400px;">
+										</div>
+										<p align="justify">Figure: The water exchange regime and the resulting MZ value in a schematic representation of the 
+										relationship between the compartmentalized system formed by the IN and the EX space. In the case of intermediate exchange, 
+										aS and R1S are the fraction and the rate constant for the apparent component with the shorter T1 (R1S=1/T1S); (1 aS)=aL and 
+										R1L are the fraction and rate constant for the apparent component with the longer T1 (R1L=1/T1L), and t is the running time for recovery by relaxation.</p>
+										
+								<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/29575414?dopt=Abstract"
+												target="_blank"><font color="blue">M.R. Ruggiero et al, Angew. Chem. Int. Ed. Engl. 57, 7468 (2018)</font></a>
+											</p>
 							
 							
                             <hr></hr>
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
 														
-							<a href="#" target="_blank" title="Simonetta Geninatti Crich">
+							<a href="../PI/Geninatti/home.html" target="_blank" title="Simonetta Geninatti Crich">
 							<img src="../images/staff/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
-							<a href="#" target="_blank" title="Eliana Gianolio">
+							<a href="../PI/Gianolio/home.html" target="_blank" title="Eliana Gianolio">
 							<img src="../images/staff/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							
