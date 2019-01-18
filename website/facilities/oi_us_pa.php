@@ -77,35 +77,7 @@
 												(Torino).</p>
 									</div>
 									
-									<div class="w3-container">
-									<h3><strong><span style="font-size: 14px; ">Tomowave LOIS 3D</span></strong></h3>
-									<img alt="" src="../images/strumenti/tomowave.jpg"
-										style="width: 180px; height: auto; float: left; margin: 10px 10px 100px 10px;" />
-									<br/>
-										<p style="text-align: justify;">LOIS-3D   is   an   optoacoustic   imaging   
-                                            system  specifically  designed  for  in-vivo  
-                                            imaging of small animals. The subject is 
-                                            positioned   in   the   special   holder   and   
-                                            placed  inside  imaging  module,  where  it  
-                                            is  scanned  in  orthogonal  imaging  mode  
-                                            using  4  optical  fiber  bundles.  Absorp-
-                                            tion  of  optical  energy  leads  to  genera-
-                                            tion   of   thermo-acoustic   (ultrasound)   
-                                            waves.  The  subject  is  rotated  360  deg.  
-                                            about  the  vertical  axis,  and  the  received  
-                                            ultrasonic   signals   are   used   to   recon-
-                                            struct   a   volumetric   optoacoustic   3D   
-                                            image of high contrast and resolution.  </p>
-												
-												<p>Wavelengths tunable 750 nm  &#8722 850 nm with about equal pulse energy, 1064 
-													nm with higher pulse energy. Max pulse energy within tunable range of NIR:  120 mJ / 240 mJ. 
-													Pulse duration: 6 ns  Repetition rate of laser pulses: 10 Hz / 20 Hz.</p>
-												
-												
-																				
-									<p>Available at the Center for Molecular Imaging,
-													University of Torino.</p>
-									</div>
+
 									
 									
 									
