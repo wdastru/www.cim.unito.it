@@ -77,10 +77,10 @@ echo "
 					<dt>
 					<br />
 					</dt>
-					<dt class='sidebar-header'>CCS fMRI</dt>
+					<!-- <dt class='sidebar-header'>CCS fMRI</dt>
 					<dt id='section1-subsection22' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research_CCS_fMRI.php'>Research topics</a>
-					</dt>
+						<a href='" . $localizer . "research/research_CCS_fMRI.php'>Research topics</a>
+					</dt> -->
 				</dl>
 			</div>
 		</div>
