@@ -58,7 +58,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. Complex Systems for Life Sciences, University of Torino, Italy<br />
-												 M.Sc. Bioengineering and Biomedical Engineering, University of Rome "La Sapienza", Italy<br>
+												 M.Sc. Biomedical Engineering, Sapienza University of Rome, Italy<br>
 											</p>
 					
 					
@@ -69,8 +69,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on developing novel image-processing tools based on matlab and python code for preclinical images.
-												My project includes the development of tools for image management and processing exploiting the <a href="www.xnat.org" target="_blank">XNAT database</a>.</p>
+					<p>My research aims at developing novel Matlab and Python based tools for processing preclinical MRI images.
+					I am involved in developing a customizable workflow engine for storing, sharing, processing and reusing medical images for preclinical imaging facilities
+						through the integration of an open-source archiving platform (<a href="www.xnat.org" target="_blank">XNAT</a>) with customizable tools for automated image processing.</p>
 					 </div>
 					
 					<div class="w3-quarter">

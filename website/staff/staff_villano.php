@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. in Biomedical Engineering, University of Naples, Italy <br>
+												 M.Sc. Biomedical Engineering, University of Naples Federico II, Italy <br>
 											</p>
 					
 					
@@ -67,7 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>My project focuses on the development of novel image-processing tools (mainly based on Matlab) 
+					for the analysis of 3D CEST MRI images and their representation. My research includes the development 
+					and the optimization of MRI acquisition sequences.</p>
 					</div>
 					
 					
@@ -81,7 +83,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706499<br /> 
-					E-mail: <a href="mailto:villanodaisy@gmail.com"><span style="color:#007c92">villanodaisy@gmail.com</span></a></p>
+					E-mail: <a href="mailto:daisy.villano@unito.it"><span style="color:#007c92">daisy.villano@unito.it</span></a></p>
 					
 					</div>
 					 <!--   

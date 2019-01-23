@@ -35,7 +35,7 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/staff/villano.jpg" class="w3-image"
+								<img src="../images/staff/paglialonga.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. in Computer Science, Politecnico di Milano, Italy  <br>
+												 M.Sc. in Computer Science and Engineering, Politecnico di Milano, Italy  <br>
 											</p>
 					
 					
@@ -67,7 +67,7 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>My project consists in the development of tools to archive, retrieve and process imaging datasets coming from different platforms and imaging centers.</p>
 					</div>
 					
 					
@@ -81,7 +81,7 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706499<br /> 
-					E-mail: <a href="mailto:pagli93@gmail.com"><span style="color:#007c92">pagli93@gmail.com</span></a></p>
+					E-mail: <a href="mailto:alessandro.paglialonga@mail.polimi.it"><span style="color:#007c92">alessandro.paglialonga@mail.polimi.it</span></a></p>
 					
 					</div>
 					 <!--   

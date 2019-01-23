@@ -57,8 +57,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-							Ph.D. Sciences et Techniques de l'Ingenieur, University of Tunisi, Tunisia<br/>
-							M.Sc. Automatique Produtique, University of Tunisi, Tunisia<br>
+							Ph.D. Sciences and Technologies of Engineering, University of Tunisi, Tunisia<br/>
+							M.Sc. Automatic, University of Tunisi, Tunisia<br>
 											</p>
 					
 					
@@ -69,7 +69,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>The focus of my research is developing of magnetic resonance imaging sequences for the in vivo characterization of tumor acidosis. 
+					The main goal consists in the development of preclinical MRI scanner sequences to evaluate the acidification of the tumor microenvironment 
+					and in the development of new image analysis approaches to increase the accuracy of the tumor pH measurement. </p>
 					 </div>
 		
 					<div class="w3-quarter">
