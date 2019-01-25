@@ -56,7 +56,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												
-												 M.Sc. ???<br>
+												 M.Sc. Inorganic chemistry, Taras Shevchenko National University of Kyiv, Ukraine<br>
 											</p>
 					
 					
@@ -67,7 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on ...</p>
+					<p>My scientific experience is organic and inorganic synthesis. My current project is devoted to the development of 
+					the hyperpolarization method named PHIP-SAH (ParaHydrogen Induced Polarization - Side Arm Hydrogenation) and on the 
+					ZULF NMR detection of these hyperpolarized molecule of metabolites. </p>
 					</div>
 					
 					
@@ -80,7 +82,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706473<br /> 
+					Phone: +390116706485<br /> 
 					E-mail: <a href="mailto:oksana.bondar@unito.it"><span style="color:#007c92">oksana.bondar@unito.it</span></a></p>
 					
 					</div>
