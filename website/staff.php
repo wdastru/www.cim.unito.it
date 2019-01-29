@@ -86,7 +86,7 @@ $localizer = "./";
 						<a title="Homepage" href="PI/Gianolio/home.html" target="_blank">
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
-									<b>Eliana Gianalio</b>
+									<b>Eliana Gianolio</b>
 								</h2>
 								<p style="font-size: 16px;">Researcher</p>
 							</div></a>
@@ -97,13 +97,13 @@ $localizer = "./";
 					style="background-image: url(images/staff/dastru2.jpg);">
 					<div class="content">
 						<div class="table">
-						<a title="Homepage" href="PI/Dastru/home.html" target="_blank">
+						<!-- <a title="Homepage" href="PI/Dastru/home.html" target="_blank"> -->
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Walter Dastr&ugrave;</b>
 								</h2>
 								<p style="font-size: 16px;">Assistant Professor</p>
-							</div></a>
+							</div><!-- </a> -->
 						</div>
 					</div>
 				</div>
@@ -111,13 +111,13 @@ $localizer = "./";
 					style="background-image: url(images/staff/reineri.jpg);">
 					<div class="content">
 						<div class="table">
-						<a title="Homepage" href="PI/Reineri/home.html" target="_blank">
+						<!-- <a title="Homepage" href="PI/Reineri/home.html" target="_blank"> -->
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Francesca Reineri</b>
 								</h2>
 								<p style="font-size: 16px;">Assistant Professor</p>
-							</div></a>
+							</div><!--  </a> -->
 						</div>
 					</div>
 				</div>
@@ -125,13 +125,13 @@ $localizer = "./";
 					style="background-image: url(images/staff/dellicastelli.jpg);">
 					<div class="content">
 						<div class="table">
-						<a title="Homepage" href="PI/DelliCastelli/home.html" target="_blank">
+						<!-- <a title="Homepage" href="PI/DelliCastelli/home.html" target="_blank"> -->
 							<div class="table-cell">
-								<h2 style="font-size: 20px;">
+								<h2 style="font-size: 16px;">
 									<b>Daniela Delli Castelli</b>
 								</h2>
 								<p style="font-size: 16px;">Assistant Professor</p>
-							</div></a>
+							</div><!-- </a> -->
 						</div>
 					</div>
 				</div>
@@ -139,13 +139,13 @@ $localizer = "./";
 					style="background-image: url(images/staff/viale.jpg);">
 					<div class="content">
 						<div class="table">
-						 <a title="Homepage" href="PI/Viale/home.html" target="_blank">
+						 <!-- <a title="Homepage" href="PI/Viale/home.html" target="_blank"> -->
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Alessandra Viale</b>
 								</h2>
 								<p style="font-size: 16px;">Researcher</p>
-							</div></a>
+							</div><!-- </a> -->
 						</div>
 					</div>
 				</div>
@@ -155,7 +155,7 @@ $localizer = "./";
 						<div class="table">
 						 <a title="Homepage" href="PI/Cutrin/home.html" target="_blank">
 							<div class="table-cell">
-								<h2 style="font-size: 20px;">
+								<h2 style="font-size: 16px;">
 									<b>Juan Carlos Cutrin</b>
 								</h2>
 								<p style="font-size: 16px;">Assistant Professor</p>
@@ -537,6 +537,20 @@ $localizer = "./";
 										</div>
 									</div>
 									<div class="square bg"
+										style="background-image: url(images/staff/fatehbasharzad.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_fatehbasharzad.php">
+												<div class="table-cell">
+													<h2 style="font-size: 15px;">
+														<b>Parisa Fatehbasharzad</b>
+													</h2>
+													<p style="font-size: 15px;">PhD student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+									<div class="square bg"
 										style="background-image: url(images/staff/sforzi.jpg);">
 										<div class="content">
 											<div class="table">
@@ -851,7 +865,7 @@ $localizer = "./";
 										<div class="content">
 											<div class="table">
 												<div class="table-cell">
-													<h2 style="font-size: 20px;">
+													<h2 style="font-size: 16px;">
 														<b>Giada Maria Marini</b>
 													</h2>
 													<p style="font-size: 16px;">Graduate Student</p>

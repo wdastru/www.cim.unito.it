@@ -27,29 +27,27 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							Post Doctoral Research Fellows
+							PhD and Graduate Students
 						</h1>
 					</div>
 					<div class='paddingInner'>
 					
 					<div class="w3-row" >
-							<div class="w3-quarter">						
+							<div class="w3-col w3-quarter">						
 
-								<img src="../images/staff/zullino.jpg" class="w3-image"
+								<img src="../images/staff/fatehbasharzad.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
-							<div class="w3-threequarter">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Sara Zullino</h1>
-								<p style="text-align:left;"><b>Research Fellow<br />
+							<div class="w3-col w3-threequarter">
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Parisa Fatehbasharzad</h1>
+								<p style="text-align:left;"><b>PhD Student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
-								Longo Lab</a>
+								Department of Materials Science, University of Milano-Bicocca </br>
+								<a> <!-- href="../PI/Dellicastelli/home.html" target="_blank" style="color:#dc6a10"-->  Delli Castelli Lab</a>
 								</b></p>
 									
 							</div>
-							
-							
 						</div>
 					
 					<hr></hr>
@@ -57,8 +55,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Complex Systems for Life Sciences, University of Torino, Italy<br />
-												 M.Sc. Biomedical Engineering, Sapienza University of Rome, Italy<br>
+												
+												 M.Sc. Nanochemistry, Urmia University, Iran<br>
 											</p>
 					
 					
@@ -69,42 +67,35 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research aims at developing novel Matlab and Python based tools for processing preclinical MRI images.
-					I am involved in developing a configurable workflow engine for storing, sharing, processing and reusing medical images for preclinical imaging facilities
-						through the integration of an open-source archiving platform (<a href="www.xnat.org" target="_blank">XNAT</a>) with customized tools for automated image processing.</p>
-					 </div>
+					<p>My research focuses on the synthesis of nanoparticles with application as Magnetic Resonance Imaging 
+					(MRI) contrast agent and Surface-Enhanced Raman Spectroscopy (SERS) probe. 
+					Indeed, it will be as a specific targeted nano-carrier for anticancer drug. 
+					</p>
+					</div>
 					
-					<div class="w3-quarter">
-							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/zullino_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-							</div>
+					
 					
 					</div>
 					
 						<hr></hr>
 					
-					<div class="w3-row" >
+					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706499<br /> 
-					E-mail: <a href="mailto:sara.zullino@unito.it"><span style="color:#007c92">sara.zullino@unito.it</span></a></p>
+					Phone: +390116706493<br /> 
+					E-mail: <a href="mailto:p.fatehbasharzad@campus.unimib.it"><span style="color:#007c92">p.fatehbasharzad@campus.unimib.it</span></a></p>
 					
 					</div>
 					   
-					   <hr></hr>
+					  <!--  <hr></hr>
 					
-					<div class="w3-row" >
-					
+					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.scopus.com/authid/detail.uri?authorId=56530726200" target="_blank" style="color:#007c92">Scopus </a></p>
-					</div>
-				
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Parisa+Fatehbasharzad" target="_blank" style="color:#007c92">PubMed </a>
 					
-					
+					</div> -->
 					   
 					   
 					   
