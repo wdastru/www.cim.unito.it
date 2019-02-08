@@ -31,7 +31,10 @@ $localizer = "../";
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
-                                Such class of agents 
+                                The assessment of matrix remodelling in solid tumors is of utmost importance to stratify patients and to personalize therapy. 
+                                This line of research deals with the synthesis, characterization and validation of MRI contrast agents responsive to the activity of 
+                                Matrix Metalloproteinases (MMPs). Probes being developed are based on relaxation agents (for T1w-MRI) or chemical exchange saturation 
+                                transfer agents (for the CEST-MRI modality) whose MRI properties change upon probe cleavage by MMPs.
                             </p>
 			
 			
@@ -39,8 +42,8 @@ $localizer = "../";
 							
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 														
-							<a href="../staff/staff_digilio" target="_blank" title="Giuseppe Digilio">
-							<img src="../images/staff/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<!--  <a href="../staff/staff_digilio" target="_blank" title="Giuseppe Digilio">-->
+							<a><img src="../images/staff/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							
 							
