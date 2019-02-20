@@ -33,24 +33,33 @@ $localizer = "../";
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
                                                                    
-                                  <li><b>IT workflow for processing preclinical images</b>
+                                  <font size="3" ><b>Welcome to the CIM-XNAT information website!</b></font>
                                     <p class="indent">
-                                    This research line covers the development of IT tools foran easy-to-use, adaptable and implementable workflow for preclinical imaging centers for the fully exploitation
-                                     of images-derived information. The workflow is based on the following steps:
-                                     
-                                     <ol>
-                                     <li>an archiving/searching/retrieving step for merging and collecting multiple image datasets related to the same study coming from several modalities (e.g. imaging scanners) 
-                                     by exploiting <a href= "https://www.xnat.org" target="_blank" style="color:#dc6a10">XNAT</a>, an open-source imaging informatics software platform</li>
-                                	<li>a first-level image processing step producing parametric images related to biological aspects</li>
-                                <li>a second-level image processing step to extract features related to both raw and parametric images</li>
-                                <li>a data analysis step to combine both features and mean-extracted parameters to identify relevant imaging-based biomarkers</li>
+                                    We installed a <a href= "https://www.xnat.org" target="_blank" style="color:#dc6a10">XNAT</a> service 
+                                    available at <a href= "http://cim-xnat.unito.it/app/template/Login.vm" target="_blank" style="color:#dc6a10">http://cim-xnat.unito.it</a></p>
                                     
-                                    </ol>
-                                    </p></li>      
+									<p class="indent">
+                                    <font size="3" ><b>Contact information</b></font></p>
+                                     <p class="indent">
+                                    XNAT administrators:
+                                    <a title="Profile" href="../staff/staff_zullino.php">								
+									<b>Sara Zullino</b></a>,
+									<a title="Profile" href="../staff/staff_paglialonga.php">								
+									<b>Alessandro Paglialonga</b></a></p>
+									
+									<p class="indent">
+                                    <b>Acknowledgements</b><br/></p>
+                                     <img src="../images/research_lines/figure_research_xnat_corbel.png" style="width: 180px; height: auto;  margin: 10px;" > </img> <br/>
+                                     
+                                    
+                                    <p class="indent">
+                                    <b>Links</b>
+                                    
+                                    
                                     
                                 
-                               </ul>
-                               
+                            
+                              
                                
                             </p>
 							
