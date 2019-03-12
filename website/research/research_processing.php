@@ -65,17 +65,7 @@ $localizer = "../";
                                      We have developed clustering-based algorithms to segment T<sub>1</sub>-weighted images and extract fat volume.
                                     </p></li>  
                                     
-                                  <li><b>IT workflow for processing preclinical images</b>
-                                    <p class="indent">
-                                    This research line covers the development of IT tools foran easy-to-use, adaptable and implementable workflow for preclinical imaging centers for the fully exploitation
-                                     of images-derived information. The workflow is based on the following steps:
-                                     
-                                     <ol>
-                                     <li>an archiving/searching/retrieving step for merging and collecting multiple image datasets related to the same study coming from several modalities (e.g. imaging scanners) 
-                                     by exploiting <a href= "https://www.xnat.org" target="_blank" style="color:#dc6a10">XNAT</a>, an open-source imaging informatics software platform</li>
-                                	<li>a first-level image processing step producing parametric images related to biological aspects</li>
-                                <li>a second-level image processing step to extract features related to both raw and parametric images</li>
-                                <li>a data analysis step to combine both features and mean-extracted parameters to identify relevant imaging-based biomarkers</li>
+                                  
                                     
                                     </ol>
                                     </p></li>      

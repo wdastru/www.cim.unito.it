@@ -31,15 +31,40 @@ $localizer = "../";
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <p class='indent'>
                                                                    
                                   <font size="3" ><b>Welcome to the CIM-XNAT information website!</b></font>
                                     <p class="indent">
                                     We installed a <a href= "https://www.xnat.org" target="_blank" style="color:#dc6a10">XNAT</a> service 
-                                    available at <a href= "http://cim-xnat.unito.it/app/template/Login.vm" target="_blank" style="color:#dc6a10">http://cim-xnat.unito.it</a></p>
+                                    available at <a href= "http://cim-xnat.unito.it/app/template/Login.vm" target="_blank" style="color:#dc6a10">http://cim-xnat.unito.it</a>. </br>
+                                    Small animal imaging facilities are highly specialized centers that provide the research community access to cutting-edge imaging technologies. 
+                                    These centers have therefore to deal with the complexity and the variety of preclinical trial datasets.  Moreover, imaging data analysis requires a 
+                                    multidisciplinary effort, in terms of data management and processing. 
+                                    Our aim is to overcome this limitation through the integration of an open-source archiving platform with customizable tools for automated image processing. 
+                                    The workflow is based on the following steps:
+                                    <ul>
+     							   <li> retrieving multiple imaging datasets acquired through several instrumentations and modalities either in DICOM (1a) or proprietary formats (1b);</li> 
+                                    <li> a direct import of DICOM images to XNAT (2a) or a Bruker ParaVision to DICOM format converter to import images to XNAT (2b); </li> 
+                                    <li> an XNAT image processing pipeline accepting as input DICOM files (3a) or an image processing tool accepting raw data (3b) to produce parametric images related to biological aspects.</li> 
+                                    </ul>             
+									</p>                      
                                     
-									<p class="indent">
-                                    <font size="3" ><b>Contact information</b></font></p>
+                                    <img src="../images/research_lines/xnat_workflow.png" style="width: 850px; height: auto;  margin: 20px;" > </img> <br/>
+                                    
+                                     XNAT natively supports multiple imaging modalities, such as MR, PET, CT, and US. We aim to extend XNAT datatypes to other 
+                                    preclinical imaging methods, such as Optoacoustic (OA) and Optical Imaging (OI).</br>
+                                    
+                                    <p style="text-align:center;"><img src="../images/research_lines/DB.png" style="width: 400px; height: auto;  margin: 20px;" > </img></p>
+                                      
+                                   We offer the following services:            
+     							   <ul>
+     							   <li>Each user can, after registration, create his/her own projects and upload DICOM data. </li> 
+     							   <li>Users can run external applications and shell scripts (pipeline) passing the required parameters to the application to 
+     							   download the data, process it and import the processed data back to XNAT. To date Diffusion Weigthed Imaging (DWI) processing pipelines that cun run at project/subject level are available on our XNAT instance.</li>
+									<li>Users can either use previously imported mask on XNAT or create mask directly on XNAT (beta) to obtain parametric images.</li>
+                                     </ul>
+                                     
+									
+                                    <font size="3" ><b>Contact information</b></font>
                                      <p class="indent">
                                     XNAT administrators:
                                     <a title="Profile" href="../staff/staff_zullino.php">								
@@ -47,13 +72,32 @@ $localizer = "../";
 									<a title="Profile" href="../staff/staff_paglialonga.php">								
 									<b>Alessandro Paglialonga</b></a></p>
 									
-									<p class="indent">
-                                    <b>Acknowledgements</b><br/></p>
-                                     <img src="../images/research_lines/figure_research_xnat_corbel.png" style="width: 180px; height: auto;  margin: 10px;" > </img> <br/>
-                                     
-                                    
+									
+
+									<font size="3" >
+                                    <b>Acknowledgements</b><br/></font>
                                     <p class="indent">
-                                    <b>Links</b>
+                                    <a href="https://www.corbel-project.eu/home.html" target="_blankk">
+                                    <img src="../images/research_lines/figure_research_xnat_corbel.png" style="width: 100px; height: auto;  margin: 30px;" > </img></a>                                
+                                    <a href="http://www.eurobioimaging.eu/" target="_blankk">
+                                    <img src="../images/research_lines/euro_bio_imaging_logo.jpg" style="width: 230px; height: auto;  margin: 30px;" > </img></a>
+                                    <a href="http://www.mmmi.unito.it/" target="_blankk">
+                                    <img src="../images/research_lines/2logo_MMMI_2.png" style="width: 230px; height: auto;  margin: 30px;" > </img></a> </p>
+                                                                         
+
+									<font size="3" >
+                                    <b>Links/References</b><br/></font></p>
+                                    <p class="indent">
+                                    XNAT home page:
+                                    <a title="Profile" href="http://www.xnat.org" style="color:#dc6a10">								
+									http://www.xnat.org</a></p>
+									
+									<p class="indent">
+                                    User documentation:
+                                    <a title="Profile" href="https://wiki.xnat.org/documentation" style="color:#dc6a10">								
+									https://wiki.xnat.org/documentation</a></p>
+                                    
+                                    
                                     
                                     
                                     
