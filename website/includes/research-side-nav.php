@@ -73,7 +73,7 @@ echo "
 						<a href='" . $localizer . "research/research_processing.php'>Image Processing</a>
 					</dt>
                     <dt id='section1-subsection22' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_xnat.php'>XNAT</a>
+						<a href='" . $localizer . "research/research_xnat.php'>CIM-XNAT</a>
 					</dt>
 
 					

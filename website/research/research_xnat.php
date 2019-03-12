@@ -7,7 +7,7 @@ $localizer = "../";
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-        <title>Molecular Imaging Center - University of Torino - XNAT </title>
+        <title>Molecular Imaging Center - University of Torino - CIM-XNAT </title>
         <meta name="description" content="" />
     </head>
     <body>
@@ -26,7 +26,7 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->XNAT 
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->CIM-XNAT 
                              <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
@@ -34,35 +34,39 @@ $localizer = "../";
                                                                    
                                   <font size="3" ><b>Welcome to the CIM-XNAT information website!</b></font>
                                     <p class="indent">
-                                    We installed a <a href= "https://www.xnat.org" target="_blank" style="color:#dc6a10">XNAT</a> service 
+                                    A <a href= "https://www.xnat.org" target="_blank" style="color:#dc6a10">XNAT</a> service for archiving and processing preclinical medical images is
                                     available at <a href= "http://cim-xnat.unito.it/app/template/Login.vm" target="_blank" style="color:#dc6a10">http://cim-xnat.unito.it</a>. </br>
                                     Small animal imaging facilities are highly specialized centers that provide the research community access to cutting-edge imaging technologies. 
-                                    These centers have therefore to deal with the complexity and the variety of preclinical trial datasets.  Moreover, imaging data analysis requires a 
-                                    multidisciplinary effort, in terms of data management and processing. 
-                                    Our aim is to overcome this limitation through the integration of an open-source archiving platform with customizable tools for automated image processing. 
-                                    The workflow is based on the following steps:
+                                    These centers have therefore to deal with the complexity and the variety of preclinical image datasets in terms of archiving and retrieving image datasets as well as
+									for the management and processing. To date, no custom or standard solutions are available to imaging centers to fullfill these tasks.</br>
+									
+									XNAT natively supports multiple imaging modalities, such as MR, PET, CT, and US. We are extending XNAT datatypes to other 
+                                    preclinical imaging modalities, such as Optoacoustic (OA) and Optical Imaging (OI).</br>
+                                    
+                                    <p style="text-align:center;"><img src="../images/research_lines/DB.png" style="width: 400px; height: auto;  margin: 20px;" > </img></p>
+                                    
+									
+									We have overcome these limitations through the integration of an open-source archiving platform commonly exploited at clinical level based on XNAT with customizable tools for automated image processing. 
+                                    
+									The developed platform can provide the following workflow:
                                     <ul>
-     							   <li> retrieving multiple imaging datasets acquired through several instrumentations and modalities either in DICOM (1a) or proprietary formats (1b);</li> 
-                                    <li> a direct import of DICOM images to XNAT (2a) or a Bruker ParaVision to DICOM format converter to import images to XNAT (2b); </li> 
-                                    <li> an XNAT image processing pipeline accepting as input DICOM files (3a) or an image processing tool accepting raw data (3b) to produce parametric images related to biological aspects.</li> 
+     							   <li> importing multiple imaging datasets acquired through several instrumentations and modalities either in DICOM (1) or proprietary formats via DICOM converter (2);</li> 
+                                    <li> managing different experimental protocols importing user-defined variables (treated/untreated groups, different timepoints, doses, ...); </li> 
+                                    <li> image processing tool accepting raw data (3) or an XNAT image processing pipeline accepting as input DICOM files (4) to produce parametric images by calling user-proprietary image-analysis script.</li> 
                                     </ul>             
 									</p>                      
                                     
                                     <img src="../images/research_lines/xnat_workflow.png" style="width: 850px; height: auto;  margin: 20px;" > </img> <br/>
                                     
-                                     XNAT natively supports multiple imaging modalities, such as MR, PET, CT, and US. We aim to extend XNAT datatypes to other 
-                                    preclinical imaging methods, such as Optoacoustic (OA) and Optical Imaging (OI).</br>
-                                    
-                                    <p style="text-align:center;"><img src="../images/research_lines/DB.png" style="width: 400px; height: auto;  margin: 20px;" > </img></p>
                                       
-                                   We offer the following services:            
+                                    In the near future, we offer the following services:            
      							   <ul>
      							   <li>Each user can, after registration, create his/her own projects and upload DICOM data. </li> 
      							   <li>Users can run external applications and shell scripts (pipeline) passing the required parameters to the application to 
      							   download the data, process it and import the processed data back to XNAT. To date Diffusion Weigthed Imaging (DWI) processing pipelines that cun run at project/subject level are available on our XNAT instance.</li>
 									<li>Users can either use previously imported mask on XNAT or create mask directly on XNAT (beta) to obtain parametric images.</li>
                                      </ul>
-                                     
+                                    
 									
                                     <font size="3" ><b>Contact information</b></font>
                                      <p class="indent">
