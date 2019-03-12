@@ -305,13 +305,13 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<div class="w3-container w3-cell" style="width:250px;">
 									<div class="w3-card" style="width:100%">
 									<div class="w3-container">
-                                    <img src="images/papers/longo_2018.jpg" alt="" style="width:100%">
+                                    <img src="images/papers/longo2019.png" alt="" style="width:100%">
                                     <div class="w3-container">
                                       <h4 style="margin-top: 2px;margin-bottom: 2px;">
-                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29672976" target="_blank">
-                                      <b>Dual-frequency irradiation CEST-MRI of endogenous bulk mobile proteins.</b></h4>
+                                      <a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">
+                                      <b>Imaging tumor acidosis: a survey of the available techniques for mapping in vivo tumor pH.</b></h4>
                                       <span><font color="blue"><b>Longo D. et al; </b></font></span>
-                                      <p><font color="blue">NMR Biomed. 2018 Jun;31(6):e3920</font></p></a>
+                                      <p><font color="blue">Cancer Metastasis Rev. 2019 Feb 14.</font></p></a>
                                     </div>
                                   </div>
 								 </div>
