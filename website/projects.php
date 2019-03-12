@@ -29,7 +29,7 @@ $localizer = "./";
 					<div id='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
-							Projects
+							On going Projects
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
@@ -41,6 +41,19 @@ $localizer = "./";
 							<li><strong>H2020-MSCA-ITN-2017</strong> project "Zero and
 								ultra-low field nuclear magnetic resonance" - <strong>ZULF</strong>
 								(2018-2022)</li>
+								<li>National project funded by San Paolo Foundation: "Imaging extracellular pH as a MRI
+									diagnostic tool" - <strong>CSTO165925</strong>
+								(2017-2019);
+							</li>
+							<li>National project funded by San Paolo Foundation: "Gd retention in brain after Contrast Enhanced MRI" - <strong>CSTO160182</strong>
+								(2017-2019);
+							</li>
+							<li>National project funded by San Paolo Foundation: "MRI guided therapy for combating ovarian cancer" - <strong>CSTO165439</strong>
+								(2017-2019);
+							</li>
+							<li>National project funded by San Paolo Foundation: "Hyperpolarized metabolites for MRI of cancer" - <strong>CSTO164550</strong>
+								(2017-2019);
+							</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "Improving Diagnosis
 								by Fast Field-Cycling MRI" - <strong><a href='http://www.identify-project.eu/' ><span class='paperTitle'>Identify</span></a></strong>
 								(2016-2020)</li>
@@ -57,6 +70,19 @@ $localizer = "./";
 							</li>
 							<li><strong>H2020-INFRASUPP-2014-2</strong>: <strong><a href='http://www.eurobioimaging.eu/global-bioimaging/' ><span class='paperTitle'>Global BioImaging Project</span></a></strong> - International imaging infrastructure services for the
 								life science community, 2016-2018</li>
+								
+								</ul>
+								</div>
+								
+								<div id='band'>
+						<h1 id='subsectionTitle'>
+							<!-- InstanceBeginEditable name="subsection title" -->
+							Past Projects
+							<!-- InstanceEndEditable -->
+						</h1>
+					</div>
+					<div class='paddingInner'>
+								<ul>
 							<li><strong>H2020-INFRADEV-1-2015-2</strong>: "Euro-BioImaging
 								Preparatory Phase 2", 2015-2017 (<strong><a href='http://www.eurobioimaging.eu/prep-phase2016' ><span class='paperTitle'>EuBI PP2</span></a></strong>)</li>
 							<li>Research project of the Green Chemistry Cluster: "Development
@@ -106,7 +132,7 @@ $localizer = "./";
 							</li>
 
 
-							<!-- 
+							 
 							<li><a href="http://www.emilnet.org" rel="external">Network of
 									Excellence <strong>EMIL</strong>(European Molecular Imaging
 									Laboratories) (combating cancer), 2004-2009
@@ -137,11 +163,13 @@ $localizer = "./";
 							<li><a
 								href="<?php echo $localizer; ?>COST/index.php"><strong>COST</strong> Action 2011-16 &quot;Theragnostics Imaging and Therapy: An Action to Develop
 							Novel Nanosized Systems for Imaging-Guided Drug Delivery&quot; (Coord.)</a></li>
-						 -->
+						 
 						 
 						</ul>
 						<!-- InstanceEndEditable -->
 					</div>
+					
+					
 				</div>
 			</div>
 			<!-- subsection closing -->

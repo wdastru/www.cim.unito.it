@@ -150,7 +150,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 Registration
                             </p>
 
-                            </p>For more information and registration you can send an email to <a href="mailto:paola.bardini@unito.it"</a>paola.bardini@unito.it</p>
+                            </p>For more information and registration you can send an email to <a href="mailto:paola.bardini@unito.it">paola.bardini@unito.it</p></a>
 
                             <!-- InstanceEndEditable -->
                         </div>

@@ -23,7 +23,7 @@ $localizer = "./";
 				<div class='padding'>
 					<dl id='list'>
 						<dt id='section4-subsection1' class='subsection_link'>
-							<a href='institutional.php'>Institutional</a>
+							<a href='academic.php'>Academic</a>
 						</dt>
 						<dt id='section4-subsection2' class='subsection_link'>
 							<a href='industrial.php'>Industrial</a>
@@ -43,9 +43,19 @@ $localizer = "./";
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
+					
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<!-- InstanceEndEditable -->
+						
+						<p>The Molecular Imaging Center has long-standing partnership with several national and international institutions, as well as with companies working 
+						in the field of molecular imaging probes, contrast agents and imaging instrumentations.</p>
+						
+						
+						
+						
+					
+						
 					</div>
 				</div>
 			</div>

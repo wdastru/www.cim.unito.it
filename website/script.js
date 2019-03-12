@@ -11,7 +11,7 @@ section[7] = 'section7';
 section[8] = 'section8';
 section[9] = 'section9';
 
-subsection = Array(10);
+subsection = Array(24);
 subsection[0] = 'subsection0';
 subsection[1] = 'subsection1';
 subsection[2] = 'subsection2';
@@ -22,6 +22,20 @@ subsection[6] = 'subsection6';
 subsection[7] = 'subsection7';
 subsection[8] = 'subsection8';
 subsection[9] = 'subsection9';
+subsection[10] = 'subsection10';
+subsection[11] = 'subsection11';
+subsection[12] = 'subsection12';
+subsection[13] = 'subsection13';
+subsection[14] = 'subsection14';
+subsection[15] = 'subsection15';
+subsection[16] = 'subsection16';
+subsection[17] = 'subsection17';
+subsection[18] = 'subsection18';
+subsection[19] = 'subsection19';
+subsection[20] = 'subsection20';
+subsection[21] = 'subsection21';
+subsection[22] = 'subsection22';
+subsection[23] = 'subsection23';
 
 d = new Date();
 curr_year = d.getFullYear();
@@ -96,9 +110,10 @@ function changeSideNavStyles() {
 						var id = section[i] + '-' + subsection[k];
 						if (document.getElementById(id) != null) {
 							if (k == j) {
+								
 								document.getElementById(id).style.backgroundColor = '#e4e4e4';
 								document.getElementById(id)
-										.getElementsByTagName('a').item(0).style.color = '#db6d16';
+										.getElementsByTagName('a').item(0).style.color = '#db6d16';								
 								document.getElementById(id).style.textAlign = 'right';
 							} else {
 								document.getElementById(id).style.backgroundColor = null;
