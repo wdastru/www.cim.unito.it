@@ -103,64 +103,31 @@
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
 		
-	<?php 
-      echo $_SERVER['SERVER_ADDR'];
-      ?>
-		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<script type="text/javascript">
-
 	
-	// 1° metodo
-	const Http = new XMLHttpRequest();
-
+	
 	<?php 
 	
-	if ($_SERVER['SERVER_ADDR'] == '127.0.0.1') {
-          echo "const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=d3de45ac904a4e4821174f72c26012d7';";
-      } else if ($_SERVER['SERVER_ADDR'] == '130.192.119.151') {
-          echo "const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=17f650055be6f7fffc0a62b6d49a0313';";
+	if ($_SERVER['SERVER_ADDR'] == '127.0.0.1') { // XAMPP on EPTADONE
+	       echo "
+                <script type=\"text/javascript\">
+                const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=d3de45ac904a4e4821174f72c26012d7';
+                </script>
+                ";
+	} else if ($_SERVER['SERVER_ADDR'] == '130.192.119.151') { // www.cim.unito.it
+	    echo "
+                <script type=\"text/javascript\">
+                const url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=17f650055be6f7fffc0a62b6d49a0313';
+                </script>
+                ";
       }
     
       ?>
-
-	//
-	
-	//
-	
-	Http.open("GET", url);
-	Http.withCredentials = false;
-	Http.setRequestHeader("Content-Type", "application/json");
-	Http.send({ 'request': "authentication token" });
-
-	//const url='https://jsonplaceholder.typicode.com/posts';
-	
-	Http.onreadystatechange=(e)=>{
-		console.log(Http.responseText)
-	}
-	
-	// 2° metodo
-	
-	//$(document).ready(function(){
-	//	const Url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=7f59af901d2d86f78a1fd60c1bf9426a';
-	//	$('.btn').click(function(){
-	//		$.ajax({
-	//			url: Url,
-	//			type:"GET",
-	//			dataType:'json',
-	//			success: function(result){
-	//				console.log(result)
-	//				},
-	//				error:function(error){
-	//					console.log('Error ${error}')
-	//					}
-	//		})
-	//		})
-	//	})
-	
-	</script>
-	<!-- 
+    
+      <script src="pubs.js" type="text/javascript"></script>
+      
+      <!-- 
 		//const Url='https://api.elsevier.com/content/search/scopus?query=AU-ID(7003894891)&apiKey=7f59af901d2d86f78a1fd60c1bf9426a';
      -->
 		
