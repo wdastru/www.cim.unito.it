@@ -1,11 +1,11 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-SCUFFET Simone
+NICOLAS Andrade
 SZCZESNY Wojciech
 MUSSO Juan
 DE SCIGLIO Mattia
-ADNAN Ali Kadhim
+ROGERIO Oliveira Da Silva
 BERESZYNSKI Bartosz
 DANILO Larangeira
 FELIPE Dal Belo
@@ -17,8 +17,8 @@ LEIVA Lucas
 JANKTO Jakub
 LINETTY Karol
 PAROLO Marco
-BARAK Antonin
-PULGAR Erick
+KUCKA Juraj
+LAZOVIC Darko
 BENTANCUR Rodrigo
 MANDZUKIC Mario
 SIMEONE Giovanni
@@ -26,6 +26,6 @@ ILICIC Josip
 LASAGNA Kevin
 RONALDO Cristiano
 MILIK Arkadiusz
-58
+49
 347-4172758
-Fri 30 Nov 2018 - 23:50:38
+Thu 14 Feb 2019 - 23:41:15
