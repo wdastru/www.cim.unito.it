@@ -48,7 +48,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
+							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
 						</nav>
 
 					</div>

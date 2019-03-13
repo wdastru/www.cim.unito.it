@@ -9,37 +9,8 @@
 -->
 <html>
 <head>
-<title>Home | Longo LAB</title>
-<meta charset="utf-8" />
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents (Gd-based, CEST) for assessing tumor microenvironment (vascularization, acidosis) properties." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="1 week">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112490720-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112490720-1');
-</script>
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | Longo LAB</title>
+	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -73,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
+							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
 						</nav>
 
 					</div>
@@ -144,8 +115,8 @@
 									<header>
 										<h4 align="center">Developing MRI-based probes</h4>
 									</header>
-									<a href="research_probes.php"><img src="<?php echo $localizer; ?>PI/Longo/images/overview_probes.jpg" alt="" class="image featured" /></a>
-									<a href="research_probes.php"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Longo/research_probes.php"><img src="<?php echo $localizer; ?>PI/Longo/images/overview_probes.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Longo/research_probes.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -153,8 +124,8 @@
 									<header>
 										<h4 align="center">Imaging Tumor Acidosis</h4>
 									</header>
-									<a href="research_tumor_pH.php"><img src="images/overview_tumor_pH.jpg" alt="" class="image featured" /></a>
-									<a href="research_tumor_pH.php"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"><img src="<?php echo $localizer; ?>PI/Longo/images/overview_tumor_pH.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -163,8 +134,8 @@
 										<h4 font style="text-transform: none;" align="center">MRI-CEST RENAL pH
 											IMAGING</h4>
 									</header>
-									<a href="research_kidney.php"><img src="images/overview_kidney.jpg" alt="" class="image featured" /></a>
-									<a href="research_kidney.php"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"><img src="<?php echo $localizer; ?>PI/Longo/images/overview_kidney.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"><font color="blue">Read more >></font></a>
 									
 								</section>
 							</div>
@@ -173,8 +144,8 @@
 									<header>
 										<h4 align="center">Imaging Tumor Angiogenesis</h4>
 									</header>
-									<a href="research_angiogenesis.php"><img src="images/overview_angiogenesi.jpg" alt="" class="image featured" /></a> <a
-									   href="research_angiogenesis.php"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php"><img src="<?php echo $localizer; ?>PI/Longo/images/overview_angiogenesi.jpg" alt="" class="image featured" /></a> <a
+									   href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 						</div>
@@ -229,12 +200,12 @@
 									<h2 class="icon fa-file-text-o">NEWS</h2>
 
 									<ul class="divided">
-										<li><img src="images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
 										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
-											i) <a href="documents/Position_cancer_biology_imaging.pdf"><font color="red">postdoctoral Research Fellow position in cancer biology and imaging</a></font><br>
-											ii) <a href="documents/Position_MRI_physics.pdf"><font color="red">Research Fellow position in MRI physics</a></font><br>
-											iii) <a href="documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
+											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging.pdf"><font color="red">postdoctoral Research Fellow position in cancer biology and imaging</a></font><br>
+											ii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_MRI_physics.pdf"><font color="red">Research Fellow position in MRI physics</a></font><br>
+											iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
 											
 											</li>
 											
@@ -248,7 +219,7 @@
 											congratulations!</b>
 											</li>
 											
-											<li><img src="images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
+											<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
 											<b>New book chapter in CEST imaging: </b>
 											<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">							
 											<em><font color="blue">"Iodinated Contrast Media as pH-Responsive CEST Agents" In: Chemical Exchange Saturation Transfer Imaging: Advances and Applications.</font></em></a>

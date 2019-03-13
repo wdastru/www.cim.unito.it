@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,38 +9,8 @@
 -->
 <html>
 <head>
-<title>Kidney Imaging | Longo Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We develop novel MRI based imaging procedure for assessing renal pH as a novel biomarker of kidney damage in acute kidney injuy models." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="1 month">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112490720-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112490720-1');
-</script>
-
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Kidney Imaging | Longo Lab</title>
+	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -63,7 +36,7 @@
 
 						<!-- Logo -->
 						<h1>
-							<a href="home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>/PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
 
@@ -71,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
+							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
 						</nav>
 
 					</div>
@@ -132,7 +105,7 @@
 											<p font style="text-transform: none; font-size:1.3em">Imaging the pH evolution in an acute kidney injury model </p>
 											</br>
 										</header>
-										<img src="images/kidney1.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Our previous studies have shown the ability of a
@@ -154,7 +127,7 @@
 												target="_blank"><font color="blue">[Longo et al. 2013]</font></a>.
 										
 										</p>
-										<img src="images/kidney2.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney2.jpg" alt="" class="image zooming">
 										<p align="justify">We have demonstrated that the use of Iopamidol
 											as a CEST-MRI pH responsive CA provides a
 											good estimate of the kidney pH evolution both in healthy
@@ -185,7 +158,7 @@
 											
 											<p font style="text-transform: none; font-size:1.3em">Evaluation of renal pH homeostasis after ischemia reperfusion injury</p>
 										</header>
-										<img src="images/kidney3.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney3.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Ischemic renal injury is a severe clinical problem in nephrology and the
@@ -202,7 +175,7 @@
 											Morover, MRI-CEST renal pH values were significantly correlated
 											with histological scores, reflecting renal damage.
 										</p>
-										<img src="images/kidney4.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney4.jpg" alt="" class="image zooming">
 										<p align="justify">The results reported herein show, for the first time, that MRI-CEST
 											pH mapping allows the noninvasive detection and monitoring of
 											renal function impairment after unilateral ischemia-induced AKI.
@@ -232,13 +205,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>

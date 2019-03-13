@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,38 +9,8 @@
 -->
 <html>
 <head>
-<title>MRI probes | Longo Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents: high-relaxivity Gd-based, blood-pool contrast agents, diamagnetic CEST (iopamidol, excipients)." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="1 month">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112490720-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112490720-1');
-</script>
-
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>MRI probes | Longo Lab</title>
+	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -63,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -71,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
+							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
 						</nav>
 
 					</div>
@@ -96,14 +69,14 @@
 									
 								<p align="justify">MRI-based contrast agents are often required in order to improve the diagnostic content of the tomographic image.
 								Currently used small molecular weigth Gd-complexes, optimized for the clinical scenario, have been used in pre-clinical settings to report on 
-								vessel architecture and on <a href="research_angiogenesis.html"><font color="blue">tumor vessel permeability</font></a>. 
+								vessel architecture and on <a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php"><font color="blue">tumor vessel permeability</font></a>. 
 								Such Gd-based complexes have, unfortunately, sub-optimal contrast properties 
 								when used with low-field (1 Tesla) pre-clinical MRI scanners in addition to sub-optimal binding properties to mouse serum albumin.
 								<br>
 								Despite Gd-based agents are an indispensable part of MRI examinations, in the past decades, two major clinical studies questioned their safety profiles 
 								and alternatives to Gd-based agents are not readily available. Our lab discovered that Iodinated contrast media, playing a key-role in oncological
 								imaging can provide contrast enhancement in tumors (by exploiting the MRI-CEST approach) that is correlated with corresponding CT enhanced images.
-								In addition, we have demosntrated that most of them can be exploited as <a href="research_acidosis.html"><font color="blue">pH-responsive contrast agents</font></a>.
+								In addition, we have demosntrated that most of them can be exploited as <a href="<?php echo $localizer; ?>PI/Longo/research_acidosis.php"><font color="blue">pH-responsive contrast agents</font></a>.
 								
 								
 								<br/>
@@ -127,7 +100,7 @@
 											<p font style="text-transform: none; font-size:1.3em">Gd-AAZTA-MADEC, an improved blood pool agent for
 												DCE-MRI studies on mice</p>
 										</header>
-										<img src="images/probes1.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/probes1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											In the past years several blood pool Gd-complexes, optimized
@@ -144,7 +117,7 @@
 											comparison to the clinically approved MS-325 (Vasovist or
 											Ablavar) and to B22956/1.
 										</p>
-										<img src="images/probes2.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/probes2.jpg" alt="" class="image zooming">
 										<p align="justify">Gd-AAZTA-MADEC showed stronger binding
 											affinity to HSA, higher relaxivity both with human and with
 											mouse serum albumin (at 40 MHz and 37°C), as well as more
@@ -171,7 +144,7 @@
 											<p font style="text-transform: none; font-size:1.3em">Nonionic Iodinated Radiographic Molecules as MRI-CEST
 												Tumor Perfusion Agents</p>
 										</header>
-										<img src="images/probes3.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/probes3.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Gd-based agents are an indispensable part of MRI examinations
@@ -190,7 +163,7 @@
 											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/27572810"
 												target="_blank"><font color="blue"> [Anemone et al. 2017] </font></a>.
 										</p>
-										<img src="images/probes4.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/probes4.jpg" alt="" class="image zooming">
 										<p align="justify">This work is the first comparison of
 											tumor contrast enhancements and tumor perfusion values using
 											iodinated CM and a Gd-based agent in a preclinical breast
@@ -231,7 +204,7 @@
 												target="_blank"><font color="blue">[Longo et al. 2014]</font></a>. 												
 										</p>
 										
-										<img src="images/probes5.jpg" alt="" class="image zooming">										
+										<img src="<?php echo $localizer; ?>PI/Longo/images/probes5.jpg" alt="" class="image zooming">										
 										
 										<p align="justify">
 										All these ratiometric methods have been demonstrated by using a continuous wave saturation scheme
@@ -245,7 +218,7 @@
 												target="_blank"><font color="blue">[Arena et al. 2018]</font></a>.
 											.</p>
 										
-										<img src="images/probes6.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/probes6.jpg" alt="" class="image zooming">
 										
 										
 										
@@ -269,13 +242,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 
 </body>
 </html>

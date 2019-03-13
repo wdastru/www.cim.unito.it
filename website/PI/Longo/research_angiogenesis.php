@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,38 +9,8 @@
 -->
 <html>
 <head>
-<title>MRI probes | Longo Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI-based blood pool contrast agents and DCE-MRI protocols for investigating tumor angiogenesis" />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="1 month">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112490720-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112490720-1');
-</script>
-
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>MRI probes | Longo Lab</title>
+	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -63,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>/PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -71,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
+							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
 						</nav>
 
 					</div>
@@ -98,7 +71,7 @@
 								and vascular compartments will help to improve anti-angiogenic strategies.
 								Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is the methodology of choice for 
 								the evaluation of tumor angiogenesis, following the injection of a 
-								<a href="research_probes.html"><font color="blue">Gd-based contrast agent</font></a> and recording changes in signal intensity along time.
+								<a href="<?php echo $localizer; ?>/PI/Longo/research_probes.php"><font color="blue">Gd-based contrast agent</font></a> and recording changes in signal intensity along time.
 								This non-ivasive imaging-based approach can provide a detailed view of tumor vasculature, including vessel permeability 
 								and plasmatic volume.
 								<br><strong>Our lab is interested in developing DCE-MRI protocols for accurate assessment of tumor vascuature heterogeneity 
@@ -122,7 +95,7 @@
 											
 											<p font style="text-transform: none; font-size:1.3em">Imaging therapeutic response to antigiogenic drugs</p>
 										</header>
-										<img src="images/angiogenesis1.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Dynamic contrast-enhanced magnetic resonance imaging
@@ -153,7 +126,7 @@
 											
 										
 										</p>
-										<img src="images/angiogenesis2.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis2.jpg" alt="" class="image zooming">
 										<p align="justify">A clustering analysis was performed on a voxel-by-voxel basis
 										to evaluate spatial distribution of tumor Ktrans and vp parametric maps.
 										This study indicates that improvement in the visualization and
@@ -207,7 +180,7 @@
 												target="_blank"><font color="blue"> [Consolino et al. 2016] </font></a> 
 											</p>
 											
-											<img src="images/angiogenesis3.jpg" alt="" class="image zooming">
+											<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis3.jpg" alt="" class="image zooming">
 											
 											<p align="justify">
 											We exploited a similar approach studying gastrointestinal stromal
@@ -226,7 +199,7 @@
 												target="_blank"><font color="blue"> [Consolino et al. 2017] </font></a>.
 												</p>
 										
-											<img src="images/angiogenesis4.jpg" alt="" class="image zooming">
+											<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis4.jpg" alt="" class="image zooming">
 											
 											<p align="justify"> The current study suggests that the assessment of
 											angiogenesis could be considered a promising new biomarker
@@ -254,13 +227,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>

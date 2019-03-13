@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../PI/assets/";
+	$localizer = "../../";
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -10,28 +10,7 @@
 <html>
 	<head>
 		<title>Contact Us | Longo Lab</title>
-		<meta name="MobileOptimized" content="width">
-    <meta name="HandheldFriendly" content="true">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!--[if lte IE 8]><script src="<?php echo $localizer; ?>js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="<?php echo $localizer; ?>css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo $localizer; ?>css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo $localizer; ?>css/ie9.css" /><![endif]-->
-		<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="1 month">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112490720-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112490720-1');
-</script>
-
-
+		<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -65,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
+							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
 						</nav>
 
 					</div>
