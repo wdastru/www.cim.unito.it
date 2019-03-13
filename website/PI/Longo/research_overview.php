@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -31,10 +34,10 @@
 
 
 <!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/main.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie8.css" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie9.css" /><![endif]-->
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="images/favicon.ico" type="image/ico" />
 
@@ -63,7 +66,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>/PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -71,26 +74,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_probes.html">MRI probes</a></li>
-										<li><a href="research_angiogenesis.html">Tumor
-												angiogenesis</a>
-										<li>
-										<li><a href="research_tumor_pH.html" font
-											style="text-transform: none;">TUMOR pH IMAGING</a>
-										<li>
-										<li><a href="research_kidney.html" font
-											style="text-transform: none;">RENAL pH IMAGING</a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
 						</nav>
 
 					</div>
@@ -117,63 +101,63 @@
 
 
 									<article class="box excerpt">
-										<a ><img src="images/overview_probes.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>/PI/Longo/images/overview_probes.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_probes.html">Developing MRI probes</a>
+													<a href="<?php echo $localizer; ?>/PI/Longo/research_probes.php">Developing MRI probes</a>
 												</h3>
 											</header>
 											<p>Development of high-relaxivity Gd-based probes and responsive
 												CEST contrast agents.</p>
-											<a href="research_probes.html"><p align="right">
+											<a href="<?php echo $localizer; ?>/PI/Longo/research_probes.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/overview_angiogenesi.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
+										<a ><img src="<?php echo $localizer; ?>/PI/Longo/images/overview_angiogenesi.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_angiogenesis.html">Tumor angiogenesis</a>
+													<a href="<?php echo $localizer; ?>/PI/Longo/research_angiogenesis.php">Tumor angiogenesis</a>
 												</h3>
 											</header>
 											<p>Investigating DCE-MRI for early detection of the angiogenic switch
 												and for monitoring treatment response to antiangiogenic drugs.</p>
-											<a href="research_angiogenesis.html"><p align="right">
+											<a href="<?php echo $localizer; ?>/PI/Longo/research_angiogenesis.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/overview_tumor_pH.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>/PI/Longo/images/overview_tumor_pH.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_tumor_pH.html">Imaging tumor pH and metabolism</a>
+													<a href="<?php echo $localizer; ?>/PI/Longo/research_tumor_pH.php">Imaging tumor pH and metabolism</a>
 												</h3>
 											</header>
 											<p>MRI-CEST tumor pH (acidosis) mapping for assessing heterogenity in tumor metabolism and for monitoring response
 												to drugs targeting cancer metabolism.</p>
-											<a href="research_tumor_pH.html"><p align="right">
+											<a href="<?php echo $localizer; ?>/PI/Longo/research_tumor_pH.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/overview_kidney.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>/PI/Longo/images/overview_kidney.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_kidney.html">Renal pH imaging</a>
+													<a href="<?php echo $localizer; ?>/PI/Longo/research_kidney.php">Renal pH imaging</a>
 												</h3>
 											</header>
 											<p>MRI-CEST renal pH imaging for early detection of kidney injury and for monitoring longitudinal evolution.</p>
-											<a href="research_kidney.html"><p align="right">
+											<a href="<?php echo $localizer; ?>/PI/Longo/research_kidney.html"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
@@ -228,13 +212,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>

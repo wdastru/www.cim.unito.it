@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -30,10 +33,10 @@
 </script>
 
 <!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/main.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie8.css" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie9.css" /><![endif]-->
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="images/favicon.ico" type="image/ico" />
 
@@ -62,7 +65,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -70,25 +73,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li class="current_page_item"><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_probes.html">MRI probes</a></li>
-										<li><a href="research_angiogenesis.html">Tumor
-												angiogenesis</a>
-										<li>
-										<li><a href="research_tumor_pH.html" font
-											style="text-transform: none;">TUMOR pH IMAGING</a>
-										<li>
-										<li><a href="research_kidney.html" font
-											style="text-transform: none;">RENAL pH IMAGING</a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
 						</nav>
 
 					</div>
@@ -131,7 +116,7 @@
 
 								<section class="box article-list">
 
-									<a href="#"><img src="images/Dario_Longo.jpg" alt=""
+									<a href="#"><img src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg" alt=""
 										style="width: 140px; height: auto; margin-bottom: 8em;margin-right: 1em;" class="image left" /></a>
 										<div style="padding: 0 0 0 160px;">
 									<p align="left" style="line-height: 1.2";>
@@ -159,8 +144,8 @@
 									<header>
 										<h4 align="center">Developing MRI-based probes</h4>
 									</header>
-									<a href="research_probes.html"><img src="images/overview_probes.jpg" alt="" class="image featured" /></a>
-									<a href="research_probes.html"><font color="blue">Read more >></font></a>
+									<a href="research_probes.php"><img src="<?php echo $localizer; ?>PI/Longo/images/overview_probes.jpg" alt="" class="image featured" /></a>
+									<a href="research_probes.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -168,8 +153,8 @@
 									<header>
 										<h4 align="center">Imaging Tumor Acidosis</h4>
 									</header>
-									<a href="research_tumor_pH.html"><img src="images/overview_tumor_pH.jpg" alt="" class="image featured" /></a>
-									<a href="research_tumor_pH.html"><font color="blue">Read more >></font></a>
+									<a href="research_tumor_pH.php"><img src="images/overview_tumor_pH.jpg" alt="" class="image featured" /></a>
+									<a href="research_tumor_pH.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -178,8 +163,8 @@
 										<h4 font style="text-transform: none;" align="center">MRI-CEST RENAL pH
 											IMAGING</h4>
 									</header>
-									<a href="research_kidney.html"><img src="images/overview_kidney.jpg" alt="" class="image featured" /></a>
-									<a href="research_kidney.html"><font color="blue">Read more >></font></a>
+									<a href="research_kidney.php"><img src="images/overview_kidney.jpg" alt="" class="image featured" /></a>
+									<a href="research_kidney.php"><font color="blue">Read more >></font></a>
 									
 								</section>
 							</div>
@@ -188,8 +173,8 @@
 									<header>
 										<h4 align="center">Imaging Tumor Angiogenesis</h4>
 									</header>
-									<a href="research_angiogenesis.html"><img src="images/overview_angiogenesi.jpg" alt="" class="image featured" /></a> <a
-										href="research_angiogenesis.html"><font color="blue">Read more >></font></a>
+									<a href="research_angiogenesis.php"><img src="images/overview_angiogenesi.jpg" alt="" class="image featured" /></a> <a
+									   href="research_angiogenesis.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 						</div>
@@ -302,13 +287,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 
 
 </body>

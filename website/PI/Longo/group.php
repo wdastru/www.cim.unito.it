@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -31,10 +34,10 @@
 
 
 <!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/main.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie8.css" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo $localizer; ?>PI/assets/css/ie9.css" /><![endif]-->
 <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="images/favicon.ico" type="image/ico" />
 
@@ -63,7 +66,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">DARIO LONGO LAB</a>
+							<a href="home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -71,25 +74,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_probes.html">MRI probes</a></li>
-										<li><a href="research_angiogenesis.html">Tumor
-												angiogenesis</a>
-										<li>
-										<li><a href="research_tumor_pH.html" font
-											style="text-transform: none;">TUMOR pH IMAGING</a>
-										<li>
-										<li><a href="research_kidney.html" font
-											style="text-transform: none;">RENAL pH IMAGING</a></li>
-									</ul></li>
-								<li class="current_page_item"><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
 						</nav>
 
 					</div>
@@ -120,7 +105,7 @@
 							<div class="8u 12u(mobile)">
 									<article class="box excerpt">
 										<img
-											src="images/Dario_Longo.jpg" alt="" style="width: 180px; height: auto; margin-bottom:80px;" class="image left"/>
+											src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg" alt="" style="width: 180px; height: auto; margin-bottom:80px;" class="image left"/>
 										<div class="w3-row">
 										<div class="w3-threequarter">
 											<header>
@@ -145,7 +130,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="images/longo_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/longo_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -158,7 +143,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/consolino.jpg" alt="" style="width: 180px; height: auto; margin-bottom:120px;" class="image left"/>
+										<img src="<?php echo $localizer; ?>PI/Longo/images/consolino.jpg" alt="" style="width: 180px; height: auto; margin-bottom:120px;" class="image left"/>
 										<div>
 											<header>
 												<h3>Lorena Consolino</h3>
@@ -189,7 +174,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="images/consolino_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/consolino_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -202,7 +187,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/anemone.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
+										<img src="<?php echo $localizer; ?>PI/Longo/images/anemone.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
 										<div>
 											<header>
 												<h3>Annasofia Anemone</h3>
@@ -232,7 +217,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="images/anemone_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -245,7 +230,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/zullino.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/Longo/images/zullino.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Sara Zullino</h3>												
@@ -275,7 +260,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="images/zullino_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -288,7 +273,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/pagoto.jpg" alt="" style="width: 190px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Longo/images/pagoto.jpg" alt="" style="width: 190px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Amerigo Pagoto</h3>
@@ -317,7 +302,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="images/pagoto_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/pagoto_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									</div>
 									</div>
@@ -330,7 +315,7 @@
 															
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/capozza.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/Longo/images/capozza.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Martina Capozza</h3>												
@@ -363,7 +348,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="images/capozza_wordcloud.jpg" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/capozza_wordcloud.jpg" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -376,7 +361,7 @@
 															
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/irrera.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
+										<img src="<?php echo $localizer; ?>PI/Longo/images/irrera.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
 										<div>
 											<header>
 												<h3>Pietro Irrera</h3>
@@ -404,7 +389,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="images/irrera_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/irrera_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -415,7 +400,7 @@
 							<div class="8u 12u(mobile)">
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/Romdhane.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
+										<img src="<?php echo $localizer; ?>PI/Longo/images/Romdhane.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
 										<div>
 											<header>
 												<h3>Feriel Romdhane</h3>
@@ -445,7 +430,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="images/romdhane_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -457,14 +442,14 @@
 							<div class="8u 12u(mobile)">
 							<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/bhavnarani.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/Longo/images/bhavnarani.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Bhavna Rani</h3>												
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD in Surgical Experimental Sciences and Cellular Therapies, University of Bari “Aldo Moro” (under Marie Curie ITN program)<br>
+												PhD in Surgical Experimental Sciences and Cellular Therapies, University of Bari â€œAldo Moroâ€� (under Marie Curie ITN program)<br>
 												MSc in Oncology, Vrije Universiteit Amsterdam, The Netherlands 
 												<br> Phone: +39 0116706499<br>
 												E-mail: <a href="mailto:bhavna.rani@unito.it">bhavna.rani@unito.it</a>
@@ -490,7 +475,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="images/bhavnarani_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/bhavnarani_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -503,7 +488,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/Dhakan.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/Longo/images/Dhakan.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Chetan Dhakan</h3>												
@@ -533,7 +518,7 @@
 								<!-- 	<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="images/dhakan_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/dhakan_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div> -->
@@ -548,7 +533,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/villano.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Daisy Villano</h3>												
@@ -577,7 +562,7 @@
 									<!--  <div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="images/villano_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div> -->
@@ -590,7 +575,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="images/paglialonga.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/Longo/images/paglialonga.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Alessandro Paglialonga</h3>												
@@ -617,7 +602,7 @@
 									<!--  <div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="images/paglialonga_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/Longo/images/paglialonga_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div> -->
@@ -682,13 +667,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>
 </script>

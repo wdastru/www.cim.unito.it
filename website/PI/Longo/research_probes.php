@@ -63,7 +63,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">DARIO LONGO LAB</a>
+							<a href="home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -71,26 +71,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_probes.html">MRI probes</a></li>
-										<li><a href="research_angiogenesis.html">Tumor
-												angiogenesis</a>
-										<li>
-										<li><a href="research_tumor_pH.html" font
-											style="text-transform: none;">TUMOR pH IMAGING</a>
-										<li>
-										<li><a href="research_kidney.html" font
-											style="text-transform: none;">RENAL pH IMAGING</a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Longo/includes/menu.php'); ?>
 						</nav>
 
 					</div>
