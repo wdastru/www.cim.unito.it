@@ -515,7 +515,7 @@ $localizer = "./";
 											<a title="Profile" href="staff/staff_capuana.php">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Fedrico Capuana</b>
+														<b>Federico Capuana</b>
 													</h2>
 													<p style="font-size: 16px;">PhD student</p>
 												</div></a>

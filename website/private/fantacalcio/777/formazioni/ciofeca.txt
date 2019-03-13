@@ -13,7 +13,7 @@ ANDERSEN Joachim
 BIRAGHI Cristiano
 MANCINI Gianluca
 PJANIC Miralem
-RIGONI Emiliano
+DJURICIC Filip
 DE PAUL Rodrigo
 CRISTANTE Bryan
 GAGLIARDINI Roberto
@@ -23,9 +23,9 @@ CHIESA Federico
 QUAGLIARELLA Fabio
 EL SHAARAWY Stephan
 LUIS ALBERTO Romero Alconchel
-BARROW Musa
+SANABRIA Antonio
 MARTINEZ Lautaro
 DEFREL Gregoire
-54
+48
 3337815436
-Sat 01 Dec 2018 - 09:21:58
+Fri 22 Feb 2019 - 14:37:44
