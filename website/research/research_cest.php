@@ -126,7 +126,7 @@ $localizer = "../";
 							<a href="#" target="_blankk" title="Daniela Delli Castelli">
 							<img src="../images/staff/dellicastelli.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
-							<a href="../PI/LONGO/home.html" target="_blankk" title="Dario Longo">
+							<a href="../PI/Longo/home.php" target="_blankk" title="Dario Longo">
 							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
                             <!-- InstanceEndEditable -->

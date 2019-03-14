@@ -127,7 +127,7 @@
 												</h3>
 											</header>
 											<p>MRI-CEST renal pH imaging for early detection of kidney injury and for monitoring longitudinal evolution.</p>
-											<a href="<?php echo $localizer; ?>/PI/Longo/research_kidney.html"><p align="right">
+											<a href="<?php echo $localizer; ?>/PI/Longo/research_kidney.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>

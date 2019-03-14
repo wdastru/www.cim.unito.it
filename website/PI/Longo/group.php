@@ -370,7 +370,7 @@
 							<div class="8u 12u(mobile)">
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/Romdhane.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
+										<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
 										<div>
 											<header>
 												<h3>Feriel Romdhane</h3>
@@ -458,7 +458,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/Dhakan.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/Longo/images/dhakan.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Chetan Dhakan</h3>												

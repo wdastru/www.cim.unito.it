@@ -44,7 +44,7 @@
 								<p style="text-align:left;"><b>PhD Student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
 								Institute of Biostructures and Bioimaging (CNR)</br>
-								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
+								<a href="../PI/Longo/home.php" target="_blank" style="color:#dc6a10">
 								 Longo Lab</a>
 								</b></p>
 									

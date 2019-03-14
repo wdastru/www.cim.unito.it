@@ -43,7 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Pietro Irrera</h1>
 								<p style="text-align:left;"><b>PhD student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
-								<a href="../PI/Longo/home.html" target="_blank" style="color:#dc6a10">
+								<a href="../PI/Longo/home.php" target="_blank" style="color:#dc6a10">
 								 Longo Lab</a>
 								</b></p>
 									
@@ -83,7 +83,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706499<br /> 
+					Phone: +390116706485<br /> 
 					E-mail: <a href="mailto:pietro.irrera@unicampania.it"><span style="color:#007c92">pietro.irrera@unicampania.it</span></a></p>
 					
 					</div>
