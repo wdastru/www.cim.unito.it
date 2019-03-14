@@ -36,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
