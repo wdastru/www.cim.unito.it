@@ -185,7 +185,7 @@ $localizer = "./";
 											class="PIname"> Terreno, </span></a> <a
 											title="Opens in new window" href="PI/Geninatti/home.html"><span
 											class="PIname">Geninatti, </span></a> <a
-											title="Opens in new window" href="PI/Cutrin/home.html"><span
+											title="Opens in new window" href="PI/Cutrin/home.php"><span
 											class="PIname">Cutrin</span></a>
 
 									</div>
@@ -335,7 +335,7 @@ $localizer = "./";
 											src="images/research/figure_research_image_processing.jpg"
 											alt="" class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
-											title="Opens in new window" href="PI/Cutrin/home.html"><span
+											title="Opens in new window" href="PI/Cutrin/home.php"><span
 											class="PIname">Cutrin</span></a>
 
 									</div>
@@ -355,7 +355,7 @@ $localizer = "./";
 											class="PIname"> Terreno, </span></a> <a
 											title="Opens in new window" href="PI/Geninatti/home.html"><span
 											class="PIname">Geninatti, </span></a> <a
-											title="Opens in new window" href="PI/Cutrin/home.html"><span
+											title="Opens in new window" href="PI/Cutrin/home.php"><span
 											class="PIname">Cutrin</span></a>
 
 									</div>

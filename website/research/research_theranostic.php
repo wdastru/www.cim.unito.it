@@ -94,7 +94,7 @@ $localizer = "../";
 							<a href="../PI/Geninatti/home.html" target="_blank" title="Simonetta Geninatti">
 							<img src="../images/staff/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
-							<a href="../PI/Cutrin/home.html" target="_blank" title="Juan Carlos Cutrin">
+							<a href="../PI/Cutrin/home.php" target="_blank" title="Juan Carlos Cutrin">
 							<img src="../images/staff/cutrin.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
                             
                             <!-- InstanceEndEditable -->
