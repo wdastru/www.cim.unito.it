@@ -171,7 +171,7 @@ $localizer = "./";
 											class="PIname"> Terreno</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Delli
 												Castelli, </span></a> <a title="Opens in new window"
-											href="PI/Longo/home.html" target="_blank"><span
+											href="PI/Longo/home.php" target="_blank"><span
 											class="PIname">Longo</span></a>
 
 									</div>
@@ -228,7 +228,7 @@ $localizer = "./";
 											</div> <img
 											src="images/research/figure_research_responsive.jpg" alt=""
 											class="w3-image-left" /> </a><span class="PIname">PI: </span>
-										<a title="Opens in new window" href="PI/Longo/home.html"
+										<a title="Opens in new window" href="PI/Longo/home.php"
 											target="_blank"><span class="PIname"> Longo,</span></a> <a
 											title="Opens in new window" href="#"><span class="PIname">Delli
 												Castelli,</span></a> <a title="Opens in new window" href="#"><span

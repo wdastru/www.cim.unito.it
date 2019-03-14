@@ -148,7 +148,7 @@ $localizer = "./";
 		 <div class="lab_item">
           <div class="hexagon hexagon2">
             <div class="hexagon-in1">
-            <a title="Homepage" href="PI/Longo/home.html" target="_blank">
+            <a title="Homepage" href="PI/Longo/home.php" target="_blank">
                 <div class="hexagon-in2" style="background-image: url(images/Dario_Longo.jpg);">
                 <h2 class="hexagon-middle">Dario Longo</h2>
                 <p class="hexagon-middle-text"><b>Research Fellow</b></p></a>                   
