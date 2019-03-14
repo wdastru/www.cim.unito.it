@@ -992,15 +992,15 @@
 1617/L.A. Krakatoa/Fedora/-/-/-/-/0/
 1617/EPOrediese/Dinamo Ciofeca/4/0/89/55.5/1/MERTENS DRIES/MERTENS DRIES/MERTENS DRIES/MERTENS DRIES/
 1617/EPOrediese/Dinamo Ciofeca/1/5/71.5/92.5/0/MANCINI GIANLUCA/ÜNDER CENGIZ/CRISTANTE BRYAN/MANCINI GIANLUCA/QUAGLIARELLA FABIO/MERTENS DRIES/
-1617/EPOrediese/Dinamo Ciofeca/-/-/-/-/1/
+1617/EPOrediese/Dinamo Ciofeca/1/1/69.5/70.5/1/IAGO Falque/EL SHAARAWY Stephan/
 1617/EPOrediese/Dinamo Ciofeca/-/-/-/-/0/
 1617/Atletico? No Grazie!/Real Mentescars/2/2/77.5/77.5/1/BELOTTI ANDREA/BELOTTI ANDREA/INSIGNE LORENZO/CUADRADO JUAN/
 1617/Atletico? No Grazie!/Real Mentescars/2/2/72.5/73/0/GOMEZ ALEJANDRO/GOMEZ ALEJANDRO/ZAPATA DUVAN/BELOTTI ANDREA/
-1617/Atletico? No Grazie!/Real Mentescars/-/-/-/-/1/
+1617/Atletico? No Grazie!/Real Mentescars/2/2/74.5/72.5/1/BELOTTI Andrea/BELOTTI Andrea/INSIGNE Lorenzo/ALEX SANDRO Lobo Silva/
 1617/Atletico? No Grazie!/Real Mentescars/-/-/-/-/0/
 1617/Lokomotiv Peccorino/L.A. Krakatoa/1/1/68.5/70.5/1/PAROLO MARCO/IMMOBILE CIRO/
 1617/Lokomotiv Peccorino/L.A. Krakatoa/3/0/82.5/63.5/0/RONALDO CRISTIANO/MILIK ARKADIUSZ/RONALDO CRISTIANO/
-1617/Lokomotiv Peccorino/L.A. Krakatoa/-/-/-/-/1/
+1617/Lokomotiv Peccorino/L.A. Krakatoa/2/1/77/70.5/1/KUCKA Juraj/KUCKA Juraj/PIATEK Krzysztof/
 1617/Lokomotiv Peccorino/L.A. Krakatoa/-/-/-/-/0/
 1617/Fedora/Rapid Bradip/2/2/75.5/77/1/ROMAGNOLI ALESSIO/ROMAGNOLI ALESSIO/DYBALA PAULO/SIRIGU SALVATORE/
 1617/Fedora/Rapid Bradip/2/2/72/74.5/0/MILINKOVIC SERGEJ/MILINKOVIC SERGEJ/HIGUAIN GONZALO/PETAGNA ANDREA/
