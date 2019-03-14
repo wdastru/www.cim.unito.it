@@ -39,7 +39,7 @@
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
-							<div class="w3-col w3-threequarter">
+							<div class="w3-col w3-half">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Carla Carrera</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Institute of Biostructure and Bioimaging<br>
@@ -48,6 +48,12 @@
 								Reineri Lab</a>
 								</b></p>
 									
+							</div>
+							<div class="w3-col w3-quarter">
+								<img
+									src="<?php echo $localizer; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
+									alt="" style="max-width: 200px; height: auto; margin-right: 1em;"
+									class="image left" />
 							</div>
 						</div>
 					
