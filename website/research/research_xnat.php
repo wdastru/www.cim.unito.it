@@ -117,7 +117,7 @@ $localizer = "../";
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
 																					
-							<a href="../PI/LONGO/home.php" target="_blankk" title="Dario Longo">
+							<a href="../PI/Longo/home.php" target="_blankk" title="Dario Longo">
 							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="#" target="_blank" title="Walter Dastr&ugrave;">
