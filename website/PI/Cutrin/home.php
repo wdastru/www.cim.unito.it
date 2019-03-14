@@ -46,7 +46,6 @@
 						<nav id="nav">
 							<?php require ($localizer . 'PI/Cutrin/includes/menu_cutrin.php'); ?>
 						</nav>
-
 					</div>
 				</header>
 
