@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>Apoferritin | GENINATTI Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents: high-relaxivity Gd-based, blood-pool contrast agents, diamagnetic CEST (iopamidol, excipients)." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -62,22 +46,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -103,7 +72,7 @@
 								coupled with its low toxicity.</p>
 								
 								<div style="text-align: center;">
-       							<img src="images/graphical_abs_overview1.jpg" style="max-width: 40%; height: auto;" alt="FYI, image alt text is required" />
+       							<img src="<?php echo $localizer; ?>PI/Geninatti/images/graphical_abs_overview1.jpg" style="max-width: 40%; height: auto;" alt="FYI, image alt text is required" />
    							    </div>
 		
 
@@ -130,7 +99,7 @@
 										 lines display an increased L-Ferritin uptake capability compared to their monolayer counterparts 
 										 as a consequence of the upregulation of the L-Ferritin receptor SCARA5.
 										</p>
-										<img src="images/figureresearch11.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch11.jpg" alt="" class="image zooming">
 										<p align="justify">L-Ferritin internalization was exploited for the simultaneous delivery of Curcumin, 
 										a natural therapeutic molecule endowed with antineoplastic action, and the MRI contrast agent Gd-HPDO3A, 
 										both entrapped in the L-Ferritin cavity. This theranostic system was able to impair viability and self-renewal 
@@ -164,7 +133,7 @@
 											attenuated hepatic injury as assessed by measuring alanine aminotransferase (ALT) activity in plasma and 
 											by histology assessment.
 										</p>
-										<img src="images/figureresearch12.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch12.jpg" alt="" class="image zooming">
 										<p align="justify">The encapsulation of curcumin inside the apoferritin cavity significantly increases its 
 										stability and bioavailability while maintaining its therapeutic anti-inflammatory properties.</p>
 										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/23548053"
@@ -192,7 +161,7 @@
 										of antiangiogenic treatment response. We recently reported the expression of the neural cell adhesion 
 										molecule (NCAM) in the immature and tumor endothelial cell (TEC) lining vessels of human carcinomas.
 										</p>		
-										<img src="images/figureresearch13.jpg" alt="" class="image zooming">																
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch13.jpg" alt="" class="image zooming">																
 										<p align="justify">
 										Exploiting an in vivo model of human tumor angiogenesis obtained by implantation of TEC in SCID mice, 
 										we aimed to image angiogenesis by detecting the expression of NCAM with MRI. The imaging procedure consisted 
@@ -227,13 +196,7 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
 
 </body>
 </html>

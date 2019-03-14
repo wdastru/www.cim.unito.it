@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>FFC-NMR | GENINATTI Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents: high-relaxivity Gd-based, blood-pool contrast agents, diamagnetic CEST (iopamidol, excipients)." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -61,22 +45,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -102,7 +71,7 @@ magnetic fields with Fast Field Cycling (FFC-NMR) to obtain quantitative informa
 								</p>
 								
 								<div style="text-align: center;">
-       							<img src="images/overview3.jpg" style="max-width: 50%; height: auto;" alt="FYI, image alt text is required" />
+       							<img src="<?php echo $localizer; ?>PI/Geninatti/images/overview3.jpg" style="max-width: 50%; height: auto;" alt="FYI, image alt text is required" />
    							    </div>
 
 
@@ -130,7 +99,7 @@ magnetic fields with Fast Field Cycling (FFC-NMR) to obtain quantitative informa
 											cells display proton T1 values that are markedly longer than those shown by healthy tissue.</p>
 											
 										<div style="text-align: center;">		
-										<img src="images/figureresearch31.jpg" alt="" class="image zooming">  
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch31.jpg" alt="" class="image zooming">  
 										</div>
 										<p align="justify">
 											Moreover, it has been found that the elongation of T1 parallels the aggressiveness of the investigated tumour. 
@@ -140,7 +109,7 @@ magnetic fields with Fast Field Cycling (FFC-NMR) to obtain quantitative informa
 											field strengths ranging from 0.2 to 200 mT.
 										</p>
 										<div style="text-align: center;">		
-										<img src="images/figureresearch32.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch32.jpg" alt="" class="image zooming">
 										</div>
 										<p align="justify">Figure: The water exchange regime and the resulting MZ value in a schematic representation of the 
 										relationship between the compartmentalized system formed by the IN and the EX space. In the case of intermediate exchange, 
@@ -173,13 +142,7 @@ magnetic fields with Fast Field Cycling (FFC-NMR) to obtain quantitative informa
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
 
 </body>
 </html>

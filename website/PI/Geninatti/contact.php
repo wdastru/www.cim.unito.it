@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -5,17 +8,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Contact Us | GENINATTI LAB</title>
-		<meta name="MobileOptimized" content="width">
-    <meta name="HandheldFriendly" content="true">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
+<head>
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
+</head>
 	<body class="homepage">
 		<div id="page-wrapper">
 
@@ -41,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -49,21 +45,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li class="current_page_item"><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -105,7 +87,7 @@
 										<div class="6u 12u(mobile)">
 											<section>
 											<br/><br/><br/>		
-											<img src="images/MBC.jpg"  width="500" height="auto"/>
+											<img src="<?php echo $localizer; ?>PI/images/MBC.jpg"  width="500" height="auto"/>
 											<br/><br/>								
 											
 											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.778737105892!2d7.672811341275943!3d45.04971173278425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d48f330bf1b%3A0x5944d69f41d987b7!2sUniversit%C3%A0+degli+Studi+di+Torino+-+Dipartimento+di+Biotecnologie!5e0!3m2!1sit!2sit!4v1514739376078" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -123,13 +105,7 @@
 
 		<!-- Scripts -->
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
 
 	</body>
 </html>

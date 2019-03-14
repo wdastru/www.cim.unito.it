@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>Group Members | GENINATTI Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents (Gd-based, CEST) for assessing tumor microenvironment (vascularization, acidosis) properties." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -62,21 +46,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li class="current_page_item"><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -102,7 +72,7 @@
 									<!-- Excerpt -->
 									<article class="box excerpt">
 										<a class="image left"><img
-											src="images/geninatti.jpg" alt="" style="width: 180px; height: 170px;"/></a>
+											src="<?php echo $localizer; ?>PI/Geninatti/images/geninatti.jpg" alt="" style="width: 180px; height: 170px;"/></a>
 										<div>
 											<header>
 												<h3>Simonetta Geninatti Crich</h3>
@@ -112,7 +82,7 @@
 												Associate Professor<br> Molecular Imaging Center<br>
 												<a href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=sgeninat#profilo" target="_blank">
 												Academic Activity</a><br>
-												<a href="documents/CVSIMOenglish.pdf" target="_blank">
+												<a href="<?php echo $localizer; ?>PI/Geninatti/documents/CVSIMOenglish.pdf" target="_blank">
 												Curriculum Vitae</a><br>
 												office: +39 0116706473<br> 
 												email: <a href="mailto:simonetta.geninatti@unito.it">simonetta.geninatti@unito.it</a></p>
@@ -123,7 +93,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/alberti.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Geninatti/images/alberti.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Diego Alberti</h3>
@@ -154,7 +124,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/baroni.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Geninatti/images/baroni.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Simona Baroni</h3>
@@ -175,7 +145,7 @@
 												working mainly in the field of synthesis and physicochemical characterization of paramagnetic
 												 metal complexes, liposomes and nanoparticles with potential application as MRI contrast agents. 
 												 Currently, my research focus on the development of a new imaging technique for clinical application, 
-												 the Fast Field‐Cycling MRI (FFC‐MRI), where scanners have the ability to switch magnetic field rapidly 
+												 the Fast Fieldâ€�Cycling MRI (FFCâ€�MRI), where scanners have the ability to switch magnetic field rapidly 
 												 while scanning. My research work deals with the development of the theory of relaxation in tissue at low 
 												 magnetic field strengths and the in vitro, in vivo study of FFC contrast agents.
 												</b>									
@@ -187,7 +157,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/ruggiero.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Geninatti/images/ruggiero.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Maria Rosaria Ruggiero</h3>												
@@ -217,7 +187,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/sforzi.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Geninatti/images/sforzi.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Jacopo Sforzi</h3>												
@@ -277,16 +247,9 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
+
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-	<script>
-</script>
 
 </body>
 </html>

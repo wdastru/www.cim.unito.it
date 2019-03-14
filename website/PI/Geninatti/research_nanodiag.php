@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>Nanosized Diagnostic Tools | GENINATTI Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents: high-relaxivity Gd-based, blood-pool contrast agents, diamagnetic CEST (iopamidol, excipients)." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -62,22 +46,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -97,13 +66,13 @@
 
 							<article>
 
-								<h3 font style="text-transform: none;">Nanosized diagnostic tools for personalized medicine . “In vivo” and “in vitro” applications.</h3>
+								<h3 font style="text-transform: none;">Nanosized diagnostic tools for personalized medicine . â€œIn vivoâ€� and â€œin vitroâ€� applications.</h3>
 								<p align="justify">Actively and passively targeted nanoparticles (liposomes, PLGA etc) 
 								are proposed for the delivery of magnetic resonance imaging (MRI) contrast agents for the 
 								detection of malignancies and for monitoring the effects of therapeutic agents. </p>
 								
 								<div style="text-align: center;">
-       							<img src="images/overview4.jpg" style="max-width: 50%; height: auto;" alt="FYI, image alt text is required" />
+       							<img src="<?php echo $localizer; ?>PI/Geninatti/images/overview4.jpg" style="max-width: 50%; height: auto;" alt="FYI, image alt text is required" />
    							    </div>
 
 							</article>
@@ -119,7 +88,7 @@
 
 											</br>
 											<p font style="text-transform: none; font-size:1.3em">Ferritin Decorated PLGA/Paclitaxel Loaded 
-											Nanoparticles Endowed with an Enhanced Toxicity Toward MCF‑7 Breast Tumor Cells. </p>
+											Nanoparticles Endowed with an Enhanced Toxicity Toward MCFâ€‘7 Breast Tumor Cells. </p>
 										</header>
 										
 
@@ -128,7 +97,7 @@
 											are exploited for the simultaneous delivery of paclitaxel and an amphiphilic Gd based MRI 
 											contrast agent into breast cancer cells (MCF7). L-ferritin has been covalently conjugated 
 											to the external surface of PLGA-NPs exploiting NHS activated carboxylic groups.												
-											<img src="images/figureresearch41.jpg" alt="" class="image zooming"> 
+											<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch41.jpg" alt="" class="image zooming"> 
 											The results confirmed that nanoparticles decorated with L-ferritin have many advantages with 
 											respect to both albumin-decorated and nondecorated particles. Ferritin moieties endow PLGA-NPs 
 											with targeting capability, exploiting SCARA5 receptors overexpressed by these tumor cells, that 
@@ -138,7 +107,7 @@
 											T1-weighted MRI images of labeled MCF7 cells. The results were compared with that obtained with MDA cells 
 											used as negative control due to their lower SCARA5 expression.
 										</p>
-										<img src="images/figureresearch42.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch42.jpg" alt="" class="image zooming">
 										
 										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/28301933"
 												target="_blank"><font color="blue">L.N. Turino et al, Bioconjug Chem. 2017 Apr 19;28(4):1283-1290</font></a>
@@ -163,12 +132,12 @@
 										<p align="justify">
 											Quantitative measurement of marker expression in diseased cells is still a topic of considerable interest
 											 and different methodologies are currently under intense scrutiny. This work aims at developing an in vitro 
-											 diagnostic method based on the release of paramagnetic species from relaxometrically “silent” liposomes
+											 diagnostic method based on the release of paramagnetic species from relaxometrically â€œsilentâ€� liposomes
 											  operated by the action of a phospholipase A2 (PLA2) previously targeted to the epitope of interest. 
 											  The released paramagnetic species causes an increase of the longitudinal water proton relaxation rate 
 											  proportional to the number of PLA2 bound to the cell outer surface.
 
-											<img src="images/figureresearch43.jpg" alt="" class="image zooming">
+											<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch43.jpg" alt="" class="image zooming">
 
 										</p>
 										
@@ -176,11 +145,11 @@
 										detection of folate receptor expression on human ovarian cancer cells by functionalizing PLA2 with folic acid. 
 										Receptor/cell number of 8.3   105 has been measured on IGROV-1 cells. The R-ELISA assay can detect nanomolar 
 										cell suspension receptor concentrations and has been validated by well-established spectrofluorimetric procedures.</p>
-										<img src="images/figureresearch44.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch44.jpg" alt="" class="image zooming">
 										<p align="justify">Figure: Calibration curve obtained by measuring DR1 versus [PLA2].</p>
 										
 										<a class="html" href="https://onlinelibrary.wiley.com/doi/full/10.1002/anie.201310959"
-												target="_blank"><font color="blue">D. Alberti et al Angew. Chem. Int. Ed. 2014, 53, 3488 –3491</font></a>
+												target="_blank"><font color="blue">D. Alberti et al Angew. Chem. Int. Ed. 2014, 53, 3488 â€“3491</font></a>
 									</article>
 								</section>
 							</div>
@@ -195,13 +164,13 @@
 										<header>
 											
 											<p font style="text-transform: none; font-size:1.3em">Combined Delivery and Magnetic Resonance Imaging of Neural 
-											Cell Adhesion Molecule–Targeted Doxorubicin- Containing Liposomes in Experimentally Induced Kaposi's Sarcoma</p>
+											Cell Adhesion Moleculeâ€“Targeted Doxorubicin- Containing Liposomes in Experimentally Induced Kaposi's Sarcoma</p>
 											<br>
 										</header>
 										<p align="justify">
-										The aim of the present study was to investigate whether neural cell adhesion molecule (NCAM)–targeted liposomes 
+										The aim of the present study was to investigate whether neural cell adhesion molecule (NCAM)â€“targeted liposomes 
 										may enhance drug delivery and allow MRI in a severe combined immunodeficient mouse model of NCAM-positive Kaposi's 
-										sarcoma. NCAM-binding peptide–coated liposomes loaded with both doxorubicin and a lipophilic gadolinium (Gd) 
+										sarcoma. NCAM-binding peptideâ€“coated liposomes loaded with both doxorubicin and a lipophilic gadolinium (Gd) 
 										derivative were generated. NCAM-targeted liposomes induced an enhanced in vitro doxorubicin internalization within 
 										Kaposi's cells as detected by MRI with respect to untargeted polyethylene glycol liposomes. Internalization resulted 
 										in enhanced apoptosis. In vivo weekly administration of NCAM-targeted liposomes induced a significant reduction of tumor 
@@ -210,12 +179,12 @@
 										toxicity of doxorubicin. By electron microscopy, NCAM-targeted liposomes were detected mainly within tumor cells whereas the 
 										untargeted liposomes were mainly accumulated in the extracellular space.				</p>
 										
-										<img src="images/figureresearch45.jpg" alt="" class="image zooming">										
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch45.jpg" alt="" class="image zooming">										
 										
 										<p align="justify">
 										In conclusion, targeting NCAM may be a suitable strategy for specific drug delivery and imaging by liposomes in NCAM-expressing tumors.</p>
 										<p> 											
-										<a class="html" href="http://cancerres.aacrjournals.org/content/70/6/2180" target="_blank"><font color="blue">C Grange et al Cancer Res; 2010 70(6); 2180–90.</font></a></p>
+										<a class="html" href="http://cancerres.aacrjournals.org/content/70/6/2180" target="_blank"><font color="blue">C Grange et al Cancer Res; 2010 70(6); 2180â€“90.</font></a></p>
 										
 										
 										
@@ -240,13 +209,7 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
 
 </body>
 </html>

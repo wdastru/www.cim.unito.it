@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>Research | GENINATTI Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents (Gd-based, CEST) for assessing tumor microenvironment (vascularization, acidosis) properties." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI  LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -62,22 +46,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -93,94 +62,92 @@
 				<div class="inner">
 					<div class="container">
 						<div class="row">
-
 							<div class="8u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section class="box article-list">
 									<h2>RESEARCH OVERVIEW</h2>
 
 									<article class="box excerpt">
-										<a ><img src="images/graphical_abs_overview1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>PI/Geninatti/images/graphical_abs_overview1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_1.html">Apoferritin and other biological carrier for the delivery of imaging and therapeutic agents</a>
+													<a href="<?php echo $localizer; ?>PI/Geninatti/research_apoferritin.php">Apoferritin and other biological carrier for the delivery of imaging and therapeutic agents</a>
 												</h3>
 											</header>
 											<p>Apoferritin, a 24 subunits nanocage of H- and/or L-chain peptides forming a cage of 12 nm in 
 											external diameter with an interior cavity of 8 nm is an ideal drug- and imaging agent delivery platform 
 											due to its biocompatibility, biodegradability, coupled with its low toxicity.</p>
-											<a href="research_1.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Geninatti/research_apoferritin.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/overview2.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
+										<a ><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview2.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_2.html">Gadolinium/boron-based agents in imaging guided boron neutron capture therapy (BNCT)</a>
+													<a href="<?php echo $localizer; ?>PI/Geninatti/research_2.php">Gadolinium/boron-based agents in imaging guided boron neutron capture therapy (BNCT)</a>
 												</h3>
 											</header>
 											<p>A theranostic approach for the treatment of primary tumours and metastasis based on the use of Boron neutron capture 
 											therapy (BNCT) that combines low energy neutron irradiation with the presence of boron-containing compound at the targeted 
 											cells. The novel theranostic agents are able to maximize the selective uptake of boron atoms in tumour cells and, at the 
 											same time, to quantify boron distribution in the tumour and in other tissues by MRI.</p>
-											<a href="research_2.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Geninatti/research_2.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/overview3.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview3.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_3.html">Innovative diagnostic protocols for Fast Field Cycling NMR/MRI </a>
+													<a href="<?php echo $localizer; ?>PI/Geninatti/research_FFC.php">Innovative diagnostic protocols for Fast Field Cycling NMR/MRI </a>
 												</h3>
 											</header>
 											<p>Development of an innovative diagnostic strategy, based on the measurements of T1 at low and ultra-low magnetic 
 											fields with Fast Field Cycling (FFC-NMR) to obtain quantitative information on tumour aggressiveness and metastastatic 
 											potential, due to different water content and mobility. Differences in T1 are much greater at low field and the shape
 											of the relaxation dispersion profiles may be used as a reporter of the molecular dynamical processes.</p>
-											<a href="research_3.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Geninatti/research_FFC.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/overview4.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview4.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_4.html">Nanosized diagnostic tools for personalized medicine . “In vivo” and “in vitro” applications</a>
+													<a href="<?php echo $localizer; ?>PI/Geninatti/research_nanodiag.php">Nanosized diagnostic tools for personalized medicine . â€œIn vivoâ€� and â€œin vitroâ€� applications</a>
 												</h3>
 											</header>
 											<p>Actively and passively targeted nanoparticles (liposomes, PLGA etc)   are proposed for the delivery of magnetic resonance imaging 
 											(MRI) contrast agents for the detection of malignancies and for monitoring the effects of therapeuticagents.</p>
-											<a href="research_4.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Geninatti/research_nanodiag.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 									
 									<article class="box excerpt">
-										<a ><img src="images/overview5.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview5.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_5.html">Fluorescent liposomal assay for “in vitro” detection of tumour DNA or other biomarkers in different biological matrixes</a>
+													<a href="<?php echo $localizer; ?>PI/Geninatti/research_nuclacids.php">Fluorescent liposomal assay for â€œin vitroâ€� detection of tumour DNA or other biomarkers in different biological matrixes</a>
 												</h3>
 											</header>
 											<p>The development of a diagnostic quantitative tool for the detection of ssDNA in body fluids might be highly
 												   helpful for the diagnosis and treatment of diseases such as cancer and inflammatory pathologies. The new assay 
 												   proposed in this assay  is based on the use of dye-encapsulating liposomes.</p>
-											<a href="research_5.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Geninatti/research_nuclacids.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
@@ -211,13 +178,7 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
 
 </body>
 </html>

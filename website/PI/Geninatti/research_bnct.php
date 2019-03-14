@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>BNCT therapy | GENINATTI Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents: high-relaxivity Gd-based, blood-pool contrast agents, diamagnetic CEST (iopamidol, excipients)." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -62,22 +46,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -104,7 +73,7 @@
 								at the same time, to quantify boron distribution in the tumour and in other tissues by MRI.</p>
 							
 								<div style="text-align: center;">
-       							<img src="images/overview2.jpg" style="max-width: 50%; height: auto;" alt="FYI, image alt text is required" />
+       							<img src="<?php echo $localizer; ?>PI/Geninatti/images/overview2.jpg" style="max-width: 50%; height: auto;" alt="FYI, image alt text is required" />
    							    </div>
 								</article>
 							<div class="4u 12u(mobile)">
@@ -119,7 +88,7 @@
 											<p font style="text-transform: none; font-size:1.3em">A theranostic approach based on the use of a dual boron/Gd agent 
 											to improve the efficacy of Boron Neutron Capture Therapy in the lung cancer treatment.</p>
 										</header>
-										<img src="images/figureresearch21.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch21.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											This study aims at developing an innovative theranostic approach for lung tumor and metastases treatment, 
@@ -131,7 +100,7 @@
 											EML4-ALK mice were used as primary tumor model. After neutron irradiation, tumor growth was followed for 30-40 days 
 											by MRI. Tumor masses of boron treated mice increased markedly slowly than the control group.
 										</p>
-										<img src="images/figureresearch21_b.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch21_b.jpg" alt="" class="image zooming">
 										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25596074"
 												target="_blank"><font color="blue">D. Alberti et al, Nanomedicine: Nanotechnology, Biology, and Medicine 11 (2015) 741–750</font></a>
 
@@ -163,7 +132,7 @@
 											cancer (IGROV-1) cells through folate receptors, by including in the formulation a PEGylated phospholipid 
 											functionalized with the folate moiety. 
 										</p>
-										<img src="images/figureresearch22.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch22.jpg" alt="" class="image zooming">
 										<p align="justify">NCT was performed on IGROV-1 cells internalizing 6.4 and 78.6 mgg1 of 10B and 157Gd, respectively. The synergic action of neutron 
 										treatment and curcumin cytotoxicity was shown to result in a significant therapeutic improvement.</p>
 										<a class="html" href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/cmdc.201700039"
@@ -196,7 +165,7 @@
 										with the MRI/BNCT dual probes has been functionalized with a pegylated phospholipid containing a folic acid residue at the end of 
 										the PEG chain. The vector allows the binding of the liposome to folate receptors that are overexpressed in many tumor types, and in 
 										particular, in human ovarian cancer cells (IGROV-1).
-										<img src="images/figureresearch23.jpg" alt="" class="image zooming">											
+										<img src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch23.jpg" alt="" class="image zooming">											
 										</p>
 										<p align="justify">
 										An in vitro test on IGROV-1 cells demonstrated that Gd-B-AC01 loaded liposomes are efficient carriers for
@@ -231,13 +200,7 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
 
 </body>
 </html>

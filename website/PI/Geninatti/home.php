@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>Home | GENINATTI LAB</title>
-<meta charset="utf-8" />
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents (Gd-based, CEST) for assessing tumor microenvironment (vascularization, acidosis) properties." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Home | GENINATTI LAB</title>
+	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GENINATTI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" id="logo">GENINATTI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Diagnostic protocols for imaging guided drug delivery and pathology assessment</p>
 
@@ -61,21 +45,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li class="current_page_item"><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Apoferritin as imaging agent delivery platform </a></li>
-										<li><a href="research_2.html">BNCT therapy</a></li>
-										<li><a href="research_3.html">Fast Field Cycling NMR/MRI </a></li>
-										<li><a href="research_4.html">Nanosized Diagnostic Tools </a></li>
-										<li><a href="research_5.html">Detection of nucleic acids biomarkers in biological matrixes </a></li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
 						</nav>
 
 					</div>
@@ -114,7 +84,7 @@
 
 								<section class="box article-list">
 
-									<a href="#"><img src="images/geninatti.jpg" alt=""
+									<a href="#"><img src="<?php echo $localizer; ?>PI/Geninatti/images/geninatti.jpg" alt=""
 										style="width: 140px; height: auto;" class="image left" /></a>
 										<div style="padding: 0 0 0 180px;">
 									<p align="left" style="line-height: 1.2";>
@@ -141,8 +111,8 @@
 									<header>
 										<h4 align="center">Apoferritin and other biological carriers</h4>
 									</header>
-									<a href="research_1.html"><img src="images/graphical_abs_overview1.jpg" alt="" class="image featured" /></a>
-									<a href="research_1.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_apoferritin.php"><img src="<?php echo $localizer; ?>PI/Geninatti/images/graphical_abs_overview1.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_apoferritin.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -150,8 +120,8 @@
 									<header>
 										<h4 align="center">Gadolinium/boron-based agents in BNCT</h4>
 									</header>
-									<a href="research_2.html"><img src="images/overview2.jpg" alt="" class="image featured" /></a>
-									<a href="research_2.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_bnct.php"><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview2.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_bnct.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -159,8 +129,8 @@
 									<header>
 										<h4 align="center">Innovative diagnostic protocols for FFC-NMR </h4>
 									</header>
-									<a href="research_3.html"><img src="images/overview3.jpg" alt="" class="image featured" /></a>
-									<a href="research_3.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_FFC.php"><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview3.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_FFC.php"><font color="blue">Read more >></font></a>
 									
 								</section>
 							</div>
@@ -169,8 +139,8 @@
 									<header>
 										<h4 align="center">Nanosized diagnostic tools </h4>
 									</header>
-									<a href="research_4.html"><img src="images/overview4.jpg" alt="" class="image featured" /></a> 
-									<a href="research_4.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_nanodiag.php"><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview4.jpg" alt="" class="image featured" /></a> 
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_nanodiag.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							</div>
@@ -180,8 +150,8 @@
 									<header>
 										<h4 align="center">Detection of nucleic acids biomarkers in biological matrixes </h4>
 									</header>
-									<a href="research_5.html"><img src="images/overview5.jpg" alt="" class="image featured" /></a> 
-									<a href="research_5.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_nuclacids.php"><img src="<?php echo $localizer; ?>PI/Geninatti/images/overview5.jpg" alt="" class="image featured" /></a> 
+									<a href="<?php echo $localizer; ?>PI/Geninatti/research_nuclacids.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 						</div>
@@ -242,10 +212,10 @@
 											</li>
 											
 											
-											<li><img src="images/book_chapter.jpg" align="left" height="80px" style="margin-right:10px">
+											<li><img src="<?php echo $localizer; ?>PI/Geninatti/images/book_chapter.jpg" align="left" height="80px" style="margin-right:10px">
 											<b>New book chapter: </b>
 											<a title="Open in a new window" class="http" href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119275602" target="_blank">							
-											<em><font color="blue">"New Boronated Compounds for an Imaging‐Guided Personalized Neutron Capture Therapy" in: Boron‐Based Compounds: Potential and Emerging Applications in Medicine</font></em></a>
+											<em><font color="blue">"New Boronated Compounds for an Imagingâ€�Guided Personalized Neutron Capture Therapy" in: Boronâ€�Based Compounds: Potential and Emerging Applications in Medicine</font></em></a>
 											</li>
 
 
@@ -282,14 +252,7 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
-
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
 
 </body>
 </html>
