@@ -118,11 +118,11 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research.php">
+											href="research/research_synthesis.php">
 											<h13 font style="text-transform: none;"> 
 											<font color="red">Probe synthesis</font></h13></a> 
 										</div>
-										<img src="images/figure_research_synthesis.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_synthesis.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="#"><span class="PIname"> Stefania</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Tei</span></a>
@@ -134,11 +134,11 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research.php">
+											href="research/research_gado.php">
 											<h13 style="text-transform: none;"> <font color="red">Gd-complexes</font>
 											 </h13></a>
 										</div>
-										<img src="images/figure_research_Gdcomplex.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_Gdcomplex.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="#"><span class="PIname"> Gianolio</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
@@ -149,11 +149,11 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research_cest.php">
+											href="research/research_cest.php">
 											<h13 font style="text-transform: none;"> <font color="red">CEST
 											contrast agents</font></h13> </a> 
 										</div>
-										<img src="images/figure_research_CEST.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_CEST.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="#"><span class="PIname"> Terreno</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Delli Castelli, </span></a>
@@ -165,11 +165,11 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research_hyper.php">
+											href="research/research_hyper.php">
 											<h13 font style="text-transform: none;"> <font color="red">Hyperpolarized
 											agents</font></h13></a>
 										</div>
-										<img src="images/figure_research_hyperpolarized.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_hyperpolarized.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="#"><span class="PIname"> Reineri</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Dastru'</span></a>
@@ -186,11 +186,11 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research.php">
+											href="research/research_multi.php">
 											<h13 font style="text-transform: none;">
 											<font color="red">Multi-modality agents</font></h13></a>
 										</div>
-										<img src="images/figure_research_multimodal.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_multimodal.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="#"><span class="PIname"> Terreno</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Terreno</span></a>
@@ -202,11 +202,11 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research_responsive.php">
+											href="research/research_responsive.php">
 											<h13 style="text-transform: none;"> <font color="red">Responsive agents</font>
 											</h13></a>
 										</div>
-										<img src="images/figure_research_responsive.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_responsive.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="PI/Longo/home.html" target="_blank"><span class="PIname"> Longo,</span></a> <a
 											title="Opens in new window" href="#"><span class="PIname">Delli Castelli,</span></a>
@@ -218,10 +218,10 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research_targeting.php">
+											href="research/research_nanotarget.php">
 											<h13 font style="text-transform: none;"> <font color="red">Targeting agents</font></h13></a>
 										</div>
-										<img src="images/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_targeting_agents.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="#"><span class="PIname"> Terreno</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
@@ -232,10 +232,10 @@ $localizer = "./";
 								<div class="w3-quarter">
 									<div class="w3-container">
 										<div class="w3-header" style="height: 70px;"><a title="Opens in new window"
-											href="research_imaging_therapy.php">
+											href="research/research_imaging_therapy.php">
 											<h13 font style="text-transform: none;"> <font color="red">Theranostic agents</font></h13></a>
 										</div>
-										<img src="images/figure_research_theranostic.jpg" alt="" class="w3-image-left"> <span
+										<img src="images/research/figure_research_theranostic.jpg" alt="" class="w3-image-left"> <span
 											class="PIname">PI: </span> <a title="Opens in new window"
 											href="#"><span class="PIname"> Terreno</span></a>, <a
 											title="Opens in new window" href="#"><span class="PIname">Geninatti</span></a>
