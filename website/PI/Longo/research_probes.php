@@ -76,7 +76,7 @@
 								Despite Gd-based agents are an indispensable part of MRI examinations, in the past decades, two major clinical studies questioned their safety profiles 
 								and alternatives to Gd-based agents are not readily available. Our lab discovered that Iodinated contrast media, playing a key-role in oncological
 								imaging can provide contrast enhancement in tumors (by exploiting the MRI-CEST approach) that is correlated with corresponding CT enhanced images.
-								In addition, we have demosntrated that most of them can be exploited as <a href="<?php echo $localizer; ?>PI/Longo/research_acidosis.php"><font color="blue">pH-responsive contrast agents</font></a>.
+								In addition, we have demosntrated that most of them can be exploited as <a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"><font color="blue">pH-responsive contrast agents</font></a>.
 								
 								
 								<br/>

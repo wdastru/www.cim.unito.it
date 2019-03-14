@@ -674,7 +674,7 @@ $localizer = "./";
 					style="background-image: url(images/staff/Dario_Longo.jpg);">
 					<div class="content">
 						<div class="table">
-						  <a title="Homepage" href="PI/Longo/home.html" target="_blank">
+						  <a title="Homepage" href="PI/Longo/home.php" target="_blank">
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Dario Longo</b>
