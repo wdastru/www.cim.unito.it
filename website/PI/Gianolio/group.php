@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -5,29 +8,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-<head>
-<title>Group Members | GIANOLIO Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents (Gd-based, CEST) for assessing tumor microenvironment (vascularization, acidosis) properties." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
-</head>
+	<head>
+		<title>Contact Us | GIANOLIO Lab</title>
+		<?php require ($localizer . 'PI/Gianolio/includes/head_const_gianolio.php'); ?>
+	</head>
 <body class="homepage">
 	<div id="page-wrapper">
 
@@ -53,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">GIANOLIO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Gianolio/home.php" id="logo">GIANOLIO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Paramagnetic metal complexes in MRI and Molecular Imaging</p>
 
@@ -62,19 +46,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">High Relaxivity Gd-complexes</a></li>
-										<li><a href="research_2.html">Relaxometric Methods for medical/biological issues</a></li>
-										<li><a href="research_2.html">Gd retention in the body</a></li>
-									</ul></li>
-								<li class="current_page_item"><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Gianolio/includes/menu_gianolio.php'); ?>
 						</nav>
 
 					</div>
@@ -100,7 +72,7 @@
 									<!-- Excerpt -->
 									<article class="box excerpt">
 										<a class="image left"><img
-											src="images/gianolio.jpg" alt="" style="width: 180px; height: 170px;"/></a>
+											src="<?php echo $localizer; ?>PI/Gianolio/images/gianolio.jpg" alt="" style="width: 180px; height: 170px;"/></a>
 										<div>
 											<header>
 												<h3>Eliana Gianolio</h3>
@@ -110,7 +82,7 @@
 												Research Technician<br> Molecular Imaging Center<br>
 												<a href="https://www.unito.it/persone/egianoli" target="_blank">
 												Academic Activity</a><br>
-												<a href="documents/CV.docx" target="_blank">
+												<a href="<?php echo $localizer; ?>PI/Gianolio/documents/CV.docx" target="_blank">
 												Curriculum Vitae</a><br>
 												office: +39 0116706475<br> 
 												email: <a href="mailto:eliana.gianolio@unito.it">eliana.gianolio@unito.it</a></p>
@@ -121,7 +93,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/digregorio.jpg" alt="" style="width: 200px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Gianolio/images/digregorio.jpg" alt="" style="width: 200px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Enza Di Gregorio</h3>
@@ -154,7 +126,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/furlan.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Gianolio/images/furlan.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Chiara Furlan</h3>
@@ -181,7 +153,7 @@
 
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/palagi.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Gianolio/images/palagi.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Lorenzo Palagi</h3>												
@@ -211,7 +183,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/atlante.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Gianolio/images/atlante.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Sandra Atlante</h3>												
@@ -240,7 +212,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/tear.jpg" alt="" style="width: 180px; height: auto;"/></a>
+										<a class="image left"><img src="<?php echo $localizer; ?>PI/Gianolio/images/tear.jpg" alt="" style="width: 180px; height: auto;"/></a>
 										<div>
 											<header>
 												<h3>Louise Tear</h3>												
@@ -283,16 +255,9 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+<?php require ($localizer . 'PI/includes/scripts.php'); ?>
+
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-	<script>
-</script>
 
 </body>
 </html>
