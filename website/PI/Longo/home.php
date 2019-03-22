@@ -40,7 +40,7 @@
 		<!-- Header -->
 		<div id="header-wrapper">
 
-			<!-- logo unito -->
+			<!-- logo unito 
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -49,7 +49,7 @@
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
-
+            -->
 
 			<div class="container"></div>
 			
