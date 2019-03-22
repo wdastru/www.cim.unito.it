@@ -14,29 +14,27 @@
 </head>
 <body class="homepage">
 
+	<div id="header_nav">
+		<div id="dark_band"></div>
 		<!-- Header -->
-		<header id="header" style="margin: -30px 0 30px 0;">
-			<div class="inner">
-
-				<!-- Logo -->
+		<header id="header">
+			<!-- Logo -->
+			<div class="group_name">
 				<h1>
 					<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO
 						LONGO LAB</a>
-					<div>
-						<p style="color: gray;">Imaging Tumor Microenvironment</p>
-
-					</div>
 				</h1>
-
-
+			</div>
+			<div class="group_desc">
+				<p style="color: gray;">Imaging Tumor Microenvironment</p>
 			</div>
 		</header>
 		<!-- Nav -->
 		<nav id="nav">
 			<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
 		</nav>
-		
-		
+	</div>
+
 	<div id="page-wrapper">
 
 		<!-- Header -->
