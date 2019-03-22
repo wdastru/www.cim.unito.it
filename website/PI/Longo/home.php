@@ -13,46 +13,49 @@
 	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 </head>
 <body class="homepage">
+
+		<!-- Header -->
+		<header id="header" style="margin: -30px 0 30px 0;">
+			<div class="inner">
+
+				<!-- Logo -->
+				<h1>
+					<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO
+						LONGO LAB</a>
+					<div>
+						<p style="color: gray;">Imaging Tumor Microenvironment</p>
+
+					</div>
+				</h1>
+
+
+			</div>
+		</header>
+		<!-- Nav -->
+		<nav id="nav">
+			<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+		</nav>
+		
+		
 	<div id="page-wrapper">
 
 		<!-- Header -->
 		<div id="header-wrapper">
-			
+
 			<!-- logo unito -->
-			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
-			<div class="unito-logo-container">                   
-	          </div></a>
-	          
-	          <a href="http://www.cim.unito.it" title="Molecular Imaging Center" target="_blank" style="text-decoration: none;" >
-	          <div class="cim-logo-container">
-	         </div></a>
+			<a href="http://www.unito.it" title="University of Torino"
+				target="_blank" id="unito-logo" style="text-decoration: none;">
+				<div class="unito-logo-container"></div>
+			</a> <a href="http://www.cim.unito.it"
+				title="Molecular Imaging Center" target="_blank"
+				style="text-decoration: none;">
+				<div class="cim-logo-container"></div>
+			</a>
+
+
+			<div class="container"></div>
 			
-			
-			<div class="container">
-					
-				<!-- Header -->
-				<header id="header" style="margin: -30px 0 30px 0;">
-					<div class="inner" >
-					
-						<!-- Logo -->
-						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
-							<div>
-								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
-
-							</div>
-						</h1>
-						<!-- Nav -->
-						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
-						</nav>
-
-					</div>
-				</header>
-
-			</div>
 		</div>
-
 
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
