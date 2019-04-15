@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
-NICOLAS Andrade
 SZCZESNY Wojciech
 MUSSO Juan
-DE SCIGLIO Mattia
-ROGERIO Oliveira Da Silva
-BERESZYNSKI Bartosz
-DANILO Larangeira
-FELIPE Dal Belo
-GAGLIOLO Riccardo
-PASQUAL Manuel
+NICOLAS Andrade
 RUGANI Daniele
+DE SCIGLIO Mattia
+GAGLIOLO Riccardo
+DANILO Larangeira
+ROGERIO Oliveira Da Silva
+PASQUAL Manuel
+FELIPE Dal Belo
+BERESZYNSKI Bartosz
 BERNARDESCHI Federico
+BENTANCUR Rodrigo
+KUCKA Juraj
+PAROLO Marco
 LEIVA Lucas
 SENSI Stefano
 LINETTY Karol
-PAROLO Marco
-KUCKA Juraj
 LAZOVIC Darko
-BENTANCUR Rodrigo
 MANDZUKIC Mario
-SIMEONE Giovanni
 ILICIC Josip
+SIMEONE Giovanni
+MILIK Arkadiusz
 LASAGNA Kevin
 RONALDO Cristiano
-MILIK Arkadiusz
 0
 347-4172758
-Thu 28 Mar 2019 - 21:30:07
+Sat 06 Apr 2019 - 12:30:25

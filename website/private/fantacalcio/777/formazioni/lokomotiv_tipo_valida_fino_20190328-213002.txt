@@ -14,7 +14,7 @@ PASQUAL Manuel
 RUGANI Daniele
 BERNARDESCHI Federico
 LEIVA Lucas
-SENSI Stefano
+JANKTO Jakub
 LINETTY Karol
 PAROLO Marco
 KUCKA Juraj
@@ -26,6 +26,6 @@ ILICIC Josip
 LASAGNA Kevin
 RONALDO Cristiano
 MILIK Arkadiusz
-0
+49
 347-4172758
-Thu 28 Mar 2019 - 21:30:07
+Thu 14 Feb 2019 - 23:41:15

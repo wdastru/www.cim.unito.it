@@ -87,22 +87,32 @@
 
 								<section class="box article-list">
 
-									<a href="#"><img src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg" alt=""
-										style="width: 140px; height: auto; margin-bottom: 8em;margin-right: 1em;" class="image left" /></a>
+									<div>
+										<div style="width: 140px;">
+											<img
+												src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg"
+												alt=""
+												style="width: 140px; height: auto; margin-right: 1em;"
+												class="image left" /> <img
+												src="<?php echo $localizer; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
+												alt=""
+												style="width: 140px; height: auto; margin-right: 1em;"
+												class="image left" />
+										</div>
 										<div style="padding: 0 0 0 160px;">
-									<p align="left" style="line-height: 1.2";>
-										<strong><font size="4em">Dario Longo, PhD</font></strong>
-										<br><br> Research
-										Fellow,<br /> Molecular Imaging Center<br /> Department of
-										Molecular Biotechnologies and Health Science<br />
-										University of Torino<br /> Torino 10126, Italy<br /> Tel:
-										+39 011 6706473<br /> Fax: +39 011 6706458<br /> <a
-											href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>
-									</p>
-									</div>
+											<p align="left" style="line-height: 1.2";>
+												<strong><font size="4em">Dario Longo, PhD</font></strong> <br />
+												<br /> Senior Researcher<br /> Institute of Biostructures
+												and Bioimaging (IBB)<br /> Italian National Research Council
+												(CNR)<br /> Via Nizza 52<br /> 10126 Torino - Italy<br />
+												Tel: +39 011 6706473<br /> Fax: +39 011 6706458<br /> <a
+													href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>
+												<a href="mailto:dariolivio.longo@cnr.it">dariolivio.longo@cnr.it</a>
+											</p>
+										</div>
 
-									<p></p>
-
+										<p></p>
+								
 								</section>
 							</div>
 						</div>
