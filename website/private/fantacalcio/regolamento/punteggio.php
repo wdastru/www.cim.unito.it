@@ -106,6 +106,21 @@
             <td align="left"> 2&deg; difensore</td>
           </tr>
         </table>
+        
+        <p class="justify">Se necessario, il software tenterà di modificare il modulo (tra quelli consentiti) in modo da 
+        evitare di giocare in inferiorità numerica (o comunque in modo da giocare con il n. maggiore possibile di giocatori).</p>
+        <p class="justify">Nel tentativo di cambio modulo, partirà dal modulo impostato provando, in ordine, prima moduli con offensività via via 
+        crescente (ossia spostandosi verso il 3-4-3) e poi, se necessario, moduli con offensività via via decrescente (ossia 
+        spostandosi verso il 5-4-1), assegnerà i nuovi titolari in base all’ordine inserito dei giocatori di ciascun ruolo 
+        (per es.: nel passaggio dal 3-4-3 al 4-3-3 il quarto difensore indicato diventerà titolare ed il quarto centrocampista 
+        indicato diventerà prima riserva) e poi partirà con le eventuali sostituzioni per ruolo (sempre fino ad un massimo di 
+        tre).</p>
+        <p class="justify">Il software effettuerà il cambio di modulo solo se tutti i titolari originali con voto saranno nella squadra 
+        titolare anche dopo il cambio di modulo e le eventuali sostituzioni.</p>
+        <p class="justify">Nel caso nessun nuovo modulo consentisse di 
+        aumentare il n. di giocatori con voto, verrà mantenuto il modulo iniziale e la squadra giocherà in inferiorità numerica.</p>
+        
+        
         <p class='regoleTitoli'>FATTORE CAMPO</p>
         <p class="justify">Alla squadra che gioca in casa vengono dati 2 punti di bonus.</p>
         <p class='regoleTitoli'>I GIOCATORI SENZA VOTO</p>

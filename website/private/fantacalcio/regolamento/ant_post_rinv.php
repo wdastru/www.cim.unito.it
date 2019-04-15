@@ -28,7 +28,9 @@
         </tr>
         <tr>
 			<td align="justify">
-				<p class="justify">Se una partita dovesse essere rinviata oltre la settimana in corso, ogni giocatore appartenente alle due squadre otterrebbe 6 punti. </p>
+				<p class="justify">Se una partita dovesse essere rinviata oltre la settimana in corso, ogni giocatore 
+				appartenente alle due squadre otterrebbe 6 punti (per decidere per quali partite va assegnato il 6 
+				politico, fa fede comunque quanto deciso dalla gazzetta).</p>
 			</td>
         </tr>
       </table>
