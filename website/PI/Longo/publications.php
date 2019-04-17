@@ -75,7 +75,46 @@
 									</p>
 									
 
-										<h3 id='2018'>|2018</h3>										
+																				<h3 id='2019'>|2019</h3>
+										
+										<li>Anemone A, Consolino L, Arena F, Capozza M, Longo DL <b>Longo DL</b>, Zaiss M, Golay X.							
+										<i>&#34;Imaging tumor acidosis: a survey of the available techniques for mapping in vivo tumor pH&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">
+										<font color="blue"> Cancer Metastasis Rev. 2019  </font></a></li>
+										<br>
+										
+										<li>Kujawa A, Kim M, Demetriou E, Anemone A, <b>Longo DL</b>, Zaiss M, Golay X.							
+										<i>&#34;Assessment of a clinically feasible Bayesian fitting algorithm using a simplified description of Chemical Exchange Saturation Transfer (CEST) Imaging&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/30739012" target="_blank">
+										<font color="blue"> Journal of Magnetic Resonance, 2019, 300, 120 </font></a></li>
+										<br>
+										
+										<li>Pagoto A, Tripepi M, Stefania R, Lanzardo S, <b>Longo DL</b>, Garello F, Porpiglia F, Manfredi M, Aime S, Terreno E.							
+										<i>&#34;An efficient MRI agent targeting extracellular markers in prostate adenocarcinoma&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/30257047" target="_blank">
+										<font color="blue"> Magnetic Resonance in Medicine 2019, 81, 1935 </font></a></li>
+										<br>
+					
+					
+										<h3 id='2018'>|2018</h3>
+										
+										<li>Wu Y, Zhou IY, Igarashi T, <b>Longo DL</b>, Aime S, Sun PZ.							
+										<i>&#34;A generalized ratiometric chemical exchange saturation transfer (CEST) MRI approach for mapping renal pH using iopamidol&#34;</i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/28686805" target="_blank">
+										<font color="blue"> Magn Reson Med. 2018,79 1553 </font></a></li>
+										<br>
+																				
+										<li>Srivastava K, Ferrauto G, Harris S, <b>Longo DL</b>, Botta M, Aime S, Pierre V.							
+										<i>&#34;Complete On/Off Responsive ParaCEST MRI Contrast Agents for Copper and Zinc&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/29897367" target="_blank">
+										<font color="blue"> Dalton Transactions 2018, 47, 11346 </font></a></li>
+										<br>
+											
+										<li>Goerke S, Breitling J, Zaiss M, Windschuh J, Kunz P, Schuenke P, Paech D, <b>Longo DL</b>, Klika KD, Ladd ME, Bachert P.							
+										<i>&#34;Dual-frequency irradiation CEST-MRI of endogenous bulk mobile proteins&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/29672976" target="_blank">
+										<font color="blue"> NMR in Biomedicine 2018, 31, e3920 </font></a></li>
+										<br>										
 																			
 										<li>Wyart E, Reano S, Hsu MY, <b>Longo DL</b>, Li M, Hirsch E, Filigheddu N, Ghigo A, Riganti C, Porporato PE.							
 										<i>&#34;Metabolic Alterations in a Slow-Paced Model of Pancreatic Cancer-Induced Wasting&#34; </i> 
@@ -427,6 +466,7 @@
 														<h4>Year</h4>
 													
 													<ul class="style2">
+														<li><a href="#2019">2019</a></li>
 														<li><a href="#2018">2018</a></li>
 														<li><a href="#2017">2017</a></li>
 														<li><a href="#2016">2016</a></li>
