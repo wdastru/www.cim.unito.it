@@ -219,9 +219,9 @@
 											
 											</li>
 											-->	
-											<li><b>New journal article on a novel ratiometric approach for pH imaging published in  
-											<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29272735" target="_blank">							
-											<em><font color="blue">J Magnetic Resonance</font></em></b></a>
+											<li><b>New journal article published in  
+											<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">							
+											<em><font color="blue">Cancer Metastasis Rev</font></em></b></a>
 											</li>
 											
 											<li><b><a title="Open in a new window" class="http" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">							
