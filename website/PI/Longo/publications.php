@@ -77,7 +77,7 @@
 
 																				<h3 id='2019'>|2019</h3>
 										
-										<li>Anemone A, Consolino L, Arena F, Capozza M, Longo DL <b>Longo DL</b>, Zaiss M, Golay X.							
+										<li>Anemone A, Consolino L, Arena F, Capozza M, <b>Longo DL</b>, Zaiss M, Golay X.							
 										<i>&#34;Imaging tumor acidosis: a survey of the available techniques for mapping in vivo tumor pH&#34; </i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">
 										<font color="blue"> Cancer Metastasis Rev. 2019  </font></a></li>

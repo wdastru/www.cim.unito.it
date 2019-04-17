@@ -192,7 +192,7 @@
 												<h1 class="day">11-16</h1>
 											</div>
 										<a href="https://www.ismrm.org/19m/" style="vertical-align:middle; padding-left:10px" target="_blank">
-										<strong>Joint Annual Meeting ISMRM-ESMRMB 2019</strong></a></li>
+										<strong>Annual Meeting ISMRM 2019</strong></a></li>
 												
 										<li>										
 										<div class="date-icon">												
@@ -210,7 +210,7 @@
 									<h2 class="icon fa-file-text-o">NEWS</h2>
 
 									<ul class="divided">
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
+						 			  <!--  <li><img src="<?php echo $localizer; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
 										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
 											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging.pdf"><font color="red">postdoctoral Research Fellow position in cancer biology and imaging</a></font><br>
@@ -218,7 +218,7 @@
 											iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
 											
 											</li>
-											
+											-->	
 											<li><b>New journal article on a novel ratiometric approach for pH imaging published in  
 											<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/29272735" target="_blank">							
 											<em><font color="blue">J Magnetic Resonance</font></em></b></a>
@@ -253,9 +253,9 @@
 				<div class="12u">
 
 					<ul class="menu">
-						<li>&copy; 2017 Molecular Imaging Center. All rights reserved</li>
+						<li>&copy; 2019 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Updated: 28 December 2017</li>
+						<li>Updated: 17 April 2019</li>
 					</ul>
 				</div>
 			</footer>
