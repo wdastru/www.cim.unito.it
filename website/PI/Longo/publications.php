@@ -167,7 +167,7 @@
 										<font color="blue"> Oncotarget. 2017, 8, 10007 </font></a></li>
 										<br>
 										
-										<li>Consolino L, <b>Longo DL</b>, Sciortino M, DastrÃ¹ W, Cabodi S, Giovenzana GB, Aime S. 
+										<li>Consolino L, <b>Longo DL</b>, Sciortino M, Dastr&#249; W, Cabodi S, Giovenzana GB, Aime S. 
 										<i>&#34;Assessing tumor vascularization as a potential biomarker of imatinib resistance in gastrointestinal stromal tumors by dynamic contrast-enhanced magnetic resonance imaging&#34;</i> 
 										<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/27995483" target="_blank">
 										<font color="blue"> Gastric Cancer. 2017, 20, 629 </font></a></li>
@@ -193,7 +193,7 @@
 										<font color="blue"> Cancer Research 2016, 76, 6463 </font></a></li>
 										<br>
 										
-										<li>Consolino L, <b>Longo DL</b>, DastrÃ¹ W, Cutrin JC, Dettori D, Lanzardo S, Oliviero S, Cavallo F, Aime S.							
+										<li>Consolino L, <b>Longo DL</b>, Dastr&#249; W, Cutrin JC, Dettori D, Lanzardo S, Oliviero S, Cavallo F, Aime S.							
 										<i>&#34;Functional imaging of the angiogenic switch in a transgenic mouse model of human breast cancer by dynamic contrast enhanced magnetic resonance imaging&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/26941084" target="_blank">
 										<font color="blue"> Int J Cancer. 2016, 139, 404 </font></a></li>
@@ -219,7 +219,7 @@
 
 										<h3 id='2015'>|2015</h3>
 										
-										<li><b>Longo DL</b>, DastrÃ¹ W, Consolino L, Espak M, Arigoni M, Cavallo F, Aime S.							
+										<li><b>Longo DL</b>, Dastr&#249; W, Consolino L, Espak M, Arigoni M, Cavallo F, Aime S.							
 										<i>&#34;Cluster analysis of quantitative parametric maps from DCE-MRI: application in evaluating heterogeneity of tumor response to antiangiogenic treatment&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/25839393" target="_blank">
 										<font color="blue"> Magn Reson Imaging. 2015, 33, 725 </font></a></li>
@@ -344,13 +344,13 @@
 										<font color="blue"> Contrast Media Mol Imaging. 2011, 6, 421 </font></a></li>
 										<br>
 										
-										<li>DastrÃ¹ W, <b>Longo DL</b>, Aime S.							
+										<li>Dastr&#249; W, <b>Longo DL</b>, Aime S.							
 										<i>&#34;Contrast agents and mechanisms&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/24990259" target="_blank">
 										<font color="blue"> Drug Discov Today Technol. 2011, 8, e109 </font></a></li>
 										<br>
 										
-										<li><b>Longo DL</b>, DastrÃ¹ W, Digilio G, Keupp J, Langereis S, Lanzardo S, Prestigio S, Steinbach O, Terreno E, Uggeri F, Aime S.							
+										<li><b>Longo DL</b>, Dastr&#249; W, Digilio G, Keupp J, Langereis S, Lanzardo S, Prestigio S, Steinbach O, Terreno E, Uggeri F, Aime S.							
 										<i>&#34;Iopamidol as a responsive MRI-chemical exchange saturation transfer contrast agent for pH mapping of kidneys: In vivo studies in mice at 7 T&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/20949634" target="_blank">
 										<font color="blue"> Magn Reson Med. 2011, 65, 202 </font></a></li>
@@ -376,7 +376,7 @@
 										<font color="blue"> J Neurol. 2010, 257, 328 </font></a></li>
 										<br>
 								
-										<li>Terreno E, DastrÃ¹ W, Castelli DD, Gianolio E, Crich SG, <b>Longo DL</b>, Aime S.							
+										<li>Terreno E, Dastr&#249; W, Castelli DD, Gianolio E, Crich SG, <b>Longo DL</b>, Aime S.							
 										<i>&#34;Advances in Metal-Based Probes for MR Molecular Imaging Applications&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/20846110" target="_blank">
 										<font color="blue"> Curr Med Chem. 2010, 17, 3684 </font></a></li>

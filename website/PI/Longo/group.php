@@ -419,7 +419,7 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD in Surgical Experimental Sciences and Cellular Therapies, University of Bari â€œAldo Moroâ€� (under Marie Curie ITN program)<br>
+												PhD in Surgical Experimental Sciences and Cellular Therapies, University of Bari &#34;Aldo Moro&#34; (under Marie Curie ITN program)<br>
 												MSc in Oncology, Vrije Universiteit Amsterdam, The Netherlands 
 												<br> Phone: +39 0116706499<br>
 												E-mail: <a href="mailto:bhavna.rani@unito.it">bhavna.rani@unito.it</a>
