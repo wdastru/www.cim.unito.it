@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+1 - 2 - 2 - 2
+OSPINA David
+MERET Alex
+KARNEZIS Orestis
+CANCELO Joao
+PEZZELLA German
+CRISCITO Domenico
+ALVES Bruno
+COLLEY Omar
+TONELLI Lorenzo
+FERRARI Gianmarco
+DI LORENZO Giovanni
+ZANIOLO Nicolò
+DUNCAN Alfred
+VERETOUT Jordan
+ZIELINSKI Piotr
+RUIZ Fabian
+PASTORE Javier
+GIACCHERINI Emanuele
+PAQUETA Lucas
+PIATEK Krzysztof
+IMMOBILE Ciro
+BERARDI Domenico
+SANTANDER Federico
+CAICEDO Felipe
+STEPINSKI Mariusz
+
+
+Sat 13 Apr 2019 - 01:05:20

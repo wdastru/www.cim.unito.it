@@ -28,15 +28,19 @@
         </tr>
         <tr>
           <td align="justify">
-      <p class="center">I moduli di gioco possibili sono i seguenti:</p>
+      <p class="center">I moduli di gioco possibili sono solo questi, in ordine di offensivit&aacute; crescente:</p>
+
 	  <p class="center">&nbsp;</p>
-      <p class="center">3 - 4 - 3</p>
-      <p class="center">4 - 3 - 3</p>
-      <p class="center">3 - 5 - 2</p>
-      <p class="center">4 - 4 - 2</p>
+      <p class="center">5 - 4 - 1</p>    
+      <p class="center">4 - 5 - 1</p>  
       <p class="center">5 - 3 - 2</p>
-      <p class="center">4 - 5 - 1</p>
-      <p class="center">5 - 4 - 1</p>
+      <p class="center">4 - 4 - 2</p>
+      <p class="center">3 - 5 - 2</p>
+      <p class="center">4 - 3 - 3</p>
+      <p class="center">3 - 4 - 3</p>
+      
+      
+
       </p>
 	</td>
         </tr>
