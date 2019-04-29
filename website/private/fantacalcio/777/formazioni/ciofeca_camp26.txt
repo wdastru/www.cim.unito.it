@@ -1,31 +1,31 @@
-3 - 5 - 2
-1 - 3 - 5 - 2
+4 - 3 - 3
+1 - 4 - 3 - 3
 1 - 2 - 2 - 2
 AUDERO Emil
 LAFONT Alban
 DRAGOWSKI Bartlomiej
 MARUSIC Adam
 ANDERSEN Joachim
-MANOLAS Konstantinos
-CHIELLINI Giorgio
 MANCINI Gianluca
+MANOLAS Konstantinos
+CONTI Andrea
 BIRAGHI Cristiano
 VITOR HUGO Franchescoli de Souza
-CONTI Andrea
+CHIELLINI Giorgio
 CHIESA Federico
-DE PAUL Rodrigo
-ÜNDER Cengiz
 CRISTANTE Bryan
-PJANIC Miralem
-RIGONI Emiliano
-GERSON Santos Da Silva
+DE PAUL Rodrigo
 GAGLIARDINI Roberto
+GERSON Santos Da Silva
+PJANIC Miralem
+DJURICIC Filip
+ÜNDER Cengiz
 QUAGLIARELLA Fabio
 LUIS ALBERTO Romero Alconchel
-DEFREL Gregoire
 MARTINEZ Lautaro
-BARROW Musa
+SANABRIA Antonio
+DEFREL Gregoire
 EL SHAARAWY Stephan
-54
+48
 3337815436
-Sat 01 Dec 2018 - 09:43:13
+Thu 18 Apr 2019 - 15:47:54
