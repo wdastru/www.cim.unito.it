@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <resource>
+    <file>FantaCalcGui_v3.6.1.zip</file>
+    <version>3.6.1</version>
+    <description>archivio</description>
+    <new>- corretto baco in cambio modulo (rev. 6df55d5)</new>
+  </resource>
+  <resource>
     <file>FantaCalcGui_v3.6.0.zip</file>
     <version>3.6.0</version>
     <description>archivio</description>
