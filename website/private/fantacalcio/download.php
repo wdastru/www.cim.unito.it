@@ -57,6 +57,12 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 		<?php
 
 		$nPreCampionato = 3;
+		
+		$spareggio = 1;   /*
+		                   * 1 - SI
+		                   * 0 - NO
+		                   */
+		
 		if ($nPreCampionato!=0)
 		{
 			//MySingleton::writeToLog('$nPreCampionato = ' . $nPreCampionato, $relocate_string . "777/logs/download.log");
@@ -148,6 +154,20 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 			}
 			?>
 		</table>
+		
+		<?php 
+		if ( $spareggio == 1 ) {
+		    /*
+		     * TODO
+		     * 		<p class="center" style="color: FF6600">SPAREGGIO CAMPIONATO</p>
+            		<table id="download_spareggio">
+            		    <tr>
+            		        <td class="link"><?php if(isset($fileGaz[???])) echo "<a href='777/filesGazzetta/" . $fileGaz[???] . "'>spareggio campionato</a>"; ?></td>
+            		    </tr>
+            		</table>
+		     */
+		}
+		?>
 		<br />
 		<!-- InstanceEndEditable -->
 	</div>
