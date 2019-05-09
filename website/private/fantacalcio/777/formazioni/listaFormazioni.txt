@@ -2,6 +2,7 @@ _15esima.txt
 atletico.txt
 atletico_camp_26.txt
 atletico_camp_27.txt
+atletico_camp_28.txt
 atletico_coppa_4.txt
 ciofeca.txt
 ciofeca_camp22.txt
@@ -10,6 +11,7 @@ ciofeca_camp24.txt
 ciofeca_camp25.txt
 ciofeca_camp26.txt
 ciofeca_camp27.txt
+ciofeca_camp28.txt
 ciofeca_coppa_semi.txt
 eporediese.txt
 eporediese_camp_10.txt
@@ -19,6 +21,7 @@ eporediese_camp_19_gen.txt
 eporediese_camp_2.txt
 eporediese_camp_20.txt
 eporediese_camp_26_gennaio.txt
+eporediese_camp_28.txt
 eporediese_camp_3.txt
 eporediese_camp_33.txt
 eporediese_camp_5.txt
@@ -42,6 +45,9 @@ fedora_camp_C4.txt
 fedora_camp_C6.txt
 fedora_camp_C7.txt
 fedora_camp_D1.txt
+fedora_camp_D4.txt
+fedora_camp_D6.txt
+fedora_camp_D7.txt
 fedora_coppa_4.txt
 fedora_fedora_camp_A6.txt
 fedora_tipo_valida_fino_20180925-115607.txt
@@ -86,6 +92,7 @@ krakatoa_camp_22-12-18.txt
 krakatoa_camp_26-12-18.txt
 krakatoa_coppa_4.txt
 krakatoa_da_mail_20_apr_.txt
+krakatoa_mail_27_4_2019.txt
 krakatoa_tipo_valida_fino_20180912-175335.txt
 krakatoa_tipo_valida_fino_20180912-175345.txt
 krakatoa_tipo_valida_fino_20180912-175435.txt
@@ -129,6 +136,7 @@ lokomotiv_camp23.txt
 lokomotiv_camp24.txt
 lokomotiv_camp26.txt
 lokomotiv_camp27.txt
+lokomotiv_camp28.txt
 lokomotiv_camp_25.txt
 lokomotiv_coppa01.txt
 lokomotiv_coppa02.txt
@@ -182,6 +190,7 @@ real_camp24.txt
 real_camp25.txt
 real_camp26_da_usare.txt
 real_camp27.txt
+real_camp28.txt
 real_coppa01.txt
 real_coppa02.txt
 real_coppa03.txt

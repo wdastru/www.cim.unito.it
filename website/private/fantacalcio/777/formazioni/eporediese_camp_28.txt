@@ -1,0 +1,31 @@
+4 - 3 - 3
+1 - 4 - 3 - 3
+1 - 2 - 2 - 2
+MIRANTE Antonio
+OLSEN Robin
+SKORUPSKI Lukasz
+RODRIGUEZ Ricardo
+FLORENZI Alessandro
+IZZO Armando
+TOLOI Rafael
+PALOMINO José Luis
+ASAMOAH Kwadwo
+HYSAJ Elseid
+BENATIA Medhi
+PERISIC Ivan
+PELLEGRINI Lorenzo
+PRAET Dennis
+ROMULO Orestes
+EKDAL Albin
+HAMSIK Marek
+PEROTTI Diego
+DOUGLAS COSTA de Souza
+ICARDI Mauro
+PAVOLETTI Leonardo
+MERTENS Dries
+IAGO Falque
+VERDI Simone
+KEITA Balde Diao
+64
+3498318385
+Fri 03 May 2019 - 20:24:41
