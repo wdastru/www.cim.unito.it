@@ -93,6 +93,7 @@ krakatoa_camp_26-12-18.txt
 krakatoa_coppa_4.txt
 krakatoa_da_mail_20_apr_.txt
 krakatoa_mail_27_4_2019.txt
+krakatoa_spareggio.txt
 krakatoa_tipo_valida_fino_20180912-175335.txt
 krakatoa_tipo_valida_fino_20180912-175345.txt
 krakatoa_tipo_valida_fino_20180912-175435.txt
@@ -142,6 +143,7 @@ lokomotiv_coppa01.txt
 lokomotiv_coppa02.txt
 lokomotiv_coppa03.txt
 lokomotiv_coppa_04.txt
+lokomotiv_spareggio.txt
 lokomotiv_tipo_valida_fino_20180911-221415.txt
 lokomotiv_tipo_valida_fino_20181123-232305.txt
 lokomotiv_tipo_valida_fino_20181123-232309.txt

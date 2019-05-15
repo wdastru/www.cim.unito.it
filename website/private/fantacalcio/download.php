@@ -57,6 +57,12 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 		<?php
 
 		$nPreCampionato = 3;
+		
+		$spareggio = 1;   /*
+		                   * 1 - SI
+		                   * 0 - NO
+		                   */
+		
 		if ($nPreCampionato!=0)
 		{
 			//MySingleton::writeToLog('$nPreCampionato = ' . $nPreCampionato, $relocate_string . "777/logs/download.log");
@@ -94,21 +100,21 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="link"><?php if(isset($fileGaz[0 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[0 + $nPreCampionato] . "'>I</a>"; ?>
-				</td>
-				<td class="link"><?php if(isset($fileGaz[26 + $nPreCampionato - 2])) echo "<a href='777/filesGazzetta/" . $fileGaz[26 + $nPreCampionato - 2] . "'>semifinale</a>"; ?>
-				</td>
-				<td class="link"><?php if(isset($fileGaz[34 + $nPreCampionato - 2])) echo "<a href='777/filesGazzetta/" . $fileGaz[34 + $nPreCampionato - 2] . "'>finale</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[ $nPreCampionato ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato ] . "'>I</a>"; ?>
+				</td>                                     
+				<td class="link"><?php if(isset($fileGaz[ $nPreCampionato + 24 ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + 24 ] . "'>semifinale</a>"; ?>
+				</td>                                     
+				<td class="link"><?php if(isset($fileGaz[ $nPreCampionato + 32 + $spareggio ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + 32 + $spareggio ] . "'>finale</a>"; ?>
 				</td>
 			</tr>
 			<tr>
-				<td class="link"><?php if(isset($fileGaz[8 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[8 + $nPreCampionato] . "'>II</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[ $nPreCampionato + 8 ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + 8 ] . "'>II</a>"; ?>
 				</td>
 				<td class="link"></td>
                 <td class="link"></td>
 			</tr>
 			<tr>
-				<td class="link"><?php if(isset($fileGaz[16 + $nPreCampionato])) echo "<a href='777/filesGazzetta/" . $fileGaz[16 + $nPreCampionato] . "'>III</a>"; ?>
+				<td class="link"><?php if(isset($fileGaz[ $nPreCampionato + 16 ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + 16 ] . "'>III</a>"; ?>
 				</td>
 				<td class="link"></td>
 				<td class="link"></td>
@@ -118,7 +124,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 		<p class="center" style="color: FF6600">SUPERCOPPA</p>
 		<table id="download_supercoppa">
 		    <tr>
-		        <td class="link"><?php if(isset($fileGaz[35 + $nPreCampionato - 2])) echo "<a href='777/filesGazzetta/" . $fileGaz[35 + $nPreCampionato - 2] . "'>supercoppa</a>"; ?></td>
+		        <td class="link"><?php if(isset($fileGaz[ $nPreCampionato + 33 + $spareggio ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + 33 + $spareggio ] . "'>supercoppa</a>"; ?></td>
 		    </tr>
 		</table>
 		    
@@ -139,8 +145,8 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 				echo "<tr>\n";
 				for ($j = 0; $j < 4; $j++)
 				{
-					if(isset($fileGaz[ $i + 8 * $j + $nPreCampionato ]))
-					echo "<td class='link'><a href='777/filesGazzetta/" . $fileGaz[ $i + 8 * $j + $nPreCampionato ] . "'>" . $numeriRomani[ $i + 7 * $j ] . " giornata</a></td>\n";
+					if(isset($fileGaz[ $nPreCampionato + $i + 8 * $j  ]))
+					echo "<td class='link'><a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + $i + 8 * $j ] . "'>" . $numeriRomani[ $i + 7 * $j ] . " giornata</a></td>\n";
 					else
 					echo "<td class='link'>&nbsp;</td>\n";
 				}
@@ -148,6 +154,23 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 			}
 			?>
 		</table>
+		
+		<?php 
+		if ( $spareggio == 1 ) {
+		    		
+		          echo "<p class='center' style='color: FF6600'>SPAREGGIO CAMPIONATO</p>
+            		<table id='download_spareggio'>
+            		    <tr>
+            		        <td class='link'>";
+            		        
+		          if (isset($fileGaz[ $nPreCampionato + 32 ])) {
+		              echo "<a href='777/filesGazzetta/" . $fileGaz[$nPreCampionato + 32] . "'>spareggio campionato</a></td>
+            		    </tr>
+            		</table>";
+		          }
+		     
+		}
+		?>
 		<br />
 		<!-- InstanceEndEditable -->
 	</div>
