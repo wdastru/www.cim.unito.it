@@ -215,7 +215,8 @@
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
 											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/position_cancer_metabolism.pdf"><font color="red">Research Fellow position in Cancer Biology/Metabolism</a></font><br>
 											ii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br>
-											<!-- iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b> -->
+										   <!-- iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a> -->
+										   </font></b>
 											 
 											</li>
 											
@@ -227,7 +228,7 @@
 											<!--  <li><b><a title="Open in a new window" class="http" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">							
 											<em><font color="blue">Umberto Veronesi Foundation Postdoctoral Fellowship </font></em></a>recipient, Lorena Consolino:  
 											congratulations!</b>
-											</li>-->
+											</li> -->
 											
 											<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
 											<b>New book chapter in CEST imaging: </b>
