@@ -210,24 +210,25 @@
 									<h2 class="icon fa-file-text-o">NEWS</h2>
 
 									<ul class="divided">
-						 			  <!--  <li><img src="<?php echo $localizer; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
+						 			  	  	<li><img src="<?php echo $localizer; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
 										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
-											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging.pdf"><font color="red">postdoctoral Research Fellow position in cancer biology and imaging</a></font><br>
-											ii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_MRI_physics.pdf"><font color="red">Research Fellow position in MRI physics</a></font><br>
-											iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
-											
+											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/position_cancer_metabolism.pdf"><font color="red">Research Fellow position in Cancer Biology/Metabolism</a></font><br>
+											ii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br>
+										   <!-- iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a> -->
+										   </font></b>
+											 
 											</li>
-											-->	
+											
 											<li><b>New journal article published in  
 											<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">							
 											<em><font color="blue">Cancer Metastasis Rev</font></em></b></a>
 											</li>
 											
-											<li><b><a title="Open in a new window" class="http" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">							
+											<!--  <li><b><a title="Open in a new window" class="http" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">							
 											<em><font color="blue">Umberto Veronesi Foundation Postdoctoral Fellowship </font></em></a>recipient, Lorena Consolino:  
 											congratulations!</b>
-											</li>
+											</li> -->
 											
 											<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
 											<b>New book chapter in CEST imaging: </b>
@@ -255,7 +256,7 @@
 					<ul class="menu">
 						<li>&copy; 2019 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Updated: 17 April 2019</li>
+						<li>Updated: 06 June 2019</li>
 					</ul>
 				</div>
 			</footer>
