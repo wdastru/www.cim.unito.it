@@ -30,7 +30,13 @@ h3 { font-size:12px; text-align:center; }
 #section4, 
 #section5, 
 #section6, 
-#section7 { margin: auto; width: 1200px; position:relative; clear:both; 
+#section7,
+#sectionAutoDip { 
+	
+	margin: auto; 
+	width: 1200px; 
+	position:relative; 
+	clear:both; 
 
 /* --> important for footer at the bottom */
 min-height: 100%;             
@@ -41,7 +47,7 @@ height: 100%;
 /* For IE */ 
 /* <-- important for footer at the bottom */
 
-border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg); background-repeat:repeat-y; background-position: -1px 0; }
+	border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg); background-repeat:repeat-y; background-position: -1px 0; }
 
 /* --> comportamento dei link non selezionati */
 #main-nav #main-nav-section0 a:hover, 
@@ -89,6 +95,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 #section5 #header, 
 #section6 #header,
 #section7 #header { height: 200px; background: url(images/header_large.jpg); }
+#sectionAutoDip #header {  }
 
 /* END OF SECTION SPECIFIC STYLES */
 

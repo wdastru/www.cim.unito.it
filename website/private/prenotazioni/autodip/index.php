@@ -4,7 +4,6 @@ function throwException() {
     throw new Exception("Exception: ");
 }
 
-
 if (!ini_get('date.timezone')) {
 	ini_set('date.timezone', 'Europe/Rome');
 }
@@ -25,20 +24,6 @@ if (isset($_GET['date'])) {
 if (!isset($_SESSION['conflict'])) {
 	$_SESSION['conflict'] = "";
 }
-
-//if (!isset($_POST['instrument']) && !isset($_SESSION['strumento'])) {
-//	$_SESSION['strumento'] = $instrument[0];
-//} else if (isset($_POST['instrument'])) {
-//	$_SESSION['strumento'] = $_POST['instrument'];
-//}
-
-//if ($_SESSION['strumento'] == "600MHz") {
-//	$ore = array(900, 915, 930, 945, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000);
-//} else if ($_SESSION['strumento'] == "Scanlaf" || $_SESSION['strumento'] == "Telstar" ) {
-//    $ore = array(800, 830, 900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000);
-//} else {
-//    $ore = array(800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000);
-//}
 
 $_SESSION['strumento'] = "Auto";
 $ore = array(800, 830, 900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000);
@@ -66,7 +51,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<script type="text/javascript" src="<?php echo $localizer; ?>/private/prenotazioni/booking.js"></script>
 	</head>
 	<body onload='aBoxIsOn=false;'>
-		<div id='section7'>
+		<div id='sectionAutoDip'>
 			<div id='newPrenoBox' class='shadow' style='visibility: hidden'>
 				<h1>PRENOTAZIONE</h1>
 				<span>&nbsp;</span>
