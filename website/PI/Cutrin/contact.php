@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -7,28 +10,7 @@
 <html>
 	<head>
 		<title>Contact Us | Cutrin Lab</title>
-		<meta name="MobileOptimized" content="width">
-    <meta name="HandheldFriendly" content="true">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="1 month">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112490720-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112490720-1');
-</script>
-
-
+		<?php require ($localizer . 'PI/Cutrin/includes/head_const_cutrin.php'); ?>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -54,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">JUAN CARLOS CUTRIN LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Cutrin/home.php" id="logo">JUAN CARLOS CUTRIN LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Probes To Detect Bacteria In Vivo</p>
 
@@ -62,27 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<!-- 
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_probes.html">MRI probes</a></li>
-										<li><a href="research_angiogenesis.html">Tumor
-												angiogenesis</a>
-										<li>
-										<li><a href="research_tumor_pH.html" font
-											style="text-transform: none;">TUMOR pH IMAGING</a>
-										<li>
-										<li><a href="research_kidney.html" font
-											style="text-transform: none;">RENAL pH IMAGING</a></li>
-									</ul></li>
-									-->
-								<li class="current_page_item"><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Cutrin/includes/menu_cutrin.php'); ?>
 						</nav>
 
 					</div>
@@ -142,13 +104,13 @@
 
 		<!-- Scripts -->
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+			<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+			<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+			<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+			<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 
 	</body>
 </html>

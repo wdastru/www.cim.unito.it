@@ -153,7 +153,7 @@ $localizer = "./";
 					style="background-image: url(images/staff/cutrin.jpg);">
 					<div class="content">
 						<div class="table">
-						 <a title="Homepage" href="PI/Cutrin/home.html" target="_blank">
+						 <a title="Homepage" href="PI/Cutrin/home.php" target="_blank">
 							<div class="table-cell">
 								<h2 style="font-size: 16px;">
 									<b>Juan Carlos Cutrin</b>
