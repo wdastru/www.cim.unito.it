@@ -100,9 +100,9 @@ if ($tipo == "preno") {
 			$_SESSION['conflict'] = 1;
 			
 			if ($_SESSION['strumento'] == "Auto") {
-			    header("Location: " . $localizer . "/private/prenotazioni/autodip/index.php");
+			    header("Location: " . $localizer . "private/prenotazioni/autodip/index.php");
 			} else {
-			    header("Location: " . $localizer . "/private/prenotazioni/index.php");
+			    header("Location: " . $localizer . "private/prenotazioni/index.php");
 			}
 			exit();
 		}
@@ -144,9 +144,9 @@ if ($tipo == "preno") {
 			}
 		} else {
 		    if ($_SESSION['strumento'] == "Auto") {
-		        header("Location: " . $localizer . "/private/prenotazioni/autodip/index.php?date=" . get_sunday_before($year, $month, $day));
+		        header("Location: " . $localizer . "private/prenotazioni/autodip/index.php?date=" . get_sunday_before($year, $month, $day));
 		    } else {
-		        header("Location: " . $localizer . "/private/prenotazioni/index.php?date=" . get_sunday_before($year, $month, $day));
+		        header("Location: " . $localizer . "private/prenotazioni/index.php?date=" . get_sunday_before($year, $month, $day));
 		    }
 		    //header("Location: index.php?date=" . get_sunday_before($year, $month, $day));
 			exit();
@@ -217,9 +217,9 @@ if ($tipo == "preno") {
 mysql_close($con);
 
 if ($_SESSION['strumento'] == "Auto") {
-    header("Location: " . $localizer . "/private/prenotazioni/autodip/index.php?date=" . get_sunday_before($year, $month, $day));
+    header("Location: " . $localizer . "private/prenotazioni/autodip/index.php?date=" . get_sunday_before($year, $month, $day));
 } else {
-    header("Location: " . $localizer . "/private/prenotazioni/index.php?date=" . get_sunday_before($year, $month, $day));
+    header("Location: " . $localizer . "private/prenotazioni/index.php?date=" . get_sunday_before($year, $month, $day));
 }
 
 exit();
