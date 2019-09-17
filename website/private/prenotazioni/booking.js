@@ -56,7 +56,7 @@ function oreStrumento(_strumento) {
     
     if(_strumento == "600MHz") {
         ore = Array(900, 915, 930, 945, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000);
-    } else if (_strumento == "Scanlaf" || _strumento == "Telstar") {
+    } else if (_strumento == "Scanlaf" || _strumento == "Telstar" || _strumento == "Auto") {
     	ore = Array(800, 830, 900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000);
     } else {
         ore = Array(800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000);

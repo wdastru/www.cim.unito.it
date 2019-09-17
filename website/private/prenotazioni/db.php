@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+$localizer = "../../../";
 include ("variables.php");
 include ("connect.php");
 include ("functions.php");
@@ -23,7 +25,7 @@ $oraIdxStart = 0;
 $oraIdxEnd = 0;
 if ($_SESSION['strumento'] == "600MHz") {
 	$ore = array(900, 915, 930, 945, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100);
-} else if ($_SESSION['strumento'] == "Scanlaf" || $_SESSION['strumento'] == "Telstar") {
+} else if ($_SESSION['strumento'] == "Scanlaf" || $_SESSION['strumento'] == "Telstar" || $_SESSION['strumento'] == "Auto") {
     $ore = array(800, 830, 900, 930, 1000, 1030, 1100, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000);
 } else {
 	$ore = array(800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100);
@@ -96,7 +98,12 @@ if ($tipo == "preno") {
 			continue;
 		} else {
 			$_SESSION['conflict'] = 1;
-			header("Location: index.php");
+			
+			if ($_SESSION['strumento'] == "Auto") {
+			    header("Location: " . $localizer . "/private/prenotazioni/autodip/index.php");
+			} else {
+			    header("Location: " . $localizer . "/private/prenotazioni/index.php");
+			}
 			exit();
 		}
 	}
@@ -136,7 +143,12 @@ if ($tipo == "preno") {
 				break;
 			}
 		} else {
-			header("Location: index.php?date=" . get_sunday_before($year, $month, $day));
+		    if ($_SESSION['strumento'] == "Auto") {
+		        header("Location: " . $localizer . "/private/prenotazioni/autodip/index.php?date=" . get_sunday_before($year, $month, $day));
+		    } else {
+		        header("Location: " . $localizer . "/private/prenotazioni/index.php?date=" . get_sunday_before($year, $month, $day));
+		    }
+		    //header("Location: index.php?date=" . get_sunday_before($year, $month, $day));
 			exit();
 		}
 	}
@@ -204,6 +216,11 @@ if ($tipo == "preno") {
 
 mysql_close($con);
 
-header("Location: index.php?date=" . get_sunday_before($year, $month, $day));
+if ($_SESSION['strumento'] == "Auto") {
+    header("Location: " . $localizer . "/private/prenotazioni/autodip/index.php?date=" . get_sunday_before($year, $month, $day));
+} else {
+    header("Location: " . $localizer . "/private/prenotazioni/index.php?date=" . get_sunday_before($year, $month, $day));
+}
+
 exit();
 ?>

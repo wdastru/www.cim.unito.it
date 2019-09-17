@@ -143,12 +143,15 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
 #content { float: right; width:1000px; line-height: 22px; padding: 0; }
 #content-large { float: right; width: 950px; line-height: 22px; padding: 0; }
 #content-larger { float: right; width: 950px; line-height: 22px; padding: 0; }
+#content-largerAutoDip { float: right; width: 1150px; line-height: 22px; padding: 0; }
 #content .paddingOuter { padding: 25px; }
 #content .paddingInner { padding: 0px 25px; }
 #content-large .paddingOuter { padding: 25px; }
 #content-large .paddingInner { padding: 0px 25px; }
 #content-larger .paddingOuter { padding: 25px; }
 #content-larger .paddingInner { padding: 0px 25px; }
+#content-largerAutoDip .paddingOuter { padding: 25px; }
+#content-largerAutoDip .paddingInner { padding: 0px 25px; }
 #content h2, p { margin: 0; padding: 0; padding-bottom: 15px; }
 #content p { text-align:justify; }
 #content .indent { text-indent:30px; }
@@ -176,7 +179,7 @@ border: 3px #333333 solid; background: #ffffff url(images/sidebar-bkg-ltgray.jpg
     padding: 10px 0px 0px 0px;
     line-height: 12px;
     height: 90px;
-    width: 1100px;
+    width: 100%;
     font-size: 10px;
     bottom: 0 !important;
     font-family: Tahoma, Arial, Helvetica, Sans-serif;

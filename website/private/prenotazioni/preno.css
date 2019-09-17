@@ -3,11 +3,13 @@ input.colorBox { height:3em; }
 
 div#PrenoCanc { margin:1em; }
 div#booking-header { height:150px; padding:0em; background-color:#333333; }
+div#booking-headerAutoDip { height:100px; padding:0em; background-color:#333333; }
 div#headerLeft { float:left; margin:0em; padding:16px; height:68px; width:20%; text-align:left;}
 div#headerRight { float:right; margin:0em; padding:16px; height:68px; width:65%; text-align:right;}
+div#headerLeftAutoDip { float:left; margin:0em; padding:16px; height:18px; width:100%; text-align:left;}
 div#week { clear:right; }
 div#main { margin:0; padding:0; visibility:visible; }
-div#navigation {width: 800px; margin:0em; height:80px; margin-bottom: 30px;}
+div#navigation {width: 100%; margin:0em; height:80px; margin-bottom: 30px;}
 div#navLeft { width:200px; padding-top:20px; height:100%; float:left; margin:0em; text-align:left; }
 div#navLeft div#leftArrow { float: left; }
 div#navLeft div#leftPrevWeek { font-size: 14px; font-weight: bold; float: left; line-height: 50px; padding-left: 10px; }
