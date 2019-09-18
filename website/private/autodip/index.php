@@ -1,5 +1,7 @@
 <?php  session_start();
 
+$localizer = "../../";
+
 function throwException() {
     throw new Exception("Exception: ");
 }
@@ -8,7 +10,6 @@ if (!ini_get('date.timezone')) {
 	ini_set('date.timezone', 'Europe/Rome');
 }
 
-$localizer = "../../../";
 $thisday = date("d");
 $thismonth = date("m");
 $thisyear = date("Y");
