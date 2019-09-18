@@ -13,10 +13,10 @@ if (!ini_get('date.timezone')) {
 $thisday = date("d");
 $thismonth = date("m");
 $thisyear = date("Y");
-include ($localizer . "private/prenotazioni/variables.php");
-include ($localizer . "private/prenotazioni/instruments.php");
-include ($localizer . "private/prenotazioni/functions.php");
-include ($localizer . "private/prenotazioni/connect.php");
+include ($localizer . "private/autodip/variables.php");
+include ($localizer . "private/autodip/instruments.php");
+include ($localizer . "private/autodip/functions.php");
+include ($localizer . "private/autodip/connect.php");
 
 if (isset($_GET['date'])) {
 	$date = $_GET['date'];
@@ -48,8 +48,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - Booking of <?php echo $instrString[$_SESSION['strumento']];?></title>
 		<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
-		<link href="<?php echo $localizer; ?>private/prenotazioni/preno.css" rel='stylesheet' type='text/css' />
-		<script type="text/javascript" src="<?php echo $localizer; ?>private/prenotazioni/booking.js"></script>
+		<link href="<?php echo $localizer; ?>private/autodip/preno.css" rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="<?php echo $localizer; ?>private/autodip/booking.js"></script>
 	</head>
 	<body onload='aBoxIsOn=false;'>
 		<div id='sectionAutoDip'>
@@ -58,7 +58,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				<span>&nbsp;</span>
 				<br />
 				<br />
-				<form method="post" action='<?php echo $localizer; ?>private/prenotazioni/db.php' id='xRemove'>
+				<form method="post" action='<?php echo $localizer; ?>private/autodip/db.php' id='xRemove'>
 					<span> Utente:
 						<input type="text" name="utente" id='user'
 						onkeyup="noUserCheck();" />
@@ -133,7 +133,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					id='submit' value="Invia" onclick="aBoxIsOn = false;" />
 				</form>
 				<br />
-				<form action="<?php echo $localizer; ?>private/prenotazioni/db.php" method="post" target="_self">
+				<form action="<?php echo $localizer; ?>private/autodip/db.php" method="post" target="_self">
 					<input type="hidden" name="tipo" value="skip" />
 					<input
 					type="hidden" name="data" value="" />
@@ -189,7 +189,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					<br />
 				</div>
 				<br />
-				<form action="<?php echo $localizer; ?>private/prenotazioni/db.php" method="post" target="_self">
+				<form action="<?php echo $localizer; ?>private/autodip/db.php" method="post" target="_self">
 					<input type="hidden" name="tipo" value="canc" />
 					<input
 					type="hidden" name="utente" value="" />
@@ -202,7 +202,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					class="button" type="submit" value="Si" onclick="aBoxIsOn = false;" />
 				</form>
 				<br />
-				<form action="<?php echo $localizer; ?>private/prenotazioni/db.php" method="post" target="_self">
+				<form action="<?php echo $localizer; ?>private/autodip/db.php" method="post" target="_self">
 					<input type="hidden" name="tipo" value="skip" />
 					<input
 					type="hidden" name="data" value="" />
@@ -260,7 +260,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 									<div id='navLeft'>
 										<div id='leftArrow'>
 											<a title="Previous"
-											href="index.php?date=<?php echo $wkstart - (3600 * 24 * 6);?>"> <img class='arrow' src="<?php echo $localizer; ?>private/prenotazioni/images/arrow_3D_green_left.png"
+											href="index.php?date=<?php echo $wkstart - (3600 * 24 * 6);?>"> 
+											<img class='arrow' src="<?php echo $localizer; ?>private/autodip/images/arrow_3D_green_left.png"
 											alt="<?php echo "Previous week"?>" /></a>
 										</div>
 										<div id='leftPrevWeek' class='left'>
@@ -280,7 +281,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 										<div id='rightArrow'>
 											<a title="Next"
 											href="index.php?date=<?php echo $wkstart + ( 3600 * 24 * 8 )?>"><img
-											class='arrow' src="<?php echo $localizer; ?>private/prenotazioni/images/arrow_3D_green_right.png"
+											class='arrow' src="<?php echo $localizer; ?>private/autodip/images/arrow_3D_green_right.png"
 											alt="<?php echo "Next week"?>" /> </a>
 										</div>
 										<div id='rightNextWeek' class='right'>
@@ -564,8 +565,9 @@ xmlns="http://www.w3.org/1999/xhtml">
 								</div>
 								<!-- end of table div -->
 								
-								<!-- <a href="<?php echo $localizer; ?>private/prenotazioni/history.php" >Download history</a> -->
-								<a class="" href="<?php echo $localizer; ?>private/prenotazioni/history.php?instrument=<?php echo $_SESSION['strumento']?>" ><img id='excel_icon' src="<?php echo $localizer; ?>private/prenotazioni/images/Excel-icon.png" /><span class='history'>Download history</span></a>
+								<a class="" href="<?php echo $localizer; ?>private/autodip/history.php?instrument=<?php echo $_SESSION['strumento']?>" >
+								<img id='excel_icon' src="<?php echo $localizer; ?>private/autodip/images/Excel-icon.png" />
+								<span class='history'>Download history</span></a>
 									
 								<?php
 									echo $guidelines[$_SESSION['strumento']];
@@ -585,24 +587,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<!-- subsection closing -->
 								<div id='after'></div>
 								<div id='footer'>
-								<!-- <p>
-								Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
-								Fax. Tel. Mail
-								</p> -->
-								</div>
-								<!-- <div id='validators'>
-								<p>
-								<a href="http://validator.w3.org/check?uri=referer"> <img
-								src="images/valid-xhtml10-blue_opt.png"
-								alt="Valid XHtml 1.0 Transitional" height="31" width="88" />
-								</a>
-								</p>
-								<p>
-								<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"> <img
-								style="border: 0; width: 88px; height: 31px"
-								src="images/vcss-blue_opt.gif" alt="CSS Valido!" />
-								</a>
-								</p>  -->
+								
 								</div>
 								<!-- section closing -->
 								</div>
