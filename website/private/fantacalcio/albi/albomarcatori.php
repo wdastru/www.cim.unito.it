@@ -40,6 +40,20 @@ $relocate_string = "../"
 				<th>Squadra</th>
 				<th>Presidente</th>
 			</tr>
+      <tr>
+			<td align="center">2018/19</td>
+			<td align="center">21</td>
+			<td class="center marcatore">Ronaldo (Juventus)</td>
+			<td align="center">Lokomotiv Peccorino</td>
+			<td align="center">Claudia Cabella</td>
+		</tr>
+		<tr class="tableline">
+			<td align="center">&nbsp;</td>
+			<td align="center">21</td>
+			<td class="center marcatore">Quagliarella (Sampdoria)</td>
+			<td align="center">Dinamo Ciofeca</td>
+			<td align="center">Lorenzo Tei</td>
+		</tr>
       <tr class="tableline">
         <td align="center">2017/18</td>
         <td align="center">21</td>
@@ -141,7 +155,21 @@ $relocate_string = "../"
 				<th>Squadra</th>
 				<th>Presidente</th>
 			</tr>
-      <tr class="tableline">
+      <tr>
+			<td align="center">2018/19</td>
+			<td align="center">4</td>
+			<td class="center marcatore">El Shaarawy (Roma)</td>
+			<td align="center">Dinamo Ciofeca</td>
+			<td align="center">Lorenzo Tei</td>
+		</tr>
+		<tr class="tableline">
+			<td align="center">&nbsp;</td>
+			<td align="center">4</td>
+			<td class="center marcatore">Zapata (Atalanta)</td>
+			<td align="center">Atletico? No Grazie!</td>
+			<td align="center">Enzo Terreno</td>
+		</tr>
+		<tr class="tableline">
         <td align="center">2017/18</td>
         <td align="center">5</td>
         <td class="center marcatore">Immobile (Lazio)</td>
