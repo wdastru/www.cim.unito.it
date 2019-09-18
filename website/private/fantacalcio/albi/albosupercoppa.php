@@ -31,6 +31,21 @@
       <td>&nbsp;</td>
     </tr>
     <tr>
+      <td>2018/19</td>
+      <td class="squadra">EPOrediese</td>
+      <td>Presidente <span class="presidente">Erik Bruno</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2018/supercoppa1718.php">Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2018/rosa1718.php">Rosa</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td>2017/18</td>
       <td class="squadra">EPOrediese</td>
       <td>Presidente <span class="presidente">Erik Bruno</span></td>

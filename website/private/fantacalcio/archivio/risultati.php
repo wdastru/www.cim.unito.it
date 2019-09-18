@@ -1,23 +1,30 @@
-<?php
-$relocate_string = "../../";
-require($relocate_string . "archivio/2018/squadre1718.inc");
-require($relocate_string . "archivio/2018/calendario1718.inc");
+<?php $relocate_string = "./";
+//require_once ($relocate_string . "dBug.php");
+require_once ($relocate_string . "logger.php");
+include ("squadre.inc");
+include ("calendario.inc");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html
+xmlns="http://www.w3.org/1999/xhtml">
   <!-- InstanceBegin template="/Templates/modello.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
     <title>Fantacalcio NMR</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
-    <script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
-    <script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
+    <link rel="stylesheet" type="text/css"
+    href="documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+    <link rel="stylesheet" type="text/css"
+    href="documentPreProcessor.php?document=stylesheet.css&type=css" />
+    <script type="text/javascript" src="chromejs/chrome.js"></script>
+    <script type="text/javascript" src="version.js"></script>
     <!-- InstanceBeginEditable name="additional css" -->
     <!-- InstanceEndEditable -->
     <!-- InstanceBeginEditable name="additional js" -->
-    <script type="text/javascript" src="<?php echo $relocate_string; ?>documentPreProcessor.php?document=javascript.js&type=javascript"></script>
+    <script type="text/javascript"
+    src="documentPreProcessor.php?document=javascript.js&type=javascript"></script>
+    <script type="text/javascript"
+    src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
     <!-- InstanceEndEditable -->
 
     <!-- jQuery -->
@@ -110,7 +117,7 @@ require($relocate_string . "archivio/2018/calendario1718.inc");
 
     <?php
 		
-		$datiCampionatoFile = $relocate_string . 'archivio/2018/datiCampionato1718.txt';
+		$datiCampionatoFile = $relocate_string . '777/datiCampionato.txt';
 		if (!file_exists($datiCampionatoFile)) {
 			require $relocate_string . 'createDatiCampionato.php';
 		}
@@ -194,6 +201,171 @@ require($relocate_string . "archivio/2018/calendario1718.inc");
 			echo "</div>\n";
 		}
 		
+		$createOldStats = 0;
+		if ($createOldStats) {
+			$files[8] = $relocate_string . 'archivio/2016/datiCampionato1516.txt';
+      $files[7] = $relocate_string . 'archivio/2015/datiCampionato1415.txt';
+      $files[6] = $relocate_string . 'archivio/2014/datiCampionato1314.txt';
+      $files[5] = $relocate_string . 'archivio/2013/datiCampionato1213.txt';
+      $files[4] = $relocate_string . 'archivio/2012/datiCampionato1112.txt';
+			$files[3] = $relocate_string . 'archivio/2011/datiCampionato1011.txt';
+			$files[2] = $relocate_string . 'archivio/2010/datiCampionato0910.txt';
+			$files[1] = $relocate_string . 'archivio/2009/datiCampionato0809.txt';
+			$files[0] = $relocate_string . 'archivio/2008/datiCampionato0708.txt';
+			$year[8] = '1516';
+			$year[7] = '1415';
+      $year[6] = '1314';
+      $year[5] = '1213';
+			$year[4] = '1112';
+			$year[3] = '1011';
+			$year[2] = '0910';
+			$year[1] = '0809';
+			$year[0] = '0708';
+			$allTimeStatsHandle = fopen($relocate_string . "allTimeStatsOld.txt", 'w');
+		} else {
+			$files[0] = $relocate_string . '777/datiCampionato.txt';
+			$year[0] = '1617';
+			if (copy($relocate_string . "allTimeStatsOld.txt", $relocate_string . "777/allTimeStats.txt")) {
+				$allTimeStatsHandle = fopen($relocate_string . "777/allTimeStats.txt", 'a');
+			} else {
+				/* throw exception
+				 * if file copy
+				 * fails
+				 */
+			}
+		}
+		
+		for($filesCounter=0; $filesCounter<count($files); $filesCounter++) {
+		
+			$datiCampionatoFile = $relocate_string . $files[$filesCounter];
+			if (!file_exists($datiCampionatoFile)) {
+				require $relocate_string . 'createDatiCampionato.php';
+			}
+	
+			require $relocate_string . 'readDatiCampionato.php';
+			
+			for($giornataIdx = 0; $giornataIdx < 7; $giornataIdx++) // giornata
+			{
+				for($partitaIdx=0; $partitaIdx<4; $partitaIdx++) // partita
+				{
+					for($ARIdx=0; $ARIdx<4; $ARIdx++) //AR
+					{
+						$string =  $year[$filesCounter] . "/";
+						for($i=0; $i<2; $i++) { // in casa - fuori casa
+							$string .= $super[0][$giornataIdx][$partitaIdx][$i] . "/";
+						}
+						
+						// goal A
+						if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
+							$string .= "-/";
+						} else {
+							$string .= $super[1][$giornataIdx][$partitaIdx][$ARIdx][0] . "/";
+						}
+				
+						// goal B
+						if ($super[1][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
+							$string .= "-/";
+						} else {
+							$string .= $super[1][$giornataIdx][$partitaIdx][$ARIdx][1] . "/";
+						}
+				
+						// punti A
+						if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][0] == "-") {
+							$string .= "-/";
+						} else {
+							$string .= $super[2][$giornataIdx][$partitaIdx][$ARIdx][0] . "/";
+						}
+				
+						// punti B
+						if ($super[2][$giornataIdx][$partitaIdx][$ARIdx][1] == "-") {
+							$string .= "-/";
+						} else {
+							$string .= $super[2][$giornataIdx][$partitaIdx][$ARIdx][1] . "/";
+						}
+						
+						// casa
+						if ($ARIdx == 0 || $ARIdx == 2) {
+							$string .= "1/";
+						} else {
+							$string .= "0/";
+						}
+						
+						// marcatori
+						if ( count($super[3][$giornataIdx][$partitaIdx][$ARIdx]) > 0 )
+						{
+							for($i=0; $i<count($super[3][$giornataIdx][$partitaIdx][$ARIdx]); $i++) {
+								if ($super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] == "-") {
+									$string .= "-/";
+								} else {
+									if ($super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] != '') {
+										$string .= $super[3][$giornataIdx][$partitaIdx][$ARIdx][$i] . "/";
+									}
+								}
+							}
+						}
+						$string .= "\n";
+						//if (!strstr($string, "/////")) {
+							fwrite($allTimeStatsHandle, $string);
+						//}
+					}
+				}
+			}
+	
+		}
+		fclose($allTimeStatsHandle);
+
+		$_POST['Id']='';
+		$_POST['goalA']='';
+		$_POST['goalB']='';
+		$_POST['puntiA']='';
+		$_POST['puntiB']='';
+		$_POST['goals1']='';
+		$_POST['goals2']='';
+		$_POST['goals3']='';
+		$_POST['goals4']='';
+		$_POST['goals5']='';
+		$_POST['goals6']='';
+		$_POST['goals7']='';
+		$_POST['goals8']='';
+		$_POST['goals9']='';
+		$_POST['goals10']='';
+		$_POST['goals11']='';
+		$_POST['goals12']='';
+		$_POST['goals13']='';
+		$_POST['goals14']='';
+		$_POST['goals15']='';
+		$_POST['goals16']='';
+		$_POST['goals17']='';
+		$_POST['goals18']='';
+		$_POST['goals19']='';
+		$_POST['goals20']='';
+
+		$Id='';
+		$goalA='';
+		$goalB='';
+		$puntiA='';
+		$puntiB='';
+		$goals[0]='';
+		$goals[1]='';
+		$goals[2]='';
+		$goals[3]='';
+		$goals[4]='';
+		$goals[5]='';
+		$goals[6]='';
+		$goals[7]='';
+		$goals[8]='';
+		$goals[9]='';
+		$goals[10]='';
+		$goals[11]='';
+		$goals[12]='';
+		$goals[13]='';
+		$goals[14]='';
+		$goals[15]='';
+		$goals[16]='';
+		$goals[17]='';
+		$goals[18]='';
+		$goals[19]='';
+
     ?>
     <!-- InstanceEndEditable -->
     </div>

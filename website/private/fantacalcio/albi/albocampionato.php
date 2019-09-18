@@ -25,6 +25,21 @@
 <h2 class="albo">CAMPIONATO</h2>
 <table class="albo">
   <tr>
+    <td>2018/19</td>
+    <td class="squadra">Lokomotiv Peccorino</td>
+    <td>Presidente <span class="presidente">Claudia Cabella</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td class="link"><a href="<?php echo $relocate_string; ?>archivio/2019/risultati1819.php">Risultati</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2019/classifica1819.php">Classifica Finale</a> &nbsp; <a href="<?php echo $relocate_string; ?>archivio/2019/rosa1819.php">Rosa</a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>  
+  <tr>
     <td>2017/18</td>
     <td class="squadra">EPOrediese</td>
     <td>Presidente <span class="presidente">Erik Bruno</span></td>

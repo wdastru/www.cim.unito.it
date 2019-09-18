@@ -1,11 +1,25 @@
 <?php
-$relocate_string = "../../";
+$relocate_string = "./";
 
-require $relocate_string . 'archivio/2019/squadre1819.inc';
-require $relocate_string . 'archivio/2019/calendario1819.inc';
-require $relocate_string . 'archivio/2019/classifica1819.inc.php';
+require $relocate_string . 'squadre.inc';
+require $relocate_string . 'calendario.inc';
+require $relocate_string . 'classifica.inc.php';
 
-$datiCampionatoFileName = $relocate_string . 'archivio/2019/datiCampionato1819.txt';
+/* set permission of 777/ to 777 recursively */
+require $relocate_string . 'include/recursiveChmod.inc.php';
+@recursiveChmod($relocate_string . '777/');
+
+$datiCampionatoFileName = $relocate_string . '777/datiCampionato.txt';
+if (!file_exists($datiCampionatoFileName)) {
+	require $relocate_string . 'include/writeEmptyCampionatoFile.inc.php';
+}
+
+if (!file_exists($relocate_string . '777/gazFiles.inc.php') || !file_exists($relocate_string . '777/filesGazzetta/listaGazFiles.txt')) {
+	require $relocate_string . 'include/createGazFilesAndList.inc.php';
+}
+require $relocate_string . '777/gazFiles.inc.php';
+require ($relocate_string . "include/updateListaFormazioni.inc.php");
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
@@ -14,15 +28,25 @@ xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>Fantacalcio NMR</title>
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="<?php echo $relocate_string; ?>favicon.ico">
-		<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
-		<link rel="stylesheet" type="text/css" href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
+		<link rel="stylesheet" type="text/css"
+		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=chrometheme/chromestyle.css&type=css" />
+		<link rel="stylesheet" type="text/css"
+		href="<?php echo $relocate_string; ?>documentPreProcessor.php?document=stylesheet.css&type=css" />
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>chromejs/chrome.js"></script>
 		<script type="text/javascript" src="<?php echo $relocate_string; ?>version.js"></script>
 		<!-- InstanceBeginEditable name="additional css" -->
+		<link rel="stylesheet" type="text/css"
+		href="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.css&type=css" />
 		<!-- InstanceEndEditable -->
 		<!-- InstanceBeginEditable name="additional js" -->
-		<script type="text/javascript" src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
+		<script type="text/javascript"
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
+		<script type="text/javascript"
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
+		<!-- <script type="text/javascript"
+		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script> -->
 		<!-- InstanceEndEditable -->
 
 		<!-- InstanceBeginEditable name="jQuery" -->
@@ -53,16 +77,14 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<?php
 			require $relocate_string . 'include/title.inc.php';
 			require $relocate_string . 'include/menu.inc.php';
+ 			require $relocate_string . 'include/banner_slider.inc.php';
 		 ?>
 
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
-			<h1 class="title">XX Campionato Fantacalcio NMR 2018/19</h1>
+			<h1 class="title">CLASSIFICA</h1>
 			<br />
-		<br />
-		<h2 class='firstClass'>1&deg; Classificato: </h2>
-		<h2 class="title">Lokomotiv Peccorino</h2>
-		<br />
+			
 			<?php
 			/*
 			 *  lettura file datiCampionato
@@ -91,7 +113,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			fclose($handle);
 
 			/*
-			 *  aggiornamento classifica[][] (definito in classifica1819.inc.php)
+			 *  aggiornamento classifica[][] (definito in classifica.inc.php)
 			 */
 
 			for ($t = 0; $t < 4; $t++)//A&R
@@ -214,7 +236,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			 *  Sorting di classifica[][]
 			 */
 
-			require $relocate_string . 'archivio/2019/functions1819.inc.php';
+			include ("functions.inc.php");
 
 			$datiCampionato = readData();
 			$squadra = updateSquadra($datiCampionato);

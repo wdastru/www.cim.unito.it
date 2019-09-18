@@ -1,8 +1,8 @@
 <?php $relocate_string = "./";
 //require_once ($relocate_string . "dBug.php");
 require_once ($relocate_string . "logger.php");
-include ("squadre.inc");
-include ("calendario.inc");
+require($relocate_string . "squadre.inc");
+require($relocate_string . "calendario.inc");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html
