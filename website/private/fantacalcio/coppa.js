@@ -34,24 +34,24 @@ for (i = 0; i < 8; i++) {
  * per fase a gruppi
  * * * * * * * * * * * * * * */
 // gruppo A
-squadra[0][0] = 'L.A. Krakatoa';
-squadra[1][0] = 'Lokomotiv Peccorino';        
+squadra[0][0] = 'Nikiteam';
+squadra[1][0] = 'Atletico? No Grazie!';        
 squadra[2][0] = 'Rapid Bradip';     
-squadra[3][0] = 'EPOrediese';
+squadra[3][0] = 'Dinamo Ciofeca';
 // gruppo B
-squadra[4][0] = 'Dinamo Ciofeca';
-squadra[5][0] = 'Atletico? No Grazie!';
+squadra[4][0] = 'EPOrediese';
+squadra[5][0] = 'Lokomotiv Peccorino';
 squadra[6][0] = 'Real Mentescars';
 squadra[7][0] = 'Fedora'; 	   
 
 // gruppo A
-squadra[0][11] = 'krakatoa';
-squadra[1][11] = 'lokomotiv';
+squadra[0][11] = 'nikiteam';
+squadra[1][11] = 'atletico';
 squadra[2][11] = 'rapid';
-squadra[3][11] = 'eporediese';
+squadra[3][11] = 'ciofeca';
 // gruppo B
-squadra[4][11] = 'ciofeca';
-squadra[5][11] = 'atletico';
+squadra[4][11] = 'eporediese';
+squadra[5][11] = 'lokomotiv';
 squadra[6][11] = 'real';
 squadra[7][11] = 'fedora';
 

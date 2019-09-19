@@ -29,14 +29,14 @@ array_push($super, array());
 /*
  * tabella di conversione
  */
-$longName['A'] = $longName['e'];
-$longName['B'] = $longName['b'];
-$longName['C'] = $longName['c'];
-$longName['D'] = $longName['a'];
-$longName['E'] = $longName['g'];
-$longName['F'] = $longName['h'];
-$longName['G'] = $longName['d'];
-$longName['H'] = $longName['f'];
+$longName['A'] = $longName['g'];
+$longName['B'] = $longName['e'];
+$longName['C'] = $longName['b'];
+$longName['D'] = $longName['f'];
+$longName['E'] = $longName['d'];
+$longName['F'] = $longName['a'];
+$longName['G'] = $longName['h'];
+$longName['H'] = $longName['c'];
    
 /*
  * $super rispecchia il calendario campionato come da regolamento
