@@ -1,7 +1,7 @@
 <?php
 $relocate_string = "../../";
-require($relocate_string . "archivio/2018/squadre1718.inc");
-require($relocate_string . "archivio/2018/calendario1718.inc");
+require($relocate_string . "archivio/2019/squadre1819.inc");
+require($relocate_string . "archivio/2019/calendario1819.inc");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -54,11 +54,9 @@ require($relocate_string . "archivio/2018/calendario1718.inc");
       <br />
       <form method='post' id='formRisultati' action=''>
         <fieldset class='noBorder'>
-          <input class='button' type='button' id='sendButton' value='Send'
-          onclick='validate( "campionato" )' />
-          <input id='closeBtn' class='button' type='button'
-          value='Close this box!' onclick='hideBox();' />
-          <input class='button'
+          <input style="display: inline; visibility: hidden;" class='button' type='button' id='sendButton' value='Send' onclick='validate( "campionato" )' />
+          <input style="display: inline; visibility: hidden;" id='closeBtn' class='button' type='button' value='Close this box!' onclick='hideBox();' />
+          <input style="display: inline; visibility: hidden;" class='button'
           type='button' value='Reset' onclick="resetFields();" />
           <br />
           <br />
@@ -87,11 +85,11 @@ require($relocate_string . "archivio/2018/calendario1718.inc");
           <br />
           <br />
           <input class='button' type='button'
-          style="display: inline" value='Aggiungi un marcatore'
+          style="display: inline; visibility:hidden;" value='Aggiungi un marcatore'
           onclick='manualAddField();' />
           &nbsp;
           <input class='button' type='button'
-          style="display: inline" value='Togli un marcatore'
+          style="display: inline; visibility:hidden;" value='Togli un marcatore'
           onclick='manualDeleteField();' />
           <br />
           <br />
@@ -110,7 +108,7 @@ require($relocate_string . "archivio/2018/calendario1718.inc");
 
     <?php
 		
-		$datiCampionatoFile = $relocate_string . 'archivio/2018/datiCampionato1718.txt';
+		$datiCampionatoFile = $relocate_string . 'archivio/2019/datiCampionato1819.txt';
 		if (!file_exists($datiCampionatoFile)) {
 			require $relocate_string . 'createDatiCampionato.php';
 		}

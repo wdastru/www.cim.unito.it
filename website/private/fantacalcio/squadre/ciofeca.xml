@@ -65,6 +65,10 @@
 			<stagione year="2017/18">
 				<posizione>7</posizione>
 			</stagione>
+			<stagione year="2018/19">
+				<posizione>5</posizione>
+				<coppa>C</coppa>
+				<supercoppa>SC</supercoppa></stagione>
 		</storico>
 	</squadra>
 </squadre>

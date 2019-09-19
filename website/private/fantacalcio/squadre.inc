@@ -1,7 +1,7 @@
 <?php
 $shortName[0] = $shortName['a'] = 'rapid';
 $shortName[1] = $shortName['b'] = 'atletico';
-$shortName[2] = $shortName['c'] = 'krakatoa';
+$shortName[2] = $shortName['c'] = 'nikiteam';
 $shortName[3] = $shortName['d'] = 'ciofeca';
 $shortName[4] = $shortName['e'] = 'eporediese';
 $shortName[5] = $shortName['f'] = 'fedora';
@@ -10,7 +10,7 @@ $shortName[7] = $shortName['h'] = 'real';
 
 $longName[0] = $longName['a'] = 'Rapid Bradip';
 $longName[1] = $longName['b'] = 'Atletico? No Grazie!';
-$longName[2] = $longName['c'] = 'L.A. Krakatoa';
+$longName[2] = $longName['c'] = 'Nikiteam';
 $longName[3] = $longName['d'] = 'Dinamo Ciofeca';
 $longName[4] = $longName['e'] = 'EPOrediese';
 $longName[5] = $longName['f'] = 'Fedora';

@@ -92,6 +92,11 @@ table.risultati td.Squadra{ width:190px; }
 table.risultati div.Risultati{ width:100%; }
 table.risultati div.Punteggi{ width:100%; font-size:0.7em; font-weight:normal; }
 
+#spareggio { width:40%; margin:auto; border:1px solid textColor0; background-color:avulseBkgdColor; display:block; padding-bottom: 20px;}
+#table-spareggio { margin-left: 50px; }
+td#table-spareggio-left { text-align:right; }
+td#table-spareggio-right { text-align:left; }
+
 /*
  * COPPA
  * * * * */

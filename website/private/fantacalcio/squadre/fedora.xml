@@ -88,8 +88,13 @@
       
       <stagione 
       	year="2016/17">
-      	<posizione>2</posizione><coppa>C</coppa></stagione>
-      
+      	<posizione>2</posizione></stagione>
+      <stagione year="2017/18">
+      	<posizione>2</posizione>
+      	<coppa>C</coppa></stagione>
+      <stagione year="2018/19">
+      	<posizione>6</posizione></stagione>
+
     </storico>
   </squadra>
 </squadre>
