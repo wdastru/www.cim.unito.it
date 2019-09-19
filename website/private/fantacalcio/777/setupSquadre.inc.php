@@ -1,5 +1,5 @@
 <?php
-$ADMIN['krakatoa'] = "45f7ecd8afff4d8847a20d49c5a6c2d0";
+$ADMIN['nikiteam'] = "37482a3484596ce8321cff5762bb4e8c";
 $ADMIN['atletico'] = "cbfecc1a82915574e88db83ff02cd5a2";
 $ADMIN['ciofeca'] = "fe247275412a63b05771266b972fc4fa";
 $ADMIN['rapid'] = "f533ebcc9022e243f32a4ca6e64a7563";

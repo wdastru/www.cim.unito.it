@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <squadre>
 	<squadra>
-		<nome>krakatoa</nome>
-		<img>krakatoa.jpg</img>
+		<nome>nikiteam</nome>
+		<img>nikiteam.jpg</img>
 		<storico>
 			<stagione year="2000/01">
 				<posizione>3</posizione>
@@ -66,13 +66,19 @@
 			</stagione>
 			<stagione year="2015/16">
 				<posizione>2</posizione>
+				<vecchio_nome>L.A. Krakatoa</vecchio_nome>
 			</stagione>
 			<stagione year="2016/17">
 				<posizione>3</posizione>
+				<vecchio_nome>L.A. Krakatoa</vecchio_nome>
 			</stagione>
 			<stagione year="2017/18">
 				<posizione>3</posizione>
+				<vecchio_nome>L.A. Krakatoa</vecchio_nome>
 			</stagione>
+			<stagione year="2018/19">
+				<posizione>2</posizione>
+				<vecchio_nome>L.A. Krakatoa</vecchio_nome></stagione>
 		</storico>
 	</squadra>
 </squadre>
