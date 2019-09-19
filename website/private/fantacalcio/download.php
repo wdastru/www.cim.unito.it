@@ -58,7 +58,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 
 		$nPreCampionato = 3;
 		
-		$spareggio = 1;   /*
+		$spareggio = 0;   /*
 		                   * 1 - SI
 		                   * 0 - NO
 		                   */

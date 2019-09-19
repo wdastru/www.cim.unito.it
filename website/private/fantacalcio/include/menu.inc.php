@@ -21,7 +21,7 @@
     <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=ciofeca'>Dinamo Ciofeca</a>
     <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=eporediese'>EPOrediese</a>
     <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=fedora'>Fedora</a>
-    <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=krakatoa'>L.A. Krakatoa</a>
+    <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=nikiteam'>Nikiteam</a>
     <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=lokomotiv'>Lokomotiv Peccorino</a>
     <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=rapid'>Rapid Bradip</a>
     <a href='<?php echo $relocate_string; ?>squadre/squadra.php?squadra=real'>Real Mentescars</a>
