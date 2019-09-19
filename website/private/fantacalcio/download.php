@@ -121,13 +121,6 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 			</tr>
 		</table>
 		
-		<p class="center" style="color: FF6600">SUPERCOPPA</p>
-		<table id="download_supercoppa">
-		    <tr>
-		        <td class="link"><?php if(isset($fileGaz[ $nPreCampionato + 33 + $spareggio ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + 33 + $spareggio ] . "'>supercoppa</a>"; ?></td>
-		    </tr>
-		</table>
-		    
 		<p class="center" style="color: FF6600">CAMPIONATO</p>
 		<table id="download_campionato">
 			<tr class="tableline">
@@ -155,6 +148,13 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 			?>
 		</table>
 		
+		<p class="center" style="color: FF6600">SUPERCOPPA</p>
+		<table id="download_supercoppa">
+		    <tr>
+		        <td class="link"><?php if(isset($fileGaz[ $nPreCampionato + 33 + $spareggio ])) echo "<a href='777/filesGazzetta/" . $fileGaz[ $nPreCampionato + 33 + $spareggio ] . "'>supercoppa</a>"; ?></td>
+		    </tr>
+		</table>
+		    
 		<?php 
 		if ( $spareggio == 1 ) {
 		    		
