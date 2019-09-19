@@ -108,7 +108,7 @@
     </tr>
     <tr>
       <td>2013/14</td>
-      <td class="squadra">Dinamo >Ciofeca</td>
+      <td class="squadra">Dinamo Ciofeca</td>
       <td>Presidente <span class="presidente">Lorenzo Tei</span></td>
     </tr>
     <tr>

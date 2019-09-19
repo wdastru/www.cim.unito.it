@@ -373,6 +373,30 @@ Visualizzazione della classifica in tabella
 		if ($classifica_calls_counter != 0)
 			echo "<script type='text/javascript'>showAvulseToggleButton();</script>";
 	?>
+	
+	<br /><br />
+	
+	<div id='spareggio'>
+	<h1>SPAREGGIO</h1>
+			<table id='table-spareggio'>
+				<tr>
+					<td id='table-spareggio-left'>Lokomotiv Peccorino</td>
+					<td>-</td>
+					<td id='table-spareggio-right'>Krakatoa</td>
+				</tr>
+				<tr>
+					<td id='table-spareggio-left'>0</td>
+					<td></td>
+					<td id='table-spareggio-right'>0</td>
+				</tr>
+				<tr>
+					<td id='table-spareggio-left'>65,5</td>
+					<td></td>
+					<td id='table-spareggio-right'>61,5</td>
+				</tr>
+			</table>
+	</div>
+	
 			<!-- InstanceEndEditable -->
 		</div>
 
