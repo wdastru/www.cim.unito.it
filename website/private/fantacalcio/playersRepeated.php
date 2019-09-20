@@ -32,9 +32,12 @@ for ($j=0; $j<8; $j++)
 			{
 				//echo "B-" . $m . "-" . $giocatore[$k][$m]."-B</br>";
 				
-				if ($giocatore[$j][$i] == $giocatore[$k][$m]) {
-				    $playersRepeated=1;
-				    $playersFound .= "<span>" . $giocatore[$j][$i]. " - " . $giocatore[$j][25] . " / " . $giocatore[$k][25] . "</span><br/>";
+			    if ($giocatore[$j][$i] != '' && $giocatore[$j][$i] == $giocatore[$k][$m]) { // il giocatore non deve essere nullo
+				    if ( $giocatore[$j][25] == $shortName[$idxSquadra[$_GET['squadra']]] || // il giocatore deve essere della squadra 
+				         $giocatore[$k][25] == $shortName[$idxSquadra[$_GET['squadra']]] ) {
+				        $playersRepeated=1;
+				        $playersFound .= "<span>" . $giocatore[$j][$i]. " - " . $giocatore[$j][25] . " / " . $giocatore[$k][25] . "</span><br/>";
+				    }
 				}
 			}
 		}
