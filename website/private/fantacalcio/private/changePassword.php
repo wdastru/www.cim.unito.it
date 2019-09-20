@@ -58,7 +58,7 @@ if (isset($_GET['Squadra'])) {
 				<td colspan='2'><input class='button' type='submit' value='Invia'/></td>
 			</tr>
 		</table>
-	<input type='hidden' name='Squadra' value='" . $Squadra . "' />
+	<input type='hidden' name='Squadra' value='<?php echo $Squadra;?>' />
 	<input type='hidden' name='changePassword' value='true' />
 	</fieldset>
 	</form>
