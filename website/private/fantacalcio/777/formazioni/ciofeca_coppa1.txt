@@ -1,6 +1,6 @@
 3 - 5 - 2
 1 - 3 - 5 - 2
-1 - 2 - 2 - 2
+2 - 5 - 3 - 4
 AUDERO Emil
 DRAGOWSKI Bartlomiej
 TERRACCIANO Pietro
