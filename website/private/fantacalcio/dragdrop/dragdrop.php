@@ -317,7 +317,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 						<!-- END PANCHINA -->
 						<div style="clear: both"></div>
 						<!-- BEGIN TRIBUNA -->
-						<div id='tribuna'>
+						<div id='tribuna' style='display: none;'> <!-- display: none TO REMOVE TRIBUNE BUT KEEPING BEHAVIOUR -->
 							<div dropobj="0" class="DragContainer" id="PorTribuna"
 							overclass="OverDragContainer">
 								<div id="counterPorTribuna">
@@ -376,6 +376,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				</fieldset>
 			</div>
 			<br />
+			<br />			
 			<table id='gestFormazSend'>
 				<!-- DATI FORMAZIONE -->
 				<tr>
