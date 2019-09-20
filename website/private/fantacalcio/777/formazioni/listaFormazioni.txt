@@ -1,8 +1,17 @@
 atletico.txt
+atletico_tipo_valida_fino_20190920-071053.txt
 ciofeca.txt
+ciofeca_coppa1.txt
 eporediese.txt
 fedora.txt
 lokomotiv.txt
 nikiteam.txt
+nikiteam_tipo_valida_fino_20190920-085310.txt
+nikiteam_tipo_valida_fino_20190920-090012.txt
+nikiteam_tipo_valida_fino_20190920-090032.txt
+nikiteam_tipo_valida_fino_20190920-090050.txt
+nikiteam_tipo_valida_fino_20190920-090055.txt
 rapid.txt
 real.txt
+real_coppa01.txt
+real_tipo_valida_fino_20190919-233236.txt

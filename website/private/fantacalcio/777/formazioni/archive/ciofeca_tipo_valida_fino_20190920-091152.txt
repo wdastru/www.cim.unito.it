@@ -9,7 +9,7 @@ GODIN Diego
 MANOLAS Konstantinos
 AINA Ola
 MUSACCHIO Mateo
-KJAER Simon
+ANDERSEN Joachim
 MURILLO Jeison Fabian
 MANCINI Gianluca
 PJANIC Miralem
@@ -28,4 +28,4 @@ MARTINEZ Lautaro
 LASAGNA Kevin
 187
 3337815436
-Fri 20 Sep 2019 - 09:12:26
+Fri 20 Sep 2019 - 09:11:31
