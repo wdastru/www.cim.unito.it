@@ -570,7 +570,7 @@ function Count() {
 	if (cPorRis.innerHTML == 0) {
 		document.getElementById('PorRiserve').style.backgroundImage='url(\'images/traspRed60.png\')';
 	} 
-	else if (cPorRis.innerHTML != 1)
+	else if (cPorRis.innerHTML != 3 - cPorTit.innerHTML)
 	{
 		var the_divs = document.getElementById('PorRiserve').getElementsByTagName('div');
 		for(i=0;i<cPorRis.innerHTML;i++)
@@ -584,7 +584,7 @@ function Count() {
 	if (cDifRis.innerHTML == 0) {
 		document.getElementById('DifRiserve').style.backgroundImage='url(\'images/traspRed60.png\')';
 	} 
-	else if (cDifRis.innerHTML != 2)
+	else if (cDifRis.innerHTML != 8 - cDifTit.innerHTML)
 	{
 		var the_divs = document.getElementById('DifRiserve').getElementsByTagName('div');
 		for(i=0;i<cDifRis.innerHTML;i++)
@@ -598,7 +598,7 @@ function Count() {
 	if (cCenRis.innerHTML == 0) {
 		document.getElementById('CenRiserve').style.backgroundImage='url(\'images/traspRed60.png\')';
 	} 
-	else if (cCenRis.innerHTML != 2)
+	else if (cCenRis.innerHTML != 8 - cCenTit.innerHTML)
 	{
 		var the_divs = document.getElementById('CenRiserve').getElementsByTagName('div');
 		for(i=0;i<cCenRis.innerHTML;i++)
@@ -612,7 +612,7 @@ function Count() {
 	if (cAttRis.innerHTML == 0) {
 		document.getElementById('AttRiserve').style.backgroundImage='url(\'images/traspRed60.png\')';
 	} 
-	else if (cAttRis.innerHTML != 2)
+	else if (cAttRis.innerHTML != 6 - cAttTit.innerHTML)
 	{
 		var the_divs = document.getElementById('AttRiserve').getElementsByTagName('div');
 		for(i=0;i<cAttRis.innerHTML;i++)

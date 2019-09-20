@@ -103,11 +103,17 @@
 		if ($handle)
 		{
 			fwrite($handle, $modulo[0] . "\n"); // modulo
-			for ($i=1; $i<4; $i++)
-			fwrite($handle, $modulo[$i] . " - "); // titolari
+			
+			for ($i=1; $i<4; $i++) {
+			     fwrite($handle, $modulo[$i] . " - "); // titolari
+			}
 			fwrite($handle, $modulo[4] . "\n"); // titolari
 
-			fwrite($handle, "1 - 2 - 2 - 2" . "\n"); // riserve
+			$riserve[0] = $ruolo[0] - $modulo[1];
+			$riserve[1] = $ruolo[1] - $modulo[2];
+			$riserve[2] = $ruolo[2] - $modulo[3];
+			$riserve[3] = $ruolo[3] - $modulo[4]; // riserve
+			fwrite($handle, $riserve[0] . " - " . $riserve[1] . " - " . $riserve[2] . " - " . $riserve[3] . "\n"); // riserve
 
 			$t=0;
 			for ($i=0; $i<4; $i++)
@@ -174,7 +180,7 @@
 		$modulo[4] = substr($modulo[0], 8, 1);
 
 		$titolari = "4 - 4 - 2";
-		$riserve = "2 - 2 - 2";
+		$riserve = "4 - 4 - 4";
 
 		for ($j=0;$j<4; $j++)
 		{

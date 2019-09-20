@@ -34,6 +34,6 @@
 #modulesChoiceTable { border-collapse:collapse; height:100%; }
 #chosenModule { display:none; }
 #campo { width:800px; height:250px; background-image:url(dragdrop/images/grass_crop.jpg); background-position:center; border:solid; border-width:1px 2px 1px 2px; border-color:dragdropBorderColor; }
-#bench { width:800px; height:115px; background-image:url(dragdrop/images/bench_crop.jpg); background-position:center; border:solid; border-width:1px 2px 1px 2px; border-color:dragdropBorderColor; }
+#bench { width:800px; height:150px; background-image:url(dragdrop/images/bench_crop.jpg); background-position:center; border:solid; border-width:1px 2px 1px 2px; border-color:dragdropBorderColor; }
 #tribuna { width:800px; height:150px; background-image:url(dragdrop/images/tribune_crop.jpg); background-position:center; border:solid; border-width:1px 2px 2px 2px; border-color:dragdropBorderColor; }
 #container, #gestFormazSend { margin:auto; }
