@@ -4,7 +4,9 @@ ciofeca.txt
 ciofeca_coppa1.txt
 eporediese.txt
 fedora.txt
+fedora_tipo_valida_fino_20190920-140320.txt
 lokomotiv.txt
+lokomotiv_tipo_valida_fino_20190920-132307.txt
 nikiteam.txt
 nikiteam_tipo_valida_fino_20190920-085310.txt
 nikiteam_tipo_valida_fino_20190920-090012.txt

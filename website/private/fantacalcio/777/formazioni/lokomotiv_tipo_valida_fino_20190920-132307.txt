@@ -1,31 +1,31 @@
 3 - 4 - 3
 1 - 3 - 4 - 3
 1 - 2 - 2 - 2
+NICOLAS Andrade
 SZCZESNY Wojciech
-BUFFON Gianluigi
-PINSOGLIO Carlo
-DARMIAN Matteo
-LAXALT Diego
-SAMIR Caetano de Sousa
-DEMIRAL Merih
-DJIMSITI Berat
+MUSSO Juan
+DE SCIGLIO Mattia
+ROGERIO Oliveira Da Silva
+BERESZYNSKI Bartosz
+DANILO Larangeira
+FELIPE Dal Belo
 GAGLIOLO Riccardo
-DE LIGT Matthijs
-ROMERO Cristian
+PASQUAL Manuel
+RUGANI Daniele
 BERNARDESCHI Federico
 LEIVA Lucas
 SENSI Stefano
-TONALI Sandro
-ROMULO Orestes
+LINETTY Karol
+PAROLO Marco
 KUCKA Juraj
-PULGAR Erick
+LAZOVIC Darko
 BENTANCUR Rodrigo
 MANDZUKIC Mario
 SIMEONE Giovanni
 ILICIC Josip
-QUAGLIARELLA Fabio
+LASAGNA Kevin
 RONALDO Cristiano
 MILIK Arkadiusz
-49
+0
 347-4172758
-Fri 20 Sep 2019 - 13:23:07
+Thu 28 Mar 2019 - 21:30:07
