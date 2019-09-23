@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>Targeting imaging probes | TERRENO Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents: high-relaxivity Gd-based, blood-pool contrast agents, diamagnetic CEST (iopamidol, excipients)." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>Targeting imaging probes | TERRENO Lab</title>
+	<?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,28 +37,15 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">TERRENO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Terreno/home.php" id="logo">TERRENO LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Theranostics – Multimodal imaging – Nanoprobes</p>
+								<p style="color: gray; font-size=12px;" >Theranostics - Multimodal imaging - Nanoprobes</p>
 
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Design of targeting imaging probes</a></li>
-										<li><a href="research_2.html">MRI visualisation of drug delivery/release</a>
-										<li><a href="research_3.html">Development of cellular imaging procedures</a><li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Terreno/includes/menu_terreno.php'); ?>
 						</nav>
 
 					</div>
@@ -97,7 +68,7 @@
 								<h3 font style="text-transform: none;">Design of targeting imaging probes</h3>
 								<p align="justify">Active targeting is one of the most used approaches in pharmaceutical field 
 								in order to improve the concentration of a molecule (therapeutics or in vivo diagnostics) at the 
-								pathological site. Therefore, a targeting agent is a molecular system containing the “active principle” 
+								pathological site. Therefore, a targeting agent is a molecular system containing the "active principle" 
 								(a drug or an imaging probe) conjugated to a vector that has to exhibit a high affinity and specificity 
 								towards the biological target (cellular receptors, intracellular markers, enzymes, metabolite, extracellular 
 								components, ...). Moreover, the success of the approach is also based on the accessibility of the biological 
@@ -108,7 +79,7 @@
 								 in case of Optical or Nuclear imaging, sensibility is much better and a single fluorophore/radioisotope can be 
 								 sufficient to generate enough signal from the disease marker.
 								 Considering the accessibility issue, MRI targeting agents are very suitable for endothelial markers that do not 
-								 require the extravasation of the “large” probe, whereas optical probes can easily reach extracellular and intracellular targets.
+								 require the extravasation of the "large" probe, whereas optical probes can easily reach extracellular and intracellular targets.
 								 </p>
 								 
 								 <div style="text-align: center;">
@@ -138,12 +109,12 @@
 										</p>
 										<img src="images/research_1_1.jpg" alt="" class="image zooming">
 										<p align="justify">Paramagnetic mixed micelles targeting VCAM-1 displayed a hydrodynamic diameter of 20 nm
-										with a PDI of 0.2. The millimolar longitudinal relaxivity (r1) at 0.5 T was 34.9 s<SUP>−1</SUP>mmolGd<SUP>−1</SUP> at 25°C 
-										and 35.3 s<SUP>−1</SUP>mmolGd<SUP>−1</SUP> at 37°C. The relaxivity was also measured as a function of the proton Larmor 
+										with a PDI of 0.2. The millimolar longitudinal relaxivity (r<sub>1</sub>) at 0.5 T was 34.9 s<sup>-1</sup>mmolGd<sup>-1</sup> at 25&deg;C 
+										and 35.3 s<sup>-1</sup>mmolGd<sup>-1</sup> at 37&deg;C. The relaxivity was also measured as a function of the proton Larmor 
 										frequencies (from 0.01 to 70 MHz): </p>
 										<img src="images/research_1_2.jpg" alt="" class="image zooming">
 										<p align="justify">
-										The obtained NMRD (Nuclear Magnetic Relaxation Dispersion) profile is characterized by a relaxivity hump at ca. 20−30 MHz,
+										The obtained NMRD (Nuclear Magnetic Relaxation Dispersion) profile is characterized by a relaxivity hump at ca. 20-30 MHz,
 										 a feature that clearly indicates the occurrence of a restricted rotational motion for the paramagnetic Gd-complexes
 										 in the micelles. The performance of this targeting system has been successfully tested on a mouse model of peripheral 
 										 inflammation <a class="html" href="https://pubs.acs.org/doi/10.1021/acs.bioconjchem.6b00308" target="_blank"><font color="blue"> 
@@ -155,7 +126,7 @@
 									Furthermore, immunofluorescence experiments confirmed the expression of VCAM-1 receptors in the inflamed muscle.
 									Forty-eight hours after the induction of inflammation, the
 									paramagnetic micelles (containing the targeting or a scrambled untargeted peptide) were injected intravenously in the tail vein
-									at a Gd dose of 55.0 μmol/kg bw. Then, the animals (n = 6) were scanned by MRI (at 1 T) over a period of 24 h postinjection.
+									at a Gd dose of 55.0 &micro;mol/kg bw. Then, the animals (n = 6) were scanned by MRI (at 1 T) over a period of 24 h postinjection.
 										 </p>
 								
 										
@@ -210,18 +181,23 @@
 										statistically significant difference between diseased and healthy hemispheres.
 										To ascertain the specificity of the administered nanosystem, a comparison with micelles bearing the untargeted scrambled 
 										peptide was conducted. The results obtained displayed a statistically significant difference in the % T1-SE of the inflamed 
-										striatum between targeted and non-targeted micelles at 24 h p.i. (39.3 ± 4.4 vs. 18.9 ± 2.2%, respectively, ANOVA P values = 0.003.											
+										striatum between targeted and non-targeted micelles at 24 h p.i. (39.3 &plusmn; 4.4 vs. 18.9 &plusmn; 2.2%, respectively, ANOVA P values = 0.003.											
 										</p>
 										<img src="images/research_1_6.jpg" alt="" class="image zooming">
 																										
 										<p align="justify">
 										At the other time points, no statistically significant differences between the two nanosystems were detected.
-										Interestingly, the kinetic of the contrast enhancement observed for the two nanosystems was a bit different, with the targeted system that performed much better after 24 h post-injection, whereas at 48 h the two micelles showed a very similar effect. Most likely, this observation is an indirect demonstration of the effective targeting of the VCAM-1 directed system, and it suggests that the targeting to the receptor (though, likely, it is not the only process accounting for the accumulation of the probe in the inflamed area) is a faster event than the passive accumulation occurring for the untargeted micelles.
-										The signal obtained 24 h post injection of the scrambled micelles was definitely comparable to the T1-SE detected 20 min after the
-										administration of the contrast agent MultiHance (13.4% ± 2.7%), which is clinically employed to evaluate the presence of alterations in blood brain barrier permeability. This finding suggests that the
-										contrast obtained after the administration of scrambled micelles is
-										mainly related to passive extravasation, thus further supporting the
-										view that VCAM-1 targeted micelles effectively bind the corresponding target in vivo.
+										Interestingly, the kinetic of the contrast enhancement observed for the two nanosystems was a bit different, with the 
+										targeted system that performed much better after 24 h post-injection, whereas at 48 h the two micelles showed a very similar 
+										effect. Most likely, this observation is an indirect demonstration of the effective targeting of the VCAM-1 directed system, 
+										and it suggests that the targeting to the receptor (though, likely, it is not the only process accounting for the accumulation 
+										of the probe in the inflamed area) is a faster event than the passive accumulation occurring for the untargeted micelles.
+										The signal obtained 24 h post injection of the scrambled micelles was definitely comparable to the T1-SE detected 20 min after 
+										the
+										administration of the contrast agent MultiHance (13.4% &plusmn; 2.7%), which is clinically employed to evaluate the presence 
+										of alterations in blood brain barrier permeability. This finding suggests that the contrast obtained after the administration 
+										of scrambled micelles is mainly related to passive extravasation, thus further supporting the view that VCAM-1 targeted 
+										micelles effectively bind the corresponding target in vivo.
 										</p>
 								
 									</article>
