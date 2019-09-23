@@ -69,45 +69,45 @@
 									<h2>RESEARCH OVERVIEW</h2>
 
 									<article class="box excerpt">
-										<a ><img src="images/Figure_Targeting_Overview_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_Targeting_Overview_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_1.html">Design of targeting imaging probes</a>
+													<a href="<?php echo $localizer; ?>PI/Terreno/research_1.php">Design of targeting imaging probes</a>
 												</h3>
 											</header>
 											<p>This research aims at developing imaging probes conjugated with vectors able to specifically recognize a disease marker.</p>
-											<a href="research_1.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Terreno/research_1.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/Figure_drug_release_overview_2.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
+										<a ><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_drug_release_overview_2.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_2.html">MRI visualisation of drug delivery/release</a>
+													<a href="<?php echo $localizer; ?>PI/Terreno/research_2.php">MRI visualisation of drug delivery/release</a>
 												</h3>
 											</header>
 											<p>MRI can offer the opportunity to visualize the release of the material entrapped in a nanocarrier.</p>
-											<a href="research_2.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Terreno/research_2.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="images/Figure_cellular_imaging_overview_3.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_cellular_imaging_overview_3.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="research_3.html">Development of cellular imaging procedures</a>
+													<a href="<?php echo $localizer; ?>PI/Terreno/research_3.php">Development of cellular imaging procedures</a>
 												</h3>
 											</header>
 											<p>Tracking cells by in vivo imaging is a powerful tool in cellular therapies.</p>
-											<a href="research_3.html"><p align="right">
+											<a href="<?php echo $localizer; ?>PI/Terreno/research_3.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
@@ -136,13 +136,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 
 </body>
 </html>

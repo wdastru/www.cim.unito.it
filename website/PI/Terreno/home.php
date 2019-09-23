@@ -80,7 +80,7 @@
 
 								<section class="box article-list">
 
-									<a href="#"><img src="images/Terreno.jpg" alt=""
+									<a href="#"><img src="<?php echo $localizer; ?>PI/Terreno/images/Terreno.jpg" alt=""
 										style="width: 140px; height: auto;" class="image left" /></a>
 										<div style="padding: 0 0 0 180px;">
 									<p align="left" style="line-height: 1.2";>
@@ -107,8 +107,8 @@
 									<header>
 										<h4 align="center">Design of targeting imaging probes</h4>
 									</header>
-									<a href="research_1.html"><img src="images/Figure_Targeting_Overview_1.jpg" alt="" class="image featured" /></a>
-									<a href="research_1.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_1.php"><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_Targeting_Overview_1.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_1.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -116,8 +116,8 @@
 									<header>
 										<h4 align="center">MRI visualisation of drug delivery/release</h4>
 									</header>
-									<a href="research_2.html"><img src="images/Figure_drug_release_overview_2.jpg" alt="" class="image featured" /></a>
-									<a href="research_2.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_2.php"><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_drug_release_overview_2.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_2.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -125,8 +125,8 @@
 									<header>
 										<h4 align="center">Development of cellular imaging procedures</h4>
 									</header>
-									<a href="research_3.html"><img src="images/Figure_cellular_imaging_overview_3.jpg" alt="" class="image featured" /></a>
-									<a href="research_3.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_3.php"><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_cellular_imaging_overview_3.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_3.php"><font color="blue">Read more >></font></a>
 									
 								</section>
 							</div>
@@ -229,13 +229,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>	
 
 
 </body>
