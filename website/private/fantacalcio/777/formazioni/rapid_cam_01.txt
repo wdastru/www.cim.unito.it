@@ -7,25 +7,25 @@ GOLLINI Pierluigi
 KOULIBALY Kalidou
 FAZIO Federico
 MILENKOVIC Nikola
-CASTAGNE Timothy
 GOSENS Robin
+CASTAGNE Timothy
 CACCIATORE Fabrizio
 SPINAZZOLA Leonardo
 ZAPPACOSTA Davide
+CALLEJON Jose Maria
 MILINKOVIC Sergej
+ANSALDI Cristian
 KHEDIRA Sami
+KESSIE Franck
+RABIOT Adrien
 ALLAN Marques Loureiro
 CAN Emre
-KESSIE Franck
-CALLEJON Jose Maria
-RABIOT Adrien
-ANSALDI Cristian
+LOZANO Hirving
 DYBALA Paulo
 CORREA Carlos Joaquin
-LOZANO Hirving
+LEAO Rafael
 ZAZA Simone
 DEFREL Gregoire
-LEAO Rafael
 9
 3395989215
-Tue 24 Sep 2019 - 11:26:35
+Tue 24 Sep 2019 - 11:30:43

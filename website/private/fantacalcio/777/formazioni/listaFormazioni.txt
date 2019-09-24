@@ -8,12 +8,15 @@ eporediese_coppa_1.txt
 eporediese_tipo_valida_fino_20190920-175155.txt
 eporediese_tipo_valida_fino_20190920-175308.txt
 fedora.txt
+fedora_camp_A1.txt
 fedora_tipo_valida_fino_20190920-140320.txt
 lokomotiv.txt
 lokomotiv_coppa_01.txt
 lokomotiv_tipo_valida_fino_20190920-132307.txt
 nikiteam.txt
 rapid.txt
+rapid_cam_01.txt
+rapid_cop_01.txt
 real.txt
 real_camp01.txt
 real_coppa01.txt
