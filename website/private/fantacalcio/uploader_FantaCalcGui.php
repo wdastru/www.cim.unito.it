@@ -8,6 +8,7 @@
 	if(move_uploaded_file($file_location,"$dir_file")) {
 		MySingleton::writeToLog(basename($_FILES['uploaded_file']['name']) . " saved to " . $relocate_string . "777/", $relocate_string . 
 "777/logs/uploader_FantaCalcGui.log");
+		chmod("$dir_file", '0777');
 	} else{
     	MySingleton::writeToLog(basename($_FILES['uploaded_file']['name']) . " could not be saved to " . $relocate_string . "777/", $relocate_string . 
 "777/logs/uploader_FantaCalcGui.log");
