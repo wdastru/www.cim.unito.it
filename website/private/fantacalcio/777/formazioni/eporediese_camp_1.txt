@@ -1,0 +1,31 @@
+4 - 3 - 3
+1 - 4 - 3 - 3
+2 - 4 - 5 - 3
+SKORUPSKI Lukasz
+OLSEN Robin
+CRAGNO Alessio
+ASAMOAH Kwadwo
+IZZO Armando
+FLORENZI Alessandro
+GHOULAM Faouzi
+CACERES Martín
+TOLOI Rafael
+PELUSO Federico
+PALOMINO José Luis
+PELLEGRINI Lorenzo
+CUADRADO Juan
+EKDAL Albin
+VERDI Simone
+FREULER Remo
+BESSA Daniel
+PEROTTI Diego
+DOUGLAS COSTA de Souza
+KOUAMÉ Christian
+MERTENS Dries
+LLORENTE Fernando
+CAICEDO Felipe
+POLITANO Matteo
+IAGO Falque
+50
+3498318385
+Tue 24 Sep 2019 - 18:30:41

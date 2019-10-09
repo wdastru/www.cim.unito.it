@@ -1,15 +1,15 @@
-a000/-/-/-/-/
-a100/-/-/-/-/
-a200/-/-/-/-/
-a300/-/-/-/-/
-a010/-/-/-/-/
-a110/-/-/-/-/
-a210/-/-/-/-/
-a310/-/-/-/-/
-a020/-/-/-/-/
+a000/0/1/65.5/67/TOLOI Rafael/
+a100/3/2/78/75.5/BELOTTI Andrea/ZAPATA Duvan/BELOTTI Andrea/DE ROON Marten/HANDANOVIC Samir/
+a200/2/0/75.5/61.5/CHIESA Federico/RIBERY Franck/
+a300/0/2/62.5/76/MANCOSU Marco/MANCOSU Marco/
+a010/2/4/77/86/MERTENS Dries/CAICEDO Felipe/CASTROVILLI Gaetano/ZAPATA Duvan/INGLESE Roberto/BELOTTI Andrea/
+a110/2/3/74.5/81.5/DZEKO Edin/DZEKO Edin/SENSI Stefano/PULGAR Erick/RONALDO Cristiano/
+a210/6/2/98.5/75/MILINKOVIC Sergej/GOSENS Robin/ANSALDI Cristian/MILINKOVIC Sergej/LEAO Rafael/GOSENS Robin/GOMEZ Alejandro/GOMEZ Alejandro/
+a310/2/3/73/81/IMMOBILE Ciro/IMMOBILE Ciro/PJANIC Miralem/RIBERY Franck/MANOLAS Konstantinos/
+a020/0/1/61.5/71.5/ZAPATA Duvan/
 a120/-/-/-/-/
 a220/-/-/-/-/
-a320/-/-/-/-/
+a320/2/2/76/72/GOMEZ Alejandro/HIGUAIN Gonzalo/MARTINEZ Lautaro/PJANIC Miralem/
 a030/-/-/-/-/
 a130/-/-/-/-/
 a230/-/-/-/-/

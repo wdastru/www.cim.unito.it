@@ -3,7 +3,7 @@
 2 - 5 - 4 - 3
 SIRIGU Salvatore
 GOLLINI Pierluigi
-SPORTIELLO Marco
+GOLLINI Pierluigi
 KOULIBALY Kalidou
 FAZIO Federico
 MILENKOVIC Nikola
@@ -28,4 +28,4 @@ DEFREL Gregoire
 LEAO Rafael
 9
 3395989215
-Fri 04 Oct 2019 - 11:07:15
+Tue 24 Sep 2019 - 11:26:35
