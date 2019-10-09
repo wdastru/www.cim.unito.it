@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <resource>
+    <file>FantaCalcGui_v3.6.4.zip</file>
+    <version>3.6.4</version>
+    <description>archivio</description>
+    <new>- aggiornate le squadre della Serie A (rev. f39e3ab)</new>
+  </resource>
+  <resource>
     <file>FantaCalcGui_v3.6.3.zip</file>
     <version>3.6.3</version>
     <description>archivio</description>
