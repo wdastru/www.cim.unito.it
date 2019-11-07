@@ -7,24 +7,24 @@ a110/2/3/74.5/81.5/DZEKO Edin/DZEKO Edin/SENSI Stefano/PULGAR Erick/RONALDO Cris
 a210/6/2/98.5/75/MILINKOVIC Sergej/GOSENS Robin/ANSALDI Cristian/MILINKOVIC Sergej/LEAO Rafael/GOSENS Robin/GOMEZ Alejandro/GOMEZ Alejandro/
 a310/2/3/73/81/IMMOBILE Ciro/IMMOBILE Ciro/PJANIC Miralem/RIBERY Franck/MANOLAS Konstantinos/
 a020/0/1/61.5/71.5/ZAPATA Duvan/
-a120/-/-/-/-/
-a220/-/-/-/-/
+a120/0/1/64.5/71/JOAO PEDRO Geraldino Galvao/
+a220/4/2/88/73/GOSENS Robin/MILENKOVIC Nikola/DYBALA Paulo/GOSENS Robin/IMMOBILE Ciro/IMMOBILE Ciro/
 a320/2/2/76/72/GOMEZ Alejandro/HIGUAIN Gonzalo/MARTINEZ Lautaro/PJANIC Miralem/
-a030/-/-/-/-/
-a130/-/-/-/-/
-a230/-/-/-/-/
-a330/-/-/-/-/
-a040/-/-/-/-/
-a140/-/-/-/-/
-a240/-/-/-/-/
-a340/-/-/-/-/
-a050/-/-/-/-/
-a150/-/-/-/-/
-a250/-/-/-/-/
-a350/-/-/-/-/
-a060/-/-/-/-/
-a160/-/-/-/-/
-a260/-/-/-/-/
+a030/4/3/89/78/IMMOBILE Ciro/LUKAKU Romelu/IMMOBILE Ciro/LUKAKU Romelu/MILIK Arkadiusz/MILIK Arkadiusz/RONALDO Cristiano/
+a130/1/2/67.5/73.5/NAINGGOLAN Radja/CORREA Carlos Joaquin/GOSENS Robin/
+a230/4/1/86.5/66.5/MARTINEZ Lautaro/PJANIC Miralem/MARTINEZ Lautaro/PJANIC Miralem/OLSEN Robin/
+a330/2/3/77.5/78/MURIEL Luis/MURIEL Luis/GOMEZ Alejandro/GOMEZ Alejandro/DONNARUMMA Gianluigi/
+a040/3/2/79/75.5/ILICIC Josip/ILICIC Josip/TONALI Sandro/CHIESA Federico/MANCINI Gianluca/
+a140/3/1/79/68/HERNANDEZ Theo/PASALIC Mario/HERNANDEZ Theo/CANDREVA Antonio/
+a240/0/3/64/83/IMMOBILE Ciro/ZANIOLO Nicolò/LUKAKU Romelu/
+a340/2/3/75.5/82/DYBALA Paulo/CORREA Carlos Joaquin/MURIEL Luis/MURIEL Luis/MURIEL Luis/
+a050/0/2/65/74.5/RONALDO Cristiano/MILIK Arkadiusz/
+a150/2/1/73.5/71/SMALLING Chris/SMALLING Chris/FREULER Remo/
+a250/4/1/84/70.5/JOAO PEDRO Geraldino Galvao/JOAO PEDRO Geraldino Galvao/ACERBI Francesco/JOAO PEDRO Geraldino Galvao/MARTINEZ Lautaro/
+a350/4/2/84.5/76/KOLAROV Aleksandar/CASTROVILLI Gaetano/SUSO Jesus Fernandez Saez/KOLAROV Aleksandar/IMMOBILE Ciro/ZANIOLO Nicolò/
+a060/2/1/72/68/DE LIGT Matthijs/DE LIGT Matthijs/VERETOUT Jordan/
+a160/1/1/69.5/66.5/KOUAMÉ Christian/CORREA Carlos Joaquin/
+a260/1/1/67.5/70.5/LUIS ALBERTO Romero Alconchel/CASTROVILLI Gaetano/
 a360/-/-/-/-/
 a001/-/-/-/-/
 a101/-/-/-/-/
