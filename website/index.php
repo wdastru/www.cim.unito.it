@@ -185,7 +185,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 									
 									<h2 class='punch purple'><span>Euro-BioImaging</span></h2>
                                     <br/>
-                                    <a href="http://www.eurobioimaging.eu/"> <img style="width: 99%" src="images/Euro-BioImaging_Logo_CMYK.gif" alt="Euro-BioImaging logo" /></a>                                   
+                                    <a href="http://www.eurobioimaging.eu/"> <img style="width: 99%" src="images/Euro-Bioimaging-horizontal-RGB-slogan.png" alt="Euro-BioImaging logo" /></a>                                   
                                     <br/>
                                     <a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian Multi-sited Multi-Modal Molecular Imaging (MMMI) Node Candidate</span> </a>
                                      <br />

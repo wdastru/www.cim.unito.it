@@ -100,8 +100,51 @@
 								of biological parameters and enzyme activities, targeting of specific cells/tissues, etc.).</p>
 							</div>
 						</div>
-						
-						<hr>
+
+								<div class="w3-col w3-quarter">
+
+									<img src="images/Euro-Bioimaging-horizontal-RGB-slogan.png"
+										class="w3-image" style="max-width: 200px;" />
+								</div>
+
+								<div class="w3-col w3-threequarter">
+									<h2 style="color: #8c1515; text-align: left;">European
+										Commission launched the Euro-Bioimaging ERIC</h2>
+
+
+									<p>Euro-BioImaging has been officially established by the
+										European Commission as a European Research Infrastructure
+										Consortium (ERIC). With its ERIC status, Euro-BioImaging is
+										now legally recognised as European research infrastructure for
+										biological and biomedical imaging. Euro-BioImaging offers life
+										scientists open access to imaging instruments, expertise,
+										training opportunities and data management services that they
+										do not find at their home institutions or among their
+										collaboration partners. All scientists, regardless of
+										affiliation, area of expertise or field of activity, can
+										benefit from these pan-European open access services.
+										Euro-BioImaging will ensure excellent research and development
+										across the life sciences in Europe by offering
+										state-of-the-art imaging services through its internationally
+										renowned facilities, called Nodes. These Nodes are distributed
+										across its 15 founding members: Austria, Bulgaria, Czech
+										Republic, Denmark, EMBL, Finland, France, Hungary, Israel,
+										Italy, Norway, Netherlands, Portugal, Sweden and the UK.
+										Belgium will participate as an observer. All Euro-BioImaging
+										services are accessible via <a href="http://www.eurobioimaging.eu/">www.eurobioimaging.eu</a>.
+										Establishment of the Euro-BioImaging ERIC builds on over 10
+										years of preparatory work with active engagement of 25
+										national imaging communities, the international organisation
+										EMBL (European Molecular Biology Laboratory), and EIBIR
+										(European Institute for Biomedical Imaging Research. The in
+										vivo/medical imaging section of the Euro-BioImaging Hub,
+										coordinating access to biomedical imaging Nodes, will be
+										managed by Italy through the Unit of the CNR Institute of
+										BioStructures and Bioimages (IBB) operating at the University
+										of Torino. Furthermore, the University of Torino coordinates
+										the Multi-Modal Molecular Imaging Italian Node
+										(mmmi.unito.it).</p>
+								</div><hr>
 						
 						<div class="row" id="#COST">
 							<div class="w3-col w3-quarter">
