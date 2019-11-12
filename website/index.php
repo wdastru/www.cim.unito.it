@@ -240,10 +240,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										<a href="news.php#EuBIlaunch"><span class='paperTitle'>
 										European Commission launched the Euro-Bioimaging ERIC</span></a> 
 									<br />
-									<br /> <a href="http://www.eurobioimaging.eu/"> <img
-										style="width: 99%" src="images/Euro-BioImaging_Logo_CMYK.gif"
-										alt="Euro-BioImaging logo" /></a> 
-										<br /> 
+									<br /> 
 										<a href="http://www.mmmi.unito.it/"> <span class='paperTitle'>Italian
 											Multi-sited Multi-Modal Molecular Imaging (MMMI) Node
 											Candidate</span>
