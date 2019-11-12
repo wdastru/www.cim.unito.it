@@ -2,6 +2,7 @@ atletico.txt
 atletico_camp_6.txt
 atletico_camp_7.txt
 atletico_coppa_1.txt
+atletico_coppa_2.txt
 atletico_tipo_valida_fino_20190920-071053.txt
 ciofeca.txt
 ciofeca_camp1.txt
@@ -12,6 +13,7 @@ ciofeca_camp5.txt
 ciofeca_camp6.txt
 ciofeca_camp7.txt
 ciofeca_coppa1.txt
+ciofeca_coppa2.txt
 eporediese.txt
 eporediese_camp_1.txt
 eporediese_camp_2.txt
@@ -39,8 +41,10 @@ lokomotiv_camp_01.txt
 lokomotiv_camp_02.txt
 lokomotiv_camp_06.txt
 lokomotiv_coppa_01.txt
+lokomotiv_coppa_02.txt
 lokomotiv_tipo_valida_fino_20190920-132307.txt
 nikiteam.txt
+nikiteam_COPPA_02.txt
 nikiteam_campionato05.txt
 nikiteam_campionato_06.txt
 nikiteam_campionato_07.txt
@@ -60,4 +64,5 @@ real_camp06.txt
 real_camp07.txt
 real_camp_02.txt
 real_coppa01.txt
+real_coppa02.txt
 real_tipo_valida_fino_20190919-233236.txt
