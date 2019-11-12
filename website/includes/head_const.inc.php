@@ -1,4 +1,7 @@
 <?php
+
+require($localizer . 'includes/jQuery.php');
+
 echo "
 
 	<meta name='description' content='University of Torino. Website of the Molecular Imaging Center.' />
@@ -9,10 +12,10 @@ echo "
     <meta name='keywords' content='NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia' />
     <link href='" . $localizer . "stylesheet.css' rel='stylesheet' type='text/css' />
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' />
-    <script src='" . $localizer . "script.js' type='text/javascript' />
-    
+    <script src='" . $localizer . "jquery.cycle2.min.js' type='text/javascript'></script>
+    <script src='" . $localizer . "script.js' type='text/javascript'></script>
+
     ";
     
-    require($localizer . 'includes/jQuery.php');
         
 ?>

@@ -26,6 +26,7 @@
 							<a href='educational.php'>Educational</a>
 						</dt>
 						<dt id='section2-subsection3' class='subsection_link'>
+							<a name="top"></a>
 							<a href='news.php'>News</a>
 						</dt>
 					</dl>
@@ -42,6 +43,7 @@
 					    
 					    
 					    <div class="row" id="#Glint">
+					    	<a name="GLINT"></a>
 							<div class="w3-col w3-quarter">
 
 								<img src="news/glint.svg" class="w3-image"
@@ -63,6 +65,7 @@
 					    <hr>
 					    
 					    <div class="row" id="#Identify">
+					    	<a name="Identify"></a>
 							<div class="w3-col w3-quarter">
 
 								<img src="news/Identify_logo.jpg" class="w3-image"
@@ -91,6 +94,7 @@
 							</div>
 
 							<div class="w3-col w3-threequarter">
+								<a name="EuBIpart"></a>
 								<h2 style="color:#8c1515; text-align:left;">Partecipation to Euro-BioImaging</h2>
 								<p>The <b>Molecular Imaging Center</b> participates as a Node in the European Research Infrastructure for Imaging Technologies in Biological 
 								and Biomedical Sciences (Euro-BioImaging, EuBI)  with the laboratories of the University of Torino located  at the Department of Molecular 
@@ -101,6 +105,7 @@
 							</div>
 						</div>
 
+								<a name="EuBIlaunch"></a>
 								<div class="w3-col w3-quarter">
 
 									<img src="images/Euro-Bioimaging-horizontal-RGB-slogan.png"
@@ -147,6 +152,7 @@
 								</div><hr>
 						
 						<div class="row" id="#COST">
+							<a name="COST"></a>
 							<div class="w3-col w3-quarter">
 
 								<img src="news/logo_cost.png" class="w3-image"

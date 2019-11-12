@@ -400,15 +400,18 @@ h13:hover { font-size:24px;}
 }
 
 .fadeImage.zero {
+	
+  height: 200px;
 animation-name: imFadeOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
 animation-duration: 7s;
 animation-direction: alternate;
-	
 }
 	
 .fadeImage.first {
+	
+  height: 200px;
 animation-name: imFadeIn;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
