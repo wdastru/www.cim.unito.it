@@ -4,8 +4,8 @@ gruppi2/3/2/82/72/LLORENTE Fernando/LLORENTE Fernando/KOUAMÉ Christian/BROZOVIC 
 gruppi3/2/2/73.5/76/RONALDO Cristiano/SIMEONE Giovanni/CAPUTO Francesco/CAPUTO Francesco/
 gruppi4/-/-/-/-/
 gruppi5/-/-/-/-/
-gruppi6/-/-/-/-/
-gruppi7/-/-/-/-/
+gruppi6/0/1/57.5/69/SIMEONE Giovanni/
+gruppi7/1/0/69.5/65.5/BARELLA Nicolò/
 gruppi8/-/-/-/-/
 gruppi9/-/-/-/-/
 gruppi10/-/-/-/-/
