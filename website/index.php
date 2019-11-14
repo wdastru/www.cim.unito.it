@@ -272,6 +272,11 @@ header('Content-Type: text/html;charset=UTF-8');
 									</h2>
 
 
+									<!-- 
+									   Cycle2 slideshow plugin for jQuery
+									   required jquery.cycle2.min.js
+									   from http://jquery.malsup.com/cycle2/
+									-->
 									<div class="cycle-slideshow" data-cycle-fx="fade"
 										data-cycle-timeout="3000" data-cycle-slides="
 										> div" data-cycle-speed="1000" data-cycle-pause-on-hover="true">
@@ -302,9 +307,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										
 										</div>
 									</div>
-
-
-									
+									<!-- END of Cycle2 -->									
 								</div>
 
 							</div>

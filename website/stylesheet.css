@@ -390,76 +390,7 @@ h13:hover { font-size:24px;}
 	 border-radius: 10px;
 }
 
-.fadeImage {
-  position:absolute;
-  
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.fadeImage.zero {
-	
-  height: 200px;
-animation-name: imFadeOut;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 7s;
-animation-direction: alternate;
-}
-	
-.fadeImage.first {
-	
-  height: 200px;
-animation-name: imFadeIn;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 7s;
-animation-direction: alternate;
-}
-
-
- @keyframes imFadeIn {
-  0% {
-  opacity:0;
-}
-25% {
-opacity:0;
-}
-50% {
-opacity:0.75;
-}
-75% {
-opacity:0.9;
-}
-100% {
-opacity:1;
-}
-}
-
-@keyframes imFadeOut {
-  0% {
-  opacity:1;
-}
-25% {
-opacity:1;
-}
-50% {
-opacity:0.25;
-}
-75% {
-opacity:0.1;
-}
-100% {
-opacity:0;
-}
-}
-
-
-
-
-.animated {
+/*.animated {
   animation-duration: 5s;
   animation-fill-mode: both;
 }
@@ -480,7 +411,7 @@ opacity:0;
   to {
     opacity: 1;
   }
-}
+}*/
 
 /* Colors */
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}

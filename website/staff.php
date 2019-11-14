@@ -927,10 +927,12 @@ $localizer = "./";
 			changeSideNavStyles();
 			//]]>
 		</script>
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 			//<![CDATA[
 			fillStaffContainer();
 			//]]>
-		</script><!-- InstanceEnd -->
+		</script>
+		 -->
+		 <!-- InstanceEnd -->
 	</body>
 </html>
