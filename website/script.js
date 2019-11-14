@@ -173,7 +173,7 @@ function loadXMLDoc(dname) {
 	} else {
 		xhttp = new ActiveXObject("Microsoft.XMLHTTP");
 	}
-	xhttp.open("GET", dname, false);
+	xhttp.open("GET", dname);
 	xhttp.send("");
 	return xhttp.responseXML;
 }
@@ -244,8 +244,7 @@ function displayMODSResult(year) {
 		xsltProcessor.importStylesheet(xsl);
 		var resultDocument = xsltProcessor.transformToFragment(xml, document);
 		document.getElementById("publicationsContainer").innerHTML = '';
-		document.getElementById("publicationsContainer").appendChild(
-				resultDocument);
+		document.getElementById("publicationsContainer").appendChild(resultDocument);
 	}
 }
 function showPubs(select) {
@@ -259,35 +258,52 @@ function initPubs() {
 	displayMODSResult(curr_year);
 	document.getElementById('publicationYear').innerHTML = curr_year;
 }
-function fillStaffContainer() {
-	var container = document.getElementById('staffContainer');
-
-	var xmlFile = "staff.xml";
-	var xslFile = "staff.xsl";
-
-	// code for IE
-	if (window.ActiveXObject) {
-		var xml = new ActiveXObject("Microsoft.XMLDOM");
-		xml.async = "false";
-		xml.load(xmlFile);
-
-		var xsl = new ActiveXObject("Microsoft.XMLDOM");
-		xsl.async = "false";
-		xsl.load(xslFile);
-
-		ex = xml.transformNode(xsl);
-		document.getElementById("staffContainer").innerHTML = ex;
-	}
-	// code for Mozilla, Firefox, Opera, etc.
-	else if (document.implementation && document.implementation.createDocument) {
-		var xsl = loadXMLDoc(xslFile);
-		var xml = loadXMLDoc(xmlFile);
-
-		xsltProcessor = new XSLTProcessor();
-		xsltProcessor.importStylesheet(xsl);
-		resultDocument = xsltProcessor.transformToFragment(xml, document);
-		document.getElementById("staffContainer").innerHTML = '';
-		document.getElementById("staffContainer").appendChild(resultDocument);
-	}
-}
+//function fileExists(url) {
+//    if(url){
+//        var req = new XMLHttpRequest();
+//        req.open('GET', url);
+//        req.send();
+//        return req.status==200;
+//    } else {
+//        return false;
+//    }
+//}
+//function fillStaffContainer() {
+//	var container = document.getElementById('staffContainer');
+//
+//	var xmlFile = "staff.xml";
+//	var xslFile = "staff.xsl";
+//
+//	// code for IE
+//	if (window.ActiveXObject) {
+//		
+//		if (fileExists(xmlFile))  {
+//			var xml = new ActiveXObject("Microsoft.XMLDOM");
+//			xml.async = "true";
+//			xml.load(xmlFile);
+//		}
+//
+//		if (fileExists(xslFile))  {
+//			var xsl = new ActiveXObject("Microsoft.XMLDOM");
+//			xsl.async = "true";
+//			xsl.load(xslFile);
+//		}
+//
+//		ex = xml.transformNode(xsl);
+//		document.getElementById("staffContainer").innerHTML = ex;
+//	}
+//	// code for Mozilla, Firefox, Opera, etc.
+//	else if (document.implementation && document.implementation.createDocument) {
+//		//var xml = loadXMLDoc(xmlFile);
+//
+//		if (fileExists(xslFile))  {
+//			var xsl = loadXMLDoc(xslFile);
+//			xsltProcessor = new XSLTProcessor();
+//			xsltProcessor.importStylesheet(xsl);
+//			resultDocument = xsltProcessor.transformToFragment(xml, document);
+//			document.getElementById("staffContainer").innerHTML = '';
+//			document.getElementById("staffContainer").appendChild(resultDocument);
+//		}
+//	}
+//}
 /* END - funzioni per client-side xslt */
