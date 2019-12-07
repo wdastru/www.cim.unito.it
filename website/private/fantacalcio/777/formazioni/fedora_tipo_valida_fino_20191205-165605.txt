@@ -7,7 +7,7 @@ PADELLI Daniele
 ACERBI Francesco
 PISACANE Fabio
 HATEBOER Hans
-FARAONI Davide
+GHIGLIONE Paolo
 DANILO Larangeira
 DANILO -
 ROMAGNOLI Alessio
@@ -26,6 +26,6 @@ PETAGNA Andrea
 JOAO PEDRO Geraldino Galvao
 PALACIO Rodrigo
 ORSOLINI Riccardo
-130
+136
 3404073967
-Thu 05 Dec 2019 - 16:56:05
+Fri 29 Nov 2019 - 13:04:55

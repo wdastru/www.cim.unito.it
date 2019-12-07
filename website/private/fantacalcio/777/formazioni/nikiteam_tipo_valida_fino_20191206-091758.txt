@@ -18,7 +18,7 @@ ZANIOLO Nicolò
 PAQUETA Lucas
 BADELJ Milan
 SORIANO Roberto
-BONAVENTURA Giacomo
+MANCOSU Marco
 MANDRAGORA Rolando
 IMMOBILE Ciro
 LUKAKU Romelu
@@ -26,6 +26,6 @@ BERARDI Domenico
 PIATEK Krzysztof
 SANSONE Nicola
 OKAKA Stefano
-76
+
 3331980829
-Fri 06 Dec 2019 - 09:17:58
+Thu 26 Sep 2019 - 08:58:32

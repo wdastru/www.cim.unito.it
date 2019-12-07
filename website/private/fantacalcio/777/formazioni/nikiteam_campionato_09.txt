@@ -6,26 +6,26 @@ OSPINA David
 SEPE Luigi
 DALBERT Henrique
 CRISCITO Domenico
-PEZZELLA Giuseppe
-ALVES Bruno
-FERRARI Gianmarco
 NKOULOU Nicolas
-LARSEN Jens Stryger
+ALVES Bruno
 COLLEY Omar
-MKHITARYAN Henrikh
-DUNCAN Alfred
-ZANIOLO Nicolò
-PAQUETA Lucas
+FERRARI Gianmarco
+LARSEN Jens Stryger
+PEZZELLA Giuseppe
 BADELJ Milan
+DUNCAN Alfred
+MKHITARYAN Henrikh
 SORIANO Roberto
-BONAVENTURA Giacomo
+PAQUETA Lucas
 MANDRAGORA Rolando
-IMMOBILE Ciro
-LUKAKU Romelu
-BERARDI Domenico
+ZANIOLO Nicolò
+MANCOSU Marco
 PIATEK Krzysztof
+LUKAKU Romelu
+IMMOBILE Ciro
 SANSONE Nicola
 OKAKA Stefano
-76
+BERARDI Domenico
+
 3331980829
-Fri 06 Dec 2019 - 09:17:58
+Fri 29 Nov 2019 - 07:29:49

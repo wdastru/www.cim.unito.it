@@ -5,27 +5,27 @@ MERET Alex
 OSPINA David
 SEPE Luigi
 DALBERT Henrique
-CRISCITO Domenico
-PEZZELLA Giuseppe
-ALVES Bruno
-FERRARI Gianmarco
 NKOULOU Nicolas
-LARSEN Jens Stryger
+PEZZELLA Giuseppe
+CRISCITO Domenico
 COLLEY Omar
-MKHITARYAN Henrikh
-DUNCAN Alfred
-ZANIOLO Nicolò
-PAQUETA Lucas
+FERRARI Gianmarco
+LARSEN Jens Stryger
+ALVES Bruno
 BADELJ Milan
+DUNCAN Alfred
 SORIANO Roberto
-BONAVENTURA Giacomo
+ZANIOLO Nicolò
+MKHITARYAN Henrikh
 MANDRAGORA Rolando
-IMMOBILE Ciro
+PAQUETA Lucas
+MANCOSU Marco
 LUKAKU Romelu
-BERARDI Domenico
-PIATEK Krzysztof
 SANSONE Nicola
+IMMOBILE Ciro
+PIATEK Krzysztof
+BERARDI Domenico
 OKAKA Stefano
-76
+
 3331980829
-Fri 06 Dec 2019 - 09:17:58
+Wed 20 Nov 2019 - 08:01:38

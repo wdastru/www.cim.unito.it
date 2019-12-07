@@ -3,7 +3,7 @@ gruppi1/1/1/67/70/MILINKOVIC SERGEJ/KOLAROV ALEKSANDAR/
 gruppi2/3/2/82/72/LLORENTE Fernando/LLORENTE Fernando/KOUAMÉ Christian/BROZOVIC Marcelo/DZEKO Edin/
 gruppi3/2/2/73.5/76/RONALDO Cristiano/SIMEONE Giovanni/CAPUTO Francesco/CAPUTO Francesco/
 gruppi4/2/4/72/87/DYBALA/CORREA/CORREA/MILINKOVIC/IMMOBILE/IMMOBILE/
-gruppi5/-/-/-/-/
+gruppi5/0/4/55.5/84/NAINGGOLAN Radja/BELOTTI Andrea/NAINGGOLAN Radja/BELOTTI Andrea/
 gruppi6/0/1/57.5/69/SIMEONE Giovanni/
 gruppi7/1/0/69.5/65.5/BARELLA NicolO'/
 gruppi8/-/-/-/-/
