@@ -532,7 +532,7 @@ $localizer = "./";
 													<h2 style="font-size: 20px;">
 														<b>Lorenzo Palagi</b>
 													</h2>
-													<p style="font-size: 16px;">Graduate student</p>
+													<p style="font-size: 16px;">PhD student</p>
 												</div></a>
 											</div>
 										</div>
