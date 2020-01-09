@@ -41,7 +41,7 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Annasofia Anemone</h1>
-								<p style="text-align:left;"><b>PhD student<br />
+								<p style="text-align:left;"><b>Research Fellow<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Longo/home.php" target="_blank" style="color:#dc6a10">
 								 Longo Lab</a>
@@ -55,8 +55,8 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												
-												 M.Sc. Biotechnologies, University of Torino, Italy<br>
+												Ph.D. Pharmaceutical and Biomolecular Sciences University of Torino, Italy<br />
+												M.Sc. Biotechnologies, University of Torino, Italy<br>
 											</p>
 					
 					

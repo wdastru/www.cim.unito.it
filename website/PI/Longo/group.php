@@ -121,9 +121,10 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Biotechnology, University of Torino<br> Phone: +39
+												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br>
+												MSc Biotechnology, University of Torino, Italy<br> Phone: +39
 												0116706476<br> E-mail: <a
-													href="mailto:annasofia.anemone@unito.it">annasofia.anemone@unito.it</a>
+													href="mailto:annasofia.anemone@unito.it">annasofia.anemone@gmail.com</a>
 											</p>
 										</div>
 										
