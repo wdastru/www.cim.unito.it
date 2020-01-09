@@ -165,9 +165,9 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Complex Systems for Life Sciences, University of Torino<br>
+												PhD Complex Systems for Life Sciences, University of Torino, Italy<br>
 												MSc Biomedical Engineering, Sapienza University of
-												Rome, Italy <br> Phone: +39 0116706485<br>
+												Rome, Italy <br> Phone: +39 0116709539<br>
 												E-mail: <a href="mailto:sara.zullino@unito.it">sara.zullino@unito.it</a>
 											</p>
 										</div>
@@ -255,7 +255,7 @@
 												<span>PhD student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Biotechnology, University of Torino, Italy<br> Phone: +39 0116706485<br> E-mail: <a
+												MSc Biotechnology, University of Torino, Italy<br> Phone: +39 0116709539<br> E-mail: <a
 													href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
 											</p>
 										</div>
@@ -295,8 +295,8 @@
 											</header>
 											<p style="line-height: 1.2">
 												PhD Sciences and Technologies of Engineering, University of Tunisi, Tunisia<br>
-												MSc Automatic, University of Tunisi <br> Phone: +39
-												0116706499<br> E-mail: <a
+												MSc Automatic, University of Tunisi, Tunisia <br> Phone: +39
+												0116709539<br> E-mail: <a
 													href="mailto:ferielromdhane@yahoo.fr">ferielromdhane@yahoo.fr</a>
 											</p>
 										</div>
@@ -340,7 +340,7 @@
 											</header>
 											<p style="line-height: 1.2">
 												MSc Pharmacology & Toxicology, Gujarat University, India
-												<br> Phone: +39 0116706499<br>
+												<br> Phone: +39 0116709540<br>
 												E-mail: <a href="mailto:chetan.dhakan@ibb.cnr.it">mailto:chetan.dhakan@ibb.cnr.it</a>
 											</p>
 										</div>
@@ -385,7 +385,7 @@
 											</header>
 											<p style="line-height: 1.2">
 												MSc Biomedical Engineering, University of Naples Federico II, Italy 
-												<br> Phone: +39 0116706499<br>
+												<br> Phone: +39 0116709539<br>
 												E-mail: <a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 											</p>
 										</div>
@@ -435,8 +435,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Molecular Bioscience, University of Torino<br> MSc
-												Biotechnology, University of Torino
+												PhD Molecular Bioscience, University of Torino, Italy<br> MSc
+												Biotechnology, University of Torino, Italy
 												<!-- <br> Phone: +39
 												0116706476<br> E-mail: <a
 													href="mailto:lorena.consolino@unito.it">lorena.consolino@unito.it</a>
@@ -480,8 +480,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												Ph.D. Molecular Bioscience, University of Torino<br>
-												M.Sc. Biotechnology, University of Torino
+												Ph.D. Molecular Bioscience, University of Torino, Italy<br>
+												M.Sc. Biotechnology, University of Torino, Italy
 												<!-- <br> office: +39
 												0116706452<br> email: <a
 													href="mailto:amerigo.pagoto@unito.it">amerigo.pagoto@unito.it</a> -->
