@@ -38,7 +38,7 @@
 						<h1>
 							<a href="<?php echo $localizer; ?>/PI/Reineri/home.php" id="logo">REINERI LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
+								<p style="color: gray; font-size=12px;" >Hyperpolarization - ParaHydrogen - Metabolism</p>
 
 							</div>
 						</h1>
@@ -100,50 +100,13 @@
 										</div>
 									</article>
 								</section>
-
 							</div>
-
 						</div>
-
-
-
-
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="wrapper style2">
-				<div class="inner">
-					<div class="container">
-
-						<div id="content">
-
-							<h2>RESEARCH SUPPORT</h2>
-
-							<ul.default>
-								<li>AIRC MFAG 2017 N.20153: Multidimensional MRI mapping of
-									tumor acidosis: tracking spatial heterogeneity and temporal
-									evolution,<strong> PI: Dario Longo </strong>
-								</li>
-								<li>CSTO165925: Imaging extracellular pH as a MRI
-									diagnostic tool,<strong> PI: Walter Dastrù, Co-PI:
-										Dario Longo</strong>
-								</li>
-								<li>EU H2020 N.667510: GlucoCEST Imaging in Neoplastic Tumours (GLINT), <strong>PI: Xavier Golay </strong>(UCL)</li> 
-							</ul>
-
-						</div>
-
-					</div>
-				</div>
-			</div> -->
 		</div>
-
-
-	</div>
-
-
-	</div>
+	
 
 	<!-- Scripts -->
 
