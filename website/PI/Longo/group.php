@@ -124,7 +124,7 @@
 												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br>
 												MSc Biotechnology, University of Torino, Italy<br> Phone: +39
 												0116706476<br> E-mail: <a
-													href="mailto:annasofia.anemone@unito.it">annasofia.anemone@gmail.com</a>
+													href="mailto:annasofia.anemone@gmail.com">annasofia.anemone@gmail.com</a>
 											</p>
 										</div>
 										
