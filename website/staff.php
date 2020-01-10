@@ -94,7 +94,7 @@ $localizer = "./";
 					</div>
 				</div>
 				<div class="square bg"
-					style="background-image: url(images/staff/dastru2.jpg);">
+					style="background-image: url(images/staff/dastru.jpg);">
 					<div class="content">
 						<div class="table">
 						<!-- <a title="Homepage" href="PI/Dastru/home.html" target="_blank"> -->
