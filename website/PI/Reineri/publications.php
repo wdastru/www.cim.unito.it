@@ -55,67 +55,31 @@
 		</div>
 
 		<!-- Main Wrapper -->
-		<div id="main-wrapper" style="height:1000px;">
-			<div class="wrapper style2">
+		<div id="main-wrapper">
+			<div class="wrapper style1">
 				<div class="inner">
 					<div class="container">
-					<div class="row">
-						<div class="10u 12u(mobile)">
-						<div id="content">
+						<div class="row">
+
+							<div class="8u 12u(mobile)">
 
 							<!-- Content -->
-							<article>
-								
+							<article>								
 									<h2 class="icon fa-file-text-o">Journal Papers</h2>
-								
-								<ol class="default" reversed=true>
+									<ol class="default" reversed=true>
 									<div style="line-height: 1.5">
-									
-									<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://scholar.google.it/citations?user=mJK0H8cAAAAJ&hl=it" target="_blank">Google Scholar</a>
-									</p>
-									
-						
-				</div>
-				</ol>
-
-							</article>
-							
-							
-							<header class="major">
-							</header>
-				
-				
-			</div>
-		
-					
-				</div>
-				
-				<div class="2u 12u(mobile)">
-						<div id="sidebar">
-						
-						<section>
-						
-						</section>
-						
-						
+										<p>Full list of publications are available at 
+										<a title="Open in a new window" href="https://scholar.google.it/citations?user=mJK0H8cAAAAJ&hl=it" target="_blank">Google Scholar</a>
+										</p>
+									</div>
+								</ol>
+							</article>				
 						</div>
+					</div>
+				</div>	
 			</div>
-				
-			</div>
-					
-				</div>
-			</div>
-					
-				</div>
-			</div>
-			
-	
-			
-		
-
-
-	</div>
+		</div>			
+	</div>			
 
 	<!-- Scripts -->
 
