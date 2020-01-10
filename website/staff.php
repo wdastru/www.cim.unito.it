@@ -111,7 +111,7 @@ $localizer = "./";
 					style="background-image: url(images/staff/reineri.jpg);">
 					<div class="content">
 						<div class="table">
-						<!-- <a title="Homepage" href="PI/Reineri/home.html" target="_blank"> -->
+						    <a title="Homepage" href="PI/Reineri/home.php" target="_blank"> 
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Francesca Reineri</b>
