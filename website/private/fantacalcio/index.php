@@ -45,13 +45,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>crawler.js&type=javascript"></script>
 		<script type="text/javascript"
 		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>javascript.js&type=javascript"></script>
-		<!-- <script type="text/javascript"
-		src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script> -->
-		<!-- InstanceEndEditable -->
 
-		<!-- InstanceBeginEditable name="jQuery" -->
-		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<?php require $relocate_string . "include/jQuery.php"; ?>
 
 		<?php
 			unset($hostname);
@@ -61,6 +56,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			}
 		 ?>
 
+		<!-- behaviour of the avulse box -->
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#avulseToggleButton').click(function () {

@@ -681,13 +681,13 @@ changeSideNavStyles();
 var slideIndex = 1;
 showDivs();
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
+//function plusDivs(n) {
+//  showDivs(slideIndex += n);
+//}
+//
+//function currentDiv(n) {
+//  showDivs(slideIndex = n);
+//}
 
 function showDivs() {
   var i;

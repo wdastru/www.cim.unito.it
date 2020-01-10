@@ -27,18 +27,11 @@ xmlns="http://www.w3.org/1999/xhtml">
     src="documentPreProcessor.php?document=<?php echo $relocate_string; ?>banner.js&type=javascript"></script>
     <!-- InstanceEndEditable -->
 
-    <!-- jQuery -->
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-    <?php unset($hostname);
-    exec('hostname', $hostname);
-    if ($hostname[0] == "PESTODURO" || $hostname[0] == "VORTICE" ) {
-      echo "<script type='text/javascript' src='" . $relocate_string . "jQuery/lib/jquery-1.10.1.min.js'></script>";
-    }
+	<?php
+    require $relocate_string . "include/jQuery.php";
     require $relocate_string . 'include/jquery.fancybox.inc.php';
     ?>
-    <!-- jQuery -->
+    
   </head>
   <!-- <body onresize="Count();"> -->
   <body>

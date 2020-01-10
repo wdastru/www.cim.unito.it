@@ -24,18 +24,10 @@ include ($relocate_string . "calendarioCoppa.inc");
 	<script type="text/javascript" src="documentPreProcessor.php?document=coppa.js&type=javascript"></script>
 	<!-- InstanceEndEditable -->
 
-	<!-- jQuery -->
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	
-	<?php 
-		unset($hostname);
-		exec('hostname', $hostname);
-		if ($hostname[0] == "PESTODURO" || $hostname[0] == "VORTICE" ) {
-			echo "<script type='text/javascript' src='" . $relocate_string . "jQuery/lib/jquery-1.10.1.min.js'></script>";	
-		}
-		require $relocate_string . 'include/jquery.fancybox.inc.php';
-	 ?>
+	<?php
+    require $relocate_string . "include/jQuery.php";
+    require $relocate_string . 'include/jquery.fancybox.inc.php';
+    ?>
 
 	<script type="text/javascript">
 		$(document).ready(function() {

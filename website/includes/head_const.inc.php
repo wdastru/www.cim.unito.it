@@ -1,7 +1,5 @@
 <?php
 
-require($localizer . 'includes/jQuery.php');
-
 echo "
 
 	<meta name='description' content='University of Torino. Website of the Molecular Imaging Center.' />
