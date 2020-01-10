@@ -38,7 +38,7 @@
 						<h1>
 							<a href="<?php echo $localizer; ?>PI/Reineri/home.php" id="logo">REINERI LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
+								<p style="color: gray; font-size=12px;" >Hyperpolarization - ParaHydrogen - Metabolism</p>
 
 							</div>
 						</h1>
@@ -217,7 +217,8 @@
 										<div class="showtext">
 										<div>My research focuses on ...</div>
 										<form> <p align="justify"><b>
-										Early stage researcher (PhD student), within the ZULF project, at the Molecular Imaging Centre . My scientific experience is organic and inorganic synthesis. 
+										Early stage researcher (PhD student), within the <a title="Open in a new window" class="http" href="www.zulf.com" target="_blank">							
+											ZULF</a>  project, at the Molecular Imaging Center. My scientific experience is organic and inorganic synthesis. 
 										My current project is devoted to the development of the hyperpolarization method named PHIP-SAH (ParaHydrogen Induced Polarization- Side Arm Hydrogenation) 
 										and on the ZULF NMR detection of these hyperpolarized molecule of metabolites. 
 												</b>									
@@ -233,11 +234,10 @@
 									<hr></hr>
 									
 									
-									<hr></hr>
 									
 
 								
-								<div class="row">
+								<!-- <div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
 								<div>
@@ -267,7 +267,7 @@
 									
 									</div>
 									</article>
-									</div>
+									</div> -->
 								
 								
 							
