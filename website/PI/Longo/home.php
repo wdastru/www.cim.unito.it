@@ -102,9 +102,9 @@
 										<div style="padding: 0 0 0 160px;">
 											<p align="left" style="line-height: 1.2";>
 												<strong><font size="4em">Dario Longo, PhD</font></strong> <br />
-												<br /> Senior Researcher<br /> Institute of Biostructures
-												and Bioimaging (IBB)<br /> Italian National Research Council
-												(CNR)<br /> Via Nizza 52<br /> 10126 Torino - Italy<br />
+												<br /> Senior Researcher,<br /> Institute of Biostructures
+												and Bioimaging (IBB),<br /> Italian National Research Council
+												(CNR),<br /> Via Nizza 52,<br /> 10126 Torino - Italy<br />
 												Tel: +39 011 6706473<br /> Fax: +39 011 6706458<br /> <a
 													href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>
 												<a href="mailto:dariolivio.longo@cnr.it">dariolivio.longo@cnr.it</a>
@@ -254,9 +254,9 @@
 				<div class="12u">
 
 					<ul class="menu">
-						<li>&copy; 2019 Molecular Imaging Center. All rights reserved</li>
+						<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Updated: 06 June 2019</li>
+						<li>Updated: 15 January 2020</li>
 					</ul>
 				</div>
 			</footer>

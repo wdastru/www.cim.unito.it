@@ -73,7 +73,7 @@
 												annum are estimated and despite advances in supportive care,
 												sepsis remains associated with very high mortality rates
 												(40-60%) (2, 3). Sepsis may be caused by Gram-positive, Gram
-												–negative and polymicrobial infection. Staphylococcus aureus
+												ï¿½negative and polymicrobial infection. Staphylococcus aureus
 												and Streptococcus pneumonia are Gram-positive isolates,
 												whereas Escherichia coli, Klebsiella species and Pseudomonas
 												aeruginosa predominates among Gram-negative isolates (4).
@@ -150,9 +150,9 @@
 									<p align="left" style="line-height: 1.2";>
 										<strong><font size="4em">Juan Carlos Cutrin, PhD</font></strong>
 										<br><br> Research
-										Fellow,<br /> Molecular Imaging Center<br /> Department of
-										Molecular Biotechnologies and Health Science<br />
-										University of Torino<br /> Torino 10126, Italy<br /> Tel:
+										Fellow,<br /> Molecular Imaging Center,<br /> Department of
+										Molecular Biotechnologies and Health Science,<br />
+										University of Torino,<br /> Via Nizza 52, <br /> Torino 10126, Italy<br /> Tel:
 										+39 011 6706473<br /> Fax: +39 011 6706458<br /> <a
 											href="mailto:juancarlos.cutrin@unito.it">juancarlos.cutrin@unito.it</a>
 									</p>
