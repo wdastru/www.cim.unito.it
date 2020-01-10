@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -7,14 +10,7 @@
 <html>
 	<head>
 		<title>Contact Us | TERRENO Lab</title>
-		<meta name="MobileOptimized" content="width">
-    <meta name="HandheldFriendly" content="true">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -41,27 +37,15 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">TERRENO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Terreno/home.php" id="logo">TERRENO LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Theranostics – Multimodal imaging – Nanoprobes</p>
+								<p style="color: gray; font-size=12px;" >Theranostics - Multimodal imaging - Nanoprobes</p>
 
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Design of targeting imaging probes</a></li>
-										<li><a href="research_2.html">MRI visualisation of drug delivery/release</a>
-										<li><a href="research_3.html">Development of cellular imaging procedures</a><li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li class="current_page_item"><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Terreno/includes/menu_terreno.php'); ?>
 						</nav>
 
 					</div>
@@ -121,13 +105,13 @@
 
 		<!-- Scripts -->
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+	
 	</body>
 </html>

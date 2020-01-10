@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>Home | TERRENO LAB</title>
-<meta charset="utf-8" />
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents (Gd-based, CEST) for assessing tumor microenvironment (vascularization, acidosis) properties." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+    <title>Home | TERRENO LAB</title>
+    <?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,27 +37,14 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">TERRENO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Terreno/home.php" id="logo">TERRENO LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Theranostics – Multimodal imaging – Nanoprobes</p>
-
+								<p style="color: gray; font-size=12px;" >Theranostics - Multimodal imaging - Nanoprobes</p>
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li class="current_page_item"><a href="home.html">Home</a></li>
-								<li><a href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Design of targeting imaging probes</a></li>
-										<li><a href="research_2.html">MRI visualisation of drug delivery/release</a>
-										<li><a href="research_3.html">Development of cellular imaging procedures</a><li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Terreno/includes/menu_terreno.php'); ?>
 						</nav>
 
 					</div>
@@ -109,7 +80,7 @@
 
 								<section class="box article-list">
 
-									<a href="#"><img src="images/Terreno.jpg" alt=""
+									<a href="#"><img src="<?php echo $localizer; ?>PI/Terreno/images/Terreno.jpg" alt=""
 										style="width: 140px; height: auto;" class="image left" /></a>
 										<div style="padding: 0 0 0 180px;">
 									<p align="left" style="line-height: 1.2";>
@@ -136,8 +107,8 @@
 									<header>
 										<h4 align="center">Design of targeting imaging probes</h4>
 									</header>
-									<a href="research_1.html"><img src="images/Figure_Targeting_Overview_1.jpg" alt="" class="image featured" /></a>
-									<a href="research_1.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_1.php"><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_Targeting_Overview_1.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_1.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -145,8 +116,8 @@
 									<header>
 										<h4 align="center">MRI visualisation of drug delivery/release</h4>
 									</header>
-									<a href="research_2.html"><img src="images/Figure_drug_release_overview_2.jpg" alt="" class="image featured" /></a>
-									<a href="research_2.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_2.php"><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_drug_release_overview_2.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_2.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -154,8 +125,8 @@
 									<header>
 										<h4 align="center">Development of cellular imaging procedures</h4>
 									</header>
-									<a href="research_3.html"><img src="images/Figure_cellular_imaging_overview_3.jpg" alt="" class="image featured" /></a>
-									<a href="research_3.html"><font color="blue">Read more >></font></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_3.php"><img src="<?php echo $localizer; ?>PI/Terreno/images/Figure_cellular_imaging_overview_3.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/Terreno/research_3.php"><font color="blue">Read more >></font></a>
 									
 								</section>
 							</div>
@@ -258,13 +229,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>	
 
 
 </body>

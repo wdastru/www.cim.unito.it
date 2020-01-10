@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -6,27 +9,8 @@
 -->
 <html>
 <head>
-<title>MRI visualization | TERRENO Lab</title>
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="description"
-	content="We are interested in developing novel MRI contrast agents: high-relaxivity Gd-based, blood-pool contrast agents, diamagnetic CEST (iopamidol, excipients)." />
-<meta name="keywords"
-	content="molecular imaging, tumor, gadolinium, contrast agent, X-ray, radiographic, kidney, acidosis, metabolism, acute kidney injury, angiogenesis, MRI, magnetic resonance imaging, CEST, vascularization" />
-<meta name="robots" content="noindex, nofollow">
-<meta name="revisit-after" content="1 month">
-
-<!-- imaging, x-ray, tumor -->
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
-<link rel="ICON" href="images/favicon.ico" type="image/ico" />
-
+	<title>MRI visualization | TERRENO Lab</title>
+	<?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -53,28 +37,15 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.html" id="logo">TERRENO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Terreno/home.php" id="logo">TERRENO LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Theranostics – Multimodal imaging – Nanoprobes</p>
+								<p style="color: gray; font-size=12px;" >Theranostics - Multimodal imaging - Nanoprobes</p>
 
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="home.html">Home</a></li>
-								<li class="current_page_item"><a
-									href="research_overview.html">Research</a>
-									<ul>
-										<li><a href="research_overview.html">Overview</a></li>
-										<li><a href="research_1.html">Design of targeting imaging probes</a></li>
-										<li><a href="research_2.html">MRI visualisation of drug delivery/release</a>
-										<li><a href="research_3.html">Development of cellular imaging procedures</a><li>
-									</ul></li>
-								<li><a href="group.html">Group</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+							<?php require ($localizer . 'PI/Terreno/includes/menu_terreno.php'); ?>
 						</nav>
 
 					</div>
@@ -129,18 +100,20 @@
 									<article>
 
 										<header>
-											<p font style="text-transform: none; font-size:1.3em">MRI visualization of the release of doxorubicin from liposomes stimulated by local application of ultrasound</p>
+											<p font style="text-transform: none; font-size:1.3em">MRI visualization of the release of doxorubicin from liposomes stimulated by local 
+											application of ultrasound</p>
 										</header>
 										
 										<p align="justify">
 											The release of a drug from a nanocarrier can be stimulated by several factors, endogenous (e.g. pH, enzyme), 
 											or externally applied (heat, light, US ...). It has been demonstrated that liposomes can release their
 											content upon stimulation with pulsed low intensity non-focused US (pLINFU), which can be broadly defined as pulsed, 
-											planar, acoustic waves with intensity lower than 10 W/cm<SUP>2</SUP> and US frequencies ranging from low (20 kHz) to therapeutic (1–3 MHz) 
+											planar, acoustic waves with intensity lower than 10 W/cm<sup>2</sup> and US frequencies ranging from low (20 kHz) to therapeutic (1-3 MHz) 
 											frequency. The lower energy associated with pLINFU produces minimal or no thermal effects and the release of the drug mainly results 
 											from the mechanical interaction between the acoustic waves and the nanocarrier.
 											A practical approach to visualize by MRI the release of the drug from liposomes consists of encapsulating a hydrophilic 
-											paramagnetic agent (based on Gd<SUP>3+</sup> or Mn<sup>2+</sup> ions) in the aqueous inner cavity of the nanovesicle. Upon the entrapment, the MRI contrast is “silenced” and its activity is recovered when the agent is released.
+											paramagnetic agent (based on Gd<sup>3+</sup> or Mn<sup>2+</sup> ions) in the aqueous inner cavity of the nanovesicle. Upon the entrapment, 
+											the MRI contrast is "silenced" and its activity is recovered when the agent is released.
 
 										</p>
 										<img src="images/research_2_1.jpg" alt="" class="image zooming">
@@ -160,8 +133,8 @@
 
 										</p>
 										<img src="images/research_2_3.jpg" alt="" class="image zooming">
-										<p align="justify">	To test the therapeutic potential of this approach, liposomes were co-encapsulated with the drug doxorubicin and tested on a mouse model 
-										of breast cancer <a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25626083"
+										<p align="justify">	To test the therapeutic potential of this approach, liposomes were co-encapsulated with the drug doxorubicin and tested on a 
+										mouse model of breast cancer <a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25626083"
 												target="_blank"><font color="blue"> [Rizzitelli S. et al. 2015] </font></a>. First of all, it was checked that the release of the 
 										two components (the imaging probe and the drug) were similar in order to consider the contrast enhancement as a good predictor for the 
 										drug release. </p>
@@ -189,7 +162,7 @@
 										pLINFU-stimulated mice showed significantly higher T1 contrast than the untreated group, as expected in 
 										case of successful release of the MRI agent. The enhancement for the US-group was maximal just after the 
 										stimulation and decreased within 6 h. Contrarily, a much smaller enhancement was detected in the NoUs-Group, 
-										which was due to the intratumour circulation of the intact “MRI-quenched” liposomes. </p>
+										which was due to the intratumour circulation of the intact "MRI-quenched" liposomes. </p>
 										<img src="images/research_2_6.jpg" alt="" class="image zooming">
 										
 										<p align="justify"> As expected from the renal excretion of the MRI agent, the release of the agent in the tumour 
@@ -280,13 +253,13 @@
 
 	<!-- Scripts -->
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/skel-viewport.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 
 </body>
 </html>
