@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							PhD and Graduate Students
+						Post Doctoral Research Fellows
 						</h1>
 					</div>
 					<div class='paddingInner'>
