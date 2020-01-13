@@ -69,9 +69,11 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research aims at building novel Matlab and Python based tools for processing preclinical MRI images, in particular devoted to exploit MRI-CEST (Chemical Exchange Saturation Transfer) methods for investigating tumor acidosis.
-					I am also involved in developing a customizable workflow engine for archiving, sharing, and processing medical images for preclinical imaging facilities
-						through the integration of an open source imaging informatics platform (<a href="www.xnat.org" target="_blank">XNAT</a>) with customized tools for automated image processing.</p>
+					<p>My research aims at building novel Matlab and Python based tools for processing preclinical Magnetic Resonance (MR) images, 
+												particularly devoted to exploit CEST (Chemical Exchange Saturation Transfer) MRI methods for investigating tumor acidosis.
+												I am also involved in developing a customizable workflow for archiving, sharing, and processing medical images for preclinical imaging facilities
+												through the integration of an open source imaging informatics platform (<a href="www.xnat.org" target="_blank">XNAT</a>) 
+												with customized tools for automated image processing.</p>
 					 </div>
 					
 					<div class="w3-quarter">
