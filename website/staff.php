@@ -370,7 +370,21 @@ $localizer = "./";
 											</div>
 										</div>
 									</div>
-									
+									<div class="square bg"
+										style="background-image: url(images/staff/carella.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_carella.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Antonella Carella</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
+																	
 									
 									
 								</div>
@@ -544,6 +558,20 @@ $localizer = "./";
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
 														<b>Daisy Villano</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate student</p>
+												</div></a>
+											</div>
+										</div>
+									</div>	
+									<div class="square bg"
+										style="background-image: url(images/staff/corrado.jpg);">
+										<div class="content">
+											<div class="table">
+											<a title="Profile" href="staff/staff_corrado.php">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Alessia Corrado</b>
 													</h2>
 													<p style="font-size: 16px;">Graduate student</p>
 												</div></a>

@@ -414,6 +414,52 @@
 									
 			
 									<hr></hr>
+
+									<div class="row">
+							<div class="8u 12u(mobile)">
+									
+
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/corrado.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<div>
+											<header>
+												<h3>Alessia Corrado</h3>												
+												<span>Graduate Student</span>
+											</header>
+											<p style="line-height: 1.2">
+												MSc Medical Biotechnology, University of Torino, Italy 
+												<br> Phone: +39 0116709540<br>
+												E-mail: <a href="mailto:alessiacorrado2@gmail.com">alessiacorrado2@gmail.com</a>
+											</p>
+										</div>
+										
+										<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form> <p align="justify"><b>
+										The aim of my project is to characterize tumor microenvironment in murine models 
+										of breast cancer using MRI techniques. Specifically, the project focuses on 
+										the evaluation of tumor acidity, vascularization and hypoxia by using non-invasive 
+										in vivo molecular imagin techniques as CEST-MRI, dynamic contrast-enhanced (DCE) MRI 
+										and Oxygen-enhanced (OE) MRI.
+												</b>									
+											</p>
+										</form>
+										</div>
+										
+									</article>
+									</div>
+									<!--  <div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+											<img src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+									</div> -->
+									</div>
+									
+			
+									<hr></hr>
 									
 
 								<article class="box excerpt">
