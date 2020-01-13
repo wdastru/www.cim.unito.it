@@ -9,7 +9,7 @@
 -->
 <html>
 <head>
-    <title>Publications | REINERI Lab</title>
+    <title>Publications | D'ANDREA Lab</title>
     <?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
 </head>
 <body class="homepage">
@@ -37,15 +37,15 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Reineri/home.php" id="logo">REINERI LAB</a>
+							<a href="<?php echo $localizer; ?>PI/D'Andrea/home.php" id="logo">D'ANDREA LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Hyperpolarization - ParaHydrogen - Metabolism</p>
+								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Reineri/includes/menu_reineri.php'); ?>
+							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
 						</nav>
 
 					</div>
@@ -69,7 +69,7 @@
 									<ol class="default" reversed=true>
 									<div style="line-height: 1.5">
 										<p>Full list of publications are available at 
-										<a title="Open in a new window" href="https://scholar.google.it/citations?user=mJK0H8cAAAAJ&hl=it" target="_blank">Google Scholar</a>
+										<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=luca+domenico+d%27andrea" target="_blank">PubMed</a>
 										</p>
 									</div>
 								</ol>

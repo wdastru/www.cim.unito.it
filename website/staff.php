@@ -632,10 +632,10 @@ $localizer = "./";
 					style="background-image: url(images/staff/dandrea.jpg);"">
 					<div class="content">
 						<div class="table">
-						<a title="Profile" href="staff/staff_dandrea.php">
+						<a title="Profile" href="PI/DAndrea/home.php" target="_blank">
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
-									<b>Luca D'Andrea</b>
+									<b>Luca Domenico D'Andrea</b>
 								</h2>
 								<p style="font-size: 16px;">Researcher</p>
 							</div></a>
