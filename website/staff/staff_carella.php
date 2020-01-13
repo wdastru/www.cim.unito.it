@@ -27,7 +27,7 @@
 				<div class='paddingOuter'>
 					<div id='band'>
 						<h1 id='subsectionTitle'>
-							PhD and Graduate Students
+						Post Doctoral Research Fellows
 						</h1>
 					</div>
 					<div class='paddingInner'>
@@ -35,12 +35,12 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/staff/corrado.jpg" class="w3-image"
+								<img src="../images/staff/carella.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
 							<div class="w3-col w3-half">
-								<h1 style="color:#666666; text-align:left; padding-left:0px;">Alessia Corrado</h1>
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Antonella Carella</h1>
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Institute of Biostructure and Bioimaging<br />
 								National Research Council of Italy<br />
@@ -61,8 +61,9 @@
 					
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
-						<p style="line-height: 1.5">					
-							M.Sc. Medical Biotechnology, University of Torino, Italy <br>
+						<p style="line-height: 1.5">
+							Ph.D. in Biomedicine and Molecular Oncology, University of Oviedo, Spain<br>					
+							M.Sc. Medical Biotechnology and Molecular Medicine, University of Bari Aldo Moro, Italy <br>
 											</p>
 					
 					
@@ -73,11 +74,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>The aim of my project is to characterize tumor microenvironment in murine models 
-						of breast cancer using MRI techniques. Specifically, the project focuses on 
-						the evaluation of tumor acidity, vascularization and hypoxia by using non-invasive 
-						in vivo molecular imaging techniques as CEST-MRI, dynamic contrast-enhanced (DCE) MRI 
-						and Oxygen-enhanced (OE) MRI. </p>
+					<p>The focus of my research is to study magnetic resonance imaging (MRI) to measure tumor acidosis in glioblastoma, 
+						tracking spatial heterogeneity and spatial evolution. I am also interested in using molecular biology techniques to 
+						study RNA, DNA and proton pumps for monitoring tumor response to treatments and improving tumor diagnosis. </p>
 					</div>
 					
 					
@@ -91,18 +90,18 @@
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116709540<br /> 
-					E-mail: <a href="mailto:alessiacorrado2@gmail.com"><span style="color:#007c92">alessiacorrado2@gmail.com</span></a></p>
+					E-mail: <a href="mailto:antonellacarella@gmail.com"><span style="color:#007c92">antonellacarella@gmail.com</span></a></p>
 					
 					</div>
-					 <!--   
+				  
 					   <hr></hr>
 					
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Lorenzo+Palagi" target="_blank" style="color:#007c92">PubMed </a>
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Carella+Antonella" target="_blank" style="color:#007c92">PubMed </a>
 					
-					</div> -->
+					</div> 
 					   
 					   
 					   

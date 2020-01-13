@@ -175,9 +175,11 @@
 										<div class="showtext">
 										<div>My research aims at ...</div>
 										<form> <p align="justify"><b>
-												My research aims at building novel Matlab and Python based tools for processing preclinical MRI images, in particular devoted to exploit MRI-CEST (Chemical Exchange Saturation Transfer) methods for investigating tumor acidosis.
-					I am also involved in developing a customizable workflow engine for archiving, sharing, and processing medical images for preclinical imaging facilities
-						through the integration of an open source imaging informatics platform (<a href="www.xnat.org" target="_blank">XNAT</a>) with customized tools for automated image processing.</a>
+												My research aims at building novel Matlab and Python based tools for processing preclinical Magnetic Resonance (MR) images, 
+												particularly devoted to exploit CEST (Chemical Exchange Saturation Transfer) MRI methods for investigating tumor acidosis.
+												I am also involved in developing a customizable workflow for archiving, sharing, and processing medical images for preclinical imaging facilities
+												through the integration of an open source imaging informatics platform (<a href="www.xnat.org" target="_blank">XNAT</a>) 
+												with customized tools for automated image processing.</a>
 												</b>									
 											</p>
 										</form>
@@ -243,46 +245,7 @@
 									
 									<hr></hr>
 									
-									<div class="row">
-									<div class="8u 12u(mobile)">
-															
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/irrera.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
-										<div>
-											<header>
-												<h3>Pietro Irrera</h3>
-												<span>PhD student</span>
-											</header>
-											<p style="line-height: 1.2">
-												MSc Biotechnology, University of Torino, Italy<br> Phone: +39 0116709539<br> E-mail: <a
-													href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form> <p align="justify"><b>My project focuses on exploiting  MRI-CEST pH imaging as a non-invasive in vivo molecular imaging techniques 
-										to investigate tumor acidosis and treatment response to inhibitors of proton pump inhibitors in murine tumor models. 
-										I am also interested in using this novel technique for assessing kidney functionality in several renal diseases (acute kidney injuries following ischemia-reperfusion damage).
-												
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
 									
-												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/irrera_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-									</div>
-									
-									<hr></hr>
 							<div class="row">
 							<div class="8u 12u(mobile)">
 									<!-- Excerpt -->
@@ -322,8 +285,92 @@
 									
 									</div>
 									</div>
+																											
+									<hr></hr>
+
+									<div class="row">
+							<div class="8u 12u(mobile)">
 									
+
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/carella.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<div>
+											<header>
+												<h3>Antonella Carella</h3>												
+												<span>Postdoctoral Fellow</span>
+											</header>
+											<p style="line-height: 1.2">
+												Ph.D. in Biomedicine and Molecular Oncology, University of Oviedo, Spain<br>					
+												M.Sc. Medical Biotechnology and Molecular Medicine, University of Bari Aldo Moro, Italy 
+												<br> Phone: +39 0116709540<br>
+												E-mail: <a href="mailto:antonellacarella@gmail.com">antonellacarella@gmail.com</a>
+											</p>
+										</div>
+										
+										<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form> <p align="justify"><b>
+										The focus of my research is to study magnetic resonance imaging (MRI) to measure tumor acidosis in glioblastoma, 
+										tracking spatial heterogeneity and spatial evolution. I am also interested in using molecular biology techniques to 
+										study RNA, DNA and proton pumps for monitoring tumor response to treatments and improving tumor diagnosis.
+												</b>									
+											</p>
+										</form>
+										</div>
+										
+									</article>
+									</div>
+									<!--  <div class="4u 6u(mobile)">
 									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+											<img src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+									</div> -->
+									</div>
+									
+			
+									<hr></hr>
+
+									<div class="row">
+									<div class="8u 12u(mobile)">
+															
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/irrera.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
+										<div>
+											<header>
+												<h3>Pietro Irrera</h3>
+												<span>PhD student</span>
+											</header>
+											<p style="line-height: 1.2">
+												MSc Biotechnology, University of Torino, Italy<br> Phone: +39 0116709539<br> E-mail: <a
+													href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
+											</p>
+										</div>
+										
+										<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form> <p align="justify"><b>My project focuses on exploiting  MRI-CEST pH imaging as a non-invasive in vivo molecular imaging techniques 
+										to investigate tumor acidosis and treatment response to inhibitors of proton pump inhibitors in murine tumor models. 
+										I am also interested in using this novel technique for assessing kidney functionality in several renal diseases (acute kidney injuries following ischemia-reperfusion damage).
+												
+												</b>									
+											</p>
+										</form>
+										</div>
+										
+									</article>
+									</div>
+									<div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
+											<img src="<?php echo $localizer; ?>PI/Longo/images/irrera_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+									</div>
+									</div>
 									
 									<hr></hr>
 									<div class="row">
@@ -440,7 +487,7 @@
 										The aim of my project is to characterize tumor microenvironment in murine models 
 										of breast cancer using MRI techniques. Specifically, the project focuses on 
 										the evaluation of tumor acidity, vascularization and hypoxia by using non-invasive 
-										in vivo molecular imagin techniques as CEST-MRI, dynamic contrast-enhanced (DCE) MRI 
+										in vivo molecular imaging techniques as CEST-MRI, dynamic contrast-enhanced (DCE) MRI 
 										and Oxygen-enhanced (OE) MRI.
 												</b>									
 											</p>
@@ -461,7 +508,7 @@
 			
 									<hr></hr>
 									
-
+									
 								<article class="box excerpt">
 								<div>
 									<h2 class="second icon fa-user">Former Members</h2>
