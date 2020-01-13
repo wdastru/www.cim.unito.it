@@ -107,7 +107,6 @@
 			</div>
 		</div>
 	
-
 	<!-- Scripts -->
 
 	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
