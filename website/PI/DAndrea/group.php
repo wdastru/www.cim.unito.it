@@ -9,8 +9,8 @@
 -->
 <html>
 <head>
-	<title>Group Members | Longo Lab</title>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<title>Group Members | D'Andrea Lab</title>
+	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -36,15 +36,15 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
+								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
 						</nav>
 
 					</div>
@@ -75,23 +75,21 @@
 							<div class="8u 12u(mobile)">
 									<article class="box excerpt">
 										<img
-											src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg" alt="" style="width: 180px; height: auto; margin-bottom:80px;" class="image left"/>
+											src="<?php echo $localizer; ?>PI/DAndrea/images/dandrea.jpg" alt="" style="width: 180px; height: auto; margin-bottom:80px;" class="image left"/>
 										<div class="w3-row">
 										<div class="w3-threequarter">
 											<header>
-												<h3>Dario Livio Longo</h3>
+												<h3>Luca Domenico D'Andrea</h3>
 												<span><strong>Principal Investigator</strong></span>
 											</header>
 											<p style="line-height: 1.2">
-												Research Fellow<br> Molecular Imaging Center<br>
-												Academic activity: <a href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo" target=_blank>Dept. Molecular Biotechnology and Health Sciences</a><br>
-												Ph.D. Bio-Chemical Sciences, University of Torino<br>  
-												M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino<br>
-												Phone: +39 0116706473<br> 
-												E-mail: <a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a></p>
-												<a href="https://it.linkedin.com/in/dario-livio-longo-999a0336" target="_blank">
-												<img src="images/linkedin_profile.png" alt="view my profile on linkedin" height="40" align="left" style="padding-left:-10px"/></a>
-												
+												Senior Researcher<br> Molecular Imaging Center<br>
+												<!-- Academic activity: <a href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo" target=_blank>Dept. Molecular Biotechnology and Health Sciences</a><br> -->
+												Ph.D. ???<br>  
+												M.Sc. ???<br>
+												Phone: +39 0116709542<br> 
+												E-mail: <a href="mailto:lucadomenico.dandrea@cnr.it">lucadomenico.dandrea@cnr.it</a></p>
+																								
 											</div>									
 									
 										</div>
@@ -100,7 +98,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/longo_wordcloud.png" class="w3-image"
+											<img src="<?php echo $localizer; ?>PI/DAndrea/images/dandrea_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -114,27 +112,26 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/anemone.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
+										<img src="<?php echo $localizer; ?>PI/DAndrea/images/rossella_di_stasi.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
 										<div>
 											<header>
-												<h3>Annasofia Anemone</h3>
+												<h3>Rossella Di Stasi</h3>
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br>
-												MSc Biotechnology, University of Torino, Italy<br> Phone: +39
-												0116706476<br> E-mail: <a
-													href="mailto:annasofia.anemone@gmail.com">annasofia.anemone@gmail.com</a>
+												Ph.D. ???, University of Naples Federico II, Italy <br>
+												M.Sc. ???, University of Naples Federico II, Italy <br> Phone: +39
+												0812535229<br> E-mail: <a
+													href="mailto:rossella.distasi@cnr.it">rossella.distasi@cnr.it</a>
 											</p>
 										</div>
 										
 										<div class="showtext">
 										<div>My project focuses on ...</div>
-										<form> <p align="justify"><b>My project focuses on exploiting  MRI-CEST pH imaging as a non-invasive in vivo molecular imaging techniques 
-										to investigate tumor acidosis in murine tumor models. 
-										I am also interested in using this novel technique for assessing treatment response to inhibitors of cancer metabolism and
-										 to drugs targeting proton pumps.
-												
+										<form> <p align="justify"><b>Preparation and purification of recombinant proteins and application of spectroscopic and physic-chemical techniques for 
+										their structural and functional characterization. Refolding of insoluble proteins; binding assays for the study of protein-protein and/or protein-peptide 
+										interaction; screening of phage libraries for the identification of new ligands (stereo isomers L and D) for targets of biological interest for diagnostic 
+										and/or therapeutic applications.
 												</b>									
 											</p>
 										</form>
@@ -142,13 +139,7 @@
 										
 									</article>
 									</div>
-									<div class="4u 6u(mobile)">
 									
-												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
 									</div>
 									
 									<hr></hr>
@@ -158,28 +149,29 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/zullino.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo $localizer; ?>PI/DAndrea/images/lucia_de_rosa.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
-												<h3>Sara Zullino</h3>												
+												<h3>Lucia De Rosa</h3>												
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Complex Systems for Life Sciences, University of Torino, Italy<br>
-												MSc Biomedical Engineering, Sapienza University of
-												Rome, Italy <br> Phone: +39 0116709539<br>
-												E-mail: <a href="mailto:sara.zullino@unito.it">sara.zullino@unito.it</a>
+											Ph.D. ???, University of Naples Federico II, Italy <br>
+												M.Sc. ???, University of Naples Federico II, Italy <br> Phone: +39
+												Phone: +39 0812536685<br>
+												E-mail: <a href="mailto: lucia.derosa@unina.it"> lucia.derosa@unina.it</a>
 											</p>
 										</div>
 										
 										<div class="showtext">
 										<div>My research aims at ...</div>
 										<form> <p align="justify"><b>
-												My research aims at building novel Matlab and Python based tools for processing preclinical Magnetic Resonance (MR) images, 
-												particularly devoted to exploit CEST (Chemical Exchange Saturation Transfer) MRI methods for investigating tumor acidosis.
-												I am also involved in developing a customizable workflow for archiving, sharing, and processing medical images for preclinical imaging facilities
-												through the integration of an open source imaging informatics platform (<a href="www.xnat.org" target="_blank">XNAT</a>) 
-												with customized tools for automated image processing.</a>
+											The main skill of Dr De Rosa is peptide/protein synthesis and labeling using solid-phase synthesis and chemical 
+											ligation approaches. She is involved in research projects regarding: i)	development of peptide-based molecules with biomedical application 
+											using the mirror-image phage display library screening and rational design approaches; ii) Synthesis, structural and biological 
+											characterization of bioactive peptides and peptidomimetics able to modulate protein-protein interactions and with application 
+											as diagnostic or therapeutic tools; iii) peptides and proteins site-specific and multiple functionalization with molecular probes 
+											for application in biophysics and biomedicine.</a>
 												</b>									
 											</p>
 										</form>
@@ -187,543 +179,11 @@
 										
 									</article>
 									</div>
-									<div class="4u 6u(mobile)">
 									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
 									</div>
 									
 									<hr></hr>
 																	
-									
-									<div class="row">
-							<div class="8u 12u(mobile)">
-															
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/capozza.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
-										<div>
-											<header>
-												<h3>Martina Capozza</h3>												
-												<span>Postdoctoral Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												PhD in Pharmaceutical and Biomolecular Science, University of Torino, Italy
-												MSc in Biotechnology, University of Torino, Italy
-												<br> Phone: +39 0125561876<br>
-												E-mail: <a href="mailto:martina.capozza@unito.it">martina.capozza@unito.it</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>My research focuses on ...</div>
-										<form> <p align="justify"><b>
-												My research is focused on the evaluation of the physico-chemical properties, biodistribution and imaging 
-												performance of different contrast agents for photoacoustic and optical imaging. PhotoAcoustic Imaging (PAI) 
-												is a biomedical imaging modality based on the use of laser-generated ultrasounds, a PA image can be considered 
-												as an ultrasound image in which the contrast depends from the optical properties, particularly optical absorption. 
-												In particular, my research interests are focused on the evaluation in vitro and in vivo of several small near infrared 
-												(NIR) absorbing dyes, dye loaded nanosystems and metal phthalocyanine.
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/capozza_wordcloud.jpg" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-									</div>
-									
-									<hr></hr>
-									
-									
-							<div class="row">
-							<div class="8u 12u(mobile)">
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
-										<div>
-											<header>
-												<h3>Feriel Romdhane</h3>
-												<span>Postdoctoral Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												PhD Sciences and Technologies of Engineering, University of Tunisi, Tunisia<br>
-												MSc Automatic, University of Tunisi, Tunisia <br> Phone: +39
-												0116709539<br> E-mail: <a
-													href="mailto:ferielromdhane@yahoo.fr">ferielromdhane@yahoo.fr</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>The focus of my research is ...</div>
-										<form> <p align="justify"><b>The focus of my research is developing of magnetic resonance imaging sequences 
-										for the in vivo characterization of tumor acidosis. The main goal consists in the development of preclinical 
-										MRI scanner sequences to evaluate the acidification of the tumor microenvironment and in the development of 
-										new image analysis approaches to increase the accuracy of the tumor pH measurement.  												
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-									</div>
-																											
-									<hr></hr>
-
-									<div class="row">
-							<div class="8u 12u(mobile)">
-									
-
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/carella.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
-										<div>
-											<header>
-												<h3>Antonella Carella</h3>												
-												<span>Postdoctoral Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												Ph.D. in Biomedicine and Molecular Oncology, University of Oviedo, Spain<br>					
-												M.Sc. Medical Biotechnology and Molecular Medicine, University of Bari Aldo Moro, Italy 
-												<br> Phone: +39 0116709540<br>
-												E-mail: <a href="mailto:antonellacarella@gmail.com">antonellacarella@gmail.com</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form> <p align="justify"><b>
-										The focus of my research is to study magnetic resonance imaging (MRI) to measure tumor acidosis in glioblastoma, 
-										tracking spatial heterogeneity and spatial evolution. I am also interested in using molecular biology techniques to 
-										study RNA, DNA and proton pumps for monitoring tumor response to treatments and improving tumor diagnosis.
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<!--  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div> -->
-									</div>
-									
-			
-									<hr></hr>
-
-									<div class="row">
-									<div class="8u 12u(mobile)">
-															
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/irrera.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
-										<div>
-											<header>
-												<h3>Pietro Irrera</h3>
-												<span>PhD student</span>
-											</header>
-											<p style="line-height: 1.2">
-												MSc Biotechnology, University of Torino, Italy<br> Phone: +39 0116709539<br> E-mail: <a
-													href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form> <p align="justify"><b>My project focuses on exploiting  MRI-CEST pH imaging as a non-invasive in vivo molecular imaging techniques 
-										to investigate tumor acidosis and treatment response to inhibitors of proton pump inhibitors in murine tumor models. 
-										I am also interested in using this novel technique for assessing kidney functionality in several renal diseases (acute kidney injuries following ischemia-reperfusion damage).
-												
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/irrera_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-									</div>
-									
-									<hr></hr>
-									<div class="row">
-							<div class="8u 12u(mobile)">
-									
-
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/dhakan.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
-										<div>
-											<header>
-												<h3>Chetan Dhakan</h3>												
-												<span>PhD student</span>
-											</header>
-											<p style="line-height: 1.2">
-												MSc Pharmacology & Toxicology, Gujarat University, India
-												<br> Phone: +39 0116709540<br>
-												E-mail: <a href="mailto:chetan.dhakan@ibb.cnr.it">mailto:chetan.dhakan@ibb.cnr.it</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>The target of my project is ...</div>
-										<form> <p align="justify"><b>
-												The target of my project is validation and evaluation of novel biomarkers in atherosclerosis by means of DCE-MRI 
-										and Ultrasound Imaging. The final pathway is to identify and validate imaging parameters in order to differentiate between 
-										stable and vulnerable atherosclerotic plaques in genetically modified mouse models. I am also interested in MRI-CEST pH imaging 
-										for the evaluation of tumor acidosis.
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-								<!-- 	<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/dhakan_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div> -->
-									</div>
-									
-									<hr></hr>
-
-								
-									<div class="row">
-							<div class="8u 12u(mobile)">
-									
-
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
-										<div>
-											<header>
-												<h3>Daisy Villano</h3>												
-												<span>Graduate Student</span>
-											</header>
-											<p style="line-height: 1.2">
-												MSc Biomedical Engineering, University of Naples Federico II, Italy 
-												<br> Phone: +39 0116709539<br>
-												E-mail: <a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form> <p align="justify"><b>
-												My project focuses on the development of novel image-processing tools (mainly based on Matlab) 
-												for the analysis of 3D CEST MRI images and their representation. My research includes the development 
-												and the optimization of MRI acquisition sequences.
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<!--  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div> -->
-									</div>
-									
-			
-									<hr></hr>
-
-									<div class="row">
-							<div class="8u 12u(mobile)">
-									
-
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/corrado.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
-										<div>
-											<header>
-												<h3>Alessia Corrado</h3>												
-												<span>Graduate Student</span>
-											</header>
-											<p style="line-height: 1.2">
-												MSc Medical Biotechnology, University of Torino, Italy 
-												<br> Phone: +39 0116709540<br>
-												E-mail: <a href="mailto:alessiacorrado2@gmail.com">alessiacorrado2@gmail.com</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form> <p align="justify"><b>
-										The aim of my project is to characterize tumor microenvironment in murine models 
-										of breast cancer using MRI techniques. Specifically, the project focuses on 
-										the evaluation of tumor acidity, vascularization and hypoxia by using non-invasive 
-										in vivo molecular imaging techniques as CEST-MRI, dynamic contrast-enhanced (DCE) MRI 
-										and Oxygen-enhanced (OE) MRI.
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<!--  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div> -->
-									</div>
-									
-			
-									<hr></hr>
-									
-									
-								<article class="box excerpt">
-								<div>
-									<h2 class="second icon fa-user">Former Members</h2>
-									
-									<ul class="divided">
-									
-									
-									<div class="row">
-							<div class="8u 12u(mobile)">
-
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/consolino.jpg" alt="" style="width: 180px; height: auto; margin-bottom:120px;" class="image left"/>
-										<div>
-											<header>
-												<h3>Lorena Consolino</h3>
-												<span>Postdoctoral Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												PhD Molecular Bioscience, University of Torino, Italy<br> MSc
-												Biotechnology, University of Torino, Italy
-												<!-- <br> Phone: +39
-												0116706476<br> E-mail: <a
-													href="mailto:lorena.consolino@unito.it">lorena.consolino@unito.it</a>
-											</p> -->
-										</div>
-										
-										<!-- <div class="showtext">
-										<div>The focus of my reaserch is ...</div>
-										<form> <p align="justify"><b>
-												The focus of my reaserch is developing multi-parametric imaging approaches for the characterization of the 
-												tumor microenvironment (tumor vasculature, acidosis, hypoxia, and cellularity). The main goal is to identify 
-												and validate imaging parameters as novel tumor biomarkers in order to improve early detection, cancer treatment
-												 monitoring and formation of tumor metastasis.
-												</b>									
-											</p>
-										</form>
-										</div> -->
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/consolino_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-									</div>
-									
-									<hr></hr>
-									
-									<div class="row">
-									<div class="8u 12u(mobile)">
-									
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<a class="image left"><img src="<?php echo $localizer; ?>PI/Longo/images/pagoto.jpg" alt="" style="width: 190px; height: auto;"/></a>
-										<div>
-											<header>
-												<h3>Amerigo Pagoto</h3>
-												<span>Postdoctoral Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												Ph.D. Molecular Bioscience, University of Torino, Italy<br>
-												M.Sc. Biotechnology, University of Torino, Italy
-												<!-- <br> office: +39
-												0116706452<br> email: <a
-													href="mailto:amerigo.pagoto@unito.it">amerigo.pagoto@unito.it</a> -->
-											</p>
-										</div>
-										
-										<!-- <div class="showtext">
-										<div>The main activity where ...</div>
-										<form style="margin-left: 210px"> <p align="justify"><b>
-												The main activity where I am involved on at CIM is the design and tests of novel optical probes for oncologic imaging applications. 
-												Moreover, I am recently collaborating on the development of CEST-MRI tools based on endogenous protein unfolding processes, mainly for preclinical oncology
-												</b> 									
-											</p>
-										</form>
-										</div>-->
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/pagoto_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									</div>
-									</div>
-									
-									<hr></hr>
-									
-									
-											<div class="row">
-							<div class="8u 12u(mobile)">
-									
-
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/paglialonga.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
-										<div>
-											<header>
-												<h3>Alessandro Paglialonga</h3>												
-												<span>Graduate Student</span>
-											</header>
-											<p style="line-height: 1.2">
-												MSc Computer Science and Engineering, Politecnico di Milano, Italy 
-												<!-- <br> Phone: +39 0116706499<br>
-												E-mail: <a href="alessandro.paglialonga@mail.polimi.it">alessandro.paglialonga@mail.polimi.it</a> -->
-											</p>
-										</div>
-										
-										<!-- <div class="showtext">
-										<div>My project consists in  ...</div>
-										<form> <p align="justify"><b>
-												My project consists in the development of tools to archive, retrieve and process imaging datasets coming from different platforms and imaging centers.
-												</b>									
-											</p>
-										</form>
-										</div> -->
-										
-									</article>
-									</div>
-									</div>
-											
-										</ul>
-									</div>
-									</article>
-
-									<hr></hr>						
-							
-							<div class="row">
-							<div class="8u 12u(mobile)">
-							<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/bhavnarani.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
-										<div>
-											<header>
-												<h3>Bhavna Rani</h3>												
-												<span>Postdoctoral Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												PhD in Surgical Experimental Sciences and Cellular Therapies, University of Bari &#34;Aldo Moro&#34; (under Marie Curie ITN program)<br>
-												MSc in Oncology, Vrije Universiteit Amsterdam, The Netherlands 
-												<!-- <br> Phone: +39 0116706499<br>
-												E-mail: <a href="mailto:bhavna.rani@unito.it">bhavna.rani@unito.it</a> -->
-											</p>
-										</div>
-										
-										<!-- <div class="showtext">
-										<div>The focus of my research is ...</div>
-										<form> <p align="justify"><b>
-										The focus of my research is to develop novel pH imaging approaches to assess spatial and temporal tumor pH evolution during cancer progression. 
-										The main goal is to access the pH heterogeneity during the cancer progression (starting from dysplasia to invasive cancer) using MRI-CEST pH imaging approaches, 
-										histological and protein level analyses of tumor acidosis, glucose transporters and proton transporters markers in breast cancer (PyMT) and prostate (TRAMP) 
-										transgenic mouse models. I am also interested in exploring how metabolic pathway affected during pH evolution by analyzing metabolic imaging of Glycolysis, 
-										Pentose phosphate pathway (PPP) and Tricarboxylic acid pathway (TCA) pathway. 
-												
-												</b>									
-											</p>
-										</form>
-										</div> -->
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/bhavnarani_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-									</div>
-									
-								<div class="row">
-							<div class="8u 12u(mobile)">
-								<article class="box excerpt">
-								<div>
-									<h2 class="second icon fa-user">Lab Alumni</h2>
-									
-									<ul class="divided">
-											<li><b>Martina Maltone</b>, MSc student in Molecular Biotechnologies</li>
-											<li><b>Noemi Salmistraro</b>, MSc student in Molecular Biotechnologies</li>
-											<li><b>Deborah Ambrosecchia</b>, MSc student in Molecular Biotechnologies</li>
-											<li><b>Valeria Proietti Dante</b>, MSc student in Computer Science </li>
-											<li><b>Vittoria Ventura</b>, MSc student in Pharmaceutical Sciences </li>
-											<li><b>Miriam Roberto</b>, MSc student in Pharmaceutical Sciences </li>
-											
-										</ul>
-									</div>
-									</article>
-									</div>
-									</div>
-									
-									<hr></hr>
-									
-									<div class="row">
-							<div class="12u 12u(mobile)">
-								<article class="box excerpt">
-								<div>
-									<h2 class="second icon fa-user">Master Thesis Opportunities</h2>
-									
-									<p> We are offering master thesis for students registered with the Faculty of Biotechnology, Pharmacy, Physics, Bioengineering.<br>
-									A Master thesis (duration: at least 6 months) consists of a small scientific project, under the supervision of a postdoc or an advanced PhD student
-									in the fields of cancer biology - pharmaceutics - in vivo imaging - image processing.</p>
-									
-									</div>
-									</article>
-									</div>
-								
-								
-							
-
 						</div>
 					</div>
 				</div>
