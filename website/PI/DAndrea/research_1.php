@@ -9,8 +9,8 @@
 -->
 <html>
 <head>
-	<title>MRI probes | Longo Lab</title>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<title>Protein Development | D'Andrea Lab</title>
+	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -36,15 +36,15 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>/PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
+								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
 						</nav>
 
 					</div>
@@ -64,19 +64,17 @@
 
 							<article>
 
-								<h3 font style="text-transform: none;">DCE-MRI for assessing tumor angiogenesis and therapeutic response</h3>
+								<h3 font style="text-transform: none;">Development of protein binders by mirror-image phage display peptide library screening</h3>
 								
-								<p align="justify">It has become evident the key role that tumor vasculature plays in tumor growth and progression.
-								 At the same time, a more detailed understanding of the complex parameters that govern the interactions between the tumour
-								and vascular compartments will help to improve anti-angiogenic strategies.
-								Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is the methodology of choice for 
-								the evaluation of tumor angiogenesis, following the injection of a 
-								<a href="<?php echo $localizer; ?>/PI/Longo/research_probes.php"><font color="blue">Gd-based contrast agent</font></a> and recording changes in signal intensity along time.
-								This non-ivasive imaging-based approach can provide a detailed view of tumor vasculature, including vessel permeability 
-								and plasmatic volume.
-								<br><strong>Our lab is interested in developing DCE-MRI protocols for accurate assessment of tumor vascuature heterogeneity 
-								and in investigating how vasculature changes are correlated with therapeutic response to antiangiogenic treatment.</strong>
+								<p align="justify">Mirror-image phage display peptide library screening is a methodology to find metabolically stable 
+								D-peptides as protein binders. First, the target protein is synthesized by native chemical ligation as all-D isoform, 
+								then a phage display peptide library is screened against the D-protein to find L-peptide binders. For symmetry, the 
+								corresponding D-peptides will bind the natural protein target. In this way, a metabolically stable peptide binder can 
+								be developed. Crucial to this approach is the ability to synthesize by native chemical ligation the D-protein.
 								</p>
+
+								<div style="text-align: center;">
+									<img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_1.jpg" style="max-width: 30%; height: auto;"><br/></div>
 
 
 							</article>
@@ -89,60 +87,25 @@
 									<article>
 
 										<header>
-											<h3 font style="text-transform: none;">
-												<font color="red">DCE-MRI for tumor vessel heterogeneity</font></a>
-											</h3>
-											
-											<p font style="text-transform: none; font-size:1.3em">Imaging therapeutic response to antigiogenic drugs</p>
+											<p font style="text-transform: none; font-size:1.3em">Peptide molecules activating Axl/Gas6 system for the treatment of multiple sclerosis</p>
 										</header>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis1.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_1_1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
-											Dynamic contrast-enhanced magnetic resonance imaging
-										(DCE-MRI) is the methodology of choice for the evaluation of tumor angiogenesis.
-										DCE-MRI allows investigating microvascular structure and function
-										by tracking the pharmacokinetics of an injected Gd-based contrast
-										agent (CA) as it passes through the tumor vasculature. The obtained
-										enhancement patterns reflect vascular perfusion and permeability of
-										the tumor. In the quantitative analysis approach, pharmacokinetic models are
-										applied to contrast agent concentration data to enable estimates of
-										physiological parameters, including plasma volume (vp), forward
-										vascular transfer constant (Ktrans) and the reverse vascular transfer
-										constant (kep). There is an overall agreement in
-										considering tumor heterogeneity as one of the key factors of the
-										disease. Conversely,the values of the DCE-MRI estimates are therefore strongly
-										dependent on how the tumor ROIs are drawn and on the applied statistic analysis. 
-										We addressed this limitation by proposing a clustering approach for assessing tumor heterogeneity and thereof
-										changes in the evaluation of the response to a DNA-based antiangiogenic treatment employing a blood-pool contrast agent
-										at 1 T 
-										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/26480471"
-										target="_blank"><font color="blue">[Longo et al. 2016]</font></a>.
-										Within the clustering approach, based on a pixel-by-pixel
-										analysis, the whole tumor has been segmented into several
-										sub-regions according to their enhancement/permeability properties.
-																				
-											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25839393"
-												target="_blank"><font color="blue">[Longo et al. 2015]</font></a>, 
+										Axl is a tyrosine kinases receptor playing crucial role in several cellular responses. Axl/Gas6 signaling has been 
+										demonstrated to be involved in the pathogenesis of the multiple sclerosis (MS). In fact, oligodendrocytes (ODs) 
+										apoptosis is one of the features characterizing newly-forming myelin lesions in MS patients. Axl/Gas6 system is 
+										known to promote ODs maturation and survival and, thus, the down-regulation of Axl/Gas6 signaling observed in MS 
+										lesion contributes to disease progression. The selection of new molecules targeting and activating Axl receptor and 
+										thus able to restore the physiological homeostasis of Gas6/Axl system in MS patients represents a potential strategy 
+										for preventing or ameliorating demyelination in MS. This activity aims to find novel peptide molecules able to activate 
+										Axl receptor in order to induce ODs survival and axon remyelination. We focus on Ig2 domain of Axl, one of the key 
+										extracellular regions of the receptor involved in ligand binding. The protein was synthesized in its D-enantiomeric 
+										form (D-Axl-2), opening the way to the selection of D-peptides selectively targeting Axl receptor through the mirror-image 
+										phage display peptide library screening approach
 											
-										
-										</p>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis2.jpg" alt="" class="image zooming">
-										<p align="justify">A clustering analysis was performed on a voxel-by-voxel basis
-										to evaluate spatial distribution of tumor Ktrans and vp parametric maps.
-										This study indicates that improvement in the visualization and
-										quantification of heterogeneity in the angiogenic response of tumor
-										to therapy can be assessed by a clustering approach, even though
-										not-homogeneous permeability changes occurred in different areas of
-										a tumor.</p>
-										
-										<p align="justify">
-										We shown that DCE-MRI can also provide assessment of therapeutic response to vaccine targeting tumor vasculature.
-										In fact, a DNA vaccine targeting Angiomotin (Amot, an angiostatin receptors expressed by the endothelia of angiogenic tissues)
-										resulted in tumor growth inhibition that was associated with an increase of vessels diameter and of vessel permeability,
-										as determined by a DCE-MRI approach
-											
-											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25238643"
-												target="_blank"><font color="blue">[Arigoni et al. 2012]</font></a>. 												
+											<a class="html" href="https://www.sciencedirect.com/science/article/pii/S0040402019300171"
+												target="_blank"><font color="blue">[De Rosa et al. 2019]</font></a>. 												
 										</p>
 										
 									</article>
@@ -157,54 +120,24 @@
 									<article>
 
 										<header>
-											<h3 font style="text-transform: none;">
-												<font color="red">Imaging tumor angiogenesis</font></a>
-												
-											</h3>
-											</br>
-											<p font style="text-transform: none; font-size:1.3em">Tumor vascularization and angiogenic switch</p>
+											<p font style="text-transform: none; font-size:1.3em">Peptide-based molecular imaging probes targeting Axl receptor as biomarker for the early detection of drug resistances in cancer</p>
 										</header>
 
 										<p align="justify">
-											Tumour progression depends on several sequential events that include the microenvironment remodelling processes and the
-											switch to the angiogenic phenotype, leading to new blood vessels recruitment.
-											Since tumour microvessels exhibit such unique properties, the real time monitoring of
-											alterations in vascularity using DCE-MRI appears to be the most suitable approach to succeed in
-											early breast cancer detection and characterization. We showed that DCE-MRI could detect functional tumour
-											microenvironment changes along the multistep carcinogenesis process observed in the BALB-neuT model, before palpable
-											mass formation, compared to normal mammary glands of BALB/c mice. We demonstrated a significant
-											increase in DCE-MRI biomarkers during malignant transformation. This â€œangiogenic switchâ€� coincided with an increase in vessel
-											permeability and plasma volume, and histology confirmed that the number of microvessels had increased. These results
-											suggest that DCE-MRI may be a valuable tool for early, non-invasive detection of breast cancer
-											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/26941084"
-												target="_blank"><font color="blue"> [Consolino et al. 2016] </font></a> 
-											</p>
+										Axl receptor and its ligand Gas6 were demonstrated to be overexpressed in different human cancers, providing a pro-survival advantage,
+										 inducing proliferation, migration, angiogenesis and, additionally, allowing the generation of an immunosuppressed microenvironment. 
+										 Axl expression has been associated with acquired resistance to conventional chemotherapy and targeted therapy and its upregulation 
+										 has been correlated with poor prognosis, increased invasiveness/metastasis and development of drug resistance in several tumors. 
+										 These data suggest that Axl receptor is an effective target for cancer diagnosis and has also a prognostic value. Axl imaging may 
+										 aid in the clinical follow-up of cancer patients, predicting when the first-line treatment starts to became ineffective due to the
+										  development of resistance. We intend to develop peptide-based molecules targeting Axl receptors, with high specificity and affinity 
+										  and with high serum stability, using the mirror-image phage display peptide library screening. Such peptide molecules will be suitably 
+										  functionalized with tracers to obtain molecular probes for Axl imaging using PET/MRI and optical imaging techniques. We focus on 
+										  fibronectin-like extracellular domains of Axl which will be prepared by recombinant DNA technology (L-form) and by chemical synthesis (D-form).
 											
-											<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis3.jpg" alt="" class="image zooming">
+										 <img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_2_1.jpg" alt="" class="image zooming">
 											
-											<p align="justify">
-											We exploited a similar approach studying gastrointestinal stromal
-											tumors (GISTs) that develop resistance to the first-line imatinib
-											treatment. Recently, increased vessel density and angiogenic
-											markers were reported in GISTs with a poor prognosis,
-											suggesting that angiogenesis is implicated in GIST tumor progression and resistance.
-											We showed that Imatinib-resistant tumors exhibit increased Ktrans and vp
-											values compared to imatinib-sensitive ones, as confirmed
-											by our ex vivo quantifications of MVD and MDD in
-											GIST430 tumor sections. In addition, a strong positive
-											correlation was observed between MRI and histological
-											estimates
-																					
-											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/27995483"
-												target="_blank"><font color="blue"> [Consolino et al. 2017] </font></a>.
-												</p>
-										
-											<img src="<?php echo $localizer; ?>/PI/Longo/images/angiogenesis4.jpg" alt="" class="image zooming">
 											
-											<p align="justify"> The current study suggests that the assessment of
-											angiogenesis could be considered a promising new biomarker
-											of response to imatinib treatment.</p>
-										
 									</article>
 								</section>
 							</div>
