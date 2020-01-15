@@ -9,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>Contact Us | D'ANDREA Lab</title>
+		<title>Contact Us | D'Andrea Lab</title>
 		<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
 	</head>
 	<body class="homepage">
@@ -36,9 +36,9 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.php" id="logo">D'Andrea LAB</a>
+							<a href="home.php" id="logo">Luca D'Andrea LAB</a>
 							<div>
-								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
+								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
 							</div>
 						</h1>

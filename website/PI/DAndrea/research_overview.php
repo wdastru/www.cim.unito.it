@@ -9,7 +9,7 @@
 -->
 <html>
 <head>
-    <title>Research | D'ANDREA Lab</title>
+    <title>Research | D'Andrea Lab</title>
 	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
 </head>
 <body class="homepage">

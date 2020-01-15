@@ -9,7 +9,7 @@
 -->
 <html>
 <head>
-    <title>Publications | D'ANDREA Lab</title>
+    <title>Publications | D'Andrea Lab</title>
     <?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
 </head>
 <body class="homepage">
@@ -37,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/D'Andrea/home.php" id="logo">D'ANDREA LAB</a>
+							<a href="<?php echo $localizer; ?>PI/D'Andrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 

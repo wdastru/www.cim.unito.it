@@ -9,7 +9,7 @@
 -->
 <html>
 <head>
-	<title>Home | D'ANDREA LAB</title>
+	<title>Home | D'Andrea Lab</title>
 	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
 </head>
 <body class="homepage">
@@ -135,7 +135,7 @@
 									<header>
 										<h4 font style="text-transform: none;" align="center">Design and synthesis of VEGF/VEGF receptors targeting compounds</h4>
 									</header>
-									<a href="<?php echo $localizer; ?>PI/DAndrea/research_3.php"><img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview3.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo $localizer; ?>PI/DAndrea/research_3.php"><img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_3.jpg" alt="" class="image featured" /></a>
 									<a href="<?php echo $localizer; ?>PI/DAndrea/research_3.php"><font color="blue">Read more >></font></a>
 									
 								</section>
