@@ -581,11 +581,6 @@ $localizer = "./";
 								</div>
 							</div>
 							
-
-
-
-
-
 </div>
 
 						<div id='band'>
@@ -678,20 +673,6 @@ $localizer = "./";
 						</div>
 					</div>
 				</div>
-				<div class="square bg"
-					style="background-image: url(images/staff/arena.jpg);">
-					<div class="content">
-						<div class="table">
-						<a title="Profile" href="staff/staff_arena.php">
-							<div class="table-cell">
-								<h2 style="font-size: 20px;">
-									<b>Francesca Arena</b>
-								</h2>
-								<p style="font-size: 16px;">Research Fellow</p>
-							</div></a>
-						</div>
-					</div>
-				</div>
 			</div>
 			</div>
 			
@@ -704,10 +685,6 @@ $localizer = "./";
 							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->  University of Eastern Piedmont Amedeo Avogadro  <!-- InstanceEndEditable --></h1>
 						</div>
 						<div class='paddingInner'>
-
-							
-
-
 							<div class="row">
 								<div class="w3-container">
 									<div class="square bg"
@@ -762,6 +739,20 @@ $localizer = "./";
 						<div class='paddingInner'>				
 							<div class="row">
 								<div class="w3-container">
+									<div class="square bg"
+										style="background-image: url(images/staff/arena.jpg);">
+											<div class="content">
+												<div class="table">
+												<!-- <a title="Profile" href="staff/staff_arena.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Francesca Arena</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div></a>
+											</div>
+										</div>
+									</div>
 									<div class="square bg"
 										style="background-image: url(images/staff/capuana.jpg);">
 										<div class="content">
