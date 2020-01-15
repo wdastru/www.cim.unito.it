@@ -122,7 +122,7 @@
 											</header>
 											<p style="line-height: 1.2">
 												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br>
-												MSc Biotechnology, University of Torino, Italy<br> Phone: +39
+												M.Sc. Biotechnology, University of Torino, Italy<br> Phone: +39
 												0116706476<br> E-mail: <a
 													href="mailto:annasofia.anemone@gmail.com">annasofia.anemone@gmail.com</a>
 											</p>
@@ -165,8 +165,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Complex Systems for Life Sciences, University of Torino, Italy<br>
-												MSc Biomedical Engineering, Sapienza University of
+												Ph.D. Complex Systems for Life Sciences, University of Torino, Italy<br>
+												M.Sc. Biomedical Engineering, Sapienza University of
 												Rome, Italy <br> Phone: +39 0116709539<br>
 												E-mail: <a href="mailto:sara.zullino@unito.it">sara.zullino@unito.it</a>
 											</p>
@@ -211,8 +211,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD in Pharmaceutical and Biomolecular Science, University of Torino, Italy
-												MSc in Biotechnology, University of Torino, Italy
+												Ph.D. in Pharmaceutical and Biomolecular Science, University of Torino, Italy
+												M.Sc. in Biotechnology, University of Torino, Italy
 												<br> Phone: +39 0125561876<br>
 												E-mail: <a href="mailto:martina.capozza@unito.it">martina.capozza@unito.it</a>
 											</p>
@@ -257,8 +257,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Sciences and Technologies of Engineering, University of Tunisi, Tunisia<br>
-												MSc Automatic, University of Tunisi, Tunisia <br> Phone: +39
+												Ph.D. Sciences and Technologies of Engineering, University of Tunisi, Tunisia<br>
+												M.Sc. Automatic, University of Tunisi, Tunisia <br> Phone: +39
 												0116709539<br> E-mail: <a
 													href="mailto:ferielromdhane@yahoo.fr">ferielromdhane@yahoo.fr</a>
 											</p>
@@ -342,10 +342,10 @@
 										<div>
 											<header>
 												<h3>Pietro Irrera</h3>
-												<span>PhD student</span>
+												<span>Ph.D. student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Biotechnology, University of Torino, Italy<br> Phone: +39 0116709539<br> E-mail: <a
+												M.Sc. Biotechnology, University of Torino, Italy<br> Phone: +39 0116709539<br> E-mail: <a
 													href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
 											</p>
 										</div>
@@ -383,10 +383,10 @@
 										<div>
 											<header>
 												<h3>Chetan Dhakan</h3>												
-												<span>PhD student</span>
+												<span>Ph.D. student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Pharmacology & Toxicology, Gujarat University, India
+												M.Sc. Pharmacology & Toxicology, Gujarat University, India
 												<br> Phone: +39 0116709540<br>
 												E-mail: <a href="mailto:chetan.dhakan@ibb.cnr.it">mailto:chetan.dhakan@ibb.cnr.it</a>
 											</p>
@@ -431,7 +431,7 @@
 												<span>Graduate Student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Biomedical Engineering, University of Naples Federico II, Italy 
+												M.Sc. Biomedical Engineering, University of Naples Federico II, Italy 
 												<br> Phone: +39 0116709539<br>
 												E-mail: <a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 											</p>
@@ -475,7 +475,7 @@
 												<span>Graduate Student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Medical Biotechnology, University of Torino, Italy 
+												M.Sc. Medical Biotechnology, University of Torino, Italy 
 												<br> Phone: +39 0116709540<br>
 												E-mail: <a href="mailto:alessiacorrado2@gmail.com">alessiacorrado2@gmail.com</a>
 											</p>
@@ -528,7 +528,7 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Molecular Bioscience, University of Torino, Italy<br> MSc
+												Ph.D. Molecular Bioscience, University of Torino, Italy<br> M.Sc.
 												Biotechnology, University of Torino, Italy
 												<!-- <br> Phone: +39
 												0116706476<br> E-mail: <a
@@ -617,7 +617,7 @@
 												<span>Graduate Student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Computer Science and Engineering, Politecnico di Milano, Italy 
+												M.Sc. Computer Science and Engineering, Politecnico di Milano, Italy 
 												<!-- <br> Phone: +39 0116706499<br>
 												E-mail: <a href="alessandro.paglialonga@mail.polimi.it">alessandro.paglialonga@mail.polimi.it</a> -->
 											</p>
@@ -653,8 +653,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD in Surgical Experimental Sciences and Cellular Therapies, University of Bari &#34;Aldo Moro&#34; (under Marie Curie ITN program)<br>
-												MSc in Oncology, Vrije Universiteit Amsterdam, The Netherlands 
+												Ph.D. in Surgical Experimental Sciences and Cellular Therapies, University of Bari &#34;Aldo Moro&#34; (under Marie Curie ITN program)<br>
+												M.Sc. in Oncology, Vrije Universiteit Amsterdam, The Netherlands 
 												<!-- <br> Phone: +39 0116706499<br>
 												E-mail: <a href="mailto:bhavna.rani@unito.it">bhavna.rani@unito.it</a> -->
 											</p>
