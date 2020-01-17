@@ -85,10 +85,10 @@
 											<p style="line-height: 1.2">
 												Senior Researcher<br> Molecular Imaging Center<br>
 												<!-- Academic activity: <a href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo" target=_blank>Dept. Molecular Biotechnology and Health Sciences</a><br> -->
-												Ph.D. ???<br>  
-												M.Sc. ???<br>
+												Ph.D. Chemical Sciences<br>  
+												M.Sc. Chemistry<br>
 												Phone: +39 0116709542<br> 
-												E-mail: <a href="mailto:lucadomenico.dandrea@cnr.it">lucadomenico.dandrea@cnr.it</a></p>
+												E-mail: <a href="mailto:luca.dandrea@cnr.it">luca.dandrea@cnr.it</a></p>
 																								
 											</div>									
 									
@@ -116,7 +116,7 @@
 										<div>
 											<header>
 												<h3>Rossella Di Stasi</h3>
-												<span>Postdoctoral Fellow</span>
+												<span>Researcher</span>
 											</header>
 											<p style="line-height: 1.2">
 												Ph.D. ???, University of Naples Federico II, Italy <br>
@@ -153,7 +153,7 @@
 										<div>
 											<header>
 												<h3>Lucia De Rosa</h3>												
-												<span>Postdoctoral Fellow</span>
+												<span>Postdoctoral Fellow Veronesi Foundation</span>
 											</header>
 											<p style="line-height: 1.2">
 											Ph.D. ???, University of Naples Federico II, Italy <br>

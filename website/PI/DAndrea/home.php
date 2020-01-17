@@ -99,7 +99,7 @@
 												and Bioimaging (IBB),<br /> Italian National Research Council
 												(CNR),<br /> Via Nizza 52,<br /> 10126 Torino - Italy<br />
 												Tel: +39 011 6709542<br />  <a
-													href="mailto:lucadomenico.dandrea@cnr.it">lucadomenico.dandrea@cnr.it</a>
+													href="mailto:luca.dandrea@cnr.it">luca.dandrea@cnr.it</a>
 											</p>
 										</div>
 
@@ -133,7 +133,7 @@
 							<div class="3u 6u(mobile)">
 								<section>
 									<header>
-										<h4 font style="text-transform: none;" align="center">Design and synthesis of VEGF/VEGF receptors targeting compounds</h4>
+										<h4  align="center">Design and synthesis of VEGF/VEGF receptors targeting compounds</h4>
 									</header>
 									<a href="<?php echo $localizer; ?>PI/DAndrea/research_3.php"><img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_3.jpg" alt="" class="image featured" /></a>
 									<a href="<?php echo $localizer; ?>PI/DAndrea/research_3.php"><font color="blue">Read more >></font></a>

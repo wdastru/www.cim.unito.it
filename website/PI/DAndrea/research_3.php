@@ -130,16 +130,16 @@
 									<article>
 
 										<header>
-											<p font style="text-transform: none; font-size:1.3em">VEGFR targeting &alpha;-hairpin peptides with proangiogenic activity</p>
+											<p font style="text-transform: none; font-size:1.3em">VEGFR targeting &beta;-hairpin peptides with proangiogenic activity</p>
 										</header>
 
 										<p align="justify">
-										This class of peptides was designed to mimic the &alpha;-hairpin region 79-93 of VEGF. We found that peptide HPLW showed an interesting 
+										This class of peptides was designed to mimic the &beta;-hairpin region 79-93 of VEGF. We found that peptide HPLW showed an interesting 
 										VEGF-like biological activity 
 										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/21969375"
 												target="_blank"><font color="blue">[Diana et al 2011]</font></a>. 
 										HPLW in solution is a monomer and assumes a stable 
-										&alpha;-hairpin structure as determined by NMR. The binding mode with VEGFRs was analyzed by NMR, either in vitro and in presence of 
+										&beta;-hairpin structure as determined by NMR. The binding mode with VEGFRs was analyzed by NMR, either in vitro and in presence of 
 										endothelial cells. 15N-edited NMR spectroscopic experiments demonstrate that an interaction between HPLW and VEGFR2 occurs on the 
 										surface of ECs. Furthermore, competition experiments in presence of VEGF, confirmed the specificity of the interaction 
 										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25378243"

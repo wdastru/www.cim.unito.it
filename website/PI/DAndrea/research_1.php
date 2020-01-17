@@ -135,7 +135,7 @@
 										  functionalized with tracers to obtain molecular probes for Axl imaging using PET/MRI and optical imaging techniques. We focus on 
 										  fibronectin-like extracellular domains of Axl which will be prepared by recombinant DNA technology (L-form) and by chemical synthesis (D-form).
 											
-										 <img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_2_1.jpg" alt="" class="image zooming">
+										 <img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_1_2.jpg" alt="" class="image zooming">
 											
 											
 									</article>
