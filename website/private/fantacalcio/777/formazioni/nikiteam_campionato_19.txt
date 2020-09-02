@@ -1,0 +1,31 @@
+3 - 4 - 3
+1 - 3 - 4 - 3
+2 - 5 - 4 - 3
+OSPINA David
+MERET Alex
+SEPE Luigi
+CRISCITO Domenico
+NKOULOU Nicolas
+DALBERT Henrique
+ALVES Bruno
+PEZZELLA German
+FERRARI Gianmarco
+LARSEN Jens Stryger
+COLLEY Omar
+MKHITARYAN Henrikh
+DEMME Diego
+KLUIVERT Justin
+BERENGUER Alex
+DUNCAN Alfred
+MANDRAGORA Rolando
+NANDEZ Nahitan
+SORIANO Roberto
+IMMOBILE Ciro
+LUKAKU Romelu
+OKAKA Stefano
+BERARDI Domenico
+PIATEK Krzysztof
+SANSONE Nicola
+68
+3331980829
+Fri 21 Feb 2020 - 08:36:57

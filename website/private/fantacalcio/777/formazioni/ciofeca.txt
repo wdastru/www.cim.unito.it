@@ -10,7 +10,7 @@ MANOLAS Konstantinos
 AINA Ola
 MUSACCHIO Mateo
 KJAER Simon
-MURILLO Jeison Fabian
+BASTONI Alessandro
 MANCINI Gianluca
 PJANIC Miralem
 CHIESA Federico
@@ -21,11 +21,11 @@ ZIELINSKI Piotr
 ÜNDER Cengiz
 LUIS ALBERTO Romero Alconchel
 BALOTELLI Mario
-PINAMONTI Andrea
-PEDRO -
+REBIC Ante
+CUTRONE Patrick
 VLAHOVIC Dusan
 MARTINEZ Lautaro
 LASAGNA Kevin
-187
+122
 3337815436
-Fri 20 Sep 2019 - 09:12:26
+Sat 15 Feb 2020 - 14:27:58
