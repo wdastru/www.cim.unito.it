@@ -1,0 +1,4 @@
+AuthType	Basic
+AuthName	AutoDip_local_access
+AuthUserFile    /var/www/localhost/htdocs/www.cim.unito.it/website/private/autodip/.htpasswd
+require user 	autodip

@@ -1,0 +1,31 @@
+3 - 5 - 2
+1 - 3 - 5 - 2
+2 - 5 - 3 - 4
+GOLLINI Pierluigi
+SIRIGU Salvatore
+SPORTIELLO Marco
+GOSENS Robin
+KOULIBALY Kalidou
+MILENKOVIC Nikola
+CASTAGNE Timothy
+FAZIO Federico
+SPINAZZOLA Leonardo
+CACCIATORE Fabrizio
+IACOPONI Simone
+MILINKOVIC Sergej
+KHEDIRA Sami
+CALLEJON Jose Maria
+MANCOSU Marco
+KESSIE Franck
+ANSALDI Cristian
+ALLAN Marques Loureiro
+RABIOT Adrien
+DYBALA Paulo
+CORREA Carlos Joaquin
+LEAO Rafael
+LOZANO Hirving
+DEFREL Gregoire
+ZAZA Simone
+7
+3395989215
+Tue 25 Feb 2020 - 11:46:59
