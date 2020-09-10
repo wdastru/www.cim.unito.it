@@ -91,7 +91,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706485<br /> 
+					Phone: +390116709539<br /> 
 					E-mail: <a href="mailto:sara.zullino@unito.it"><span style="color:#007c92">sara.zullino@unito.it</span></a></p>
 					
 					</div>
