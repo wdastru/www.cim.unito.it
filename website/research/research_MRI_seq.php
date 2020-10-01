@@ -6,16 +6,44 @@ $localizer = "../";
 <html xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+    	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            
+        <?php 
+            require $localizer . 'includes/head_const.inc.php';
+            require $localizer . 'includes/jquery.fancybox.inc.php'; 
+        ?>
         <title>Molecular Imaging Center - University of Torino - MRI sequences </title>
         <meta name="description" content="" />
     </head>
     <body>
+    <div class='centered' id='hiddenBox' style='border-radius: 10px; border: 5px solid black; z-index:1; width:600px; display: none; visibility:hidden; font-weight:bold; color:#db6d16; background-color: #000d; padding: 16px;'>
+		<form class='table' method="post" action="<?php echo $localizer . 'research/MRI_sequences/sequence_request_validator.php' ?>">
+			<div class='tableRow'><label class='tableCell firstCol' for="nname">Your Name: </label>
+			<input class='tableCell secondCol' type="text" id="name" name="name"></div> 
+			<div class='tableRow'><label class='tableCell firstCol' for="organization">Your Organization: </label>
+			<input class='tableCell secondCol' type="text" id="organization" name="organization" /></div> 
+			<div class='tableRow'><label class='tableCell firstCol' for="country">Your Country: </label>
+			<input class='tableCell secondCol' type="text" id="country" name="country" /></div>
+			<div class='tableRow'><label class='tableCell firstCol' for="area_res">Your primary area of research: </label>
+			<input class='tableCell secondCol' type="text" id="area_res" name="area_res" /></div> 
+			<div class='tableRow'><label class='tableCell firstCol' for="email">Your email address: </label>
+			<input class='tableCell secondCol' type="email" id="email" name="email" /></div>
+			<div class='tableRow'>
+			<input class='tableCell firstCol' style='width:50%' type="submit" value="Submit" /></div>
+			<div class='tableRow'>
+			<input class='tableCell firstCol' style='width:50%' type="button" value="Cancel" onmousedown="hideFormBox()" /></div>
+			<input class='tableCell' id='hiddenSeqNameInput' type="hidden" name="sequence_name" value="" />
+		</form>		
+	</div>	
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section1'>
             <?php
             require ('../includes/main-nav.php');
             ?>
+            
+            	
+						
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id="subsection23">
@@ -26,28 +54,82 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div id='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->MRI sequences 
+                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->MRI Sequence Development
                              <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                                            
-							<p>The sequence is provided for free but to download our software please fill out this form.</p><br>
-							<p>All information collected will be stored securely and will never be used for commercial purposes.</p><br><br> 
 
-						<form method="post" action="<?php echo $localizer . 'includes/sequence_request_validator.php' ?>">
-							<label for="nname">Your Name:</label><br/> 
-							<input type="text" id="name" name="name"><br/> 
-							<label for="organization">Your Organization:</label><br/>
-							<input type="text" id="organization" name="organization"><br/> 
-							<label for="country">Your Country:</label><br/>
-							<input type="text" id="country" name="country"><br/> 
-							<label for="area_res">Your primary area of research:</label><br/>
-							<input type="text" id="area_res" name="area_res"><br/> 
-							<label for="email">Your email address:</label><br>
-							<input type="email" id="email" name="email"><br><br>
-							<input type="submit" value="Submit">
-						</form>					                                            
+						<p class="indent">
+							The MRI sequence development team focuses on the development and
+							optimization of new magnetic resonance imaging (MRI) sequences
+							and protocols tailored to several preclinical applications for
+							Bruker and Aspect Imaging MRI scanners. Led by Dr. Walter Dastr&uacute;
+							and Dr. Dario Longo, the team specializes in MRI data
+							acquisition, imae reconstruction and data analysis, covering
+							gadolinium-based, <sup>19</sup>F and CEST-MRI applications for improving
+							acquisition time, volume coverage and contrast. Developed
+							sequences are free for downloading by all interested research
+							parties. If the sequences are used for publication purposes,
+							acknowledgments in the manuscript about the sequence are
+							appreciated.
+						</p>
+
+						<ul>
+							<li><b>A single-shot single-slice sequence for CW-CEST imaging</b><br>A
+									single-shot centric encoding RARE-based sequence with an
+									implemented frequency offsets loop that allows to store all the
+									images sampled with different frequencies (with CW saturation)
+									in a single MR scan. This package contains the files and the
+									instructions for a multislice CEST sequence installation and
+									first use. The sequence is based on a RARE method developed for
+									Bruker MRI scanners running with ParaVision 5.1 and with a
+									modified Magnetization Transfer module. <br> More information
+										about the sequence is available in: <br>
+							
+							<i>"Iopamidol as a responsive MRI-chemical exchange saturation
+									transfer contrast agent for pH mapping of kidneys: In vivo
+									studies in mice at 7 T"</i>, Longo DL et al; <i>Magn Reson Med</i>,
+								<b>2011</b>, 65:202-11, doi: 10.1002/mrm.22608<br> 
+								<a class='pointer' onmousedown="showFormBox('CEST_single_slice')">Download link
+									for ParaVision 6.0.1</a>
+							
+							<br> Contacts: <a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>,
+										<a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
+							</li>
+							<br></br>
+							<li><b>A RARE-based sequence for fast multislice CEST imaging</b><br>A
+									fast multislice CEST acquisition scheme has been implemented by
+									splitting the saturation module into two parts: a first long
+									saturation pulse that generates the steady-state and a second
+									short saturation pulse, repeated before each slice, to restore
+									saturation losses. Each slice is acquired with a
+									centric-encoding single-shot fast spin echo (RARE) readout.
+									This package contains the files and the instructions for a
+									multislice CEST sequence installation and first use. The
+									sequence is based on a RARE method developed for Bruker MRI
+									scanners running with ParaVision 6.0.1. <br> More information
+										about the sequence is available in:<br>
+										
+										<i>"A fast multislice
+										sequence for 3DMRI-CEST pH imaging"</i>, Villano D et al; <i>Magn
+										Reson Med</i>, <b>2020</b>, 00:1-15, doi: 10.1002/mrm.28516<br>
+										<a class='pointer' onmousedown="showFormBox('seq_2')">Download link
+									for ParaVision 6.0.1</a>
+										<br />Contacts: <a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
+										<a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>,
+										
+										</li>
+						</ul>
+<br />
+<p>Research groups using our sequences:<br>
+Prof. Robert Gillies - Moffitt Cancer Center - USA<br>
+Prof. Hana Lahrech - University Grenoble Alpes - France<br>
+Dr. Afroditi Eleftheriou - Universit&auml;t Z&uuml;rich - Switzerland<br>
+</p>
+
+							The sequence is provided for free but to download our software please fill out this form.<br>
+							All information collected will be stored securely and will never be used for commercial purposes.<br><br> 
                                                               
                             <hr></hr>
                             
