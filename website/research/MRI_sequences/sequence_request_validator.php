@@ -18,10 +18,14 @@ if($handle)
 }
 fclose($handle);
 
-if ( $_POST['sequence_name'] == 'CEST_single_slice' ) {
-    $file = "package_CEST_single_slice_PV6.zip";
-} else if ( $_POST['sequence_name'] == 'seq_2' ) {
-    $file = 'gnugnu.gnu';
+if ( $_POST['sequence_name'] == 'CEST_single_slice_PV6.0.1' ) {
+    $file = "package_CEST_single_slice_PV6.0.1.zip";
+} else if ( $_POST['sequence_name'] == 'CEST_multi_slice_PV6.0.1' ) {
+    $file = 'package_CEST_multislice_PV6.0.1.zip';
+} else if ( $_POST['sequence_name'] == 'CEST_multi_slice_PV360.1.1' ) {
+    $file = 'package_CEST_mslice_PV360.1.1.zip';
+} else {
+    die('sequence name not found');
 }
 
 if(!file_exists($file)){ // file does not exist
@@ -37,10 +41,4 @@ if(!file_exists($file)){ // file does not exist
     readfile($file);
 }
 
-//header("Location: ../research/research_MRI_seq.php");
-
-/*
-$href='../research/research_MRI_seq.php';
-echo "<script type='text/javascript'>window.location.href='" . $href . "';</script>";
-*/
 ?>

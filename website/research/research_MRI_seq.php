@@ -90,7 +90,7 @@ $localizer = "../";
 									transfer contrast agent for pH mapping of kidneys: In vivo
 									studies in mice at 7 T"</i>, Longo DL et al; <i>Magn Reson Med</i>,
 								<b>2011</b>, 65:202-11, doi: 10.1002/mrm.22608<br> 
-								<a class='pointer' onmousedown="showFormBox('CEST_single_slice')">Download link
+								<a class='pointer' onmousedown="showFormBox('CEST_single_slice_PV6.0.1')">Download link
 									for ParaVision 6.0.1</a>
 							
 							<br> Contacts: <a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>,
@@ -107,14 +107,16 @@ $localizer = "../";
 									This package contains the files and the instructions for a
 									multislice CEST sequence installation and first use. The
 									sequence is based on a RARE method developed for Bruker MRI
-									scanners running with ParaVision 6.0.1. <br> More information
+									scanners running with ParaVision 6.0.1/360.1.1. <br> More information
 										about the sequence is available in:<br>
 										
 										<i>"A fast multislice
 										sequence for 3DMRI-CEST pH imaging"</i>, Villano D et al; <i>Magn
 										Reson Med</i>, <b>2020</b>, 00:1-15, doi: 10.1002/mrm.28516<br>
-										<a class='pointer' onmousedown="showFormBox('seq_2')">Download link
-									for ParaVision 6.0.1</a>
+										<a class='pointer' onmousedown="showFormBox('CEST_multi_slice_PV6.0.1')">Download link
+									for ParaVision 6.0.1</a><br />
+									<a class='pointer' onmousedown="showFormBox('CEST_multi_slice_PV360.1.1')">Download link
+									for ParaVision 360.1.1</a>
 										<br />Contacts: <a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 										<a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>,
 										
