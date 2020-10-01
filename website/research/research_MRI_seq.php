@@ -22,12 +22,15 @@ $localizer = "../";
 			<input class='tableCell secondCol' type="text" id="name" name="name"></div> 
 			<div class='tableRow'><label class='tableCell firstCol' for="organization">Your Organization: </label>
 			<input class='tableCell secondCol' type="text" id="organization" name="organization" /></div> 
+			<div class='tableRow'><label class='tableCell firstCol' for="PI">Your PI/group leader: </label>
+			<input class='tableCell secondCol' type="text" id="PI" name="PI" /></div> 
 			<div class='tableRow'><label class='tableCell firstCol' for="country">Your Country: </label>
 			<input class='tableCell secondCol' type="text" id="country" name="country" /></div>
 			<div class='tableRow'><label class='tableCell firstCol' for="area_res">Your primary area of research: </label>
 			<input class='tableCell secondCol' type="text" id="area_res" name="area_res" /></div> 
 			<div class='tableRow'><label class='tableCell firstCol' for="email">Your email address: </label>
 			<input class='tableCell secondCol' type="email" id="email" name="email" /></div>
+			<div class='tableRow'>&nbsp;</div>
 			<div class='tableRow'>
 			<input class='tableCell firstCol' style='width:50%' type="submit" value="Submit" /></div>
 			<div class='tableRow'>
@@ -65,7 +68,7 @@ $localizer = "../";
 							and protocols tailored to several preclinical applications for
 							Bruker and Aspect Imaging MRI scanners. Led by Dr. Walter Dastr&uacute;
 							and Dr. Dario Longo, the team specializes in MRI data
-							acquisition, imae reconstruction and data analysis, covering
+							acquisition, image reconstruction and data analysis, covering
 							gadolinium-based, <sup>19</sup>F and CEST-MRI applications for improving
 							acquisition time, volume coverage and contrast. Developed
 							sequences are free for downloading by all interested research
@@ -90,7 +93,7 @@ $localizer = "../";
 									transfer contrast agent for pH mapping of kidneys: In vivo
 									studies in mice at 7 T"</i>, Longo DL et al; <i>Magn Reson Med</i>,
 								<b>2011</b>, 65:202-11, doi: 10.1002/mrm.22608<br> 
-								<a class='pointer' onmousedown="showFormBox('CEST_single_slice_PV6.0.1')">Download link
+								<a class='seq_link' onmousedown="showFormBox('CEST_single_slice_PV6.0.1')">Download link
 									for ParaVision 6.0.1</a>
 							
 							<br> Contacts: <a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>,
@@ -113,9 +116,9 @@ $localizer = "../";
 										<i>"A fast multislice
 										sequence for 3DMRI-CEST pH imaging"</i>, Villano D et al; <i>Magn
 										Reson Med</i>, <b>2020</b>, 00:1-15, doi: 10.1002/mrm.28516<br>
-										<a class='pointer' onmousedown="showFormBox('CEST_multi_slice_PV6.0.1')">Download link
+										<a class='seq_link' onmousedown="showFormBox('CEST_multi_slice_PV6.0.1')">Download link
 									for ParaVision 6.0.1</a><br />
-									<a class='pointer' onmousedown="showFormBox('CEST_multi_slice_PV360.1.1')">Download link
+									<a class='seq_link' onmousedown="showFormBox('CEST_multi_slice_PV360.1.1')">Download link
 									for ParaVision 360.1.1</a>
 										<br />Contacts: <a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 										<a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>,
@@ -129,15 +132,17 @@ Prof. Hana Lahrech - University Grenoble Alpes - France<br>
 Dr. Afroditi Eleftheriou - Universit&auml;t Z&uuml;rich - Switzerland<br>
 </p>
 
-							The sequence is provided for free but to download our software please fill out this form.<br>
+							The sequences are provided for free but to download them please fill out the form. Of course, their use is under the operator's responsibility.<br>
 							All information collected will be stored securely and will never be used for commercial purposes.<br><br> 
                                                               
                             <hr></hr>
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
 																					
-							<a href="../PI/Longo/home.php" target="_blankk" title="Dario Longo">
+							<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
 							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<a href="#" target="_blank" title="Walter Dastrù">
+							<img src="../images/staff/dastru.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 													
 							
                             <!-- InstanceEndEditable -->

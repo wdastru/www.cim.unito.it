@@ -1,4 +1,12 @@
 <?php
+
+foreach($_POST as $item)
+{
+    if ( trim($item) == "") {
+        die('Please fill in all the fields requested');
+    }
+}
+
 $file2save = "../../research/MRI_sequences/MRI_sequences_form.txt";
 $handle = fopen($file2save, 'a');
 if($handle)
@@ -6,6 +14,7 @@ if($handle)
     $str = "\xEF\xBB\xBF". date("d/m/Y") . " - " . date("H:i:s") . "\n" . 
             "name                = " . $_POST['name'] . "\n" . 
             "organization        = " . $_POST['organization'] . "\n" . 
+            "PI/group leader     = " . $_POST['PI'] . "\n" . 
             "country             = " . $_POST['country'] . "\n" .
             "area of research    = " . $_POST['area_res'] . "\n" .
             "downloaded sequence = " . $_POST['sequence_name'] . "\n" .

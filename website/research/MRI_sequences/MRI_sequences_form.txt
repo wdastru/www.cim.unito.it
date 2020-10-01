@@ -1,1 +1,27 @@
-﻿
+﻿﻿01/10/2020 - 19:38:21
+name                = Walter Dastrù
+organization        = Unito
+PI/group leader     = pippo
+country             = Italia
+area of research    = chemistry
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = walter.dastru@gmail.com
+=================
+﻿01/10/2020 - 19:38:26
+name                = Walter Dastrù
+organization        = Unito
+PI/group leader     = pippo
+country             = Italia
+area of research    = chemistry
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = walter.dastru@gmail.com
+=================
+﻿01/10/2020 - 19:38:29
+name                = Walter Dastrù
+organization        = Unito
+PI/group leader     = pippo
+country             = Italia
+area of research    = chemistry
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = walter.dastru@gmail.com
+=================
