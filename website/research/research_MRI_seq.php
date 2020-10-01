@@ -11,7 +11,6 @@ $localizer = "../";
             
         <?php 
             require $localizer . 'includes/head_const.inc.php';
-            require $localizer . 'includes/jquery.fancybox.inc.php'; 
         ?>
         <title>Molecular Imaging Center - University of Torino - MRI sequences </title>
         <meta name="description" content="" />
