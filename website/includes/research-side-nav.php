@@ -75,6 +75,9 @@ echo "
                     <dt id='section1-subsection22' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_xnat.php'>CIM-XNAT</a>
 					</dt>
+                    <dt id='section1-subsection23' class='subsection_link sidebar-indent'>
+						<a href='" . $localizer . "research/research_MRI_seq.php'>MRI sequences</a>
+					</dt>
 
 					
 					<dt>

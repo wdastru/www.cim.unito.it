@@ -83,6 +83,36 @@ function toggle_vis(name) {
 	}
 }
 
+function showFormBox(id)  {
+	if (document.getElementById) {
+		var hiddenBox = document.getElementById('hiddenBox');
+		var visibility = hiddenBox.style.visibility;
+		
+		if (visibility == 'hidden') {
+			var hiddenInput = document.getElementById('hiddenSeqNameInput');
+			hiddenSeqNameInput.value = id;
+			hiddenBox.style.display = 'block';
+			hiddenBox.style.visibility = 'visible';
+		}
+	} else {
+		alert(":( DOM NON Supportato!");
+	}
+}
+
+function hideFormBox()  {
+	if (document.getElementById) {
+		var hiddenBox = document.getElementById('hiddenBox');
+		var visibility = hiddenBox.style.visibility;
+		
+		if (visibility == 'visible') {
+			hiddenBox.style.display = 'none';
+			hiddenBox.style.visibility = 'hidden';
+		}
+	} else {
+		alert(":( DOM NON Supportato!");
+	}
+}
+
 function toggleAbstract(button) {
 	if (document.getElementsByTagName) {
 		var parent = button.parentNode;
