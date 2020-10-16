@@ -55,7 +55,7 @@ $localizer = "./";
 					style="background-image: url(images/staff/terreno.jpg);"">
 					<div class="content">
 						<div class="table">
-						<a title="Homepage" href="PI/Terreno/home.html" target="_blank">
+						<a title="Homepage" href="PI/Terreno/home.php" target="_blank">
 							<div class="table-cell">
 								<h2 style="font-size: 20px;">
 									<b>Enzo Terreno</b>
