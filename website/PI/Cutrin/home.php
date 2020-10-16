@@ -10,6 +10,7 @@
 <html>
 <head>
 	<title>Home | Cutrin LAB</title>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Cutrin/includes/head_const_cutrin.php'); ?>
 </head>
 <body class="homepage">
