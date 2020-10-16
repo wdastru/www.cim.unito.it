@@ -12,7 +12,7 @@ $localizer = "./";
        <link rel="stylesheet" href="hexag.css"/>
 	</head>
     <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+<?php //require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section3'>
             <?php
             require ('includes/main-nav.php');

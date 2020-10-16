@@ -9,7 +9,7 @@
     <title>Molecular Imaging Center - University of Torino - Intensive programme 2009</title>
 </head>
 <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+<?php //require_once($localizer . 'includes/analyticstracking.php') ?>
 	<div id='section2'>
 	<?php
 	require ('includes/main-nav.php');

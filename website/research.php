@@ -11,7 +11,7 @@ $localizer = "./";
         <meta name="description" content= "Research topics at Molecular Imaging Center" />
     </head>
     <body>
-        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
+        <?php //require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section1'>
             <?php
             require ('includes/main-nav.php');

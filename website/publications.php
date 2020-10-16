@@ -12,7 +12,7 @@
 <meta name="description" content="Publications from people at the Molecular Imaging Center" />
 </head>  
 <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+<?php //require_once($localizer . 'includes/analyticstracking.php') ?>
 	<div id='section6'>
 	<?php require('includes/main-nav.php'); ?>
 		<div id='header'></div>

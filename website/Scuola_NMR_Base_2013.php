@@ -9,7 +9,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <title>Molecular Imaging Center - University of Torino - Scuola NMR di Base 2013</title>
     </head>
     <body>
-      <?php require_once($localizer . 'includes/analyticstracking.php') ?>
+      <?php //require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id='section2'>
       <?php require ('includes/main-nav.php'); ?>
             <div id='header'></div>
