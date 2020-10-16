@@ -14,6 +14,7 @@ echo "
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' />
     <script src='" . $localizer . "jquery.cycle2.min.js' type='text/javascript'></script>
     <script src='" . $localizer . "script.js' type='text/javascript'></script>
+    
     <script type='text/javascript' >
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,6 +24,5 @@ echo "
       ga('create', 'UA-42991693-1', 'unito.it');
       ga('send', 'pageview');
     </script>";
-    
         
 ?>
