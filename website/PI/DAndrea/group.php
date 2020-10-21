@@ -85,8 +85,8 @@
 											<p style="line-height: 1.2">
 												Senior Researcher<br> Molecular Imaging Center<br>
 												<!-- Academic activity: <a href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo" target=_blank>Dept. Molecular Biotechnology and Health Sciences</a><br> -->
-												Ph.D. Chemical Sciences<br>  
-												M.Sc. Chemistry<br>
+												PhD Chemical Sciences<br>  
+												MSc Chemistry<br>
 												Phone: +39 0116709542<br> 
 												E-mail: <a href="mailto:luca.dandrea@cnr.it">luca.dandrea@cnr.it</a></p>
 																								
@@ -119,8 +119,8 @@
 												<span>Researcher</span>
 											</header>
 											<p style="line-height: 1.2">
-												Ph.D. ???, University of Naples Federico II, Italy <br>
-												M.Sc. ???, University of Naples Federico II, Italy <br> Phone: +39
+												PhD Biotechnology, University of Naples Federico II, Italy <br>
+												MSc Biological Sciences, University of Naples Federico II, Italy <br> Phone: +39
 												0812535229<br> E-mail: <a
 													href="mailto:rossella.distasi@cnr.it">rossella.distasi@cnr.it</a>
 											</p>
@@ -156,8 +156,8 @@
 												<span>Postdoctoral Fellow Veronesi Foundation</span>
 											</header>
 											<p style="line-height: 1.2">
-											Ph.D. ???, University of Naples Federico II, Italy <br>
-												M.Sc. ???, University of Naples Federico II, Italy <br> Phone: +39
+												PhD in Biotechnology, University of Naples Federico II, Italy <br>
+												MSc in Biotechnology, University of Naples Federico II, Italy <br> Phone: +39
 												Phone: +39 0812536685<br>
 												E-mail: <a href="mailto: lucia.derosa@unina.it"> lucia.derosa@unina.it</a>
 											</p>
