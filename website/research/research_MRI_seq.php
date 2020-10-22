@@ -130,6 +130,7 @@ $localizer = "../";
 Prof. Robert Gillies - Moffitt Cancer Center - USA<br>
 Prof. Hana Lahrech - University Grenoble Alpes - France<br>
 Dr. Afroditi Eleftheriou - Universit&auml;t Z&uuml;rich - Switzerland<br>
+Prof. Simon Walker-Samuel - University College London, United Kingdom<br>
 </p>
 
 							The sequences are provided for free but to download them please fill out the form. Of course, their use is under the operator's responsibility.<br>

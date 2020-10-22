@@ -1,1 +1,27 @@
-﻿
+﻿﻿18/10/2020 - 18:52:51
+name                = Daniele Tolomeo
+organization        = UCL
+PI/group leader     = Simon Walker-Samuel
+country             = Regno Unito
+area of research    = Cancer research
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = d.tolomeo@ucl.ac.uk
+=================
+﻿18/10/2020 - 18:54:00
+name                = Daniele Tolomeo
+organization        = UCL
+PI/group leader     = Simon Walker-Samuel
+country             = Regno Unito
+area of research    = Cancer research
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = d.tolomeo@ucl.ac.uk
+=================
+﻿19/10/2020 - 10:23:22
+name                = Daniele Tolomeo
+organization        = UCL
+PI/group leader     = Simon Walker-Samuel
+country             = UK
+area of research    = cancer imaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = d.tolomeo@ucl.ac.uk
+=================
