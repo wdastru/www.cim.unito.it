@@ -2186,7 +2186,7 @@ input[type="button"],
 			}
 
 			body.homepage #header-wrapper {
-				height: 36em;
+				height: 200px;
 			}
 
 			#footer-wrapper {
@@ -2500,7 +2500,9 @@ input[type="button"],
 
 			.homepage #header-wrapper,
 			#main-wrapper {
-				padding-top: 44px;
+				/* padding-top: 44px; */
+				height: 200px;
+				background-size: auto cover;
 			}
 
 			.homepage #main-wrapper {
