@@ -10,7 +10,8 @@
 <html>
 	<head>
 		<title>Contact Us | TERRENO Lab</title>
-		<?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
+	<?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">

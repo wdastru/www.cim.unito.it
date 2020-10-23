@@ -11,7 +11,7 @@
 		<meta name="description" content="How to contact us" />
 	</head>
 	<body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+<?php //require_once($localizer . 'includes/analyticstracking.php') ?>
 		<div id='section0'>
 			<?php
 			require ('includes/main-nav.php');

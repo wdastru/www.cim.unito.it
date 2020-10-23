@@ -1,3 +1,6 @@
+<?php
+	$localizer = "../../";
+?>
 <!DOCTYPE HTML>
 <!--
 	ZeroFour by HTML5 UP
@@ -7,14 +10,8 @@
 <html>
 	<head>
 		<title>Contact Us | Longo Lab</title>
-		<meta name="MobileOptimized" content="width">
-    <meta name="HandheldFriendly" content="true">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
+	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">

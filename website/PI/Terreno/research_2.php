@@ -10,6 +10,7 @@
 <html>
 <head>
 	<title>MRI visualization | TERRENO Lab</title>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
 </head>
 <body class="homepage">

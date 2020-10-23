@@ -11,7 +11,7 @@
 		<meta name="description" content="" />
 		</head>
 	<body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+<?php //require_once($localizer . 'includes/analyticstracking.php') ?>
 		<div id='section2'>
 			<?php
 			require ('includes/main-nav.php');
