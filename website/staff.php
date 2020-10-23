@@ -231,7 +231,7 @@ $localizer = "./";
 							<div class="row">
 								<div class="w3-container">
 									<div class="square bg"
-										style="background-image: url(images/staff/anemone.jpg);">
+										style="background-image: url(<?php echo $localizer; ?>images/staff/anemone.jpg);">
 										<div class="content">
 											<div class="table">
 											<a title="Profile" href="staff/staff_anemone.php">
