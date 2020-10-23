@@ -122,9 +122,10 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Biotechnology, University of Torino<br> Phone: +39
+												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br>
+												M.Sc. Biotechnology, University of Torino, Italy<br> Phone: +39
 												0116706476<br> E-mail: <a
-													href="mailto:annasofia.anemone@unito.it">annasofia.anemone@unito.it</a>
+													href="mailto:annasofia.anemone@gmail.com">annasofia.anemone@gmail.com</a>
 											</p>
 										</div>
 										
@@ -165,9 +166,9 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Complex Systems for Life Sciences, University of Torino<br>
-												MSc Biomedical Engineering, Sapienza University of
-												Rome, Italy <br> Phone: +39 0116706485<br>
+												Ph.D. Complex Systems for Life Sciences, University of Torino, Italy<br>
+												M.Sc. Biomedical Engineering, Sapienza University of
+												Rome, Italy <br> Phone: +39 0116709539<br>
 												E-mail: <a href="mailto:sara.zullino@unito.it">sara.zullino@unito.it</a>
 											</p>
 										</div>
@@ -175,9 +176,11 @@
 										<div class="showtext">
 										<div>My research aims at ...</div>
 										<form> <p align="justify"><b>
-												My research aims at building novel Matlab and Python based tools for processing preclinical MRI images, in particular devoted to exploit MRI-CEST (Chemical Exchange Saturation Transfer) methods for investigating tumor acidosis.
-					I am also involved in developing a customizable workflow engine for archiving, sharing, and processing medical images for preclinical imaging facilities
-						through the integration of an open source imaging informatics platform (<a href="www.xnat.org" target="_blank">XNAT</a>) with customized tools for automated image processing.</a>
+												My research aims at building novel Matlab and Python based tools for processing preclinical Magnetic Resonance (MR) images, 
+												particularly devoted to exploit CEST (Chemical Exchange Saturation Transfer) MRI methods for investigating tumor acidosis.
+												I am also involved in developing a customizable workflow for archiving, sharing, and processing medical images for preclinical imaging facilities
+												through the integration of an open source imaging informatics platform (<a href="www.xnat.org" target="_blank">XNAT</a>) 
+												with customized tools for automated image processing.</a>
 												</b>									
 											</p>
 										</form>
@@ -209,8 +212,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD in Pharmaceutical and Biomolecular Science, University of Torino, Italy
-												MSc in Biotechnology, University of Torino, Italy
+												Ph.D. in Pharmaceutical and Biomolecular Science, University of Torino, Italy
+												M.Sc. in Biotechnology, University of Torino, Italy
 												<br> Phone: +39 0125561876<br>
 												E-mail: <a href="mailto:martina.capozza@unito.it">martina.capozza@unito.it</a>
 											</p>
@@ -243,6 +246,94 @@
 									
 									<hr></hr>
 									
+									
+							<div class="row">
+							<div class="8u 12u(mobile)">
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
+										<div>
+											<header>
+												<h3>Feriel Romdhane</h3>
+												<span>Postdoctoral Fellow</span>
+											</header>
+											<p style="line-height: 1.2">
+												Ph.D. Sciences and Technologies of Engineering, University of Tunisi, Tunisia<br>
+												M.Sc. Automatic, University of Tunisi, Tunisia <br> Phone: +39
+												0116709539<br> E-mail: <a
+													href="mailto:ferielromdhane@yahoo.fr">ferielromdhane@yahoo.fr</a>
+											</p>
+										</div>
+										
+										<div class="showtext">
+										<div>The focus of my research is ...</div>
+										<form> <p align="justify"><b>The focus of my research is developing of magnetic resonance imaging sequences 
+										for the in vivo characterization of tumor acidosis. The main goal consists in the development of preclinical 
+										MRI scanner sequences to evaluate the acidification of the tumor microenvironment and in the development of 
+										new image analysis approaches to increase the accuracy of the tumor pH measurement.  												
+												</b>									
+											</p>
+										</form>
+										</div>
+										
+									</article>
+									</div>
+									<div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
+											<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+									</div>
+									</div>
+																											
+									<hr></hr>
+
+									<div class="row">
+							<div class="8u 12u(mobile)">
+									
+
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/carella.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<div>
+											<header>
+												<h3>Antonella Carella</h3>												
+												<span>Postdoctoral Fellow</span>
+											</header>
+											<p style="line-height: 1.2">
+												Ph.D. in Biomedicine and Molecular Oncology, University of Oviedo, Spain<br>					
+												M.Sc. Medical Biotechnology and Molecular Medicine, University of Bari Aldo Moro, Italy 
+												<br> Phone: +39 0116709540<br>
+												E-mail: <a href="mailto:antonellacarella@gmail.com">antonellacarella@gmail.com</a>
+											</p>
+										</div>
+										
+										<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form> <p align="justify"><b>
+										The focus of my research is to study magnetic resonance imaging (MRI) to measure tumor acidosis in glioblastoma, 
+										tracking spatial heterogeneity and spatial evolution. I am also interested in using molecular biology techniques to 
+										study RNA, DNA and proton pumps for monitoring tumor response to treatments and improving tumor diagnosis.
+												</b>									
+											</p>
+										</form>
+										</div>
+										
+									</article>
+									</div>
+									<!--  <div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+											<img src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+									</div> -->
+									</div>
+									
+			
+									<hr></hr>
+
 									<div class="row">
 									<div class="8u 12u(mobile)">
 															
@@ -252,10 +343,10 @@
 										<div>
 											<header>
 												<h3>Pietro Irrera</h3>
-												<span>PhD student</span>
+												<span>Ph.D. student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Biotechnology, University of Torino, Italy<br> Phone: +39 0116706485<br> E-mail: <a
+												M.Sc. Biotechnology, University of Torino, Italy<br> Phone: +39 0116709539<br> E-mail: <a
 													href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
 											</p>
 										</div>
@@ -283,49 +374,6 @@
 									</div>
 									
 									<hr></hr>
-							<div class="row">
-							<div class="8u 12u(mobile)">
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane.jpg" alt="" style="width: 180px; height: auto; margin-bottom:100px;" class="image left"/>
-										<div>
-											<header>
-												<h3>Feriel Romdhane</h3>
-												<span>Postdoctoral Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												PhD Sciences and Technologies of Engineering, University of Tunisi, Tunisia<br>
-												MSc Automatic, University of Tunisi <br> Phone: +39
-												0116706499<br> E-mail: <a
-													href="mailto:ferielromdhane@yahoo.fr">ferielromdhane@yahoo.fr</a>
-											</p>
-										</div>
-										
-										<div class="showtext">
-										<div>The focus of my research is ...</div>
-										<form> <p align="justify"><b>The focus of my research is developing of magnetic resonance imaging sequences 
-										for the in vivo characterization of tumor acidosis. The main goal consists in the development of preclinical 
-										MRI scanner sequences to evaluate the acidification of the tumor microenvironment and in the development of 
-										new image analysis approaches to increase the accuracy of the tumor pH measurement.  												
-												</b>									
-											</p>
-										</form>
-										</div>
-										
-									</article>
-									</div>
-									<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/romdhane_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-									</div>
-									
-									
-									
-									<hr></hr>
 									<div class="row">
 							<div class="8u 12u(mobile)">
 									
@@ -336,11 +384,11 @@
 										<div>
 											<header>
 												<h3>Chetan Dhakan</h3>												
-												<span>PhD student</span>
+												<span>Ph.D. student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Pharmacology & Toxicology, Gujarat University, India
-												<br> Phone: +39 0116706499<br>
+												M.Sc. Pharmacology & Toxicology, Gujarat University, India
+												<br> Phone: +39 0116709540<br>
 												E-mail: <a href="mailto:chetan.dhakan@ibb.cnr.it">mailto:chetan.dhakan@ibb.cnr.it</a>
 											</p>
 										</div>
@@ -384,8 +432,8 @@
 												<span>Graduate Student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Biomedical Engineering, University of Naples Federico II, Italy 
-												<br> Phone: +39 0116706499<br>
+												M.Sc. Biomedical Engineering, University of Naples Federico II, Italy 
+												<br> Phone: +39 0116709539<br>
 												E-mail: <a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 											</p>
 										</div>
@@ -414,8 +462,54 @@
 									
 			
 									<hr></hr>
+
+									<div class="row">
+							<div class="8u 12u(mobile)">
 									
 
+									<!-- Excerpt -->
+									<article class="box excerpt">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/corrado.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<div>
+											<header>
+												<h3>Alessia Corrado</h3>												
+												<span>Graduate Student</span>
+											</header>
+											<p style="line-height: 1.2">
+												M.Sc. Medical Biotechnology, University of Torino, Italy 
+												<br> Phone: +39 0116709540<br>
+												E-mail: <a href="mailto:alessiacorrado2@gmail.com">alessiacorrado2@gmail.com</a>
+											</p>
+										</div>
+										
+										<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form> <p align="justify"><b>
+										The aim of my project is to characterize tumor microenvironment in murine models 
+										of breast cancer using MRI techniques. Specifically, the project focuses on 
+										the evaluation of tumor acidity, vascularization and hypoxia by using non-invasive 
+										in vivo molecular imaging techniques as CEST-MRI, dynamic contrast-enhanced (DCE) MRI 
+										and Oxygen-enhanced (OE) MRI.
+												</b>									
+											</p>
+										</form>
+										</div>
+										
+									</article>
+									</div>
+									<!--  <div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+											<img src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+									</div> -->
+									</div>
+									
+			
+									<hr></hr>
+									
+									
 								<article class="box excerpt">
 								<div>
 									<h2 class="second icon fa-user">Former Members</h2>
@@ -435,8 +529,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD Molecular Bioscience, University of Torino<br> MSc
-												Biotechnology, University of Torino
+												Ph.D. Molecular Bioscience, University of Torino, Italy<br> M.Sc.
+												Biotechnology, University of Torino, Italy
 												<!-- <br> Phone: +39
 												0116706476<br> E-mail: <a
 													href="mailto:lorena.consolino@unito.it">lorena.consolino@unito.it</a>
@@ -480,8 +574,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												Ph.D. Molecular Bioscience, University of Torino<br>
-												M.Sc. Biotechnology, University of Torino
+												Ph.D. Molecular Bioscience, University of Torino, Italy<br>
+												M.Sc. Biotechnology, University of Torino, Italy
 												<!-- <br> office: +39
 												0116706452<br> email: <a
 													href="mailto:amerigo.pagoto@unito.it">amerigo.pagoto@unito.it</a> -->
@@ -524,7 +618,7 @@
 												<span>Graduate Student</span>
 											</header>
 											<p style="line-height: 1.2">
-												MSc Computer Science and Engineering, Politecnico di Milano, Italy 
+												M.Sc. Computer Science and Engineering, Politecnico di Milano, Italy 
 												<!-- <br> Phone: +39 0116706499<br>
 												E-mail: <a href="alessandro.paglialonga@mail.polimi.it">alessandro.paglialonga@mail.polimi.it</a> -->
 											</p>
@@ -560,8 +654,8 @@
 												<span>Postdoctoral Fellow</span>
 											</header>
 											<p style="line-height: 1.2">
-												PhD in Surgical Experimental Sciences and Cellular Therapies, University of Bari &#34;Aldo Moro&#34; (under Marie Curie ITN program)<br>
-												MSc in Oncology, Vrije Universiteit Amsterdam, The Netherlands 
+												Ph.D. in Surgical Experimental Sciences and Cellular Therapies, University of Bari &#34;Aldo Moro&#34; (under Marie Curie ITN program)<br>
+												M.Sc. in Oncology, Vrije Universiteit Amsterdam, The Netherlands 
 												<!-- <br> Phone: +39 0116706499<br>
 												E-mail: <a href="mailto:bhavna.rani@unito.it">bhavna.rani@unito.it</a> -->
 											</p>

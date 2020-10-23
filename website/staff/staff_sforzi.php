@@ -84,7 +84,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116708459<br /> 
+					Phone: +390116709538<br /> 
 					E-mail: <a href="mailto:jacopo.sforzi@unito.it"><span style="color:#007c92">jacopo.sforzi@unito.it</span></a></p>
 					
 					</div>

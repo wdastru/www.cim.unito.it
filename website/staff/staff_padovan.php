@@ -44,7 +44,7 @@
 								<p style="text-align:left;"><b>Technical Assistant<br />
 								Institute of Biostructure and Bioimaging<br />
 								National Research Council of Italy<br />
-								<a href="http://www.ibb.cnr.it/?command=viewu&id=423" target="_blank" style="color:#dc6a10">
+								<a href="http://www.ibb.cnr.it/?command=viewu&and=1&id=428" target="_blank" style="color:#dc6a10">
 								 IBB-CNR profile</a>
 								</b></p>
 									

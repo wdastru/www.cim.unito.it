@@ -103,9 +103,9 @@
 										<div style="padding: 0 0 0 160px;">
 											<p align="left" style="line-height: 1.2";>
 												<strong><font size="4em">Dario Longo, PhD</font></strong> <br />
-												<br /> Senior Researcher<br /> Institute of Biostructures
-												and Bioimaging (IBB)<br /> Italian National Research Council
-												(CNR)<br /> Via Nizza 52<br /> 10126 Torino - Italy<br />
+												<br /> Senior Researcher,<br /> Institute of Biostructures
+												and Bioimaging (IBB),<br /> Italian National Research Council
+												(CNR),<br /> Via Nizza 52,<br /> 10126 Torino - Italy<br />
 												Tel: +39 011 6706473<br /> Fax: +39 011 6706458<br /> <a
 													href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>
 												<a href="mailto:dariolivio.longo@cnr.it">dariolivio.longo@cnr.it</a>
@@ -172,39 +172,39 @@
 				<div class="inner">
 					<div class="container">
 						<div class="row">
-							<div class="7u 12u(mobile)">
+						<div class="7u 12u(mobile)">
 
-								<!-- Article list -->
-								<section class="box article-list">
-									<h2 class="icon fa-file-text-o">Upcoming Events</h2>
+							<!-- Article list -->
+							<section class="box article-list">
+								<h2 class="icon fa-file-text-o">Upcoming Events</h2>
 
-									<ul class="divided">
-																				
-										<li>
-										<div class="date-icon">												
-												<span class="month">March</span>
-												<h1 class="day">19-22</h1>
-											</div>											 
-										<a href="http://www.e-smi.eu/index.php?id=emim-2018" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>14th
-												European Molecular Imaging Meeting 2019</strong></a></li>
-										<li>										
-										<div class="date-icon">												
-												<span class="month">May</span>
-												<h1 class="day">11-16</h1>
-											</div>
-										<a href="https://www.ismrm.org/19m/" style="vertical-align:middle; padding-left:10px" target="_blank">
-										<strong>Annual Meeting ISMRM 2019</strong></a></li>
-												
-										<li>										
-										<div class="date-icon">												
-												<span class="month">September</span>
-												<h1 class="day">4-7</h1>
-											</div>
-										<a href="http://www.wmis.org/2019-wmic/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>World
-												Molecular Imaging Congress WMIC 2019</strong></a></li>									
-									</ul>
+								<ul class="divided">
+																			
+									<li>
+									<div class="date-icon">												
+											<span class="month">March</span>
+											<h1 class="day">24-27</h1>
+										</div>											 
+									<a href="http://www.e-smi.eu/index.php?id=emim-2020" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>15th
+											European Molecular Imaging Meeting 2020</strong></a></li>
+									<li>										
+									<div class="date-icon">												
+											<span class="month">April</span>
+											<h1 class="day">18-23</h1>
+										</div>
+									<a href="https://www.ismrm.org/20m/" style="vertical-align:middle; padding-left:10px" target="_blank">
+									<strong>ISMRM 28th Annual Meeting 2020</strong></a></li>
+											
+									<li>										
+									<div class="date-icon">												
+											<span class="month">October</span>
+											<h1 class="day">7-10</h1>
+										</div>
+									<a href="https://www.wmis.org/2020-wmic-2/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>World
+											Molecular Imaging Congress WMIC 2020</strong></a></li>									
+								</ul>
 
-								</section>
+							</section>
 							</div>
 							<div class="5u 12u(mobile)">
 								<section class="box spotlight">
@@ -255,9 +255,9 @@
 				<div class="12u">
 
 					<ul class="menu">
-						<li>&copy; 2019 Molecular Imaging Center. All rights reserved</li>
+						<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Updated: 06 June 2019</li>
+						<li>Updated: 15 January 2020</li>
 					</ul>
 				</div>
 			</footer>

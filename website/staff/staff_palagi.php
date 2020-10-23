@@ -41,7 +41,7 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorenzo Palagi</h1>
-								<p style="text-align:left;"><b>Research Fellow<br />
+								<p style="text-align:left;"><b>PhD Student<br />
 								Department of Molecular Biotechnology and Health Sciences<br />
 								<a href="../PI/Gianolio/home.html" target="_blank" style="color:#dc6a10">
 								 Gianolio Lab</a>
@@ -67,9 +67,9 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on synthesis and characterization of contrast agents for magnetic resonance imaging.
-					I am involved in the GADOPLUS project titled "Preclinical and clinical development of Gadoplus, a high
-							 relaxivity contrast agent for magnetic resonance".</p>
+					<p>My research focuses on synthesis, characterization and preclinical development of MRI contrast agents based on paramagnetic metals (Gd, Fe, Mn).
+						I am also involved in the GADOPLUS project titled "Preclinical and clinical development of Gadoplus, a high
+						relaxivity contrast agent for magnetic resonance".</p>
 					</div>
 					
 					
@@ -82,8 +82,8 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706476<br /> 
-					E-mail: <a href="mailto:lorenzo.palagi@edu.unito.it"><span style="color:#007c92">lorenzo.palagi@edu.unito.it</span></a></p>
+					Phone: +390116709538<br /> 
+					E-mail: <a href="mailto:lorenzo.palagi@unito.it"><span style="color:#007c92">lorenzo.palagi@unito.it</span></a></p>
 					
 					</div>
 					   
