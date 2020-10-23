@@ -1085,7 +1085,7 @@
 		font-weight: 400;
 	/* width: 1250px; /*static dimension, lose adaptative size changes*/ 
 		margin: 10px auto auto auto; 
-		border: 3px #333333 solid;"
+		border: 3px #333333 solid;
 	}
 
 		body.is-loading * {
@@ -2196,6 +2196,15 @@ input[type="button"],
 			.wrapper {
 				padding: 4.5em 0 4.5em 0;
 			}
+			
+			.wrapper.style2 #content {
+				/*  rules to reset properties set in stylesheet.css 
+				 *	referenced in head_const.inc.php 
+				 */ 
+				float: none;
+				width: 820px;
+			}
+					
 
 		/* Banner */
 
@@ -2498,13 +2507,12 @@ input[type="button"],
 				background-position: 35% 50%;
 			}
 
-			.homepage #header-wrapper,
-			#main-wrapper {
+			.homepage #header-wrapper {
 				/* padding-top: 44px; */
 				height: 200px;
 				background-size: auto cover;
 			}
-
+			
 			.homepage #main-wrapper {
 				padding-top: 0;
 			}
@@ -2515,6 +2523,14 @@ input[type="button"],
 
 			.wrapper {
 				padding: 3em 20px 1em 20px;
+			}
+			
+			.wrapper.style2 #content {
+				/*  rules to reset properties set in stylesheet.css 
+				 *	referenced in head_const.inc.php 
+				 */ 
+				float: none;
+				width: 450px;
 			}
 
 		/* Header */
