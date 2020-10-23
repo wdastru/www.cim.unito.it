@@ -45,7 +45,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Reineri/includes/menu_Reineri.php'); ?>
+							<?php require ($localizer . 'PI/Reineri/includes/menu_reineri.php'); ?>
 						</nav>
 
 					</div>
