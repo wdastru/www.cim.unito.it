@@ -10,7 +10,8 @@
 <html>
 <head>
 	<title>Home | Reineri LAB</title>
-	<?php require ($localizer . 'PI/Reineri/includes/head_const_Reineri.php'); ?>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
+	<?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
