@@ -10,7 +10,6 @@
 <html>
 <head>
 	<title>MRI probes | Longo Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 </head>
 <body class="homepage">
