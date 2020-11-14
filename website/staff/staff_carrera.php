@@ -74,11 +74,7 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on the design and synthesis of new contrast agents for MRI and their charaterization. 
-					My expertise covers the synthesis, among others, of Lantanide Complexes used as classic imaging probes, and innovative Hyperpolarized 
-					molecules exploited to visualize in real time the metabolic transformations of biomolecules in physiological and pathological pathways. 
-					I am personally involved in the complete workflow, starting from the synthesis and purification of the molecules, their charaterization 
-					by means of HPLC, Mass and NMR spectoscopy, and their use as molecular probes for in vitro and in vivo MRI experiments.</p>
+					<p>My research focuses on the design and synthesis of new contrast agents for MRI and their characterization. My expertise covers the synthesis, among others, of Lanthanide Complexes, used as classic imaging probes, and innovative Hyperpolarized molecules exploited to visualize in real-time the metabolic transformations of biomolecules in physiological and pathological pathways. I am personally involved in the complete workflow, starting from the synthesis and purification of the molecules, their characterization by means of HPLC, Mass and NMR spectroscopy, and their use as molecular probes for in vitro and in vivo MRI experiments.</p>
 					</div>
 					
 					<div class="w3-quarter">
