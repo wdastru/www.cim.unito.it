@@ -37,7 +37,40 @@ $localizer = "./";
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<!-- <h1>EU Projects</h1> -->
 						<ul>
-
+								<li class="myHoverPlace"><strong><a href='http://www.primogaia.eu/' >
+								<span class='paperTitle'>PRIMOGAIA</span></a></strong> project "Prepolarized MRI at Earth 
+							Field to seek new contrasts linked to molecular events for very early detection of pathologies" - 
+							<strong>H2020-EU.1.2.1. - FET Open</strong>
+							(01/12/2019 - 31/05/2023)
+							<div class="hide">Magnetic Resonance Imaging (MRI) is a non-invasive technology that generates 
+							high-resolution images of tissues and organs. Since its first use on a human being, over 40 years ago, 
+							it has become instrumental in the diagnosis and monitoring of disease and injury. Functional MRI, 
+							invented in 1991, is based on the same principles but images metabolic activity indirectly via changes 
+							in blood flow. Its use has led to remarkable discoveries in biomedical research. Now, PRIMOGAIA is 
+							exploiting MRI technology to map and quantify enzyme activity in pathological tissue. Enzymes play 
+							critical roles in cellular metabolism and are already valuable biomarkers of pathology in blood tests. 
+							Now, their high-resolution spatial localisation in tissues will significantly enhance disease detection 
+							and monitoring. <br />
+							PrimoGaia brings together an interdisciplinary consortium of research teams from 4 
+							academics: Aix-Marseille University, Universit&eacute; de Mons, Universit&aacute; Torino (reagents), CNRS Bordeaux (EPR unit, sequences, 
+							biology); Fraunhofer Institute (Physics) and 2 companies: <a href='https://www.stelar.it/'>Stelar</a> (magnetic 
+							unit) and <a href='https://www.pure-devices.com/'>Pure Devices</a> an innovative SME (MRI instrumentation).</div></li>
+							
+							<li class="myHoverPlace"><strong><a href='https://attract-eu.com/showroom/project/monitoring-tissue-implants-by-field-cycling-mri-of-quadrupolar-peak-contrast-agents-acronym-qp-mri/' ><span class='paperTitle'>Attract QPMRI</span></a></strong> project 
+							"Monitoring tissue implants by field-cycling MRI of quadrupolar-peak contrast agents" - 
+								(20/05/2019 - 31/10/2020)
+								<div class="hide">This project aims at developing innovative biocompatible sensors able to monitor 
+								the status of tissue implants in vivo, at human scale. These sensors are aimed at reporting on the 
+								degradation of the scaffold and on the overall transplanted cells conditions. They represent a 
+								completely new class of MRI contrast agents that display remarkable relaxation effects on tissue 
+								water protons. Their detection requires the acquisition of images at variable magnetic field strength 
+								as provided by Fast Field Cycling MRI (FFCMRI) scanners.
+								<br />Consortium: University of Torino and University of Aberdeen.</div></li>	
+								
+								<li>National project funded by San Paolo Foundation: "Imaging extracellular pH as a MRI
+									diagnostic tool" - <strong>CSTO165925</strong>
+								(2017-2019);
+							</li>
 							<li><strong>H2020-MSCA-ITN-2017</strong> project "Zero and
 								ultra-low field nuclear magnetic resonance" - <strong>ZULF</strong>
 								(2018-2022)</li>
