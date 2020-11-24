@@ -387,6 +387,57 @@ header('Content-Type: text/html;charset=UTF-8');
 										<div class="w3-container w3-cell" style="width: 250px;">
 											<div class="w3-card" style="width: 100%">
 												<div class="w3-container">
+													<img src="images/papers/geninatti_2020_1.webp" alt=""
+														style="width: 100%">
+														<div class="w3-container">
+															<h4 style="margin-top: 2px; margin-bottom: 2px;">
+																<a title="Open in a new window" class="http"
+																	href="https://www.nature.com/articles/s41598-020-76370-1"
+																	target="_blank"> <b>In vitro and in vivo BNCT investigations 
+																	using a carborane containing sulfonamide targeting CAIX epitopes 
+																	on malignant pleural mesothelioma and breast cancer cells.</b>
+															</h4>
+															<span><font color="blue">
+																<b>Geninatti Crich S et al;</b></font> </span>
+															<p>
+																<font color="blue">Sci Rep 10, 19274 (2020)</font>
+															</p>
+															</a>
+														</div>
+												
+												</div>
+											</div>
+										</div>
+										
+										<div class="w3-container w3-cell" style="width: 250px;">
+											<div class="w3-card" style="width: 100%">
+												<div class="w3-container">
+													<img src="images/papers/geninatti_2020_1.jpg" alt=""
+														style="width: 100%">
+														<div class="w3-container">
+															<h4 style="margin-top: 2px; margin-bottom: 2px;">
+																<a title="Open in a new window" class="http"
+																	href="https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513"
+																	target="_blank"> <b>A novel class of <sup>1</sup>H-MRI Contrast 
+																	Agents based on the relaxation enhancement induced on water protons 
+																	by <sup>14</sup>N imidazole moieties.</b>
+															
+															</h4>
+															<span><font color="blue">
+																<b>Geninatti Crich S et al;</b></font> </span>
+															<p>
+																<font color="blue">Angew. Chem. Int. Ed. Accepted</font>
+															</p>
+															</a>
+														</div>
+												
+												</div>
+											</div>
+										</div>
+										
+										<div class="w3-container w3-cell" style="width: 250px;">
+											<div class="w3-card" style="width: 100%">
+												<div class="w3-container">
 													<img src="images/papers/longo2019.png" alt=""
 														style="width: 100%">
 														<div class="w3-container">
@@ -408,6 +459,10 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
+
+									</div>
+
+									<div class="animSlides w3-animate-right">
 
 										<div class="w3-container w3-cell" style="width: 250px;">
 											<div class="w3-card" style="width: 100%">
@@ -461,11 +516,7 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
-
-									</div>
-
-									<div class="animSlides w3-animate-right">
-
+										
 										<div class="w3-container w3-cell" style="width: 250px;">
 											<div class="w3-card" style="width: 100%">
 												<div class="w3-container">
@@ -492,6 +543,10 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
+										
+									</div>
+
+									<div class="animSlides w3-animate-right">
 
 										<div class="w3-container w3-cell" style="width: 250px;">
 											<div class="w3-card" style="width: 100%">
@@ -546,11 +601,7 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
-
-									</div>
-
-									<div class="animSlides w3-animate-right">
-
+										
 										<div class="w3-container w3-cell" style="width: 250px;">
 											<div class="w3-card" style="width: 100%">
 												<div class="w3-container">
@@ -575,33 +626,10 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
-
-										<div class="w3-container w3-cell" style="width: 250px;">
-											<div class="w3-card" style="width: 100%">
-												<div class="w3-container">
-													<img src="images/papers/dastru_2018.jpg" alt=""
-														style="width: auto; height: 100px">
-														<div class="w3-container">
-															<h4 style="margin-top: 2px; margin-bottom: 2px;">
-																<a title="Open in a new window" class="http"
-																	href="https://onlinelibrary.wiley.com/doi/full/10.1002/slct.201800283"
-																	target="_blank"> <b>Modulation of the Prototropic
-																		Exchange Rate in pH-Responsive Yb-HPDO3A Derivatives
-																		as ParaCEST Agents</b>
-															
-															</h4>
-															<span><font color="blue">
-																<b>Dastru W. et al; </b></font></span>
-															<p>
-																<font color="blue">ChemistrySelect 2018, 3, 6035-6041</font>
-															</p>
-															</a>
-														</div>
-												
-												</div>
-											</div>
-										</div>
-
+									</div>
+									
+									
+									<div class="animSlides w3-animate-right">
 										<div class="w3-container w3-cell" style="width: 250px;">
 											<div class="w3-card" style="width: 100%">
 												<div class="w3-container">
@@ -628,7 +656,6 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
-
 									</div>
 
 								</div>
