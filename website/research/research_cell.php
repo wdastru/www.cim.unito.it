@@ -131,7 +131,9 @@ xmlns="http://www.w3.org/1999/xhtml">
 														
 							<a href="../PI/Terreno/home.html" target="_blank" title="Enzo Terreno">
 							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-                            
+
+							<a href="../staff/staff_ferrauto.php" target="_blank" title="Giuseppe Ferrauto">
+							<img src="../images/staff/ferrauto.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
                             
                             <!-- InstanceEndEditable -->
                         </div>

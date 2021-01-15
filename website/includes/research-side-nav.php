@@ -37,9 +37,12 @@ echo "
 						<a href='" . $localizer . "research/research_Gdboro.php'>Gd-boron agents for NCT</a>
 					</dt>
 					<dt id='section1-subsection11' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_optoacoustic.php'>Optoacoustic agents</a>
+						<a href='" . $localizer . "research/research_photoacoustic.php'>Photoacoustic agents</a>
 					</dt>
-					
+					<dt id='section1-subsection24' class='subsection_link sidebar-indent'>
+						<a href='" . $localizer . "research/research_nano-and-micro.php'>Nano and micro systems</a>
+					</dt>					
+
                     <dt class='sidebar-header'><a href='" . $localizer . "research.php#research2'>Research Focus</a></dt>
 
 					<dt id='section1-subsection12' class='subsection_link sidebar-indent'>
@@ -77,16 +80,15 @@ echo "
 					</dt>
                     <dt id='section1-subsection23' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_MRI_seq.php'>MRI sequences</a>
-					</dt>
-
-					
-					<dt>
+					</dt>					
+                    <dt>
 					<br />
 					</dt>
 					<dt class='sidebar-header'>CCS fMRI</dt>
 					<dt id='section1-subsection22' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_CCS_fMRI.php'>Research topics</a>
 					</dt> 
+
 				</dl>
 			</div>
 		</div>

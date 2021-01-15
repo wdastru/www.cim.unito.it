@@ -120,14 +120,17 @@ $localizer = "../";
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 							
 							
-							<a href="../PI/Terreno/home.html" target="_blankk" title="Enzo Terreno">
+							<a href="../PI/Terreno/home.html" target="_blank" title="Enzo Terreno">
 							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
-							<a href="#" target="_blankk" title="Daniela Delli Castelli">
+							<a href="#" target="_blank" title="Daniela Delli Castelli">
 							<img src="../images/staff/dellicastelli.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
-							<a href="../PI/Longo/home.php" target="_blankk" title="Dario Longo">
+							<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
 							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+
+							<a href="../staff/staff_ferrauto.php" target="_blank" title="Giuseppe Ferrauto">
+							<img src="../images/staff/ferrauto.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
                             <!-- InstanceEndEditable -->
                         </div>

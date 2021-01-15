@@ -97,6 +97,10 @@ $localizer = "../";
 														
 							<a href="../staff/staff_stefania.php" target="_blank" title="Rachele Stefania">
 							<img src="../images/staff/stefania.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+
+							<a href="../staff/staff_ferrauto.php" target="_blank" title="Giuseppe Ferrauto">
+							<img src="../images/staff/ferrauto.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>

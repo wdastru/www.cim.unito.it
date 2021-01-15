@@ -76,7 +76,7 @@ $localizer = "../";
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 							
 							
-							<a href="../PI/Terreno/home.html" target="_blankk" title="Enzo Terreno">
+							<a href="../PI/Terreno/home.html" target="_blank" title="Enzo Terreno">
 							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							

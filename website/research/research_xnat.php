@@ -81,11 +81,11 @@ $localizer = "../";
 									<font size="3" >
                                     <b>Acknowledgements</b><br/></font>
                                     <p class="indent">
-                                    <a href="https://www.corbel-project.eu/home.html" target="_blankk">
+                                    <a href="https://www.corbel-project.eu/home.html" target="_blank">
                                     <img src="../images/research_lines/figure_research_xnat_corbel.png" style="width: 100px; height: auto;  margin: 30px;" > </img></a>                                
-                                    <a href="http://www.eurobioimaging.eu/" target="_blankk">
+                                    <a href="http://www.eurobioimaging.eu/" target="_blank">
                                     <img src="../images/research_lines/euro_bio_imaging_logo.jpg" style="width: 230px; height: auto;  margin: 30px;" > </img></a>
-                                    <a href="http://www.mmmi.unito.it/" target="_blankk">
+                                    <a href="http://www.mmmi.unito.it/" target="_blank">
                                     <img src="../images/research_lines/2logo_MMMI_2.png" style="width: 230px; height: auto;  margin: 30px;" > </img></a> </p>
                                                                          
 
@@ -117,7 +117,7 @@ $localizer = "../";
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
 																					
-							<a href="../PI/Longo/home.php" target="_blankk" title="Dario Longo">
+							<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
 							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
 							
 							<a href="#" target="_blank" title="Walter Dastr&ugrave;">

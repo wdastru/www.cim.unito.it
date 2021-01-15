@@ -232,12 +232,12 @@ $localizer = "./";
 								</div>
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a href="research/research_optoacoustic.php">
+										<a href="research/research_photoacoustic.php">
 											<div class="w3-header" style="height: 65px;">
-												<h13 font style="text-transform: none;"> <font color="red">Optoacoustic
+												<h13 font style="text-transform: none;"> <font color="red">Photoacoustic
 												probes</font></h13>
 											</div> <img
-											src="images/research/figure_research_optoacoustic.jpg" alt=""
+											src="images/research/figure_research_photoacoustic.jpg" alt=""
 											class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window" href="PI/Longo/home.php"><span
