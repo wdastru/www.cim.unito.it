@@ -412,7 +412,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										<div class="w3-container w3-cell" style="width: 250px;">
 											<div class="w3-card" style="width: 100%">
 												<div class="w3-container">
-													<img src="images/papers/geninatti_2020_1.jpg" alt=""
+													<img src="images/papers/geninatti_2020_2.jpg" alt=""
 														style="width: 100%">
 														<div class="w3-container">
 															<h4 style="margin-top: 2px; margin-bottom: 2px;">
