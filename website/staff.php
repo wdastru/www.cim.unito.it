@@ -117,7 +117,7 @@ $localizer = "./";
 									<b>Francesca Reineri</b>
 								</h2>
 								<p style="font-size: 16px;">Assistant Professor</p>
-							</div><!--  </a> -->
+							</div></a>
 						</div>
 					</div>
 				</div>
