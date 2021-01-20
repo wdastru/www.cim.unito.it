@@ -10,6 +10,12 @@
 <html>
 <head>
 	<title>Home | Longo LAB</title>
+	
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 </head>
@@ -45,7 +51,25 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+							<ul>
+								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+									<ul>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+												angiogenesis</a>
+										<li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+											style="text-transform: none;">TUMOR pH IMAGING</a>
+										<li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+											style="text-transform: none;">RENAL pH IMAGING</a></li>
+									</ul></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+							</ul>
 						</nav>
 
 					</div>
@@ -61,7 +85,7 @@
 				<div class="inner">
 					<div class="container">
 						<div class="row">
-							<div class="8u 12u(mobile)">
+							<div class="7u 12u(mobile)">
 								<section class="content">
 									<div class="12u">
 										<p align="justify" style="line-height: 2">
@@ -72,7 +96,7 @@
 												and validating non-invasive MRI procedures and probes for
 												improving diagnosis and assessment of treatment effects with
 												a special focus on tumor metabolism and on antiangiogenic
-												drugs.<br /> Our studies also focus on assessing pH imaging
+												drugs. Our studies also focus on assessing pH imaging
 												as a novel biomarker in cancer and in renal diseases.<br />
 												Our lab bridges theoretical and experimental aspects of
 												biological research, combining chemistry, biology and
@@ -84,7 +108,7 @@
 								</section>
 							</div>
 
-							<div class="4u 12u(mobile)">
+							<div class="5u 12u(mobile)">
 
 								<section class="box article-list">
 
@@ -94,21 +118,23 @@
 												src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg"
 												alt=""
 												style="width: 140px; height: auto; margin-right: 1em;"
-												class="image left" /> <img
-												src="<?php echo $localizer; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
+												class="image left" /> 
+											<img
+												src="<?php echo $localizer; ?>PI/Longo/images/Logo-CNR-2010-Quadrato-ENG-high.png"
 												alt=""
 												style="width: 140px; height: auto; margin-right: 1em;"
 												class="image left" />
 										</div>
 										<div style="padding: 0 0 0 160px;">
-											<p align="left" style="line-height: 1.2";>
+											<p align="left" style="line-height: 1.4">
 												<strong><font size="4em">Dario Longo, PhD</font></strong> <br />
-												<br /> Senior Researcher,<br /> Institute of Biostructures
-												and Bioimaging (IBB),<br /> Italian National Research Council
-												(CNR),<br /> Via Nizza 52,<br /> 10126 Torino - Italy<br />
-												Tel: +39 011 6706473<br /> Fax: +39 011 6706458<br /> <a
-													href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>
-												<a href="mailto:dariolivio.longo@cnr.it">dariolivio.longo@cnr.it</a>
+												<br /> <font color="#333" > <b>Head, Research Unit of Torino</b> <br /> Institute of Biostructures
+												and Bioimaging (IBB)<br /> Italian National Research Council
+												(CNR)<br /> <br />Via Nizza, 52<br /> 10126 Torino - Italy<br />
+												Tel: +39 011 6706473<br /> Fax: +39 011 6706458<br /></font>
+												<a href="mailto:dariolivio.longo@cnr.it"><font color="#1e799f"> dariolivio.longo@cnr.it </font></a>
+												<a href="mailto:dario.longo@unito.it"><font color="#1e799f"> dario.longo@unito.it</font></a>
+												
 											</p>
 										</div>
 
@@ -172,7 +198,7 @@
 				<div class="inner">
 					<div class="container">
 						<div class="row">
-						<div class="7u 12u(mobile)">
+							<div class="7u 12u(mobile)">
 
 							<!-- Article list -->
 							<section class="box article-list">
@@ -182,26 +208,26 @@
 																			
 									<li>
 									<div class="date-icon">												
-											<span class="month">March</span>
+											<span class="month">August</span>
 											<h1 class="day">24-27</h1>
 										</div>											 
-									<a href="http://www.e-smi.eu/index.php?id=emim-2020" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>15th
-											European Molecular Imaging Meeting 2020</strong></a></li>
+									<a href="http://www.e-smi.eu/index.php?id=emim-2021" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>16th
+											European Molecular Imaging Meeting 2021</strong></a></li>
 									<li>										
 									<div class="date-icon">												
-											<span class="month">April</span>
-											<h1 class="day">18-23</h1>
+											<span class="month">May</span>
+											<h1 class="day">15-20</h1>
 										</div>
-									<a href="https://www.ismrm.org/20m/" style="vertical-align:middle; padding-left:10px" target="_blank">
-									<strong>ISMRM 28th Annual Meeting 2020</strong></a></li>
+									<a href="https://www.ismrm.org/21m/" style="vertical-align:middle; padding-left:10px" target="_blank">
+									<strong>ISMRM 2021 Annual Meeting</strong></a></li>
 											
 									<li>										
 									<div class="date-icon">												
-											<span class="month">October</span>
-											<h1 class="day">7-10</h1>
+											<span class="month">September</span>
+											<h1 class="day">16-20</h1>
 										</div>
-									<a href="https://www.wmis.org/2020-wmic-2/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>World
-											Molecular Imaging Congress WMIC 2020</strong></a></li>									
+									<a href="https://www.wmis.org/news-room/other-molecular-imaging-conferences-meetings/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>World
+											Molecular Imaging Congress WMIC 2021</strong></a></li>									
 								</ul>
 
 							</section>
@@ -211,19 +237,40 @@
 									<h2 class="icon fa-file-text-o">NEWS</h2>
 
 									<ul class="divided">
+									
+									<!--  
 						 			  	  	<li><img src="<?php echo $localizer; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
 										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
-											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/position_cancer_metabolism.pdf"><font color="red">Research Fellow position in Cancer Biology/Metabolism</a></font><br>
-											ii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br>
-										   <!-- iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a> -->
-										   </font></b>
+											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/position_informatico.pdf"><font color="red">Research Fellow position in Software development</a></font><br>
+											<!-- ii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br> -->
+										   <!-- iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
+										   
 											 
 											</li>
+											-->
 											
-											<li><b>New journal article published in  
-											<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">							
-											<em><font color="blue">Cancer Metastasis Rev</font></em></b></a>
+											<li><b>New research article on a novel multislice sequence for 3D MRI-CEST pH imaging published in </b>  
+											<a title="Open in a new window" class="http" href="https://pubmed.ncbi.nlm.nih.gov/33031591" target="_blank">							
+											<em><font color="blue">Magnetic Resonance in Medicine 2021; 85:1335-1349.</font></em></a>
+											</li>
+											
+											<li><b>New research article on a combined approach for evaluating renal perfusion and pH published in </b>  
+											<a title="Open in a new window" class="http" href="https://pubmed.ncbi.nlm.nih.gov/32153058" target="_blank">							
+											<em><font color="blue">NRM in Biomedicine, 2020, 33, e4287.</font></em></a>
+											</li>
+											
+											<li><b>New research article on a novel melanin-based probe for optoacoustic imaging published in </b>  
+											<a title="Open in a new window" class="http" href="https://www.mdpi.com/2076-3417/10/23/8313" target="_blank">							
+											<em><font color="blue">Applied Sciences 2020, 10, 8313.</font></em></a>
+											</li>
+											
+											<li><b>New review focussing on imaging tumor metabolism published in </b><a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/32133295" target="_blank">							
+											<em><font color="blue">Frontiers in Oncology, 2020, 10, 161</font></em></a>
+											</li>
+											
+											<li><b>New review focussing on imaging tumor acidosis published in </b><a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">							
+											<em><font color="blue">Cancer Metastasis Review 2019; 38:25-49</font></em></a>
 											</li>
 											
 											<!--  <li><b><a title="Open in a new window" class="http" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">							
@@ -255,9 +302,9 @@
 				<div class="12u">
 
 					<ul class="menu">
-						<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
+						<li>&copy; 2021 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Updated: 15 January 2020</li>
+						<li>Updated: 4 January 2021</li>
 					</ul>
 				</div>
 			</footer>

@@ -37,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -45,7 +45,25 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+							<ul>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+									<ul>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+												angiogenesis</a>
+										<li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+											style="text-transform: none;">TUMOR pH IMAGING</a>
+										<li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+											style="text-transform: none;">RENAL pH IMAGING</a></li>
+									</ul></li>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
+								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+							</ul>
 						</nav>
 
 					</div>
@@ -60,7 +78,7 @@
 						<div class="inner">
 							<section class="container box feature2">
 									<div class="row">
-										<div class="6u 12u(mobile)">
+										<div class="5u 12u(mobile)">
 											<section>
 												
 													<h2>Contact Us</h2>
@@ -68,23 +86,36 @@
 												
 												<p align="left" style="line-height: 2";>
 												<strong> 
+												<a title="Institute of Biostructures and Bioimaging" class="http" href="http://www.ibb.cnr.it/" target="_blank"> 
+												Research Unit of Torino <br> Institute of Biostructures and Bioimaging (IBB) </a><br>
+												<a title="CNR" class="http" href="https://www.cnr.it/" target="_blank"> 
+												National Research Council of Italy (CNR)</a><br>
+												<a title="CIM" class="http" href="https://www.cim.unito.it/" target="_blank"> c/o Molecular Imaging Center, University of Torino</a><br>
+												
+												
+												<!-- 
 												<a title="Molecular Imaging Center" class="http" href="http://www.cim.unito.it/website/index.php" target="_blank"> 
 												Molecular Imaging Center</a><br />
 												<a title="Dept. Mol Biotec Health Sciences" class="http" href="https://www.mbc.unito.it" target="_blank"> 												
 												Department of Molecular Biotechnologies and Health Science</a><br />
 												<a title="University of Torino" class="http" href="https://www.unito.it" target="_blank"> 
-												University of Torino</a><br>
+												University of Torino</a><br> 
+												-->
 												Via Nizza, 52<br>
 												10126 - Torino, Italy </strong></p>
 												<p style="color:dark gray; line-height: 2" align="left">
 												Tel: +39 011 6706473<br > 
 												Fax: +39 011 6706458<br > 
-												<a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a></font>
+												<a href="mailto:dariolivio.longo@cnr.it">dariolivio.longo@cnr.it</a></font>
 												</p>
+												
+												
+												<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=rdPyxmojk7H5uDhND5SVVDRdRwbKtud6nJdBPJlzFcQ&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+												
 												
 											</section>
 										</div>
-										<div class="6u 12u(mobile)">
+										<div class="7u 12u(mobile)">
 											<section>
 											<br/><br/><br/>		
 											<img src="images/MBC.jpg"  width="500" height="auto"/>

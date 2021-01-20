@@ -37,7 +37,7 @@
 
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>/PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
 
@@ -45,7 +45,25 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+							<ul>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
+								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+									<ul>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+												angiogenesis</a>
+										</li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+											style="text-transform: none;">TUMOR pH IMAGING</a>
+										</li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+											style="text-transform: none;">RENAL pH IMAGING</a></li>
+									</ul></li>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+							</ul>
 						</nav>
 
 					</div>
@@ -106,7 +124,7 @@
 											<p font style="text-transform: none; font-size:1.3em">Imaging the pH evolution in an acute kidney injury model </p>
 											</br>
 										</header>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney1.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Our previous studies have shown the ability of a
@@ -128,7 +146,7 @@
 												target="_blank"><font color="blue">[Longo et al. 2013]</font></a>.
 										
 										</p>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney2.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney2.jpg" alt="" class="image zooming">
 										<p align="justify">We have demonstrated that the use of Iopamidol
 											as a CEST-MRI pH responsive CA provides a
 											good estimate of the kidney pH evolution both in healthy
@@ -159,7 +177,7 @@
 											
 											<p font style="text-transform: none; font-size:1.3em">Evaluation of renal pH homeostasis after ischemia reperfusion injury</p>
 										</header>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney3.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney3.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Ischemic renal injury is a severe clinical problem in nephrology and the
@@ -176,7 +194,7 @@
 											Morover, MRI-CEST renal pH values were significantly correlated
 											with histological scores, reflecting renal damage.
 										</p>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/kidney4.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney4.jpg" alt="" class="image zooming">
 										<p align="justify">The results reported herein show, for the first time, that MRI-CEST
 											pH mapping allows the noninvasive detection and monitoring of
 											renal function impairment after unilateral ischemia-induced AKI.
@@ -188,6 +206,46 @@
 								</section>
 							</div>
 
+
+						<div class="4u 12u(mobile)">
+
+								<!-- Spotlight -->
+								<section>
+
+									<article>
+
+										<header>
+											<h3 font style="text-transform: none;">
+												<font color="red">Dual assessment of kidney perfusion and pH </font></a>
+											</h3>
+											
+											<p font style="text-transform: none; font-size:1.3em">Dynamic CEST-MRI approach in an acute kidney ischemia reperfusion injury murine model</p>
+										</header>
+										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney5.jpg" alt="" class="image zooming">
+
+										<p align="justify">
+											We investigated the exploitation of a single contrast agent injection with a dynamic CEST acquisition
+											for a combined quantification of renal perfusion and pH homeostasis in a unilateral kidney ischemia
+											reperfusion injury (KIRI) model. Thus, a dynamic-CEST approach has been implemented in the 
+											acquisition protocol and semi-quantitative estimates (peak, area under the curve AUC and slope) 
+											were calculated from the dynamic curves. These measurements have been compared to those obtained with 
+											a standard Dynamic Contrast Enhanced (DCE)-MRI approach following Gd-based injection.
+											Compared with the contralateral kidneys, the clamped ones showed a significant decrease in renal perfusion,
+											as measured using the DCE-MRI approach, which is consistent with reduced filtration capability. 
+											Dynamic CEST-MRI findings reported similar results, indicating that the clamped kidneys displayed
+											significantly reduced renal filtration that persisted up to 7 days after the damage.
+										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/32153058" target="_blank"><font color="blue">[Irrera et al. 2020]</font></a>.
+											In addition, CEST-MRI pH imaging showed that the clamped kidneys displayed significantly increased pH values,
+											reflecting the disturbance to pH homeostasis. 
+										</p>
+										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney6.jpg" alt="" class="image zooming">
+										<p align="justify">Our results demonstrate that a single CEST-MRI contrast agent can provide multiple types 
+										    of information related to renal function and can discern healthy kidneys from pathological ones by 
+										    combining perfusion measurements with renal pH mapping.</p>
+										
+									</article>
+								</section>
+							</div>
 							
 
 							

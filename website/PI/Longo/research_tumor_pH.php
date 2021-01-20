@@ -37,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>/PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -45,7 +45,25 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+							<ul>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
+								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+									<ul>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+												angiogenesis</a>
+										</li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+											style="text-transform: none;">TUMOR pH IMAGING</a>
+										</li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+											style="text-transform: none;">RENAL pH IMAGING</a></li>
+									</ul></li>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+							</ul>
 						</nav>
 
 					</div>
@@ -114,7 +132,7 @@
 										Tumors with higher FDG uptake show lower pHe values, whereas tumors with lower
 										FDG uptake display a less acidic microenvironment
 										</p>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/tumor_pH1.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/tumor_pH1.jpg" alt="" class="image zooming">
 
 										<p align="justify">We demonstrated the occurrence of tumor pHe changes that
 										report on acidification of the interstitial fluid caused by an
@@ -128,7 +146,7 @@
 										measurements can improve characterization of the tumor
 										microenvironment.</p>
 										
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/tumor_pH2.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/tumor_pH2.jpg" alt="" class="image zooming">
 										
 									</article>
 								</section>
@@ -143,11 +161,11 @@
 
 										<header>
 											<h3 font style="text-transform: none;">
-												<font color="red">pH imaging and tumor metabolism</font></a>
+												<font color="red">pH imaging and tumor therapy</font></a>
 											</h3>
-											<p font style="text-transform: none; font-size:1.3em">pH imaging for assessing the efficacy of inhibitors of cancer metabolism</p>
+											<p font style="text-transform: none; font-size:1.3em">pH imaging for assessing treatment response to cancer metabolism inhibitors</p>
 										</header>
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/tumor_pH3.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/tumor_pH3.jpg" alt="" class="image zooming">
 
 										<p align="justify">Drugs addressing
 										specific aspects of the deregulated tumour metabolism have
@@ -168,7 +186,7 @@
 												target="_blank"><font color="blue">[Anemone et al. 2017]</font></a>.											
 										</p>
 
-										<img src="<?php echo $localizer; ?>/PI/Longo/images/tumor_pH4.jpg" alt="" class="image zooming">
+										<img src="<?php echo $localizer; ?>PI/Longo/images/tumor_pH4.jpg" alt="" class="image zooming">
 										
 										<p align="justify">We demonstrated that MRI-CEST pH imaging is able
 										to detect the early response to DCA by measuring changes in
@@ -180,6 +198,53 @@
 									</article>
 								</section>
 							</div>
+							
+							<div class="4u 12u(mobile)">
+
+								<!-- Spotlight -->
+								<section>
+
+									<article>
+
+										<header>
+											<h3 font style="text-transform: none;">
+												<font color="red">pH imaging and tumor aggressiveness</font></a>
+											</h3>
+											<p font style="text-transform: none; font-size:1.3em">pH imaging correlates with tumor metastatic potential</p>
+										</header>
+
+										<p align="justify">It is well known that acidic environment can promote cancer invasion and migration, but few in vivo studies 
+										have investigated how tumour pH correlates with cancer invasion. We examined breast cancer cell lines that are distinguished 
+										by different metastatic potentials and have been characterized for several markers of aggressiveness and invasiveness. 
+										Then, after tumour cell inoculation we studied development of lung metastases and measured in vivo tumour acidosis by 
+										MRI chemical exchange saturation transfer (CEST) pH imaging approach
+
+										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/30762162"
+												target="_blank"><font color="blue">[Anemone et al. 2020]</font></a>.
+										
+										We observed that 4T1 and TS/A primary tumours displayed higher metastatic potential in comparison to the less aggressive
+										TUBO and BALB-neuT ones; this was confirmed by the highest expression of cancer cell stem markers, highlighting 
+										their propensity to migrate and invade which coincide with measurement obtained by in vitro assays.
+																					 
+											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/33257841"
+												target="_blank"><font color="blue">[Anemone et al. 2020]</font></a>.
+
+                                        <img src="<?php echo $localizer; ?>PI/Longo/images/tumor_pH5.jpg" alt="" class="image zooming">	
+										</p>
+										
+										<p align="justify">MRI-CEST pH imaging successfully discriminated the more aggressive 4T1 and TS/A tumours that displayed a more acidic pH. 
+										Moreover, the observed higher tumour acidity was significantly correlated with an increased number of lung metastases. 
+										The findings of this study indicate that the extracellular acidification is associated with the metastatic potential.
+										
+										<img src="<?php echo $localizer; ?>PI/Longo/images/tumor_pH6.jpg" alt="" class="image zooming">
+										</p>
+										
+										
+									</article>
+								</section>
+							</div>
+							
+							
 
 							
 

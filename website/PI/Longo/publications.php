@@ -10,8 +10,16 @@
 <html>
 <head>
 	<title>Publications | Longo Lab</title>
+
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
 	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	
+	
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -45,7 +53,25 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Longo/includes/menu_longo.php'); ?>
+							<ul>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+									<ul>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+												angiogenesis</a>
+										<li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+											style="text-transform: none;">TUMOR pH IMAGING</a>
+										<li>
+										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+											style="text-transform: none;">RENAL pH IMAGING</a></li>
+									</ul></li>
+								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
+								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+							</ul>
 						</nav>
 
 					</div>
@@ -54,34 +80,104 @@
 			</div>
 		</div>
 
+
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-			<div class="wrapper style2">
+			<div class="wrapper style3>
 				<div class="inner">
-					<div class="container">
-					<div class="row">
-						<div class="10u 12u(mobile)">
-						<div id="content">
+					<section class="container box feature3">
+					    <div class="row">  
 
-							<!-- Content -->
+                         <br>
+                         <ul class="style2" style="float: right;">
+							<li><a href="#papers"><b>Journal Papers</b></a></li>
+							<li><a href="#bookchapters"><b>Book Chapters</b></a></li>					
+							</ul>
+						
 							<article>
+							<p>Dario Longo is author of more than 60 papers in peer-reviewed journals and of four book chapters. <br>
+							Full list of publications are available at 
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Dario+Longo" target="_blank"> <font color="blue"> PubMed </font></a>
+									 , <a title="Open in a new window" href="https://www.scopus.com/authid/detail.uri?authorId=8564616500" target="_blank"> <font color="blue"> Scopus</font></a>
+									 or at <a title="Open in a new window" href="https://scholar.google.it/citations?user=euGug2wAAAAJ&hl=it" target="_blank"> <font color="blue"> Google Scholar</font></a>.
+									</p>
+							
 								
-									<h2 class="icon fa-file-text-o">Journal Papers</h2>
-								
-								<ol class="default" reversed=true>
+									<h2 id='papers' class="icon fa-file-text-o">Journal Papers</h2>
+									
+									
+									
+									<ol class="default" reversed=true>
 									<div style="line-height: 1.5">
 									
-									<p>Full list of publications available at 
-									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Dario+Longo" target="_blank">PubMed</a>
-									</p>
-									
-
-																				<h3 id='2019'>|2019</h3>
 										
-										<li>Anemone A, Consolino L, Arena F, Capozza M, <b>Longo DL</b>, Zaiss M, Golay X.							
+										<h3 id='2021'>|2021</h3>
+										
+										<li>Villano, Daisy; Romdhane, Feriel; Irrera, Pietro; Consolino, Lorena; Anemone, Annasofia; Zaiss, Moritz; Dastru, Walter; <b>Longo, Dario Livio</b>							
+										<i>&#34;A Fast Multislice Sequence for 3D MRI-CEST pH Imaging&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/33031591" target="_blank">
+										<font color="blue"> Magnetic Resonance in Medicine, 2021, 85, 1335  </font></a></li>
+										<br>
+										
+										
+										<h3 id='2020'>|2020</h3>
+										
+										<li>Martina Capozza, Rachele Stefania, Luisa Rosas, Francesca Arena, Lorena Consolino, Annasofia Anemone, James Cimino, <b>Dario Livio Longo</b> and Silvio Aime							
+										<i>&#34;An Improved Biocompatible Probe for Photoacoustic Tumor Imaging Based on the Conjugation of Melanin to Bovine Serum Albumin&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.mdpi.com/2076-3417/10/23/8313" target="_blank">
+										<font color="blue"> Applied Sciences 2020, 10, 8313  </font></a></li>
+										<br>
+										
+										<li>Grunewald, Thomas G. P.; Alonso, Marta; Avnet, Sofia; Banito, Ana; Burdach, Stefan; Cidre-Aranaz, Florencia; Di Pompo, Gemma; Distel, Martin; Dorado-Garcia, Heathcliff; Garcia-Castro, Javier; Gonzalez-Gonzalez, Laura; Grigoriadis, Agamemnon E.; Kasan, Merve; Koelsche, Christian; Krumbholz, Manuela; Lecanda, Fernando; Lemma, Silvia; <b>Longo, Dario Livio</b>; Madrigal-Esquivel, Claudia; Morales-Molina, Alvaro; Musa, Julian; Ohmura, Shunya; Ory, Benjamin; Pereira-Silva, Miguel; Perut, Francesca; Rodriguez, Rene; Seeling, Carolin; Al Shaaili, Nada; Shaabani, Shabnam; Shiavone, Kristina; Sinha, Snehadri; Tomazou, Eleni M.; Trautmann, Marcel; Vela, Maria; Versleijen-Jonkers, Yvonne M. H.; Visgauss, Julia; Zalacain, Marta; Schober, Sebastian J.; Lissat, Andrej; English, William R.; Baldini, Nicola; Heymann, Dominique								
+										<i>&#34;Sarcoma treatment in the era of molecular medicine&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/33047515" target="_blank">
+										<font color="blue"> EMBO Molecular Medicine, 2020, 12, e11131 </font></a></li>
+										<br>
+										
+										
+										<li>Hao Wu, Veronica Estrella, Matthew Beatty, Dominique Abrahams, Asmaa El-Kenawi, Shonagh Russell, Arig Ibrahim-Hashim, <b>Dario Livio Longo</b>, Yana K. Reshetnyak, Anna Moshnikova, Oleg A. Andreev, Kimberly Luddy, Mehdi Damaghi, Krithika Kodumudi, Smitha R. Pillai, Pedro Enriquez-Navas, Shari Pilon-Thomas, Pawel Swietach, Robert J. Gillies								
+										<i>&#34;T cells produce acidic niches in lymph nodes to suppress their effector functions&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/32807791" target="_blank">
+										<font color="blue"> Nature Communications, 2020, 11, 4113 </font></a></li>
+										<br>
+										
+										<li>Federica Riccardo, Giuseppina Barutello, Angela Petito, Lidia Tarone, Laura Conti, Maddalena Arigoni, Chiara Musiu, Stefania Izzo, Marco Volante, <b>Dario Livio Longo</b>, Irene Fiore Merighi, Mauro Papotti, Federica Cavallo, Elena Quaglino							
+										<i>&#34;Immunization against ROS1 by DNA electroporation impairs K-Ras-driven Lung Adenocarcinomas&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/32268572" target="_blank">
+										<font color="blue"> Vaccines, 2020, 8, 166  </font></a></li>
+										<br>
+										
+										<li>Pietro Irrera, Lorena Consolino, Juan Carlos Cutrin, Frank G. Zollner, <b>Dario Livio Longo</b>							
+										<i>&#34;Dual assessment of kidney perfusion and pH by exploiting a dynamic CEST-MRI approach in an acute kidney ischemia reperfusion injury murine model&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/32153058" target="_blank">
+										<font color="blue"> NRM in Biomedicine, 2020, 33, e4287  </font></a></li>
+										<br>
+										
+										<li>Consolino L, Anemone A, Capozza M, Carella A, Irrera P, Corrado A, Dhakan C, Bracesco M, <b>Longo DL</b>								
+										<i>&#34;Non-invasive Investigation of Tumor Metabolism and Acidosis by MRI-CEST Imaging&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/32133295" target="_blank">
+										<font color="blue"> Frontiers in Oncology, 2020, 10, 161 </font></a></li>
+										<br>
+										
+										
+										<h3 id='2019'>|2019</h3>
+										
+										<li>L. Granato, <b>DL. Longo</b>, S. Boutry, L. Vander Elst, C. Henoumont, S. Aime, R.N. Muller, S. Laurent							
+										<i>&#34;Synthesis and relaxometric characterization of new Poly[N,N-bis(3AminoPropyl)Glycine] (PAPGly) dendrons Gd-based contrast agents and their in-vivo study by using the Dynamic Contrast-Enhanced MRI technique at Low field (1 T)&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/31544357" target="_blank">
+										<font color="blue"> Chemistry & Biodiversity, 2019, 16, e1900322  </font></a></li>
+										<br>
+										
+										<li>Cohen G, Hadas R, Stefania R, Pagoto A, Ben-Dor S, Kohen F, <b>Longo DL</b>, Elbaz M, Dekel N, Gershon E, Aime S, Neeman M							
+										<i>&#34;MRI reveals distinct roles for tissue transglutaminase and factor XIII in maternal angiogenesis during early mouse pregnancy&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/31189431" target="_blank">
+										<font color="blue"> Arteriosclerosis, Thrombosis, and Vascular Biology. 2019, 39, 1602  </font></a></li>
+										<br>
+										
+										<li>Anemone A, Consolino L, Arena F, Capozza M, <b>Longo DL</b>							
 										<i>&#34;Imaging tumor acidosis: a survey of the available techniques for mapping in vivo tumor pH&#34; </i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/30762162" target="_blank">
-										<font color="blue"> Cancer Metastasis Rev. 2019  </font></a></li>
+										<font color="blue"> Cancer Metastasis Rev. 2019, 38, 25  </font></a></li>
 										<br>
 										
 										<li>Kujawa A, Kim M, Demetriou E, Anemone A, <b>Longo DL</b>, Zaiss M, Golay X.							
@@ -96,6 +192,12 @@
 										<font color="blue"> Magnetic Resonance in Medicine 2019, 81, 1935 </font></a></li>
 										<br>
 					
+										<li>Zaiss M, Anemone A, Goerke S, <b>Longo DL</b>, Herz K, Pohmann R, Aime S, Rivlin M, Navon G, Golay X, Scheffler K							
+										<i>&#34;Quantification of hydroxyl exchange of D-Glucose at physiological conditions for optimization of glucoCEST MRI at 3T, 7T and 9.4 T&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/31313865" target="_blank">
+										<font color="blue"> NMR in Biomedicine, 2019, 32, e4113 </font></a></li>
+										<br>
+										
 					
 										<h3 id='2018'>|2018</h3>
 										
@@ -138,12 +240,6 @@
 										<font color="blue"> Int J Oncol. 2017, 51, 498 </font></a></li>
 										<br>
 										
-										<li>Wu Y, Zhou IY, Igarashi T, <b>Longo DL</b>, Aime S, Sun PZ.							
-										<i>&#34;A generalized ratiometric chemical exchange saturation transfer (CEST) MRI approach for mapping renal pH using iopamidol&#34;</i> 
-										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/28686805" target="_blank">
-										<font color="blue"> Magn Reson Med. 2017,xx xx</font></a></li>
-										<br>
-										
 										<li><b>Longo DL</b>, Moustaghfir FZ, Zerbo A, Consolino L, Anemone A, Bracesco M, Aime S.							
 										<i>&#34;Exploiting pharmaceutical excipients as MRI-CEST contrast agents for tumor imaging&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/28433532" target="_blank">
@@ -159,7 +255,7 @@
 										<li><b>Longo DL</b>, Cutrin JC, Michelotti F, Irrera P, Aime S. 
 										<i>&#34;Noninvasive evaluation of renal pH homeostasis after ischemia reperfusion injury by CEST-MRI&#34;</i> 
 										<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28370530" target="_blank">
-										<font color="blue"> NMR Biomed. 2017, 30, xxx </font></a></li>
+										<font color="blue"> NMR Biomed. 2017, 30, e3720 </font></a></li>
 										<br>
 										
 										<li>Fagoonee S, Picco G, Orso F, Arrigoni A, <b>Longo DL</b>, Forni M, ScarfÃ² I, Cassenti A, Piva R, Cassoni P, Silengo L, Tolosano E, Aime S, Taverna D, Pandolfi PP, Brancaccio M, Medico E, Altruda F. 
@@ -451,61 +547,19 @@
 
 							</article>
 							
-							
-							<header class="major">
-							</header>
-							
 						</div>
-						
-					</div>
-					<div class="2u 12u(mobile)">
-						<div id="sidebar">
-						
-						<section>
-														<br>
-														<br>
-														<h4>Year</h4>
 													
-													<ul class="style2">
-														<li><a href="#2019">2019</a></li>
-														<li><a href="#2018">2018</a></li>
-														<li><a href="#2017">2017</a></li>
-														<li><a href="#2016">2016</a></li>
-														<li><a href="#2015">2015</a></li>
-														<li><a href="#2014">2014</a></li>
-														<li><a href="#2013">2013</a></li>
-														<li><a href="#2012">2012</a></li>
-														<li><a href="#2011">2011</a></li>
-														<li><a href="#2010">2010</a></li>
-														<li><a href="#2009">2009</a></li>
-														<li><a href="#2008">2008</a></li>
-														<li><a href="#2007">2007</a></li>
-														<li><a href="#2006">2006</a></li>
-														<li><a href="#2005">2005</a></li>
-														<li><a href="#2004">2004</a></li>
-														<li><a href="#bookchapters"><b>Book Chapters</b></a></li>
-														
-													</ul>
-													
-													
-													
-												</section>
-						
-						
-						</div>
-			</div>
-					
-					
-					</div>
-			</div>
-					
+				</section>
 				</div>
-			</div>
 			
+		
+		
 			<div class="wrapper style2">
 						<div class="inner">
-							<div class="container">
+							<div class="container">					
 							<div class="row">
+							<div class="10u 12u(mobile)">
+						   
 							
 							<article>
 								
@@ -515,14 +569,14 @@
 																		
 									<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="100px" style="margin-right:20px">
 									<b>Longo DL</b>, Aime S. (2017)							
-										<i>Iodinated Contrast Media as pH-Responsive CEST Agents (Chapter 19, pp 447-466)</i><br>In:
+										<i>Iodinated Contrast Media as pH-Responsive CEST Agents (Chapter 19, pp 447-466)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">
 										<font color="blue"> Chemical Exchange Saturation Transfer Imaging: Advances and Applications </font></a> 
 										(eds. M.T. McMahon, A.A. Gilad, J.W.M. Bulte, P.C.M. van Zijl) Singapore: Pan Stanford Publishing</li><br>
 										
 										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_beckmann2.jpg" align="left" height="100px" style="margin-right:20px">
 										Aime S,<b>Longo DL.</b>,  (2013)							
-										<i>Recent Developments of Contrast Agents, CEST and Low Fields (Chapter 6, pp. 184-201)</i><br>In:
+										<i>Recent Developments of Contrast Agents, CEST and Low Fields (Chapter 6, pp. 184-201)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="http://pubs.rsc.org/en/content/chapter/bk9781849734448-00184/978-1-84973-444-8" target="_blank">
 										<font color="blue"> New Applications of NMR in Drug Discovery and Development. Series: New Developments in NMR Vol. 2   </font></a> 
 										(eds. L. Garrido and N. Beckmann) CAMBRIDGE: Royal Society of Chemistry (UK)</li><br>
@@ -556,9 +610,9 @@
 			
 			
 		</div>
+    </div>
 
-
-	</div>
+</div>
 
 	<!-- Scripts -->
 
