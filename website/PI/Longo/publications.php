@@ -99,7 +99,7 @@
 							Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Dario+Longo" target="_blank"> <font color="blue"> PubMed </font></a>
 									 , <a title="Open in a new window" href="https://www.scopus.com/authid/detail.uri?authorId=8564616500" target="_blank"> <font color="blue"> Scopus</font></a>
-									 or at <a title="Open in a new window" href="https://scholar.google.it/citations?user=euGug2wAAAAJ&hl=it" target="_blank"> <font color="blue"> Google Scholar</font></a>.
+									 or at <a title="Open in a new window" href="https://scholar.google.it/citations?user=euGug2wAAAAJ&hl=en" target="_blank"> <font color="blue"> Google Scholar</font></a>.
 									</p>
 							
 								

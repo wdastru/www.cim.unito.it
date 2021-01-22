@@ -95,7 +95,7 @@
 										<div style="padding: 0 0 0 160px;">
 											<p align="left" style="line-height: 1.2";>
 												<strong><font size="4em">Francesca Reineri, PhD</font></strong> <br />
-												<br /> Associate Professor<br /> Molecular Imaging Center <br />
+												<br /> Assistance Professor<br /> Molecular Imaging Center <br />
 												Department of Molecular Biotechnologies and Health Science<br />
 												University of Torino <br /> Via Nizza 52<br /> 10126 Torino - Italy<br />
 												Tel: +39 011 6706473<br /> Fax: +39 011 6706458<br /> <a

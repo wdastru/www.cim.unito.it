@@ -69,7 +69,7 @@
 									<ol class="default" reversed=true>
 									<div style="line-height: 1.5">
 										<p>Full list of publications are available at 
-										<a title="Open in a new window" href="https://scholar.google.it/citations?user=mJK0H8cAAAAJ&hl=it" target="_blank">Google Scholar</a>
+										<a title="Open in a new window" href="https://scholar.google.it/citations?user=mJK0H8cAAAAJ&hl=en" target="_blank">Google Scholar</a>
 										</p>
 									</div>
 								</ol>
