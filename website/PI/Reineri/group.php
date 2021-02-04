@@ -9,7 +9,7 @@
 -->
 <html>
 <head>
-	<title>Group Members | REINERI Lab</title>
+	<title>Members | REINERI Lab</title>
 	<?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
 </head>
 <body class="homepage">

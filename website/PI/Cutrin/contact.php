@@ -9,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>Contact Us | Cutrin Lab</title>
+		<title>Contact Us | CUTRIN LAB</title>
 	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Cutrin/includes/head_const_cutrin.php'); ?>
 	</head>
