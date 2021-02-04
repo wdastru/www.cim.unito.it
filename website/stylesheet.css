@@ -163,9 +163,10 @@ height: 100%;
 #content p { text-align:justify; }
 #content .indent { text-indent:30px; }
 #content .superscript .subscript { font-size:8px; }
-#content a.visible_link { color:#db6d16; text-decoration: underline;}
 #content a { color:#666666; text-decoration:none; }
 #content a:hover { color:#db6d16; }
+#content a.seq_link { color:#db6d16; font-weight:bold; text-decoration:underline; cursor:pointer}
+#content a.visible_link { color:#db6d16; text-decoration: underline;}
 #content-large a { color:#666666; text-decoration:none; }
 #content-large a:hover { color:#db6d16; }
 #content .imgCenter { text-align:center; margin:10px auto; border:1px solid #cccccc; padding:5px; }
@@ -268,7 +269,6 @@ height: 100%;
 div.hide { display: none; background-color:#ffc396; padding:10px; border-radius:10px; }
 li.myHoverPlace:hover > div.hide { display: block; }*/
 
-#content a.seq_link { color:#db6d16; font-weight:bold; text-decoration:underline; cursor:pointer}
 .centered { position: fixed; top: 50%; left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
