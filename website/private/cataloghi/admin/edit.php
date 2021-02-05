@@ -62,7 +62,7 @@ $localizer = "../../../";
 			<div id='content-large'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							CHEMICALS CATALOG
 							<!-- InstanceEndEditable -->

@@ -26,7 +26,7 @@
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 						Post Doctoral Research Fellows
 						</h1>
 					</div>

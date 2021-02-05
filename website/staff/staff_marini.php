@@ -26,7 +26,7 @@
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							PhD and Graduate Students
 						</h1>
 					</div>

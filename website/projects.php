@@ -27,7 +27,7 @@ $localizer = "./";
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							On going Projects
 							<!-- InstanceEndEditable -->
@@ -108,7 +108,7 @@ $localizer = "./";
 								</div>
 								
 								<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Past Projects
 							<!-- InstanceEndEditable -->

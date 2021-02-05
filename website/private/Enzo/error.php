@@ -45,7 +45,7 @@ require('errors.inc.php');
 			<div id='content-large'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 id='subsectionTitle'>Enzo's private area</h1>
+						<h1 class='subsectionTitle'>Enzo's private area</h1>
 					</div>
 					<div class='paddingInner'>
 						<p><?php echo $error[$_GET['error']]?></p>

@@ -31,7 +31,7 @@
 <div id='content'>
 <div class='paddingOuter'>
 <div class='band'>
-<h1 id='subsectionTitle'>
+<h1 class='subsectionTitle'>
 <!-- InstanceBeginEditable name="subsection title" -->Industrial
 Partners <!-- InstanceEndEditable --></h1>
 </div>

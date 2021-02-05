@@ -26,7 +26,7 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Fast Field Cycling Relaxometry in vitro and in vivo
+                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Fast Field Cycling Relaxometry in vitro and in vivo
                              <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>

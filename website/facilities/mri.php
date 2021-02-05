@@ -24,7 +24,7 @@
               <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->MRI
+                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->MRI
                             Instruments<!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>

@@ -26,7 +26,7 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Nanosized and Targeting
+                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Nanosized and Targeting
                             Agents <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>

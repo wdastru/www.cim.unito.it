@@ -37,7 +37,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 id='subsectionTitle'>COST Action TD1004</h1>
+                            <h1 class='subsectionTitle'>COST Action TD1004</h1>
                         </div>
                         <div class='paddingInner'>
                             <div id='costContainer'></div>

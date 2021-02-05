@@ -26,7 +26,7 @@ $localizer = "../";
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Nano and micro systems for <i>in vitro</i> diagnostic<!-- InstanceEndEditable --></h1>
+                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Nano and micro systems for <i>in vitro</i> diagnostic<!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->

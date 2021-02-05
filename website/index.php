@@ -26,7 +26,7 @@ header('Content-Type: text/html;charset=UTF-8');
                 <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Molecular Imaging Center
 							<!-- InstanceEndEditable -->
@@ -68,7 +68,7 @@ header('Content-Type: text/html;charset=UTF-8');
 					</div>
 
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Research Areas
 							<!-- InstanceEndEditable -->
@@ -207,7 +207,7 @@ header('Content-Type: text/html;charset=UTF-8');
 					</div>
 
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							News and Events
 							<!-- InstanceEndEditable -->

@@ -33,7 +33,7 @@
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->COST Action TD1004 <!-- InstanceEndEditable --></h1>
+                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->COST Action TD1004 <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             <div style="padding: 0 27%">

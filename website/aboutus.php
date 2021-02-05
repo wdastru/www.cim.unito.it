@@ -26,7 +26,7 @@ $localizer = "./";
                 <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							About the Molecular Imaging Center at Torino
 							<!-- InstanceEndEditable -->
@@ -63,7 +63,7 @@ $localizer = "./";
 
 
 					<div class='band'>
-						<h1 id='subsectionTitle' id="leadership">
+						<h1 class='subsectionTitle' id="leadership">
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Leadership
 							<!-- InstanceEndEditable -->
@@ -107,7 +107,7 @@ $localizer = "./";
 					</div>
 
 					<div class='band'>
-						<h1 id='subsectionTitle'>
+						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Research Laboratories
 							<!-- InstanceEndEditable -->

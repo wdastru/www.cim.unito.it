@@ -34,7 +34,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <div id='content-large'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> CHEMICALS CATALOG <!-- InstanceEndEditable --></h1>
+                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> CHEMICALS CATALOG <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>
                             
