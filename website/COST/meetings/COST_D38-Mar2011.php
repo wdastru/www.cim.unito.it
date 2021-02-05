@@ -43,7 +43,7 @@ $localizer = "../../";
                 </div>
                 <div id='content'>
                     <div class='paddingOuter'>
-                        <div id='band'>
+                        <div class='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->COST Action D38 <!-- InstanceEndEditable --></h1>
                         </div>
                         <div class='paddingInner'>

@@ -115,7 +115,7 @@ $_POST['delete'] = 0;
 			</div>
 			<div id='content-larger'>
 				<div class='paddingOuter'>
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							CHEMICALS CATALOG

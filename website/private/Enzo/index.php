@@ -43,7 +43,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				</div>
 				<div id='content-large'>
 					<div class='paddingOuter'>
-						<div id='band'>
+						<div class='band'>
 							<h1 id='subsectionTitle'>Enzo's private area</h1>
 						</div>
 						<div class='paddingInner'>

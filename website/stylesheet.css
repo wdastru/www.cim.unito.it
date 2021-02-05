@@ -171,7 +171,7 @@ height: 100%;
 #content .imgCenter { text-align:center; margin:10px auto; border:1px solid #cccccc; padding:5px; }
 #content .imgLeft { float:left; margin:10px 15px 10px 0; border:1px solid #cccccc; padding:5px; }
 #content .imgRight { float:right; margin:10px 0 10px 15px; border:1px solid #cccccc; padding:5px; }
-#band { height:45px; width:100%; background-color:#db6d16; margin-bottom:20px; }
+.band { height:45px; width:100%; background-color:#db6d16; margin-bottom:20px; }
 #subsectionTitle { font-weight:bold; font-size:24px; color:#FFFFFF; margin:0px; padding:10px; }
 /* End of CONTENT */
 

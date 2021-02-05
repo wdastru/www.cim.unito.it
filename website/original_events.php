@@ -42,7 +42,7 @@
 			</div>
 			<div id='content'>
 				<div class='paddingOuter'>
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							Events
 						</h1>

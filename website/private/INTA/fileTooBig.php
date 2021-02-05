@@ -43,7 +43,7 @@ $localizer = "../";
 			</div>
 			<div id='content-large'>
 				<div class='paddingOuter'>
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>INTA project private area</h1>
 					</div>
 					<div class='paddingInner'>

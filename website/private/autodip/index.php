@@ -225,7 +225,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				</div>
 				<div id='content-largerAutoDip'>
 					<div class='paddingOuter'>
-						<!-- <div id='band'>
+						<!-- <div class='band'>
 							<h1 id='subsectionTitle'>INSTRUMENTS BOOKING</h1>
 						</div> --> 
 						<div class='paddingInner'>

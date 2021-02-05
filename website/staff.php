@@ -31,7 +31,7 @@ require ('includes/main-nav.php');
                 ?>
 				<div id='content'>
 				<div class='paddingOuter'>
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							University of Torino
@@ -694,7 +694,7 @@ require ('includes/main-nav.php');
 						</div>
 					</div>
 
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Institute of Biostructures and Bioimaging (CNR)
@@ -865,7 +865,7 @@ require ('includes/main-nav.php');
 
 					</div>
 
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							University of Eastern Piedmont Amedeo Avogadro
@@ -937,7 +937,7 @@ require ('includes/main-nav.php');
 						</div>
 					</div>
 
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Past Members

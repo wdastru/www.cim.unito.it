@@ -237,7 +237,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 				</div>
 				<div id='content-larger'>
 					<div class='paddingOuter'>
-						<div id='band'>
+						<div class='band'>
 							<h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> INSTRUMENTS BOOKING <!-- InstanceEndEditable --></h1>
 						</div>
 						<div class='paddingInner'>

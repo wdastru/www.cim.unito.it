@@ -35,7 +35,7 @@ $localizer = "./";
                 </div>
                 <div id='content'>
                     <div class='paddingOuter'>
-                        <div id='band'>
+                        <div class='band'>
                             <h1 id='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" -->Spin-offs of
                             the CIM <!-- InstanceEndEditable --></h1>
                         </div>

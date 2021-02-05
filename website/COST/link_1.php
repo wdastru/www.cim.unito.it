@@ -45,7 +45,7 @@ $localizer = "../";
 			</div>
 			<div id='content'>
 				<div class='paddingOuter'>
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>COST Action TD1004</h1>
 					</div>
 					<div class='paddingInner'>

@@ -36,7 +36,7 @@
 				</div>
 				<div id='content'>
 					<div class='paddingOuter'>
-						<div id='band'>
+						<div class='band'>
 							<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->Courses
 							<!-- InstanceEndEditable -->
@@ -85,7 +85,7 @@
 							
 							</div>
 						
-							<div id='band'>
+							<div class='band'>
 							<h1 id='subsectionTitle'>Book Chapters
 							</h1>
 									</div>	

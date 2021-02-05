@@ -3,8 +3,8 @@ $localizer = "./";
 ob_start('ob_gzhandler');
 header('Content-Type: text/html;charset=UTF-8');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
@@ -25,7 +25,7 @@ header('Content-Type: text/html;charset=UTF-8');
                 ?>
                 <div id='content'>
 				<div class='paddingOuter'>
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Molecular Imaging Center
@@ -48,22 +48,26 @@ header('Content-Type: text/html;charset=UTF-8');
 							imaging.</p>
 
 						<p>
-							Since 2016, it coordinates the activities of the <a
-								href="http://www.eurobioimaging.eu/"><span class='paperTitle'
-								target="_blank">Euro-BioImaging</span></a> multi-sited
-							"Multi-Modal Molecular Imaging Italian Node" (MMMI), which offers
-							access to Molecular Imaging technologies and related services to
-							national and trans-national reasearchers. Users can access our
-							services at a discounted rate by applying at the <a
-								href="https://www.eurobioimaging-interim.eu/" target="_blank"><span
-								class='paperTitle'>Euro-BioImaging Web Access Portal</span></a>.
-							More info on the MMMI Node <a href="http://www.mmmi.unito.it/"
+							Since 2016, it coordinates the activities of the
+							<a
+								href="http://www.eurobioimaging.eu/"
+								target="_blank"><span class='paperTitle'>Euro-BioImaging</span></a>
+							multi-sited "Multi-Modal Molecular Imaging Italian Node" (MMMI),
+							which offers access to Molecular Imaging technologies and related
+							services to national and trans-national reasearchers. Users can
+							access our services at a discounted rate by applying at the
+							<a
+								href="https://www.eurobioimaging-interim.eu/"
+								target="_blank"><span class='paperTitle'>Euro-BioImaging Web
+									Access Portal</span></a>. More info on the MMMI Node
+							<a
+								href="http://www.mmmi.unito.it/"
 								target="_blank"><span class='paperTitle'>website.</span></a>
 
 						</p>
 					</div>
 
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Research Areas
@@ -202,7 +206,7 @@ header('Content-Type: text/html;charset=UTF-8');
 						</div>
 					</div>
 
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							News and Events

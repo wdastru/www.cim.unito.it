@@ -25,7 +25,7 @@
 			
 			<div id='content'>
 				<div class='paddingOuter'>
-					<div id='band'>
+					<div class='band'>
 						<h1 id='subsectionTitle'>
 							University of Eastern Piedmont Amedeo Avogadro
 						</h1>
