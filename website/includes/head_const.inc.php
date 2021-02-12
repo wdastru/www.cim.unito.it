@@ -11,12 +11,12 @@ echo "
     <meta name='keywords' content='NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CIM, Torino, Italy, Liposomi, risonanza, magnetica, Italia' />
     <meta name='robots' content='index, follow'>
     <meta name='revisit-after' content='1 week'>
-    <link href='" . $localizer . "stylesheet.css' rel='stylesheet' type='text/css' />
+    <link href='" . $localizer . "stylesheet.css' rel='stylesheet' />
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' />
-    <script src='" . $localizer . "jquery.cycle2.min.js' type='text/javascript'></script>
-    <script src='" . $localizer . "script.js' type='text/javascript'></script>
+    <script src='" . $localizer . "jquery.cycle2.min.js'></script>
+    <script src='" . $localizer . "script.js'></script>
     
-    <script type='text/javascript' >
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

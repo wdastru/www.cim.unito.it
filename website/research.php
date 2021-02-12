@@ -63,18 +63,15 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Probe
 												synthesis</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_synthesis.jpg"
-												alt=""
-												class="w3-image-left"> </img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a href="<?php echo $localizer; ?>staff/staff_stefania.php">
-											<span class="PIname"> Stefania, </span>
-										</a>
-										<a href="<?php echo $localizer; ?>staff/staff_tei.php">
-											<span class="PIname">Tei</span>
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_synthesis.jpg"
+											alt=""
+											class="w3-image-left"> </img>
+										</a> <span class="PIname">PI: </span> <a
+											href="<?php echo $localizer; ?>staff/staff_stefania.php"> <span
+											class="PIname"> Stefania, </span>
+										</a> <a href="<?php echo $localizer; ?>staff/staff_tei.php"> <span
+											class="PIname">Tei</span>
 										</a>
 									</div>
 								</div>
@@ -87,27 +84,22 @@ $localizer = "./";
 												style="height: 65px;">
 												<h13 style="text-transform: none;"> <font color="red">Gd-complexes</font>
 												</h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_Gdcomplex.jpg"
-												alt=""
-												class="w3-image-left"> </img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_Gdcomplex.jpg"
+											alt=""
+											class="w3-image-left"> </img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.php">
-											<span class="PIname">Terreno, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
+											class="PIname">Terreno, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Gianolio/home.html">
-											<span class="PIname">Gianolio, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Gianolio/home.html"> <span
+											class="PIname">Gianolio, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Longo/home.php">
-											<span class="PIname">Longo</span>
+											href="<?php echo $localizer; ?>PI/Longo/home.php"> <span
+											class="PIname">Longo</span>
 										</a>
 
 									</div>
@@ -123,35 +115,26 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">CEST
 												contrast agents</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_CEST.jpg"
-												alt=""
-												class="w3-image-left"> </img>
-										</a>
-										<span class="PIname">PI:</span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_CEST.jpg"
+											alt="Graphic representing DIACEST, PARACEST and LIPOCEST agents"
+											class="w3-image-left"> </img>
+										</a> <span class="PIname">PI:</span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.php">
-											<span class="PIname">Terreno,</span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
+											class="PIname">Terreno,</span>
+										</a> <a
 											title="Opens in new window"
 											href="#"
-											target="_blank">
-											<span class="PIname">Delli Castelli, </span>
-										</a>
-										<a
+											target="_blank"> <span class="PIname">Delli Castelli, </span>
+										</a> <a
 											title="Opens in new window"
 											href="<?php echo $localizer; ?>PI/Longo/home.php"
-											target="_blank">
-											<span class="PIname">Longo, </span>
-										</a>
-										<a
+											target="_blank"> <span class="PIname">Longo, </span>
+										</a> <a
 											title="Opens in new window"
 											href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
-											target="_blank">
-											<span class="PIname">Ferrauto</span>
+											target="_blank"> <span class="PIname">Ferrauto</span>
 										</a>
 
 									</div>
@@ -167,17 +150,13 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Hyperpolarized
 												agents</font></h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_hyperpolarized.jpg"
-												alt=""
-												class="w3-image-left"> </img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_hyperpolarized.jpg"
+											alt=""
+											class="w3-image-left"> </img>
+										</a> <span class="PIname">PI: </span> <a
 											href="<?php echo $localizer; ?>PI/Reineri/home.php"
-											title="Opens in new window">
-											<span class="PIname">Reineri </span>
+											title="Opens in new window"> <span class="PIname">Reineri </span>
 										</a>
 									</div>
 								</div>
@@ -202,17 +181,14 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Multi-modality
 												agents</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_multimodal.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_multimodal.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html">
-											<span class="PIname"> Terreno</span>
+											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											class="PIname"> Terreno</span>
 										</a>
 									</div>
 								</div>
@@ -226,39 +202,29 @@ $localizer = "./";
 												style="height: 65px;">
 												<h13 style="text-transform: none;"> <font color="red">Responsive
 												agents</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_responsive.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_responsive.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
 											href="<?php echo $localizer; ?>PI/Longo/home.php"
-											target="_blank">
-											<span class="PIname"> Longo, </span>
-										</a>
-										<a
+											target="_blank"> <span class="PIname"> Longo, </span>
+										</a> <a
 											title="Opens in new window"
-											href="#">
-											<span class="PIname">Delli Castelli, </span>
-										</a>
-										<a
+											href="#"> <span class="PIname">Delli Castelli, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Gianolio/home.html">
-											<span class="PIname">Gianolio, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Gianolio/home.html"> <span
+											class="PIname">Gianolio, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>staff/staff_digilio.php">
-											<span class="PIname">Digilio, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>staff/staff_digilio.php"> <span
+											class="PIname">Digilio, </span>
+										</a> <a
 											title="Opens in new window"
 											href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
-											target="_blank">
-											<span class="PIname">Ferrauto</span>
+											target="_blank"> <span class="PIname">Ferrauto</span>
 										</a>
 
 									</div>
@@ -275,31 +241,25 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Nanosized
 												and Targeting agents</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_targeting_agents.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_targeting_agents.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html">
-											<span class="PIname"> Terreno, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											class="PIname"> Terreno, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Geninatti/home.html">
-											<span class="PIname">Geninatti</span>
-										</a>
-										<a href="<?php echo $localizer; ?>staff/staff_stefania.php">
-											<span class="PIname"> Stefania, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Geninatti/home.html"> <span
+											class="PIname">Geninatti</span>
+										</a> <a
+											href="<?php echo $localizer; ?>staff/staff_stefania.php"> <span
+											class="PIname"> Stefania, </span>
+										</a> <a
 											title="Opens in new window"
 											href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
-											target="_blank">
-											<span class="PIname">Ferrauto</span>
+											target="_blank"> <span class="PIname">Ferrauto</span>
 										</a>
 									</div>
 								</div>
@@ -315,27 +275,22 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Theranostic
 												agents</font></h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_theranostic.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_theranostic.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html">
-											<span class="PIname"> Terreno, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											class="PIname"> Terreno, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Geninatti/home.html">
-											<span class="PIname">Geninatti, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Geninatti/home.html"> <span
+											class="PIname">Geninatti, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Cutrin/home.php">
-											<span class="PIname">Cutrin</span>
+											href="<?php echo $localizer; ?>PI/Cutrin/home.php"> <span
+											class="PIname">Cutrin</span>
 										</a>
 
 									</div>
@@ -361,31 +316,24 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red"> <sup>19</sup>F
 												based contrast agents</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_Fprobes.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_Fprobes.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html">
-											<span class="PIname"> Terreno, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											class="PIname"> Terreno, </span>
+										</a> <a
 											title="Opens in new window"
-											href="#">
-											<span class="PIname">Dastr&ugrave;,
-											</span>
-										</a>
-										<a
+											href="#"> <span class="PIname">Dastr&ugrave;,
+										</span>
+										</a> <a
 											title="Opens in new window"
-											href="#">
-											<span class="PIname">Delli Castelli, </span>
-										</a>
-										<a href="<?php echo $localizer; ?>staff/staff_menchise.php">
-											<span class="PIname">Menchise</span>
+											href="#"> <span class="PIname">Delli Castelli, </span>
+										</a> <a
+											href="<?php echo $localizer; ?>staff/staff_menchise.php"> <span
+											class="PIname">Menchise</span>
 										</a>
 									</div>
 								</div>
@@ -400,17 +348,14 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Gd&minus;boron
 												agents for NCT</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_Gd_boron.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_Gd_boron.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Geninatti/home.html">
-											<span class="PIname"> Geninatti </span>
+											href="<?php echo $localizer; ?>PI/Geninatti/home.html"> <span
+											class="PIname"> Geninatti </span>
 										</a>
 
 
@@ -427,23 +372,18 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Photoacoustic
 												probes</font></h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_photoacoustic.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_photoacoustic.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Longo/home.php">
-											<span class="PIname">Longo, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Longo/home.php"> <span
+											class="PIname">Longo, </span>
+										</a> <a
 											title="Opens in new window"
 											href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
-											target="_blank">
-											<span class="PIname">Ferrauto</span>
+											target="_blank"> <span class="PIname">Ferrauto</span>
 										</a>
 									</div>
 								</div>
@@ -471,30 +411,22 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Cell
 												labeling and tracking</font> </h13>
-											</div>
-											<a href="research/research_cell.php">
-												<img
-													src="<?php echo $localizer; ?>images/research/figure_research_cell_labeling.jpg"
-													alt=""
-													class="w3-image-left"></img>
-											</a>
-											<span class="PIname">PI: </span>
-											<a
-												title="Opens in new window"
-												href="<?php echo $localizer; ?>PI/Terreno/home.html">
-												<span class="PIname">Terreno, </span>
-											</a>
-											<a
-												title="Opens in new window"
-												href="<?php echo $localizer; ?>PI/Geninatti/home.html">
-												<span class="PIname">Geninatti, </span>
-											</a>
-											<a
-												title="Opens in new window"
-												href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
-												target="_blank">
-												<span class="PIname">Ferrauto</span>
-											</a>
+											</div> <a href="research/research_cell.php"> <img
+												src="<?php echo $localizer; ?>images/research/figure_research_cell_labeling.jpg"
+												alt="Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell"class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
+											title="Opens in new window"
+											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+												class="PIname">Terreno, </span>
+										</a> <a
+											title="Opens in new window"
+											href="<?php echo $localizer; ?>PI/Geninatti/home.html"> <span
+												class="PIname">Geninatti, </span>
+										</a> <a
+											title="Opens in new window"
+											href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+											target="_blank"> <span class="PIname">Ferrauto</span>
+										</a>
 									
 									</div>
 								</div>
@@ -510,17 +442,14 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Tumor
 												angiogenesis</font></h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_angiogenesis.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_angiogenesis.jpg"
+											alt="Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel"
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Longo/home.php">
-											<span class="PIname">Longo</span>
+											href="<?php echo $localizer; ?>PI/Longo/home.php"> <span
+											class="PIname">Longo</span>
 										</a>
 									</div>
 								</div>
@@ -536,28 +465,21 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Tumor
 												acidosis</font></h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_tumor_acidosis.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_tumor_acidosis.jpg"
+											alt="Scheme representing some of the methabolism involved in tumor acidosis"
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Longo/home.php">
-											<span class="PIname">Longo, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Longo/home.php"> <span
+											class="PIname">Longo, </span>
+										</a> <a
 											title="Opens in new window"
-											href="#">
-											<span class="PIname">Delli Castelli, </span>
-										</a>
-										<a
+											href="#"> <span class="PIname">Delli Castelli, </span>
+										</a> <a
 											title="Opens in new window"
 											href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
-											target="_blank">
-											<span class="PIname">Ferrauto</span>
+											target="_blank"> <span class="PIname">Ferrauto</span>
 										</a>
 									</div>
 								</div>
@@ -573,17 +495,14 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Tumor
 												metabolism</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_tumor_metabolism.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_tumor_metabolism.jpg"
+											alt="Scheme representing tumor metabolism"
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Reineri/home.php">
-											<span class="PIname">Reineri</span>
+											href="<?php echo $localizer; ?>PI/Reineri/home.php"> <span
+											class="PIname">Reineri</span>
 										</a>
 
 									</div>
@@ -611,17 +530,14 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Inflammation
 												&amp; Infectious Diseases</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Cutrin/home.php">
-											<span class="PIname">Cutrin</span>
+											href="<?php echo $localizer; ?>PI/Cutrin/home.php"> <span
+											class="PIname">Cutrin</span>
 										</a>
 
 									</div>
@@ -638,27 +554,22 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Imaging
 												&amp; Therapy</font></h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_theranostic.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_theranostic.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html">
-											<span class="PIname"> Terreno, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											class="PIname"> Terreno, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Geninatti/home.html">
-											<span class="PIname">Geninatti, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Geninatti/home.html"> <span
+											class="PIname">Geninatti, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Cutrin/home.php">
-											<span class="PIname">Cutrin</span>
+											href="<?php echo $localizer; ?>PI/Cutrin/home.php"> <span
+											class="PIname">Cutrin</span>
 										</a>
 
 									</div>
@@ -675,22 +586,18 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Imaging
 												enzymatic activity</font></h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_enzyme.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_enzyme.jpg"
+											alt="Scheme representing the action of an enzyme to form a product by connecting two substrates togheter"
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>staff/staff_digilio.php">
-											<span class="PIname"> Digilio, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>staff/staff_digilio.php"> <span
+											class="PIname"> Digilio, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Reineri/home.php">
-											<span class="PIname">Reineri</span>
+											href="<?php echo $localizer; ?>PI/Reineri/home.php"> <span
+											class="PIname">Reineri</span>
 										</a>
 									</div>
 								</div>
@@ -706,22 +613,18 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">In vivo
 												FFC relaxometry</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Geninatti/home.html">
-											<span class="PIname">Geninatti, </span>
-										</a>
-										<a
+											href="<?php echo $localizer; ?>PI/Geninatti/home.html"> <span
+											class="PIname">Geninatti, </span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Gianolio/home.html">
-											<span class="PIname">Gianolio</span>
+											href="<?php echo $localizer; ?>PI/Gianolio/home.html"> <span
+											class="PIname">Gianolio</span>
 										</a>
 
 									</div>
@@ -749,17 +652,14 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Gadolinium
 												deposition</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_Gd_deposition.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_Gd_deposition.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Gianolio/home.html">
-											<span class="PIname">Gianolio</span>
+											href="<?php echo $localizer; ?>PI/Gianolio/home.html"> <span
+											class="PIname">Gianolio</span>
 										</a>
 
 									</div>
@@ -776,23 +676,18 @@ $localizer = "./";
 													font
 													style="text-transform: none;"> <font color="red">Image
 												Processing</font> </h13>
-											</div>
-											<img
-												src="<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg"
-												alt=""
-												class="w3-image-left"></img>
-										</a>
-										<span class="PIname">PI: </span>
-										<a
+											</div> <img
+											src="<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg"
+											alt=""
+											class="w3-image-left"></img>
+										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="#">
-											<span class="PIname">Dastr&ugrave;,
-											</span>
-										</a>
-										<a
+											href="#"> <span class="PIname">Dastr&ugrave;,
+										</span>
+										</a> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Longo/home.php">
-											<span class="PIname">Longo</span>
+											href="<?php echo $localizer; ?>PI/Longo/home.php"> <span
+											class="PIname">Longo</span>
 										</a>
 
 									</div>
@@ -816,20 +711,18 @@ $localizer = "./";
 		</div>
 		<div id='validators'>
 			<p>
-				<a href="http://validator.w3.org/check?uri=referer">
-					<img
-						src="images/valid-xhtml10-blue_opt.png"
-						alt="Valid XHTML 1.0 Transitional"
-						height="31"
-						width="88" />
+				<a href="http://validator.w3.org/check?uri=referer"> <img
+					src="images/valid-xhtml10-blue_opt.png"
+					alt="Valid XHTML 1.0 Transitional"
+					height="31"
+					width="88" />
 				</a>
 			</p>
 			<p>
-				<a href="http://jigsaw.w3.org/css-validator/check?uri=referer">
-					<img
-						style="border: 0; width: 88px; height: 31px"
-						src="images/vcss-blue_opt.gif"
-						alt="CSS Valido!" />
+				<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"> <img
+					style="border: 0; width: 88px; height: 31px"
+					src="images/vcss-blue_opt.gif"
+					alt="CSS Valido!" />
 				</a>
 			</p>
 		</div>
