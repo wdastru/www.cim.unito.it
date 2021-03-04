@@ -212,6 +212,7 @@ $localizer = "../";
 							<li><b>Dr. Gianluigi Forloni</b> - Istituto di Ricerche
 								Farmacologiche Mario Negri - IRCCS, Italy<br></li>
 							<li><b>Nikola Stikov</b> - Montreal Heart Institute - Canada<br></li>
+							<li><b>Prof. Joanna Collingwood</b> - Warwick University - United Kingdom</li>
 						</ul>
 						</p>
 
