@@ -213,6 +213,7 @@ $localizer = "../";
 								Farmacologiche Mario Negri - IRCCS, Italy<br></li>
 							<li><b>Nikola Stikov</b> - Montreal Heart Institute - Canada<br></li>
 							<li><b>Prof. Joanna Collingwood</b> - Warwick University - United Kingdom</li>
+							<li><b>Prof. T. McMahon</b> - Kennedy Krieger Institute / The Johs Hopkins University School of Medicine - USA</li>
 						</ul>
 						</p>
 
