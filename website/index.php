@@ -90,7 +90,7 @@ header('Content-Type: text/html;charset=UTF-8');
 									class="w3-container"
 									style="padding-left: 40px;">
 
-									<div class="animSlides2 w3-animate-right ">
+									<div class="animSlides2 w3-animate-fading">
 
 										<div
 											class="w3-container w3-cell"
@@ -166,7 +166,7 @@ header('Content-Type: text/html;charset=UTF-8');
 
 									</div>
 
-									<div class="animSlides2 w3-animate-right ">
+									<div class="animSlides2 w3-animate-fading ">
 
 										<div
 											class="w3-container w3-cell"
@@ -242,7 +242,7 @@ header('Content-Type: text/html;charset=UTF-8');
 
 									</div>
 
-									<div class="animSlides2 w3-animate-right ">
+									<div class="animSlides2 w3-animate-fading ">
 
 										<div
 											class="w3-container w3-cell"
@@ -267,7 +267,8 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
-
+										
+										<!-- 
 										<div
 											class="w3-container w3-cell"
 											style="width: 250px;">
@@ -287,6 +288,7 @@ header('Content-Type: text/html;charset=UTF-8');
 												<div class="w3-container"></div>
 											</div>
 										</div>
+										 -->
 
 									</div>
 
@@ -528,7 +530,7 @@ header('Content-Type: text/html;charset=UTF-8');
 									class="w3-container"
 									style="padding-left: 40px;">
 
-									<div class="animSlides w3-animate-right ">
+									<div class="animSlides w3-animate-fading ">
 
 										<div
 											class="w3-container w3-cell"
@@ -627,7 +629,7 @@ header('Content-Type: text/html;charset=UTF-8');
 
 							</div>
 
-							<div class="animSlides w3-animate-right">
+							<div class="animSlides w3-animate-fading">
 
 								<div
 									class="w3-container w3-cell"
@@ -721,7 +723,7 @@ header('Content-Type: text/html;charset=UTF-8');
 
 				</div>
 
-				<div class="animSlides w3-animate-right">
+				<div class="animSlides w3-animate-fading">
 
 					<div
 						class="w3-container w3-cell"
@@ -898,7 +900,7 @@ function carousel() {
     var y;
     y = document.getElementsByClassName("animSlides");
 
-    alert(y.length);
+    //alert(y.length);
     
     for (i = 0; i < y.length; i++) {
       y[i].style.display = "none";  
@@ -909,7 +911,7 @@ function carousel() {
 
     y = document.getElementsByClassName("animSlides2");
 
-    alert(y.length);
+    //alert(y.length);
     
     for (i = 0; i < y.length; i++) {
       y[i].style.display = "none";  
