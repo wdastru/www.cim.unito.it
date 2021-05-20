@@ -164,7 +164,8 @@ $localizer = "../";
 										about the sequence is available in: <br> <i>"Iopamidol as a
 												responsive MRI-chemical exchange saturation transfer
 												contrast agent for pH mapping of kidneys: In vivo studies in
-												mice at 7 T"</i>, Longo DL et al; <i>Magn Reson Med</i>, <b>2011</b>,
+												mice at 7 T"</i>, Longo DL et al; <br />
+												<i>Magn Reson Med</i>, <b>2011</b>,
 											65:202-11, doi: 10.1002/mrm.22608<br> <a
 													class='seq_link'
 													onmousedown="showFormBox('CEST_single_slice_PV6.0.1')">Download
@@ -185,8 +186,7 @@ $localizer = "../";
 									scanners running with ParaVision 6.0.1/360.1.1. <br> More
 										information about the sequence is available in:<br> <i>"A fast
 												multislice sequence for 3DMRI-CEST pH imaging"</i>, Villano
-											D et al; <i>Magn Reson Med</i>, <b>2020</b>, 00:1-15, doi:
-											10.1002/mrm.28516<br> <a
+											D et al; <br /><i>Magn Reson Med</i>, <b>2021</b>, 85, 1335-1349. doi:10.1002/mrm.28516<br> <a
 													class='seq_link'
 													onmousedown="showFormBox('CEST_multi_slice_PV6.0.1')">Download
 													link for ParaVision 6.0.1</a><br /> <a
@@ -202,18 +202,22 @@ $localizer = "../";
 						<p>Research groups using our sequences:
 						
 						<ul>
-							<li><b>Prof. Robert Gillies</b> - Moffitt Cancer Center - USA<br></li>
+							<li><b>Prof. Robert Gillies</b> - Moffitt Cancer Center - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"><br></li>
 							<li><b>Prof. Hana Lahrech</b> - University Grenoble Alpes -
-								France<br></li>
+								France <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/fr/shiny/64.png"><br></li>
 							<li><b>Dr. Afroditi Eleftheriou</b> - Universit&auml;t Z&uuml;rich
-								- Switzerland<br></li>
+								- Switzerland <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ch/shiny/64.png"><br></li>
 							<li><b>Prof. Simon Walker-Samuel</b> - University College London,
-								United Kingdom<br></li>
+								United Kingdom <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png"><br></li>
 							<li><b>Dr. Gianluigi Forloni</b> - Istituto di Ricerche
-								Farmacologiche Mario Negri - IRCCS, Italy<br></li>
-							<li><b>Nikola Stikov</b> - Montreal Heart Institute - Canada<br></li>
-							<li><b>Prof. Joanna Collingwood</b> - Warwick University - United Kingdom</li>
-							<li><b>Prof. T. McMahon</b> - Kennedy Krieger Institute / The Johs Hopkins University School of Medicine - USA</li>
+								Farmacologiche Mario Negri - IRCCS, Italy <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/it/shiny/64.png"><br></li>
+							<li><b>Nikola Stikov</b> - Montreal Heart Institute - Canada <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ca/shiny/64.png"><br></li>
+							<li><b>Prof. Joanna Collingwood</b> - Warwick University - United Kingdom <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png"></li>
+							<li><b>Prof. T. McMahon</b> - Kennedy Krieger Institute / The Johs Hopkins University School of Medicine - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"></li>
+							<li><b>Prof. Lixin Ma</b> - University of Missouri, Columbia - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"></li>
+							<li><b>Prof. Wladyslaw W&#281;glarz</b> - Institute of Nuclear Physics PAN - Poland <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/pl/shiny/64.png"></li>
+							<li><b>Prof. Aoki Ichio</b> - National Institutes for Quantum and Radiological Science and Technology - Japan <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/jp/shiny/64.png"></li>
+							<li><b>Prof. Thomas Helbich</b> - Medical University of Vienna - General Hospital of Vienna Department of Biomedical Imaging and Image-guided Therapy - Division of Molecular and Structural Preclinical Imaging - Austria <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png"></li>
 						</ul>
 						</p>
 
@@ -237,7 +241,7 @@ $localizer = "../";
 									</a> <a
 										href="#"
 										target="_blank"
-										title="Walter Dastrù">
+										title="Walter Dastr&uacute;">
 										<img
 											src="../images/staff/dastru.jpg"
 											height="100px;"
