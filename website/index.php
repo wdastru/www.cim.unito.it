@@ -34,6 +34,7 @@ header('Content-Type: text/html;charset=UTF-8');
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
+					
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
 
@@ -56,12 +57,10 @@ header('Content-Type: text/html;charset=UTF-8');
 							multi-sited "Multi-Modal Molecular Imaging Italian Node" (MMMI),
 							which offers access to Molecular Imaging technologies and related
 							services to national and trans-national reasearchers. Users can
-							access our services at a discounted rate by applying at the
-							<a
+							access our services at a discounted rate by applying at the <a
 								href="https://www.eurobioimaging-interim.eu/"
 								target="_blank"><span class='paperTitle'>Euro-BioImaging Web
-									Access Portal</span></a>. More info on the MMMI Node
-							<a
+									Access Portal</span></a>. More info on the MMMI Node <a
 								href="http://www.mmmi.unito.it/"
 								target="_blank"><span class='paperTitle'>website.</span></a>
 
@@ -76,8 +75,7 @@ header('Content-Type: text/html;charset=UTF-8');
 						</h1>
 					</div>
 
-					<div
-						class='paddingInner'
+					<div class='paddingInner'
 						style="height: 350px;">
 
 						<div class="w3-container">
@@ -267,29 +265,6 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
-										
-										<!-- 
-										<div
-											class="w3-container w3-cell"
-											style="width: 250px;">
-											<div
-												class="w3-card"
-												style="width: 100%">
-												<div class="w3-container"></div>
-											</div>
-										</div>
-
-										<div
-											class="w3-container w3-cell"
-											style="width: 250px;">
-											<div
-												class="w3-card"
-												style="width: 100%">
-												<div class="w3-container"></div>
-											</div>
-										</div>
-										 -->
-
 									</div>
 
 								</div>
@@ -522,22 +497,20 @@ header('Content-Type: text/html;charset=UTF-8');
 
 						<div class="w3-container">
 
-							<div
-								class="w3-cell-row"
+							<div class="w3-cell-row"
 								style="margin-top: 2em;">
 
-								<div
-									class="w3-container"
+								<div class="w3-container"
 									style="padding-left: 40px;">
 
 									<div class="animSlides w3-animate-fading ">
 
-										<div
-											class="w3-container w3-cell"
+										<div class="w3-container w3-cell"
 											style="width: 250px;">
-											<div
-												class="w3-card"
+											
+											<div class="w3-card"
 												style="width: 100%">
+												
 												<div class="w3-container">
 													<a
 														title="Open in a new window"
@@ -547,7 +520,6 @@ header('Content-Type: text/html;charset=UTF-8');
 														src="images/papers/geninatti_2020_1.webp"
 														alt=""
 														style="width: 100%">
-														<div class="w3-container">
 															<h4 style="margin-top: 2px; margin-bottom: 2px;">
 																<b>In vitro and in vivo BNCT investigations using a
 																	carborane containing sulfonamide targeting CAIX
@@ -561,7 +533,6 @@ header('Content-Type: text/html;charset=UTF-8');
 												</div>
 											</div>
 										</div>
-									</div>
 
 									<div
 										class="w3-container w3-cell"
@@ -612,7 +583,6 @@ header('Content-Type: text/html;charset=UTF-8');
 													src="images/papers/longo2019.png"
 													alt=""
 													style="width: 100%">
-													<div class="w3-container">
 														<h4 style="margin-top: 2px; margin-bottom: 2px;">
 															<b>Imaging tumor acidosis: a survey of the available
 																techniques for mapping in vivo tumor pH.</b>
@@ -627,10 +597,182 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 
-							</div>
+									<div class="animSlides w3-animate-fading">
 
-							<div class="animSlides w3-animate-fading">
+										<div
+											class="w3-container w3-cell"
+											style="width: 250px;">
+											<div
+												class="w3-card"
+												style="width: 100%">
+												<div class="w3-container">
+													<a
+														title="Open in a new window"
+														class="http"
+														href="https://www.ncbi.nlm.nih.gov/pubmed/30377745"
+														target="_blank"><img
+														src="images/papers/gianolio_2018.jpg"
+														alt=""
+														style="width: 100%">
+														<h4 style="margin-top: 2px; margin-bottom: 2px;">
+															<b>Gadolinium presence, MRI hyperintensities, and glucose
+																uptake in the hypoperfused rat brain after repeated
+																administrations of gadodiamide.</b>
 
+														</h4> <span class="w3-text-blue"> <b>Gianolio E. et al; </b></span>
+														<p class="w3-text-blue">Neuroradiology. 2018</p></a>
+												</div>
+
+											</div>
+										</div>
+
+										<div
+											class="w3-container w3-cell"
+											style="width: 250px;">
+											<div
+												class="w3-card"
+												style="width: 100%">
+												<div class="w3-container">
+													<a
+														title="Open in a new window"
+														class="http"
+														href="https://www.ncbi.nlm.nih.gov/pubmed/30471202"
+														target="_blank"> <img
+														src="images/papers/terreno_2018.jpg"
+														alt=""
+														style="width: auto; height: 100px">
+														<h4 style="margin-top: 2px; margin-bottom: 2px;">
+															<b>Indocyanine Green labeling for optical and
+																photoacoustic imaging of Mesenchymal Stem Cells after in
+																vivo transplantation.</b>
+
+														</h4> <span class="w3-text-blue"> <b>Terreno E. et al; </b></span>
+														<p class="w3-text-blue">J Biophotonics. 2018</p></a>
+												</div>
+
+											</div>
+										</div>
+
+										<div
+											class="w3-container w3-cell"
+											style="width: 250px;">
+											<div
+												class="w3-card"
+												style="width: 100%">
+												<div class="w3-container">
+													<a
+														title="Open in a new window"
+														class="http"
+														href="https://www.ncbi.nlm.nih.gov/pubmed/30087935"
+														target="_blank"> <img
+														src="images/papers/geninatti_2018.jpg"
+														alt=""
+														style="width: 100%">
+														<h4 style="margin-top: 2px; margin-bottom: 2px;">
+															<b>Efficient Route to Label Mesenchymal Stromal
+																Cell-Derived Extracellular Vesicles.</b>
+
+														</h4> <span class="w3-text-blue"> <b>Geninatti S. et al; </b></span>
+														<p class="w3-text-blue">ACS Omega. 2018 Jul
+															31;3(7):8097-8103.</p></a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="animSlides w3-animate-fading">
+
+										<div
+											class="w3-container w3-cell"
+											style="width: 250px;">
+											<div
+												class="w3-card"
+												style="width: 100%">
+												<div class="w3-container">
+													<a
+														title="Open in a new window"
+														class="http"
+														href="https://www.ncbi.nlm.nih.gov/pubmed/30248218"
+														target="_blank"> <img
+														src="images/papers/reineri_2018.jpg"
+														alt=""
+														style="width: 100%">
+														<h4 style="margin-top: 2px; margin-bottom: 2px;">
+															<b>Metabolic Studies of Tumor Cells Using [1-<sup>13</sup>
+																C] Pyruvate Hyperpolarized by Means of PHIP-Side Arm
+																Hydrogenation.
+															</b>
+
+														</h4> <span class="w3-text-blue"> <b>Reineri F. et al; </b></span>
+														<p class="w3-text-blue">Chemphyschem. 2018, 19, 1-9.</p></a>
+												</div>
+
+											</div>
+										</div>
+
+										<div
+											class="w3-container w3-cell"
+											style="width: 250px;">
+											<div
+												class="w3-card"
+												style="width: 100%">
+												<div class="w3-container">
+													<a
+														title="Open in a new window"
+														class="http"
+														href="https://www.ncbi.nlm.nih.gov/pubmed/29411832"
+														target="_blank"> <img
+														src="images/papers/dellicastelli_2018.jpg"
+														alt=""
+														style="width: 100%">
+														<h4 style="margin-top: 2px; margin-bottom: 2px;">
+															<b>[Yb(AAZTA)(H<sub>2</sub>O)]-: an unconventional
+																ParaCEST MRI probe.
+															</b>
+
+														</h4> <span class="w3-text-blue"> <b>Delli Castelli D. et
+																al; </b></span>
+														<p class="w3-text-blue">Chem Commun. 2018 Feb
+															20;54(16):2004-2007.</p></a>
+												</div>
+
+											</div>
+										</div>
+
+										<div
+											class="w3-container w3-cell"
+											style="width: 250px;">
+											<div
+												class="w3-card"
+												style="width: 100%">
+												<div class="w3-container">
+													<img
+														src="images/papers/stefania_2018.jpg"
+														alt=""
+														style="width: 100%">
+													<div class="w3-container">
+
+														<a
+															title="Open in a new window"
+															class="http"
+															href="https://www.ncbi.nlm.nih.gov/pubmed/30257047"
+															target="_blank">
+															<h4 style="margin-top: 2px; margin-bottom: 2px;">
+																<b>An efficient MRI agent targeting extracellular
+																	markers in prostate adenocarcinoma.</b>
+
+															</h4> <span class="w3-text-blue"> <b>Stefania R et al; </b></span>
+															<p class="w3-text-blue">Magn Reson Med. 2018; 1-12</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="animSlides w3-animate-right">
 								<div
 									class="w3-container w3-cell"
 									style="width: 250px;">
@@ -638,227 +780,41 @@ header('Content-Type: text/html;charset=UTF-8');
 										class="w3-card"
 										style="width: 100%">
 										<div class="w3-container">
-											<a
-												title="Open in a new window"
-												class="http"
-												href="https://www.ncbi.nlm.nih.gov/pubmed/30377745"
-												target="_blank"><img
-												src="images/papers/gianolio_2018.jpg"
+											<img
+												src="images/papers/cutrin_2018.jpg"
 												alt=""
 												style="width: 100%">
-												<div class="w3-container">
-													<h4 style="margin-top: 2px; margin-bottom: 2px;">
-														<b>Gadolinium presence, MRI hyperintensities, and glucose
-															uptake in the hypoperfused rat brain after repeated
-															administrations of gadodiamide.</b>
-
-													</h4>
-													<span class="w3-text-blue"> <b>Gianolio E. et al; </b></span>
-													<p class="w3-text-blue">Neuroradiology. 2018</p></a>
+											<div class="w3-container">
+												<a
+														title="Open in a new window"
+														class="http"
+														href="https://www.ncbi.nlm.nih.gov/pubmed/29963255"
+														target="_blank"> 
+														<h4 style="margin-top: 2px; margin-bottom: 2px;">
+														<b>Cancer cell death induced by ferritins
+															and the peculiar role of their labile iron pool.</b>
+												
+												</h4>
+												<span class="w3-text-blue"> <b>Cutrin JC et al;</b>
+												</span>
+												<p class="w3-text-blue">Oncotarget. 2018 Jun 15; 9(46):
+													27974-27984</p>
+												</a>
+											</div>
 										</div>
 
 									</div>
 								</div>
 							</div>
-
-							<div
-								class="w3-container w3-cell"
-								style="width: 250px;">
-								<div
-									class="w3-card"
-									style="width: 100%">
-									<div class="w3-container">
-										<a
-											title="Open in a new window"
-											class="http"
-											href="https://www.ncbi.nlm.nih.gov/pubmed/30471202"
-											target="_blank"> <img
-											src="images/papers/terreno_2018.jpg"
-											alt=""
-											style="width: auto; height: 100px">
-											<div class="w3-container">
-												<h4 style="margin-top: 2px; margin-bottom: 2px;">
-													<b>Indocyanine Green labeling for optical and photoacoustic
-														imaging of Mesenchymal Stem Cells after in vivo
-														transplantation.</b>
-
-												</h4>
-												<span class="w3-text-blue"> <b>Terreno E. et al; </b></span>
-												<p class="w3-text-blue">J Biophotonics. 2018</p></a>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-						<div
-							class="w3-container w3-cell"
-							style="width: 250px;">
-							<div
-								class="w3-card"
-								style="width: 100%">
-								<div class="w3-container">
-									<a
-										title="Open in a new window"
-										class="http"
-										href="https://www.ncbi.nlm.nih.gov/pubmed/30087935"
-										target="_blank"> <img
-										src="images/papers/geninatti_2018.jpg"
-										alt=""
-										style="width: 100%">
-										<div class="w3-container">
-											<h4 style="margin-top: 2px; margin-bottom: 2px;">
-												<b>Efficient Route to Label Mesenchymal Stromal Cell-Derived
-													Extracellular Vesicles.</b>
-
-											</h4>
-											<span class="w3-text-blue"> <b>Geninatti S. et al; </b></span>
-											<p class="w3-text-blue">ACS Omega. 2018 Jul
-												31;3(7):8097-8103.</p></a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="animSlides w3-animate-fading">
-
-					<div
-						class="w3-container w3-cell"
-						style="width: 250px;">
-						<div
-							class="w3-card"
-							style="width: 100%">
-							<div class="w3-container">
-								<a
-									title="Open in a new window"
-									class="http"
-									href="https://www.ncbi.nlm.nih.gov/pubmed/30248218"
-									target="_blank"> <img
-									src="images/papers/reineri_2018.jpg"
-									alt=""
-									style="width: 100%">
-									<div class="w3-container">
-										<h4 style="margin-top: 2px; margin-bottom: 2px;">
-											<b>Metabolic Studies of Tumor Cells Using [1-<sup>13</sup> C]
-												Pyruvate Hyperpolarized by Means of PHIP-Side Arm
-												Hydrogenation.
-											</b>
-
-										</h4>
-										<span class="w3-text-blue"> <b>Reineri F. et al; </b></span>
-										<p class="w3-text-blue">Chemphyschem. 2018, 19, 1-9.</p></a>
-							</div>
-
 						</div>
 					</div>
 				</div>
 
-				<div
-					class="w3-container w3-cell"
-					style="width: 250px;">
-					<div
-						class="w3-card"
-						style="width: 100%">
-						<div class="w3-container">
-							<a
-										title="Open in a new window"
-										class="http"
-										href="https://www.ncbi.nlm.nih.gov/pubmed/29411832"
-										target="_blank"> <img
-								src="images/papers/dellicastelli_2018.jpg"
-								alt=""
-								style="width: 100%">
-							<div class="w3-container">
-								<h4 style="margin-top: 2px; margin-bottom: 2px;">
-									<b>[Yb(AAZTA)(H<sub>2</sub>O)]-: an
-											unconventional ParaCEST MRI probe.
-									</b>
-								
-								</h4>
-								<span class="w3-text-blue"> <b>Delli Castelli D. et al; </b></span>
-								<p class="w3-text-blue">Chem Commun. 2018 Feb
-									20;54(16):2004-2007.</p>
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div
-					class="w3-container w3-cell"
-					style="width: 250px;">
-					<div
-						class="w3-card"
-						style="width: 100%">
-						<div class="w3-container">
-							<img
-								src="images/papers/stefania_2018.jpg"
-								alt=""
-								style="width: 100%">
-							<div class="w3-container">
-								<h4 style="margin-top: 2px; margin-bottom: 2px;">
-									<a
-										title="Open in a new window"
-										class="http"
-										href="https://www.ncbi.nlm.nih.gov/pubmed/30257047"
-										target="_blank"> <b>An efficient MRI agent targeting
-											extracellular markers in prostate adenocarcinoma.</b>
-								
-								</h4>
-								<span class="w3-text-blue"> <b>Stefania R et al; </b></span>
-								<p class="w3-text-blue">Magn Reson Med. 2018; 1-12</p></div></a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="animSlides w3-animate-right">
-				<div
-					class="w3-container w3-cell"
-					style="width: 250px;">
-					<div
-						class="w3-card"
-						style="width: 100%">
-						<div class="w3-container">
-							<img
-								src="images/papers/cutrin_2018.jpg"
-								alt=""
-								style="width: 100%">
-							<div class="w3-container">
-								<h4 style="margin-top: 2px; margin-bottom: 2px;">
-									<a
-										title="Open in a new window"
-										class="http"
-										href="https://www.ncbi.nlm.nih.gov/pubmed/29963255"
-										target="_blank"> <b>Cancer cell death induced by ferritins and
-											the peculiar role of their labile iron pool.</b>
-								
-								</h4>
-								<span class="w3-text-blue"> <b>Cutrin JC et al;</b>
-								</span>
-								<p class="w3-text-blue">Oncotarget. 2018 Jun 15; 9(46):
-									27974-27984</p></div>
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	<!-- subsection closing -->
-	</div>
-	<!-- subsection closing -->
+			</div><!-- div class='paddingInner' -->
+		
+		</div><!-- div class='paddingOuter' -->
+	</div><!-- div id='content' -->
+	</div><!-- subsection closing -->
 	<div id='after'></div>
 	<div id='footer'>
 		<p>
@@ -883,9 +839,7 @@ header('Content-Type: text/html;charset=UTF-8');
 			</a>
 		</p>
 	</div>
-	<!-- section closing -->
-	</div>
-	<!-- section closing -->
+	</div><!-- section closing -->
 	<script>
 //<![CDATA[
 changeSideNavStyles();
