@@ -1,15 +1,12 @@
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino - About Us</title>
-<meta
-	name="description"
-	content="University of Torino. Website of the Molecular Imaging Center." />
 </head>
 <body>
         <?php //require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -80,16 +77,15 @@ $localizer = "./";
 									class="w3-header w3-left"
 									style="margin-left: 30px;">
 									<h3>
-										<font color="red">Director, Molecular Imaging Center</font>
+										Director, Molecular Imaging Center
 									</h3>
 								</div>
 								<figure> <img
 									src="images/staff/silvio_aime.jpg"
 									alt=""
-									class="w3-image-left"
-									width="250px"> <figcaption> <a
+									class="w3-image-left"> <figcaption> <a
 										href="http://www.dbmss.unito.it/do/docenti.pl/Alias?silvio.aime#profilo"
-										target="_blank"><font color="blue">Silvio Aime, PhD</font></a></figcaption></figure>
+										target="_blank">Silvio Aime, PhD</a></figcaption></figure>
 								<ul>
 									<li>Professor of General and Inorganic Chemistry</li>
 									<li>Chair, <a
@@ -140,14 +136,13 @@ $localizer = "./";
 											href="research/research_synthesis.php"><div
 												class="w3-header"
 												style="height: 70px;">
-												<h13
-													font
-													style="text-transform: none;"> <font color="red">Probe
-												synthesis</font></h13>
+												<span
+													style="font-size:20px; font-weight:bold; text-transform: none;">Probe synthesis</span>
 											</div> <img
 											src="images/research/figure_research_synthesis.jpg"
 											alt=""
-											class="w3-image-left" /> </a> <span class="PIname">PI: </span>
+											class="w3-image-left" /> </a> 
+											<span class="PIname">PI: </span>
 										<a
 											title="Opens in new window"
 											href="#"><span class="PIname"> Stefania</span></a>, <a
@@ -167,15 +162,16 @@ $localizer = "./";
 											<div
 												class="w3-header"
 												style="height: 70px;">
-												<h13 style="text-transform: none;"> <font color="red">Gd-complexes</font>
-												</h13>
+												<span style="font-size:20px; font-weight:bold; text-transform: none;"> 
+												Gd-complexes
+												</span>
 											</div> <img
 											src="images/research/figure_research_Gdcomplex.jpg"
 											alt=""
 											class="w3-image-left" />
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="#"><span class="PIname"> Gianolio</span></a>, <a
+											href="#"><span class="PIname">Gianolio</span></a>, <a
 											title="Opens in new window"
 											href="#"><span class="PIname">Geninatti</span></a>
 
@@ -189,17 +185,15 @@ $localizer = "./";
 											href="research/research_cest.php"><div
 												class="w3-header"
 												style="height: 70px;">
-												<h13
-													font
-													style="text-transform: none;"> <font color="red">CEST
-												contrast agents</font></h13>
+												<span style="font-size:20px; font-weight:bold; text-transform: none;"> CEST
+												contrast agents</span>
 											</div> <img
 											src="images/research/figure_research_CEST.jpg"
 											alt="Graphic representing DIACEST, PARACEST and LIPOCEST agents"
 											class="w3-image-left" /></a> <span class="PIname">PI: </span>
 										<a
 											title="Opens in new window"
-											href="#"><span class="PIname"> Terreno</span></a>, <a
+											href="#"><span class="PIname">Terreno</span></a>, <a
 											title="Opens in new window"
 											href="#"><span class="PIname">Delli Castelli, </span></a> <a
 											title="Opens in new window"
@@ -216,17 +210,16 @@ $localizer = "./";
 											href="research/research_hyper.php"><div
 												class="w3-header"
 												style="height: 70px;">
-												<h13
-													font
-													style="text-transform: none;"> <font color="red">Hyperpolarized
-												agents</font></h13>
+												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Hyperpolarized
+												agents</span>
 											</div> <img
 											src="images/research/figure_research_hyperpolarized.jpg"
 											alt=""
 											class="w3-image-left" /> </a><span class="PIname">PI: </span>
 										<a
 											title="Opens in new window"
-											href="#"><span class="PIname"> Reineri</span></a>, <a
+											href="#"><span class="PIname"> Reineri</span></a>, 
+										<a
 											title="Opens in new window"
 											href="#"><span class="PIname">Dastru'</span></a>
 
@@ -248,10 +241,8 @@ $localizer = "./";
 											href="research/research_multi.php"><div
 												class="w3-header"
 												style="height: 70px;">
-												<h13
-													font
-													style="text-transform: none;"> <font color="red">Multi-modality
-												agents</font></h13>
+												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Multi-modality
+												agents</span>
 											</div> <img
 											src="images/research/figure_research_multimodal.jpg"
 											alt=""
@@ -273,8 +264,8 @@ $localizer = "./";
 											href="research/research_responsive.php"><div
 												class="w3-header"
 												style="height: 70px;">
-												<h13 style="text-transform: none;"> <font color="red">Responsive
-												agents</font> </h13>
+												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Responsive
+												agents</span>
 											</div> <img
 											src="images/research/figure_research_responsive.jpg"
 											alt=""
@@ -298,10 +289,8 @@ $localizer = "./";
 											href="research/research_nanotarget.php"><div
 												class="w3-header"
 												style="height: 70px;">
-												<h13
-													font
-													style="text-transform: none;"> <font color="red">Targeting
-												agents</font></h13>
+												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Targeting
+												agents</span>
 											</div> <img
 											src="images/research/figure_research_targeting_agents.jpg"
 											alt=""
@@ -322,10 +311,8 @@ $localizer = "./";
 											href="research/research_imaging_therapy.php"><div
 												class="w3-header"
 												style="height: 70px;">
-												<h13
-													font
-													style="text-transform: none;"> <font color="red">Theranostic
-												agents</font></h13>
+												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Theranostic
+												agents</span>
 											</div> <img
 											src="images/research/figure_research_theranostic.jpg"
 											alt=""
@@ -338,14 +325,9 @@ $localizer = "./";
 
 									</div>
 								</div>
-
 							</div>
 						</div>
-
 					</div>
-
-
-
 				</div>
 			</div>
 			<!-- subsection closing -->
