@@ -45,7 +45,6 @@ $localizer = "../";
                                     
                                     <p style="text-align:center;"><img src="../images/research_lines/DB.png" style="width: 400px; height: auto;  margin: 20px;" > </img></p>
                                     
-									
 									We have overcome these limitations through the integration of an open-source archiving platform commonly exploited at clinical level based on XNAT with customizable tools for automated image processing. 
                                     
 									The developed platform can provide the following workflow:
@@ -56,7 +55,7 @@ $localizer = "../";
                                     </ul>             
 									</p>                      
                                     
-                                    <img src="../images/research_lines/xnat_workflow.png" style="width: 850px; height: auto;  margin: 20px;" > </img> <br/>
+                                    <img src="../images/research_lines/xnat_workflow.png"></img> <br/><br/>
                                     
                                       
                                     In the near future, we offer the following services:            
@@ -65,19 +64,16 @@ $localizer = "../";
      							   <li>Users can run external applications and shell scripts (pipeline) passing the required parameters to the application to 
      							   download the data, process it and import the processed data back to XNAT. To date Diffusion Weigthed Imaging (DWI) processing pipelines that cun run at project/subject level are available on our XNAT instance.</li>
 									<li>Users can either use previously imported mask on XNAT or create mask directly on XNAT (beta) to obtain parametric images.</li>
-                                     </ul>
+                                   </ul>
                                     
 									
-                                    <font size="3" ><b>Contact information</b></font>
-                                     <p class="indent">
+                                   <font size="3" ><b>Contact information</b></font>
+                                   <p class="indent">
                                     XNAT administrators:
-                                    <a title="Profile" href="../staff/staff_zullino.php">								
-									<b>Sara Zullino</b></a>,
-									<a title="Profile" href="../staff/staff_paglialonga.php">								
-									<b>Alessandro Paglialonga</b></a></p>
+                                    <a title="Profile" href="../staff/staff_zullino.php">
+									<b>Sara Zullino</b></a>
+									</p>
 									
-									
-
 									<font size="3" >
                                     <b>Acknowledgements</b><br/></font>
                                     <p class="indent">

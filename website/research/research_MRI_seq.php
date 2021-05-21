@@ -202,22 +202,22 @@ $localizer = "../";
 						<p>Research groups using our sequences:
 						
 						<ul>
-							<li><b>Prof. Robert Gillies</b> - Moffitt Cancer Center - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"><br></li>
-							<li><b>Prof. Hana Lahrech</b> - University Grenoble Alpes -
+							<li><b><a href="https://moffitt.org/research-science/researchers/robert-gillies/">Prof. Robert Gillies</a></b> - Moffitt Cancer Center - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"><br></li>
+							<li><b>Prof. Hana Lahrech</b> - Universit&eacute; Grenoble Alpes -
 								France <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/fr/shiny/64.png"><br></li>
-							<li><b>Dr. Afroditi Eleftheriou</b> - Universit&auml;t Z&uuml;rich
+							<li><b><a href="https://www.pharma.uzh.ch/en/research/functionalimaging/members.html">Dr. Afroditi Eleftheriou</b></a> - Universit&auml;t Z&uuml;rich
 								- Switzerland <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ch/shiny/64.png"><br></li>
-							<li><b>Prof. Simon Walker-Samuel</b> - University College London,
+							<li><b><a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=SWALK96">Prof. Simon Walker-Samuel</a></b> - University College London,
 								United Kingdom <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png"><br></li>
-							<li><b>Dr. Gianluigi Forloni</b> - Istituto di Ricerche
+							<li><b><a href="https://www.marionegri.it/personale/gianluigi-forloni">Gianluigi Forloni</a></b> - Istituto di Ricerche
 								Farmacologiche Mario Negri - IRCCS, Italy <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/it/shiny/64.png"><br></li>
-							<li><b>Nikola Stikov</b> - Montreal Heart Institute - Canada <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ca/shiny/64.png"><br></li>
-							<li><b>Prof. Joanna Collingwood</b> - Warwick University - United Kingdom <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png"></li>
-							<li><b>Prof. T. McMahon</b> - Kennedy Krieger Institute / The Johs Hopkins University School of Medicine - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"></li>
-							<li><b>Prof. Lixin Ma</b> - University of Missouri, Columbia - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"></li>
-							<li><b>Prof. Wladyslaw W&#281;glarz</b> - Institute of Nuclear Physics PAN - Poland <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/pl/shiny/64.png"></li>
+							<li><b><a href="https://www.neuro.polymtl.ca/people/nikola_stikov">Stikov</a></b> - Montreal Heart Institute - Canada <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ca/shiny/64.png"><br></li>
+							<li><b><a href="https://warwick.ac.uk/fac/sci/eng/people/joanna_collingwood">Joanna Collingwood</a></b> - Warwick University - United Kingdom <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png"></li>
+							<li><b><a href="https://www.kennedykrieger.org/patient-care/faculty-staff/michael-mcmahon">M.T. McMahon</a></b> - Kennedy Krieger Institute / The Johns Hopkins University School of Medicine - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"></li>
+							<li><b><a href="https://medicine.missouri.edu/faculty/lixin-ma-phd">Lixin Ma</a></b> - University of Missouri, Columbia - USA <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"></li>
+							<li><b><a href="https://www.ifj.edu.pl/en/divisions/no5/nz56.php">W&#322;adys&#322;aw W&#281;glarz</a></b> - Institute of Nuclear Physics PAN - Poland <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/pl/shiny/64.png"></li>
 							<li><b>Prof. Aoki Ichio</b> - National Institutes for Quantum and Radiological Science and Technology - Japan <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/jp/shiny/64.png"></li>
-							<li><b>Prof. Thomas Helbich</b> - Medical University of Vienna - General Hospital of Vienna Department of Biomedical Imaging and Image-guided Therapy - Division of Molecular and Structural Preclinical Imaging - Austria <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png"></li>
+							<li><b><a href="https://radnuk.meduniwien.ac.at/allgemeine-informationen/klinikleitung/thomas-helbich/">Thomas Helbich</a></b> - Medical University of Vienna - Austria <img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png"></li>
 						</ul>
 						</p>
 
