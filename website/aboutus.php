@@ -126,103 +126,97 @@ $localizer = "./";
 
 						<div
 							class="w3-row-padding"
-							style="background: #E6E6E6;">
+							style="background: #E6E6E6; height:200px;">
 							<div class="w3-container">
-
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_synthesis.php"><div
-												class="w3-header"
-												style="height: 70px;">
-												<span
-													style="font-size:20px; font-weight:bold; text-transform: none;">Probe synthesis</span>
-											</div> <img
-											src="images/research/figure_research_synthesis.jpg"
-											alt=""
-											class="w3-image-left" /> </a> 
-											<span class="PIname">PI: </span>
-										<a
-											title="Opens in new window"
-											href="#"><span class="PIname"> Stefania</span></a>, <a
-											title="Opens in new window"
-											href="#"> <span class="PIname">Tei</span>
-										</a>
-
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_synthesis.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">Probe
+													synthesis</span> <img
+												src="images/research/figure_research_synthesis.jpg"
+												alt=""
+												class="w3-image-left" />
+											</a> <span class="PIname">PI: </span> <a
+												title="Opens in new window"
+												href="#"><span class="PIname"> Stefania</span></a>, <a
+												title="Opens in new window"
+												href="#"> <span class="PIname">Tei</span>
+											</a>
+										</div>
 									</div>
 								</div>
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_gado.php">
-											<div
-												class="w3-header"
-												style="height: 70px;">
-												<span style="font-size:20px; font-weight:bold; text-transform: none;"> 
-												Gd-complexes
-												</span>
-											</div> <img
-											src="images/research/figure_research_Gdcomplex.jpg"
-											alt=""
-											class="w3-image-left" />
-										</a> <span class="PIname">PI: </span> <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Gianolio</span></a>, <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Geninatti</span></a>
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_gado.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">
+													Gd-complexes </span> <img
+												src="images/research/figure_research_Gdcomplex.jpg"
+												alt=""
+												class="w3-image-left" />
+											</a> <span class="PIname">PI: </span> <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Gianolio</span></a>, <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Geninatti</span></a>
+										</div>
 									</div>
 								</div>
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_cest.php"><div
-												class="w3-header"
-												style="height: 70px;">
-												<span style="font-size:20px; font-weight:bold; text-transform: none;"> CEST
-												contrast agents</span>
-											</div> <img
-											src="images/research/figure_research_CEST.jpg"
-											alt="Graphic representing DIACEST, PARACEST and LIPOCEST agents"
-											class="w3-image-left" /></a> <span class="PIname">PI: </span>
-										<a
-											title="Opens in new window"
-											href="#"><span class="PIname">Terreno</span></a>, <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Delli Castelli, </span></a> <a
-											title="Opens in new window"
-											href="PI/Longo/home.php"
-											target="_blank"><span class="PIname">Longo</span></a>
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_cest.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">
+													CEST contrast agents</span> <img
+												src="images/research/figure_research_CEST.jpg"
+												alt="Graphic representing DIACEST, PARACEST and LIPOCEST agents"
+												class="w3-image-left" /></a> <span class="PIname">PI: </span>
+											<a
+												title="Opens in new window"
+												href="#"><span class="PIname">Terreno</span></a>, <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Delli Castelli, </span></a> <a
+												title="Opens in new window"
+												href="PI/Longo/home.php"
+												target="_blank"><span class="PIname">Longo</span></a>
+										</div>
 									</div>
 								</div>
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_hyper.php"><div
-												class="w3-header"
-												style="height: 70px;">
-												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Hyperpolarized
-												agents</span>
-											</div> <img
-											src="images/research/figure_research_hyperpolarized.jpg"
-											alt=""
-											class="w3-image-left" /> </a><span class="PIname">PI: </span>
-										<a
-											title="Opens in new window"
-											href="#"><span class="PIname"> Reineri</span></a>, 
-										<a
-											title="Opens in new window"
-											href="#"><span class="PIname">Dastru'</span></a>
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_hyper.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">
+													Hyperpolarized agents</span> <img
+												src="images/research/figure_research_hyperpolarized.jpg"
+												alt=""
+												class="w3-image-left" />
+											</a><span class="PIname">PI: </span> <a
+												title="Opens in new window"
+												href="#"><span class="PIname"> Reineri</span></a>, <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Dastru'</span></a>
+										</div>
 									</div>
 								</div>
 
@@ -231,98 +225,97 @@ $localizer = "./";
 
 						<div
 							class="w3-row-padding"
-							style="background: #E6E6E6;">
+							style="background: #E6E6E6; height:200px;">
 							<div class="w3-container">
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_multi.php"><div
-												class="w3-header"
-												style="height: 70px;">
-												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Multi-modality
-												agents</span>
-											</div> <img
-											src="images/research/figure_research_multimodal.jpg"
-											alt=""
-											class="w3-image-left" /> </a><span class="PIname">PI: </span>
-										<a
-											title="Opens in new window"
-											href="#"><span class="PIname"> Terreno</span></a>, <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Terreno</span></a>
-
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_multi.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">
+													Multi-modality agents</span> <img
+												src="images/research/figure_research_multimodal.jpg"
+												alt=""
+												class="w3-image-left" />
+											</a><span class="PIname">PI: </span> <a
+												title="Opens in new window"
+												href="#"><span class="PIname"> Terreno</span></a>, <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Terreno</span></a>
+										</div>
 									</div>
 								</div>
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_responsive.php"><div
-												class="w3-header"
-												style="height: 70px;">
-												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Responsive
-												agents</span>
-											</div> <img
-											src="images/research/figure_research_responsive.jpg"
-											alt=""
-											class="w3-image-left" /> </a><span class="PIname">PI: </span>
-										<a
-											title="Opens in new window"
-											href="PI/Longo/home.php"
-											target="_blank"><span class="PIname"> Longo,</span></a> <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Delli Castelli,</span></a> <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Digilio,</span></a>
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_responsive.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">
+													Responsive agents</span> <img
+												src="images/research/figure_research_responsive.jpg"
+												alt=""
+												class="w3-image-left" />
+											</a><span class="PIname">PI: </span> <a
+												title="Opens in new window"
+												href="PI/Longo/home.php"
+												target="_blank"><span class="PIname"> Longo,</span></a> <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Delli Castelli,</span></a> <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Digilio,</span></a>
+										</div>
 									</div>
 								</div>
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_nanotarget.php"><div
-												class="w3-header"
-												style="height: 70px;">
-												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Targeting
-												agents</span>
-											</div> <img
-											src="images/research/figure_research_targeting_agents.jpg"
-											alt=""
-											class="w3-image-left" /></a> <span class="PIname">PI: </span>
-										<a
-											title="Opens in new window"
-											href="#"><span class="PIname"> Terreno</span></a>, <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Geninatti</span></a>
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_nanotarget.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">
+													Targeting agents</span> <img
+												src="images/research/figure_research_targeting_agents.jpg"
+												alt=""
+												class="w3-image-left" /></a> <span class="PIname">PI: </span>
+											<a
+												title="Opens in new window"
+												href="#"><span class="PIname"> Terreno</span></a>, <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Geninatti</span></a>
+										</div>
 									</div>
 								</div>
 
 								<div class="w3-quarter">
 									<div class="w3-container">
-										<a
-											title="Opens in new window"
-											href="research/research_imaging_therapy.php"><div
-												class="w3-header"
-												style="height: 70px;">
-												<span style="font-size:20px; font-weight:bold; text-transform: none;"> Theranostic
-												agents</span>
-											</div> <img
-											src="images/research/figure_research_theranostic.jpg"
-											alt=""
-											class="w3-image-left" /> </a><span class="PIname">PI: </span>
-										<a
-											title="Opens in new window"
-											href="#"><span class="PIname"> Terreno</span></a>, <a
-											title="Opens in new window"
-											href="#"><span class="PIname">Geninatti</span></a>
-
+										<div
+											class="w3-header"
+											style="height: 70px;">
+											<a
+												title="Opens in new window"
+												href="research/research_imaging_therapy.php"> <span
+												style="font-size: 20px; font-weight: bold; text-transform: none;">
+													Theranostic agents</span> <img
+												src="images/research/figure_research_theranostic.jpg"
+												alt=""
+												class="w3-image-left" />
+											</a><span class="PIname">PI: </span> <a
+												title="Opens in new window"
+												href="#"><span class="PIname"> Terreno</span></a>, <a
+												title="Opens in new window"
+												href="#"><span class="PIname">Geninatti</span></a>
+										</div>
 									</div>
 								</div>
 							</div>
