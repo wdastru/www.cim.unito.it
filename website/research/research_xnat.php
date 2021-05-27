@@ -68,25 +68,38 @@ $localizer = "../";
                                     
 									
                                    <font size="3" ><b>Contact information</b></font>
-                                   <p class="indent">
-                                    XNAT administrators:
-                                    <a title="Profile" href="../staff/staff_zullino.php">
-									<b>Sara Zullino</b></a>
-									</p>
-									
-									<font size="3" >
-                                    <b>Acknowledgements</b><br/></font>
-                                    <p class="indent">
-                                    <a href="https://www.corbel-project.eu/home.html" target="_blank">
-                                    <img src="../images/research_lines/figure_research_xnat_corbel.png" style="width: 100px; height: auto;  margin: 30px;" > </img></a>                                
-                                    <a href="http://www.eurobioimaging.eu/" target="_blank">
-                                    <img src="../images/research_lines/euro_bio_imaging_logo.jpg" style="width: 230px; height: auto;  margin: 30px;" > </img></a>
-                                    <a href="http://www.mmmi.unito.it/" target="_blank">
-                                    <img src="../images/research_lines/2logo_MMMI_2.png" style="width: 230px; height: auto;  margin: 30px;" > </img></a> </p>
-                                                                         
+						<p class="indent">
+							XNAT administrators: <a
+								title="Profile"
+								href="../staff/staff_zullino.php"> <b>Sara Zullino</b></a>
+						</p>
 
-									<font size="3" >
-                                    <b>Links/References</b><br/></font></p>
+						<font size="3"> <b>Acknowledgements</b>
+						<br /></font>
+						<p class="indent">
+							<a
+								href="https://www.corbel-project.eu/home.html"
+								target="_blank"> <img
+								src="../images/research_lines/figure_research_xnat_corbel.png"
+								style="width: 100px; height: auto; margin: 30px 25px; vertical-align: middle;"> </img></a> <a
+								href="http://www.eurobioimaging.eu/"
+								target="_blank"> <img
+								src="../images/research_lines/euro_bio_imaging_logo.jpg"
+								style="width: 200px; height: auto; margin: 30px 25px; vertical-align: middle;"> </img></a> <a
+								href="http://www.mmmi.unito.it/"
+								target="_blank"> <img
+								src="../images/research_lines/2logo_MMMI_2.png"
+								style="width: 200px; height: auto; margin: 30px 25px; vertical-align: middle;"> </img></a> <a
+								href="https://www.eosc-life.eu//"
+								target="_blank"> <img
+								src="../images/research_lines/eosclogo.png"
+								style="width: 100px; height: auto; margin: 30px 25px; vertical-align: middle;"> </img></a>
+						</p>
+
+
+						<font size="3"> <b>Links/References</b>
+						<br /></font>
+						</p>
                                     <p class="indent">
                                     XNAT home page:
                                     <a title="Profile" href="http://www.xnat.org" style="color:#dc6a10">								
