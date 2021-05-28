@@ -1,17 +1,12 @@
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Staff</title>
-<meta
-	name="description"
-	content="" />
-
 <link
 	rel="stylesheet"
 	href="square.css" />
@@ -52,36 +47,34 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/aime.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Homepage"
-												href="aboutus.php#leadership"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Silvio Aime</b>
-													</h2>
-													<p style="font-size: 16px;">Director</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Homepage"
+														href="aboutus.php#leadership"
+														target="_blank"> <b>Silvio Aime</b> <span
+														style="font-size: 16px;">Director</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
 								<div
 									class="square bg"
-									style="background-image: url(images/staff/terreno.jpg);"">
+									style="background-image: url(images/staff/terreno.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Homepage"
-												href="PI/Terreno/home.php"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Enzo Terreno</b>
-													</h2>
-													<p style="font-size: 16px;">Associate Professor</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Homepage"
+														href="PI/Terreno/home.php"
+														target="_blank"> <b>Enzo Terreno</b> <span
+														style="font-size: 16px;">Associate Professor</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -90,17 +83,16 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/geninatti_crich.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Homepage"
-												href="PI/Geninatti/home.html"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Simonetta Geninatti</b>
-													</h2>
-													<p style="font-size: 16px;">Associate Professor</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Homepage"
+														href="PI/Geninatti/home.html"
+														target="_blank"> <b>Simonetta Geninatti</b> <span
+														style="font-size: 16px;">Associate Professor</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -109,17 +101,16 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/gianolio.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Homepage"
-												href="PI/Gianolio/home.html"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Eliana Gianolio</b>
-													</h2>
-													<p style="font-size: 16px;">Researcher</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Homepage"
+														href="PI/Gianolio/home.html"
+														target="_blank"> <b>Eliana Gianolio</b> <span
+														style="font-size: 16px;">Researcher</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -128,14 +119,14 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/dastru.jpg);">
 									<div class="content">
 										<div class="table">
-											<!-- <a title="Homepage" href="PI/Dastru/home.html" target="_blank"> -->
 											<div class="table-cell">
 												<h2 style="font-size: 20px;">
-													<b>Walter Dastr&ugrave;</b>
+													<!-- <a title="Homepage" href="PI/Dastru/home.html" target="_blank"> -->
+													<b>Walter Dastr&ugrave;</b> <span style="font-size: 16px;">Assistant
+														Professor</span>
+													<!-- </a> -->
 												</h2>
-												<p style="font-size: 16px;">Assistant Professor</p>
 											</div>
-											<!-- </a> -->
 										</div>
 									</div>
 								</div>
@@ -144,17 +135,16 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/reineri.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Homepage"
-												href="PI/Reineri/home.php"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Francesca Reineri</b>
-													</h2>
-													<p style="font-size: 16px;">Assistant Professor</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Homepage"
+														href="PI/Reineri/home.php"
+														target="_blank"> <b>Francesca Reineri</b> <span
+														style="font-size: 16px;">Assistant Professor</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -163,14 +153,14 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/dellicastelli.jpg);">
 									<div class="content">
 										<div class="table">
-											<!-- <a title="Homepage" href="PI/DelliCastelli/home.html" target="_blank"> -->
 											<div class="table-cell">
 												<h2 style="font-size: 16px;">
-													<b>Daniela Delli Castelli</b>
+													<!-- <a title="Homepage" href="PI/DelliCastelli/home.html" target="_blank"> -->
+													<b>Daniela Delli Castelli</b> <span
+														style="font-size: 16px;">Assistant Professor</span>
+													<!-- </a> -->
 												</h2>
-												<p style="font-size: 16px;">Assistant Professor</p>
 											</div>
-											<!-- </a> -->
 										</div>
 									</div>
 								</div>
@@ -179,14 +169,13 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/viale.jpg);">
 									<div class="content">
 										<div class="table">
-											<!-- <a title="Homepage" href="PI/Viale/home.html" target="_blank"> -->
 											<div class="table-cell">
 												<h2 style="font-size: 20px;">
-													<b>Alessandra Viale</b>
+													<!-- <a title="Homepage" href="PI/Viale/home.html" target="_blank"> -->
+													<b>Alessandra Viale</b> <span style="font-size: 16px;">Researcher</span>
+													<!-- </a> -->
 												</h2>
-												<p style="font-size: 16px;">Researcher</p>
 											</div>
-											<!-- </a> -->
 										</div>
 									</div>
 								</div>
@@ -195,17 +184,16 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/cutrin.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Homepage"
-												href="PI/Cutrin/home.php"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 16px;">
-														<b>Juan Carlos Cutrin</b>
-													</h2>
-													<p style="font-size: 16px;">Assistant Professor</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 16px;">
+													<a
+														title="Homepage"
+														href="PI/Cutrin/home.php"
+														target="_blank"> <b>Juan Carlos Cutrin</b> <span
+														style="font-size: 16px;">Assistant Professor</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -214,16 +202,15 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/ferrauto.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_ferrauto.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Giuseppe Ferrauto</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Profile"
+														href="staff/staff_ferrauto.php"> <b>Giuseppe Ferrauto</b>
+														<span style="font-size: 16px;">Research Fellow</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -241,457 +228,429 @@ require ('includes/main-nav.php');
 									style="background-image: url(images/staff/baroni.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_baroni.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Simona Baroni</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Profile"
+														href="staff/staff_baroni.php"> <b>Simona Baroni</b> <span
+														style="font-size: 16px;">Research Fellow</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
 								<div
 									class="square bg"
-									style="background-image: url(images/staff/stefania.jpg);"">
+									style="background-image: url(images/staff/stefania.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_stefania.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Rachele Stefania</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Profile"
+														href="staff/staff_stefania.php"> <b>Rachele Stefania</b> <span
+														style="font-size: 16px;">Research Fellow</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
-
 								<div
 									class="square bg"
 									style="background-image: url(images/staff/alberti.jpg);">
 									<div class="content">
 										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_alberti.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Diego Alberti</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-											</a>
+											<div class="table-cell">
+												<h2 style="font-size: 20px;">
+													<a
+														title="Profile"
+														href="staff/staff_alberti.php"> <b>Diego Alberti</b> <span
+														style="font-size: 16px;">Research Fellow</span>
+													</a>
+												</h2>
+											</div>
 										</div>
 									</div>
 								</div>
-
-
-
-							</div>
 						</div>
-
-
+						
 						<h1>
 							<span style="text-align: left">Post Doctoral Research Fellows</span>
 						</h1>
 
-						<div class="row">
-							<div class="w3-container">
-								<div class="square bg"
+							<div class="row">
+								<div class="w3-container">
+									<div class="square bg"
 										style="background-image: url(<?php echo $localizer; ?>images/staff/anemone.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_anemone.php">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Annasofia Anemone</b>
+														<a
+															title="Profile"
+															href="staff/staff_anemone.php"> <b>Annasofia Anemone</b>
+															<span style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/ruggiero.jpg);"">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_ruggiero.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/ruggiero.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Maria Rosaria Ruggiero</b>
+														<a
+															title="Profile"
+															href="staff/staff_ruggiero.php"> <b>Maria Rosaria
+																Ruggiero</b> <span style="font-size: 16px;">Research
+																Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/garello.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_garello.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/garello.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Francesca Garello</b>
+														<a
+															title="Profile"
+															href="staff/staff_garello.php"> <b>Francesca Garello</b>
+															<span style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/digregorio.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_digregorio.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/digregorio.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Enza Di Gregorio</b>
+														<a
+															title="Profile"
+															href="staff/staff_digregorio.php"> <b>Enza Di Gregorio</b>
+															<span style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/cavallari.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_cavallari.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/cavallari.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Eleonora Cavallari</b>
+														<a
+															title="Profile"
+															href="staff/staff_cavallari.php"> <b>Eleonora Cavallari</b>
+															<span style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/capozza.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_capozza.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/capozza.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Martina Capozza</b>
+														<a
+															title="Profile"
+															href="staff/staff_capozza.php"> <b>Martina Capozza</b> <span
+															style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/zullino.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_zullino.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/zullino.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Sara Zullino</b>
+														<a
+															title="Profile"
+															href="staff/staff_zullino.php"> <b>Sara Zullino</b> <span
+															style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/romdhane.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_romdhane.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/romdhane.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Feriel Romdhane</b>
+														<a
+															title="Profile"
+															href="staff/staff_romdhane.php"> <b>Feriel Romdhane</b> <span
+															style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/tear.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_tear.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/tear.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Louise Tear</b>
+														<a
+															title="Profile"
+															href="staff/staff_tear.php"> <b>Louise Tear</b> <span
+															style="font-size: 16px;">Research Fellow</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<h1>
+							<h1>
 							<span style="text-align: left">PhD and Graduate Students</span>
 						</h1>
 
 						<div class="row">
-							<div class="w3-container">
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/hawala.jpg);"">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_hawala.php">
+								<div class="w3-container">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/hawala.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Ivan Hawala</b>
+														<a
+															title="Profile"
+															href="staff/staff_hawala.php"> <b>Ivan Hawala</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/bitonto.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_bitonto.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/bitonto.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Valeria Bitonto</b>
+														<a
+															title="Profile"
+															href="staff/staff_bitonto.php"> <b>Valeria Bitonto</b>
+															<span style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/tripepi.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_tripepi.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/tripepi.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Martina Tripepi</b>
+														<a
+															title="Profile"
+															href="staff/staff_tripepi.php"> <b>Martina Tripepi</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/patrucco.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_patrucco.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/patrucco.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Deyssy Patrucco</b>
+														<a
+															title="Profile"
+															href="staff/staff_patrucco.php"> <b>Deyssy Patrucco</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/irrera.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_irrera.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/irrera.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Pietro Irrera</b>
+														<a
+															title="Profile"
+															href="staff/staff_irrera.php"> <b>Pietro Irrera</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/fatehbasharzad.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_fatehbasharzad.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/fatehbasharzad.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 15px;">
-														<b>Parisa Fatehbasharzad</b>
+														<a
+															title="Profile"
+															href="staff/staff_fatehbasharzad.php"> <b>Parisa
+																Fatehbasharzad</b> <span style="font-size: 15px;">PhD
+																student</span>
+														</a>
 													</h2>
-													<p style="font-size: 15px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/sforzi.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_sforzi.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/sforzi.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Jacopo Sforzi</b>
+														<a
+															title="Profile"
+															href="staff/staff_sforzi.php"> <b>Jacopo Sforzi</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/furlan.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_furlan.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/furlan.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Chiara Furlan</b>
+														<a
+															title="Profile"
+															href="staff/staff_furlan.php"> <b>Chiara Furlan</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/palagi.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_palagi.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/palagi.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Lorenzo Palagi</b>
+														<a
+															title="Profile"
+															href="staff/staff_palagi.php"> <b>Lorenzo Palagi</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/dhakan.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_dhakan.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/dhakan.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Chetan Dhakan</b>
+														<a
+															title="Profile"
+															href="staff/staff_dhakan.php"> <b>Chetan Dhakan</b> <span
+															style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/bondar.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_bondar.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/bondar.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Oksana Bondar</b>
+														<a
+															title="Profile"
+															href="staff/staff_bondar.php"> <b>Oksana Bondar</b>
+															<span style="font-size: 16px;">PhD student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">PhD student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/villano.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_villano.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/villano.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Daisy Villano</b>
+														<a
+															title="Profile"
+															href="staff/staff_villano.php"> <b>Daisy Villano</b> <span
+															style="font-size: 16px;">Graduate student</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Graduate student</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 					</div>
 
 					<div class='band'>
@@ -708,162 +667,154 @@ require ('includes/main-nav.php');
 						</h1>
 
 
-						<div class="row">
-							<div class="w3-container">
-
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/Dario_Longo.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Homepage"
-												href="PI/Longo/home.php"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Dario Longo</b>
-													</h2>
-													<p style="font-size: 16px;">Researcher</p>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/menchise.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_menchise.php">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Valeria Menchise</b>
-													</h2>
-													<p style="font-size: 16px;">Researcher</p>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/dandrea.jpg);"">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="PI/DAndrea/home.php"
-												target="_blank">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Luca Domenico D'Andrea</b>
-													</h2>
-													<p style="font-size: 16px;">Researcher</p>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<h1>
-								<span style="text-align: left">Senior Research Scientists</span>
-							</h1>
-
 							<div class="row">
 								<div class="w3-container">
 									<div
 										class="square bg"
-										style="background-image: url(images/staff/padovan.jpg);">
+										style="background-image: url(images/staff/Dario_Longo.jpg);">
 										<div class="content">
 											<div class="table">
-												<a
-													title="Profile"
-													href="staff/staff_padovan.php">
-													<div class="table-cell">
-														<h2 style="font-size: 20px;">
-															<b>Sergio Padovan</b>
-														</h2>
-														<p style="font-size: 16px;">Technical Assistant</p>
-													</div>
-												</a>
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<a
+															title="Homepage"
+															href="PI/Longo/home.php"
+															target="_blank"> <b>Dario Longo</b> <span
+															style="font-size: 16px;">Researcher</span>
+														</a>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/menchise.jpg);">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<a
+															title="Profile"
+															href="staff/staff_menchise.php"> <b>Valeria Menchise</b>
+															<span style="font-size: 16px;">Researcher</span>
+														</a>
+													</h2>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div
 										class="square bg"
-										style="background-image: url(images/staff/carrera.jpg);">
+										style="background-image: url(images/staff/dandrea.jpg);">
 										<div class="content">
 											<div class="table">
-												<a
-													title="Profile"
-													href="staff/staff_carrera.php">
-													<div class="table-cell">
-														<h2 style="font-size: 20px;">
-															<b>Carla Carrera</b>
-														</h2>
-														<p style="font-size: 16px;">Research Fellow</p>
-													</div>
-												</a>
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<a
+															title="Profile"
+															href="PI/DAndrea/home.php"
+															target="_blank"> <b>Luca Domenico D'Andrea</b> <span
+															style="font-size: 16px;">Researcher</span>
+														</a>
+													</h2>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
 
-							<h1>
-								<span style="text-align: left">Post Doctoral, PhD and Graduate
-									Students</span>
-							</h1>
+								<h1>
+									<span style="text-align: left">Senior Research Scientists</span>
+								</h1>
 
-							<div class="row">
-								<div class="w3-container">
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/carella.jpg);">
-										<div class="content">
-											<div class="table">
-												<a
-													title="Profile"
-													href="staff/staff_carella.php">
+								<div class="row">
+									<div class="w3-container">
+										<div
+											class="square bg"
+											style="background-image: url(images/staff/padovan.jpg);">
+											<div class="content">
+												<div class="table">
 													<div class="table-cell">
 														<h2 style="font-size: 20px;">
-															<b>Antonella Carella</b>
+															<a
+																title="Profile"
+																href="staff/staff_padovan.php"> <b>Sergio Padovan</b> <span
+																style="font-size: 16px;">Technical Assistant</span>
+															</a>
 														</h2>
-														<p style="font-size: 16px;">Research Fellow</p>
 													</div>
-												</a>
+												</div>
 											</div>
 										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/corrado.jpg);">
-										<div class="content">
-											<div class="table">
-												<a
-													title="Profile"
-													href="staff/staff_corrado.php">
+										<div
+											class="square bg"
+											style="background-image: url(images/staff/carrera.jpg);">
+											<div class="content">
+												<div class="table">
 													<div class="table-cell">
 														<h2 style="font-size: 20px;">
-															<b>Alessia Corrado</b>
+															<a
+																title="Profile"
+																href="staff/staff_carrera.php"> <b>Carla Carrera</b> <span
+																style="font-size: 16px;">Research Fellow</span>
+															</a>
 														</h2>
-														<p style="font-size: 16px;">Graduate student</p>
 													</div>
-												</a>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
+
+								<h1>
+									<span style="text-align: left">Post Doctoral, PhD and Graduate
+										Students</span>
+								</h1>
+
+								<div class="row">
+									<div class="w3-container">
+										<div
+											class="square bg"
+											style="background-image: url(images/staff/carella.jpg);">
+											<div class="content">
+												<div class="table">
+													<div class="table-cell">
+														<h2 style="font-size: 20px;">
+															<a
+																title="Profile"
+																href="staff/staff_carella.php"> <b>Antonella Carella</b>
+																<span style="font-size: 16px;">Research Fellow</span>
+															</a>
+														</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="square bg"
+											style="background-image: url(images/staff/corrado.jpg);">
+											<div class="content">
+												<div class="table">
+													<div class="table-cell">
+														<h2 style="font-size: 20px;">
+															<a
+																title="Profile"
+																href="staff/staff_corrado.php"> <b>Alessia Corrado</b> <span
+																style="font-size: 16px;">Graduate student</span>
+															</a>
+														</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
 							</div>
 
 						</div>
-
-					</div>
 
 					<div class='band'>
 						<h1 class='subsectionTitle'>
@@ -872,279 +823,274 @@ require ('includes/main-nav.php');
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
-					<div class='paddingInner'>
+						<div class='paddingInner'>
 
 
 
 
-						<div class="row">
-							<div class="w3-container">
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/botta.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_botta.php">
+							<div class="row">
+								<div class="w3-container">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/botta.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Mauro Botta</b>
+														<a
+															title="Profile"
+															href="staff/staff_botta.php"> <b>Mauro Botta</b> <span
+															style="font-size: 16px;">Full Professor</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Full Professor</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/tei.jpg);"">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_tei.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/tei.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Lorenzo Tei</b>
+														<a
+															title="Profile"
+															href="staff/staff_tei.php"> <b>Lorenzo Tei</b> <span
+															style="font-size: 16px;">Associate Professor</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Associate Professor</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/digilio.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_digilio.php">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/digilio.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Giuseppe Digilio</b>
+														<a
+															title="Profile"
+															href="staff/staff_digilio.php"> <b>Giuseppe Digilio</b> <span
+															style="font-size: 16px;">Assistant Professor</span>
+														</a>
 													</h2>
-													<p style="font-size: 16px;">Assistant Professor</p>
 												</div>
-											</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class='band'>
+						<div class='band'>
 						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Past Members
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
-					<div class='paddingInner'>
-						<div class="row">
-							<div class="w3-container">
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/arena.jpg);">
-									<div class="content">
-										<div class="table">
-											<a
-												title="Profile"
-												href="staff/staff_arena.php">
+						<div class='paddingInner'>
+							<div class="row">
+								<div class="w3-container">
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/arena.jpg);">
+										<div class="content">
+											<div class="table">
 												<div class="table-cell">
 													<h2 style="font-size: 20px;">
-														<b>Francesca Arena</b>
+														<a
+															title="Profile"
+															href="staff/staff_arena.php"> <b>Francesca Arena</b> <span
+															style="font-size: 16px;">Research Fellow</span>
+														</a>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/capuana.jpg);">
+										<div class="content">
+											<div class="table">
+												<!-- <a title="Profile" href="staff/staff_capuana.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Federico Capuana</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div>
+												<!-- 											</a> -->
+											</div>
+										</div>
+									</div>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/atlante.jpg);">
+										<div class="content">
+											<div class="table">
+												<!-- <a title="Profile" href="staff/staff_atlante.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Sandra Atlante</b>
 													</h2>
 													<p style="font-size: 16px;">Research Fellow</p>
 												</div>
-											</a>
+												<!-- 											</a> -->
+											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/capuana.jpg);">
-									<div class="content">
-										<div class="table">
-											<!-- <a title="Profile" href="staff/staff_capuana.php"> -->
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Federico Capuana</b>
-												</h2>
-												<p style="font-size: 16px;">PhD student</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/consolino.jpg);">
+										<div class="content">
+											<div class="table">
+												<!-- <a title="Profile" href="staff/staff_consolino.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Lorena Consolino</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/atlante.jpg);">
-									<div class="content">
-										<div class="table">
-											<!-- <a title="Profile" href="staff/staff_atlante.php"> -->
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Sandra Atlante</b>
-												</h2>
-												<p style="font-size: 16px;">Research Fellow</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/pagoto.jpg);">
+										<div class="content">
+											<div class="table">
+												<!-- <a title="Profile" href="staff/staff_pagoto.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Amerigo Pagoto</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/consolino.jpg);">
-									<div class="content">
-										<div class="table">
-											<!-- <a title="Profile" href="staff/staff_consolino.php"> -->
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Lorena Consolino</b>
-												</h2>
-												<p style="font-size: 16px;">Research Fellow</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/paglialonga.jpg);">
+										<div class="content">
+											<div class="table">
+												<!-- <a title="Profile" href="staff/staff_paglialonga.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 18px;">
+														<b>Alessandro Paglialonga</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate student</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/pagoto.jpg);">
-									<div class="content">
-										<div class="table">
-											<!-- <a title="Profile" href="staff/staff_pagoto.php"> -->
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Amerigo Pagoto</b>
-												</h2>
-												<p style="font-size: 16px;">Research Fellow</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/spatola.jpg);">
+										<div class="content">
+											<div class="table">
+												<!-- <a title="Profile" href="staff/staff_spatola.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Giulia Spatola</b>
+													</h2>
+													<p style="font-size: 16px;">PhD student</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/paglialonga.jpg);">
-									<div class="content">
-										<div class="table">
-											<!-- <a title="Profile" href="staff/staff_paglialonga.php"> -->
-											<div class="table-cell">
-												<h2 style="font-size: 18px;">
-													<b>Alessandro Paglialonga</b>
-												</h2>
-												<p style="font-size: 16px;">Graduate student</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/bhavnarani.jpg);">
+										<div class="content">
+											<div class="table">
+												<!-- <a title="Profile" href="staff/staff_bhavnarani.php"> -->
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Bhavna Rani</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/spatola.jpg);">
-									<div class="content">
-										<div class="table">
-											<!-- <a title="Profile" href="staff/staff_spatola.php"> -->
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Giulia Spatola</b>
-												</h2>
-												<p style="font-size: 16px;">PhD student</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/bardini.jpg);">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Paola Bardini</b>
+													</h2>
+													<p style="font-size: 16px;">Research Fellow</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/bhavnarani.jpg);">
-									<div class="content">
-										<div class="table">
-											<!-- <a title="Profile" href="staff/staff_bhavnarani.php"> -->
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Bhavna Rani</b>
-												</h2>
-												<p style="font-size: 16px;">Research Fellow</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/barale.jpg);">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Andrea Barale</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate Student</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/bardini.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Paola Bardini</b>
-												</h2>
-												<p style="font-size: 16px;">Research Fellow</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/marini.jpg);">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 16px;">
+														<b>Giada Maria Marini</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate Student</p>
+												</div>
+												<!-- 											</a> -->
 											</div>
-											</a>
 										</div>
 									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/barale.jpg);"">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Andrea Barale</b>
-												</h2>
-												<p style="font-size: 16px;">Graduate Student</p>
+									<div
+										class="square bg"
+										style="background-image: url(images/staff/galati.jpg);">
+										<div class="content">
+											<div class="table">
+												<div class="table-cell">
+													<h2 style="font-size: 20px;">
+														<b>Antonello Galati</b>
+													</h2>
+													<p style="font-size: 16px;">Graduate Student</p>
+												</div>
 											</div>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/marini.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 16px;">
-													<b>Giada Maria Marini</b>
-												</h2>
-												<p style="font-size: 16px;">Graduate Student</p>
-											</div>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/galati.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<b>Antonello Galati</b>
-												</h2>
-												<p style="font-size: 16px;">Graduate Student</p>
-											</div>
-											</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
+
+
+
 					</div>
-
-
-
-
-				</div>
 			</div>
 			<!-- subsection closing -->
 		</div>
@@ -1178,6 +1124,7 @@ require ('includes/main-nav.php');
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
+	</div>
 	<script type="text/javascript">
 			//<![CDATA[
 			changeSideNavStyles();
