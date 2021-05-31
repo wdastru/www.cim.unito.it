@@ -1,12 +1,10 @@
 <?php $localizer = "./"; ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino - Where we are</title>
-        <meta name="description" content="" />
+		<title>Molecular Imaging Center - University of Torino - Where we are</title>
         </head>
     <body>
 <?php //require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -29,7 +27,7 @@
                         </div>
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2818.7755057933828!2d7.6738996!3d45.0497773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d48f2272033%3A0xe5a0d880beff326b!2sVia+Nizza%2C+52%2C+10126+Torino!5e0!3m2!1sit!2sit!4v1464684837561" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2818.7755057933828!2d7.6738996!3d45.0497773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d48f2272033%3A0xe5a0d880beff326b!2sVia+Nizza%2C+52%2C+10126+Torino!5e0!3m2!1sit!2sit!4v1464684837561" width="600" height="450" style="border:0" allowfullscreen></iframe>
                             <!-- <form action="http://maps.google.it/" target="_blank" method="get">
                             <p>
                             <label for="saddr">Where we are and how to reach us (Google Maps) </label>
@@ -70,10 +68,10 @@
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
-//<![CDATA[
-changeSideNavStyles();
-//]]>
+        <script>
+            //<![CDATA[
+            changeSideNavStyles();
+            //]]>
         </script><!-- InstanceEnd -->
     </body>
 </html>

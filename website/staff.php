@@ -2,7 +2,7 @@
 $localizer = "./";
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
@@ -1125,7 +1125,7 @@ require ('includes/main-nav.php');
 	</div>
 	<!-- section closing -->
 	</div>
-	<script type="text/javascript">
+	<script>
 			//<![CDATA[
 			changeSideNavStyles();
 			//]]>

@@ -2,7 +2,7 @@
 $localizer = "./";
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
@@ -31,7 +31,7 @@ $localizer = "./";
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<p style="align: justify">
+						<p style="text-align: justify">
 							The <b>Molecular Imaging Center</b> is very experienced in the
 							field of synthesis and physical-chemical characterisation of
 							contrast agents.<br> Since 1986, research activities have
@@ -97,7 +97,7 @@ $localizer = "./";
 								</ul>
 							</div>
 							<div class="w3-container w3-cell w3-cell-middle">
-								<p style="align-vertical: middle">
+								<p style="vertical-align: middle;">
 									<b>Silvio Aime is a recognized expert on molecular imaging with
 										NMR (paramagnetic complexes, nanoparticles, CEST agents,
 										targeting and responsive probes, hyperpolarized Para-Hydrogen
@@ -353,7 +353,7 @@ $localizer = "./";
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
-	<script type="text/javascript">
+	<script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

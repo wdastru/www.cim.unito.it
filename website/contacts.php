@@ -1,14 +1,12 @@
 <?php
 	$localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 	<head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
-        <title>Molecular Imaging Center - University of Torino - Contacts</title>
-		<meta name="description" content="How to contact us" />
+        <title>Molecular Imaging Center - University of Torino - Contacts</title>        
 	</head>
 	<body>
 <?php //require_once($localizer . 'includes/analyticstracking.php') ?>
@@ -71,7 +69,7 @@
 			<!-- section closing -->
 		</div>
 		<!-- section closing -->
-		<script type="text/javascript">
+		<script>
 			//<![CDATA[
 			changeSideNavStyles();
 			//]]>
