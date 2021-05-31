@@ -19,7 +19,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection21">
+            <div id="subsection25">
                 <!-- InstanceEndEditable -->
                 <?php
                 require ($localizer . 'includes/research-side-nav.php');
