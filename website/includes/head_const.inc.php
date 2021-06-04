@@ -3,8 +3,6 @@
 require($localizer . 'includes/jQuery.php');
 
 echo "
-
-	<meta name='description' content='University of Torino. Website of the Molecular Imaging Center.' />
     <meta name='google-site-verification' content='q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
