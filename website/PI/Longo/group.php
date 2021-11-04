@@ -157,54 +157,6 @@
 						<hr></hr>
 
 
-						<div class="row">
-							<div class="8u 12u(mobile)">
-
-								<!-- Excerpt -->
-								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/anemone.jpg"
-										alt=""
-										style="width: 180px; height: auto; margin-bottom: 100px;"
-										class="image left" />
-									<div>
-										<header>
-											<h3 style="text-align:left">Annasofia Anemone</h3>
-											<span>Postdoctoral Fellow</span>
-										</header>
-										<p style="line-height: 1.2">
-										    Ph.D. in Biomolecular Sciences, University of Torino<br>
-											M.Sc. in Biotechnology, University of Torino<br> Phone: +39
-											0116706476<br> E-mail: <a
-												href="mailto:annasofiaantonia.anemone@unito.it"><font color="#1e799f">annasofiaantonia.anemone@unito.it</font></a>
-										</p>
-									</div>
-
-									<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form>
-											<p align="justify">
-												<b>My project focuses on exploiting MRI-CEST pH imaging as a
-													non-invasive in vivo molecular imaging techniques to
-													investigate tumor acidosis in murine tumor models. I am
-													also interested in using this novel technique for assessing
-													treatment response to inhibitors of cancer metabolism and
-													to drugs targeting proton pumps. </b>
-											</p>
-										</form>
-									</div>
-
-								</article>
-							</div>
-							<div class="4u 6u(mobile)">
-
-								<br>
-								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png"
-									class="w3-image" style="max-width: 250px;" />
-
-							</div>
-						</div>
 
 						<hr></hr>
 
@@ -261,61 +213,7 @@
 
 						<hr></hr>
 
-						<div class="row">
-							<div class="8u 12u(mobile)">
-
-								<!-- Excerpt -->
-								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/zullino.jpg"
-										alt=""
-										style="width: 180px; height: auto; margin-bottom: 140px;"
-										class="image left" />
-									<div>
-										<header>
-											<h3 style="text-align:left">Sara Zullino</h3>
-											<span>Postdoctoral Fellow</span>
-										</header>
-										<p style="line-height: 1.2">
-											Ph.D. in Complex Systems for Life Sciences, University of Torino<br>
-											M.Sc. in Biomedical Engineering, Sapienza University of Rome,
-											Italy <br> Phone: +39 0116706485<br> E-mail: <a
-												href="mailto:sara.zullino@unito.it"><font color="#1e799f">sara.zullino@unito.it</font></a>
-										</p>
-									</div>
-
-									<div class="showtext">
-										<div>My research aims at ...</div>
-										<form>
-											<p align="justify">
-												<b> My research aims at building novel Matlab and Python
-													based tools for processing preclinical MRI images, in
-													particular devoted to exploit MRI-CEST (Chemical Exchange
-													Saturation Transfer) methods for investigating tumor
-													acidosis. I am also involved in developing a customizable
-													workflow engine for archiving, sharing, and processing
-													medical images for preclinical imaging facilities through
-													the integration of an open source imaging informatics
-													platform (<a href="www.xnat.org" target="_blank">XNAT</a>)
-													with customized tools for automated image processing.</a>
-												</b>
-											</p>
-										</form>
-									</div>
-
-								</article>
-							</div>
-							<div class="4u 6u(mobile)">
-
-								<br>
-								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png"
-									class="w3-image" style="max-width: 250px;" />
-
-							</div>
-						</div>
-
-						<hr></hr>
+						
 
 						<div class="row">
 							<div class="8u 12u(mobile)">
@@ -369,56 +267,7 @@
 
 
 						<hr></hr>
-
-
-						<div class="row">
-							<div class="8u 12u(mobile)">
-
-
-								<!-- Excerpt -->
-								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg"
-										alt=""
-										style="width: 180px; height: auto; margin-bottom: 60px;"
-										class="image left" />
-									<div>
-										<header>
-											<h3 style="text-align:left">Daisy Villano</h3>
-											<span>Research Fellow</span>
-										</header>
-										<p style="line-height: 1.2">
-											M.Sc. in Biomedical Engineering, University of Naples Federico II,
-											Italy <br> Phone: +39 0116706499<br> E-mail: <a
-												href="mailto:daisy.villano@unito.it"><font color="#1e799f">daisy.villano@unito.it</font></a>
-										</p>
-									</div>
-
-									<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form>
-											<p align="justify">
-												<b> My project focuses on the development of novel
-													image-processing tools (mainly based on Matlab) for the
-													analysis of 3D CEST MRI images and their representation. My
-													research includes the development and the optimization of
-													MRI acquisition sequences. </b>
-											</p>
-										</form>
-									</div>
-
-								</article>
-							</div>
-							  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-						</div>
-
-						<hr></hr>
-
+						
 
 						<div class="row">
 							<div class="8u 12u(mobile)">
@@ -470,6 +319,142 @@
 
 
 						<hr></hr>
+						
+						
+						<div class="row">
+							<div class="8u 12u(mobile)">
+
+
+								<!-- Excerpt -->
+								<article class="box excerpt">
+									<img src="<?php echo $localizer; ?>PI/Longo/images/kranthi.jpg"
+										alt=""
+										style="width: 180px; height: auto; margin-bottom: 60px;"
+										class="image left" />
+									<div>
+										<header>
+											<h3 style="text-align:left">Kranthi Thej Kandula</h3>
+											<span>Research Fellow</span>
+										</header>
+										<p style="line-height: 1.2">
+											M.Sc. in Computer Science, University of Rome La Sapienza,
+											Italy <br> Phone: +39 0116706499<br> E-mail: <a
+												href="mailto:kranthi.kandula@unito.it"><font color="#1e799f">kranthi.kandula@unito.it</font></a>
+										</p>
+									</div>
+
+									<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form>
+											<p align="justify">
+												<b> My project focuses on implementing new tools within the XNAT platform for making medical image datasets findabale and searchable.</b>
+											</p>
+										</form>
+									</div>
+
+								</article>
+							</div>
+							  <div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+										<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/kranthi_wordcloud.png" class="w3-image" 
+									style="max-width: 250px;" /> -->
+									
+									</div>
+						</div>
+
+						<hr></hr>
+						
+						<div class="row">
+							<div class="8u 12u(mobile)">
+
+
+								<!-- Excerpt -->
+								<article class="box excerpt">
+									<img src="<?php echo $localizer; ?>PI/Longo/images/pirotta.jpg"
+										alt=""
+										style="width: 180px; height: auto; margin-bottom: 60px;"
+										class="image left" />
+									<div>
+										<header>
+											<h3 style="text-align:left">Elisa Pirotta</h3>
+											<span>Research Fellow</span>
+										</header>
+										<p style="line-height: 1.2">
+											M.Sc. in Molecular Biotechnology, University of Torino,
+											Italy <br> Phone: +39 0116706499<br> E-mail: <a
+												href="mailto:kranthi.kandula@unito.it"><font color="#1e799f">elisa.pirotta@unito.it</font></a>
+										</p>
+									</div>
+
+									<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form>
+											<p align="justify">
+												<b> My project focuses on investigating the role of proton transporters in the extracellular tumor acidification by exploiting novel imaging-based approaches. </b>
+											</p>
+										</form>
+									</div>
+
+								</article>
+							</div>
+							  <div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+										<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/pirotta_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />   -->
+									
+									</div>
+						</div>
+
+						<hr></hr>
+						
+						
+						<div class="row">
+							<div class="8u 12u(mobile)">
+
+
+								<!-- Excerpt -->
+								<article class="box excerpt">
+									<img src="<?php echo $localizer; ?>PI/Longo/images/gambino.jpg"
+										alt=""
+										style="width: 180px; height: auto; margin-bottom: 60px;"
+										class="image left" />
+									<div>
+										<header>
+											<h3 style="text-align:left">Riccardo Gambino</h3>
+											<span>Research Fellow</span>
+										</header>
+										<p style="line-height: 1.2">
+											M.Sc. in Biomedical Engineering, Politechnic of Torino,
+											Italy <br> Phone: +39 0116706499<br> E-mail: <a
+												href="mailto:riccardo.gambino@unito.it"><font color="#1e799f">riccardo.gambino@unito.it</font></a>
+										</p>
+									</div>
+
+									<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form>
+											<p align="justify">
+												<b> My project focuses on the development of novel
+													tools for uploading and processing medical image datasets for the XNAT platform. </b>
+											</p>
+										</form>
+									</div>
+
+								</article>
+							</div>
+							  <div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+									<!--		<img src="<?php echo $localizer; ?>PI/Longo/images/gambino_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" /> -->
+									
+									</div>
+						</div>
+
+						<hr></hr>
+						
 
 						<div class="row">
 							<div class="12u 12u(mobile)">
@@ -482,7 +467,7 @@
 												Biotechnologies</li>
 											<li><b>Giulia Caranta</b>, MSc student in Molecular
 												Biotechnologies</li>
-											<li><b>Elena Botto</b>, MSc student in Molecular
+											<li><b>Elena Botto</b>, MSc student in Industrial
 												Biotechnologies</li>
 
 										</ul>
@@ -526,6 +511,161 @@
 										<ul class="divided">
 
 
+										<div class="row">
+							<div class="8u 12u(mobile)">
+
+
+								<!-- Excerpt -->
+								<article class="box excerpt">
+									<img src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg"
+										alt=""
+										style="width: 180px; height: auto; margin-bottom: 60px;"
+										class="image left" />
+									<div>
+										<header>
+											<h3 style="text-align:left">Daisy Villano</h3>
+											<span>Now: Application Specialist at Olea Medical</span>
+										</header>
+										<p style="line-height: 1.2">
+											M.Sc. in Biomedical Engineering, University of Naples Federico II,
+											Italy <br> Phone: +39 0116706499<br> E-mail: <a
+												href="mailto:daisy.villano@unito.it"><font color="#1e799f">daisy.villano@unito.it</font></a>
+										</p>
+									</div>
+
+									<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form>
+											<p align="justify">
+												<b> My project focuses on the development of novel
+													image-processing tools (mainly based on Matlab) for the
+													analysis of 3D CEST MRI images and their representation. My
+													research includes the development and the optimization of
+													MRI acquisition sequences. </b>
+											</p>
+										</form>
+									</div>
+
+								</article>
+							</div>
+							  <div class="4u 6u(mobile)">
+									
+												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+											<img src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+									</div>
+						</div>
+
+						<hr></hr>
+													
+										
+										<div class="row">
+								<div class="8u 12u(mobile)">
+
+								<!-- Excerpt -->
+								<article class="box excerpt">
+									<img src="<?php echo $localizer; ?>PI/Longo/images/anemone.jpg"
+										alt=""
+										style="width: 180px; height: auto; margin-bottom: 100px;"
+										class="image left" />
+									<div>
+										<header>
+											<h3 style="text-align:left">Annasofia Anemone</h3>
+											<span>Now: Clinical Trial Assistant at IQVIA</span>
+										</header>
+										<p style="line-height: 1.2">
+										    Ph.D. in Biomolecular Sciences, University of Torino<br>
+											M.Sc. in Biotechnology, University of Torino<br> Phone: +39
+											0116706476<br> E-mail: <a
+												href="mailto:annasofiaantonia.anemone@unito.it"><font color="#1e799f">annasofiaantonia.anemone@unito.it</font></a>
+										</p>
+									</div>
+
+									<div class="showtext">
+										<div>My project focuses on ...</div>
+										<form>
+											<p align="justify">
+												<b>My project focuses on exploiting MRI-CEST pH imaging as a
+													non-invasive in vivo molecular imaging techniques to
+													investigate tumor acidosis in murine tumor models. I am
+													also interested in using this novel technique for assessing
+													treatment response to inhibitors of cancer metabolism and
+													to drugs targeting proton pumps. </b>
+											</p>
+										</form>
+									</div>
+
+								</article>
+							</div>
+							<div class="4u 6u(mobile)">
+
+								<br>
+								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png"
+									class="w3-image" style="max-width: 250px;" />
+
+							</div>
+						</div>
+										
+										<hr></hr>
+										
+										<div class="row">
+							<div class="8u 12u(mobile)">
+
+								<!-- Excerpt -->
+								<article class="box excerpt">
+									<img src="<?php echo $localizer; ?>PI/Longo/images/zullino.jpg"
+										alt=""
+										style="width: 180px; height: auto; margin-bottom: 140px;"
+										class="image left" />
+									<div>
+										<header>
+											<h3 style="text-align:left">Sara Zullino</h3>
+											<span>Now: project Manager at EATRIS</span>
+										</header>
+										<p style="line-height: 1.2">
+											Ph.D. in Complex Systems for Life Sciences, University of Torino<br>
+											M.Sc. in Biomedical Engineering, Sapienza University of Rome,
+											Italy <br> Phone: +39 0116706485<br> E-mail: <a
+												href="mailto:sara.zullino@unito.it"><font color="#1e799f">sara.zullino@unito.it</font></a>
+										</p>
+									</div>
+
+									<div class="showtext">
+										<div>My research aims at ...</div>
+										<form>
+											<p align="justify">
+												<b> My research aims at building novel Matlab and Python
+													based tools for processing preclinical MRI images, in
+													particular devoted to exploit MRI-CEST (Chemical Exchange
+													Saturation Transfer) methods for investigating tumor
+													acidosis. I am also involved in developing a customizable
+													workflow engine for archiving, sharing, and processing
+													medical images for preclinical imaging facilities through
+													the integration of an open source imaging informatics
+													platform with customized tools for automated image processing.
+												</b>
+											</p>
+										</form>
+									</div>
+
+								</article>
+							</div>
+							<div class="4u 6u(mobile)">
+
+								<br>
+								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png"
+									class="w3-image" style="max-width: 250px;" />
+
+							</div>
+						</div>
+
+						<hr></hr>
+										
 											<div class="row">
 												<div class="8u 12u(mobile)">
 
@@ -657,7 +797,7 @@
 														<div>
 															<header>
 																<h3>Chetan Dhakan</h3>
-																<span>Now: Postdoctoral Fellow at Vall d'Hebron Research Institute, Barcelona, Spain</span>
+																<span>Now: Postdoctoral Fellow at MD Anderson Cancer Center, Houston, Texas, USA</span>
 															</header>
 															<p style="line-height: 1.2">
 															Ph.D. in Biomolecular Sciences, University of Campania "Luigi Vanvitelli", Italy<br> 
@@ -686,13 +826,13 @@
 
 													</article>
 												</div>
-												<!-- 	<div class="4u 6u(mobile)">
+												 	<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 											<img src="<?php echo $localizer; ?>PI/Longo/images/dhakan_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
-									</div> -->
+									</div> 
 											</div>
 
 											<hr></hr>
@@ -853,7 +993,7 @@
 											<div>
 												<header>
 													<h3>Bhavna Rani</h3>
-													<span>Postdoctoral Fellow</span>
+													<span>Now: Postdoctoral Fellow at Uppsala University, Sweden</span>
 												</header>
 												<p style="line-height: 1.2">
 													Ph.D. in Surgical Experimental Sciences and Cellular
@@ -920,12 +1060,13 @@
 										<td><b>Noemi Salmistraro</b></td>
 										<td>2020</td>
 										<td>MSc in Molecular Biotechnologies</td>
+										<td>Research Fellow at IBFM-CNR, Milano</td>
 									</tr>
 									<tr>
 										<td><b>Martina Maltone</b></td>
 										<td>2020</td>
 										<td>MSc in Molecular Biotechnologies</td>
-										<td>Research Fellow at Mario Negri Institute, Milan</td>
+										<td>Research Fellow at Mario Negri Institute, Milano</td>
 									</tr>
 									<tr>
 										<td><b>Vittoria Ventura</b></td>

@@ -97,7 +97,9 @@
 												improving diagnosis and assessment of treatment effects with
 												a special focus on tumor metabolism and on antiangiogenic
 												drugs. Our studies also focus on assessing pH imaging
-												as a novel biomarker in cancer and in renal diseases.<br />
+												as a novel biomarker in cancer and in renal diseases.
+												In addition, we are interested in developing tools for improving the FAIRification 
+												(findable, accessible, interoperable, reusable) of medical image datasets within the Open Science concept.<br />
 												Our lab bridges theoretical and experimental aspects of
 												biological research, combining chemistry, biology and
 												medicine with in vitro and in vivo preclinical studies.
@@ -205,31 +207,40 @@
 								<h2 class="icon fa-file-text-o">Upcoming Events</h2>
 
 								<ul class="divided">
-																			
-									<li>
-									<div class="date-icon">												
-											<span class="month">August</span>
-											<h1 class="day">24-27</h1>
-										</div>											 
-									<a href="http://www.e-smi.eu/index.php?id=emim-2021" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>16th
-											European Molecular Imaging Meeting 2021</strong></a></li>
+												
 									<li>										
 									<div class="date-icon">												
 											<span class="month">May</span>
-											<h1 class="day">15-20</h1>
+											<h1 class="day">7-12</h1>
 										</div>
-									<a href="https://www.ismrm.org/21m/" style="vertical-align:middle; padding-left:10px" target="_blank">
-									<strong>ISMRM 2021 Annual Meeting</strong></a></li>
-											
+									<a href="https://www.ismrm.org/22m/" style="vertical-align:middle; padding-left:10px" target="_blank">
+									<strong>ISMRM 2022 Annual Meeting, London, England</strong></a></li>
+									
+									<li>
+									<div class="date-icon">												
+											<span class="month">March</span>
+											<h1 class="day">15-18</h1>
+										</div>											 
+									<a href="https://e-smi.eu/meetings/emim/emim-2022/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>17th
+											European Molecular Imaging Meeting 2022 - Thessaloniki, Greece</strong></a></li>
+
+									<li>
+									<div class="date-icon">												
+											<span class="month">August</span>
+											<h1 class="day">7-10</h1>
+										</div>											 
+									<a href="https://www.cestworkshop.org/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>CEST workshop 2022</strong></a></li>		
+									
 									<li>										
 									<div class="date-icon">												
-											<span class="month">September</span>
-											<h1 class="day">16-20</h1>
+											<span class="month">October</span>
+											<h1 class="day">5-8</h1>
 										</div>
 									<a href="https://www.wmis.org/news-room/other-molecular-imaging-conferences-meetings/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>World
-											Molecular Imaging Congress WMIC 2021</strong></a></li>									
+											Molecular Imaging Congress WMIC 2021</strong></a></li>		
+											
 								</ul>
-
+								
 							</section>
 							</div>
 							<div class="5u 12u(mobile)">
@@ -250,19 +261,33 @@
 											</li>
 											-->
 											
+											<li><b>New research article on tumor pH imaging for assessing breast metastatic potential published in </b>  
+											<a title="Open in a new window" class="http" href="https://pubmed.ncbi.nlm.nih.gov/33257841" target="_blank">							
+											<em><font color="blue">Brisith Journal of Cancer 2021; 124, 207.</font></em></a>
+											<br>
+											<video oncontextmenu="return false;" width="320" height="240" controls controlsList="nodownload" loop>
+  											<source src="<?php echo $localizer; ?>PI/Longo/images/pH_imaging_bjc.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+											</video>
+											<p>Video courtesy of <a href="https://www.nature.com/articles/s41416-020-01173-0" target="_blank">British Journal of Cancer</a>.</p>
+											
+											</li>
+											
+											
 											<li><b>New research article on a novel multislice sequence for 3D MRI-CEST pH imaging published in </b>  
 											<a title="Open in a new window" class="http" href="https://pubmed.ncbi.nlm.nih.gov/33031591" target="_blank">							
 											<em><font color="blue">Magnetic Resonance in Medicine 2021; 85:1335-1349.</font></em></a>
+											<br> <p><b>The multislice MRI-CEST sequence is freely available <a class="http" href="https://www.cim.unito.it/website/research/research_MRI_seq.php" target="_blank"> <em><font color="blue">here</font></em></a> </p> </b>
+											</li>
+											
+											<li><b>New research article on novel blood-pool CEST agents published in </b>  
+											<a title="Open in a new window" class="http" href="https://pubmed.ncbi.nlm.nih.gov/33764575/" target="_blank">							
+											<em><font color="blue">Magnetic Resonance in Medicine 2021; 86:995.</font></em></a>
 											</li>
 											
 											<li><b>New research article on a combined approach for evaluating renal perfusion and pH published in </b>  
 											<a title="Open in a new window" class="http" href="https://pubmed.ncbi.nlm.nih.gov/32153058" target="_blank">							
 											<em><font color="blue">NRM in Biomedicine, 2020, 33, e4287.</font></em></a>
-											</li>
-											
-											<li><b>New research article on a novel melanin-based probe for optoacoustic imaging published in </b>  
-											<a title="Open in a new window" class="http" href="https://www.mdpi.com/2076-3417/10/23/8313" target="_blank">							
-											<em><font color="blue">Applied Sciences 2020, 10, 8313.</font></em></a>
 											</li>
 											
 											<li><b>New review focussing on imaging tumor metabolism published in </b><a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/32133295" target="_blank">							
@@ -278,10 +303,10 @@
 											congratulations!</b>
 											</li> -->
 											
-											<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
-											<b>New book chapter in CEST imaging: </b>
-											<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">							
-											<em><font color="blue">"Iodinated Contrast Media as pH-Responsive CEST Agents" In: Chemical Exchange Saturation Transfer Imaging: Advances and Applications.</font></em></a>
+											<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:10px; margin-bottom:80px">
+											<b>New book chapters describing basic concepts, acquisition and analysis protocols in preclinical DCE-MRI and CEST pH imaging in kidneys. </b><br>
+											<a title="Open in a new window" class="http" href="https://link.springer.com/book/10.1007/978-1-0716-0978-1" target="_blank">							
+											<em><font color="blue"> Preclinical MRI of the kidney: Methods and Protocols.</font></em></a>
 											</li>
 
 
@@ -324,7 +349,7 @@
 	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
-
-
+   
+   
 </body>
 </html>
