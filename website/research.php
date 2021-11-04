@@ -81,7 +81,7 @@ $localizer = "./";
 											<div
 												class="w3-header"
 												style="height: 65px;">
-												<h13 style="text-transform: none;"> <font color="red">Gd-complexes</font>
+												<h13 style="text-transform: none;"> <font color="red">Gd-comple xes</font>
 												</h13>
 											</div> <img
 											src="<?php echo $localizer; ?>images/research/figure_research_Gdcomplex.jpg"

@@ -169,6 +169,24 @@ div.desc {
 
 				<h4 id='group'>Group Photo</h4>
 
+				
+				<div class="responsive">
+							<div class="gallery">
+
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/gallery/group_2021.jpg"
+									alt="Group 2021" width="600" height="auto"
+									title="From left to right: Dario, Daisy Villano, Sara Zullino, Elena Botto, Alessia Corrado, Giulia Caranta, Antonella Carella, Feriel Ramdhane, Elisa Pirotta, Kranthi Kandula."
+									
+									style="cursor: pointer" onclick="onClick(this)"
+									class="w3-hover-opacity">
+								<div class="desc"><b>Lab group 2021</b></div>
+							</div>
+						</div>
+				
+				<div class="clearfix"></div>
+				<br>
+				
 						<div class="responsive">
 							<div class="gallery">
 
@@ -222,11 +240,53 @@ div.desc {
 							</div>
 						</div>
 						
+						
 
 				<div class="clearfix"></div>
 				<br>
 
 					<h4 id='congress'>Congress Photo</h4>
+
+					
+					
+					
+					<div class="responsive">
+							<div class="gallery">
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_EMIM_2021.jpg"
+									alt="EMIM 2021" width="600" height="auto"
+									style="cursor: pointer" onclick="onClick(this)"
+									class="w3-hover-opacity">
+								<div class="desc"><b>European Molecular Imaging Meeting -EMIM 2021- Gottingen</b></div>
+							</div>
+						</div>
+						
+					<div class="responsive">
+							<div class="gallery">
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_renal_imaging_2021.jpg"
+									alt="Renal Imaging 2021" width="600" height="auto"
+									style="cursor: pointer" onclick="onClick(this)"
+									class="w3-hover-opacity">
+								<div class="desc"><b>4th International Renal Imaging meeting 2021 - Lisbon</b></div>
+							</div>
+						</div>
+					
+					
+					<div class="responsive">
+							<div class="gallery">
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_CEST_2020.jpg"
+									alt="CEST 2020" width="600" height="auto"
+									style="cursor: pointer" onclick="onClick(this)"
+									class="w3-hover-opacity">
+								<div class="desc"><b>virtual CEST workshop -      2020           </b></div>
+							</div>
+						</div>
+
+
+			<div class="clearfix"></div>
+			<br>
 
 						<div class="responsive">
 							<div class="gallery">
@@ -432,9 +492,46 @@ div.desc {
 						
 						<div class="responsive">
 							<div class="gallery">
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_IP_2010.jpg"
+									alt="IP 2010" width="600" height="auto"
+									style="cursor: pointer" onclick="onClick(this)"
+									class="w3-hover-opacity">
+								<div class="desc"><b>Intensive Programme "Imaging probes" 2010 - Torino</b></div>
+							</div>
+						</div>
+						
+						<div class="responsive">
+							<div class="gallery">
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_IP_2009.jpg"
+									alt="IP 2009" width="600" height="auto"
+									style="cursor: pointer" onclick="onClick(this)"
+									class="w3-hover-opacity">
+								<div class="desc"><b>Intensive Programme "Imaging probes" 2009 - Torino</b></div>
+							</div>
+						</div>		
+						
+						<div class="responsive">
+							<div class="gallery">
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_WMIC_2009.jpg"
+									alt="WMIC 2009" width="600" height="auto"
+									style="cursor: pointer" onclick="onClick(this)"
+									class="w3-hover-opacity">
+								<div class="desc"><b>World Molecular Imaging Congress WMIC 2009 - Montreal</b></div>
+							</div>
+						</div>
+						
+						
+		<div class="clearfix"></div>
+						<br>
+						
+		<div class="responsive">
+							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/Longo_GRC_2008.jpg"
+									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_GRC_2008.jpg"
 									alt="GRC 2008" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">

@@ -95,11 +95,11 @@
 							</ul>
 						
 							<article>
-							<p>Dario Longo is author of more than 60 papers in peer-reviewed journals and of four book chapters. <br>
+							<p>Dario Longo is author of more than 70 papers in peer-reviewed journals and of 11 book chapters. <br>
 							Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Dario+Longo" target="_blank"> <font color="blue"> PubMed </font></a>
 									 , <a title="Open in a new window" href="https://www.scopus.com/authid/detail.uri?authorId=8564616500" target="_blank"> <font color="blue"> Scopus</font></a>
-									 or at <a title="Open in a new window" href="https://scholar.google.it/citations?user=euGug2wAAAAJ&hl=en" target="_blank"> <font color="blue"> Google Scholar</font></a>.
+									 or at <a title="Open in a new window" href="https://scholar.google.it/citations?user=euGug2wAAAAJ&hl=it" target="_blank"> <font color="blue"> Google Scholar</font></a>.
 									</p>
 							
 								
@@ -113,16 +113,58 @@
 										
 										<h3 id='2021'>|2021</h3>
 										
-										<li>Villano, Daisy; Romdhane, Feriel; Irrera, Pietro; Consolino, Lorena; Anemone, Annasofia; Zaiss, Moritz; Dastru, Walter; <b>Longo, Dario Livio</b>							
+										<li>Martina Capozza, Annasofia Anemone, Chetan Dhakan, Melania Della Peruta, Martina Bracesco, Sara Zullino, Daisy Villano, Enzo Terreno, <b>Dario Livio Longo</b>, Silvio Aime.							
+										<i>&#34;GlucoCEST MRI for the Evaluation Response to Chemotherapeutic and Metabolic Treatments in a Murine Triple-Negative Breast Cancer: A Comparison with [18F]F-FDG-PET&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/34383241" target="_blank">
+										<font color="blue"> Molecular Imaging and Biology, 2021, in press  </font></a></li>
+										<br>
+										
+										<li>Annasofia Anemone, Martina Capozza, Francesca Arena, Sara Zullino, Paola Bardini, Enzo Terreno, <b>Dario Livio Longo</b>, Silvio Aime.							
+										<i>&#34;In vitro and in vivo comparison of the MRI glucoCEST properties between native glucose and 3OMG in a murine tumor model&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/34423470" target="_blank">
+										<font color="blue"> NMR in Biomedicine, 2021, in press </font></a></li>
+										<br>
+										
+										<li>Consolino, Lorena; Irrera, Pietro; Romdhane, Feriel; Anemone, Annasofia; <b>Longo, Dario Livio</b>.							
+										<i>&#34;Investigating plasma volume expanders as novel macromolecular MRI-CEST contrast agents for tumor contrast-enhanced imaging&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/33764575" target="_blank">
+										<font color="blue"> Magnetic Resonance in Medicine, 2021, 86, 995  </font></a></li>
+										<br>
+										
+										<li>Romdhane, Feriel; Villano, Daisy;  Irrera, Pietro; Consolino, Lorena; <b>Longo, Dario Livio</b>.							
+										<i>&#34;Evaluation of a similarity anisotropic diffusion denoising approach for improving in vivo CEST-MRI tumor pH imaging&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/33496986" target="_blank">
+										<font color="blue"> Magnetic Resonance in Medicine, 2021, 85, 3479  </font></a></li>
+										<br>
+										
+										<li>Villano, Daisy; Romdhane, Feriel; Irrera, Pietro; Consolino, Lorena; Anemone, Annasofia; Zaiss, Moritz; Dastru, Walter; <b>Longo, Dario Livio</b>.							
 										<i>&#34;A Fast Multislice Sequence for 3D MRI-CEST pH Imaging&#34; </i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/33031591" target="_blank">
 										<font color="blue"> Magnetic Resonance in Medicine, 2021, 85, 1335  </font></a></li>
 										<br>
 										
+										<li>Annasofia Anemone, Lorena Consolino, Laura Conti, Pietro Irrera, Myriam Hsu, Daisy Villano, Walter Dastrù, Paolo Porporato, Federica Cavallo, and <b>Dario Livio Longo</b>.							
+										<i>&#34;Tumour acidosis evaluated in vivo by MRI-CEST pH imaging reveals breast cancer metastatic potential&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/33257841" target="_blank">
+										<font color="blue"> British Journal of Cancer, 2021, 124, 207  </font></a></li>
+										<br>
+										
+										<li>Jason R. Swedlow, Pasi Kankaanpää, Ugis Sarkans, Wojtek Goscinski, Graham Galloway, Ryan P. Sullivan, Claire M. Brown, Chris Wood, Antje Keppler, Ben Loos, Sara Zullino, <b>Dario Livio Longo</b>, Silvio Aime, Shuichi Onami.							
+										<i>&#34;A Global View of Standards for Open Image Data Formats and Repositories&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/33948027" target="_blank">
+										<font color="blue"> Nature Methods, 2021, in press  </font></a></li>
+										<br>
+										
+										<li>Margherita Cortini, Andrea Armirotti, Marta Columbaro, <b>Dario Livio Longo</b>, Gemma Di Pompo, Elena Cannas, Alessandra Maresca, Costantino Errani, Alessandra Longhi, Alberto Righi, Valerio Carelli, Nicola Baldini, Sofia Avnet.							
+										<i>&#34;Exploring metabolic adaptations to the acid microenvironment of osteosarcoma unveils sphingosine 1-phosphate as a valuable therapeutic target&#34; </i> 
+										<a title="Open in a new window" class="http"	href="https://pubmed.ncbi.nlm.nih.gov/33467731/" target="_blank">
+										<font color="blue"> Cancers, 2021, 13, 311  </font></a></li>
+										<br>
+										
 										
 										<h3 id='2020'>|2020</h3>
 										
-										<li>Martina Capozza, Rachele Stefania, Luisa Rosas, Francesca Arena, Lorena Consolino, Annasofia Anemone, James Cimino, <b>Dario Livio Longo</b> and Silvio Aime							
+										<li>Martina Capozza, Rachele Stefania, Luisa Rosas, Francesca Arena, Lorena Consolino, Annasofia Anemone, James Cimino, <b>Dario Livio Longo</b> and Silvio Aime.							
 										<i>&#34;An Improved Biocompatible Probe for Photoacoustic Tumor Imaging Based on the Conjugation of Melanin to Bovine Serum Albumin&#34; </i> 
 										<a title="Open in a new window" class="http"	href="https://www.mdpi.com/2076-3417/10/23/8313" target="_blank">
 										<font color="blue"> Applied Sciences 2020, 10, 8313  </font></a></li>
@@ -221,8 +263,8 @@
 																			
 										<li>Wyart E, Reano S, Hsu MY, <b>Longo DL</b>, Li M, Hirsch E, Filigheddu N, Ghigo A, Riganti C, Porporato PE.							
 										<i>&#34;Metabolic Alterations in a Slow-Paced Model of Pancreatic Cancer-Induced Wasting&#34; </i> 
-										<a title="Open in a new window" class="http"	href="#">
-										<font color="blue"> Oxidative Medicine and Cellular Longevity 2018, in press </font></a></li>
+										<a title="Open in a new window" class="http"	href="https://pubmed.ncbi.nlm.nih.gov/29682162/">
+										<font color="blue"> Oxidative Medicine and Cellular Longevity 2018, 6419805  </font></a></li>
 										<br>
 										
 										<li>Arena F, Irrera P, Consolino L, Colombo Serra S, Zaiss M, <b>Longo DL</b>.							
@@ -258,7 +300,7 @@
 										<font color="blue"> NMR Biomed. 2017, 30, e3720 </font></a></li>
 										<br>
 										
-										<li>Fagoonee S, Picco G, Orso F, Arrigoni A, <b>Longo DL</b>, Forni M, ScarfÃ² I, Cassenti A, Piva R, Cassoni P, Silengo L, Tolosano E, Aime S, Taverna D, Pandolfi PP, Brancaccio M, Medico E, Altruda F. 
+										<li>Fagoonee S, Picco G, Orso F, Arrigoni A, <b>Longo DL</b>, Forni M, Scarfa I, Cassenti A, Piva R, Cassoni P, Silengo L, Tolosano E, Aime S, Taverna D, Pandolfi PP, Brancaccio M, Medico E, Altruda F. 
 										<i>&#34;The RNA-binding protein ESRP1 promotes human colorectal cancer progression&#34;</i> 
 										<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pubmed/28052020" target="_blank">
 										<font color="blue"> Oncotarget. 2017, 8, 10007 </font></a></li>
@@ -297,7 +339,7 @@
 										<br>
 									
 										<li><b>Longo DL</b>, Arena F, Consolino L, Minazzi P, Geninatti-Crich S, Giovenzana GB, Aime S.							
-										<i>&#34;Gd-AAZTA-MADEC, an improved blood pool agent for DCE-MRI studies on mice on 1Â T scanners&#34;</i> 
+										<i>&#34;Gd-AAZTA-MADEC, an improved blood pool agent for DCE-MRI studies on mice on 1T scanners&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/26480471" target="_blank">
 										<font color="blue"> Biomaterials. 2016 , 75, 47 </font></a></li>
 										<br>
@@ -323,19 +365,19 @@
 										<br>
 										
 										<li>Wu R, <b>Longo DL</b>, Aime S, Sun PZ.							
-										<i>&#34;uantitative description of radiofrequency (RF) power-based ratiometric chemical exchange saturation transfer (CEST) pH imaging&#34;</i> 
+										<i>&#34;Quantitative description of radiofrequency (RF) power-based ratiometric chemical exchange saturation transfer (CEST) pH imaging&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/25807919" target="_blank">
 										<font color="blue"> NMR Biomed. 2015, 28, 555 </font></a></li>
 										<br>
 										
-										<li>Voena C, Menotti M, Mastini C, Di Giacomo F, <b>Longo DL</b>, Castella B, Merlo MEB, Ambrogio C, Wang Q, Minero VG, Poggio T, Martinengo C, D'Amico L, Panizza E, Mologni L, Cavallo F, Altruda F, Butaney M, Capelletti M, Inghirami G, JÃ¤nne PA, Chiarle R.							
+										<li>Voena C, Menotti M, Mastini C, Di Giacomo F, <b>Longo DL</b>, Castella B, Merlo MEB, Ambrogio C, Wang Q, Minero VG, Poggio T, Martinengo C, D'Amico L, Panizza E, Mologni L, Cavallo F, Altruda F, Butaney M, Capelletti M, Inghirami G, Janne PA, Chiarle R.							
 										<i>&#34;Efficacy of a Cancer Vaccine against ALK-Rearranged Lung Tumors&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/26419961" target="_blank">
 										<font color="blue"> Cancer Immunol Res. 2015, 3, 1333 </font></a></li>
 										<br>
 										
 										<li>Braccini L, Ciraolo E, Campa CC, Perino A, <b>Longo DL</b>, Tibolla G, Pregnolato M, Cao Y, Tassone B, Damilano F, Laffargue M, Calautti E, Falasca M, Norata GD, Backer JM, Hirsch E.							
-										<i>&#34;PI3K-C2Î³ is a Rab5 effector selectively controlling endosomal Akt2 activation downstream of insulin signalling&#34;</i> 
+										<i>&#34;PI3K-C2y is a Rab5 effector selectively controlling endosomal Akt2 activation downstream of insulin signalling&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/26100075" target="_blank">
 										<font color="blue"> Nat Commun. 2015, 23, 7400 </font></a></li>
 										<br>
@@ -356,8 +398,8 @@
 										<font color="blue"> J Am Chem Soc. 2014, 136, 14333 </font></a></li>
 										<br>
 										
-										<li>Perino A, Beretta M, KiliÄ‡ A, Ghigo A, Carnevale D, Repetto IE, Braccini L, <b>Longo DL</b>, Liebig-Gonglach M, Zaglia T, Iacobucci R, Mongillo M, Wetzker R, Bauer M, Aime S, Vercelli A, Lembo G, Pfeifer A, Hirsch E.							
-										<i>&#34;Combined inhibition of PI3KÎ² and PI3KÎ³ reduces fat mass by enhancing Î±-MSH-dependent sympathetic drive&#34;</i> 
+										<li>Perino A, Beretta M, Kili A, Ghigo A, Carnevale D, Repetto IE, Braccini L, <b>Longo DL</b>, Liebig-Gonglach M, Zaglia T, Iacobucci R, Mongillo M, Wetzker R, Bauer M, Aime S, Vercelli A, Lembo G, Pfeifer A, Hirsch E.							
+										<i>&#34;Combined inhibition of PI3Kbeta and PI3Kgamma reduces fat mass by enhancing alpha-MSH-dependent sympathetic drive&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/25406378" target="_blank">
 										<font color="blue"> Sci Signal. 2014, 7, ra110 </font></a></li>
 										<br>
@@ -467,7 +509,7 @@
 										<font color="blue"> Contrast Media Mol Imaging. 2010, 5, 213 </font></a></li>
 										<br>
 								
-										<li>de Leva MF, Filla A, Criscuolo C, Tessa A, PappatÃ  S, Quarantelli M, Bilo L, Peluso S, Antenora A, <b>Longo DL</b>, Santorelli FM, De Michele G.							
+										<li>de Leva MF, Filla A, Criscuolo C, Tessa A, Pappata S, Quarantelli M, Bilo L, Peluso S, Antenora A, <b>Longo DL</b>, Santorelli FM, De Michele G.							
 										<i>&#34;Complex phenotype in an Italian family with a novel mutation in SPG3A&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/19768483" target="_blank">
 										<font color="blue"> J Neurol. 2010, 257, 328 </font></a></li>
@@ -487,7 +529,7 @@
 										<font color="blue"> Contrast Media Mol Imaging. 2009, 4, 237 </font></a></li>
 										<br>
 										
-										<li>Francalanci F, Avolio M, De Luca E, <b>Longo DL</b>, Menchise V, Guazzi P, SgrÃ² F, Marino M, Goitre L, Balzac F, Trabalzini L, Retta SF.							
+										<li>Francalanci F, Avolio M, De Luca E, <b>Longo DL</b>, Menchise V, Guazzi P, Sgro F, Marino M, Goitre L, Balzac F, Trabalzini L, Retta SF.							
 										<i>&#34;Structural and functional differences between KRIT1A and KRIT1B isoforms: a framework for understanding CCM pathogenesis&#34;</i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/18992740" target="_blank">
 										<font color="blue"> Exp Cell Res. 2009, 315, 285 </font></a></li>
@@ -566,31 +608,80 @@
 									<h2 id='bookchapters' class="icon fa-file-text-o">Book Chapters</h2>
 								
 								<ul class="divided">
-																		
-									<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="100px" style="margin-right:20px">
-									<b>Longo DL</b>, Aime S. (2017)							
-										<i>Iodinated Contrast Media as pH-Responsive CEST Agents (Chapter 19, pp 447-466)</i><br><br>In:
+														
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:80px">
+										Pohlmann A, Back SJ, Fekete A, Friedli I, Hectors S, Jerome NP, Ku MC, <b>Longo DL</b>, Meier M, Millward JM, Periquito JS, Seeliger E, Serai SD, Waiczies S, Sourbron S, Laustsen C, Niendorf T. (2021)							
+										<i><font color="black">Recommendations for Preclinical Renal MRI: A Comprehensive Open-Access Protocol Collection to Improve Training, Reproducibility, and Comparability of Studies.</font> (Chapter 1, pp 3-23)</i><br><br>In:
+										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_1" target="_blank">
+										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
+										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
+										
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										Pedersen M, Irrera P, Dastru W, Zollner FG, Bennett KM, Beeman SC, Bretthorst GL, Garbow JR, <b>Longo DL</b>. (2021)							
+										<i><font color="black">Dynamic Contrast Enhancement (DCE) MRI-Derived Renal Perfusion and Filtration: Basic Concepts.</font> (Chapter 12, pp 205-227)</i><br><br>In:
+										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_12" target="_blank">
+										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
+										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
+										
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										<b>Longo DL</b>, Irrera P, Consolino L, Sun PZ, McMahon MT. (2021)							
+										<i><font color="black">Renal pH Imaging Using Chemical Exchange Saturation Transfer (CEST) MRI: Basic Concept.</font> (Chapter 14, pp 241-256)</i><br><br>In:
+										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_14" target="_blank">
+										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
+										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>
+										
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										Irrera P, Consolino L, Dastru W, Pedersen M, Zollner FG, <b>Longo DL</b>. (2021)							
+										<i><font color="black">Dynamic Contrast Enhanced (DCE) MRI-Derived Renal Perfusion and Filtration: Experimental Protocol.</font> (Chapter 25, pp 429-441)</i><br><br>In:
+										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_25" target="_blank">
+										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
+										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
+										
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										Pavuluri KD, Consolino L, <b>Longo DL</b>, Irrera P, Sun PZ, McMahon MT. (2021)							
+										<i><font color="black">Renal pH Mapping Using Chemical Exchange Saturation Transfer (CEST) MRI: Experimental Protocol.</font> (Chapter 27, pp 455-471)</i><br><br>In:
+										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_27" target="_blank">
+										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
+										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
+										
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										Zollner FG, Dastru W, Irrera P, <b>Longo DL</b>, Bennett KM, Beeman SC, Bretthorst GL, Garbow JR. (2021)							
+										<i><font color="black">Analysis Protocol for Dynamic Contrast Enhanced (DCE) MRI of Renal Perfusion and Filtration.</font> (Chapter 38, pp 637-653)</i><br><br>In:
+										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_38" target="_blank">
+										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
+										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>
+										
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										Kim H, Wu Y, Villano D, <b>Longo DL</b>, McMahon MT, Sun PZ. (2021)							
+										<i><font color="black">Protocol for the Quantification of Renal pH Using Chemical Exchange Saturation Transfer (CEST) MRI.</font> (Chapter 40, pp 667-688)</i><br><br>In:
+										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_40" target="_blank">
+										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
+										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
+										
+										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="100px" style="margin-right:20px">
+										<b>Longo DL</b>, Aime S. (2017)							
+										<i><font color="black">Iodinated Contrast Media as pH-Responsive CEST Agents.</font> (Chapter 19, pp 447-466)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">
 										<font color="blue"> Chemical Exchange Saturation Transfer Imaging: Advances and Applications </font></a> 
 										(eds. M.T. McMahon, A.A. Gilad, J.W.M. Bulte, P.C.M. van Zijl) Singapore: Pan Stanford Publishing</li><br>
 										
 										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_beckmann2.jpg" align="left" height="100px" style="margin-right:20px">
-										Aime S,<b>Longo DL.</b>,  (2013)							
-										<i>Recent Developments of Contrast Agents, CEST and Low Fields (Chapter 6, pp. 184-201)</i><br><br>In:
+										Aime S,<b> Longo DL.</b> (2013)							
+										<i><font color="black">Recent Developments of Contrast Agents, CEST and Low Fields.</font> (Chapter 6, pp. 184-201)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="http://pubs.rsc.org/en/content/chapter/bk9781849734448-00184/978-1-84973-444-8" target="_blank">
 										<font color="blue"> New Applications of NMR in Drug Discovery and Development. Series: New Developments in NMR Vol. 2   </font></a> 
 										(eds. L. Garrido and N. Beckmann) CAMBRIDGE: Royal Society of Chemistry (UK)</li><br>
 										
 										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_vanderlinden.jpg" align="left" height="100px" style="margin-right:20px">
 										Van der Linden A, Van Meir V, <b>Longo DL</b>, Aime S. (2012)							
-										<i>Contrast agents, relaxation, in vivo calcium imaging (Chapter 1,  pp.79-132)</i><br>In:
+										<i><font color="black">Contrast agents, relaxation, in vivo calcium imaging.</font> (Chapter 1,  pp.79-132)</i><br>In:
 										<a title="Open in a new window" class="http" href="http://www.springer.com/la/book/9781461417873" target="_blank">
 										<font color="blue"> Neural Metabolism in vivo. Series: Advances in Neurobiology Vol. 4  </font></a> 
-										(eds. R. Gruetter and I.-Y. Choi) NEW YORK: SpringerVerlag GMBH (USA)</li><br><br>
+										(eds. R. Gruetter and I.-Y. Choi) NEW YORK: SpringerVerlag GMBH (USA)</li><br>
 										
 										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_beckmann1.jpg" align="left" height="100px" style="margin-right:20px">
 										Aime S, Giovenzana GB, <b>Longo DL</b>, Terreno E. (2006)							
-										<i>Design of Contrast Agents for Molecular Imaging In Vivo (vol. 4, pp. 47-72)</i><br>In:
+										<i><font color="black">Design of Contrast Agents for Molecular Imaging In Vivo.</font> (vol. 4, pp. 47-72)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://www.crcpress.com/In-Vivo-MR-Techniques-in-Drug-Discovery-and-Development/Beckman/p/book/9780849330261" target="_blank">
 										<font color="blue"> In Vivo MR Techniques in Drug Discovery and Development </font></a> 
 										(ed. N. Beckmann) NEW YORK: Taylor & Francis (UNITED STATES)</li><br>

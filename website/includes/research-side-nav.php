@@ -52,7 +52,7 @@ echo "
 						<a href='" . $localizer . "research/research_angiogenesis.php'>Tumor angiogenesis</a>
 					</dt>					
 					<dt id='section1-subsection14' class='subsection_link sidebar-indent'>
-						<a href='" . $localizer . "research/research_acidosis.php'>Tumor acidosis</a
+						<a href='" . $localizer . "research/research_acidosis.php'>Tumor acidosis</a>
 					</dt>
                     <dt id='section1-subsection15' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_metabolism.php'>Tumor metabolism</a>
@@ -88,7 +88,7 @@ echo "
 					<dt id='section1-subsection25' class='subsection_link sidebar-indent'>
 						<a href='" . $localizer . "research/research_CCS_fMRI.php'>Research topics</a>
 					</dt> 
-
+                    <dd></dd>
 				</dl>
 			</div>
 		</div>
