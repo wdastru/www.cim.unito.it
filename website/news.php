@@ -42,7 +42,34 @@
 					<div class='paddingInner'>
 					    
 					    
-					    <div class="row" id="#Glint">
+					    <div class="row" id="#PrimoGAIA">
+					    	<a name="PrimoGAIA"></a>
+							<div class="w3-col w3-quarter">
+
+								<img src="news/primoGAIA-logo.png" class="w3-image"
+									style="max-width: 200px;" />
+							</div>
+
+							<div class="w3-col w3-threequarter">
+								<h2 style="color:#8c1515; text-align:left;">Partecipation to H2020 PrimoGAIA project</h2>
+								<p>Magnetic resonance imaging (MRI) is a non-invasive technology that generates high-resolution 
+								images of tissues and organs. Since its first use on a human being over 40 years ago, it 
+								has become instrumental in the diagnosis and monitoring of disease and injury. Functional MRI, 
+								invented in 1991, is based on the same principles but images metabolic activity indirectly via 
+								changes in blood flow. Its use has led to remarkable discoveries in biomedical research. 
+								Now, PRIMOGAIA is exploiting MRI technology to map and quantify enzyme activity in pathological 
+								tissue. Enzymes play critical roles in cellular metabolism and are already valuable biomarkers 
+								of pathology in blood tests. Now, their high-resolution spatial localisation in tissues will 
+								significantly enhance disease detection and monitoring. PrimoGaia brings together an interdisciplinary 
+								consortium of research teams from 4 academics: Aix-Marseille University, U Mons, U Torino (reagents), 
+								CNRS Bordeaux (EPR unit, sequences, biology); Fraunhofer (Physics) and 2 companies: "Stelar" 
+								(magnetic unit) and "Pure Devices" an innovative SME (MRI instrumentation).</p>
+							</div>
+						</div>
+					    
+					    <hr>
+					    
+						<div class="row" id="#Glint">
 					    	<a name="GLINT"></a>
 							<div class="w3-col w3-quarter">
 
@@ -52,38 +79,56 @@
 
 							<div class="w3-col w3-threequarter">
 								<h2 style="color:#8c1515; text-align:left;">Partecipation to H2020 GLINT project</h2>
-								<p>TomoWave Laboratories is dedicated to bring imaging
-									technologies based on combination of light and sound into
-									healthcare practice worldwide. Our team of scientists is
-									dedicated to inventing new medical imaging modalities, while
-									our engineers are experts in realizing the visions of our
-									researchers by creating advanced medical imaging, sensing and
-									therapy-monitoring systems.</p>
+								<p>The Horizon 2020 project GLINT aims to develop a potentially disruptive new 
+								diagnostic tool and a set of technologies for cancer imaging which will allow for 
+								earlier, more accurate and more reliable cancer diagnosis.
+								Cancer is one of the most devastating diseases the world is currently facing. 
+								It is usually detected through advanced medical imaging, and early detection remains 
+								a decisive factor for increasing the chances of survival and the potential for full 
+								recovery. The GLINT project addresses the current global lack of safe, cheap, easily 
+								accessible and accurate image-based metabolic evaluation techniques to detect cancer 
+								and will develop an innovative diagnostic tool and a set of technologies for in vivo 
+								cancer imaging which can characterise and image glucose delivery, uptake and metabolism 
+								in cancer. Once the GLINT project is successful, patients will be able to benefit from 
+								a non-invasive, radiation-free method for cancer assessment.
 							</div>
 						</div>
-					    
-					    <hr>
-					    
-					    <div class="row" id="#Identify">
-					    	<a name="Identify"></a>
-							<div class="w3-col w3-quarter">
 
-								<img src="news/Identify_logo.jpg" class="w3-image"
-									style="max-width: 200px;" />
+						<hr>
+
+							<div
+								class="row"
+								id="#Identify">
+								<a name="Identify"></a>
+								<div class="w3-col w3-quarter">
+
+									<img
+										src="news/Identify_logo.jpg"
+										class="w3-image"
+										style="max-width: 200px;" />
+								</div>
+
+								<div class="w3-col w3-threequarter">
+									<h2 style="color: #8c1515; text-align: left;">Partecipation to
+										H2020 Identify project</h2>
+									<p>
+										The main objectives of the IDentIFY project are to:
+										<ul>
+											<li>Build upon and improve upon existing FFC technology to
+												extend its range of clinical applications</li>
+											<li>Develop the theory of NMR relaxation in tissue at
+												ultra-low fields in order to build models and identify new
+												disease biomarkers</li>
+											<li>Design new image acquisition techniques that exploit the
+												unique diagnostic information offered by FFC-MRI</li>
+											<li>Test FFC-MRI methods on tissue samples from surgery and
+												tissue samples</li>
+											<li>Demonstrate proof-of-principal scans on patients</li>
+										</ul>
+									</p>
+								</div>
 							</div>
 
-							<div class="w3-col w3-threequarter">
-								<h2 style="color:#8c1515; text-align:left;">Partecipation to H2020 Identify project</h2>
-								<p>TomoWave Laboratories is dedicated to bring imaging
-									technologies based on combination of light and sound into
-									healthcare practice worldwide. Our team of scientists is
-									dedicated to inventing new medical imaging modalities, while
-									our engineers are experts in realizing the visions of our
-									researchers by creating advanced medical imaging, sensing and
-									therapy-monitoring systems.</p>
-							</div>
-						</div>
-						
 						<hr>
 						
 						<div class="row" id="#Eurobioimaging">

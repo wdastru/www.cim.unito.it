@@ -374,17 +374,16 @@ header('Content-Type: text/html;charset=UTF-8');
 										<div>
 											<img
 												style="width: 70%"
-												src="news/Identify_logo.jpg"
-												alt="Identify logo"> <br /> <span>CIM partecipates to the
+												src="news/primoGAIA-logo.png"
+												alt="Primo GAIA logo"> <br /> <span>CIM partecipates to the
 												H2020 project <a
-												href="http://www.identify-project.eu/"
-												target="_blank"><span class='paperTitle'>IDENTIFY</span></a>
-												aimed to bring Fast Field-Cycling MRI (FFC-MRI) to the stage
-												where it can be used as a routine tool for clinical
-												diagnosis.
+												href="http://http://www.primogaia.eu/"
+												target="_blank"><span class='paperTitle'>Primo GAIA</span></a>
+												Prepolarized MRI at Earth Field to seek new contrasts linked 
+												to molecular events for very early detection of pathologies
 											</span>
 											<p style="text-align: right; color: blue; font-size: 100%">
-												<a href="news.php#Identify"> <b>Read more &#8594;</b></a>
+												<a href="news.php#PrimoGAIA"> <b>Read more &#8594;</b></a>
 											</p>
 
 										</div>
