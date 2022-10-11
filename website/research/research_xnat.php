@@ -46,7 +46,7 @@ $localizer = "../";
 								target="_blank"
 								style="color: #dc6a10">XNAT</a> service for archiving and
 							processing preclinical medical images is available at <a
-								href="http://cim-xnat.unito.it/app/template/Login.vm"
+								href="http://eubi-xnat.hpc4ai.unito.it"
 								target="_blank"
 								style="color: #dc6a10">http://cim-xnat.unito.it</a>. <br />
 							Small animal imaging facilities are highly specialized centers
