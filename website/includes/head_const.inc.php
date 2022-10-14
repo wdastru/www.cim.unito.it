@@ -22,6 +22,17 @@ echo "
         
       ga('create', 'UA-42991693-1', 'unito.it');
       ga('send', 'pageview');
-    </script>";
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-MP6S1QL319'></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MP6S1QL319');
+    </script>
+";
         
 ?>
