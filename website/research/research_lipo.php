@@ -11,7 +11,7 @@ $localizer = "./";
         <title>Molecular Imaging Center - University of Torino - Liposomes</title>
     </head>
     <body>
-        <?php require_once($localizer . 'includes/analyticstracking.php')
+
         ?>
         <div id='section1'>
             <?php

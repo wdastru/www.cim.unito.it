@@ -12,7 +12,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="<?php echo $localizer;?>/COST/cost.css" rel='stylesheet' type='text/css'></link>
     </head>
     <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+
         <div id='section5'>
             <?php
             require ($localizer . 'includes/main-nav.php');

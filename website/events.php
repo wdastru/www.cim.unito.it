@@ -12,7 +12,7 @@
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 </head>
 <body>
-<?php //require_once($localizer . 'includes/analyticstracking.php') ?>
+
 	<div id='section2'>
 	<?php require('includes/main-nav.php'); ?>
 		<div id='header'></div>

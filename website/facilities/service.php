@@ -140,7 +140,7 @@
         <link href="<?php echo $localizer; ?>facilities/facilities.css" rel='stylesheet' type='text/css' />        
         </head>
     <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+
         <div id='section3'>
             <?php
             require ($localizer . 'includes/main-nav.php');

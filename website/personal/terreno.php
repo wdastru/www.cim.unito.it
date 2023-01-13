@@ -12,7 +12,7 @@ $localizer = "../";
 		
 		</head>
 	<body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+
 		<div id='section0'>
 			<?php
 			require ($localizer . 'includes/main-nav.php');

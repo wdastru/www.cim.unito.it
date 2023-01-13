@@ -7,7 +7,7 @@
 		<title>Molecular Imaging Center - University of Torino - Where we are</title>
         </head>
     <body>
-<?php //require_once($localizer . 'includes/analyticstracking.php') ?>
+
         <div id='section0'>
             <?php
             require ('includes/main-nav.php');

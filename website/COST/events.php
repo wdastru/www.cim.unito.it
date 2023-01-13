@@ -20,7 +20,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                 
     </head>
     <body>
-<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+
         <div id='section5'>
             <?php
             require ($localizer . 'includes/main-nav.php');
