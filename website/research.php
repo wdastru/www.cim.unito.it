@@ -186,7 +186,7 @@ $localizer = "./";
 											class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
 											class="PIname"> Terreno</span>
 										</a>
 									</div>
@@ -246,7 +246,7 @@ $localizer = "./";
 											class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
 											class="PIname"> Terreno, </span>
 										</a> <a
 											title="Opens in new window"
@@ -280,7 +280,7 @@ $localizer = "./";
 											class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
 											class="PIname"> Terreno, </span>
 										</a> <a
 											title="Opens in new window"
@@ -321,7 +321,7 @@ $localizer = "./";
 											class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
 											class="PIname"> Terreno, </span>
 										</a> <a
 											title="Opens in new window"
@@ -415,7 +415,7 @@ $localizer = "./";
 												alt="Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell"class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
 												class="PIname">Terreno, </span>
 										</a> <a
 											title="Opens in new window"
@@ -559,7 +559,7 @@ $localizer = "./";
 											class="w3-image-left"></img>
 										</a> <span class="PIname">PI: </span> <a
 											title="Opens in new window"
-											href="<?php echo $localizer; ?>PI/Terreno/home.html"> <span
+											href="<?php echo $localizer; ?>PI/Terreno/home.php"> <span
 											class="PIname"> Terreno, </span>
 										</a> <a
 											title="Opens in new window"

@@ -44,7 +44,7 @@
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Institute of Biostructure and Bioimaging<br>
 								National Research Council of Italy<br>
-								<a href="../PI/Terreno/home.html" target="_blank" style="color:#dc6a10">
+								<a href="../PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
 								Terreno Lab</a>
 								</b></p>
 									

@@ -147,14 +147,14 @@ $localizer = "../../";
 										<h4 align="center">Hyperpolarized Probes</h4>
 									</header>
 									<a
-										href="<?php echo $localizer; ?>PI/Reineri/hyperpolarized_probes.php">
+										href="<?php echo $localizer; ?>PI/Reineri/research_hyperpolarized_probes.php">
 										<img
 											src="<?php echo $localizer; ?>PI/Reineri/images/hyperpolarized_probes.jpg"
 											alt=""
 											class="image featured" />
 									</a>
 									<a
-										href="<?php echo $localizer; ?>PI/Reineri/hyperpolarized_probes.php">
+										href="<?php echo $localizer; ?>PI/research_Reineri/hyperpolarized_probes.php">
 										<font color="blue">Read more >></font>
 									</a>
 								</section>
@@ -165,14 +165,14 @@ $localizer = "../../";
 										<h4 align="center">Imaging Metabolism</h4>
 									</header>
 									<a
-										href="<?php echo $localizer; ?>PI/Reineri/imaging_metabolism.php">
+										href="<?php echo $localizer; ?>PI/Reineri/research_imaging_metabolism.php">
 										<img
 											src="<?php echo $localizer; ?>PI/Reineri/images/imaging_metabolism.jpg"
 											alt=""
 											class="image featured" />
 									</a>
 									<a
-										href="<?php echo $localizer; ?>PI/Reineri/imaging_metabolism.php">
+										href="<?php echo $localizer; ?>PI/Reineri/research_imaging_metabolism.php">
 										<font color="blue">Read more >></font>
 									</a>
 								</section>
