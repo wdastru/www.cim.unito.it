@@ -154,7 +154,7 @@ $localizer = "../../";
 											class="image featured" />
 									</a>
 									<a
-										href="<?php echo $localizer; ?>PI/research_Reineri/hyperpolarized_probes.php">
+										href="<?php echo $localizer; ?>PI/Reineri/research_hyperpolarized_probes.php">
 										<font color="blue">Read more >></font>
 									</a>
 								</section>
@@ -268,9 +268,9 @@ $localizer = "../../";
 												visit <a
 													title="Open in a new window"
 													class="http"
-													href="www.zulf.com"
+													href="https://zulf.eu/"
 													target="_blank">
-													<em><font color="blue">www.zulf.com</font></em>
+													<em><font color="blue">https://zulf.eu</font></em>
 										
 										</b>
 										</a> </b></li>

@@ -61,8 +61,7 @@ $localizer = "../";
 							
 							<li><b>Dynamic Contrast Enhanced Optoacoustic Imaging</b>
                                     <p class="indent">
-									We are exploring also macromolecular biodegradable <a href="research_optoacoustic.php" style="color:#dc6a10">optoacoustic probes</a> based on the natural plaftorm of melanin, to provide tumor vasculature
-									information by means of photoacoustic imaging.
+									We are exploring also macromolecular biodegradable <a href="research_photoacoustic.php" style="color:#dc6a10">photoacoustic probes</a> based on the natural plaftorm of melanin, to provide tumor vasculature information by means of photoacoustic imaging.
 							        </p></li>
                             </ul>
 							
