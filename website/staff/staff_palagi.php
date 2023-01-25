@@ -41,8 +41,8 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorenzo Palagi</h1>
-								<p style="text-align:left;"><b>PhD Student<br />
-								Department of Molecular Biotechnology and Health Sciences<br />
+								<p style="text-align:left;"><b>PhD Student<br>
+								Department of Molecular Biotechnology and Health Sciences<br>
 								<a href="../PI/Gianolio/home.html" target="_blank" style="color:#dc6a10">
 								 Gianolio Lab</a>
 								</b></p>
@@ -82,7 +82,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116709538<br /> 
+					Phone: +390116709538<br> 
 					E-mail: <a href="mailto:lorenzo.palagi@unito.it"><span style="color:#007c92">lorenzo.palagi@unito.it</span></a></p>
 					
 					</div>
@@ -107,7 +107,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

@@ -37,16 +37,16 @@ $localizer = "../";
 								<li>analytes of interest for food analysis.</li>
 							</ul>
                                 
-                                <br />
+                                <br>
                                 Nano- and micro-sized systems are currently proposed as amplification systems for improving the sensitivity of 
                                 analytical tools. Liposomes, RBCs-derived systems, mesoporous silica nanoparticles are examples of available systems.
-								<br />These systems are properly designed in order to contain highly sensitive reporter agents 
+								<br>These systems are properly designed in order to contain highly sensitive reporter agents 
 								(e.g. chromophores/fluorescent molecules, photoacoustic-active probes or paramagnetic NMR-detectable molecules) 
 								and to be responsive to the bio-analyte of interest.
-								<br />
-								<br />
+								<br>
+								<br>
 								Our current projects include:
-								<br />
+								<br>
 							<ul>
 								<li>Detection of MMP-2 activity in biological fluids (e.g.
 									plasma) by using enzyme-responsive LipoCEST agents for MRI.</li>
@@ -85,7 +85,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -72,15 +72,15 @@
 				</div> <!-- end of slidingBannerWrapper -->
 				<div id='addMessageBox' style='visibility: hidden'>
 					<div id='addMessageBoxTitle'>Aggiungi un nuovo messaggio</div>
-					<br />
+					<br>
 					<form method='post' id='addMessageForm' action='" . $relocate_string . "addMessage.php'>
 						<fieldset class='noBorder'>
 							<textarea name='newMessageTextArea' rows='3' ></textarea>
-							<br />
-							<br />
+							<br>
+							<br>
 							Autore:&nbsp; <input type='text' value='' name='author'>
-							<br />
-							<br />
+							<br>
+							<br>
 							<input class='button' type='button'	value='Send' onclick='sendMessage();' />
 							&nbsp;&nbsp;&nbsp;
 							<input class='button' type='button'	value='Close' onclick='hideAddMessageBox();' />

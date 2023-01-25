@@ -375,8 +375,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 					</div>
 				</fieldset>
 			</div>
-			<br />
-			<br />			
+			<br>
+			<br>			
 			<table id='gestFormazSend'>
 				<!-- DATI FORMAZIONE -->
 				<tr>
@@ -451,8 +451,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 				</tr>
 				<!-- DATI FORMAZIONE TIPO-->
 			</table>
-			<br />
-			<br />
+			<br>
+			<br>
 			<!-- LISTA FILES -->
 			<p>
 				Lista files disponibili:
@@ -494,9 +494,9 @@ xmlns="http://www.w3.org/1999/xhtml">
 				?>
 			</div>
 			<!-- LISTA FILES -->
-			<br />
-			<br />
-			<br />
+			<br>
+			<br>
+			<br>
 			<!--  END CONTAINER DIV  -->
 			<script type="text/javascript">
 				Count();

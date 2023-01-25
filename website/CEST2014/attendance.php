@@ -40,9 +40,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div class='paddingInner'>
     
                                 <h1 style="line-height: 28px; text-align: center;">Attending the meeting</h1>
-                                <br />
+                                <br>
                                 <b>Venue &amp; Travel Information</b>
-                                <br />
+                                <br>
                                 <p>
                                     <a class="linkExternal" href="http://www.bioindustrypark.eu/index.php?lang=en"><span class='underline'>Bioindustry Park Silvano Fumero</span></a> is a science and technology park
                                     located near Turin in the north of Italy. The Park promotes and develops research in Life Sciences, hosting companies of the chemical, pharmaceutical,
@@ -134,7 +134,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </table>
                                 </form>
 
-                                <br />
+                                <br>
                                 
                                 <p>
                                     <span style="color: #db6d16">By train:</span>
@@ -186,7 +186,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

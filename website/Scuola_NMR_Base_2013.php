@@ -36,9 +36,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <div style="clear: both">
-                                <br />
+                                <br>
                                 <h1 style="text-align: center">Scuola NMR di Base 2013</h1>
-                                <br />
+                                <br>
                                 <p style="font-weight: bold; font-size: 14px">
                                     Materiale
                                 </p>
@@ -100,7 +100,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

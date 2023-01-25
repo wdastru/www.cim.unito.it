@@ -59,12 +59,12 @@ $dir = $relocate_string . 'private/cataloghi/safety_info/';
 $filter = "*.xls";
 $result = glob($dir . $filter);
 
-//echo count($result) . '<br />';
-//print_r($result) . '<br />';
+//echo count($result) . '<br>';
+//print_r($result) . '<br>';
 
 if (count($result) != 1)
 {
-	//echo 'in if <br />';
+	//echo 'in if <br>';
 	//unlink($dir . $_SESSION['uploaded_file']);
 	//unset($_SESSION['uploaded_file']);
 	//header('Location: ../errors/error.php?error=excelErrorNoFilesFound');
@@ -72,13 +72,13 @@ if (count($result) != 1)
 }
 else
 {
-    //echo 'in else <br />';
+    //echo 'in else <br>';
 	//$parts = pathinfo($result[0]);
-    //echo $parts . '<br />';
+    //echo $parts . '<br>';
 	//$filename = strtok($parts['basename'], '.'); // sul server la versione di php e' probabilmente vecchia e non esiste filename
-	//echo $filename . '<br />'; 
+	//echo $filename . '<br>'; 
 	//$nameTxt = strtok($filename, '-');
-    //echo $nameTxt . '<br />';
+    //echo $nameTxt . '<br>';
 
 	//if( !preg_match('/MCCMicro[P|p]agamenti/', $filename) )
 	//{

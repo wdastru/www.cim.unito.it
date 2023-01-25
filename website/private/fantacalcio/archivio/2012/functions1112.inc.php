@@ -443,7 +443,7 @@ function classifica(/* variable number of arguments, the first has to be the arr
 		echo "    </tr>";
 	}
 	echo "</table>";
-	echo "<br /><br />";
+	echo "<br><br>";
 	// <-- visualizzazione classifica avulsa
 
 	// --> applica correzione a squadra[][]

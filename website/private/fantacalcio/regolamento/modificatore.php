@@ -26,7 +26,7 @@
   <tr>
         <td><p class="justify">Si considerano solo i voti del quotidiano (senza bonus e malus) e si fa la media dei difensori che hanno giocato, considerando anche le eccezioni elencate al paragrafo &ldquo;I giocatori senza voto&rdquo;. Solo nel caso di giocatori s.v. non sostituibili, ossia quando si assegna un punteggio pari a 3, questo non verr&aacute; conteggiato nella media-difesa, che terr&aacute; conto solo dei voti degli altri difensori; conseguentemente, il n. totale dei difensori utilizzati risulter&aacute; quindi inferiore a quello impostato nella formazione. </p>
       <p class="justify">Il modificatore si applica al punteggio dell' avversario. </p>
-      <br /></td>
+      <br></td>
   </tr>
 </table>
 

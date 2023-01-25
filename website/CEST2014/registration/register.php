@@ -15,7 +15,7 @@ if (isset($_GET['action'])) {
 			// If the form was submitted lets try to create the account.
 			if (isset($_POST['username']) && isset($_POST['password'])) {
 				if (createAccount($_POST['username'], $_POST['password'])) {
-					$sOutput .= '<h1>Account Created</h1><br />Your account has been created. 
+					$sOutput .= '<h1>Account Created</h1><br>Your account has been created. 
 								You can now login <a href="login.php">here</a>.';
 				}else {
 					// unset the action to display the registration form.
@@ -47,17 +47,17 @@ if (loggedIn()) {
 	
 	$sError = "";
 	if (isset($_SESSION['error'])) {
-		$sError = '<span id="error">' . $_SESSION['error'] . '</span><br />';
+		$sError = '<span id="error">' . $_SESSION['error'] . '</span><br>';
 	}
 	
 	$sOutput .= '<h2>Register for this site</h2>
 		' . $sError . '
 		<form name="register" method="post" action="' . $_SERVER['PHP_SELF'] . '?action=register">
-			Username: <input type="text" name="username" value="' . $sUsername . '" /><br />
-			Password: <input type="password" name="password" value="" /><br /><br />
+			Username: <input type="text" name="username" value="' . $sUsername . '" /><br>
+			Password: <input type="password" name="password" value="" /><br><br>
 			<input type="submit" name="submit" value="Register!" />
 		</form>
-		<br />
+		<br>
 		<h4>Would you like to <a href="login.php">login</a>?</h4>';
 }
 

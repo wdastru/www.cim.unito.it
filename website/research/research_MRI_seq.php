@@ -164,7 +164,7 @@ $localizer = "../";
 										about the sequence is available in: <br> <i>"Iopamidol as a
 												responsive MRI-chemical exchange saturation transfer
 												contrast agent for pH mapping of kidneys: In vivo studies in
-												mice at 7 T"</i>, Longo DL et al; <br />
+												mice at 7 T"</i>, Longo DL et al; <br>
 												<i>Magn Reson Med</i>, <b>2011</b>,
 											65:202-11, doi: 10.1002/mrm.22608<br> <a
 													class='seq_link'
@@ -186,19 +186,19 @@ $localizer = "../";
 									scanners running with ParaVision 6.0.1/360.1.1. <br> More
 										information about the sequence is available in:<br> <i>"A fast
 												multislice sequence for 3DMRI-CEST pH imaging"</i>, Villano
-											D et al; <br /><i>Magn Reson Med</i>, <b>2021</b>, 85, 1335-1349. doi:10.1002/mrm.28516<br> <a
+											D et al; <br><i>Magn Reson Med</i>, <b>2021</b>, 85, 1335-1349. doi:10.1002/mrm.28516<br> <a
 													class='seq_link'
 													onmousedown="showFormBox('CEST_multi_slice_PV6.0.1')">Download
-													link for ParaVision 6.0.1</a><br /> <a
+													link for ParaVision 6.0.1</a><br> <a
 													class='seq_link'
 													onmousedown="showFormBox('CEST_multi_slice_PV360.1.1')">Download
-													link for ParaVision 360.1.1</a> <br />Contacts: <a
+													link for ParaVision 360.1.1</a> <br>Contacts: <a
 													href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 												<a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>,
 
 										</li>
 						</ul>
-						<br />
+						<br>
 						<p>Research groups using our sequences:
 						
 						<ul>
@@ -268,7 +268,7 @@ $localizer = "../";
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>

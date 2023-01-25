@@ -165,18 +165,18 @@ $_POST['delete'] = 0;
                                                         <Option VALUE='phrase_H'>Hazard statements (H)</option>
                                                         <Option VALUE='link'>link</option>
                                 					</Select>
-                                					<br />
+                                					<br>
                                 				";
     										}
 										?>
 										<input type="hidden" name="searching" value="yes" /> 
-										<br /> 
+										<br> 
 										<input type="submit" name="search" value="Submit" />
 									</form>
 								</td>
 							</tr>
 						</table>
-						<br />
+						<br>
 						<form name="add" method="post" action="admin/add.php">
 							<input type="submit" name="add" value="Add a compound" />
 						</form>
@@ -266,8 +266,8 @@ $_POST['delete'] = 0;
 								
                                 if (mysql_errno() != 0) 
                                 {
-                                    echo "<br />" . $sql . "<br />";
-                                    echo "<br />" . mysql_errno() . ": " . mysql_error(). "<br />";    
+                                    echo "<br>" . $sql . "<br>";
+                                    echo "<br>" . mysql_errno() . ": " . mysql_error(). "<br>";    
                                 }
 								
 								if ($_FILES['newlink']['name'] != "")
@@ -276,7 +276,7 @@ $_POST['delete'] = 0;
                                 }
 								
 							} else {
-								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
+								echo "<br><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
 							}
 
 							$_POST['edited'] = "no";
@@ -301,8 +301,8 @@ $_POST['delete'] = 0;
                             
                             if (mysql_errno() != 0) 
                             {
-                                echo "<br />" . $sql . "<br />";
-                                echo "<br />" . mysql_errno() . ": " . mysql_error(). "<br />";    
+                                echo "<br>" . $sql . "<br>";
+                                echo "<br>" . mysql_errno() . ": " . mysql_error(). "<br>";    
                             }
 
 							$_POST['removed'] = "no";
@@ -331,7 +331,7 @@ $_POST['delete'] = 0;
 								uploadFile($_FILES["newlink"], './safety_info/');
 								
 							} else {
-								echo "<br /><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
+								echo "<br><b>Sorry, it seems that you forgot to insert the name. Nothing has been added to the database!</b>";
 							}
 
 							$_POST['added'] = "no";
@@ -511,7 +511,7 @@ $_POST['delete'] = 0;
 							//This counts the number or results - and if there wasn't any it gives them a little message explaining that
 							$anymatches = mysql_num_rows($data);
 							if ($anymatches == 0) {
-								echo "<br />Sorry, nothing has been found!";
+								echo "<br>Sorry, nothing has been found!";
 							}
 							
 							$_SESSION['searchAfterEdit'] = 0;
@@ -528,7 +528,7 @@ $_POST['delete'] = 0;
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>

@@ -35,14 +35,14 @@ $localizer = "../";
                                  or mutated cells in the body that have the ability to proliferate and infiltrate normal body tissue.
                                 Cancer metabolism is one of the oldest and most important field of research in biology, by some fifty years, also because cancers are one of 
                                 the leading cause of death in Western countries. Over time, there has been an increase of survival rates for many types of tumours, thanks to 
-                                available screening programmes and treatments&#39; improvement.<br />
+                                available screening programmes and treatments&#39; improvement.<br>
                                 Researches related to tumour metabolism are based on the principle that cancer cells exhibit altered metabolic activities relative to normal 
                                 cells, as originally observed by Otto Warburg almost 100 years ago. The energetics reprogramming, that allows to take up abundant nutrients
-                                 to produce ATP, and increased localised ROS are considered a hallmark of cancer.<br />                                
+                                 to produce ATP, and increased localised ROS are considered a hallmark of cancer.<br>                                
                                 Glycolysis is an early attractive target for understanding cancer, as many tumours show a significant increase in glucose uptake compared 
                                 with adjacent normal tissue. Cancer cells are able to maintain a high rate of glycolysis even under oxygen&minus;sufficient conditions, a process 
                                 known as aerobic glycolysis or Warburg effect. This observation is at the basis of [<sup>18</sup>F]&minus;fluorodeoxyglucose accumulation in tumour tissues 
-                                used in positron emission tomography (FDG&minus;PET).<br />
+                                used in positron emission tomography (FDG&minus;PET).<br>
                                                             
                                 In last decades, hyperpolarized (HP) probes have provided a unique tool for the non-invasive assessment of altered metabolic conditions 
                                 through magnetic resonance (MR) spectroscopy and imaging. <sup>13</sup>C&minus;HP pyruvate, obtained using dissolution Dynamic Nuclear Polarization (d&minus;DNP) 
@@ -70,7 +70,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

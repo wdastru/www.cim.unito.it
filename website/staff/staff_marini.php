@@ -41,8 +41,8 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giada Maria Marini</h1>
-								<p style="text-align:left;"><b>Graduate student<br />
-								Department of Molecular Biotechnology and Health Sciences<br />
+								<p style="text-align:left;"><b>Graduate student<br>
+								Department of Molecular Biotechnology and Health Sciences<br>
 								<a href="../PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
 								Terreno Lab</a>
 								</b></p>
@@ -81,7 +81,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>Centre of Preclinical Imaging c/o Bioindustry Park of Canavese <br/>
 					Address: Via Ribes 5, 10010 - Colleretto Giacosa (TO) <br/>
-					Phone: +39-0125-561876<br /> 
+					Phone: +39-0125-561876<br> 
 					E-mail: <a href="mailto:giadamaria.martini@unito.it"><span style="color:#007c92">giadamaria.martini@unito.it</span></a></p>
 					
 					</div>
@@ -107,7 +107,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

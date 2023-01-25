@@ -27,7 +27,7 @@
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">SUPERCOPPA 2012</h1>
-		<br />
+		<br>
 		<table align="center" width="500" border="0">
 			<tr>
 				<td><table align="center" width="150" border="0">
@@ -91,7 +91,7 @@
 			</tr>
 		</table>
 		<p>
-			Atletico? No Grazie! : 3 ( 80.5 : IBRAHIMOVIC, IBRAHIMOVIC, MAICON ) <br />
+			Atletico? No Grazie! : 3 ( 80.5 : IBRAHIMOVIC, IBRAHIMOVIC, MAICON ) <br>
 			Dinamo Ciofeca : 3 ( 78 : MILITO, MILITO, MILITO )
 		</p>
 		<!-- InstanceEndEditable -->

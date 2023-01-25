@@ -25,7 +25,7 @@
             <td align="center"><h1 class="title">LOKOMOTIV PECCORINO 2008/09</h1></td>
           </tr>
         </table>
-        <br />
+        <br>
         <table class="rosa">
           <colgroup span="4">
           <col width="200"/>
@@ -90,7 +90,7 @@
             </tr>
           </tbody>
         </table>
-        <br />
+        <br>
         <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

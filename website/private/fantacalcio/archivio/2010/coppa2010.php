@@ -39,18 +39,18 @@ include("calendarioCoppa0910.inc.php");
 			<span id='hiddenBoxHyphen'> - </span>
 			<span id='squadra2'>squadra2</span>
 	  </div>
-		<br />
-		<br />
+		<br>
+		<br>
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input type='button' value='Close this box!' onclick='hideBox();' />
-				<br /> <br /> Goal Squadra A : <input type='text' name='goalA'
-					value='' onkeyup="goals();" onmousedown="goals();" /> <br /> <br />
+				<br> <br> Goal Squadra A : <input type='text' name='goalA'
+					value='' onkeyup="goals();" onmousedown="goals();" /> <br> <br>
 				Goal Squadra B : <input type='text' name='goalB' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
-				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
-				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br />
+					onkeyup="goals();" onmousedown="goals();" /> <br> <br> Punti
+				Squadra A : <input type='text' name='puntiA' value='' /> <br> <br>
+				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br>
+				<br> <br>
 				<?php
 				for($i=0; $i<20; $i++)
 				echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
@@ -187,7 +187,7 @@ include("calendarioCoppa0910.inc.php");
 	// <-- leggi file datiCoppa0910.txt
 	?>
 		<h1 class="title">FANTACOPPA NMR 2009/10</h1>
-		<br /> <br />
+		<br> <br>
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>
 		<?php
@@ -237,7 +237,7 @@ include("calendarioCoppa0910.inc.php");
 		?>
 		</table>
 		<!-- fase a gruppi -->
-		<br /> <br />
+		<br> <br>
 		<!-- classifiche gruppi -->
 		<table id='classifica_gruppi'>
 			<tr>
@@ -312,7 +312,7 @@ include("calendarioCoppa0910.inc.php");
 			</tr>
 		</table>
 		<!-- classifiche gruppi -->
-		<br />
+		<br>
 		<!-- semifinali -->
 		<table id='semifinali_coppa'>
 
@@ -354,7 +354,7 @@ include("calendarioCoppa0910.inc.php");
 
 		</table>
 		<!-- semifinali -->
-		<br />
+		<br>
 		<!-- finali -->
 		<table id='finali_coppa'>
 

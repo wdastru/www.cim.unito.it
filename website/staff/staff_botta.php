@@ -41,9 +41,9 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Mauro Botta</h1>
-								<p style="text-align:left;"><b>Full Professor<br />
-								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br />
-								Amedeo Avogadro University of Eastern Piedmont<br />
+								<p style="text-align:left;"><b>Full Professor<br>
+								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br>
+								Amedeo Avogadro University of Eastern Piedmont<br>
 								<a href="https://upobook.uniupo.it/mauro.botta" target="_blank" style="color:#dc6a10">
 								 Academic profile</a>
 								</b></p>
@@ -73,23 +73,23 @@
 The goal is the understanding of the chemical properties of MRI contrast agents (GdIII, MnII, FeIII chelates) and the dependence of their effectiveness (relaxivity)
  from the molecular parameters. These include: i) the factors that control the rate of exchange of coordinated water molecules; ii) the presence in solution of various 
  diastereoisomers, and of hydration equilibria; iii) the dominant contribution of the rotational dynamics to relaxivity, and thus the different strategies to 
- slow down molecular motion; iv) the role of the second sphere of hydration.<br />
+ slow down molecular motion; iv) the role of the second sphere of hydration.<br>
 
-<b>Synthesis and characterization of multi-functional inorganic nanoparticles</b><br />
+<b>Synthesis and characterization of multi-functional inorganic nanoparticles</b><br>
 
 Various nanosystems are developed in which multiple paramagnetic complexes are conjugated to platforms of various nature, size and complexity. 
 These MRI nanoprobes make it possible to deliver to the site of interest a large number of paramagnetic ions, thus increasing the sensitivity of the MRI modality. 
 The systems include protein&minus;bound chelates, polymers, dendrimers, micelles, liposomes, viral capsids, metal oxides, zeolites, mesoporous silicas. Desired properties are
- high imaging contrast and chemical stability, target specificity, and/or multimodality.<br />
+ high imaging contrast and chemical stability, target specificity, and/or multimodality.<br>
 
-<b>Development of multimeric systems as high field MRI probes</b><br />
+<b>Development of multimeric systems as high field MRI probes</b><br>
 
 The increasing availability of high field MRI systems requires a different strategy for relaxivity enhancement of metal-based probes.  In our approach, we seek:
  a) chemical control of the value of the rotational correlation time (ca. 0.2 &minus; 0.5 ns), corresponding to that of small multimeric systems; b) sufficiently fast rate of
   water exchange (&tau;M &le; 100 ns); c) large contribution to relaxivity from water molecules in the second coordination sphere. This contribution can be very significant 
-  as it can provide about 30-40% of the global relaxation enhancement.<br />
+  as it can provide about 30-40% of the global relaxation enhancement.<br>
 
-<b>Study of the structural and dynamic properties of complexes and macromolecules containing paramagnetic ions with NMR fast field cycling relaxometric techniques</b><br />
+<b>Study of the structural and dynamic properties of complexes and macromolecules containing paramagnetic ions with NMR fast field cycling relaxometric techniques</b><br>
 
 Relaxometry is the measurement of the frequency dependence of magnetic relaxation rates of solvent nuclei in aqueous systems to extract structural and dynamic information 
 on the nature of the solutes. We apply the technique to the study of detailed physico-chemical properties of complexes of trivalent lanthanoids in order to obtain
@@ -112,7 +112,7 @@ on the nature of the solutes. We apply the technique to the study of detailed ph
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Viale Teresa Michel 11, 15121 Alessandria <br/>
-					Phone: +39 0131 360 253 <br /> 
+					Phone: +39 0131 360 253 <br> 
 					E-mail: <a href="mailto:mauro.botta@uniupo.it"><span style="color:#007c92">mauro.botta@uniupo.it</span></a></p>
 					
 					</div>
@@ -137,7 +137,7 @@ on the nature of the solutes. We apply the technique to the study of detailed ph
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

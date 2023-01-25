@@ -36,27 +36,27 @@ $localizer = "../";
                                 since they rely on proton exchangers and transports, which exports protons to the microenvironment. Several pH regulators are therefore involved in preserving such pH homeostasis, 
                                 including ATPases, Na<sup>+</sup>/H<sup>+</sup> exchangers (NHEs), monocarboxylate transporters (MCTs) carbonic anhydrases (CAs) and anion exchangers (AEs).  
                                 Moreover, tumor acidification (or tumor acidosis) has been associated with key features of cancer aggressiveness, including invasion, increase angiogenesis and resistance to therapy 
-                                and evasion from the immune system.<br /><br />
+                                and evasion from the immune system.<br><br>
                                 
                                 It is becoming increasingly evident that extracellular acidosis could be targeted to block tumor proliferation using for example proton pump inhibitors, which are first responsible 
                                 of H<sup>+</sup> exporting mechanism. Even more important is that changes in the level of acidosis can be used as a marker of therapeutic response. As a consequence, novel imaging approaches 
-                                are urgently needed for non-invasively assessing the efficacy of novel anticancer therapies.<br /><br />
+                                are urgently needed for non-invasively assessing the efficacy of novel anticancer therapies.<br><br>
                                 
                                 To date, imaging-based methods are commonly used in clinical settings to assess glucose metabolism (using FDG-PET), providing a formidable tool for evaluating treatment response. 
                                 However, significant shortcomings of FDG-PET approach are related to radiation exposure (limiting repeated exams in a single individual) and to radioactive compound <sup>18</sup>F production
                                  (local cyclotron owing to the short half-life) which cannot be found in every hospital. Conversely, an effective imaging method that allows to quantify extracellular tumor pH and 
-                                 to assess pHe related changes following therapeutic treatment is still missing. <br />
+                                 to assess pHe related changes following therapeutic treatment is still missing. <br>
                                  Other imaging-based approaches, namely magnetic resonance spectroscopy (MRS) and imaging (MRI) 
                                  have been investigated. However, none of them has shown feasibility to provide pHe maps with sufficient spatial resolution and pH accuracy and to be easily translated into 
-                                 clinical settings.<br /><br />
+                                 clinical settings.<br><br>
                                 Recently, MRI-CEST (Chemical Exchange Saturation Transfer) based methods for measuring pHe with improved accuracy, concentration-independence and spatial resolution have been 
-                                proposed and investigated in preclinical tumor models (Longo D et al., Cancer Research 2016, 76, 6463). <br />
-                                <b>Consequently, MRI-CEST pH imaging can play a role as an alternative to FDG-PET to characterize tumor metabolism and for assessing treatment response.</b><br /><br />
+                                proposed and investigated in preclinical tumor models (Longo D et al., Cancer Research 2016, 76, 6463). <br>
+                                <b>Consequently, MRI-CEST pH imaging can play a role as an alternative to FDG-PET to characterize tumor metabolism and for assessing treatment response.</b><br><br>
                                 
                                 Within our center we have developed several <a href="research_responsive.php" style="color:#dc6a10"> CEST-based pH sensors </a> for the non-invasive assessment of tumor pH. Among them,
                                 clinical approved radiographic contrast agents such as <a href="research_cest.php" style="color:#dc6a10">Iopamidol, iobitridol and iodixanol</a> have been exploited for measuring 
                                 tumor pHe in murine tumor models. 
-                                Moreover, we have investigated lanthanide <a href="research_cest.php" style="color:#dc6a10">PARACEST complexes (Yb-HPDO3A)</a> to measure extracellular pH.<br /><br />
+                                Moreover, we have investigated lanthanide <a href="research_cest.php" style="color:#dc6a10">PARACEST complexes (Yb-HPDO3A)</a> to measure extracellular pH.<br><br>
                                 We are interested to assess:
                                 
                                 <ul> 
@@ -95,7 +95,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -40,20 +40,20 @@
                                 <a class='linkExternal' href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                             <div style="clear:both">
-                                <br />
+                                <br>
                                 <h1 style="text-align:center">COST Action TD1004</h1>
                                 <h1 style="text-align:center; line-height: 30px;">"MC joint WG's MEETING"</h1>
                                 <h2 style="text-align:center">London - October 28-30, 2012
-                                <br />
+                                <br>
                                 </h2>
-                                <br />
+                                <br>
                                 <div id='scientific_program' style="line-height: 30px;">
 
                                     <a href="../../documenti/COST_TD1004_London/Programme_Workshop_Final.doc"><b>Download Workshop Programme</b></a>
-                                    <br />
+                                    <br>
                                     <a href="../../documenti/COST_TD1004_London/Map_of_important_sites.ppt"><b>Map of important sites</b></a>
-                                    <br />
-                                    <br />
+                                    <br>
+                                    <br>
 
                                     <p style="font-weight:bold; font-size:14px">
                                         SCIENTIFIC PROGRAM
@@ -318,7 +318,7 @@
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -65,7 +65,7 @@
 								<section class="content">
 									<div class="12u">
 										<p align="justify" style="line-height: 2">
-											<b>Bla, bla, bla...<br />
+											<b>Bla, bla, bla...<br>
 											</b>
 										</p>
 									</div>
@@ -87,11 +87,11 @@
 										</div>
 										<div style="padding: 0 0 0 160px;">
 											<p align="left" style="line-height: 1.2";>
-												<strong><font size="4em">Daniela Delli Castelli, PhD</font></strong> <br />
-												<br /> Associate Professor<br /> Molecular Imaging Center <br />
-												Department of Molecular Biotechnologies and Health Science<br />
-												University of Torino <br /> Via Nizza 52<br /> 10126 Torino - Italy<br />
-												Tel: +39 011 6706493<br /> Fax: +39 011 6706458<br /> <a
+												<strong><font size="4em">Daniela Delli Castelli, PhD</font></strong> <br>
+												<br> Associate Professor<br> Molecular Imaging Center <br>
+												Department of Molecular Biotechnologies and Health Science<br>
+												University of Torino <br> Via Nizza 52<br> 10126 Torino - Italy<br>
+												Tel: +39 011 6706493<br> Fax: +39 011 6706458<br> <a
 													href="mailto:francesca.reineri@unito.it">daniela.dellicastelli@unito.it</a>
 											</p>
 										</div>

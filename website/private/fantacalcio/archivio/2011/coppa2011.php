@@ -34,18 +34,18 @@ include("calendarioCoppa1011.inc.php");
 			<span id='hiddenBoxHyphen'> - </span>
 			<span id='squadra2'>squadra2</span>
 	  </div>
-<br /> <br />
+<br> <br>
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input
-					type='button' value='Close this box!' onclick='hideBox();' /> <br /> <br /> Goal Squadra A : <input
+					type='button' value='Close this box!' onclick='hideBox();' /> <br> <br> Goal Squadra A : <input
 					type='text' name='goalA' value='' onkeyup="goals();"
-					onmousedown="goals();" /> <br /> <br /> Goal Squadra B : <input
+					onmousedown="goals();" /> <br> <br> Goal Squadra B : <input
 					type='text' name='goalB' value='' onkeyup="goals();"
-					onmousedown="goals();" /> <br /> <br /> Punti Squadra A : <input
-					type='text' name='puntiA' value='' /> <br /> <br /> Punti Squadra B
-				: <input type='text' name='puntiB' value='' /> <br /> <br /> <br />
-				Marcatori:<br /> <br />  
+					onmousedown="goals();" /> <br> <br> Punti Squadra A : <input
+					type='text' name='puntiA' value='' /> <br> <br> Punti Squadra B
+				: <input type='text' name='puntiB' value='' /> <br> <br> <br>
+				Marcatori:<br> <br>  
 					<?php
 					for($i=0; $i<20; $i++)
 					echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
@@ -182,7 +182,7 @@ include("calendarioCoppa1011.inc.php");
 	// <-- leggi file datiCoppa.txt
 	?>
 		<h1 class="title">FANTACOPPA NMR 2010/11</h1>
-		<br /> <br />
+		<br> <br>
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>
 		<?php
@@ -231,11 +231,11 @@ include("calendarioCoppa1011.inc.php");
 		?>
 		</table>
 		<!-- fase a gruppi -->
-		<br />
+		<br>
 		<!-- classifiche avulse -->
 		<div id='avulse_wrapper'>
 			<input type='button' value='Mostra/Nascondi classifiche avulse'
-				onclick='toggleAvulse();' /> <br /> <br />
+				onclick='toggleAvulse();' /> <br> <br>
 			<div id='avulse'>
 				<table id='avulsa0' class='classifica'>
 					<tr class='tableline'>
@@ -277,7 +277,7 @@ include("calendarioCoppa1011.inc.php");
 					?>
 					</tr>
 				</table>
-				<br /> <br />
+				<br> <br>
 				<table id='avulsa1' class='classifica'>
 					<tr class='tableline'>
 					<?php
@@ -346,7 +346,7 @@ include("calendarioCoppa1011.inc.php");
 					?>
 					</tr>
 				</table>
-				<br /> <br />
+				<br> <br>
 				<table id='avulsa3' class='classifica'>
 					<tr class='tableline'>
 					<?php
@@ -388,10 +388,10 @@ include("calendarioCoppa1011.inc.php");
 					?>
 					</tr>
 				</table>
-				<br /> <br />
+				<br> <br>
 			</div>
 		</div>
-		<br />
+		<br>
 		<!-- classifiche avulse -->
 
 		<!-- classifiche gruppi -->
@@ -472,7 +472,7 @@ include("calendarioCoppa1011.inc.php");
 			</tr>
 		</table>
 		<!-- classifiche gruppi -->
-		<br /> <br />
+		<br> <br>
 		<!-- semifinali -->
 		<table id='semifinali_coppa'>
 
@@ -513,7 +513,7 @@ include("calendarioCoppa1011.inc.php");
 
 		</table>
 		<!-- semifinali -->
-		<br />
+		<br>
 		<!-- finali -->
 		<table id='finali_coppa'>
 

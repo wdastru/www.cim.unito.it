@@ -49,7 +49,7 @@ $localizer = "./";
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>

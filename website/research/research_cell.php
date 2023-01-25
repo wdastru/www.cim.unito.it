@@ -50,7 +50,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <ul>
                                 <li><b>Labeling through the mechanism of Receptor Mediated
                                     Endocytosis</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         The aim is to entrap sufficient amounts of
                                         contrast agents inside the endosomial vescicles within minutes
@@ -69,7 +69,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     </p></li>
                                 <li><b>Labeling through the use of "Nanocarriers on a
                                     Leash"</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         Although the internalizzazione in the endosomi
                                         joins sufficiently very tolerated (also on the long times) thinks
@@ -98,7 +98,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         presents in the interest region .
                                     </p></li>
                                 <li><b>Development of "gene-reporter" for MRI</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         Effective MRI are not still available
                                         &quot;gene-reporter&quot; that can be
@@ -146,7 +146,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -40,68 +40,68 @@
                                 <a class="linkExternal" href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                             <div style="clear:both">
-                                <br />
+                                <br>
                                 <h1 style="text-align:center">COST Action TD1004</h1>
                                 <h1 style="text-align:center; line-height: 30px;">Annual Meeting</h1>
                                 <h2 style="text-align:center">Instanbul - Oct 3-5, 2014
-                                <br />
+                                <br>
                                 </h2>
-                                <br />
+                                <br>
                                 
                                 <p>
-                                    The Annual Workshop of the COST Action TD1004 (“Theranostics”) will be held in ISTANBUL (Turkey) on 3<sup>rd</sup>-5<sup>th</sup>October 2014.
+                                    The Annual Workshop of the COST Action TD1004 (ï¿½Theranosticsï¿½) will be held in ISTANBUL (Turkey) on 3<sup>rd</sup>-5<sup>th</sup>October 2014.
                                 </p>
                                 
                                 <p>
-                                    Venue: Kaja Ramada Hotel (<a class='linkExternal' href="http://www.kajaramada.com">www.kajaramada.com</a>)<br />
+                                    Venue: Kaja Ramada Hotel (<a class='linkExternal' href="http://www.kajaramada.com">www.kajaramada.com</a>)<br>
                                     Local Organizer: Mustafa Selman Yavuz (<a href="mailto:selmanyavuz@selcuk.edu.tr">selmanyavuz@selcuk.edu.tr</a>)
                                 </p>
                                 
                                 <p>
-                                    Interested to submit an oral/poster contribution to the workshop?<br />
+                                    Interested to submit an oral/poster contribution to the workshop?<br>
                                     Please contact one of the WG Leaders:
                                 </p>
                                 
                                 <ul>
                                     <li><b>WG1: Imaging reporters for theranostic agents</b>
-                                        <br />
+                                        <br>
                                         Renata mikolajczak, National Centre for Nuclear Research Radioisotope, Centre POLATOM, Poland
-                                        <br />
+                                        <br>
                                         <a href="mailto:Renata.Mikolajczak@polatom.pl">Renata.Mikolajczak@polatom.pl</a></li>
                                     <li><b>WG2: Nanocarriers for theranostic agents</b>
-                                        <br />
+                                        <br>
                                         Ruth Schmid, SINTEF Materials and Chemistry, Norway
-                                        <br />
+                                        <br>
                                         <a href="mailto:Ruth.b.Schmid@sintef.no">Ruth.b.Schmid@sintef.no</a></li>
                                     <li><b>WG3: Preparation and selection of targeting vectors</b>
-                                        <br />
+                                        <br>
                                         Robert N. Muller, UMONS, Belgium
-                                        <br />
+                                        <br>
                                         <a href="mailto:robert.muller@umons.ac.be">robert.muller@umons.ac.be</a></li>
 
                                     <li><b>WG4: Theranostic agents responsive to endogenous and external stimuli</b>
-                                        <br />
+                                        <br>
                                         Gerben Koning, Erasmus MC, Rotterdam, The Nederlands
-                                        <br />
+                                        <br>
                                         <a href="mailto:g.koning@erasmusmc.nl">g.koning@erasmusmc.nl</a></li>
 
                                     <li><b>WG5: Set-up of preclinical theranostic protocols</b>
-                                        <br />
+                                        <br>
                                         George Loudos, Technological Educational Institute of Athens, Greece
-                                        <br />
+                                        <br>
                                         <a href="mailto:gloudos@teiath.gr">gloudos@teiath.gr</a></li>
                                 </ul>
 
                                 <!--<div id='scientific_program' style="line-height: 30px;">
 
                                     <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Program_Athens_Annual_Meeting_2013.pdf"><b>Download Programme</b></a>
-                                    <br />
+                                    <br>
                                     <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Poster_presentations_Athens_2013.pdf"><b>Download Poster Presentations</b></a>
-                                    <br />
+                                    <br>
                                     <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Athens_2013_Book_of_Abstracts_final.pdf"><b>Download Book of abstracts</b></a>
                                     
-                                    <br />
-                                    <br />
+                                    <br>
+                                    <br>
                                     <p style="font-weight:bold; font-size:14px">
                                         SCIENTIFIC PROGRAM
                                     </p>
@@ -128,7 +128,7 @@
                                             <li>18:00 - Museum Visit</li>
                                             <li>20:30 - Dinner</li>
                                         </ul>
-                                        <br />
+                                        <br>
                                         <li><div class="u">MONDAY, Sep 2<sup>nd</sup>, 2013</div></li>
                                         <ul>
                                             <li>09:00 &minus; 09:45 - Invited Lecture: Professor Mike Averkiou, University of Cyprus</li>
@@ -177,7 +177,7 @@
 											
 											<li>18:00 &minus; 19:30 - Cheese and Wine Reception with Poster Viewing</li>
 										</ul>
-										<br />
+										<br>
 										
 										<li><div class="u">TUESDAY, Sep 3<sup>rd</sup>, 2013</div></li>
 										<ul>
@@ -229,7 +229,7 @@
 										</ul> 
 										
 										</ul>
-                                    <br />
+                                    <br>
                                 </div>-->
                             </div>
                             <!-- InstanceEndEditable -->
@@ -244,7 +244,7 @@
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

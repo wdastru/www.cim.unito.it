@@ -41,7 +41,7 @@
 
 							<div class="w3-col w3-half">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Francesca Arena</h1>
-								<p style="text-align:left;"><b>Research Fellow<br />
+								<p style="text-align:left;"><b>Research Fellow<br>
 								Institute of Biostructure and Bioimaging<br>
 								National Research Council of Italy<br>
 								<a href="../PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
@@ -62,7 +62,7 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. in Biochemistry, University of Torino, Italy<br />
+												Ph.D. in Biochemistry, University of Torino, Italy<br>
 												M.Sc. in Pharmaceutical Chemistry and Technology, University of Torino, Italy<br>
 											</p>
 					
@@ -95,7 +95,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>Centre of Preclinical Imaging c/o Bioindustry Park of Canavese <br/>
 					Address: Via Ribes 5, 10010 - Colleretto Giacosa (TO) <br/>
-					Phone: +39-0125-561876<br /> 
+					Phone: +39-0125-561876<br> 
 					E-mail: <a href="mailto:francesca.arena@unito.it"><span style="color:#007c92">francesca.arena@unito.it</span></a></p>
 					
 					</div>
@@ -120,7 +120,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

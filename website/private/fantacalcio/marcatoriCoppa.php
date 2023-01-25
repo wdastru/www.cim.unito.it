@@ -34,11 +34,11 @@ require_once ("logger.php");
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">MARCATORI COPPA</h1>
-		<br />
+		<br>
 		<div class="button" id='showAll' onclick=toggleExtraScorers();>
 			Mostra tutti
 		</div>
-		<br />
+		<br>
 		<table class="marcatori">
 			<tr>
 				<th align="center">Goal</th>

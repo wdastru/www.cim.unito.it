@@ -48,7 +48,7 @@
             <td align="left"> + 0,5 punto per il &quot;gol-partita&quot; che fissa il pareggio</td>
           </tr>
           <tr>
-            <td align="left"> + 1 per ogni assist vincente<br />
+            <td align="left"> + 1 per ogni assist vincente<br>
               &nbsp;(fa fede quanto riportato il marted&iacute; sul sito fantacalcioservice)</td>
           </tr>
           <tr>
@@ -58,7 +58,7 @@
             <td>&nbsp;</td>
           </tr>
         </table>
-        <br />
+        <br>
         <table width="500">
           <tr>
             <td class='regoleTitoli'>LE PENALITA' </td>
@@ -76,7 +76,7 @@
             <td align="left">- 3 punti per ogni rigore sbagliato</td>
           </tr>
         </table>
-        <br />
+        <br>
         <p class="link justify">I voti da prendere in considerazione sono quelli che compaiono sul sito della <a href="http://www.gazzetta.it">Gazzetta</a> </p>
         <p class="justify">Questi voti hanno la precedenza sopra ogni altra considerazione, anche in caso di evidente errore del quotidiano (per evitare discussioni).</p>
         <p class='regoleTitoli'>LE SOSTITUZIONI CON LA PANCHINA</p>
@@ -107,18 +107,18 @@
           </tr>
         </table>
         
-        <p class="justify">Se necessario, il software tenterà di modificare il modulo (tra quelli consentiti) in modo da 
-        evitare di giocare in inferiorità numerica (o comunque in modo da giocare con il n. maggiore possibile di giocatori).</p>
-        <p class="justify">Nel tentativo di cambio modulo, partirà dal modulo impostato provando, in ordine, prima moduli con offensività via via 
-        crescente (ossia spostandosi verso il 3-4-3) e poi, se necessario, moduli con offensività via via decrescente (ossia 
-        spostandosi verso il 5-4-1), assegnerà i nuovi titolari in base all’ordine inserito dei giocatori di ciascun ruolo 
-        (per es.: nel passaggio dal 3-4-3 al 4-3-3 il quarto difensore indicato diventerà titolare ed il quarto centrocampista 
-        indicato diventerà prima riserva) e poi partirà con le eventuali sostituzioni per ruolo (sempre fino ad un massimo di 
+        <p class="justify">Se necessario, il software tenterï¿½ di modificare il modulo (tra quelli consentiti) in modo da 
+        evitare di giocare in inferioritï¿½ numerica (o comunque in modo da giocare con il n. maggiore possibile di giocatori).</p>
+        <p class="justify">Nel tentativo di cambio modulo, partirï¿½ dal modulo impostato provando, in ordine, prima moduli con offensivitï¿½ via via 
+        crescente (ossia spostandosi verso il 3-4-3) e poi, se necessario, moduli con offensivitï¿½ via via decrescente (ossia 
+        spostandosi verso il 5-4-1), assegnerï¿½ i nuovi titolari in base allï¿½ordine inserito dei giocatori di ciascun ruolo 
+        (per es.: nel passaggio dal 3-4-3 al 4-3-3 il quarto difensore indicato diventerï¿½ titolare ed il quarto centrocampista 
+        indicato diventerï¿½ prima riserva) e poi partirï¿½ con le eventuali sostituzioni per ruolo (sempre fino ad un massimo di 
         tre).</p>
-        <p class="justify">Il software effettuerà il cambio di modulo solo se tutti i titolari originali con voto saranno nella squadra 
+        <p class="justify">Il software effettuerï¿½ il cambio di modulo solo se tutti i titolari originali con voto saranno nella squadra 
         titolare anche dopo il cambio di modulo e le eventuali sostituzioni.</p>
         <p class="justify">Nel caso nessun nuovo modulo consentisse di 
-        aumentare il n. di giocatori con voto, verrà mantenuto il modulo iniziale e la squadra giocherà in inferiorità numerica.</p>
+        aumentare il n. di giocatori con voto, verrï¿½ mantenuto il modulo iniziale e la squadra giocherï¿½ in inferioritï¿½ numerica.</p>
         
         
         <p class='regoleTitoli'>FATTORE CAMPO</p>
@@ -141,7 +141,7 @@
                 </tr>
                 <tr>
                   <td>&nbsp;</td>
-                  <td><p class="justify">Un giocatore di movimento che abbia giocato almeno 25 minuti (recupero escluso) senza bonus/malus e sia stato giudicato s.v. o n.g. riceverà 5,5 punti d’ufficio. Se ha giocato meno di 25 minuti verrà sostituito.</p></td>
+                  <td><p class="justify">Un giocatore di movimento che abbia giocato almeno 25 minuti (recupero escluso) senza bonus/malus e sia stato giudicato s.v. o n.g. riceverï¿½ 5,5 punti dï¿½ufficio. Se ha giocato meno di 25 minuti verrï¿½ sostituito.</p></td>
                 </tr>
                 <tr>
                   <td>&nbsp;</td>
@@ -149,7 +149,7 @@
                 </tr>
                 <tr>
                   <td>&nbsp;</td>
-                  <td><p class="justify">Un giocatore di movimento con bonus/malus che sia stato giudicato s.v. o n.g. riceverà 6 punti d’ufficio, +/- eventuali bonus/malus.</p></td>
+                  <td><p class="justify">Un giocatore di movimento con bonus/malus che sia stato giudicato s.v. o n.g. riceverï¿½ 6 punti dï¿½ufficio, +/- eventuali bonus/malus.</p></td>
                 </tr>
         </table></td>
     </tr>

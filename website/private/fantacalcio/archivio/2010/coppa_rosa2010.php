@@ -25,7 +25,7 @@
             <td align="center"><h1 class="title">LOKOMOTIV PECCORINO 2009/10</h1></td>
           </tr>
         </table>
-        <br />
+        <br>
 
         <table id='tableRosa' class="rosa"> 
 <colgroup span="4"> 
@@ -73,8 +73,8 @@
 			<td class="tribuna">Legrottaglie (Juventus) </td> 
 			<td class="tribuna">Pizarro (Roma) </td> 
 			<td class="tribuna"></td></tr></table> 
-<br /> 
-<br /> 
+<br> 
+<br> 
         <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

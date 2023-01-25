@@ -34,15 +34,15 @@ $localizer = "../";
                                 Photoacoustic imaging (PAI) is a new biomedical imaging modality based on the use of laser-generated ultrasounds that emerged over the last
                                 decade. A PA image can be considered as an ultrasound image in which the contrast depend from optical properties of the tissue, particularly
                                 the optical absorption. As a consequence, it offers greater specificity than conventional ultrasound with the ability to detect, and 
-                                spectroscopically distinguish, light-absorbing chromophores including endogenous molecules (e.g., hemoglobin, melanin, lipids).<br /> 
+                                spectroscopically distinguish, light-absorbing chromophores including endogenous molecules (e.g., hemoglobin, melanin, lipids).<br> 
                                 The ideal photoacoustic contrast agent should be characterized by a distinct absorption spectrum in the near-infrared (NIR) optical window
                                  (600&minus;1100 nm), where endogenous chromophores (e.g., hemoglobin, water) have relatively low absorption; this feature allows to maximize 
                                  penetration depth by avoiding the strong absorption of intrinsic chromophore. Moreover, also a fluorescent dye can be used in PA imaging,
                                  but a low fluorescent quantum yield is preferable and results in more efficient signal generation, as the non-radiative conversion of light
-                                 energy to heat is maximize. High photo-stability is also important to ensure that spectral features are not changed by light irradiation.<br /> 
+                                 energy to heat is maximize. High photo-stability is also important to ensure that spectral features are not changed by light irradiation.<br> 
 								 The photoacoustic signal is tested in vitro by means of an agar phantom and the most promising contrast agents are tested in vivo in healthy 
 								 and tumor bearing mice. For those dyes that are also fluorescent, optical imaging is performed to validate the results obtained with
-								  photoacoustic imaging. The following contrast agents are currently under investigation for photoacoustic imaging applications. <br />
+								  photoacoustic imaging. The following contrast agents are currently under investigation for photoacoustic imaging applications. <br>
                             </p>
 							
 							  <ul>
@@ -91,7 +91,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

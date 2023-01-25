@@ -82,7 +82,7 @@ echo "
 						<a href='" . $localizer . "research/research_MRI_seq.php'>MRI sequences</a>
 					</dt>					
                     <dt>
-					<br />
+					<br>
 					</dt>
 					<dt class='sidebar-header'>CCS fMRI</dt>
 					<dt id='section1-subsection25' class='subsection_link sidebar-indent'>

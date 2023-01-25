@@ -2,7 +2,7 @@
 session_start();
 
 //print_r($_POST);
-//echo "<br />";
+//echo "<br>";
 //print_r($_FILES);
 
 /* script variables */
@@ -102,31 +102,31 @@ $sql = "OPTIMIZE TABLE `" . $DBName . "`.`" . $table . "`";
 mysql_query($sql, $con);
 /* */
 
-//echo "<br />0";
+//echo "<br>0";
 
 if ($type == "add") 
 {
-//echo "<br />1";
+//echo "<br>1";
     if (!file_exists($path . $addFilename)) 
     {
-//echo "<br />2";
+//echo "<br>2";
         if (move_uploaded_file($_FILES['filename']['tmp_name'], $path . $addFilename)) 
 	{
-//echo "<br />3";
+//echo "<br>3";
             $sql = "INSERT INTO `" . $DBName . "`.`" . $table . "` ( `WG`, `desc`, `filename`, `date`, `path` ) VALUES ( '" . $WG . "', '" . $desc . "', '" . $addFilename . "', '" . $date . "', '" . $path . "')";
 		$result = mysql_query($sql, $con);
 
 	} 
 	else 
 	{
-//echo "<br />8";
+//echo "<br>8";
 		header("Location: " . $localizer . "COST/private/error.php?error=upload");
 		exit();
         }
     } 
     else 
     {
-//echo "<br />9";
+//echo "<br>9";
         header("Location: " . $localizer . "COST/private/error.php?error=file_exists");
         exit();
     }
@@ -134,33 +134,33 @@ if ($type == "add")
 } 
 else if ($type == "del") 
 {
-//echo "<br />4";
+//echo "<br>4";
 	$sql = "DELETE FROM `" . $DBName . "`.`" . $table . "` WHERE `date` = '" . $date . "' AND `filename` = '" . $delFilename . "' AND `WG` = '" . $WG . "' AND `path` = '" . $path . "' AND `desc` = '" . $desc . "'";
 	$result = mysql_query($sql, $con);
 	
 	if (file_exists($path . $delFilename)) {
-//echo "<br />5";
+//echo "<br>5";
 		if (!unlink($path . $delFilename)) {
-//echo "<br />10 : $path";
-//echo "<br />10 : $delFileName";
+//echo "<br>10 : $path";
+//echo "<br>10 : $delFileName";
 			header("Location: " . $localizer . "COST/private/error.php?error=could_not_delete_file");
 			exit();
 	    }
 	} else {
-//echo "<br />6";
+//echo "<br>6";
 		header("Location: " . $localizer . "COST/private/error.php?error=file_not_exists");
 		exit();
 	}
 
 } else {
-//echo "<br />7";
+//echo "<br>7";
 	header("Location: " . $localizer . "COST/private/error.php?error=invalid_type");
 	exit();
 }
 
 mysql_close($con);
 
-//echo "<br />" . $localizer . "COST/private/WGs/WG.php?WG=" . $WG;
+//echo "<br>" . $localizer . "COST/private/WGs/WG.php?WG=" . $WG;
 
 header("Location: " . $localizer . "COST/private/WGs/WG.php?WG=" . $WG);
 ?>

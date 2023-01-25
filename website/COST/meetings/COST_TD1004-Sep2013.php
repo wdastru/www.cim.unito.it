@@ -40,23 +40,23 @@
                                 <a class='linkExternal' href="http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                             <div style="clear:both">
-                                <br />
+                                <br>
                                 <h1 style="text-align:center">COST Action TD1004</h1>
                                 <h1 style="text-align:center; line-height: 30px;">Annual Meeting</h1>
                                 <h2 style="text-align:center">Athens - Sep 1-3, 2013
-                                <br />
+                                <br>
                                 </h2>
-                                <br />
+                                <br>
                                 <div id='scientific_program' style="line-height: 30px;">
 
                                     <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Program_Athens_Annual_Meeting_2013.pdf"><b>Download Programme</b></a>
-                                    <br />
+                                    <br>
                                     <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Poster_presentations_Athens_2013.pdf"><b>Download Poster Presentations</b></a>
-                                    <br />
+                                    <br>
                                     <a href="<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Athens_2013_Book_of_Abstracts_final.pdf"><b>Download Book of abstracts</b></a>
                                     
-                                    <br />
-                                    <br />
+                                    <br>
+                                    <br>
                                     <p style="font-weight:bold; font-size:14px">
                                         SCIENTIFIC PROGRAM
                                     </p>
@@ -190,7 +190,7 @@
     										</ul> 
 										</li>
 									   </ul>
-                                    <br />
+                                    <br>
                                 </div>
                             </div>
                             <!-- InstanceEndEditable -->
@@ -205,7 +205,7 @@
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

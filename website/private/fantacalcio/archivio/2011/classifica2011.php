@@ -27,11 +27,11 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
 <h1 class="title">XII Campionato Fantacalcio NMR 2010/11</h1>
-        <br />
-        <br />
+        <br>
+        <br>
         <h2 class='firstClass'>1&deg; Classificato: </h2>
         <h2 class="title">ATLETICO? NO GRAZIE!</h2>
-        <br />
+        <br>
 <?php
 	/*
 	 *  lettura file datiCampionato
@@ -233,7 +233,7 @@
 	
 	echo "<div id='avulse_wrapper'>
 			<input id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
-			<br /><br />
+			<br><br>
 		<div id='avulse'>";
 		
 	// --> risoluzione gruppi 

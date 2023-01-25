@@ -1201,7 +1201,7 @@
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
-      </table><br /><br />
+      </table><br><br>
       * ai rigori 
 	  
 	  <!-- InstanceEndEditable --></div>

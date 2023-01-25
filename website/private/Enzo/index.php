@@ -17,7 +17,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<div id='confirmDeletionHiddenBox' style="visibility: hidden">
 			<h1>ATTENZIONE !!!</h1>
 			<p style="font-weight: bold;">
-				il file selezionato verrà cancellato.
+				il file selezionato verrï¿½ cancellato.
 			</p>
 			<form method='post' id='confirmDeletion' action=''>
 				<input type='button' id='deleteButton' value='Delete'
@@ -75,7 +75,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								}
 								?>
 							</div>
-							<br />
+							<br>
 							<!-- LISTA FILES -->
 							<form class="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
 								<input type="hidden" name="MAX_FILE_SIZE" value="20000000" />
@@ -92,7 +92,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 			<div id='footer'>
 				<p>
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-					<br />
+					<br>
 					Fax. Tel. Mail
 				</p>
 			</div>

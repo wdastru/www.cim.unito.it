@@ -68,9 +68,9 @@
 												<p align="left" style="line-height: 2";>
 												<strong> 
 												<a title="Molecular Imaging Center" class="http" href="http://www.cim.unito.it/website/index.php" target="_blank"> 
-												Molecular Imaging Center</a><br />
+												Molecular Imaging Center</a><br>
 												<a title="Dept. Mol Biotec Health Sciences" class="http" href="https://www.mbc.unito.it" target="_blank"> 												
-												Department of Molecular Biotechnologies and Health Science</a><br />
+												Department of Molecular Biotechnologies and Health Science</a><br>
 												<a title="University of Torino" class="http" href="https://www.unito.it" target="_blank"> 
 												University of Torino</a><br>
 												Via Nizza, 52<br>

@@ -94,11 +94,11 @@
 										</div>
 										<div style="padding: 0 0 0 160px;">
 											<p align="left" style="line-height: 1.2";>
-												<strong><font size="4em">Luca Domenico D'Andrea, PhD</font></strong> <br />
-												<br /> Senior Researcher,<br /> Institute of Biostructures
-												and Bioimaging (IBB),<br /> Italian National Research Council
-												(CNR),<br /> Via Nizza 52,<br /> 10126 Torino - Italy<br />
-												Tel: +39 011 6709542<br />  <a
+												<strong><font size="4em">Luca Domenico D'Andrea, PhD</font></strong> <br>
+												<br> Senior Researcher,<br> Institute of Biostructures
+												and Bioimaging (IBB),<br> Italian National Research Council
+												(CNR),<br> Via Nizza 52,<br> 10126 Torino - Italy<br>
+												Tel: +39 011 6709542<br>  <a
 													href="mailto:luca.dandrea@cnr.it">luca.dandrea@cnr.it</a>
 											</p>
 										</div>

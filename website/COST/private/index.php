@@ -34,7 +34,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <h2 id="mgmtTitle">Private area</h2>
-                            <br />
+                            <br>
                             <ul>
                                 <li>
                                     <a class='link' href="<?php echo $localizer;?>COST/private/mgmtCommitee.php">Management Commitee</a>
@@ -63,7 +63,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

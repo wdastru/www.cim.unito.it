@@ -25,7 +25,7 @@
             <td align="center"><h1 class="title">DINAMO CIOFECA 2007/08</h1></td>
           </tr>
         </table>
-        <br />
+        <br>
         <table class="rosa">
           <tr class="tableline">
             <th>Portieri</th>
@@ -82,7 +82,7 @@
             <td class="tribuna"></td>
           </tr>
         </table>
-        <br />
+        <br>
         <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

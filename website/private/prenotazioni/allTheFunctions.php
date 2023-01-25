@@ -103,10 +103,10 @@ if ( ! empty ( $HTTP_GET_VARS ) ) {
     } else {
       if ( empty ( $noSet[$key] ) ) {
         $GLOBALS[$key] = $val;
-        //echo "XXX $key<br />\n";
+        //echo "XXX $key<br>\n";
       }
     }
-    //echo "GET var '$key' = '$val' <br />\n";
+    //echo "GET var '$key' = '$val' <br>\n";
   }
   reset ( $HTTP_GET_VARS );
 }
@@ -138,7 +138,7 @@ if ( ! empty ( $HTTP_COOKIE_VARS ) ) {
     if ( empty ( $noSet[$key] ) && substr($key,0,12) == "webcalendar_" ) {
       $GLOBALS[$key] = $val;
     }
-    //echo "COOKIE var '$key' = '$val' <br />\n";
+    //echo "COOKIE var '$key' = '$val' <br>\n";
   }
   reset ( $HTTP_COOKIE_VARS );
 }
@@ -182,7 +182,7 @@ for ( $i = 0; $i < $salt_len || $i < $salt2_len; $i++ ) {
 }
 /* debugging code...
 for ( $i = 0; $i < count ( $offsets ); $i++ ) {
-  echo "offset $i: $offsets[$i] <br />\n";
+  echo "offset $i: $offsets[$i] <br>\n";
 }
 */
 
@@ -358,7 +358,7 @@ function load_global_settings () {
     while ( $row = dbi_fetch_row ( $res ) ) {
       $setting = $row[0];
       $value = $row[1];
-      //echo "Setting '$setting' to '$value' <br />\n";
+      //echo "Setting '$setting' to '$value' <br>\n";
       $GLOBALS[$setting] = $value;
     }
     dbi_free_result ( $res );
@@ -585,7 +585,7 @@ function do_redirect ( $url ) {
 
   if ( empty ( $SERVER_SOFTWARE ) )
     $SERVER_SOFTWARE = $_SERVER["SERVER_SOFTWARE"];
-  //echo "SERVER_SOFTWARE = $SERVER_SOFTWARE <br />\n"; exit;
+  //echo "SERVER_SOFTWARE = $SERVER_SOFTWARE <br>\n"; exit;
   if ( ( substr ( $SERVER_SOFTWARE, 0, 5 ) == "Micro" ) ||
     ( substr ( $SERVER_SOFTWARE, 0, 3 ) == "WN/" ) ) {
     echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html
@@ -841,7 +841,7 @@ function event_get_external_users ( $event_id, $use_mailto=0 ) {
     dbi_free_result ( $res );
   } else {
     echo translate("Database error") .": " . dbi_error ();
-    echo "<br />\nSQL:<br />\n$sql";
+    echo "<br>\nSQL:<br>\n$sql";
     exit;
   }
   return $ret;
@@ -893,7 +893,7 @@ function activity_log ( $event_id, $user, $user_cal, $type, $text ) {
     "'$user', $sql_user_cal, '$type', $date, $time, $sql_text )";
   if ( ! dbi_query ( $sql ) ) {
     echo "Database error: " . dbi_error ();
-    echo "<br />\nSQL:<br />\n$sql";
+    echo "<br>\nSQL:<br>\n$sql";
     exit;
   }
 }
@@ -955,7 +955,7 @@ function get_my_users () {
       $sql .= "IN ( " . implode ( ", ", $groups ) . " )";
     }
     $sql .= " ORDER BY cal_lastname, cal_firstname, webcal_group_user.cal_login";
-    //echo "SQL: $sql <br />\n";
+    //echo "SQL: $sql <br>\n";
     $res = dbi_query ( $sql );
     if ( $res ) {
       while ( $row = dbi_fetch_row ( $res ) ) {
@@ -998,7 +998,7 @@ function get_pref_setting ( $user, $setting ) {
   $sql = "SELECT cal_value FROM webcal_user_pref " .
     "WHERE cal_login = '" . $user . "' AND " .
     "cal_setting = '" . $setting . "'";
-  //echo "SQL: $sql <br />\n";
+  //echo "SQL: $sql <br>\n";
   $res = dbi_query ( $sql );
   if ( $res ) {
     if ( $row = dbi_fetch_row ( $res ) )
@@ -1484,7 +1484,7 @@ function print_entry ( $id, $date, $time, $duration,
   } else {
     // Use category icon
     echo "<img src=\"$catIcon\" alt=\"" . 
-      translate("View this entry") . "\" /><br />";
+      translate("View this entry") . "\" /><br>";
   }
 
   if ( $login != $event_owner && strlen ( $event_owner ) ) {
@@ -1535,7 +1535,7 @@ function print_entry ( $id, $date, $time, $duration,
   }
   echo "</a>\n";
   if ( $pri == 3 ) echo "</strong>\n"; //end font-weight span
-  echo "<br />";
+  echo "<br>";
   if ( $login != $user && $access == 'R' && strlen ( $user ) )
     $eventinfo .= build_event_popup ( $popupid, $event_owner,
       translate("This event is confidential"), "" );
@@ -1685,7 +1685,7 @@ function get_entries ( $user, $date, $get_unapproved=true ) {
   $n = 0;
   $ret = array ();
 
-  //echo "<br />\nChecking " . count ( $events ) . " events.  TZ_OFFSET = $TZ_OFFSET, get_unapproved=" . $get_unapproved . "<br />\n";
+  //echo "<br>\nChecking " . count ( $events ) . " events.  TZ_OFFSET = $TZ_OFFSET, get_unapproved=" . $get_unapproved . "<br>\n";
 
   //print_r ( $events );
 
@@ -1701,48 +1701,48 @@ function get_entries ( $user, $date, $get_unapproved=true ) {
         $ret[$n++] = $events[$i];
     } else if ( $TZ_OFFSET > 0 ) {
       $cutoff = ( 24 - $TZ_OFFSET ) * 10000;
-      //echo "<br /> cal_time " . $events[$i]['cal_time'] . "<br />\n";
+      //echo "<br> cal_time " . $events[$i]['cal_time'] . "<br>\n";
       $sy = substr ( $date, 0, 4 );
       $sm = substr ( $date, 4, 2 );
       $sd = substr ( $date, 6, 2 );
       $prev_day = date ( ( "Ymd" ), mktime ( 3, 0, 0, $sm, $sd - 1, $sy ) );
-        //echo "prev_date = $prev_day <br />\n";
+        //echo "prev_date = $prev_day <br>\n";
       if ( $events[$i]['cal_date'] == $date &&
         $events[$i]['cal_time'] == -1 ) {
         $ret[$n++] = $events[$i];
-        //echo "added event $events[$i][cal_id] <br />\n";
+        //echo "added event $events[$i][cal_id] <br>\n";
       } else if ( $events[$i]['cal_date'] == $date &&
         $events[$i]['cal_time'] < $cutoff ) {
         $ret[$n++] = $events[$i];
-        //echo "added event {$events[$i][cal_id]} <br />\n";
+        //echo "added event {$events[$i][cal_id]} <br>\n";
       } else if ( $events[$i]['cal_date'] == $prev_day &&
         $events[$i]['cal_time'] >= $cutoff ) {
         $ret[$n++] = $events[$i];
-        //echo "added event {$events[$i][cal_id]} <br />\n";
+        //echo "added event {$events[$i][cal_id]} <br>\n";
       }
     } else {
       //TZ < 0
       $cutoff = ( 0 - $TZ_OFFSET ) * 10000;
-      //echo "<br />\ncal_time " . $events[$i]['cal_time'] . "<br />\n";
+      //echo "<br>\ncal_time " . $events[$i]['cal_time'] . "<br>\n";
       $sy = substr ( $date, 0, 4 );
       $sm = substr ( $date, 4, 2 );
       $sd = substr ( $date, 6, 2 );
       $next_day = date ( ( "Ymd" ), mktime ( 3, 0, 0, $sm, $sd + 1, $sy ) );
-      //echo "next_date = $next_day <br />\n";
+      //echo "next_date = $next_day <br>\n";
       if ( $events[$i]['cal_time'] == -1 ) {
   if ( $events[$i]['cal_date'] == $date ) {
           $ret[$n++] = $events[$i];
-          //echo "added event $events[$i][cal_id] <br />\n";
+          //echo "added event $events[$i][cal_id] <br>\n";
         }
       } else {
   if ( $events[$i]['cal_date'] == $date &&
           $events[$i]['cal_time'] > $cutoff ) {
           $ret[$n++] = $events[$i];
-          //echo "added event $events[$i][cal_id] <br />\n";
+          //echo "added event $events[$i][cal_id] <br>\n";
         } else if ( $events[$i]['cal_date'] == $next_day &&
           $events[$i]['cal_time'] <= $cutoff ) {
           $ret[$n++] = $events[$i];
-          //echo "added event $events[$i][cal_id] <br />\n";
+          //echo "added event $events[$i][cal_id] <br>\n";
         }
       }
     }
@@ -1816,7 +1816,7 @@ function query_events ( $user, $want_repeated, $date_filter, $cat_id = '' ) {
   // now order the results by time and by entry id.
   $sql .= " ORDER BY webcal_entry.cal_time, webcal_entry.cal_id";
 
-  //echo "<strong>SQL:</strong> $sql<br />\n";
+  //echo "<strong>SQL:</strong> $sql<br>\n";
   
   $res = dbi_query ( $sql );
   if ( $res ) {
@@ -2136,7 +2136,7 @@ function get_repeating_entries ( $user, $dateYmd, $get_unapproved=true ) {
   global $repeated_events;
   $n = 0;
   $ret = array ();
-  //echo count($repeated_events)."<br />\n";
+  //echo count($repeated_events)."<br>\n";
   for ( $i = 0; $i < count ( $repeated_events ); $i++ ) {
     if ( $repeated_events[$i]['cal_status'] == 'A' || $get_unapproved ) {
       if ( repeated_event_matches_date ( $repeated_events[$i], $dateYmd ) ) {
@@ -2200,7 +2200,7 @@ function repeated_event_matches_date($event,$dateYmd) {
     $whichWeekS = floor ( ( $dayS - $days_in_first_weekS ) / 7 );
     if ( $dowS >= $dowS1 && $days_in_first_weekS )
       $whichWeekS++;
-    //echo "dayS=$dayS;dowS=$dowS;dowS1=$dowS1;wWS=$whichWeekS<br />\n";
+    //echo "dayS=$dayS;dowS=$dowS;dowS1=$dowS1;wWS=$whichWeekS<br>\n";
     $mth  = date("m", $date);
     $yr   = date("Y", $date);
     $day  = date("d", $date);
@@ -2209,7 +2209,7 @@ function repeated_event_matches_date($event,$dateYmd) {
     $whichWeek = floor ( ( $day - $days_in_first_week ) / 7 );
     if ( $dow >= $dow1 && $days_in_first_week )
       $whichWeek++;
-    //echo "day=$day;dow=$dow;dow1=$dow1;wW=$whichWeek<br />\n";
+    //echo "day=$day;dow=$dow;dow1=$dow1;wW=$whichWeek<br>\n";
 
     if ((($yr - $yrS)*12 + $mth - $mthS) % $freq)
       return false;
@@ -2299,9 +2299,9 @@ function is_exception ( $date, $ex_days ) {
   $size = count ( $ex_days );
   $count = 0;
   $date = date ( "Ymd", $date );
-  //echo "Exception $date check.. count is $size <br />\n";
+  //echo "Exception $date check.. count is $size <br>\n";
   while ( $count < $size ) {
-    //echo "Exception date: $ex_days[$count] <br />\n";
+    //echo "Exception date: $ex_days[$count] <br>\n";
     if ( $date == $ex_days[$count++] )
       return true;
   }
@@ -2467,7 +2467,7 @@ function print_date_entries ( $date, $user, $ssi ) {
       echo "(" .
         translate("Week") . "&nbsp;" . week_number ( $dateu ) . ")</a>";
     }
-    print "<br />\n";
+    print "<br>\n";
     $cnt++;
   }
   
@@ -2555,7 +2555,7 @@ function print_date_entries ( $date, $user, $ssi ) {
  * @return bool True if the two times overlap, false if they do not
  */
 function times_overlap ( $time1, $duration1, $time2, $duration2 ) {
-  //echo "times_overlap ( $time1, $duration1, $time2, $duration2 )<br />\n";
+  //echo "times_overlap ( $time1, $duration1, $time2, $duration2 )<br>\n";
   $hour1 = (int) ( $time1 / 10000 );
   $min1 = ( $time1 / 100 ) % 100;
   $hour2 = (int) ( $time2 / 10000 );
@@ -2570,7 +2570,7 @@ function times_overlap ( $time1, $duration1, $time2, $duration2 ) {
   $tmins1end = $tmins1start + $duration1;
   $tmins2start = $hour2 * 60 + $min2;
   $tmins2end = $tmins2start + $duration2;
-  //echo "tmins1start=$tmins1start, tmins1end=$tmins1end, tmins2start=$tmins2start, tmins2end=$tmins2end<br />\n";
+  //echo "tmins1start=$tmins1start, tmins1end=$tmins1end, tmins2start=$tmins2start, tmins2end=$tmins2end<br>\n";
   if ( ( $tmins1start >= $tmins2end ) || ( $tmins2start >= $tmins1end ) )
     return false;
   return true;
@@ -2636,7 +2636,7 @@ function check_for_conflicts ( $dates, $duration, $hour, $minute,
   $sql .= " )";
   // make sure we don't get something past the end date of the
   // event we are saving.
-  //echo "SQL: $sql<br />\n";
+  //echo "SQL: $sql<br>\n";
   $conflicts = "";
   $res = dbi_query ( $sql );
   $found = array();
@@ -2698,7 +2698,7 @@ function check_for_conflicts ( $dates, $duration, $hour, $minute,
     echo translate("Database error") . ": " . dbi_error (); exit;
   }
   
-  //echo "<br />\nhello";
+  //echo "<br>\nhello";
   for ($q=0;$q<count($participants);$q++) {
     $time1 = sprintf ( "%d%02d00", $hour, $minute );
     $duration1 = sprintf ( "%d", $duration );
@@ -2712,7 +2712,7 @@ function check_for_conflicts ( $dates, $duration, $hour, $minute,
     //for performance reasons.
     $repeated_events=query_events($participants[$q],true,$date_filter);
     //for ($dd=0; $dd<count($repeated_events); $dd++) {
-    //  echo $repeated_events[$dd]['cal_id'] . "<br />";
+    //  echo $repeated_events[$dd]['cal_id'] . "<br>";
     //}
     for ($i=0; $i < count($dates); $i++) {
       $dateYmd = date ( "Ymd", $dates[$i] );
@@ -2797,11 +2797,11 @@ function calc_time_slot ( $time, $round_down = false ) {
     if ( $ret * $interval == $mins_since_midnight )
       $ret--;
   }
-  //echo "$mins_since_midnight / $interval = $ret <br />\n";
+  //echo "$mins_since_midnight / $interval = $ret <br>\n";
   if ( $ret > $TIME_SLOTS )
     $ret = $TIME_SLOTS;
 
-  //echo "<br />\ncalc_time_slot($time) = $ret <br />\nTIME_SLOTS = $TIME_SLOTS<br />\n";
+  //echo "<br>\ncalc_time_slot($time) = $ret <br>\nTIME_SLOTS = $TIME_SLOTS<br>\n";
   return $ret;
 }
 
@@ -2977,7 +2977,7 @@ function html_for_event_week_at_a_glance ( $id, $date, $time,
   //if ( $DISPLAY_ICONS == "Y" ) {
   //  $hour_arr[$ind] .= icon_text ( $id, true, true );
   //}
-  $hour_arr[$ind] .= "<br />\n";
+  $hour_arr[$ind] .= "<br>\n";
   if ( $login != $user && $access == 'R' && strlen ( $user ) ) {
     $eventinfo .= build_event_popup ( $popupid, $event_owner,
       translate("This event is confidential"), "" );
@@ -3048,7 +3048,7 @@ function html_for_event_day_at_a_glance ( $id, $date, $time,
       $last_slot = $ind;
   } else
     $ind = 9999;
-  //echo "time = $time <br />\nind = $ind <br />\nfirst_slot = $first_slot<br />\n";
+  //echo "time = $time <br>\nind = $ind <br>\nfirst_slot = $first_slot<br>\n";
 
   if ( empty ( $hour_arr[$ind] ) )
     $hour_arr[$ind] = "";
@@ -3160,7 +3160,7 @@ function html_for_event_day_at_a_glance ( $id, $date, $time,
     $hour_arr[$ind] .= "</dd>\n</dl>\n";
   }
 
-  $hour_arr[$ind] .= "<br />\n";
+  $hour_arr[$ind] .= "<br>\n";
 }
 
 /**
@@ -3181,7 +3181,7 @@ function print_day_at_a_glance ( $date, $user, $can_add=0 ) {
   if ( $user == "__public__" )
     $get_unapproved = false;
   if ( empty ( $TIME_SLOTS ) ) {
-    echo "Error: TIME_SLOTS undefined!<br />\n";
+    echo "Error: TIME_SLOTS undefined!<br>\n";
     return;
   }
 
@@ -3203,7 +3203,7 @@ function print_day_at_a_glance ( $date, $user, $can_add=0 ) {
   $interval = ( 24 * 60 ) / $TIME_SLOTS;
   $first_slot = (int) ( ( ( $WORK_DAY_START_HOUR - $TZ_OFFSET ) * 60 ) / $interval );
   $last_slot = (int) ( ( ( $WORK_DAY_END_HOUR - $TZ_OFFSET ) * 60 ) / $interval);
-  //echo "first_slot = $first_slot<br />\nlast_slot = $last_slot<br />\ninterval = $interval<br />\nTIME_SLOTS = $TIME_SLOTS<br />\n";
+  //echo "first_slot = $first_slot<br>\nlast_slot = $last_slot<br>\ninterval = $interval<br>\nTIME_SLOTS = $TIME_SLOTS<br>\n";
   $rowspan_arr = array ();
   $all_day = 0;
   for ( $i = 0; $i < count ( $ev ); $i++ ) {
@@ -3277,7 +3277,7 @@ function print_day_at_a_glance ( $date, $user, $can_add=0 ) {
   // want to show up in the 8:00-9:59 cell.
   $rowspan = 0;
   $last_row = -1;
-  //echo "First SLot: $first_slot; Last Slot: $last_slot<br />\n";
+  //echo "First SLot: $first_slot; Last Slot: $last_slot<br>\n";
   $i = 0;
   if ( $first_slot < 0 )
     $i = $first_slot;
@@ -3296,7 +3296,7 @@ function print_day_at_a_glance ( $date, $user, $can_add=0 ) {
         // this will move entries apart that appear in one field,
         // yet start on different hours
         for ( $u = $diff_start_time ; $u > 0 ; $u-- ) {
-          $hour_arr[$last_row] .= "<br />\n"; 
+          $hour_arr[$last_row] .= "<br>\n"; 
         }
         $hour_arr[$last_row] .= $hour_arr[$i];
         $hour_arr[$i] = "";
@@ -3313,7 +3313,7 @@ function print_day_at_a_glance ( $date, $user, $can_add=0 ) {
       "<td class=\"hasevents\">$hour_arr[9999]</td></tr>\n";
   }
   $rowspan = 0;
-  //echo "first_slot = $first_slot<br />\nlast_slot = $last_slot<br />\ninterval = $interval<br />\n";
+  //echo "first_slot = $first_slot<br>\nlast_slot = $last_slot<br>\ninterval = $interval<br>\n";
   for ( $i = $first_slot; $i <= $last_slot; $i++ ) {
     $time_h = (int) ( ( $i * $interval ) / 60 );
     $time_m = ( $i * $interval ) % 60;
@@ -3396,7 +3396,7 @@ function display_unapproved_events ( $user ) {
     }
   }
   $sql .= " )";
-  //print "SQL: $sql<br />\n";
+  //print "SQL: $sql<br>\n";
   $res = dbi_query ( $sql );
   if ( $res ) {
     if ( $row = dbi_fetch_row ( $res ) ) {
@@ -3406,7 +3406,7 @@ function display_unapproved_events ( $user ) {
         echo "<a class=\"nav\" href=\"list_unapproved.php";
         if ( $user != $login )
           echo "?user=$user\"";
-        echo "\">" . $str .  "</a><br />\n";
+        echo "\">" . $str .  "</a><br>\n";
       }
     }
     dbi_free_result ( $res );
@@ -3695,21 +3695,21 @@ function hextoint ( $val ) {
  */
 function decode_string ( $instr ) {
   global $offsets;
-  //echo "<br />\nDECODE<br />\n";
+  //echo "<br>\nDECODE<br>\n";
   $orig = "";
   for ( $i = 0; $i < strlen ( $instr ); $i += 2 ) {
-    //echo "<br />\n";
+    //echo "<br>\n";
     $ch1 = substr ( $instr, $i, 1 );
     $ch2 = substr ( $instr, $i + 1, 1 );
     $val = hextoint ( $ch1 ) * 16 + hextoint ( $ch2 );
-    //echo "decoding \"" . $ch1 . $ch2 . "\" = $val<br />\n";
+    //echo "decoding \"" . $ch1 . $ch2 . "\" = $val<br>\n";
     $j = ( $i / 2 ) % count ( $offsets );
-    //echo "Using offsets $j = " . $offsets[$j] . "<br />\n";
+    //echo "Using offsets $j = " . $offsets[$j] . "<br>\n";
     $newval = $val - $offsets[$j] + 256;
     $newval %= 256;
-    //echo " neval \"$newval\"<br />\n";
+    //echo " neval \"$newval\"<br>\n";
     $dec_ch = chr ( $newval );
-    //echo " which is \"$dec_ch\"<br />\n";
+    //echo " which is \"$dec_ch\"<br>\n";
     $orig .= $dec_ch;
   }
   //echo "Decode string: '$orig' <br/>\n";
@@ -3730,18 +3730,18 @@ function decode_string ( $instr ) {
  */
 function encode_string ( $instr ) {
   global $offsets;
-  //echo "<br />\nENCODE<br />\n";
+  //echo "<br>\nENCODE<br>\n";
   $ret = "";
   for ( $i = 0; $i < strlen ( $instr ); $i++ ) {
-    //echo "<br />\n";
+    //echo "<br>\n";
     $ch1 = substr ( $instr, $i, 1 );
     $val = ord ( $ch1 );
-    //echo "val = $val for \"$ch1\"<br />\n";
+    //echo "val = $val for \"$ch1\"<br>\n";
     $j = $i % count ( $offsets );
-    //echo "Using offsets $j = $offsets[$j]<br />\n";
+    //echo "Using offsets $j = $offsets[$j]<br>\n";
     $newval = $val + $offsets[$j];
     $newval %= 256;
-    //echo "newval = $newval for \"$ch1\"<br />\n";
+    //echo "newval = $newval for \"$ch1\"<br>\n";
     $ret .= bin2hex ( chr ( $newval ) );
   }
   return $ret;
@@ -3987,9 +3987,9 @@ function boss_must_approve_event ( $assistant, $boss ) {
  * @ignore
  */
 function fake_mail ( $mailto, $subj, $text, $hdrs ) { 
-  echo "To: $mailto <br />\n" .
-    "Subject: $subj <br />\n" .
-    nl2br ( $hdrs ) . "<br />\n" .
+  echo "To: $mailto <br>\n" .
+    "Subject: $subj <br>\n" .
+    nl2br ( $hdrs ) . "<br>\n" .
     nl2br ( $text );
 }
 
@@ -4659,7 +4659,7 @@ function add_duration ( $time, $duration ) {
   $h = $minutes / 60;
   $m = $minutes % 60;
   $ret = sprintf ( "%d%02d00", $h, $m );
-  //echo "add_duration ( $time, $duration ) = $ret <br />\n";
+  //echo "add_duration ( $time, $duration ) = $ret <br>\n";
   return $ret;
 }
 ?>

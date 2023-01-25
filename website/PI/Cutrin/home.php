@@ -151,10 +151,10 @@
 									<p align="left" style="line-height: 1.2";>
 										<strong><font size="4em">Juan Carlos Cutrin, PhD</font></strong>
 										<br><br> Research
-										Fellow,<br /> Molecular Imaging Center,<br /> Department of
-										Molecular Biotechnologies and Health Science,<br />
-										University of Torino,<br /> Via Nizza 52, <br /> Torino 10126, Italy<br /> Tel:
-										+39 011 6706473<br /> Fax: +39 011 6706458<br /> <a
+										Fellow,<br> Molecular Imaging Center,<br> Department of
+										Molecular Biotechnologies and Health Science,<br>
+										University of Torino,<br> Via Nizza 52, <br> Torino 10126, Italy<br> Tel:
+										+39 011 6706473<br> Fax: +39 011 6706458<br> <a
 											href="mailto:juancarlos.cutrin@unito.it">juancarlos.cutrin@unito.it</a>
 									</p>
 									</div>

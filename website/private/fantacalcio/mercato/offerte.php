@@ -48,13 +48,13 @@ if (isset($_POST['toCancel']))
 
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenPasswordBox' style='visibility: hidden'>
-		<br /> <br />
+		<br> <br>
 		<form method='post' id='passwordForm' action=''>
 			<fieldset class='noBorder'>
-				<span id='passwordBoxMainTitle'>PASSWORD</span><br /> <br /> <br />
+				<span id='passwordBoxMainTitle'>PASSWORD</span><br> <br> <br>
 				<input type='password' id='passwordField' name="PasswordOffer"
 					value='' autocomplete='off' onmouseup='enablePasswordButton();'
-					onkeyup='enablePasswordButton();' /> <br /> <br /> <br /> <input
+					onkeyup='enablePasswordButton();' /> <br> <br> <br> <input
 					type='button' id='passwordButton' value='Unlock'
 					onclick='sendUnlockForm();' disabled="disabled" /> <input
 					type='button' value='Close' onclick='hidePasswordBox();' /> <input
@@ -69,7 +69,7 @@ if (isset($_POST['toCancel']))
 		<!-- LISTA FILES -->
 		<p>Offerte presentate:</p>
 		<input class="button" type="submit" onclick="window.location.href='archivioOfferte.php';" value="Archivio">
-		<br />
+		<br>
 		<div id='listaOfferte'>
 			
 		<?php
@@ -135,7 +135,7 @@ if (isset($_POST['toCancel']))
 		?>
 		</div>
 		<!-- LISTA FILES -->
-		<br /> <br /> <br />
+		<br> <br> <br>
 
 		<!-- InstanceEndEditable -->
 	</div>

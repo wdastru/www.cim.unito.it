@@ -41,7 +41,7 @@
 
 							<div class="w3-col w3-half">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Carla Carrera</h1>
-								<p style="text-align:left;"><b>Research Fellow<br />
+								<p style="text-align:left;"><b>Research Fellow<br>
 								Institute of Biostructure and Bioimaging<br>
 								National Research Council of Italy<br>
 								<a href="../PI/Reineri/home.php" target="_blank" style="color:#dc6a10">
@@ -62,7 +62,7 @@
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												Ph.D. Biochemical Science, University of Torino, Italy<br />
+												Ph.D. Biochemical Science, University of Torino, Italy<br>
 												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
 											</p>
 					
@@ -92,7 +92,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706493<br /> 
+					Phone: +390116706493<br> 
 					E-mail: <a href="mailto:carla.carrera@unito.it"><span style="color:#007c92">carla.carrera@unito.it</span></a></p>
 					
 					</div>
@@ -117,7 +117,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

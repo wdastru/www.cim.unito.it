@@ -50,11 +50,11 @@
 								alt="Socrates" />
 						</div>
 						<div style="clear: both">
-							<br />
+							<br>
 							<h1 style="text-align: center">Intensive Programme 2009</h1>
 							<h1 style="text-align: center">Design, Synthesis and Validation
 								of Imaging Probes</h1>
-							<br />
+							<br>
 							<p style="font-weight: bold; font-size: 14px">Description</p>
 							<p>The purpose of the Intensive Programme (IP) in "Design,
 								Synthesis and Validation of Imaging Probes" is to develop an
@@ -178,9 +178,9 @@
 									</td>
 								</tr>
 							</table>
-							<br /> <br />
+							<br> <br>
 							<p style="font-weight: bold; font-size: 14px">Schedule</p>
-							<br />
+							<br>
 							<table>
 								<tr style="font-weight: bold">
 									<td style="width: 5%">Nr.</td>
@@ -266,7 +266,7 @@
 									<td>Departure</td>
 								</tr>
 							</table>
-							<br />
+							<br>
 							<p style="font-weight: bold; font-size: 14px">Location</p>
 							<p>The IP 2009 will take place from 7 to 18 September 2009.
 								Lectures will be helded at the Molecular Biotechnology Center,
@@ -315,7 +315,7 @@
 									</ul>
 								</li>
 							</ul>
-							<br />
+							<br>
 							<p style="font-weight: bold; font-size: 14px">Additional info /
 								News</p>
 							<ul>
@@ -341,7 +341,7 @@
 										<li>Peyre Kevin (Paris XI)</li>
 										<li>Ben Achour Nidhal (Paris XI)</li>
 										<li>Roose Dimitri (Univ. Antwerp)</li>
-										<li>Blangè Roy (Univ. Antwerp)</li>
+										<li>Blangï¿½ Roy (Univ. Antwerp)</li>
 										<li>Goossens Corentine (Univ. Mons)</li>
 										<li>Messagie Jonas (Univ. Antwerp)</li>
 										<li>Francois Katrien (Univ. Antwerp)</li>
@@ -365,7 +365,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>

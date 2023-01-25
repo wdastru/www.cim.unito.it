@@ -45,9 +45,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <h2 style="text-align:left"><a class='linkExternal' href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
                                     <p>
                                         <span class="underline">Meeting of Working Group 4 (Gerben Konings).</span>
-                                        <br />
+                                        <br>
                                         Location : Hotel Zuiderduin, Egmond aan Zee, The Netherlands.
-                                        <br />
+                                        <br>
                                         Date     : April 16-18, 2014
                                     </p>
                                 </li>
@@ -55,12 +55,12 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <h2 style="text-align:left"><a class='linkExternal' href="http://www.cost.eu/events/pemed/">Personalised Medicine: Better Healthcare for the Future - A Rational Approach Focusing on Bioinformatics, Medicinal Chemistry and Medicine</a></h2>
                                     <p>
                                         Location : Larnaca, Cyprus
-                                        <br />
+                                        <br>
                                         Date     : 17 - 22 June 2012
                                     </p>
                                 </li>
                             </ul>
-                            <br />
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -49,35 +49,35 @@
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<div id="publicationsContainer">
 								<a href='https://scholar.google.com/citations?user=UUy21EsAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Silvio Aime</b></a>
-								<br />                                                              
+								<br>                                                              
 								<a href='https://scholar.google.com/citations?user=za1fQwwAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Enzo Terreno</b></a>
-								<br /> 
+								<br> 
 								<a href='https://scholar.google.com/citations?user=GwU4wk4AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Simonetta Geninatti Crich</b></a>
-								<br /> 
+								<br> 
 								<a href='https://scholar.google.com/citations?user=RN1TohEAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Walter Dastru'</b></a>
-								<br />                                                              
+								<br>                                                              
 								<a href='https://scholar.google.com/citations?user=ibKYwMAAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Daniela Delli Castelli</b></a>
-								<br /> 
+								<br> 
 								<a href=''><b>Francesca Reineri</b></a>
-								<br />	                                                             
+								<br>	                                                             
 								<a href='https://scholar.google.com/citations?user=Lu_4eBIAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Alessandra Viale</b></a>
-								<br />				                                                             
+								<br>				                                                             
 								<a href='https://scholar.google.com/citations?user=WEQvUlMAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Eliana Gianolio</b></a>
-								<br />                                                              
+								<br>                                                              
 								<a href='https://scholar.google.com/citations?user=euGug2wAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Dario Longo</b></a>								
-								<br /> 
+								<br> 
 								<a href=''><b>Juan Carlos Cutrin</b></a>								
-								<br />   
+								<br>   
 								                                                           
 								<a href='https://scholar.google.com/citations?user=nYlL2XgAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Valeria Menchise</b></a>
-								<br />								                                                           								
+								<br>								                                                           								
 								
 								<a href='https://scholar.google.com/citations?user=9aBErO8AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Mauro Botta</b></a>
-								<br />
+								<br>
 								<a href='https://scholar.google.com/citations?user=gjln1k0AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Lorenzo Tei</b></a>
-								<br />
+								<br>
 								<a href='https://scholar.google.com/citations?user=o9WVftoAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Giuseppe Digilio</b></a>
-								<br />
+								<br>
 							</div>
 						</div>
 						<!-- InstanceEndEditable -->
@@ -90,7 +90,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

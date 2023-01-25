@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
         <h1 class="title">SUPERCOPPA 2009</h1>
-        <br />
+        <br>
         <table align="center" width="500" border="0">
           <tr>
             <td><table align="center" width="150" border="0">
@@ -84,7 +84,7 @@
             <td>&nbsp;</td>
           </tr>
         </table>
-        <p>  Lokomotiv Peccorino : 2 ( 75 : PELLISSIER, TEDESCO )<br />
+        <p>  Lokomotiv Peccorino : 2 ( 75 : PELLISSIER, TEDESCO )<br>
  Real Mentescars   : 1 ( 70.5 : MICCOLI )</p>
         <!-- InstanceEndEditable --></div>
 

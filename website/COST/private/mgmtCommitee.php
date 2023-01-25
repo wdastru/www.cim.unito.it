@@ -41,7 +41,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <div class='paddingInner'>
                             <div id='costContainer'></div>
-                            <br />
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

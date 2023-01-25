@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">RISULTATI FANTACALCIO NMR 2000/01</h1>
-      <br />
+      <br>
       <h2 class="giornata">I</h2>
       <table class="risultati">
         <tr class="odd">

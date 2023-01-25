@@ -26,11 +26,11 @@ include("classifica0910.inc.php");
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">XI Campionato Fantacalcio NMR 2009/10</h1>
-        <br />
-        <br />
+        <br>
+        <br>
         <h2 class='firstClass'>1&deg; Classificato: </h2>
         <h2 class="title">REAL MENTESCARS</h2>
-        <br />
+        <br>
 
 <?php
 

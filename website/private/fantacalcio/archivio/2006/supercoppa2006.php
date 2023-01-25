@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">SUPERCOPPA 2006</h1>
-      <br />
+      <br>
             <table align="center" width="300" border="0"><tr><td>
             <table align="center" width="150" border="0">
               <tr>

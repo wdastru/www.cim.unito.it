@@ -48,7 +48,7 @@ $localizer = "../";
 							processing preclinical medical images is available at <a
 								href="http://eubi-xnat.hpc4ai.unito.it"
 								target="_blank"
-								style="color: #dc6a10">EUBI-XNAT</a>. <br />
+								style="color: #dc6a10">EUBI-XNAT</a>. <br>
 							Small animal imaging facilities are highly specialized centers
 							that provide the research community access to cutting-edge
 							imaging technologies. These centers have therefore to deal with
@@ -56,7 +56,7 @@ $localizer = "../";
 							terms of archiving and retrieving image datasets as well as for
 							the management and processing. To date, no custom or standard
 							solutions are available to imaging centers to fullfill these
-							tasks.<br /> XNAT natively supports multiple imaging modalities,
+							tasks.<br> XNAT natively supports multiple imaging modalities,
 							such as MR, PET, CT, and US. We are extending XNAT datatypes to
 							other preclinical imaging modalities, such as Optoacoustic (OA)
 							and Optical Imaging (OI).</br>
@@ -86,8 +86,8 @@ $localizer = "../";
 							</ul>
 						</p>
 
-						<img src="../images/research_lines/xnat_workflow.png"></img> <br />
-						<br /> In the near future, we offer the following services:
+						<img src="../images/research_lines/xnat_workflow.png"></img> <br>
+						<br> In the near future, we offer the following services:
 						<ul>
 							<li>Each user can, after registration, create his/her own
 								projects and upload DICOM data.</li>
@@ -110,7 +110,7 @@ $localizer = "../";
 								href="../staff/staff_zullino.php"> <b>Sara Zullino</b></a>
 						</p>
 
-						<font size="3"> <b>Acknowledgements</b> <br /></font>
+						<font size="3"> <b>Acknowledgements</b> <br></font>
 						<p class="indent">
 							<a
 								href="https://www.corbel-project.eu/home.html"
@@ -136,7 +136,7 @@ $localizer = "../";
 						</p>
 
 
-						<font size="3"> <b>Links/References</b> <br /></font>
+						<font size="3"> <b>Links/References</b> <br></font>
 						</p>
 						<p class="indent">
 							XNAT home page: <a
@@ -195,7 +195,7 @@ $localizer = "../";
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>

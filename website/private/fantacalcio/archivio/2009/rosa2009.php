@@ -21,8 +21,8 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
         <h1 class="title">REAL MENTESCARS 2008/09</h1>
-        <br />
-        <br />
+        <br>
+        <br>
         <table class="rosa">
           <colgroup span="4">
           <col width="200"/>
@@ -87,7 +87,7 @@
             </tr>
           </tbody>
         </table>
-        <br />
+        <br>
         <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

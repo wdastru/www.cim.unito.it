@@ -39,7 +39,7 @@ $localizer = "../";
                             </p>
                             <ul>
                                 <li><b>The fibrin target</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         We are working on a system made of a peptide and
                                         four Gd complexes and trying to optimize both the binding affinity
@@ -50,7 +50,7 @@ $localizer = "../";
                                         be used for different applications.
                                     </p></li>
                                 <li><b>The XIII factor target</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         A previous work permitted us to identify a
                                         peptide which is an optimal substrate for such enzime, and give
@@ -59,7 +59,7 @@ $localizer = "../";
                                         Gd-chelate in order to obtain a forming-trombus reporter.
                                     </p></li>
                                 <li><b>The -SH target</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         The easy oxidation of the thiolic function
                                         represent an excellent indicator of the redox state of the
@@ -71,7 +71,7 @@ $localizer = "../";
                                         could have interesting diagnostic implications.
                                     </p></li>
                                 <li><b>The MMPs target</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         The Matrix Metallo Proteases are enzimes that are
                                         present in a number of tissutal remodeling situations and represent
@@ -113,7 +113,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

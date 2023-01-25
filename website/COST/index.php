@@ -43,14 +43,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div style="padding: 0 27%">
                                 <a class='linkExternal' href="http://www.cost.eu/domains_actions/cmst/Actions/TD1004"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
-                            <br />
-                            <br />
+                            <br>
+                            <br>
                             <h2> COST Action TD1004
-                            <br />
+                            <br>
                             THERANOSTICS IMAGING AND THERAPY: AN
                             ACTION TO DEVELOP NOVEL NANOSIZED SYSTEMS FOR IMAGING-GUIDED DRUG
                             DELIVERY </h2>
-                            <br />
+                            <br>
                             <p>
                                 The proposed Action brings together the major European research
                                 groups working on the development of novel combined
@@ -75,9 +75,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 personalized medicine, thus considerably extending the armoury of
                                 solutions for successfully combating the diseases.
                             </p>
-                            <br />
+                            <br>
                             <a href="<?php echo $localizer . 'COST/MoU.pdf'?>"><strong>Memorandum of Understanding</strong></a>
-                            <br />
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

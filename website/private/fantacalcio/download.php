@@ -40,7 +40,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">FANTA CALCOLATORE</h1>
-		<br />
+		<br>
 
 		<table id='downloads' style="margin: auto; padding: 10px;">
       <!-- <tr><td><img class='new' src='figure/new.gif'></td><td class='left'><a href="download/FantaCalcGui_v3.5.0_Setup.zip">FantaCalcGui v3.5.0 (installer)</a></td></tr> -->
@@ -48,11 +48,11 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
     </table>
 
 
-		<br /> <br />
+		<br> <br>
 		<h1 class="title">FILES GAZZETTA</h1>
-		<br /> <input class='button' type="submit"
-			onclick="window.location.href='uploader.php';" value="Upload" /> <br />
-		<br />
+		<br> <input class='button' type="submit"
+			onclick="window.location.href='uploader.php';" value="Upload" /> <br>
+		<br>
 				
 		<?php
 
@@ -171,7 +171,7 @@ $numeriRomani = array( "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX
 		     
 		}
 		?>
-		<br />
+		<br>
 		<!-- InstanceEndEditable -->
 	</div>
 

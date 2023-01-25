@@ -27,7 +27,7 @@
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">SUPERCOPPA 2013</h1>
-		<br />
+		<br>
 		<table align="center" width="500" border="0">
 			<tr>
 				<td><table align="center" width="150" border="0">

@@ -82,7 +82,7 @@ else
 		<input type='file' name='file1' id='file1' />
 		<input type='hidden' name='dir' value='" . $relocate_string;
 	echo "777/filesGazzetta/' />
-		<br /><br /> 
+		<br><br> 
 		<input type='hidden' name='submitted' value='1' />
 		<input type='submit' name='submit' value='Submit' />
 	<input type='Password' name='Password' value='";

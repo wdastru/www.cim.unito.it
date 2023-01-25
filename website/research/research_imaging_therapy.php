@@ -35,20 +35,20 @@ $localizer = "../";
                                 The synergy between Imaging and Therapy gave the birth to the neologism &quot;Theranosis&quot; that represents a new research area where imaging is not merely used for diagnostic purposes,
                                  but it offers to pharmacologists and physicians a robust tool for assessing the therapeutic outcome.
                                 Typical applications of Theranosis include the in vivo assessment of drug biodistribution and accumulation at the target site, visualization of the drug release from a given nanocarrier,
-                                 and real-time monitoring of the therapeutic effect.<br />
+                                 and real-time monitoring of the therapeutic effect.<br>
                                 Most of the theranostic procedures requires the use of specific imaging probes, named theranostic agents. The expected end-point of theranostic agents is to provide a fundamental 
                                 support for the optimization of innovative diagnostic and therapeutic strategies that could significantly contribute to achieve important advances in the field of the &quot;personalized
-                                 medicine&quot;.<br />
+                                 medicine&quot;.<br>
                                 Theranosis is intimately linked with nanomedicine, because nanocarriers, besides improving the therapeutic index of a drug and reducing side effects, can be easily loaded with imaging
                                  probes. First, the imaging-detectable nanocarrier can be administered without the drug to evaluate its ability to reach the biological target. Then, the theranostic nanomedicine 
-                                 can be injected and imaging can monitor the effective delivery of the drug as well as its release from the nanocarrier.<br />
+                                 can be injected and imaging can monitor the effective delivery of the drug as well as its release from the nanocarrier.<br>
                                 Another important application area of Theranosis is the support that imaging provides to cellular and regenerative therapies. Here, in general, therapeutic cells are labelled with
-                                 imaging probes that make possible to localize with accuracy the transplantation site of the cells or to track the destiny of cells after their injection.<br />
+                                 imaging probes that make possible to localize with accuracy the transplantation site of the cells or to track the destiny of cells after their injection.<br>
                                 However, imaging can support not only pharmacological or cellular therapies, but can have a strong and beneficial impact on surgery. Most of the clinical interventional procedures 
                                 are guided by human vision and perception. However, human eyes are not sensitive or accurate enough in detecting the cellular or molecular signature of a given disease. 
-                                For this reason, advanced optical and opto-acoustic methods have been considering to complement human vision for making clinical decision during interventions.<br /><br />
+                                For this reason, advanced optical and opto-acoustic methods have been considering to complement human vision for making clinical decision during interventions.<br><br>
                                 
-                                In our Center, several theranostic procedure have been developed and preclinically validated aimed at: <br />
+                                In our Center, several theranostic procedure have been developed and preclinically validated aimed at: <br>
                                 
                                 <ul>
                                 <li>monitoring by MRI the biodistribution of a drug transported by a given nanocarrier (liposomes, PLGA micelles, apoferritin)</li>
@@ -81,7 +81,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

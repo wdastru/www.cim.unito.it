@@ -41,16 +41,16 @@
                             </div>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <div style="clear:both">
-                                <br />
+                                <br>
                                 <h1 style="text-align:center">COST Action TD1004</h1>
                                 <h1 style="text-align:center; line-height: 30px;">"Theragnostics Imaging and Therapy:
-                                <br />
+                                <br>
                                 An Action to Develop Novel Nanosized Systems for Imaging-Guided Drug Delivery "</h1>
                                 <h2 style="text-align:center">February 17-18, 2012
-                                <br />
+                                <br>
                                 </h2>
                                 <h3>Molecular Biotechnology Center, University of Torino</h3>
-                                <br />
+                                <br>
                                 <div id='scientific_program' style="line-height: 30px;">
                                     <p style="font-weight:bold; font-size:14px">
                                         SCIENTIFIC PROGRAM
@@ -62,7 +62,7 @@
                                                 <li> 12:00 - 12:45 : <b>Kent Hung</b> (BE) - COST Officer </li>
                                                 <li> 12:45 - 13:45 : <i>Lunch break</i></li>
                                                 <li> 13:45 - 16:00 : <b>WG1 &quot;Imaging reporters for theranostic agents&quot;</b>
-                                                    <br />
+                                                    <br>
                                                     moderator: <b>Renata Mikolajczak</b> (PL)
                                                     <ul>
                                                         <li><a href="documents/Prof. Aime 1 17- 2-12/ROESCH Torino COST_HPMA.pdf"><b>Frank R&ouml;sch</b> (DE): In vitro and in vivo evaluation of 18F-labelled HPMA polymeric architectures as potential carrier systems of drugs.</a></li>
@@ -75,7 +75,7 @@
                                                     </ul></li>
                                                 <li> 16:00 - 16:30 : <i>Coffee break</i></li>
                                                 <li> 16:30 - 19:30 : <a href="documents/aime 2 17 2 12/schmid_Intro WG2.pdf"><b>WG2 &quot;Nanocarrires for theranostic agents&quot;</b></a>
-                                                    <br />
+                                                    <br>
                                                     moderator: <b>Ruth Schmid</b> (NO)
                                                     <ul>
                                                         <li><a href="documents/aime 2 17 2 12/Maria Blanco Prieto-Torino-Cost action.pdf"><b>Maria Blanco Prieto</b> (ES): Nanotherapy and biomaterials</a></li>
@@ -89,13 +89,13 @@
                                                 <li><b>Adjournment</b></li>
                                                 <li> 20:30 : <i>Social dinner (offered by Bracco Imaging SpA)</i></li>
                                             </ul>
-                                            <br />
+                                            <br>
                                         </li>
                                         <li> SATURDAY, 18<sup>th</sup> February 2012 </li>
                                         <li style="list-style: none">
                                             <ul>
                                                 <li> 8.30 - 10.15: <a href="documents/prof aime 1 18 2 2012/muller Intro WG3.pdf"> <b>WG3 &quot;Preparation and selection of targeting vectors&quot;</b> </a>
-                                                    <br />
+                                                    <br>
                                                     moderator: <b>Robert Muller</b> (BE)
                                                     <ul>
                                                         <li><b>Fabian Kiessling</b> (DE): Multimodal microbubbles for molecular imaging and theranostics </li>
@@ -106,7 +106,7 @@
                                                     </ul></li>
                                                 <li> 10:15 - 10:45 : <i>Coffee break</i></li>
                                                 <li> 10:45 - 13:00 : <b>WG4 &quot;Theranostic agents responsive to endogenous and external stimuli&quot;</b>
-                                                    <br />
+                                                    <br>
                                                     moderator: <b>Gerben Koning</b> (NL)
                                                     <ul>
                                                         <li><b>Eric All&eacute;mann</b> (CH): Ultrasound bubbles for diagnostics and therapy </li>
@@ -125,15 +125,15 @@
                                                         <li><a href="documents/prof aime 3 18 2 2003/12.02.18.NBeziere.Torino2.pdf"><b>Nicolas Beziere</b> (DE): Optoacoustic imaging - achievements and perspectives</a></li>
                                                     </ul></li>
                                                 <li> 15:00 - 15:45 : <b>Round table: The industrial view</b>
-                                                    <br />
+                                                    <br>
                                                     moderator: <b>Silvio Aime</b> (IT) </li>
                                                 <li> 15:45 - 16:15 : <i>Coffee break and Conclusion of the Scientific Meeting</i></li>
                                                 <li> 16:15 - 17:30 : <b>MC Meeting</b></li>
                                             </ul></li>
                                     </ul>
                                 </div>
-                                <br />
-                                <br />
+                                <br>
+                                <br>
                             </div>
                             <!-- InstanceEndEditable -->
                         </div>
@@ -147,7 +147,7 @@
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -58,30 +58,30 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
  ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenBox' style='width:600px; display: none; visibility: hidden'>
-		<br />
+		<br>
 		<div id='hiddenBoxTitleBox'>
 			<span id='squadra1'>squadra1</span>
 			<span id='hiddenBoxHyphen'> - </span>
 			<span id='squadra2'>squadra2</span>
 		</div>
-		<br /> <br />
+		<br> <br>
 		<form method='post' id='formRisultati' action=''>
 			<fieldset class='noBorder'>
 				<input class='button' type='button' id='sendButton' value='Send'
 					onclick='validate( "coppa" )' /> <input id='closeBtn' class='button' type='button'
 					value='Close this box!' onclick='hideBox();' /> <input class='button'
-					type='button' value='Reset' onclick="resetFields();" /> <br /> <br />
+					type='button' value='Reset' onclick="resetFields();" /> <br> <br>
 				Goal Squadra A : <input type='text' name='goalA' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Goal
+					onkeyup="goals();" onmousedown="goals();" /> <br> <br> Goal
 				Squadra B : <input type='text' name='goalB' value=''
-					onkeyup="goals();" onmousedown="goals();" /> <br /> <br /> Punti
-				Squadra A : <input type='text' name='puntiA' value='' /> <br /> <br />
-				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br />
-				<br /> <br /> Marcatori:<br /> <br /> <input class='button' type='button'
+					onkeyup="goals();" onmousedown="goals();" /> <br> <br> Punti
+				Squadra A : <input type='text' name='puntiA' value='' /> <br> <br>
+				Punti Squadra B : <input type='text' name='puntiB' value='' /> <br>
+				<br> <br> Marcatori:<br> <br> <input class='button' type='button'
 					style="display: inline" value='Aggiungi un marcatore'
 					onclick='manualAddField();' />&nbsp;<input class='button' type='button'
 					style="display: inline" value='Togli un marcatore'
-					onclick='manualDeleteField();' /> <br /> <br />
+					onclick='manualDeleteField();' /> <br> <br>
 					<?php
 					for ($i = 0; $i < 20; $i++)
 						echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
@@ -107,7 +107,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 	include $relocate_string . 'readDatiCoppa.php';
 	?>
 		<h1 class="title">FANTACOPPA NMR 2013/14</h1>
-		<br /> <br />
+		<br> <br>
 		<!-- fase a gruppi -->
 		<table id='coppa_gruppi'>
 		<?php
@@ -158,13 +158,13 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 		?>
 		</table>
 		<!-- fase a gruppi -->
-		<br />
+		<br>
 		<!-- classifiche avulse -->
 		<div id='avulse_wrapper'>
 			<!--<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse'
 				onclick='toggleAvulse();' /> --> 
 			<input class='button' id="avulseToggleButton" type='button' value='Mostra/Nascondi classifiche avulse' /> 
-				<br /> <br />
+				<br> <br>
 			<div id='avulse'>
 				<table id='avulsa0' class='classifica'>
 					<tr class='tableline'>
@@ -203,7 +203,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 					?>
 					</tr>
 				</table>
-				<br /> <br />
+				<br> <br>
 				<table id='avulsa1' class='classifica'>
 					<tr class='tableline'>
 					<?php
@@ -229,7 +229,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 					?>
 					</tr>
 				</table>
-				<br /> <br />
+				<br> <br>
 				<table id='avulsa2' class='classifica'>
 					<tr class='tableline'>
 					<?php
@@ -267,7 +267,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 					?>
 					</tr>
 				</table>
-				<br /> <br />
+				<br> <br>
 				<table id='avulsa3' class='classifica'>
 					<tr class='tableline'>
 					<?php
@@ -306,10 +306,10 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 					?>
 					</tr>
 				</table>
-				<br /> <br />
+				<br> <br>
 			</div>
 		</div>
-		<br />
+		<br>
 		<!-- classifiche avulse -->
 		
 		<br/>
@@ -405,7 +405,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 			</tr>
 		</table>
 		<!-- classifiche gruppi -->
-		<br /> <br />
+		<br> <br>
 		<!-- semifinali -->
 		<table id='semifinali_coppa'>
 
@@ -452,7 +452,7 @@ require $relocate_string . 'archivio/2014/calendarioCoppa1314.inc.php';
 
 		</table>
 		<!-- semifinali -->
-		<br />
+		<br>
 
 		<!-- finali -->
 		<table id='finali_coppa'>

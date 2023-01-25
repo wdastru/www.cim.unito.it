@@ -83,7 +83,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
 			<h1 class="title">CLASSIFICA</h1>
-			<br />
+			<br>
 			
 			<?php
 			/*
@@ -275,14 +275,14 @@ xmlns="http://www.w3.org/1999/xhtml">
 			/*echo 
 			<div id='avulse_wrapper'>
 				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
-				<br /><br />
+				<br><br>
 				<div id='avulse'>";
 			 */
 
 			echo "
 			<div id='avulse_wrapper'>
 				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' />
-				<br /><br />
+				<br><br>
 				<div id='avulse'>";
 
 			// --> risoluzione gruppi

@@ -138,7 +138,7 @@ $localizer = "../../../";
                         <input type='hidden' name='oldphrase_H'   value='<?php echo $_POST['phrase_H2edit']; ?>'/>
                         <input type='hidden' name='oldphrase_R'   value='<?php echo $_POST['phrase_R2edit']; ?>'/>
                         <input type='hidden' name='oldlink'       value='<?php echo $_POST['link2edit'    ]; ?>'/>
-                        <br />                         
+                        <br>                         
                         <input type='submit' name='submit' value='Edit' />
                     </form>
 						<!-- InstanceEndEditable name="subsection content" -->
@@ -151,7 +151,7 @@ $localizer = "../../../";
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>

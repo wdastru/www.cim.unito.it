@@ -41,9 +41,9 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorenzo Tei</h1>
-								<p style="text-align:left;"><b>Associate Professor<br />
-								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br />
-								Amedeo Avogadro University of Eastern Piedmont<br />
+								<p style="text-align:left;"><b>Associate Professor<br>
+								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br>
+								Amedeo Avogadro University of Eastern Piedmont<br>
 								<a href="https://upobook.uniupo.it/lorenzo.tei" target="_blank" style="color:#dc6a10">
 								 Academic profile</a>
 								</b></p>
@@ -73,27 +73,27 @@
 					
 					Synthesis, characterization and biomedical applications of polyaminocarboxylic ligands whose metal complexes are used as contrast agents for
 					 Magnetic Resonance Imaging (MRI) or Positron Emission Tomography (PET). Design and synthesis of novel ligands for optimization of contrast agent 
-					 efficiency. Synthesis of functionalized systems for bioconjugation to biological carriers.<br />
+					 efficiency. Synthesis of functionalized systems for bioconjugation to biological carriers.<br>
 
-<b>Multimodal Molecular Imaging Probes.</b><br /> 
+<b>Multimodal Molecular Imaging Probes.</b><br> 
 A molecular imaging probe allows the identification of pathological abnormalities at the genetic, cellular and molecular level. The chemical probe consists of a part 
 responsible for the generation of the signal detected externally (eg. Gd&minus; or Mn&minus;complexes for MRI, 68Ga complexes or compounds containing the 18F for PET, 
-fluorescent compounds for optical imaging) and a part responsible for the molecular recognition of the pathology, able to differentiate diseased from healthy tissues.<br />
+fluorescent compounds for optical imaging) and a part responsible for the molecular recognition of the pathology, able to differentiate diseased from healthy tissues.<br>
 
-<b>Functionalized Nanosystems for diagnostic and/ or theranostic applications.</b> <br />
+<b>Functionalized Nanosystems for diagnostic and/ or theranostic applications.</b> <br>
 Nanosystems of various nature (for example: mesoporous silica nanoparticles, liposomes, micelles, proteins, metal oxides) are used to accumulate a large number of 
 contrast agents and carry them on the site of interest to visualize a given pathology through diagnostic techniques such as MRI or Photoacoustic imaging.
- When these particles are also loaded with specific drugs they become theranostic systems (combination of diagnosis and therapy).<br />
+ When these particles are also loaded with specific drugs they become theranostic systems (combination of diagnosis and therapy).<br>
 
-<b>NMR characterization of paramagnetic agents.</b><br />
+<b>NMR characterization of paramagnetic agents.</b><br>
  The efficiency of a contrast agent must be optimized both in terms of thermodynamic and kinetic stability to avoid release of metal ions in vivo and in terms of 
  effective response from the diagnostic technique used. Thus, we synthesize new types of chelating agents that can improve efficiency without losing stability. 
- The MRI efficiency is measured by means of NMR relaxometric techniques.<br />
+ The MRI efficiency is measured by means of NMR relaxometric techniques.<br>
 
-<b>Synthesis of porous aromatic hyper-crosslinked polymers for gas storage.</b><br />
+<b>Synthesis of porous aromatic hyper-crosslinked polymers for gas storage.</b><br>
  Development of new porous hyper-crosslinked aromatic polymers capable of adsorbing, and then store high amounts of gases such as H2, CH4, CO2. 
  These gases are of great interest for the gas storage, energy production and automotive industries. The synthesis and characterization of these materials have the 
- objective to increase the surface area and the total pore volume in order to optimize the adsorption capacity of gas and aromatic molecules.<br />
+ objective to increase the surface area and the total pore volume in order to optimize the adsorption capacity of gas and aromatic molecules.<br>
 					
 					</p>
 					</div>
@@ -113,7 +113,7 @@ contrast agents and carry them on the site of interest to visualize a given path
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Viale Teresa Michel 11, 15121 Alessandria <br/>
-					Phone: +39 0131 360 208 <br /> 
+					Phone: +39 0131 360 208 <br> 
 					E-mail: <a href="mailto:lorenzo.tei@uniupo.it"><span style="color:#007c92">lorenzo.tei@uniupo.it</span></a></p>
 					
 					</div>
@@ -138,7 +138,7 @@ contrast agents and carry them on the site of interest to visualize a given path
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

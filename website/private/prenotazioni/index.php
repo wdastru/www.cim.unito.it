@@ -68,15 +68,15 @@ xmlns="http://www.w3.org/1999/xhtml">
 			<div id='newPrenoBox' class='shadow' style='visibility: hidden'>
 				<h1>PRENOTAZIONE</h1>
 				<span>&nbsp;</span>
-				<br />
-				<br />
+				<br>
+				<br>
 				<form method="post" action='db.php' id='xRemove'>
 					<span> Utente:
 						<input type="text" name="utente" id='user'
 						onkeyup="noUserCheck();" />
 					</span><span id='warning'>(!)</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<?php     echo "<span id='toRemove'>Fino alle: <select id='select' name='oraEnd'> ";
 						for ($i = 0; $i < count($ore); $i++) {
 							echo " <option id='o" . $ore[$i] . "' value=\"";
@@ -87,13 +87,13 @@ xmlns="http://www.w3.org/1999/xhtml">
 						}
 						echo " <option id='o2100' value='2100'> notte </option>";
 						echo "
-</select><br /><br /></span>";
+</select><br><br></span>";
 					?>
 					<span>Note:
 						<input type="text" name="note" />
 					</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span>Colore: </span>
 					<div class='colorBox' style='background-color: #CCCCFF'>
 						<input class='colorBox' type='radio' name='color' value='CCCCFF' />
@@ -134,8 +134,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 					<div class='colorBox' style='background-color: #FFFFFF'>
 						<input class='colorBox' type='radio' name='color' value='FFFFFF' />
 					</div>
-					<br />
-					<br />
+					<br>
+					<br>
 					<input type="hidden" name="tipo" value="" />
 					<input
 					type="hidden" name="data" value="" />
@@ -144,7 +144,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					<input class="button" type="submit"
 					id='submit' value="Invia" onclick="aBoxIsOn = false;" />
 				</form>
-				<br />
+				<br>
 				<form action="db.php" method="post" target="_self">
 					<input type="hidden" name="tipo" value="skip" />
 					<input
@@ -156,51 +156,51 @@ xmlns="http://www.w3.org/1999/xhtml">
 			<!-- end of newPrenoBox div -->
 			<div id='cancPrenoBox' class='shadow' style='visibility: hidden'>
 				<h1>CANCELLAZIONE</h1>
-				<br />
+				<br>
 				<div id='giorno'>
 					<span>La prenotazione del</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span class='enfasi'>&nbsp;</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span>dalle ore&nbsp;</span><span class='enfasi'>&nbsp;</span>
 					<span>&nbsp;alle ore&nbsp;</span><span class='enfasi'>&nbsp;</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span>sta per essere cancellata, confermi?</span>
-					<br />
-					<br />
+					<br>
+					<br>
 				</div>
 				<div id='notte'>
 					<span>La prenotazione del</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span class='enfasi'>&nbsp;</span><span
 					class="enfasi">&nbsp;(notte)</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span>sta per
 						essere cancellata, confermi?</span>
-					<br />
-					<br />
+					<br>
+					<br>
 				</div>
 				<div id='giornonotte'>
 					<span>La prenotazione del</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span class='enfasi'>&nbsp;</span>
-					<br />
-					<br />
+					<br>
+					<br>
 					<span>dalle ore&nbsp;</span><span class='enfasi'>&nbsp;</span>
 					<span class='enfasi'>(notte compresa)
-						<br />
-						<br />
+						<br>
+						<br>
 					</span><span>sta per essere cancellata, confermi?</span>
-					<br />
-					<br />
+					<br>
+					<br>
 				</div>
-				<br />
+				<br>
 				<form action="db.php" method="post" target="_self">
 					<input type="hidden" name="tipo" value="canc" />
 					<input
@@ -213,7 +213,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					<input
 					class="button" type="submit" value="Si" onclick="aBoxIsOn = false;" />
 				</form>
-				<br />
+				<br>
 				<form action="db.php" method="post" target="_self">
 					<input type="hidden" name="tipo" value="skip" />
 					<input
@@ -316,14 +316,14 @@ xmlns="http://www.w3.org/1999/xhtml">
 <div id='week'>";
 								echo "		<br/><span class='date'>&nbsp;&nbsp;&nbsp;";
 								echo date_to_str(date("Ymd", $wkstart), "", false) . "&nbsp; - &nbsp;" . date_to_str(date("Ymd", $wkend), "", false);
-								//echo "<br />&nbsp;&nbsp;&nbsp;(" . "Week" . " " . week_number($wkstart) . ")";
+								//echo "<br>&nbsp;&nbsp;&nbsp;(" . "Week" . " " . week_number($wkstart) . ")";
 								echo "</span>";
 								echo "</div>";
 								?>
 							</div>
 							<!-- end of header div -->
 							<div id='main'>
-								<?php     echo "<br />";
+								<?php     echo "<br>";
 								echo $generalWarning;
 								echo $warning[$_SESSION['strumento']];
 								?>
@@ -362,7 +362,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 									<?php
 									
 									if ($_SESSION['conflict'] == 1) {
-										echo "<div id='conflict'><br><div id='conflictMessage'><span id='conflictTitle'>ATTENZIONE !!!</span><br /><br />La prenotazione richiesta si sovrappone con una gi&agrave; presente nel database.<br />Non &eacute; stato salvato nulla. Si prega di riprovare.<br /><br /></div></div>";
+										echo "<div id='conflict'><br><div id='conflictMessage'><span id='conflictTitle'>ATTENZIONE !!!</span><br><br>La prenotazione richiesta si sovrappone con una gi&agrave; presente nel database.<br>Non &eacute; stato salvato nulla. Si prega di riprovare.<br><br></div></div>";
 										$_SESSION['conflict'] = 0;
 									}
                                     
@@ -553,7 +553,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 														$content .= "<strong>" . $row['User'] . "</strong>";
 														if ($row['Note'] != NULL) {
-															$content .= "<br />(" . $row['Note'] . ")";
+															$content .= "<br>(" . $row['Note'] . ")";
 															// se ci sono note
 														}
 														
@@ -608,7 +608,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 														$content .= "<strong>" . $row['User'] . "</strong>";
 														if ($row['Note'] != NULL) {
-															$content .= "<br />(" . $row['Note'] . ")";
+															$content .= "<br>(" . $row['Note'] . ")";
 															// se ci sono note
 														}
 														
@@ -631,7 +631,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								?>
 
 								</table>
-								<br />
+								<br>
 								</div>
 								<!-- end of table div -->
 								
@@ -643,7 +643,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 									mysql_close($con);
 								?>
 								
-								<br /><br />
+								<br><br>
 								</div>
 								<!-- end of main div -->
 								
@@ -657,7 +657,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 								<div id='after'></div>
 								<div id='footer'>
 								<p>
-								Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+								Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 								Fax. Tel. Mail
 								</p>
 								</div>

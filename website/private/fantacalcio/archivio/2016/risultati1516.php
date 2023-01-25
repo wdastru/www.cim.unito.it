@@ -42,44 +42,44 @@ require($relocate_string . "archivio/2016/calendario1516.inc");
 
     <!-- InstanceBeginEditable name="hiddenBox" -->
     <div id='hiddenBox' style='width:600px; display: none; visibility: hidden;'>
-      <br />
+      <br>
       <div id='hiddenBoxTitleBox'>
         <span id='squadra1'>squadra1</span><span id='hiddenBoxHyphen'> - </span><span
         id='squadra2'>squadra2</span>
       </div>
-      <br />
+      <br>
       <form method='post' id='formRisultati' action=''>
         <fieldset class='noBorder'>
           <input style="visibility: hidden" class='button' type='button' id='sendButton' value='Send' onclick='validate( "campionato" )' />
           <input id='closeBtn' class='button' type='button' value='Close this box!' onclick='hideBox();' />
           <input style="visibility: hidden" class='button' type='button' value='Reset' onclick="resetFields();" />
-          <br />
+          <br>
           Goal Squadra A :
           <input type='text' name='goalA' value='' onkeyup="goals();" onmousedown="goals();" />
-          <br />
-          <br />
+          <br>
+          <br>
           Goal
           Squadra B :
           <input type='text' name='goalB' value='' onkeyup="goals();" onmousedown="goals();" />
-          <br />
-          <br />
+          <br>
+          <br>
           Punti
           Squadra A :
           <input type='text' name='puntiA' value='' />
-          <br />
-          <br />
+          <br>
+          <br>
           Punti Squadra B :
           <input type='text' name='puntiB' value='' />
-          <br />
-          <br />
-          <br />
+          <br>
+          <br>
+          <br>
           Marcatori:
-          <br />
+          <br>
           <input style="visibility: hidden" class='button' type='button' style="display: inline" value='Aggiungi un marcatore' onclick='manualAddField();' />
           &nbsp;
           <input style="visibility: hidden" class='button' type='button' style="display: inline" value='Togli un marcatore' onclick='manualDeleteField();' />
-          <br />
-          <br />
+          <br>
+          <br>
           <?php
           for ($i = 0; $i < 20; $i++)
             echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
@@ -100,7 +100,7 @@ require($relocate_string . "archivio/2016/calendario1516.inc");
         
     for($giornataIdx = 0; $giornataIdx < 7; $giornataIdx++) // giornata 0-6
 		{
-			echo "<br />";
+			echo "<br>";
 			echo "<h2 class=\"giornata\">" . $giornata[$giornataIdx] . "</h2>\n";
 			echo "<div class=\"center\">\n";
 			echo "<table class=\"risultati\">\n";

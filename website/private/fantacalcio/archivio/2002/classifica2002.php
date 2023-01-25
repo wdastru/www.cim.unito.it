@@ -21,11 +21,11 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">III Campionato Fantacalcio NMR 2000-2001</h1>
-      <br />
-          <br />
+      <br>
+          <br>
           <h2 class='firstClass'>1&deg; Classificato: </h2>
           <h2 class="title">EPOREDIESE</h2>
-          <br />
+          <br>
       <table class="classifica">
         <tr class="tableline">
           <th>&nbsp;</th>

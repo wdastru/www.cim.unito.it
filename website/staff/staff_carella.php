@@ -41,9 +41,9 @@
 
 							<div class="w3-col w3-half">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Antonella Carella</h1>
-								<p style="text-align:left;"><b>Research Fellow<br />
-								Institute of Biostructure and Bioimaging<br />
-								National Research Council of Italy<br />
+								<p style="text-align:left;"><b>Research Fellow<br>
+								Institute of Biostructure and Bioimaging<br>
+								National Research Council of Italy<br>
 								<a href="../PI/Longo/home.php" target="_blank" style="color:#dc6a10">
 								 Longo Lab</a>
 								</b></p>
@@ -89,7 +89,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116709540<br /> 
+					Phone: +390116709540<br> 
 					E-mail: <a href="mailto:antonellacarella@gmail.com"><span style="color:#007c92">antonellacarella@gmail.com</span></a></p>
 					
 					</div>
@@ -114,7 +114,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

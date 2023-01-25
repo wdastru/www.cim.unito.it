@@ -98,7 +98,7 @@ $localizer = "../../";
 												of biologically relevant molecules, suitable for
 												parahydrogen hyperpolarization. Finally, the hyperpolarized
 												products are used for in vitro and in vivo studies of
-												different pathologies.<br />
+												different pathologies.<br>
 											</b>
 										</p>
 									</div>
@@ -123,11 +123,11 @@ $localizer = "../../";
 												align="left"
 												style="line-height: 1.2";>
 												<strong><font size="4em">Francesca Reineri, PhD</font></strong>
-												<br /> <br /> Assistance Professor<br /> Molecular Imaging
-												Center <br /> Department of Molecular Biotechnologies and
-												Health Science<br /> University of Torino <br /> Via Nizza
-												52<br /> 10126 Torino - Italy<br /> Tel: +39 011 6706473<br />
-												Fax: +39 011 6706458<br />
+												<br> <br> Assistance Professor<br> Molecular Imaging
+												Center <br> Department of Molecular Biotechnologies and
+												Health Science<br> University of Torino <br> Via Nizza
+												52<br> 10126 Torino - Italy<br> Tel: +39 011 6706473<br>
+												Fax: +39 011 6706458<br>
 												<a href="mailto:francesca.reineri@unito.it">francesca.reineri@unito.it</a>
 											</p>
 										</div>

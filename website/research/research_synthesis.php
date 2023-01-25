@@ -36,7 +36,7 @@ $localizer = "../";
                                 different approaches: from the design of imaging units endowed with enhanced sensitivity, to the development of high-affinity ligands and their conjugation to the targeting vector, 
                                 and to the control of the structural and electronic determinants responsible for the molecular recognition of the target molecule.
                                 Importantly, in case of metal-based imaging reporters, the observation of toxic effects related to fast release of the metal ion from the corresponding complex committed our research
-                                 towards the use and modification of chelates with high thermodynamic stability and most of all high kinetic inertness to allow their safe in vivo application.<br />
+                                 towards the use and modification of chelates with high thermodynamic stability and most of all high kinetic inertness to allow their safe in vivo application.<br>
                                 A more detailed explanation of the synthetic approaches developed in our laboratories is listed below:
                                 
                                  <ul>
@@ -109,7 +109,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

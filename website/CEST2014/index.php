@@ -45,7 +45,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     <br/>
                                     4<sup>th</sup> International Workshop on Chemical Exchange Saturation Transfer Imaging</h1>
     
-                                <br />
+                                <br>
                                 <p>
                                     After Turin (2010), Dallas (2011) and Annapolis (2012) the next CEST Workshop will be held again in Italy at the Bioindustry Park in Colleretto Giacosa 
                                     (55 km from Turin, Italy) on May 8-9<sup>th</sup>, 2014.
@@ -91,7 +91,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

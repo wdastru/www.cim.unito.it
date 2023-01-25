@@ -31,7 +31,7 @@ xmlns="http://www.w3.org/1999/xhtml">
     <div id="main">
       <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">STATISTICHE</h1>
-      <br />
+      <br>
 
       <?php
       $handle = fopen($relocate_string . '777/allTimeStats.txt', 'r');
@@ -109,7 +109,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 
         usort($stats, 'pointsSingle');
 
-        echo "<p>MAX points single team:</p><br />";
+        echo "<p>MAX points single team:</p><br>";
         echo "
   				<table style='margin:auto'>
   					<tr>
@@ -135,11 +135,11 @@ xmlns="http://www.w3.org/1999/xhtml">
           }
         }
         echo "</table>
-  				<br />";
+  				<br>";
 
         usort($stats, 'pointsTotal');
 
-        echo "<p>MAX points match:</p><br />";
+        echo "<p>MAX points match:</p><br>";
         echo "
   				<table style='margin:auto'>
   					<tr>
@@ -167,11 +167,11 @@ xmlns="http://www.w3.org/1999/xhtml">
             }
         }
         echo "</table>
-  				<br />";
+  				<br>";
 
         usort($stats, 'pointsDiff');
 
-        echo "<p>MAX points diff:</p><br />";
+        echo "<p>MAX points diff:</p><br>";
         echo "
   				<table style='margin:auto'>
   					<tr>
@@ -199,11 +199,11 @@ xmlns="http://www.w3.org/1999/xhtml">
             }
         }
         echo "</table>
-  				<br />";
+  				<br>";
 
         usort($stats, 'pointsSingleMin');
 
-        echo "<p>MIN points single:</p><br />";
+        echo "<p>MIN points single:</p><br>";
         echo "
   				<table style='margin:auto'>
   					<tr>
@@ -229,12 +229,12 @@ xmlns="http://www.w3.org/1999/xhtml">
           }
         }
         echo "</table>
-  				<br />";
+  				<br>";
 
         usort($stats, 'pointsTotalMin');
 
         
-        echo "<!--<p>MIN points match:</p><br />";
+        echo "<!--<p>MIN points match:</p><br>";
         echo "
   				<table style='margin:auto'>
   					<tr>
@@ -262,11 +262,11 @@ xmlns="http://www.w3.org/1999/xhtml">
             }
         }
         echo "</table>
-  				<br />-->";
+  				<br>-->";
 
         usort($stats, 'diffRetiMax');
 
-        echo "<p>MAX diff reti match:</p><br />";
+        echo "<p>MAX diff reti match:</p><br>";
         echo "
   				<table style='margin:auto'>
   					<tr>
@@ -295,7 +295,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         }
 
         echo "</table>
-				<br />";
+				<br>";
       ?>
     </div>
     <?php include $relocate_string . 'include/footer.inc.php'?>

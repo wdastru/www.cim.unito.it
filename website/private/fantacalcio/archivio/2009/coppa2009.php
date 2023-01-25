@@ -39,26 +39,26 @@
 				<!--<input type='hidden' value='Send'>&nbsp;&nbsp;&nbsp;-->
 				<input type='button' value='Close this box!'
 					onmousedown='hideBox();' />
-				<br />
-				<br />
-				<!--<input type='hidden' value='Reset' /><br /><br />-->
+				<br>
+				<br>
+				<!--<input type='hidden' value='Reset' /><br><br>-->
 				Goal Squadra A :
 				<input type='text' name='goalA' value='' onkeyup="goalsA(event);" />
-				<br />
-				<br /> Goal Squadra B :
+				<br>
+				<br> Goal Squadra B :
 				<input type='text' name='goalB' value='' onkeyup="goalsB(event);" />
-				<br />
-				<br /> Punti Squadra A :
+				<br>
+				<br> Punti Squadra A :
 				<input type='text' name='puntiA' value='' />
-				<br />
-				<br /> Punti Squadra B :
+				<br>
+				<br> Punti Squadra B :
 				<input type='text' name='puntiB' value='' />
-				<br />
-				<br /> Marcatori:
+				<br>
+				<br> Marcatori:
 				<!--<input type='hidden' value='Aggiungi un marcatore' onmousedown='addFieldA();'/>&nbsp;&nbsp;&nbsp;&nbsp;
             <input type='hidden' value='Togli un marcatore' onmousedown='deleteFieldA();'/>-->
-				<br />
-				<br />
+				<br>
+				<br>
 				<?php
 				for($i=0; $i<20; $i++)
 				echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";

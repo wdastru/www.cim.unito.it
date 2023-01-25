@@ -51,7 +51,7 @@ $localizer = "../../";
                                 <a class='linkExternal' href="http://www.cost.eu/domains_actions/cmst/Actions/D38"> <img src="<?php echo $localizer ?>images/logo-COST.bmp" alt='COST logo' /></a>
                             </div>
                            <div style="float:left"><img src="<?php echo $localizer ?>images/meetings/logo_amedeo_avogadro.png" width="100" alt=
-                                "Università del Piemonte Orientale" />
+                                "Universitï¿½ del Piemonte Orientale" />
                             </div>
                             <div style="float:left; padding-left:25px; padding-top:40px;">
                                 <img src="<?php echo $localizer ?>images/meetings/logo_cost.png" width="150" alt=
@@ -62,35 +62,35 @@ $localizer = "../../";
                                 "European Science Foundation" />
                             </div>
                             <div style="float:right; padding-top:15px;"><img src="<?php echo $localizer ?>images/meetings/logo_unito.jpg" width="200" alt=
-                                "Università di Torino" />
+                                "Universitï¿½ di Torino" />
                             </div>
                             <div style="clear:both">
-                                <br />
+                                <br>
                                 <h1 style="text-align:center">COST Action D38</h1>
                                 <h1 style="text-align:center">"Metal-Based Systems for Molecular
                                 Imaging Applications"</h1>
                                 <h2 style="text-align:center">Working Groups 2 and 6 Joint Meeting
                                 - March 24-26, 2011
-                                <br />
+                                <br>
                                 </h2>
                                 <h3>Molecular Biotechnology Center, University of Torino
-                                <br />
+                                <br>
                                 Keplero &amp; Leonardo Rooms</h3>
-                                <br />
+                                <br>
                                 <p style="font-weight:bold; font-size:14px">
                                     Local organizers
                                 </p>
                                 <ul>
                                     <li>
                                         <a href="mailto:mauro.botta@mfn.unipmn.it">Mauro Botta</a>
-                                        (Università del Piemonte Orientale)
+                                        (Universitï¿½ del Piemonte Orientale)
                                     </li>
                                     <li>
                                         <a href="mailto:enzo.terreno@unito.it">Enzo Terreno</a>
-                                        (Università di Torino)
+                                        (Universitï¿½ di Torino)
                                     </li>
                                 </ul>
-                                <br />
+                                <br>
                                 <p style="font-weight:bold; font-size:14px">
                                     Preliminary SCIENTIFIC
                                     PROGRAM
@@ -109,7 +109,7 @@ $localizer = "../../";
                                             </li>
                                             <li>
                                                 18.15-19.00 : Plenary I
-                                                <br />
+                                                <br>
                                                 <i>"Gadolinium-based Contrast Materials: what we have, what we
                                                 need"</i> - <b>Francesco Sardanelli</b> (Policlinico San Donato and
                                                 University of Milan)
@@ -118,7 +118,7 @@ $localizer = "../../";
                                                 20:00 : Dinner
                                             </li>
                                         </ul>
-                                        <br />
+                                        <br>
                                     </li>
                                     <li>
                                         FRIDAY, 25<sup>th</sup> March 2011
@@ -156,7 +156,7 @@ $localizer = "../../";
                                                 10:35-11:00 Coffee break
                                             </li>
                                             <li>
-                                                Chairman: <b>&#201;va Tòth</b>
+                                                Chairman: <b>&#201;va Tï¿½th</b>
                                             </li>
                                             <li style="list-style: none">
                                                 <ul>
@@ -223,7 +223,7 @@ $localizer = "../../";
                                                 20:00 Social Dinner
                                             </li>
                                         </ul>
-                                        <br />
+                                        <br>
                                     </li>
                                     <li>
                                         SATURDAY, 26<sup>th</sup> March 2011
@@ -264,7 +264,7 @@ $localizer = "../../";
                                                     </li>
                                                     <li>
                                                         11:40-12:30 Plenary II
-                                                        <br />
+                                                        <br>
                                                         <i>"CE-MRI beyond perfusion: on the route towards molecular imaging
                                                         applications"</i> - <b>Alessandro Maiocchi</b> (Bracco Imaging
                                                         SpA)
@@ -280,8 +280,8 @@ $localizer = "../../";
                                         </ul>
                                     </li>
                                 </ul>
-                                <br />
-                                <br />
+                                <br>
+                                <br>
                                 <p style="font-weight:bold; font-size:14px">
                                     Downloads
                                 </p>
@@ -320,7 +320,7 @@ $localizer = "../../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -134,7 +134,7 @@ require("../777/gazFiles.inc.php");
 		}
 	}
 	
-	echo "<h1 class='title'>" . $longName[$Squadra] . "</h1><br />";
+	echo "<h1 class='title'>" . $longName[$Squadra] . "</h1><br>";
 	
 	echo "
 	<div id='wrapper-moduli'>

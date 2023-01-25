@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
         <h1 class="title">SUPERCOPPA 2007</h1>
-        <br />
+        <br>
         <table align="center" width="300" border="0">
           <tr>
             <td><table align="center" width="150" border="0">
@@ -81,7 +81,7 @@
               </table></td>
           </tr>
         </table>
-        <p>Bradipo : 3 ( 78 : TOTTI, MACCARONE, MORRONE )<br />
+        <p>Bradipo : 3 ( 78 : TOTTI, MACCARONE, MORRONE )<br>
           Dinamo  : 2 ( 73 : MANCINI, ROCCHI )</p>
         <!-- InstanceEndEditable --></div>
 

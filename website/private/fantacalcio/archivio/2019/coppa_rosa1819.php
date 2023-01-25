@@ -29,7 +29,7 @@
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">Dinamo Ciofeca 2018/19</h1>
-		<br /> <br />
+		<br> <br>
 		<table id='tableRosa' class="rosa">
 			<colgroup span="4">
 				<col width="200" />
@@ -98,7 +98,7 @@
     			<td class='tribuna'></td>
     		</tr>
     	</table>
-<br /> <br />
+<br> <br>
 
 		<!-- InstanceEndEditable -->
 	</div>

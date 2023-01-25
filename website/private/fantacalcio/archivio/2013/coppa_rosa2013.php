@@ -28,8 +28,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
 			<h1 class="title">EPOREDIESE 2012/13</h1>
-			<br />
-			<br />
+			<br>
+			<br>
 			<table id="tableRosa" class="rosa">
 				<colgroup span="4">
 					<col width="200">
@@ -94,8 +94,8 @@ xmlns="http://www.w3.org/1999/xhtml">
 					</tr>
 				</tbody>
 			</table>
-			<br />
-			<br />
+			<br>
+			<br>
 			<!-- InstanceEndEditable -->
 		</div>
 		<?php include $relocate_string . 'include/footer.inc.php'?>

@@ -91,7 +91,7 @@ $localizer = "./";
 									<li>Chair, <a
 										href="http://www.dbmss.unito.it/do/home.pl"
 										title="Visit the Department of Molecular Biotechnology and Health Science">Department
-											of Molecular Biotechnology and Health Science</a><br /></li>
+											of Molecular Biotechnology and Health Science</a><br></li>
 									<li>Vice-dean, University of Torino</li>
 
 								</ul>
@@ -329,7 +329,7 @@ $localizer = "./";
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>

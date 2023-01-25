@@ -41,9 +41,9 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giuseppe Digilio</h1>
-								<p style="text-align:left;"><b>Assistant Professor<br />
-								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br />
-								Amedeo Avogadro University of Eastern Piedmont<br />
+								<p style="text-align:left;"><b>Assistant Professor<br>
+								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br>
+								Amedeo Avogadro University of Eastern Piedmont<br>
 								<a href="https://upobook.uniupo.it/giuseppe.digilio" target="_blank" style="color:#dc6a10">
 								 Academic profile</a>
 								</b></p>
@@ -69,33 +69,33 @@
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>
-					<b>Imaging labelled biomaterials for cell-therapy follow-up by Magnetic Resonance Imaging (MRI).</b><br /> 
+					<b>Imaging labelled biomaterials for cell-therapy follow-up by Magnetic Resonance Imaging (MRI).</b><br> 
 					Cell therapy can be broadly defined as the transplantation of living cells for the treatment of a wide number of medical disorders. 
 					A critical issue to understand how therapy works is the lack of clinically compliant methods to follow&minus;up the state of therapeutic cells on
 					 the long term after transplantation. This line of research aims at developing imaging labelled biomaterials to provide a shielding against 
-					 immune rejection, and, at the same instance, to enable longitudinal monitoring of cell survival by MRI.<br />
+					 immune rejection, and, at the same instance, to enable longitudinal monitoring of cell survival by MRI.<br>
 
-<b>Novel microenvironment-responsive contrast agents for MRI.</b><br />
+<b>Novel microenvironment-responsive contrast agents for MRI.</b><br>
 The assessment of the extracellular microenvironment in solid tumors is of utmost importance to stratify patients and to personalize therapy. 
 This line of research deals with the synthesis, characterization and validation of MRI contrast agents responsive to either extracellular pH, or
  redox potential, or the activity of matrix enzymes. Probes being developed can be based on relaxation agents (for T1w&minus;MRI) or chemical exchange saturation transfer agents
-  (for the CEST&minus;MRI modality). Methods to obtain parametric images are also considered.<br />
+  (for the CEST&minus;MRI modality). Methods to obtain parametric images are also considered.<br>
 
-<b>Contrast agents for molecular imaging by Spectral Photon Counting Computed Tomography.</b><br />
+<b>Contrast agents for molecular imaging by Spectral Photon Counting Computed Tomography.</b><br>
 The Spectral Photon Counting Computed Tomography (SPCCT) is a novel diagnostic technique allowing for material decomposition. The possibility to map specific elements 
 within the body paves the way for molecular/cellular imaging by X&minus;ray SPCCT, provided that elements have suitable K-edge absorption properties. The aim of this research line
- is to develop molecular probes or nanosystems based on lanthanides to exploit the potential of SPCCT in molecular/cellular imaging.<br />
+ is to develop molecular probes or nanosystems based on lanthanides to exploit the potential of SPCCT in molecular/cellular imaging.<br>
 
-<b>Environmental metabonomics.</b><br />
+<b>Environmental metabonomics.</b><br>
 In environmental sciences, metabolomics has a great potential to reveal the response of sentinel organisms to environmental stressors when the level of stressors/toxicants
  are below those required to give clear answers in traditional end&minus;point assays. This line of research is aimed at defining a link between metabonomic changes of in suitable
-  sentinel organisms and the level of ecotoxicological  challenge.<br />
+  sentinel organisms and the level of ecotoxicological  challenge.<br>
 
-<b>Structural assessment of peptide/protein-based drugs with enhanced pharmacokinetic profile.</b><br />
+<b>Structural assessment of peptide/protein-based drugs with enhanced pharmacokinetic profile.</b><br>
 Bioconjugation of proteins with, for instance, poly(ethyleneglycole) (PEG) 
 chains is a technique that is more and more exploited by the biopharmaceutical industry to enhance pharmacokinetic profiles. This line of research is aimed at the assessment
  of the structural equivalence between modified and wild type polypeptidic pharmaceutics, with applications in the design of new derivatives and quality assurance for
-  industrial production.<br />
+  industrial production.<br>
 					
 					</p>
 					</div>
@@ -115,7 +115,7 @@ chains is a technique that is more and more exploited by the biopharmaceutical i
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Viale Teresa Michel 11, 15121 Alessandria <br/>
-					Phone: +39 0131 360 371 <br /> 
+					Phone: +39 0131 360 371 <br> 
 					E-mail: <a href="mailto:giuseppe.digilio@uniupo.it"><span style="color:#007c92">giuseppe.digilio@uniupo.it</span></a></p>
 					
 					</div>
@@ -140,7 +140,7 @@ chains is a technique that is more and more exploited by the biopharmaceutical i
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

@@ -22,7 +22,7 @@
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">FANTACOPPA NMR 
         2004/05</h1>
-      <br />
+      <br>
       <table class="coppa">
         <tr>
           <td class="header" style="width:15%">Quarti</td>
@@ -327,7 +327,7 @@
           <td colspan="8">&nbsp;</td>
         </tr>
       </table>
-      <br />
+      <br>
       <p>* ai rigori</p>
       <!-- InstanceEndEditable --></div>
 

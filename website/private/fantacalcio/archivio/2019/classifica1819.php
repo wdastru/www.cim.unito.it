@@ -58,11 +58,11 @@ xmlns="http://www.w3.org/1999/xhtml">
 		<div id="main">
 			<!-- InstanceBeginEditable name="body" -->
 			<h1 class="title">XX Campionato Fantacalcio NMR 2018/19</h1>
-			<br />
-		<br />
+			<br>
+		<br>
 		<h2 class='firstClass'>1&deg; Classificato: </h2>
 		<h2 class="title">Lokomotiv Peccorino</h2>
-		<br />
+		<br>
 			<?php
 			/*
 			 *  lettura file datiCampionato
@@ -253,14 +253,14 @@ xmlns="http://www.w3.org/1999/xhtml">
 			/*echo 
 			<div id='avulse_wrapper'>
 				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' onclick='toggleAvulse();' />
-				<br /><br />
+				<br><br>
 				<div id='avulse'>";
 			 */
 
 			echo "
 			<div id='avulse_wrapper'>
 				<input class='button' id='avulseToggleButton' type='button' value='Mostra/Nascondi classifiche avulse' />
-				<br /><br />
+				<br><br>
 				<div id='avulse'>";
 
 			// --> risoluzione gruppi
@@ -374,7 +374,7 @@ Visualizzazione della classifica in tabella
 			echo "<script type='text/javascript'>showAvulseToggleButton();</script>";
 	?>
 	
-	<br /><br />
+	<br><br>
 	
 	<div id='spareggio'>
 	<h1>SPAREGGIO</h1>

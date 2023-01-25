@@ -42,24 +42,24 @@ $localizer = "../";
                                 
                                 The long-term aim of multimodality is to improve the overall performance of the exam by increasing the number of data acquired and by optimizing post-processing analysis of the 
                                 (co)registered images. Combined modalities could allow researchers to monitor more biological events (morphological, functional, molecular) in the same imaging session, thus reducing
-                                 the number of animals necessary in each experiment.<br /><br /><br />
+                                 the number of animals necessary in each experiment.<br><br><br>
                                  
-                                 <b>Figure 1.</b> Multimodality techniques (Rieffel j et al., Small 2015, 11:4445)<br /><br />
+                                 <b>Figure 1.</b> Multimodality techniques (Rieffel j et al., Small 2015, 11:4445)<br><br>
                                  
                                  In the recent years, a growing number of multimodal probes have been reported and validated on animal models of human diseases.
                                 As a multimodal agent has to contain different chemical entitiesdepending on the imaging signal it has to generate, the large majority of the multimodal probes are nanoparticles.
                                 An example of a multimodal nanoparticle is sketched in Figure 2. The system is based on a gold metal core that can be detected in CT scans (and likely in photoacoustic imaging too). 
-                                Gold is surrounded by a silica coating that was made lipophilic and further coated with amphiphilic MRI and Near InfraRed Fluorescent (NIRF) probes.<br /> 
+                                Gold is surrounded by a silica coating that was made lipophilic and further coated with amphiphilic MRI and Near InfraRed Fluorescent (NIRF) probes.<br> 
                                 
                                   <img src="../images/research_lines/multimodality_probes2.jpg" style="width: 250px; height: auto;  margin: 10px;" > </img>
                                 
-                                 <b>Figure 2.</b> Multimodal nanoparticles for CT/MRI/NIRF detection. (M.M. van Schooneveld et al, Contrast Media Mol Imaging, 5:231, 2010).<br /><br /> 
+                                 <b>Figure 2.</b> Multimodal nanoparticles for CT/MRI/NIRF detection. (M.M. van Schooneveld et al, Contrast Media Mol Imaging, 5:231, 2010).<br><br> 
                                  
                                  CT is typically a morphological imaging technique with the advantage that the signal attenuation is proportional to agent concentration. MRI is capable of generating three-dimensional
                                   anatomical images with exceptional soft tissue contrast, but it has limited potential to quantify contrast agent concentration. Optical techniques are highly sensitive, 
                                   can visualize multiple species and are very fast, but can only be reliably applied to small organisms, because of the limited penetration depth of light. 
                                   Therefore, the combination of these techniques can give quantifiable information of contrast agent accumulation, at different levels, which may prove valuable, 
-                                  especially in a preclinical setting.<br /><br />
+                                  especially in a preclinical setting.<br><br>
                                   
 								Here at CIM, the research on multimodal agents is mostly focused on:  </p>	
 								
@@ -93,7 +93,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -69,7 +69,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                             </table>
                             
-                            <br />
+                            <br>
 
                             <p style="font-weight: bold; font-size: 14px">
                                 Summary
@@ -77,17 +77,17 @@ xmlns="http://www.w3.org/1999/xhtml">
 
                             <p>
                                 Molecular imaging is a rapidly emerging biomedical research discipline which allows the visual representation, characterization, and quantification of biological processes at the cellular and subcellular levels within intact living organisms. The term �molecular imaging� implies the convergence of multiple image-capture techniques, basic cell/molecular biology, chemistry, medicine, pharmacology, medical physics, biomathematics, and bioinformatics into a new imaging paradigm.
-                                <br />
+                                <br>
                                 The <span style="font-weight: bold;">purpose</span> of the proposed Workshop is to show how different imaging modalities, coupled with tailored imaging probes able to recognize specific pathologic markers, allow the visualization and quantification of disease evolution and the evaluation of therapy response.
                                 Several imaging modalities (MRI, PET/SPECT, Optical Imaging) will be showed together with their main applications in tumor diagnosis, monitoring of therapeutic treatment and cardiovascular and liver diseases.
-                                <br />
+                                <br>
                                 The <span style="font-weight: bold;">target group</span> of this workshop is students who are interested in this new field, or who are already working on, both from local institutions and from other European countries. The main target groups are undergraduate students (MSc) and PhD students coming from different curricula (chemistry, biology, biotechnology, physics and medicine).
                                 The students will be selected based on their CV and motivation letter by each partner, adopting a uniform standard, based on three main aspects: i) affinity with the student curricula, ii) knowledge and involvement in the molecular imaging field, iii) current master or doctoral thesis related to this field.
-                                <br />
+                                <br>
                                 The <span style="font-weight: bold;">backbone</span> of this workshop is based on lectures and practical demonstrations implemented by the researchers of the Molecular Imaging Center of the University of Torino and of some national industries, together with other international ESMI partners. Experiments will be carried out exploiting the facility of the Molecular Imaging Center, including imaging probe preparations and animal models, imaging using small-animal dedicated low and high-field MRI scanner, as well as imaging analysis.
-                                <br />
+                                <br>
                                 The major <span style="font-weight: bold;">output</span> of the project will be the implementation of an up-to-date training on the use of imaging probes for imaging disease. Students following this workshop will get an up-to-date knowledge of the imaging visualization and therapy evaluation, with a focus on the translation from pre-clinical level to the clinical settings. This will be possible also for those students from European partner institutions that could not have access to such a course because of the lack of research and teaching expertise in this field across Europe.
-                                <br />
+                                <br>
                                 All the students will be exposed to a European dimension, and the major innovation of this workshop is to combine multidisciplinary expertises, which are not found inside a single institution.
                             </p>
 
@@ -163,7 +163,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

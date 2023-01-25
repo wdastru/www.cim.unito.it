@@ -51,7 +51,7 @@
 					   <p>The Centre of Molecular Imaging hosts several educational, teaching, workshop and scientific events to promote the field of imaging science.</p>
 					   <p>In addition, we provide molecular imaging courses within the <a href="http://www.molecularbiotechnology.unito.it/do/home.pl/Home" target="_blank">
 					   <span class='paperTitle'>Biotechnology Master degree</span></a> to educate students and to train young investigators.</p> 
-					   <br /><br />
+					   <br><br>
 					
 					
 					<!-- calendario preso da https://fullcalendar.io/  -->
@@ -69,7 +69,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>
@@ -124,7 +124,7 @@ changeSideNavStyles();
       },
 
       eventMouseover: function(calEvent, jsEvent) {
-          var tooltip = '<div class="tooltipevent" style="width:200px;height:200px;background:#efefef;position:absolute;z-index:10001;">' + calEvent.title + '<br />' + calEvent.description + '</div>';
+          var tooltip = '<div class="tooltipevent" style="width:200px;height:200px;background:#efefef;position:absolute;z-index:10001;">' + calEvent.title + '<br>' + calEvent.description + '</div>';
           $("body").append(tooltip);
           $(this).mouseover(function(e) {
               $(this).css('z-index', 10000);

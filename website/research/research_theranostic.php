@@ -38,7 +38,7 @@ $localizer = "../";
                                 iperthermia localized treatments. Our activities in the files
                                 are:
                             </p>
-                            <br />
+                            <br>
                             <ul>
                                 <li><b>Drug releasing liposomes</b>
                                     <p class='indent'>
@@ -110,7 +110,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -41,8 +41,8 @@
 
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Ivan Hawala</h1>
-								<p style="text-align:left;"><b>PhD student<br />
-								Department of Molecular Biotechnology and Health Sciences<br />
+								<p style="text-align:left;"><b>PhD student<br>
+								Department of Molecular Biotechnology and Health Sciences<br>
 								<a href="#" target="_blank" style="color:#dc6a10">
 								 Terreno Lab</a>
 								</b></p>
@@ -69,7 +69,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research project aims to design and synthesize novel AAZTA derivatives suitable for the conjugation with peptides or other 
 					relevant molecular vectors, to be included in a &#39;cold kit&#39;, which allows the labelling with PET radionuclides, obtained from a cyclotron or eluted 
-					from a commercial generator. <br />
+					from a commercial generator. <br>
 					Competences: HPLC, LC&minus;MS, CE, TLC, KF, potentiometric titrations, SPPS (manual and automatic, CEM-Liberty peptide
 					 synthetizer), organic synthesis, purifications (manual: silica column chromatography, desalting on resins; automatic: preparative HPLC, COMBIFLASH, 
 					 BIOTAGE, AKTA PURIFIER), Bruker 600 MHz (qNMR, high resolution spectra, <sup>1</sup>H&minus;NMR, <sup>13</sup>C&minus;NMR, 2D&minus;NMR), radiolabellingmoduls with commercial generators.</p>
@@ -85,7 +85,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706476<br /> 
+					Phone: +390116706476<br> 
 					E-mail: <a href="mailto:ivan.hawala@unito.it"><span style="color:#007c92">ivan.hawala@unito.it</span></a></p>
 					
 					</div>
@@ -110,7 +110,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

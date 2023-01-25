@@ -99,7 +99,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 </tr>
                             </table>
                             <input type='hidden' name='added' value='yes' />
-                            <br />
+                            <br>
                             <input type='submit' name='submit' value='Add' />
                             </form>
                             <!-- InstanceEndEditable name="subsection content" -->
@@ -113,7 +113,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

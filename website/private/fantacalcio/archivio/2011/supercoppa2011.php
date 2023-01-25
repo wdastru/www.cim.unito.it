@@ -27,7 +27,7 @@
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 		<h1 class="title">SUPERCOPPA 2011</h1>
-		<br />
+		<br>
 		<table align="center" width="500" border="0">
 			<tr>
 				<td><table align="center" width="150" border="0">
@@ -91,7 +91,7 @@
 			</tr>
 		</table>
 		<p>
-			Atletico? No Grazie! : 2 ( 76 : CAMBIASSO, MATRI ) <br />
+			Atletico? No Grazie! : 2 ( 76 : CAMBIASSO, MATRI ) <br>
 			Fedora : 2 ( 75.5 : GOMEZ, GILARDINO )
 		</p>
 		<!-- InstanceEndEditable -->

@@ -99,7 +99,7 @@
 												drugs. Our studies also focus on assessing pH imaging
 												as a novel biomarker in cancer and in renal diseases.
 												In addition, we are interested in developing tools for improving the FAIRification 
-												(findable, accessible, interoperable, reusable) of medical image datasets within the Open Science concept.<br />
+												(findable, accessible, interoperable, reusable) of medical image datasets within the Open Science concept.<br>
 												Our lab bridges theoretical and experimental aspects of
 												biological research, combining chemistry, biology and
 												medicine with in vitro and in vivo preclinical studies.
@@ -129,11 +129,11 @@
 										</div>
 										<div style="padding: 0 0 0 160px;">
 											<p align="left" style="line-height: 1.4">
-												<strong><font size="4em">Dario Longo, PhD</font></strong> <br />
-												<br /> <font color="#333" > <b>Head, Research Unit of Torino</b> <br /> Institute of Biostructures
-												and Bioimaging (IBB)<br /> Italian National Research Council
-												(CNR)<br /> <br />Via Nizza, 52<br /> 10126 Torino - Italy<br />
-												Tel: +39 011 6706473<br /> Fax: +39 011 6706458<br /></font>
+												<strong><font size="4em">Dario Longo, PhD</font></strong> <br>
+												<br> <font color="#333" > <b>Head, Research Unit of Torino</b> <br> Institute of Biostructures
+												and Bioimaging (IBB)<br> Italian National Research Council
+												(CNR)<br> <br>Via Nizza, 52<br> 10126 Torino - Italy<br>
+												Tel: +39 011 6706473<br> Fax: +39 011 6706458<br></font>
 												<a href="mailto:dariolivio.longo@cnr.it"><font color="#1e799f"> dariolivio.longo@cnr.it </font></a>
 												<a href="mailto:dario.longo@unito.it"><font color="#1e799f"> dario.longo@unito.it</font></a>
 												

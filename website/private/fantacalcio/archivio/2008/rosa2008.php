@@ -85,7 +85,7 @@
     </tbody>
     
   </table>
-      <br />
+      <br>
       <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

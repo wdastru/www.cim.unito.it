@@ -41,12 +41,12 @@ $localizer = "../";
                                 to be sure that the differences in the relaxation are due to
                                 changes of the relaxivity instead of the concentration of the
                                 agent.
-                                <br />
+                                <br>
                                 Two main approaches are followed:
                             </p>
                             <ul>
                                 <li><b>pH responsive agents</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         They are agents based on DOTA-type Gd complexes
                                         in which the fourth arm is presenting a sulphonamidic function. The
@@ -60,7 +60,7 @@ $localizer = "../";
                                         complexes show the same biodistribution.
                                     </p></li>
                                 <li><b>Dual agents MRI/PET or SPECT</b>
-                                    <br />
+                                    <br>
                                     <p class="indent">
                                         The concentration of the agent is obtained via
                                         PET or SPECT. Two routes are explored:
@@ -117,7 +117,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

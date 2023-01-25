@@ -85,7 +85,7 @@ Gli utenti sono divisi in due gruppi:
 	<li><strong>GRUPPO B</strong>: Simonetta, Dario, Eliana e collaboratori (Diego, Diana, Alice, Francesca, Giorgio)</li>
 </ul>
 <br/>
-Il tempo macchina sar&aacute; suddiviso in modo che ogni gruppo abbia a disposizione un’intera settimana a settimane alterne, a partire dal 31 ottobre 2011.
+Il tempo macchina sar&aacute; suddiviso in modo che ogni gruppo abbia a disposizione unï¿½intera settimana a settimane alterne, a partire dal 31 ottobre 2011.
 <br/>
 <ul>
 	<li>Settimana 31 ottobre-5 novembre: <strong>GRUPPO B</strong></li>
@@ -99,44 +99,44 @@ Le prenotazioni per la settimana di pertinenza cominciano dal venerd&iacute; di 
 <br/>
 <ul>
 	<li>Il luned&iacute; mattina (ore 9.00-14.00) di ogni settimana &eacute; dedicato al servizio esterno.</li>
-	<li>All’interno di ogni settimana si devono lasciare 5 ore (distribuite su pi&uacute; giorni nella fascia oraria 9.00-18.00) per le “emergenze” a cui tutti gli utenti possono accedere (previa prenotazione).</li>
+	<li>Allï¿½interno di ogni settimana si devono lasciare 5 ore (distribuite su pi&uacute; giorni nella fascia oraria 9.00-18.00) per le ï¿½emergenzeï¿½ a cui tutti gli utenti possono accedere (previa prenotazione).</li>
 	<li>Gli utenti che non sono compresi nei gruppi A e B ma che saltuariamente dovessero aver bisogno dello strumento possono prenotare del tempo macchina in qualsiasi momento.</li>
 </ul>
 "; 
 $guidelines[ "600MHz" ] = "<br/> <h1>REGOLAMENTO</h1>
-<br />
+<br>
 Le ore suddivise sono 40, dalle 10 alle 18 tutti i giorni, restano quindi 3 ore al giorno (18-20 e 8-9) teoricamente
 libere e riprenotabili, a meno di non interferire con chi alle 18 deve mandare un esperimento per la notte (ci si puo mettere daccordo di volta in volta)
 <br/>
 A partire dal lunedi si possono prenotare le ore per la settimana successiva fino a raggiungere il monte-ore del proprio gruppo, una volta entrati nella
 nella settimana (dal lunedi) i buchi sono prenotabili liberamente.
-<br />
-<br />
+<br>
+<br>
 
-<strong>Gruppo sintesi</strong>: 8h + 1 notte<br /> 
-<strong>Gruppo para-H<small><sub>2</sub></small></strong>: 10h + 1 notte<br /> 
-<strong>Gruppo Enzo</strong>: 5h + 1 notte<br />
-<strong>Gruppo Dario</strong>: 4h<br />  
-<strong>Gruppo Eliana</strong>: 5h<br /> 
-<strong>Gruppo Simonetta</strong>: 4h<br /> 
-<strong>Gruppo Gruppo Utilizzatori Saltuari (Giuseppe DG, Simona)</strong>: 4h + 1 notte<br /><br /> 
+<strong>Gruppo sintesi</strong>: 8h + 1 notte<br> 
+<strong>Gruppo para-H<small><sub>2</sub></small></strong>: 10h + 1 notte<br> 
+<strong>Gruppo Enzo</strong>: 5h + 1 notte<br>
+<strong>Gruppo Dario</strong>: 4h<br>  
+<strong>Gruppo Eliana</strong>: 5h<br> 
+<strong>Gruppo Simonetta</strong>: 4h<br> 
+<strong>Gruppo Gruppo Utilizzatori Saltuari (Giuseppe DG, Simona)</strong>: 4h + 1 notte<br><br> 
 
 <strong>Esperimenti veloci:</strong>
 <br/>
 9-10 tutti in giorni. Il foglio elettronico delle prenotazioni verr&aacute; modificato e verr&aacute; aggiunta una coda alla tabella (o una tabellina a
 parte) in cui quell'ora sara prenotabile a pezzi di 15 min l'uno.
 <br/> <br/> 
-<strong>Specificare nelle note l&acute;orario di utilizzo (se non coincide con la mattinata o il pomeriggio interi).</strong><br />"; 
+<strong>Specificare nelle note l&acute;orario di utilizzo (se non coincide con la mattinata o il pomeriggio interi).</strong><br>"; 
 
 $guidelines[ "400MHz" ] = "<h1>IMPORTANTE</h1>
-<br /> 
+<br> 
 	La fascia oraria 13-15 e&acute; strettamente dedicata agli esperimenti veloci (meno di un&acute;ora a persona).
-<br /><br /> 
-	L’ordine di esecuzione di tali esperimenti e&acute; quello riportato nel foglio:
-<br /><br /> 
-	<a style='color:#666666' href='LISTA ESPERIMENTI VELOCI.doc'><strong>\"LISTA ESPERIMENTI VELOCI\"</strong></a><br /> (attualmente ancora affisso presso il 400).<br /><br /> Per esperimenti di piu&acute; di un&acute;ora, prenotare mattino o pomeriggio specificando nelle note l&acute;orario esatto di utilizzo. <h1>LIMITAZIONI TEMPO MACCHINA PRENOTABILE<br />DA UNA SETTIMANA ALL’ALTRA:</h1><br /> <strong>Gruppo sintesi Ale-o</strong>: 2 mezze giornate + 1 notte<br /> <strong>Gruppo para-H<small><sub>2</sub></small></strong>: 6 mezze giornate + 1 notte (di cui 3 mezze giornate in affitto da Eliana, Enzo e Simo)<br /> <strong>Gruppo Nervi</strong>: 2 mezze giornate + 3 notti
-<br /><br /> 
-	Una volta entrati nella settimana in corso i buchi rimasti possono essere prenotati a piacere.<br />"; 
+<br><br> 
+	Lï¿½ordine di esecuzione di tali esperimenti e&acute; quello riportato nel foglio:
+<br><br> 
+	<a style='color:#666666' href='LISTA ESPERIMENTI VELOCI.doc'><strong>\"LISTA ESPERIMENTI VELOCI\"</strong></a><br> (attualmente ancora affisso presso il 400).<br><br> Per esperimenti di piu&acute; di un&acute;ora, prenotare mattino o pomeriggio specificando nelle note l&acute;orario esatto di utilizzo. <h1>LIMITAZIONI TEMPO MACCHINA PRENOTABILE<br>DA UNA SETTIMANA ALLï¿½ALTRA:</h1><br> <strong>Gruppo sintesi Ale-o</strong>: 2 mezze giornate + 1 notte<br> <strong>Gruppo para-H<small><sub>2</sub></small></strong>: 6 mezze giornate + 1 notte (di cui 3 mezze giornate in affitto da Eliana, Enzo e Simo)<br> <strong>Gruppo Nervi</strong>: 2 mezze giornate + 3 notti
+<br><br> 
+	Una volta entrati nella settimana in corso i buchi rimasti possono essere prenotati a piacere.<br>"; 
 $guidelines[ "BioSpec" ] = ""; 
 $guidelines[ "PharmaScan" ] = ""; 
 $guidelines[ "YAP-(S)PET" ] = "";
@@ -209,7 +209,7 @@ $warning[ "Infuser" ] = "";
 $warning[ "ThermoMixer" ] = "";
 
 /*
-$generalWarning = "<div id='generalWarningDiv'><br /><h1 style='text-decoration:blink; text-align:center; color:#FFF;'>AVVISO</h1><br /><p class='generalWarning'>Si sono verificati dei problemi con le prenotazioni.<br />Siete pregati di fare particolare attenzione durante la prenotazione e cancellazione degli spazi, e di comunicare a Walter qualunque malfunzionamento incontriate.<br /><br />Saluti.</p></div>";
+$generalWarning = "<div id='generalWarningDiv'><br><h1 style='text-decoration:blink; text-align:center; color:#FFF;'>AVVISO</h1><br><p class='generalWarning'>Si sono verificati dei problemi con le prenotazioni.<br>Siete pregati di fare particolare attenzione durante la prenotazione e cancellazione degli spazi, e di comunicare a Walter qualunque malfunzionamento incontriate.<br><br>Saluti.</p></div>";
 */
 $generalWarning = "";
 ?>

@@ -274,7 +274,7 @@
 	}
 	?>
 </table>
-<br />
+<br>
 
 <?php
 //echo "<span>####</span><br/>";
@@ -293,15 +293,15 @@
 //echo "<span>####</span><br/>";
 ?>
 
-<br />
-<br />
+<br>
+<br>
 <div>
 	Ultima formazione : 
 	<p class='ultimaFormazione'>
 		<?php echo $lastFormazBasename . " (" . $lastModified . ")"; ?>
 		
 	</p>
-	<br />	
+	<br>	
 	<table class="rosafooter">
 		<tr>
 			<td class="testo">Fantamiliardi :</td>
@@ -310,7 +310,7 @@
 			<td class="telefono"><?php echo $telefono ?></td>
 		</tr>
 	</table>
-	<br /> <br />
+	<br> <br>
 	<form id="vista_form" action="<?php $_SESSION['nomefilephp']?>"
 		method="post">
 		<table id='vista'>
@@ -319,7 +319,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td class='vistaRowHeader'>Ultima<br />giornata</td>
+				<td class='vistaRowHeader'>Ultima<br>giornata</td>
 				<?php
 				for ($i=0; $i<count($views_Ultima); $i++)
 				{
@@ -339,9 +339,9 @@
 		</table>
 	</form>
 </div>
-<br />
-<br />
-<br />
+<br>
+<br>
+<br>
 <table class="buttonModify">
 	<tr>
 		<td>

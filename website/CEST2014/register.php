@@ -34,7 +34,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div class='paddingInner'>
                                 
                                 <h1 style="line-height: 28px; text-align: center;">Registration</h1>
-                                <br />
+                                <br>
                                 <p>
                                     The registation fee (<span class='underline' style="color: #DB6D16">150&euro;</span>) will cover the costs of coffee-breaks, lunches and transport on May 8-9<sup>th</sup>, 2014 and the annual subscription fee to the GIDRM (Italian Magnetic Resonance Discussion Group).
                                     <br/>
@@ -63,7 +63,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

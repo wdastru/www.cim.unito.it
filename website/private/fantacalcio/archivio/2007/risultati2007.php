@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">RISULTATI FANTACALCIO NMR 2006/07</h1>
-      <br />
+      <br>
       <h2 class="giornata">I</h2>
       <table class="risultati">
         <tr class="odd">
@@ -57,7 +57,7 @@
           <td class="RisultatiOld"> 0 - 2 </td><td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2 class="giornata">II</h2>
       <table class="risultati">
         <tr class="odd">
@@ -93,7 +93,7 @@
           <td class="RisultatiOld"> 1 - 2 </td><td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2 class="giornata">III</h2>
       <table class="risultati">
         <tr class="odd">
@@ -129,7 +129,7 @@
           <td class="RisultatiOld"> 1 - 2 </td><td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2 class="giornata">IV</h2>
       <table class="risultati">
         <tr class="odd">
@@ -165,7 +165,7 @@
           <td class="RisultatiOld"> 2 - 1 </td><td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2 class="giornata">V</h2>
       <table class="risultati">
         <tr class="odd">
@@ -201,7 +201,7 @@
           <td class="RisultatiOld"> 1 - 2 </td><td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2 class="giornata">VI</h2>
       <table class="risultati">
         <tr class="odd">
@@ -237,7 +237,7 @@
           <td class="RisultatiOld"> 2 - 1 </td><td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2 class="giornata">VII</h2>
       <table class="risultati">
         <tr class="odd">
@@ -273,7 +273,7 @@
           <td class="RisultatiOld"> 1 - 1 </td><td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

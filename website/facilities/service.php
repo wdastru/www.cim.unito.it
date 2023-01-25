@@ -6,7 +6,7 @@
     $mailer -> AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
     $body = '';
     $eol = "\n";
-    //$eol = "<br />";
+    //$eol = "<br>";
     
     if (isset($_GET['submit'])) {
         if ($_GET['submit'] == 'yes') {
@@ -25,7 +25,7 @@
                          $_POST['description'] != ''
                      );
                      
-                $regex_allowed_chars = '/^[a-zA-ZùàâèéêëìòóôöüÂÈÉÊËÌÒÓÔÖÜ\.,;:-\?\(\)\"\'\s]*$/';     
+                $regex_allowed_chars = '/^[a-zA-Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\.,;:-\?\(\)\"\'\s]*$/';     
                 if ($valid) {
                     if (preg_match($regex_allowed_chars, $_POST['name'])) {
                         $body .= "Name        : " . $_POST['name'] . $eol;
@@ -265,7 +265,7 @@
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

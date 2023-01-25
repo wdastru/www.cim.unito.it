@@ -99,7 +99,7 @@ Partners <!-- InstanceEndEditable --></h1>
 								</a>
 								<p>Stelar specializes in unique instrumentation for Fast Field Cycling (FFC) NMR relaxometry. Stelar's successful experience 
 								in engineering new technologies in NMR instrumentation and methods has gained the company a strong reputation as the absolute 
-								leader in FFC NMR relaxometry. Stelar’s SPINMASTER and SMARtracer™ are used by research groups worldwide for numerous biomedical,
+								leader in FFC NMR relaxometry. Stelarï¿½s SPINMASTER and SMARtracerï¿½ are used by research groups worldwide for numerous biomedical,
 								 materials science, and many other applications.</p>
 							</div>
 						</div>
@@ -120,7 +120,7 @@ Partners <!-- InstanceEndEditable --></h1>
 <div id='after'></div>
 <div id='footer'>
 <p>Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
-ITALY<br />
+ITALY<br>
 Fax. Tel. Mail</p>
 </div>
 

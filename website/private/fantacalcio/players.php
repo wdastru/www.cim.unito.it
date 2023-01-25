@@ -51,29 +51,29 @@ if ($_GET['squadra'] != '')
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 	<!-- InstanceBeginEditable name="hiddenBox" -->
 	<div id='hiddenOfferBox' style='visibility: hidden'>
-		<br /> <br />
+		<br> <br>
 		<form method='post' id='formOffer' action='mercato/newOffer.php?squadra=<?php echo $_GET['squadra']; ?>'>
 			<fieldset class='noBorder'>
 				<div id='hiddenBoxTitleBox'>
 					<span id='offertaBoxMainTitle'><?php echo strtoupper($longName[$_GET['squadra']]); ?></span>
 				</div>
-				<br /> <br />
+				<br> <br>
 				<div class='hiddenBoxSubTitleBox'>
 					<span class='offertaBoxTitle'>OFFERTA </span>
 				</div>
-				<br /> <br /> Giocatore : 
+				<br> <br> Giocatore : 
 				<input type='text' name='Offerta_gio_in' value='' /> 
-				<br /> <br /> Ruolo : 
+				<br> <br> Ruolo : 
 				<input type='text' name='Offerta_ruo_in' value='' /> 
-				<br /> <br /> Squadra :
+				<br> <br> Squadra :
 				<input type='text' name='Offerta_squ_in' value='' /> 
-				<br /> <br />Quotazione : 
+				<br> <br>Quotazione : 
 				<input type='text' id='bidField' name='Offerta_quo_in' value='' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
-				<br /> <br /> <br />
+				<br> <br> <br>
 				<div class='hiddenBoxSubTitleBox'>
 					<span class='offertaBoxTitle'>GIOCATORE TAGLIATO </span>
 				</div>
-				<br /> <br /> Giocatore : 
+				<br> <br> Giocatore : 
 				<select id='playerOutField' name='Offerta_gio_out' onmouseup='enableSendButton();' onkeyup='enableSendButton();' onchange='getSelectedPlayer();'>
 					<option></option>
 					<?php
@@ -92,24 +92,24 @@ if ($_GET['squadra'] != '')
 					}
 					?>
 				</select> 
-				<br /> <br /> Ruolo : 
+				<br> <br> Ruolo : 
 				<input type='text' id='roleOutField' name='Offerta_ruo_out' value='' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
-				<br /> <br /> Squadra : 
+				<br> <br> Squadra : 
 				<input type='text' id='teamOutField' name='Offerta_squ_out' value='' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
-				<br /> <br /> <br />
+				<br> <br> <br>
 				<div class='hiddenBoxSubTitleBox'>
 					<span class='offertaBoxTitle'>PASSWORDS </span>
 				</div>
-				<br /> <br /> 
+				<br> <br> 
 				<span class='offertaBoxTitle'>Password di squadra :</span>
 				<input type='password' id='passwordFieldTeam' name="PasswordTeam" value='' autocomplete='off' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
-				<br /> <br /> 
+				<br> <br> 
 				<span class='offertaBoxTitle'>Password per offerta :</span> 
 				<input type='password' id='passwordFieldOffer' name="PasswordOffer" value='' autocomplete='off' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
-				<br /> <br /> 
+				<br> <br> 
 				<span class='offertaBoxTitle'>Ripeti password :</span> 
 				<input type='password' id='repeatPasswordFieldOffer' name="RepeatPasswordOffer" value='' autocomplete='off' onmouseup='enableSendButton();' onkeyup='enableSendButton();' /> 
-				<br /> <br /> <br /> 
+				<br> <br> <br> 
 				<input class='button' type='button' id='sendButton' value='Send' onclick='sendOffer();' />
 				<input type="hidden" id="returnFromError" name="returnFromError" value="" />
 				<input class='button' type='button' value='Close' onclick='hideOfferBox();' /> <input class='button' type='button' value='Reset' onclick='offerBoxResetFields();' /> 
@@ -120,22 +120,22 @@ if ($_GET['squadra'] != '')
 	<div id="main">
 		<!-- InstanceBeginEditable name="body" -->
 
-		<br />
+		<br>
 		<h1 class=title>
 		<?php echo $longName[$Squadra]; ?>
 		</h1>
-		<br />
-		<?php require $relocate_string . 'playersRepeated.php'; // controlla la presenza di giocatori ripetuti in più squadre ?>
-		<br />
+		<br>
+		<?php require $relocate_string . 'playersRepeated.php'; // controlla la presenza di giocatori ripetuti in piï¿½ squadre ?>
+		<br>
 		<div id='choosePlayersDiv'>
 			<div class='playersDiv' onclick='togglePlayers("por")'>Por</div>
 			<div class='playersDiv' onclick='togglePlayers("dif")'>Dif</div>
 			<div class='playersDiv' onclick='togglePlayers("cen")'>Cen</div>
 			<div class='playersDiv' onclick='togglePlayers("att")'>Att</div>
 		</div>
-		<br />
+		<br>
 		<!-- <div id='sortingWarningBox'>Sorting ... </div> -->
-		<br />
+		<br>
 		<?php
 		$role[0] = 'P';
 		$role[1] = 'D';
@@ -253,7 +253,7 @@ if ($_GET['squadra'] != '')
 
 		/* TEMP */
 		?>
-		<br /> <br />
+		<br> <br>
 		<script type="text/javascript">readData();</script>
 		<script type="text/javascript">enableSendButton();</script>
 		<!-- InstanceEndEditable -->

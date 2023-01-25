@@ -41,9 +41,9 @@
 
 							<div class="w3-col w3-half">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Valeria Menchise</h1>
-								<p style="text-align:left;"><b>Researcher<br />
-								Institute of Biostructure and Bioimaging<br />
-								National Research Council of Italy<br />
+								<p style="text-align:left;"><b>Researcher<br>
+								Institute of Biostructure and Bioimaging<br>
+								National Research Council of Italy<br>
 								<a href="http://www.ibb.cnr.it/?command=viewu&id=423" target="_blank" style="color:#dc6a10">
 								 IBB-CNR profile</a>
 								</b></p>
@@ -99,7 +99,7 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 10126 Torino <br/>
-					Phone: +39 0116706493 <br /> 
+					Phone: +39 0116706493 <br> 
 					E-mail: <a href="mailto:valeria.menchise@unito.it"><span style="color:#007c92">valeria.menchise@unito.it</span></a></p>
 					
 					</div>
@@ -124,7 +124,7 @@
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

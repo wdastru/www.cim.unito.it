@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">RISULTATI FANTACALCIO NMR 2005-2006</h1>
-      <br />
+      <br>
       <h2>I</h2>
       <table class="risultati">
         <tr class="odd">
@@ -73,7 +73,7 @@
           <td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2>II</h2>
       <table class="risultati">
         <tr class="odd">
@@ -125,7 +125,7 @@
           <td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2>III</h2>
       <table class="risultati">
         <tr class="odd">
@@ -177,7 +177,7 @@
           <td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2>IV</h2>
       <table class="risultati">
         <tr class="odd">
@@ -229,7 +229,7 @@
           <td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2>V</h2>
       <table class="risultati">
         <tr class="odd">
@@ -281,7 +281,7 @@
           <td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2>VI</h2>
       <table class="risultati">
         <tr class="odd">
@@ -333,7 +333,7 @@
           <td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <h2>VII</h2>
       <table class="risultati">
         <tr class="odd">
@@ -385,7 +385,7 @@
           <td></td>
         </tr>
       </table>
-      <br />
+      <br>
       <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

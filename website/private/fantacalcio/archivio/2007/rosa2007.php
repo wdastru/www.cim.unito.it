@@ -77,7 +77,7 @@
           <td class="tribuna">&nbsp;</td>
         </tr>
       </table>
-      <br />
+      <br>
       <!-- InstanceEndEditable --></div>
 
 <?php include $relocate_string . 'include/footer.inc.php'?>

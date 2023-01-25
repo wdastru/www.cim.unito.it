@@ -21,11 +21,11 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
       <h1 class="title">VI Campionato Fantacalcio NMR 2004/05</h1>
-       <br />
-          <br />
+       <br>
+          <br>
           <h2 class='firstClass'>1&deg; Classificato: </h2>
           <h2 class="title">DINAMO CIOFECA</h2>
-          <br />
+          <br>
       <table class="classifica">
         <tr class="tableline">
           <th>&nbsp;</th>

@@ -93,13 +93,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                                     Date:
                                     <input type="text" id="date"
                                     name="date">
-                                    <br />
+                                    <br>
                                     <input type="file" name="ufile">
                                     <input
                                     type="submit" value="Upload">
                                 </form>
                             </div>
-                            <br />
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

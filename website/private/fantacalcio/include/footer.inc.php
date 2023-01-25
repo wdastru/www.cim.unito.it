@@ -1,5 +1,5 @@
 <?php
-echo "<div id='footer'> <br />
+echo "<div id='footer'> <br>
   <p> <a class='link' href='http://validator.w3.org/check?uri=referer'><img style='border:none; text-decoration:none;'
         src='";
 echo $relocate_string . "figure/Valid XHTML 1.png'
@@ -7,9 +7,9 @@ echo $relocate_string . "figure/Valid XHTML 1.png'
           src='";
 echo $relocate_string . "figure/Valid CSS 2.png'
           alt='Valid CSS 2.1!' height='31' width='88' /></a> </p>
-  <br />
+  <br>
   <!--<p id='version'></p><script type='text/javascript'>print_version();</script>-->
-  <br />
-  <br />
+  <br>
+  <br>
 </div>";
 ?>

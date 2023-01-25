@@ -29,15 +29,15 @@
         <div id='hiddenBoxOld' style='visibility:hidden'>
           <form method='post' name='formRisultati'>
             <input type='button' value='Close this box!' onmousedown='hideBox();'/>
-            <br /><br />
+            <br><br>
             Goal Squadra A : <input type='text' name='goalA' value='' onkeyup="goalsA(event);"/>
-            <br /><br />
+            <br><br>
             Goal Squadra B : <input type='text' name='goalB' value='' onkeyup="goalsB(event);"/>
-            <br /><br />
-            Punti Squadra A : <input type='text' name='puntiA' value=''/><br /><br />
-            Punti Squadra B : <input type='text' name='puntiB' value=''/><br /><br />
+            <br><br>
+            Punti Squadra A : <input type='text' name='puntiA' value=''/><br><br>
+            Punti Squadra B : <input type='text' name='puntiB' value=''/><br><br>
             Marcatori:
-            <br /><br />
+            <br><br>
             <?php
 			for($i=0; $i<20; $i++)
 				echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";

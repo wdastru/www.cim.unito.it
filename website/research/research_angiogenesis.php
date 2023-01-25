@@ -37,7 +37,7 @@ $localizer = "../";
 								tumor perfusion. These structural features contribute to vascular heterogeneity and impair tumor blood flow responsible of hypoxia, 
 								interstitial pressure and acidosis. Therefore, several therapeutic strategies are under investigation tonormalize the tumor vasculature
 								throughout antiangiogenic therapies for improving blood perfusion and for decreasing level of hypoxia that makes the cells resistant 
-								to radiotherapy and cytotoxic agents. <br />
+								to radiotherapy and cytotoxic agents. <br>
 								Several imaging techniques have been developed to visualize these structural abnormalities.</p>
 								
 								<ul>
@@ -86,7 +86,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

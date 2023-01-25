@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
         <h1 class="title">SUPERCOPPA 2008</h1>
-        <br />
+        <br>
         <table align="center" width="500" border="0">
           <tr>
             <td><table align="center" width="150" border="0">
@@ -84,7 +84,7 @@
             <td>&nbsp;</td>
           </tr>
         </table>
-        <p> Real Mentescars   : 3 ( 82.5 : KAKA', CONTI, KAKA' )<br />
+        <p> Real Mentescars   : 3 ( 82.5 : KAKA', CONTI, KAKA' )<br>
           Dinamo Ciofeca : 2 ( 74.5 : AMAURI, LUCARELLI )</p>
         <!-- InstanceEndEditable --></div>
 

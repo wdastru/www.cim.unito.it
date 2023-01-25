@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
         <h1 class="title">SUPERCOPPA 2010</h1>
-        <br />
+        <br>
         <table align="center" width="500" border="0">
           <tr>
             <td><table align="center" width="150" border="0">
@@ -84,7 +84,7 @@
             <td>&nbsp;</td>
           </tr>
         </table>
-        <p>  Real Mentescars : 2 ( 72.5 : MICCOLI, THIAGO MOTTA )<br />
+        <p>  Real Mentescars : 2 ( 72.5 : MICCOLI, THIAGO MOTTA )<br>
  Lokomotiv Peccorino : 1 ( 66.5 : RONALDINHO )</p>
         <!-- InstanceEndEditable --></div>
 

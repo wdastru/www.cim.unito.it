@@ -27,25 +27,25 @@ include("calendario0708.inc");
 <?php require $relocate_string . 'include/menu.inc.php'; ?>
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
-        <div id='hiddenBoxOld' style='visibility:hidden'><br />
+        <div id='hiddenBoxOld' style='visibility:hidden'><br>
 			<div id='hiddenBoxTitleBox'>
 				<span id='squadra1'>squadra1</span>
 				<span id='hiddenBoxHyphen'> - </span>
 				<span id='squadra2'>squadra2</span>
 		  </div>			
-		<br />
-          <br />
+		<br>
+          <br>
           <form method='post' name='formRisultati'>
             <input type='button' value='Close this box!' onclick='hideBox();'/>
-            <br /><br />
+            <br><br>
             Goal Squadra A :<input type='text' name='goalA' value='' onkeyup="goalsA(event);"/>
-            <br /><br />
+            <br><br>
             Goal Squadra B :<input type='text' name='goalB' value='' onkeyup="goalsB(event);"/>
-            <br /><br />
-            Punti Squadra A :<input type='text' name='puntiA' value=''/><br /><br />
-            Punti Squadra B :<input type='text' name='puntiB' value=''/><br /><br />
+            <br><br>
+            Punti Squadra A :<input type='text' name='puntiA' value=''/><br><br>
+            Punti Squadra B :<input type='text' name='puntiB' value=''/><br><br>
             Marcatori:
-            <br /><br />
+            <br><br>
             <?php
 			for($i=0; $i<20; $i++)
 				echo "<div class='goals'><input type='text' name='goals" . $i . "' value=''/></div>";
@@ -104,7 +104,7 @@ include("calendario0708.inc");
 	
 	for($k=0; $k<7; $k++) // giornata
 	{	
-      	echo "<br />";
+      	echo "<br>";
       	echo "<h2 class=\"giornata\">" . $giornata[$k] . "</h2>\n";
       	echo "<div class=\"center\">\n";
       	echo "<table class=\"risultati\">\n";

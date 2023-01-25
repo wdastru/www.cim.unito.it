@@ -50,7 +50,7 @@ $localizer = "./";
 							exploiting MRI technology to map and quantify enzyme activity in pathological tissue. Enzymes play 
 							critical roles in cellular metabolism and are already valuable biomarkers of pathology in blood tests. 
 							Now, their high-resolution spatial localisation in tissues will significantly enhance disease detection 
-							and monitoring. <br />
+							and monitoring. <br>
 							PrimoGaia brings together an interdisciplinary consortium of research teams from 4 
 							academics: Aix-Marseille University, Universit&eacute; de Mons, Universit&aacute; Torino (reagents), CNRS Bordeaux (EPR unit, sequences, 
 							biology); Fraunhofer Institute (Physics) and 2 companies: <a href='https://www.stelar.it/'>Stelar</a> (magnetic 
@@ -65,7 +65,7 @@ $localizer = "./";
 								completely new class of MRI contrast agents that display remarkable relaxation effects on tissue 
 								water protons. Their detection requires the acquisition of images at variable magnetic field strength 
 								as provided by Fast Field Cycling MRI (FFCMRI) scanners.
-								<br />Consortium: University of Torino and University of Aberdeen.</div></li>	
+								<br>Consortium: University of Torino and University of Aberdeen.</div></li>	
 								
 								<li>National project funded by San Paolo Foundation: "Imaging extracellular pH as a MRI
 									diagnostic tool" - <strong>CSTO165925</strong>
@@ -211,7 +211,7 @@ $localizer = "./";
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
 		</div>

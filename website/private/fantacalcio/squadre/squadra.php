@@ -232,7 +232,7 @@ if(file_exists($fileSquadreXml))
     foreach ($stagione as $content) {
         
         /*
-         * $content e' array che può contenere fino a 6 campi:
+         * $content e' array che puï¿½ contenere fino a 6 campi:
          * => anno
          * => posizione
          * => vecchio_nome
@@ -240,7 +240,7 @@ if(file_exists($fileSquadreXml))
          * => coppa
          * => supercoppa
          * 
-         * in realtà 
+         * in realtï¿½ 
          * => vecchio_nome
          * => champions
          * => coppa
@@ -279,12 +279,12 @@ if(file_exists($fileSquadreXml))
 					</table></td>
 			</tr>
 		</table>
-		<br />
+		<br>
 		<?php 
 			require $relocate_string . 'playersInTeamsReader.php'; // definito giocatore[squadra:8][index:25]
-			require $relocate_string . 'playersRepeated.php'; // controlla la presenza di giocatori ripetuti in più squadre 
+			require $relocate_string . 'playersRepeated.php'; // controlla la presenza di giocatori ripetuti in piï¿½ squadre 
 		?>
-		<br />
+		<br>
 	<?php include($relocate_string . "squadre/generatoreSquadra.php"); ?>
 		<!-- InstanceEndEditable -->
 	</div>

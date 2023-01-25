@@ -41,10 +41,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <img src="images/socrateslogok.jpg" width="245" height="120" alt="Socrates" />
                             </div>
                             <div style="clear: both">
-                                <br />
+                                <br>
                                 <h1 style="text-align: center">Intensive Programme 2013</h1>
                                 <h1 style="text-align: center">Probes and Models for Imaging Diseases and Therapy</h1>
-                                <br />
+                                <br>
                                 <p style="font-weight: bold; font-size: 14px">
                                     Description
                                 </p>
@@ -158,8 +158,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <td><a href="mailto:mariaj.alonso@usc.es"> <img style="border: none" src="images/icon-48x48-envelope_go.png" alt="mail to" width="24" height="24" /> </a></td>
                                     </tr>
                                 </table>
-                                <br />
-                                <br />
+                                <br>
+                                <br>
                                 <p style="font-weight: bold; font-size: 14px">
                                     Location
                                 </p>
@@ -208,7 +208,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                                 students who have been awarded a scholarship). </li>
                                         </ul></li>
                                 </ul>
-                                <br />
+                                <br>
                                 <p style="font-weight: bold; font-size: 14px">
                                     Additional info /
                                     News
@@ -233,7 +233,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2013/How_to_reach_student_residences.doc">How
                                         to reach the residences</a></li>
                                 </ul>
-                                <br />
+                                <br>
                                 <p style="font-weight: bold; font-size: 14px">
                                     Lecture notes and Program
                                 </p>
@@ -385,7 +385,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

@@ -34,7 +34,7 @@ $localizer = "../";
                             <p class='indent'>
                                
                                Extraction of information from raw images (coming from several modalities) is a fundamental step in molecular imaging applications. In our center we develop novel image processing 
-                               methods and use them in several applications. These applications are mainly focused on quantitative MRI analysis. Our research cover several imaging applications:<br />
+                               methods and use them in several applications. These applications are mainly focused on quantitative MRI analysis. Our research cover several imaging applications:<br>
  
  							   <ul>
  							   <li><b>DCE-MRI</b>
@@ -101,7 +101,7 @@ $localizer = "../";
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
                     ITALY
-                    <br />
+                    <br>
                     Fax. Tel. Mail
                 </p>
             </div>

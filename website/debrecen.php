@@ -69,7 +69,7 @@
 							<h2>UPCOMING EVENTS</h2>
 							<ul>
 							<li>
-							<p><a target="_new" href="http://www.cost.esf.org/domains_actions/cmst/Actions/Metal-Based_Systems_for_Molecular">COST D38 Action "Metal-Based Systems for Molecular Imaging Applications"</a><br />
+							<p><a target="_new" href="http://www.cost.esf.org/domains_actions/cmst/Actions/Metal-Based_Systems_for_Molecular">COST D38 Action "Metal-Based Systems for Molecular Imaging Applications"</a><br>
 							<a href="meetings.php">JOINT WORKING GROUPS 2 AND 6 MEETING - 24<sup>th</sup>-26<sup>th</sup> March 2011</a></p>
 							</li></ul>
 							-->
@@ -86,7 +86,7 @@
 				<p>
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
 					ITALY
-					<br />
+					<br>
 					Fax. Tel. Mail
 				</p>
 			</div>

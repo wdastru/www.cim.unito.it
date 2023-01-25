@@ -21,7 +21,7 @@
 <!-- InstanceBeginEditable name="hiddenBox" --><!-- InstanceEndEditable -->
 <div id="main"> <!-- InstanceBeginEditable name="body" -->
      <h1 class="title">DINAMO CIOFECA 2004/05</h1>
-     <br />
+     <br>
           <table class="rosa">
             <tr class="tableline">
               <th>PORTIERI</th>
