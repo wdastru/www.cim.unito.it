@@ -2,7 +2,7 @@
 $localizer = "./";
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
@@ -140,7 +140,7 @@ $localizer = "./";
 													synthesis</span> <img
 												src="images/research/figure_research_synthesis.jpg"
 												alt=""
-												class="w3-image-left" />
+												class="w3-image-left" >
 											</a> <span class="PIname">PI: </span> <a
 												title="Opens in new window"
 												href="#"><span class="PIname"> Stefania</span></a>, <a
@@ -163,7 +163,7 @@ $localizer = "./";
 													Gd-complexes </span> <img
 												src="images/research/figure_research_Gdcomplex.jpg"
 												alt=""
-												class="w3-image-left" />
+												class="w3-image-left" >
 											</a> <span class="PIname">PI: </span> <a
 												title="Opens in new window"
 												href="#"><span class="PIname">Gianolio</span></a>, <a
@@ -185,7 +185,7 @@ $localizer = "./";
 													CEST contrast agents</span> <img
 												src="images/research/figure_research_CEST.jpg"
 												alt="Graphic representing DIACEST, PARACEST and LIPOCEST agents"
-												class="w3-image-left" /></a> <span class="PIname">PI: </span>
+												class="w3-image-left" ></a> <span class="PIname">PI: </span>
 											<a
 												title="Opens in new window"
 												href="#"><span class="PIname">Terreno</span></a>, <a
@@ -210,7 +210,7 @@ $localizer = "./";
 													Hyperpolarized agents</span> <img
 												src="images/research/figure_research_hyperpolarized.jpg"
 												alt=""
-												class="w3-image-left" />
+												class="w3-image-left" >
 											</a><span class="PIname">PI: </span> <a
 												title="Opens in new window"
 												href="#"><span class="PIname"> Reineri</span></a>, <a
@@ -240,7 +240,7 @@ $localizer = "./";
 													Multi-modality agents</span> <img
 												src="images/research/figure_research_multimodal.jpg"
 												alt=""
-												class="w3-image-left" />
+												class="w3-image-left" >
 											</a><span class="PIname">PI: </span> <a
 												title="Opens in new window"
 												href="#"><span class="PIname"> Terreno</span></a>, <a
@@ -262,7 +262,7 @@ $localizer = "./";
 													Responsive agents</span> <img
 												src="images/research/figure_research_responsive.jpg"
 												alt=""
-												class="w3-image-left" />
+												class="w3-image-left" >
 											</a><span class="PIname">PI: </span> <a
 												title="Opens in new window"
 												href="PI/Longo/home.php"
@@ -287,7 +287,7 @@ $localizer = "./";
 													Targeting agents</span> <img
 												src="images/research/figure_research_targeting_agents.jpg"
 												alt=""
-												class="w3-image-left" /></a> <span class="PIname">PI: </span>
+												class="w3-image-left" ></a> <span class="PIname">PI: </span>
 											<a
 												title="Opens in new window"
 												href="#"><span class="PIname"> Terreno</span></a>, <a
@@ -309,7 +309,7 @@ $localizer = "./";
 													Theranostic agents</span> <img
 												src="images/research/figure_research_theranostic.jpg"
 												alt=""
-												class="w3-image-left" />
+												class="w3-image-left" >
 											</a><span class="PIname">PI: </span> <a
 												title="Opens in new window"
 												href="#"><span class="PIname"> Terreno</span></a>, <a

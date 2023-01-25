@@ -2,14 +2,14 @@
 $localizer = "./";
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 		<?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Staff</title>
 <link
 	rel="stylesheet"
-	href="square.css" />
+	href="square.css" >
 </head>
 <body>
 
