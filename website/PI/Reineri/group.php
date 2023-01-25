@@ -217,7 +217,7 @@
 										<div class="showtext">
 										<div>My research focuses on ...</div>
 										<form> <p align="justify"><b>
-										Early stage researcher (PhD student), within the <a title="Open in a new window" class="http" href="www.zulf.com" target="_blank">							
+										Early stage researcher (PhD student), within the <a title="Open in a new window" class="http" href="https://zulf.eu/" target="_blank">							
 											ZULF</a>  project, at the Molecular Imaging Center. My scientific experience is organic and inorganic synthesis. 
 										My current project is devoted to the development of the hyperpolarization method named PHIP-SAH (ParaHydrogen Induced Polarization- Side Arm Hydrogenation) 
 										and on the ZULF NMR detection of these hyperpolarized molecule of metabolites. 

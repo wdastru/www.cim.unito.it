@@ -80,7 +80,7 @@
 											</header>
 											<p>Stable D-peptide binders are found screening a phage display peptide library against the D-enantiomer of the protein target. 
 											The all-D protein is synthesized by native chemical ligation.</p>
-											<a href="<?php echo $localizer; ?>/PI/DAndrea/research_probes.php"><p align="right">
+											<a href="<?php echo $localizer; ?>/PI/DAndrea/research_1.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>

@@ -37,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/D'Andrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
+							<a href="<?php echo $localizer; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 

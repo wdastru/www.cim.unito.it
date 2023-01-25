@@ -44,7 +44,7 @@
 								<p style="text-align:left;"><b>Research Fellow<br />
 								Institute of Biostructure and Bioimaging<br>
 								National Research Council of Italy<br>
-								<a href="../PI/Reineri/home.html" target="_blank" style="color:#dc6a10">
+								<a href="../PI/Reineri/home.php" target="_blank" style="color:#dc6a10">
 								Reineri Lab</a>
 								</b></p>
 									
