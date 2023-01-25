@@ -76,7 +76,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                             </p>
 
                             <p>
-                                Molecular imaging is a rapidly emerging biomedical research discipline which allows the visual representation, characterization, and quantification of biological processes at the cellular and subcellular levels within intact living organisms. The term “molecular imaging” implies the convergence of multiple image-capture techniques, basic cell/molecular biology, chemistry, medicine, pharmacology, medical physics, biomathematics, and bioinformatics into a new imaging paradigm.
+                                Molecular imaging is a rapidly emerging biomedical research discipline which allows the visual representation, characterization, and quantification of biological processes at the cellular and subcellular levels within intact living organisms. The term ï¿½molecular imagingï¿½ implies the convergence of multiple image-capture techniques, basic cell/molecular biology, chemistry, medicine, pharmacology, medical physics, biomathematics, and bioinformatics into a new imaging paradigm.
                                 <br />
                                 The <span style="font-weight: bold;">purpose</span> of the proposed Workshop is to show how different imaging modalities, coupled with tailored imaging probes able to recognize specific pathologic markers, allow the visualization and quantification of disease evolution and the evaluation of therapy response.
                                 Several imaging modalities (MRI, PET/SPECT, Optical Imaging) will be showed together with their main applications in tumor diagnosis, monitoring of therapeutic treatment and cardiovascular and liver diseases.
@@ -115,7 +115,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <li>9h30-12h30: Welcome &amp; Registration</li>
                                         <li>12h30-13h30: Introduction to Molecular Imaging (Silvio Aime - University of Torino)</li>
                                         <li>13h30-14h30: <i>Lunch time</i></li>
-                                        <li>14h30-15h30: <a href="documenti/emids_Dastru.ppsx>">Gd(III) complexes: basic relaxometric characterization (Eliana Gianolio - University of Torino)</a></li>
+                                        <li>14h30-15h30: <a href="documenti/Gianolio_emids2014.pdf>">Gd(III) complexes: basic relaxometric characterization (Eliana Gianolio - University of Torino)</a></li>
                                         <li>16h30-17h00: <i>Coffee break</i></li>
                                         <li>17h00-18h00: Responsive Contrast Agents (Giuseppe Digilio - University of Piemonte Orientale)</li>
                                     </ul></td>
