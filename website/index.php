@@ -4,13 +4,11 @@ ob_start('ob_gzhandler');
 header('Content-Type: text/html;charset=UTF-8');
 ?>
 <!DOCTYPE html>
-<html
-	xmlns="http://www.w3.org/1999/xhtml"
-	lang="en">
+<html lang="en">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-        <meta name='description' content='Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy.' />
+        <meta name='description' content='Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy.'>
         <title>Molecular Imaging Center - University of Torino</title>
 </head>
 <body>
@@ -301,16 +299,16 @@ header('Content-Type: text/html;charset=UTF-8');
 									<h3 class='punch purple'>
 										<span>Euro-BioImaging</span>
 									</h3>
-									<br /> <a href="http://www.eurobioimaging.eu/"> <img
+									<br> <a href="http://www.eurobioimaging.eu/"> <img
 										style="width: 99%"
 										src="images/Euro-Bioimaging-horizontal-RGB-slogan.png"
-										alt="Euro-BioImaging logo" /></a> <a
+										alt="Euro-BioImaging logo"></a> <a
 										href="news.php#EuBIlaunch"><span class='paperTitle'> European
-											Commission launched the Euro-Bioimaging ERIC</span></a> <br />
-									<br /> <a href="http://www.mmmi.unito.it/"> <span
+											Commission launched the Euro-Bioimaging ERIC</span></a> <br>
+									<br> <a href="http://www.mmmi.unito.it/"> <span
 										class='paperTitle'>Italian Multi-sited Multi-Modal Molecular
 											Imaging (MMMI) Node Candidate</span>
-									</a> <br /> <p
+									</a> <br> <p
 											style="text-align: right; color: blue; font-size: 100%"><a href="news.php#EuBIlaunch">
 											<b>Read more &#8594;</b>
 										</a></p>
@@ -322,11 +320,11 @@ header('Content-Type: text/html;charset=UTF-8');
 									<h3 class='punch purple'>
 										<span>COST Actions</span>
 									</h3>
-									<span><b>COST Actions CA15209 - Eurelax</b></span> <br /> <span>&quot;European
-										Network on NMR Relaxometry&quot;</span> <br /> <br /> <span><b>COST
-											Actions CA16103 - Parenchima</b></span><br /> <span>&quot;Magnetic
+									<span><b>COST Actions CA15209 - Eurelax</b></span> <br> <span>&quot;European
+										Network on NMR Relaxometry&quot;</span> <br> <br> <span><b>COST
+											Actions CA16103 - Parenchima</b></span><br> <span>&quot;Magnetic
 										Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span>
-									<br />
+									<br>
 									<p style="text-align: right; color: blue; font-size: 100%">
 										<a href="news.php#COST"> <b>Read more &#8594;</b>
 										</a>
@@ -359,7 +357,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											<img
 												style="width: 70%"
 												src="news/glint.svg"
-												alt="GLINT logo"> <br /> <span>CIM partecipates to the H2020
+												alt="GLINT logo"> <br> <span>CIM partecipates to the H2020
 												project <a
 												href="http://www.glint-project.eu/"
 												target="_blank"><span class='paperTitle'>GLINT</span></a>
@@ -375,7 +373,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											<img
 												style="width: 70%"
 												src="news/primoGAIA-logo.png"
-												alt="Primo GAIA logo"> <br /> <span>CIM partecipates to the
+												alt="Primo GAIA logo"> <br> <span>CIM partecipates to the
 												H2020 project <a
 												href="http://http://www.primogaia.eu/"
 												target="_blank"><span class='paperTitle'>Primo GAIA</span></a>
@@ -423,7 +421,7 @@ header('Content-Type: text/html;charset=UTF-8');
 									<h3 class='punch orange'>
 										<span>EMIM meeting</span>
 									</h3>
-									<br /> <img
+									<br> <img
 										style="width: 99%"
 										src="images/meetings/EMIM_2020.jpg"
 										alt="15th European Molecular Imaging Meeting 2020 image"> <a
@@ -440,7 +438,7 @@ header('Content-Type: text/html;charset=UTF-8');
 									<h3 class='punch orange'>
 										<span>ISMRM meeting</span>
 									</h3>
-									<br /> <img
+									<br> <img
 										style="width: 99%; max-height: 80px"
 										src="images/meetings/ISMRM_2020.jpg"
 										alt="ISMRM 28th Annual Meeting 2020 image"> <a
@@ -458,7 +456,7 @@ header('Content-Type: text/html;charset=UTF-8');
 									<h3 class='punch orange'>
 										<span>WMIC meeting</span>
 									</h3>
-									<br /> <img
+									<br> <img
 										style="width: 99%"
 										src="images/meetings/WMIC_2020.jpg"
 										alt="World Molecular Imaging Congress 2020 image"> <a
@@ -513,8 +511,8 @@ header('Content-Type: text/html;charset=UTF-8');
 														style="width: 100%"> <b>In vitro and in vivo BNCT
 															investigations using a carborane containing sulfonamide
 															targeting CAIX epitopes on malignant pleural mesothelioma
-															and breast cancer cells.</b> <br /> <span
-														class="w3-text-blue"> <b>Geninatti Crich S et al;</b> <br />
+															and breast cancer cells.</b> <br> <span
+														class="w3-text-blue"> <b>Geninatti Crich S et al;</b> <br>
 															Sci Rep 10, 19274 (2020)
 													</span></a>
 												</div>
@@ -541,8 +539,8 @@ header('Content-Type: text/html;charset=UTF-8');
 																Contrast Agents based on the relaxation enhancement
 																induced on water protons by <sup>14</sup>N imidazole
 																moieties.
-														</b> <span class="w3-text-blue"> <br />
-															<b>Geninatti Crich S et al;</b> <br />Angew. Chem. Int.
+														</b> <span class="w3-text-blue"> <br>
+															<b>Geninatti Crich S et al;</b> <br>Angew. Chem. Int.
 																Ed. Accepted
 														</span>
 														</a>
@@ -567,7 +565,7 @@ header('Content-Type: text/html;charset=UTF-8');
 														alt=""
 														style="width: 100%"> <b>Imaging tumor acidosis: a survey
 															of the available techniques for mapping in vivo tumor pH.</b>
-														<span class="w3-text-blue"> <br /> <b>Longo D. et al; </b><br />Cancer
+														<span class="w3-text-blue"> <br> <b>Longo D. et al; </b><br>Cancer
 															Metastasis Rev. 2019 Feb 14.
 													</span></a>
 												</div>
@@ -594,7 +592,7 @@ header('Content-Type: text/html;charset=UTF-8');
 														style="width: 100%"> <b>Gadolinium presence, MRI
 															hyperintensities, and glucose uptake in the hypoperfused
 															rat brain after repeated administrations of gadodiamide.</b>
-														<span class="w3-text-blue"> <br /> <b>Gianolio E. et al; </b><br />Neuroradiology.
+														<span class="w3-text-blue"> <br> <b>Gianolio E. et al; </b><br>Neuroradiology.
 															2018
 													</span></a>
 												</div>
@@ -618,8 +616,8 @@ header('Content-Type: text/html;charset=UTF-8');
 														style="width: auto; height: 100px"> <b>Indocyanine Green
 															labeling for optical and photoacoustic imaging of
 															Mesenchymal Stem Cells after in vivo transplantation.</b>
-														<span class="w3-text-blue"> <br />
-														<b>Terreno E. et al; </b><br />J Biophotonics. 2018
+														<span class="w3-text-blue"> <br>
+														<b>Terreno E. et al; </b><br>J Biophotonics. 2018
 													</span></a>
 												</div>
 											</div>
@@ -641,7 +639,7 @@ header('Content-Type: text/html;charset=UTF-8');
 														alt=""
 														style="width: 100%"> <b>Efficient Route to Label
 															Mesenchymal Stromal Cell-Derived Extracellular Vesicles.</b>
-														<span class="w3-text-blue"> <b>Geninatti S. et al; </b><br />
+														<span class="w3-text-blue"> <b>Geninatti S. et al; </b><br>
 															ACS Omega. 2018 Jul 31;3(7):8097-8103.
 													</span></a>
 												</div>
@@ -668,8 +666,8 @@ header('Content-Type: text/html;charset=UTF-8');
 														style="width: 100%"> <b>Metabolic Studies of Tumor Cells
 															Using [1-<sup>13</sup> C] Pyruvate Hyperpolarized by
 															Means of PHIP-Side Arm Hydrogenation.
-													</b> <span class="w3-text-blue"> <br /> <b>Reineri F. et
-																al; </b><br />Chemphyschem. 2018, 19, 1-9.
+													</b> <span class="w3-text-blue"> <br> <b>Reineri F. et
+																al; </b><br>Chemphyschem. 2018, 19, 1-9.
 													</span></a>
 												</div>
 											</div>
@@ -691,8 +689,8 @@ header('Content-Type: text/html;charset=UTF-8');
 														alt=""
 														style="width: 100%"> <b>[Yb(AAZTA)(H<sub>2</sub>O)]-: an
 															unconventional ParaCEST MRI probe.
-													</b> <span class="w3-text-blue"> <br /> <b>Delli Castelli
-																D. et al; </b><br />Chem Commun. 2018 Feb
+													</b> <span class="w3-text-blue"> <br> <b>Delli Castelli
+																D. et al; </b><br>Chem Commun. 2018 Feb
 															20;54(16):2004-2007.
 													</span></a>
 												</div>
@@ -717,8 +715,8 @@ header('Content-Type: text/html;charset=UTF-8');
 															href="https://www.ncbi.nlm.nih.gov/pubmed/30257047"
 															target="_blank"> <b>An efficient MRI agent targeting
 																extracellular markers in prostate adenocarcinoma.</b> <span
-															class="w3-text-blue"> <br />
-															<b>Stefania R et al; </b><br />Magn Reson Med. 2018; 1-12
+															class="w3-text-blue"> <br>
+															<b>Stefania R et al; </b><br>Magn Reson Med. 2018; 1-12
 														</span>
 														</a>
 													</div>
@@ -747,8 +745,8 @@ header('Content-Type: text/html;charset=UTF-8');
 															href="https://www.ncbi.nlm.nih.gov/pubmed/29963255"
 															target="_blank"> <b>Cancer cell death induced by
 																ferritins and the peculiar role of their labile iron
-																pool.</b> <span class="w3-text-blue"> <br />
-															<b>Cutrin JC et al;</b> <br />Oncotarget. 2018 Jun 15;
+																pool.</b> <span class="w3-text-blue"> <br>
+															<b>Cutrin JC et al;</b> <br>Oncotarget. 2018 Jun 15;
 																9(46): 27974-27984
 														</span>
 														</a>
@@ -772,7 +770,7 @@ header('Content-Type: text/html;charset=UTF-8');
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br />
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
 		</div>
@@ -782,14 +780,14 @@ header('Content-Type: text/html;charset=UTF-8');
 					src="images/valid-xhtml10-blue_opt.png"
 					alt="Valid XHtml 1.0 Transitional"
 					height="31"
-					width="88" />
+					width="88" >
 				</a>
 			</p>
 			<p>
 				<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"> <img
 					style="border: 0; width: 88px; height: 31px"
 					src="images/vcss-blue_opt.gif"
-					alt="CSS Valido!" />
+					alt="CSS Valido!" >
 				</a>
 			</p>
 		</div>
