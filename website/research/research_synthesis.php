@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Responsive agents</title>
-        <meta name="description" content="" />
+        <meta name="description" content="" >
     </head>
     <body>
 
@@ -81,22 +80,12 @@ $localizer = "../";
                                      granules through a slight degradation after oxidative treatments. 
                                      </p></li>
                             </ul>
-                                
-                                
-                                
-                                
-                            </p>
-                            
-                            <hr></hr>
-                            
+                            <hr>
                             <h2 style="text-align:left;"> Group Leaders: </h2>					
-														
 							<a href="../staff/staff_stefania.php"  title="Rachele Stefania">
-							<img src="../images/staff/stefania.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
+							<img class="group-leaders-img" alt="Rachele Stefania" src="../images/staff/stefania.jpg"></a>
 							<a href="../staff/staff_tei.php" title="Lorenzo Tei">
-							<img src="../images/staff/tei.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-                           
+							<img class="group-leaders-img" alt="Lorenzo Tei" src="../images/staff/tei.jpg"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -117,7 +106,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>
