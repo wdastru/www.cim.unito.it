@@ -8,6 +8,7 @@ header('Content-Type: text/html;charset=UTF-8');
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
+        <link rel="canonical" href="http://www.cim.unito.it/website/index.php">
         <meta name='description' content='Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy.'>
         <title>Molecular Imaging Center - University of Torino</title>
 </head>
