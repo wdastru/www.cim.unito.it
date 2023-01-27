@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Tumor metabolism</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -48,16 +47,11 @@ $localizer = "../";
                                 through magnetic resonance (MR) spectroscopy and imaging. <sup>13</sup>C&minus;HP pyruvate, obtained using dissolution Dynamic Nuclear Polarization (d&minus;DNP) 
                                 and more recently by Parahydrogen Induced Hyperpolarization (PHIP), is the most widely applied HP metabolite. Unfortunately, 
                                 the wide application of this powerful diagnostic method is limited to few laboratories due to the high costs of the polarizer.
-                                
-                             </p>
-                            
-                            <hr></hr>
-                            
+                           	</p>
+                            <hr>
                             <h2 style="text-align:left;"> Group Leaders: </h2>					
-														
-                             <a href="#" target="_blank" title="Francesca Reineri">
-							<img src="../images/staff/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-                            
+							<a href="#" target="_blank" title="Francesca Reineri">
+							<img alt="Francesca Reineri" class="group-leaders-img" src="../images/staff/reineri.jpg"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -78,7 +72,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

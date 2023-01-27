@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Hyperpolarized agents</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -161,8 +160,8 @@ $localizer = "../";
                                 The PHIP-SAH strategy can be applied to other metabolites (e.g. lactate, acetate, ..) and, in principle, to all the molecules containing a carboxylic group.
                                 </p>
                                 
-                                <div class='imgCenter'><img src="../images/research_lines/hyperpolarized1.jpg"
-                                    alt="p-Hydrogenation" style="width:700px;" />
+                                <div class='imgCenter'>
+                                	<img src="../images/research_lines/hyperpolarized1.jpg" alt="p-Hydrogenation" style="width:700px;">
                                 </div>
                                 <p class='indent'>
                                     <b>2) Quick methods for the catalyst and organic
@@ -204,27 +203,18 @@ $localizer = "../";
                                 <p class='indent'>
                                     <b>3. Transfer of parahydrogen spin order to  <sup>13</sup>C net polarization.</b>
                                     </p>
-                                    
                                     Spin order must be transferred from para-hydrogen protons to heteronuclei, in order to obtain heteronuclear net polarization that can be used for the acquisition of MR mages. 
                                     This can be achieved by application of an opportune magnetic field cycle (MFC) or by the use of pulse sequences. The first method is currently exploited in the CIM laboratories.
-                                     A dedicated set-up has been built by Aspect Imaging and it consists in a magnetic field shield (three concentric cylinders made of mu-metal) bearing a solenoid coil that
-                                      is supplied with electric current  controlled with a custom-written function. This allows to carry out MFC in a completely controlled manner. 
-
-                                </p>
-                                <div class='imgCenter'><img src="../images/research_lines/hyperpolarized2.jpg"
-                                    alt="p-Hydrogenation" style="width:200px;" />
+                                    A dedicated set-up has been built by Aspect Imaging and it consists in a magnetic field shield (three concentric cylinders made of mu-metal) bearing a solenoid coil that
+                                    is supplied with electric current  controlled with a custom-written function. This allows to carry out MFC in a completely controlled manner. 
+                                <div class='imgCenter'>
+                                	<img src="../images/research_lines/hyperpolarized2.jpg" alt="p-Hydrogenation" style="width:200px;">
                                 </div>
-                               
-                                
                             </div>
-                            
-                            <hr></hr>
-                            
+                            <hr>
                             <h2 style="text-align:left;"> Group Leaders: </h2>					
-														
-                             <a href="#" target="_blank" title="Francesca Reineri">
-							<img src="../images/staff/reineri.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-                            
+							<a href="../PI/Reineri/home.php" target="_blank" title="Francesca Reineri">
+							<img alt="Francesca Reineri" class="group-leaders-img" src="../images/staff/reineri.jpg"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -245,7 +235,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

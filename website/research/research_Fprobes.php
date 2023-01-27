@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - CEST agents</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -38,7 +37,7 @@ $localizer = "../";
                                  One of the greatest advantage of <sup>19</sup>F MRI is the almost complete absence of endogenous signal, thus allowing the detection and exact quantification of administered fluorinated 
                                  compounds. However, to spatially locate the signal unambiguously, the <sup>19</sup>F acquisition has to be overlaid to the1H MR image (Figure 1).<br>
                                  
-                                  <img src="../images/research_lines/Fprobes1.jpg" style="width: 180px; height: auto;  margin: 10px;" > </img>
+                                  <img alt="<sup>1</sup>H and <sup>19</sup>F MR images" src="../images/research_lines/Fprobes1.jpg" style="width: 180px; height: auto;  margin: 10px;">
                                   
                                  <b>Figure 1.</b> Merging of <sup>1</sup>H (grayscale) and <sup>19</sup>F (red hotspots) MR images acquired 1h (a) or 24 h (b) post injection of PFC.<br><br>
                                  
@@ -51,7 +50,7 @@ $localizer = "../";
                                  in-vivo labeling of immune system cells (e.g. dendritic cells, monocytes, macrophages), to visualize inflamed areas and spatio-temporally track the course of the inflammatory
                                  processes, in both qualitative and quantitative way (Figure 2). Recently, the use of PFCs has been extended also to stem cell transplantation tracking.<br>
                                    
-                                  <img src="../images/research_lines/Fprobes2.jpg" style="width: 180px; height: auto;  margin: 10px;" > </img>
+                                  <img alt="Monitoring inflammatory processes with PFCs" src="../images/research_lines/Fprobes2.jpg" style="width: 180px; height: auto;  margin: 10px;">
                                   
                                   <b>Figure 2.</b> Schematic illustrating the use of PFCs for monitoring of inflammatory processes. Flogel U et al., Circulation. 2008; 118:140-148.<br><br>
                                   
@@ -74,22 +73,22 @@ $localizer = "../";
                                 
                             </p>
 							
-							<hr></hr>
+							<hr>
                             
 							<h2 style="text-align:left;"> Group Leaders: </h2>
 							
 							
 							<a href="../PI/Terreno/home.php" target="_blank" title="Enzo Terreno">
-							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Enzo Terreno" class="group-leaders-img" src="../images/staff/terreno.jpg"></a>
 							
 							<a href="#" target="_blank" title="Daniela Delli Castelli">
-							<img src="../images/staff/dellicastelli.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Daniela Delli Castelli" class="group-leaders-img" src="../images/staff/dellicastelli.jpg"></a>
 							
 							<a href="../staff/staff_menchise.php" title="Valeria Menchise">
-							<img src="../images/staff/menchise.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Valeria Menchise" class="group-leaders-img" src="../images/staff/menchise.jpg"></a>
 							
 							<a href="#" target="_blank" title="Walter Dastr&ugrave;">
-							<img src="../images/staff/dastru.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Walter Dastr&ugrave;" class="group-leaders-img" src="../images/staff/dastru.jpg"></a>
 							
                             <!-- InstanceEndEditable -->
                         </div>
@@ -111,7 +110,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

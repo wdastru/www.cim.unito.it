@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Tumor Inflammation</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -53,21 +52,12 @@ $localizer = "../";
                             labeled vancomycin to specifically target and detect  Gram positive bacteria andGd-conjugated to maltohexaose, as sugar that is rapidly internalized through the bacteria specific 
                             maltodextrin transport pathway (Boss w. et al. MicrobiolMolBiol Rev 1998; 62:204) in biofilms generated in vitro (Jurciseck JA et al Jove 2011; 47:1) infections as well as in the 
                             cecal ligation and puncture model of  murine sepsis (Dejager L et al Trends in Microbiology 2011; 19:198).
-                                                            
-                                
-                                
                             </p>
                             <br>
-                            
-                            
-                            <hr></hr>
-                            
-                            <h2 style="text-align:left;"> Group Leaders: </h2>
-														
-							
+                            <hr>
+                          <h2 style="text-align:left;"> Group Leaders: </h2>
 							<a href="#" target="_blank" title="Juan Carlos Cutrin">
-							<img src="../images/staff/cutrin.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-                            
+							<img alt="Juan Carlos Cutrin" class="group-leaders-img" src="../images/staff/cutrin.jpg"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -88,7 +78,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Gadolinium Retention in the body </title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -42,32 +41,22 @@ $localizer = "../";
                                 The intrinsic difficulties associated with the availability of human biopsies prompted the development of animal models to investigate Gd-retention in the brain. It has been found 
                                 that successive administrations of GBCA to rodents over periods of few weeks lead to the retention of Gd in the brain structures that mimic the pattern observed in patients.<br><br>
                                 
-                                At CIM the following research area are currently developed:<br>
-                                
-                                <ul>
-                                <li>Evaluation of the speciation of Gd-containing species after multiple administrations GBCAs through the quantification of the amount of intact Gd-complexes and 
-                                insoluble Gd-containing species.</li>
-                                 <li>Investigation of the role of the thermodynamic and kinetic stability of the Gd-complexes on the extent of their retention in vivo.</li>
-                                <li> Extension of the investigation of Gd retention to other body tissues besides brain in order to get a comprehensive view which can help in the understanding of Gd
-                                 accumulation/excretion pathways.</li>
-                                 <li>Investigation of the distribution and speciation of GBCAs in the different blood components (Red Blood Cells, Leukocytes and serum).</li>
-
-                                </ul>
-                                
-                                
-                                
-                            </p>
-							
-							
-							
-                            <hr></hr>
+                                At CIM the following research area are currently developed:
+                         	</p>
+                            <br>
                             
+                            <ul>
+                            <li>Evaluation of the speciation of Gd-containing species after multiple administrations GBCAs through the quantification of the amount of intact Gd-complexes and 
+                            insoluble Gd-containing species.</li>
+                             <li>Investigation of the role of the thermodynamic and kinetic stability of the Gd-complexes on the extent of their retention in vivo.</li>
+                            <li> Extension of the investigation of Gd retention to other body tissues besides brain in order to get a comprehensive view which can help in the understanding of Gd
+                             accumulation/excretion pathways.</li>
+                             <li>Investigation of the distribution and speciation of GBCAs in the different blood components (Red Blood Cells, Leukocytes and serum).</li>
+                            </ul>
+                            <hr>
 							<h2 style="text-align:left;"> Group Leaders: </h2>					
-																					
 							<a href="../PI/Gianolio/home.html" target="_blank" title="Eliana Gianolio">
-							<img src="../images/staff/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
-							
+							<img alt="Eliana Gianolio" class="group-leaders-img" src="../images/staff/gianolio.jpg"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -88,7 +77,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

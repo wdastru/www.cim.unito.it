@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Responsive agents</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -85,24 +84,24 @@ $localizer = "../";
                                     </ul></li>
                             </ul>
                             
-                            <hr></hr>
+                            <hr>
                             
                             <h2 style="text-align:left;"> Group Leaders: </h2>
 							
 							<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
-							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Dario Longo" class="group-leaders-img" src="../images/staff/Dario_Longo.jpg"></a>
 														
 							<a href="#" target="_blank" title="Daniela Delli Castelli">
-							<img src="../images/staff/dellicastelli.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Daniela Delli Castelli" class="group-leaders-img" src="../images/staff/dellicastelli.jpg"></a>
 							
 							<a href="../staff/staff_digilio.php" title="Giuseppe Digilio">
-							<img src="../images/staff/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Giuseppe Digilio" class="group-leaders-img" src="../images/staff/digilio.jpg"></a>
 							
 							<a href="../PI/Gianolio/home.html" target="_blank" title="Eliana Gianolio">
-							<img src="../images/staff/gianolio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Eliana Gianolio" class="group-leaders-img" src="../images/staff/gianolio.jpg"></a>
 
 							<a href="../staff/staff_ferrauto.php" target="_blank" title="Giuseppe Ferrauto">
-							<img src="../images/staff/ferrauto.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<img alt="Giuseppe Ferrauto" class="group-leaders-img" src="../images/staff/ferrauto.jpg"></a>
 							
                             
                             <!-- InstanceEndEditable -->
@@ -125,7 +124,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

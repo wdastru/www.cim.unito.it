@@ -1,17 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
-        <title>Molecular Imaging Center - University of Torino -
-	CIM-XNAT</title>
-<meta
-	name="description"
-	content="" />
+        <title>Molecular Imaging Center - University of Torino - CIM-XNAT</title>
+		<meta name="description" content="">
 </head>
 <body>
 
@@ -37,18 +33,14 @@ $localizer = "../";
 					</div>
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
-
-						<font size="3">
-						<b>Welcome to the CIM-XNAT information website!</b></font>
+						<b>Welcome to the CIM-XNAT information website!</b>
 						<p class="indent">
-							A <a
-								href="https://www.xnat.org"
-								target="_blank"
+							A <a href="https://www.xnat.org" target="_blank"
 								style="color: #dc6a10">XNAT</a> service for archiving and
-							processing preclinical medical images is available at <a
-								href="http://eubi-xnat.hpc4ai.unito.it"
-								target="_blank"
-								style="color: #dc6a10">EUBI-XNAT</a>. <br>
+							processing preclinical medical images is available at
+							<a href="http://eubi-xnat.hpc4ai.unito.it" target="_blank"
+								style="color: #dc6a10">EUBI-XNAT</a>. 
+								<br>
 							Small animal imaging facilities are highly specialized centers
 							that provide the research community access to cutting-edge
 							imaging technologies. These centers have therefore to deal with
@@ -59,19 +51,20 @@ $localizer = "../";
 							tasks.<br> XNAT natively supports multiple imaging modalities,
 							such as MR, PET, CT, and US. We are extending XNAT datatypes to
 							other preclinical imaging modalities, such as Optoacoustic (OA)
-							and Optical Imaging (OI).</br>
+							and Optical Imaging (OI).</p>
 
 							<p style="text-align: center;">
-								<img
-									src="../images/research_lines/DB.png"
-									style="width: 400px; height: auto; margin: 20px;"> </img>
+							<img alt="XNAT" src="../images/research_lines/DB.png"
+								style="width: 400px; height: auto; margin: 20px;">
 							</p>
 
+							<p>
 							We have overcome these limitations through the integration of an
 							open-source archiving platform commonly exploited at clinical
 							level based on XNAT with customizable tools for automated image
 							processing. The developed platform can provide the following
 							workflow:
+							</p>
 							<ul>
 								<li>importing multiple imaging datasets acquired through several
 									instrumentations and modalities either in DICOM (1) or
@@ -84,9 +77,9 @@ $localizer = "../";
 									produce parametric images by calling user-proprietary
 									image-analysis script.</li>
 							</ul>
-						</p>
 
-						<img src="../images/research_lines/xnat_workflow.png"></img> <br>
+						<img alt="MRI2DICOM converter" src="../images/research_lines/xnat_workflow.png">
+						<br>
 						<br> In the near future, we offer the following services:
 						<ul>
 							<li>Each user can, after registration, create his/her own
@@ -100,91 +93,51 @@ $localizer = "../";
 							<li>Users can either use previously imported mask on XNAT or
 								create mask directly on XNAT (beta) to obtain parametric images.</li>
 						</ul>
-
-
-						<font size="3">
-						<b>Contact information</b></font>
+						
+						<b>Contact information</b>
 						<p class="indent">
-							XNAT administrators: <a
-								title="Profile"
+							XNAT administrators: <a title="Profile"
 								href="../staff/staff_zullino.php"> <b>Sara Zullino</b></a>
 						</p>
 
-						<font size="3"> <b>Acknowledgements</b> <br></font>
+						<b>Acknowledgements</b> <br>
 						<p class="indent">
-							<a
-								href="https://www.corbel-project.eu/home.html"
-								target="_blank"> <img
+							<a href="https://www.corbel-project.eu/home.html" target="_blank">
+							<img alt="Corbel"
 								src="../images/research_lines/figure_research_xnat_corbel.png"
 								style="width: 100px; height: auto; margin: 30px 25px; vertical-align: middle;">
-							</img></a> <a
-								href="http://www.eurobioimaging.eu/"
-								target="_blank"> <img
-								src="../images/research_lines/euro_bio_imaging_logo.jpg"
+							</a> 
+							<a href="http://www.eurobioimaging.eu/"
+								target="_blank"> 
+								<img alt="Euro BioImaging" src="../images/research_lines/euro_bio_imaging_logo.jpg"
 								style="width: 200px; height: auto; margin: 30px 25px; vertical-align: middle;">
-							</img></a> <a
-								href="http://www.mmmi.unito.it/"
-								target="_blank"> <img
-								src="../images/research_lines/2logo_MMMI_2.png"
+							</a> 
+							<a href="http://www.mmmi.unito.it/" target="_blank"> 
+							<img alt="MMMI" src="../images/research_lines/2logo_MMMI_2.png"
 								style="width: 200px; height: auto; margin: 30px 25px; vertical-align: middle;">
-							</img></a> <a
-								href="https://www.eosc-life.eu//"
-								target="_blank"> <img
-								src="../images/research_lines/eosclogo.png"
+							</a>
+							<a href="https://www.eosc-life.eu//"
+								target="_blank"> 
+								<img alt="EOSC-Life" src="../images/research_lines/eosclogo.png"
 								style="width: 100px; height: auto; margin: 30px 25px; vertical-align: middle;">
-							</img></a>
+							</a>
 						</p>
-
-
-						<font size="3"> <b>Links/References</b> <br></font>
+						<b>Links/References</b> <br><br>
+						<p class="indent">
+							XNAT home page: <a title="Profile" href="http://www.xnat.org"
+								style="color: #dc6a10"> http://www.xnat.org</a> <br>
 						</p>
 						<p class="indent">
-							XNAT home page: <a
-								title="Profile"
-								href="http://www.xnat.org"
-								style="color: #dc6a10"> http://www.xnat.org</a>
-						</p>
-
-						<p class="indent">
-							User documentation: <a
-								title="Profile"
+							User documentation: <a title="Profile"
 								href="https://wiki.xnat.org/documentation"
 								style="color: #dc6a10"> https://wiki.xnat.org/documentation</a>
 						</p>
-
-
-
-
-
-
-
-
-
-						</p>
-
-
-
-						<hr></hr>
-
+						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
-
-						<a
-							href="../PI/Longo/home.php"
-							target="_blank"
-							title="Dario Longo"> <img
-							src="../images/staff/Dario_Longo.jpg"
-							height="100px;"
-							width="100px;"
-							style="border-radius: 50%"></a> <a
-							href="#"
-							target="_blank"
-							title="Walter Dastr&ugrave;"> <img
-							src="../images/staff/dastru.jpg"
-							height="100px;"
-							width="100px;"
-							style="border-radius: 50%"></a>
-
-
+						<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
+						<img alt="Dario Longo" class="group-leaders-img" src="../images/staff/Dario_Longo.jpg"></a> 
+						<a href="#" target="_blank" title="Walter Dastr&ugrave;"> 
+						<img alt="Walter Dastr&ugrave;" class="group-leaders-img" src="../images/staff/dastru.jpg"></a>
 						<!-- InstanceEndEditable -->
 					</div>
 				</div>
@@ -203,7 +156,7 @@ $localizer = "../";
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
-	<script type="text/javascript">
+	<script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

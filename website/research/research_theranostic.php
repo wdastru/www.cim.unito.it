@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Theranostic Agents</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -83,21 +82,14 @@ $localizer = "../";
                                         shortly after reaching its target.
                                     </p></li>
                             </ul>
-                            
-                            <hr></hr>
-                            
+                            <hr>
                             <h2 style="text-align:left;"> Group Leaders: </h2>
-							https://www.cim.unito.it/website/PI/Terreno/home.php
-														
 							<a href="../PI/Terreno/home.php" target="_blank" title="Enzo Terreno">
-							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
+							<img alt="Enzo Terreno" class="group-leaders-img" src="../images/staff/terreno.jpg"></a>
 							<a href="../PI/Geninatti/home.html" target="_blank" title="Simonetta Geninatti">
-							<img src="../images/staff/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
+							<img alt="Simonetta Geninatti" class="group-leaders-img" src="../images/staff/geninatti_crich.jpg"></a>
 							<a href="../PI/Cutrin/home.php" target="_blank" title="Juan Carlos Cutrin">
-							<img src="../images/staff/cutrin.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-                            
+							<img alt="Juan Carlos Cutrin" class="group-leaders-img" src="../images/staff/cutrin.jpg"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -118,7 +110,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - CEST agents</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -33,7 +32,7 @@ $localizer = "../";
                             <p class='indent'>
                                 
                                 
-                                <img src="../images/research_lines/multimodality_probes1.jpg" style="width: 250px; height: auto;  margin: 20px; float:left;" > </img>
+                                <img alt="Multimodal imaging" src="../images/research_lines/multimodality_probes1.jpg" style="width: 250px; height: auto;  margin: 20px; float:left;">
                                 
                                 The technological progresses in biomedical imaging has led to the development of integrated multimodal scanners, where two or even more imaging modalities can fully display 
                                 their complementarity. The functional/molecular techniques of photoacoustic imaging (PAI), fluorescence molecular tomography (FMT), positron emission tomography (PET), and 
@@ -51,36 +50,27 @@ $localizer = "../";
                                 An example of a multimodal nanoparticle is sketched in Figure 2. The system is based on a gold metal core that can be detected in CT scans (and likely in photoacoustic imaging too). 
                                 Gold is surrounded by a silica coating that was made lipophilic and further coated with amphiphilic MRI and Near InfraRed Fluorescent (NIRF) probes.<br> 
                                 
-                                  <img src="../images/research_lines/multimodality_probes2.jpg" style="width: 250px; height: auto;  margin: 10px;" > </img>
+                                  <img alt="Au nanoparticle" src="../images/research_lines/multimodality_probes2.jpg" style="width: 250px; height: auto;  margin: 10px;">
                                 
-                                 <b>Figure 2.</b> Multimodal nanoparticles for CT/MRI/NIRF detection. (M.M. van Schooneveld et al, Contrast Media Mol Imaging, 5:231, 2010).<br><br> 
-                                 
-                                 CT is typically a morphological imaging technique with the advantage that the signal attenuation is proportional to agent concentration. MRI is capable of generating three-dimensional
-                                  anatomical images with exceptional soft tissue contrast, but it has limited potential to quantify contrast agent concentration. Optical techniques are highly sensitive, 
-                                  can visualize multiple species and are very fast, but can only be reliably applied to small organisms, because of the limited penetration depth of light. 
-                                  Therefore, the combination of these techniques can give quantifiable information of contrast agent accumulation, at different levels, which may prove valuable, 
-                                  especially in a preclinical setting.<br><br>
-                                  
+                                <b>Figure 2.</b> Multimodal nanoparticles for CT/MRI/NIRF detection. (M.M. van Schooneveld et al, Contrast Media Mol Imaging, 5:231, 2010).<br><br> 
+                                CT is typically a morphological imaging technique with the advantage that the signal attenuation is proportional to agent concentration. MRI is capable of generating three-dimensional
+                                anatomical images with exceptional soft tissue contrast, but it has limited potential to quantify contrast agent concentration. Optical techniques are highly sensitive, 
+                                can visualize multiple species and are very fast, but can only be reliably applied to small organisms, because of the limited penetration depth of light. 
+                                Therefore, the combination of these techniques can give quantifiable information of contrast agent accumulation, at different levels, which may prove valuable, 
+                                especially in a preclinical setting.<br><br>
+                                
 								Here at CIM, the research on multimodal agents is mostly focused on:  </p>	
 								
 								<ul>
 								<li>i) nanosystems for dual MRI and US detection (e.g. nanobubbles loaded with amphiphilic Gd(III) complexes), </li>
 								<li>ii) nanosystems for dual MRI and photoacoustic imaging detection (e.g. core-shell particles containing iron oxides and gold), </li>
 								<li>iii) dual MRI/NIRF probes to be used for surgery preparation and intraoperative guiding in surgery oncology.</li>
-                                 
-                                 
                                 </ul>                            
-                                
-                           		<hr></hr>
-        
-							<h2 style="text-align:left;"> Group Leaders: </h2>
-							
-							
+                                <hr>
+        					<h2 style="text-align:left;"> Group Leaders: </h2>
 							<a href="../PI/Terreno/home.php" target="_blank" title="Enzo Terreno">
-							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
-							
-							
+								<img alt="Enzo Terreno" class="group-leaders-img" src="../images/staff/terreno.jpg">
+							</a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -101,7 +91,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

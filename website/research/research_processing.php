@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Image Processing </title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -32,64 +31,42 @@ $localizer = "../";
                         <div class='paddingInner'>
                             <!-- InstanceBeginEditable name="subsection content" -->
                             <p class='indent'>
-                               
                                Extraction of information from raw images (coming from several modalities) is a fundamental step in molecular imaging applications. In our center we develop novel image processing 
                                methods and use them in several applications. These applications are mainly focused on quantitative MRI analysis. Our research cover several imaging applications:<br>
- 
- 							   <ul>
- 							   <li><b>DCE-MRI</b>
-                                    <p class="indent">
-                                     This research line covers different approaches to analyze DCE-MRI experiments for assessing tumor vasculature properties. We have developed both semi-quantitative 
-                                     (shape analysis) and quantitative (Tofts&#39; compartment models) approaches implemented in Matalb and C++ languages for preclinical DCE-MRI studies acquired with Bruker or
-                                      Aspect MRI scanners. These methods have been integrated in the open source KMaps software (link github), based on the 
-                                      <a href= "http://mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK)" target="_blank" style="color:#dc6a10">MITK</a> (The Medical Imaging Interaction Toolkit) libraries. 
-                                      This software allows image registration, automatic AIF (arterial input function) extraction and clustering of parametric images.                            
-                                    </p></li>
-                                
-                                 <li><b>CEST-MRI</b>
-                                    <p class="indent">
-                                    This research area cover several approaches for an accurate quantification of CEST contrast. We have developed matlab-based tools for reading MR images
-                                     (for all Bruker MRI scanners and both PV5.1 and PV6), Z-spectra interpolation, B<sub>0</sub>-shift correction, removal of noisy data and several approaches for enhanced quantification 
-                                     of the CEST contrast. These tools are used extensively by several groups worldwide.                                
-                                    </p></li>
-                                    
-                                 <li><b>Quantitative MRI</b>
-                                    <p class="indent">
-                                    This theme cover the post-processing of different MRI approaches. We have developed several tools (Matlab and C++ based) for model fitting to any quantitative MRI technique, 
-                                    such as T<sub>1</sub> relaxometry (saturation recovery, inversion recovery, variable flip angle), T<sub>2</sub> relaxometry, diffusion imaging (including IWIM approach), contrast enhanced images, 
-                                    <sup>19</sup>F-probes quantification, hyperpolarized image quantification and kinetic analysis, compartment modelling, for both Bruker and Aspect obtained MR images.                           
-                                    </p></li>
-                                    
-                                 <li><b>Fat imaging</b>
-                                    <p class="indent">
-                                     We have developed clustering-based algorithms to segment T<sub>1</sub>-weighted images and extract fat volume.
-                                    </p></li>  
-                                    
-                                  
-                                    
-                                    </ol>
-                                    </p></li>      
-                                    
-                                
-                               </ul>
-                               
-                               
-                            </p>
-							
-							
-                            
-                            <hr></hr>
-                            
-							<h2 style="text-align:left;"> Group Leaders: </h2>					
-																					
+ 							</p>
+						   <ul>
+						   <li><b>DCE-MRI</b>
+                                <p class="indent">
+                                 This research line covers different approaches to analyze DCE-MRI experiments for assessing tumor vasculature properties. We have developed both semi-quantitative 
+                                 (shape analysis) and quantitative (Tofts&#39; compartment models) approaches implemented in Matalb and C++ languages for preclinical DCE-MRI studies acquired with Bruker or
+                                  Aspect MRI scanners. These methods have been integrated in the open source KMaps software (link github), based on the 
+                                  <a href= "http://mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK)" target="_blank" style="color:#dc6a10">MITK</a> (The Medical Imaging Interaction Toolkit) libraries. 
+                                  This software allows image registration, automatic AIF (arterial input function) extraction and clustering of parametric images.                            
+                                </p></li>
+                             <li><b>CEST-MRI</b>
+                                <p class="indent">
+                                This research area cover several approaches for an accurate quantification of CEST contrast. We have developed matlab-based tools for reading MR images
+                                 (for all Bruker MRI scanners and both PV5.1 and PV6), Z-spectra interpolation, B<sub>0</sub>-shift correction, removal of noisy data and several approaches for enhanced quantification 
+                                 of the CEST contrast. These tools are used extensively by several groups worldwide.                                
+                                </p></li>
+                             <li><b>Quantitative MRI</b>
+                                <p class="indent">
+                                This theme cover the post-processing of different MRI approaches. We have developed several tools (Matlab and C++ based) for model fitting to any quantitative MRI technique, 
+                                such as T<sub>1</sub> relaxometry (saturation recovery, inversion recovery, variable flip angle), T<sub>2</sub> relaxometry, diffusion imaging (including IWIM approach), contrast enhanced images, 
+                                <sup>19</sup>F-probes quantification, hyperpolarized image quantification and kinetic analysis, compartment modelling, for both Bruker and Aspect obtained MR images.                           
+                                </p></li>
+                             <li><b>Fat imaging</b>
+                                <p class="indent">
+                                 We have developed clustering-based algorithms to segment T<sub>1</sub>-weighted images and extract fat volume.
+                                </p></li>      
+                           	</ul>
+							<hr>
+                            <h2 style="text-align:left;"> Group Leaders: </h2>					
 							<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
-							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
+							<img alt="Dario Longo" class="group-leaders-img" src="../images/staff/Dario_Longo.jpg"></a>
 							<a href="#" target="_blank" title="Walter Dastr&ugrave;">
-							<img src="../images/staff/dastru.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
-							
-                            <!-- InstanceEndEditable -->
+							<img alt="Walter Dastr&ugrave;" class="group-leaders-img" src="../images/staff/dastru.jpg"></a>
+							<!-- InstanceEndEditable -->
                         </div>
                     </div>
                 </div>
@@ -109,7 +86,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

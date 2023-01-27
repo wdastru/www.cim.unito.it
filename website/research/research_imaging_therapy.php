@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Imaging &amp; Therapy</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -49,27 +48,19 @@ $localizer = "../";
                                 For this reason, advanced optical and opto-acoustic methods have been considering to complement human vision for making clinical decision during interventions.<br><br>
                                 
                                 In our Center, several theranostic procedure have been developed and preclinically validated aimed at: <br>
-                                
+                         	</p>
                                 <ul>
                                 <li>monitoring by MRI the biodistribution of a drug transported by a given nanocarrier (liposomes, PLGA micelles, apoferritin)</li>
                                 <li>assessing by MRI the release of a drug (e.g. doxorubicin) from a nanocarrier (liposomes) triggered by a local application of low intensity ultrasound </li>
                                  <li>providing a fluorescent guide to discriminate tumor and healthy tissue in prostatectomy</li>
-                                                            
                             </ul>
-                            </p>
-                            
-                            <hr></hr>
-                            
+                            <hr>
                             <h2 style="text-align:left;"> Group Leaders: </h2>
-														
 							<a href="../PI/Terreno/home.php" target="_blank" title="Enzo Terreno">
-							<img src="../images/staff/terreno.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
+							<img alt="Enzo Terreno" class="group-leaders-img" src="../images/staff/terreno.jpg"></a>
 							<a href="../PI/Geninatti/home.html" target="_blank" title="Simonetta Geninatti">
-							<img src="../images/staff/geninatti_crich.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-														
-                            
-                            <!-- InstanceEndEditable -->
+							<img alt="Simonetta Geninatti" class="group-leaders-img" src="../images/staff/geninatti_crich.jpg"></a>
+						    <!-- InstanceEndEditable -->
                         </div>
                     </div>
                 </div>
@@ -89,7 +80,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

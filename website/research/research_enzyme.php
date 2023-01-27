@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Imaging Enzymatic acticity</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -36,14 +35,10 @@ $localizer = "../";
                                 Matrix Metalloproteinases (MMPs). Probes being developed are based on relaxation agents (for T1w-MRI) or chemical exchange saturation 
                                 transfer agents (for the CEST-MRI modality) whose MRI properties change upon probe cleavage by MMPs.
                             </p>
-			
-			
-							<hr></hr>
-							
+							<hr>
 							<h2 style="text-align:left;"> Group Leaders: </h2>
-														
 							<!--  <a href="../staff/staff_digilio" target="_blank" title="Giuseppe Digilio">-->
-							<a><img src="../images/staff/digilio.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
+							<a><img alt="Giuseppe Digilio" class="group-leaders-img" src="../images/staff/digilio.jpg"></a>
 							
 							
 							
@@ -67,7 +62,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>

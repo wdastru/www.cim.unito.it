@@ -25,3 +25,714 @@ area of research    = cancer imaging
 downloaded sequence = CEST_multi_slice_PV6.0.1
 email               = d.tolomeo@ucl.ac.uk
 =================
+﻿30/10/2020 - 06:50:32
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿25/11/2020 - 08:23:38
+name                = Dario Longo
+organization        = CNR
+PI/group leader     = Dario
+country             = Italy
+area of research    = cancer
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = dario.longo@unito.it
+=================
+﻿28/11/2020 - 13:55:35
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿01/12/2020 - 17:44:05
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿04/01/2021 - 20:17:10
+name                = Pedro Enriquez-Navas
+organization        = Bristol Myers Squibb
+PI/group leader     = Patrick Chow
+country             = USA
+area of research    = Oncology
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = pedro.enriqueznavas@bms.com
+=================
+﻿04/01/2021 - 20:17:32
+name                = Pedro Enriquez-Navas
+organization        = Bristol Myers Squibb
+PI/group leader     = Patrick Chow
+country             = USA
+area of research    = Oncology
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = pedro.enriqueznavas@bms.com
+=================
+﻿04/01/2021 - 21:03:12
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿15/01/2021 - 10:41:36
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿18/01/2021 - 17:48:21
+name                = Mathieu Boudreau
+organization        = MHI
+PI/group leader     = Nikola Stikov
+country             = Canada
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = mathieu.boudreau2@mail.mcgill.ca
+=================
+﻿27/01/2021 - 07:25:58
+name                = Edoardo Micotti
+organization        = Istituto di Ricerche Farmacologiche Mario Negri - IRCCS
+PI/group leader     = Gianluigi Forloni
+country             = Italy
+area of research    = NeuroImaging
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = edoardo.micotti@marionegri.it
+=================
+﻿27/01/2021 - 07:26:28
+name                = Edoardo Micotti
+organization        = Istituto di Ricerche Farmacologiche Mario Negri - IRCCS
+PI/group leader     = Gianluigi Forloni
+country             = Italy
+area of research    = NeuroImaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = edoardo.micotti@marionegri.it
+=================
+﻿27/01/2021 - 10:10:55
+name                = Daisy Villano
+organization        = University of Turin
+PI/group leader     = Longo
+country             = Italia
+area of research    = M
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = daisy.villano@unito.it
+=================
+﻿27/01/2021 - 10:11:11
+name                = Daisy Villano
+organization        = University of Turin
+PI/group leader     = Longo
+country             = Italia
+area of research    = M
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = daisy.villano@unito.it
+=================
+﻿03/02/2021 - 14:57:48
+name                = Dario Longo
+organization        = CNR
+PI/group leader     = Longo
+country             = Italy
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = dario.longo@unito.it
+=================
+﻿23/02/2021 - 12:39:07
+name                = Festus
+organization        = Warwick University
+PI/group leader     = Prof Collingwood
+country             = UK
+area of research    = CEST MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = Festus.Slade@warwick.ac.uk
+=================
+﻿23/02/2021 - 12:39:40
+name                = Festus
+organization        = Warwick University
+PI/group leader     = Prof Collingwood
+country             = UK
+area of research    = CEST MRI
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = Festus.Slade@warwick.ac.uk
+=================
+﻿22/03/2021 - 15:44:24
+name                = Julia Stabinska, PhD
+organization        = Kennedy Krieger Institute/The Johns Hopkins University School of Medicine
+PI/group leader     = Michael T. McMahon, PhD
+country             = United States
+area of research    = renal CEST MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = jstabin3@jhmi.edu
+=================
+﻿07/05/2021 - 17:29:59
+name                = Lixin Ma
+organization        = University of Missouri, Columbia
+PI/group leader     = Lixin Ma
+country             = United States
+area of research    = molecular imaging
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = mal@health.missouri.edu
+=================
+﻿07/05/2021 - 17:30:47
+name                = Lixin Ma
+organization        = University of Missouri, Columbia
+PI/group leader     = Lixin Ma
+country             = United States
+area of research    = molecular imaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = mal@health.missouri.edu
+=================
+﻿07/05/2021 - 17:32:25
+name                = Krzysztof Jasinski
+organization        = Institute of Nuclear Physics PAN
+PI/group leader     = prof. Wladyslaw Węglarz
+country             = Poland
+area of research    = MRI
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = Krzysztof.Jasinski@ifj.edu.pl
+=================
+﻿07/05/2021 - 17:32:43
+name                = Krzysztof Jasinski
+organization        = Institute of Nuclear Physics PAN
+PI/group leader     = prof. Wladyslaw Węglarz
+country             = Poland
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = Krzysztof.Jasinski@ifj.edu.pl
+=================
+﻿08/05/2021 - 00:45:55
+name                = Akira Sumiyoshi
+organization        = National Institutes for Quantum and Radiological Science and Technology
+PI/group leader     = Aoki Ichio
+country             = Japan
+area of research    = Neuroscience
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = p012024@gmail.com
+=================
+﻿08/05/2021 - 00:46:50
+name                = Akira Sumiyoshi
+organization        = National Institutes for Quantum and Radiological Science and Technology
+PI/group leader     = Aoki Ichio
+country             = Japan
+area of research    = Neuroscience
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = p012024@gmail.com
+=================
+﻿08/05/2021 - 00:47:08
+name                = Akira Sumiyoshi
+organization        = National Institutes for Quantum and Radiological Science and Technology
+PI/group leader     = Aoki Ichio
+country             = Japan
+area of research    = Neuroscience
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = p012024@gmail.com
+=================
+﻿17/05/2021 - 08:18:21
+name                = Joachim Friske 
+organization        = Medical University of Vienna - General Hospital of Vienna Department of Biomedical Imaging and Image-guided Therapy  Division of Molecular and Structural Preclinical Imaging 
+PI/group leader     = Prof. Thomas Helbich 
+country             = Austria 
+area of research    = Preclincal MRI 
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = joachim.friske@meduniwien.ac.at
+=================
+﻿28/05/2021 - 13:20:34
+name                = a
+organization        = a
+PI/group leader     = a
+country             = a
+area of research    = a
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = a@a
+=================
+﻿28/05/2021 - 13:20:44
+name                = a
+organization        = a
+PI/group leader     = a
+country             = a
+area of research    = a
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = a@a
+=================
+﻿30/05/2021 - 13:03:41
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿02/06/2021 - 07:39:26
+name                = Akira Sumiyoshi
+organization        = National Institutes for Quantum and Radiological Science and Technology
+PI/group leader     = Aoki Ichio
+country             = Japan
+area of research    = Neuroimaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = p012024@gmail.com
+=================
+﻿03/06/2021 - 14:15:48
+name                = Olivier Rhéaume Roberge
+organization        = University of Sherbrooke
+PI/group leader     = Axel Mathieu
+country             = Canada
+area of research    = Molecular Imaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = olivier.rheaume.roberge@usherbrooke.ca
+=================
+﻿07/06/2021 - 19:26:21
+name                = Wendy Oakden
+organization        = Sunnybrook Research Institute
+PI/group leader     = Dr. Greg Stanisz
+country             = Canada
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = wendy.oakden@sunnybrook.ca
+=================
+﻿22/08/2021 - 07:46:10
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿24/08/2021 - 12:00:06
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿23/09/2021 - 23:50:06
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿27/10/2021 - 06:16:27
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿29/10/2021 - 07:20:53
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿04/11/2021 - 18:52:15
+name                = brian roman
+organization        = university of chicago
+PI/group leader     = brian roman
+country             = USA
+area of research    = cancer, cardiovascular, diabetes
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = broman@uchicago.edu
+=================
+﻿04/11/2021 - 18:52:41
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿04/11/2021 - 18:53:46
+name                = brian roman
+organization        = university of chicago
+PI/group leader     = brian roman
+country             = USA
+area of research    = cancer, cardiovascular, diabetes
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = broman@uchicago.edu
+=================
+﻿04/11/2021 - 18:56:05
+name                = brian roman
+organization        = University of Chicago
+PI/group leader     = brian roman
+country             = usa
+area of research    = cancer
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = broman@uchicago.edu
+=================
+﻿04/11/2021 - 18:56:28
+name                = brian roman
+organization        = University of Chicago
+PI/group leader     = brian roman
+country             = usa
+area of research    = cancer
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = broman@uchicago.edu
+=================
+﻿09/11/2021 - 19:17:54
+name                = Daisy Villano
+organization        = University of Turin
+PI/group leader     = Longo
+country             = Italia
+area of research    = Imaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = daisy.villano@unito.it
+=================
+﻿10/11/2021 - 10:02:40
+name                = Riccardo Gambino
+organization        = Università di Torino
+PI/group leader     = Dario Longo
+country             = Torino
+area of research    = Biomedical Imaging
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = riccardo.gambino@unito.it
+=================
+﻿10/11/2021 - 10:07:12
+name                = Riccardo Gambino
+organization        = Università di Torino
+PI/group leader     = Dario Longo
+country             = Torino
+area of research    = Biomedical Imaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = riccardo.gambino@unito.it
+=================
+﻿22/11/2021 - 00:22:59
+name                = salman shahid
+organization        = IUPUI
+PI/group leader     = Yu-Chien
+country             = US
+area of research    = Neuroimaging and neurometabolites
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = shahids@iu.edu
+=================
+﻿22/11/2021 - 01:10:09
+name                = salman shahid
+organization        = IUPUI
+PI/group leader     = Yu-Chien
+country             = US
+area of research    = Neuroimaging and neurometabolites
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = shahids@iu.edu
+=================
+﻿29/11/2021 - 08:17:12
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿29/11/2021 - 18:58:05
+name                = Wendy Oakden
+organization        = Sunnybrook Research Institute
+PI/group leader     = Dr. Greg Stanisz
+country             = Canada
+area of research    = MRI technical methods
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = wendy.oakden@gmail.com
+=================
+﻿01/12/2021 - 10:33:33
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿31/01/2022 - 21:13:28
+name                = Esaú Poblador Rodriguez
+organization        = University of Applied Sciences Wiener Neustadt 
+PI/group leader     = Markus Zeilinger
+country             = Austria
+area of research    = Cancer
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = e.pobladorrodriguez@fhwn.ac.at
+=================
+﻿01/02/2022 - 02:55:13
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿27/02/2022 - 02:42:33
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿01/03/2022 - 05:36:46
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿06/03/2022 - 09:15:48
+name                = Elad Goren
+organization        = Weizmann Institute of Science
+PI/group leader     = Amnon Bar-Shir
+country             = Israel
+area of research    = Molecular Imaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = elad.goren@weizmann.ac.il
+=================
+﻿08/03/2022 - 07:08:05
+name                = Talia Harris
+organization        = Weizmann Institute of Science
+PI/group leader     = Chemical Research Support
+country             = Israel
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = talia.harris@weizmann.ac.il
+=================
+﻿10/03/2022 - 07:02:14
+name                = Talia Harris
+organization        = Weizmann Institute
+PI/group leader     = Chemical Research Support (with Amnon Bar Shir)
+country             = Israel
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = talia.harris@weizmann.ac.il
+=================
+﻿11/03/2022 - 19:59:43
+name                = Pedro Enriquez Navas
+organization        = Bristol Myers Squibb
+PI/group leader     = Patrick Chow
+country             = USA
+area of research    = Oncology
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = pedro.enriqueznavas@bms.com
+=================
+﻿05/04/2022 - 11:46:28
+name                = Shaowei Bo
+organization        = Jinan University
+PI/group leader     = Liangping Luo
+country             = China
+area of research    = CEST MRI
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = boshaowei88@gmail.com
+=================
+﻿30/05/2022 - 10:21:07
+name                = Talia Harris
+organization        = Weizmann Institute
+PI/group leader     = Chemical Research Support (with Amnon Bar Shir)
+country             = Israel
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = talia.harris@weizmann.ac.il
+=================
+﻿08/06/2022 - 13:14:17
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿10/06/2022 - 18:20:51
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿18/06/2022 - 03:16:02
+name                = Guocan Shang
+organization        = South Central University For Nationalities
+PI/group leader     = Min Huang
+country             = China
+area of research    = MRI Reconstruction, MR Fingerprinting
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = shangguocan@gmail.com
+=================
+﻿18/06/2022 - 03:19:01
+name                = Guocan Shang
+organization        = South Central University For Nationalities
+PI/group leader     = Min Huang
+country             = China
+area of research    = MRI Reconstruction, MR Fingerprinting
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = shangguocan@gmail.com
+=================
+﻿18/06/2022 - 03:19:15
+name                = Guocan Shang
+organization        = South Central University For Nationalities
+PI/group leader     = Min Huang
+country             = China
+area of research    = MRI Reconstruction, MR Fingerprinting
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = shangguocan@gmail.com
+=================
+﻿18/06/2022 - 03:20:36
+name                = Guocan Shang
+organization        = South Central University For Nationalities
+PI/group leader     = Min Huang
+country             = China
+area of research    = MRI Reconstruction, MR Fingerprinting
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = shangguocan@gmail.com
+=================
+﻿09/07/2022 - 09:31:02
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿11/07/2022 - 14:43:50
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿26/07/2022 - 20:08:04
+name                = Wei Huang
+organization        = MIT
+PI/group leader     = Virginia Spanoudaki
+country             = USA
+area of research    = Oncology
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = huangw@mit.edu
+=================
+﻿05/08/2022 - 17:48:17
+name                = Alexandra Badea
+organization        = Duke Univ Medical Center
+PI/group leader     = Alexandra Badea
+country             = United States
+area of research    = brain
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = alexandra.badea@duke.edu
+=================
+﻿15/08/2022 - 19:03:59
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿17/08/2022 - 12:43:39
+name                = Riccardo Gambino
+organization        = Università di Torino
+PI/group leader     = Dario Longo
+country             = Italy
+area of research    = Preclinical Research
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = riccardo.gambino@unito.it
+=================
+﻿18/08/2022 - 04:31:44
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿13/09/2022 - 10:02:55
+name                = Riccardo
+organization        = Università di Torino
+PI/group leader     = Dario Longo
+country             = Italy
+area of research    = Preclinical Research
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = riccardo.gambino@unito.it
+=================
+﻿14/09/2022 - 03:23:42
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿04/10/2022 - 22:06:58
+name                = Anna Orzyłowska, PhD
+organization        = Medical University of Lublin
+PI/group leader     = Radosław Rola, prof. MD 
+country             = Poland
+area of research    = MR neuroimaging 
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = a.m.orzylowska@gmail.com
+=================
+﻿06/10/2022 - 10:42:26
+name                = Anna Orzylowska
+organization        = Medical University of Lublin
+PI/group leader     = Radoslaw Rola
+country             = Poland
+area of research    = MR neuroimaging
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = a.m.orzylowska@gmail.com
+=================
+﻿19/10/2022 - 04:55:51
+name                = MC Pei
+organization        = china
+PI/group leader     = ZF Liang
+country             = Chinese Academy of Sciences
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = mc_pei@hotmail.com
+=================
+﻿02/11/2022 - 19:02:43
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿02/01/2023 - 18:33:43
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================

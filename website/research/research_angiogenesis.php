@@ -1,14 +1,13 @@
 <?php
 $localizer = "../";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Angiogenesis</title>
-        <meta name="description" content="" />
+        <meta name="description" content="">
     </head>
     <body>
 
@@ -62,19 +61,13 @@ $localizer = "../";
 							<li><b>Dynamic Contrast Enhanced Optoacoustic Imaging</b>
                                     <p class="indent">
 									We are exploring also macromolecular biodegradable <a href="research_photoacoustic.php" style="color:#dc6a10">photoacoustic probes</a> based on the natural plaftorm of melanin, to provide tumor vasculature information by means of photoacoustic imaging.
-							        </p></li>
+								</p></li>
                             </ul>
-							
-							
-							<hr></hr>
-							
+							<hr>
 							<h2 style="text-align:left;"> Group Leaders: </h2>
-							
 							<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
-							<img src="../images/staff/Dario_Longo.jpg" height="100px;" width="100px;" style="border-radius:50%"></a>
-							
-							
-                            <!-- InstanceEndEditable -->
+							<img alt="Dario Longo" class="group-leaders-img" src="../images/staff/Dario_Longo.jpg"></a>
+							<!-- InstanceEndEditable -->
                         </div>
                     </div>
                 </div>
@@ -94,7 +87,7 @@ $localizer = "../";
             <!-- section closing -->
         </div>
         <!-- section closing -->
-        <script type="text/javascript">
+        <script>
             //<![CDATA[
             changeSideNavStyles();
             //]]>
