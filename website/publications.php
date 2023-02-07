@@ -48,7 +48,7 @@
 						<div class='paddingInner'>
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<div id="publicationsContainer">
-								<a href='https://scholar.google.com/citations?user=UUy21EsAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Silvio Aime</b></a>
+								<a href='https://scholar.google.com/citations?user=85uyGDsAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Silvio Aime</b></a>
 								<br>                                                              
 								<a href='https://scholar.google.com/citations?user=za1fQwwAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Enzo Terreno</b></a>
 								<br> 
