@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$localizer = "../../../";
+$localizer = "../../";
 include ("variables.php");
 include ("connect.php");
 include ("functions.php");
