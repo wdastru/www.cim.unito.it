@@ -376,7 +376,7 @@ header('Content-Type: text/html;charset=UTF-8');
 												src="news/primoGAIA-logo.png"
 												alt="Primo GAIA logo"> <br> <span>CIM partecipates to the
 												H2020 project <a
-												href="http://http://www.primogaia.eu/"
+												href="http://www.primogaia.eu/"
 												target="_blank"><span class='paperTitle'>Primo GAIA</span></a>
 												Prepolarized MRI at Earth Field to seek new contrasts linked 
 												to molecular events for very early detection of pathologies
@@ -459,11 +459,11 @@ header('Content-Type: text/html;charset=UTF-8');
 									</h3>
 									<br> <img
 										style="width: 99%"
-										src="images/meetings/WMIC_2020.jpg"
-										alt="World Molecular Imaging Congress 2020 image"> <a
-										href="https://www.wmis.org/2020-wmic-2/"><span
-										class='paperTitle'>World Molecular Imaging Congress 2020</span></a><span
-										class="date"> 7-10 October 2020 </span> <span> Prague, Czech
+										src="images/meetings/WMIC-2023-Web-Banner-1-Oct6.jpg"
+										alt="World Molecular Imaging Congress 2023 image"> <a
+										href="https://www.wmis.org/wmic-2023-about/"><span
+										class='paperTitle'>World Molecular Imaging Congress 2023</span></a><span
+										class="date"> 5-9 October 2020 </span> <span> Prague, Czech
 										Republic</span>
 
 								</div>
