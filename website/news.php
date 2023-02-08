@@ -207,9 +207,9 @@
 							<div class="w3-col w3-threequarter">
 								<h2 style="color:#8c1515; text-align:left;">Partecipation to COST actions</h2>
 								<p>The <b>Molecular Imaging Center</b> participates in the COST actions <span ><b>COST Actions CA15209 - Eurelax</b></span>
-								<a href="http://www.cost.eu/COST_Actions/ca/CA15209" target="_blank"> 
+								<a href="http://eurelax.uwm.edu.pl/" target="_blank"> 
 								<span class='paperTitle'>&quot;European Network on NMR Relaxometry&quot;</span></a> and in the <span ><b>COST Actions  CA16103 - Parenchima</b></span>
-								    <a href="http://www.cost.eu/COST_Actions/ca/CA16103" target="_blank">
+								    <a href="https://www.cost.eu/actions/CA16103/" target="_blank">
 								    <span class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span> </a>
 								
 								
