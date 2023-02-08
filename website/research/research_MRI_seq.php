@@ -157,7 +157,7 @@ $localizer = "../";
 								United Kingdom <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png">--><br></li>
 							<li><b><a href="https://www.marionegri.it/personale/gianluigi-forloni">Gianluigi Forloni</a></b> - Istituto di Ricerche
 								Farmacologiche Mario Negri - IRCCS, Italy <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/it/shiny/64.png">--><br></li>
-							<li><b><a href="https://www.neuro.polymtl.ca/people/nikola_stikov">Stikov</a></b> - Montreal Heart Institute - Canada <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ca/shiny/64.png">--><br></li>
+							<li><b><a href="https://neuro.polymtl.ca/team/faculty/nikola-stikov">Stikov</a></b> - Montreal Heart Institute - Canada <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ca/shiny/64.png">--><br></li>
 							<li><b><a href="https://warwick.ac.uk/fac/sci/eng/people/joanna_collingwood">Joanna Collingwood</a></b> - Warwick University - United Kingdom <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png">--><br></li>
 							<li><b><a href="https://www.kennedykrieger.org/patient-care/faculty-staff/michael-mcmahon">M.T. McMahon</a></b> - Kennedy Krieger Institute / The Johns Hopkins University School of Medicine - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png">--><br></li>
 							<li><b><a href="https://medicine.missouri.edu/faculty/lixin-ma-phd">Lixin Ma</a></b> - University of Missouri, Columbia - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png">--><br></li>
