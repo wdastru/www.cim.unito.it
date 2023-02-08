@@ -221,7 +221,7 @@
 											<span class="month">March</span>
 											<h1 class="day">15-18</h1>
 										</div>											 
-									<a href="https://e-smi.eu/meetings/emim/emim-2022/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>17th
+									<a href="https://e-smi.eu/meetings/emim/past-meetings/2022-2/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>17th
 											European Molecular Imaging Meeting 2022 - Thessaloniki, Greece</strong></a></li>
 
 									<li>
@@ -236,8 +236,8 @@
 											<span class="month">October</span>
 											<h1 class="day">5-8</h1>
 										</div>
-									<a href="https://www.wmis.org/news-room/other-molecular-imaging-conferences-meetings/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>World
-											Molecular Imaging Congress WMIC 2021</strong></a></li>		
+									<strong>World
+											Molecular Imaging Congress WMIC 2021</strong></li>		
 											
 								</ul>
 								
@@ -275,7 +275,7 @@
 											
 											
 											<li><b>New research article on a novel multislice sequence for 3D MRI-CEST pH imaging published in </b>  
-											<a title="Open in a new window" class="http" href="https://pubmed.ncbi.nlm.nih.gov/33031591" target="_blank">							
+											<a title="Open in a new window" class="http" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7782702/" target="_blank">							
 											<em><font color="blue">Magnetic Resonance in Medicine 2021; 85:1335-1349.</font></em></a>
 											<br> <p><b>The multislice MRI-CEST sequence is freely available <a class="http" href="https://www.cim.unito.it/website/research/research_MRI_seq.php" target="_blank"> <em><font color="blue">here</font></em></a> </p> </b>
 											</li>
