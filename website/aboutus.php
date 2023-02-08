@@ -35,28 +35,23 @@ $localizer = "./";
 							The <b>Molecular Imaging Center</b> is very experienced in the
 							field of synthesis and physical-chemical characterisation of
 							contrast agents.<br> Since 1986, research activities have
-								addressed the development of paramagnetic contrast agents for
-								MRI (with projects in High Relaxivity, Blood Pool agents,
-								Targeting and Responsive Probes).<br> In 1998, a new laboratory
-									was settled at the <a
-									href="http://www.bioindustrypark.eu/"
-									target="_blank"><span class='paperTitle'>Bioindustry Park</span></a>
-									(in close collaboration with biology teams), dedicated to the
-									identification of new targets and vectors (<a
-									href="http://www.bioindustrypark.eu/aziende/centro-di-eccellenza-in-imaging-preclinico-ceip/"
-									target="_blank"><span class='paperTitle'>Center of Excellence
-											for Preclinical Imaging - <b>CEIP</b>
-									</span> </a>).<br> In 2001 the fruitful collaboration between
-										chemists, biologists and medical doctors led to the foundation
-										of the Center for Molecular Imaging (CIM) of the University of
-										Torino, located at the School of Biotechnology.<br> Since 2009
-											it hosts a research unit of the <a
-											href="http://www.ibb.cnr.it/"
-											target="_blank"><span class='paperTitle'><b>Institute of
-														Biostructures and Bioimages (IBB)</b></span></a> of the
-											Consiglio Nazionale delle Ricerche (CNR) in the context of a
-											joined research program. 
-						
+							addressed the development of paramagnetic contrast agents for MRI
+							(with projects in High Relaxivity, Blood Pool agents, Targeting
+							and Responsive Probes).<br> In 1998, a new laboratory was settled
+							at the <a href="http://www.bioindustrypark.eu/" target="_blank"><span
+								class='paperTitle'>Bioindustry Park</span></a> (in close
+							collaboration with biology teams), dedicated to the
+							identification of new targets and vectors (Center of Excellence
+							for Preclinical Imaging - <b>CEIP</b>).<br> In 2001 the fruitful
+							collaboration between chemists, biologists and medical doctors
+							led to the foundation of the Center for Molecular Imaging (CIM)
+							of the University of Torino, located at the School of
+							Biotechnology.<br> Since 2009 it hosts a research unit of the <a
+								href="http://www.ibb.cnr.it/" target="_blank"><span
+								class='paperTitle'><b>Institute of Biostructures and Bioimages
+										(IBB)</b></span></a> of the Consiglio Nazionale delle Ricerche
+							(CNR) in the context of a joined research program.
+
 						</p>
 					</div>
 
