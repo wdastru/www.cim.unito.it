@@ -1,13 +1,13 @@
 <?php
 	$localizer = "../../";
 ?>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	ZeroFour by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Contact Us | TERRENO Lab</title>
 	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
@@ -37,16 +37,10 @@
 					<div class="inner">
 					
 						<!-- Logo -->
-						<h1>
-							<a href="<?php echo $localizer; ?>PI/Terreno/home.php" id="logo">TERRENO LAB</a>
-							<div>
-								<p style="color: gray; font-size=12px;" >Theranostics - Multimodal imaging - Nanoprobes</p>
-
-							</div>
-						</h1>
+						<?php require ($localizer . 'PI/Terreno/includes/header_terreno.php');?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Terreno/includes/menu_terreno.php'); ?>
+						<?php require ($localizer . 'PI/Terreno/includes/menu_terreno.php'); ?>
 						</nav>
 
 					</div>
