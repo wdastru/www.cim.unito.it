@@ -115,6 +115,7 @@ height: 100%;
 
 /* SIDEBAR */
 #pubsSelector { margin: 19px; }
+#list { padding: 0px; margin: 0px; list-style-type: none; }
 #sidebar { float: left; width: 200px; font-weight:bold; padding: 0; }
 #sidebar-narrow { float: left; width: 80px; font-weight:bold; padding: 0; }
 #sidebar-narrower { float: left; width: 0px; font-weight:bold; padding: 0; }
@@ -132,7 +133,13 @@ height: 100%;
 .sidebar-indent { padding-left:15px; }
 
 /* --> comportamento dei link non selezionati */
-#sidebar .subsection_link a { color: #666666; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+#sidebar .subsection_link a {
+	color: #666666;
+	display: block;
+	line-height: 22px;
+	padding: 0 10px 0 10px;
+	text-decoration: none;
+}
 /* <-- End */
 
 /* --> comportamento dei link selezionati */
