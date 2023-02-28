@@ -1,10 +1,8 @@
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html
-	xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <!-- InstanceBegin template="/Templates/partners.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <?php require $localizer . 'includes/head_const.inc.php'?>
@@ -21,17 +19,17 @@ $localizer = "./";
 			<!-- InstanceEndEditable -->
 			<div id='sidebar'>
 				<div class='padding'>
-					<dl id='list'>
-						<dt id='section4-subsection1' class='subsection_link'>
+					<ul id='list'>
+						<li id='section4-subsection1' class='subsection_link'>
 							<a href='academic.php'>Academic</a>
-						</dt>
-						<dt id='section4-subsection2' class='subsection_link'>
+						</li>
+						<li id='section4-subsection2' class='subsection_link'>
 							<a href='industrial.php'>Industrial</a>
-						</dt>
-						<dt id='section4-subsection3' class='subsection_link'>
+						</li>
+						<li id='section4-subsection3' class='subsection_link'>
 							<a href='spin-offs.php'>Spin-Offs</a>
-						</dt>
-					</dl>
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div id='content'>
@@ -43,19 +41,15 @@ $localizer = "./";
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
-					
+
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<!-- InstanceEndEditable -->
-						
-						<p>The Molecular Imaging Center has long-standing partnership with several national and international institutions, as well as with companies working 
-						in the field of molecular imaging probes, contrast agents and imaging instrumentations.</p>
-						
-						
-						
-						
-					
-						
+
+						<p>The Molecular Imaging Center has long-standing partnership with
+							several national and international institutions, as well as with
+							companies working in the field of molecular imaging probes,
+							contrast agents and imaging instrumentations.</p>
 					</div>
 				</div>
 			</div>
@@ -68,12 +62,13 @@ $localizer = "./";
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
 		</div>
-		
+
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
-	<script type="text/javascript">
+	<script>
 //
 <![CDATA[
 changeSideNavStyles();

@@ -1,15 +1,13 @@
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html
-	xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <!-- InstanceBegin template="/Templates/projects.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Projects</title>
-<meta name="description" content="" />
+<meta name="description" content="">
 </head>
 <body>
 
@@ -58,19 +56,19 @@ $localizer = "./";
 									blood tests. Now, their high-resolution spatial localisation in
 									tissues will significantly enhance disease detection and
 									monitoring. <br> PrimoGaia brings together an interdisciplinary
-										consortium of research teams from 4 academics: Aix-Marseille
-										University, Universit&eacute; de Mons, Universit&aacute;
-										Torino (reagents), CNRS Bordeaux (EPR unit, sequences,
-										biology); Fraunhofer Institute (Physics) and 2 companies: <a
+									consortium of research teams from 4 academics: Aix-Marseille
+									University, Universit&eacute; de Mons, Universit&aacute; Torino
+									(reagents), CNRS Bordeaux (EPR unit, sequences, biology);
+									Fraunhofer Institute (Physics) and 2 companies: <a
 										href='https://www.stelar.it/'>Stelar</a> (magnetic unit) and <a
 										href='https://www.pure-devices.com/'>Pure Devices</a> an
-										innovative SME (MRI instrumentation).
-								
+									innovative SME (MRI instrumentation).
+
 								</div></li>
 						</ul>
 					</div>
-								
-								<div class='band'>
+
+					<div class='band'>
 						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
 							Past Projects
@@ -79,19 +77,26 @@ $localizer = "./";
 					</div>
 					<div class='paddingInner'>
 						<ul>
-							<li class="myHoverPlace"><strong><a href='https://phase1.attract-eu.com/showroom/project/monitoring-tissue-implants-by-field-cycling-mri-of-quadrupolar-peak-contrast-agents-acronym-qp-mri/' ><span class='paperTitle'>Attract QPMRI</span></a></strong> project 
-							"Monitoring tissue implants by field-cycling MRI of quadrupolar-peak contrast agents" - 
-								(20/05/2019 - 31/10/2020)
-								<div class="hide">This project aims at developing innovative biocompatible sensors able to monitor 
-								the status of tissue implants in vivo, at human scale. These sensors are aimed at reporting on the 
-								degradation of the scaffold and on the overall transplanted cells conditions. They represent a 
-								completely new class of MRI contrast agents that display remarkable relaxation effects on tissue 
-								water protons. Their detection requires the acquisition of images at variable magnetic field strength 
-								as provided by Fast Field Cycling MRI (FFCMRI) scanners.
-								<br>Consortium: University of Torino and University of Aberdeen.</div></li>	
-								
-								<li>National project funded by San Paolo Foundation: "Imaging extracellular pH as a MRI
-									diagnostic tool" - <strong>CSTO165925</strong>
+							<li class="myHoverPlace"><strong><a
+									href='https://phase1.attract-eu.com/showroom/project/monitoring-tissue-implants-by-field-cycling-mri-of-quadrupolar-peak-contrast-agents-acronym-qp-mri/'><span
+										class='paperTitle'>Attract QPMRI</span></a></strong> project
+								"Monitoring tissue implants by field-cycling MRI of
+								quadrupolar-peak contrast agents" - (20/05/2019 - 31/10/2020)
+								<div class="hide">
+									This project aims at developing innovative biocompatible
+									sensors able to monitor the status of tissue implants in vivo,
+									at human scale. These sensors are aimed at reporting on the
+									degradation of the scaffold and on the overall transplanted
+									cells conditions. They represent a completely new class of MRI
+									contrast agents that display remarkable relaxation effects on
+									tissue water protons. Their detection requires the acquisition
+									of images at variable magnetic field strength as provided by
+									Fast Field Cycling MRI (FFCMRI) scanners. <br>Consortium:
+									University of Torino and University of Aberdeen.
+								</div></li>
+
+							<li>National project funded by San Paolo Foundation: "Imaging
+								extracellular pH as a MRI diagnostic tool" - <strong>CSTO165925</strong>
 								(2017-2019);
 							</li>
 							<li><strong>H2020-MSCA-ITN-2017</strong> project "Zero and
@@ -102,31 +107,44 @@ $localizer = "./";
 								extracellular pH as a MRI diagnostic tool" - <strong>CSTO165925</strong>
 								(2017-2019);
 							</li>
-							<li>National project funded by San Paolo Foundation: "Gd retention in brain after Contrast Enhanced MRI" - <strong>CSTO160182</strong>
+							<li>National project funded by San Paolo Foundation: "Gd
+								retention in brain after Contrast Enhanced MRI" - <strong>CSTO160182</strong>
 								(2017-2019);
 							</li>
-							<li>National project funded by San Paolo Foundation: "MRI guided therapy for combating ovarian cancer" - <strong>CSTO165439</strong>
+							<li>National project funded by San Paolo Foundation: "MRI guided
+								therapy for combating ovarian cancer" - <strong>CSTO165439</strong>
 								(2017-2019);
 							</li>
-							<li>National project funded by San Paolo Foundation: "Hyperpolarized metabolites for MRI of cancer" - <strong>CSTO164550</strong>
+							<li>National project funded by San Paolo Foundation:
+								"Hyperpolarized metabolites for MRI of cancer" - <strong>CSTO164550</strong>
 								(2017-2019);
 							</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "Improving Diagnosis
-								by Fast Field-Cycling MRI" - <strong><a href='http://www.identify-project.eu/' ><span class='paperTitle'>Identify</span></a></strong>
+								by Fast Field-Cycling MRI" - <strong><a
+									href='http://www.identify-project.eu/'><span class='paperTitle'>Identify</span></a></strong>
 								(2016-2020)</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "In Vivo Spectral
 								Photon Counting CT Molecular Imaging in Cardio- and
-								Neuro-Vascular Diseases" - <strong><a href='https://cordis.europa.eu/project/id/668142' ><span class='paperTitle'>SPCCT</span></a></strong> (2016-2020)</li>
+								Neuro-Vascular Diseases" - <strong><a
+									href='https://cordis.europa.eu/project/id/668142'><span
+										class='paperTitle'>SPCCT</span></a></strong> (2016-2020)</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "GlucoCEST Imaging
-								of Neoplastic Tumours" - <strong><a href='http://www.glint-project.eu/' ><span class='paperTitle'>GLINT</span></a></strong> (2016-2020)</li>
+								of Neoplastic Tumours" - <strong><a
+									href='http://www.glint-project.eu/'><span class='paperTitle'>GLINT</span></a></strong>
+								(2016-2020)</li>
 							<li><strong>H2020 INFRADEV-1-2015-2</strong>: "Coordinated
 								Research Infrastructures Building Enduring Life-science
-								services" <strong><a href='http://www.corbel-project.eu/home.html' ><span class='paperTitle'>CORBEL</span></a></strong> (2015-2019)</li>
+								services" <strong><a
+									href='http://www.corbel-project.eu/home.html'><span
+										class='paperTitle'>CORBEL</span></a></strong> (2015-2019)</li>
 							<li>National project <strong>F.E.S.R. 2014/2020</strong>, "Green
 								Factory for Composites" (2017-2019)
 							</li>
-							<li><strong>H2020-INFRASUPP-2014-2</strong>: <strong><a href='http://www.eurobioimaging.eu/global-bioimaging/' ><span class='paperTitle'>Global BioImaging Project</span></a></strong> - International imaging infrastructure services for the
-								life science community, 2016-2018</li>
+							<li><strong>H2020-INFRASUPP-2014-2</strong>: <strong><a
+									href='http://www.eurobioimaging.eu/global-bioimaging/'><span
+										class='paperTitle'>Global BioImaging Project</span></a></strong>
+								- International imaging infrastructure services for the life
+								science community, 2016-2018</li>
 							<li><strong>H2020-INFRADEV-1-2015-2</strong>: "Euro-BioImaging
 								Preparatory Phase 2", 2015-2017 (<strong><a
 									href='http://www.eurobioimaging.eu/prep-phase2016'><span
@@ -207,8 +225,8 @@ $localizer = "./";
 						</ul>
 						<!-- InstanceEndEditable -->
 					</div>
-					
-					
+
+
 				</div>
 			</div>
 			<!-- subsection closing -->
@@ -220,12 +238,13 @@ $localizer = "./";
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
 		</div>
-		
+
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
-	<script type="text/javascript">
+	<script>
 //
 <![CDATA[
 changeSideNavStyles();

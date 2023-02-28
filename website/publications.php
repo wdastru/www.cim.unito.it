@@ -1,15 +1,13 @@
 <?php
 	$localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html
-	xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <!-- InstanceBegin template="/Templates/publications.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Publications</title>
-<meta name="description" content="Publications from people at the Molecular Imaging Center" />
+<meta name="description" content="Publications from people at the Molecular Imaging Center">
 </head>  
 <body>
 
@@ -43,7 +41,6 @@
 								Publications
 								<!-- InstanceEndEditable -->
 							</h1>
-							<h1 id='publicationYear'></h1>
 						</div>
 						<div class='paddingInner'>
 							<!-- InstanceBeginEditable name="subsection content" -->
@@ -58,7 +55,7 @@
 								<br>                                                              
 								<a href='https://scholar.google.com/citations?user=ibKYwMAAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Daniela Delli Castelli</b></a>
 								<br> 
-								<a href=''><b>Francesca Reineri</b></a>
+								<a href='https://scholar.google.com/citations?hl=en&user=mJK0H8cAAAAJ&view_op=list_works&sortby=pubdate'><b>Francesca Reineri</b></a>
 								<br>	                                                             
 								<a href='https://scholar.google.com/citations?user=Lu_4eBIAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Alessandra Viale</b></a>
 								<br>				                                                             
@@ -66,7 +63,7 @@
 								<br>                                                              
 								<a href='https://scholar.google.com/citations?user=euGug2wAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Dario Longo</b></a>								
 								<br> 
-								<a href=''><b>Juan Carlos Cutrin</b></a>								
+								<b>Juan Carlos Cutrin</b>								
 								<br>   
 								                                                           
 								<a href='https://scholar.google.com/citations?user=nYlL2XgAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Valeria Menchise</b></a>
@@ -93,12 +90,12 @@
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
 		</div>
-		
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
-	<script type="text/javascript">
+	<script>
 //<![CDATA[
 //initPubs();
 //]]>

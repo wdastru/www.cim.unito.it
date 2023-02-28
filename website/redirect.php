@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
     <title>Redirecting...</title>
     <meta http-equiv="refresh" 

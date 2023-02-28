@@ -774,6 +774,7 @@ header('Content-Type: text/html;charset=UTF-8');
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
 		</div>
 		
 	</div>

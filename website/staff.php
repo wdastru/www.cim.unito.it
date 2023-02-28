@@ -87,7 +87,7 @@ require ('includes/main-nav.php');
 												<h2 style="font-size: 20px;">
 													<a
 														title="Homepage"
-														href="PI/Geninatti/home.html"
+														href="PI/Geninatti/home.php"
 														target="_blank"> <b>Simonetta Geninatti</b> <span
 														style="font-size: 16px;">Associate Professor</span>
 													</a>
@@ -1101,6 +1101,7 @@ require ('includes/main-nav.php');
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 				Fax. Tel. Mail
 			</p>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
 		</div>
 		
 		<!-- section closing -->

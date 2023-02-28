@@ -1,50 +1,54 @@
 <?php
-	$localizer = "./";
+$localizer = "./";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <!-- InstanceBegin template="/Templates/partners.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino - Industrial partners</title>
-<meta name="description" content="" />
+<title>Molecular Imaging Center - University of Torino - Industrial
+	partners</title>
+<meta name="description" content="">
 </head>
 <body>
 
-<div id='section4'><?php require('includes/main-nav.php'); ?>
+	<div id='section4'><?php require('includes/main-nav.php'); ?>
 <div id='header'></div>
-<!-- InstanceBeginEditable name="subsection opening" -->
-<div id='subsection2'><!-- InstanceEndEditable -->
-<div id='sidebar'>
-<div class='padding'>
-<dl id='list'>
-<dt id='section4-subsection1' class='subsection_link'><a href=
-'academic.php'>Academic</a></dt>
-<dt id='section4-subsection2' class='subsection_link'><a href=
-'industrial.php'>Industrial</a></dt>
-<dt id='section4-subsection3' class='subsection_link'><a href=
-'spin-offs.php'>Spin-Offs</a></dt>
-</dl>
-</div>
-</div>
-<div id='content'>
-<div class='paddingOuter'>
-<div class='band'>
-<h1 class='subsectionTitle'>
-<!-- InstanceBeginEditable name="subsection title" -->Industrial
-Partners <!-- InstanceEndEditable --></h1>
-</div>
-<div class='paddingInner'>
-<!-- InstanceBeginEditable name="subsection content" -->
+		<!-- InstanceBeginEditable name="subsection opening" -->
+		<div id='subsection2'>
+			<!-- InstanceEndEditable -->
+			<div id='sidebar'>
+				<div class='padding'>
+					<ul id='list'>
+						<li id='section4-subsection1' class='subsection_link'><a
+							href='academic.php'>Academic</a></li>
+						<li id='section4-subsection2' class='subsection_link'><a
+							href='industrial.php'>Industrial</a></li>
+						<li id='section4-subsection3' class='subsection_link'><a
+							href='spin-offs.php'>Spin-Offs</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id='content'>
+				<div class='paddingOuter'>
+					<div class='band'>
+						<h1 class='subsectionTitle'>
+							<!-- InstanceBeginEditable name="subsection title" -->
+							Industrial Partners
+							<!-- InstanceEndEditable -->
+						</h1>
+					</div>
+					<div class='paddingInner'>
+						<!-- InstanceBeginEditable name="subsection content" -->
 
 
 						<div class="row">
 
 							<div class="w3-col w3-third">
-							
-								<img src="images/partners/Aspect_Imaging_logo.png"
-									class="w3-image" style="width: 250px; max-height: 100px; top: 50%;"  />
+
+								<img alt="Aspect Imaging logo"
+									src="images/partners/Aspect_Imaging_logo.png" class="w3-image"
+									style="width: 250px; max-height: 100px; top: 50%;">
 							</div>
 
 							<div class="w3-col w3-twothird">
@@ -63,8 +67,8 @@ Partners <!-- InstanceEndEditable --></h1>
 						<div class="row">
 							<div class="w3-col w3-third">
 
-								<img src="images/partners/tomowave_logo.png" class="w3-image"
-									style="max-width: 250px; max-height: 100px;" />
+								<img alt="Tomowavelogo" src="images/partners/tomowave_logo.png"
+									class="w3-image" style="max-width: 250px; max-height: 100px;">
 							</div>
 
 
@@ -83,53 +87,53 @@ Partners <!-- InstanceEndEditable --></h1>
 									therapy-monitoring systems.</p>
 							</div>
 						</div>
-						
+
 						<div class="row">
 
 							<div class="w3-col w3-third">
-								<img src="images/partners/logo_stelar.png"
-									class="w3-image" style="width: 250px; max-height: 100px;" />
+								<img alt="STELAR logo" src="images/partners/logo_stelar.png"
+									class="w3-image" style="width: 250px; max-height: 100px;">
 							</div>
 
 							<div class="w3-col w3-twothird">
 								<a href="http://www.stelar.it/" target="_blank">
 									<h2 style="text-align: center;" class='paperTitle'>
-										<strong>STELAR </strong>
+										<strong>STELAR</strong>
 									</h2>
 								</a>
-								<p>Stelar specializes in unique instrumentation for Fast Field Cycling (FFC) NMR relaxometry. Stelar's successful experience 
-								in engineering new technologies in NMR instrumentation and methods has gained the company a strong reputation as the absolute 
-								leader in FFC NMR relaxometry. Stelar�s SPINMASTER and SMARtracer� are used by research groups worldwide for numerous biomedical,
-								 materials science, and many other applications.</p>
+								<p>Stelar specializes in unique instrumentation for Fast Field
+									Cycling (FFC) NMR relaxometry. Stelar's successful experience
+									in engineering new technologies in NMR instrumentation and
+									methods has gained the company a strong reputation as the
+									absolute leader in FFC NMR relaxometry. Stelar's SPINMASTER and
+									SMARtracer are used by research groups worldwide for numerous
+									biomedical, materials science, and many other applications.</p>
 							</div>
 						</div>
-
-
-
-
-
-
-
-
-
-						<!-- InstanceEndEditable --></div>
-</div>
-</div>
-<!-- subsection closing --></div>
-<!-- subsection closing -->
-<div id='after'></div>
-<div id='footer'>
-<p>Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
-ITALY<br>
-Fax. Tel. Mail</p>
+						<!-- InstanceEndEditable -->
+					</div>
+				</div>
+			</div>
+			<!-- subsection closing -->
+		</div>
+		<!-- subsection closing -->
+		<div id='after'></div>
+		<div id='footer'>
+			<p>
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
+				Fax. Tel. Mail
+			</p>
+<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
 </div>
 
-<!-- section closing --></div>
-<!-- section closing -->
-<script type="text/javascript">
+		<!-- section closing -->
+	</div>
+	<!-- section closing -->
+	<script>
 //<![CDATA[
 changeSideNavStyles();
 //]]>
-</script><!-- InstanceEnd -->
+</script>
+	<!-- InstanceEnd -->
 </body>
 </html>
