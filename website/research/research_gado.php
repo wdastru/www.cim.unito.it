@@ -70,9 +70,9 @@ $localizer = "../";
                             <hr>
                             <h2 style="text-align:left;"> Group Leaders: </h2>
 							<a href="../PI/Terreno/home.php" target="_blank" title="Enzo Terreno">
-							<img alt="Enzo Terreno" class="group-leaders-img" class="group-leaders-img" src="../images/staff/terreno.jpg"></a>
+							<img alt="Enzo Terreno" class="group-leaders-img" src="../images/staff/terreno.jpg"></a>
 							<a href="../PI/Gianolio/home.html" target="_blank" title="Eliana Gianolio">
-							<img alt="Eliana Gianolio" class="group-leaders-img" class="group-leaders-img" src="../images/staff/gianolio.jpg"></a>
+							<img alt="Eliana Gianolio" class="group-leaders-img" src="../images/staff/gianolio.jpg"></a>
 							
 							
 							
@@ -91,6 +91,7 @@ $localizer = "../";
                     <br>
                     Fax. Tel. Mail
                 </p>
+<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
             </div>
             
             <!-- section closing -->

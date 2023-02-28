@@ -147,6 +147,7 @@ $localizer = "../";
                     <br>
                     Fax. Tel. Mail
                 </p>
+<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
             </div>
             
             <!-- section closing -->

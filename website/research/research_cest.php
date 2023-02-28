@@ -116,13 +116,13 @@ $localizer = "../";
                             <hr>
                             <h2 style="text-align:left;"> Group Leaders: </h2>
 							<a href="../PI/Terreno/home.php" target="_blank" title="Enzo Terreno">
-							<img alt="Enzo Terreno" class="group-leaders-img" class="group-leaders-img" src="../images/staff/terreno.jpg"></a>
+							<img alt="Enzo Terreno" class="group-leaders-img" src="../images/staff/terreno.jpg"></a>
 							<a href="#" target="_blank" title="Daniela Delli Castelli">
-							<img alt="Daniela Delli Castelli" class="group-leaders-img" class="group-leaders-img" src="../images/staff/dellicastelli.jpg"></a>
+							<img alt="Daniela Delli Castelli" class="group-leaders-img" src="../images/staff/dellicastelli.jpg"></a>
 							<a href="../PI/Longo/home.php" target="_blank" title="Dario Longo">
-							<img alt="Dario Longo" class="group-leaders-img" class="group-leaders-img" src="../images/staff/Dario_Longo.jpg"></a>
+							<img alt="Dario Longo" class="group-leaders-img" src="../images/staff/Dario_Longo.jpg"></a>
 							<a href="../staff/staff_ferrauto.php" target="_blank" title="Giuseppe Ferrauto">
-							<img alt="Giuseppe Ferrauto" class="group-leaders-img" class="group-leaders-img" src="../images/staff/ferrauto.jpg"></a>
+							<img alt="Giuseppe Ferrauto" class="group-leaders-img" src="../images/staff/ferrauto.jpg"></a>
                             <!-- InstanceEndEditable -->
                         </div>
                     </div>
@@ -138,6 +138,7 @@ $localizer = "../";
                     <br>
                     Fax. Tel. Mail
                 </p>
+<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
             </div>
             
             <!-- section closing -->
