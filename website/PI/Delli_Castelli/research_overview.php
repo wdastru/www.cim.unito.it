@@ -1,13 +1,13 @@
 <?php
 	$localizer = "../../";
 ?>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	ZeroFour by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 <head>
     <title>Research | DELLI CASTELLI Lab</title>
 	<?php require ($localizer . 'PI/Delli_Castelli/includes/head_const_delli.php'); ?>

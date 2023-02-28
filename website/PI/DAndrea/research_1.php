@@ -1,13 +1,13 @@
 <?php
 	$localizer = "../../";
 ?>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	ZeroFour by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 <head>
 	<title>Protein Development | D'Andrea Lab</title>
 	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
