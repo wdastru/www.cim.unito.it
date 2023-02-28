@@ -1,6 +1,0 @@
-/* CSS Document */
-
-/* general styles */
-html { margin: 10px; padding: 0; background-color:#666666; height:100%; }
-body { margin: 0; padding: 0; text-align: left; font-family: Arial, Helvetica, Verdana, Sans-serif; font-size: 12px; color: #666666; height:100% /* important for footer at the bottom */; }
-img { margin: auto; display:block; }
