@@ -13,18 +13,15 @@ $localizer = "./";
 </head>
 <body>
 
-		<div id='section0'>
+		<div id='section8'>
 			<?php
 require ('includes/main-nav.php');
 ?>
 			<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
-		<div id='subsection2'>
+		<div id="subsection0">
 			<!-- InstanceEndEditable -->
-                <?php
-                require ($localizer . 'includes/home-side-nav.php');
-                ?>
-				<div id='content'>
+                <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
@@ -105,7 +102,7 @@ require ('includes/main-nav.php');
 												<h2 style="font-size: 20px;">
 													<a
 														title="Homepage"
-														href="PI/Gianolio/home.html"
+														href="PI/Gianolio/home.php"
 														target="_blank"> <b>Eliana Gianolio</b> <span
 														style="font-size: 16px;">Researcher</span>
 													</a>

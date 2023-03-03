@@ -6,9 +6,6 @@ echo "
                     <dt class='subsection_link' id='section0-subsection1'>
                         <a href='" . $localizer . "aboutus.php'>About Us</a>
                     </dt> <dd></dd>
-                    <dt class='subsection_link' id='section0-subsection2'>
-                        <a href='" . $localizer . "staff.php'>Staff</a>
-                    </dt> <dd></dd>
                         <dt class='subsection_link' id='section0-subsection3'>
                         <a href='" . $localizer . "where.php'>Where</a>
                     </dt> <dd></dd>
