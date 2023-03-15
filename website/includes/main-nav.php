@@ -26,9 +26,9 @@
 				<dt id='main-nav-section6'>
 					<a href='".$localizer."publications.php'>PUBLICATIONS</a>
 				</dt> <dd></dd>
-				<dt id='main-nav-section7'>
+				<!-- <dt id='main-nav-section7'>
 					<a href='".$localizer."private.php'>PRIVATE</a>
-				</dt> <dd></dd>
+				</dt> <dd></dd> -->
 			</dl>
 		</div>
 	";
