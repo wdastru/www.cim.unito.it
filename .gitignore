@@ -42,3 +42,4 @@ website/private/prenotazioni/.htaccess
 website/private/prenotazioni/cimpass
 website/research/MRI_sequences/package*
 website/private/cataloghi/safety_info_in/
+website/download/XNAT-PIC-2.0.0-win32.msi
