@@ -30,10 +30,7 @@ website/private/cataloghi/admin/catalogpass
 website/private/cataloghi/cimpass
 website/private/cataloghi/data/
 website/private/cataloghi/safety_info/
-website/private/fantacalcio/777/logs/
-website/private/fantacalcio/777/temp.txt
-website/private/fantacalcio/cimpass
-website/private/fantacalcio/download/FantaCalcGui*
+website/private/fantacalcio/
 website/private/passwords/.htaccess
 website/private/passwords/cimpass
 website/private/phpDBBackup/
