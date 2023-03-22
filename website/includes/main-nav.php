@@ -14,7 +14,7 @@
 				<dt id='main-nav-section2'>
 					<a href='".$localizer."events.php'>EVENTS</a>
 				</dt> <dd></dd>
-				<dt id='main-nav-section3'>
+				<dt id='main-nav-section3' class='second_row'>
 					<a href='".$localizer."facilities/index.php'>FACILITIES</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section4'>

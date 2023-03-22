@@ -1,14 +1,15 @@
 <?php
-	$localizer = "./";
+$localizer = "./";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/publications.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+<?php require $localizer . 'includes/head_const_new.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Publications</title>
-<meta name="description" content="Publications from people at the Molecular Imaging Center">
-</head>  
+<meta name="description"
+	content="Publications from people at the Molecular Imaging Center">
+</head>
 <body>
 
 	<div id='section6'>
@@ -18,22 +19,7 @@
 		<div id='pubSubSectOpen'>
 			<!-- InstanceEndEditable -->
 			<div id="subsection0">
-				<div id='sidebar-narrow'>
-					<div class='padding'>
-					<?php
-					/*
-					$today = getdate();
-					echo "<select id='pubsSelector' onchange='showPubs(this)'>";
-					$lastYear = $today['year'];
-					$firstYear = 1974;
-					for ($year=$lastYear; $year>=$firstYear; $year--)
-					echo "<option value='" . $year . "'>" . $year . "</option>";
-					echo "</select>";
-					*/
-					?>
-					</div>
-				</div>
-				<div id='content-large'>
+				<div id='content-pubs'>
 					<div class='paddingOuter'>
 						<div class='band'>
 							<h1 class='subsectionTitle'>
@@ -45,36 +31,33 @@
 						<div class='paddingInner'>
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<div id="publicationsContainer">
-								<a href='https://scholar.google.com/citations?user=85uyGDsAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Silvio Aime</b></a>
-								<br>                                                              
-								<a href='https://scholar.google.com/citations?user=za1fQwwAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Enzo Terreno</b></a>
-								<br> 
-								<a href='https://scholar.google.com/citations?user=GwU4wk4AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Simonetta Geninatti Crich</b></a>
-								<br> 
-								<a href='https://scholar.google.com/citations?user=RN1TohEAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Walter Dastru'</b></a>
-								<br>                                                              
-								<a href='https://scholar.google.com/citations?user=ibKYwMAAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Daniela Delli Castelli</b></a>
-								<br> 
-								<a href='https://scholar.google.com/citations?hl=en&user=mJK0H8cAAAAJ&view_op=list_works&sortby=pubdate'><b>Francesca Reineri</b></a>
-								<br>	                                                             
-								<a href='https://scholar.google.com/citations?user=Lu_4eBIAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Alessandra Viale</b></a>
-								<br>				                                                             
-								<a href='https://scholar.google.com/citations?user=WEQvUlMAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Eliana Gianolio</b></a>
-								<br>                                                              
-								<a href='https://scholar.google.com/citations?user=euGug2wAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Dario Longo</b></a>								
-								<br> 
-								<b>Juan Carlos Cutrin</b>								
-								<br>   
-								                                                           
-								<a href='https://scholar.google.com/citations?user=nYlL2XgAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Valeria Menchise</b></a>
-								<br>								                                                           								
-								
-								<a href='https://scholar.google.com/citations?user=9aBErO8AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Mauro Botta</b></a>
-								<br>
-								<a href='https://scholar.google.com/citations?user=gjln1k0AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Lorenzo Tei</b></a>
-								<br>
-								<a href='https://scholar.google.com/citations?user=o9WVftoAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Giuseppe Digilio</b></a>
-								<br>
+								<a
+									href='https://scholar.google.com/citations?user=85uyGDsAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Silvio
+										Aime</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=za1fQwwAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Enzo
+										Terreno</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=GwU4wk4AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Simonetta
+										Geninatti Crich</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=RN1TohEAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Walter
+										Dastru'</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=ibKYwMAAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Daniela
+										Delli Castelli</b></a> <br> <a
+									href='https://scholar.google.com/citations?hl=en&user=mJK0H8cAAAAJ&view_op=list_works&sortby=pubdate'><b>Francesca
+										Reineri</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=Lu_4eBIAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Alessandra
+										Viale</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=WEQvUlMAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Eliana
+										Gianolio</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=euGug2wAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Dario
+										Longo</b></a> <br> <b>Juan Carlos Cutrin</b> <br> <a
+									href='https://scholar.google.com/citations?user=nYlL2XgAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Valeria
+										Menchise</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=9aBErO8AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Mauro
+										Botta</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=gjln1k0AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Lorenzo
+										Tei</b></a> <br> <a
+									href='https://scholar.google.com/citations?user=o9WVftoAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Giuseppe
+										Digilio</b></a> <br>
 							</div>
 						</div>
 						<!-- InstanceEndEditable -->
