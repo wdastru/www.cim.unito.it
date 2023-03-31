@@ -5,24 +5,20 @@ $localizer = "./";
 <html lang="en">
 <!-- InstanceBegin template="/Templates/projects.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+<?php require $localizer . 'includes/head_const_new.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Projects</title>
-<meta name="description" content="">
+<meta name="description"
+	content="Projects involving the Molecular Imaging Center">
 </head>
 <body>
-
 	<div id='section5'>
-	<?php require($localizer . 'includes/main-nav.php'); ?>
-		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id='subsection0'>
+    	<?php require('includes/main-nav.php'); ?>
+    	<?php require('includes/main-nav-mobile.php'); ?>
+			<div id='header'></div>
 			<!-- InstanceEndEditable -->
-			<div id='sidebar'>
-				<div class='padding'>
-					<!--<dl id='list'></dl>-->
-				</div>
-			</div>
-			<div id='content'>
+			<div id='content-nosidebar'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
@@ -33,7 +29,6 @@ $localizer = "./";
 					</div>
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
-						<!-- <h1>EU Projects</h1> -->
 						<ul>
 							<li class="myHoverPlace"><strong><a
 									href='http://www.primogaia.eu/'> <span class='paperTitle'>PRIMOGAIA</span></a></strong>
@@ -67,7 +62,6 @@ $localizer = "./";
 								</div></li>
 						</ul>
 					</div>
-
 					<div class='band'>
 						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
@@ -229,27 +223,24 @@ $localizer = "./";
 
 				</div>
 			</div>
-			<!-- subsection closing -->
+			<div id='after'></div>
+			<div id='footer'>
+				<p>
+					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
+					Fax. Tel. Mail
+				</p>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
+			</div>
 		</div>
 		<!-- subsection closing -->
-		<div id='after'></div>
-		<div id='footer'>
-			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
-				Fax. Tel. Mail
-			</p>
-			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-		</div>
-
-		<!-- section closing -->
 	</div>
 	<!-- section closing -->
 	<script>
-//
-<![CDATA[
-changeSideNavStyles();
-//]]>
-</script>
+    //
+    <![CDATA[
+    changeSideNavStyles();
+    //]]>
+    </script>
 	<!-- InstanceEnd -->
 </body>
 </html>

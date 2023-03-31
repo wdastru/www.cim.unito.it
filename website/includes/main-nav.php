@@ -11,7 +11,7 @@
 				<dt id='main-nav-section1'>
 					<a href='".$localizer."research.php'>RESEARCH</a>
 				</dt> <dd></dd>
-				<dt id='main-nav-section2'>
+				<dt id='main-nav-section2' class='second_mobile'>
 					<a href='".$localizer."events.php'>EVENTS</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section3' class='second_row'>
@@ -26,9 +26,6 @@
 				<dt id='main-nav-section6'>
 					<a href='".$localizer."publications.php'>PUBLICATIONS</a>
 				</dt> <dd></dd>
-				<!-- <dt id='main-nav-section7'>
-					<a href='".$localizer."private.php'>PRIVATE</a>
-				</dt> <dd></dd> -->
 			</dl>
 		</div>
 	";

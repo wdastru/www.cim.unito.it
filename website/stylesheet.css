@@ -102,57 +102,38 @@ h3 {
 }
 
 /* --> comportamento dei link non selezionati */
-#main-nav #main-nav-section0 a:hover, #main-nav #main-nav-section1 a:hover,
-	#main-nav #main-nav-section2 a:hover, #main-nav #main-nav-section3 a:hover,
-	#main-nav #main-nav-section4 a:hover, #main-nav #main-nav-section5 a:hover,
-	#main-nav #main-nav-section6 a:hover, #main-nav #main-nav-section7 a:hover,
-	#main-nav #main-nav-section8 a:hover {
+#main-nav [id^="main-nav-section"] a:hover{
 	color: #333333;
 }
-
-#main-nav #main-nav-section0 a {
-	width: 4.50rem;
+#main-nav [id^="main-nav-section"] a {
 	color: #666666;
 }
-
+#main-nav #main-nav-section0 a {
+	width: 4.40rem;
+}
 #main-nav #main-nav-section1 a {
 	width: 5.00rem;
-	color: #666666;
 }
-
 #main-nav #main-nav-section2 a {
-	width: 4.50rem;
-	color: #666666;
+	width: 5.50rem;
 }
-
 #main-nav #main-nav-section3 a {
 	width: 5.00rem;
-	color: #666666;
 }
-
 #main-nav #main-nav-section4 a {
 	width: 5.00rem;
-	color: #666666;
 }
-
 #main-nav #main-nav-section5 a {
 	width: 5.00rem;
-	color: #666666;
 }
-
 #main-nav #main-nav-section6 a {
 	width: 6.90rem;
-	color: #666666;
 }
-
 #main-nav #main-nav-section7 a {
 	width: 5.60rem;
-	color: #666666;
 }
-
 #main-nav #main-nav-section8 a {
 	width: 3.75rem;
-	color: #666666;
 }
 /* <-- end */
 
@@ -164,15 +145,13 @@ h3 {
 	#section4 #main-nav-section4 a, #section4 #main-nav-section4 a:hover,
 	#section5 #main-nav-section5 a, #section5 #main-nav-section5 a:hover,
 	#section6 #main-nav-section6 a, #section6 #main-nav-section6 a:hover,
-	#section7 #main-nav-section7 a, #section7 #main-nav-section7 a,
+	#section7 #main-nav-section7 a, #section7 #main-nav-section7 a:hover,
 	#section8 #main-nav-section8 a, #section8 #main-nav-section8 a:hover {
 	background-color: #e4e4e4;
 	color: #db6d16;
 }
 /* <-- end */
-#section0 #header, #section1 #header, #section2 #header, #section3 #header,
-	#section4 #header, #section5 #header, #section6 #header, #section7 #header,
-	#section8 #header {
+[id^="section"] #header {
 	height: 12.50rem;
 	background: url(images/header_large.jpg);
 }
@@ -183,6 +162,7 @@ h3 {
 #main-nav {
 	height: 3.15rem;
 	background-color: #ffffff;
+	padding-left: 0.65rem;
 }
 
 #main-nav dl {
@@ -204,15 +184,6 @@ h3 {
 	line-height: 3.15rem;
 	font-weight: bold;
 }
-
-/* IE5 Mac Hack \*/
-#main-nav {
-	padding-left: 0.75rem;
-}
-
-/*/
-#main-nav { padding-left: 11px; overflow: hidden; }
-/* End Hack */
 /* End of MAIN NAVIGATION */
 
 /* SIDEBAR */

@@ -11,15 +11,15 @@ $localizer = "./";
 	content="Publications from people at the Molecular Imaging Center">
 </head>
 <body>
-
 	<div id='section6'>
-	<?php require('includes/main-nav.php'); ?>
-		<div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
-		<div id='pubSubSectOpen'>
-			<!-- InstanceEndEditable -->
-			<div id="subsection0">
-				<div id='content-pubs'>
+		<div id="subsection0">
+			<?php require('includes/main-nav.php'); ?>
+			<?php require('includes/main-nav-mobile.php'); ?>
+			<div id='header'></div>
+			<!-- InstanceBeginEditable name="subsection opening" -->
+			<div id='pubSubSectOpen'>
+				<!-- InstanceEndEditable -->
+				<div id='content-nosidebar'>
 					<div class='paddingOuter'>
 						<div class='band'>
 							<h1 class='subsectionTitle'>
@@ -64,18 +64,16 @@ $localizer = "./";
 					</div>
 				</div>
 			</div>
-			<!-- subsection closing -->
+			<div id='after'></div>
+			<div id='footer'>
+				<p>
+					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
+					Fax. Tel. Mail
+				</p>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
+			</div>
 		</div>
 		<!-- subsection closing -->
-		<div id='after'></div>
-		<div id='footer'>
-			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
-				Fax. Tel. Mail
-			</p>
-			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-		</div>
-		<!-- section closing -->
 	</div>
 	<!-- section closing -->
 	<script>
