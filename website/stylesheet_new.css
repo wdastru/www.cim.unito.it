@@ -29,6 +29,7 @@ body {
 	font-size: 0.75rem;
 	color: #666666;
 	height: 100% /* important for footer at the bottom */;
+	min-width: 370px;
 }
 
 h1 {
@@ -2283,6 +2284,9 @@ h11, h14, h15, h16 {
 		background-image: none;
 		top:100px;
 	}
+	#section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
+		width: 95%;
+	}
 	#publicationsContainer {
 		padding-top: 1.90rem;
 	}
@@ -2308,18 +2312,16 @@ h11, h14, h15, h16 {
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		position: fixed;
-		top: 41px;
+		top: 40px;
 	}
 	.img_ind_partners {
 		width: 100%;
 	}
-
 	.quarterToFullWidth, .threeQuarterToFullWidth {
 		width: 100%;
-		float:left;
+		float: left;
 		clear: both;
 	}
-	
 	.imgInQuarterToFullWidth {
 		width: 100%;
 		height: auto;
@@ -2327,7 +2329,6 @@ h11, h14, h15, h16 {
 		margin-right: 0;
 		margin-bottom: 10px;
 	}
-
 	span#oi-us-pai_title::before {
 		content: "OI/US/PAI";
 	}
@@ -2337,7 +2338,7 @@ h11, h14, h15, h16 {
 	span#nmr-relax_title::before {
 		content: "NMR/Relaxometry";
 	}
-	span#org-lab_title::before  {
+	span#org-lab_title::before {
 		content: "Organic Lab";
 	}
 	span#cell-lab_title::before {
@@ -2356,12 +2357,14 @@ h11, h14, h15, h16 {
 	}
 	#sidebar-mobile {
 		z-index: 2; /* it has to be less than the z-index of #header-mobile*/
-		background-color: transparent;
-		top: 103px;
-		width: 100%;
+		background-color: rgba(255,255,255,0.95);
+		top: 110px;
+		width: 9%;
 	}
-	#header-mobile ul,
-	#sidebar-mobile ul {
+	#sidebar-mobile:has(.menu-btn:checked) {
+		width: 50%;
+	}
+	#header-mobile ul, #sidebar-mobile ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
@@ -2369,7 +2372,7 @@ h11, h14, h15, h16 {
 		/*border-bottom: 3px solid #666;*/
 	}
 	#sidebar-mobile ul {
-		background-color: transparent;
+		background-color: rgba(255,255,255,0.95);
 	}
 	#header-mobile li
 	{
@@ -2379,7 +2382,7 @@ h11, h14, h15, h16 {
 	#sidebar-mobile li {
 		height: 1.50rem;
 		padding-left: 1.00rem;
-		background-color: transparent;
+		background-color: rgba(255,255,255,0.95);
 	}
 	#header-mobile li a,
 	#sidebar-mobile li a {
@@ -2463,7 +2466,8 @@ h11, h14, h15, h16 {
 	}
 	#sidebar-mobile .menu-btn:checked ~ .menu {
 		max-height: 12rem;
-		background-color: transparent;	
+		background-color: transparent;
+		padding-top: 2px;
 	}
 	#header-mobile .menu-btn:checked ~ .menu-icon .navicon, 
 	#sidebar-mobile .menu-btn:checked ~ .menu-icon .navicon {
@@ -2477,11 +2481,11 @@ h11, h14, h15, h16 {
 	#sidebar-mobile .menu-btn:checked ~ .menu-icon .navicon::after {
 		transform: rotate(45deg);
 	}
-	#header-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::before,
-		#header-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after,
+	#header-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::before,		
+		#header-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after,  
 		#sidebar-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::before,
-		#sidebar-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after
-		{
-		top: 0;
-	}
+		#sidebar-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after  
+		{                                                                           
+		top: 0;                                                                     
+	}                                                                               
 }
