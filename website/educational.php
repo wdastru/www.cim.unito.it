@@ -1,34 +1,22 @@
-<?php
-$localizer = "./";
-?>
+<?php $localizer = "./"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-		<?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino - Educational</title>
+	<?php require $localizer . 'includes/head_const_new.inc.php'?>
+	<title>Molecular Imaging Center - University of Torino - Educational</title>
 <meta name="description" content="">
 </head>
 <body>
-
 	<div id='section2'>
-			<?php
-require ('includes/main-nav.php');
-?>
-			<div id='header'></div>
+		<?php require ($localizer . 'includes/main-nav.php'); ?>
+		<?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id='subsection1'>
+			<div id='header'></div>
 			<!-- InstanceEndEditable -->
-			<div id='sidebar'>
-				<div class='padding'>
-					<ul id='list'>
-						<li id='section2-subsection1' class='subsection_link'><a
-							href='<?php echo $localizer;?>educational.php'>Educational</a></li>
-						<li id='section2-subsection2' class='subsection_link'><a
-							href='<?php echo $localizer;?>news.php'>News</a></li>
-					</ul>
-				</div>
-			</div>
+			<?php require ($localizer . 'includes/events-side-nav.php'); ?>
+            <?php require ($localizer . 'includes/events-side-nav-mobile.php'); ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -78,13 +66,10 @@ require ('includes/main-nav.php');
 							<li><a href="<?php echo $localizer; ?>IP_2009.php">"Design,
 									Synthesis and Validation of Imaging Probes" 2009</a></li>
 						</ul>
-
 					</div>
-
 					<div class='band'>
 						<h1 class='subsectionTitle'>Book Chapters</h1>
 					</div>
-
 					<div class='paddingInner'>
 						<div class="w3-row">
 							<div class="w3-container">
@@ -101,9 +86,7 @@ require ('includes/main-nav.php');
 								Singapore: Pan Stanford Publishing <br>
 							</div>
 						</div>
-
 						<hr>
-
 						<div class="w3-row">
 							<div class="w3-container">
 								<img
@@ -120,9 +103,7 @@ require ('includes/main-nav.php');
 								Society of Chemistry (UK) <br>
 							</div>
 						</div>
-
 						<hr>
-
 						<div class="w3-row">
 							<div class="w3-container">
 								<img alt="Neural Metabolism In Vivo"
@@ -138,9 +119,7 @@ require ('includes/main-nav.php');
 								and I.-Y. Choi) NEW YORK: SpringerVerlag GMBH (USA) <br> <br>
 							</div>
 						</div>
-
 						<hr>
-
 						<div class="w3-row">
 							<div class="w3-container">
 								<img
@@ -156,7 +135,6 @@ require ('includes/main-nav.php');
 								Taylor & Francis (UNITED STATES) <br>
 							</div>
 						</div>
-
 						<!-- InstanceEndEditable -->
 					</div>
 				</div>
