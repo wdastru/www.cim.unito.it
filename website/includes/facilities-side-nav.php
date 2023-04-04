@@ -10,7 +10,7 @@ echo "
                     <li id='section3-subsection3' class='subsection_link'><a href=
                         'oi_us_pa.php'>Optical/US/PA Imaging</a></li>
                     <li id='section3-subsection4' class='subsection_link'><a href=
-                        'relax.php'>NMR/Relaxometry</a></li>
+                        'nmr_relax.php'>NMR/Relaxometry</a></li>
                     <li id='section3-subsection5' class='subsection_link'><a href=
                         'org_lab.php'>Organic Laboratory</a></li>
                     <li id='section3-subsection6' class='subsection_link'><a href=

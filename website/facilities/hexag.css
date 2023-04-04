@@ -2,7 +2,13 @@
 
 .container-hex {
 	margin: auto;
-	display: table;
+	
+}
+
+@media screen and (max-width: 451px) {
+	.container-hex {
+		display: none;
+	}
 }
 
 .left-side {

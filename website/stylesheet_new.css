@@ -57,7 +57,7 @@ h3 {
 	border: 1px solid #000;
 }
 
-.fullWidth {
+.fullMaxWidth {
 	max-width: 100%;
 }
 /*     
@@ -755,6 +755,44 @@ li.myHoverPlace:hover > div.hide {
 
 .tableRow {
 	display: table-row;
+}
+
+.fullWidth {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+.quarterToFullWidth {
+	width: 25%;
+	float: left;
+}
+
+.imgInQuarterToFullWidth {
+	width: 95%;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+}
+
+.threeQuarterToFullWidth {
+	width: 75%;
+	float: right;
+}
+span#oi-us-pai_title::before {
+	content: "Optical / Ultrasound / Photoacoustic Instruments";
+}
+span#pet-spect-ct_title::before {
+	content: "PET/SPECT/CT Instruments";
+}
+span#nmr-relax_title::before {
+	content: "NMR and Relaxometry Instruments";
+}
+span#org-lab_title::before {
+	content: "Organic Synthesis Laboratory";
+}
+span#cell-lab_title::before {
+	content: "Cellular Culture Laboratory";
 }
 
 /* stylesheet aggiunti da Dario Longo da w3.css*/
@@ -2183,12 +2221,10 @@ h11, h14, h15, h16 {
 	[id^="section"] {
 		background-size: 23%;
 	}
-	
-	#section0, #section1, #section2, #section3, 
-		#section7, #section8, #sectionAutoDip {
+	#section0, #section1, #section2, #section7, #section8, #sectionAutoDip {
 		width: 75.00rem;
 	}
-	#section4, #section5, #section6 {
+	#section3, #section4, #section5, #section6 {
 		width: 37.50rem;
 	}
 	#publicationsContainer {
@@ -2200,10 +2236,10 @@ h11, h14, h15, h16 {
 		line-height: 1.5rem;
 		padding: 0;
 	}
-	#section4 [id^="subsection"] #content {
+	#section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
 		width: 80%;
 	}
-	#section4 [id^="subsection"] #sidebar {
+	#section3 [id^="subsection"] #sidebar, #section4 [id^="subsection"] #sidebar {
 		width: 20%;
 	}
 	#content-nosidebar {
@@ -2225,7 +2261,7 @@ h11, h14, h15, h16 {
 		height: 1.57rem;
 		line-height: 1.57rem;
 	}
-	#section4 #header, #section5 #header, #section6 #header {
+	#section3 #header, #section4 #header, #section5 #header, #section6 #header {
 		height: 100px;
 	}
 }
@@ -2237,11 +2273,11 @@ h11, h14, h15, h16 {
 	#main-nav, #sidebar {
 		display: none;
 	}
-	#section0, #section1, #section2, #section3, #section7,
+	#section0, #section1, #section2, #section7,
 		#section8, #sectionAutoDip {
 		width: 75.00rem;
 	}
-	#section4, #section5, #section6 {
+	#section3, #section4, #section5, #section6 {
 		width: 100%;
 		border: none;
 		background-image: none;
@@ -2267,7 +2303,7 @@ h11, h14, h15, h16 {
 		line-height: 1.5rem;
 		padding: 0;
 	}
-	#section4 #header, #section5 #header, #section6 #header {
+	#section3 #header, #section4 #header, #section5 #header, #section6 #header {
 		height: 70px; 
 		background-repeat: no-repeat;
 		background-size: 100% auto;
@@ -2276,6 +2312,36 @@ h11, h14, h15, h16 {
 	}
 	.img_ind_partners {
 		width: 100%;
+	}
+
+	.quarterToFullWidth, .threeQuarterToFullWidth {
+		width: 100%;
+		float:left;
+		clear: both;
+	}
+	
+	.imgInQuarterToFullWidth {
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	span#oi-us-pai_title::before {
+		content: "OI/US/PAI";
+	}
+	span#pet-spect-ct_title::before {
+		content: "PET/SPECT/CT";
+	}
+	span#nmr-relax_title::before {
+		content: "NMR/Relaxometry";
+	}
+	span#org-lab_title::before  {
+		content: "Organic Lab";
+	}
+	span#cell-lab_title::before {
+		content: "Cell Lab";
 	}
 
 	/* header */
@@ -2359,7 +2425,7 @@ h11, h14, h15, h16 {
 		user-select: none;
 	}
 	#header-mobile .menu-icon .navicon, #sidebar-mobile .menu-icon .navicon {
-		background: #333;
+		background: #999;
 		display: block;
 		height: 2px;
 		position: relative;
@@ -2369,7 +2435,7 @@ h11, h14, h15, h16 {
 	#header-mobile .menu-icon .navicon::before, #header-mobile .menu-icon .navicon::after,
 		#sidebar-mobile .menu-icon .navicon::before, #sidebar-mobile .menu-icon .navicon::after
 		{
-		background: #333;
+		background: #999;
 		content: '';
 		display: block;
 		height: 100%;
@@ -2417,4 +2483,5 @@ h11, h14, h15, h16 {
 		#sidebar-mobile .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after
 		{
 		top: 0;
-	}}
+	}
+}

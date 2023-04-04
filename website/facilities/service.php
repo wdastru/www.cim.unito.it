@@ -7,15 +7,11 @@ $mailer->AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
 $body = '';
 $eol = "\n";
 // $eol = "<br>";
-
 if (isset($_GET['submit'])) {
     if ($_GET['submit'] == 'yes') {
-
         $regex_valid_mail = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/';
         if (preg_match($regex_valid_mail, $_POST['email'])) {
-
             $valid = (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['institution']) && isset($_POST['description']) && $_POST['name'] != '' && $_POST['email'] != '' && $_POST['institution'] != '' && $_POST['description'] != '');
-
             $regex_allowed_chars = '/^[a-zA-Z\.,;:-\?\(\)\"\'\s]*$/';
             if ($valid) {
                 if (preg_match($regex_allowed_chars, $_POST['name'])) {
@@ -25,9 +21,7 @@ if (isset($_GET['submit'])) {
                     header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
-
                 $body .= "E-mail      : " . $_POST['email'] . $eol;
-
                 if (preg_match($regex_allowed_chars, $_POST['institution'])) {
                     $body .= "Institution : " . $_POST['institution'] . $eol;
                 } else {
@@ -35,7 +29,6 @@ if (isset($_GET['submit'])) {
                     header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
-
                 if (isset($_POST['NMR'])) {
                     if ($_POST['NMR'] == 'yes') {
                         $body .= "NMR         : yes" . $eol;
@@ -94,12 +87,10 @@ if (isset($_GET['submit'])) {
                     header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
-
                 $vars = array(
                     'subject' => "Service request.",
                     'body' => $body
                 );
-
                 /**
                  * * SEND MAIL **
                  */
@@ -107,14 +98,12 @@ if (isset($_GET['submit'])) {
                 /**
                  * * SEND MAIL **
                  */
-
                 header('Location: ' . $localizer . 'facilities/service.php');
             } else {
                 $error_string = "Mandatory fields are missing !!!";
                 header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
                 exit();
             }
-
             unset($_POST);
             $body = '';
         } else {
@@ -125,31 +114,27 @@ if (isset($_GET['submit'])) {
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php require $localizer . 'includes/head_const_new.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino - Facilities</title>
 <meta name="description" content="">
 <link href="<?php echo $localizer; ?>facilities/facilities.css"
 	rel='stylesheet' type='text/css'>
 </head>
 <body>
-
 	<div id='section3'>
-            <?php
-            require ($localizer . 'includes/main-nav.php');
-            ?>
-            <div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id='subsection7'>
+			<!-- InstanceBeginEditable name="subsection opening" -->
+            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+            <div id='header'></div>
 			<!-- InstanceEndEditable -->
-                <?php
-                require ($localizer . 'includes/facilities-side-nav.php');
-                ?>
-                <div id='content'>
+			<?php require ($localizer . 'includes/facilities-side-nav.php'); ?>
+            <?php require ($localizer . 'includes/facilities-side-nav-mobile.php'); ?>
+         	<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
@@ -265,18 +250,16 @@ if (isset($_GET['submit'])) {
 				</div>
 			</div>
 			<!-- subsection closing -->
-		</div>
-		<!-- subsection closing -->
-		<div id='after'></div>
-		<div id='footer'>
-			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
-				Fax. Tel. Mail
-
-			</p>
+			<div id='after'></div>
+			<div id='footer'>
+				<p>
+					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
+					Fax. Tel. Mail
+				</p>
                 <?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
             </div>
-
+			<!-- subsection closing -->
+		</div>
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->

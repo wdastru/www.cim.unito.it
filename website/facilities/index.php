@@ -1,28 +1,23 @@
-<?php
-$localizer = "../";
-?>
+<?php $localizer = "../"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
-		<title>Molecular Imaging Center - University of Torino - Facilities</title>
-<meta name="description" content="">
-<link rel="stylesheet" href="hexag.css">
+    <?php require $localizer . 'includes/head_const_new.inc.php'?>
+	<title>Molecular Imaging Center - University of Torino - Facilities</title>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="hexag.css">
 </head>
 <body>
-
 	<div id='section3'>
-            <?php
-            require ($localizer . 'includes/main-nav.php');
-            ?>
-            <div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id='subsection0'>
+            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+            <div id='header'></div>
+			<!-- InstanceBeginEditable name="subsection opening" -->
 			<!-- InstanceEndEditable -->
-             <?php
-            require ($localizer . 'includes/facilities-side-nav.php');
-            ?>
+             <?php require ($localizer . 'includes/facilities-side-nav.php'); ?>
+             <?php require ($localizer . 'includes/facilities-side-nav-mobile.php'); ?>
             <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -34,12 +29,10 @@ $localizer = "../";
 					</div>
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
-
 						<p>The Molecular Imaging Center is well equipped in terms of
 							chemical (synthesis and analytical characterisation), biological
 							(cell culture and animal models) and small animal imaging
 							laboratories for molecular imaging investigations.</p>
-
 						<p>The lab is equipped with several small animal MRI systems
 							(three 1T, one 3T, two 7T) from Bruker and Aspect Imaging. These
 							systems can be used for contrast enhanced images, DCE, DWI, MRS,
@@ -49,7 +42,6 @@ $localizer = "../";
 							is equipped with a small animal PET/SPECT/CT high resolution
 							scanner, two whole body optical imaging systems, two ultrasound
 							and two optoacoustic imaging systems.</p>
-
 						<p>Furthermore, the lab has a state-of-the-art cell culture
 							laboratory including laminar flow and incubator, a gamma counter,
 							a histology and PCR lab and a microscopy lab. We are equipped for
@@ -59,12 +51,8 @@ $localizer = "../";
 							with high end computer workstations with specialized software,
 							such as PMOD or Paravision but also commercial software packages
 							like Matlab.</p>
-
-
 						<div class="container-hex">
-
 							<div class="left-side">
-
 								<div class="row-hex" style="padding-left: 80px;">
 									<a href="mri.php">
 										<div class="hex">
@@ -99,7 +87,6 @@ $localizer = "../";
 									</a>
 								</div>
 							</div>
-
 							<div class="right-side">
 								<div class="row-hex" style="padding-left: 0px;">
 									<a href="relax.php">
@@ -118,7 +105,8 @@ $localizer = "../";
 											<div class="hex-title">Synthesis</div>
 											<div class="hex-hide"></div>
 											<div class="hex-img">
-												<img alt="generic molecule formula" src="synthesis2.jpg" style="max-height: 120%">
+												<img alt="generic molecule formula" src="synthesis2.jpg"
+													style="max-height: 120%">
 											</div>
 										</div>
 									</a>
@@ -136,24 +124,22 @@ $localizer = "../";
 								</div>
 							</div>
 						</div>
-
-						<br><br> <!-- InstanceEndEditable -->
+						<br> <br>
+						<!-- InstanceEndEditable -->
 					</div>
 				</div>
 			</div>
 			<!-- subsection closing -->
-		</div>
-		<!-- subsection closing -->
-		<div id='after'></div>
-		<div id='footer'>
-			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
-					Fax. Tel. Mail 
-			
-			</p>
+			<!-- subsection closing -->
+			<div id='after'></div>
+			<div id='footer'>
+				<p>
+					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
+					Fax. Tel. Mail
+				</p>
 				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>                
             </div>
-
+		</div>
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->

@@ -3,45 +3,43 @@
 <html lang="en">
 <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
-<title>Molecular Imaging Center - University of Torino - MRI facilities</title>
-<meta name="description" content="">
+    <?php require $localizer . 'includes/head_const_new.inc.php'?>
+	<title>Molecular Imaging Center - University of Torino - MRI facilities</title>
+	<meta name="description" content="">
 </head>
 <body>
-
 	<div id='section3'>
-            <?php
-            require ($localizer . 'includes/main-nav.php');
-            ?>
-            <div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id='subsection2'>
+			<!-- InstanceBeginEditable name="subsection opening" -->
+            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+            <div id='header'></div>
 			<!-- InstanceEndEditable -->
-             <?php
-            require ($localizer . 'includes/facilities-side-nav.php');
-            ?>
-              <div id='content'>
+            <?php require ($localizer . 'includes/facilities-side-nav.php'); ?>
+            <?php require ($localizer . 'includes/facilities-side-nav-mobile.php'); ?>
+			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
 							<!-- InstanceBeginEditable name="subsection title" -->
-							PET/SPECT/CT Instruments
+							<span id='pet-spect-ct_title'>&nbsp;</span>
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
-
-
-						<div class="w3-cell-row">
-							<div class="w3-container">
-								<h3>
-									<strong><span style="font-size: 14px;">PET/SPECT/CT: GE
-											Healtcare Triumph</span></strong>
-								</h3>
-								<img alt="GE Healtcare Triumph" src="../images/strumenti/Triumph.jpg"
-									style="width: 180px; height: auto; float: left; margin: 10px;">
-								<br>
+						<div class="fullWidth">
+							<h3>
+								<strong><span style="font-size: 14px;">PET/SPECT/CT<br>GE
+										Healtcare Triumph
+								</span></strong>
+							</h3>
+							<div class="quarterToFullWidth">
+								<img alt="GE Healtcare Triumph"
+									src="../images/strumenti/Triumph.jpg"
+									class="imgInQuarterToFullWidth">
+							</div>
+							<div class="threeQuarterToFullWidth">
 								<p style="text-align: justify;">This preclinical system is a
 									fully integrated molecular imaging system PET/SPEC/CT for
 									biomedical research and pharmaceutical development. Equipment
@@ -58,28 +56,22 @@
 									Imaging of the University of Torino, Bioindustry Park S.
 									Fumero, Colleretto Giacosa (Torino).</p>
 							</div>
-
-
-
 						</div>
-
 						<!-- InstanceEndEditable -->
 					</div>
 				</div>
 			</div>
 			<!-- subsection closing -->
-		</div>
-		<!-- subsection closing -->
-		<div id='after'></div>
-		<div id='footer'>
-			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
-					Fax. Tel. Mail 
-			
-			</p>
+			<div id='after'></div>
+			<div id='footer'>
+				<p>
+					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
+					Fax. Tel. Mail
+				</p>
                 <?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
             </div>
-
+			<!-- subsection closing -->
+		</div>
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
