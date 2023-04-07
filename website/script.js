@@ -87,11 +87,11 @@ function toggle_vis(name) {
 
 function showFormBox(id)  {
 	if (document.getElementById) {
-		var hiddenBox = document.getElementById('hiddenBox');
-		var visibility = hiddenBox.style.visibility;
+		const hiddenBox = document.getElementById('hiddenBox');
+		const cssObj = window.getComputedStyle(hiddenBox, null);
+		let visibility = cssObj.getPropertyValue("visibility");
 		
 		if (visibility == 'hidden') {
-			var hiddenInput = document.getElementById('hiddenSeqNameInput');
 			hiddenSeqNameInput.value = id;
 			hiddenBox.style.display = 'block';
 			hiddenBox.style.visibility = 'visible';

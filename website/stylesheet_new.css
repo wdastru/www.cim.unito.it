@@ -383,7 +383,51 @@ h3 {
 }
 
 #content .imgCenter {
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    clear: both;
+}
+#content .imgCenter > img {
+	max-width: 100%;
+}
+
+#content .imgLeft {
+	float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 0.75rem;
+}
+
+#content .imgLeft > img {
+	max-width: 100%;
+}
+	
+.flex-container-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.flex-container-column {
+	display: flex;
+	flex-direction: column;
+}
+.xnat-acknowledgements {
+	flex: 21%;
+	margin: 1.00rem;
+}
+.xnat-acknowledgements > a {
+	display:flex;
+	width: 100%;
+}
+.xnat-acknowledgements img {
+	max-width: 100%;
+	max-height: 100px;
+	margin: auto;
 }
 
 .band {
@@ -405,6 +449,19 @@ h3 {
 	width: 33%;
 	float: left;
 	padding-right: 0.50rem;
+}
+
+#hiddenBox {
+	border-radius: 10px;
+	border: 5px solid black;
+	z-index: 1;
+	width: 600px;
+	display: none;
+	visibility: hidden;
+	font-weight: bold;
+	color: #db6d16;
+	background-color: #000d;
+	padding: 16px;
 }
 /* End of CONTENT */
 
@@ -743,11 +800,11 @@ li.myHoverPlace:hover > div.hide {
 }
 
 .firstCol {
-	width: 12.50rem;
+	width: 33%;
 }
 
 .secondCol {
-	width: 25.00rem;
+	width: 100%;
 }
 
 .tableCell {
@@ -792,8 +849,24 @@ span#nmr-relax_title::before {
 span#org-lab_title::before {
 	content: "Organic Synthesis Laboratory";
 }
-span#cell-lab_title::before {
+span#cell-lab_title::before  {
 	content: "Cellular Culture Laboratory";
+}
+span#B-Gd-BNCT_title::before  {
+	content:
+		"Boron and Gadolinium containing agents for Neutron Capture -Therapy"
+}
+span#PAI_title::before {
+	content: "Photoacoustic Contrast Agents"
+}
+span#nano-micro_title::before {
+	content: "Nano and micro systems for in vitro diagnostic"
+}
+span#infl_infect_title::before {
+	content: "Inflammation & Infectious Diseases"
+}
+span#FFC-relax_title::before {
+	content: "Fast Field Cycling Relaxometry in vitro and in vivo";
 }
 
 /* stylesheet aggiunti da Dario Longo da w3.css*/
@@ -1030,14 +1103,14 @@ abbr[title] {
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
+	/*position: relative;*/
 }
 
 .w3-container, .w3-panel {
 	padding: 0.01em 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	position: relative;
+	/*position: relative;*/
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1671,6 +1744,7 @@ h11 {
 	font-size: 18px;
 	font-weight: bold;
 	color: #db6d16;
+	text-align: center;
 }
 
 h14 {
@@ -1699,14 +1773,23 @@ h11, h14, h15, h16 {
 	letter-spacing: 4px
 }
 
-.PIname {
-	font-size: 15px;
+.PIName, .PIName > span {
 	font-weight: bold;
-	color: black;
+	text-decoration: none;
+	text-align: center;
 }
 
-.PIname:hover {
-	text-decoration: underline;
+.researchImg {
+	display: flex;
+	justify-content: center;
+}
+
+.researchTitle {
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
 }
 
 .mySlides {
@@ -2222,10 +2305,10 @@ h11, h14, h15, h16 {
 	[id^="section"] {
 		background-size: 23%;
 	}
-	#section0, #section1, #section7, #section8, #sectionAutoDip {
+	#section0, #section7, #section8, #sectionAutoDip {
 		width: 75.00rem;
 	}
-	#section2, #section3, #section4, #section5, #section6 {
+	#section1, #section2, #section3, #section4, #section5, #section6 {
 		width: 37.50rem;
 	}
 	#publicationsContainer {
@@ -2262,7 +2345,7 @@ h11, h14, h15, h16 {
 		height: 1.57rem;
 		line-height: 1.57rem;
 	}
-	#section2 #header, #section3 #header, #section4 #header, #section5 #header, #section6 #header {
+	#section1 #header, #section2 #header, #section3 #header, #section4 #header, #section5 #header, #section6 #header {
 		height: 100px;
 	}
 }
@@ -2274,17 +2357,17 @@ h11, h14, h15, h16 {
 	#main-nav, #sidebar {
 		display: none;
 	}
-	#section0, #section1, #section7,
+	#section0, #section7,
 		#section8, #sectionAutoDip {
 		width: 75.00rem;
 	}
-	#section2, #section3, #section4, #section5, #section6 {
+	#section1, #section2, #section3, #section4, #section5, #section6 {
 		width: 100%;
 		border: none;
 		background-image: none;
 		top:100px;
 	}
-	#section2 [id^="subsection"] #content, #section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
+	#section1 [id^="subsection"] #content, #section2 [id^="subsection"] #content, #section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
 		width: 95%;
 	}
 	#publicationsContainer {
@@ -2307,7 +2390,7 @@ h11, h14, h15, h16 {
 		line-height: 1.5rem;
 		padding: 0;
 	}
-	#section2 #header, #section3 #header, #section4 #header, #section5 #header, #section6 #header {
+	#section1 #header, #section2 #header, #section3 #header, #section4 #header, #section5 #header, #section6 #header {
 		height: 70px; 
 		background-repeat: no-repeat;
 		background-size: 100% auto;
@@ -2341,8 +2424,33 @@ h11, h14, h15, h16 {
 	span#org-lab_title::before {
 		content: "Organic Lab";
 	}
-	span#cell-lab_title::before {
+	span#cell-lab_title::before  {
 		content: "Cell Lab";
+	}
+	span#B-Gd-BNCT_title::before {
+		content: "Gd-B agents for BNCT";
+	}
+	span#PAI_title::before {
+		content: "PAI Agents";
+	}
+	span#nano-micro_title::before {
+		content: "Nano and micro systems";
+	}
+	span#infl_infect_title::before {
+		content: "Inflammation & Infectious Diseases";
+		font-size: 1.00rem;
+	}
+	span#FFC-relax_title::before {
+		content: "FFC relaxometry";
+	}
+	#content .imgLeft {
+		width: 100%;
+	}
+	.xnat-acknowledgements {
+		flex:41%;
+	}
+	#hiddenBox {
+		width: 85%;
 	}
 
 	/* header */
@@ -2361,9 +2469,16 @@ h11, h14, h15, h16 {
 		top: 110px;
 		width: 9%;
 	}
-	#sidebar-mobile:has(.menu-btn:checked) {
-		width: 50%;
+	#section2 #sidebar-mobile:has(.menu-btn:checked), #section4 #sidebar-mobile:has(.menu-btn:checked) {
+		width: 6rem;
 	}
+	#section3 #sidebar-mobile:has(.menu-btn:checked) {
+		width: 9rem;
+	}
+	#section1 #sidebar-mobile:has(.menu-btn:checked) {
+		width: 15rem;
+	}
+	
 	#header-mobile ul, #sidebar-mobile ul {
 		margin: 0;
 		padding: 0;
@@ -2465,7 +2580,7 @@ h11, h14, h15, h16 {
 		background-color: #000;
 	}
 	#sidebar-mobile .menu-btn:checked ~ .menu {
-		max-height: 12rem;
+		max-height: 40rem;
 		background-color: transparent;
 		padding-top: 2px;
 	}
