@@ -53,64 +53,64 @@
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<h2>TORINO - March 24-26, 2010 - JOINT WORKING GROUPS 2 AND 6 MEETING</h2>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16727.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16727.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16729.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16729.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16734.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16734.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16736.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16736.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16739.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16739.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16740.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16740.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16741.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16741.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16742.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16742.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16743.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16743.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16748.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16748.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16749.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16749.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16750.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16750.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16751.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16751.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16752.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16752.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16753.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16753.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16754.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16754.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16755.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16755.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16757.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16757.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16761.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16761.jpg" />
 							</p>
 							<p>
-								<img class="fullWidtdh images" src="images/meetings/cost 2011/SDC16767.jpg" />
+								<img class="maxWidthFull imageBorder" src="images/meetings/cost 2011/SDC16767.jpg" />
 							</p>
 							<!-- InstanceEndEditable -->
 						</div>

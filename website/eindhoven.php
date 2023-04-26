@@ -52,15 +52,15 @@
 							Prof. Silvio Aime
 							</h2>
 							<p>
-								<img class='images' src=
+								<img class='imageBorder' src=
 								'images/BvOF%202011%20TUe%20Dies%203.jpg' alt='image' />
 							</p>
 							<p>
-								<img class='images' src=
+								<img class='imageBorder' src=
 								'images/BvOF%202011%20TUe%20Dies%206.jpg' alt='image' />
 							</p>
 							<p>
-								<img class='images' src=
+								<img class='imageBorder' src=
 								'images/BvOF%202011%20TUe%20Dies%207.jpg' alt='image' />
 							</p>
 							<!-- InstanceEndEditable -->

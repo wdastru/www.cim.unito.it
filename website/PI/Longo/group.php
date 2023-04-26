@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+$localizer = "../../";
 ?>
 <!DOCTYPE html>
 <!--
@@ -9,7 +9,7 @@
 -->
 <html lang="en">
 <head>
-	<title>Group Members | Longo Lab</title>
+<title>Group Members | Longo Lab</title>
 	
 	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
@@ -51,23 +51,36 @@
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
+								<li><a
+									href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+										<li><a
+											href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a
+											href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI
+												probes</a></li>
+										<li><a
+											href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
+										
 										<li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
-											style="text-transform: none;">TUMOR pH IMAGING</a>
+										
+										<li><a
+											href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"
+											font style="text-transform: none;">TUMOR pH IMAGING</a>
+										
 										<li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
-											style="text-transform: none;">RENAL pH IMAGING</a></li>
+										
+										<li><a
+											href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"
+											font style="text-transform: none;">RENAL pH IMAGING</a></li>
 									</ul></li>
-								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
+								<li class="current_page_item"><a
+									href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
 								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact
+										us</a></li>
 							</ul>
 						</nav>
 
@@ -80,60 +93,54 @@
 
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<div class="container">
-					
-					<div class="row">
-							<div class="12u 12u(mobile)">
-					 
-                         <ul class="style2" style="float: right;">
-							<li><a href="#members"><b>Group Members</b></a></li>
-							<li><a href="#alumni"><b>Lab Alumni</b></a></li>
-							<li><a href="#thesis"><b>Master Thesis available</b></a></li>
-							<li><a href="gallery.php"><b>Lab pictures</b></a></li>
-							<li><a href="#pmembers"><b>Former Members</b></a></li>
-							<li><a href="#palumni"><b>Former Lab Alumni</b></a></li>
-														
-							</ul> 
-							</div>
-					</div>
-					
 						<div class="row">
 							<div class="12u 12u(mobile)">
-
+								<ul class="style2" style="float: right;">
+									<li><a href="#members"><b>Group Members</b></a></li>
+									<li><a href="#alumni"><b>Lab Alumni</b></a></li>
+									<li><a href="#thesis"><b>Master Thesis available</b></a></li>
+									<li><a href="gallery.php"><b>Lab pictures</b></a></li>
+									<li><a href="#pmembers"><b>Former Members</b></a></li>
+									<li><a href="#palumni"><b>Former Lab Alumni</b></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u 12u(mobile)">
 								<!-- Article list -->
 								<section class="box article-list">
 									<h2 id='members' class="second icon fa-user">Group Members</h2>
 								</section>
 							</div>
 						</div>
-
 						<!-- Excerpt -->
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
 									<img
 										src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg"
-										alt=""
+										alt="Dario Longo"
 										style="width: 180px; height: auto; margin-bottom: 80px;"
-										class="image left" />
-
+										class="image left">
 									<header>
-										<h3 style="text-align:left">Dario Livio Longo</h3>
+										<h3 style="text-align: left">Dario Livio Longo</h3>
 										<span><strong>Principal Investigator</strong></span>
 									</header>
 									<p style="line-height: 1.2">
 										First Researcher<br> IBB-CNR, Research Unit of Torino<br>
 										Academic activity at the University of Torino: <a
 											href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo"
-											target=_blank>Contract Professor in Cancer Imaging</a><br><br>
-										Ph.D. in Bio-Chemical Sciences, University of Torino<br> M.Sc. in
-										Chemistry and Pharmaceutical Technologies, University of
-										Torino<br> Phone: +39 0116706473<br> E-mail: 
-										<a href="mailto:dario.longo@unito.it"> <font color="#1e799f"> dario.longo@unito.it</font></a>, 
-										<a href="mailto:dariolivio.longo@cnr.it"> <font color="#1e799f"> dariolivio.longo@cnr.it</font></a>
+											target=_blank>Contract Professor in Cancer Imaging</a><br>
+										<br> Ph.D. in Bio-Chemical Sciences, University of Torino<br>
+										M.Sc. in Chemistry and Pharmaceutical Technologies, University
+										of Torino<br> Phone: +39 0116706473<br> E-mail: <a
+											href="mailto:dario.longo@unito.it"> <font color="#1e799f">
+												dario.longo@unito.it</font></a>, <a
+											href="mailto:dariolivio.longo@cnr.it"> <font color="#1e799f">
+												dariolivio.longo@cnr.it</font></a>
 									</p>
 									<a href="https://it.linkedin.com/in/dario-livio-longo-999a0336"
 										target="_blank"> <img src="images/linkedin_profile.png"
@@ -172,15 +179,16 @@
 										class="image left" />
 									<div>
 										<header>
-											<h3 style="text-align:left">Antonella Carella</h3>
+											<h3 style="text-align: left">Antonella Carella</h3>
 											<span>Postdoctoral Fellow</span>
 										</header>
 										<p style="line-height: 1.2">
 											Ph.D. in Biomedicine and Molecular Oncology, University of
-											Oviedo, Spain<br> M.Sc. in Medical Biotechnology and Molecular
-											Medicine, University of Bari Aldo Moro, Italy <br> Phone: +39
-											0116709540<br> E-mail: <a
-												href="mailto:antonellacarella@gmail.com"><font color="#1e799f">antonellacarella@gmail.com</font></a>
+											Oviedo, Spain<br> M.Sc. in Medical Biotechnology and
+											Molecular Medicine, University of Bari Aldo Moro, Italy <br>
+											Phone: +39 0116709540<br> E-mail: <a
+												href="mailto:antonellacarella@gmail.com"><font
+												color="#1e799f">antonellacarella@gmail.com</font></a>
 										</p>
 									</div>
 
@@ -200,20 +208,22 @@
 
 								</article>
 							</div>
-							 <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/carella_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-							</div> 
+							<div class="4u 6u(mobile)">
+
+								<br>
+								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/images/carella_wordcloud.png"
+									class="w3-image" style="max-width: 250px;" />
+
+							</div>
 						</div>
 
 
 
 						<hr></hr>
 
-						
+
 
 						<div class="row">
 							<div class="8u 12u(mobile)">
@@ -226,13 +236,13 @@
 										class="image left" />
 									<div>
 										<header>
-											<h3 style="text-align:left">Feriel Romdhane</h3>
+											<h3 style="text-align: left">Feriel Romdhane</h3>
 											<span>Postdoctoral Fellow</span>
 										</header>
 										<p style="line-height: 1.2">
-											Ph.D. in Sciences and Technologies of Engineering, University of
-											Tunisi, Tunisia<br> M.Sc. in Automatic, University of Tunisi <br>
-											Phone: +39 0116706499<br> E-mail: <a
+											Ph.D. in Sciences and Technologies of Engineering, University
+											of Tunisi, Tunisia<br> M.Sc. in Automatic, University of
+											Tunisi <br> Phone: +39 0116706499<br> E-mail: <a
 												href="mailto:ferielromdhane@yahoo.fr"><font color="#1e799f">ferielromdhane@yahoo.fr</font></a>
 										</p>
 									</div>
@@ -267,7 +277,7 @@
 
 
 						<hr></hr>
-						
+
 
 						<div class="row">
 							<div class="8u 12u(mobile)">
@@ -281,13 +291,14 @@
 										class="image left" />
 									<div>
 										<header>
-											<h3 style="text-align:left">Alessia Corrado</h3>
+											<h3 style="text-align: left">Alessia Corrado</h3>
 											<span>PhD Student</span>
 										</header>
 										<p style="line-height: 1.2">
 											M.Sc. in Medical Biotechnology, University of Torino, Italy <br>
 											Phone: +39 0116709540<br> E-mail: <a
-												href="mailto:alessiacorrado2@gmail.com"><font color="#1e799f">alessiacorrado2@gmail.com</font></a>
+												href="mailto:alessiacorrado2@gmail.com"><font
+												color="#1e799f">alessiacorrado2@gmail.com</font></a>
 										</p>
 									</div>
 
@@ -308,19 +319,21 @@
 
 								</article>
 							</div>
-							  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
+							<div class="4u 6u(mobile)">
+
+								<br>
+								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+								<img
+									src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png"
+									class="w3-image" style="max-width: 250px;" />
+
+							</div>
 						</div>
 
 
 						<hr></hr>
-						
-						
+
+
 						<div class="row">
 							<div class="8u 12u(mobile)">
 
@@ -333,7 +346,7 @@
 										class="image left" />
 									<div>
 										<header>
-											<h3 style="text-align:left">Kranthi Thej Kandula</h3>
+											<h3 style="text-align: left">Kranthi Thej Kandula</h3>
 											<span>Research Fellow</span>
 										</header>
 										<p style="line-height: 1.2">
@@ -347,24 +360,27 @@
 										<div>My project focuses on ...</div>
 										<form>
 											<p align="justify">
-												<b> My project focuses on implementing new tools within the XNAT platform for making medical image datasets findabale and searchable.</b>
+												<b> My project focuses on implementing new tools within the
+													XNAT platform for making medical image datasets findabale
+													and searchable.</b>
 											</p>
 										</form>
 									</div>
 
 								</article>
 							</div>
-							  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-										<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/kranthi_wordcloud.png" class="w3-image" 
+							<div class="4u 6u(mobile)">
+
+								<br>
+								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+								<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/kranthi_wordcloud.png" class="w3-image" 
 									style="max-width: 250px;" /> -->
-									
-									</div>
+
+							</div>
 						</div>
 
 						<hr></hr>
-						
+
 						<div class="row">
 							<div class="8u 12u(mobile)">
 
@@ -377,12 +393,12 @@
 										class="image left" />
 									<div>
 										<header>
-											<h3 style="text-align:left">Elisa Pirotta</h3>
+											<h3 style="text-align: left">Elisa Pirotta</h3>
 											<span>Research Fellow</span>
 										</header>
 										<p style="line-height: 1.2">
-											M.Sc. in Molecular Biotechnology, University of Torino,
-											Italy <br> Phone: +39 0116706499<br> E-mail: <a
+											M.Sc. in Molecular Biotechnology, University of Torino, Italy
+											<br> Phone: +39 0116706499<br> E-mail: <a
 												href="mailto:kranthi.kandula@unito.it"><font color="#1e799f">elisa.pirotta@unito.it</font></a>
 										</p>
 									</div>
@@ -391,25 +407,28 @@
 										<div>My project focuses on ...</div>
 										<form>
 											<p align="justify">
-												<b> My project focuses on investigating the role of proton transporters in the extracellular tumor acidification by exploiting novel imaging-based approaches. </b>
+												<b> My project focuses on investigating the role of proton
+													transporters in the extracellular tumor acidification by
+													exploiting novel imaging-based approaches. </b>
 											</p>
 										</form>
 									</div>
 
 								</article>
 							</div>
-							  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-										<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/pirotta_wordcloud.png" class="w3-image"
+							<div class="4u 6u(mobile)">
+
+								<br>
+								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+								<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/pirotta_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />   -->
-									
-									</div>
+
+							</div>
 						</div>
 
 						<hr></hr>
-						
-						
+
+
 						<div class="row">
 							<div class="8u 12u(mobile)">
 
@@ -422,13 +441,14 @@
 										class="image left" />
 									<div>
 										<header>
-											<h3 style="text-align:left">Riccardo Gambino</h3>
+											<h3 style="text-align: left">Riccardo Gambino</h3>
 											<span>Research Fellow</span>
 										</header>
 										<p style="line-height: 1.2">
-											M.Sc. in Biomedical Engineering, Politechnic of Torino,
-											Italy <br> Phone: +39 0116706499<br> E-mail: <a
-												href="mailto:riccardo.gambino@unito.it"><font color="#1e799f">riccardo.gambino@unito.it</font></a>
+											M.Sc. in Biomedical Engineering, Politechnic of Torino, Italy
+											<br> Phone: +39 0116706499<br> E-mail: <a
+												href="mailto:riccardo.gambino@unito.it"><font
+												color="#1e799f">riccardo.gambino@unito.it</font></a>
 										</p>
 									</div>
 
@@ -436,25 +456,27 @@
 										<div>My project focuses on ...</div>
 										<form>
 											<p align="justify">
-												<b> My project focuses on the development of novel
-													tools for uploading and processing medical image datasets for the XNAT platform. </b>
+												<b> My project focuses on the development of novel tools for
+													uploading and processing medical image datasets for the
+													XNAT platform. </b>
 											</p>
 										</form>
 									</div>
 
 								</article>
 							</div>
-							  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-									<!--		<img src="<?php echo $localizer; ?>PI/Longo/images/gambino_wordcloud.png" class="w3-image"
+							<div class="4u 6u(mobile)">
+
+								<br>
+								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+								<!--		<img src="<?php echo $localizer; ?>PI/Longo/images/gambino_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" /> -->
-									
-									</div>
+
+							</div>
 						</div>
 
 						<hr></hr>
-						
+
 
 						<div class="row">
 							<div class="12u 12u(mobile)">
@@ -462,7 +484,7 @@
 									<div>
 										<h2 id='alumni' class="second icon fa-user">Lab Alumni</h2>
 
-										<ul >
+										<ul>
 											<li><b>Deborah Ambrosecchia</b>, MSc student in Molecular
 												Biotechnologies</li>
 											<li><b>Giulia Caranta</b>, MSc student in Molecular
@@ -482,7 +504,8 @@
 							<div class="12u 12u(mobile)">
 								<article class="box excerpt">
 									<div>
-										<h2 id='thesis' class="second icon fa-user">Master Thesis Opportunities</h2>
+										<h2 id='thesis' class="second icon fa-user">Master Thesis
+											Opportunities</h2>
 
 										<p>
 											We are offering master thesis for students registered with
@@ -491,7 +514,8 @@
 											months) consists of a small scientific project, under the
 											supervision of a PhD student or of a post-doc in the fields
 											of cancer biology - pharmaceutics - in vivo imaging - image
-											processing. <br><br>
+											processing. <br>
+											<br>
 										</p>
 
 									</div>
@@ -511,161 +535,169 @@
 										<ul class="divided">
 
 
-										<div class="row">
-							<div class="8u 12u(mobile)">
+											<div class="row">
+												<div class="8u 12u(mobile)">
 
 
-								<!-- Excerpt -->
-								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg"
-										alt=""
-										style="width: 180px; height: auto; margin-bottom: 60px;"
-										class="image left" />
-									<div>
-										<header>
-											<h3 style="text-align:left">Daisy Villano</h3>
-											<span>Now: Application Specialist at Olea Medical</span>
-										</header>
-										<p style="line-height: 1.2">
-											M.Sc. in Biomedical Engineering, University of Naples Federico II,
-											Italy <br> Phone: +39 0116706499<br> E-mail: <a
-												href="mailto:daisy.villano@unito.it"><font color="#1e799f">daisy.villano@unito.it</font></a>
-										</p>
-									</div>
+													<!-- Excerpt -->
+													<article class="box excerpt">
+														<img
+															src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg"
+															alt=""
+															style="width: 180px; height: auto; margin-bottom: 60px;"
+															class="image left" />
+														<div>
+															<header>
+																<h3 style="text-align: left">Daisy Villano</h3>
+																<span>Now: Application Specialist at Olea Medical</span>
+															</header>
+															<p style="line-height: 1.2">
+																M.Sc. in Biomedical Engineering, University of Naples
+																Federico II, Italy <br> Phone: +39 0116706499<br>
+																E-mail: <a href="mailto:daisy.villano@unito.it"><font
+																	color="#1e799f">daisy.villano@unito.it</font></a>
+															</p>
+														</div>
 
-									<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form>
-											<p align="justify">
-												<b> My project focuses on the development of novel
-													image-processing tools (mainly based on Matlab) for the
-													analysis of 3D CEST MRI images and their representation. My
-													research includes the development and the optimization of
-													MRI acquisition sequences. </b>
-											</p>
-										</form>
-									</div>
+														<div class="showtext">
+															<div>My project focuses on ...</div>
+															<form>
+																<p align="justify">
+																	<b> My project focuses on the development of novel
+																		image-processing tools (mainly based on Matlab) for
+																		the analysis of 3D CEST MRI images and their
+																		representation. My research includes the development
+																		and the optimization of MRI acquisition sequences. </b>
+																</p>
+															</form>
+														</div>
 
-								</article>
-							</div>
-							  <div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div>
-						</div>
+													</article>
+												</div>
+												<div class="4u 6u(mobile)">
 
-						<hr></hr>
-													
-										
-										<div class="row">
-								<div class="8u 12u(mobile)">
+													<br>
+													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+													<img
+														src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png"
+														class="w3-image" style="max-width: 250px;" />
 
-								<!-- Excerpt -->
-								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/anemone.jpg"
-										alt=""
-										style="width: 180px; height: auto; margin-bottom: 100px;"
-										class="image left" />
-									<div>
-										<header>
-											<h3 style="text-align:left">Annasofia Anemone</h3>
-											<span>Now: Clinical Trial Assistant at IQVIA</span>
-										</header>
-										<p style="line-height: 1.2">
-										    Ph.D. in Biomolecular Sciences, University of Torino<br>
-											M.Sc. in Biotechnology, University of Torino<br> Phone: +39
-											0116706476<br> E-mail: <a
-												href="mailto:annasofiaantonia.anemone@unito.it"><font color="#1e799f">annasofiaantonia.anemone@unito.it</font></a>
-										</p>
-									</div>
+												</div>
+											</div>
 
-									<div class="showtext">
-										<div>My project focuses on ...</div>
-										<form>
-											<p align="justify">
-												<b>My project focuses on exploiting MRI-CEST pH imaging as a
-													non-invasive in vivo molecular imaging techniques to
-													investigate tumor acidosis in murine tumor models. I am
-													also interested in using this novel technique for assessing
-													treatment response to inhibitors of cancer metabolism and
-													to drugs targeting proton pumps. </b>
-											</p>
-										</form>
-									</div>
+											<hr></hr>
 
-								</article>
-							</div>
-							<div class="4u 6u(mobile)">
 
-								<br>
-								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
-								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png"
-									class="w3-image" style="max-width: 250px;" />
+											<div class="row">
+												<div class="8u 12u(mobile)">
 
-							</div>
-						</div>
-										
-										<hr></hr>
-										
-										<div class="row">
-							<div class="8u 12u(mobile)">
+													<!-- Excerpt -->
+													<article class="box excerpt">
+														<img
+															src="<?php echo $localizer; ?>PI/Longo/images/anemone.jpg"
+															alt=""
+															style="width: 180px; height: auto; margin-bottom: 100px;"
+															class="image left" />
+														<div>
+															<header>
+																<h3 style="text-align: left">Annasofia Anemone</h3>
+																<span>Now: Clinical Trial Assistant at IQVIA</span>
+															</header>
+															<p style="line-height: 1.2">
+																Ph.D. in Biomolecular Sciences, University of Torino<br>
+																M.Sc. in Biotechnology, University of Torino<br> Phone:
+																+39 0116706476<br> E-mail: <a
+																	href="mailto:annasofiaantonia.anemone@unito.it"><font
+																	color="#1e799f">annasofiaantonia.anemone@unito.it</font></a>
+															</p>
+														</div>
 
-								<!-- Excerpt -->
-								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/zullino.jpg"
-										alt=""
-										style="width: 180px; height: auto; margin-bottom: 140px;"
-										class="image left" />
-									<div>
-										<header>
-											<h3 style="text-align:left">Sara Zullino</h3>
-											<span>Now: project Manager at EATRIS</span>
-										</header>
-										<p style="line-height: 1.2">
-											Ph.D. in Complex Systems for Life Sciences, University of Torino<br>
-											M.Sc. in Biomedical Engineering, Sapienza University of Rome,
-											Italy <br> Phone: +39 0116706485<br> E-mail: <a
-												href="mailto:sara.zullino@unito.it"><font color="#1e799f">sara.zullino@unito.it</font></a>
-										</p>
-									</div>
+														<div class="showtext">
+															<div>My project focuses on ...</div>
+															<form>
+																<p align="justify">
+																	<b>My project focuses on exploiting MRI-CEST pH imaging
+																		as a non-invasive in vivo molecular imaging techniques
+																		to investigate tumor acidosis in murine tumor models.
+																		I am also interested in using this novel technique for
+																		assessing treatment response to inhibitors of cancer
+																		metabolism and to drugs targeting proton pumps. </b>
+																</p>
+															</form>
+														</div>
 
-									<div class="showtext">
-										<div>My research aims at ...</div>
-										<form>
-											<p align="justify">
-												<b> My research aims at building novel Matlab and Python
-													based tools for processing preclinical MRI images, in
-													particular devoted to exploit MRI-CEST (Chemical Exchange
-													Saturation Transfer) methods for investigating tumor
-													acidosis. I am also involved in developing a customizable
-													workflow engine for archiving, sharing, and processing
-													medical images for preclinical imaging facilities through
-													the integration of an open source imaging informatics
-													platform with customized tools for automated image processing.
-												</b>
-											</p>
-										</form>
-									</div>
+													</article>
+												</div>
+												<div class="4u 6u(mobile)">
 
-								</article>
-							</div>
-							<div class="4u 6u(mobile)">
+													<br>
+													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
+													<img
+														src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png"
+														class="w3-image" style="max-width: 250px;" />
 
-								<br>
-								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png"
-									class="w3-image" style="max-width: 250px;" />
+												</div>
+											</div>
 
-							</div>
-						</div>
+											<hr></hr>
 
-						<hr></hr>
-										
+											<div class="row">
+												<div class="8u 12u(mobile)">
+
+													<!-- Excerpt -->
+													<article class="box excerpt">
+														<img
+															src="<?php echo $localizer; ?>PI/Longo/images/zullino.jpg"
+															alt=""
+															style="width: 180px; height: auto; margin-bottom: 140px;"
+															class="image left" />
+														<div>
+															<header>
+																<h3 style="text-align: left">Sara Zullino</h3>
+																<span>Now: project Manager at EATRIS</span>
+															</header>
+															<p style="line-height: 1.2">
+																Ph.D. in Complex Systems for Life Sciences, University
+																of Torino<br> M.Sc. in Biomedical Engineering, Sapienza
+																University of Rome, Italy <br> Phone: +39 0116706485<br>
+																E-mail: <a href="mailto:sara.zullino@unito.it"><font
+																	color="#1e799f">sara.zullino@unito.it</font></a>
+															</p>
+														</div>
+
+														<div class="showtext">
+															<div>My research aims at ...</div>
+															<form>
+																<p align="justify">
+																	<b> My research aims at building novel Matlab and
+																		Python based tools for processing preclinical MRI
+																		images, in particular devoted to exploit MRI-CEST
+																		(Chemical Exchange Saturation Transfer) methods for
+																		investigating tumor acidosis. I am also involved in
+																		developing a customizable workflow engine for
+																		archiving, sharing, and processing medical images for
+																		preclinical imaging facilities through the integration
+																		of an open source imaging informatics platform with
+																		customized tools for automated image processing. </b>
+																</p>
+															</form>
+														</div>
+
+													</article>
+												</div>
+												<div class="4u 6u(mobile)">
+
+													<br>
+													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+													<img
+														src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png"
+														class="w3-image" style="max-width: 250px;" />
+
+												</div>
+											</div>
+
+											<hr></hr>
+
 											<div class="row">
 												<div class="8u 12u(mobile)">
 
@@ -679,7 +711,8 @@
 														<div>
 															<header>
 																<h3>Martina Capozza</h3>
-																<span>Now: Postdoctoral Fellow at Molecular Imaging Center, University of Torino</span>
+																<span>Now: Postdoctoral Fellow at Molecular Imaging
+																	Center, University of Torino</span>
 															</header>
 															<p style="line-height: 1.2">
 																Ph.D. in Pharmaceutical and Biomolecular Science,
@@ -689,7 +722,7 @@
 															</p>
 														</div>
 
-													<!--
+														<!--
 														<div class="showtext">
 															<div>My research focuses on ...</div>
 															<form>
@@ -740,13 +773,14 @@
 														<div>
 															<header>
 																<h3>Pietro Irrera</h3>
-																<span>Now: Postdoctoral Fellow at Moffitt Cancer Center, Tampa, FL, USA</span>
+																<span>Now: Postdoctoral Fellow at Moffitt Cancer Center,
+																	Tampa, FL, USA</span>
 															</header>
 															<p style="line-height: 1.2">
-																Ph.D. in Biomolecular Sciences, University of Campania "Luigi Vanvitelli", Italy<br>
-																M.Sc. in Biotechnology, University of Torino, Italy<br>
-																Phone: +39 0116706485<br> E-mail: <a
-																	href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
+																Ph.D. in Biomolecular Sciences, University of Campania
+																"Luigi Vanvitelli", Italy<br> M.Sc. in Biotechnology,
+																University of Torino, Italy<br> Phone: +39 0116706485<br>
+																E-mail: <a href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
 															</p>
 														</div>
 
@@ -797,16 +831,18 @@
 														<div>
 															<header>
 																<h3>Chetan Dhakan</h3>
-																<span>Now: Postdoctoral Fellow at MD Anderson Cancer Center, Houston, Texas, USA</span>
+																<span>Now: Postdoctoral Fellow at MD Anderson Cancer
+																	Center, Houston, Texas, USA</span>
 															</header>
 															<p style="line-height: 1.2">
-															Ph.D. in Biomolecular Sciences, University of Campania "Luigi Vanvitelli", Italy<br> 
-																M.Sc. in Pharmacology & Toxicology, Gujarat University, India
-																<br> Phone: +39 0116706499<br> E-mail: <a
+																Ph.D. in Biomolecular Sciences, University of Campania
+																"Luigi Vanvitelli", Italy<br> M.Sc. in Pharmacology &
+																Toxicology, Gujarat University, India <br> Phone: +39
+																0116706499<br> E-mail: <a
 																	href="mailto:chetan.dhakan@ibb.cnr.it">mailto:chetan.dhakan@ibb.cnr.it</a>
 															</p>
 														</div>
-													<!--
+														<!--
 														<div class="showtext">
 															<div>The target of my project is ...</div>
 															<form>
@@ -826,13 +862,15 @@
 
 													</article>
 												</div>
-												 	<div class="4u 6u(mobile)">
-									
-												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/Longo/images/dhakan_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
-									
-									</div> 
+												<div class="4u 6u(mobile)">
+
+													<br>
+													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
+													<img
+														src="<?php echo $localizer; ?>PI/Longo/images/dhakan_wordcloud.png"
+														class="w3-image" style="max-width: 250px;" />
+
+												</div>
 											</div>
 
 											<hr></hr>
@@ -851,11 +889,13 @@
 														<div>
 															<header>
 																<h3>Lorena Consolino</h3>
-																<span>Now: Postdoctoral Fellow at Institute for Experimental Molecular Imaging, RWTH Aachen Universty, Aachen, Germany</span>
+																<span>Now: Postdoctoral Fellow at Institute for
+																	Experimental Molecular Imaging, RWTH Aachen Universty,
+																	Aachen, Germany</span>
 															</header>
 															<p style="line-height: 1.2">
-																Ph.D. in Molecular Bioscience, University of Torino<br> M.Sc. in
-																Biotechnology, University of Torino
+																Ph.D. in Molecular Bioscience, University of Torino<br>
+																M.Sc. in Biotechnology, University of Torino
 																<!-- <br> Phone: +39
 												0116706476<br> E-mail: <a
 													href="mailto:lorena.consolino@unito.it">lorena.consolino@unito.it</a>
@@ -901,8 +941,9 @@
 														<div>
 															<header>
 																<h3>Amerigo Pagoto</h3>
-																<span>Sadly passed away in August 2019 <br>
-																Postdoctoral Fellow</span>
+																<span>Sadly passed away in August 2019 <br> Postdoctoral
+																	Fellow
+																</span>
 															</header>
 															<p style="line-height: 1.2">
 																Ph.D. in Molecular Bioscience, University of Torino<br>
@@ -955,8 +996,8 @@
 																<span>Graduate Student</span>
 															</header>
 															<p style="line-height: 1.2">
-																M.Sc. in Computer Science and Engineering, Politecnico di
-																Milano, Italy
+																M.Sc. in Computer Science and Engineering, Politecnico
+																di Milano, Italy
 																<!-- <br> Phone: +39 0116706499<br>
 												E-mail: <a href="alessandro.paglialonga@mail.polimi.it">alessandro.paglialonga@mail.polimi.it</a> -->
 															</p>
@@ -993,7 +1034,8 @@
 											<div>
 												<header>
 													<h3>Bhavna Rani</h3>
-													<span>Now: Postdoctoral Fellow at Uppsala University, Sweden</span>
+													<span>Now: Postdoctoral Fellow at Uppsala University,
+														Sweden</span>
 												</header>
 												<p style="line-height: 1.2">
 													Ph.D. in Surgical Experimental Sciences and Cellular
@@ -1044,7 +1086,7 @@
 									<div>
 										<h2 id='palumni' class="second icon fa-user">Former Lab Alumni</h2>
 
-										
+
 									</div>
 								</article>
 
@@ -1090,7 +1132,8 @@
 										<td><b>James Cimino</b></td>
 										<td>2018</td>
 										<td>MSc in Molecular Biotechnologies</td>
-										<td>Regulatory & Product Marketing Specialist at TECNOSS S.R.L.</td>
+										<td>Regulatory & Product Marketing Specialist at TECNOSS
+											S.R.L.</td>
 									</tr>
 									<tr>
 										<td><b>Martina Bracesco</b></td>
@@ -1126,7 +1169,8 @@
 										<td><b>Filippo Michelotti</b></td>
 										<td>2013</td>
 										<td>MSc in Molecular Biotechnologies</td>
-										<td>Research Scientist at Deutsches Diabets Zentrum, Dusseldorf</td>
+										<td>Research Scientist at Deutsches Diabets Zentrum,
+											Dusseldorf</td>
 									</tr>
 									<tr>
 										<td><b>Chiara Pro</b></td>
@@ -1139,8 +1183,8 @@
 										<td>MSc in Molecular Biotechnologies</td>
 										<td>Research Fellow at University of Verona</td>
 									</tr>
-									
-									
+
+
 								</table>
 
 
@@ -1161,13 +1205,16 @@
 	<!-- Scripts -->
 
 	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script
+		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script
+		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
-	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<script type="text/javascript"
+		src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>
 </script>
 

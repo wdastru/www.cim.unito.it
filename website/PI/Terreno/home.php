@@ -81,9 +81,7 @@ $localizer = "../../";
 								</div>
 							</div>
 						</div>
-						<header class="major"> </header>
-
-
+						<hr><hr>
 						<div class="row">
 							<div class="3u 6u(mobile)">
 								<section>
@@ -131,20 +129,17 @@ $localizer = "../../";
 					<div class="container">
 						<div class="row">
 							<div class="7u 12u(mobile)">
-
 								<!-- Article list -->
 								<section class="box article-list">
 									<h2 class="icon fa-file-text-o">Upcoming Events</h2>
-
 									<ul class="divided">
-
 										<li>
 											<div class="date-icon">
 												<span class="month">March</span>
 												<h3 class="day">24-27</h3>
 											</div> <a href="http://www.e-smi.eu/index.php?id=emim-2020"
 											style="vertical-align: middle; padding-left: 10px"
-											target="_blank"><strong>15th European Molecular Imaging
+											target="_blank"><strong>15<sup>th</sup> European Molecular Imaging
 													Meeting 2020</strong></a>
 										</li>
 										<li>
@@ -181,8 +176,6 @@ $localizer = "../../";
 												style="color: blue; font-style: italic; font-weight: bold;">Nanotechnology,
 													Biology and Medicine</span>
 										</a></li>
-
-
 										<li><img src="images/book_chapter_cest.jpg"
 											style="float:left; margin-right: 10px; height: 80px;"
 											alt="Chemical Exchange Saturation Transfer Imaging: Advances and Applications">

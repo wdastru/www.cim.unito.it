@@ -26,10 +26,9 @@
 					<div class='paddingInner'>
 						<div class="row" id="#PrimoGAIA">
 							<div class="w3-col w3-quarter">
-
 								<a href="https://www.primogaia.eu/"><img alt="PrimoGAIA logo"
 									src="news/primoGAIA-logo.png" class="w3-image"
-									style="max-width: 200px;"></a>
+									style="max-width: 200px; margin: 20px auto;"></a>
 							</div>
 							<div class="w3-col w3-threequarter">
 								<h2 style="color: #8c1515; text-align: left;">Partecipation to
@@ -60,7 +59,7 @@
 							<div class="w3-col w3-quarter">
 								<a href="https://cordis.europa.eu/project/id/667510"><img
 									alt="GLINT logo" src="news/glint.svg" class="w3-image"
-									style="max-width: 200px;"></a>
+									style="max-width: 200px; margin: 20px auto;"></a>
 							</div>
 							<div class="w3-col w3-threequarter">
 								<h2 style="color: #8c1515; text-align: left;">Partecipation to
@@ -80,8 +79,7 @@
 									imaging which can characterise and image glucose delivery,
 									uptake and metabolism in cancer. Once the GLINT project is
 									successful, patients will be able to benefit from a
-									non-invasive, radiation-free method for cancer assessment.
-							
+									non-invasive, radiation-free method for cancer assessment.</p>
 							</div>
 						</div>
 						<hr>
@@ -89,7 +87,7 @@
 							<div class="w3-col w3-quarter">
 								<a href="https://cordis.europa.eu/project/id/668119"><img
 									alt="IDentIFY logo" src="news/Identify_logo.jpg"
-									class="w3-image" style="max-width: 200px;"></a>
+									class="w3-image" style="max-width: 200px; margin: 20px auto;"></a>
 							</div>
 							<div class="w3-col w3-threequarter">
 								<h2 style="color: #8c1515; text-align: left;">Partecipation to
@@ -115,7 +113,7 @@
 
 								<a href="https://www.mmmi.unito.it/"><img alt="MMMI logo"
 									src="images/MMMI_new_logo3b.png" class="w3-image"
-									style="max-width: 200px;"></a>
+									style="max-width: 200px; margin: 20px auto;"></a>
 							</div>
 							<div class="w3-col w3-threequarter">
 								<h2 style="color: #8c1515; text-align: left;">Partecipation to
@@ -137,12 +135,12 @@
 								</p>
 							</div>
 						</div>
+						<hr>
 						<div class="w3-col w3-quarter">
-
 							<a href="https://www.eurobioimaging.eu/"><img
 								alt="Euro-Bioimaging logo"
 								src="images/Euro-Bioimaging-horizontal-RGB-slogan.png"
-								class="w3-image" style="max-width: 200px;"></a>
+								class="w3-image" style="max-width: 200px; margin: 20px auto;"></a>
 						</div>
 						<div class="w3-col w3-threequarter">
 							<h2 style="color: #8c1515; text-align: left;">European Commission
@@ -186,7 +184,7 @@
 							<div class="w3-col w3-quarter">
 								<a href="https://www.cost.eu/"><img alt="COST logo"
 									src="news/logo_cost.png" class="w3-image"
-									style="max-width: 200px;"></a>
+									style="max-width: 200px; margin: 20px auto;"></a>
 							</div>
 							<div class="w3-col w3-threequarter">
 								<h2 style="color: #8c1515; text-align: left;">Partecipation to
@@ -202,7 +200,7 @@
 										class='paperTitle'>&quot;Magnetic Resonance Imaging Biomarkers
 											for Chronic Kidney Disease&quot;</span>
 									</a>
-							
+								</p>
 							</div>
 						</div>
 						<hr>

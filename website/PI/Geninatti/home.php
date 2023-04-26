@@ -97,6 +97,7 @@ $localizer = "../../";
 								</div>
 							</div>
 						</div>
+						<hr><hr>
 						<div class="row">
 							<div class="3u 6u(mobile)">
 								<section>

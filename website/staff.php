@@ -1,1116 +1,726 @@
-<?php
-$localizer = "./";
-?>
+<?php $localizer = './'; ?>
 <!DOCTYPE html>
-<html lang="en">
-<!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang='en'>
+<!-- InstanceBegin template='/Templates/home.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
-		<?php require $localizer . 'includes/head_const.inc.php'?>
+	<?php require $localizer . 'includes/head_const_new.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Staff</title>
 <link
-	rel="stylesheet"
-	href="square.css" >
+	rel='stylesheet'
+	href='square.css'>
 </head>
 <body>
-
-		<div id='section8'>
-			<?php
-require ('includes/main-nav.php');
-?>
+	<div id='section8'>
+		<!-- InstanceBeginEditable name='subsection opening' -->
+		<div id='subsection0'>
+			<?php require('includes/main-nav.php'); ?>
+			<?php require('includes/main-nav-mobile.php'); ?>
 			<div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
-		<div id="subsection0">
 			<!-- InstanceEndEditable -->
-                <div id='content'>
+			<div id='content-nosidebar'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
+						<h1 class='subsectionTitle' id='staff_institution_1'>
+							<!-- InstanceBeginEditable name='subsection title' -->
 							University of Torino
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
-
-
 						<h1>
-							<span style="text-align: center">Research Group Leaders</span>
+							<span id='staff_title_1'>Research Group Leaders</span>
 						</h1>
-
-						<div class="row">
-							<div class="w3-container">
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/aime.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Homepage"
-														href="aboutus.php#leadership"
-														target="_blank"> <b>Silvio Aime</b> <span
-														style="font-size: 16px;">Director</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/aime.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='aboutus.php#leadership'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Silvio Aime</b> Director</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/terreno.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Homepage"
-														href="PI/Terreno/home.php"
-														target="_blank"> <b>Enzo Terreno</b> <span
-														style="font-size: 16px;">Associate Professor</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/terreno.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='PI/Terreno/home.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Enzo Terreno</b>
+											Associate Professor</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/geninatti_crich.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Homepage"
-														href="PI/Geninatti/home.php"
-														target="_blank"> <b>Simonetta Geninatti</b> <span
-														style="font-size: 16px;">Associate Professor</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/geninatti_crich.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='PI/Geninatti/home.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Simonetta Geninatti</b>
+											Associate Professor</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/gianolio.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Homepage"
-														href="PI/Gianolio/home.php"
-														target="_blank"> <b>Eliana Gianolio</b> <span
-														style="font-size: 16px;">Researcher</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/gianolio.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='PI/Gianolio/home.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Eliana Gianolio</b>
+											Associate Professor</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/dastru.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<!-- <a title="Homepage" href="PI/Dastru/home.html" target="_blank"> -->
-													<b>Walter Dastr&ugrave;</b> <span style="font-size: 16px;">Assistant
-														Professor</span>
-													<!-- </a> -->
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dastru.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Walter Dastr&ugrave;</b>
+											Researcher</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/reineri.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Homepage"
-														href="PI/Reineri/home.php"
-														target="_blank"> <b>Francesca Reineri</b> <span
-														style="font-size: 16px;">Assistant Professor</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/reineri.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='PI/Reineri/home.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Francesca Reineri</b>
+											Associate Professor</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/dellicastelli.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 16px;">
-													<!-- <a title="Homepage" href="PI/DelliCastelli/home.html" target="_blank"> -->
-													<b>Daniela Delli Castelli</b> <span
-														style="font-size: 16px;">Assistant Professor</span>
-													<!-- </a> -->
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dellicastelli.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Daniela Delli Castelli</b>
+											Assistant Professor</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/viale.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<!-- <a title="Homepage" href="PI/Viale/home.html" target="_blank"> -->
-													<b>Alessandra Viale</b> <span style="font-size: 16px;">Researcher</span>
-													<!-- </a> -->
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/viale.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Alessandra Viale</b>
+											Researcher</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/cutrin.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 16px;">
-													<a
-														title="Homepage"
-														href="PI/Cutrin/home.php"
-														target="_blank"> <b>Juan Carlos Cutrin</b> <span
-														style="font-size: 16px;">Assistant Professor</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/cutrin.jpg);'>
+								<div>
+									<a
+										title='Homepage'
+										href='PI/Cutrin/home.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Juan Carlos Cutrin</b>
+											Assistant Professor</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/ferrauto.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Profile"
-														href="staff/staff_ferrauto.php"> <b>Giuseppe Ferrauto</b>
-														<span style="font-size: 16px;">Research Fellow</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/ferrauto.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_ferrauto.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Giuseppe Ferrauto</b>
+											Research Fellow</span>
+									</a>
 								</div>
-							</div>
-						</div>
-
+							</li>
+						</ul>
 						<h1>
-							<span style="text-align: left">Senior Research Scientists</span>
+							<span id='staff_title_2'>Senior Research Scientists</span>
 						</h1>
-
-						<div class="row">
-							<div class="w3-container">
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/baroni.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Profile"
-														href="staff/staff_baroni.php"> <b>Simona Baroni</b> <span
-														style="font-size: 16px;">Research Fellow</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/baroni.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_baroni.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Simona Baroni</b>
+											Research Fellow</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/stefania.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Profile"
-														href="staff/staff_stefania.php"> <b>Rachele Stefania</b> <span
-														style="font-size: 16px;">Research Fellow</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/stefania.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_stefania.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Rachele Stefania</b>
+											Research Fellow</span>
+									</a>
 								</div>
-								<div
-									class="square bg"
-									style="background-image: url(images/staff/alberti.jpg);">
-									<div class="content">
-										<div class="table">
-											<div class="table-cell">
-												<h2 style="font-size: 20px;">
-													<a
-														title="Profile"
-														href="staff/staff_alberti.php"> <b>Diego Alberti</b> <span
-														style="font-size: 16px;">Research Fellow</span>
-													</a>
-												</h2>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/alberti.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_alberti.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Diego Alberti</b>
+											Research Fellow</span>
+									</a>
 								</div>
-						</div>
-						
+							</li>
+						</ul>
 						<h1>
-							<span style="text-align: left">Post Doctoral Research Fellows</span>
+							<span id='staff_title_3'>Post Doctoral Research Fellows</span>
 						</h1>
-
-							<div class="row">
-								<div class="w3-container">
-									<div class="square bg"
-										style="background-image: url(<?php echo $localizer; ?>images/staff/anemone.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_anemone.php"> <b>Annasofia Anemone</b>
-															<span style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/ruggiero.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_ruggiero.php"> <b>Maria Rosaria
-																Ruggiero</b> <span style="font-size: 16px;">Research
-																Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/garello.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_garello.php"> <b>Francesca Garello</b>
-															<span style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/digregorio.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_digregorio.php"> <b>Enza Di Gregorio</b>
-															<span style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/cavallari.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_cavallari.php"> <b>Eleonora Cavallari</b>
-															<span style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/capozza.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_capozza.php"> <b>Martina Capozza</b> <span
-															style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/zullino.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_zullino.php"> <b>Sara Zullino</b> <span
-															style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/romdhane.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_romdhane.php"> <b>Feriel Romdhane</b> <span
-															style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/tear.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_tear.php"> <b>Louise Tear</b> <span
-															style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/anemone.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_anemone.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Annasofia Anemone</b>
+											Research Fellow</span>
+									</a>
 								</div>
-							</div>
-
-							<h1>
-							<span style="text-align: left">PhD and Graduate Students</span>
-						</h1>
-
-						<div class="row">
-								<div class="w3-container">
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/hawala.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_hawala.php"> <b>Ivan Hawala</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/bitonto.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_bitonto.php"> <b>Valeria Bitonto</b>
-															<span style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/tripepi.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_tripepi.php"> <b>Martina Tripepi</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/patrucco.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_patrucco.php"> <b>Deyssy Patrucco</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/irrera.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_irrera.php"> <b>Pietro Irrera</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/fatehbasharzad.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 15px;">
-														<a
-															title="Profile"
-															href="staff/staff_fatehbasharzad.php"> <b>Parisa
-																Fatehbasharzad</b> <span style="font-size: 15px;">PhD
-																student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/sforzi.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_sforzi.php"> <b>Jacopo Sforzi</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/furlan.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_furlan.php"> <b>Chiara Furlan</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/palagi.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_palagi.php"> <b>Lorenzo Palagi</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/dhakan.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_dhakan.php"> <b>Chetan Dhakan</b> <span
-															style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/bondar.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_bondar.php"> <b>Oksana Bondar</b>
-															<span style="font-size: 16px;">PhD student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/villano.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_villano.php"> <b>Daisy Villano</b> <span
-															style="font-size: 16px;">Graduate student</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/ruggiero.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_ruggiero.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Maria Rosaria Ruggiero</b>
+											Research Fellow</span>
+									</a>
 								</div>
-							</div>
-					</div>
-
-					<div class='band'>
-						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
-							Institute of Biostructures and Bioimaging (CNR)
-							<!-- InstanceEndEditable -->
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/garello.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_garello.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Francesca Garello</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/digregorio.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_digregorio.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Enza Di Gregorio</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li
+								class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/cavallari.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_cavallari.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Eleonora Cavallari</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/capozza.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_capozza.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Martina Capozza</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/zullino.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_zullino.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Sara Zullino</b> Research
+											Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/romdhane.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_romdhane.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Feriel Romdhane</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tear.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_tear.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Louise Tear</b> Research
+											Fellow</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<h1>
+							<span id='staff_title_4'>PhD and Graduate Students</span>
 						</h1>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/hawala.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_hawala.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Ivan Hawala</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bitonto.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_bitonto.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Valeria Bitonto</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tripepi.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_tripepi.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Martina Tripepi</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/patrucco.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_patrucco.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Deyssy Patrucco</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/irrera.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_irrera.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Pietro Irrera</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/fatehbasharzad.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_fatehbasharzad.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Parisa Fatehbasharzad</b>
+											PhD student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/sforzi.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_sforzi.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Jacopo Sforzi</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/furlan.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_furlan.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Chiara Furlan</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/palagi.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_palagi.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Lorenzo Palagi</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dhakan.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_dhakan.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Chetan Dhakan</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bondar.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_bondar.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Oksana Bondar</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/villano.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_villano.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Daisy Villano</b>
+											Graduate student</span>
+									</a>
+								</div>
+							</li>
+						</ul>
 					</div>
 					<div class='paddingInner'>
-
-						<h1>
-							<span style="text-align: center">Research Group Leaders</span>
-						</h1>
-
-
-							<div class="row">
-								<div class="w3-container">
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/Dario_Longo.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Homepage"
-															href="PI/Longo/home.php"
-															target="_blank"> <b>Dario Longo</b> <span
-															style="font-size: 16px;">Researcher</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/menchise.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_menchise.php"> <b>Valeria Menchise</b>
-															<span style="font-size: 16px;">Researcher</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/dandrea.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="PI/DAndrea/home.php"
-															target="_blank"> <b>Luca Domenico D'Andrea</b> <span
-															style="font-size: 16px;">Researcher</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<h1>
-									<span style="text-align: left">Senior Research Scientists</span>
-								</h1>
-
-								<div class="row">
-									<div class="w3-container">
-										<div
-											class="square bg"
-											style="background-image: url(images/staff/padovan.jpg);">
-											<div class="content">
-												<div class="table">
-													<div class="table-cell">
-														<h2 style="font-size: 20px;">
-															<a
-																title="Profile"
-																href="staff/staff_padovan.php"> <b>Sergio Padovan</b> <span
-																style="font-size: 16px;">Technical Assistant</span>
-															</a>
-														</h2>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div
-											class="square bg"
-											style="background-image: url(images/staff/carrera.jpg);">
-											<div class="content">
-												<div class="table">
-													<div class="table-cell">
-														<h2 style="font-size: 20px;">
-															<a
-																title="Profile"
-																href="staff/staff_carrera.php"> <b>Carla Carrera</b> <span
-																style="font-size: 16px;">Research Fellow</span>
-															</a>
-														</h2>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<h1>
-									<span style="text-align: left">Post Doctoral, PhD and Graduate
-										Students</span>
-								</h1>
-
-								<div class="row">
-									<div class="w3-container">
-										<div
-											class="square bg"
-											style="background-image: url(images/staff/carella.jpg);">
-											<div class="content">
-												<div class="table">
-													<div class="table-cell">
-														<h2 style="font-size: 20px;">
-															<a
-																title="Profile"
-																href="staff/staff_carella.php"> <b>Antonella Carella</b>
-																<span style="font-size: 16px;">Research Fellow</span>
-															</a>
-														</h2>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div
-											class="square bg"
-											style="background-image: url(images/staff/corrado.jpg);">
-											<div class="content">
-												<div class="table">
-													<div class="table-cell">
-														<h2 style="font-size: 20px;">
-															<a
-																title="Profile"
-																href="staff/staff_corrado.php"> <b>Alessia Corrado</b> <span
-																style="font-size: 16px;">Graduate student</span>
-															</a>
-														</h2>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-					<div class='band'>
-						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
-							University of Eastern Piedmont Amedeo Avogadro
-							<!-- InstanceEndEditable -->
-						</h1>
-					</div>
-						<div class='paddingInner'>
-
-
-
-
-							<div class="row">
-								<div class="w3-container">
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/botta.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_botta.php"> <b>Mauro Botta</b> <span
-															style="font-size: 16px;">Full Professor</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/tei.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_tei.php"> <b>Lorenzo Tei</b> <span
-															style="font-size: 16px;">Associate Professor</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/digilio.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_digilio.php"> <b>Giuseppe Digilio</b> <span
-															style="font-size: 16px;">Assistant Professor</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
 						<div class='band'>
-						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
-							Past Members
-							<!-- InstanceEndEditable -->
-						</h1>
-					</div>
-						<div class='paddingInner'>
-							<div class="row">
-								<div class="w3-container">
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/arena.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<a
-															title="Profile"
-															href="staff/staff_arena.php"> <b>Francesca Arena</b> <span
-															style="font-size: 16px;">Research Fellow</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/capuana.jpg);">
-										<div class="content">
-											<div class="table">
-												<!-- <a title="Profile" href="staff/staff_capuana.php"> -->
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Federico Capuana</b>
-													</h2>
-													<p style="font-size: 16px;">PhD student</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/atlante.jpg);">
-										<div class="content">
-											<div class="table">
-												<!-- <a title="Profile" href="staff/staff_atlante.php"> -->
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Sandra Atlante</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/consolino.jpg);">
-										<div class="content">
-											<div class="table">
-												<!-- <a title="Profile" href="staff/staff_consolino.php"> -->
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Lorena Consolino</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/pagoto.jpg);">
-										<div class="content">
-											<div class="table">
-												<!-- <a title="Profile" href="staff/staff_pagoto.php"> -->
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Amerigo Pagoto</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/paglialonga.jpg);">
-										<div class="content">
-											<div class="table">
-												<!-- <a title="Profile" href="staff/staff_paglialonga.php"> -->
-												<div class="table-cell">
-													<h2 style="font-size: 18px;">
-														<b>Alessandro Paglialonga</b>
-													</h2>
-													<p style="font-size: 16px;">Graduate student</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/spatola.jpg);">
-										<div class="content">
-											<div class="table">
-												<!-- <a title="Profile" href="staff/staff_spatola.php"> -->
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Giulia Spatola</b>
-													</h2>
-													<p style="font-size: 16px;">PhD student</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/bhavnarani.jpg);">
-										<div class="content">
-											<div class="table">
-												<!-- <a title="Profile" href="staff/staff_bhavnarani.php"> -->
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Bhavna Rani</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/bardini.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Paola Bardini</b>
-													</h2>
-													<p style="font-size: 16px;">Research Fellow</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/barale.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Andrea Barale</b>
-													</h2>
-													<p style="font-size: 16px;">Graduate Student</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/marini.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 16px;">
-														<b>Giada Maria Marini</b>
-													</h2>
-													<p style="font-size: 16px;">Graduate Student</p>
-												</div>
-												<!-- 											</a> -->
-											</div>
-										</div>
-									</div>
-									<div
-										class="square bg"
-										style="background-image: url(images/staff/galati.jpg);">
-										<div class="content">
-											<div class="table">
-												<div class="table-cell">
-													<h2 style="font-size: 20px;">
-														<b>Antonello Galati</b>
-													</h2>
-													<p style="font-size: 16px;">Graduate Student</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							<h1 class='subsectionTitle' id='staff_institution_2'>Institute of Biostructures and
+								Bioimaging (CNR)</h1>
 						</div>
-
-
-
-
+						<h1>
+							<span id='staff_title_5'>Research Group Leaders</span>
+						</h1>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/Dario_Longo.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='PI/Longo/home.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Dario Longo</b>
+											Researcher</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/menchise.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_menchise.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Valeria Menchise</b>
+											Researcher</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dandrea.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='PI/DAndrea/home.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Luca Domenico D'Andrea</b>
+											Researcher</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<h1>
+							<span id='staff_title_6'>Senior Research Scientists</span>
+						</h1>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/padovan.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_padovan.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Sergio Padovan</b>
+											Technical Assistant</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/carrera.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_carrera.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Carla Carrera</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<h1>
+							<span id='staff_title_7'>Post Doctoral, PhD and Graduate
+								Students</span>
+						</h1>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/carella.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_carella.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Antonella Carella</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/corrado.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_corrado.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Alessia Corrado</b>
+											Graduate student</span>
+									</a>
+								</div>
+							</li>
+						</ul>
 					</div>
+					<div class='paddingInner'>
+						<div class='band'>
+							<h1 class='subsectionTitle' id='staff_institution_3'>University of Eastern Piedmont Amedeo
+								Avogadro</h1>
+						</div>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/botta.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_botta.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Mauro Botta</b> Full
+											Professor</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tei.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_tei.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Lorenzo Tei</b> Associate
+											Professor</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/digilio.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_digilio.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Giuseppe Digilio</b>
+											Assistant Professor</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class='paddingInner'>
+						<div class='band'>
+							<h1 class='subsectionTitle' id='staff_institution_4'>Former Members</h1>
+						</div>
+						<ul class='staff'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/arena.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='staff/staff_arena.php'
+										target='_blank'>
+										<span style='font-size: 1.00rem;'><b>Francesca Arena</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/capuana.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Federico Capuana</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/atlante.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Sandra Atlante</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/consolino.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Lorena Consolino</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/pagoto.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Amerigo Pagoto</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/paglialonga.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Alessandro Paglialonga</b>
+											Graduate student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/spatola.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Giulia Spatola</b> PhD
+											student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bhavnarani.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Bhavna Rani</b> Research
+											Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bardini.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Paola Bardini</b>
+											Research Fellow</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/barale.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Andrea Barale</b>
+											Graduate Student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/marini.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Giada Maria Marini</b>
+											Graduate Student</span>
+									</a>
+								</div>
+							</li>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/galati.jpg);'>
+								<div>
+									<a
+										title='Profile'
+										href='#'
+										target='_self'>
+										<span style='font-size: 1.00rem;'><b>Antonello Galati</b>
+											Graduate Student</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<!-- subsection closing -->
+			<div id='after'></div>
+			<div id='footer'>
+				<p>
+					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
+					Fax. Tel. Mail
+				</p>
+        		<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
+        	</div>
+			<!-- section closing -->
 		</div>
-		<!-- subsection closing -->
-		<div id='after'></div>
-		<div id='footer'>
-			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
-				Fax. Tel. Mail
-			</p>
-			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-		</div>
-		
 		<!-- section closing -->
-	</div>
-	<!-- section closing -->
 	</div>
 	<script>
 			//<![CDATA[
 			changeSideNavStyles();
 			//]]>
 		</script>
-	<!-- <script type="text/javascript">
+	<!-- <script type='text/javascript'>
 			//<![CDATA[
 			fillStaffContainer();
 			//]]>

@@ -44,7 +44,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                                 <li>                                	
                                     <h2 style="text-align:left"><a class='linkExternal' href="http://www.escdd.eu/">13<sup>th</sup> edition of the European Symposium on Controlled Drug Delivery.</a></h2>
                                     <p>
-                                        <span class="underline">Meeting of Working Group 4 (Gerben Konings).</span>
+                                        <span style="text-decoration: underline;">Meeting of Working Group 4 (Gerben Konings).</span>
                                         <br>
                                         Location : Hotel Zuiderduin, Egmond aan Zee, The Netherlands.
                                         <br>

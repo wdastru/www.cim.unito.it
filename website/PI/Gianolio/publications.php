@@ -58,19 +58,13 @@ $localizer = "../../";
 													href="https://scholar.google.com/citations?hl=en&user=WEQvUlMAAAAJ&view_op=list_works&sortby=pubdate"
 													target="_blank">Google Scholar</a>
 											</p>
-											<!--
-								 	<iframe src="https://bibbase.org/service/mendeley/f010cb14-e88b-31f5-a81c-58186d98a4ee" width="900" height="900"></iframe>  
-								 	-->
-											<!-- <iframe
-													src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero%2Fwdastru"></iframe> -->
 										</div>
 									</article>
 									<header class="major"> </header>
 								</div>
 							</div>
 							<div class="2u 12u(mobile)">
-								<div id="sidebar">
-								</div>
+								<div id="sidebar"></div>
 							</div>
 						</div>
 					</div>

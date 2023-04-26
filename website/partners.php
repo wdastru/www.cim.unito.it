@@ -11,13 +11,13 @@ $localizer = "./";
 <body>
 	<div id='section4'>
 		<div id='subsection0'>
-			<?php require('includes/main-nav.php'); ?>
-			<?php require('includes/main-nav-mobile.php'); ?>
-		<div id='header'></div>
+			<?php require($localizer . 'includes/main-nav.php'); ?>
+			<?php require($localizer . 'includes/main-nav-mobile.php'); ?>
+			<div id='header'></div>
 			<!-- InstanceBeginEditable name="subsection opening" -->
 			<!-- InstanceEndEditable -->
-			<?php require('includes/partners-side-nav.php'); ?>
-			<?php require('includes/partners-side-nav-mobile.php'); ?>
+			<?php require($localizer . 'includes/partners-side-nav.php'); ?>
+			<?php require($localizer . 'includes/partners-side-nav-mobile.php'); ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -30,7 +30,6 @@ $localizer = "./";
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<!-- InstanceEndEditable -->
-
 						<p>The Molecular Imaging Center has long-standing partnership with
 							several national and international institutions, as well as with
 							companies working in the field of molecular imaging probes,
