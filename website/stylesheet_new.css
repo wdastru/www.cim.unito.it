@@ -303,36 +303,12 @@ h3 {
 	padding: 0;
 }
 
-#content .paddingOuter, #content-nosidebar .paddingOuter {
+[id^="content"] .paddingOuter {
 	padding: 1.50rem;
 }
 
-#content .paddingInner {
-	padding: 0 1.50rem;
-}
-
-#content-large .paddingOuter {
-	padding: 1.50rem;
-}
-
-#content-large .paddingInner {
-	padding: 0 1.50rem;
-}
-
-#content-larger .paddingOuter {
-	padding: 1.50rem;
-}
-
-#content-larger .paddingInner {
-	padding: 0 1.50rem;
-}
-
-#content-largerAutoDip .paddingOuter {
-	padding: 1.50rem;
-}
-
-#content-largerAutoDip .paddingInner {
-	padding: 0 1.50rem;
+[id^="content"] .paddingInner {
+	padding: 1.00rem 1.50rem 0 1.50rem;
 }
 
 #content h2, p {
@@ -434,7 +410,7 @@ h3 {
 	height: 3rem;
 	width: 100%;
 	background-color: #db6d16;
-	margin-bottom: 1.25rem;
+	margin-bottom: 0.25rem;
 }
 
 .subsectionTitle {
@@ -463,6 +439,73 @@ h3 {
 	background-color: #000d;
 	padding: 16px;
 }
+
+/* STAFF.PHP styles */
+ul.staff {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	width: 720px;
+	margin: auto;
+	justify-content: center;
+}
+
+li.staff {
+	max-height: 135px;
+	max-width: 135px;
+	display: flex;
+	flex-grow: 1;
+	margin: 0.25rem;
+	align-content: center;
+	justify-content: center;
+	border-radius: 5%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+li.staff > div {
+	background-color: rgba(0, 0, 0, 0);
+	padding: 1.0rem;
+	border-radius: 5%;
+}
+
+li.staff:hover > div {
+	background-color: rgba(0, 0, 0, 0.5);}
+
+li.staff a {
+	color: #fff;
+	font-size: 1.0rem;
+}
+
+li.staff a > span {
+	visibility: hidden;
+}
+
+li.staff:hover a > span {
+	visibility: visible;
+}
+/* End of STAFF.PHP styles */
+
+/* Styles for research section */
+ul.research {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	justify-content: center;
+}
+ul.research > li.research {
+	width:200px;
+}
+div.research > div.img_link {
+	display: flex;
+}
+div.research > div.PIName {
+	display: flex;
+}
+
+/* End of styles for research section */
+
 /* End of CONTENT */
 
 /* FOOTER */
@@ -867,6 +910,37 @@ span#infl_infect_title::before {
 }
 span#FFC-relax_title::before {
 	content: "Fast Field Cycling Relaxometry in vitro and in vivo";
+}
+
+div.paddingInner > h1 > span#staff_title_1,
+div.paddingInner > h1 > span#staff_title_2,
+div.paddingInner > h1 > span#staff_title_3,
+div.paddingInner > h1 > span#staff_title_4,
+div.paddingInner > h1 > span#staff_title_5,
+div.paddingInner > h1 > span#staff_title_6,
+div.paddingInner > h1 > span#staff_title_7 {
+	text-align: center
+}
+
+strong#imaging_enzyme_activity_title::before {
+	content: "Imaging enzyme activity";
+}
+.paddingInner.home {
+	height:	300px;
+	padding-left: 40px;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+.paddingInner.home .animSlides2 {
+	display:flex;
+	flex: 100%;
+}
+.paddingInner.home .animSlides2 .w3-cell {
+	display:flex;
+	flex: 30%;
 }
 
 /* stylesheet aggiunti da Dario Longo da w3.css*/
@@ -2305,11 +2379,17 @@ h11, h14, h15, h16 {
 	[id^="section"] {
 		background-size: 23%;
 	}
-	#section0, #section7, #section8, #sectionAutoDip {
+	#section7, #sectionAutoDip {
 		width: 75.00rem;
 	}
-	#section1, #section2, #section3, #section4, #section5, #section6 {
+	#section0, #section1, #section2, #section3, #section4, #section5, #section6, #section8 {
 		width: 37.50rem;
+	}
+	[id^="content"] .paddingInner {
+		padding: 0;
+	}
+	ul.research>li.research {
+		width: 180px;
 	}
 	#publicationsContainer {
 		padding-top: 1.90rem;
@@ -2320,10 +2400,10 @@ h11, h14, h15, h16 {
 		line-height: 1.5rem;
 		padding: 0;
 	}
-	#section2 [id^="subsection"] #content, #section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
+	#section0 [id^="subsection"] #content, #section1 [id^="subsection"] #content, #section2 [id^="subsection"] #content, #section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
 		width: 80%;
 	}
-	#section2 [id^="subsection"] #sidebar, #section3 [id^="subsection"] #sidebar, #section4 [id^="subsection"] #sidebar {
+	#section0 [id^="subsection"] #sidebar, #section1 [id^="subsection"] #sidebar, #section2 [id^="subsection"] #sidebar, #section3 [id^="subsection"] #sidebar, #section4 [id^="subsection"] #sidebar {
 		width: 20%;
 	}
 	#content-nosidebar {
@@ -2345,10 +2425,57 @@ h11, h14, h15, h16 {
 		height: 1.57rem;
 		line-height: 1.57rem;
 	}
-	#section1 #header, #section2 #header, #section3 #header, #section4 #header, #section5 #header, #section6 #header {
+	#section0 #header, 
+	#section1 #header, 
+	#section2 #header, 
+	#section3 #header, 
+	#section4 #header, 
+	#section5 #header, 
+	#section6 #header,
+	#section8 #header {
 		height: 100px;
 	}
+	
+	/* STAFF:PHP styles */
+	ul.staff {
+		width:400px;
+	}
+	li.staff {
+	  max-height: 90px;
+	  max-width: 90px;
+	}
+	li.staff a {
+	font-size: 0.75rem;
+	}
+	/* STAFF:PHP styles */
+	.w3-container .home {
+		padding: 0;
+	}
+	
+	strong#imaging_enzyme_activity_title::before {
+		content: "Enzyme activity";
+	}
+	.paddingInner.home {
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: flex-start;
+		width: 95%;
+		height:	220px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.paddingInner.home .animSlides2 {
+		display: flex;
+		flex: 100%;
+	}
+	.paddingInner.home .animSlides2 .w3-cell {
+		display: flex;
+		flex: 30%;
+	}
 }
+
 @media screen and (max-width: 451px) {
 	html {
 		margin: 0;
@@ -2357,18 +2484,38 @@ h11, h14, h15, h16 {
 	#main-nav, #sidebar {
 		display: none;
 	}
-	#section0, #section7,
-		#section8, #sectionAutoDip {
+	#section7, #sectionAutoDip {
 		width: 75.00rem;
 	}
-	#section1, #section2, #section3, #section4, #section5, #section6 {
+	#section0, #section1, 
+	#section2, #section3, 
+	#section4, #section5, 
+	#section6, #section8 {
 		width: 100%;
 		border: none;
 		background-image: none;
 		top:100px;
 	}
-	#section1 [id^="subsection"] #content, #section2 [id^="subsection"] #content, #section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
+	#section0 [id^="subsection"] #content,
+	#section1 [id^="subsection"] #content, 
+	#section2 [id^="subsection"] #content, 
+	#section3 [id^="subsection"] #content, 
+	#section4 [id^="subsection"] #content {
 		width: 95%;
+	}
+	[id^="content"] .paddingInner  {
+		padding: 0;
+	}
+	ul.research  {
+		padding: 0;
+		justify-content: space-around;
+	}
+	ul.research>li.research {
+		width: 150px;
+	}
+	ul.research>li.research img {
+		margin-right: 0;
+		width: 100%;
 	}
 	#publicationsContainer {
 		padding-top: 1.90rem;
@@ -2390,7 +2537,14 @@ h11, h14, h15, h16 {
 		line-height: 1.5rem;
 		padding: 0;
 	}
-	#section1 #header, #section2 #header, #section3 #header, #section4 #header, #section5 #header, #section6 #header {
+	#section0 #header, 
+	#section1 #header, 
+	#section2 #header, 
+	#section3 #header, 
+	#section4 #header, 
+	#section5 #header, 
+	#section6 #header,
+	#section8 #header {
 		height: 70px; 
 		background-repeat: no-repeat;
 		background-size: 100% auto;
@@ -2452,7 +2606,24 @@ h11, h14, h15, h16 {
 	#hiddenBox {
 		width: 85%;
 	}
-
+	.w3-container .home {
+		padding: 0;
+	}
+	
+	/* STAFF:PHP styles */
+	ul.staff {
+		width:350px;
+	}
+	li.staff {
+	  max-height: 100px;
+	  max-width: 100px;
+	}
+	li.staff a {
+	font-size: 0.75rem;
+	}
+	
+	/* STAFF:PHP styles */
+	
 	/* header */
 	#header-mobile, #sidebar-mobile {
 		display: block;
@@ -2469,7 +2640,7 @@ h11, h14, h15, h16 {
 		top: 110px;
 		width: 9%;
 	}
-	#section2 #sidebar-mobile:has(.menu-btn:checked), #section4 #sidebar-mobile:has(.menu-btn:checked) {
+	#section0 #sidebar-mobile:has(.menu-btn:checked), #section2 #sidebar-mobile:has(.menu-btn:checked), #section4 #sidebar-mobile:has(.menu-btn:checked) {
 		width: 6rem;
 	}
 	#section3 #sidebar-mobile:has(.menu-btn:checked) {
