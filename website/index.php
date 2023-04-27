@@ -7,8 +7,8 @@ header('Content-Type: text/html;charset=UTF-8');
 <html lang='en'>
 <!-- InstanceBegin template='/Templates/home.dwt' codeOutsidephpIsLocked='false' -->
 <head>
-        <?php require $localizer . 'includes/head_const_new.inc.php'?>
-        <meta
+	<?php require $localizer . 'includes/head_const_new.inc.php'?>
+	<meta
 	name='description'
 	content='Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy.'>
 <title>Molecular Imaging Center - University of Torino</title>
@@ -83,18 +83,16 @@ header('Content-Type: text/html;charset=UTF-8');
 									class='w3-card'
 									style='width: 100%'>
 									<div class='w3-container'>
-										<div>
-											<h3 class='punch purple'>
-												<a href='research/research_imaging_therapy.php'>
-													<span><strong>Imaging &amp; Therapy</strong></span> <br> <br>
-													<img
-														class='w3-image-box-noshadow'
-														src='images/research/figure_research_theranostic.jpg'
-														alt='Theranostic dendrimersomes'
-														style='width: 100%'>
-												</a>
-											</h3>
-										</div>
+										<h3 class='punch purple'>
+											<a href='research/research_imaging_therapy.php'>
+												<span><strong>Imaging &amp; Therapy</strong></span> <br> <br>
+												<img
+													class='w3-image-box-noshadow'
+													src='images/research/figure_research_theranostic.jpg'
+													alt='Theranostic dendrimersomes'
+													style='width: 100%'>
+											</a>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -103,18 +101,16 @@ header('Content-Type: text/html;charset=UTF-8');
 									class='w3-card'
 									style='width: 100%'>
 									<div class='w3-container'>
-										<div>
-											<h3 class='punch purple'>
-												<a href='research/research_cest.php'>
-													<span><strong>CEST imaging</strong></span> <br> <br>
-													<img
-														class='w3-image-box-noshadow'
-														src='images/research/figure_research_CEST.jpg'
-														alt='Graphic representing DIACEST, PARACEST and LIPOCEST agents'
-														style='width: 100%'>
-												</a>
-											</h3>
-										</div>
+										<h3 class='punch purple'>
+											<a href='research/research_cest.php'>
+												<span><strong>CEST imaging</strong></span> <br> <br>
+												<img
+													class='w3-image-box-noshadow'
+													src='images/research/figure_research_CEST.jpg'
+													alt='Graphic representing DIACEST, PARACEST and LIPOCEST agents'
+													style='width: 100%'>
+											</a>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -123,19 +119,17 @@ header('Content-Type: text/html;charset=UTF-8');
 									class='w3-card'
 									style='width: 100%'>
 									<div class='w3-container'>
-										<div>
-											<h3 class='punch purple'>
-												<a href='research/research_enzyme.php'>
-													<span><strong id='imaging_enzyme_activity_title'></strong></span>
-													<br> <br>
-													<img
-														class='w3-image-box-noshadow'
-														src='images/research/figure_research_enzyme.jpg'
-														alt='Scheme representing the action of an enzyme to form a product by connecting two substrates togheter'
-														style='width: 100%'>
-												</a>
-											</h3>
-										</div>
+										<h3 class='punch purple'>
+											<a href='research/research_enzyme.php'>
+												<span><strong id='imaging_enzyme_activity_title'></strong></span>
+												<br> <br>
+												<img
+													class='w3-image-box-noshadow'
+													src='images/research/figure_research_enzyme.jpg'
+													alt='Scheme representing the action of an enzyme to form a product by connecting two substrates togheter'
+													style='width: 100%'>
+											</a>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -146,19 +140,17 @@ header('Content-Type: text/html;charset=UTF-8');
 									class='w3-card'
 									style='width: 100%'>
 									<div class='w3-container'>
-										<div>
-											<h3 class='punch purple'>
-												<a href='research/research_cell.php'>
-													<span><strong>Cell labeling and tracking</strong></span> <br>
-													<br>
-													<img
-														class='w3-image-box-noshadow'
-														src='images/research/figure_research_cell_labeling.jpg'
-														alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell'
-														style='width: 100%'>
-												</a>
-											</h3>
-										</div>
+										<h3 class='punch purple'>
+											<a href='research/research_cell.php'>
+												<span><strong>Cell labeling and tracking</strong></span> <br>
+												<br>
+												<img
+													class='w3-image-box-noshadow'
+													src='images/research/figure_research_cell_labeling.jpg'
+													alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell'
+													style='width: 100%'>
+											</a>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -167,18 +159,16 @@ header('Content-Type: text/html;charset=UTF-8');
 									class='w3-card'
 									style='width: 100%'>
 									<div class='w3-container'>
-										<div>
-											<h3 class='punch purple'>
-												<a href='research/research_angiogenesis.php'>
-													<span><strong>Tumor angiogenesis</strong></span> <br> <br>
-													<img
-														class='w3-image-box-noshadow'
-														src='images/research/figure_research_angiogenesis.jpg'
-														alt='Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel'
-														style='width: 100%'>
-												</a>
-											</h3>
-										</div>
+										<h3 class='punch purple'>
+											<a href='research/research_angiogenesis.php'>
+												<span><strong>Tumor angiogenesis</strong></span> <br> <br>
+												<img
+													class='w3-image-box-noshadow'
+													src='images/research/figure_research_angiogenesis.jpg'
+													alt='Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel'
+													style='width: 100%'>
+											</a>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -187,18 +177,16 @@ header('Content-Type: text/html;charset=UTF-8');
 									class='w3-card'
 									style='width: 100%'>
 									<div class='w3-container'>
-										<div>
-											<h3 class='punch purple'>
-												<a href='research/research_acidosis.php'>
-													<span><strong>Tumor acidosis</strong></span> <br> <br>
-													<img
-														class='w3-image-box-noshadow'
-														src='images/research/figure_research_tumor_acidosis.jpg'
-														alt='Scheme representing some of the methabolism involved in tumor acidosis'
-														style='width: 100%'>
-												</a>
-											</h3>
-										</div>
+										<h3 class='punch purple'>
+											<a href='research/research_acidosis.php'>
+												<span><strong>Tumor acidosis</strong></span> <br> <br>
+												<img
+													class='w3-image-box-noshadow'
+													src='images/research/figure_research_tumor_acidosis.jpg'
+													alt='Scheme representing some of the methabolism involved in tumor acidosis'
+													style='width: 100%'>
+											</a>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -209,18 +197,16 @@ header('Content-Type: text/html;charset=UTF-8');
 									class='w3-card'
 									style='width: 100%'>
 									<div class='w3-container'>
-										<div>
-											<h3 class='punch purple'>
-												<a href='research/research_metabolism.php'>
-													<span><strong>Tumor metabolism</strong></span> <br> <br>
-													<img
-														class='w3-image-box-noshadow'
-														src='images/research/figure_research_tumor_metabolism.jpg'
-														alt='Scheme representing tumor metabolism'
-														style='width: 100%'>
-												</a>
-											</h3>
-										</div>
+										<h3 class='punch purple'>
+											<a href='research/research_metabolism.php'>
+												<span><strong>Tumor metabolism</strong></span> <br> <br>
+												<img
+													class='w3-image-box-noshadow'
+													src='images/research/figure_research_tumor_metabolism.jpg'
+													alt='Scheme representing tumor metabolism'
+													style='width: 100%'>
+											</a>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -687,40 +673,60 @@ header('Content-Type: text/html;charset=UTF-8');
 			
 			
 			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			</div>
 		</div>
 	</div>
 	</div>
 	<!-- section closing -->
 	<script>
-//<![CDATA[
-changeSideNavStyles();
-//]]>
-var myIndex_1 = 0;
-var myIndex_2 = 0;
-carousel();
-function carousel() {
-    var i;
-    var y;
-    y = document.getElementsByClassName('animSlides');
-    //alert(y.length);
-    for (i = 0; i < y.length; i++) {
-      y[i].style.display = 'none';  
-    }
-    myIndex_1++;
-    if (myIndex_1 > y.length) {myIndex_1 = 1}    
-    y[myIndex_1 - 1].style.display = 'flex';  
-    y = document.getElementsByClassName('animSlides2');
-    //alert(y.length);
-    for (i = 0; i < y.length; i++) {
-      y[i].style.display = 'none';  
-    }
-    myIndex_2++;
-    if (myIndex_2 > y.length) {myIndex_2 = 1}    
-    y[myIndex_2 - 1].style.display = 'flex';  
-    setTimeout(carousel, 5000);
-}
-        </script>
+        //<![CDATA[
+        changeSideNavStyles();
+        //]]>
+        var myIndex_1 = 0;
+        var myIndex_2 = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var y;
+            y = document.getElementsByClassName('animSlides');
+            //alert(y.length);
+            for (i = 0; i < y.length; i++) {
+              y[i].style.display = 'none';  
+            }
+            myIndex_1++;
+            if (myIndex_1 > y.length) {myIndex_1 = 1}    
+            y[myIndex_1 - 1].style.display = 'flex';  
+            y = document.getElementsByClassName('animSlides2');
+            //alert(y.length);
+            for (i = 0; i < y.length; i++) {
+              y[i].style.display = 'none';  
+            }
+            myIndex_2++;
+            if (myIndex_2 > y.length) {myIndex_2 = 1}    
+            y[myIndex_2 - 1].style.display = 'flex';  
+            setTimeout(carousel, 5000);
+        }
+	</script>
 	<!-- InstanceEnd -->
 </body>
 </html>

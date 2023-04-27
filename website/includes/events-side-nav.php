@@ -9,6 +9,9 @@ echo "
 					<li id='section2-subsection2' class='subsection_link'>
 						<a href='" . $localizer . "news.php'>News</a>
 					</li>
+					<li id='section2-subsection3' class='subsection_link'>
+						<a href='" . $localizer . "meetings.php'>Meetings</a>
+					</li>
 				</ul>
 			</div>
 		</div>

@@ -5,7 +5,8 @@
 <head>
 	<?php require $localizer . 'includes/head_const_new.inc.php'?>
 	<title>Molecular Imaging Center - University of Torino - Events</title>
-<meta name="description"
+<meta
+	name="description"
 	content="University of Torino. Website of the Molecular Imaging Center.">
 <style>
 #calendar {
@@ -22,10 +23,10 @@
 </head>
 <body>
 	<div id='section2'>
+		<div id="subsection0">
 		<?php require ($localizer . 'includes/main-nav.php'); ?>
 		<?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
 		<!-- InstanceBeginEditable name="subsection opening" -->
-		<div id="subsection0">
 			<div id='header'></div>
 			<!-- InstanceEndEditable -->
 			<?php require ($localizer . 'includes/events-side-nav.php'); ?>
@@ -38,7 +39,10 @@
 					<div class='paddingInner'>
 						<iframe
 							src="https://calendar.google.com/calendar/embed?src=c_201e4a4ae13e5387c6aff16381253b1a2c81c1cde5813af53e70a72c11f6a33a%40group.calendar.google.com&ctz=Europe%2FRome"
-							style="border: 0" width="100%" height="500px" frameborder="0"
+							style="border: 0"
+							width="100%"
+							height="500px"
+							frameborder="0"
 							scrolling="no"></iframe>
 						<div id='calendar'></div>
 					</div>
@@ -53,9 +57,8 @@
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 				Fax. Tel. Mail
 			</p>
-<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
+			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
 		</div>
-
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
