@@ -166,6 +166,7 @@ h3 {
 	background-image: url(images/header_large.jpg);
 	background-size: contain;
 	width: 100%;
+	z-index: 1;
 }
 
 /* END OF SECTION SPECIFIC STYLES */
@@ -670,7 +671,7 @@ div.research > div.PIName {
 .punch {
 	background: none repeat scroll 0 0 white;
 	border-bottom: 2px solid #ccc;
-	margin: 0 0 7px -7px;
+	margin-bottom: 7px;
 	padding-bottom: 4px;
 }
 
@@ -925,23 +926,50 @@ div.paddingInner > h1 > span#staff_title_7 {
 strong#imaging_enzyme_activity_title::before {
 	content: "Imaging enzyme activity";
 }
-.paddingInner.home {
-	height:	300px;
-	padding-left: 40px;
+
+/* STYLE for index.php */
+div.punch {
+	text-align: center;
+	font-size: 1.00rem;
+	font-weight: bold;
+	height: 2.00rem;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	flex-flow: row wrap;
-	align-items: flex-start;
+	align-content: center;
+}
+div.punch.purple {
+	background-color: #B518B5;
+}
+.home.paddingInner {
+	height: 250px;
 	margin-bottom: 20px;
 }
-.paddingInner.home .animSlides2 {
-	display:flex;
-	flex: 100%;
+.home.row {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
 }
-.paddingInner.home .animSlides2 .w3-cell {
-	display:flex;
-	flex: 30%;
+.home.cell, .home.cell.papers {
+	flex: 25%;
+	padding: 0 10px;
+	margin: 0 auto 10px auto;
 }
+.home.cell.papers > .w3-card {
+	height: 100%;
+	padding-top: 0.50rem;
+}
+.home.cell.papers > .w3-card > .w3-container > a > img {
+	width: 100%;
+}
+/* END of STYLE for index.php */
+
+/* STYLE for COST section */
+.cost.paddingInner {
+	display:flex;
+	flex-direction: column;	
+}
+/* END of STYLE for COST section */
 
 /* stylesheet aggiunti da Dario Longo da w3.css*/
 @media ( min-width :601px) {
@@ -2382,7 +2410,14 @@ h11, h14, h15, h16 {
 	#section7, #sectionAutoDip {
 		width: 75.00rem;
 	}
-	#section0, #section1, #section2, #section3, #section4, #section5, #section6, #section8 {
+	#section0, 
+	#section1, 
+	#section2, 
+	#section3, 
+	#section4, 
+	#section5, 
+	#section6, 
+	#section8 {
 		width: 37.50rem;
 	}
 	[id^="content"] .paddingInner {
@@ -2400,10 +2435,20 @@ h11, h14, h15, h16 {
 		line-height: 1.5rem;
 		padding: 0;
 	}
-	#section0 [id^="subsection"] #content, #section1 [id^="subsection"] #content, #section2 [id^="subsection"] #content, #section3 [id^="subsection"] #content, #section4 [id^="subsection"] #content {
+	#section0 [id^="subsection"] #content, 
+	#section1 [id^="subsection"] #content, 
+	#section2 [id^="subsection"] #content, 
+	#section3 [id^="subsection"] #content, 
+	#section4 [id^="subsection"] #content, 
+	#section5 [id^="subsection"] #content {
 		width: 80%;
 	}
-	#section0 [id^="subsection"] #sidebar, #section1 [id^="subsection"] #sidebar, #section2 [id^="subsection"] #sidebar, #section3 [id^="subsection"] #sidebar, #section4 [id^="subsection"] #sidebar {
+	#section0 [id^="subsection"] #sidebar, 
+	#section1 [id^="subsection"] #sidebar, 
+	#section2 [id^="subsection"] #sidebar, 
+	#section3 [id^="subsection"] #sidebar, 
+	#section4 [id^="subsection"] #sidebar, 
+	#section5 [id^="subsection"] #sidebar {
 		width: 20%;
 	}
 	#content-nosidebar {
@@ -2447,33 +2492,27 @@ h11, h14, h15, h16 {
 	li.staff a {
 	font-size: 0.75rem;
 	}
-	/* STAFF:PHP styles */
+	/* End of STAFF:PHP styles */
+	
 	.w3-container .home {
 		padding: 0;
 	}
-	
 	strong#imaging_enzyme_activity_title::before {
 		content: "Enzyme activity";
 	}
-	.paddingInner.home {
-		display: flex;
-		justify-content: center;
-		flex-flow: row wrap;
-		align-items: flex-start;
-		width: 95%;
-		height:	220px;
-		margin-bottom: 20px;
-		margin-left: auto;
-		margin-right: auto;
+
+	/* STYLE for index.php */
+	div.punch {
+		height: 3.60rem;
+		font-size: 0.90rem;
 	}
-	.paddingInner.home .animSlides2 {
-		display: flex;
-		flex: 100%;
+	.home.paddingInner {
+		height: 200px;
 	}
-	.paddingInner.home .animSlides2 .w3-cell {
-		display: flex;
-		flex: 30%;
+	.home.cell {
+		margin-top: 1.00rem;
 	}
+	/* END of STYLE for index.php */
 }
 
 @media screen and (max-width: 451px) {
@@ -2621,8 +2660,13 @@ h11, h14, h15, h16 {
 	li.staff a {
 	font-size: 0.75rem;
 	}
-	
 	/* STAFF:PHP styles */
+	
+	/* STYLE for index.php */
+	.home.paddingInner {
+		height: 185px;
+	}
+	/* END of STYLE for index.php */
 	
 	/* header */
 	#header-mobile, #sidebar-mobile {
@@ -2640,7 +2684,10 @@ h11, h14, h15, h16 {
 		top: 110px;
 		width: 9%;
 	}
-	#section0 #sidebar-mobile:has(.menu-btn:checked), #section2 #sidebar-mobile:has(.menu-btn:checked), #section4 #sidebar-mobile:has(.menu-btn:checked) {
+	#section0 #sidebar-mobile:has(.menu-btn:checked), 
+	#section2 #sidebar-mobile:has(.menu-btn:checked), 
+	#section4 #sidebar-mobile:has(.menu-btn:checked), 
+	#section5 #sidebar-mobile:has(.menu-btn:checked) {
 		width: 6rem;
 	}
 	#section3 #sidebar-mobile:has(.menu-btn:checked) {

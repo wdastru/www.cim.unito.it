@@ -77,141 +77,111 @@ header('Content-Type: text/html;charset=UTF-8');
 						</h1>
 					</div>
 					<div class='home paddingInner'>
-						<div class='animSlides2 w3-animate-fading'>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
-									<div class='w3-container'>
-										<h3 class='punch purple'>
-											<a href='research/research_imaging_therapy.php'>
-												<span><strong>Imaging &amp; Therapy</strong></span> <br> <br>
-												<img
-													class='w3-image-box-noshadow'
-													src='images/research/figure_research_theranostic.jpg'
-													alt='Theranostic dendrimersomes'
-													style='width: 100%'>
-											</a>
-										</h3>
-									</div>
+						<div class='home row animSlides2 w3-animate-fading'>
+							<div class='home cell'>
+								<div class='w3-card'>
+									<a href='research/research_imaging_therapy.php'>
+										<div class='punch purple'>
+											<span><strong>Imaging &amp; Therapy</strong></span>
+										</div>
+										<img
+											class='w3-image-box-noshadow'
+											src='images/research/figure_research_theranostic.jpg'
+											alt='Theranostic dendrimersomes'
+											style='width: 100%'>
+									</a>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
-									<div class='w3-container'>
-										<h3 class='punch purple'>
-											<a href='research/research_cest.php'>
-												<span><strong>CEST imaging</strong></span> <br> <br>
-												<img
-													class='w3-image-box-noshadow'
-													src='images/research/figure_research_CEST.jpg'
-													alt='Graphic representing DIACEST, PARACEST and LIPOCEST agents'
-													style='width: 100%'>
-											</a>
-										</h3>
-									</div>
+							<div class='home cell'>
+								<div class='w3-card'>
+									<a href='research/research_cest.php'>
+										<div class='punch purple'>
+											<span><strong>CEST imaging</strong></span>
+										</div>
+										<img
+											class='w3-image-box-noshadow'
+											src='images/research/figure_research_CEST.jpg'
+											alt='Graphic representing DIACEST, PARACEST and LIPOCEST agents'
+											style='width: 100%'>
+									</a>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
-									<div class='w3-container'>
-										<h3 class='punch purple'>
-											<a href='research/research_enzyme.php'>
-												<span><strong id='imaging_enzyme_activity_title'></strong></span>
-												<br> <br>
-												<img
-													class='w3-image-box-noshadow'
-													src='images/research/figure_research_enzyme.jpg'
-													alt='Scheme representing the action of an enzyme to form a product by connecting two substrates togheter'
-													style='width: 100%'>
-											</a>
-										</h3>
-									</div>
+							<div class='home cell'>
+								<div class='w3-card'>
+									<a href='research/research_enzyme.php'>
+										<div class='punch purple'>
+											<span><strong id='imaging_enzyme_activity_title'></strong></span>
+										</div>
+										<img
+											class='w3-image-box-noshadow'
+											src='images/research/figure_research_enzyme.jpg'
+											alt='Scheme representing the action of an enzyme to form a product by connecting two substrates togheter'
+											style='width: 100%'>
+									</a>
 								</div>
 							</div>
 						</div>
-						<div class='animSlides2 w3-animate-fading '>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
-									<div class='w3-container'>
-										<h3 class='punch purple'>
-											<a href='research/research_cell.php'>
-												<span><strong>Cell labeling and tracking</strong></span> <br>
-												<br>
-												<img
-													class='w3-image-box-noshadow'
-													src='images/research/figure_research_cell_labeling.jpg'
-													alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell'
-													style='width: 100%'>
-											</a>
-										</h3>
-									</div>
+						<div class='home row animSlides2 w3-animate-fading'>
+							<div class='home cell'>
+								<div class='w3-card'>
+									<a href='research/research_cell.php'>
+										<div class='punch purple'>
+											<span><strong>Cell labeling and tracking</strong></span>
+										</div>
+										<img
+											class='w3-image-box-noshadow'
+											src='images/research/figure_research_cell_labeling.jpg'
+											alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell'
+											style='width: 100%'>
+									</a>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
-									<div class='w3-container'>
-										<h3 class='punch purple'>
-											<a href='research/research_angiogenesis.php'>
-												<span><strong>Tumor angiogenesis</strong></span> <br> <br>
-												<img
-													class='w3-image-box-noshadow'
-													src='images/research/figure_research_angiogenesis.jpg'
-													alt='Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel'
-													style='width: 100%'>
-											</a>
-										</h3>
-									</div>
+							<div class='home cell'>
+								<div class='w3-card'>
+									<a href='research/research_angiogenesis.php'>
+										<div class='punch purple'>
+											<span><strong>Tumor angiogenesis</strong></span>
+										</div>
+										<img
+											class='w3-image-box-noshadow'
+											src='images/research/figure_research_angiogenesis.jpg'
+											alt='Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel'
+											style='width: 100%'>
+									</a>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
-									<div class='w3-container'>
-										<h3 class='punch purple'>
-											<a href='research/research_acidosis.php'>
-												<span><strong>Tumor acidosis</strong></span> <br> <br>
-												<img
-													class='w3-image-box-noshadow'
-													src='images/research/figure_research_tumor_acidosis.jpg'
-													alt='Scheme representing some of the methabolism involved in tumor acidosis'
-													style='width: 100%'>
-											</a>
-										</h3>
-									</div>
+							<div class='home cell'>
+								<div class='w3-card'>
+									<a href='research/research_acidosis.php'>
+										<div class='punch purple'>
+											<span><strong>Tumor acidosis</strong></span>
+										</div>
+										<img
+											class='w3-image-box-noshadow'
+											src='images/research/figure_research_tumor_acidosis.jpg'
+											alt='Scheme representing some of the methabolism involved in tumor acidosis'
+											style='width: 100%'>
+									</a>
 								</div>
 							</div>
 						</div>
-						<div class='animSlides2 w3-animate-fading '>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
-									<div class='w3-container'>
-										<h3 class='punch purple'>
-											<a href='research/research_metabolism.php'>
-												<span><strong>Tumor metabolism</strong></span> <br> <br>
-												<img
-													class='w3-image-box-noshadow'
-													src='images/research/figure_research_tumor_metabolism.jpg'
-													alt='Scheme representing tumor metabolism'
-													style='width: 100%'>
-											</a>
-										</h3>
-									</div>
+						<div class='home row animSlides2 w3-animate-fading'>
+							<div class='home cell'></div>
+							<div class='home cell'>
+								<div class='w3-card'>
+									<a href='research/research_metabolism.php'>
+										<div class='punch purple'>
+											<span><strong>Tumor metabolism</strong></span>
+										</div>
+										<img
+											class='w3-image-box-noshadow'
+											src='images/research/figure_research_tumor_metabolism.jpg'
+											alt='Scheme representing tumor metabolism'
+											style='width: 100%'>
+									</a>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'></div>
-							<div class='w3-container w3-cell'></div>
+							<div class='home cell'></div>
 						</div>
 					</div>
 					<div class='band'>
@@ -222,185 +192,153 @@ header('Content-Type: text/html;charset=UTF-8');
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<div class='w3-container'>
-							<div
-								class='w3-cell-row'
-								style='margin-top: 2em;'>
-								<div class='w3-container w3-cell-title'>
-									<h2>News</h2>
-								</div>
-								<div class='w3-container w3-cell-title'></div>
-								<div class='w3-container w3-cell-title'>
-									<h2 class='html'>
-										<a href='news.php'>More News... </a>
-									</h2>
-								</div>
-							</div>
-							<div
-								class='w3-cell-row'
-								style='margin-top: 2em;'>
-								<div class='w3-container w3-cell'>
-									<h3 class='punch purple'>
-										<span>Euro-BioImaging</span>
-									</h3>
-									<br>
-									<a href='http://www.eurobioimaging.eu/'>
-										<img
-											style='width: 99%'
-											src='images/Euro-Bioimaging-horizontal-RGB-slogan.png'
-											alt='Euro-BioImaging logo'>
-									</a>
+						<div class='home row'>
+							<div class='home cell'>
+								<h3 class='punch purple'>
+									<span>Euro-BioImaging</span>
+								</h3>
+								<br>
+								<a href='http://www.eurobioimaging.eu/'>
+									<img
+										style='width: 99%'
+										src='images/Euro-Bioimaging-horizontal-RGB-slogan.png'
+										alt='Euro-BioImaging logo'>
+								</a>
+								<a href='news.php#EuBIlaunch'>
+									<span class='paperTitle'> European Commission launched the
+										Euro-Bioimaging ERIC</span>
+								</a>
+								<br> <br>
+								<a href='http://www.mmmi.unito.it/'>
+									<span class='paperTitle'>Italian Multi-sited Multi-Modal
+										Molecular Imaging (MMMI) Node Candidate</span>
+								</a>
+								<br>
+								<p style='text-align: right; color: blue; font-size: 100%'>
 									<a href='news.php#EuBIlaunch'>
-										<span class='paperTitle'> European Commission launched the
-											Euro-Bioimaging ERIC</span>
+										<b>Read more &#8594;</b>
 									</a>
-									<br> <br>
-									<a href='http://www.mmmi.unito.it/'>
-										<span class='paperTitle'>Italian Multi-sited Multi-Modal
-											Molecular Imaging (MMMI) Node Candidate</span>
+								</p>
+							</div>
+							<div class='home cell'>
+								<h3 class='punch purple'>
+									<span>COST Actions</span>
+								</h3>
+								<span><b>COST Actions CA15209 - Eurelax</b></span> <br> <span>&quot;European
+									Network on NMR Relaxometry&quot;</span> <br> <br> <span><b>COST
+										Actions CA16103 - Parenchima</b></span><br> <span>&quot;Magnetic
+									Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span>
+								<br>
+								<p style='text-align: right; color: blue; font-size: 100%'>
+									<a href='news.php#COST'>
+										<b>Read more &#8594;</b>
 									</a>
-									<br>
-									<p style='text-align: right; color: blue; font-size: 100%'>
-										<a href='news.php#EuBIlaunch'>
-											<b>Read more &#8594;</b>
-										</a>
-									</p>
-								</div>
-								<div class='w3-container w3-cell'>
-									<h3 class='punch purple'>
-										<span>COST Actions</span>
-									</h3>
-									<span><b>COST Actions CA15209 - Eurelax</b></span> <br> <span>&quot;European
-										Network on NMR Relaxometry&quot;</span> <br> <br> <span><b>COST
-											Actions CA16103 - Parenchima</b></span><br> <span>&quot;Magnetic
-										Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span>
-									<br>
-									<p style='text-align: right; color: blue; font-size: 100%'>
-										<a href='news.php#COST'>
-											<b>Read more &#8594;</b>
-										</a>
-									</p>
-								</div>
-								<div class='w3-container w3-cell'>
-									<h3 class='punch purple'>
-										<span>Ongoing Projects</span>
-									</h3>
-									<!-- 
+								</p>
+							</div>
+							<div class='home cell'>
+								<h3 class='punch purple'>
+									<span>Ongoing Projects</span>
+								</h3>
+								<!-- 
 									   Cycle2 slideshow plugin for jQuery
 									   required jquery.cycle2.min.js
 									   from http://jquery.malsup.com/cycle2/
 									-->
-									<div
-										class='cycle-slideshow'
-										data-cycle-fx='fade'
-										data-cycle-timeout='3000'
-										data-cycle-slides='
+								<div
+									class='cycle-slideshow'
+									data-cycle-fx='fade'
+									data-cycle-timeout='3000'
+									data-cycle-slides='
 										> div'
-										data-cycle-speed='1000'
-										data-cycle-pause-on-hover='true'>
-										<div>
-											<img
-												style='width: 70%'
-												src='news/glint.svg'
-												alt='GLINT logo'>
-											<br> <span>CIM partecipates to the H2020 project <a
-													href='http://www.glint-project.eu/'
-													target='_blank'>
-													<span class='paperTitle'>GLINT</span>
-												</a> aimed to investigate GlucoCESt imaging as a potentially
-												disruptive new diagnostic tool.
-											</span>
-											<p style='text-align: right; color: blue; font-size: 100%'>
-												<a href='news.php#GLINT'>
-													<b>Read more &#8594;</b>
-												</a>
-											</p>
-										</div>
-										<div>
-											<img
-												style='width: 70%'
-												src='news/primoGAIA-logo.png'
-												alt='Primo GAIA logo'>
-											<br> <span>CIM partecipates to the H2020 project <a
-													href='http://www.primogaia.eu/'
-													target='_blank'>
-													<span class='paperTitle'>Primo GAIA</span>
-												</a> Prepolarized MRI at Earth Field to seek new contrasts
-												linked to molecular events for very early detection of
-												pathologies
-											</span>
-											<p style='text-align: right; color: blue; font-size: 100%'>
-												<a href='news.php#PrimoGAIA'>
-													<b>Read more &#8594;</b>
-												</a>
-											</p>
-										</div>
+									data-cycle-speed='1000'
+									data-cycle-pause-on-hover='true'>
+									<div>
+										<img
+											style='width: 70%'
+											src='news/glint.svg'
+											alt='GLINT logo'>
+										<br> <span>CIM partecipates to the H2020 project <a
+												href='http://www.glint-project.eu/'
+												target='_blank'>
+												<span class='paperTitle'>GLINT</span>
+											</a> aimed to investigate GlucoCESt imaging as a potentially
+											disruptive new diagnostic tool.
+										</span>
+										<p style='text-align: right; color: blue; font-size: 100%'>
+											<a href='news.php#GLINT'>
+												<b>Read more &#8594;</b>
+											</a>
+										</p>
 									</div>
-									<!-- END of Cycle2 -->
+									<div>
+										<img
+											style='width: 70%'
+											src='news/primoGAIA-logo.png'
+											alt='Primo GAIA logo'>
+										<br> <span>CIM partecipates to the H2020 project <a
+												href='http://www.primogaia.eu/'
+												target='_blank'>
+												<span class='paperTitle'>Primo GAIA</span>
+											</a> Prepolarized MRI at Earth Field to seek new contrasts
+											linked to molecular events for very early detection of
+											pathologies
+										</span>
+										<p style='text-align: right; color: blue; font-size: 100%'>
+											<a href='news.php#PrimoGAIA'>
+												<b>Read more &#8594;</b>
+											</a>
+										</p>
+									</div>
 								</div>
+								<!-- END of Cycle2 -->
 							</div>
-							<div
-								class='w3-cell-row'
-								style='margin-top: 2em;'>
-								<div class='w3-container w3-cell-title'>
-									<h2>Upcoming events</h2>
-								</div>
-								<div class='w3-container w3-cell-title'></div>
-								<div class='w3-container w3-cell-title'>
-									<h2 class='html'>
-										<a href='events.php'>More events... </a>
-									</h2>
-								</div>
+						</div>
+						<div class='home row'>
+							<div class='home cell'>
+								<h3 class='punch orange'>
+									<span>EMIM meeting</span>
+								</h3>
+								<br>
+								<img
+									style='width: 99%'
+									src='images/meetings/EMIM_2020.jpg'
+									alt='15th European Molecular Imaging Meeting 2020 image'>
+								<a href='http://www.e-smi.eu/index.php?id=emim-2020'>
+									<span class='paperTitle'>15th European Molecular Imaging
+										Meeting</span>
+								</a>
+								<span class='date'> 24-27 March 2020 </span> <span>
+									Thessaloniki, Greece</span>
 							</div>
-							<div
-								class='w3-cell-row'
-								style='margin-top: 2em;'>
-								<div class='w3-container w3-cell'>
-									<h3 class='punch orange'>
-										<span>EMIM meeting</span>
-									</h3>
-									<br>
-									<img
-										style='width: 99%'
-										src='images/meetings/EMIM_2020.jpg'
-										alt='15th European Molecular Imaging Meeting 2020 image'>
-									<a href='http://www.e-smi.eu/index.php?id=emim-2020'>
-										<span class='paperTitle'>15th European Molecular Imaging
-											Meeting</span>
-									</a>
-									<span class='date'> 24-27 March 2020 </span> <span>
-										Thessaloniki, Greece</span>
-								</div>
-								<div class='w3-container w3-cell'>
-									<h3 class='punch orange'>
-										<span>ISMRM meeting</span>
-									</h3>
-									<br>
-									<img
-										style='width: 99%; max-height: 80px'
-										src='images/meetings/ISMRM_2020.jpg'
-										alt='ISMRM 28th Annual Meeting 2020 image'>
-									<a href='https://www.ismrm.org/20m/'>
-										<span class='paperTitle'>ISMRM 28th Annual Meeting 2020</span>
-									</a>
-									<span class='date'> 18-23 April 2020 </span> <span> Sydney,
-										Australia</span>
-								</div>
-								<div class='w3-container w3-cell'>
-									<h3 class='punch orange'>
-										<span>WMIC meeting</span>
-									</h3>
-									<br>
-									<img
-										style='width: 99%'
-										src='images/meetings/WMIC-2023-Web-Banner-1-Oct6.jpg'
-										alt='World Molecular Imaging Congress 2023 image'>
-									<a href='https://www.wmis.org/wmic-2023-about/'>
-										<span class='paperTitle'>World Molecular Imaging Congress 2023</span>
-									</a>
-									<span class='date'> 5-9 October 2020 </span> <span> Prague,
-										Czech Republic</span>
-								</div>
+							<div class='home cell'>
+								<h3 class='punch orange'>
+									<span>ISMRM meeting</span>
+								</h3>
+								<br>
+								<img
+									style='width: 99%; max-height: 80px'
+									src='images/meetings/ISMRM_2020.jpg'
+									alt='ISMRM 28th Annual Meeting 2020 image'>
+								<a href='https://www.ismrm.org/20m/'>
+									<span class='paperTitle'>ISMRM 28th Annual Meeting 2020</span>
+								</a>
+								<span class='date'> 18-23 April 2020 </span> <span> Sydney,
+									Australia</span>
+							</div>
+							<div class='home cell'>
+								<h3 class='punch orange'>
+									<span>WMIC meeting</span>
+								</h3>
+								<br>
+								<img
+									style='width: 99%'
+									src='images/meetings/WMIC-2023-Web-Banner-1-Oct6.jpg'
+									alt='World Molecular Imaging Congress 2023 image'>
+								<a href='https://www.wmis.org/wmic-2023-about/'>
+									<span class='paperTitle'>World Molecular Imaging Congress 2023</span>
+								</a>
+								<span class='date'> 5-9 October 2020 </span> <span> Prague,
+									Czech Republic</span>
 							</div>
 						</div>
 					</div>
@@ -412,11 +350,9 @@ header('Content-Type: text/html;charset=UTF-8');
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<div class='animSlides w3-animate-fading '>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+						<div class='home row animSlides w3-animate-fading'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
 											title='Open in a new window'
@@ -425,8 +361,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											target='_blank'>
 											<img
 												src='images/papers/geninatti_2020_1.webp'
-												alt=''
-												style='width: 100%'>
+												alt=''>
 											<b>In vitro and in vivo BNCT investigations using a carborane
 												containing sulfonamide targeting CAIX epitopes on malignant
 												pleural mesothelioma and breast cancer cells.</b> <br> <span
@@ -437,36 +372,29 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
-										<img
-											src='images/papers/geninatti_2020_2.jpg'
-											alt=''
-											style='width: 100%'>
-										<div class='w3-container'>
-											<a
-												title='Open in a new window'
-												class='http'
-												href='https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513'
-												target='_blank'>
-												<b>A novel class of <sup>1</sup>H-MRI Contrast Agents based
-													on the relaxation enhancement induced on water protons by <sup>14</sup>N
-													imidazole moieties.
-												</b> <span class='w3-text-blue'> <br> <b>Geninatti Crich S
-														et al;</b> <br>Angew. Chem. Int. Ed. Accepted
-												</span>
-											</a>
-										</div>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513'
+											target='_blank'>
+											<img
+												src='images/papers/geninatti_2020_2.jpg'
+												alt=''>
+											<b>A novel class of <sup>1</sup>H-MRI Contrast Agents based
+												on the relaxation enhancement induced on water protons by <sup>14</sup>N
+												imidazole moieties.
+											</b> <span class='w3-text-blue'> <br> <b>Geninatti Crich S et
+													al;</b> <br>Angew. Chem. Int. Ed. Accepted
+											</span>
+										</a>
 									</div>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
 											title='Open in a new window'
@@ -475,8 +403,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											target='_blank'>
 											<img
 												src='images/papers/longo2019.png'
-												alt=''
-												style='width: 100%'>
+												alt=''>
 											<b>Imaging tumor acidosis: a survey of the available
 												techniques for mapping in vivo tumor pH.</b> <span
 												class='w3-text-blue'> <br> <b>Longo D. et al; </b><br>Cancer
@@ -487,11 +414,9 @@ header('Content-Type: text/html;charset=UTF-8');
 								</div>
 							</div>
 						</div>
-						<div class='animSlides w3-animate-fading'>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+						<div class='home row animSlides w3-animate-fading'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
 											title='Open in a new window'
@@ -500,8 +425,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											target='_blank'>
 											<img
 												src='images/papers/gianolio_2018.jpg'
-												alt=''
-												style='width: 100%'>
+												alt=''>
 											<b>Gadolinium presence, MRI hyperintensities, and glucose
 												uptake in the hypoperfused rat brain after repeated
 												administrations of gadodiamide.</b> <span
@@ -512,10 +436,8 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
 											title='Open in a new window'
@@ -524,8 +446,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											target='_blank'>
 											<img
 												src='images/papers/terreno_2018.jpg'
-												alt=''
-												style='width: auto; height: 100px'>
+												alt=''>
 											<b>Indocyanine Green labeling for optical and photoacoustic
 												imaging of Mesenchymal Stem Cells after in vivo
 												transplantation.</b> <span class='w3-text-blue'> <br> <b>Terreno
@@ -535,10 +456,8 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
 											title='Open in a new window'
@@ -547,8 +466,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											target='_blank'>
 											<img
 												src='images/papers/geninatti_2018.jpg'
-												alt=''
-												style='width: 100%'>
+												alt=''>
 											<b>Efficient Route to Label Mesenchymal Stromal Cell-Derived
 												Extracellular Vesicles.</b> <span class='w3-text-blue'> <b>Geninatti
 													S. et al; </b><br> ACS Omega. 2018 Jul 31;3(7):8097-8103.
@@ -558,11 +476,9 @@ header('Content-Type: text/html;charset=UTF-8');
 								</div>
 							</div>
 						</div>
-						<div class='animSlides w3-animate-fading'>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+						<div class='home row animSlides w3-animate-fading'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
 											title='Open in a new window'
@@ -571,8 +487,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											target='_blank'>
 											<img
 												src='images/papers/reineri_2018.jpg'
-												alt=''
-												style='width: 100%'>
+												alt=''>
 											<b>Metabolic Studies of Tumor Cells Using [1-<sup>13</sup> C]
 												Pyruvate Hyperpolarized by Means of PHIP-Side Arm
 												Hydrogenation.
@@ -583,10 +498,8 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
 											title='Open in a new window'
@@ -595,8 +508,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											target='_blank'>
 											<img
 												src='images/papers/dellicastelli_2018.jpg'
-												alt=''
-												style='width: 100%'>
+												alt=''>
 											<b>[Yb(AAZTA)(H<sub>2</sub>O)]-: an unconventional ParaCEST
 												MRI probe.
 											</b> <span class='w3-text-blue'> <br> <b>Delli Castelli D. et
@@ -606,57 +518,49 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
-										<img
-											src='images/papers/stefania_2018.jpg'
-											alt=''
-											style='width: 100%'>
-										<div class='w3-container'>
-											<a
-												title='Open in a new window'
-												class='http'
-												href='https://www.ncbi.nlm.nih.gov/pubmed/30257047'
-												target='_blank'>
-												<b>An efficient MRI agent targeting extracellular markers in
-													prostate adenocarcinoma.</b> <span class='w3-text-blue'> <br>
-													<b>Stefania R et al; </b><br>Magn Reson Med. 2018; 1-12
-												</span>
-											</a>
-										</div>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://www.ncbi.nlm.nih.gov/pubmed/30257047'
+											target='_blank'>
+											<img
+												src='images/papers/stefania_2018.jpg'
+												alt=''>
+											<b>An efficient MRI agent targeting extracellular markers in
+												prostate adenocarcinoma.</b> <span class='w3-text-blue'> <br>
+												<b>Stefania R et al; </b><br>Magn Reson Med. 2018; 1-12
+											</span>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class='animSlides w3-animate-fading'>
-							<div class='w3-container w3-cell'>
-								<div
-									class='w3-card'
-									style='width: 100%'>
+						<div class='home row animSlides w3-animate-fading'>
+							<div class='home cell papers'></div>
+							<div class='home cell papers'>
+								<div class='w3-card'>
 									<div class='w3-container'>
-										<img
-											src='images/papers/cutrin_2018.jpg'
-											alt=''
-											style='width: 100%'>
-										<div class='w3-container'>
-											<a
-												title='Open in a new window'
-												class='http'
-												href='https://www.ncbi.nlm.nih.gov/pubmed/29963255'
-												target='_blank'>
-												<b>Cancer cell death induced by ferritins and the peculiar
-													role of their labile iron pool.</b> <span
-													class='w3-text-blue'> <br> <b>Cutrin JC et al;</b> <br>Oncotarget.
-													2018 Jun 15; 9(46): 27974-27984
-												</span>
-											</a>
-										</div>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://www.ncbi.nlm.nih.gov/pubmed/29963255'
+											target='_blank'>
+											<img
+												src='images/papers/cutrin_2018.jpg'
+												alt=''>
+											<b>Cancer cell death induced by ferritins and the peculiar
+												role of their labile iron pool.</b> <span
+												class='w3-text-blue'> <br> <b>Cutrin JC et al;</b> <br>Oncotarget.
+												2018 Jun 15; 9(46): 27974-27984
+											</span>
+										</a>
 									</div>
 								</div>
 							</div>
+							<div class='home cell papers'></div>
 						</div>
 					</div>
 				</div>
