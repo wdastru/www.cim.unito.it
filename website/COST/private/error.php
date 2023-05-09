@@ -31,7 +31,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id="subsection0">
                 <!-- InstanceEndEditable -->
                 <div id='sidebar'>
-                    <?php require $localizer . 'COST/include/COST-sidebar.inc.php'; ?>
+                    <?php require $localizer . 'COST/include/COST-sidebar.php'; ?>
                     <div class='padding'>
                         <dl id='list'>
                             <!-- <dt class='subsection_link' id='section0-subsection1'>

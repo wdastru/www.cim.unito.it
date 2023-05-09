@@ -66,7 +66,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <!-- InstanceEndEditable -->
                 <div id='sidebar'>
                     <?php
-                    require $localizer . 'COST/include/COST-sidebar.inc.php';
+                    require $localizer . 'COST/include/COST-sidebar.php';
                     ?>
                 </div>
                 <div id='content'>

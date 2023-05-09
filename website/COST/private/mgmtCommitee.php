@@ -32,7 +32,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <div id="subsection4">
                 <!-- InstanceEndEditable -->
                 <div id='sidebar'>
-                    <?php require $localizer . 'COST/include/COST-sidebar.inc.php'; ?>
+                    <?php require $localizer . 'COST/include/COST-sidebar.php'; ?>
                 </div>
                 <div id='content'>
                     <div class='paddingOuter'>
