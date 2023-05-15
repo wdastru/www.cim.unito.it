@@ -153,7 +153,7 @@ h3 {
 /* <-- end */
 [id^="section"] #header {
 	height: 12.50rem;
-	background: url(images/header_large.jpg);
+	background: url(images/header_large.webp);
 }
 
 /* END OF SECTION SPECIFIC STYLES */

@@ -125,7 +125,7 @@ h3 {
 	width: 5.00rem;
 }
 #main-nav #main-nav-section2 a {
-	width: 5.50rem;
+	width: 4.50rem;
 }
 #main-nav #main-nav-section3 a {
 	width: 5.00rem;
@@ -143,7 +143,7 @@ h3 {
 	width: 5.60rem;
 }
 #main-nav #main-nav-section8 a {
-	width: 3.75rem;
+	width: 4.00rem;
 }
 /* <-- end */
 
@@ -163,7 +163,7 @@ h3 {
 /* <-- end */
 [id^="section"] #header {
 	height: 200px;
-	background-image: url(images/header_large.jpg);
+	background-image: url(images/header_large.webp);
 	background-size: contain;
 	width: 100%;
 	z-index: 1;
@@ -367,6 +367,7 @@ h3 {
 }
 #content .imgCenter > img {
 	max-width: 100%;
+	margin: auto;
 }
 
 #content .imgLeft {
@@ -393,6 +394,26 @@ h3 {
 	display: flex;
 	flex-direction: column;
 }
+
+/* STYLE for xnat */
+.xnat-features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.xnat-features > .feature {
+	display: flex;
+	flex-direction: column;
+	padding: 0 5px 0 5px;
+	width:30%;
+}
+.xnat-features > .feature > img {
+	height: auto;
+}
+.xnat-features > .feature > div {
+	text-align: center;
+}
+
 .xnat-acknowledgements {
 	flex: 21%;
 	margin: 1.00rem;
@@ -406,6 +427,7 @@ h3 {
 	max-height: 100px;
 	margin: auto;
 }
+/* END of STYLE for xnat */
 
 .band {
 	height: 3rem;
@@ -487,6 +509,20 @@ li.staff:hover a > span {
 	visibility: visible;
 }
 /* End of STAFF.PHP styles */
+
+/* styles for staff/ */
+div.staff {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+div.staff>div.staff-img {
+	flex: 1 1 33%;
+}
+div.staff>div.staff-desc {
+	flex: 1 1 66%;
+}
+/* END of styles for staff/ */
 
 /* Styles for research section */
 ul.research {
