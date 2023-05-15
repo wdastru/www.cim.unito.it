@@ -7,7 +7,7 @@ header('Content-Type: text/html;charset=UTF-8');
 <html lang='en'>
 <!-- InstanceBegin template='/Templates/home.dwt' codeOutsidephpIsLocked='false' -->
 <head>
-	<?php require $localizer . 'includes/head_const_new.inc.php'?>
+	<?php require $localizer . 'includes/head_const_new.inc.php'; ?>
 	<meta
 	name='description'
 	content='Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy.'>
@@ -16,13 +16,13 @@ header('Content-Type: text/html;charset=UTF-8');
 <body>
 	<div id='section0'>
 		<div id='subsection0'>
-    		<?php require('includes/main-nav.php'); ?>
-    		<?php require('includes/main-nav-mobile.php'); ?>
+    		<?php require $localizer . 'includes/main-nav.php'; ?>
+    		<?php require $localizer . 'includes/main-nav-mobile.php'; ?>
 		<!-- InstanceBeginEditable name='subsection opening' -->
 			<div id='header'></div>
 			<!-- InstanceEndEditable -->
-			<?php require ($localizer . 'includes/home-side-nav.php'); ?>
-        	<?php require ($localizer . 'includes/home-side-nav-mobile.php'); ?>
+			<?php require $localizer . 'includes/home-side-nav.php'; ?>
+        	<?php require $localizer . 'includes/home-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class="paddingOuter">
 					<div class='band'>
@@ -381,7 +381,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513'
 											target='_blank'>
 											<img
-												src='images/papers/geninatti_2020_2.jpg'
+												src='images/papers/geninatti_2020_2.webp'
 												alt=''>
 											<b>A novel class of <sup>1</sup>H-MRI Contrast Agents based
 												on the relaxation enhancement induced on water protons by <sup>14</sup>N
@@ -402,7 +402,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30762162'
 											target='_blank'>
 											<img
-												src='images/papers/longo2019.png'
+												src='images/papers/longo2019.webp'
 												alt=''>
 											<b>Imaging tumor acidosis: a survey of the available
 												techniques for mapping in vivo tumor pH.</b> <span
@@ -424,7 +424,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30377745'
 											target='_blank'>
 											<img
-												src='images/papers/gianolio_2018.jpg'
+												src='images/papers/gianolio_2018.webp'
 												alt=''>
 											<b>Gadolinium presence, MRI hyperintensities, and glucose
 												uptake in the hypoperfused rat brain after repeated
@@ -445,7 +445,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30471202'
 											target='_blank'>
 											<img
-												src='images/papers/terreno_2018.jpg'
+												src='images/papers/terreno_2018.webp'
 												alt=''>
 											<b>Indocyanine Green labeling for optical and photoacoustic
 												imaging of Mesenchymal Stem Cells after in vivo
@@ -465,7 +465,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30087935'
 											target='_blank'>
 											<img
-												src='images/papers/geninatti_2018.jpg'
+												src='images/papers/geninatti_2018.webp'
 												alt=''>
 											<b>Efficient Route to Label Mesenchymal Stromal Cell-Derived
 												Extracellular Vesicles.</b> <span class='w3-text-blue'> <b>Geninatti
@@ -486,7 +486,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30248218'
 											target='_blank'>
 											<img
-												src='images/papers/reineri_2018.jpg'
+												src='images/papers/reineri_2018.webp'
 												alt=''>
 											<b>Metabolic Studies of Tumor Cells Using [1-<sup>13</sup> C]
 												Pyruvate Hyperpolarized by Means of PHIP-Side Arm
@@ -507,7 +507,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/29411832'
 											target='_blank'>
 											<img
-												src='images/papers/dellicastelli_2018.jpg'
+												src='images/papers/dellicastelli_2018.webp'
 												alt=''>
 											<b>[Yb(AAZTA)(H<sub>2</sub>O)]-: an unconventional ParaCEST
 												MRI probe.
@@ -527,7 +527,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30257047'
 											target='_blank'>
 											<img
-												src='images/papers/stefania_2018.jpg'
+												src='images/papers/stefania_2018.webp'
 												alt=''>
 											<b>An efficient MRI agent targeting extracellular markers in
 												prostate adenocarcinoma.</b> <span class='w3-text-blue'> <br>
@@ -549,7 +549,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/29963255'
 											target='_blank'>
 											<img
-												src='images/papers/cutrin_2018.jpg'
+												src='images/papers/cutrin_2018.webp'
 												alt=''>
 											<b>Cancer cell death induced by ferritins and the peculiar
 												role of their labile iron pool.</b> <span
