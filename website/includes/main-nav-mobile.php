@@ -6,7 +6,7 @@
           <label class='menu-icon' for='menu-btn'><span class='navicon'></span></label>
           <ul class='menu'>
             <li><a href='" . $localizer . "index.php'>HOME</a></li>
-            <li><a href='" . $localizer . "staff.php'>STAFF</a></li>
+            <li><a href='" . $localizer . "people.php'>PEOPLE</a></li>
             <li><a href='" . $localizer . "research.php'>RESEARCH</a></li>
             <li><a href='" . $localizer . "events.php'>EVENTS</a></li>
             <li><a href='" . $localizer . "facilities/index.php'>FACILITIES</a></li>

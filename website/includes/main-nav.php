@@ -6,7 +6,7 @@
 					<a href='".$localizer."index.php'>HOME</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section8'>
-					<a href='".$localizer."staff.php'>STAFF</a>
+					<a href='".$localizer."people.php'>PEOPLE</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section1'>
 					<a href='".$localizer."research.php'>RESEARCH</a>

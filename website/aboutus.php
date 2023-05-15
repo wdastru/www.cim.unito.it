@@ -52,19 +52,15 @@
 					<div class='band'>
 						<h1
 							class='subsectionTitle'
-							id='leadership'>
+							id='director'>
 							<!-- InstanceBeginEditable name='subsection title' -->
-							Leadership
+							Director
 							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<div
-							class='w3-header w3-left'
-							style='margin-left: 30px;'>
-							<h3>Director</h3>
-						</div>
 						<div class='w3-cell-row'>
+							<h1>Prof. Silvio Aime</h1>
 							<div id='aboutus_leader_img'>
 								<a
 									href='http://www.dbmss.unito.it/do/docenti.pl/Alias?silvio.aime#profilo'
@@ -74,7 +70,6 @@
 											src='images/staff/silvio_aime.jpg'
 											alt=''
 											class='w3-image-left'>
-										<figcaption>Silvio Aime, PhD</figcaption>
 									</figure>
 								</a>
 								<ul>
@@ -87,17 +82,24 @@
 								</ul>
 							</div>
 							<div id='aboutus_leader_desc'>
-								<h1>Prof. Silvio Aime</h1>
 								<p>
 									<b>Silvio Aime is a recognized expert on molecular imaging with
 										NMR (paramagnetic complexes, nanoparticles, CEST agents,
 										targeting and responsive probes, hyperpolarized Para-Hydrogen
-										containing molecules); Head of the Center of Molecular Imaging
-										of the University of Torino. Recent awards: World Molecular
-										Imaging Society Gold Medal Awar, Fischer Award for Contrast
-										Media Research, Gold Medal Amedeo Avogadro from the Italian
-										Chemical Society. Author of more than 600 papers (h-index 63)
-										and 27 patents.</b>
+										containing molecules); Founder of the Center of Molecular
+										Imaging of the University of Torino. Awards: World Molecular
+										Imaging Society Gold Medal, Fischer Award for Contrast Media
+										Research, Gold Medal Amedeo Avogadro from the Italian Chemical
+										Society, European Society for Molecular Imaging Award.<br>
+										Author of more than 800 papers (h-index 93) and 27 patents. <br>
+									<br> <a
+											title="Open in a new window"
+											href="https://scholar.google.com/citations?user=85uyGDsAAAAJ&hl=en&view_op=list_works&sortby=pubdate"
+											target="_blank">List of publications (Google Scholar)</a> <br>
+										<a
+											href='<?php echo $localizer; ?>documenti/CV_SilvioAime-2023.doc'
+											download>Download Curriculum Vitae</a>
+									</b>
 								</p>
 							</div>
 						</div>

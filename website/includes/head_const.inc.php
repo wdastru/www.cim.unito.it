@@ -1,6 +1,6 @@
 <?php
 
-require($localizer . 'includes/jQuery.php');
+//require($localizer . 'includes/jQuery.php');
 
 echo "
     <meta name='google-site-verification' content='RsmlDknrhivOhzQGwXW9Sid2Sc0jYONqYQJWB795-oQ' >
@@ -11,7 +11,7 @@ echo "
     <meta name='robots' content='index, follow' >
     <link href='" . $localizer . "stylesheet.css' rel='stylesheet' >
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' >
-    <script src='" . $localizer . "jquery.cycle2.min.js'></script>
+    <!--<script src='" . $localizer . "jquery.cycle2.min.js'></script>-->
     <script src='" . $localizer . "script.js'></script>
 
     <!-- Google tag (gtag.js) -->
