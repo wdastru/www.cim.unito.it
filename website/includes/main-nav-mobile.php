@@ -1,7 +1,7 @@
 <?php
 	echo "
     	<div id='header-mobile'>
-          <a href='' class='logo'>Molecular Imaging Center</a>
+          <a href='" . $localizer . "index.php' class='logo'>Molecular Imaging Center</a>
           <input class='menu-btn' type='checkbox' id='menu-btn'>
           <label class='menu-icon' for='menu-btn'><span class='navicon'></span></label>
           <ul class='menu'>

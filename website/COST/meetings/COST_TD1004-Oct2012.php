@@ -654,6 +654,7 @@
 			
 			</p>
 			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
+			<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
 		</div>
 		<!-- section closing -->
 	</div>

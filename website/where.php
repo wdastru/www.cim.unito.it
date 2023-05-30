@@ -5,6 +5,9 @@
 <head>
         <?php require $localizer . 'includes/head_const_new.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino - Where we are</title>
+<meta
+	name='description'
+	content='Where you can find the Molecular Imaging Center'>
 </head>
 <body>
 	<div id='section0'>
@@ -47,6 +50,7 @@
 				Fax. Tel. Mail
 			</p>
                 <?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
+                <?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
             </div>
 		<!-- section closing -->
 	</div>

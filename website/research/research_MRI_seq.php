@@ -3,18 +3,15 @@
 <html lang="en">
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-            
-        <?php
-        require $localizer . 'includes/head_const_new.inc.php';
-        ?>
-        <script src='<?php echo $localizer ?>scripts/hideAndShowHiddenBoxes.js'></script>
-        <title>Molecular Imaging Center - University of Torino - MRI
-	sequences</title>
+    <?php
+    require $localizer . 'includes/head_const_new.inc.php';
+    ?>
+    <script
+	src='<?php echo $localizer ?>scripts/hideAndShowHiddenBoxes.js'></script>
+<title>Molecular Imaging Center - University of Torino - MRI sequences</title>
 <meta
 	name="description"
-	content="">
+	content="MRI sequences developed at the Molecular Imaging Center">
 </head>
 <body>
 	<div
@@ -314,8 +311,9 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-		</div>
+				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
+				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+			</div>
 			<!-- subsection closing -->
 		</div>
 		<!-- section closing -->
