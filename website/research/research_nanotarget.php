@@ -84,7 +84,7 @@
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.jpg">
+								src="../images/staff/terreno.webp">
 						</a>
 						<a
 							href="../staff/staff_stefania.php"
@@ -93,7 +93,7 @@
 							<img
 								alt="Rachele Stefania"
 								class="group-leaders-img"
-								src="../images/staff/stefania.jpg">
+								src="../images/staff/stefania.webp">
 						</a>
 						<a
 							href="../staff/staff_ferrauto.php"
@@ -102,7 +102,7 @@
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.jpg">
+								src="../images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

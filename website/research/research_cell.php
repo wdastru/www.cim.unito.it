@@ -115,7 +115,7 @@
 							<img
 								alt="Simonetta Geninatti Crich"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.jpg">
+								src="../images/staff/geninatti_crich.webp">
 						</a>
 						<a
 							href="../PI/Terreno/home.php"
@@ -124,7 +124,7 @@
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.jpg">
+								src="../images/staff/terreno.webp">
 						</a>
 						<a
 							href="../staff/staff_ferrauto.php"
@@ -133,7 +133,7 @@
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.jpg">
+								src="../images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

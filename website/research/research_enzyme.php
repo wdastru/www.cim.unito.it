@@ -47,7 +47,7 @@
 							<img
 								alt="Giuseppe Digilio"
 								class="group-leaders-img"
-								src="../images/staff/digilio.jpg">
+								src="../images/staff/digilio.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

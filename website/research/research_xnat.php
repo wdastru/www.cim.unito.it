@@ -314,7 +314,7 @@
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="../images/staff/Dario_Longo.jpg">
+								src="../images/staff/Dario_Longo.webp">
 						</a>
 						<a
 							href="#"
@@ -323,7 +323,7 @@
 							<img
 								alt="Walter Dastr&ugrave;"
 								class="group-leaders-img"
-								src="../images/staff/dastru.jpg">
+								src="../images/staff/dastru.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

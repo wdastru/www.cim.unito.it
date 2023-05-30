@@ -9,6 +9,7 @@
         <?php
         require $localizer . 'includes/head_const_new.inc.php';
         ?>
+        <script src='<?php echo $localizer ?>scripts/hideAndShowHiddenBoxes.js'></script>
         <title>Molecular Imaging Center - University of Torino - MRI
 	sequences</title>
 <meta
@@ -22,7 +23,7 @@
 		<form
 			class='table'
 			method="post"
-			action="<?php echo $localizer . 'research/MRI_sequences/sequence_request_validator.php' ?>">
+			action="<?php echo $localizer . 'research/MRI_sequences/sequence_request_validator.php'; ?>">
 			<div class='tableRow'>
 				<label
 					class='tableCell firstCol'
@@ -291,7 +292,7 @@
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="../images/staff/Dario_Longo.jpg">
+								src="../images/staff/Dario_Longo.webp">
 						</a>
 						<a
 							href="#"
@@ -300,7 +301,7 @@
 							<img
 								alt="Walter Dastr&ugrave;"
 								class="group-leaders-img"
-								src="../images/staff/dastru.jpg">
+								src="../images/staff/dastru.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>
@@ -321,10 +322,8 @@
 	</div>
 	<!-- section closing -->
 	<script>
-            //<![CDATA[
-            changeSideNavStyles();
-            //]]>
-        </script>
+        changeSideNavStyles();
+    </script>
 	<!-- InstanceEnd -->
 </body>
 </html>

@@ -101,7 +101,7 @@
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="../images/staff/Dario_Longo.jpg">
+								src="../images/staff/Dario_Longo.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

@@ -105,7 +105,7 @@
 							<img
 								alt="Simonetta Geninatti Crich"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.jpg">
+								src="../images/staff/geninatti_crich.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

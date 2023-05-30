@@ -66,7 +66,7 @@
 							<img
 								alt="Simonetta Geninatti Crich"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.jpg">
+								src="../images/staff/geninatti_crich.webp">
 						</a>
 						<a
 							href="#"
@@ -75,7 +75,7 @@
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="../images/staff/dellicastelli.jpg">
+								src="../images/staff/dellicastelli.webp">
 						</a>
 						<a
 							href="../staff/staff_ferrauto.php"
@@ -84,7 +84,7 @@
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.jpg">
+								src="../images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

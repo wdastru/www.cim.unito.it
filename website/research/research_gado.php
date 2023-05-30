@@ -101,7 +101,7 @@
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.jpg">
+								src="../images/staff/terreno.webp">
 						</a>
 						<a
 							href="../PI/Gianolio/home.html"
@@ -110,7 +110,7 @@
 							<img
 								alt="Eliana Gianolio"
 								class="group-leaders-img"
-								src="../images/staff/gianolio.jpg">
+								src="../images/staff/gianolio.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

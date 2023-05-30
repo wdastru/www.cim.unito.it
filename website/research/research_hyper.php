@@ -231,7 +231,7 @@
 							<img
 								alt="Francesca Reineri"
 								class="group-leaders-img"
-								src="../images/staff/reineri.jpg">
+								src="../images/staff/reineri.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

@@ -104,7 +104,7 @@
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="../images/staff/Dario_Longo.jpg">
+								src="../images/staff/Dario_Longo.webp">
 						</a>
 						<a
 							href="../staff/staff_ferrauto.php"
@@ -113,7 +113,7 @@
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.jpg">
+								src="../images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

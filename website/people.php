@@ -4,10 +4,13 @@
 <!-- InstanceBegin template='/Templates/home.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
 	<?php require $localizer . 'includes/head_const_new.inc.php'?>
-<title>Molecular Imaging Center - University of Torino - Staff</title>
+<title>Molecular Imaging Center - University of Torino - People</title>
 <link
 	rel='stylesheet'
 	href='square.css'>
+<meta
+	name='description'
+	content='The people that works at the Molecular Imaging Center'>
 </head>
 <body>
 	<div id='section8'>
@@ -20,7 +23,9 @@
 			<div id='content-nosidebar'>
 				<div class='paddingOuter'>
 					<div class='band'>
-						<h1 class='subsectionTitle' id='staff_institution_1'>
+						<h1
+							class='subsectionTitle'
+							id='staff_institution_1'>
 							<!-- InstanceBeginEditable name='subsection title' -->
 							University of Torino
 							<!-- InstanceEndEditable -->
@@ -31,7 +36,7 @@
 							<span id='staff_title_1'>Research Group Leaders</span>
 						</h1>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/aime.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/aime.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -41,7 +46,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/terreno.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/terreno.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -52,7 +57,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/geninatti_crich.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/geninatti_crich.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -63,7 +68,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/gianolio.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/gianolio.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -74,7 +79,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dastru.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dastru.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -85,7 +90,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/reineri.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/reineri.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -96,7 +101,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dellicastelli.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dellicastelli.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -107,7 +112,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/viale.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/viale.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -118,7 +123,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/cutrin.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/cutrin.webp);'>
 								<div>
 									<a
 										title='Homepage'
@@ -129,7 +134,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/ferrauto.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/ferrauto.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -145,7 +150,7 @@
 							<span id='staff_title_2'>Senior Research Scientists</span>
 						</h1>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/baroni.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/baroni.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -156,7 +161,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/stefania.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/stefania.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -167,7 +172,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/alberti.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/alberti.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -183,7 +188,7 @@
 							<span id='staff_title_3'>Post Doctoral Research Fellows</span>
 						</h1>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/anemone.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/anemone.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -194,7 +199,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/ruggiero.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/ruggiero.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -205,7 +210,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/garello.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/garello.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -216,7 +221,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/digregorio.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/digregorio.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -228,7 +233,7 @@
 								</div>
 							</li>
 							<li
-								class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/cavallari.jpg);'>
+								class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/cavallari.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -239,7 +244,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/capozza.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/capozza.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -250,7 +255,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/zullino.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/zullino.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -261,7 +266,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/romdhane.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/romdhane.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -272,7 +277,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tear.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tear.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -288,7 +293,7 @@
 							<span id='staff_title_4'>PhD and Graduate Students</span>
 						</h1>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/hawala.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/hawala.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -299,7 +304,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bitonto.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bitonto.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -310,7 +315,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tripepi.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tripepi.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -321,7 +326,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/patrucco.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/patrucco.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -332,7 +337,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/irrera.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/irrera.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -343,7 +348,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/fatehbasharzad.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/fatehbasharzad.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -354,7 +359,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/sforzi.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/sforzi.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -365,7 +370,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/furlan.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/furlan.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -376,7 +381,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/palagi.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/palagi.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -387,7 +392,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dhakan.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dhakan.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -398,7 +403,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bondar.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bondar.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -409,7 +414,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/villano.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/villano.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -424,14 +429,16 @@
 					</div>
 					<div class='paddingInner'>
 						<div class='band'>
-							<h1 class='subsectionTitle' id='staff_institution_2'>Institute of Biostructures and
+							<h1
+								class='subsectionTitle'
+								id='staff_institution_2'>Institute of Biostructures and
 								Bioimaging (CNR)</h1>
 						</div>
 						<h1>
 							<span id='staff_title_5'>Research Group Leaders</span>
 						</h1>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/Dario_Longo.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/Dario_Longo.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -442,7 +449,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/menchise.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/menchise.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -453,7 +460,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dandrea.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dandrea.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -469,7 +476,7 @@
 							<span id='staff_title_6'>Senior Research Scientists</span>
 						</h1>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/padovan.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/padovan.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -480,7 +487,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/carrera.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/carrera.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -493,11 +500,10 @@
 							</li>
 						</ul>
 						<h1>
-							<span id='staff_title_7'>Post Doctoral, PhD and Graduate
-								Students</span>
+							<span id='staff_title_7'>Post Doctoral, PhD and Graduate Students</span>
 						</h1>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/carella.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/carella.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -508,7 +514,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/corrado.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/corrado.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -523,11 +529,13 @@
 					</div>
 					<div class='paddingInner'>
 						<div class='band'>
-							<h1 class='subsectionTitle' id='staff_institution_3'>University of Eastern Piedmont Amedeo
+							<h1
+								class='subsectionTitle'
+								id='staff_institution_3'>University of Eastern Piedmont Amedeo
 								Avogadro</h1>
 						</div>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/botta.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/botta.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -538,7 +546,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tei.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/tei.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -549,7 +557,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/digilio.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/digilio.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -564,10 +572,12 @@
 					</div>
 					<div class='paddingInner'>
 						<div class='band'>
-							<h1 class='subsectionTitle' id='staff_institution_4'>Former Members</h1>
+							<h1
+								class='subsectionTitle'
+								id='staff_institution_4'>Former Members</h1>
 						</div>
 						<ul class='staff'>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/arena.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/arena.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -578,7 +588,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/capuana.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/capuana.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -589,7 +599,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/atlante.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/atlante.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -600,7 +610,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/consolino.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/consolino.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -611,7 +621,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/pagoto.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/pagoto.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -622,7 +632,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/paglialonga.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/paglialonga.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -633,7 +643,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/spatola.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/spatola.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -644,7 +654,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bhavnarani.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bhavnarani.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -655,7 +665,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bardini.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/bardini.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -666,7 +676,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/barale.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/barale.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -677,7 +687,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/marini.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/marini.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -688,7 +698,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/galati.jpg);'>
+							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/galati.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -711,21 +721,10 @@
 				</p>
         		<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
         	</div>
-			<!-- section closing -->
 		</div>
-		<!-- section closing -->
 	</div>
 	<script>
-			//<![CDATA[
-			changeSideNavStyles();
-			//]]>
-		</script>
-	<!-- <script type='text/javascript'>
-			//<![CDATA[
-			fillStaffContainer();
-			//]]>
-		</script>
-		 -->
-	<!-- InstanceEnd -->
+		changeSideNavStyles();
+	</script>
 </body>
 </html>

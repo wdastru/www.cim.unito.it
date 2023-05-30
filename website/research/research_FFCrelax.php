@@ -75,7 +75,7 @@
 							<img
 								alt="Simonetta Geninatti Crich"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.jpg">
+								src="../images/staff/geninatti_crich.webp">
 						</a>
 						<a
 							href="../PI/Gianolio/home.html"
@@ -84,7 +84,7 @@
 							<img
 								alt="Eliana Gianolio"
 								class="group-leaders-img"
-								src="../images/staff/gianolio.jpg">
+								src="../images/staff/gianolio.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

@@ -5,6 +5,9 @@
 <head>
         <?php require $localizer . 'includes/head_const_new.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino - About Us</title>
+<meta
+	name='description'
+	content='Information about the Molecular Imaging Center and its Director'>
 </head>
 <body>
 	<div id='section0'>
@@ -67,7 +70,7 @@
 									target='_blank'>
 									<figure>
 										<img
-											src='images/staff/silvio_aime.jpg'
+											src='images/staff/silvio_aime.webp'
 											alt=''
 											class='w3-image-left'>
 									</figure>
@@ -92,7 +95,7 @@
 										Research, Gold Medal Amedeo Avogadro from the Italian Chemical
 										Society, European Society for Molecular Imaging Award.<br>
 										Author of more than 800 papers (h-index 93) and 27 patents. <br>
-									<br> <a
+										<br> <a
 											title="Open in a new window"
 											href="https://scholar.google.com/citations?user=85uyGDsAAAAJ&hl=en&view_op=list_works&sortby=pubdate"
 											target="_blank">List of publications (Google Scholar)</a> <br>

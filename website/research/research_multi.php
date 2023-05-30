@@ -86,7 +86,7 @@
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.jpg">
+								src="../images/staff/terreno.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

@@ -116,7 +116,7 @@
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.jpg">
+								src="../images/staff/terreno.webp">
 						</a>
 						<a
 							href="#"
@@ -125,7 +125,7 @@
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="../images/staff/dellicastelli.jpg">
+								src="../images/staff/dellicastelli.webp">
 						</a>
 						<a
 							href="../PI/Longo/home.php"
@@ -134,7 +134,7 @@
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="../images/staff/Dario_Longo.jpg">
+								src="../images/staff/Dario_Longo.webp">
 						</a>
 						<a
 							href="../staff/staff_ferrauto.php"
@@ -143,7 +143,7 @@
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.jpg">
+								src="../images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

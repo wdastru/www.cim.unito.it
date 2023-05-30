@@ -89,7 +89,7 @@
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.jpg">
+								src="../images/staff/terreno.webp">
 						</a>
 						<a
 							href="../PI/Geninatti/home.html"
@@ -98,7 +98,7 @@
 							<img
 								alt="Simonetta Geninatti"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.jpg">
+								src="../images/staff/geninatti_crich.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

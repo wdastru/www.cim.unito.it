@@ -90,7 +90,7 @@
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="../images/staff/Dario_Longo.jpg">
+								src="../images/staff/Dario_Longo.webp">
 						</a>
 						<a
 							href="#"
@@ -99,7 +99,7 @@
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="../images/staff/dellicastelli.jpg">
+								src="../images/staff/dellicastelli.webp">
 						</a>
 						<a
 							href="../staff/staff_digilio.php"
@@ -107,7 +107,7 @@
 							<img
 								alt="Giuseppe Digilio"
 								class="group-leaders-img"
-								src="../images/staff/digilio.jpg">
+								src="../images/staff/digilio.webp">
 						</a>
 						<a
 							href="../PI/Gianolio/home.html"
@@ -116,7 +116,7 @@
 							<img
 								alt="Eliana Gianolio"
 								class="group-leaders-img"
-								src="../images/staff/gianolio.jpg">
+								src="../images/staff/gianolio.webp">
 						</a>
 						<a
 							href="../staff/staff_ferrauto.php"
@@ -125,7 +125,7 @@
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.jpg">
+								src="../images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

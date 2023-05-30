@@ -95,7 +95,7 @@
 							<img
 								alt="Juan Carlos Cutrin"
 								class="group-leaders-img"
-								src="../images/staff/cutrin.jpg">
+								src="../images/staff/cutrin.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

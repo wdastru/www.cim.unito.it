@@ -130,7 +130,7 @@
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.jpg">
+								src="../images/staff/terreno.webp">
 						</a>
 						<a
 							href="#"
@@ -139,7 +139,7 @@
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="../images/staff/dellicastelli.jpg">
+								src="../images/staff/dellicastelli.webp">
 						</a>
 						<a
 							href="../staff/staff_menchise.php"
@@ -147,7 +147,7 @@
 							<img
 								alt="Valeria Menchise"
 								class="group-leaders-img"
-								src="../images/staff/menchise.jpg">
+								src="../images/staff/menchise.webp">
 						</a>
 						<a
 							href="#"
@@ -156,7 +156,7 @@
 							<img
 								alt="Walter Dastr&ugrave;"
 								class="group-leaders-img"
-								src="../images/staff/dastru.jpg">
+								src="../images/staff/dastru.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

@@ -86,7 +86,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_theranostic.jpg'
+											src='images/research/figure_research_theranostic.webp'
 											alt='Theranostic dendrimersomes'
 											style='width: 100%'>
 									</a>
@@ -100,7 +100,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_CEST.jpg'
+											src='images/research/figure_research_CEST.webp'
 											alt='Graphic representing DIACEST, PARACEST and LIPOCEST agents'
 											style='width: 100%'>
 									</a>
@@ -114,7 +114,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_enzyme.jpg'
+											src='images/research/figure_research_enzyme.webp'
 											alt='Scheme representing the action of an enzyme to form a product by connecting two substrates togheter'
 											style='width: 100%'>
 									</a>
@@ -130,7 +130,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_cell_labeling.jpg'
+											src='images/research/figure_research_cell_labeling.webp'
 											alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell'
 											style='width: 100%'>
 									</a>
@@ -144,7 +144,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_angiogenesis.jpg'
+											src='images/research/figure_research_angiogenesis.webp'
 											alt='Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel'
 											style='width: 100%'>
 									</a>
@@ -158,7 +158,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_tumor_acidosis.jpg'
+											src='images/research/figure_research_tumor_acidosis.webp'
 											alt='Scheme representing some of the methabolism involved in tumor acidosis'
 											style='width: 100%'>
 									</a>
@@ -175,7 +175,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_tumor_metabolism.jpg'
+											src='images/research/figure_research_tumor_metabolism.webp'
 											alt='Scheme representing tumor metabolism'
 											style='width: 100%'>
 									</a>
@@ -200,8 +200,7 @@ header('Content-Type: text/html;charset=UTF-8');
 								<br>
 								<a href='http://www.eurobioimaging.eu/'>
 									<img
-										style='width: 99%'
-										src='images/Euro-Bioimaging-horizontal-RGB-slogan.png'
+										src='images/Euro-Bioimaging-horizontal-RGB-slogan.webp'
 										alt='Euro-BioImaging logo'>
 								</a>
 								<a href='news.php#EuBIlaunch'>
@@ -253,10 +252,13 @@ header('Content-Type: text/html;charset=UTF-8');
 									data-cycle-speed='1000'
 									data-cycle-pause-on-hover='true'>
 									<div>
-										<img
-											style='width: 70%'
-											src='news/glint.svg'
-											alt='GLINT logo'>
+										<a
+											href='http://www.glint-project.eu/'
+											target='_blank'>
+											<img
+												src='news/glint.svg'
+												alt='GLINT logo'>
+										</a>
 										<br> <span>CIM partecipates to the H2020 project <a
 												href='http://www.glint-project.eu/'
 												target='_blank'>
@@ -271,10 +273,13 @@ header('Content-Type: text/html;charset=UTF-8');
 										</p>
 									</div>
 									<div>
-										<img
-											style='width: 70%'
-											src='news/primoGAIA-logo.png'
-											alt='Primo GAIA logo'>
+										<a
+											href='http://www.primogaia.eu/'
+											target='_blank'>
+											<img
+												src='news/primoGAIA-logo.png'
+												alt='Primo GAIA logo'>
+										</a>
 										<br> <span>CIM partecipates to the H2020 project <a
 												href='http://www.primogaia.eu/'
 												target='_blank'>
@@ -299,11 +304,10 @@ header('Content-Type: text/html;charset=UTF-8');
 									<span>EMIM meeting</span>
 								</h3>
 								<br>
-								<img
-									style='width: 99%'
-									src='images/meetings/EMIM_2020.jpg'
-									alt='15th European Molecular Imaging Meeting 2020 image'>
 								<a href='http://www.e-smi.eu/index.php?id=emim-2020'>
+									<img
+										src='images/meetings/EMIM_2020.jpg'
+										alt='15th European Molecular Imaging Meeting 2020 image'>
 									<span class='paperTitle'>15th European Molecular Imaging
 										Meeting</span>
 								</a>
@@ -315,11 +319,10 @@ header('Content-Type: text/html;charset=UTF-8');
 									<span>ISMRM meeting</span>
 								</h3>
 								<br>
-								<img
-									style='width: 99%; max-height: 80px'
-									src='images/meetings/ISMRM_2020.jpg'
+								<a href='https://www.ismrm.org/20m/'><img
+									src='images/meetings/ISMRM_2020.webp'
 									alt='ISMRM 28th Annual Meeting 2020 image'>
-								<a href='https://www.ismrm.org/20m/'>
+								
 									<span class='paperTitle'>ISMRM 28th Annual Meeting 2020</span>
 								</a>
 								<span class='date'> 18-23 April 2020 </span> <span> Sydney,
@@ -330,11 +333,10 @@ header('Content-Type: text/html;charset=UTF-8');
 									<span>WMIC meeting</span>
 								</h3>
 								<br>
-								<img
-									style='width: 99%'
-									src='images/meetings/WMIC-2023-Web-Banner-1-Oct6.jpg'
-									alt='World Molecular Imaging Congress 2023 image'>
 								<a href='https://www.wmis.org/wmic-2023-about/'>
+									<img
+										src='images/meetings/WMIC-2023-Web-Banner-1-Oct6.webp'
+										alt='World Molecular Imaging Congress 2023 image'>
 									<span class='paperTitle'>World Molecular Imaging Congress 2023</span>
 								</a>
 								<span class='date'> 5-9 October 2020 </span> <span> Prague,

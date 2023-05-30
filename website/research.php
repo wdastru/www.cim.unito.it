@@ -51,7 +51,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_synthesis.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_synthesis.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -75,7 +75,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_Gdcomplex.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_Gdcomplex.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -108,7 +108,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_CEST.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_CEST.webp'
 														alt='Graphic representing DIACEST, PARACEST and LIPOCEST agents'
 														class='w3-image-left'>
 												</div>
@@ -150,7 +150,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_hyperpolarized.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_hyperpolarized.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -174,7 +174,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_multimodal.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_multimodal.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -198,7 +198,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_responsive.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_responsive.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -245,7 +245,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_targeting_agents.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_targeting_agents.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -283,7 +283,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_theranostic.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_theranostic.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -318,7 +318,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_Fprobes.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_Fprobes.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -355,7 +355,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_Gd_boron.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_Gd_boron.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -379,7 +379,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_photoacoustic.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_photoacoustic.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -419,7 +419,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_cell_labeling.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_cell_labeling.webp'
 														alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell'
 														class='w3-image-left'>
 												</div>
@@ -454,7 +454,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_angiogenesis.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_angiogenesis.webp'
 														alt='Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel'
 														class='w3-image-left'>
 												</div>
@@ -478,7 +478,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_tumor_acidosis.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_tumor_acidosis.webp'
 														alt='Scheme representing some of the methabolism involved in tumor acidosis'
 														class='w3-image-left'>
 												</div>
@@ -513,7 +513,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_tumor_metabolism.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_tumor_metabolism.webp'
 														alt='Scheme representing tumor metabolism'
 														class='w3-image-left'>
 												</div>
@@ -538,7 +538,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_image_processing.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -562,7 +562,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_theranostic.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_theranostic.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -596,7 +596,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_enzyme.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_enzyme.webp'
 														alt='Scheme representing the action of an enzyme to form a product by connecting two substrates togheter'
 														class='w3-image-left'>
 												</div>
@@ -625,7 +625,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_image_processing.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -654,7 +654,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_Gd_deposition.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_Gd_deposition.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>
@@ -678,7 +678,7 @@
 												</div>
 												<div class='researchImg'>
 													<img
-														src='<?php echo $localizer; ?>images/research/figure_research_image_processing.jpg'
+														src='<?php echo $localizer; ?>images/research/figure_research_image_processing.webp'
 														alt=''
 														class='w3-image-left'>
 												</div>

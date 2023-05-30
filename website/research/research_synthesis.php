@@ -121,7 +121,7 @@
 							<img
 								class="group-leaders-img"
 								alt="Rachele Stefania"
-								src="../images/staff/stefania.jpg">
+								src="../images/staff/stefania.webp">
 						</a>
 						<a
 							href="../staff/staff_tei.php"
@@ -129,7 +129,7 @@
 							<img
 								class="group-leaders-img"
 								alt="Lorenzo Tei"
-								src="../images/staff/tei.jpg">
+								src="../images/staff/tei.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>
