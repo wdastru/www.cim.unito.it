@@ -12,7 +12,7 @@ echo "
     <link href='" . $localizer . "stylesheet.css' rel='stylesheet' >
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' >
     <!--<script src='" . $localizer . "jquery.cycle2.min.js'></script>-->
-    <script src='" . $localizer . "script.js'></script>
+    <script src='" . $localizer . "script.min.js'></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src='https://www.googletagmanager.com/gtag/js?id=G-MP6S1QL319'></script>
