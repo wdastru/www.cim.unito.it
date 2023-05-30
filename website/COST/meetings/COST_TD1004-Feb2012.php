@@ -13,11 +13,6 @@
 	href="<?php echo $localizer; ?>COST/cost.css"
 	rel='stylesheet'
 	type='text/css'>
-<!-- InstanceBeginEditable name="jQuery" -->
-        <?php
-        // require ($localizer . 'includes/jQuery.php');
-        ?>
-        <!-- InstanceEndEditable -->
 </head>
 <body>
 	<div id='section5'>
@@ -166,8 +161,7 @@
 								</ul>
 							</li>
 						</ul>
-						<br>
-						<br>
+						<br> <br>
 					</div>
 				</div>
 				<!-- subsection closing -->
