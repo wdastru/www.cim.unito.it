@@ -8,6 +8,9 @@
 <meta
 	name='description'
 	content='Information about the Molecular Imaging Center and its Director'>
+<link
+	rel="canonical"
+	href="https://www.cim.unito.it/website/index.php">
 </head>
 <body>
 	<div id='section0'>

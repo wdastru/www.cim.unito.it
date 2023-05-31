@@ -12,6 +12,9 @@ header('Content-Type: text/html;charset=UTF-8');
 	name='description'
 	content='Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy.'>
 <title>Molecular Imaging Center - University of Torino</title>
+<link
+	rel="canonical"
+	href="https://www.cim.unito.it/website/index.php">
 </head>
 <body>
 	<div id='section0'>
@@ -131,7 +134,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										<img
 											class='w3-image-box-noshadow'
 											src='images/research/figure_research_cell_labeling.webp'
-											alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell'
+											alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains surrounding a cell'
 											style='width: 100%'>
 									</a>
 								</div>

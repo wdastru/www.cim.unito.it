@@ -8,6 +8,9 @@
 <meta
 	name='description'
 	content='Where you can find the Molecular Imaging Center'>
+<link
+	rel="canonical"
+	href="https://www.cim.unito.it/website/index.php">
 </head>
 <body>
 	<div id='section0'>
