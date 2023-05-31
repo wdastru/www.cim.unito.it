@@ -11,7 +11,6 @@ echo "
     <meta name='robots' content='index, follow' >
     <link href='" . $localizer . "stylesheet.css' rel='stylesheet' >
     <link href='" . $localizer . "images/favicon.gif' rel='icon' type='image/gif' >
-    <!--<script src='" . $localizer . "jquery.cycle2.min.js'></script>-->
     <script src='" . $localizer . "script.min.js'></script>
 
     <!-- Google tag (gtag.js) -->

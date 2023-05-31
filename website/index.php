@@ -241,11 +241,6 @@ header('Content-Type: text/html;charset=UTF-8');
 								<h3 class='punch purple'>
 									<span>Ongoing Projects</span>
 								</h3>
-								<!-- 
-									   Cycle2 slideshow plugin for jQuery
-									   required jquery.cycle2.min.js
-									   from http://jquery.malsup.com/cycle2/
-									-->
 								<div
 									class='cycle-slideshow'
 									data-cycle-fx='fade'
@@ -322,10 +317,10 @@ header('Content-Type: text/html;charset=UTF-8');
 									<span>ISMRM meeting</span>
 								</h3>
 								<br>
-								<a href='https://www.ismrm.org/20m/'><img
-									src='images/meetings/ISMRM_2020.webp'
-									alt='ISMRM 28th Annual Meeting 2020 image'>
-								
+								<a href='https://www.ismrm.org/20m/'>
+									<img
+										src='images/meetings/ISMRM_2020.webp'
+										alt='ISMRM 28th Annual Meeting 2020 image'>
 									<span class='paperTitle'>ISMRM 28th Annual Meeting 2020</span>
 								</a>
 								<span class='date'> 18-23 April 2020 </span> <span> Sydney,
