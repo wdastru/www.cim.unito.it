@@ -1,0 +1,37 @@
+/*@media screen and (min-width: 992px)*/
+#section0, #section1, #section2, #section3, #section4, #section5,
+	#section6, #section7, #section8, #sectionAutoDip {
+	width: 75.00rem;
+}
+
+#publicationsContainer {
+	padding-top: 1.90rem;
+	width: 100%;
+}
+
+#content-larger {
+	float: right;
+	width: 60.00rem;
+	line-height: 1.5rem;
+	padding: 0;
+}
+
+#content-nosidebar {
+	float: right;
+	width: 70.00rem;
+	line-height: 1.5rem;
+	padding: 0;
+}
+
+#main-nav {
+	height: 3.15rem;
+}
+
+#main-nav dt {
+	height: 3.15rem;
+}
+
+#main-nav dt a {
+	height: 3.15rem;
+	line-height: 3.15rem;
+}

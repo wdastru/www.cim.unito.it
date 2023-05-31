@@ -1,0 +1,113 @@
+/* @media screen and (max-width: 736px) */
+[id^="section"] {
+	background-size: 23%;
+}
+
+#section7, #sectionAutoDip {
+	width: 75.00rem;
+}
+
+#section0, #section1, #section2, #section3, #section4, #section5,
+	#section6, #section8 {
+	width: 37.50rem;
+}
+
+[id^="content"] .paddingInner {
+	padding: 0;
+}
+
+ul.research>li.research {
+	width: 180px;
+}
+
+#publicationsContainer {
+	padding-top: 1.90rem;
+}
+
+#content-larger {
+	float: right;
+	width: 60rem;
+	line-height: 1.5rem;
+	padding: 0;
+}
+
+#section0 [id^="subsection"] #content, #section1 [id^="subsection"] #content,
+	#section2 [id^="subsection"] #content, #section3 [id^="subsection"] #content,
+	#section4 [id^="subsection"] #content, #section5 [id^="subsection"] #content
+	{
+	width: 80%;
+}
+
+#section0 [id^="subsection"] #sidebar, #section1 [id^="subsection"] #sidebar,
+	#section2 [id^="subsection"] #sidebar, #section3 [id^="subsection"] #sidebar,
+	#section4 [id^="subsection"] #sidebar, #section5 [id^="subsection"] #sidebar
+	{
+	width: 20%;
+}
+
+#content-nosidebar {
+	float: right;
+	width: 32.5rem;
+	line-height: 1.5rem;
+	padding: 0;
+}
+
+.second_row {
+	float: none !important;
+}
+
+#main-nav {
+	height: 3.15rem;
+}
+
+#main-nav dt {
+	height: 1.57rem;
+}
+
+#main-nav dt a {
+	height: 1.57rem;
+	line-height: 1.57rem;
+}
+
+#section0 #header, #section1 #header, #section2 #header, #section3 #header,
+	#section4 #header, #section5 #header, #section6 #header, #section8 #header
+	{
+	height: 100px;
+}
+
+/* STAFF:PHP styles */
+ul.staff {
+	width: 400px;
+}
+
+li.staff {
+	max-height: 90px;
+	max-width: 90px;
+}
+
+li.staff a {
+	font-size: 0.75rem;
+}
+/* End of STAFF:PHP styles */
+.w3-container .home {
+	padding: 0;
+}
+
+strong#imaging_enzyme_activity_title::before {
+	content: "Enzyme activity";
+}
+
+/* STYLE for index.php */
+div.punch {
+	height: 3.60rem;
+	font-size: 0.90rem;
+}
+
+.home.paddingInner {
+	height: 200px;
+}
+
+.home.cell {
+	margin-top: 1.00rem;
+}
+/* END of STYLE for index.php */
