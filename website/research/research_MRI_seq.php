@@ -7,7 +7,7 @@
     require $localizer . 'includes/head_const_new.inc.php';
     ?>
     <script
-	src='<?php echo $localizer ?>scripts/hideAndShowHiddenBoxes.js'></script>
+	src='<?php echo $localizer ?>minified/js/hideAndShowHiddenBoxes.js'></script>
 <title>Molecular Imaging Center - University of Torino - MRI sequences</title>
 <meta
 	name="description"

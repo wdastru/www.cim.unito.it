@@ -38,10 +38,16 @@ gulp.task('minify-css-Mw-451px.css', function () {
     .pipe(gulp.dest('../website/minified/css/', {overwrite:true}));
 });
 
+gulp.task('minify-js-hideAndShowHiddenBoxes', function () {
+  return gulp.src('../website/scripts/hideAndShowHiddenBoxes.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('../website/minified/js/', {overwrite:true}));
+});
+
 gulp.task('minify-js-script', function () {
   return gulp.src('../website/script.js')
     .pipe(uglify())
     .pipe(gulp.dest('../website/minified/js/', {overwrite:true}));
 });
 
-gulp.task('default', gulp.series('minify-js-script', 'minify-css-stylesheet', 'minify-css-w3', 'minify-css-mw-992px', 'minify-css-Mw-991px-mw-737px.css', 'minify-css-Mw-736px.css', 'minify-css-Mw-451px.css'));
+gulp.task('default', gulp.series('minify-css-stylesheet', 'minify-css-w3', 'minify-css-mw-992px', 'minify-css-Mw-991px-mw-737px.css', 'minify-css-Mw-736px.css', 'minify-css-Mw-451px.css', 'minify-js-script', 'minify-js-hideAndShowHiddenBoxes'));
