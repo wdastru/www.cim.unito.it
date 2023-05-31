@@ -1,43 +1,43 @@
 // JavaScript Document
-section = Array(10);
-section[0] = 'section0';
-section[1] = 'section1';
-section[2] = 'section2';
-section[3] = 'section3';
-section[4] = 'section4';
-section[5] = 'section5';
-section[6] = 'section6';
-section[7] = 'section7';
-section[8] = 'section8';
-section[9] = 'section9';
+s = Array(10);
+s[0] = 'section0';
+s[1] = 'section1';
+s[2] = 'section2';
+s[3] = 'section3';
+s[4] = 'section4';
+s[5] = 'section5';
+s[6] = 'section6';
+s[7] = 'section7';
+s[8] = 'section8';
+s[9] = 'section9';
 
-subsection = Array(25);
-subsection[0] = 'subsection0';
-subsection[1] = 'subsection1';
-subsection[2] = 'subsection2';
-subsection[3] = 'subsection3';
-subsection[4] = 'subsection4';
-subsection[5] = 'subsection5';
-subsection[6] = 'subsection6';
-subsection[7] = 'subsection7';
-subsection[8] = 'subsection8';
-subsection[9] = 'subsection9';
-subsection[10] = 'subsection10';
-subsection[11] = 'subsection11';
-subsection[12] = 'subsection12';
-subsection[13] = 'subsection13';
-subsection[14] = 'subsection14';
-subsection[15] = 'subsection15';
-subsection[16] = 'subsection16';
-subsection[17] = 'subsection17';
-subsection[18] = 'subsection18';
-subsection[19] = 'subsection19';
-subsection[20] = 'subsection20';
-subsection[21] = 'subsection21';
-subsection[22] = 'subsection22';
-subsection[23] = 'subsection23';
-subsection[24] = 'subsection24';
-subsection[25] = 'subsection25';
+ss = Array(25);
+ss[0] = 'subsection0';
+ss[1] = 'subsection1';
+ss[2] = 'subsection2';
+ss[3] = 'subsection3';
+ss[4] = 'subsection4';
+ss[5] = 'subsection5';
+ss[6] = 'subsection6';
+ss[7] = 'subsection7';
+ss[8] = 'subsection8';
+ss[9] = 'subsection9';
+ss[10] = 'subsection10';
+ss[11] = 'subsection11';
+ss[12] = 'subsection12';
+ss[13] = 'subsection13';
+ss[14] = 'subsection14';
+ss[15] = 'subsection15';
+ss[16] = 'subsection16';
+ss[17] = 'subsection17';
+ss[18] = 'subsection18';
+ss[19] = 'subsection19';
+ss[20] = 'subsection20';
+ss[21] = 'subsection21';
+ss[22] = 'subsection22';
+ss[23] = 'subsection23';
+ss[24] = 'subsection24';
+ss[25] = 'subsection25';
 
 d = new Date();
 curr_year = d.getFullYear();
@@ -84,37 +84,6 @@ function toggle_vis(name) {
 		alert(":( DOM NON Supportato!");
 	}
 }
-/*
-function showFormBox(id)  {
-	if (document.getElementById) {
-		const hiddenBox = document.getElementById('hiddenBox');
-		const cssObj = window.getComputedStyle(hiddenBox, null);
-		let visibility = cssObj.getPropertyValue("visibility");
-		
-		if (visibility == 'hidden') {
-			hiddenSeqNameInput.value = id;
-			hiddenBox.style.display = 'block';
-			hiddenBox.style.visibility = 'visible';
-		}
-	} else {
-		alert(":( DOM NON Supportato!");
-	}
-}
-
-function hideFormBox()  {
-	if (document.getElementById) {
-		var hiddenBox = document.getElementById('hiddenBox');
-		var visibility = hiddenBox.style.visibility;
-		
-		if (visibility == 'visible') {
-			hiddenBox.style.display = 'none';
-			hiddenBox.style.visibility = 'hidden';
-		}
-	} else {
-		alert(":( DOM NON Supportato!");
-	}
-}
-*/
 function toggleAbstract(button) {
 	if (document.getElementsByTagName) {
 		var parent = button.parentNode;
@@ -134,12 +103,12 @@ function toggleAbstract(button) {
 
 function changeSideNavStyles() {
 	if (document.getElementById) {
-		for ( var i = 0; i < section.length; i++) {
-			for ( var j = 0; j < subsection.length; j++) {
-				if ((document.getElementById(section[i]) != null)
-						&& (document.getElementById(subsection[j]) != null)) {
-					for ( var k = 0; k < subsection.length; k++) {
-						var id = section[i] + '-' + subsection[k];
+		for ( var i = 0; i < s.length; i++) {
+			for ( var j = 0; j < ss.length; j++) {
+				if ((document.getElementById(s[i]) != null)
+						&& (document.getElementById(ss[j]) != null)) {
+					for ( var k = 0; k < ss.length; k++) {
+						var id = s[i] + '-' + ss[k];
 						if (document.getElementById(id) != null) {
 							if (k == j) {
 								
@@ -219,7 +188,7 @@ function loadTextDoc(dname) {
 	xhttp.send("");
 	return xhttp.responseText;
 }
-function displayResult(year, subSection) {
+function displayResult(year, ss) {
 	var xml = loadXMLDoc("bibliografia.xml");
 	var xslFile = 'papers_' + year + '.xsl';
 	var xsl = loadXMLDoc(xslFile);
@@ -239,10 +208,10 @@ function displayResult(year, subSection) {
 	}
 
 	if (document.getElementById('pubSubSectOpen') != null)
-		document.getElementById('pubSubSectOpen').id = subsection[subSection];
-	for ( var i = 0; i < subsection.length; i++) {
-		if (document.getElementById(subsection[i]) != null)
-			document.getElementById(subsection[i]).id = subsection[subSection];
+		document.getElementById('pubSubSectOpen').id = ss[ss];
+	for ( var i = 0; i < ss.length; i++) {
+		if (document.getElementById(ss[i]) != null)
+			document.getElementById(ss[i]).id = ss[ss];
 	}
 
 	changeSideNavStyles();
