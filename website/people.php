@@ -460,7 +460,7 @@
 									</a>
 								</div>
 							</li>
-							<li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dandrea.webp);'>
+							<!-- <li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dandrea.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -470,7 +470,7 @@
 											Researcher</span>
 									</a>
 								</div>
-							</li>
+							</li> -->
 						</ul>
 						<h1>
 							<span id='staff_title_6'>Senior Research Scientists</span>
