@@ -197,9 +197,9 @@ header('Content-Type: text/html;charset=UTF-8');
 					<div class='paddingInner'>
 						<div class='home row'>
 							<div class='home cell'>
-								<h3 class='punch purple'>
+								<h2 class='punch purple'>
 									<span>Euro-BioImaging</span>
-								</h3>
+								</h2>
 								<br>
 								<a href='http://www.eurobioimaging.eu/'>
 									<img
@@ -223,9 +223,9 @@ header('Content-Type: text/html;charset=UTF-8');
 								</p>
 							</div>
 							<div class='home cell'>
-								<h3 class='punch purple'>
+								<h2 class='punch purple'>
 									<span>COST Actions</span>
-								</h3>
+								</h2>
 								<span><b>COST Actions CA15209 - Eurelax</b></span> <br> <span>&quot;European
 									Network on NMR Relaxometry&quot;</span> <br> <br> <span><b>COST
 										Actions CA16103 - Parenchima</b></span><br> <span>&quot;Magnetic
@@ -238,9 +238,9 @@ header('Content-Type: text/html;charset=UTF-8');
 								</p>
 							</div>
 							<div class='home cell'>
-								<h3 class='punch purple'>
+								<h2 class='punch purple'>
 									<span>Ongoing Projects</span>
-								</h3>
+								</h2>
 								<div
 									class='cycle-slideshow'
 									data-cycle-fx='fade'
@@ -298,9 +298,9 @@ header('Content-Type: text/html;charset=UTF-8');
 						</div>
 						<div class='home row'>
 							<div class='home cell'>
-								<h3 class='punch orange'>
+								<h2 class='punch orange'>
 									<span>EMIM meeting</span>
-								</h3>
+								</h2>
 								<br>
 								<a href='http://www.e-smi.eu/index.php?id=emim-2020'>
 									<img
@@ -313,9 +313,9 @@ header('Content-Type: text/html;charset=UTF-8');
 									Thessaloniki, Greece</span>
 							</div>
 							<div class='home cell'>
-								<h3 class='punch orange'>
+								<h2 class='punch orange'>
 									<span>ISMRM meeting</span>
-								</h3>
+								</h2>
 								<br>
 								<a href='https://www.ismrm.org/20m/'>
 									<img
@@ -327,9 +327,9 @@ header('Content-Type: text/html;charset=UTF-8');
 									Australia</span>
 							</div>
 							<div class='home cell'>
-								<h3 class='punch orange'>
+								<h2 class='punch orange'>
 									<span>WMIC meeting</span>
-								</h3>
+								</h2>
 								<br>
 								<a href='https://www.wmis.org/wmic-2023-about/'>
 									<img
@@ -350,6 +350,129 @@ header('Content-Type: text/html;charset=UTF-8');
 						</h1>
 					</div>
 					<div class='paddingInner'>
+						<div class='home row animSlides w3-animate-fading'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
+									<div class='w3-container'>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://pubmed.ncbi.nlm.nih.gov/37345577/
+											target='_blank'>
+											<img
+												src='images/papers/smll202302868-fig-0001-m.webp'
+												alt=''>
+											<b>Novel Nanogels Loaded with Mn(II) Chelates as Effective
+												and Biologically Stable MRI Probes.</b> <br> <span
+												class='w3-text-blue'> <b>Carniato F et al;</b> <br>Small
+												(2023): 2302868.
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class='home cell papers'>
+								<div class='w3-card'>
+									<div class='w3-container'>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://pubmed.ncbi.nlm.nih.gov/37570545/
+											target='_blank'>
+											<img
+												src='images/papers/nanomaterials-13-02227-g001.webp'
+												alt=''>
+											<b>Hard-Shelled Glycol Chitosan Nanoparticles for Dual MRI/US
+												Detection of Drug Delivery/Release: A Proof-of-Concept
+												Study.</b> <br> <span class='w3-text-blue'> <b>Baroni S et
+													al;</b> <br>Nanomaterials (Basel) 2023 Aug 1;13(15):2227
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class='home cell papers'>
+								<div class='w3-card'>
+									<div class='w3-container'>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://pubmed.ncbi.nlm.nih.gov/35745705/
+											target='_blank'>
+											<img
+												src='images/papers/pharmaceutics-14-01132-g002.webp'
+												alt=''>
+											<b>Micro/Nanosystems for Magnetic Targeted Delivery of
+												Bioagents.</b> <br> <span class='w3-text-blue'> <b>Garello F
+													et al;</b> <br>Pharmaceutics . 2022 May 26;14(6):1132.
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='home row animSlides w3-animate-fading'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
+									<div class='w3-container'>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://pubmed.ncbi.nlm.nih.gov/35630601/'
+											target='_blank'>
+											<img
+												src='images/papers/molecules-27-03124-g004.webp'
+												alt=''>
+											<b>Synthetic and Nanotechnological Approaches for a
+												Diagnostic Use of Manganese.</b> <br> <span
+												class='w3-text-blue'> <b>Sguizzato M et al;</b> <br>Molecules
+												. 2022 May 13;27(10):3124.
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class='home cell papers'>
+								<div class='w3-card'>
+									<div class='w3-container'>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://pubmed.ncbi.nlm.nih.gov/35458689/'
+											target='_blank'>
+											<img
+												src='images/papers/molecules-27-02490-ag.webp'
+												alt=''>
+											<b>Effects of Cations on HPTS Fluorescence and Quantification
+												of Free Gadolinium Ions in Solution; Assessment of
+												Intracellular Release of Gd3+ from Gd-Based MRI Contrast
+												Agents.</b> <br> <span class='w3-text-blue'> <b>Scarciglia A
+													et al;</b> <br>Molecules . 2022 Apr 12;27(8):2490
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class='home cell papers'>
+								<div class='w3-card'>
+									<div class='w3-container'>
+										<a
+											title='Open in a new window'
+											class='http'
+											href='https://pubmed.ncbi.nlm.nih.gov/35304674/'
+											target='_blank'>
+											<img
+												src='images/papers/10278_2022_612_Fig1_HTML.webp'
+												alt=''>
+											<b>XNAT-PIC: Extending XNAT to Preclinical Imaging Centers.</b>
+											<br> <span class='w3-text-blue'> <b>Zullino S et al;</b> <br>J
+												Digit Imaging . 2022 Aug;35(4):860-875.
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class='home row animSlides w3-animate-fading'>
 							<div class='home cell papers'>
 								<div class='w3-card'>
@@ -378,27 +501,6 @@ header('Content-Type: text/html;charset=UTF-8');
 										<a
 											title='Open in a new window'
 											class='http'
-											href='https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513'
-											target='_blank'>
-											<img
-												src='images/papers/geninatti_2020_2.webp'
-												alt=''>
-											<b>A novel class of <sup>1</sup>H-MRI Contrast Agents based
-												on the relaxation enhancement induced on water protons by <sup>14</sup>N
-												imidazole moieties.
-											</b> <span class='w3-text-blue'> <br> <b>Geninatti Crich S et
-													al;</b> <br>Angew. Chem. Int. Ed. Accepted
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class='home cell papers'>
-								<div class='w3-card'>
-									<div class='w3-container'>
-										<a
-											title='Open in a new window'
-											class='http'
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30762162'
 											target='_blank'>
 											<img
@@ -413,8 +515,6 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class='home row animSlides w3-animate-fading'>
 							<div class='home cell papers'>
 								<div class='w3-card'>
 									<div class='w3-container'>
@@ -431,6 +531,29 @@ header('Content-Type: text/html;charset=UTF-8');
 												administrations of gadodiamide.</b> <span
 												class='w3-text-blue'> <br> <b>Gianolio E. et al; </b><br>Neuroradiology.
 												2018
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='home row animSlides w3-animate-fading'>
+							<div class='home cell papers'>
+								<div class='w3-card'>
+									<div class='w3-container'>
+										<a
+											'
+											class='http'
+											href='https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513'
+											target='_blank'>
+											<img
+												src='images/papers/geninatti_2020_2.webp'
+												alt=''>
+											<b>A novel class of <sup>1</sup>H-MRI Contrast Agents based
+												on the relaxation enhancement induced on water protons by <sup>14</sup>N
+												imidazole moieties.
+											</b> <span class='w3-text-blue'> <br> <b>Geninatti Crich S et
+													al;</b> <br>Angew. Chem. Int. Ed. Accepted
 											</span>
 										</a>
 									</div>
@@ -475,9 +598,7 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class='home row animSlides w3-animate-fading'>
-							<div class='home cell papers'>
+							<!-- <div class='home cell papers'>
 								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
@@ -537,9 +658,6 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class='home row animSlides w3-animate-fading'>
-							<div class='home cell papers'></div>
 							<div class='home cell papers'>
 								<div class='w3-card'>
 									<div class='w3-container'>
@@ -559,8 +677,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</a>
 									</div>
 								</div>
-							</div>
-							<div class='home cell papers'></div>
+							</div>  -->
 						</div>
 					</div>
 				</div>
