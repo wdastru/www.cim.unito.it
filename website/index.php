@@ -357,7 +357,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										<a
 											title='Open in a new window'
 											class='http'
-											href='https://pubmed.ncbi.nlm.nih.gov/37345577/
+											href='https://pubmed.ncbi.nlm.nih.gov/37345577/'
 											target='_blank'>
 											<img
 												src='images/papers/smll202302868-fig-0001-m.webp'
@@ -377,7 +377,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										<a
 											title='Open in a new window'
 											class='http'
-											href='https://pubmed.ncbi.nlm.nih.gov/37570545/
+											href='https://pubmed.ncbi.nlm.nih.gov/37570545/'
 											target='_blank'>
 											<img
 												src='images/papers/nanomaterials-13-02227-g001.webp'
@@ -397,7 +397,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										<a
 											title='Open in a new window'
 											class='http'
-											href='https://pubmed.ncbi.nlm.nih.gov/35745705/
+											href='https://pubmed.ncbi.nlm.nih.gov/35745705/'
 											target='_blank'>
 											<img
 												src='images/papers/pharmaceutics-14-01132-g002.webp'
