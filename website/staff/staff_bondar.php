@@ -43,7 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Oksana Bondar</h1>
 								<p style="text-align:left;"><b>PhD Student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
-								<a> <!-- href="../PI/Reineri/home.php" target="_blank" style="color:#dc6a10"> -->
+								<a> <!-- href="<?php echo $localizer; ?>PI/Reineri/home.php" target="_blank" style="color:#dc6a10"> -->
 								 Reineri Lab</a>
 								</b></p>
 									

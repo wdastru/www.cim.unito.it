@@ -225,7 +225,7 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="../PI/Reineri/home.php"
+							href="<?php echo $localizer; ?>PI/Reineri/home.php"
 							target="_blank"
 							title="Francesca Reineri">
 							<img

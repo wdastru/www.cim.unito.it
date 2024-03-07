@@ -74,7 +74,7 @@ $localizer = "../../";
 								<div>
 									<div style="width: 140px;">
 										<img
-											src="<?php echo $localizer; ?>images/staff/reineri.jpg"
+											src="<?php echo $localizer; ?>images/staff/reineri.webp"
 											alt="Francesca Reineri"
 											style="width: 140px; height: auto; margin-right: 1em;"
 											class="image left">

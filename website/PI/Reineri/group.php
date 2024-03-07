@@ -57,7 +57,7 @@ $localizer = "../../";
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>images/staff/reineri.jpg"
+									<img src="<?php echo $localizer; ?>images/staff/reineri.webp"
 										alt="Francesca Reineri"
 										style="width: 180px; height: auto; margin-bottom: 80px;"
 										class="image left">
@@ -86,9 +86,8 @@ $localizer = "../../";
 							</div>
 						</div>
 						<hr>
-						<div class="row">
+						<!-- <div class="row">
 							<div class="8u 12u(mobile)">
-								<!-- Excerpt -->
 								<article class="box excerpt">
 									<img src="<?php echo $localizer; ?>images/staff/cavallari.jpg"
 										alt="Eleonora Cavallari"
@@ -137,7 +136,6 @@ $localizer = "../../";
 						<hr>
 						<div class="row">
 							<div class="8u 12u(mobile)">
-								<!-- Excerpt -->
 								<article class="box excerpt">
 									<img src="<?php echo $localizer; ?>images/staff/carrera.jpg"
 										alt="Carla Carrera"
@@ -187,7 +185,6 @@ $localizer = "../../";
 						<hr>
 						<div class="row">
 							<div class="8u 12u(mobile)">
-								<!-- Excerpt -->
 								<article class="box excerpt">
 									<img src="<?php echo $localizer; ?>images/staff/bondar.jpg"
 										alt="Oksana Bondar"
@@ -224,7 +221,7 @@ $localizer = "../../";
 								</article>
 							</div>
 						</div>
-						<hr>
+						<hr>-->
 					</div>
 				</div>
 			</div>
