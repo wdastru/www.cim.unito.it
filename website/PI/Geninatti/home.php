@@ -81,7 +81,7 @@ $localizer = "../../";
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
-								<a href="#"><img src="images/geninatti.jpg"
+								<a href="#"><img src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp"
 									alt="Simonetta Geninatti Crich"
 									style="width: 140px; height: auto;" class="image left"></a>
 								<div style="padding: 0 0 0 180px;">

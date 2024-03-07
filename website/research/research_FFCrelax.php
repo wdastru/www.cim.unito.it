@@ -69,7 +69,7 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="../PI/Geninatti/home.html"
+							href="<?php echo $localizer; ?>PI/Geninatti/home.php"
 							target="_blank"
 							title="Simonetta Geninatti Crich">
 							<img

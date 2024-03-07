@@ -52,7 +52,7 @@ $localizer = "../../";
 									<h2 class="second icon fa-user">Group Members</h2>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/geninatti.jpg"
+										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp"
 											alt="Simonetta Geninatti"
 											style="width: 180px; height: 170px;"></a>
 										<div>
@@ -72,7 +72,7 @@ $localizer = "../../";
 									</article>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/alberti.jpg"
+										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/alberti.webp"
 											alt="Diego Alberti" style="width: 180px; height: auto;"></a>
 										<div>
 											<header>
@@ -105,7 +105,7 @@ $localizer = "../../";
 									</article>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/baroni.jpg"
+										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/baroni.webp"
 											alt="Simona Baroni" style="width: 180px; height: auto;"></a>
 										<div>
 											<header>
@@ -141,7 +141,7 @@ $localizer = "../../";
 									</article>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/ruggiero.jpg"
+										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/ruggiero.webp"
 											alt="Maria Rosaria Ruggiero"
 											style="width: 180px; height: auto;"></a>
 										<div>
@@ -174,7 +174,7 @@ $localizer = "../../";
 									</article>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="images/sforzi.jpg"
+										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/sforzi.webp"
 											alt="Jacopo Sforzi" style="width: 180px; height: auto;"></a>
 										<div>
 											<header>

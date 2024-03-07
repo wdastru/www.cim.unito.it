@@ -92,7 +92,7 @@
 								src="../images/staff/terreno.webp">
 						</a>
 						<a
-							href="../PI/Geninatti/home.html"
+							href="<?php echo $localhost; ?>PI/Geninatti/home.php"
 							target="_blank"
 							title="Simonetta Geninatti">
 							<img

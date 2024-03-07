@@ -35,7 +35,7 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/staff/sforzi.jpg" class="w3-image"
+								<img src="<?php echo $localizer; ?>images/staff/sforzi.webp" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
@@ -43,7 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Jacopo Sforzi</h1>
 								<p style="text-align:left;"><b>PhD student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
-								<a href="../PI/Geninatti/home.html" target="_blank" style="color:#dc6a10">
+								<a href="<?php echo $localhost; ?>PI/Geninatti/home.php" target="_blank" style="color:#dc6a10">
 								 Geninatti Lab</a>
 								</b></p>
 									

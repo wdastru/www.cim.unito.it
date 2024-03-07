@@ -260,7 +260,7 @@
 											</a>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Geninatti/home.html'>
+												href='<?php echo $localizer; ?>PI/Geninatti/home.php'>
 												<span>Geninatti</span>
 											</a>
 											<a href='<?php echo $localizer; ?>staff/staff_stefania.php'>
@@ -298,7 +298,7 @@
 											</a>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Geninatti/home.html'>
+												href='<?php echo $localizer; ?>PI/Geninatti/home.php'>
 												<span>Geninatti, </span>
 											</a>
 											<a
@@ -365,7 +365,7 @@
 											<span>PI:</span>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Geninatti/home.html'>
+												href='<?php echo $localizer; ?>PI/Geninatti/home.php'>
 												<span> Geninatti </span>
 											</a>
 										</div>
@@ -434,7 +434,7 @@
 											</a>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Geninatti/home.html'>
+												href='<?php echo $localizer; ?>PI/Geninatti/home.php'>
 												<span>Geninatti, </span>
 											</a>
 											<a
@@ -577,7 +577,7 @@
 											</a>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Geninatti/home.html'>
+												href='<?php echo $localizer; ?>PI/Geninatti/home.php'>
 												<span>Geninatti, </span>
 											</a>
 											<a
@@ -635,7 +635,7 @@
 											<span>PI:</span>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Geninatti/home.html'>
+												href='<?php echo $localizer; ?>PI/Geninatti/home.php'>
 												<span>Geninatti, </span>
 											</a>
 											<a
