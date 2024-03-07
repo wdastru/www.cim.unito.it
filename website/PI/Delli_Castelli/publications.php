@@ -55,33 +55,45 @@
 		</div>
 
 		<!-- Main Wrapper -->
-		<div id="main-wrapper">
-			<div class="wrapper style1">
+		<div id="main-wrapper" style="height: 1000px;">
+			<div class="wrapper style2">
 				<div class="inner">
 					<div class="container">
 						<div class="row">
+							<div class="10u 12u(mobile)">
+								<div id="content">
 
-							<div class="8u 12u(mobile)">
+									<!-- Content -->
+									<article>
 
-							<!-- Content -->
-							<article>								
-									<h2 class="icon fa-file-text-o">Journal Papers</h2>
-									<ol class="default" reversed=true>
-									<div style="line-height: 1.5">
-										<p>Full list of publications are available at 
-										<a title="Open in a new window" href="https://scholar.google.com/citations?user=ibKYwMAAAAAJ&hl=en" target="_blank">Google Scholar</a>
-										</p>
-									</div>
-								</ol>
-							</article>				
+										<h2 class="icon fa-file-text-o">Journal Papers</h2>
+
+										<ul class="default">
+											<li><a title="Open in a new window"
+												href="https://scholar.google.com/citations?hl=en&user=ibKYwMAAAAAJ&view_op=list_works&sortby=pubdate"
+												target="_blank">Full list of publications are available at
+													Google Scholar</a></li>
+										</ul>
+									</article>
+									<header class="major"> </header>
+								</div>
+							</div>
+							<!-- 
+							<div class="2u 12u(mobile)">
+								<div id="sidebar">
+									<section></section>
+								</div>
+							</div> 
+							-->
+
 						</div>
-					</div>
-				</div>	
-			</div>
-		</div>			
-	</div>			
 
-	<!-- Scripts -->
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Scripts -->
 
 	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
