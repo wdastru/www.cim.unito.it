@@ -736,3 +736,498 @@ area of research    =
 downloaded sequence = 
 email               = 
 =================
+﻿07/02/2023 - 05:00:11
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿07/02/2023 - 14:50:13
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿07/02/2023 - 14:50:13
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿08/02/2023 - 10:01:18
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿08/02/2023 - 10:01:18
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿08/02/2023 - 14:04:27
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿08/02/2023 - 14:04:27
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿08/02/2023 - 14:31:01
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿08/02/2023 - 14:31:01
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿10/02/2023 - 10:55:07
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿10/03/2023 - 03:58:06
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿03/04/2023 - 01:15:45
+name                = jian
+organization        = Xiamen university
+PI/group leader     = Cai
+country             = china
+area of research    = MRI
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = wjtcw@hotmail.com
+=================
+﻿03/04/2023 - 01:17:42
+name                = jian
+organization        = Xiamen university
+PI/group leader     = Cai
+country             = china
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = wjtcw@hotmail.com
+=================
+﻿07/05/2023 - 14:01:12
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿22/05/2023 - 10:12:33
+name                = John Holmes
+organization        = MRI of Swiss Memorial
+PI/group leader     = prof. Cho Chan
+country             = India
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = johnholm@gmail.com
+=================
+﻿23/05/2023 - 09:01:03
+name                = Chetan Dhakan
+organization        = MD Anderson Cancer Center
+PI/group leader     = Mark Pagel
+country             = USA
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = cbdhakan@mdanderson.org
+=================
+﻿30/05/2023 - 13:11:01
+name                = pippo
+organization        = pippo
+PI/group leader     = pippo
+country             = pippo
+area of research    = pippo
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = walter.dastru@gmail.com
+=================
+﻿30/05/2023 - 13:18:46
+name                = Walter Dastrù
+organization        = Walter Dastrù
+PI/group leader     = pippo
+country             = Italy
+area of research    = pippo
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = walter.dastru@gmail.com
+=================
+﻿11/09/2023 - 20:04:08
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿17/10/2023 - 12:46:09
+name                = brooke tornifoglio
+organization        = trinity college dublin
+PI/group leader     = Brooke tornifoglio
+country             = ireland
+area of research    = biomedical engineering
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = btornifo@tcd.ie
+=================
+﻿12/11/2023 - 20:42:24
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿21/11/2023 - 15:11:38
+name                = Mariano Uberti
+organization        = University of Nebraska Medical Center
+PI/group leader     = Yutong, Liu
+country             = United States
+area of research    = CEST and MRS in preclinical studies of disease and treatment
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = muberti@unmc.edu
+=================
+﻿26/11/2023 - 12:07:40
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿30/12/2023 - 06:19:23
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:23
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:23
+name                = ftIw)'()",))..
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:24
+name                = ftIw'bjjVDE<'">izJUKt
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:24
+name                = ftIw
+organization        = eTYb"(',(((),.
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:24
+name                = ftIw
+organization        = eTYb'zpUvgs<'">yLswxT
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:24
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX(,(".,(,('
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:25
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX'kMyjVG<'">oBwldz
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:25
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB)."().')).
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:25
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB'SpMsWe<'">xzWeYN
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:25
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg),(.)")),'
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:25
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg'rGiBjT<'">uvxOiS
+downloaded sequence = MRSpftIw
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:26
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow,",'..(.,(
+=================
+﻿30/12/2023 - 06:19:26
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw
+email               = Bpow'JehVNk<'">SgAOfN
+=================
+﻿30/12/2023 - 06:19:26
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw)".(.),.')
+email               = Bpow
+=================
+﻿30/12/2023 - 06:19:26
+name                = ftIw
+organization        = eTYb
+PI/group leader     = xADX
+country             = gshB
+area of research    = ahHg
+downloaded sequence = MRSpftIw'bihQbR<'">xbWzcZ
+email               = Bpow
+=================
+﻿20/01/2024 - 14:28:21
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿25/01/2024 - 14:51:40
+name                = Yichien Lee
+organization        = Georgetown University Medical Center
+PI/group leader     = Chris Albanese
+country             = USA
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = yl285@georgetown.edu
+=================
+﻿26/01/2024 - 08:28:57
+name                =  x
+organization        =   x
+PI/group leader     = x
+country             =  x
+area of research    =  x
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = x@x
+=================
+﻿26/02/2024 - 12:17:48
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿28/02/2024 - 03:22:49
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿29/02/2024 - 15:18:19
+name                = Michael Tanes
+organization        = St. Jude Children's Research Hospital
+PI/group leader     = Jeff Steinberg
+country             = United States of America
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = michael.tanes@stjude.org
+=================
+﻿29/02/2024 - 16:08:07
+name                = Jeffrey Steinberg
+organization        = St. Jude
+PI/group leader     = CIVIT
+country             = USA
+area of research    = MRI
+downloaded sequence = CEST_multi_slice_PV360.1.1
+email               = jeffrey.steinberg@stjude.org
+=================
+﻿23/03/2024 - 19:49:55
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿04/04/2024 - 12:25:03
+name                = Martin Meier
+organization        = Hannover Medical School
+PI/group leader     = Martin Meier
+country             = Germany
+area of research    = MRI in animal models of human diseases
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = meier.martin@mh-hannover.de
+=================
+﻿04/04/2024 - 12:26:32
+name                = Martin Meier
+organization        = Hannover Medical School
+PI/group leader     = Martin Meier
+country             = Germany
+area of research    = MRI in animal models of human diseases
+downloaded sequence = CEST_single_slice_PV6.0.1
+email               = meier.martin@mh-hannover.de
+=================
+﻿04/04/2024 - 12:26:50
+name                = Martin Meier
+organization        = Hannover Medical School
+PI/group leader     = Martin Meier
+country             = Germany
+area of research    = MRI in animal models of human diseases
+downloaded sequence = CEST_multi_slice_PV6.0.1
+email               = meier.martin@mh-hannover.de
+=================
+﻿05/05/2024 - 07:20:08
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿12/05/2024 - 09:16:02
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿25/05/2024 - 18:09:48
+name                = 
+organization        = 
+PI/group leader     = 
+country             = 
+area of research    = 
+downloaded sequence = 
+email               = 
+=================
+﻿03/06/2024 - 15:01:05
+name                = Walter Dastrù
+organization        = Walter Dastrù
+PI/group leader     = Longo
+country             = Italy
+area of research    = tutto
+downloaded sequence = CEST_multi_slice_PV360.2
+email               = walter.dastru@gmail.com
+=================
+﻿03/06/2024 - 15:02:27
+name                = Walter Dastrù
+organization        = Walter Dastrù
+PI/group leader     = Longo
+country             = Italy
+area of research    = tutto
+downloaded sequence = seq_pv_360_V2
+email               = walter.dastru@gmail.com
+=================

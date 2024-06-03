@@ -33,6 +33,8 @@ if ( $_POST['sequence_name'] == 'CEST_single_slice_PV6.0.1' ) {
     $file = 'package_CEST_multislice_PV6.0.1.zip';
 } else if ( $_POST['sequence_name'] == 'CEST_multi_slice_PV360.1.1' ) {
     $file = 'package_CEST_mslice_PV360.1.1.zip';
+} else if ( $_POST['sequence_name'] == 'seq_pv_360_V2' ) {
+    $file = 'seq_pv_360_V2.zip';
 } else {
     die('sequence name not found');
 }

@@ -155,8 +155,6 @@
 									link for ParaVision 6.0.1</a>
 								<br> Contacts:
 								<a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>
-								,
-								<a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 								<br>
 							</p>
 							<p>
@@ -183,15 +181,61 @@
 									class='seq_link'
 									onmousedown="showFormBox('CEST_multi_slice_PV360.1.1')">Download
 									link for ParaVision 360.1.1</a>
+								<br>
+								<a
+									class='seq_link'
+									onmousedown="showFormBox('seq_pv_360_V2')">Download
+									link for ParaVision 360.2</a>
 								<br>Contacts:
-								<a href="mailto:daisy.villano@unito.it">daisy.villano@unito.it</a>
 								<a href="mailto:dario.longo@unito.it">dario.longo@unito.it</a>
-								,
 							</p>
 						</div>
-						<br>
+						<p>
+							If you find our CEST sequence useful, please consider citing:<br>
+							D. Villano et al; "A fast multislice sequence for 3DMRI-CEST pH
+							imaging", <i>Magn Reson Med</i>, <b>2021</b>, 85, 1335-1349.<br>
+							doi:10.1002/mrm.28516
+						</p>
 						<p>Research groups using our sequences:</p>
 						<ul>
+							<li><b><a
+										href="https://weizmann.elsevierpure.com/en/persons/talia-harris">Talia
+										Harris</a></b> - Weizmann Institute - Dept. of Chemical
+								Research Support - Israel<br></li>
+							<li><b><a
+										href="https://www.weizmann.ac.il/Organic_Chemistry/Bar-Shir/group-members">Amnon
+										Bar Shir / Min Huang</a></b> - Weizmann Institute - Molecular
+								MR Imaging Lab - Israel<br></li>
+							<li><b>Guocan Shang</b> - South Central University For
+								Nationalities - China<br></li>
+							<li><b><a href="https://preclinical-imaging.mit.edu/">Wei Huang /
+										Virginia Spanoudaki</a></b> - Massachusetts Institute of
+								Technology - USA<br></li>
+							<li><b><a href="https://bme.duke.edu/faculty/alexandra-badea">Alexandra
+										Badea</a></b> - Duke University - Medical Center - USA<br></li>
+							<li><b><a
+										href="https://umlub.pl/en/university/organizational-structure/szczegoly,80.html">Anna
+										Orzy&lstrok;owska (PhD) / Prof. Rados&lstrok;aw Rola (MD)</a></b> - Medical
+								University of Lublin - Poland<br></li>
+							<li><b>MC Pei / ZF Liang</b> - Chinese Academy of Sciences - China<br></li>
+							<li><b><a
+										href="https://gsbs.uth.edu/directory/profile?id=b599c244-20e3-4e56-9a6b-41a91eee2328">
+										Chetan Dhakan / Prof. Mark Pagel</a></b> - MD Anderson Cancer
+								Center - USA<br></li>
+							<li><b><a href="https://www.tcd.ie/mecheng/staff/btornifo/">Brooke
+										Tornifoglio</a></b> - Trinity College Dublin - Ireland<br></li>
+							<li><b><a href="https://www.unmc.edu/radiology/faculty/liu.html">Mariano
+										Uberti / Yutong Liu (PhD)</a></b> - University of Nebraska
+								Medical Center - USA<br></li>
+							<li><b><a
+										href="https://lombardi.georgetown.edu/research/sharedresources/amsr/preclinical-imaging-lab/">Yichien
+										Lee (PhD) / Prof. Chris Albanese</a></b> - Georgetown
+								University Medical Center - USA<br></li>
+							<li><b>Michael Tanes / Jeff Steinberg</b> - <a
+									href="https://www.stjude.org/">St. Jude Children's Research
+									Hospital</a> - USA<br></li>
+							<li><b>Martin Meier</b> - <a href="https://www.mhh.de/en/">Hannover
+									Medical School - Germany</a><br></li>
 							<li><b><a
 										href="https://moffitt.org/research-science/researchers/robert-gillies/">Prof.
 										Robert Gillies</a></b> - Moffitt Cancer Center - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"> -->
