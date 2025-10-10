@@ -2,6 +2,10 @@
 attacchi_subiti/
 git_build/
 git_build_old/
+gulp/
+node_modules/
+package-lock.json
+package.json
 robots.txt
 sitemap.xml
 website/.buildpath
@@ -19,6 +23,8 @@ website/aspect/KMaps*
 website/aspect/index.html
 website/aspect/samples.zip
 website/documenti/
+website/download/XNAT-PIC-2.0.0-win32.msi
+website/minified/
 website/private/Enzo/.htaccess
 website/private/Enzo/uploads/
 website/private/INTA/.htaccess
@@ -30,6 +36,7 @@ website/private/cataloghi/admin/catalogpass
 website/private/cataloghi/cimpass
 website/private/cataloghi/data/
 website/private/cataloghi/safety_info/
+website/private/cataloghi/safety_info_in/
 website/private/fantacalcio/
 website/private/passwords/.htaccess
 website/private/passwords/cimpass
@@ -38,7 +45,3 @@ website/private/phpMyAdmin/
 website/private/prenotazioni/.htaccess
 website/private/prenotazioni/cimpass
 website/research/MRI_sequences/package*
-website/private/cataloghi/safety_info_in/
-website/download/XNAT-PIC-2.0.0-win32.msi
-website/minified/
-gulp/
