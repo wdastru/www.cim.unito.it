@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <?php
 	$localizer = "../";
 ?>
@@ -147,3 +148,326 @@ changeSideNavStyles();
 	<!-- InstanceEnd -->
 </body>
 </html>
+||||||| Stash base
+<?php
+	$localizer = "./../";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+	xmlns="http://www.w3.org/1999/xhtml">
+<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+<head>
+<?php require $localizer . 'includes/head_const.inc.php'?>
+<title>Molecular Imaging Center - University of Torino - Staff</title>
+<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
+</head>
+<body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+	<div id='section0'>
+	<?php require('../includes/main-nav.php'); ?>
+		<div id='header'></div>
+		<!-- InstanceBeginEditable name="subsection opening" -->
+		<div id="subsection2">
+			<!-- InstanceEndEditable -->
+			<?php
+                require ($localizer . 'includes/home-side-nav.php');
+                ?>
+			
+			<div id='content'>
+				<div class='paddingOuter'>
+					<div id='band'>
+						<h1 id='subsectionTitle'>
+							IBB-CNR Torino Unit
+						</h1>
+					</div>
+					<div class='paddingInner'>
+					
+					<div class="w3-row" >
+							<div class="w3-col w3-quarter">						
+
+								<img src="../images/staff/dandrea.jpg" class="w3-image"
+									style="max-width: 150px; margin-left:0px;" />
+							</div>
+
+							<div class="w3-col w3-half">
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Luca Domenico D'Andrea</h1>
+								<p style="text-align:left;"><b>Researcher<br />
+								Institute of Biostructure and Bioimaging<br />
+								National Research Council of Italy<br />
+								<a href="http://www.ibb.cnr.it/?command=viewu&id=402" target="_blank" style="color:#dc6a10">
+								 IBB-CNR profile</a>
+								</b></p>
+									
+							</div>
+							<div class="w3-col w3-quarter">
+								<img
+									src="<?php echo $localizer; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
+									alt="" style="max-width: 200px; height: auto; margin-right: 1em;"
+									class="image left" />
+							</div>
+						</div>
+					
+					<hr></hr>
+					
+					<div class="w3-row" >
+					<h2 style="color:#8c1515; text-align:left;">Education</h2>
+						<p style="line-height: 1.5">
+												 Ph.D. Chemical Sciences, University  of  Naples &#34;Federico II&#34, Italy<br>
+												 M.Sc. Chemistry, University  of  Naples &#34;Federico II&#34, Italy<br>
+											</p>
+					
+					
+					</div>
+					
+						<hr></hr>
+					
+					<div class="w3-row" >
+					<div class="w3-threequarter">
+					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
+					<p>The research activity is related to peptide and protein chemistry. In particular, it is focused on the development of peptide/peptidomimetics 
+					and small proteins as therapeutic/diagnostic agents for pharmaceutical and chemical biology applications. <br /><br />
+
+Main research activities:<br />
+-	Design and characterization of peptide binders of VEGF receptors.<br />
+-	Development of Axl/Gas6 peptide binders.<br />
+-	Protein (semi&minus;)synthesis by chemical ligation reactions<br />
+-	Protein/peptide modification by chemoselective reaction.<br /><br />
+
+Expertise<br />
+Structure&minus; based molecular design; peptide synthesis and characterization; chemical protein synthesis by native chemical ligation and expressed protein ligation; 
+protein cloning and expression in E.Coli; protein characterization; peptide/protein bioconjugation. 
+					
+					
+					</p>
+					</div>
+					
+					<div class="w3-quarter">
+							<h2>Research Topics</h2>
+								<img src="../images/wordcloud/dandrea_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+							</div>
+					
+					</div>
+					
+						<hr></hr>
+					
+					<div class="row" >
+					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
+					<p>
+					Address: Via Nizza, 52 10126 Torino <br/>
+					Phone: +39 0116706499 <br /> 
+					E-mail: <a href="mailto:ldandrea@unina.it"><span style="color:#007c92">ldandrea@unina.it</span></a></p>
+					
+					</div>
+					   
+					   <hr></hr>
+					
+					<div class="row" >
+					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
+					<p>Full list of publications are available at 
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Luca+DAndrea" target="_blank" style="color:#007c92">PubMed </a>
+					
+					</div>
+					   
+					   
+					   
+					</div>
+				</div>
+			</div>
+			<!-- subsection closing -->
+		</div>
+		<!-- subsection closing -->
+		<div id='after'></div>
+		<div id='footer'>
+			<p>
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Fax. Tel. Mail
+			</p>
+		</div>
+		<div id='validators'>
+			<p>
+				<a href="http://validator.w3.org/check?uri=referer"><img
+					src="../images/valid-xhtml10-blue_opt.png"
+					alt="Valid XHtml 1.0 Transitional" height="31" width="88" /> </a>
+			</p>
+			<p>
+				<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"><img
+					style="border: 0; width: 88px; height: 31px"
+					src="../images/vcss-blue_opt.gif" alt="CSS Valido!" /> </a>
+			</p>
+		</div>
+		<!-- section closing -->
+	</div>
+	<!-- section closing -->
+	<script type="text/javascript">
+//<![CDATA[
+changeSideNavStyles();
+//]]>
+</script>
+	<!-- InstanceEnd -->
+</body>
+</html>
+=======
+<?php
+	$localizer = "./../";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+	xmlns="http://www.w3.org/1999/xhtml">
+<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+<head>
+<?php require $localizer . 'includes/head_const.inc.php'?>
+<title>Molecular Imaging Center - University of Torino - Staff</title>
+<meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
+</head>
+<body>
+<?php require_once($localizer . 'includes/analyticstracking.php') ?>
+	<div id='section0'>
+	<?php require('../includes/main-nav.php'); ?>
+		<div id='header'></div>
+		<!-- InstanceBeginEditable name="subsection opening" -->
+		<div id="subsection2">
+			<!-- InstanceEndEditable -->
+			<?php
+                require ($localizer . 'includes/home-side-nav.php');
+                ?>
+			
+			<div id='content'>
+				<div class='paddingOuter'>
+					<div id='band'>
+						<h1 id='subsectionTitle'>
+							IBB-CNR Torino Unit
+						</h1>
+					</div>
+					<div class='paddingInner'>
+					
+					<div class="w3-row" >
+							<div class="w3-col w3-quarter">						
+
+								<img src="../images/staff/dandrea.jpg" class="w3-image"
+									style="max-width: 150px; margin-left:0px;" />
+							</div>
+
+							<div class="w3-col w3-half">
+								<h1 style="color:#666666; text-align:left; padding-left:0px;">Luca Domenico D'Andrea</h1>
+								<p style="text-align:left;"><b>Researcher<br />
+								Institute of Biostructure and Bioimaging<br />
+								National Research Council of Italy<br />
+								<a href="http://www.ibb.cnr.it/?command=viewu&id=402" target="_blank" style="color:#dc6a10">
+								 IBB-CNR profile</a>
+								</b></p>
+									
+							</div>
+							<div class="w3-col w3-quarter">
+								<img
+									src="<?php echo $localizer; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
+									alt="" style="max-width: 200px; height: auto; margin-right: 1em;"
+									class="image left" />
+							</div>
+						</div>
+					
+					<hr></hr>
+					
+					<div class="w3-row" >
+					<h2 style="color:#8c1515; text-align:left;">Education</h2>
+						<p style="line-height: 1.5">
+												 Ph.D. Chemical Sciences, University  of  Naples &#34;Federico II&#34, Italy<br>
+												 M.Sc. Chemistry, University  of  Naples &#34;Federico II&#34, Italy<br>
+											</p>
+					
+					
+					</div>
+					
+						<hr></hr>
+					
+					<div class="w3-row" >
+					<div class="w3-threequarter">
+					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
+					<p>The research activity is related to peptide and protein chemistry. In particular, it is focused on the development of peptide/peptidomimetics 
+					and small proteins as therapeutic/diagnostic agents for pharmaceutical and chemical biology applications. <br /><br />
+
+Main research activities:<br />
+-	Design and characterization of peptide binders of VEGF receptors.<br />
+-	Development of Axl/Gas6 peptide binders.<br />
+-	Protein (semi&minus;)synthesis by chemical ligation reactions<br />
+-	Protein/peptide modification by chemoselective reaction.<br /><br />
+
+Expertise<br />
+Structure&minus; based molecular design; peptide synthesis and characterization; chemical protein synthesis by native chemical ligation and expressed protein ligation; 
+protein cloning and expression in E.Coli; protein characterization; peptide/protein bioconjugation. 
+					
+					
+					</p>
+					</div>
+					
+					<div class="w3-quarter">
+							<h2>Research Topics</h2>
+								<img src="../images/wordcloud/dandrea_wordcloud.png" class="w3-image"
+									style="max-width: 250px;" />
+									
+							</div>
+					
+					</div>
+					
+						<hr></hr>
+					
+					<div class="row" >
+					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
+					<p>
+					Address: Via Nizza, 52 10126 Torino <br/>
+					Phone: +39 0116706499 <br /> 
+					E-mail: <a href="mailto:ldandrea@unina.it"><span style="color:#007c92">ldandrea@unina.it</span></a></p>
+					
+					</div>
+					   
+					   <hr></hr>
+					
+					<div class="row" >
+					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
+					<p>Full list of publications are available at 
+									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Luca+DAndrea" target="_blank" style="color:#007c92">PubMed </a>
+					
+					</div>
+					   
+					   
+					   
+					</div>
+				</div>
+			</div>
+			<!-- subsection closing -->
+		</div>
+		<!-- subsection closing -->
+		<div id='after'></div>
+		<div id='footer'>
+			<p>
+				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br />
+				Fax. Tel. Mail
+			</p>
+		</div>
+		<div id='validators'>
+			<p>
+				<a href="http://validator.w3.org/check?uri=referer"><img
+					src="../images/valid-xhtml10-blue_opt.png"
+					alt="Valid XHtml 1.0 Transitional" height="31" width="88" /> </a>
+			</p>
+			<p>
+				<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"><img
+					style="border: 0; width: 88px; height: 31px"
+					src="../images/vcss-blue_opt.gif" alt="CSS Valido!" /> </a>
+			</p>
+		</div>
+		<!-- section closing -->
+	</div>
+	<!-- section closing -->
+	<script type="text/javascript">
+//<![CDATA[
+changeSideNavStyles();
+//]]>
+</script>
+	<!-- InstanceEnd -->
+</body>
+</html>
+>>>>>>> Stashed changes
