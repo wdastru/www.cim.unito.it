@@ -45,3 +45,10 @@ website/private/phpMyAdmin/
 website/private/prenotazioni/.htaccess
 website/private/prenotazioni/cimpass
 website/research/MRI_sequences/package*
+.bash_history
+.bashrc
+.bashrc_ceip
+.lesshst
+.viminfo
+.settings/org.eclipse.ltk.core.refactoring.prefs
+.settings/org.eclipse.wst.html.core.prefs
