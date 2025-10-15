@@ -1,9 +1,14 @@
 RewriteEngine On
 
+# Skip rewriting if the request already starts with /website/
+RewriteCond %{REQUEST_URI} !^/website/
+
+# Skip redirect if the request is for an existing file or directory
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*)$ https://www.cim.unito.it/website/$1
+# Redirect to website/ preserving the path
+#RewriteRule %{REQUEST_URI} /website/$1 [L,R=301]
 
 AddType 'text/html; charset=UTF-8' html    
 AddType image/webp .webp
