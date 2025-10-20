@@ -592,7 +592,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_capuana.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Federico Capuana</b> PhD
 											student</span>
@@ -603,7 +603,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_atlante.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Sandra Atlante</b>
 											Research Fellow</span>
@@ -614,7 +614,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_consolino.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Lorena Consolino</b>
 											Research Fellow</span>
@@ -658,7 +658,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_bhavnarani.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Bhavna Rani</b> Research
 											Fellow</span>
@@ -669,7 +669,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_bardini.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Paola Bardini</b>
 											Research Fellow</span>
@@ -680,7 +680,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_barale.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Andrea Barale</b>
 											Graduate Student</span>
