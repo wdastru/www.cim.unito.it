@@ -23,7 +23,7 @@ $localizer = "../../";
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="http://www.cim.unito.it"
+			</a> <a href="http://www.cim.unito.it/website/"
 				title="Molecular Imaging Center" target="_blank"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
