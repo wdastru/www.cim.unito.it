@@ -7,7 +7,7 @@
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+<?php require $localizer . 'includes/head_const_new.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Events</title>
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 </head>

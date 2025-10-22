@@ -691,7 +691,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_marini.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Giada Maria Marini</b>
 											Graduate Student</span>
@@ -702,7 +702,7 @@
 								<div>
 									<a
 										title='Profile'
-										href='#'
+										href='staff/staff_galati.php'
 										target='_self'>
 										<span style='font-size: 1.00rem;'><b>Antonello Galati</b>
 											Graduate Student</span>
