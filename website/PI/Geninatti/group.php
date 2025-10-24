@@ -10,7 +10,7 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Group Members | GENINATTI Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
 	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
 </head>
 <body class="homepage">
@@ -18,10 +18,10 @@ $localizer = "../../";
 		<!-- Header -->
 		<div id="header-wrapper">
 			<!-- logo unito -->
-			<a href="http://www.unito.it" title="University of Torino"
+			<a href="http://www.unito.it/" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="http://www.cim.unito.it"
+			</a> <a href="http://www.cim.unito.it/website/"
 				title="Molecular Imaging Center" target="_blank"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
