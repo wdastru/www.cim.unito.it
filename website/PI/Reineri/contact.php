@@ -10,7 +10,7 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Contact Us | REINERI Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
 	<?php require ($localizer . 'PI/Gianolio/includes/head_const_gianolio.php'); ?>
 </head>
 <body class="homepage">
@@ -21,7 +21,7 @@ $localizer = "../../";
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="http://www.cim.unito.it"
+			</a> <a href="http://www.cim.unito.it/website/"
 				title="Molecular Imaging Center" target="_blank"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -50,7 +50,7 @@ $localizer = "../../";
 								<h2>Contact Us</h2>
 								<p style="text-align: left; line-height: 2;">
 									<strong> <a title="Molecular Imaging Center" class="http"
-										href="http://www.cim.unito.it/website/index.php"
+										href="http://www.cim.unito.it/website//website/index.php"
 										target="_blank"> Molecular Imaging Center</a><br> <a
 										title="Dept. Mol Biotec Health Sciences" class="http"
 										href="https://www.mbc.unito.it" target="_blank"> Department of
