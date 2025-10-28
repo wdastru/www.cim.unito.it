@@ -10,7 +10,7 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Home | DELLI CASTELLI LAB</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
 	<?php require ($localizer . 'PI/Delli_Castelli/includes/head_const_delli.php'); ?>
 </head>
 <body class="homepage">
@@ -27,7 +27,7 @@ $localizer = "../../";
 				<div class="unito-logo-container"></div>
 			</a>
 			<a
-				href="http://www.cim.unito.it"
+				href="http://www.cim.unito.it/website/"
 				title="Molecular Imaging Center"
 				target="_blank"
 				style="text-decoration: none;">
@@ -210,7 +210,7 @@ $localizer = "../../";
 							</div>
 						</div>
 						<header class="major"> </header>
-						<div class="row">
+						<!-- <div class="row">
 							<div class="3u 6u(mobile)">
 								<section>
 									<header>
@@ -246,7 +246,7 @@ $localizer = "../../";
 										<font color="blue">Read more >></font>
 									</a>
 								</section>
-							</div>
+							</div>  -->
 						</div>
 					</div>
 				</div>

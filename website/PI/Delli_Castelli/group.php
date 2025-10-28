@@ -10,7 +10,7 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Home | DELLI CASTELLI LAB</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
 	<?php require ($localizer . 'PI/Delli_Castelli/includes/head_const_delli.php'); ?>
 </head>
 <body class="homepage">
@@ -27,7 +27,7 @@ $localizer = "../../";
 				<div class="unito-logo-container"></div>
 			</a>
 			<a
-				href="http://www.cim.unito.it"
+				href="http://www.cim.unito.it/website/"
 				title="Molecular Imaging Center"
 				target="_blank"
 				style="text-decoration: none;">
@@ -88,7 +88,7 @@ $localizer = "../../";
 									</div>
 								</article>
 								<article class="box excerpt">
-									<a class="image left">
+									<!-- <a class="image left">
 										<img
 											src="<?php echo $localizer; ?>images/staff/vassallo.webp"
 											alt="Giulia Vassallo"
@@ -100,9 +100,7 @@ $localizer = "../../";
 											<span>PhD studend</span>
 										</header>
 										<p style="line-height: 1.2">
-											<!-- titolo di studio 1 -->
 											<br>
-											<!-- titolo di studio 2 -->
 											<br> Phone: +39 0116706493<br> E-mail:
 											<a href="mailto:giulia.vassallo@unito.it">giulia.vassallo@unito.it</a>
 										</p>
@@ -111,7 +109,7 @@ $localizer = "../../";
 										<div>My project focuses on ...</div>
 										<form>
 											<p align="justify">
-												<b><!-- Cose che fa il collabopratore --></b>
+												<b></b>
 											</p>
 										</form>
 									</div>
@@ -129,9 +127,7 @@ $localizer = "../../";
 											<span>Postgraduate Fellow</span>
 										</header>
 										<p style="line-height: 1.2">
-											<!-- titolo di studio 1 -->
 											<br>
-											<!-- titolo di studio 2 -->
 											<br> Phone: +39 0116706493<br> E-mail:
 											<a href="mailto:claudia.quattrociocchi@unito.it">claudia.quattrociocchi@unito.it</a>
 										</p>
@@ -140,12 +136,12 @@ $localizer = "../../";
 										<div>My research aims at ...</div>
 										<form>
 											<p align="justify">
-												<b><!-- Cose che fa il collabopratore --></a>
+												<b></a>
 												</b>
 											</p>
 										</form>
 									</div>
-								</article>
+								</article> -->
 							</div>
 						</div>
 						<hr></hr>
