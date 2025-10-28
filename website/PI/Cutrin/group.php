@@ -83,9 +83,8 @@ $localizer = "../../";
 						<hr></hr>
 						<div class="row">
 							<div class="8u 12u(mobile)">
-								<!-- Excerpt -->
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>images/staff/bitonto.jpg"
+									<!-- <img src="<?php echo $localizer; ?>images/staff/bitonto.jpg"
 										alt="Valeria Bitonto"
 										style="width: 180px; height: auto; margin-bottom: 120px;"
 										class="image left" />
@@ -98,8 +97,8 @@ $localizer = "../../";
 											Phone: +39 0116706476<br> E-mail: <a
 												href="mailto:valeria.bitonto@unito.it">valeria.bitonto@unito.it</a>
 										</p>
-									</div>
-								</article>
+									</div> -->
+								</article> 
 							</div>
 						</div>
 						<hr></hr>
