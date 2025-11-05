@@ -43,7 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Maria Rosaria Ruggiero</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
-								<a href="<?php echo $localhost; ?>PI/Geninatti/home.php" target="_blank" style="color:#dc6a10">
+								<a href="<?php echo $localizer; ?>PI/Geninatti/home.php" target="_blank" style="color:#dc6a10">
 								Geninatti Lab</a>
 								</b></p>
 									
