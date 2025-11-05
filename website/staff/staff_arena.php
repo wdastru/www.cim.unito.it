@@ -14,7 +14,7 @@
 <body>
 
 	<div id='section0'>
-	<?php require('../includes/main-nav.php'); ?>
+	<?php require($localizer . 'includes/main-nav.php'); ?>
 		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection2">
@@ -35,7 +35,7 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/staff/arena.jpg" class="w3-image"
+								<img src="<?php echo $localizer; ?>images/staff/arena.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
@@ -44,7 +44,7 @@
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Institute of Biostructure and Bioimaging<br>
 								National Research Council of Italy<br>
-								<a href="../PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
+								<a href="<?php echo $localizer; ?>PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
 								Terreno Lab</a>
 								</b></p>
 									
@@ -80,7 +80,7 @@
 					
 					<div class="w3-quarter">
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/arena_wordcloud.png" class="w3-image"
+								<img src="<?php echo $localizer; ?>images/wordcloud/arena_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 							</div>

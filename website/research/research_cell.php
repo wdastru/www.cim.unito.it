@@ -111,30 +111,27 @@
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
 							href="<?php echo $localizer; ?>PI/Geninatti/home.php"
-							target="_blank"
 							title="Simonetta Geninatti Crich">
 							<img
 								alt="Simonetta Geninatti Crich"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.webp">
+								src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp">
 						</a>
 						<a
-							href="../PI/Terreno/home.php"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Terreno/home.php"
 							title="Enzo Terreno">
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.webp">
+								src="<?php echo $localizer; ?>images/staff/terreno.webp">
 						</a>
 						<a
-							href="../staff/staff_ferrauto.php"
-							target="_blank"
+							href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
 							title="Giuseppe Ferrauto">
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.webp">
+								src="<?php echo $localizer; ?>images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

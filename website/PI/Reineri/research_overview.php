@@ -53,13 +53,13 @@ $localizer = "../../";
 									<p></p>
 									<article class="box excerpt">
 										<a><img
-											src="<?php echo $localizer; ?>/PI/Reineri/images/hyperpolarized_probes.jpg"
+											src="<?php echo $localizer; ?>PI/Reineri/images/hyperpolarized_probes.jpg"
 											alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 style="text-transform: none;">
 													<a
-														href="<?php echo $localizer; ?>/PI/Reineri/research_hyperpolarized_probes.php">Hyperpolarized
+														href="<?php echo $localizer; ?>PI/Reineri/research_hyperpolarized_probes.php">Hyperpolarized
 														Probes</a>
 												</h3>
 											</header>
@@ -70,7 +70,7 @@ $localizer = "../../";
 												aims also to optimize of the parahydrogen-based
 												hyperpolarization procedure.</p>
 											<a
-												href="<?php echo $localizer; ?>/PI/Reineri/research_hyperpolarized_probes.php"><p
+												href="<?php echo $localizer; ?>PI/Reineri/research_hyperpolarized_probes.php"><p
 													style="text-align: right;">
 													<span style="color: blue;">Continue Reading >></span>
 												</p></a>
@@ -78,14 +78,14 @@ $localizer = "../../";
 									</article>
 									<article class="box excerpt">
 										<a><img
-											src="<?php echo $localizer; ?>/PI/Reineri/images/imaging_metabolism.jpg"
+											src="<?php echo $localizer; ?>PI/Reineri/images/imaging_metabolism.jpg"
 											alt="Imaging metabolism" class="image left"
 											style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 style="text-transform: none;">
 													<a
-														href="<?php echo $localizer; ?>/PI/Reineri/research_imaging_metabolism.php">Imaging
+														href="<?php echo $localizer; ?>PI/Reineri/research_imaging_metabolism.php">Imaging
 														Metabolism</a>
 												</h3>
 											</header>
@@ -94,7 +94,7 @@ $localizer = "../../";
 												to investigate metabolism in different pathologies (e.g.
 												heart failure, cancer), in cells cultures and in vivo.</p>
 											<a
-												href="<?php echo $localizer; ?>/PI/Reineri/research_imaging_metabolism.php"><p
+												href="<?php echo $localizer; ?>PI/Reineri/research_imaging_metabolism.php"><p
 													style="text-align: right;">
 													<span style="color: blue;">Continue Reading >></span>
 												</p></a>

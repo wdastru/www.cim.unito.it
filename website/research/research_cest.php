@@ -112,39 +112,35 @@
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
 							href="../PI/Terreno/home.php"
-							target="_blank"
 							title="Enzo Terreno">
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.webp">
+								src="<?php echo $localizer; ?>images/staff/terreno.webp">
 						</a>
 						<a
-							href="#"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Delli_Castelli/home.php"
 							title="Daniela Delli Castelli">
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="../images/staff/dellicastelli.webp">
+								src="<?php echo $localizer; ?>images/staff/dellicastelli.webp">
 						</a>
 						<a
-							href="../PI/Longo/home.php"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Longo/home.php"
 							title="Dario Longo">
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="../images/staff/Dario_Longo.webp">
+								src="<?php echo $localizer; ?>images/staff/Dario_Longo.webp">
 						</a>
 						<a
-							href="../staff/staff_ferrauto.php"
-							target="_blank"
+							href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
 							title="Giuseppe Ferrauto">
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="../images/staff/ferrauto.webp">
+								src="<?php echo $localizer; ?>images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

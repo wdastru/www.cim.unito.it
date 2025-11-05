@@ -84,22 +84,20 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="../PI/Terreno/home.php"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Terreno/home.php"
 							title="Enzo Terreno">
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.webp">
+								src="<?php echo $localizer; ?>images/staff/terreno.webp">
 						</a>
 						<a
 							href="<?php echo $localhost; ?>PI/Geninatti/home.php"
-							target="_blank"
 							title="Simonetta Geninatti">
 							<img
 								alt="Simonetta Geninatti"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.webp">
+								src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

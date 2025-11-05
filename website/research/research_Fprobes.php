@@ -125,39 +125,36 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="../PI/Terreno/home.php"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Terreno/home.php"
 							title="Enzo Terreno">
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.webp">
+								src="<?php echo $localizer; ?>images/staff/terreno.webp">
 						</a>
 						<a
-							href="#"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Delli_Castelli/home.php"
 							title="Daniela Delli Castelli">
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="../images/staff/dellicastelli.webp">
+								src="<?php echo $localizer; ?>images/staff/dellicastelli.webp">
 						</a>
 						<a
-							href="../staff/staff_menchise.php"
+							href="<?php echo $localizer; ?>staff/staff_menchise.php"
 							title="Valeria Menchise">
 							<img
 								alt="Valeria Menchise"
 								class="group-leaders-img"
-								src="../images/staff/menchise.webp">
+								src="<?php echo $localizer; ?>images/staff/menchise.webp">
 						</a>
 						<a
 							href="#"
-							target="_blank"
 							title="Walter Dastr&ugrave;">
 							<img
 								alt="Walter Dastr&ugrave;"
 								class="group-leaders-img"
-								src="../images/staff/dastru.webp">
+								src="<?php echo $localizer; ?>images/staff/dastru.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

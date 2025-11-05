@@ -14,7 +14,7 @@
 <body>
 
 	<div id='section0'>
-	<?php require('../includes/main-nav.php'); ?>
+	<?php require($localizer . 'includes/main-nav.php'); ?>
 		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection2">
@@ -35,7 +35,7 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="../images/staff/marini.jpg" class="w3-image"
+								<img src="<?php echo $localizer; ?>images/staff/marini.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
@@ -43,7 +43,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giada Maria Marini</h1>
 								<p style="text-align:left;"><b>Graduate student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
-								<a href="../PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
+								<a href="<?php echo $localizer; ?>PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
 								Terreno Lab</a>
 								</b></p>
 									

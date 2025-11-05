@@ -38,7 +38,7 @@
 						<div class="imgLeft">
 							<img
 								alt="The FFC experiment and FFC‐NMR relaxometer"
-								src="../PI/Geninatti/images/figureresearch31.jpg">
+								src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch31.jpg">
 						</div>
 						<p>Moreover, it has been found that the elongation of T1 parallels
 							the aggressiveness of the investigated tumour. The T1 lengthening
@@ -51,7 +51,7 @@
 						<div class="imgCenter">
 							<img
 								alt="The Mz value and the water exchange regime"
-								src="../PI/Geninatti/images/figureresearch32.jpg">
+								src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch32.jpg">
 							<span><b>Figure:</b> The water exchange regime and the resulting
 								M<sub>Z</sub> value in a schematic representation of the
 								relationship between the compartmentalized system formed by the
@@ -71,21 +71,19 @@
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
 							href="<?php echo $localizer; ?>PI/Geninatti/home.php"
-							target="_blank"
 							title="Simonetta Geninatti Crich">
 							<img
 								alt="Simonetta Geninatti Crich"
 								class="group-leaders-img"
-								src="../images/staff/geninatti_crich.webp">
+								src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp">
 						</a>
 						<a
-							href="../PI/Gianolio/home.html"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Gianolio/home.php"
 							title="Eliana Gianolio">
 							<img
 								alt="Eliana Gianolio"
 								class="group-leaders-img"
-								src="../images/staff/gianolio.webp">
+								src="<?php echo $localizer; ?>images/staff/gianolio.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>
