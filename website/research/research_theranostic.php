@@ -94,7 +94,7 @@
 								src="<?php echo $localizer; ?>images/staff/terreno.webp">
 						</a>
 						<a
-							href="<?php echo $localhost; ?>PI/Geninatti/home.php"
+							href="<?php echo $localizer; ?>PI/Geninatti/home.php"
 							title="Simonetta Geninatti">
 							<img
 								alt="Simonetta Geninatti"
