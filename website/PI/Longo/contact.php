@@ -24,7 +24,7 @@
 			<div class="unito-logo-container">                   
 	          </div></a>
 	          
-	          <a href="http://www.cim.unito.it/website/" title="Molecular Imaging Center" target="_blank" style="text-decoration: none;" >
+	          <a href="<?php echo $localizer; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
 			
@@ -94,7 +94,7 @@
 												
 												
 												<!-- 
-												<a title="Molecular Imaging Center" class="http" href="http://www.cim.unito.it/website//website/index.php" target="_blank"> 
+												<a title="Molecular Imaging Center" class="http" href="<?php echo $localizer; ?>/website/index.php" target="_blank"> 
 												Molecular Imaging Center</a><br>
 												<a title="Dept. Mol Biotec Health Sciences" class="http" href="https://www.mbc.unito.it" target="_blank"> 												
 												Department of Molecular Biotechnologies and Health Science</a><br>

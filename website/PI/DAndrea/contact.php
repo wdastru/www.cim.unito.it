@@ -67,7 +67,7 @@
 												
 												<p align="left" style="line-height: 2";>
 												<strong> 
-												<a title="Molecular Imaging Center" class="http" href="http://www.cim.unito.it/website/index.php" target="_blank"> 
+												<a title="Molecular Imaging Center" class="http" href="<?php echo $localizer; ?>index.php" target="_blank"> 
 												Molecular Imaging Center</a><br>
 												<a title="Dept. Mol Biotec Health Sciences" class="http" href="https://www.mbc.unito.it" target="_blank"> 												
 												Department of Molecular Biotechnologies and Health Science</a><br>
