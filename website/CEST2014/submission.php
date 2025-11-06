@@ -140,7 +140,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					<span style='color: #db6d16'>&nbsp;&nbsp;required field</span>
 				    	<br/><br/>
 					<input type='file' name='file1' id='file1' style='width:100%'/>
-	                                <input type='hidden' name='dir' value='<?php echo $localizer; ?>/uploads/' style='width:100%'/>
+	                                <input type='hidden' name='dir' value='<?php echo $localizer; ?>uploads/' style='width:100%'/>
         		                <br><br>
                         	        <input type='hidden' name='submitted' value='1' />
                                 	<input id='submissionButton' type='submit' name='submit' value='Submit' disabled='disabled' />

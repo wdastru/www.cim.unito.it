@@ -76,13 +76,12 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="../PI/Gianolio/home.html"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Gianolio/home.php"
 							title="Eliana Gianolio">
 							<img
 								alt="Eliana Gianolio"
 								class="group-leaders-img"
-								src="../images/staff/gianolio.webp">
+								src="<?php echo $localizer; ?>images/staff/gianolio.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

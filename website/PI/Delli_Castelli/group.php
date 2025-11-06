@@ -27,9 +27,8 @@ $localizer = "../../";
 				<div class="unito-logo-container"></div>
 			</a>
 			<a
-				href="http://www.cim.unito.it/website/"
+				href="<?php echo $localizer; ?>"
 				title="Molecular Imaging Center"
-				target="_blank"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>

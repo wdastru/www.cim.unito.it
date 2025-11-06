@@ -81,13 +81,12 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="../PI/Terreno/home.php"
-							target="_blank"
+							href="<?php echo $localizer; ?>PI/Terreno/home.php"
 							title="Enzo Terreno">
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="../images/staff/terreno.webp">
+								src="<?php echo $localizer; ?>images/staff/terreno.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>

@@ -21,8 +21,8 @@ $localizer = "../../";
 			<a href="http://www.unito.it/" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="http://www.cim.unito.it/website/"
-				title="Molecular Imaging Center" target="_blank"
+			</a> <a href="<?php echo $localizer; ?>"
+				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
@@ -50,8 +50,7 @@ $localizer = "../../";
 								<h2>Contact Us</h2>
 								<p style="text-align: left; line-height: 2;">
 									<strong> <a title="Molecular Imaging Center" class="http"
-										href="http://www.cim.unito.it/website//website/index.php"
-										target="_blank"> Molecular Imaging Center</a><br> <a
+										href="<?php echo $localizer; ?>"> Molecular Imaging Center</a><br><a 
 										title="Dept. Mol Biotec Health Sciences" class="http"
 										href="https://www.mbc.unito.it" target="_blank"> Department of
 											Molecular Biotechnologies and Health Science</a><br> <a
