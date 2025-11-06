@@ -76,7 +76,7 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="<?php echo $localizer; ?>PI/Gianolio/home.phpl"
+							href="<?php echo $localizer; ?>PI/Gianolio/home.php"
 							title="Eliana Gianolio">
 							<img
 								alt="Eliana Gianolio"
