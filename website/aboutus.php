@@ -98,10 +98,13 @@
 										Research, Gold Medal Amedeo Avogadro from the Italian Chemical
 										Society, European Society for Molecular Imaging Award.<br>
 										Author of more than 800 papers (h-index 93) and 27 patents. <br>
-										<br> <a
-											title="Open in a new window"
-											href="https://scholar.google.com/citations?user=85uyGDsAAAAJ&hl=en&view_op=list_works&sortby=pubdate"
-											target="_blank">List of publications (Google Scholar)</a> <br>
+										<br> 
+										<a
+											title="Silvio Aime publications"
+											href='https://pubmed.ncbi.nlm.nih.gov/?term=Silvio+Aime[Author]&sort=date' 
+											target='_blank'>
+											<b>Silvio Aime</b> List of publications (Google Scholar)</a> 
+										<br>
 										<a
 											href='<?php echo $localizer; ?>documenti/CV_SilvioAime-2023.doc'
 											download>Download Curriculum Vitae</a>

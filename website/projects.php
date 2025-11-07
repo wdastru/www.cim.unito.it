@@ -31,7 +31,7 @@ $localizer = "./";
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<ul>
 							<li class="myHoverPlace"><strong><a
-									href='http://www.primogaia.eu/'> <span class='paperTitle'>PRIMOGAIA</span></a></strong>
+									href='http://www.primogaia.eu/' target='_blank'> <span class='paperTitle'>PRIMOGAIA</span></a></strong>
 								project "Prepolarized MRI at Earth Field to seek new contrasts
 								linked to molecular events for very early detection of
 								pathologies" - <strong>H2020-EU.1.2.1. - FET Open</strong>
@@ -55,8 +55,8 @@ $localizer = "./";
 									University, Universit&eacute; de Mons, Universit&aacute; Torino
 									(reagents), CNRS Bordeaux (EPR unit, sequences, biology);
 									Fraunhofer Institute (Physics) and 2 companies: <a
-										href='https://www.stelar.it/'>Stelar</a> (magnetic unit) and <a
-										href='https://www.pure-devices.com/'>Pure Devices</a> an
+										href='https://www.stelar.it/' target='_blank'>Stelar</a> (magnetic unit) and <a
+										href='https://www.pure-devices.com/' target='_blank'>Pure Devices</a> an
 									innovative SME (MRI instrumentation).
 
 								</div></li>
@@ -72,7 +72,7 @@ $localizer = "./";
 					<div class='paddingInner'>
 						<ul>
 							<li class="myHoverPlace"><strong><a
-									href='https://phase1.attract-eu.com/showroom/project/monitoring-tissue-implants-by-field-cycling-mri-of-quadrupolar-peak-contrast-agents-acronym-qp-mri/'><span
+									href='https://phase1.attract-eu.com/showroom/project/monitoring-tissue-implants-by-field-cycling-mri-of-quadrupolar-peak-contrast-agents-acronym-qp-mri/' target='_blank'><span
 										class='paperTitle'>Attract QPMRI</span></a></strong> project
 								"Monitoring tissue implants by field-cycling MRI of
 								quadrupolar-peak contrast agents" - (20/05/2019 - 31/10/2020)
@@ -95,7 +95,7 @@ $localizer = "./";
 							</li>
 							<li><strong>H2020-MSCA-ITN-2017</strong> project "Zero and
 								ultra-low field nuclear magnetic resonance" - <strong><a
-									href='https://cordis.europa.eu/project/id/766402'><span
+									href='https://cordis.europa.eu/project/id/766402' target='_blank'><span
 										class='paperTitle'>ZULF</span></a></strong> (2018-2022)</li>
 							<li>National project funded by San Paolo Foundation: "Imaging
 								extracellular pH as a MRI diagnostic tool" - <strong>CSTO165925</strong>
@@ -115,33 +115,33 @@ $localizer = "./";
 							</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "Improving Diagnosis
 								by Fast Field-Cycling MRI" - <strong><a
-									href='http://www.identify-project.eu/'><span class='paperTitle'>Identify</span></a></strong>
+									href='http://www.identify-project.eu/' target='_blank'><span class='paperTitle'>Identify</span></a></strong>
 								(2016-2020)</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "In Vivo Spectral
 								Photon Counting CT Molecular Imaging in Cardio- and
 								Neuro-Vascular Diseases" - <strong><a
-									href='https://cordis.europa.eu/project/id/668142'><span
+									href='https://cordis.europa.eu/project/id/668142' target='_blank'><span
 										class='paperTitle'>SPCCT</span></a></strong> (2016-2020)</li>
 							<li><strong>H2020-PHC-2015 project</strong>: "GlucoCEST Imaging
 								of Neoplastic Tumours" - <strong><a
-									href='http://www.glint-project.eu/'><span class='paperTitle'>GLINT</span></a></strong>
+									href='http://www.glint-project.eu/' target='_blank'><span class='paperTitle'>GLINT</span></a></strong>
 								(2016-2020)</li>
 							<li><strong>H2020 INFRADEV-1-2015-2</strong>: "Coordinated
 								Research Infrastructures Building Enduring Life-science
 								services" <strong><a
-									href='http://www.corbel-project.eu/home.html'><span
+									href='http://www.corbel-project.eu/home.html' target='_blank'><span
 										class='paperTitle'>CORBEL</span></a></strong> (2015-2019)</li>
 							<li>National project <strong>F.E.S.R. 2014/2020</strong>, "Green
 								Factory for Composites" (2017-2019)
 							</li>
 							<li><strong>H2020-INFRASUPP-2014-2</strong>: <strong><a
-									href='http://www.eurobioimaging.eu/global-bioimaging/'><span
+									href='https://globalbioimaging.org/' target='_blank'><span
 										class='paperTitle'>Global BioImaging Project</span></a></strong>
 								- International imaging infrastructure services for the life
 								science community, 2016-2018</li>
 							<li><strong>H2020-INFRADEV-1-2015-2</strong>: "Euro-BioImaging
 								Preparatory Phase 2", 2015-2017 (<strong><a
-									href='http://www.eurobioimaging.eu/prep-phase2016'><span
+									href='https://www.h2020.md/en/h2020-infradev-1-2015-2' target='_blank'><span
 										class='paperTitle'>EuBI PP2</span></a></strong>)</li>
 							<li>Research project of the Green Chemistry Cluster: "Development
 								of second generation technologies for the conversion of organic
@@ -152,11 +152,11 @@ $localizer = "./";
 							<li><strong>FP7-HEALTH-2013 (602306)</strong>: "Closed-loop
 								Molecular Environment for Minimally Invasive Treatment of
 								Patients with Metastatic Gastrointestinal Stromal Tumours" - <a
-								href='https://cordis.europa.eu/project/id/653212'><span
+								href='https://cordis.europa.eu/project/id/653212' target='_blank'><span
 									class='paperTitle'>MITIGATE</span></a> (2013-2017)</li>
 							<li>Integrated EU Project "Imaging of Neuroinflammation in
 								Neurodegenerative Diseases" - <strong><a
-									href='https://cordis.europa.eu/project/id/278850'><span
+									href='https://cordis.europa.eu/project/id/278850' target='_blank'><span
 										class='paperTitle'>InMIND</span></a></strong> (2012-2017);
 							</li>
 							<li>National project <strong>AIRC IG2013</strong>: "Dual
@@ -171,11 +171,11 @@ $localizer = "./";
 								preclinical in vivo validation" - <strong>INTA</strong>
 								(2012-2015);
 							</li>
-							<li><strong><a href='https://www.cost.eu/actions/CA16103/'><span
+							<li><strong><a href='https://www.cost.eu/actions/CA16103/' target='_blank'><span
 										class='paperTitle'>CA COST Action CA16103</span></a></strong>
 								"Magnetic Resonance Imaging Biomarkers for Chronic Kidney
 								Disease"</li>
-							<li><strong><a href='https://www.cost.eu/actions/TD1004/'><span
+							<li><strong><a href='https://www.cost.eu/actions/TD1004/' target='_blank'><span
 										class='paperTitle'>COST Action TD1004</span></a></strong>
 								"Theragnostics Imaging and Therapy" (2011-2015)</li>
 							<li><strong>FP7-INFRASTRUCTURES-2010-1</strong>: Euro-BioImaging
@@ -192,27 +192,27 @@ $localizer = "./";
 
 
 
-							<li><a href="https://cordis.europa.eu/project/id/503569"
+							<li><a href="https://cordis.europa.eu/project/id/503569" target='_blank'
 								rel="external">Network of Excellence <strong>EMIL</strong>(European
 									Molecular Imaging Laboratories) (combating cancer), 2004-2009
 							</a></li>
-							<li><a href="https://cordis.europa.eu/project/id/512146"
+							<li><a href="https://cordis.europa.eu/project/id/512146" target='_blank'
 								rel="external">Network of Excellence <strong>DiMI</strong>(Diagnosis
 									for Molecular Imaging), 2005-2010
 							</a></li>
 							<li><strong>STREP</strong> "Ortho/Para-Water", 2004-2008 (Coord.)
 							</li>
-							<li><a href="http://www.meditrans-ip.net/" rel="external">Integrated
+							<li><a href="http://www.meditrans-ip.net/" target='_blank' rel="external">Integrated
 									Project <strong>Meditrans</strong>("Imaging Drug Delivery"),
 									2006-2010
 							</a></li>
-							<li><a href="https://cordis.europa.eu/project/id/201842"
+							<li><a href="https://cordis.europa.eu/project/id/201842" target='_blank'
 								rel="external">Integrated Project <strong>ENCITE</strong>("Cellular
 									Therapy"), 2008-2012
 							</a></li>
 							<li><strong>COST</strong> "Lanthanides in Diagnosis and Therapy",
 								2001-2006 (Coord.)</li>
-							<li><a href="https://www.cost.eu/actions/D38/" rel="external"><strong>COST</strong>
+							<li><a href="https://www.cost.eu/actions/D38/" target='_blank' rel="external"><strong>COST</strong>
 									"Metal-based Systems for Molecular Imaging", 2006-2011 (Coord.)</a></li>
 							<li><strong>EMMI</strong>("European Master in Molecular
 								Imaging"), 2008</li>

@@ -32,31 +32,33 @@ $localizer = "./";
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<div id="publicationsContainer">
 								<a
-									href='https://scholar.google.com/citations?user=85uyGDsAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Silvio
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Silvio+Aime[Author]&sort=date' target='_blank'><b>Silvio
 										Aime</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=za1fQwwAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Enzo
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Enzo+Terreno[Author]&sort=date' target='_blank'><b>Enzo
 										Terreno</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=GwU4wk4AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Simonetta
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Simonetta+Geninatti+Crich[Author]&sort=date' target='_blank'><b>Simonetta
 										Geninatti Crich</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=RN1TohEAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Walter
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Walter+Dastrù[Author]&sort=date' target='_blank'><b>Walter
 										Dastru'</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=ibKYwMAAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Daniela
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Daniela+Delli+Castelli[Author]&sort=date' target='_blank'><b>Daniela
 										Delli Castelli</b></a> <br> <a
-									href='https://scholar.google.com/citations?hl=en&user=mJK0H8cAAAAJ&view_op=list_works&sortby=pubdate'><b>Francesca
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Francesca+Reineri[Author]&sort=date' target='_blank'><b>Francesca
 										Reineri</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=Lu_4eBIAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Alessandra
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Alessandra+Viale[Author]&sort=date' target='_blank'><b>Alessandra
 										Viale</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=WEQvUlMAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Eliana
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Eliana+Gianolio[Author]&sort=date' target='_blank'><b>Eliana
 										Gianolio</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=euGug2wAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Dario
-										Longo</b></a> <br> <b>Juan Carlos Cutrin</b> <br> <a
-									href='https://scholar.google.com/citations?user=nYlL2XgAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Valeria
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Dario+Longo[Author]&sort=date' target='_blank'><b>Dario
+										Longo</b></a> <br> <a
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Juan+Carlos+Cutrin[Author]&sort=date' target='_blank'><b>Juan Carlos 
+									Cutrin</b></a> <br> <a
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Valeria+Menchise[Author]&sort=date' target='_blank'><b>Valeria
 										Menchise</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=9aBErO8AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Mauro
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Mauro+Botta[Author]&sort=date' target='_blank'><b>Mauro
 										Botta</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=gjln1k0AAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Lorenzo
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Lorenzo+Tei[Author]&sort=date' target='_blank'><b>Lorenzo
 										Tei</b></a> <br> <a
-									href='https://scholar.google.com/citations?user=o9WVftoAAAAJ&hl=en&view_op=list_works&sortby=pubdate'><b>Giuseppe
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Giuseppe+Digilio[Author]&sort=date' target='_blank'><b>Giuseppe
 										Digilio</b></a> <br>
 							</div>
 						</div>
