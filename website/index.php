@@ -51,7 +51,7 @@ header('Content-Type: text/html;charset=UTF-8');
 						<p>
 							Since 2016, it coordinates the activities of the
 							<a
-								href='http://www.eurobioimaging.eu/'
+								href='https://www.eurobioimaging-access.eu/'
 								target='_blank'>
 								<span class='paperTitle'>Euro-BioImaging</span>
 							</a>
@@ -89,7 +89,7 @@ header('Content-Type: text/html;charset=UTF-8');
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_theranostic.webp'
+											src='<?php echo $localizer; ?>images/research/figure_research_theranostic.webp'
 											alt='Theranostic dendrimersomes'
 											style='width: 100%'>
 									</a>
@@ -97,13 +97,13 @@ header('Content-Type: text/html;charset=UTF-8');
 							</div>
 							<div class='home cell'>
 								<div class='w3-card'>
-									<a href='research/research_cest.php'>
+									<a href='<?php echo $localizer; ?>research/research_cest.php'>
 										<div class='punch purple'>
 											<span><strong>CEST imaging</strong></span>
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_CEST.webp'
+											src='<?php echo $localizer; ?>images/research/figure_research_CEST.webp'
 											alt='Graphic representing DIACEST, PARACEST and LIPOCEST agents'
 											style='width: 100%'>
 									</a>
@@ -111,13 +111,13 @@ header('Content-Type: text/html;charset=UTF-8');
 							</div>
 							<div class='home cell'>
 								<div class='w3-card'>
-									<a href='research/research_enzyme.php'>
+									<a href='<?php echo $localizer; ?>research/research_enzyme.php'>
 										<div class='punch purple'>
 											<span><strong id='imaging_enzyme_activity_title'></strong></span>
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_enzyme.webp'
+											src='<?php echo $localizer; ?>images/research/figure_research_enzyme.webp'
 											alt='Scheme representing the action of an enzyme to form a product by connecting two substrates togheter'
 											style='width: 100%'>
 									</a>
@@ -127,13 +127,13 @@ header('Content-Type: text/html;charset=UTF-8');
 						<div class='home row animSlides2 w3-animate-fading'>
 							<div class='home cell'>
 								<div class='w3-card'>
-									<a href='research/research_cell.php'>
+									<a href='<?php echo $localizer; ?>research/research_cell.php'>
 										<div class='punch purple'>
 											<span><strong>Cell labeling and tracking</strong></span>
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_cell_labeling.webp'
+											src='<?php echo $localizer; ?>images/research/figure_research_cell_labeling.webp'
 											alt='Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains surrounding a cell'
 											style='width: 100%'>
 									</a>
@@ -141,13 +141,13 @@ header('Content-Type: text/html;charset=UTF-8');
 							</div>
 							<div class='home cell'>
 								<div class='w3-card'>
-									<a href='research/research_angiogenesis.php'>
+									<a href='<?php echo $localizer; ?>research/research_angiogenesis.php'>
 										<div class='punch purple'>
 											<span><strong>Tumor angiogenesis</strong></span>
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_angiogenesis.webp'
+											src='<?php echo $localizer; ?>images/research/figure_research_angiogenesis.webp'
 											alt='Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel'
 											style='width: 100%'>
 									</a>
@@ -155,13 +155,13 @@ header('Content-Type: text/html;charset=UTF-8');
 							</div>
 							<div class='home cell'>
 								<div class='w3-card'>
-									<a href='research/research_acidosis.php'>
+									<a href='<?php echo $localizer; ?>research/research_acidosis.php'>
 										<div class='punch purple'>
 											<span><strong>Tumor acidosis</strong></span>
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_tumor_acidosis.webp'
+											src='<?php echo $localizer; ?>images/research/figure_research_tumor_acidosis.webp'
 											alt='Scheme representing some of the methabolism involved in tumor acidosis'
 											style='width: 100%'>
 									</a>
@@ -172,13 +172,13 @@ header('Content-Type: text/html;charset=UTF-8');
 							<div class='home cell'></div>
 							<div class='home cell'>
 								<div class='w3-card'>
-									<a href='research/research_metabolism.php'>
+									<a href='<?php echo $localizer; ?>research/research_metabolism.php'>
 										<div class='punch purple'>
 											<span><strong>Tumor metabolism</strong></span>
 										</div>
 										<img
 											class='w3-image-box-noshadow'
-											src='images/research/figure_research_tumor_metabolism.webp'
+											src='<?php echo $localizer; ?>images/research/figure_research_tumor_metabolism.webp'
 											alt='Scheme representing tumor metabolism'
 											style='width: 100%'>
 									</a>
@@ -203,10 +203,10 @@ header('Content-Type: text/html;charset=UTF-8');
 								<br>
 								<a href='http://www.eurobioimaging.eu/'>
 									<img
-										src='images/Euro-Bioimaging-horizontal-RGB-slogan.webp'
+										src='<?php echo $localizer; ?>images/Euro-Bioimaging-horizontal-RGB-slogan.webp'
 										alt='Euro-BioImaging logo'>
 								</a>
-								<a href='news.php#EuBIlaunch'>
+								<a href='<?php echo $localizer; ?>news.php#EuBIlaunch'>
 									<span class='paperTitle'> European Commission launched the
 										Euro-Bioimaging ERIC</span>
 								</a>
@@ -217,7 +217,7 @@ header('Content-Type: text/html;charset=UTF-8');
 								</a>
 								<br>
 								<p style='text-align: right; color: blue; font-size: 100%'>
-									<a href='news.php#EuBIlaunch'>
+									<a href='<?php echo $localizer; ?>news.php#EuBIlaunch'>
 										<b>Read more &#8594;</b>
 									</a>
 								</p>
@@ -232,7 +232,7 @@ header('Content-Type: text/html;charset=UTF-8');
 									Resonance Imaging Biomarkers for Chronic Kidney Disease&quot;</span>
 								<br>
 								<p style='text-align: right; color: blue; font-size: 100%'>
-									<a href='news.php#COST'>
+									<a href='<?php echo $localizer; ?>news.php#COST'>
 										<b>Read more &#8594;</b>
 									</a>
 								</p>
@@ -254,7 +254,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='http://www.glint-project.eu/'
 											target='_blank'>
 											<img
-												src='news/glint.svg'
+												src='<?php echo $localizer; ?>news/glint.svg'
 												alt='GLINT logo'>
 										</a>
 										<br> <span>CIM partecipates to the H2020 project <a
@@ -265,7 +265,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											disruptive new diagnostic tool.
 										</span>
 										<p style='text-align: right; color: blue; font-size: 100%'>
-											<a href='news.php#GLINT'>
+											<a href='<?php echo $localizer; ?>news.php#GLINT'>
 												<b>Read more &#8594;</b>
 											</a>
 										</p>
@@ -275,7 +275,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='http://www.primogaia.eu/'
 											target='_blank'>
 											<img
-												src='news/primoGAIA-logo.png'
+												src='<?php echo $localizer; ?>news/primoGAIA-logo.png'
 												alt='Primo GAIA logo'>
 										</a>
 										<br> <span>CIM partecipates to the H2020 project <a
@@ -287,7 +287,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											pathologies
 										</span>
 										<p style='text-align: right; color: blue; font-size: 100%'>
-											<a href='news.php#PrimoGAIA'>
+											<a href='<?php echo $localizer; ?>news.php#PrimoGAIA'>
 												<b>Read more &#8594;</b>
 											</a>
 										</p>
@@ -304,7 +304,7 @@ header('Content-Type: text/html;charset=UTF-8');
 								<br>
 								<a href='http://www.e-smi.eu/index.php?id=emim-2020'>
 									<img
-										src='images/meetings/EMIM_2020.jpg'
+										src='<?php echo $localizer; ?>images/meetings/EMIM_2020.jpg'
 										alt='15th European Molecular Imaging Meeting 2020 image'>
 									<span class='paperTitle'>15th European Molecular Imaging
 										Meeting</span>
@@ -319,7 +319,7 @@ header('Content-Type: text/html;charset=UTF-8');
 								<br>
 								<a href='https://www.ismrm.org/20m/'>
 									<img
-										src='images/meetings/ISMRM_2020.webp'
+										src='<?php echo $localizer; ?>images/meetings/ISMRM_2020.webp'
 										alt='ISMRM 28th Annual Meeting 2020 image'>
 									<span class='paperTitle'>ISMRM 28th Annual Meeting 2020</span>
 								</a>
@@ -331,14 +331,14 @@ header('Content-Type: text/html;charset=UTF-8');
 									<span>WMIC meeting</span>
 								</h2>
 								<br>
-								<a href='https://www.wmis.org/wmic-2023-about/'>
+								<a href='https://wmis.org/wmic1/wmic-2026/'>
 									<img
-										src='images/meetings/WMIC-2023-Web-Banner-1-Oct6.webp'
-										alt='World Molecular Imaging Congress 2023 image'>
-									<span class='paperTitle'>World Molecular Imaging Congress 2023</span>
+										src='<?php echo $localizer; ?>images/meetings/WMIC26_SLC_640x292_300dpi_RGB-1-1024x467.webp'
+										alt='World Molecular Imaging Congress 2026'>
+									<span class='paperTitle'>World Molecular Imaging Congress 2026</span>
 								</a>
-								<span class='date'> 5-9 October 2020 </span> <span> Prague,
-									Czech Republic</span>
+								<span class='date'> 8-11 September 2026 </span> <span> Salt Lake City,
+									USA</span>
 							</div>
 						</div>
 					</div>
@@ -360,7 +360,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://pubmed.ncbi.nlm.nih.gov/37345577/'
 											target='_blank'>
 											<img
-												src='images/papers/smll202302868-fig-0001-m.webp'
+												src='<?php echo $localizer; ?>images/papers/smll202302868-fig-0001-m.webp'
 												alt=''>
 											<b>Novel Nanogels Loaded with Mn(II) Chelates as Effective
 												and Biologically Stable MRI Probes.</b> <br> <span
@@ -380,7 +380,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://pubmed.ncbi.nlm.nih.gov/37570545/'
 											target='_blank'>
 											<img
-												src='images/papers/nanomaterials-13-02227-g001.webp'
+												src='<?php echo $localizer; ?>images/papers/nanomaterials-13-02227-g001.webp'
 												alt=''>
 											<b>Hard-Shelled Glycol Chitosan Nanoparticles for Dual MRI/US
 												Detection of Drug Delivery/Release: A Proof-of-Concept
@@ -400,7 +400,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://pubmed.ncbi.nlm.nih.gov/35745705/'
 											target='_blank'>
 											<img
-												src='images/papers/pharmaceutics-14-01132-g002.webp'
+												src='<?php echo $localizer; ?>images/papers/pharmaceutics-14-01132-g002.webp'
 												alt=''>
 											<b>Micro/Nanosystems for Magnetic Targeted Delivery of
 												Bioagents.</b> <br> <span class='w3-text-blue'> <b>Garello F
@@ -421,7 +421,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://pubmed.ncbi.nlm.nih.gov/35630601/'
 											target='_blank'>
 											<img
-												src='images/papers/molecules-27-03124-g004.webp'
+												src='<?php echo $localizer; ?>images/papers/molecules-27-03124-g004.webp'
 												alt=''>
 											<b>Synthetic and Nanotechnological Approaches for a
 												Diagnostic Use of Manganese.</b> <br> <span
@@ -441,7 +441,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://pubmed.ncbi.nlm.nih.gov/35458689/'
 											target='_blank'>
 											<img
-												src='images/papers/molecules-27-02490-ag.webp'
+												src='<?php echo $localizer; ?>images/papers/molecules-27-02490-ag.webp'
 												alt=''>
 											<b>Effects of Cations on HPTS Fluorescence and Quantification
 												of Free Gadolinium Ions in Solution; Assessment of
@@ -462,7 +462,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://pubmed.ncbi.nlm.nih.gov/35304674/'
 											target='_blank'>
 											<img
-												src='images/papers/10278_2022_612_Fig1_HTML.webp'
+												src='<?php echo $localizer; ?>images/papers/10278_2022_612_Fig1_HTML.webp'
 												alt=''>
 											<b>XNAT-PIC: Extending XNAT to Preclinical Imaging Centers.</b>
 											<br> <span class='w3-text-blue'> <b>Zullino S et al;</b> <br>J
@@ -483,7 +483,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.nature.com/articles/s41598-020-76370-1'
 											target='_blank'>
 											<img
-												src='images/papers/geninatti_2020_1.webp'
+												src='<?php echo $localizer; ?>images/papers/geninatti_2020_1.webp'
 												alt=''>
 											<b>In vitro and in vivo BNCT investigations using a carborane
 												containing sulfonamide targeting CAIX epitopes on malignant
@@ -504,7 +504,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30762162'
 											target='_blank'>
 											<img
-												src='images/papers/longo2019.webp'
+												src='<?php echo $localizer; ?>images/papers/longo2019.webp'
 												alt=''>
 											<b>Imaging tumor acidosis: a survey of the available
 												techniques for mapping in vivo tumor pH.</b> <span
@@ -524,7 +524,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30377745'
 											target='_blank'>
 											<img
-												src='images/papers/gianolio_2018.webp'
+												src='<?php echo $localizer; ?>images/papers/gianolio_2018.webp'
 												alt=''>
 											<b>Gadolinium presence, MRI hyperintensities, and glucose
 												uptake in the hypoperfused rat brain after repeated
@@ -547,7 +547,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513'
 											target='_blank'>
 											<img
-												src='images/papers/geninatti_2020_2.webp'
+												src='<?php echo $localizer; ?>images/papers/geninatti_2020_2.webp'
 												alt=''>
 											<b>A novel class of <sup>1</sup>H-MRI Contrast Agents based
 												on the relaxation enhancement induced on water protons by <sup>14</sup>N
@@ -568,7 +568,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30471202'
 											target='_blank'>
 											<img
-												src='images/papers/terreno_2018.webp'
+												src='<?php echo $localizer; ?>images/papers/terreno_2018.webp'
 												alt=''>
 											<b>Indocyanine Green labeling for optical and photoacoustic
 												imaging of Mesenchymal Stem Cells after in vivo
@@ -588,7 +588,7 @@ header('Content-Type: text/html;charset=UTF-8');
 											href='https://www.ncbi.nlm.nih.gov/pubmed/30087935'
 											target='_blank'>
 											<img
-												src='images/papers/geninatti_2018.webp'
+												src='<?php echo $localizer; ?>images/papers/geninatti_2018.webp'
 												alt=''>
 											<b>Efficient Route to Label Mesenchymal Stromal Cell-Derived
 												Extracellular Vesicles.</b> <span class='w3-text-blue'> <b>Geninatti
@@ -598,86 +598,6 @@ header('Content-Type: text/html;charset=UTF-8');
 									</div>
 								</div>
 							</div>
-							<!-- <div class='home cell papers'>
-								<div class='w3-card'>
-									<div class='w3-container'>
-										<a
-											title='Open in a new window'
-											class='http'
-											href='https://www.ncbi.nlm.nih.gov/pubmed/30248218'
-											target='_blank'>
-											<img
-												src='images/papers/reineri_2018.webp'
-												alt=''>
-											<b>Metabolic Studies of Tumor Cells Using [1-<sup>13</sup> C]
-												Pyruvate Hyperpolarized by Means of PHIP-Side Arm
-												Hydrogenation.
-											</b> <span class='w3-text-blue'> <br> <b>Reineri F. et al; </b><br>Chemphyschem.
-												2018, 19, 1-9.
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class='home cell papers'>
-								<div class='w3-card'>
-									<div class='w3-container'>
-										<a
-											title='Open in a new window'
-											class='http'
-											href='https://www.ncbi.nlm.nih.gov/pubmed/29411832'
-											target='_blank'>
-											<img
-												src='images/papers/dellicastelli_2018.webp'
-												alt=''>
-											<b>[Yb(AAZTA)(H<sub>2</sub>O)]-: an unconventional ParaCEST
-												MRI probe.
-											</b> <span class='w3-text-blue'> <br> <b>Delli Castelli D. et
-													al; </b><br>Chem Commun. 2018 Feb 20;54(16):2004-2007.
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class='home cell papers'>
-								<div class='w3-card'>
-									<div class='w3-container'>
-										<a
-											title='Open in a new window'
-											class='http'
-											href='https://www.ncbi.nlm.nih.gov/pubmed/30257047'
-											target='_blank'>
-											<img
-												src='images/papers/stefania_2018.webp'
-												alt=''>
-											<b>An efficient MRI agent targeting extracellular markers in
-												prostate adenocarcinoma.</b> <span class='w3-text-blue'> <br>
-												<b>Stefania R et al; </b><br>Magn Reson Med. 2018; 1-12
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class='home cell papers'>
-								<div class='w3-card'>
-									<div class='w3-container'>
-										<a
-											title='Open in a new window'
-											class='http'
-											href='https://www.ncbi.nlm.nih.gov/pubmed/29963255'
-											target='_blank'>
-											<img
-												src='images/papers/cutrin_2018.webp'
-												alt=''>
-											<b>Cancer cell death induced by ferritins and the peculiar
-												role of their labile iron pool.</b> <span
-												class='w3-text-blue'> <br> <b>Cutrin JC et al;</b> <br>Oncotarget.
-												2018 Jun 15; 9(46): 27974-27984
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>  -->
 						</div>
 					</div>
 				</div>

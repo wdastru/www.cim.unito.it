@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /website/COST/private/
+Disallow: /website/documenti/
+Disallow: /website/aspect/
+Disallow: /website/private/
+Disallow: /website/COST/documents/
+Disallow: /website/includes/
+Disallow: /website/images/
+Disallow: /website/flowplayer/
+Disallow: /website/css/
+Disallow: /website/staff/staff_digilio.php/1000

@@ -90,7 +90,7 @@
 											</a>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Gianolio/home.html'>
+												href='<?php echo $localizer; ?>PI/Gianolio/home.php'>
 												<span>Gianolio, </span>
 											</a>
 											<a
@@ -219,7 +219,7 @@
 											</a>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Gianolio/home.html'>
+												href='<?php echo $localizer; ?>PI/Gianolio/home.php'>
 												<span>Gianolio, </span>
 											</a>
 											<a
@@ -640,7 +640,7 @@
 											</a>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Gianolio/home.html'>
+												href='<?php echo $localizer; ?>PI/Gianolio/home.php'>
 												<span>Gianolio</span>
 											</a>
 										</div>
@@ -664,7 +664,7 @@
 											<span>PI:</span>
 											<a
 												title='Opens in new window'
-												href='<?php echo $localizer; ?>PI/Gianolio/home.html'>
+												href='<?php echo $localizer; ?>PI/Gianolio/home.php'>
 												<span>Gianolio</span>
 											</a>
 										</div>
