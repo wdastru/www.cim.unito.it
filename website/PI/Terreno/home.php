@@ -22,11 +22,15 @@ function getStaffData($conn, $nome, $cognome) {
     $stmt->execute();
     $result = $stmt->get_result();
     
+    $data = null;
     if ($result->num_rows == 1) {
-        return $result->fetch_assoc(); // Restituisce un array associativo
+        $data->fetch_assoc(); // Restituisce un array associativo
     } else {
         return null; // Nessun risultato
     }
+    
+    $stmt->close();
+    return $data;
 }
 
 $staff = getStaffData($conn, "Enzo", "Terreno");
@@ -41,7 +45,6 @@ if ($staff) {
     echo "Nessun risultato trovato.";
 }
 
-$stmt->close();
 $conn->close();
 
 ?>
