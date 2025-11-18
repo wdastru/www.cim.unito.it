@@ -1,7 +1,6 @@
 <?php
 $localizer = "../../";
 
-
 $host = "localhost";        // Server MySQL
 $user = "cimunito01";     // Username MySQL
 $pass = "G3nseidOha_by8b1";     // Password MySQL
@@ -13,10 +12,38 @@ $conn = new mysqli($host, $user, $pass, $db);
 // Controllo errori
 if ($conn->connect_error) {
     die("Connessione fallita: " . $conn->connect_error);
-}
-echo "Connessione riuscita!";
+} 
 
+
+function getStaffData($conn, $nome, $cognome) {
+    $sql = "SELECT Nome, Cognome, Mail, Telefono FROM staff_data WHERE Nome = ? AND Cognome = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ss", $nome, $cognome);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    if ($result->num_rows == 1) {
+        return $result->fetch_assoc(); // Restituisce un array associativo
+    } else {
+        return null; // Nessun risultato
+    }
+}
+
+$staff = getStaffData($conn, "Enzo", "Terreno");
+
+$email = "";
+$telefono = "";
+
+if ($staff) {
+    $email = $staff["Mail"];
+    $telefono = $staff["Telefono"];
+} else {
+    echo "Nessun risultato trovato.";
+}
+
+$stmt->close();
 $conn->close();
+
 ?>
 <!DOCTYPE html>
 <!--
@@ -92,8 +119,8 @@ $conn->close();
 											Terreno, PhD</span><br> <br>Full Professor,<br> Molecular
 										Imaging Center,<br> Department of Molecular Biotechnologies
 										and Health Science,<br> University of Torino,<br> Via Nizza
-										52, <br> Torino 10126, Italy<br> Tel: +39 011 6706452<br> Fax:
-										+39 011 6706487<br> <a href="mailto:enzo.terreno@unito.it">enzo.terreno@unito.it</a>
+										52, <br> Torino 10126, Italy<br> Tel: <?php echo $telefono; ?><br> Fax:
+										+39 011 6706487<br> <a href="mailto:enzo.terreno@unito.it"><?php echo $email; ?></a>
 									</p>
 								</div>
 							</div>
