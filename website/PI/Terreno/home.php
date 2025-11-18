@@ -12,8 +12,7 @@ $conn = new mysqli($host, $user, $pass, $db);
 // Controllo errori
 if ($conn->connect_error) {
     die("Connessione fallita: " . $conn->connect_error);
-} 
-
+}
 
 function getStaffData($conn, $nome, $cognome) {
     $sql = "SELECT Nome, Cognome, Mail, Telefono FROM staff_data WHERE Nome = ? AND Cognome = ?";
@@ -24,7 +23,7 @@ function getStaffData($conn, $nome, $cognome) {
     
     $data = null;
     if ($result->num_rows == 1) {
-        $data->fetch_assoc(); // Restituisce un array associativo
+        $data = $result->fetch_assoc(); // Restituisce un array associativo
     } else {
         return null; // Nessun risultato
     }
