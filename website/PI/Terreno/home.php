@@ -1,5 +1,22 @@
 <?php
 $localizer = "../../";
+
+
+$host = "localhost";        // Server MySQL
+$user = "cimunito01";     // Username MySQL
+$pass = "G3nseidOha_by8b1";     // Password MySQL
+$db   = "dbcimunito";       // Nome del database
+
+// Connessione
+$conn = new mysqli($host, $user, $pass, $db);
+
+// Controllo errori
+if ($conn->connect_error) {
+    die("Connessione fallita: " . $conn->connect_error);
+}
+echo "Connessione riuscita!";
+
+$conn->close();
 ?>
 <!DOCTYPE html>
 <!--
