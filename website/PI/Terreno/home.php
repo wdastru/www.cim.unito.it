@@ -1,10 +1,7 @@
 <?php
 $localizer = "../../";
 
-require __DIR__ . '/vendor/autoload.php';
-
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+require $localizer . 'config/bootstrap.php';
 
 $host = $_ENV['DB_HOST'];
 $user = $_ENV['DB_USER'];

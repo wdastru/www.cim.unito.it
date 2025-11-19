@@ -50,3 +50,6 @@ website/research/MRI_sequences/package*
 .viminfo
 .settings/org.eclipse.ltk.core.refactoring.prefs
 .settings/org.eclipse.wst.html.core.prefs
+/vendor/
+/composer.lock
+/cim.unito.it_info hosting/
