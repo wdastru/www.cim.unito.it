@@ -1,53 +1,10 @@
 <?php
 $localizer = "../../";
 
-require $localizer . 'config/bootstrap.php';
+$nome = 'Enzo';
+$cognome = 'Terreno';
 
-$host = $_ENV['DB_HOST'];
-$user = $_ENV['DB_USER'];
-$pass = $_ENV['DB_PASS'];
-$db   = $_ENV['DB_NAME'];
-
-// Connessione
-$conn = new mysqli($host, $user, $pass, $db);
-
-// Controllo errori
-if ($conn->connect_error) {
-    die("Connessione fallita: " . $conn->connect_error);
-}
-
-function getStaffData($conn, $nome, $cognome) {
-    $sql = "SELECT Nome, Cognome, Mail, Telefono FROM staff_data WHERE Nome = ? AND Cognome = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ss", $nome, $cognome);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    
-    $data = null;
-    if ($result->num_rows == 1) {
-        $data = $result->fetch_assoc(); // Restituisce un array associativo
-    } else {
-        return null; // Nessun risultato
-    }
-    
-    $stmt->close();
-    return $data;
-}
-
-$staff = getStaffData($conn, "Enzo", "Terreno");
-
-$email = "";
-$telefono = "";
-
-if ($staff) {
-    $email = $staff["Mail"];
-    $telefono = $staff["Telefono"];
-} else {
-    echo "Nessun risultato trovato.";
-}
-
-$conn->close();
-
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -124,7 +81,7 @@ $conn->close();
 										Imaging Center,<br> Department of Molecular Biotechnologies
 										and Health Science,<br> University of Torino,<br> Via Nizza
 										52, <br> Torino 10126, Italy<br> Tel: <?php echo $telefono; ?><br> Fax:
-										+39 011 6706487<br> <a href="mailto:enzo.terreno@unito.it"><?php echo $email; ?></a>
+										+39 011 6706487<br> <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
 									</p>
 								</div>
 							</div>

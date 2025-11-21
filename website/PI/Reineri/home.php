@@ -1,5 +1,10 @@
 <?php
 $localizer = "../../";
+
+$nome = 'Francesca';
+$cognome = 'Reineri';
+
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -85,9 +90,8 @@ $localizer = "../../";
 												Reineri, PhD</span> <br> <br> Assistance Professor<br>
 											Molecular Imaging Center <br> Department of Molecular
 											Biotechnologies and Health Science<br> University of Torino <br>
-											Via Nizza 52<br> 10126 Torino - Italy<br> Tel: +39 011
-											6706473<br> Fax: +39 011 6706458<br> <a
-												href="mailto:francesca.reineri@unito.it">francesca.reineri@unito.it</a>
+											Via Nizza 52<br> 10126 Torino - Italy<br> Tel: <?php echo $telefono;?><br> Fax: +39 011 6706458<br> <a
+												href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
 
 										</p>
 									</div>

@@ -1,5 +1,10 @@
 <?php
 $localizer = "../../";
+
+$nome = 'Daniela';
+$cognome = 'Delli Castelli';
+
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -188,22 +193,20 @@ $localizer = "../../";
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
-								<a href="#">
-									<img
-										src="<?php echo $localizer; ?>images/staff/dellicastelli.webp"
-										alt="Daniela Delli Castelli"
-										style="width: 140px; height: auto;"
-										class="image left">
+								<a href="#"> <img
+									src="<?php echo $localizer; ?>images/staff/dellicastelli.webp"
+									alt="Daniela Delli Castelli"
+									style="width: 140px; height: auto;" class="image left">
 								</a>
 								<div style="padding: 0 0 0 180px;">
 									<p style="line-height: 1.2; text-align: left;">
 										<span style="font-size: 1.2em; font-weight: 700;">Daniela
-											Delli Castelli, PhD</span> <br> <br> Associate
-											Professor<br> Molecular Imaging Center <br> Department of
-											Molecular Biotechnologies and Health Science<br> University
-											of Torino <br> Via Nizza 52<br> 10126 Torino - Italy<br> Tel:
-											+39 011 6706493<br> Fax: +39 011 6706458<br> <a
-												href="mailto:daniela.dellicastelli@unito.it">daniela.dellicastelli@unito.it</a>
+											Delli Castelli, PhD</span> <br> <br> Associate Professor<br>
+										Molecular Imaging Center <br> Department of Molecular
+										Biotechnologies and Health Science<br> University of Torino <br>
+										Via Nizza 52<br> 10126 Torino - Italy<br> Tel: <?php echo $telefono;?><br>
+										Fax: +39 011 6706458<br> <a
+											href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
 									</p>
 								</div>
 							</div>

@@ -1,5 +1,10 @@
 <?php
 $localizer = "../../";
+
+$nome = 'Eliana';
+$cognome = 'Gianolio';
+
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -69,7 +74,7 @@ $localizer = "../../";
 								</div>
 							</div>
 							<div class="4u 12u(mobile)">
-								<a href="#"><img src="images/gianolio.jpg" alt="Eliana Gianolio"
+								<a href="#"><img src="<?php echo $localizer; ?>images/staff/gianolio.jpg" alt="Eliana Gianolio"
 									style="width: 140px; height: auto;" class="image left"></a>
 								<div style="padding: 0 0 0 180px;">
 									<p style="line-height: 1.2; text-align: left;">
@@ -77,9 +82,9 @@ $localizer = "../../";
 											Gianolio, PhD</span> <br> <br>Research Technician,<br>
 										Molecular Imaging Center,<br> Department of Molecular
 										Biotechnologies and Health Science,<br> University of Torino,<br>
-										Via Nizza 52, <br>Torino 10126, Italy<br> Tel: +39 011 6706475<br>
+										Via Nizza 52, <br>Torino 10126, Italy<br> Tel: <?php echo $telefono;?><br>
 										Fax: +39 011 6706458<br> <a
-											href="mailto:eliana.gianolio@unito.it">eliana.gianolio@unito.it</a>
+											href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
 									</p>
 								</div>
 							</div>

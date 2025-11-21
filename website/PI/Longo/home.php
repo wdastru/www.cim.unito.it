@@ -1,5 +1,10 @@
 <?php
 	$localizer = "../../";
+	
+	$nome = 'Dario Livio';
+	$cognome = 'Longo';
+	
+	require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -133,9 +138,9 @@
 												<br> <font color="#333" > <b>Head, Research Unit of Torino</b> <br> Institute of Biostructures
 												and Bioimaging (IBB)<br> Italian National Research Council
 												(CNR)<br> <br>Via Nizza, 52<br> 10126 Torino - Italy<br>
-												Tel: +39 011 6706473<br> Fax: +39 011 6706458<br></font>
+												Tel: <?php echo $telefono;?><br> Fax: +39 011 6706458<br> 
+												<a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></font></a>
 												<a href="mailto:dariolivio.longo@cnr.it"><font color="#1e799f"> dariolivio.longo@cnr.it </font></a>
-												<a href="mailto:dario.longo@unito.it"><font color="#1e799f"> dario.longo@unito.it</font></a>
 												
 											</p>
 										</div>
