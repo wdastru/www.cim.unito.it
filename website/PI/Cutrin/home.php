@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -142,9 +143,26 @@ $localizer = "../../";
 										<li>University of Torino</li>
 										<li>Via Nizza 52</li>
 										<li>Torino 10126, Italy</li>
-										<li>Tel: +39 011 6706473</li>
+										<li>Tel: <?php
+                                                    echo getStaffData($conn, [
+                                                                'Nome' => 'Juan Carlos',
+                                                                'Cognome' => 'Cutrin'
+                                                            ])['Telefono'];
+                                                    ?>
+										</li>
 										<li>Fax: +39 011 6706458</li>
-										<li><a href="mailto:juancarlos.cutrin@unito.it">juancarlos.cutrin@unito.it</a></li>
+										<li>
+										<?php
+                                            echo "<a href=\"mailto:" . getStaffData($conn, [
+                                                        'Nome' => 'Juan Carlos',
+                                                        'Cognome' => 'Cutrin'
+                                                    ])['Mail']
+                                            . "\">" . getStaffData($conn, [
+                                                        'Nome' => 'Juan Carlos',
+                                                        'Cognome' => 'Cutrin'
+                                                    ])['Mail'];
+                                            ?>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -190,3 +208,6 @@ $localizer = "../../";
 	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 </body>
 </html>
+<?php 
+    $conn->close();
+?>

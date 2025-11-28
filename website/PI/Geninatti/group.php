@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -22,8 +23,7 @@ $localizer = "../../";
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
 			</a> <a href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
@@ -52,7 +52,8 @@ $localizer = "../../";
 									<h2 class="second icon fa-user">Group Members</h2>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp"
+										<a class="image left"><img
+											src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp"
 											alt="Simonetta Geninatti"
 											style="width: 180px; height: 170px;"></a>
 										<div>
@@ -65,14 +66,28 @@ $localizer = "../../";
 													href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=sgeninat#profilo"
 													target="_blank"> Academic Activity</a><br> <a
 													href="documents/CVSIMOenglish.pdf" target="_blank">
-													Curriculum Vitae</a><br> office: +39 0116706473<br> email:
-												<a href="mailto:simonetta.geninatti@unito.it">simonetta.geninatti@unito.it</a>
+													Curriculum Vitae</a><br> office: 
+													<?php
+            echo getStaffData($conn, [
+                'Nome' => 'Simonetta',
+                'Cognome' => 'Geninatti Crich'
+            ])['Telefono'];
+            ?><br> email: <?php
+            echo "<a href=\"mailto:" . getStaffData($conn, [
+                'Nome' => 'Simonetta',
+                'Cognome' => 'Geninatti Crich'
+            ])['Mail'] . "\">" . getStaffData($conn, [
+                'Nome' => 'Simonetta',
+                'Cognome' => 'Geninatti Crich'
+            ])['Mail'];
+        ?>
 											</p>
 										</div>
 									</article>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/alberti.webp"
+										<a class="image left"><img
+											src="<?php echo $localizer; ?>images/staff/alberti.webp"
 											alt="Diego Alberti" style="width: 180px; height: auto;"></a>
 										<div>
 											<header>
@@ -82,8 +97,21 @@ $localizer = "../../";
 											<p style="line-height: 1.2">
 												PhD Biochemical Sciences, University of Torino<br> MSc
 												Biotechnologies, University of Torino <br> office:
-												+390116706476<br> email: <a
-													href="mailto:diego.alberti@unito.it">diego.alberti@unito.it</a>
+												<?php
+            echo getStaffData($conn, [
+                'Nome' => 'Diego',
+                'Cognome' => 'Alberti'
+            ])['Telefono'];
+            ?>
+            <br> email: <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Diego',
+            'Cognome' => 'Alberti'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Diego',
+            'Cognome' => 'Alberti'
+        ])['Mail'];
+        ?>
 											</p>
 										</div>
 										<div class="showtext">
@@ -105,7 +133,8 @@ $localizer = "../../";
 									</article>
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/baroni.webp"
+										<a class="image left"><img
+											src="<?php echo $localizer; ?>images/staff/baroni.webp"
 											alt="Simona Baroni" style="width: 180px; height: auto;"></a>
 										<div>
 											<header>
@@ -114,8 +143,21 @@ $localizer = "../../";
 											</header>
 											<p style="line-height: 1.2">
 												PhD Biochemical Science, University of Torino<br> MSc
-												Chemistry, University of Torino <br> office: +390116706496<br>
-												email: <a href="mailto:simona.baroni@unito.it">simona.baroni@unito.it</a>
+												Chemistry, University of Torino <br> office: <?php
+            echo getStaffData($conn, [
+                'Nome' => 'Simona',
+                'Cognome' => 'Baroni'
+            ])['Telefono'];
+            ?><br>
+												email: <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Simona',
+            'Cognome' => 'Baroni'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Simona',
+            'Cognome' => 'Baroni'
+        ])['Mail'];
+        ?>
 											</p>
 										</div>
 										<div class="showtext">
@@ -139,9 +181,9 @@ $localizer = "../../";
 											</form>
 										</div>
 									</article>
-									<!-- Excerpt -->
-									<article class="box excerpt">
-										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/ruggiero.webp"
+									<!-- <article class="box excerpt">
+										<a class="image left"><img
+											src="<?php echo $localizer; ?>images/staff/ruggiero.webp"
 											alt="Maria Rosaria Ruggiero"
 											style="width: 180px; height: auto;"></a>
 										<div>
@@ -172,9 +214,9 @@ $localizer = "../../";
 											</form>
 										</div>
 									</article>
-									<!-- Excerpt -->
 									<article class="box excerpt">
-										<a class="image left"><img src="<?php echo $localizer; ?>images/staff/sforzi.webp"
+										<a class="image left"><img
+											src="<?php echo $localizer; ?>images/staff/sforzi.webp"
 											alt="Jacopo Sforzi" style="width: 180px; height: auto;"></a>
 										<div>
 											<header>
@@ -223,6 +265,7 @@ $localizer = "../../";
 											</ul>
 										</div>
 									</article>
+									-->
 								</section>
 							</div>
 						</div>
@@ -252,8 +295,12 @@ $localizer = "../../";
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
-	<script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<script src="https://platform.linkedin.com/badges/js/profile.js" async
+		defer></script>
 	<script>
 </script>
 </body>
 </html>
+<?php
+$conn->close();
+?>

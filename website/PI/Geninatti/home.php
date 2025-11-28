@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -22,8 +23,7 @@ $localizer = "../../";
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
 			</a> <a href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
@@ -81,7 +81,8 @@ $localizer = "../../";
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
-								<a href="#"><img src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp"
+								<a href="#"><img
+									src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp"
 									alt="Simonetta Geninatti Crich"
 									style="width: 140px; height: auto;" class="image left"></a>
 								<div style="padding: 0 0 0 180px;">
@@ -90,14 +91,29 @@ $localizer = "../../";
 											Geninatti Crich, PhD</span> <br> <br>Associate Professor,<br>
 										Molecular Imaging Center,<br> Department of Molecular
 										Biotechnologies and Health Science,<br> University of Torino,<br>
-										Via Nizza 52, <br> Torino 10126, Italy<br> Tel: +39 011
-										6706473<br> Fax: +39 011 6706458<br> <a
-											href="mailto:simonetta.geninatti@unito.it">simonetta.geninatti@unito.it</a>
+										Via Nizza 52, <br> Torino 10126, Italy<br> Tel: 
+		<?php
+            echo getStaffData($conn, [
+                'Nome' => 'Simonetta',
+                'Cognome' => 'Geninatti Crich'
+            ])['Telefono'];
+        ?>
+        <br> Fax: +39 011 6706458<br> 
+		<?php
+            echo "<a href=\"mailto:" . getStaffData($conn, [
+                'Nome' => 'Simonetta',
+                'Cognome' => 'Geninatti Crich'
+            ])['Mail'] . "\">" . getStaffData($conn, [
+                'Nome' => 'Simonetta',
+                'Cognome' => 'Geninatti Crich'
+            ])['Mail'];
+        ?>
 									</p>
 								</div>
 							</div>
 						</div>
-						<hr><hr>
+						<hr>
+						<hr>
 						<div class="row">
 							<div class="3u 6u(mobile)">
 								<section>
@@ -260,3 +276,6 @@ $localizer = "../../";
 
 </body>
 </html>
+<?php
+$conn->close();
+?>

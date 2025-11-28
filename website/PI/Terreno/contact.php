@@ -1,5 +1,6 @@
 <?php
-	$localizer = "../../";
+$localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -72,9 +73,22 @@
 												Via Nizza, 52<br>
 												10126 - Torino, Italy </strong></p>
 												<p style="color:dark gray; line-height: 2" align="left">
-												Tel: +39 011 6706452<br > 
-												Fax: +39 011 6706487<br > 
-												<a href="mailto:enzo.terreno@unito.it">enzo.terreno@unito.it</a></font>
+												Tel: 
+<?php
+echo getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Telefono'];
+?><br> email: <?php
+echo "<a href=\"mailto:" . getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Mail'] . "\">" . getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Mail'];
+?>
+
 												</p>
 												
 											</section>
@@ -110,3 +124,6 @@
 	
 	</body>
 </html>
+<?php 
+    $conn->close();
+?>

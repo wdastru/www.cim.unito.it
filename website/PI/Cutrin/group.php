@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -72,8 +73,24 @@ $localizer = "../../";
 												activity: <a
 													href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=jcutrin#profilo"
 													target=_blank>Dept. Molecular Biotechnology and Health
-													Sciences</a><br> Phone: +39 0116706473<br> E-mail: <a
-													href="mailto:juancarlos.cutrin@unito.it">juancarlos.cutrin@unito.it</a>
+													Sciences</a><br> Phone: 
+													<?php
+                                                        echo getStaffData($conn, [
+                                                                    'Nome' => 'Juan Carlos',
+                                                                    'Cognome' => 'Cutrin'
+                                                                ])['Telefono'];
+                                                    ?>
+                                                    <br> E-mail: 
+                                                    <?php
+                                                        echo "<a href=\"mailto:" . getStaffData($conn, [
+                                                                    'Nome' => 'Juan Carlos',
+                                                                    'Cognome' => 'Cutrin'
+                                                                ])['Mail']
+                                                        . "\">" . getStaffData($conn, [
+                                                                    'Nome' => 'Juan Carlos',
+                                                                    'Cognome' => 'Cutrin'
+                                                                ])['Mail'];
+                                                    ?>
 											</p>
 										</div>
 									</div>
@@ -135,3 +152,6 @@ $localizer = "../../";
 </script>
 </body>
 </html>
+<?php 
+    $conn->close();
+?>

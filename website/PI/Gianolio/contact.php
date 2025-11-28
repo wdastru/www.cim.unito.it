@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -22,8 +23,7 @@ $localizer = "../../";
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
 			</a> <a href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
@@ -50,8 +50,8 @@ $localizer = "../../";
 								<h2>Contact Us</h2>
 								<p style="text-align: left; line-height: 2;">
 									<strong> <a title="Molecular Imaging Center" class="http"
-										href="<?php echo $localizer; ?>">Molecular Imaging Center</a><br> <a
-										title="Dept. Mol Biotec Health Sciences" class="http"
+										href="<?php echo $localizer; ?>">Molecular Imaging Center</a><br>
+										<a title="Dept. Mol Biotec Health Sciences" class="http"
 										href="https://www.mbc.unito.it" target="_blank"> Department of
 											Molecular Biotechnologies and Health Science</a><br> <a
 										title="University of Torino" class="http"
@@ -60,8 +60,22 @@ $localizer = "../../";
 									</strong>
 								</p>
 								<p style="color: gray; line-height: 2; text-align: left;">
-									Tel: +39 011 6706475<br> Fax: +39 011 6706458<br> <a
-										href="mailto:eliana.gianolio@unito.it">eliana.gianolio@unito.it</a>
+									Tel: 
+<?php
+echo getStaffData($conn, [
+    'Nome' => 'Eliana',
+    'Cognome' => 'Gianolio'
+])['Telefono'];
+?><br> email: <?php
+echo "<a href=\"mailto:" . getStaffData($conn, [
+    'Nome' => 'Eliana',
+    'Cognome' => 'Gianolio'
+])['Mail'] . "\">" . getStaffData($conn, [
+    'Nome' => 'Eliana',
+    'Cognome' => 'Gianolio'
+])['Mail'];
+?>
+        					<br>
 								</p>
 							</div>
 							<div class="6u 12u(mobile)">
@@ -102,3 +116,6 @@ $localizer = "../../";
 	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 </body>
 </html>
+<?php
+$conn->close();
+?>

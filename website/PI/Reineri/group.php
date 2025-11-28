@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -71,9 +72,22 @@ $localizer = "../../";
 											href="https://www.dmbhs.unito.it/do/docenti.pl/Alias?francesca.reineri#tab-profilo"
 											target=_blank>Dept. Molecular Biotechnology and Health
 											Sciences</a><br> Ph.D. Chemistry, University of Torino, Italy<br>
-										M.Sc. Chemistry, University of Torino, Italy<br> Phone: +39
-										0116706473<br> E-mail: <a
-											href="mailto:francesca.reineri@unito.it">francesca.reineri@unito.it</a>
+										M.Sc. Chemistry, University of Torino, Italy<br> Phone: 
+<?php
+echo getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Reineri'
+])['Telefono'];
+?><br> email: <?php
+echo "<a href=\"mailto:" . getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Reineri'
+])['Mail'] . "\">" . getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Reineri'
+])['Mail'];
+?>
+										
 									</p>
 								</article>
 							</div>
@@ -255,3 +269,6 @@ $localizer = "../../";
 </script>
 </body>
 </html>
+<?php
+$conn->close();
+?>

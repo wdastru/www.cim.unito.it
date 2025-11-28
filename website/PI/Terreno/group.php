@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -72,15 +73,28 @@ $localizer = "../../";
 													href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=eterreno#profilo"
 													target="_blank"> Academic Activity</a><br> <a
 													href="documents/cv_terreno.pdf" target="_blank"> Curriculum
-													Vitae</a><br> office: +39 0116706452<br> email: <a
-													href="mailto:enzo.terreno@unito.it">enzo.terreno@unito.it</a>
+													Vitae</a><br> office: 
+<?php
+echo getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Telefono'];
+?><br> email: <?php
+echo "<a href=\"mailto:" . getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Mail'] . "\">" . getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Mail'];
+?>
 											</p>
 
 
 										</div>
 									</article>
 
-									<!-- Excerpt -->
+									<!-- Excerpt 
 									<article class="box excerpt">
 										<a class="image left"><img src="images/stefania.jpg" alt="Rachele Stefania"
 											style="width: 180px; height: auto;"></a>
@@ -113,8 +127,6 @@ $localizer = "../../";
 										</div>
 
 									</article>
-
-									<!-- Excerpt -->
 									<article class="box excerpt">
 										<a class="image left"><img src="images/arena.jpg" alt="Francesca Arena"
 											style="width: 180px; height: auto;"></a>
@@ -143,9 +155,7 @@ $localizer = "../../";
 											</form>
 										</div>
 
-									</article>
-
-									<!-- Excerpt -->
+									</article> -->
 									<article class="box excerpt">
 										<a class="image left"><img src="images/Garello.jpg" alt="Francesca Garello"
 											style="width: 180px; height: auto;"></a>
@@ -157,8 +167,21 @@ $localizer = "../../";
 											<p style="line-height: 1.2">
 												PhD Pharmaceutical and Biomolecular Sciences, University of
 												Torino<br> MSc Chemistry and Pharmaceutical Technologies,
-												University of Torino<br> office: +39 0116706452<br> email: <a
-													href="mailto:francesca.garello@unito.it">francesca.garello@unito.it</a>
+												University of Torino<br> office: 
+<?php
+echo getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Garello'
+])['Telefono'];
+?><br> email: <?php
+echo "<a href=\"mailto:" . getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Garello'
+])['Mail'] . "\">" . getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Garello'
+])['Mail'];
+?>
 											</p>
 										</div>
 
@@ -185,9 +208,7 @@ $localizer = "../../";
 										</div>
 
 									</article>
-
-
-									<!-- Excerpt -->
+									<!--
 									<article class="box excerpt">
 										<a class="image left"><img src="images/hawala.jpg" alt="Ivan Hawala"
 											style="width: 180px; height: auto;"></a>
@@ -226,8 +247,6 @@ $localizer = "../../";
 										</div>
 
 									</article>
-
-									<!-- Excerpt -->
 									<article class="box excerpt">
 										<a class="image left"><img src="images/patrucco.jpg" alt="Deyssy Patrucco"
 											style="width: 180px; height: auto;"></a>
@@ -262,7 +281,7 @@ $localizer = "../../";
 											</form>
 										</div>
 
-									</article>
+									</article>-->
 
 									<!-- 
 								<article class="box excerpt">
@@ -319,3 +338,6 @@ $localizer = "../../";
 
 </body>
 </html>
+<?php 
+    $conn->close();
+?>

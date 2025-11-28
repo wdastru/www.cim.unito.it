@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -22,8 +23,7 @@ $localizer = "../../";
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
 			</a> <a href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
@@ -73,8 +73,7 @@ $localizer = "../../";
 							<div class="4u 12u(mobile)">
 								<div>
 									<div style="width: 140px;">
-										<img
-											src="<?php echo $localizer; ?>images/staff/reineri.webp"
+										<img src="<?php echo $localizer; ?>images/staff/reineri.webp"
 											alt="Francesca Reineri"
 											style="width: 140px; height: auto; margin-right: 1em;"
 											class="image left">
@@ -85,9 +84,21 @@ $localizer = "../../";
 												Reineri, PhD</span> <br> <br> Assistance Professor<br>
 											Molecular Imaging Center <br> Department of Molecular
 											Biotechnologies and Health Science<br> University of Torino <br>
-											Via Nizza 52<br> 10126 Torino - Italy<br> Tel: +39 011
-											6706473<br> Fax: +39 011 6706458<br> <a
-												href="mailto:francesca.reineri@unito.it">francesca.reineri@unito.it</a>
+											Via Nizza 52<br> 10126 Torino - Italy<br> Tel: 
+											<?php
+        echo getStaffData($conn, [
+            'Nome' => 'Francesca',
+            'Cognome' => 'Reineri'
+        ])['Telefono'];
+        ?><br> email: <?php
+echo "<a href=\"mailto:" . getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Reineri'
+])['Mail'] . "\">" . getStaffData($conn, [
+    'Nome' => 'Francesca',
+    'Cognome' => 'Reineri'
+])['Mail'];
+?>
 
 										</p>
 									</div>
@@ -231,3 +242,6 @@ $localizer = "../../";
 
 </body>
 </html>
+<?php
+$conn->close();
+?>
