@@ -1,10 +1,6 @@
 <?php
 $localizer = "../../";
-
-$nome = 'Juan Carlos';
-$cognome = 'Cutrin';
-
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -147,9 +143,26 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 										<li>University of Torino</li>
 										<li>Via Nizza 52</li>
 										<li>Torino 10126, Italy</li>
-										<li>Tel: <?php echo $telefono;?></li>
+										<li>Tel: <?php
+                                                    echo getStaffData($conn, [
+                                                                'Nome' => 'Juan Carlos',
+                                                                'Cognome' => 'Cutrin'
+                                                            ])['Telefono'];
+                                                    ?>
+										</li>
 										<li>Fax: +39 011 6706458</li>
-										<li><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
+										<li>
+										<?php
+                                            echo "<a href=\"mailto:" . getStaffData($conn, [
+                                                        'Nome' => 'Juan Carlos',
+                                                        'Cognome' => 'Cutrin'
+                                                    ])['Mail']
+                                            . "\">" . getStaffData($conn, [
+                                                        'Nome' => 'Juan Carlos',
+                                                        'Cognome' => 'Cutrin'
+                                                    ])['Mail'];
+                                            ?>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -195,3 +208,6 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 </body>
 </html>
+<?php 
+    $conn->close();
+?>

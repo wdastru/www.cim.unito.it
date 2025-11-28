@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -18,25 +19,16 @@ $localizer = "../../";
 		<!-- Header -->
 		<div id="header-wrapper">
 			<!-- logo unito -->
-			<a
-				href="http://www.unito.it"
-				title="University of Torino"
-				target="_blank"
-				id="unito-logo"
-				style="text-decoration: none;">
+			<a href="http://www.unito.it" title="University of Torino"
+				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a>
-			<a
-				href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+			</a> <a href="<?php echo $localizer; ?>"
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
 				<!-- Header -->
-				<header
-					id="header"
-					style="margin: -30px 0 30px 0;">
+				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
 						<?php require ($localizer . 'PI/Delli_Castelli/includes/header_delli.php');?>
@@ -65,11 +57,10 @@ $localizer = "../../";
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<a class="image left">
-										<img
-											src="<?php echo $localizer; ?>images/staff/dellicastelli.webp"
-											alt="Daniela Delli Castelli"
-											style="width: 180px; height: 170px;">
+									<a class="image left"> <img
+										src="<?php echo $localizer; ?>images/staff/dellicastelli.webp"
+										alt="Daniela Delli Castelli"
+										style="width: 180px; height: 170px;">
 									</a>
 									<div>
 										<header>
@@ -77,12 +68,25 @@ $localizer = "../../";
 											<span><strong>Principal Investigator</strong></span>
 										</header>
 										<p style="line-height: 1.2">
-											Associate Professor<br> Molecular Imaging Center<br>
-											<a
+											Associate Professor<br> Molecular Imaging Center<br> <a
 												href="https://www.dmbhs.unito.it/do/docenti.pl/Alias?daniela.dellicastelli#tab-profilo"
-												target=_blank>Academic activity</a>
-											<br> Phone: +39 0116706493<br> E-mail:
-											<a href="mailto:daniela.dellicastelli@unito.it">daniela.dellicastelli@unito.it</a>
+												target=_blank>Academic activity</a> <br> Phone: 
+												<?php
+            echo getStaffData($conn, [
+                'Nome' => 'Daniela',
+                'Cognome' => 'Delli Castelli'
+            ])['Telefono'];
+            ?>
+        <br> E-mail:
+											<?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Daniela',
+            'Cognome' => 'Delli Castelli'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Daniela',
+            'Cognome' => 'Delli Castelli'
+        ])['Mail'];
+        ?>
 										</p>
 									</div>
 								</article>
@@ -141,6 +145,7 @@ $localizer = "../../";
 										</form>
 									</div>
 								</article> -->
+							
 							</div>
 						</div>
 						<hr></hr>
@@ -160,12 +165,12 @@ $localizer = "../../";
 	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
-	<script
-		type="text/javascript"
-		src="https://platform.linkedin.com/badges/js/profile.js"
-		async
-		defer></script>
+	<script type="text/javascript"
+		src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>
 </script>
 </body>
 </html>
+<?php
+$conn->close();
+?>

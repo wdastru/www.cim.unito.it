@@ -1,9 +1,5 @@
 <?php
 $localizer = "../../";
-
-$nome = 'Eliana';
-$cognome = 'Gianolio';
-
 require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
@@ -82,9 +78,21 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 											Gianolio, PhD</span> <br> <br>Research Technician,<br>
 										Molecular Imaging Center,<br> Department of Molecular
 										Biotechnologies and Health Science,<br> University of Torino,<br>
-										Via Nizza 52, <br>Torino 10126, Italy<br> Tel: <?php echo $telefono;?><br>
-										Fax: +39 011 6706458<br> <a
-											href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
+										Via Nizza 52, <br>Torino 10126, Italy<br> Tel: <?php
+        echo getStaffData($conn, [
+            'Nome' => 'Eliana',
+            'Cognome' => 'Gianolio'
+        ])['Telefono'];
+        ?><br>
+										Fax: +39 011 6706458<br> <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Eliana',
+            'Cognome' => 'Gianolio'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Eliana',
+            'Cognome' => 'Gianolio'
+        ])['Mail'];
+        ?>
 									</p>
 								</div>
 							</div>
@@ -202,3 +210,6 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
+<?php 
+    $conn->close();
+?>

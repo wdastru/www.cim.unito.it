@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -22,8 +23,7 @@ $localizer = "../../";
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
 			</a> <a href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
@@ -50,8 +50,8 @@ $localizer = "../../";
 								<h2>Contact Us</h2>
 								<p style="text-align: left; line-height: 2;">
 									<strong> <a title="Molecular Imaging Center" class="http"
-										href="<?php echo $localizer; ?>"> Molecular Imaging Center</a><br><a 
-										title="Dept. Mol Biotec Health Sciences" class="http"
+										href="<?php echo $localizer; ?>"> Molecular Imaging Center</a><br>
+										<a title="Dept. Mol Biotec Health Sciences" class="http"
 										href="https://www.mbc.unito.it" target="_blank"> Department of
 											Molecular Biotechnologies and Health Science</a><br> <a
 										title="University of Torino" class="http"
@@ -60,12 +60,28 @@ $localizer = "../../";
 									</strong>
 								</p>
 								<p style="color: grey; line-height: 2; text-align: left;">
-									Tel: +39 011 6706473<br> Fax: +39 011 6706458<br> <a
-										href="mailto:simonetta.geninatti@unito.it">simonetta.geninatti@unito.it</a>
+									Tel: 
+									<?php
+        echo getStaffData($conn, [
+            'Nome' => 'Simonetta',
+            'Cognome' => 'Geninatti Crich'
+        ])['Telefono'];
+        ?>
+            <br> Fax: +39 011 6706458<br> 
+									<?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Simonetta',
+            'Cognome' => 'Geninatti Crich'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Simonetta',
+            'Cognome' => 'Geninatti Crich'
+        ])['Mail'];
+        ?>
 								</p>
 							</div>
 							<div class="6u 12u(mobile)">
-								<br> <br> <br> <img src="images/MBC.jpg" alt="Top view of MBC building"
+								<br> <br> <br> <img src="images/MBC.jpg"
+									alt="Top view of MBC building"
 									style="width: 500px; height: auto;"> <br> <br>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.778737105892!2d7.672811341275943!3d45.04971173278425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d48f330bf1b%3A0x5944d69f41d987b7!2sUniversit%C3%A0+degli+Studi+di+Torino+-+Dipartimento+di+Biotecnologie!5e0!3m2!1sit!2sit!4v1514739376078"
@@ -100,3 +116,6 @@ $localizer = "../../";
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
+<?php
+$conn->close();
+?>

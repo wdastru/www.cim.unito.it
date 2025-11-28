@@ -1,5 +1,6 @@
 <?php
-	$localizer = "../../";
+$localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -104,8 +105,20 @@
 												Via Nizza, 52<br>
 												10126 - Torino, Italy </strong></p>
 												<p style="color:dark gray; line-height: 2" align="left">
-												Tel: +39 011 6706473<br > 
-												Fax: +39 011 6706458<br > 
+												Tel: <?php
+echo getStaffData($conn, [
+    'Nome' => 'Dario Livio',
+    'Cognome' => 'Longo'
+])['Telefono'];
+?><br> email: <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Dario Livio',
+            'Cognome' => 'Longo'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Dario Livio',
+            'Cognome' => 'Longo'
+        ])['Mail'];
+        ?><br> 
 												<a href="mailto:dariolivio.longo@cnr.it">dariolivio.longo@cnr.it</a></font>
 												</p>
 												
@@ -145,3 +158,7 @@
 			<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 
 	</body>
+</html>
+<?php
+$conn->close();
+?>

@@ -1,10 +1,6 @@
 <?php
 $localizer = "../../";
-
-$nome = 'Daniela';
-$cognome = 'Delli Castelli';
-
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -23,25 +19,16 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 		<!-- Header -->
 		<div id="header-wrapper">
 			<!-- logo unito -->
-			<a
-				href="http://www.unito.it"
-				title="University of Torino"
-				target="_blank"
-				id="unito-logo"
-				style="text-decoration: none;">
+			<a href="http://www.unito.it" title="University of Torino"
+				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a>
-			<a
-				href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+			</a> <a href="<?php echo $localizer; ?>"
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
 				<!-- Header -->
-				<header
-					id="header"
-					style="margin: -30px 0 30px 0;">
+				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
 						<?php require ($localizer . 'PI/Delli_Castelli/includes/header_delli.php');?>
@@ -62,9 +49,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 							<div class="8u 12u(mobile)">
 								<section class="content">
 									<div class="12u">
-										<p
-											align="justify"
-											style="line-height: 2">
+										<p align="justify" style="line-height: 2">
 											<b>Molecular Imaging is a cutting-edge medical technique that
 												enables the visualization and analysis of biological
 												processes at molecular and cellular levels within living
@@ -204,9 +189,21 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 											Delli Castelli, PhD</span> <br> <br> Associate Professor<br>
 										Molecular Imaging Center <br> Department of Molecular
 										Biotechnologies and Health Science<br> University of Torino <br>
-										Via Nizza 52<br> 10126 Torino - Italy<br> Tel: <?php echo $telefono;?><br>
-										Fax: +39 011 6706458<br> <a
-											href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
+										Via Nizza 52<br> 10126 Torino - Italy<br> Tel: 
+										<?php
+        echo getStaffData($conn, [
+            'Nome' => 'Daniela',
+            'Cognome' => 'Delli Castelli'
+        ])['Telefono'];
+        ?><br> Fax: +39 011 6706458<br> <?php
+                                        echo "<a href=\"mailto:" . getStaffData($conn, [
+                                            'Nome' => 'Daniela',
+                                            'Cognome' => 'Delli Castelli'
+                                        ])['Mail'] . "\">" . getStaffData($conn, [
+                                            'Nome' => 'Daniela',
+                                            'Cognome' => 'Delli Castelli'
+                                        ])['Mail'];
+                                        ?>
 									</p>
 								</div>
 							</div>
@@ -249,19 +246,19 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 									</a>
 								</section>
 							</div>  -->
-						</div>
 					</div>
 				</div>
 			</div>
-			<div class="wrapper style2">
-				<div class="inner">
-					<div class="container">
-						<div class="row">
-							<div class="7u 12u(mobile)">
-								<!-- Article list -->
-								<section class="box article-list">
-									<h2 class="icon fa-file-text-o">Upcoming Events</h2>
-									<!-- <ul class="divided">
+		</div>
+		<div class="wrapper style2">
+			<div class="inner">
+				<div class="container">
+					<div class="row">
+						<div class="7u 12u(mobile)">
+							<!-- Article list -->
+							<section class="box article-list">
+								<h2 class="icon fa-file-text-o">Upcoming Events</h2>
+								<!-- <ul class="divided">
 																				
 										<li>
 										<div class="date-icon">												
@@ -286,12 +283,12 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 										<a href="https://www.wmis.org/2020-wmic-2/" style="vertical-align:middle; padding-left:10px" target="_blank"><strong>World
 												Molecular Imaging Congress WMIC 2020</strong></a></li>									
 									</ul> -->
-								</section>
-							</div>
-							<div class="5u 12u(mobile)">
-								<section class="box spotlight">
-									<h2 class="icon fa-file-text-o">NEWS</h2>
-									<!-- <ul class="divided">
+							</section>
+						</div>
+						<div class="5u 12u(mobile)">
+							<section class="box spotlight">
+								<h2 class="icon fa-file-text-o">NEWS</h2>
+								<!-- <ul class="divided">
 						 			  	  	<li><img src="<?php echo $localizer; ?>PI/Delli_Castelli/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
 										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
@@ -318,29 +315,27 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 											<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">							
 											<em><font color="blue">"Iodinated Contrast Media as pH-Responsive CEST Agents" In: Chemical Exchange Saturation Transfer Imaging: Advances and Applications.</font></em></a>
 											</li> -->
-									</ul>
-									-->
-								</section>
-							</div>
+								</ul>
+								-->
+							</section>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Footer Wrapper -->
-		<div id="footer-wrapper">
-			<footer
-				id="footer"
-				class="container">
-				<div class="12u">
-					<ul class="menu">
-						<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
-						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Updated: 15 January 2020</li>
-					</ul>
-				</div>
-			</footer>
-		</div>
+	</div>
+	<!-- Footer Wrapper -->
+	<div id="footer-wrapper">
+		<footer id="footer" class="container">
+			<div class="12u">
+				<ul class="menu">
+					<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
+					<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>Updated: 15 January 2020</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
 	</div>
 	<!-- Scripts -->
 	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
@@ -354,3 +349,6 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
 </body>
 </html>
+<?php
+$conn->close();
+?>

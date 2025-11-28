@@ -1,5 +1,6 @@
 <?php
 $localizer = "../../";
+require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -27,8 +28,7 @@ $localizer = "../../";
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
 			</a> <a href="<?php echo $localizer; ?>"
-				title="Molecular Imaging Center"
-				style="text-decoration: none;">
+				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
 
@@ -133,12 +133,23 @@ $localizer = "../../";
 										First Researcher<br> IBB-CNR, Research Unit of Torino<br>
 										Academic activity at the University of Torino: <a
 											href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo"
-											target=_blank>Contract Professor in Cancer Imaging</a><br>
-										<br> Ph.D. in Bio-Chemical Sciences, University of Torino<br>
-										M.Sc. in Chemistry and Pharmaceutical Technologies, University
-										of Torino<br> Phone: +39 0116706473<br> E-mail: <a
-											href="mailto:dario.longo@unito.it"> <font color="#1e799f">
-												dario.longo@unito.it</font></a>, <a
+											target=_blank>Contract Professor in Cancer Imaging</a><br> <br>
+										Ph.D. in Bio-Chemical Sciences, University of Torino<br> M.Sc.
+										in Chemistry and Pharmaceutical Technologies, University of
+										Torino<br> Phone: <?php
+echo getStaffData($conn, [
+    'Nome' => 'Dario Livio',
+    'Cognome' => 'Longo'
+])['Telefono'];
+?><br> email: <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Dario Livio',
+            'Cognome' => 'Longo'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Dario Livio',
+            'Cognome' => 'Longo'
+        ])['Mail'];
+        ?><br> <a
 											href="mailto:dariolivio.longo@cnr.it"> <font color="#1e799f">
 												dariolivio.longo@cnr.it</font></a>
 									</p>
@@ -186,9 +197,20 @@ $localizer = "../../";
 											Ph.D. in Biomedicine and Molecular Oncology, University of
 											Oviedo, Spain<br> M.Sc. in Medical Biotechnology and
 											Molecular Medicine, University of Bari Aldo Moro, Italy <br>
-											Phone: +39 0116709540<br> E-mail: <a
-												href="mailto:antonellacarella@gmail.com"><font
-												color="#1e799f">antonellacarella@gmail.com</font></a>
+											Phone: <?php
+echo getStaffData($conn, [
+    'Nome' => 'Antonella',
+    'Cognome' => 'Carella'
+])['Telefono'];
+?><br> email: <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Antonella',
+            'Cognome' => 'Carella'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Antonella',
+            'Cognome' => 'Carella'
+        ])['Mail'];
+        ?>
 										</p>
 									</div>
 
@@ -296,9 +318,20 @@ $localizer = "../../";
 										</header>
 										<p style="line-height: 1.2">
 											M.Sc. in Medical Biotechnology, University of Torino, Italy <br>
-											Phone: +39 0116709540<br> E-mail: <a
-												href="mailto:alessiacorrado2@gmail.com"><font
-												color="#1e799f">alessiacorrado2@gmail.com</font></a>
+											Phone: <?php
+echo getStaffData($conn, [
+    'Nome' => 'Alessia',
+    'Cognome' => 'Corrado'
+])['Telefono'];
+?><br> email: <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Alessia',
+            'Cognome' => 'Corrado'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Alessia',
+            'Cognome' => 'Corrado'
+        ])['Mail'];
+        ?>
 										</p>
 									</div>
 
@@ -351,8 +384,20 @@ $localizer = "../../";
 										</header>
 										<p style="line-height: 1.2">
 											M.Sc. in Computer Science, University of Rome La Sapienza,
-											Italy <br> Phone: +39 0116706499<br> E-mail: <a
-												href="mailto:kranthi.kandula@unito.it"><font color="#1e799f">kranthi.kandula@unito.it</font></a>
+											Italy <br> Phone: <?php
+echo getStaffData($conn, [
+    'Nome' => 'Kranthi Thej',
+    'Cognome' => 'Kandula'
+])['Telefono'];
+?><br> email: <?php
+        echo "<a href=\"mailto:" . getStaffData($conn, [
+            'Nome' => 'Kranthi Thej',
+            'Cognome' => 'Kandula'
+        ])['Mail'] . "\">" . getStaffData($conn, [
+            'Nome' => 'Kranthi Thej',
+            'Cognome' => 'Kandula'  
+        ])['Mail'];
+        ?>
 										</p>
 									</div>
 
@@ -514,8 +559,7 @@ $localizer = "../../";
 											months) consists of a small scientific project, under the
 											supervision of a PhD student or of a post-doc in the fields
 											of cancer biology - pharmaceutics - in vivo imaging - image
-											processing. <br>
-											<br>
+											processing. <br> <br>
 										</p>
 
 									</div>
@@ -1219,3 +1263,7 @@ $localizer = "../../";
 </script>
 
 </body>
+</html>
+<?php
+$conn->close();
+?>

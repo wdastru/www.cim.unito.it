@@ -1,9 +1,5 @@
 <?php
 $localizer = "../../";
-
-$nome = 'Enzo';
-$cognome = 'Terreno';
-
 require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
@@ -80,8 +76,21 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 											Terreno, PhD</span><br> <br>Full Professor,<br> Molecular
 										Imaging Center,<br> Department of Molecular Biotechnologies
 										and Health Science,<br> University of Torino,<br> Via Nizza
-										52, <br> Torino 10126, Italy<br> Tel: <?php echo $telefono; ?><br> Fax:
-										+39 011 6706487<br> <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
+										52, <br> Torino 10126, Italy<br> Tel: 
+<?php
+echo getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Telefono'];
+?><br> email: <?php
+echo "<a href=\"mailto:" . getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Mail'] . "\">" . getStaffData($conn, [
+    'Nome' => 'Enzo',
+    'Cognome' => 'Terreno'
+])['Mail'];
+?>
 									</p>
 								</div>
 							</div>
@@ -233,3 +242,6 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 
 </body>
 </html>
+<?php 
+    $conn->close();
+?>

@@ -14,35 +14,28 @@ if ($conn->connect_error) {
     die("Connessione fallita: " . $conn->connect_error);
 }
 
-function getStaffData($conn, $nome, $cognome) {
-    $sql = "SELECT Nome, Cognome, Mail, Telefono FROM staff_data WHERE Nome = ? AND Cognome = ?";
+function getStaffData($conn, $filters = []) {
+    $sql = "SELECT Nome, Cognome, Mail, Telefono FROM staff_data WHERE 1=1";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ss", $nome, $cognome);
-    $stmt->execute();
-    $result = $stmt->get_result();
+    $params = [];
+    $types = "";
     
-    $data = null;
-    if ($result->num_rows == 1) {
-        $data = $result->fetch_assoc(); // Restituisce un array associativo
-    } else {
-        return null; // Nessun risultato
+    foreach ($filters as $field => $value) {
+        $sql .= " AND $field = ?";
+        $params[] = $value;
+        $types .= "s";
     }
+    
+    $stmt = $conn->prepare($sql);
+    if (!$stmt) {
+        die("Prepare failed: " . $conn->error);
+    }
+    
+    $stmt->bind_param($types, ...$params);
+    $stmt->execute();
+    $data = $stmt->get_result()->fetch_assoc();
     
     $stmt->close();
     return $data;
 }
-
-$staff = getStaffData($conn, $nome, $cognome);
-
-$email = "";
-$telefono = "";
-
-if ($staff) {
-    $email = $staff["Mail"];
-    $telefono = $staff["Telefono"];
-} else {
-    echo "Nessun risultato trovato.";
-}
-
-$conn->close();
 ?>
