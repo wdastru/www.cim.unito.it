@@ -1,16 +1,15 @@
+# Set default index page
+DirectoryIndex /website/index.php
+
+# Rewrite rules
 RewriteEngine On
-
-# Skip rewriting if the request already starts with /website/
+# Continue only if URI does not start with /website/
 RewriteCond %{REQUEST_URI} !^/website/
+# Prepend /website to everything else
+RewriteRule ^(.*)$ /website/$1 [R=301,L]
 
-# Skip redirect if the request is for an existing file or directory
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# Redirect to website/ preserving the path
-#RewriteRule %{REQUEST_URI} /website/$1 [L,R=301]
-
-AddType 'text/html; charset=UTF-8' html    
+# MIME types
+AddType text/html; charset=UTF-8 html    
 AddType image/webp .webp
 
 <IfModule mod_expires.c>
@@ -22,7 +21,6 @@ AddType image/webp .webp
 	ExpiresByType text/css A3600
 	ExpiresByType image/gif A604800
 	ExpiresByType image/png A604800
-	ExpiresByType image/jpeg A604800
 	ExpiresByType image/jpeg A604800
 	ExpiresByType text/plain A300
 	ExpiresByType application/x-shockwave-flash A604800
