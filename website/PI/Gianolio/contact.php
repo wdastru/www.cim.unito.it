@@ -73,7 +73,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 ])['Mail'] . "\">" . getStaffData($conn, [
     'Nome' => 'Eliana',
     'Cognome' => 'Gianolio'
-])['Mail'];
+])['Mail'] . "</a>";
 ?>
         					<br>
 								</p>

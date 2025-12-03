@@ -162,7 +162,7 @@ echo getStaffData($conn, [
         ])['Mail'] . "\">" . getStaffData($conn, [
             'Nome' => 'Dario Livio',
             'Cognome' => 'Longo'
-        ])['Mail'];
+        ])['Mail'] . "</a>";
         ?>
 												<a href="mailto:dariolivio.longo@cnr.it"><font
 													color="#1e799f"> dariolivio.longo@cnr.it </font></a>

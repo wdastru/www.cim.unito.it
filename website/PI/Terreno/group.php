@@ -57,9 +57,6 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<!-- Article list -->
 								<section class="box article-list">
 									<h2 class="second icon fa-user">Group Members</h2>
-
-									<!-- Excerpt -->
-									<!-- Excerpt -->
 									<article class="box excerpt">
 										<a class="image left"><img src="images/Terreno.jpg" alt="Enzo Terreno"
 											style="width: 180px; height: 170px;"></a>
@@ -74,88 +71,25 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													target="_blank"> Academic Activity</a><br> <a
 													href="documents/cv_terreno.pdf" target="_blank"> Curriculum
 													Vitae</a><br> office: 
-<?php
-echo getStaffData($conn, [
-    'Nome' => 'Enzo',
-    'Cognome' => 'Terreno'
-])['Telefono'];
-?><br> email: <?php
-echo "<a href=\"mailto:" . getStaffData($conn, [
-    'Nome' => 'Enzo',
-    'Cognome' => 'Terreno'
-])['Mail'] . "\">" . getStaffData($conn, [
-    'Nome' => 'Enzo',
-    'Cognome' => 'Terreno'
-])['Mail'];
-?>
+                                                    <?php
+                                                    echo getStaffData($conn, [
+                                                        'Nome' => 'Enzo',
+                                                        'Cognome' => 'Terreno'
+                                                    ])['Telefono'];
+                                                    ?><br> email: <?php
+                                                    echo "<a href=\"mailto:" . getStaffData($conn, [
+                                                        'Nome' => 'Enzo',
+                                                        'Cognome' => 'Terreno'
+                                                    ])['Mail'] . "\">" . getStaffData($conn, [
+                                                        'Nome' => 'Enzo',
+                                                        'Cognome' => 'Terreno'
+                                                    ])['Mail'] . "</a>";
+                                                    ?>
 											</p>
 
 
 										</div>
 									</article>
-
-									<!-- Excerpt 
-									<article class="box excerpt">
-										<a class="image left"><img src="images/stefania.jpg" alt="Rachele Stefania"
-											style="width: 180px; height: auto;"></a>
-										<div>
-											<header>
-												<h3>Rachele Stefania</h3>
-												<span>Research Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												PhD Biochemistry, University of Torino<br> MSc Chemistry and
-												Pharmaceutical Technologies, University of Torino<br>
-												office: +39 0116706452<br> email: <a
-													href="mailto:francesca.garello@unito.it">francesca.garello@unito.it</a>
-											</p>
-										</div>
-
-										<div class="showtext">
-											<div>My research activity is focused on ...</div>
-											<form style="margin-left: 210px">
-												<p style="text-align: justify;">
-													<b> My research activity is focused on the design and
-														synthesis of MRI, Optical or Photoacoustic Imaging probes;
-														synthesis, purification and characterization of
-														functionalized systems of various nature for
-														bioconjugation to biological carriers, for the
-														visualization of tumor cells and neuroinflammation.
-														Technical manager for instrumentations. </b>
-												</p>
-											</form>
-										</div>
-
-									</article>
-									<article class="box excerpt">
-										<a class="image left"><img src="images/arena.jpg" alt="Francesca Arena"
-											style="width: 180px; height: auto;"></a>
-										<div>
-											<header>
-												<h3>Francesca Arena</h3>
-												<span>Research Fellow</span>
-											</header>
-											<p style="line-height: 1.2">
-												PhD in Biochemistry, University of Torino<br> MSc in
-												Pharmaceutical Chemistry and Technology, University of
-												Torino<br> office: +39 +390125561876<br> email: <a
-													href="mailto:francesca.arena@unito.it">francesca.arena@unito.it</a>
-											</p>
-										</div>
-
-										<div class="showtext">
-											<div>My research focuses on ...</div>
-											<form style="margin-left: 210px">
-												<p style="text-align: justify;">
-													<b> My research mainly focused on the design of innovative
-														MRI-based imaging probes for the development and
-														preclinical validation of improved diagnostic/theranostic
-														procedures. </b>
-												</p>
-											</form>
-										</div>
-
-									</article> -->
 									<article class="box excerpt">
 										<a class="image left"><img src="images/Garello.jpg" alt="Francesca Garello"
 											style="width: 180px; height: auto;"></a>
@@ -180,7 +114,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 ])['Mail'] . "\">" . getStaffData($conn, [
     'Nome' => 'Francesca',
     'Cognome' => 'Garello'
-])['Mail'];
+])['Mail'] . "</a>";
 ?>
 											</p>
 										</div>

@@ -96,7 +96,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
             ])['Mail'] . "\">" . getStaffData($conn, [
                 'Nome' => 'Juan Carlos',
                 'Cognome' => 'Cutrin'
-            ])['Mail'];
+            ])['Mail'] . "</a>";
             ?>
                                             </font>
 									</p>

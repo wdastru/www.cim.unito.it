@@ -11,86 +11,89 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Group Members | Longo Lab</title>
-	
 	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
 	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
-	
-	
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a>
+			<a href="<?php echo $localizer; ?>"
 				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
-
-
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO
 								LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li><a
-									href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
-										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
-										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI
-												probes</a></li>
-										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
-												angiogenesis</a>
-										
 										<li>
-										
-										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"
-											font style="text-transform: none;">TUMOR pH IMAGING</a>
-										
+											<a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">
+												Overview
+											</a>
+										</li>
 										<li>
-										
-										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"
-											font style="text-transform: none;">RENAL pH IMAGING</a></li>
-									</ul></li>
-								<li class="current_page_item"><a
-									href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact
-										us</a></li>
+											<a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">
+												MRI probes
+											</a>
+										</li>
+										<li>
+											<a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">		Tumor angiogenesis
+											</a>
+										</li>
+										<li>
+											<a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"
+											   style="text-transform: none;">
+													TUMOR pH IMAGING
+											</a>
+										</li>
+										<li>
+											<a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"
+											   style="text-transform: none;">
+													RENAL pH IMAGING
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="current_page_item">
+									<a href="<?php echo $localizer; ?>PI/Longo/group.php">
+										Group
+									</a>
+								</li>
+								<li>
+									<a href="<?php echo $localizer; ?>PI/Longo/publications.php">
+										Publications
+									</a>
+								</li>
+								<li>
+									<a href="<?php echo $localizer; ?>PI/Longo/contact.php">
+										Contact us
+									</a>
+								</li>
 							</ul>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
 			<div class="wrapper style3">
@@ -110,20 +113,16 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						</div>
 						<div class="row">
 							<div class="12u 12u(mobile)">
-								<!-- Article list -->
-								<section class="box article-list">
-									<h2 id='members' class="second icon fa-user">Group Members</h2>
-								</section>
+								<h2 id='members' class="second icon fa-user">Group Members</h2>
 							</div>
 						</div>
-						<!-- Excerpt -->
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
 									<img
 										src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg"
-										alt="Dario Longo"
-										style="width: 180px; height: auto; margin-bottom: 80px;"
+										alt="Dario Longo image"
+										style="width: 180px; height: auto; margin-bottom: 90px;"
 										class="image left">
 									<header>
 										<h3 style="text-align: left">Dario Livio Longo</h3>
@@ -131,89 +130,97 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 									</header>
 									<p style="line-height: 1.2">
 										First Researcher<br> IBB-CNR, Research Unit of Torino<br>
-										Academic activity at the University of Torino: <a
+										Academic activity at the University of Torino:
+										<a
 											href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo"
-											target=_blank>Contract Professor in Cancer Imaging</a><br> <br>
-										Ph.D. in Bio-Chemical Sciences, University of Torino<br> M.Sc.
-										in Chemistry and Pharmaceutical Technologies, University of
-										Torino<br> Phone: <?php
-echo getStaffData($conn, [
-    'Nome' => 'Dario Livio',
-    'Cognome' => 'Longo'
-])['Telefono'];
-?><br> email: <?php
-        echo "<a href=\"mailto:" . getStaffData($conn, [
-            'Nome' => 'Dario Livio',
-            'Cognome' => 'Longo'
-        ])['Mail'] . "\">" . getStaffData($conn, [
-            'Nome' => 'Dario Livio',
-            'Cognome' => 'Longo'
-        ])['Mail'];
-        ?><br> <a
-											href="mailto:dariolivio.longo@cnr.it"> <font color="#1e799f">
-												dariolivio.longo@cnr.it</font></a>
+											target=_blank>
+											<br>
+											Contract Professor in Cancer Imaging
+										</a>
+										<br><br>
+										Ph.D. in Bio-Chemical Sciences, University of Torino
+										<br>
+										M.Sc. in Chemistry and Pharmaceutical Technologies, University of Torino
+										<br><br>
+										Phone:
+										<?php
+											echo getStaffData($conn, [
+												'Nome' => 'Dario Livio',
+												'Cognome' => 'Longo'
+											])['Telefono'];
+										?>
+										<br> 
+										email: 
+										<?php
+											echo "<a href=\"mailto:" . getStaffData($conn, [
+												'Nome' => 'Dario Livio',
+												'Cognome' => 'Longo'
+											])['Mail'] . "\">" . getStaffData($conn, [
+												'Nome' => 'Dario Livio',
+												'Cognome' => 'Longo'
+											])['Mail'] . "</a>";
+										?>
+										<br>
+										<a
+											href="mailto:dariolivio.longo@cnr.it"
+											style="color:#1e799f">
+											dariolivio.longo@cnr.it
+										</a>
 									</p>
-									<a href="https://it.linkedin.com/in/dario-livio-longo-999a0336"
-										target="_blank"> <img src="images/linkedin_profile.png"
-										alt="view my profile on linkedin" height="40" align="left"
-										style="padding-left: -10px" /></a>
-
-
+									<a
+										href="https://it.linkedin.com/in/dario-livio-longo-999a0336"
+										target="_blank">
+										<img 
+											 src="images/linkedin_profile.png"
+											 alt="view my profile on linkedin"
+											 style="padding-left: -10px; height:40px; align: left">
+									</a>
 								</article>
 							</div>
 							<div class="4u 6u(mobile)">
-
-								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/longo_wordcloud.png"
-									class="w3-image" style="max-width: 250px;" />
-
+									 src="<?php echo $localizer; ?>PI/Longo/images/longo_wordcloud.png"
+									 class="w3-image"
+									 style="max-width: 250px;" />
 							</div>
 						</div>
-
 						<hr></hr>
-
-
-
-						<hr></hr>
-
 						<div class="row">
 							<div class="8u 12u(mobile)">
-
-
-								<!-- Excerpt -->
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/carella.jpg"
+									<img 
+										src="<?php echo $localizer; ?>PI/Longo/images/carella.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 140px;"
-										class="image left" />
+										class="image left"/>
 									<div>
 										<header>
 											<h3 style="text-align: left">Antonella Carella</h3>
-											<span>Postdoctoral Fellow</span>
+											<span><strong>Postdoctoral Fellow</strong></span>
 										</header>
 										<p style="line-height: 1.2">
 											Ph.D. in Biomedicine and Molecular Oncology, University of
 											Oviedo, Spain<br> M.Sc. in Medical Biotechnology and
-											Molecular Medicine, University of Bari Aldo Moro, Italy <br>
-											Phone: <?php
-echo getStaffData($conn, [
-    'Nome' => 'Antonella',
-    'Cognome' => 'Carella'
-])['Telefono'];
-?><br> email: <?php
-        echo "<a href=\"mailto:" . getStaffData($conn, [
-            'Nome' => 'Antonella',
-            'Cognome' => 'Carella'
-        ])['Mail'] . "\">" . getStaffData($conn, [
-            'Nome' => 'Antonella',
-            'Cognome' => 'Carella'
-        ])['Mail'];
-        ?>
+											Molecular Medicine, University of Bari Aldo Moro, Italy
+											<br>
+											Phone: 
+											<?php
+											echo getStaffData($conn, [
+												'Nome' => 'Antonella',
+												'Cognome' => 'Carella'
+											])['Telefono'];
+											?><br> email: <?php
+											echo "<a href=\"mailto:" . getStaffData($conn, [
+												'Nome' => 'Antonella',
+												'Cognome' => 'Carella'
+											])['Mail'] . "\">" . getStaffData($conn, [
+												'Nome' => 'Antonella',
+												'Cognome' => 'Carella'
+											])['Mail'] . "</a>";
+											?>
 										</p>
 									</div>
-
 									<div class="showtext">
 										<div>My project focuses on ...</div>
 										<form>
@@ -227,29 +234,20 @@ echo getStaffData($conn, [
 											</p>
 										</form>
 									</div>
-
 								</article>
 							</div>
 							<div class="4u 6u(mobile)">
-
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 								<img
 									src="<?php echo $localizer; ?>PI/Longo/images/carella_wordcloud.png"
-									class="w3-image" style="max-width: 250px;" />
-
+									class="w3-image"
+									style="max-width: 250px;" />
 							</div>
 						</div>
-
-
-
 						<hr></hr>
-
-
-
 						<div class="row">
 							<div class="8u 12u(mobile)">
-								<!-- Excerpt -->
 								<article class="box excerpt">
 									<img
 										src="<?php echo $localizer; ?>PI/Longo/images/romdhane.jpg"
@@ -259,16 +257,17 @@ echo getStaffData($conn, [
 									<div>
 										<header>
 											<h3 style="text-align: left">Feriel Romdhane</h3>
-											<span>Postdoctoral Fellow</span>
+											<span><strong>Postdoctoral Fellow</strong></span>
 										</header>
 										<p style="line-height: 1.2">
 											Ph.D. in Sciences and Technologies of Engineering, University
 											of Tunisi, Tunisia<br> M.Sc. in Automatic, University of
-											Tunisi <br> Phone: +39 0116706499<br> E-mail: <a
-												href="mailto:ferielromdhane@yahoo.fr"><font color="#1e799f">ferielromdhane@yahoo.fr</font></a>
+											Tunisi <br> Phone: +39 0116706499<br> E-mail: 
+											<a
+											   href="mailto:ferielromdhane@yahoo.fr"
+											   style="color:#1e799f">ferielromdhane@yahoo.fr</a>
 										</p>
 									</div>
-
 									<div class="showtext">
 										<div>The focus of my research is ...</div>
 										<form>
@@ -283,29 +282,20 @@ echo getStaffData($conn, [
 											</p>
 										</form>
 									</div>
-
 								</article>
 							</div>
 							<div class="4u 6u(mobile)">
-
 								<br>
 								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 								<img
 									src="<?php echo $localizer; ?>PI/Longo/images/romdhane_wordcloud.png"
-									class="w3-image" style="max-width: 250px;" />
-
+									class="w3-image"
+									style="max-width: 250px;"/>
 							</div>
 						</div>
-
-
 						<hr></hr>
-
-
 						<div class="row">
 							<div class="8u 12u(mobile)">
-
-
-								<!-- Excerpt -->
 								<article class="box excerpt">
 									<img src="<?php echo $localizer; ?>PI/Longo/images/corrado.jpg"
 										alt=""
@@ -314,27 +304,30 @@ echo getStaffData($conn, [
 									<div>
 										<header>
 											<h3 style="text-align: left">Alessia Corrado</h3>
-											<span>PhD Student</span>
+											<span><strong>PhD Student</strong></span>
 										</header>
 										<p style="line-height: 1.2">
 											M.Sc. in Medical Biotechnology, University of Torino, Italy <br>
-											Phone: <?php
-echo getStaffData($conn, [
-    'Nome' => 'Alessia',
-    'Cognome' => 'Corrado'
-])['Telefono'];
-?><br> email: <?php
-        echo "<a href=\"mailto:" . getStaffData($conn, [
-            'Nome' => 'Alessia',
-            'Cognome' => 'Corrado'
-        ])['Mail'] . "\">" . getStaffData($conn, [
-            'Nome' => 'Alessia',
-            'Cognome' => 'Corrado'
-        ])['Mail'];
-        ?>
+											Phone: 
+											<?php
+											echo getStaffData($conn, [
+												'Nome' => 'Alessia',
+												'Cognome' => 'Corrado'
+											])['Telefono'];
+											?>
+											<br> 
+											email: 
+											<?php
+											echo "<a href=\"mailto:" . getStaffData($conn, [
+												'Nome' => 'Alessia',
+												'Cognome' => 'Corrado'
+											])['Mail'] . "\">" . getStaffData($conn, [
+												'Nome' => 'Alessia',
+												'Cognome' => 'Corrado'
+											])['Mail'] . "</a>";
+											?>
 										</p>
 									</div>
-
 									<div class="showtext">
 										<div>My project focuses on ...</div>
 										<form>
@@ -349,29 +342,19 @@ echo getStaffData($conn, [
 											</p>
 										</form>
 									</div>
-
 								</article>
 							</div>
 							<div class="4u 6u(mobile)">
-
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 								<img
 									src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png"
 									class="w3-image" style="max-width: 250px;" />
-
 							</div>
 						</div>
-
-
 						<hr></hr>
-
-
 						<div class="row">
 							<div class="8u 12u(mobile)">
-
-
-								<!-- Excerpt -->
 								<article class="box excerpt">
 									<img src="<?php echo $localizer; ?>PI/Longo/images/kranthi.jpg"
 										alt=""
@@ -380,27 +363,30 @@ echo getStaffData($conn, [
 									<div>
 										<header>
 											<h3 style="text-align: left">Kranthi Thej Kandula</h3>
-											<span>Research Fellow</span>
+											<span><strong>Research Fellow</strong></span>
 										</header>
 										<p style="line-height: 1.2">
 											M.Sc. in Computer Science, University of Rome La Sapienza,
-											Italy <br> Phone: <?php
-echo getStaffData($conn, [
-    'Nome' => 'Kranthi Thej',
-    'Cognome' => 'Kandula'
-])['Telefono'];
-?><br> email: <?php
-        echo "<a href=\"mailto:" . getStaffData($conn, [
-            'Nome' => 'Kranthi Thej',
-            'Cognome' => 'Kandula'
-        ])['Mail'] . "\">" . getStaffData($conn, [
-            'Nome' => 'Kranthi Thej',
-            'Cognome' => 'Kandula'  
-        ])['Mail'];
-        ?>
+											Italy <br> Phone: 
+											<?php
+											echo getStaffData($conn, [
+												'Nome' => 'Kranthi Thej',
+												'Cognome' => 'Kandula'
+											])['Telefono'];
+											?>
+											<br> 
+											email: 
+											<?php
+											echo "<a href=\"mailto:" . getStaffData($conn, [
+												'Nome' => 'Kranthi Thej',
+												'Cognome' => 'Kandula'
+											])['Mail'] . "\">" . getStaffData($conn, [
+												'Nome' => 'Kranthi Thej',
+												'Cognome' => 'Kandula'  
+											])['Mail'] . "</a>";
+											?>
 										</p>
 									</div>
-
 									<div class="showtext">
 										<div>My project focuses on ...</div>
 										<form>
@@ -411,43 +397,42 @@ echo getStaffData($conn, [
 											</p>
 										</form>
 									</div>
-
 								</article>
 							</div>
 							<div class="4u 6u(mobile)">
-
-								<br>
+								<!-- <br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-								<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/kranthi_wordcloud.png" class="w3-image" 
+								<img 
+									src="<?php echo $localizer; ?>PI/Longo/images/kranthi_wordcloud.png"
+									class="w3-image" 
 									style="max-width: 250px;" /> -->
-
 							</div>
 						</div>
-
 						<hr></hr>
-
 						<div class="row">
 							<div class="8u 12u(mobile)">
-
-
-								<!-- Excerpt -->
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/pirotta.jpg"
+									<img 
+										src="<?php echo $localizer; ?>PI/Longo/images/pirotta.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 60px;"
 										class="image left" />
 									<div>
 										<header>
 											<h3 style="text-align: left">Elisa Pirotta</h3>
-											<span>Research Fellow</span>
+											<span><strong>Research Fellow</strong></span>
 										</header>
 										<p style="line-height: 1.2">
 											M.Sc. in Molecular Biotechnology, University of Torino, Italy
-											<br> Phone: +39 0116706499<br> E-mail: <a
-												href="mailto:kranthi.kandula@unito.it"><font color="#1e799f">elisa.pirotta@unito.it</font></a>
+											<br> 
+											Phone: +39 0116706499
+											<br>
+											E-mail:
+											<a 
+												href="mailto:kranthi.kandula@unito.it"
+												style="color:#1e799f">elisa.pirotta@unito.it</a>
 										</p>
 									</div>
-
 									<div class="showtext">
 										<div>My project focuses on ...</div>
 										<form>
@@ -458,26 +443,21 @@ echo getStaffData($conn, [
 											</p>
 										</form>
 									</div>
-
 								</article>
 							</div>
 							<div class="4u 6u(mobile)">
-
+								<!--
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-								<!--	<img src="<?php echo $localizer; ?>PI/Longo/images/pirotta_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />   -->
-
+									<img
+										src="<?php echo $localizer; ?>PI/Longo/images/pirotta_wordcloud.png"
+										class="w3-image"
+										style="max-width: 250px;" />   -->
 							</div>
 						</div>
-
 						<hr></hr>
-
-
 						<div class="row">
 							<div class="8u 12u(mobile)">
-
-
 								<!-- Excerpt -->
 								<article class="box excerpt">
 									<img src="<?php echo $localizer; ?>PI/Longo/images/gambino.jpg"
@@ -487,7 +467,7 @@ echo getStaffData($conn, [
 									<div>
 										<header>
 											<h3 style="text-align: left">Riccardo Gambino</h3>
-											<span>Research Fellow</span>
+											<span><strong>Research Fellow</strong></span>
 										</header>
 										<p style="line-height: 1.2">
 											M.Sc. in Biomedical Engineering, Politechnic of Torino, Italy
@@ -496,7 +476,6 @@ echo getStaffData($conn, [
 												color="#1e799f">riccardo.gambino@unito.it</font></a>
 										</p>
 									</div>
-
 									<div class="showtext">
 										<div>My project focuses on ...</div>
 										<form>
@@ -507,28 +486,22 @@ echo getStaffData($conn, [
 											</p>
 										</form>
 									</div>
-
 								</article>
 							</div>
 							<div class="4u 6u(mobile)">
-
+								<!--
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-								<!--		<img src="<?php echo $localizer; ?>PI/Longo/images/gambino_wordcloud.png" class="w3-image"
+										<img src="<?php echo $localizer; ?>PI/Longo/images/gambino_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" /> -->
-
 							</div>
 						</div>
-
 						<hr></hr>
-
-
 						<div class="row">
 							<div class="12u 12u(mobile)">
 								<article class="box excerpt">
 									<div>
 										<h2 id='alumni' class="second icon fa-user">Lab Alumni</h2>
-
 										<ul>
 											<li><b>Deborah Ambrosecchia</b>, MSc student in Molecular
 												Biotechnologies</li>
@@ -536,22 +509,18 @@ echo getStaffData($conn, [
 												Biotechnologies</li>
 											<li><b>Elena Botto</b>, MSc student in Industrial
 												Biotechnologies</li>
-
 										</ul>
 									</div>
 								</article>
 							</div>
 						</div>
-
 						<hr></hr>
-
 						<div class="row">
 							<div class="12u 12u(mobile)">
 								<article class="box excerpt">
 									<div>
 										<h2 id='thesis' class="second icon fa-user">Master Thesis
 											Opportunities</h2>
-
 										<p>
 											We are offering master thesis for students registered with
 											the Faculty of Biotechnology, Pharmacy, Physics,
@@ -561,29 +530,19 @@ echo getStaffData($conn, [
 											of cancer biology - pharmaceutics - in vivo imaging - image
 											processing. <br> <br>
 										</p>
-
 									</div>
 								</article>
 							</div>
 						</div>
-
 						<hr></hr>
-
 						<div class="row">
 							<div class="12u 12u(mobile)">
-
 								<article class="box excerpt">
 									<div>
 										<h2 id='pmembers' class="second icon fa-user">Former Members</h2>
-
 										<ul class="divided">
-
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
-
-													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
 															src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg"
@@ -602,7 +561,6 @@ echo getStaffData($conn, [
 																	color="#1e799f">daisy.villano@unito.it</font></a>
 															</p>
 														</div>
-
 														<div class="showtext">
 															<div>My project focuses on ...</div>
 															<form>
@@ -615,26 +573,19 @@ echo getStaffData($conn, [
 																</p>
 															</form>
 														</div>
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
 														src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
-
 												</div>
 											</div>
-
 											<hr></hr>
-
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
@@ -655,7 +606,6 @@ echo getStaffData($conn, [
 																	color="#1e799f">annasofiaantonia.anemone@unito.it</font></a>
 															</p>
 														</div>
-
 														<div class="showtext">
 															<div>My project focuses on ...</div>
 															<form>
@@ -669,25 +619,19 @@ echo getStaffData($conn, [
 																</p>
 															</form>
 														</div>
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
 														src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
-
 												</div>
 											</div>
-
 											<hr></hr>
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
@@ -708,7 +652,6 @@ echo getStaffData($conn, [
 																	color="#1e799f">sara.zullino@unito.it</font></a>
 															</p>
 														</div>
-
 														<div class="showtext">
 															<div>My research aims at ...</div>
 															<form>
@@ -726,25 +669,19 @@ echo getStaffData($conn, [
 																</p>
 															</form>
 														</div>
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
 														src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
-
 												</div>
 											</div>
-
 											<hr></hr>
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
@@ -765,7 +702,6 @@ echo getStaffData($conn, [
 																E-mail: <a href="mailto:martina.capozza@unito.it">martina.capozza@unito.it</a>
 															</p>
 														</div>
-
 														<!--
 														<div class="showtext">
 															<div>My research focuses on ...</div>
@@ -788,25 +724,19 @@ echo getStaffData($conn, [
 															</form>
 														</div>
 														-->
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
 														src="<?php echo $localizer; ?>PI/Longo/images/capozza_wordcloud.jpg"
 														class="w3-image" style="max-width: 250px;" />
-
 												</div>
 											</div>
-
 											<hr></hr>
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
@@ -827,7 +757,6 @@ echo getStaffData($conn, [
 																E-mail: <a href="mailto:pietro.irrera@unicampania.it">pietro.irrera@unicampania.it</a>
 															</p>
 														</div>
-
 														<!--
 														<div class="showtext">
 															<div>My project focuses on ...</div>
@@ -845,27 +774,19 @@ echo getStaffData($conn, [
 															</form>
 														</div>
 														-->
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
 														src="<?php echo $localizer; ?>PI/Longo/images/irrera_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
-
 												</div>
 											</div>
-
 											<hr></hr>
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
-
-													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
 															src="<?php echo $localizer; ?>PI/Longo/images/dhakan.jpg"
@@ -886,44 +807,19 @@ echo getStaffData($conn, [
 																	href="mailto:chetan.dhakan@ibb.cnr.it">mailto:chetan.dhakan@ibb.cnr.it</a>
 															</p>
 														</div>
-														<!--
-														<div class="showtext">
-															<div>The target of my project is ...</div>
-															<form>
-																<p align="justify">
-																	<b> The target of my project is validation and
-																		evaluation of novel biomarkers in atherosclerosis by
-																		means of DCE-MRI and Ultrasound Imaging. The final
-																		pathway is to identify and validate imaging parameters
-																		in order to differentiate between stable and
-																		vulnerable atherosclerotic plaques in genetically
-																		modified mouse models. I am also interested in
-																		MRI-CEST pH imaging for the evaluation of tumor
-																		acidosis. </b>
-																</p>
-															</form>
-														</div> -->
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
 														src="<?php echo $localizer; ?>PI/Longo/images/dhakan_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
-
 												</div>
 											</div>
-
 											<hr></hr>
-
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
-													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
 															src="<?php echo $localizer; ?>PI/Longo/images/consolino.jpg"
@@ -940,43 +836,21 @@ echo getStaffData($conn, [
 															<p style="line-height: 1.2">
 																Ph.D. in Molecular Bioscience, University of Torino<br>
 																M.Sc. in Biotechnology, University of Torino
-																<!-- <br> Phone: +39
-												0116706476<br> E-mail: <a
-													href="mailto:lorena.consolino@unito.it">lorena.consolino@unito.it</a>
-											</p> -->
-														
+															</p>
 														</div>
-
-														<!-- <div class="showtext">
-										<div>The focus of my reaserch is ...</div>
-										<form> <p align="justify"><b>
-												The focus of my reaserch is developing multi-parametric imaging approaches for the characterization of the 
-												tumor microenvironment (tumor vasculature, acidosis, hypoxia, and cellularity). The main goal is to identify 
-												and validate imaging parameters as novel tumor biomarkers in order to improve early detection, cancer treatment
-												 monitoring and formation of tumor metastasis.
-												</b>									
-											</p>
-										</form>
-										</div> -->
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
 														src="<?php echo $localizer; ?>PI/Longo/images/consolino_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
-
 												</div>
 											</div>
-
 											<hr></hr>
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<a class="image left"><img
@@ -992,26 +866,11 @@ echo getStaffData($conn, [
 															<p style="line-height: 1.2">
 																Ph.D. in Molecular Bioscience, University of Torino<br>
 																M.Sc. in Biotechnology, University of Torino
-																<!-- <br> office: +39
-												0116706452<br> email: <a
-													href="mailto:amerigo.pagoto@unito.it">amerigo.pagoto@unito.it</a> -->
 															</p>
 														</div>
-
-														<!-- <div class="showtext">
-										<div>The main activity where ...</div>
-										<form style="margin-left: 210px"> <p align="justify"><b>
-												The main activity where I am involved on at CIM is the design and tests of novel optical probes for oncologic imaging applications. 
-												Moreover, I am recently collaborating on the development of CEST-MRI tools based on endogenous protein unfolding processes, mainly for preclinical oncology
-												</b> 									
-											</p>
-										</form>
-										</div>-->
-
 													</article>
 												</div>
 												<div class="4u 6u(mobile)">
-
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
@@ -1019,15 +878,9 @@ echo getStaffData($conn, [
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
-
 											<hr></hr>
-
-
 											<div class="row">
 												<div class="8u 12u(mobile)">
-
-
-													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
 															src="<?php echo $localizer; ?>PI/Longo/images/paglialonga.jpg"
@@ -1042,30 +895,15 @@ echo getStaffData($conn, [
 															<p style="line-height: 1.2">
 																M.Sc. in Computer Science and Engineering, Politecnico
 																di Milano, Italy
-																<!-- <br> Phone: +39 0116706499<br>
-												E-mail: <a href="alessandro.paglialonga@mail.polimi.it">alessandro.paglialonga@mail.polimi.it</a> -->
 															</p>
 														</div>
-
-														<!-- <div class="showtext">
-										<div>My project consists in  ...</div>
-										<form> <p align="justify"><b>
-												My project consists in the development of tools to archive, retrieve and process imaging datasets coming from different platforms and imaging centers.
-												</b>									
-											</p>
-										</form>
-										</div> -->
-
 													</article>
 												</div>
 											</div>
-
 										</ul>
 									</div>
 								</article>
-
 								<hr></hr>
-
 								<div class="row">
 									<div class="8u 12u(mobile)">
 										<!-- Excerpt -->
@@ -1090,7 +928,6 @@ echo getStaffData($conn, [
 												E-mail: <a href="mailto:bhavna.rani@unito.it">bhavna.rani@unito.it</a> -->
 												</p>
 											</div>
-
 											<!-- <div class="showtext">
 										<div>The focus of my research is ...</div>
 										<form> <p align="justify"><b>
@@ -1099,42 +936,30 @@ echo getStaffData($conn, [
 										histological and protein level analyses of tumor acidosis, glucose transporters and proton transporters markers in breast cancer (PyMT) and prostate (TRAMP) 
 										transgenic mouse models. I am also interested in exploring how metabolic pathway affected during pH evolution by analyzing metabolic imaging of Glycolysis, 
 										Pentose phosphate pathway (PPP) and Tricarboxylic acid pathway (TCA) pathway. 
-												
 												</b>									
 											</p>
 										</form>
 										</div> -->
-
 										</article>
 									</div>
 									<div class="4u 6u(mobile)">
-
 										<br>
 										<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 										<img
 											src="<?php echo $localizer; ?>PI/Longo/images/bhavnarani_wordcloud.png"
 											class="w3-image" style="max-width: 250px;" />
-
 									</div>
 								</div>
-
-
 							</div>
 						</div>
-
 						<hr></hr>
-
 						<div class="row">
 							<div class="12u 12u(mobile)">
 								<article class="box excerpt">
 									<div>
 										<h2 id='palumni' class="second icon fa-user">Former Lab Alumni</h2>
-
-
 									</div>
 								</article>
-
-
 								<table style="width: 100%">
 									<tr>
 										<th><b>Name</b></th>
@@ -1227,27 +1052,15 @@ echo getStaffData($conn, [
 										<td>MSc in Molecular Biotechnologies</td>
 										<td>Research Fellow at University of Verona</td>
 									</tr>
-
-
 								</table>
-
-
-
 							</div>
 						</div>
-
-
-
-
 					</div>
-
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -1261,7 +1074,6 @@ echo getStaffData($conn, [
 		src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>
 </script>
-
 </body>
 </html>
 <?php

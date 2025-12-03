@@ -160,7 +160,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
                                             . "\">" . getStaffData($conn, [
                                                         'Nome' => 'Juan Carlos',
                                                         'Cognome' => 'Cutrin'
-                                                    ])['Mail'];
+                                                    ])['Mail'] . "</a>";
                                             ?>
 										</li>
 									</ul>

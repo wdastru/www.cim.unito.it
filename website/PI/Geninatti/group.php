@@ -48,8 +48,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<!-- Article list -->
+								<h2 class="second icon fa-user">Group Members</h2>
 								<section class="box article-list">
-									<h2 class="second icon fa-user">Group Members</h2>
 									<!-- Excerpt -->
 									<article class="box excerpt">
 										<a class="image left"><img
@@ -79,7 +79,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
             ])['Mail'] . "\">" . getStaffData($conn, [
                 'Nome' => 'Simonetta',
                 'Cognome' => 'Geninatti Crich'
-            ])['Mail'];
+            ])['Mail'] . "</a>";
         ?>
 											</p>
 										</div>
@@ -110,7 +110,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
         ])['Mail'] . "\">" . getStaffData($conn, [
             'Nome' => 'Diego',
             'Cognome' => 'Alberti'
-        ])['Mail'];
+        ])['Mail'] . "</a>";
         ?>
 											</p>
 										</div>
@@ -156,7 +156,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
         ])['Mail'] . "\">" . getStaffData($conn, [
             'Nome' => 'Simona',
             'Cognome' => 'Baroni'
-        ])['Mail'];
+        ])['Mail'] . "</a>";
         ?>
 											</p>
 										</div>
