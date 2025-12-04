@@ -39,11 +39,8 @@
 					<div class='paddingInner'>
 						<iframe
 							src="https://calendar.google.com/calendar/embed?src=c_201e4a4ae13e5387c6aff16381253b1a2c81c1cde5813af53e70a72c11f6a33a%40group.calendar.google.com&ctz=Europe%2FRome"
-							style="border: 0"
-							width="100%"
-							height="500px"
-							frameborder="0"
-							scrolling="no"></iframe>
+							style="border: 0; width:100%; height:500px; overflow: hidden;">
+						</iframe>
 						<div id='calendar'></div>
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 <?php $localizer = './'; ?>
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='it'>
 <!-- InstanceBegin template='/Templates/home.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
 	<?php require $localizer . 'includes/head_const_new.inc.php'?>

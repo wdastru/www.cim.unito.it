@@ -32,33 +32,33 @@ $localizer = "./";
 							<!-- InstanceBeginEditable name="subsection content" -->
 							<div id="publicationsContainer">
 								<a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Silvio+Aime[Author]&sort=date' target='_blank'><b>Silvio
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Silvio+Aime%5BAuthor%5D&sort=date' target='_blank'><b>Silvio
 										Aime</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Enzo+Terreno[Author]&sort=date' target='_blank'><b>Enzo
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Enzo+Terreno%5BAuthor%5D&sort=date' target='_blank'><b>Enzo
 										Terreno</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Simonetta+Geninatti+Crich[Author]&sort=date' target='_blank'><b>Simonetta
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Simonetta+Geninatti+Crich%5BAuthor%5D&sort=date' target='_blank'><b>Simonetta
 										Geninatti Crich</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Walter+Dastrù[Author]&sort=date' target='_blank'><b>Walter
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Walter+Dastrù%5BAuthor%5D&sort=date' target='_blank'><b>Walter
 										Dastru'</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Daniela+Delli+Castelli[Author]&sort=date' target='_blank'><b>Daniela
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Daniela+Delli+Castelli%5BAuthor%5D&sort=date' target='_blank'><b>Daniela
 										Delli Castelli</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Francesca+Reineri[Author]&sort=date' target='_blank'><b>Francesca
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Francesca+Reineri%5BAuthor%5D&sort=date' target='_blank'><b>Francesca
 										Reineri</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Alessandra+Viale[Author]&sort=date' target='_blank'><b>Alessandra
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Alessandra+Viale%5BAuthor%5D&sort=date' target='_blank'><b>Alessandra
 										Viale</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Eliana+Gianolio[Author]&sort=date' target='_blank'><b>Eliana
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Eliana+Gianolio%5BAuthor%5D&sort=date' target='_blank'><b>Eliana
 										Gianolio</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Dario+Longo[Author]&sort=date' target='_blank'><b>Dario
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Dario+Longo%5BAuthor%5D&sort=date' target='_blank'><b>Dario
 										Longo</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Juan+Carlos+Cutrin[Author]&sort=date' target='_blank'><b>Juan Carlos 
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Juan+Carlos+Cutrin%5BAuthor%5D&sort=date' target='_blank'><b>Juan Carlos 
 									Cutrin</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Valeria+Menchise[Author]&sort=date' target='_blank'><b>Valeria
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Valeria+Menchise%5BAuthor%5D&sort=date' target='_blank'><b>Valeria
 										Menchise</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Mauro+Botta[Author]&sort=date' target='_blank'><b>Mauro
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Mauro+Botta%5BAuthor%5D&sort=date' target='_blank'><b>Mauro
 										Botta</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Lorenzo+Tei[Author]&sort=date' target='_blank'><b>Lorenzo
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Lorenzo+Tei%5BAuthor%5D&sort=date' target='_blank'><b>Lorenzo
 										Tei</b></a> <br> <a
-									href='https://pubmed.ncbi.nlm.nih.gov/?term=Giuseppe+Digilio[Author]&sort=date' target='_blank'><b>Giuseppe
+									href='https://pubmed.ncbi.nlm.nih.gov/?term=Giuseppe+Digilio%5BAuthor%5D&sort=date' target='_blank'><b>Giuseppe
 										Digilio</b></a> <br>
 							</div>
 						</div>

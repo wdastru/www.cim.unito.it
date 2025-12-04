@@ -222,7 +222,7 @@
 										href="https://gsbs.uth.edu/directory/profile?id=b599c244-20e3-4e56-9a6b-41a91eee2328">
 										Chetan Dhakan / Prof. Mark Pagel</a></b> - MD Anderson Cancer
 								Center - USA<br></li>
-							<li><b><a href="https://www.tcd.ie/mecheng/staff/btornifo/">Brooke
+							<li><b><a href="https://www.tcd.ie/biomedicalengineering/people/principal-investigators/btornifo/">Brooke
 										Tornifoglio</a></b> - Trinity College Dublin - Ireland<br></li>
 							<li><b><a href="https://www.unmc.edu/radiology/faculty/liu.html">Mariano
 										Uberti / Yutong Liu (PhD)</a></b> - University of Nebraska
@@ -243,9 +243,7 @@
 							<li><b>Prof. Hana Lahrech</b> - Universit&eacute; Grenoble Alpes
 								- France <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/fr/shiny/64.png">-->
 								<br></li>
-							<li><b><a
-										href="https://www.pharma.uzh.ch/en/research/functionalimaging/members.html">Dr.
-										Afroditi Eleftheriou</a></b> - Universit&auml;t Z&uuml;rich -
+							<li><b>Dr Afroditi Eleftheriou</b> - Universit&auml;t Z&uuml;rich -
 								Switzerland <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ch/shiny/64.png">-->
 								<br></li>
 							<li><b><a

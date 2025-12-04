@@ -173,7 +173,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 												<div class="date-icon">
 													<span class="month">October</span>
 													<h3 class="day">7-10</h3>
-												</div> <a href="https://www.wmis.org/2020-wmic-2/"
+												</div> <a href="https://wmis.org/highlights-wmic-virtual-2020/"
 												style="vertical-align: middle; padding-left: 10px"
 												target="_blank"> <strong>World Molecular Imaging Congress
 														WMIC 2020</strong>
@@ -203,7 +203,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 													Stage Researchers in the innovative fields of Ultra Low
 													Field NMR and Hyperpolarization. For more info visit </span><a
 												title="Open in a new window" class="http"
-												href="https://zulf.eu/" target="_blank"> <span
+												href="https://cordis.europa.eu/project/id/766402" target="_blank"> <span
 													style="color: blue; font-style: italic; font-weight: bold;">https://zulf.eu</span></a>
 											</li>
 										</ul>

@@ -101,9 +101,9 @@
 										<br> 
 										<a
 											title="Silvio Aime publications"
-											href='https://pubmed.ncbi.nlm.nih.gov/?term=Silvio+Aime[Author]&sort=date' 
+											href='https://pubmed.ncbi.nlm.nih.gov/?term=Silvio+Aime %5BAuthor%5D&sort=date' 
 											target='_blank'>
-											<b>Silvio Aime</b> List of publications (Google Scholar)</a> 
+											<b>Silvio Aime</b> List of publications (PubMed)</a> 
 										<br>
 										<a
 											href='<?php echo $localizer; ?>documenti/CV_SilvioAime-2023.doc'

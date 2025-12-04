@@ -30,23 +30,43 @@
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<ul>
 							<li><a
-								href="<?php echo $localizer; ?>events/educational/data_management.php">1<sup>st</sup>
-									Webinar on Data Management in Biomedical Imaging – June 2023
-							</a></li>
+								href="https://www.gidrm.org/scuola-nmr-torino-2025/">Scuola
+									Nazionale di Risonanza Magnetica Nucleare 2025</a></li>
 							<li><a
-								href="http://www.gidrm.org/index.php/activities/nmr-school-torino">Scuola
+								href="https://www.gidrm.org/scuola-nmr-torino-2024/">Scuola
+									Nazionale di Risonanza Magnetica Nucleare 2024</a></li>
+							<li><a
+								href="https://www.gidrm.org/scuola-nmr-torino-2023/">Scuola
+									Nazionale di Risonanza Magnetica Nucleare 2023</a></li>
+							<li><a
+								href="<?php echo $localizer; ?>events/educational/data_management.php">1<sup>st</sup>
+									Webinar on Data Management in Biomedical Imaging – June 2023</a></li>
+							<li><a
+								href="https://www.gidrm.org/scuola-nmr-torino-2022/">Scuola
+									Nazionale di Risonanza Magnetica Nucleare 2022</a></li>
+							<li><a
+								href="https://www.gidrm.org/scuola-nmr-torino-2021/">Scuola
+									Nazionale di Risonanza Magnetica Nucleare 2021</a></li>
+							<li><a
+								href="https://www.gidrm.org/scuola-nmr-torino-2020/">Scuola
+									Nazionale di Risonanza Magnetica Nucleare 2020</a></li>
+							<li><a
+								href="https://www.gidrm.org/scuola-nmr-torino-2019/">Scuola
+									Nazionale di Risonanza Magnetica Nucleare 2019</a></li>
+							<li><a
+								href="https://www.gidrm.org/scuola-nmr-torino-2018/">Scuola
 									Nazionale di Risonanza Magnetica Nucleare 2018</a></li>
 							<li><a
-								href="http://www.gidrm.org/index.php/activities/nmr-school-torino/2017-1st-year">Scuola
+								href="https://www.gidrm.org/scuola-nmr-torino-2017/">Scuola
 									Nazionale di Risonanza Magnetica Nucleare 2017</a></li>
 							<li><a
-								href="http://www.gidrm.org/index.php/activities/nmr-school-torino/2016-2nd-year">Scuola
+								href="https://www.gidrm.org/scuola-nmr-torino-2016/">Scuola
 									Nazionale di Risonanza Magnetica Nucleare 2016</a></li>
 							<li><a
-								href="http://www.gidrm.org/index.php/activities/nmr-school-torino/2015-1st-year">Scuola
+								href="https://www.gidrm.org/scuola-nmr-torino-2015/">Scuola
 									Nazionale di Risonanza Magnetica Nucleare 2015</a></li>
 							<li><a
-								href="http://www.gidrm.org/index.php/activities/nmr-school-torino/2014-2nd-year">Scuola
+								href="https://www.gidrm.org/scuola-nmr-torino-2014/">Scuola
 									Nazionale di Risonanza Magnetica Nucleare 2014</a></li>
 							<li><a
 								href="<?php echo $localizer; ?>EMIDS/EMIDS_September_2014.php">The

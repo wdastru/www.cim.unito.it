@@ -249,7 +249,7 @@ echo getStaffData($conn, [
 								<!-- Article list -->
 								<section class="box article-list">
 									<h2 class="icon fa-file-text-o">Upcoming Events</h2>
-
+									<!-- 
 									<ul class="divided">
 
 										<li>
@@ -290,6 +290,7 @@ echo getStaffData($conn, [
 										</li>
 
 									</ul>
+									 -->
 
 								</section>
 							</div>

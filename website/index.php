@@ -542,7 +542,6 @@ header('Content-Type: text/html;charset=UTF-8');
 								<div class='w3-card'>
 									<div class='w3-container'>
 										<a
-											'
 											class='http'
 											href='https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202011513'
 											target='_blank'>

@@ -35,10 +35,7 @@
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2818.7755057933828!2d7.6738996!3d45.0497773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d48f2272033%3A0xe5a0d880beff326b!2sVia+Nizza%2C+52%2C+10126+Torino!5e0!3m2!1sit!2sit!4v1464684837561"
-							width="100%"
-							height="400px"
-							style="border: 0"
-							allowfullscreen></iframe>
+							style="border: 0; width:100%; height:400px"></iframe>
 						<!-- InstanceEndEditable -->
 					</div>
 				</div>
