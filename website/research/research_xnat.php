@@ -63,21 +63,26 @@
 								alt="XNAT"
 								src="<?php echo $localizer; ?>/images/research_lines/xnat/xnat_workflow.png">
 						</div>
-						<h2>XNAT-PIC</h2>
-						<p class="indent">XNAT for Preclinical Imaging Centers (XNAT-PIC)
-							is a free and open-source Windows desktop application (GNU
-							General Public License – GPL, v3), which offers several tools to
-							expand the XNAT core functionalities to support the preclinical
-							imaging community and to promote open science practices. The
-							adoption of these tools will improve the findability, the access,
-							the interoperability, and reusability (FAIR) of preclinical image
-							datasets.</p>
+						<h2>TOOLS</h2>
+						<ul style="font-size: 18px">
+                            <li>
+                              <a href="https://eubi-xnat.hpc4ai.unito.it/app/template/Login.vm?failed=true#!" target="_blank">
+                                <strong>XNAT</strong>
+                              </a><br><br>A preclinical imaging data repository hosted by the University of Turin, supporting data sharing, reuse, and standardized image processing, with integrated tools for image analysis.
+                              <br><br>
+                              <ul style="font-size: 18px">
+                                  <li>
+                                  	<strong>XNAT-PIC</strong>
+                                  	<br><br>
+                                  <p>XNAT for Preclinical Imaging Centers (XNAT-PIC) is a free and open-source Windows desktop application (GNU General Public License – GPL, v3), which offers several tools to expand the XNAT core functionalities to support the preclinical imaging community and to promote open science practices. The adoption of these tools will improve the findability, the access, the interoperability, and reusability (FAIR) of preclinical image datasets.</p>
 						<h2>Which features does XNAT-PIC offer?</h2>
 						<div class='xnat-features'>
 							<div class='feature'>
-								<img
-									alt='uploader'
-									src='<?php echo $localizer; ?>/images/research_lines/xnat/uploader.png'>
+								<div class="img-wrapper">
+									<img
+    									alt='uploader'
+    									src='<?php echo $localizer; ?>/images/research_lines/xnat/uploader.png'>
+    							</div>
 								<div>
 									<h4>Uploader</h4>
 									to easily import DICOM image datasets into the XNAT platform.
@@ -86,9 +91,11 @@
 								</div>
 							</div>
 							<div class='feature'>
+								<div class="img-wrapper">
 								<img
 									alt='annotation'
 									src='<?php echo $localizer; ?>/images/research_lines/xnat/annotation.png'>
+								</div>
 								<div>
 									<h4>Grouping Annotation Interface</h4>
 									to efficiently cope with different experimental protocols by
@@ -98,9 +105,11 @@
 								</div>
 							</div>
 							<div class='feature'>
+								<div class="img-wrapper">
 								<img
 									alt='converter'
 									src='<?php echo $localizer; ?>/images/research_lines/xnat/converter.png'>
+								</div>
 								<div>
 									<h4>MRI2DICOM Converter</h4>
 									to convert Bruker raw data to DICOM standard, including DICOM
@@ -109,11 +118,11 @@
 								</div>
 							</div>
 						</div>
+						<br>
 						<h2>Let’s Start! Download and start using XNAT-PIC!</h2>
 						<div style="padding-left: 2.00rem;">
 							<a
-								href="<?php echo $localizer; ?>download/XNAT-PIC-2.0.0-win32.msi"
-								download>
+								href="<?php echo $localizer; ?>download/XNAT-PIC-2.0.0-win32.msi">
 								<img
 									src="<?php echo $localizer; ?>images/XNAT-PIC-2.0.0-download_button.png"
 									alt="download button created with https://buttonoptimizer.com/"
@@ -122,12 +131,10 @@
 							<br>
 							<a
 								style='font-size: 1.00rem; font-weight: bold;'
-								href="<?php echo $localizer; ?>download/XNAT-PIC_v2_UserInstruction.docx">USER
-								INSTRUCTIONS</a>
+								href="<?php echo $localizer; ?>download/XNAT-PIC_v2_UserInstruction.docx">USER INSTRUCTIONS</a>
 							<br>
 							<p style="font-size: 1.00rem; font-weight: bold;">
-								Find our code on GitHub!
-								<a href="https://github.com/cim-unito/XNAT-PIC">cim-unito/XNAT-PIC</a>
+								Find our code on GitHub at <a href="https://github.com/cim-unito/XNAT-PIC">cim-unito/XNAT-PIC</a>
 							</p>
 						</div>
 						<h2>Versions</h2>
@@ -207,7 +214,11 @@
 							</div>
 						</div>
 						<h3 style='text-align: left; padding-left: 30px;'>XNAT-PIC v1.0</h3>
-						Functionality of XNAT-PIC:
+						<h2>Functionality of XNAT-PIC</h2>
+						GitHub:
+						<a href='https://github.com/szullino/XNAT-PIC'>GIT-HUB Sara
+							Zullino</a>
+							<br>
 						<ul>
 							<li>Convert experiments (pool of scans) from BRUKER format to
 								standard DICOM.</li>
@@ -215,9 +226,19 @@
 							<li>The custom variables are edited based on the folder
 								structure.</li>
 						</ul>
-						GitHub:
-						<a href='https://github.com/szullino/XNAT-PIC'>GIT-HUB Sara
-							Zullino</a>
+						<br>
+						</li>
+							<li><strong>XNAT metadata plugin</strong>
+								<br>
+								<a href='<?php echo $localizer; ?>/download/metadata-plugin.zip'>Download</a><br><br>
+							</li>
+                              </ul>
+                            </li>
+
+							<li><a href='https://pidar.hpc4ai.unito.it/Home/About'><strong>PIDAR</strong></a><br><br>
+							<p>A public repository designed to organize and share metadata from preclinical imaging datasets, promoting FAIR data principles within the scientific community.</p><a href='https://pidar.hpc4ai.unito.it/Home/Xnat'>Preclinical imaging datasets</a></li>
+						</ul>
+						
 						<br> <br>
 						<h2>Contact information</h2>
 						<p>

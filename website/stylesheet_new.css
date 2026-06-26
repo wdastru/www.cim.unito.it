@@ -401,23 +401,78 @@ h3 {
 
 /* STYLE for xnat */
 .xnat-features {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;   /* makes all columns same height */
 }
 .xnat-features > .feature {
-	display: flex;
-	flex-direction: column;
-	padding: 0 5px 0 5px;
-	width:30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+/* Image area: same height for all three columns */
+.xnat-features > .feature > .img-wrapper {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* horizontal centering */
+  flex: 0 0 120px;          /* prevents flex from resizing it */
+}
+/* Image itself */
+.xnat-features > .feature > .img-wrapper img {
+  max-height: 100%;
+  max-width: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+/* Text area only */
+.xnat-features > .feature > .feature-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+/* Optional: align title rows if titles have different lengths */
+.xnat-features > .feature > .feature-text h4 {
+  min-height: 2.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+/* ✅ container with fixed height */
+.img-wrapper {
+  height: 120px;              /* SAME for all images */
+  display: flex;
+  align-items: center;        /* vertical centering ✅ */
+  justify-content: center;    /* horizontal centering ✅ */
+}
+/* ✅ control image size */
+.img-wrapper img {
+  max-height: 100%;
+  max-width: 100%;
 }
 .xnat-features > .feature > img {
-	height: auto;
+  max-width: 120px;       /* ✅ control image size */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
 }
 .xnat-features > .feature > div {
-	text-align: center;
+  flex: 1;                /* ✅ makes text blocks equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-
 .xnat-acknowledgements {
 	flex: 21%;
 	margin: 1.00rem;
