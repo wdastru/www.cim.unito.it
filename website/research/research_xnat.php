@@ -229,7 +229,9 @@
 						<br>
 						</li>
 							<li><strong>XNAT metadata plugin</strong>
-								<br>
+								<br><br>
+								PIDAR Metadata Plugin is a custom XNAT plugin developed to extend metadata handling capabilities for the PIDAR (Preclinical Image Dataset Repository) platform. Built on the XNAT plugin framework, it introduces tailored data fields, forms, and integration logic to support FAIR-compliant metadata capture for preclinical imaging datasets. The plugin is designed to work seamlessly within XNAT-based research data infrastructures, such as those used by Euro-BioImaging and IBB XNAT, enabling structured and standardized metadata management across imaging projects.  
+								<br><br>
 								<a href='<?php echo $localizer; ?>/download/metadata-plugin.zip'>Download</a><br><br>
 							</li>
                               </ul>
