@@ -11,7 +11,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 <html lang="en">
 <head>
 <title>Home | CUTRIN LAB</title>
-	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Cutrin/includes/head_const_cutrin.php'); ?>
 </head>
 <body class="homepage">

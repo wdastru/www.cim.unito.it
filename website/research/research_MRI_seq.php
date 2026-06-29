@@ -4,7 +4,7 @@
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <?php
-    require $localizer . 'includes/head_const_new.inc.php';
+    require $localizer . 'includes/head_const.inc.php';
     ?>
     <script
 	src='<?php echo $localizer ?>minified/js/hideAndShowHiddenBoxes.js'></script>

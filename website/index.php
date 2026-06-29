@@ -7,7 +7,7 @@ header('Content-Type: text/html;charset=UTF-8');
 <html lang="en">
     <!-- InstanceBegin template='/Templates/home.dwt' codeOutsidephpIsLocked='false' -->
     <head>
-        <?php require $localizer . 'includes/head_const_new.inc.php'; ?>
+        <?php require $localizer . 'includes/head_const.inc.php'; ?>
         <meta
             name="description"
             content="Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy."
