@@ -52,3 +52,4 @@ website/research/MRI_sequences/package*
 /vendor/
 /composer.lock
 /cim.unito.it_info hosting/
+.prettierrc
