@@ -8,7 +8,7 @@ echo "
     <link rel='preload' fetchpriority='high' as='image' href='" . $localizer . "images/header_large.webp' type='image/webp'>
     <link rel='preload' fetchpriority='high' as='image' href='" . $localizer . "images/favicon.gif' type='image/gif'>
     
-    <link rel='stylesheet' media='screen' href='" . $localizer . "minified/css/stylesheet_new.css'>
+    <link rel='stylesheet' media='screen' href='" . $localizer . "minified/css/stylesheet.css'>
     <link rel='stylesheet' media='screen' href='" . $localizer . "minified/css/w3.css'>
     
     <link rel='stylesheet' media='(min-width: 992px)' href='" . $localizer . "minified/css/mw-992px.css'>
