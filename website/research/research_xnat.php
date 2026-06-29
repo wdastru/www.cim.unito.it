@@ -60,8 +60,8 @@
                                     href="http://eubi-xnat.hpc4ai.unito.it"
                                     target="_blank"
                                     style="color: #dc6a10"
-                                    >EUBI-XNAT</a
-                                >
+                                    >EUBI-XNAT
+                                </a>
                                 .
                             </p>
                             <div class="imgCenter">
@@ -77,8 +77,9 @@
                                         href="https://eubi-xnat.hpc4ai.unito.it/app/template/Login.vm?failed=true#!"
                                         target="_blank"
                                     >
-                                        <strong>XNAT</strong> </a
-                                    ><br /><br />A preclinical imaging data
+                                        <strong>XNAT</strong>
+                                    </a>
+                                    <br /><br />A preclinical imaging data
                                     repository hosted by the University of
                                     Turin, supporting data sharing, reuse, and
                                     standardized image processing, with
