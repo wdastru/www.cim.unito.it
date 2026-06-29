@@ -3,7 +3,7 @@
 <html lang='it'>
 <!-- InstanceBegin template='/Templates/home.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
-	<?php require $localizer . 'includes/head_const_new.inc.php'?>
+	<?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - People</title>
 <link
 	rel='stylesheet'

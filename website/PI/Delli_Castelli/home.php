@@ -11,7 +11,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 <html lang="en">
 <head>
 <title>Home | DELLI CASTELLI LAB</title>
-	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Delli_Castelli/includes/head_const_delli.php'); ?>
 </head>
 <body class="homepage">

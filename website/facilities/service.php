@@ -119,7 +119,7 @@ if (isset($_GET['submit'])) {
 <html lang="en">
 <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const_new.inc.php'?>
+        <?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino - Facilities</title>
 <meta name="description" content="">
 <link href="<?php echo $localizer; ?>facilities/facilities.css"

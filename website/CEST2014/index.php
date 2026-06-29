@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-        <?php require $localizer . 'includes/head_const_new.inc.php'?>
+        <?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino</title>
 <meta
 	name="description"

@@ -7,7 +7,7 @@ header('Content-Type: text/html;charset=UTF-8');
 <html lang="en">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        <?php require $localizer . 'includes/head_const_new.inc.php'?>
+        <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino</title>
     </head>
     <body>

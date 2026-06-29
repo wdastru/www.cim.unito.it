@@ -10,7 +10,7 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Gd retention | GIANOLIO Lab</title>
-	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Gianolio/includes/head_const_gianolio.php'); ?>
 </head>
 <body class="homepage">

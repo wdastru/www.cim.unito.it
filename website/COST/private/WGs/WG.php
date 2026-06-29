@@ -33,7 +33,7 @@ $result = mysql_query($sql, $con);
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
-    <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+    
     <head>
         <?php require $localizer . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino</title>
@@ -53,7 +53,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <input type='button' value='Cancel'
                 onclick="hideBox();" />
                 <input type='hidden' name='Id' value='' />
-                </fieldset>
             </form>
         </div>
         <div id='section5'>
@@ -61,9 +60,9 @@ xmlns="http://www.w3.org/1999/xhtml">
             require ($localizer . 'includes/main-nav.php');
             ?>
             <div id='header'></div>
-            <!-- InstanceBeginEditable name="subsection opening" -->
+            
             <div id="subsection4">
-                <!-- InstanceEndEditable -->
+                
                 <div id='sidebar'>
                     <?php
                     require $localizer . 'COST/include/COST-sidebar.php';
@@ -117,9 +116,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                     </div>
                 </div>
-                <!-- subsection closing -->
+                
             </div>
-            <!-- subsection closing -->
+            
             <div id='after'></div>
             <div id='footer'>
                 <p>
@@ -129,14 +128,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                 </p>
             </div>
             
-            <!-- section closing -->
+            
         </div>
-        <!-- section closing -->
+        
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();
             //]]>
         </script>
-        <!-- InstanceEnd -->
+        
     </body>
 </html>

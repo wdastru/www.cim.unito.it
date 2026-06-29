@@ -6,7 +6,7 @@
             Molecular Imaging Center - University of Torino - CIM-XNAT
         </title>
         <meta name="description" content="" />
-        <?php require $localizer . "includes/head_const_new.inc.php"; ?>
+        <?php require $localizer . "includes/head_const.inc.php"; ?>
     </head>
     <body>
         <div id="section1">

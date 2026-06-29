@@ -4,7 +4,7 @@
 <html lang="en">
 <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const_new.inc.php'?>
+        <?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - MRI facilities</title>
 <meta name="description" content="">
 </head>

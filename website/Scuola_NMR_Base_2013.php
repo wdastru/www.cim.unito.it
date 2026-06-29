@@ -3,7 +3,7 @@
 <html lang="en">
 <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const_new.inc.php'?>
+        <?php require $localizer . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Scuola
 	NMR di Base 2013</title>
 </head>

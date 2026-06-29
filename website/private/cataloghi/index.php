@@ -24,7 +24,7 @@ function uploadFile($filename, $dir) {
 }
 
 function html_apostrophes($arg) {
-    return str_replace("'", "&#39", $arg);
+    return str_replace("'", "&#39;", $arg);
 }
 
 unset($hostname);
@@ -91,7 +91,7 @@ $_POST['delete'] = 0;
 
 <html
 	xmlns="http://www.w3.org/1999/xhtml">
-<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+
 <head>
 <?php require $localizer . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino</title>
@@ -104,9 +104,9 @@ $_POST['delete'] = 0;
 	require ($localizer . 'includes/main-nav.php');
 	?>
 		<div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
+		
 		<div id="subsection0">
-			<!-- InstanceEndEditable -->
+			
 			<div id='sidebar-narrow'>
 				<div class='padding'>
 					<dl id='list'>
@@ -117,13 +117,13 @@ $_POST['delete'] = 0;
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
+							
 							CHEMICALS CATALOG
-							<!-- InstanceEndEditable -->
+							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
+						
 						<h2>Search</h2>
 						<table>
 							<tr>
@@ -401,8 +401,8 @@ $_POST['delete'] = 0;
 							         <tr>
                             			<th class='headerButtonEdit'></th>
                             			<th class='headerButtonRemove'></th>
-                            			<th class='headerName_UK'>Name <!--<img src='./en.png' alt='UK' />--></th>
-                                        <!--<th class='headerName_IT'>Name <img src='./it.jpg' alt='IT' /></th>-->
+                            			<th class='headerName_UK'>Name </th>
+                                        
                                         <th class='headerPlace'>Place</th>
                             			<th class='headerQuantity'>Qt</th>
                             			<th class='headerLab'>Lab</th>
@@ -415,7 +415,7 @@ $_POST['delete'] = 0;
                             		<tr>
                             			<td class='void'>&nbsp;</td>
                             			<td class='void'>&nbsp;</td>
-                            			<!--<td class='void'>&nbsp;</td>-->
+                            			
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
                                         <td class='void'>&nbsp;</td>
@@ -518,13 +518,13 @@ $_POST['delete'] = 0;
 						}
 
 						?>
-						<!-- InstanceEndEditable name="subsection content" -->
+						
 					</div>
 				</div>
 			</div>
-			<!-- subsection closing -->
+			
 		</div>
-		<!-- subsection closing -->
+		
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
@@ -533,15 +533,15 @@ $_POST['delete'] = 0;
 			</p>
 		</div>
 		
-		<!-- section closing -->
+		
 	</div>
-	<!-- section closing -->
+	
 	<script type="text/javascript">
 		//<![CDATA[
 		changeSideNavStyles();
 		//]]>
 		</script>
-	<!-- InstanceEnd -->
+	
 
 </body>
 </html>

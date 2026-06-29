@@ -16,7 +16,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
 	
 	

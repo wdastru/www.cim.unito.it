@@ -11,7 +11,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Members | REINERI Lab</title>
-	<?php require ($localizer . 'includes/head_const_new.inc.php'); ?>
+	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
 	<?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
 </head>
 <body class="homepage">
