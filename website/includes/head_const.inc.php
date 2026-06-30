@@ -8,13 +8,17 @@ echo "
     <link rel='preload' fetchpriority='high' as='image' href='" . $localizer . "images/header_large.webp' type='image/webp'>
     <link rel='preload' fetchpriority='high' as='image' href='" . $localizer . "images/favicon.gif' type='image/gif'>
     
-    <link rel='stylesheet' media='screen' href='" . $localizer . "minified/css/stylesheet.css'>
     <link rel='stylesheet' media='screen' href='" . $localizer . "minified/css/w3.css'>
     
+    <!--
+    <link rel='stylesheet' media='screen' href='" . $localizer . "minified/css/stylesheet.css'>
     <link rel='stylesheet' media='(min-width: 992px)' href='" . $localizer . "minified/css/mw-992px.css'>
     <link rel='stylesheet' media='(max-width: 991px) and (min-width: 737px)' href='" . $localizer . "minified/css/Mw-991px-mw-737px.css'>
     <link rel='stylesheet' media='(max-width: 736px)' href='" . $localizer . "minified/css/Mw-736px.css'>
     <link rel='stylesheet' media='(max-width: 451px)' href='" . $localizer . "minified/css/Mw-451px.css'>
+    -->
+    
+    <link rel='stylesheet' media='screen' href='" . $localizer . "css/stylesheet_consolidato.css'>
     
     <link rel='icon' href='" . $localizer . "images/favicon.gif' type='image/gif' >
     
