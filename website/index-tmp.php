@@ -1,4 +1,7 @@
 <?php
+print_r(__DIR__);
+print_r(SITE_ROOT);
+print_r(SITE_PATH);
 require_once (__DIR__ . '/includes/config.inc.php');
 $localizer = './';
 ob_start('ob_gzhandler');
