@@ -14,10 +14,9 @@ $localizer = "./";
     <body>
         <?php require_once($localizer . 'includes/analyticstracking.php') ?>
         <div id="section3">
-            <?php require ('includes/main-nav.php'); ?>
-            <div id="header"></div>
-
             <div id="subsection0">
+                <?php include 'includes/menu.php'; ?> <?php include
+                'includes/header.php'; ?>
                 <div id="sidebar">
                     <div class="padding">
                         <dl id="list">

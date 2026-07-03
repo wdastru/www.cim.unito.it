@@ -1,18 +1,18 @@
 <?php
+require_once (__DIR__ . '/config.inc.php');
 $localizer = './';
 ob_start('ob_gzhandler');
 header('Content-Type: text/html;charset=UTF-8');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template='/Templates/home.dwt' codeOutsidephpIsLocked='false' -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'; ?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+        <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
             content="Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy."
         />
-        <title>Molecular Imaging Center - University of Torino</title>
         <link
             rel="canonical"
             href="https://www.cim.unito.it/website/index.php"
@@ -21,10 +21,8 @@ header('Content-Type: text/html;charset=UTF-8');
     <body>
         <div id="section0">
             <div id="subsection0">
-                <?php require $localizer . 'includes/main-nav.php'; ?> <?php
-                require $localizer . 'includes/main-nav-mobile.php'; ?>
-                <!-- InstanceBeginEditable name='subsection opening' -->
-                <div id="header"></div>
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <!-- InstanceEndEditable -->
                 <?php require $localizer . 'includes/home-side-nav.php'; ?>
                 <?php require $localizer . 'includes/home-side-nav-mobile.php';
