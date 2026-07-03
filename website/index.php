@@ -1,8 +1,8 @@
 <?php
-require_once (__DIR__ . '/config.inc.php');
-$localizer = './';
-ob_start('ob_gzhandler');
-header('Content-Type: text/html;charset=UTF-8');
+    require_once (__DIR__ . '/config.inc.php');
+    $localizer = './';
+    ob_start('ob_gzhandler');
+    header('Content-Type: text/html;charset=UTF-8');
 ?>
 <!DOCTYPE html>
 <html lang="en">
