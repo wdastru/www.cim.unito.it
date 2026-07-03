@@ -1,9 +1,5 @@
 <?php
-#print_r("__DIR__ : " . __DIR__ . "<br>");
 require_once (__DIR__ . '/config.inc.php');
-#print_r("SITE_ROOT : " . SITE_ROOT . "<br>");
-#print_r("SITE_PATH : " . SITE_PATH . "<br>");
-#exit();
 $localizer = './';
 ob_start('ob_gzhandler');
 header('Content-Type: text/html;charset=UTF-8');
