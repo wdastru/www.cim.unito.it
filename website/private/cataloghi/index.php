@@ -96,7 +96,7 @@ $_POST['delete'] = 0;
 <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 <title>Molecular Imaging Center - University of Torino</title>
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
-<link href="<?php echo $localizer; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo SITE_ROOT; ?>private/cataloghi/catalog.css" rel='stylesheet' type='text/css' />
 </head>
 <body>
 	<div id='section7'>

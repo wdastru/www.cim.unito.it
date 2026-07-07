@@ -18,7 +18,7 @@ $localizer = "../../../";
             content="University of Torino. Website of the Molecular Imaging Center."
         />
         <link
-            href="<?php echo $localizer; ?>private/cataloghi/catalog.css"
+            href="<?php echo SITE_ROOT; ?>private/cataloghi/catalog.css"
             rel="stylesheet"
             type="text/css"
         />
@@ -44,7 +44,7 @@ $localizer = "../../../";
                                 name="add"
                                 method="post"
                                 enctype="multipart/form-data"
-                                action="<?php echo $localizer; ?>private/cataloghi/index.php"
+                                action="<?php echo SITE_ROOT; ?>private/cataloghi/index.php"
                             >
                                 <table>
                                     <input

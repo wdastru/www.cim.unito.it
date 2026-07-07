@@ -44,7 +44,7 @@ $localizer = "../../";
                                 class="subsection_link"
                             >
                                 <a
-                                    href="<?php echo $localizer;?>educational.php"
+                                    href="<?php echo SITE_ROOT; ?>educational.php"
                                     >Educational</a
                                 >
                             </li>
@@ -52,7 +52,7 @@ $localizer = "../../";
                                 id="section2-subsection2"
                                 class="subsection_link"
                             >
-                                <a href="<?php echo $localizer;?>news.php"
+                                <a href="<?php echo SITE_ROOT; ?>news.php"
                                     >News</a
                                 >
                             </li>

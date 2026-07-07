@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'COST/private/errors.inc.php';
+require_once (__DIR__ . '/../../config.inc.php');
+include SITE_PATH . 'COST/private/errors.inc.php';
 
 function valid_error() {
 	if (preg_match('/^(cost_xml_not_found|file_not_copied|missing_db_table_name|missing_upload_file|invalid_type|delete|upload|missing_filename|file_exists|file_not_exists|upload_dir_not_exist|delete_not_set|not_valid_WG|file_too_big|could_not_delete_file)$/', $_GET['error'])) {
@@ -30,7 +30,7 @@ function valid_error() {
 
             <div id="subsection0">
                 <div id="sidebar">
-                    <?php require $localizer . 'COST/include/COST-sidebar.php';
+                    <?php include SITE_PATH . 'COST/include/COST-sidebar.php';
                     ?>
                     <div class="padding">
                         <dl id="list">

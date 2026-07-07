@@ -60,7 +60,7 @@ html_apostrophes($_POST['link2edit']); $localizer = "../../../"; ?>
                                 name="edit"
                                 method="post"
                                 enctype="multipart/form-data"
-                                action="<?php echo $localizer; ?>private/cataloghi/index.php"
+                                action="<?php echo SITE_ROOT; ?>private/cataloghi/index.php"
                             >
                                 <table>
                                     <tr>

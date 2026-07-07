@@ -143,7 +143,7 @@ if (isset($_GET['submit'])) {
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<form method='post'
-							action='<?php echo $localizer; ?>facilities/service.php?submit=yes'>
+							action='<?php echo SITE_ROOT; ?>facilities/service.php?submit=yes'>
 							<table>
 								<tr>
 									<td class='title'>Name (*) :</td>

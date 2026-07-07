@@ -10,7 +10,7 @@
             content="University of Torino. Website of the Molecular Imaging Center."
         />
         <link
-            href="<?php echo $localizer;?>private/passwords/passwords.css"
+            href="<?php echo SITE_ROOT; ?>private/passwords/passwords.css"
             rel="stylesheet"
             type="text/css"
         />

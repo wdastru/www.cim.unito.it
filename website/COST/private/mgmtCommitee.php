@@ -1,5 +1,5 @@
 <?php
-$localizer = "../../";
+require_once (__DIR__ . '/../../config.inc.php');
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -11,13 +11,13 @@ $localizer = "../../";
             content="University of Torino. Website of the Molecular Imaging Center."
         />
         <link
-            href="<?php echo $localizer;?>/COST/cost.css"
+            href="<?php echo SITE_ROOT ?>/COST/cost.css"
             rel="stylesheet"
             type="text/css"
         />
         <script
             type="text/javascript"
-            src="<?php echo $localizer;?>COST/private/cost.js"
+            src="<?php echo SITE_ROOT; ?>COST/private/cost.js"
         ></script>
     </head>
     <body>
@@ -41,7 +41,7 @@ $localizer = "../../";
 
             <div id="subsection4">
                 <div id="sidebar">
-                    <?php require $localizer . 'COST/include/COST-sidebar.php';
+                    <?php include SITE_PATH . 'COST/include/COST-sidebar.php';
                     ?>
                 </div>
                 <div id="content">
