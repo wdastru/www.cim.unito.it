@@ -35,7 +35,7 @@ $result = mysql_query($sql, $con);
 xmlns="http://www.w3.org/1999/xhtml">
     
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino</title>
         <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
         <link href="<?php echo $localizer;?>COST/cost.css" rel='stylesheet' type='text/css' />

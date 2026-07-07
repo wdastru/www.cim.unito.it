@@ -1,8 +1,8 @@
-<?php $localizer = "./"; ?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Intensive
             programme 2012
@@ -21,13 +21,13 @@
                                 id="section2-subsection1"
                                 class="subsection_link"
                             >
-                                <a href="educational.php">Educational</a>
+                                <a href="<?php echo SITE_ROOT; ?>educational.php">Educational</a>
                             </dt>
                             <dt
                                 id="section2-subsection2"
                                 class="subsection_link"
                             >
-                                <a href="meetings.php">Meetings</a>
+                                <a href="<?php echo SITE_ROOT; ?>educational.php">Meetings</a>
                             </dt>
                         </dl>
                     </div>
@@ -493,44 +493,44 @@
                                 <ul>
                                     <li>
                                         <a
-                                            href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Tumour_IP_Turin_2012_draft.pdf"
+                                            href="<?php echo SITE_ROOT; ?>documenti/IP_Probes_Turin_2012/Tumour_IP_Turin_2012_draft.pdf"
                                             >IP PROBES 2012 schedule (draft)</a
                                         >
                                     </li>
                                     <li>
                                         <a
-                                            href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Probes_Imaging_Leaflet_2012.doc"
+                                            href="<?php echo SITE_ROOT; ?>documenti/IP_Probes_Turin_2012/Probes_Imaging_Leaflet_2012.doc"
                                             >IP PROBES 2012 leaflet</a
                                         >
                                     </li>
                                     <li>
                                         <a
-                                            href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Registration_Form_IP_Turin_2012.doc"
+                                            href="<?php echo SITE_ROOT; ?>documenti/IP_Probes_Turin_2012/Registration_Form_IP_Turin_2012.doc"
                                             >IP PROBES 2012 registration form</a
                                         >
                                     </li>
                                     <li>
                                         <a
-                                            href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/Eligibility_Rules_IP_2012.doc"
+                                            href="<?php echo SITE_ROOT; ?>documenti/IP_Probes_Turin_2012/Eligibility_Rules_IP_2012.doc"
                                             >IP PROBES 2012 stipend eligibility
                                             rules</a
                                         >
                                     </li>
                                     <li>
                                         <a
-                                            href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/How_to_reach_the_MBC.doc"
+                                            href="<?php echo SITE_ROOT; ?>documenti/IP_Probes_Turin_2012/How_to_reach_the_MBC.doc"
                                             >How to reach the MBC</a
                                         >
                                     </li>
                                     <li>
                                         <a
-                                            href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/How_to_reach_student_residences.doc"
+                                            href="<?php echo SITE_ROOT; ?>documenti/IP_Probes_Turin_2012/How_to_reach_student_residences.doc"
                                             >How to reach the residences</a
                                         >
                                     </li>
                                     <li>
                                         <a
-                                            href="<?php echo $localizer; ?>documenti/IP_Probes_Turin_2012/private/list_participants_IP_Turin_2012.xlsx"
+                                            href="<?php echo SITE_ROOT; ?>documenti/IP_Probes_Turin_2012/private/list_participants_IP_Turin_2012.xlsx"
                                             >List of participants</a
                                         >
                                     </li>

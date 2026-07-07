@@ -1,7 +1,4 @@
-<?php 
-	require_once (__DIR__ . '/config.inc.php');
-    $localizer = './';
-?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <!-- InstanceBegin template='/Templates/home.dwt' codeOutsidephpIsLocked='false' -->

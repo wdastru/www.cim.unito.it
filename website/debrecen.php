@@ -1,10 +1,8 @@
-<?php
-	$localizer = "./";
-?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Prof. Silvio Aime
             Debrecen Doctor Honoris Causa
@@ -19,7 +17,7 @@
     </head>
     <body>
         <div id="section0">
-            <?php require ('includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
@@ -30,19 +28,25 @@
                                 class="subsection_link"
                                 id="section0-subsection1"
                             >
-                                <a href="staff.php">Staff</a>
+                                <a href="<?php echo SITE_ROOT; ?>staff.php"
+                                    >Staff</a
+                                >
                             </dt>
                             <dt
                                 class="subsection_link"
                                 id="section0-subsection2"
                             >
-                                <a href="where.php">Where</a>
+                                <a href="<?php echo SITE_ROOT; ?>where.php"
+                                    >Where</a
+                                >
                             </dt>
                             <dt
                                 class="subsection_link"
                                 id="section0-subsection3"
                             >
-                                <a href="contacts.php">Contacts</a>
+                                <a href="<?php echo SITE_ROOT; ?>contacts.php"
+                                    >Contacts</a
+                                >
                             </dt>
                         </dl>
                     </div>
@@ -73,18 +77,10 @@
                                 <script type="text/javascript">
                                     flowplayer(
                                         "player",
-                                        "flowplayer/flowplayer-3.2.7.swf",
+                                        "<?php echo SITE_ROOT; ?>flowplayer/flowplayer-3.2.7.swf",
                                     );
                                 </script>
                             </p>
-                            <!--
-							<h2>UPCOMING EVENTS</h2>
-							<ul>
-							<li>
-							<p><a target="_new" href="http://www.cost.esf.org/domains_actions/cmst/Actions/Metal-Based_Systems_for_Molecular">COST D38 Action "Metal-Based Systems for Molecular Imaging Applications"</a><br>
-							<a href="meetings.php">JOINT WORKING GROUPS 2 AND 6 MEETING - 24<sup>th</sup>-26<sup>th</sup> March 2011</a></p>
-							</li></ul>
-							-->
                         </div>
                     </div>
                 </div>

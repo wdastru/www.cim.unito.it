@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <title>Publications | D'Andrea Lab</title>
-    <?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
+    <?php include SITE_PATH . 'PI/Reineri/includes/head_const_reineri.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -37,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
@@ -45,7 +45,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
+							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
 
 					</div>
@@ -83,13 +83,13 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 </body>
 </html>

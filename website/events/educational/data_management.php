@@ -4,7 +4,7 @@ $localizer = "../../";
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <meta
             name="description"
             content="1st Webinar on Data Management in Biomedical Imaging"
@@ -32,7 +32,7 @@ $localizer = "../../";
     </head>
     <body>
         <div id="section2">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection1">

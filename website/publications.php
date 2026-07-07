@@ -1,11 +1,9 @@
-<?php
-$localizer = "./";
-?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/publications.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 <title>Molecular Imaging Center - University of Torino - Publications</title>
 <meta name="description"
 	content="Publications from people at the Molecular Imaging Center">
@@ -13,9 +11,9 @@ $localizer = "./";
 <body>
 	<div id='section6'>
 		<div id="subsection0">
-			<?php require('includes/main-nav.php'); ?>
-			<?php require('includes/main-nav-mobile.php'); ?>
-			<div id='header'></div>
+                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
+                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
+                <div id="header"></div>
 			<!-- InstanceBeginEditable name="subsection opening" -->
 			<div id='pubSubSectOpen'>
 				<!-- InstanceEndEditable -->
@@ -72,8 +70,8 @@ $localizer = "./";
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 					Fax. Tel. Mail
 				</p>
-			<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-			<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+			<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+			<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
 			</div>
 		</div>
 		<!-- subsection closing -->

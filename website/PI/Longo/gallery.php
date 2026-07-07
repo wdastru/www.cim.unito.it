@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -16,8 +16,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 	
 	
 <!--  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
@@ -96,7 +96,7 @@ div.desc {
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -111,7 +111,7 @@ div.desc {
 
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO
+							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO
 								LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
@@ -121,23 +121,23 @@ div.desc {
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
 										<li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php" font
 											style="text-transform: none;">TUMOR pH IMAGING</a>
 										<li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php" font
 											style="text-transform: none;">RENAL pH IMAGING</a></li>
 									</ul></li>
-								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+								<li class="current_page_item"><a href="<?php echo SITE_ROOT; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
 
@@ -174,7 +174,7 @@ div.desc {
 							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/group_2021.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/group_2021.jpg"
 									alt="Group 2021" width="600" height="auto"
 									title="From left to right: Dario, Daisy Villano, Sara Zullino, Elena Botto, Alessia Corrado, Giulia Caranta, Antonella Carella, Feriel Ramdhane, Elisa Pirotta, Kranthi Kandula."
 									
@@ -191,7 +191,7 @@ div.desc {
 							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/group_2020_covid.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/group_2020_covid.jpg"
 									alt="Group 2020" width="600" height="auto"
 									
 									style="cursor: pointer" onclick="onClick(this)"
@@ -205,7 +205,7 @@ div.desc {
 							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/group_2020.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/group_2020.jpg"
 									alt="Group 2020" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -217,7 +217,7 @@ div.desc {
 							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/group_2019.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/group_2019.jpg"
 									alt="Group 2019" width="600" height="400"
 									title="From left to right: Miriam Roberto, Noemi Salmistraro, Martina Maltone, Deborah Ambrosecchia, Feriel Ramdhane, Daisy Villano, Pietro Irrera, Sara Zullino, Annasofia Anemone and Dario."
 									
@@ -231,7 +231,7 @@ div.desc {
 							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/group_2018.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/group_2018.jpg"
 									alt="Group 2018" width="600" height="400"
 									title="From left to right: Martina Bracesco, MArtina Capozza, Feriel Ramdhane, Sara Zullino, Daisy Villano, Pietro Irrera, Bhavna Singh, Amerigo Pagoto, Lorena Consolino, Chetan Dhakan and Dario."
 									style="cursor: pointer" onclick="onClick(this)"
@@ -253,7 +253,7 @@ div.desc {
 					<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_EMIM_2021.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_EMIM_2021.jpg"
 									alt="EMIM 2021" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -264,7 +264,7 @@ div.desc {
 					<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_renal_imaging_2021.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_renal_imaging_2021.jpg"
 									alt="Renal Imaging 2021" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -276,7 +276,7 @@ div.desc {
 					<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_CEST_2020.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_CEST_2020.jpg"
 									alt="CEST 2020" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -291,7 +291,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_renal_imaging_2019.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_renal_imaging_2019.jpg"
 									alt="Renal Imaging 2019" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -302,7 +302,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/Longo_ESMRMB_2019.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/Longo_ESMRMB_2019.jpg"
 									alt="ESMRMB 2019" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -313,7 +313,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_EMIM_2019.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_EMIM_2019.jpg"
 									alt="EMIM 2019" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -324,7 +324,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_renal_imaging_2018.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_renal_imaging_2018.jpg"
 									alt="Renal Imaging 2018" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -338,7 +338,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/Longo_CEST_2018.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/Longo_CEST_2018.jpg"
 									alt="CEST 2018" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -349,7 +349,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_EUSARC_2018.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_EUSARC_2018.jpg"
 									alt="EUSARC 2018" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -360,7 +360,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/Longo_CMR_2017.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/Longo_CMR_2017.jpg"
 									alt="CMR 2017" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -371,7 +371,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_CEST_2017.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_CEST_2017.jpg"
 									alt="CEST 2017" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -385,7 +385,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_COST_2017b.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_COST_2017b.jpg"
 									alt="COST 2017" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -396,7 +396,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/Longo_ECR_2015.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/Longo_ECR_2015.jpg"
 									alt="ECR 2015" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -407,7 +407,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_EMIM_2015.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_EMIM_2015.jpg"
 									alt="EMIM 2015" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -418,7 +418,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/Longo_WMIC_2014.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/Longo_WMIC_2014.jpg"
 									alt="WMIC 2014" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -432,7 +432,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_EMIM_2013.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_EMIM_2013.jpg"
 									alt="EMIM 2013" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -444,7 +444,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_IP_2013.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_IP_2013.jpg"
 									alt="IP 2013" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -455,7 +455,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_IP_2012.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_IP_2012.jpg"
 									alt="IP 2012" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -466,7 +466,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_IP_2011.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_IP_2011.jpg"
 									alt="IP 2011" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -482,7 +482,7 @@ div.desc {
 							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/Longo_CMR_2011.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/Longo_CMR_2011.jpg"
 									alt="CMR 2011" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -493,7 +493,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_IP_2010.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_IP_2010.jpg"
 									alt="IP 2010" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -504,7 +504,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_IP_2009.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_IP_2009.jpg"
 									alt="IP 2009" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -515,7 +515,7 @@ div.desc {
 						<div class="responsive">
 							<div class="gallery">
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_WMIC_2009.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_WMIC_2009.jpg"
 									alt="WMIC 2009" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">
@@ -531,7 +531,7 @@ div.desc {
 							<div class="gallery">
 
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/gallery/meeting_GRC_2008.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/gallery/meeting_GRC_2008.jpg"
 									alt="GRC 2008" width="600" height="auto"
 									style="cursor: pointer" onclick="onClick(this)"
 									class="w3-hover-opacity">

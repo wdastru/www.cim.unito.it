@@ -1,10 +1,8 @@
-<?php
-$localizer = "./";
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Facilities
         </title>
@@ -12,9 +10,9 @@ $localizer = "./";
         <link rel="stylesheet" href="hexag.css" />
     </head>
     <body>
-        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
+        <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
-            <?php require ('includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
@@ -25,31 +23,31 @@ $localizer = "./";
                                 id="section3-subsection1"
                                 class="subsection_link"
                             >
-                                <a href="mri.php">MRI</a>
+                                <a href="<?php echo SITE_ROOT; ?>facilities/mri.php">MRI</a>
                             </dt>
                             <dt
                                 id="section3-subsection2"
                                 class="subsection_link"
                             >
-                                <a href="nmr.php">NMR</a>
+                                <a href="<?php echo SITE_ROOT; ?>facilities/nmr.php">NMR</a>
                             </dt>
                             <dt
                                 id="section3-subsection3"
                                 class="subsection_link"
                             >
-                                <a href="relax.php">Relaxometry</a>
+                                <a href="<?php echo SITE_ROOT; ?>facilities/relax.php">Relaxometry</a>
                             </dt>
                             <dt
                                 id="section3-subsection4"
                                 class="subsection_link"
                             >
-                                <a href="org_lab.php">Organic Laboratory</a>
+                                <a href="<?php echo SITE_ROOT; ?>facilities/org_lab.php">Organic Laboratory</a>
                             </dt>
                             <dt
                                 id="section3-subsection5"
                                 class="subsection_link"
                             >
-                                <a href="cell_lab.php">Cell Laboratory</a>
+                                <a href="<?php echo SITE_ROOT; ?>facilities/cell_lab.php">Cell Laboratory</a>
                             </dt>
                         </dl>
                     </div>

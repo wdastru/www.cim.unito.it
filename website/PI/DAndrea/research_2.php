@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
 	<title>Peptide Modification | D'Andrea Lab</title>
-	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
+	<?php include SITE_PATH . 'PI/DAndrea/includes/head_const_dandrea.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -36,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
@@ -44,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
+							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
 
 					</div>
@@ -75,7 +75,7 @@
 								</p>
 
 								<div style="text-align: center;">
-									<img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_2.jpg" style="max-width: 50%; height: auto;"><br/></div>
+									<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_2.jpg" style="max-width: 50%; height: auto;"><br/></div>
 
 
 							</article>
@@ -90,7 +90,7 @@
 										<header>
 											<p font style="text-transform: none; font-size:1.3em">VEGFR1D2 bioconjugation: a tool for VEGF targeting</p>
 										</header>
-										<img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_2_1.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_2_1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 										We report the use of a chemical ligation based strategy for the site-selective and covalent modification 
@@ -139,8 +139,8 @@
 												Based on this study we highlighted on the molecular basis for the elasticity of repeat proteins 
 										in general and TPRs in particular, demonstrating that it can be modulated by weakening hydrophobic interactions at the interfaces between repeat units. 
 											
-										 <img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_2_2_1.jpg" alt="" class="image zooming">
-										 <img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_2_2_2.jpg" alt="" class="image zooming">
+										 <img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_2_2_1.jpg" alt="" class="image zooming">
+										 <img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_2_2_2.jpg" alt="" class="image zooming">
 											
 											
 									</article>
@@ -165,13 +165,13 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>

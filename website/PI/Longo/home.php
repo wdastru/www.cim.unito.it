@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require_once __DIR__ . '/../../config.inc.php';
+include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -17,8 +17,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -30,7 +30,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
@@ -44,7 +44,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO
+							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO
 								LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
@@ -55,34 +55,34 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						<nav id="nav">
 							<ul>
 								<li class="current_page_item"><a
-									href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
+									href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
 								<li><a
-									href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+									href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
 										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
+											href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Overview</a></li>
 										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI
+											href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">MRI
 												probes</a></li>
 										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+											href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
 										
 										<li>
 										
 										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"
+											href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php"
 											font style="text-transform: none;">TUMOR pH IMAGING</a>
 										
 										<li>
 										
 										<li><a
-											href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"
+											href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php"
 											font style="text-transform: none;">RENAL pH IMAGING</a></li>
 									</ul></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact
 										us</a></li>
 							</ul>
 						</nav>
@@ -134,11 +134,11 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 									<div>
 										<div style="width: 140px;">
 											<img
-												src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg"
+												src="<?php echo SITE_ROOT; ?>PI/Longo/images/Dario_Longo.jpg"
 												alt=""
 												style="width: 140px; height: auto; margin-right: 1em;"
 												class="image left" /> <img
-												src="<?php echo $localizer; ?>PI/Longo/images/Logo-CNR-2010-Quadrato-ENG-high.png"
+												src="<?php echo SITE_ROOT; ?>PI/Longo/images/Logo-CNR-2010-Quadrato-ENG-high.png"
 												alt=""
 												style="width: 140px; height: auto; margin-right: 1em;"
 												class="image left" />
@@ -184,10 +184,10 @@ echo getStaffData($conn, [
 									<header>
 										<h4 align="center">Developing MRI-based probes</h4>
 									</header>
-									<a href="<?php echo $localizer; ?>PI/Longo/research_probes.php"><img
-										src="<?php echo $localizer; ?>PI/Longo/images/overview_probes.jpg"
+									<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php"><img
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/overview_probes.jpg"
 										alt="" class="image featured" /></a> <a
-										href="<?php echo $localizer; ?>PI/Longo/research_probes.php"><font
+										href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php"><font
 										color="blue">Read more >></font></a>
 								</section>
 							</div>
@@ -197,10 +197,10 @@ echo getStaffData($conn, [
 										<h4 align="center">Imaging Tumor Acidosis</h4>
 									</header>
 									<a
-										href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"><img
-										src="<?php echo $localizer; ?>PI/Longo/images/overview_tumor_pH.jpg"
+										href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php"><img
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/overview_tumor_pH.jpg"
 										alt="" class="image featured" /></a> <a
-										href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"><font
+										href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php"><font
 										color="blue">Read more >></font></a>
 								</section>
 							</div>
@@ -210,10 +210,10 @@ echo getStaffData($conn, [
 										<h4 font style="text-transform: none;" align="center">MRI-CEST
 											RENAL pH IMAGING</h4>
 									</header>
-									<a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"><img
-										src="<?php echo $localizer; ?>PI/Longo/images/overview_kidney.jpg"
+									<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php"><img
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/overview_kidney.jpg"
 										alt="" class="image featured" /></a> <a
-										href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"><font
+										href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php"><font
 										color="blue">Read more >></font></a>
 
 								</section>
@@ -224,10 +224,10 @@ echo getStaffData($conn, [
 										<h4 align="center">Imaging Tumor Angiogenesis</h4>
 									</header>
 									<a
-										href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php"><img
-										src="<?php echo $localizer; ?>PI/Longo/images/overview_angiogenesi.jpg"
+										href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php"><img
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/overview_angiogenesi.jpg"
 										alt="" class="image featured" /></a> <a
-										href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php"><font
+										href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php"><font
 										color="blue">Read more >></font></a>
 								</section>
 							</div>
@@ -301,12 +301,12 @@ echo getStaffData($conn, [
 									<ul class="divided">
 
 										<!--  
-						 			  	  	<li><img src="<?php echo $localizer; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
+						 			  	  	<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
 										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
-											i) <a href="<?php echo $localizer; ?>PI/Longo/documents/position_informatico.pdf"><font color="red">Research Fellow position in Software development</a></font><br>
-											<!-- ii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br> -->
-										<!-- iii) <a href="<?php echo $localizer; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
+											i) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/position_informatico.pdf"><font color="red">Research Fellow position in Software development</a></font><br>
+											<!-- ii) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br> -->
+										<!-- iii) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
 										   
 											 
 											</li>
@@ -321,7 +321,7 @@ echo getStaffData($conn, [
 												oncontextmenu="return false;" width="320" height="240"
 												controls controlsList="nodownload" loop>
 												<source
-													src="<?php echo $localizer; ?>PI/Longo/images/pH_imaging_bjc.mp4"
+													src="<?php echo SITE_ROOT; ?>PI/Longo/images/pH_imaging_bjc.mp4"
 													type="video/mp4">
 												Your browser does not support the video tag.
 											</video>
@@ -379,7 +379,7 @@ echo getStaffData($conn, [
 											</li> -->
 
 										<li><img
-											src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg"
+											src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg"
 											align="left" height="100px"
 											style="margin-right: 10px; margin-bottom: 80px"> <b>New book
 												chapters describing basic concepts, acquisition and analysis
@@ -416,15 +416,15 @@ echo getStaffData($conn, [
 			</footer>
 		</div>
 	</div>
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 
 </body>

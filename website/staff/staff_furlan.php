@@ -1,14 +1,12 @@
 
-<?php
-	$localizer = "../";
-?>
+<?php require_once __DIR__ . '/../config.inc.php'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+<?php include SITE_PATH . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Events</title>
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 </head>
@@ -20,9 +18,7 @@
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection2">
 			<!-- InstanceEndEditable -->
-			<?php
-                require ($localizer . 'includes/home-side-nav.php');
-                ?>
+			<?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
 			
 			<div id='content'>
 				<div class='paddingOuter'>

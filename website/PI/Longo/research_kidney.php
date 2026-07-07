@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,8 +10,8 @@
 <html lang="en">
 <head>
 	<title>Kidney Imaging | Longo Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -24,7 +24,7 @@
 			<div class="unito-logo-container">                   
 	          </div></a>
 	          
-	          <a href="<?php echo $localizer; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
+	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
 
@@ -37,7 +37,7 @@
 
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
 
@@ -46,23 +46,23 @@
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
+								<li class="current_page_item"><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
 										</li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php" font
 											style="text-transform: none;">TUMOR pH IMAGING</a>
 										</li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php" font
 											style="text-transform: none;">RENAL pH IMAGING</a></li>
 									</ul></li>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
 
@@ -124,7 +124,7 @@
 											<p font style="text-transform: none; font-size:1.3em">Imaging the pH evolution in an acute kidney injury model </p>
 											</br>
 										</header>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney1.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Our previous studies have shown the ability of a
@@ -146,7 +146,7 @@
 												target="_blank"><font color="blue">[Longo et al. 2013]</font></a>.
 										
 										</p>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney2.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney2.jpg" alt="" class="image zooming">
 										<p align="justify">We have demonstrated that the use of Iopamidol
 											as a CEST-MRI pH responsive CA provides a
 											good estimate of the kidney pH evolution both in healthy
@@ -177,7 +177,7 @@
 											
 											<p font style="text-transform: none; font-size:1.3em">Evaluation of renal pH homeostasis after ischemia reperfusion injury</p>
 										</header>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney3.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney3.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Ischemic renal injury is a severe clinical problem in nephrology and the
@@ -194,7 +194,7 @@
 											Morover, MRI-CEST renal pH values were significantly correlated
 											with histological scores, reflecting renal damage.
 										</p>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney4.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney4.jpg" alt="" class="image zooming">
 										<p align="justify">The results reported herein show, for the first time, that MRI-CEST
 											pH mapping allows the noninvasive detection and monitoring of
 											renal function impairment after unilateral ischemia-induced AKI.
@@ -221,7 +221,7 @@
 											
 											<p font style="text-transform: none; font-size:1.3em">Dynamic CEST-MRI approach in an acute kidney ischemia reperfusion injury murine model</p>
 										</header>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney5.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney5.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											We investigated the exploitation of a single contrast agent injection with a dynamic CEST acquisition
@@ -238,7 +238,7 @@
 											In addition, CEST-MRI pH imaging showed that the clamped kidneys displayed significantly increased pH values,
 											reflecting the disturbance to pH homeostasis. 
 										</p>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/kidney6.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney6.jpg" alt="" class="image zooming">
 										<p align="justify">Our results demonstrate that a single CEST-MRI contrast agent can provide multiple types 
 										    of information related to renal function and can discern healthy kidneys from pathological ones by 
 										    combining perfusion measurements with renal pH mapping.</p>
@@ -264,12 +264,12 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 
 </body>

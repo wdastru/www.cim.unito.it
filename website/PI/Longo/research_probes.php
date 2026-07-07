@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,8 +10,8 @@
 <html lang="en">
 <head>
 	<title>MRI probes | Longo Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -24,7 +24,7 @@
 			<div class="unito-logo-container">                   
 	          </div></a>
 	          
-	          <a href="<?php echo $localizer; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
+	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
 			
@@ -37,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -46,23 +46,23 @@
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
+								<li class="current_page_item"><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
 										</li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php" font
 											style="text-transform: none;">TUMOR pH IMAGING</a>
 										</li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php" font
 											style="text-transform: none;">RENAL pH IMAGING</a></li>
 									</ul></li>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
 
@@ -88,14 +88,14 @@
 									
 								<p align="justify">MRI-based contrast agents are often required in order to improve the diagnostic content of the tomographic image.
 								Currently used small molecular weigth Gd-complexes, optimized for the clinical scenario, have been used in pre-clinical settings to report on 
-								vessel architecture and on <a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php"><font color="blue">tumor vessel permeability</font></a>. 
+								vessel architecture and on <a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php"><font color="blue">tumor vessel permeability</font></a>. 
 								Such Gd-based complexes have, unfortunately, sub-optimal contrast properties 
 								when used with low-field (1 Tesla) pre-clinical MRI scanners in addition to sub-optimal binding properties to mouse serum albumin.
 								<br>
 								Despite Gd-based agents are an indispensable part of MRI examinations, in the past decades, two major clinical studies questioned their safety profiles 
 								and alternatives to Gd-based agents are not readily available. Our lab discovered that Iodinated contrast media, playing a key-role in oncological
 								imaging can provide contrast enhancement in tumors (by exploiting the MRI-CEST approach) that is correlated with corresponding CT enhanced images.
-								In addition, we have demosntrated that most of them can be exploited as <a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"><font color="blue">pH-responsive contrast agents</font></a>.
+								In addition, we have demosntrated that most of them can be exploited as <a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php"><font color="blue">pH-responsive contrast agents</font></a>.
 								
 								
 								<br/>
@@ -119,7 +119,7 @@
 											<p font style="text-transform: none; font-size:1.3em">Gd-AAZTA-MADEC, an improved blood pool agent for
 												DCE-MRI studies on mice</p>
 										</header>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/probes1.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/probes1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											In the past years several blood pool Gd-complexes, optimized
@@ -136,7 +136,7 @@
 											comparison to the clinically approved MS-325 (Vasovist or
 											Ablavar) and to B22956/1.
 										</p>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/probes2.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/probes2.jpg" alt="" class="image zooming">
 										<p align="justify">Gd-AAZTA-MADEC showed stronger binding
 											affinity to HSA, higher relaxivity both with human and with
 											mouse serum albumin (at 40 MHz and 37°C), as well as more
@@ -163,7 +163,7 @@
 											<p font style="text-transform: none; font-size:1.3em">Nonionic Iodinated Radiographic Molecules as MRI-CEST
 												Tumor Perfusion Agents</p>
 										</header>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/probes3.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/probes3.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Gd-based agents are an indispensable part of MRI examinations
@@ -182,7 +182,7 @@
 											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/27572810"
 												target="_blank"><font color="blue"> [Anemone et al. 2017] </font></a>.
 										</p>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/probes4.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/probes4.jpg" alt="" class="image zooming">
 										<p align="justify">This work is the first comparison of
 											tumor contrast enhancements and tumor perfusion values using
 											iodinated CM and a Gd-based agent in a preclinical breast
@@ -223,7 +223,7 @@
 												target="_blank"><font color="blue">[Longo et al. 2014]</font></a>. 												
 										</p>
 										
-										<img src="<?php echo $localizer; ?>PI/Longo/images/probes5.jpg" alt="" class="image zooming">										
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/probes5.jpg" alt="" class="image zooming">										
 										
 										<p align="justify">
 										All these ratiometric methods have been demonstrated by using a continuous wave saturation scheme
@@ -237,7 +237,7 @@
 												target="_blank"><font color="blue">[Arena et al. 2018]</font></a>.
 											.</p>
 										
-										<img src="<?php echo $localizer; ?>PI/Longo/images/probes6.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/probes6.jpg" alt="" class="image zooming">
 										
 										
 										
@@ -261,12 +261,12 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 </body>

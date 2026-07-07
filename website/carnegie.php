@@ -1,5 +1,4 @@
-<?php
-$localizer = "./";
+<?php require_once (__DIR__ . '/config.inc.php');
 ob_start('ob_gzhandler');
 header('Content-Type: text/html;charset=UTF-8');
 ?>
@@ -7,22 +6,18 @@ header('Content-Type: text/html;charset=UTF-8');
 <html lang="en">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
     </head>
     <body>
 
         <div id='section0'>
-            <?php
-            require ('includes/main-nav.php');
-            ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id='header'></div>
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id="subsection0">
                 <!-- InstanceEndEditable -->
-                <?php
-                require ($localizer . 'includes/niumag-side-nav.php');
-                ?>
+                <?php include SITE_PATH . 'includes/niumag-side-nav.php'; ?>
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
@@ -40,11 +35,11 @@ header('Content-Type: text/html;charset=UTF-8');
 						G7 Science in Torino.
 
 						<div class='divider'></div>
-							<img width="100%" src="<?php echo $localizer; ?>images/carnegie/CarnegieMeeting ITALY 0103.jpg"></img>
-                        	<img width="100%" src="<?php echo $localizer; ?>images/carnegie/CarnegieMeeting ITALY 0108.jpg"></img>
-                            <img width="100%" src="<?php echo $localizer; ?>images/carnegie/CarnegieMeeting ITALY 0109.jpg"></img>
-                            <img width="100%" src="<?php echo $localizer; ?>images/carnegie/CarnegieMeeting ITALY 0110.jpg"></img>
-                            <img width="100%" src="<?php echo $localizer; ?>images/carnegie/CarnegieMeeting ITALY 0111.jpg"></img>
+							<img width="100%" src="<?php echo SITE_ROOT; ?>images/carnegie/CarnegieMeeting ITALY 0103.jpg"></img>
+                        	<img width="100%" src="<?php echo SITE_ROOT; ?>images/carnegie/CarnegieMeeting ITALY 0108.jpg"></img>
+                            <img width="100%" src="<?php echo SITE_ROOT; ?>images/carnegie/CarnegieMeeting ITALY 0109.jpg"></img>
+                            <img width="100%" src="<?php echo SITE_ROOT; ?>images/carnegie/CarnegieMeeting ITALY 0110.jpg"></img>
+                            <img width="100%" src="<?php echo SITE_ROOT; ?>images/carnegie/CarnegieMeeting ITALY 0111.jpg"></img>
                         </div>
                     </div>
                 </div>

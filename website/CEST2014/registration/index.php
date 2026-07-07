@@ -1,25 +1,26 @@
 
 <?php
-/*****************************
+    /*****************************
 	File: index.php
 	Written by: Frost of Slunked.com
 	Tutorial: User Registration and Login System
 ******************************/
-$localizer = "../../";
+    require_once __DIR__ . '/../../config.inc.php';
 
-require($localizer . 'CEST2014/registration/includes/config.php');
+    require SITE_PATH . 'CEST2014/registration/includes/config.php';
 
-$sOutput .= '<div id="index-body">';
-if (loggedIn()) {
-	$sOutput .= '<h2>Welcome!</h2>
+    $sOutput .= '<div id="index-body">';
+    if (loggedIn()) {
+    $sOutput .= '<h2>Welcome!</h2>
 		Hello, ' . $_SESSION['username'] . ' how are you today?<br>
 		<h4>Would you like to <a href="login.php?action=logout">Logout?</a></h4>';
-}else {
-	$sOutput .= '<h2>Welcome to our site</h2><br>
+    } else {
+    $sOutput .= '<h2>Welcome to our site</h2><br>
 		<h4>Would you like to <a href="login.php">login</a>?</h4>
 		<h4>Create a new <a href="register.php">account</a>?</h4>';
 
-}
-$sOutput .= '</div>';
+    }
+    $sOutput .= '</div>';
 
-echo $sOutput;
+    echo $sOutput;
+?>

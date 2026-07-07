@@ -1,22 +1,21 @@
-<?php
-$localizer = "./";
+<?php require_once (__DIR__ . '/config.inc.php');
 ob_start('ob_gzhandler');
 header('Content-Type: text/html;charset=UTF-8');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
     </head>
     <body>
-        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
+        <?php include SITE_PATH . 'includes/analyticstracking.php' ?>
         <div id="section0">
-            <?php require ('includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
-                <?php require ($localizer . 'includes/niumag-side-nav.php'); ?>
+                <?php include SITE_PATH . 'includes/niumag-side-nav.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div id="band">
@@ -24,22 +23,6 @@ header('Content-Type: text/html;charset=UTF-8');
                         </div>
                         <div class="paddingInner">
                             <div class="divider"></div>
-                            <img
-                                width="100%"
-                                src="<?php echo $localizer; ?>images/niumag/IMG_20170801_111649.jpg"
-                            />
-                            <img
-                                width="100%"
-                                src="<?php echo $localizer; ?>images/niumag/IMG_20170801_111654.jpg"
-                            />
-                            <img
-                                width="100%"
-                                src="<?php echo $localizer; ?>images/niumag/IMG_20170801_111751.jpg"
-                            />
-                            <img
-                                width="100%"
-                                src="<?php echo $localizer; ?>images/niumag/IMG_20170801_111826.jpg"
-                            />
                         </div>
                     </div>
                 </div>
@@ -58,7 +41,7 @@ header('Content-Type: text/html;charset=UTF-8');
                 <p>
                     <a href="http://validator.w3.org/check?uri=referer">
                         <img
-                            src="images/valid-xhtml10-blue_opt.png"
+                            src="<?php echo SITE_ROOT; ?>images/valid-xhtml10-blue_opt.png"
                             alt="Valid XHtml 1.0 Transitional"
                             height="31"
                             width="88"
@@ -71,7 +54,7 @@ header('Content-Type: text/html;charset=UTF-8');
                     >
                         <img
                             style="border: 0; width: 88px; height: 31px"
-                            src="images/vcss-blue_opt.gif"
+                            src="<?php echo SITE_ROOT; ?>images/vcss-blue_opt.gif"
                             alt="CSS Valido!"
                         />
                     </a>

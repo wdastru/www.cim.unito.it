@@ -16,7 +16,7 @@ $_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
@@ -26,7 +26,7 @@ $_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
     </head>
     <body>
         <div id="section7">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">

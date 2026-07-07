@@ -1,6 +1,5 @@
 <?php
     require_once (__DIR__ . '/config.inc.php');
-    $localizer = './';
     ob_start('ob_gzhandler');
     header('Content-Type: text/html;charset=UTF-8');
 ?>
@@ -27,9 +26,8 @@
                 <!-- InstanceBeginEditable name='subsection opening' -->
                 <div id="header"></div>
                 <!-- InstanceEndEditable -->
-                <?php require SITE_PATH . 'includes/home-side-nav.php'; ?>
-                <?php require SITE_PATH . 'includes/home-side-nav-mobile.php';
-                ?>
+                <?php require SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
+                require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">

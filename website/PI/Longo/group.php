@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require_once __DIR__ . '/../../config.inc.php';
+include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,8 +11,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Group Members | Longo Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -23,7 +23,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
 			</a>
-			<a href="<?php echo $localizer; ?>"
+			<a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
@@ -33,7 +33,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 					<div class="inner">
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO
+							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO
 								LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
@@ -42,31 +42,31 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
 										<li>
-											<a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">
+											<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">
 												Overview
 											</a>
 										</li>
 										<li>
-											<a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">
+											<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">
 												MRI probes
 											</a>
 										</li>
 										<li>
-											<a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">		Tumor angiogenesis
+											<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">		Tumor angiogenesis
 											</a>
 										</li>
 										<li>
-											<a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php"
+											<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php"
 											   style="text-transform: none;">
 													TUMOR pH IMAGING
 											</a>
 										</li>
 										<li>
-											<a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php"
+											<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php"
 											   style="text-transform: none;">
 													RENAL pH IMAGING
 											</a>
@@ -74,17 +74,17 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 									</ul>
 								</li>
 								<li class="current_page_item">
-									<a href="<?php echo $localizer; ?>PI/Longo/group.php">
+									<a href="<?php echo SITE_ROOT; ?>PI/Longo/group.php">
 										Group
 									</a>
 								</li>
 								<li>
-									<a href="<?php echo $localizer; ?>PI/Longo/publications.php">
+									<a href="<?php echo SITE_ROOT; ?>PI/Longo/publications.php">
 										Publications
 									</a>
 								</li>
 								<li>
-									<a href="<?php echo $localizer; ?>PI/Longo/contact.php">
+									<a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">
 										Contact us
 									</a>
 								</li>
@@ -120,7 +120,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
 									<img
-										src="<?php echo $localizer; ?>PI/Longo/images/Dario_Longo.jpg"
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/Dario_Longo.jpg"
 										alt="Dario Longo image"
 										style="width: 180px; height: auto; margin-bottom: 90px;"
 										class="image left">
@@ -180,7 +180,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 							<div class="4u 6u(mobile)">
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 								<img
-									 src="<?php echo $localizer; ?>PI/Longo/images/longo_wordcloud.png"
+									 src="<?php echo SITE_ROOT; ?>PI/Longo/images/longo_wordcloud.png"
 									 class="w3-image"
 									 style="max-width: 250px;" />
 							</div>
@@ -190,7 +190,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
 									<img 
-										src="<?php echo $localizer; ?>PI/Longo/images/carella.jpg"
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/carella.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 140px;"
 										class="image left"/>
@@ -240,7 +240,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/carella_wordcloud.png"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/images/carella_wordcloud.png"
 									class="w3-image"
 									style="max-width: 250px;" />
 							</div>
@@ -250,7 +250,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
 									<img
-										src="<?php echo $localizer; ?>PI/Longo/images/romdhane.jpg"
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/romdhane.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 100px;"
 										class="image left" />
@@ -288,7 +288,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<br>
 								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/romdhane_wordcloud.png"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/images/romdhane_wordcloud.png"
 									class="w3-image"
 									style="max-width: 250px;"/>
 							</div>
@@ -297,7 +297,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/corrado.jpg"
+									<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/corrado.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 100px;"
 										class="image left" />
@@ -348,7 +348,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 								<img
-									src="<?php echo $localizer; ?>PI/Longo/images/corrado_wordcloud.png"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/images/corrado_wordcloud.png"
 									class="w3-image" style="max-width: 250px;" />
 							</div>
 						</div>
@@ -356,7 +356,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/kranthi.jpg"
+									<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kranthi.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 60px;"
 										class="image left" />
@@ -403,7 +403,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<!-- <br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 								<img 
-									src="<?php echo $localizer; ?>PI/Longo/images/kranthi_wordcloud.png"
+									src="<?php echo SITE_ROOT; ?>PI/Longo/images/kranthi_wordcloud.png"
 									class="w3-image" 
 									style="max-width: 250px;" /> -->
 							</div>
@@ -413,7 +413,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
 									<img 
-										src="<?php echo $localizer; ?>PI/Longo/images/pirotta.jpg"
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/pirotta.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 60px;"
 										class="image left" />
@@ -450,7 +450,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 									<img
-										src="<?php echo $localizer; ?>PI/Longo/images/pirotta_wordcloud.png"
+										src="<?php echo SITE_ROOT; ?>PI/Longo/images/pirotta_wordcloud.png"
 										class="w3-image"
 										style="max-width: 250px;" />   -->
 							</div>
@@ -460,7 +460,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 							<div class="8u 12u(mobile)">
 								<!-- Excerpt -->
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>PI/Longo/images/gambino.jpg"
+									<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/gambino.jpg"
 										alt=""
 										style="width: 180px; height: auto; margin-bottom: 60px;"
 										class="image left" />
@@ -492,7 +492,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<!--
 								<br>
 								<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/gambino_wordcloud.png" class="w3-image"
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/gambino_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" /> -->
 							</div>
 						</div>
@@ -545,7 +545,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 												<div class="8u 12u(mobile)">
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/villano.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/villano.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 60px;"
 															class="image left" />
@@ -579,7 +579,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/villano_wordcloud.png"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/villano_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -589,7 +589,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/anemone.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/anemone.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 100px;"
 															class="image left" />
@@ -625,7 +625,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/anemone_wordcloud.png"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/anemone_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -635,7 +635,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/zullino.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/zullino.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 140px;"
 															class="image left" />
@@ -675,7 +675,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/zullino_wordcloud.png"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/zullino_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -685,7 +685,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/capozza.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/capozza.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 60px;"
 															class="image left" />
@@ -730,7 +730,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/capozza_wordcloud.jpg"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/capozza_wordcloud.jpg"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -740,7 +740,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/irrera.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/irrera.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 100px;"
 															class="image left" />
@@ -780,7 +780,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/irrera_wordcloud.png"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/irrera_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -789,7 +789,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 												<div class="8u 12u(mobile)">
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/dhakan.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/dhakan.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 60px;"
 															class="image left" />
@@ -813,7 +813,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/dhakan_wordcloud.png"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/dhakan_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -822,7 +822,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 												<div class="8u 12u(mobile)">
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/consolino.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/consolino.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 120px;"
 															class="image left" />
@@ -844,7 +844,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/consolino_wordcloud.png"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/consolino_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -854,7 +854,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<!-- Excerpt -->
 													<article class="box excerpt">
 														<a class="image left"><img
-															src="<?php echo $localizer; ?>PI/Longo/images/pagoto.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/pagoto.jpg"
 															alt="" style="width: 190px; height: auto;" /></a>
 														<div>
 															<header>
@@ -874,7 +874,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 													<br>
 													<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 													<img
-														src="<?php echo $localizer; ?>PI/Longo/images/pagoto_wordcloud.png"
+														src="<?php echo SITE_ROOT; ?>PI/Longo/images/pagoto_wordcloud.png"
 														class="w3-image" style="max-width: 250px;" />
 												</div>
 											</div>
@@ -883,7 +883,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 												<div class="8u 12u(mobile)">
 													<article class="box excerpt">
 														<img
-															src="<?php echo $localizer; ?>PI/Longo/images/paglialonga.jpg"
+															src="<?php echo SITE_ROOT; ?>PI/Longo/images/paglialonga.jpg"
 															alt=""
 															style="width: 180px; height: auto; margin-bottom: 60px;"
 															class="image left" />
@@ -909,7 +909,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 										<!-- Excerpt -->
 										<article class="box excerpt">
 											<img
-												src="<?php echo $localizer; ?>PI/Longo/images/bhavnarani.jpg"
+												src="<?php echo SITE_ROOT; ?>PI/Longo/images/bhavnarani.jpg"
 												alt=""
 												style="width: 180px; height: auto; margin-bottom: 60px;"
 												class="image left" />
@@ -946,7 +946,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 										<br>
 										<h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 										<img
-											src="<?php echo $localizer; ?>PI/Longo/images/bhavnarani_wordcloud.png"
+											src="<?php echo SITE_ROOT; ?>PI/Longo/images/bhavnarani_wordcloud.png"
 											class="w3-image" style="max-width: 250px;" />
 									</div>
 								</div>
@@ -1061,15 +1061,15 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 		</div>
 	</div>
 	<!-- Scripts -->
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 	<script type="text/javascript"
 		src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>

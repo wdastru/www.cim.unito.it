@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,8 +10,8 @@
 <html lang="en">
 <head>
 	<title>MRI probes | Longo Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -24,7 +24,7 @@
 			<div class="unito-logo-container">                   
 	          </div></a>
 	          
-	          <a href="<?php echo $localizer; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
+	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
 			
@@ -37,7 +37,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -46,23 +46,23 @@
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
+								<li class="current_page_item"><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
 										</li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php" font
 											style="text-transform: none;">TUMOR pH IMAGING</a>
 										</li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php" font
 											style="text-transform: none;">RENAL pH IMAGING</a></li>
 									</ul></li>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/group.php">Group</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
 
@@ -90,7 +90,7 @@
 								and vascular compartments will help to improve anti-angiogenic strategies.
 								Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is the methodology of choice for 
 								the evaluation of tumor angiogenesis, following the injection of a 
-								<a href="<?php echo $localizer; ?>PI/Longo/research_probes.php"><font color="blue">Gd-based contrast agent</font></a> and recording changes in signal intensity along time.
+								<a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php"><font color="blue">Gd-based contrast agent</font></a> and recording changes in signal intensity along time.
 								This non-ivasive imaging-based approach can provide a detailed view of tumor vasculature, including vessel permeability 
 								and plasmatic volume.
 								<br><strong>Our lab is interested in developing DCE-MRI protocols for accurate assessment of tumor vascuature heterogeneity 
@@ -114,7 +114,7 @@
 											
 											<p font style="text-transform: none; font-size:1.3em">Imaging therapeutic response to antigiogenic drugs</p>
 										</header>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/angiogenesis1.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 											Dynamic contrast-enhanced magnetic resonance imaging
@@ -145,7 +145,7 @@
 											
 										
 										</p>
-										<img src="<?php echo $localizer; ?>PI/Longo/images/angiogenesis2.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis2.jpg" alt="" class="image zooming">
 										<p align="justify">A clustering analysis was performed on a voxel-by-voxel basis
 										to evaluate spatial distribution of tumor Ktrans and vp parametric maps.
 										This study indicates that improvement in the visualization and
@@ -199,7 +199,7 @@
 												target="_blank"><font color="blue"> [Consolino et al. 2016] </font></a> 
 											</p>
 											
-											<img src="<?php echo $localizer; ?>PI/Longo/images/angiogenesis3.jpg" alt="" class="image zooming">
+											<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis3.jpg" alt="" class="image zooming">
 											
 											<p align="justify">
 											We exploited a similar approach studying gastrointestinal stromal
@@ -218,7 +218,7 @@
 												target="_blank"><font color="blue"> [Consolino et al. 2017] </font></a>.
 												</p>
 										
-											<img src="<?php echo $localizer; ?>PI/Longo/images/angiogenesis4.jpg" alt="" class="image zooming">
+											<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis4.jpg" alt="" class="image zooming">
 											
 											<p align="justify"> The current study suggests that the assessment of
 											angiogenesis could be considered a promising new biomarker
@@ -246,12 +246,12 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 
 </body>

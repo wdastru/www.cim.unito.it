@@ -1,10 +1,10 @@
 
-<?php $localizer = "../"; ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - FFC
 	Relaxometry</title>
 <meta
@@ -15,12 +15,12 @@
 	<div id='section1'>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection19">
-			<?php require ($localizer . 'includes/main-nav.php'); ?>
-			<?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+			<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+			<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
  			<div id='header'></div>
 			<!-- InstanceEndEditable -->
-            <?php require ($localizer . 'includes/research-side-nav.php'); ?>
-            <?php require ($localizer . 'includes/research-side-nav-mobile.php'); ?>
+            <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
+            <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -38,7 +38,7 @@
 						<div class="imgLeft">
 							<img
 								alt="The FFC experiment and FFC‐NMR relaxometer"
-								src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch31.jpg">
+								src="<?php echo SITE_ROOT; ?>PI/Geninatti/images/figureresearch31.jpg">
 						</div>
 						<p>Moreover, it has been found that the elongation of T1 parallels
 							the aggressiveness of the investigated tumour. The T1 lengthening
@@ -51,7 +51,7 @@
 						<div class="imgCenter">
 							<img
 								alt="The Mz value and the water exchange regime"
-								src="<?php echo $localizer; ?>PI/Geninatti/images/figureresearch32.jpg">
+								src="<?php echo SITE_ROOT; ?>PI/Geninatti/images/figureresearch32.jpg">
 							<span><b>Figure:</b> The water exchange regime and the resulting
 								M<sub>Z</sub> value in a schematic representation of the
 								relationship between the compartmentalized system formed by the
@@ -70,20 +70,20 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+							href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
 							title="Simonetta Geninatti Crich">
 							<img
 								alt="Simonetta Geninatti Crich"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/geninatti_crich.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/geninatti_crich.webp">
 						</a>
 						<a
-							href="<?php echo $localizer; ?>PI/Gianolio/home.php"
+							href="<?php echo SITE_ROOT; ?>PI/Gianolio/home.php"
 							title="Eliana Gianolio">
 							<img
 								alt="Eliana Gianolio"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/gianolio.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/gianolio.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>
@@ -96,8 +96,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
 			<!-- subsection closing -->
 		</div>
