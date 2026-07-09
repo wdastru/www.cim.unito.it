@@ -1,28 +1,28 @@
 
-<?php $localizer = '../../'; ?>
+<?php require_once (__DIR__ . '/../../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
 <!-- InstanceBegin template='/Templates/events.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
 	Meetings</title>
 <meta
 	name='description'
 	content=''>
 <link
-	href='<?php echo $localizer; ?>COST/cost.css'
+	href='<?php echo SITE_ROOT; ?>COST/cost.css'
 	rel='stylesheet'
 	type='text/css'>
 </head>
 <body>
 	<div id='section5'>
 		<div id='subsection2'>
-            <?php require $localizer . 'includes/main-nav.php'; ?>
-    		<?php require $localizer . 'includes/main-nav-mobile.php'; ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
+    		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
 			<div id='header'></div>
-            <?php require $localizer . 'COST/include/COST-sidebar.php'; ?>
-            <?php require $localizer . 'COST/include/COST-sidebar-mobile.php'; ?>
+            <?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
+            <?php include SITE_PATH . 'COST/include/COST-sidebar-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -33,7 +33,7 @@
 							class='cost'
 							href='http://www.cost.esf.org/domains_actions/cmst/Actions/TD1004'>
 							<img
-								src='<?php echo $localizer ?>images/logo-COST.bmp'
+								src='<?php echo SITE_ROOT; ?>images/logo-COST.bmp'
 								alt='COST logo'>
 						</a>
 						<h1>COST Action TD1004</h1>
@@ -41,15 +41,15 @@
 						<h2>Athens - Sep 1-3, 2013</h2>
 						<br>
 						<a
-							href='<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Program_Athens_Annual_Meeting_2013.pdf'>
+							href='<?php echo SITE_ROOT; ?>documenti/COST_TD1004_Athens_2013/Program_Athens_Annual_Meeting_2013.pdf'>
 							<b>Download Programme</b>
 						</a>
 						<a
-							href='<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Poster_presentations_Athens_2013.pdf'>
+							href='<?php echo SITE_ROOT; ?>documenti/COST_TD1004_Athens_2013/Poster_presentations_Athens_2013.pdf'>
 							<b>Download Poster Presentations</b>
 						</a>
 						<a
-							href='<?php echo $localizer; ?>documenti/COST_TD1004_Athens_2013/Athens_2013_Book_of_Abstracts_final.pdf'>
+							href='<?php echo SITE_ROOT; ?>documenti/COST_TD1004_Athens_2013/Athens_2013_Book_of_Abstracts_final.pdf'>
 							<b>Download Book of abstracts</b>
 						</a>
 						<br>
@@ -354,8 +354,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
 			</div>
 		</div>
 	</div>

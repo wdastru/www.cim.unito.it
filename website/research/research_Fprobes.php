@@ -1,10 +1,10 @@
 
-<?php $localizer = "../"; ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - CEST
 	agents</title>
 <meta
@@ -15,12 +15,12 @@
 	<div id='section1'>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection9">
-			<?php require ($localizer . 'includes/main-nav.php'); ?>
-			<?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+			<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+			<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
  			<div id='header'></div>
 			<!-- InstanceEndEditable -->
-            <?php require ($localizer . 'includes/research-side-nav.php'); ?>
-            <?php require ($localizer . 'includes/research-side-nav-mobile.php'); ?>
+            <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
+            <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -125,28 +125,28 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="<?php echo $localizer; ?>PI/Terreno/home.php"
+							href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
 							title="Enzo Terreno">
 							<img
 								alt="Enzo Terreno"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/terreno.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/terreno.webp">
 						</a>
 						<a
-							href="<?php echo $localizer; ?>PI/Delli_Castelli/home.php"
+							href="<?php echo SITE_ROOT; ?>PI/Delli_Castelli/home.php"
 							title="Daniela Delli Castelli">
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/dellicastelli.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/dellicastelli.webp">
 						</a>
 						<a
-							href="<?php echo $localizer; ?>staff/staff_menchise.php"
+							href="<?php echo SITE_ROOT; ?>staff/staff_menchise.php"
 							title="Valeria Menchise">
 							<img
 								alt="Valeria Menchise"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/menchise.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/menchise.webp">
 						</a>
 						<a
 							href="#"
@@ -154,7 +154,7 @@
 							<img
 								alt="Walter Dastr&ugrave;"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/dastru.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/dastru.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>
@@ -167,8 +167,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
 		</div>
 		<!-- subsection closing -->

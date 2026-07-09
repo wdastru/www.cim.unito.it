@@ -1,24 +1,43 @@
-<?php $localizer = "../"; if (isset($_POST['submitted'])) { $submitted =
-$_POST['submitted']; if ($submitted == 1) // da submission.php { if
-($_FILES["file1"]["name"] != "") { $submitted = "0"; if
-(move_uploaded_file($_FILES["file1"]["tmp_name"], "uploads/" .
-$_FILES["file1"]["name"])) {$submitted = "0"; $where = "Location:
-".$localizer."CEST2014/submissionOK.php"; header($where); } else { $where =
-"Location: ".$localizer."CEST2014/submissionError.php"; header($where); } } else
-{ $where = "Location: ".$localizer."CEST2014/missingFileError.php";
-header($where); } $submitted = "0"; } } else { $submitted = 0; } ?>
+<?php 
+    require_once (__DIR__ . '/../config.inc.php'); 
+    if (isset($_POST['submitted'])) { 
+        $submitted = $_POST['submitted']; 
+        if ($submitted == 1) { 
+            if ($_FILES["file1"]["name"] != "") { 
+                $submitted = "0"; 
+                if (move_uploaded_file($_FILES["file1"]["tmp_name"], "uploads/" . $_FILES["file1"]["name"])) {
+                    $submitted = "0"; 
+                    $where = "Location: " . SITE_ROOT . "CEST2014/submissionOK.php"; 
+                    header($where);
+                    exit;
+                } else { 
+                    $where = "Location: " . SITE_ROOT . "CEST2014/submissionError.php"; 
+                    header($where); 
+                    exit;
+                } 
+            } else {
+                $where = "Location: " . SITE_ROOT . "CEST2014/missingFileError.php";
+                header($where);
+                exit;
+            } 
+            $submitted = "0"; 
+        } 
+    } else { 
+        $submitted = 0; 
+    } 
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
             content="University of Torino. Website of the Molecular Imaging Center."
         />
         <link
-            href="<?php echo $localizer; ?>CEST2014/CEST.css"
+            href="<?php echo SITE_ROOT; ?>CEST2014/CEST.css"
             rel="stylesheet"
             type="text/css"
         />
@@ -72,11 +91,11 @@ header($where); } $submitted = "0"; } } else { $submitted = 0; } ?>
     </head>
     <body>
         <div id="section0">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
-                <?php require ($localizer . 'includes/home-side-nav.php'); ?>
+                <?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -179,7 +198,7 @@ header($where); } $submitted = "0"; } } else { $submitted = 0; } ?>
                                         <input
                                             type="hidden"
                                             name="dir"
-                                            value="<?php echo $localizer; ?>uploads/"
+                                            value="<?php echo SITE_ROOT; ?>uploads/"
                                             style="width: 100%"
                                         />
                                         <br /><br />

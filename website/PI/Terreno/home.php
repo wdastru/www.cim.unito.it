@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require_once (__DIR__ . '/../../config.inc.php');
+require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,8 +11,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Home | TERRENO LAB</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Terreno/includes/head_const_terreno.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Terreno/includes/head_const_terreno.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -22,7 +22,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -32,10 +32,10 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-						<?php require ($localizer . 'PI/Terreno/includes/header_terreno.php');?>
+						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Terreno/includes/menu_terreno.php'); ?>
+							<?php include SITE_PATH . 'PI/Terreno/includes/menu_terreno.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -67,7 +67,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 
 							<div class="4u 12u(mobile)">
 								<a href="#"><img
-									src="<?php echo $localizer; ?>PI/Terreno/images/Terreno.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Terreno.jpg"
 									alt="Enzo Terreno" style="width: 140px; height: auto;"
 									class="image left"></a>
 								<div style="padding: 0 0 0 180px;">
@@ -77,20 +77,20 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 										Imaging Center,<br> Department of Molecular Biotechnologies
 										and Health Science,<br> University of Torino,<br> Via Nizza
 										52, <br> Torino 10126, Italy<br> Tel: 
-<?php
-echo getStaffData($conn, [
-    'Nome' => 'Enzo',
-    'Cognome' => 'Terreno'
-])['Telefono'];
-?><br> email: <?php
-echo "<a href=\"mailto:" . getStaffData($conn, [
-    'Nome' => 'Enzo',
-    'Cognome' => 'Terreno'
-])['Mail'] . "\">" . getStaffData($conn, [
-    'Nome' => 'Enzo',
-    'Cognome' => 'Terreno'
-])['Mail'] . "</a>";
-?>
+										<?php
+										echo getStaffData($conn, [
+											'Nome' => 'Enzo',
+											'Cognome' => 'Terreno'
+										])['Telefono'];
+										?><br> email: <?php
+										echo "<a href=\"mailto:" . getStaffData($conn, [
+											'Nome' => 'Enzo',
+											'Cognome' => 'Terreno'
+										])['Mail'] . "\">" . getStaffData($conn, [
+											'Nome' => 'Enzo',
+											'Cognome' => 'Terreno'
+										])['Mail'] . "</a>";
+										?>
 									</p>
 								</div>
 							</div>
@@ -101,11 +101,11 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 								<section>
 									<h4 style="text-align: center; margin-bottom: 2em;">Design of
 										targeting imaging probes</h4>
-									<a href="<?php echo $localizer; ?>PI/Terreno/research_1.php"><img
-										src="<?php echo $localizer; ?>PI/Terreno/images/Figure_Targeting_Overview_1.jpg"
+									<a href="<?php echo SITE_ROOT; ?>PI/Terreno/research_1.php"><img
+										src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Figure_Targeting_Overview_1.jpg"
 										alt="Design of targeting imaging probes"
 										class="image featured"></a> <a
-										href="<?php echo $localizer; ?>PI/Terreno/research_1.php"><span
+										href="<?php echo SITE_ROOT; ?>PI/Terreno/research_1.php"><span
 										style="color: blue;">Read more >></span></a>
 								</section>
 							</div>
@@ -113,11 +113,11 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 								<section>
 									<h4 style="text-align: center; margin-bottom: 2em;">MRI
 										visualisation of drug delivery/release</h4>
-									<a href="<?php echo $localizer; ?>PI/Terreno/research_2.php"><img
-										src="<?php echo $localizer; ?>PI/Terreno/images/Figure_drug_release_overview_2.jpg"
+									<a href="<?php echo SITE_ROOT; ?>PI/Terreno/research_2.php"><img
+										src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Figure_drug_release_overview_2.jpg"
 										alt="Doxorubicin, Gd(HPDO3A) and sonoporation"
 										class="image featured"></a> <a
-										href="<?php echo $localizer; ?>PI/Terreno/research_2.php"><span
+										href="<?php echo SITE_ROOT; ?>PI/Terreno/research_2.php"><span
 										style="color: blue;">Read more >></span></a>
 								</section>
 							</div>
@@ -125,11 +125,11 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 								<section>
 									<h4 style="text-align: center; margin-bottom: 2em;">Development
 										of cellular imaging procedures</h4>
-									<a href="<?php echo $localizer; ?>PI/Terreno/research_3.php"><img
-										src="<?php echo $localizer; ?>PI/Terreno/images/Figure_cellular_imaging_overview_3.jpg"
+									<a href="<?php echo SITE_ROOT; ?>PI/Terreno/research_3.php"><img
+										src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Figure_cellular_imaging_overview_3.jpg"
 										alt="Development of cellular imaging procedures"
 										class="image featured"></a> <a
-										href="<?php echo $localizer; ?>PI/Terreno/research_3.php"><span
+										href="<?php echo SITE_ROOT; ?>PI/Terreno/research_3.php"><span
 										style="color: blue;">Read more >></span></a>
 
 								</section>
@@ -223,21 +223,21 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
 			</footer>
 		</div>
 	</div>
 	<!-- Scripts -->
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 
 </body>

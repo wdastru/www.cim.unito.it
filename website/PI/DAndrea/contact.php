@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 	<head>
 		<title>Contact Us | D'Andrea Lab</title>
-		<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
+		<?php include SITE_PATH . 'PI/DAndrea/includes/head_const_dandrea.php'; ?>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -44,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
+							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
 
 					</div>
@@ -67,7 +67,7 @@
 												
 												<p align="left" style="line-height: 2";>
 												<strong> 
-												<a title="Molecular Imaging Center" class="http" href="<?php echo $localizer; ?>index.php" target="_blank"> 
+												<a title="Molecular Imaging Center" class="http" href="<?php echo SITE_ROOT; ?>index.php" target="_blank"> 
 												Molecular Imaging Center</a><br>
 												<a title="Dept. Mol Biotec Health Sciences" class="http" href="https://www.mbc.unito.it" target="_blank"> 												
 												Department of Molecular Biotechnologies and Health Science</a><br>
@@ -103,13 +103,13 @@
 
 		<!-- Scripts -->
 
-			<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
-			<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-			<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
-			<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-			<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+			<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
+			<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+			<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
+			<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+			<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 	</body>
 </html>

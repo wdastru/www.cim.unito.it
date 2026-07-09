@@ -1,10 +1,8 @@
-<?php
-	$localizer = "./";
-?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Prof. Silvio Aime
             Eindhoven Doctor Honoris Causa
@@ -16,7 +14,7 @@
     </head>
     <body>
         <div id="section0">
-            <?php require ('includes/main-nav.php');?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
@@ -27,19 +25,19 @@
                                 class="subsection_link"
                                 id="section0-subsection1"
                             >
-                                <a href="staff.php">Staff</a>
+                                <a href="<?php echo SITE_ROOT; ?>staff.php">Staff</a>
                             </dt>
                             <dt
                                 class="subsection_link"
                                 id="section0-subsection2"
                             >
-                                <a href="where.php">Where</a>
+                                <a href="<?php echo SITE_ROOT; ?>where.php">Where</a>
                             </dt>
                             <dt
                                 class="subsection_link"
                                 id="section0-subsection3"
                             >
-                                <a href="contacts.php">Contacts</a>
+                                <a href="<?php echo SITE_ROOT; ?>contacts.php">Contacts</a>
                             </dt>
                         </dl>
                     </div>
@@ -59,21 +57,21 @@
                             <p>
                                 <img
                                     class="imageBorder"
-                                    src="images/BvOF%202011%20TUe%20Dies%203.jpg"
+                                    src="<?php echo SITE_ROOT; ?>images/BvOF%202011%20TUe%20Dies%203.jpg"
                                     alt="image"
                                 />
                             </p>
                             <p>
                                 <img
                                     class="imageBorder"
-                                    src="images/BvOF%202011%20TUe%20Dies%206.jpg"
+                                    src="<?php echo SITE_ROOT; ?>images/BvOF%202011%20TUe%20Dies%206.jpg"
                                     alt="image"
                                 />
                             </p>
                             <p>
                                 <img
                                     class="imageBorder"
-                                    src="images/BvOF%202011%20TUe%20Dies%207.jpg"
+                                    src="<?php echo SITE_ROOT; ?>images/BvOF%202011%20TUe%20Dies%207.jpg"
                                     alt="image"
                                 />
                             </p>

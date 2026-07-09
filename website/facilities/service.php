@@ -1,17 +1,13 @@
-
-<?php
-$localizer = "../";
-require_once ($localizer . 'includes/class.phpmailer.php');
-require $localizer . 'includes/sendEMail.php';
+<?php require_once (__DIR__ . '/../config.inc.php'); 
+require_once (SITE_PATH . 'includes/class.phpmailer.php');
+require SITE_PATH . 'includes/sendEMail.php';
 $mailer = new PHPMailer();
 $mailer->AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
 $body = '';
 $eol = "\n";
-// $eol = "<br>";
 if (isset($_GET['submit'])) {
     if ($_GET['submit'] == 'yes') {
-        $regex_valid_mail = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/';
-        if (preg_match($regex_valid_mail, $_POST['email'])) {
+		if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
             $valid = (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['institution']) && isset($_POST['description']) && $_POST['name'] != '' && $_POST['email'] != '' && $_POST['institution'] != '' && $_POST['description'] != '');
             $regex_allowed_chars = '/^[a-zA-Z\.,;:-\?\(\)\"\'\s]*$/';
             if ($valid) {
@@ -19,7 +15,7 @@ if (isset($_GET['submit'])) {
                     $body .= "Name        : " . $_POST['name'] . $eol;
                 } else {
                     $error_string = "The name contains invalid characters !!!";
-                    header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                    header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
                 $body .= "E-mail      : " . $_POST['email'] . $eol;
@@ -27,7 +23,7 @@ if (isset($_GET['submit'])) {
                     $body .= "Institution : " . $_POST['institution'] . $eol;
                 } else {
                     $error_string = "The institution contains invalid characters !!!";
-                    header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                    header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
                 if (isset($_POST['NMR'])) {
@@ -59,14 +55,14 @@ if (isset($_GET['submit'])) {
                     $body .= "Instruments : " . $_POST['instruments'] . $eol;
                 } else {
                     $error_string = "The required instruments contains invalid characters !!!";
-                    header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                    header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
                 if (preg_match($regex_allowed_chars, $_POST['description'])) {
                     $body .= "Description : " . $_POST['description'] . $eol;
                 } else {
                     $error_string = "The description contains invalid characters !!!";
-                    header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                    header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
                 if (isset($_POST['animal'])) {
@@ -78,14 +74,14 @@ if (isset($_GET['submit'])) {
                     $body .= "Consumables : " . $_POST['consumables'] . $eol;
                 } else {
                     $error_string = "The needed consumables contains invalid characters !!!";
-                    header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                    header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
                 if (preg_match($regex_allowed_chars, $_POST['notes'])) {
                     $body .= "Notes       : " . $_POST['notes'] . $eol;
                 } else {
                     $error_string = "The notes contains invalid characters !!!";
-                    header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                    header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
                 $vars = array(
@@ -99,17 +95,17 @@ if (isset($_GET['submit'])) {
                 /**
                  * * SEND MAIL **
                  */
-                header('Location: ' . $localizer . 'facilities/service.php');
+                header('Location: ' . SITE_PATH . 'facilities/service.php');
             } else {
                 $error_string = "Mandatory fields are missing !!!";
-                header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+                header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                 exit();
             }
             unset($_POST);
             $body = '';
         } else {
             $error_string = "e-mail field is invalid !!!";
-            header('Location: ' . $localizer . 'facilities/error.php?error_string=' . $error_string);
+            header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
             exit();
         }
     }
@@ -119,22 +115,22 @@ if (isset($_GET['submit'])) {
 <html lang="en">
 <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino - Facilities</title>
 <meta name="description" content="">
-<link href="<?php echo $localizer; ?>facilities/facilities.css"
+<link href="<?php echo SITE_ROOT; ?>facilities/facilities.css"
 	rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div id='section3'>
 		<div id='subsection7'>
 			<!-- InstanceBeginEditable name="subsection opening" -->
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
-            <?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
+            <?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
             <div id='header'></div>
 			<!-- InstanceEndEditable -->
-			<?php require ($localizer . 'includes/facilities-side-nav.php'); ?>
-            <?php require ($localizer . 'includes/facilities-side-nav-mobile.php'); ?>
+			<?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
+            <?php include SITE_PATH . 'includes/facilities-side-nav-mobile.php'; ?>
          	<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -147,7 +143,7 @@ if (isset($_GET['submit'])) {
 					<div class='paddingInner'>
 						<!-- InstanceBeginEditable name="subsection content" -->
 						<form method='post'
-							action='<?php echo $localizer; ?>facilities/service.php?submit=yes'>
+							action='<?php echo SITE_ROOT; ?>facilities/service.php?submit=yes'>
 							<table>
 								<tr>
 									<td class='title'>Name (*) :</td>
@@ -257,8 +253,8 @@ if (isset($_GET['submit'])) {
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-                <?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-                <?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+                <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
             </div>
 			<!-- subsection closing -->
 		</div>

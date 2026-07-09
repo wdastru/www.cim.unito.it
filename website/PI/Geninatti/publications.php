@@ -1,5 +1,5 @@
 <?php
-$localizer = "../../";
+require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,8 +10,8 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Publications | Geninatti Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Geninatti/includes/head_const_geninatti.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Geninatti/includes/head_const_geninatti.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -21,7 +21,7 @@ $localizer = "../../";
 			<a href="http://www.unito.it/" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -31,10 +31,10 @@ $localizer = "../../";
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-							<?php require ($localizer . 'PI/Geninatti/includes/header_geninatti.php'); ?>
+							<?php include SITE_PATH . 'PI/Geninatti/includes/header_geninatti.php'; ?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Geninatti/includes/menu_geninatti.php'); ?>
+							<?php include SITE_PATH . 'PI/Geninatti/includes/menu_geninatti.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -79,8 +79,8 @@ $localizer = "../../";
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 		</div>
 	</div>

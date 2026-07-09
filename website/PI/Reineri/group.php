@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require_once __DIR__ . '/../../config.inc.php';
+include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,8 +11,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Members | REINERI Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Reineri/includes/head_const_reineri.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -22,7 +22,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -32,10 +32,10 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-						<?php require ($localizer . 'PI/Reineri/includes/header_reineri.php');?>
+						<?php include SITE_PATH . 'PI/Reineri/includes/header_reineri.php';?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Reineri/includes/menu_reineri.php'); ?>
+							<?php include SITE_PATH . 'PI/Reineri/includes/menu_reineri.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -58,7 +58,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>images/staff/reineri.webp"
+									<img src="<?php echo SITE_ROOT; ?>images/staff/reineri.webp"
 										alt="Francesca Reineri"
 										style="width: 180px; height: auto; margin-bottom: 80px;"
 										class="image left">
@@ -95,7 +95,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 								<br>
 								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 								<img
-									src="<?php echo $localizer; ?>PI/Reineri/images/reineri_wordcloud.png"
+									src="<?php echo SITE_ROOT; ?>PI/Reineri/images/reineri_wordcloud.png"
 									alt="wordcloud" class="w3-image" style="max-width: 250px;">
 							</div>
 						</div>
@@ -103,7 +103,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 						<!-- <div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>images/staff/cavallari.jpg"
+									<img src="<?php echo SITE_ROOT; ?>images/staff/cavallari.jpg"
 										alt="Eleonora Cavallari"
 										style="width: 180px; height: auto; margin-bottom: 60px;"
 										class="image left">
@@ -143,7 +143,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 								<br>
 								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 								<img
-									src="<?php echo $localizer; ?>PI/Reineri/images/cavallari_wordcloud.png"
+									src="<?php echo SITE_ROOT; ?>PI/Reineri/images/cavallari_wordcloud.png"
 									alt="wordcloud" class="w3-image" style="max-width: 250px;">
 							</div>
 						</div>
@@ -151,7 +151,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>images/staff/carrera.jpg"
+									<img src="<?php echo SITE_ROOT; ?>images/staff/carrera.jpg"
 										alt="Carla Carrera"
 										style="width: 180px; height: auto; margin-bottom: 60px;"
 										class="image left">
@@ -192,7 +192,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 								<br>
 								<h4 style="margin: 0 0 0 4em;">Research Topics</h4>
 								<img
-									src="<?php echo $localizer; ?>PI/Reineri/images/carrera_wordcloud.png"
+									src="<?php echo SITE_ROOT; ?>PI/Reineri/images/carrera_wordcloud.png"
 									alt="wordcloud" class="w3-image" style="max-width: 250px;">
 							</div>
 						</div>
@@ -200,7 +200,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 						<div class="row">
 							<div class="8u 12u(mobile)">
 								<article class="box excerpt">
-									<img src="<?php echo $localizer; ?>images/staff/bondar.jpg"
+									<img src="<?php echo SITE_ROOT; ?>images/staff/bondar.jpg"
 										alt="Oksana Bondar"
 										style="width: 180px; height: auto; margin-bottom: 60px;"
 										class="image left">
@@ -248,21 +248,21 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 		</div>
 	</div>
 	<!-- Scripts -->
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 	<script src="https://platform.linkedin.com/badges/js/profile.js" async
 		defer></script>
 	<script>

@@ -1,9 +1,9 @@
-<?php $localizer = "../"; ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - Tumor
 	acidosis</title>
 <meta
@@ -14,12 +14,12 @@
 	<div id='section1'>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection24">
-			<?php require ($localizer . 'includes/main-nav.php'); ?>
-			<?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+			<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+			<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
  			<div id='header'></div>
 			<!-- InstanceEndEditable -->
-            <?php require ($localizer . 'includes/research-side-nav.php'); ?>
-            <?php require ($localizer . 'includes/research-side-nav-mobile.php'); ?>
+            <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
+            <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
                 <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -60,7 +60,7 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+							href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
 							target="_blank"
 							title="Simonetta Geninatti Crich">
 							<img
@@ -97,8 +97,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
 			<!-- subsection closing -->
 		</div>

@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
 	<title>Group Members | D'Andrea Lab</title>
-	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
+	<?php include SITE_PATH . 'PI/DAndrea/includes/head_const_dandrea.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -36,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
@@ -44,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
+							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
 
 					</div>
@@ -75,7 +75,7 @@
 							<div class="8u 12u(mobile)">
 									<article class="box excerpt">
 										<img
-											src="<?php echo $localizer; ?>PI/DAndrea/images/dandrea.jpg" alt="" style="width: 180px; height: auto; margin-bottom:80px;" class="image left"/>
+											src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/dandrea.jpg" alt="" style="width: 180px; height: auto; margin-bottom:80px;" class="image left"/>
 										<div class="w3-row">
 										<div class="w3-threequarter">
 											<header>
@@ -98,7 +98,7 @@
 									<div class="4u 6u(mobile)">
 									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
-											<img src="<?php echo $localizer; ?>PI/DAndrea/images/dandrea_wordcloud.png" class="w3-image"
+											<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/dandrea_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
 									
 									</div>
@@ -112,7 +112,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/DAndrea/images/rossella_di_stasi.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
+										<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/rossella_di_stasi.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
 										<div>
 											<header>
 												<h3>Rossella Di Stasi</h3>
@@ -149,7 +149,7 @@
 									
 									<!-- Excerpt -->
 									<article class="box excerpt">
-										<img src="<?php echo $localizer; ?>PI/DAndrea/images/lucia_de_rosa.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
+										<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/lucia_de_rosa.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
 											<header>
 												<h3>Lucia De Rosa</h3>												
@@ -195,13 +195,13 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>
 </script>

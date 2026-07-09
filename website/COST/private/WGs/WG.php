@@ -1,45 +1,45 @@
 <?php
 
-/* script variables */
-$localizer = "../../../";
-$table = "COST_WG_docs";
-$DBName = "cimdb";
-$WG='';
-/* script variables */
+    /* script variables */
+    require_once __DIR__ . '/../../../config.inc.php';
+    $table  = "COST_WG_docs";
+    $DBName = "cimdb";
+    $WG     = '';
+    /* script variables */
 
-if (preg_match('/^[1-5]$/', $_GET['WG'])) {
-	$WG = $_GET['WG'];
-} else {
-	header("Location: " . $localizer . "COST/private/error.php?error=not_valid_WG");
-	exit();
-}
+    if (preg_match('/^[1-5]$/', $_GET['WG'])) {
+    $WG = $_GET['WG'];
+    } else {
+    header("Location: " . SITE_ROOT . "COST/private/error.php?error=not_valid_WG");
+    exit();
+    }
 
-$title[1] = "Workgroup 1 - Imaging reporters for theranostic agents";
-$title[2] = "Workgroup 2 - Nanocarrires for theranostic agents";
-$title[3] = "Workgroup 3 - Preparation and selection of targeting vectors";
-$title[4] = "Workgroup 4 - Theranostic agents responsive to endogenous and external stimuli";
-$title[5] = "Workgroup 5 - Set-up of preclinical theranostic protocols";
+    $title[1] = "Workgroup 1 - Imaging reporters for theranostic agents";
+    $title[2] = "Workgroup 2 - Nanocarrires for theranostic agents";
+    $title[3] = "Workgroup 3 - Preparation and selection of targeting vectors";
+    $title[4] = "Workgroup 4 - Theranostic agents responsive to endogenous and external stimuli";
+    $title[5] = "Workgroup 5 - Set-up of preclinical theranostic protocols";
 
-$con = mysql_connect("localhost", "cim_adm", "vpsyyAR4jp");
-if (!$con) {
+    $con = mysql_connect("localhost", "cim_adm", "vpsyyAR4jp");
+    if (! $con) {
     die('Could not connect: ' . mysql_error());
-}
+    }
 
-$sql = "SELECT * FROM `" . $DBName . "`.`" . $table . "` WHERE `WG` = '" . $WG . "' ORDER BY `date` DESC";
-$result = mysql_query($sql, $con);
+    $sql    = "SELECT * FROM `" . $DBName . "`.`" . $table . "` WHERE `WG` = '" . $WG . "' ORDER BY `date` DESC";
+    $result = mysql_query($sql, $con);
 ?>
 
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 xmlns="http://www.w3.org/1999/xhtml">
-    
+
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino</title>
         <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
-        <link href="<?php echo $localizer;?>COST/cost.css" rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="<?php echo $localizer;?>COST/private/cost.js"></script>
+        <link href="<?php echo SITE_ROOT; ?>COST/cost.css" rel='stylesheet' type='text/css' />
+        <script type="text/javascript" src="<?php echo SITE_ROOT; ?>COST/private/cost.js"></script>
     </head>
     <body>
         <div id='confirmDeletionHiddenBox' style="visibility: hidden">
@@ -57,15 +57,15 @@ xmlns="http://www.w3.org/1999/xhtml">
         </div>
         <div id='section5'>
             <?php
-            require ($localizer . 'includes/main-nav.php');
+                include SITE_PATH . 'includes/main-nav.php';
             ?>
             <div id='header'></div>
-            
+
             <div id="subsection4">
-                
+
                 <div id='sidebar'>
                     <?php
-                    require $localizer . 'COST/include/COST-sidebar.php';
+                        include SITE_PATH . 'COST/include/COST-sidebar.php';
                     ?>
                 </div>
                 <div id='content'>
@@ -74,17 +74,17 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <h1 class='subsectionTitle'>COST Action TD1004</h1>
                         </div>
                         <div class='paddingInner'>
-                            <h2 id="mgmtTitle"><?php echo $title[$WG];?></h2>
+                            <h2 id="mgmtTitle"><?php echo $title[$WG]; ?></h2>
                             <div id='docsContainer'>
                                 <ul>
                                     <?php
-                                    $i = 0;
-                                    while ($temp = mysql_fetch_array($result)) {
-                                        echo "  
+                                        $i = 0;
+                                        while ($temp = mysql_fetch_array($result)) {
+                                            echo "
                                         <li>
 											<input class='deleteButton' type='submit' value='-' onclick='showConfirmBox(\"del_$i\")'>
 											<a href='" . $temp['path'] . $temp['filename'] . "'>" . $temp['desc'] . " (" . $temp['date'] . ")</a>
-											<form class='deleteForm' action='" . $localizer . "COST/private/WGs/db.php' method='post' id='del_$i'>
+											<form class='deleteForm' action='" . SITE_ROOT . "COST/private/WGs/db.php' method='post' id='del_$i'>
 												<input type='hidden' name='filename' value='" . $temp['filename'] . "' />
 												<input type='hidden' name='desc' value='" . $temp['desc'] . "'>
 												<input type='hidden' name='date' value='" . $temp['date'] . "'>
@@ -94,31 +94,31 @@ xmlns="http://www.w3.org/1999/xhtml">
 												<input type='hidden' name='type' value='del'>
 											</form>
 										</li>";
-                                        $i++;
-                                    }
+                                            $i++;
+                                        }
                                     ?>
                                 </ul>
-                                <input type="submit" class="uploadButton" value="+" onclick="changeUploadFormVisibility('uploadFormWG<?php echo $WG;?>');" />
-                                <form id="uploadFormWG<?php echo $WG;?>" class="uploadForm" 
-                                	action="<?php echo $localizer;?>COST/private/WGs/db.php" method="post" enctype="multipart/form-data" >
+                                <input type="submit" class="uploadButton" value="+" onclick="changeUploadFormVisibility('uploadFormWG<?php echo $WG; ?>');" />
+                                <form id="uploadFormWG<?php echo $WG; ?>" class="uploadForm"
+                                	action="<?php echo SITE_ROOT; ?>COST/private/WGs/db.php" method="post" enctype="multipart/form-data" >
                                     Description:
                                     <input type="text" id="description" name="desc" />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File:
                                     <input type="file" id ="filename" name="filename" />
-                                    <input type="button" value="Upload" onclick="validateFormWGs('<?php echo $WG;?>');"/>
-                                    <input type="hidden" id="date" name="date" value="<?php echo date("Y-m-d");?>" />
-                                    <input type="hidden" name="WG" value="<?php echo $WG;?>" />
+                                    <input type="button" value="Upload" onclick="validateFormWGs('<?php echo $WG; ?>');"/>
+                                    <input type="hidden" id="date" name="date" value="<?php echo date("Y-m-d"); ?>" />
+                                    <input type="hidden" name="WG" value="<?php echo $WG; ?>" />
                                     <input type="hidden" name="type" value="add" />
-                                    <input type="hidden" name="table" value="<?php echo $table;?>" />
-                                    <input type="hidden" name="path" value="<?php echo $localizer;?>COST/private/WGs/WG<?php echo $WG;?>_docs/" />
+                                    <input type="hidden" name="table" value="<?php echo $table; ?>" />
+                                    <input type="hidden" name="path" value="<?php echo SITE_ROOT; ?>COST/private/WGs/WG<?php echo $WG; ?>_docs/" />
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div id='after'></div>
             <div id='footer'>
                 <p>
@@ -127,15 +127,15 @@ xmlns="http://www.w3.org/1999/xhtml">
                     Fax. Tel. Mail
                 </p>
             </div>
-            
-            
+
+
         </div>
-        
+
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();
             //]]>
         </script>
-        
+
     </body>
 </html>

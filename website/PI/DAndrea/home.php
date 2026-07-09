@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
 	<title>Home | D'Andrea Lab</title>
-	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
+	<?php include SITE_PATH . 'PI/DAndrea/includes/head_const_dandrea.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -36,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
@@ -44,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
+							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
 
 					</div>
@@ -83,11 +83,11 @@
 									<div>
 										<div style="width: 140px;">
 											<img
-												src="<?php echo $localizer; ?>PI/DAndrea/images/dandrea.jpg"
+												src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/dandrea.jpg"
 												alt=""
 												style="width: 140px; height: auto; margin-right: 1em;"
 												class="image left" /> <img
-												src="<?php echo $localizer; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
+												src="<?php echo SITE_ROOT; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
 												alt=""
 												style="width: 140px; height: auto; margin-right: 1em;"
 												class="image left" />
@@ -117,8 +117,8 @@
 									<header>
 										<h4 align="center">Development of protein binders by mirror-image phage display peptide library</h4>
 									</header>
-									<a href="<?php echo $localizer; ?>PI/DAndrea/research_1.php"><img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_1.jpg" alt="" class="image featured" /></a>
-									<a href="<?php echo $localizer; ?>PI/DAndrea/research_1.php"><font color="blue">Read more >></font></a>
+									<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/research_1.php"><img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_1.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/research_1.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -126,8 +126,8 @@
 									<header>
 										<h4 align="center">Site-selective modification of peptides and proteins</h4>
 									</header>
-									<a href="<?php echo $localizer; ?>PI/DAndrea/research_2.php"><img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_2.jpg" alt="" class="image featured" /></a>
-									<a href="<?php echo $localizer; ?>PI/DAndrea/research_2.php"><font color="blue">Read more >></font></a>
+									<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/research_2.php"><img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_2.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/research_2.php"><font color="blue">Read more >></font></a>
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -135,8 +135,8 @@
 									<header>
 										<h4  align="center">Design and synthesis of VEGF/VEGF receptors targeting compounds</h4>
 									</header>
-									<a href="<?php echo $localizer; ?>PI/DAndrea/research_3.php"><img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_3.jpg" alt="" class="image featured" /></a>
-									<a href="<?php echo $localizer; ?>PI/DAndrea/research_3.php"><font color="blue">Read more >></font></a>
+									<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/research_3.php"><img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_3.jpg" alt="" class="image featured" /></a>
+									<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/research_3.php"><font color="blue">Read more >></font></a>
 									
 								</section>
 							</div>
@@ -199,7 +199,7 @@
 											<em><font color="blue">Dalton Trans.</font></em></b></a>
 											</li>
 											
-											<!-- <li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
+											<!-- <li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
 											<b>New book chapter in CEST imaging: </b>
 											<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">							
 											<em><font color="blue">"Iodinated Contrast Media as pH-Responsive CEST Agents" In: Chemical Exchange Saturation Transfer Imaging: Advances and Applications.</font></em></a>
@@ -238,13 +238,13 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 
 </body>

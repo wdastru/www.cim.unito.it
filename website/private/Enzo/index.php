@@ -1,11 +1,8 @@
-<?php
-$localizer = "../../";
-?>
+<?php require_once __DIR__ . '/../../config.inc.php'; ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    "
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
@@ -14,7 +11,7 @@ $localizer = "../../";
         <link href="enzo.css" rel="stylesheet" type="text/css" />
         <script
             type="text/javascript"
-            src="<?php echo $localizer;?>private/Enzo/enzo.js"
+            src="<?php echo SITE_ROOT; ?>private/Enzo/enzo.js"
         ></script>
     </head>
     <body>
@@ -39,7 +36,7 @@ $localizer = "../../";
             </form>
         </div>
         <div id="section7">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
             "
             <div id="subsection0">
@@ -57,41 +54,44 @@ $localizer = "../../";
                         <div class="paddingInner">
                             "
                             <div id="listaFiles">
-                                <?php // --> elenco files $dir = "uploads/*.*";
-                                $files = glob($dir); // <-- elenco files if
-                                (count($files) > 0) { echo "
-                                <p>Files:</p>
-                                "; } for ($i = 0; $i < count($files); $i++) {
-                                echo "
-                                <input
-                                    class="deleteButton"
-                                    type="submit"
-                                    value="-"
-                                    onclick='showConfirmBox(\"deleteForm_$i\");'
-                                />
-                                <form
-                                    class="deleteForm"
-                                    id="deleteForm_$i"
-                                    action=""
-                                    method="post"
-                                >
-                                    <input
-                                        type="hidden"
-                                        name="file"
-                                        value="$files[$i]"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="delete"
-                                        value="1"
-                                    />
-                                </form>
-                                <a href="$files[$i]"
-                                    >" . str_replace('uploads/', '', $files[$i])
-                                    . "</a
-                                >
-                                (" . date("d/m/Y", filemtime($files[$i])) .
-                                ")<br />"; } ?>
+                                <?php
+                                    $dir   = "uploads/*.*";
+                                    $files = glob($dir);
+                                    if (count($files) > 0) {
+                                        echo "<p>Files:</p>";
+                                    }
+                                ?>
+                                <?php foreach ($files as $i => $file): ?>
+                                        <input
+                                                class="deleteButton"
+                                                type="submit"
+                                                value="-"
+                                                onclick='showConfirmBox("deleteForm_<?php echo $i; ?>")'
+                                            />
+                                            <form
+                                                class="deleteForm"
+                                                id="deleteForm_<?php echo $i; ?>"
+                                                action=""
+                                                method="post"
+                                            >
+                                                <input
+                                                    type="hidden"
+                                                    name="file"
+                                                    value="<?php echo $files[$i]; ?>"
+                                                />
+                                                <input
+                                                    type="hidden"
+                                                    name="delete"
+                                                    value="1"
+                                                />
+                                            </form>
+                                            <a href="<?php echo $files[$i]; ?>"
+                                                >" . str_replace('uploads/', '', <?php echo $files[$i]; ?>)
+                                        . "</a
+                                            >
+                                            (" . date("d/m/Y", filemtime(<?php echo $files[$i]; ?>)) .
+                                            ")<br />";
+                                    <?php endforeach; ?>
                             </div>
                             <br />
                             "

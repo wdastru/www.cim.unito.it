@@ -1,5 +1,5 @@
 <?php                            
-	$localizer = "../../";       
+	require_once __DIR__ . '/../../config.inc.php';       
 ?>                               
 <!DOCTYPE html>
 <!--
@@ -16,8 +16,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Longo/includes/head_const_longo.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 	
 	
 </head>
@@ -32,7 +32,7 @@
 			<div class="unito-logo-container">                   
 	          </div></a>
 	          
-	          <a href="<?php echo $localizer; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
+	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
 			
@@ -45,7 +45,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
 
@@ -54,23 +54,23 @@
 						<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/home.php">Home</a></li>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Research</a>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Research</a>
 									<ul>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_overview.php">Overview</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_probes.php">MRI probes</a></li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_angiogenesis.php">Tumor
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Overview</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">MRI probes</a></li>
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
 										<li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_tumor_pH.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php" font
 											style="text-transform: none;">TUMOR pH IMAGING</a>
 										<li>
-										<li><a href="<?php echo $localizer; ?>PI/Longo/research_kidney.php" font
+										<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php" font
 											style="text-transform: none;">RENAL pH IMAGING</a></li>
 									</ul></li>
-								<li ><a href="<?php echo $localizer; ?>PI/Longo/group.php">Group</a></li>
-								<li class="current_page_item"><a href="<?php echo $localizer; ?>PI/Longo/publications.php">Publications</a></li>
-								<li><a href="<?php echo $localizer; ?>PI/Longo/contact.php">Contact us</a></li>
+								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/group.php">Group</a></li>
+								<li class="current_page_item"><a href="<?php echo SITE_ROOT; ?>PI/Longo/publications.php">Publications</a></li>
+								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
 
@@ -609,77 +609,77 @@
 								
 								<ul class="divided">
 														
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:80px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:80px">
 										Pohlmann A, Back SJ, Fekete A, Friedli I, Hectors S, Jerome NP, Ku MC, <b>Longo DL</b>, Meier M, Millward JM, Periquito JS, Seeliger E, Serai SD, Waiczies S, Sourbron S, Laustsen C, Niendorf T. (2021)							
 										<i><font color="black">Recommendations for Preclinical Renal MRI: A Comprehensive Open-Access Protocol Collection to Improve Training, Reproducibility, and Comparability of Studies.</font> (Chapter 1, pp 3-23)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_1" target="_blank">
 										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
 										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
 										Pedersen M, Irrera P, Dastru W, Zollner FG, Bennett KM, Beeman SC, Bretthorst GL, Garbow JR, <b>Longo DL</b>. (2021)							
 										<i><font color="black">Dynamic Contrast Enhancement (DCE) MRI-Derived Renal Perfusion and Filtration: Basic Concepts.</font> (Chapter 12, pp 205-227)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_12" target="_blank">
 										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
 										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
 										<b>Longo DL</b>, Irrera P, Consolino L, Sun PZ, McMahon MT. (2021)							
 										<i><font color="black">Renal pH Imaging Using Chemical Exchange Saturation Transfer (CEST) MRI: Basic Concept.</font> (Chapter 14, pp 241-256)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_14" target="_blank">
 										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
 										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
 										Irrera P, Consolino L, Dastru W, Pedersen M, Zollner FG, <b>Longo DL</b>. (2021)							
 										<i><font color="black">Dynamic Contrast Enhanced (DCE) MRI-Derived Renal Perfusion and Filtration: Experimental Protocol.</font> (Chapter 25, pp 429-441)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_25" target="_blank">
 										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
 										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
 										Pavuluri KD, Consolino L, <b>Longo DL</b>, Irrera P, Sun PZ, McMahon MT. (2021)							
 										<i><font color="black">Renal pH Mapping Using Chemical Exchange Saturation Transfer (CEST) MRI: Experimental Protocol.</font> (Chapter 27, pp 455-471)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_27" target="_blank">
 										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
 										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
 										Zollner FG, Dastru W, Irrera P, <b>Longo DL</b>, Bennett KM, Beeman SC, Bretthorst GL, Garbow JR. (2021)							
 										<i><font color="black">Analysis Protocol for Dynamic Contrast Enhanced (DCE) MRI of Renal Perfusion and Filtration.</font> (Chapter 38, pp 637-653)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_38" target="_blank">
 										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
 										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg" align="left" height="100px" style="margin-right:20px; margin-bottom:40px">
 										Kim H, Wu Y, Villano D, <b>Longo DL</b>, McMahon MT, Sun PZ. (2021)							
 										<i><font color="black">Protocol for the Quantification of Renal pH Using Chemical Exchange Saturation Transfer (CEST) MRI.</font> (Chapter 40, pp 667-688)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://link.springer.com/protocol/10.1007/978-1-0716-0978-1_40" target="_blank">
 										<font color="blue"> Preclinical MRI of the Kidney: Methods and Protocol </font></a> 
 										(eds. Andreas Pohlmann, Thoralf Niendorf) NEW YORK: Humana Press (USA) </li><br>		
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="100px" style="margin-right:20px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_CEST.jpg" align="left" height="100px" style="margin-right:20px">
 										<b>Longo DL</b>, Aime S. (2017)							
 										<i><font color="black">Iodinated Contrast Media as pH-Responsive CEST Agents.</font> (Chapter 19, pp 447-466)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">
 										<font color="blue"> Chemical Exchange Saturation Transfer Imaging: Advances and Applications </font></a> 
 										(eds. M.T. McMahon, A.A. Gilad, J.W.M. Bulte, P.C.M. van Zijl) Singapore: Pan Stanford Publishing</li><br>
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_beckmann2.jpg" align="left" height="100px" style="margin-right:20px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_beckmann2.jpg" align="left" height="100px" style="margin-right:20px">
 										Aime S,<b> Longo DL.</b> (2013)							
 										<i><font color="black">Recent Developments of Contrast Agents, CEST and Low Fields.</font> (Chapter 6, pp. 184-201)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="http://pubs.rsc.org/en/content/chapter/bk9781849734448-00184/978-1-84973-444-8" target="_blank">
 										<font color="blue"> New Applications of NMR in Drug Discovery and Development. Series: New Developments in NMR Vol. 2   </font></a> 
 										(eds. L. Garrido and N. Beckmann) CAMBRIDGE: Royal Society of Chemistry (UK)</li><br>
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_vanderlinden.jpg" align="left" height="100px" style="margin-right:20px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_vanderlinden.jpg" align="left" height="100px" style="margin-right:20px">
 										Van der Linden A, Van Meir V, <b>Longo DL</b>, Aime S. (2012)							
 										<i><font color="black">Contrast agents, relaxation, in vivo calcium imaging.</font> (Chapter 1,  pp.79-132)</i><br>In:
 										<a title="Open in a new window" class="http" href="http://www.springer.com/la/book/9781461417873" target="_blank">
 										<font color="blue"> Neural Metabolism in vivo. Series: Advances in Neurobiology Vol. 4  </font></a> 
 										(eds. R. Gruetter and I.-Y. Choi) NEW YORK: SpringerVerlag GMBH (USA)</li><br>
 										
-										<li><img src="<?php echo $localizer; ?>PI/Longo/images/book_chapter_beckmann1.jpg" align="left" height="100px" style="margin-right:20px">
+										<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_beckmann1.jpg" align="left" height="100px" style="margin-right:20px">
 										Aime S, Giovenzana GB, <b>Longo DL</b>, Terreno E. (2006)							
 										<i><font color="black">Design of Contrast Agents for Molecular Imaging In Vivo.</font> (vol. 4, pp. 47-72)</i><br><br>In:
 										<a title="Open in a new window" class="http" href="https://www.crcpress.com/In-Vivo-MR-Techniques-in-Drug-Discovery-and-Development/Beckman/p/book/9780849330261" target="_blank">
@@ -707,12 +707,12 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 </body>

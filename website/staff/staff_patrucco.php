@@ -1,27 +1,23 @@
-<?php
-	$localizer = "../";
-?>
+<?php require_once __DIR__ . '/../config.inc.php'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 	xmlns="http://www.w3.org/1999/xhtml">
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
-<?php require $localizer . 'includes/head_const.inc.php'?>
+<?php include SITE_PATH . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Events</title>
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 </head>
 <body>
 
 	<div id='section0'>
-	<?php require($localizer . 'includes/main-nav.php'); ?>
+	<?php include SITE_PATH . 'includes/main-nav.php'; ?>
 		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection2">
 			<!-- InstanceEndEditable -->
-			<?php
-                require ($localizer . 'includes/home-side-nav.php');
-                ?>
+			<?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
 			
 			<div id='content'>
 				<div class='paddingOuter'>
@@ -35,7 +31,7 @@
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
 
-								<img src="<?php echo $localizer; ?>images/staff/patrucco.jpg" class="w3-image"
+								<img src="<?php echo SITE_ROOT; ?>images/staff/patrucco.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
 
@@ -43,7 +39,7 @@
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Deyssy Patrucco</h1>
 								<p style="text-align:left;"><b>PhD student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
-								<a href="<?php echo $localizer; ?>PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
+								<a href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
 								  Terreno Lab</a>
 								</b></p>
 									
