@@ -12,7 +12,8 @@
 <body>
 
 	<div id='section0'>
-	<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+	<?php include SITE_PATH . 'includes/menu.php'; ?> 
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection2">

@@ -1,9 +1,9 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang='en'>
 <!-- InstanceBegin template='/Templates/events.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
-        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>        
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino - Meetings</title>
 <meta
 	name='description'
@@ -12,11 +12,10 @@
 <body>
 	<div id='section2'>
 		<div id='subsection3'>
-		<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-			<div id='header'></div>
-			<?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
-			<?php include SITE_PATH . 'includes/events-side-nav-mobile.php'; ?>
+		<?php include SITE_PATH . 'includes/menu.php'; ?>
+		<?php include SITE_PATH . 'includes/header.php'; ?>
+		<?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
+		<?php include SITE_PATH . 'includes/events-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>

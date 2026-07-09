@@ -1,4 +1,3 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,9 +11,8 @@
         <div id='section1'>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 			<div id="subsection14">
-				<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-				<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-				<div id='header'></div>
+				<?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 	           <!-- InstanceEndEditable -->
             	<?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             	<?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>

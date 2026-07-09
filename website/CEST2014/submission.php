@@ -91,8 +91,8 @@
     </head>
     <body>
         <div id="section0">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/home-side-nav.php'; ?>

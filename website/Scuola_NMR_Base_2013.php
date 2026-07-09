@@ -12,9 +12,8 @@
     <body>
         <div id="section2">
             <div id="subsection1">
-                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
-                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-                <div id="header"></div>
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
                 <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';
                 ?>

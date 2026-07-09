@@ -19,10 +19,8 @@
     <body>
         <div id="section0">
             <div id="subsection0">
-                <?php require SITE_PATH . 'includes/main-nav.php'; ?> <?php
-                require SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-                <!-- InstanceBeginEditable name='subsection opening' -->
-                <div id="header"></div>
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <!-- InstanceEndEditable -->
                 <?php require SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
                 require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>

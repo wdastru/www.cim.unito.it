@@ -10,8 +10,8 @@
     </head>
     <body>
         <div id="section2">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 
             <div id="subsection1">
                 <div id="sidebar">

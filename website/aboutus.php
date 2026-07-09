@@ -19,9 +19,8 @@
     <body>
         <div id="section0">
             <div id="subsection1">
-                <?php require(SITE_PATH . 'includes/main-nav.php'); ?> <?php
-                require(SITE_PATH . 'includes/main-nav-mobile.php'); ?>
-                <div id="header"></div>
+                <?php include 'includes/menu.php'; ?> 
+                <?php include 'includes/header.php'; ?>
                 <!-- InstanceBeginEditable name='subsection opening' -->
                 <!-- InstanceEndEditable -->
                 <?php require (SITE_PATH . 'includes/home-side-nav.php'); ?>

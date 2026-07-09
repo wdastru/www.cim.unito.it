@@ -9,12 +9,8 @@
     <body>
 
         <div id='section2'>
-
-            <?php
-            require ('includes/main-nav.php');
-            ?>
-            <div id='header'></div>
-            <!-- InstanceBeginEditable name="subsection opening" -->
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
             <div id='subsection1'>
                 <!-- InstanceEndEditable -->
                 <div id='sidebar'>

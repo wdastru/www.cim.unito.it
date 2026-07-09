@@ -1,4 +1,4 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/partners.dwt" codeOutsideHTMLIsLocked="false" -->
@@ -9,9 +9,8 @@
 <body>
 	<div id='section4'>
 		<div id='subsection0'>
-			<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-			<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-			<div id='header'></div>
+			<?php include 'includes/menu.php'; ?>
+			<?php include 'includes/header.php'; ?>
 			<!-- InstanceBeginEditable name="subsection opening" -->
 			<!-- InstanceEndEditable -->
 			<?php include SITE_PATH . 'includes/partners-side-nav.php'; ?>
@@ -41,8 +40,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
 					Fax. Tel. Mail
 				</p>
-			<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
-			<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
+			<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+			<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</div>
 		</div>
 		<!-- subsection closing -->

@@ -11,9 +11,8 @@
 <body>
 	<div id='section6'>
 		<div id="subsection0">
-                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
- include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-                <div id="header"></div>
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 			<!-- InstanceBeginEditable name="subsection opening" -->
 			<div id='pubSubSectOpen'>
 				<!-- InstanceEndEditable -->

@@ -11,8 +11,8 @@ header('Content-Type: text/html;charset=UTF-8');
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php' ?>
         <div id="section0">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/niumag-side-nav.php'; ?>

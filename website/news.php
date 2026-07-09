@@ -12,11 +12,8 @@
     </head>
     <body>
         <div id="section2">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php include
-            SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-            <!-- InstanceBeginEditable name="subsection opening" -->
-            <div id="subsection2">
-                <div id="header"></div>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <!-- InstanceEndEditable -->
                 <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
                 <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';

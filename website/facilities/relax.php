@@ -11,8 +11,8 @@
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 
             <div id="subsection4">
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>

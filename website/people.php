@@ -1,4 +1,4 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="it">
     <!-- InstanceBegin template='/Templates/home.dwt' codeOutsideHTMLIsLocked='false' -->
@@ -15,9 +15,8 @@
         <div id="section8">
             <!-- InstanceBeginEditable name='subsection opening' -->
             <div id="subsection0">
-                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
-                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-                <div id="header"></div>
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <!-- InstanceEndEditable -->
                 <div id="content-nosidebar">
                     <div class="paddingOuter">
@@ -162,7 +161,7 @@
                                         <a
                                             title="Homepage"
                                             href="PI/Delli_Castelli/home.php"
-                                            target="_self"
+                                            target="_blank"
                                         >
                                             <span style="font-size: 1rem"
                                                 ><b>Daniela Delli Castelli</b>
@@ -1185,8 +1184,8 @@
                         Fax. Tel. Mail
                     </p>
                     <?php include SITE_PATH .
-                    'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
+                        'includes/HTML5_badge_valid.inc.php'; ?> <?php include
+    SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
                 </div>
             </div>
         </div>

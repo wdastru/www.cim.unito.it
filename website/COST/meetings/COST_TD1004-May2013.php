@@ -16,10 +16,9 @@
 <body>
 	<div id='section5'>
 		<div id='subsection2'>
-    		<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-    		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-			<div id='header'></div>
-            <?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
+    		<?php include SITE_PATH . 'includes/menu.php'; ?>
+			<?php include SITE_PATH . 'includes/header.php'; ?>
+			<?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
             <?php include SITE_PATH . 'COST/include/COST-sidebar-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>

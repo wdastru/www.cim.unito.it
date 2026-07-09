@@ -16,9 +16,8 @@
         <div id="section5">
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id="subsection0">
-                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
- include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-                <div id="header"></div>
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <!-- InstanceEndEditable -->
                 <div id="content-nosidebar">
                     <div class="paddingOuter">

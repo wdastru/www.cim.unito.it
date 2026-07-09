@@ -124,11 +124,8 @@ if (isset($_GET['submit'])) {
 <body>
 	<div id='section3'>
 		<div id='subsection7'>
-			<!-- InstanceBeginEditable name="subsection opening" -->
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-            <div id='header'></div>
-			<!-- InstanceEndEditable -->
+			<?php include SITE_PATH . 'includes/menu.php'; ?>
+			<?php include SITE_PATH . 'includes/header.php'; ?>
 			<?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/facilities-side-nav-mobile.php'; ?>
          	<div id='content'>
