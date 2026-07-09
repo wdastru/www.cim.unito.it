@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require('errors.inc.php');
+    require_once __DIR__ . '/../../config.inc.php';
+    require 'errors.inc.php';
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,7 +44,7 @@ require('errors.inc.php');
                             <h1 class="subsectionTitle">Enzo's private area</h1>
                         </div>
                         <div class="paddingInner">
-                            <p><?php echo $error[$_GET['error']]?></p>
+                            <p><?php echo $error[$_GET['error']] ?></p>
                             <input
                                 type="submit"
                                 value="Back"

@@ -1,6 +1,4 @@
-<?php
-$localizer = "../../";
-?>
+<?php require_once __DIR__ . '/../../config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -454,9 +452,8 @@ $localizer = "../../";
                     ITALY <br />
                     Fax. Tel. Mail
                 </p>
-                <?php include $localizer .
-                'includes/HTML5_badge_valid.inc.php';?> <?php include $localizer
-                . 'includes/PageSpeedTest.inc.php';?>
+                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+                <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
         </div>
 

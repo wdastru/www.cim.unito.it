@@ -1,32 +1,39 @@
 <?php
 
-function html_apostrophes($arg) {
+    function html_apostrophes($arg)
+    {
     return str_replace("'", "&#39", $arg);
-}
+    }
 
-unset($hostname);
-exec('hostname', $hostname);
-if ($hostname[0] == "EPTADONE") {
+    unset($hostname);
+    exec('hostname', $hostname);
+    if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
-}
-session_start();
+    }
+    session_start();
 
-$_SESSION['searchAfterEdit'] = 1;
+    $_SESSION['searchAfterEdit'] = 1;
 
-//print_r($_SESSION);
+    foreach ($_POST as $key =>
+    $value) {$_POST[$key] = str_replace("\'", "'", $value);}
+    $_POST['name_UK2edit']  = html_apostrophes($_POST['name_UK2edit']);
+    $_POST['name_IT2edit']  = html_apostrophes($_POST['name_IT2edit']);
+    $_POST['place2edit']    = html_apostrophes($_POST['place2edit']);
+    $_POST['quantity2edit'] = html_apostrophes($_POST['quantity2edit']);
+    $_POST['lab2edit']      = html_apostrophes($_POST['lab2edit']);
+    $_POST['note2edit']     =
+    html_apostrophes($_POST['note2edit']);
+    $_POST['CAS2edit'] =
+    html_apostrophes($_POST['CAS2edit']);
+    $_POST['phrase_H2edit'] =
+    html_apostrophes($_POST['phrase_H2edit']);
+    $_POST['phrase_R2edit'] =
+    html_apostrophes($_POST['phrase_R2edit']);
+    $_POST['link2edit'] =
+    html_apostrophes($_POST['link2edit']);
 
-foreach ($_POST as $key =>
-$value) { $_POST[$key] = str_replace("\'", "'", $value); }
-$_POST['name_UK2edit'] = html_apostrophes($_POST['name_UK2edit']);
-$_POST['name_IT2edit'] = html_apostrophes($_POST['name_IT2edit']);
-$_POST['place2edit'] = html_apostrophes($_POST['place2edit']);
-$_POST['quantity2edit'] = html_apostrophes($_POST['quantity2edit']);
-$_POST['lab2edit'] = html_apostrophes($_POST['lab2edit']); $_POST['note2edit'] =
-html_apostrophes($_POST['note2edit']); $_POST['CAS2edit'] =
-html_apostrophes($_POST['CAS2edit']); $_POST['phrase_H2edit'] =
-html_apostrophes($_POST['phrase_H2edit']); $_POST['phrase_R2edit'] =
-html_apostrophes($_POST['phrase_R2edit']); $_POST['link2edit'] =
-html_apostrophes($_POST['link2edit']); $localizer = "../../../"; ?>
+    require_once __DIR__ . '/../../../config.inc.php';
+?>
 
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -199,7 +206,7 @@ html_apostrophes($_POST['link2edit']); $localizer = "../../../"; ?>
                                             <input
                                                 type="hidden"
                                                 name="dir"
-                                                value="<?php echo $localizer . 'private/cataloghi/safety_info/'; ?>"
+                                                value="<?php echo SITE_ROOT . 'private/cataloghi/safety_info/'; ?>"
                                             />
                                         </td>
                                     </tr>
@@ -212,17 +219,17 @@ html_apostrophes($_POST['link2edit']); $localizer = "../../../"; ?>
                                 <input
                                     type="hidden"
                                     name="oldname_UK"
-                                    value="<?php echo $_POST['name_UK2edit' ]; ?>"
+                                    value="<?php echo $_POST['name_UK2edit']; ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldname_IT"
-                                    value="<?php echo $_POST['name_IT2edit' ]; ?>"
+                                    value="<?php echo $_POST['name_IT2edit']; ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldplace"
-                                    value="<?php echo $_POST['place2edit'   ]; ?>"
+                                    value="<?php echo $_POST['place2edit']; ?>"
                                 />
                                 <input
                                     type="hidden"
@@ -232,17 +239,17 @@ html_apostrophes($_POST['link2edit']); $localizer = "../../../"; ?>
                                 <input
                                     type="hidden"
                                     name="oldlab"
-                                    value="<?php echo $_POST['lab2edit'     ]; ?>"
+                                    value="<?php echo $_POST['lab2edit']; ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldnote"
-                                    value="<?php echo $_POST['note2edit'    ]; ?>"
+                                    value="<?php echo $_POST['note2edit']; ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldCAS"
-                                    value="<?php echo $_POST['CAS2edit'     ]; ?>"
+                                    value="<?php echo $_POST['CAS2edit']; ?>"
                                 />
                                 <input
                                     type="hidden"
@@ -257,7 +264,7 @@ html_apostrophes($_POST['link2edit']); $localizer = "../../../"; ?>
                                 <input
                                     type="hidden"
                                     name="oldlink"
-                                    value="<?php echo $_POST['link2edit'    ]; ?>"
+                                    value="<?php echo $_POST['link2edit']; ?>"
                                 />
                                 <br />
                                 <input

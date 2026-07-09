@@ -1,18 +1,20 @@
-<?php function html_apostrophes($arg) { return str_replace("'", "&#39;", $arg);
-} unset($hostname); exec('hostname', $hostname); if ($hostname[0] == "EPTADONE")
-{ session_save_path('D:\Temp'); } session_start(); foreach ($_POST as $key =>
-$value) { $_POST[$key] = str_replace("\'", "'", $value); }
-$_POST['name_UK2remove'] = html_apostrophes($_POST['name_UK2remove']);
-$_POST['name_IT2remove'] = html_apostrophes($_POST['name_IT2remove']);
-$_POST['place2remove'] = html_apostrophes($_POST['place2remove']);
-$_POST['quantity2remove'] = html_apostrophes($_POST['quantity2remove']);
-$_POST['lab2remove'] = html_apostrophes($_POST['lab2remove']);
-$_POST['note2remove'] = html_apostrophes($_POST['note2remove']);
-$_POST['CAS2remove'] = html_apostrophes($_POST['CAS2remove']);
-$_POST['phrase_H2remove'] = html_apostrophes($_POST['phrase_H2remove']);
-$_POST['phrase_R2remove'] = html_apostrophes($_POST['phrase_R2remove']);
-$_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
-"../../../"; ?>
+<?php function html_apostrophes($arg)
+    {return str_replace("'", "&#39;", $arg);}unset($hostname);
+    exec('hostname', $hostname);if ($hostname[0] == "EPTADONE") {session_save_path('D:\Temp');}
+    session_start();foreach ($_POST as $key =>
+    $value) {$_POST[$key] = str_replace("\'", "'", $value);}
+    $_POST['name_UK2remove']  = html_apostrophes($_POST['name_UK2remove']);
+    $_POST['name_IT2remove']  = html_apostrophes($_POST['name_IT2remove']);
+    $_POST['place2remove']    = html_apostrophes($_POST['place2remove']);
+    $_POST['quantity2remove'] = html_apostrophes($_POST['quantity2remove']);
+    $_POST['lab2remove']      = html_apostrophes($_POST['lab2remove']);
+    $_POST['note2remove']     = html_apostrophes($_POST['note2remove']);
+    $_POST['CAS2remove']      = html_apostrophes($_POST['CAS2remove']);
+    $_POST['phrase_H2remove'] = html_apostrophes($_POST['phrase_H2remove']);
+    $_POST['phrase_R2remove'] = html_apostrophes($_POST['phrase_R2remove']);
+    $_POST['link2remove']     = html_apostrophes($_POST['link2remove']);
+    require_once __DIR__ . '/../../../config.inc.php';
+?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -84,13 +86,13 @@ $_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
                                         <td>Quantity :</td>
                                         <td>
                                             <?php echo
-                                            $_POST['quantity2remove']; ?>
+                                                $_POST['quantity2remove']; ?>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Laboratory :</td>
                                         <td>
-                                            <?php echo $_POST['lab2remove'];?>
+                                            <?php echo $_POST['lab2remove']; ?>
                                         </td>
                                     </tr>
                                     <tr>
@@ -109,14 +111,14 @@ $_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
                                         <td>Risk statements (R) :</td>
                                         <td>
                                             <?php echo
-                                            $_POST['phrase_R2remove']; ?>
+                                                $_POST['phrase_R2remove']; ?>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Hazard statements (H) :</td>
                                         <td>
                                             <?php echo
-                                            $_POST['phrase_H2remove']; ?>
+                                                $_POST['phrase_H2remove']; ?>
                                         </td>
                                     </tr>
                                     <tr>
@@ -135,17 +137,17 @@ $_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
                                 <input
                                     type="hidden"
                                     name="oldname_UK"
-                                    value="<?php echo mysql_real_escape_string($_POST['name_UK2remove' ]); ?>"
+                                    value="<?php echo mysql_real_escape_string($_POST['name_UK2remove']); ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldname_IT"
-                                    value="<?php echo mysql_real_escape_string($_POST['name_IT2remove' ]); ?>"
+                                    value="<?php echo mysql_real_escape_string($_POST['name_IT2remove']); ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldplace"
-                                    value="<?php echo mysql_real_escape_string($_POST['place2remove'   ]); ?>"
+                                    value="<?php echo mysql_real_escape_string($_POST['place2remove']); ?>"
                                 />
                                 <input
                                     type="hidden"
@@ -155,17 +157,17 @@ $_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
                                 <input
                                     type="hidden"
                                     name="oldlab"
-                                    value="<?php echo mysql_real_escape_string($_POST['lab2remove'     ]); ?>"
+                                    value="<?php echo mysql_real_escape_string($_POST['lab2remove']); ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldnote"
-                                    value="<?php echo mysql_real_escape_string($_POST['note2remove'    ]); ?>"
+                                    value="<?php echo mysql_real_escape_string($_POST['note2remove']); ?>"
                                 />
                                 <input
                                     type="hidden"
                                     name="oldCAS"
-                                    value="<?php echo mysql_real_escape_string($_POST['CAS2remove'     ]); ?>"
+                                    value="<?php echo mysql_real_escape_string($_POST['CAS2remove']); ?>"
                                 />
                                 <input
                                     type="hidden"
@@ -180,7 +182,7 @@ $_POST['link2remove'] = html_apostrophes($_POST['link2remove']); $localizer =
                                 <input
                                     type="hidden"
                                     name="oldlink"
-                                    value="<?php echo mysql_real_escape_string($_POST['link2remove'    ]); ?>"
+                                    value="<?php echo mysql_real_escape_string($_POST['link2remove']); ?>"
                                 />
                                 <input
                                     type="submit"

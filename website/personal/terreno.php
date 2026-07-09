@@ -12,7 +12,7 @@
             <div id="header"></div>
 
             <div id="subsection2">
-                <?php require ($localizer . 'includes/home-side-nav.php'); ?>
+                <?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">

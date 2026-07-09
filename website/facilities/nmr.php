@@ -1,4 +1,4 @@
-<?php require_once (__DIR__ . '/../config.inc.php'); ?>
+<?php require_once __DIR__ . '/../config.inc.php'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -9,14 +9,13 @@
         <meta name="description" content="" />
     </head>
     <body>
-        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
+        <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
             <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection4">
-                <?php require ($localizer . 'includes/facilities-side-nav.php');
-                ?>
+                <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div id="band">
