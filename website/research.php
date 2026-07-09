@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php' ?>
         <title>
@@ -14,11 +13,9 @@
     </head>
     <body>
         <div id="section1">
-            
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
                 <?php include SITE_PATH .
                 'includes/research-side-nav-mobile.php'; ?>
@@ -26,13 +23,10 @@
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 Research
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            
                             <p>
                                 The Molecular Imaging Center brings together
                                 scientists who share a common interest in
@@ -968,6 +962,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

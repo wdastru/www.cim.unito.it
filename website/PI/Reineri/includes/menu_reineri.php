@@ -5,7 +5,6 @@
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Reineri/research_overview.php">Overview</a></li>
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Reineri/research_hyperpolarized_probes.php">Hyperpolarized Probes</a></li>
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Reineri/research_imaging_metabolism.php">Imaging Metabolism</a>
-			
 			<li>
 		</ul></li>
 	<li><a href="<?php echo SITE_ROOT; ?>PI/Reineri/group.php">Group</a></li>

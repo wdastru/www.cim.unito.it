@@ -99,7 +99,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
     'Cognome' => 'Reineri'
 ])['Mail'] . "</a>";
 ?>
-
 										</p>
 									</div>
 								</div>
@@ -193,7 +192,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 												target="_blank"> <span
 													style="color: blue; font-style: italic; font-weight: bold;">Chemphyschem</span>
 											</a></li>
-
 											<li><span style="font-weight: bold; color: #404248;">The
 													hyperpolarization group is a partner of the MSCA-ITN (Marie
 													Slodowska Curie Action, Innovative Training Network) ZULF
@@ -239,7 +237,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
 </body>
 </html>
 <?php

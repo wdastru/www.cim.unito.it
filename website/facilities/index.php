@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
@@ -15,7 +14,6 @@
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <?php include SITE_PATH .
                 'includes/facilities-side-nav-mobile.php'; ?>
@@ -23,13 +21,10 @@
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 Facilities
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            
                             <p>
                                 The Molecular Imaging Center is well equipped in
                                 terms of chemical (synthesis and analytical
@@ -187,7 +182,6 @@
                             </div>
                             <br />
                             <br />
-                            
                         </div>
                     </div>
                 </div>
@@ -213,6 +207,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

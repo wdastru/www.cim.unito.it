@@ -259,7 +259,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>

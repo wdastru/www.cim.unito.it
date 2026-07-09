@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection20">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							Gd retention in the body
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<p class='indent'>
 							Gadolinium-based contrast agents (GBCAs) are commonly used in
 							clinical settings as they add physiological information to the
@@ -82,7 +75,6 @@
 								class="group-leaders-img"
 								src="<?php echo SITE_ROOT; ?>images/staff/gianolio.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -106,6 +98,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

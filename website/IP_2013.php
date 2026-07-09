@@ -1,18 +1,15 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - Intensive programme 2012</title>
     </head>
     <body>
-
         <div id='section2'>
             <?php include SITE_PATH . 'includes/menu.php'; ?>
             <?php include SITE_PATH . 'includes/header.php'; ?>
             <div id='subsection1'>
-                
                 <div id='sidebar'>
                     <div class='padding'>
                         <dl id='list'>
@@ -27,7 +24,6 @@
                             <h1 class='subsectionTitle'> Scuole </h1>
                         </div>
                         <div class='paddingInner'>
-                            
                             <div style="float: left">
                                 <img src="images/header_logo.png" width="295" height="100" alt="LLP" />
                             </div>
@@ -368,7 +364,6 @@
                                     </tr>
                                 </table>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -383,7 +378,6 @@
                     Fax. Tel. Mail
                 </p>
             </div>
-            
             <!-- section closing -->
         </div>
         <!-- section closing -->
@@ -392,6 +386,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

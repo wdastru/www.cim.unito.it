@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection4">
 		<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							Hyperpolarized Agents
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<div
 							class='infoBox'
 							id='DNP-Box'>
@@ -233,7 +226,6 @@
 								class="group-leaders-img"
 								src="../images/staff/reineri.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -257,6 +249,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

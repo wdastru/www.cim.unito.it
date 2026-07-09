@@ -130,6 +130,5 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
-
 </body>
 </html>

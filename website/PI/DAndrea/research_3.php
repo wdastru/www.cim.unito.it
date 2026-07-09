@@ -14,58 +14,42 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-			
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
-	          
 	          <a href="http://www.cim.unito.it" title="Molecular Imaging Center" target="_blank" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
-			
-			
 			<div class="container">
-					
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-					
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<section class="container box feature3">
 						<div class="row">
-
 							<article>
-
 								<h3 font style="text-transform: none;">Design and synthesis of VEGF/VEGF receptors targeting compounds</h3>
-								
 								<p align="justify">The Vascular Endothelial Growth Factor (VEGF) is the main regulator of angiogenesis and lymphangiogenesis, 
 								both in physiological and in pathological conditions. VEGF exerts its biological function through the interaction with three 
 								tyrosine kinase receptors: VEGFR1, VEGFR2 and VEGFR3. VEGFR1 and 2 are the principal drivers of physiological and pathological
@@ -78,24 +62,16 @@
 								 molecular tools able to modulate angiogenesis. We obtained bioactive peptides, targeting VEGFRs, with VEGF agonist or antagonist properties, 
 								 and thus finding complementary applications in biomedicine. 
 								</p>
-
 								<div style="text-align: center;">
 									<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_3.jpg" style="max-width: 50%; height: auto;"><br/></div>
-
-
 							</article>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<p font style="text-transform: none; font-size:1.3em">VEGFR targeting helical peptides with proangiogenic activity</p>
 										</header>
-										
 										<p align="justify">
 										This class of peptides was designed on the N-terminal &alpha;-helix (residues 17-25) of VEGF. The most promising peptide was identified 
 										in peptide QK 
@@ -114,25 +90,18 @@
 										<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/30336134"
 												target="_blank"><font color="blue">[De Rosa et al 2018]</font></a>.																				 												
 										</p>
-
 										<img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_3_1_1.jpg" alt="" class="image zooming">
 										<img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_3_2_1.jpg" alt="" class="image zooming">
-										
 									</article>
 								</section>
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<p font style="text-transform: none; font-size:1.3em">VEGFR targeting &beta;-hairpin peptides with proangiogenic activity</p>
 										</header>
-
 										<p align="justify">
 										This class of peptides was designed to mimic the &beta;-hairpin region 79-93 of VEGF. We found that peptide HPLW showed an interesting 
 										VEGF-like biological activity 
@@ -152,24 +121,17 @@
 										and proliferation. HPLW, as VEGF, is able to rescue ECs from apoptosis and induce proliferation. Finally, HPLW induces angiogenesis in mice 
 										using an in vivo model of angiogenesis. Overall, HPLW is a proangiogenic peptide which potential in therapeutic angiogenesis. 
 										A novel protease-resistant HPLW analogue is in preparation.
-											
 										 <img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_3_2_1.jpg" alt="" class="image zooming">	
-
 									</article>
 								</section>
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<p font style="text-transform: none; font-size:1.3em">VEGF/VEGFR targeting biomolecules with anti-angiogenic activity</p>
 										</header>
-
 										<p align="justify">
 										We developed peptides and proteins able to interfere with the VEGF-VEGFR complex formation as potential anti-angiogenic agents. 
 										We established a recombinant expression protocol for the preparation of the region 129-229 of VEGFR1 
@@ -187,32 +149,18 @@
 										In vivo, it reduces the VEGF-dependent angiogenesis and the growth of melanoma in a xenograft model in mice. The reduction of tumor size correlates 
 										with the inhibition of tumor angiogenesis. This peptide is a candidate for the development of novel peptide-based drugs for the treatment of diseases 
 										associated with excessive angiogenesis. 
-										
 										<img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_3_3_1.jpg" alt="" class="image zooming">	
 										<img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_3_3_2.jpg" alt="" class="image zooming">	
-
 									</article>
 								</section>
 								</div>
-
-							
-
-							
-
-
 						</div>
-
 					</section>
-
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
@@ -220,6 +168,5 @@
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
-
 </body>
 </html>

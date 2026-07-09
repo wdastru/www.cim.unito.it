@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - CEST
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection5">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							Multi-modality Contrast Agents
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<div class="imgLeft">
 							<img
 								alt="Multimodal imaging"
@@ -66,8 +59,6 @@
 							photoacoustic imaging too). Gold is surrounded by a silica
 							coating that was made lipophilic and further coated with
 							amphiphilic MRI and Near InfraRed Fluorescent (NIRF) probes.
-						
-						
 						<ul>
 							<li>i) nanosystems for dual MRI and US detection (e.g.
 								nanobubbles loaded with amphiphilic Gd(III) complexes),</li>
@@ -87,7 +78,6 @@
 								class="group-leaders-img"
 								src="<?php echo SITE_ROOT; ?>images/staff/terreno.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -108,11 +98,9 @@
 	<!-- section closing -->
 	<script>
             //<![
-						
 						CDATA[
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

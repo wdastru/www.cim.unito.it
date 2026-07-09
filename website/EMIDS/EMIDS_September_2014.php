@@ -12,7 +12,6 @@
         <div id="section2">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-
             <div id="subsection1">
                 <div id="sidebar">
                     <div class="padding">
@@ -52,11 +51,9 @@
                                     src="<?php echo SITE_ROOT . 'images/Emids_Logo.jpg'; ?>"
                                     alt="EMIDS logo"
                             /></a>
-
                             <p style="font-weight: bold; font-size: 14px">
                                 General information
                             </p>
-
                             <table
                                 style="
                                     border: 1px solid #000;
@@ -102,13 +99,10 @@
                                     </td>
                                 </tr>
                             </table>
-
                             <br />
-
                             <p style="font-weight: bold; font-size: 14px">
                                 Summary
                             </p>
-
                             <p>
                                 Molecular imaging is a rapidly emerging
                                 biomedical research discipline which allows the
@@ -190,11 +184,9 @@
                                 expertises, which are not found inside a single
                                 institution.
                             </p>
-
                             <p style="font-weight: bold; font-size: 14px">
                                 Methodology
                             </p>
-
                             <p>
                                 The workshop will provide theoretical knowledge
                                 and practical-experimental training as well as
@@ -224,11 +216,9 @@
                                 assessment of their attitude, implication and
                                 performance during the practical sessions.
                             </p>
-
                             <p style="font-weight: bold; font-size: 14px">
                                 Work programme
                             </p>
-
                             <table>
                                 <tr>
                                     <td style="width: 10%">Day</td>
@@ -372,7 +362,6 @@
                                     </td>
                                 </tr>
                             </table>
-
                             <p style="font-weight: bold; font-size: 14px">
                                 Registration
                             </p>
@@ -384,7 +373,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -395,7 +383,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

@@ -14,12 +14,10 @@
             type="text/css"
         />
     </head>
-
     <body>
         <div id="section0">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
                 <div id="content">
@@ -40,9 +38,7 @@
                                 >
                                     Abstract submission
                                 </h1>
-
                                 <br />
-
                                 <p>
                                     <img
                                         src="images/cross24.png"
@@ -61,7 +57,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -72,7 +67,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

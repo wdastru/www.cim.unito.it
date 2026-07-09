@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - Events</title>
@@ -14,7 +13,6 @@
         <div id="section2">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
                 <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';
                 ?>
@@ -374,7 +372,6 @@
                 'includes/HTML5_badge_valid.inc.php';?> <?php include SITE_PATH
                 . 'includes/PageSpeedTest.inc.php';?>
             </div>
-
             <!-- section closing -->
         </div>
         <!-- section closing -->
@@ -383,6 +380,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

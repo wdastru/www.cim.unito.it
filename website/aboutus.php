@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
@@ -21,8 +20,6 @@
             <div id="subsection1">
                 <?php include 'includes/menu.php'; ?> 
                 <?php include 'includes/header.php'; ?>
-                
-                
                 <?php require (SITE_PATH . 'includes/home-side-nav.php'); ?>
                 <?php require (SITE_PATH . 'includes/home-side-nav-mobile.php');
                 ?>
@@ -75,9 +72,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle" id="director">
-                                
                                 Director
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -177,6 +172,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

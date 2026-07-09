@@ -15,10 +15,8 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
@@ -28,13 +26,10 @@ require_once __DIR__ . '/../../config.inc.php';
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
-
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
 						<!-- Nav -->
@@ -45,11 +40,8 @@ require_once __DIR__ . '/../../config.inc.php';
 				</header>
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<section class="container box feature3">
@@ -96,9 +88,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									style="max-width: 40%; height: auto;"
 									alt="Development of cellular imaging procedures">
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<h3>
 									<span style="text-transform: none;">MRI tracking of MSCs
@@ -123,20 +113,17 @@ require_once __DIR__ . '/../../config.inc.php';
 									labeling.
 								</p>
 								<img src="images/research_3_2.jpg" alt="" class="image zooming">
-
 								<p style="text-align: justify;">
 									Furthermore, also the T<sub>1</sub> contrast enhancement of
 									Gadoteridol internalized using the hypo-tonic method is higher
 									than the isotonic technique.
 								</p>
 								<img src="images/research_3_3.jpg" alt="" class="image zooming">
-
 								<p style="text-align: justify;">The differences observed in
 									vitro were confirmed in vivo after transplantation of a
 									different number of cells in a mouse model of spinal cord
 									injury.</p>
 								<img src="images/research_3_4.jpg" alt="" class="image zooming">
-
 								<p style="text-align: justify;">Interestingly, the injected
 									cells migrated from the injection site to the lesion site, and
 									MRI was able to visualize this movement.</p>
@@ -145,16 +132,13 @@ require_once __DIR__ . '/../../config.inc.php';
 								cells displayed an excellent recover from the pathology, as
 								demonstrated by carrying out behavioural tests.
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<h3>
 									<span style="text-transform: none;">Fluorinated nanoparticles
 										for the in-vivo tracking of inflammation in a mouse model of
 										spinal cord injury</span>
 								</h3>
-
 								<p style="text-align: justify;">
 									The same model has been also used to assess the macrophagic
 									infiltrate after the onset of the lesion (Garello F. et al,
@@ -176,11 +160,8 @@ require_once __DIR__ . '/../../config.inc.php';
 									phagocytized by peripheral and resident immune cells. <img
 										src="images/research_3_6.jpg" alt="" class="image zooming"> <img
 										src="images/research_3_7.jpg" alt="" class="image zooming">
-							
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<h3>
 									<span style="text-transform: none;">Indocyanine Green labeling
@@ -206,9 +187,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									the left hindlimb of the animal where the transplantation of
 									control unlabelled cells was performed.
 								</p>
-
 								<img src="images/research_3_8.jpg" alt="" class="image zooming">
-
 								<p style="text-align: justify;">
 									The PA<sub>Enh</sub> was measured over the entire range of
 									excitation wavelengths immediately after cell transplantation,
@@ -243,7 +222,6 @@ require_once __DIR__ . '/../../config.inc.php';
 					</section>
 				</div>
 			</div>
-
 		</div>
 		<!-- Footer Wrapper -->
 		<div id="footer-wrapper">
@@ -259,9 +237,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</footer>
 		</div>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -271,6 +247,5 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
 </body>
 </html>

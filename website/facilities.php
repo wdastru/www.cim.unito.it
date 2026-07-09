@@ -12,7 +12,6 @@
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
-
             <div id="subsection0">
                 <?php include 'includes/menu.php'; ?> 
                 <?php include 'includes/header.php'; ?>
@@ -68,7 +67,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -99,7 +97,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

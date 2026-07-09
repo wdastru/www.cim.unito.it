@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
@@ -13,10 +12,8 @@
     <body>
         <div id="section3">
             <div id="subsection6">
-                
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <?php include SITE_PATH .
                 'includes/facilities-side-nav-mobile.php'; ?>
@@ -24,13 +21,10 @@
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 <span id="cell-lab_title">&nbsp;</span>
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            
                             <p>
                                 The cell culture laboratory provides equipment
                                 and technical expertise to who utilize cultured
@@ -154,7 +148,6 @@
                                     </p>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -178,6 +171,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

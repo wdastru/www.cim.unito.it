@@ -1,4 +1,3 @@
-
 <?php
     /*****************************
 	File: login.php
@@ -7,7 +6,6 @@
 ******************************/
     require_once __DIR__ . '/../../config.inc.php';
     include SITE_PATH . 'CEST2014/registration/includes/config.php';
-
     // If the user is logging in or out
     // then lets execute the proper functions
     if (isset($_GET['action'])) {
@@ -40,9 +38,7 @@
             break;
     }
     }
-
     $sOutput .= '<div id="index-body">';
-
     // See if the user is logged in. If they are greet them
     // and provide them with a means to logout.
     if (loggedIn()) {
@@ -57,12 +53,10 @@
     if (isset($_POST['username'])) {
         $sUsername = $_POST['username'];
     }
-
     $sError = "";
     if (isset($_SESSION['error'])) {
         $sError = '<span id="error">' . $_SESSION['error'] . '</span><br>';
     }
-
     $sOutput .= '<h2>Login to our site</h2><br>
 		<div id="login-form">
 			' . $sError . '
@@ -75,9 +69,7 @@
 		<h4>Would you like to <a href="login.php">login</a>?</h4>
 		<h4>Create a new <a href="register.php">account</a>?</h4>';
     }
-
     $sOutput .= '</div>';
-
     // lets display our output string.
     echo $sOutput;
 ?>

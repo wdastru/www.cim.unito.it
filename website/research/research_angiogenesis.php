@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection13">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
 			<?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
 			<?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							Tumor Angiogenesis
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<p class='indent'>
 							Angiogenesis is commonly indicated as a hallmark of cancer. It
 							involves the formation of new capillaries from pre-existing
@@ -103,7 +96,6 @@
 								class="group-leaders-img"
 								src="../images/staff/Dario_Longo.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -127,6 +119,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

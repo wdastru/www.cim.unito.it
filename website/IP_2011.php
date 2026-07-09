@@ -1114,7 +1114,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -1125,7 +1124,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

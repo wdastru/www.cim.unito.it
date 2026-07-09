@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/../../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -638,7 +637,6 @@
 													</ol>
 									</div>
 						</div>
-						
 					</div>
 				</div>
 			</div>
@@ -650,7 +648,6 @@
 			<p>
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail 
-			
 			</p>
 			<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
 			<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
@@ -661,6 +658,5 @@
 	<script>
         changeSideNavStyles();
     </script>
-	
 </body>
 </html>

@@ -30,7 +30,6 @@
         <div id="section7">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-
             <div id="subsection0">
                 <div id="sidebar-narrow">
                     <div class="padding"></div>
@@ -194,7 +193,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -204,7 +202,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

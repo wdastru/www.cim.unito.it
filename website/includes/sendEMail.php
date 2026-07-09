@@ -2,13 +2,10 @@
 function sendEMail(&$vars, &$mailer)
 {
 	$mailer->CharSet = 'utf-8';
-
 	$mailer->Subject = $vars['subject'];
-
 	$host = $_SERVER['SERVER_NAME'];
 	$mailer->From = "nobody@$host";
 	$mailer->Body = $vars['body'];
-
 	/*
 	 to the  ".$vars['name']."\r\n\r\n".
 	"Thanks for your registration with ".$this->sitename."\r\n".
@@ -19,7 +16,6 @@ function sendEMail(&$vars, &$mailer)
 	"Webmaster\r\n".
 	$this->sitename;
 	*/
-
 	if(!$mailer->Send())
 	{
 		return false;

@@ -26,7 +26,6 @@
         $submitted = 0; 
     } 
 ?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -57,7 +56,6 @@
                         );
                         return false;
                     }
-
                     // check extension
                     if (document.getElementById) {
                         if (document.getElementById("file1") != null) {
@@ -67,7 +65,6 @@
                             );
                             var extensionCaseInsensitive =
                                 id.value.split(".")[splitLength - 1];
-
                             if (
                                 extensionCaseInsensitive.toUpperCase() !=
                                     "DOC" &&
@@ -93,7 +90,6 @@
         <div id="section0">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
                 <div id="content">
@@ -114,9 +110,7 @@
                                 >
                                     Abstract submission
                                 </h1>
-
                                 <br />
-
                                 <p>
                                     The Scientific Committee calls for abstract
                                     submission on original work for oral/poster
@@ -132,10 +126,8 @@
                                     of presentation (oral/poster) by the end of
                                     March.
                                 </p>
-
                                 <b>Submission rules</b>
                                 <br />
-
                                 <ul>
                                     <li>size limit: 1 page (max 2 MB)</li>
                                     <li>
@@ -162,12 +154,9 @@
                                         (1<sup>st</sup> March 2014)
                                     </li>
                                 </ul>
-
                                 <br />
                                 <br />
-
                                 <b>Online submission</b>
-
                                 <form
                                     action="upload.php"
                                     method="post"
@@ -221,7 +210,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -232,7 +220,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

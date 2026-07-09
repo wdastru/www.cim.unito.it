@@ -14,11 +14,9 @@
                 table-layout: fixed;
                 width: 100%;
             }
-
             .supporters_table_cell {
                 text-align: center;
             }
-
             .supporters_table_cell img {
                 vertical-align: middle;
                 max-width: 90%;
@@ -32,7 +30,6 @@
         <div id="section2">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-
             <div id="subsection1">
                 <div id="sidebar">
                     <div class="padding">
@@ -443,9 +440,7 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
-
             <div id="footer">
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
@@ -456,7 +451,6 @@
                 <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
         </div>
-
         <script>
             //<![CDATA[
             changeSideNavStyles();

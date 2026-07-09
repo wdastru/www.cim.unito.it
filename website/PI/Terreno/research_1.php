@@ -15,10 +15,8 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
@@ -28,30 +26,22 @@ require_once __DIR__ . '/../../config.inc.php';
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
-
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
 						<!-- Nav -->
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Terreno/includes/menu_terreno.php'; ?>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<section class="container box feature3">
@@ -82,7 +72,6 @@ require_once __DIR__ . '/../../config.inc.php';
 								agents are very suitable for endothelial markers that do not
 								require the extravasation of the "large" probe, whereas optical
 								probes can easily reach extracellular and intracellular targets.</p>
-
 							<div style="text-align: center;">
 								<img src="images/Figure_Targeting_Overview_1.jpg"
 									style="max-width: 40%; height: auto;"
@@ -96,7 +85,6 @@ require_once __DIR__ . '/../../config.inc.php';
 											inflammation by paramagnetic micelles decorated with an anti
 											VCAM-1 peptide.</span>
 									</h3>
-
 									<p style="text-align: justify;">
 										This activity deals with the synthesis of mixed micelles
 										composed by DSPE-PEG2000 and the amphiphilic Gd(III) complex
@@ -147,9 +135,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									</p>
 								</div>
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<p style="text-align: justify;">
 									At T<sub>1</sub> contrast enhancement around 45% was observed
@@ -163,9 +149,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									(red circle), while no brightening was detected in the control
 									experiment.
 								</p>
-
 								<img src="images/research_1_3.jpg" alt="" class="image zooming">
-
 								<p style="text-align: justify;">The accumulation of the MRI
 									agent in the legs was confirmed by ICP-MS analysis, which
 									showed that the amount of metal ion in the inflamed muscles
@@ -189,7 +173,6 @@ require_once __DIR__ . '/../../config.inc.php';
 									of inflammation.</p>
 								<img src="images/research_1_5.jpg" alt="" class="image zooming">
 							</div>
-
 							<div class="4u 12u(mobile)">
 								<!-- Spotlight -->
 								<p style="text-align: justify;">
@@ -206,7 +189,6 @@ require_once __DIR__ . '/../../config.inc.php';
 									0.003.
 								</p>
 								<img src="images/research_1_6.jpg" alt="" class="image zooming">
-
 								<p style="text-align: justify;">At the other time points, no
 									statistically significant differences between the two
 									nanosystems were detected. Interestingly, the kinetic of the
@@ -235,12 +217,10 @@ require_once __DIR__ . '/../../config.inc.php';
 				</div>
 			</div>
 		</div>
-
 		<!-- Footer Wrapper -->
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
 				<div class="12u">
-
 					<ul class="menu">
 						<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -251,9 +231,7 @@ require_once __DIR__ . '/../../config.inc.php';
 			</footer>
 		</div>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -263,6 +241,5 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
 </body>
 </html>

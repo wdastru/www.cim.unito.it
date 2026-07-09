@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - CEST
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection3">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
 	            <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
 	            <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
                 <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							CEST Agents
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<p class='indent'>Such class of agents is based on the
 							magnetization transfer of saturation on the water NMR signal. The
 							amount of such a transfer depends on a number of factors (number
@@ -141,7 +134,6 @@
 								class="group-leaders-img"
 								src="<?php echo SITE_ROOT; ?>images/staff/ferrauto.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -165,6 +157,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

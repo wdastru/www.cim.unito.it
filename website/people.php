@@ -1,7 +1,6 @@
 <?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="it">
-    
     <head>
         <?php include SITE_PATH . "includes/head_const.inc.php"; ?>
         <title>Molecular Imaging Center - University of Torino - People</title>
@@ -13,11 +12,9 @@
     </head>
     <body>
         <div id="section8">
-            
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <div id="content-nosidebar">
                     <div class="paddingOuter">
                         <div class="band">
@@ -25,9 +22,7 @@
                                 class="subsectionTitle"
                                 id="staff_institution_1"
                             >
-                                
                                 University of Torino
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">

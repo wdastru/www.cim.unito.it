@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - CEST
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection9">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							<sup>19</sup>F-based Contrast Agents
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<p class='indent'>
 							The feasibility of <sup>19</sup>F MRI was firstly demonstrated in
 							1977, few years after the advent of <sup>1</sup>H MRI. Even if
@@ -155,7 +148,6 @@
 								class="group-leaders-img"
 								src="<?php echo SITE_ROOT; ?>images/staff/dastru.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -178,6 +170,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

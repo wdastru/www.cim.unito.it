@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 /* script variables */
 require_once (__DIR__ . '/../../../config.inc.php');
 $DBName = "cimdb";
@@ -10,14 +9,12 @@ $delFilename = "";
 $type = "";
 $table = "";
  /* script variables */
-
 include SITE_PATH . 'recursiveChmod.inc.php';
 @recursiveChmod(SITE_PATH . 'COST/private/WGs/WG1_docs/');
 @recursiveChmod(SITE_PATH . 'COST/private/WGs/WG2_docs/');
 @recursiveChmod(SITE_PATH . 'COST/private/WGs/WG3_docs/');
 @recursiveChmod(SITE_PATH . 'COST/private/WGs/WG4_docs/');
 @recursiveChmod(SITE_PATH . 'COST/private/WGs/WG5_docs/');
-
 $con = mysql_connect("localhost", "cim_adm", "vpsyyAR4jp");
 if (!$con) {
     die('Could not connect: ' . mysql_error());
@@ -30,15 +27,11 @@ if (isset($_POST['WG'])) {
 		exit();
 	}
 }
-
 //echo "<br>WG : " . $WG;
-
 if (isset($_POST['desc'])) {
 	$desc = htmlentities($_POST['desc']);
 }
-
 //echo "<br>desc : " . $desc;
-
 if (isset($_POST['type']) && $_POST['type']=='add') {
 	if (isset($_FILES['filename']['name'])) {
 	    $addFilename = $_FILES['filename']['name'];
@@ -58,28 +51,21 @@ if (isset($_POST['type']) && $_POST['type']=='add') {
     }
 //    echo "<br>delFilename : " . $delFilename;
 }
-
 if (isset($_POST['date'])) {
     $date = htmlentities($_POST['date']);
 }
-
 //echo "<br>date : " . $date;
-
 if (isset($_POST['path'])) {
     $path = htmlentities($_POST['path']);
 }
-
 //echo "<br>path : " . $path;
-
 if (isset($_POST['type'])) {
 	if (preg_match('/^(add|del)$/', $_POST['type']))
 	{
     	$type = $_POST['type'];
 	}
 }
-
 //echo "<br>type : " . $type;
-
 if (isset($_POST['table'])) {
     $table = $_POST['table'];
 }
@@ -88,18 +74,13 @@ else
 	header("Location: " . SITE_ROOT . "COST/private/error.php?error=missing_db_table_name");
 	exit();
 }
-
 //echo "<br>table : " . $table;
-
 mysql_select_db($DBName, $con);
-
 /* DATABASE OPTIMIZATION */
 $sql = "OPTIMIZE TABLE `" . $DBName . "`.`" . $table . "`";
 mysql_query($sql, $con);
 /* */
-
 //echo "<br>0";
-
 if ($type == "add") 
 {
 //echo "<br>1";
@@ -111,7 +92,6 @@ if ($type == "add")
 //echo "<br>3";
             $sql = "INSERT INTO `" . $DBName . "`.`" . $table . "` ( `WG`, `desc`, `filename`, `date`, `path` ) VALUES ( '" . $WG . "', '" . $desc . "', '" . $addFilename . "', '" . $date . "', '" . $path . "')";
 		$result = mysql_query($sql, $con);
-
 	} 
 	else 
 	{
@@ -126,14 +106,12 @@ if ($type == "add")
         header("Location: " . SITE_ROOT . "COST/private/error.php?error=file_exists");
         exit();
     }
-
 } 
 else if ($type == "del") 
 {
 //echo "<br>4";
 	$sql = "DELETE FROM `" . $DBName . "`.`" . $table . "` WHERE `date` = '" . $date . "' AND `filename` = '" . $delFilename . "' AND `WG` = '" . $WG . "' AND `path` = '" . $path . "' AND `desc` = '" . $desc . "'";
 	$result = mysql_query($sql, $con);
-	
 	if (file_exists($path . $delFilename)) {
 //echo "<br>5";
 		if (!unlink($path . $delFilename)) {
@@ -147,16 +125,12 @@ else if ($type == "del")
 		header("Location: " . SITE_ROOT . "COST/private/error.php?error=file_not_exists");
 		exit();
 	}
-
 } else {
 //echo "<br>7";
 	header("Location: " . SITE_ROOT . "COST/private/error.php?error=invalid_type");
 	exit();
 }
-
 mysql_close($con);
-
 //echo "<br>" . SITE_ROOT . "COST/private/WGs/WG.php?WG=" . $WG;
-
 header("Location: " . SITE_ROOT . "COST/private/WGs/WG.php?WG=" . $WG);
 ?>

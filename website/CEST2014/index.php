@@ -100,6 +100,5 @@
 		</div>
 		<!-- section closing -->
 	</div>
-	
 </body>
 </html>

@@ -1,7 +1,6 @@
 <?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
@@ -14,22 +13,17 @@
     </head>
     <body>
         <div id="section5">
-            
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <div id="content-nosidebar">
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 On going Projects
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            
                             <ul>
                                 <li class="myHoverPlace">
                                     <strong
@@ -97,9 +91,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 Past Projects
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -136,7 +128,6 @@
                                         of Torino and University of Aberdeen.
                                     </div>
                                 </li>
-
                                 <li>
                                     National project funded by San Paolo
                                     Foundation: "Imaging extracellular pH as a
@@ -375,7 +366,6 @@
                                     <strong>ATHIMAG</strong>
                                     (2011-2013);
                                 </li>
-
                                 <li>
                                     <a
                                         href="https://cordis.europa.eu/project/id/503569"
@@ -435,7 +425,6 @@
                                     Molecular Imaging"), 2008
                                 </li>
                             </ul>
-                            
                         </div>
                     </div>
                 </div>
@@ -460,6 +449,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

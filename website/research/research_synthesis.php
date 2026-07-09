@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection1">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
 			<?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
 			<?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
                 <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							Probe synthesis
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<p class='indent'>
 							The synthesis of an imaging probe is the first step of the
 							process of a molecular imaging investigation. The optimization of
@@ -47,8 +40,6 @@
 							most of all high kinetic inertness to allow their safe in vivo
 							application.<br> A more detailed explanation of the synthetic
 							approaches developed in our laboratories is listed below:
-						
-						
 						<ul>
 							<li><b>Nanosystems and targeting agents</b>
 								<p class="indent">In the group, various nanosystems such as
@@ -131,7 +122,6 @@
 								alt="Lorenzo Tei"
 								src="../images/staff/tei.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -155,6 +145,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

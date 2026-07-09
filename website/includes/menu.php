@@ -1,4 +1,3 @@
-
 <?php
 $base = '/www.cim.unito.it/website/';
 $menu = [
@@ -12,7 +11,6 @@ $menu = [
     $base . 'publications.php' => 'PUBLICATIONS'
 ];
 ?>
-
 <nav class="menu">
     <ul>
         <?php foreach ($menu as $url => $label): ?>

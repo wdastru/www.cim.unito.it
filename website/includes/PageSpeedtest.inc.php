@@ -6,5 +6,4 @@ echo "
 			rel='nofollow' title='PageSpeed Test this page'><img style='width: 48px;'
 			alt='PageSpeed logo' src='https://www.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png'> </a>
 ";
-        
 ?>

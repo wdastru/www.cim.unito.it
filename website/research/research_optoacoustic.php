@@ -66,7 +66,6 @@
                                 agents are currently under investigation for
                                 photoacoustic imaging applications. <br />
                             </p>
-
                             <ul>
                                 <li>
                                     <b>Small-molecules dyes </b>
@@ -90,7 +89,6 @@
                                         vitro.
                                     </p>
                                 </li>
-
                                 <li>
                                     <b>Nanoparticles and microbubbles</b>
                                     <p class="indent">
@@ -131,11 +129,8 @@
                                     </p>
                                 </li>
                             </ul>
-
                             <hr />
-
                             <h2 style="text-align: left">Group Leaders:</h2>
-
                             <a
                                 href="../PI/Longo/home.php"
                                 target="_blank"

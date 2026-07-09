@@ -16,10 +16,8 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
@@ -30,11 +28,9 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
 						<!-- Nav -->
@@ -45,10 +41,8 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				</header>
 			</div>
 		</div>
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<div class="container">
@@ -86,8 +80,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
                                                     ])['Mail'] . "</a>";
                                                     ?>
 											</p>
-
-
 										</div>
 									</article>
 									<article class="box excerpt">
@@ -118,7 +110,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 ?>
 											</p>
 										</div>
-
 										<div class="showtext">
 											<div>My research is devoted to ...</div>
 											<form style="margin-left: 210px">
@@ -140,7 +131,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 												</p>
 											</form>
 										</div>
-
 									</article>
 									<!--
 									<article class="box excerpt">
@@ -157,7 +147,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 													href="mailto:ivan.hawala@unito.it">ivan.hawala@unito.it</a>
 											</p>
 										</div>
-
 										<div class="showtext">
 											<div>My project aims to ...</div>
 											<form style="margin-left: 210px">
@@ -179,7 +168,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 												</p>
 											</form>
 										</div>
-
 									</article>
 									<article class="box excerpt">
 										<a class="image left"><img src="images/patrucco.jpg" alt="Deyssy Patrucco"
@@ -195,7 +183,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 													href="mailto:deyssy.patrucco@unito.it">deyssy.patrucco@unito.it</a>
 											</p>
 										</div>
-
 										<div class="showtext">
 											<div>My research project aims to ...</div>
 											<form style="margin-left: 210px">
@@ -214,35 +201,27 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 												</p>
 											</form>
 										</div>
-
 									</article>-->
-
 									<!-- 
 								<article class="box excerpt">
 								<div>
 									<h2 class="second icon fa-user">Lab Alumni</h2>
-									
 									<ul class="divided">
 											<li><b>Nome cognome</b>, MSc student</li>
 											<li><b>Nome cognome</b>, MSc student</li>
 											<li><b>Nome cognome</b>, BSc student</li>
 											<li></li>
-											
 										</ul>
 									</div>
 									</article>
 									 -->
 								</section>
-
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-
 	</div>
 	<!-- Footer Wrapper -->
 	<div id="footer-wrapper">
@@ -257,9 +236,7 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 				</footer>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -269,7 +246,6 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
 </body>
 </html>
 <?php 

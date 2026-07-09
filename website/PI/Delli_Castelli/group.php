@@ -145,7 +145,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 										</form>
 									</div>
 								</article> -->
-							
 							</div>
 						</div>
 						<hr></hr>

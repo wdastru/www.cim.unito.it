@@ -17,7 +17,6 @@ require_once (__DIR__ . '/../../config.inc.php');
         <div id="section5">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-
             <div id="subsection0">
                 <div id="sidebar-narrow">
                     <div class="padding">
@@ -53,7 +52,6 @@ require_once (__DIR__ . '/../../config.inc.php');
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -63,7 +61,6 @@ require_once (__DIR__ . '/../../config.inc.php');
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

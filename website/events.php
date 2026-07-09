@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Events</title>
@@ -17,7 +16,6 @@
                     "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
                 font-size: 16px;
             }
-
             #content a {
                 color: #fff;
             }
@@ -28,7 +26,6 @@
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
                 <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';
                 ?>
@@ -76,6 +73,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        
     </body>
 </html>

@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -13,24 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		
 		<div id="subsection12">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							
 							Cellular labelling
-							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						
 						<p class="indent">
 							Cellular labeling is a real medical need to forehead the growing
 							interest in topics such stem cells and cellular therapy. New
@@ -132,7 +125,6 @@
 								class="group-leaders-img"
 								src="<?php echo SITE_ROOT; ?>images/staff/ferrauto.webp">
 						</a>
-						
 					</div>
 				</div>
 			</div>
@@ -156,6 +148,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	
 </body>
 </html>

@@ -13,7 +13,6 @@
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
@@ -31,7 +30,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div id="after"></div>
                 <div id="footer">
                     <p>
@@ -44,7 +42,6 @@
                 </div>
             </div>
         </div>
-
         <script>
             //<![CDATA[
             changeSideNavStyles();

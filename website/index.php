@@ -21,20 +21,16 @@
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                
                 <?php require SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
                 require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 Molecular Imaging Center
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            
                             <p>
                                 The Molecular Imaging Center (CIM) at the
                                 University of Torino, directed by Silvio Aime,
@@ -89,9 +85,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 Research Areas
-                                
                             </h1>
                         </div>
                         <div class="home paddingInner">
@@ -257,9 +251,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 News and Events
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -510,9 +502,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                
                                 Recent papers
-                                
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -936,6 +926,5 @@
                 setTimeout(carousel, 5000);
             }
         </script>
-        
     </body>
 </html>
