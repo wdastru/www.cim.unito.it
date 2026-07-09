@@ -331,7 +331,7 @@
                                             ></span
                                         >
                                         <a
-                                            href="http://eurelax.uwm.edu.pl/"
+                                            href="https://www.cost.eu/actions/CA15209/"
                                             target="_blank"
                                         >
                                             <span class="paperTitle"
