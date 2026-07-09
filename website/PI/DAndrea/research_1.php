@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
 	<title>Protein Development | D'Andrea Lab</title>
-	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
+	<?php include SITE_PATH . 'PI/DAndrea/includes/head_const_dandrea.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -36,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
@@ -44,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
+							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
 
 					</div>
@@ -74,7 +74,7 @@
 								</p>
 
 								<div style="text-align: center;">
-									<img src="<?php echo $localizer; ?>PI/DAndrea/images/figure_research_overview_1.jpg" style="max-width: 30%; height: auto;"><br/></div>
+									<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_1.jpg" style="max-width: 30%; height: auto;"><br/></div>
 
 
 							</article>
@@ -89,7 +89,7 @@
 										<header>
 											<p font style="text-transform: none; font-size:1.3em">Peptide molecules activating Axl/Gas6 system for the treatment of multiple sclerosis</p>
 										</header>
-										<img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_1_1.jpg" alt="" class="image zooming">
+										<img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_1_1.jpg" alt="" class="image zooming">
 
 										<p align="justify">
 										Axl is a tyrosine kinases receptor playing crucial role in several cellular responses. Axl/Gas6 signaling has been 
@@ -135,7 +135,7 @@
 										  functionalized with tracers to obtain molecular probes for Axl imaging using PET/MRI and optical imaging techniques. We focus on 
 										  fibronectin-like extracellular domains of Axl which will be prepared by recombinant DNA technology (L-form) and by chemical synthesis (D-form).
 											
-										 <img src="<?php echo $localizer; ?>/PI/DAndrea/images/research_1_2.jpg" alt="" class="image zooming">
+										 <img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_1_2.jpg" alt="" class="image zooming">
 											
 											
 									</article>
@@ -160,13 +160,13 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>

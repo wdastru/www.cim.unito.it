@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
+    require_once __DIR__ . '/../../config.inc.php';
+    include SITE_PATH . 'includes/staff_db.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,8 +11,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 <html lang="en">
 <head>
 <title>Contact Us | CUTRIN LAB</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Cutrin/includes/head_const_cutrin.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Cutrin/includes/head_const_cutrin.php'; ?>
 	</head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -24,7 +24,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
@@ -38,7 +38,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>PI/Cutrin/home.php" id="logo">JUAN
+							<a href="<?php echo $SITE_ROOT; ?>PI/Cutrin/home.php" id="logo">JUAN
 								CARLOS CUTRIN LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Probes To Detect Bacteria In
@@ -48,7 +48,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Cutrin/includes/menu_cutrin.php'); ?>
+							<?php include SITE_PATH . 'PI/Cutrin/includes/menu_cutrin.php'; ?>
 						</nav>
 
 					</div>
@@ -71,7 +71,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 
 									<p align="left" style="line-height: 2";>
 										<strong> <a title="Molecular Imaging Center" class="http"
-											href="<?php echo $localizer; ?>"> Molecular Imaging Center</a><br>
+											href="<?php echo SITE_ROOT; ?>"> Molecular Imaging Center</a><br>
 											<a title="Dept. Mol Biotec Health Sciences" class="http"
 											href="https://www.mbc.unito.it" target="_blank"> Department
 												of Molecular Biotechnologies and Health Science</a><br> <a
@@ -82,22 +82,22 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 									</p>
 									<p style="color: dark gray; line-height: 2" align="left">
 												Tel: <?php
-            echo getStaffData($conn, [
-                'Nome' => 'Juan Carlos',
-                'Cognome' => 'Cutrin'
-            ])['Telefono'];
-            ?>
+                                                         echo getStaffData($conn, [
+                                                             'Nome'    => 'Juan Carlos',
+                                                             'Cognome' => 'Cutrin',
+                                                         ])['Telefono'];
+                                                     ?>
                                                     <br> Fax: +39 011
-										6706458<br> 
+										6706458<br>
 												<?php
-            echo "<a href=\"mailto:" . getStaffData($conn, [
-                'Nome' => 'Juan Carlos',
-                'Cognome' => 'Cutrin'
-            ])['Mail'] . "\">" . getStaffData($conn, [
-                'Nome' => 'Juan Carlos',
-                'Cognome' => 'Cutrin'
-            ])['Mail'] . "</a>";
-            ?>
+                                                    echo "<a href=\"mailto:" . getStaffData($conn, [
+                                                        'Nome'    => 'Juan Carlos',
+                                                        'Cognome' => 'Cutrin',
+                                                    ])['Mail'] . "\">" . getStaffData($conn, [
+                                                        'Nome'    => 'Juan Carlos',
+                                                        'Cognome' => 'Cutrin',
+                                                    ])['Mail'] . "</a>";
+                                                ?>
                                             </font>
 									</p>
 
@@ -128,15 +128,15 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive staff data from db
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 </body>
 </html>

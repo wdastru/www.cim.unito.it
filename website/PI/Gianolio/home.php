@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require_once __DIR__ . '/../../config.inc.php';
+include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,8 +11,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Home | GIANOLIO LAB</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Gianolio/includes/head_const_gianolio.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Gianolio/includes/head_const_gianolio.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -22,7 +22,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -32,10 +32,10 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-							<?php require ($localizer . 'PI/Gianolio/includes/header_gianolio.php'); ?>
+							<?php include SITE_PATH . 'PI/Gianolio/includes/header_gianolio.php'; ?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Gianolio/includes/menu_gianolio.php'); ?>
+							<?php include SITE_PATH . 'PI/Gianolio/includes/menu_gianolio.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -70,7 +70,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								</div>
 							</div>
 							<div class="4u 12u(mobile)">
-								<a href="#"><img src="<?php echo $localizer; ?>images/staff/gianolio.jpg" alt="Eliana Gianolio"
+								<a href="#"><img src="<?php echo SITE_ROOT; ?>images/staff/gianolio.jpg" alt="Eliana Gianolio"
 									style="width: 140px; height: auto;" class="image left"></a>
 								<div style="padding: 0 0 0 180px;">
 									<p style="line-height: 1.2; text-align: left;">
@@ -195,8 +195,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 		</div>
 	</div>

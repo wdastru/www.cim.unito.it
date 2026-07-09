@@ -1,24 +1,22 @@
-<?php
-$localizer = "../";
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     "
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - CEST agents
         </title>
         <meta name="description" content="" />
     </head>
     <body>
-        <?php require_once($localizer . 'includes/analyticstracking.php') ?>
+        <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section1">
-            <?php require ('../includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
             "
             <div id="subsection11">
-                " <?php require ('../includes/research-side-nav.php'); ?>
+                " <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div id="band">

@@ -1,11 +1,9 @@
-<?php
-$localizer = "./";
-?>
+<?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <!-- InstanceBegin template="/Templates/projects.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Projects
         </title>
@@ -18,8 +16,9 @@ $localizer = "./";
         <div id="section5">
             <!-- InstanceBeginEditable name="subsection opening" -->
             <div id="subsection0">
-                <?php include 'includes/menu.php'; ?> <?php include
-                'includes/header.php'; ?>
+                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
+ include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
+                <div id="header"></div>
                 <!-- InstanceEndEditable -->
                 <div id="content-nosidebar">
                     <div class="paddingOuter">
@@ -223,13 +222,8 @@ $localizer = "./";
                                     <strong>H2020-PHC-2015 project</strong>:
                                     "GlucoCEST Imaging of Neoplastic Tumours" -
                                     <strong
-                                        ><a
-                                            href="http://www.glint-project.eu/"
-                                            target="_blank"
-                                            ><span class="paperTitle"
-                                                >GLINT</span
-                                            ></a
-                                        ></strong
+                                        ><span>GLINT</span
+                                            ></strong
                                     >
                                     (2016-2020)
                                 </li>
@@ -270,16 +264,10 @@ $localizer = "./";
                                 </li>
                                 <li>
                                     <strong>H2020-INFRADEV-1-2015-2</strong>:
-                                    "Euro-BioImaging Preparatory Phase 2",
-                                    2015-2017 (<strong
-                                        ><a
-                                            href="https://www.h2020.md/en/h2020-infradev-1-2015-2"
-                                            target="_blank"
-                                            ><span class="paperTitle"
-                                                >EuBI PP2</span
-                                            ></a
-                                        ></strong
-                                    >)
+                                    "Euro-BioImaging Preparatory Phase 2" - 
+                                    <strong><span>EuBI PP2</span
+                                            ></strong
+                                    > (2015-2017)
                                 </li>
                                 <li>
                                     Research project of the Green Chemistry
@@ -415,14 +403,9 @@ $localizer = "./";
                                     2004-2008 (Coord.)
                                 </li>
                                 <li>
-                                    <a
-                                        href="http://www.meditrans-ip.net/"
-                                        target="_blank"
-                                        rel="external"
-                                        >Integrated Project
+                                    Integrated Project
                                         <strong>Meditrans</strong>("Imaging Drug
                                         Delivery"), 2006-2010
-                                    </a>
                                 </li>
                                 <li>
                                     <a
@@ -464,9 +447,9 @@ $localizer = "./";
                         Torino - ITALY<br />
                         Fax. Tel. Mail
                     </p>
-                    <?php include $localizer .
-                    'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    $localizer . 'includes/PageSpeedTest.inc.php';?>
+                    <?php include SITE_PATH .
+                        'includes/HTML5_badge_valid.inc.php'; ?> <?php include
+    SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
                 </div>
             </div>
             <!-- subsection closing -->

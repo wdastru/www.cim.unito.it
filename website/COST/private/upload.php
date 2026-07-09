@@ -1,9 +1,7 @@
 <?php
-
-/* script variables */
-$localizer = '../../';
-$uploaddir = $localizer . "COST/private/uploads/";
-$costXml = $localizer . "COST/private/cost.xml";
+require_once (__DIR__ . '/../../config.inc.php');
+$uploaddir = SITE_ROOT . "COST/private/uploads/";
+$costXml = SITE_ROOT . "COST/private/cost.xml";
 $uploader = htmlentities($_POST['uploader']);
 $desc = htmlentities($_POST['desc']);
 $file = htmlentities($_POST['file']);
@@ -15,8 +13,8 @@ if (preg_match('/^[01]$/', $_POST['delete'])) {
 }
 /* script variables */
 
-require_once($localizer . 'includes/class.phpmailer.php');
-require $localizer . 'includes/sendEMail.php';
+include SITE_PATH . 'includes/class.phpmailer.php';
+include SITE_PATH . 'includes/sendEMail.php';
 
 $mailer = new PHPMailer();
 $mailer->AddAddress("walter.dastru@unito.it", "Walter Dastru'");
@@ -182,7 +180,7 @@ else
 				fclose($file);
 
 			} else {
-				header("Location: " . $localizer . "COST/private/error.php?error=cost_xml_not_found");
+				header("Location: " . SITE_ROOT . "COST/private/error.php?error=cost_xml_not_found");
                 exit();
 			}
 			$body = "A new file has been uploaded:\r\n\r\nfilename: " . 
@@ -193,7 +191,7 @@ else
 					$theFileName . "\r\nsize: " . $theFileSize . "\r\nuploader: " . 
 					$uploader . "\r\ndate: " . date(DATE_RFC822) . "\r\n";
 			//PRINT AN ERROR IF THE FILE COULD NOT BE COPIED
-			header("Location: " . $localizer . "COST/private/error.php?error=file_not_copied");
+			header("Location: " . SITE_ROOT . "COST/private/error.php?error=file_not_copied");
             exit();
 		}
 
@@ -209,5 +207,5 @@ else
 	}
 }
 
-header("Location: " . $localizer . "COST/private/mgmtCommitee.php");
+header("Location: " . SITE_ROOT . "COST/private/mgmtCommitee.php");
 ?>

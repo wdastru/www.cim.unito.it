@@ -1,22 +1,22 @@
 <!doctype html>
-<?php $localizer = "../"; ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <html lang="en">
     <head>
         <title>
             Molecular Imaging Center - University of Torino - CIM-XNAT
         </title>
         <meta name="description" content="" />
-        <?php require $localizer . "includes/head_const.inc.php"; ?>
+        <?php include SITE_PATH . "includes/head_const.inc.php"; ?>
     </head>
     <body>
         <div id="section1">
             <div id="subsection22">
-                <?php require $localizer . "includes/main-nav.php"; ?> <?php
-                require $localizer . "includes/main-nav-mobile.php"; ?>
+                <?php include SITE_PATH . "includes/main-nav.php"; ?> <?php
+                include SITE_PATH . "includes/main-nav-mobile.php"; ?>
                 <div id="header"></div>
 
-                <?php require $localizer . "includes/research-side-nav.php"; ?>
-                <?php require $localizer .
+                <?php include SITE_PATH . "includes/research-side-nav.php"; ?>
+                <?php include SITE_PATH .
                 "includes/research-side-nav-mobile.php"; ?>
                 <div id="content">
                     <div class="paddingOuter">
@@ -67,7 +67,7 @@
                             <div class="imgCenter">
                                 <img
                                     alt="XNAT"
-                                    src="<?php echo $localizer; ?>/images/research_lines/xnat/xnat_workflow.png"
+                                    src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/xnat_workflow.png"
                                 />
                             </div>
                             <h2>TOOLS</h2>
@@ -115,7 +115,7 @@
                                                     <div class="img-wrapper">
                                                         <img
                                                             alt="uploader"
-                                                            src="<?php echo $localizer; ?>/images/research_lines/xnat/uploader.png"
+                                                            src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/uploader.png"
                                                         />
                                                     </div>
                                                     <div>
@@ -133,7 +133,7 @@
                                                     <div class="img-wrapper">
                                                         <img
                                                             alt="annotation"
-                                                            src="<?php echo $localizer; ?>/images/research_lines/xnat/annotation.png"
+                                                            src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/annotation.png"
                                                         />
                                                     </div>
                                                     <div>
@@ -157,7 +157,7 @@
                                                     <div class="img-wrapper">
                                                         <img
                                                             alt="converter"
-                                                            src="<?php echo $localizer; ?>/images/research_lines/xnat/converter.png"
+                                                            src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/converter.png"
                                                         />
                                                     </div>
                                                     <div>
@@ -181,10 +181,10 @@
                                             </h2>
                                             <div style="padding-left: 2rem">
                                                 <a
-                                                    href="<?php echo $localizer; ?>download/XNAT-PIC-2.0.0-win32.msi"
+                                                    href="<?php echo SITE_ROOT; ?>download/XNAT-PIC-2.0.0-win32.msi"
                                                 >
                                                     <img
-                                                        src="<?php echo $localizer; ?>images/XNAT-PIC-2.0.0-download_button.png"
+                                                        src="<?php echo SITE_ROOT; ?>images/XNAT-PIC-2.0.0-download_button.png"
                                                         alt="download button created with https://buttonoptimizer.com/"
                                                         style="max-width: 100%"
                                                     />
@@ -195,7 +195,7 @@
                                                         font-size: 1rem;
                                                         font-weight: bold;
                                                     "
-                                                    href="<?php echo $localizer; ?>download/XNAT-PIC_v2_UserInstruction.docx"
+                                                    href="<?php echo SITE_ROOT; ?>download/XNAT-PIC_v2_UserInstruction.docx"
                                                     >USER INSTRUCTIONS</a
                                                 >
                                                 <br />
@@ -225,7 +225,7 @@
                                                 <div class="feature">
                                                     <img
                                                         alt="xnat-feature-1"
-                                                        src="<?php echo $localizer; ?>/images/research_lines/xnat/1.png"
+                                                        src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/1.png"
                                                     />
                                                     <div>
                                                         <h4>Stand-alone SW</h4>
@@ -239,7 +239,7 @@
                                                 <div class="feature">
                                                     <img
                                                         alt="xnat-feature-2"
-                                                        src="<?php echo $localizer; ?>/images/research_lines/xnat/2.png"
+                                                        src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/2.png"
                                                     />
                                                     <div>
                                                         <h4>
@@ -258,7 +258,7 @@
                                                 <div class="feature">
                                                     <img
                                                         alt="xnat-feature-3"
-                                                        src="<?php echo $localizer; ?>/images/research_lines/xnat/3.png"
+                                                        src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/3.png"
                                                     />
                                                     <div>
                                                         <h4>Secure Access</h4>
@@ -273,7 +273,7 @@
                                                 <div class="feature">
                                                     <img
                                                         alt="xnat-feature-4"
-                                                        src="<?php echo $localizer; ?>/images/research_lines/xnat/4.png"
+                                                        src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/4.png"
                                                     />
                                                     <div>
                                                         <h4>
@@ -289,7 +289,7 @@
                                                 <div class="feature">
                                                     <img
                                                         alt="xnat-feature-5"
-                                                        src="<?php echo $localizer; ?>/images/research_lines/xnat/5.png"
+                                                        src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/5.png"
                                                     />
                                                     <div>
                                                         <h4>Improved Speed</h4>
@@ -303,7 +303,7 @@
                                                 <div class="feature">
                                                     <img
                                                         alt="xnat-feature-6"
-                                                        src="<?php echo $localizer; ?>/images/research_lines/xnat/6.png"
+                                                        src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/6.png"
                                                     />
                                                     <div>
                                                         <h4>More objects</h4>
@@ -317,7 +317,7 @@
                                                 <div class="feature">
                                                     <img
                                                         alt="xnat-feature-7"
-                                                        src="<?php echo $localizer; ?>/images/research_lines/xnat/7.png"
+                                                        src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/7.png"
                                                     />
                                                     <div>
                                                         <h4>
@@ -391,7 +391,7 @@
                                             across imaging projects.
                                             <br /><br />
                                             <a
-                                                href="<?php echo $localizer; ?>/download/metadata-plugin.zip"
+                                                href="<?php echo SITE_ROOT; ?>/download/metadata-plugin.zip"
                                                 >Download</a
                                             ><br /><br />
                                         </li>
@@ -443,7 +443,7 @@
                             </p>
                             <h2>Acknowledgements</h2>
                             <p>
-                                European Union’s Horizon 2020 research and
+                                European Union's Horizon 2020 research and
                                 innovation programme under grant agreements
                                 #824087 (EOSC-LIFE project), #965345
                                 (HealthyCloud project), #101058427 (EOSC4Cancer
@@ -458,7 +458,7 @@
                                     >
                                         <img
                                             alt="EOSC-Life"
-                                            src="../images/research_lines/eosclogo.png"
+                                            src="<?php echo SITE_ROOT; ?>images/research_lines/eosclogo.png"
                                         />
                                     </a>
                                 </div>
@@ -469,7 +469,7 @@
                                     >
                                         <img
                                             alt="healthyCloud"
-                                            src="../images/research_lines/xnat/healthycloud.jpg"
+                                            src="<?php echo SITE_ROOT; ?>images/research_lines/xnat/healthycloud.jpg"
                                         />
                                     </a>
                                 </div>
@@ -480,7 +480,7 @@
                                     >
                                         <img
                                             alt="EOSC-Cancer"
-                                            src="../images/research_lines/xnat/eosc-cancer.png"
+                                            src="<?php echo SITE_ROOT; ?>images/research_lines/xnat/eosc-cancer.png"
                                         />
                                     </a>
                                 </div>
@@ -491,7 +491,7 @@
                                     >
                                         <img
                                             alt="EUCAIM"
-                                            src="../images/research_lines/xnat/eucaim.png"
+                                            src="<?php echo SITE_ROOT; ?>images/research_lines/xnat/eucaim.png"
                                         />
                                     </a>
                                 </div>
@@ -502,38 +502,22 @@
                                     >
                                         <img
                                             alt="EU-logo"
-                                            src="../images/research_lines/xnat/EU-logo.svg"
+                                            src="<?php echo SITE_ROOT; ?>images/research_lines/xnat/EU-logo.svg"
                                         />
                                     </a>
                                 </div>
                             </div>
-                            <!-- <b>Links/References</b> <br> <br>
-						<p class="indent">
-							XNAT home page:
-							<a
-								title="Profile"
-								href="http://www.xnat.org"
-								style="color: #dc6a10"> http://www.xnat.org</a>
-							<br>
-						</p>
-						<p class="indent">
-							User documentation:
-							<a
-								title="Profile"
-								href="https://wiki.xnat.org/documentation"
-								style="color: #dc6a10"> https://wiki.xnat.org/documentation</a>
-						</p> -->
                             <hr />
                             <h2 style="text-align: left">Group Leaders:</h2>
                             <a
-                                href="../PI/Longo/home.php"
+                                href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                 target="_blank"
                                 title="Dario Longo"
                             >
                                 <img
                                     alt="Dario Longo"
                                     class="group-leaders-img"
-                                    src="../images/staff/Dario_Longo.webp"
+                                    src="<?php echo SITE_ROOT; ?>images/staff/Dario_Longo.webp"
                                 />
                             </a>
                             <a
@@ -544,7 +528,7 @@
                                 <img
                                     alt="Walter Dastr&ugrave;"
                                     class="group-leaders-img"
-                                    src="../images/staff/dastru.webp"
+                                    src="<?php echo SITE_ROOT; ?>images/staff/dastru.webp"
                                 />
                             </a>
                         </div>
@@ -560,9 +544,9 @@
                         Torino - ITALY <br />
                         Fax. Tel. Mail
                     </p>
-                    <?php include $localizer .
+                    <?php include SITE_PATH .
                     "includes/HTML5_badge_valid.inc.php"; ?> <?php include
-                    $localizer . "includes/PageSpeedTest.inc.php"; ?>
+                    SITE_PATH . "includes/PageSpeedTest.inc.php"; ?>
                 </div>
             </div>
             <!-- subsection22 closing -->

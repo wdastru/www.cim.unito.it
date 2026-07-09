@@ -1,9 +1,9 @@
-<?php $localizer = './'; ?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <!-- InstanceBegin template='/Templates/research.dwt' codeOutsideHTMLIsLocked='false' -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php' ?>
         <title>
             Molecular Imaging Center - University of Torino - Research
         </title>
@@ -16,12 +16,13 @@
         <div id="section1">
             <!-- InstanceBeginEditable name='subsection opening' -->
             <div id="subsection0">
-                <?php include 'includes/menu.php'; ?> <?php include
-                'includes/header.php'; ?>
+                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
+                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
+                <div id="header"></div>
                 <!-- InstanceEndEditable -->
-                <?php require ($localizer . 'includes/research-side-nav.php');
-                ?> <?php require ($localizer .
-                'includes/research-side-nav-mobile.php'); ?>
+                <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
+                <?php include SITE_PATH .
+                'includes/research-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -54,7 +55,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_synthesis.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_synthesis.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -67,7 +68,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_synthesis.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_synthesis.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -77,12 +78,12 @@
                                             <div class="PIName">
                                                 <span>PI:</span>
                                                 <a
-                                                    href="<?php echo $localizer; ?>staff/staff_stefania.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_stefania.php"
                                                 >
                                                     <span> Stefania, </span>
                                                 </a>
                                                 <a
-                                                    href="<?php echo $localizer; ?>staff/staff_tei.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_tei.php"
                                                 >
                                                     <span>Tei</span>
                                                 </a>
@@ -91,7 +92,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_gado.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_gado.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -103,7 +104,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_Gdcomplex.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_Gdcomplex.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -114,19 +115,19 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span>Terreno, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Gianolio/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Gianolio/home.php"
                                                 >
                                                     <span>Gianolio, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Longo/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                                 >
                                                     <span>Longo</span>
                                                 </a>
@@ -135,7 +136,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_cest.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_cest.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -148,7 +149,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_CEST.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_CEST.webp"
                                                             alt="Graphic representing DIACEST, PARACEST and LIPOCEST agents"
                                                             class="w3-image-left"
                                                         />
@@ -159,7 +160,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span>Terreno,</span>
                                                 </a>
@@ -174,14 +175,14 @@
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Longo/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                                     target="_blank"
                                                 >
                                                     <span>Longo, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_ferrauto.php"
                                                     target="_blank"
                                                 >
                                                     <span>Ferrauto</span>
@@ -191,7 +192,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_hyper.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_hyper.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -204,7 +205,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_hyperpolarized.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_hyperpolarized.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -214,7 +215,7 @@
                                             <div class="PIName">
                                                 <span>PI:</span>
                                                 <a
-                                                    href="<?php echo $localizer; ?>PI/Reineri/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Reineri/home.php"
                                                     title="Opens in new window"
                                                 >
                                                     <span>Reineri </span>
@@ -224,7 +225,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_multi.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_multi.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -237,7 +238,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_multimodal.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_multimodal.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -248,7 +249,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span> Terreno</span>
                                                 </a>
@@ -257,7 +258,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_responsive.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_responsive.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -270,7 +271,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_responsive.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_responsive.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -281,7 +282,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Longo/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                                     target="_blank"
                                                 >
                                                     <span> Longo, </span>
@@ -296,19 +297,19 @@
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Gianolio/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Gianolio/home.php"
                                                 >
                                                     <span>Gianolio, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_digilio.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_digilio.php"
                                                 >
                                                     <span>Digilio, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_ferrauto.php"
                                                     target="_blank"
                                                 >
                                                     <span>Ferrauto</span>
@@ -318,7 +319,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_nanotarget.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_nanotarget.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -332,7 +333,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_targeting_agents.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_targeting_agents.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -343,24 +344,24 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span> Terreno, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
                                                 >
                                                     <span>Geninatti</span>
                                                 </a>
                                                 <a
-                                                    href="<?php echo $localizer; ?>staff/staff_stefania.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_stefania.php"
                                                 >
                                                     <span> Stefania, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_ferrauto.php"
                                                     target="_blank"
                                                 >
                                                     <span>Ferrauto</span>
@@ -370,7 +371,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_imaging_therapy.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_imaging_therapy.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -383,7 +384,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_theranostic.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_theranostic.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -394,19 +395,19 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span> Terreno, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
                                                 >
                                                     <span>Geninatti, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Cutrin/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Cutrin/home.php"
                                                 >
                                                     <span>Cutrin</span>
                                                 </a>
@@ -415,7 +416,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_Fprobes.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_Fprobes.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -429,7 +430,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_Fprobes.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_Fprobes.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -440,7 +441,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span> Terreno, </span>
                                                 </a>
@@ -459,7 +460,7 @@
                                                     </span>
                                                 </a>
                                                 <a
-                                                    href="<?php echo $localizer; ?>staff/staff_menchise.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_menchise.php"
                                                 >
                                                     <span>Menchise</span>
                                                 </a>
@@ -468,7 +469,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_Gdboro.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_Gdboro.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -481,7 +482,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_Gd_boron.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_Gd_boron.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -492,7 +493,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
                                                 >
                                                     <span> Geninatti </span>
                                                 </a>
@@ -501,7 +502,7 @@
                                         <li class="research">
                                             <div class="img_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_photoacoustic.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_photoacoustic.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -514,7 +515,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_photoacoustic.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_photoacoustic.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -525,13 +526,13 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Longo/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                                 >
                                                     <span>Longo, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_ferrauto.php"
                                                     target="_blank"
                                                 >
                                                     <span>Ferrauto</span>
@@ -556,7 +557,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_cell.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_cell.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -569,7 +570,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_cell_labeling.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_cell_labeling.webp"
                                                             alt="Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains sorrounding a cell"
                                                             class="w3-image-left"
                                                         />
@@ -580,19 +581,19 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span>Terreno, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
                                                 >
                                                     <span>Geninatti, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_ferrauto.php"
                                                     target="_blank"
                                                 >
                                                     <span>Ferrauto</span>
@@ -602,7 +603,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_angiogenesis.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_angiogenesis.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -615,7 +616,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_angiogenesis.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_angiogenesis.webp"
                                                             alt="Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel"
                                                             class="w3-image-left"
                                                         />
@@ -626,7 +627,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Longo/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                                 >
                                                     <span>Longo</span>
                                                 </a>
@@ -635,7 +636,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_acidosis.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_acidosis.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -648,7 +649,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_tumor_acidosis.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_tumor_acidosis.webp"
                                                             alt="Scheme representing some of the methabolism involved in tumor acidosis"
                                                             class="w3-image-left"
                                                         />
@@ -659,7 +660,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Longo/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                                 >
                                                     <span>Longo, </span>
                                                 </a>
@@ -673,7 +674,7 @@
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_ferrauto.php"
                                                     target="_blank"
                                                 >
                                                     <span>Ferrauto</span>
@@ -683,7 +684,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_metabolism.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_metabolism.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -696,7 +697,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_tumor_metabolism.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_tumor_metabolism.webp"
                                                             alt="Scheme representing tumor metabolism"
                                                             class="w3-image-left"
                                                         />
@@ -707,7 +708,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Reineri/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Reineri/home.php"
                                                 >
                                                     <span>Reineri</span>
                                                 </a>
@@ -716,7 +717,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_inflammation.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_inflammation.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -730,7 +731,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_image_processing.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_image_processing.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -741,7 +742,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Cutrin/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Cutrin/home.php"
                                                 >
                                                     <span>Cutrin</span>
                                                 </a>
@@ -750,7 +751,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_imaging_therapy.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_imaging_therapy.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -763,7 +764,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_theranostic.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_theranostic.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -774,19 +775,19 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Terreno/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php"
                                                 >
                                                     <span> Terreno, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
                                                 >
                                                     <span>Geninatti, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Cutrin/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Cutrin/home.php"
                                                 >
                                                     <span>Cutrin</span>
                                                 </a>
@@ -795,7 +796,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_enzyme.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_enzyme.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -808,7 +809,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_enzyme.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_enzyme.webp"
                                                             alt="Scheme representing the action of an enzyme to form a product by connecting two substrates togheter"
                                                             class="w3-image-left"
                                                         />
@@ -819,13 +820,13 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>staff/staff_digilio.php"
+                                                    href="<?php echo SITE_ROOT; ?>staff/staff_digilio.php"
                                                 >
                                                     <span> Digilio, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Reineri/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Reineri/home.php"
                                                 >
                                                     <span>Reineri</span>
                                                 </a>
@@ -834,7 +835,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_FFCrelax.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_FFCrelax.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -847,7 +848,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_image_processing.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_image_processing.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -858,13 +859,13 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Geninatti/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Geninatti/home.php"
                                                 >
                                                     <span>Geninatti, </span>
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Gianolio/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Gianolio/home.php"
                                                 >
                                                     <span>Gianolio</span>
                                                 </a>
@@ -873,7 +874,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_Gd_depo.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_Gd_depo.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -886,7 +887,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_Gd_deposition.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_Gd_deposition.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -897,7 +898,7 @@
                                                 <span>PI:</span>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Gianolio/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Gianolio/home.php"
                                                 >
                                                     <span>Gianolio</span>
                                                 </a>
@@ -906,7 +907,7 @@
                                         <li class="research">
                                             <div class="image_link">
                                                 <a
-                                                    href="<?php echo $localizer; ?>research/research_processing.php"
+                                                    href="<?php echo SITE_ROOT; ?>research/research_processing.php"
                                                 >
                                                     <div
                                                         class="w3-header researchTitle"
@@ -919,7 +920,7 @@
                                                     </div>
                                                     <div class="researchImg">
                                                         <img
-                                                            src="<?php echo $localizer; ?>images/research/figure_research_image_processing.webp"
+                                                            src="<?php echo SITE_ROOT; ?>images/research/figure_research_image_processing.webp"
                                                             alt=""
                                                             class="w3-image-left"
                                                         />
@@ -936,7 +937,7 @@
                                                 </a>
                                                 <a
                                                     title="Opens in new window"
-                                                    href="<?php echo $localizer; ?>PI/Longo/home.php"
+                                                    href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
                                                 >
                                                     <span>Longo</span>
                                                 </a>
@@ -956,9 +957,9 @@
                         Torino - ITALY <br />
                         Fax. Tel. Mail
                     </p>
-                    <?php include $localizer .
+                    <?php include SITE_PATH .
                     'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    $localizer . 'includes/PageSpeedTest.inc.php';?>
+                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
                 </div>
                 <!-- section closing -->
             </div>

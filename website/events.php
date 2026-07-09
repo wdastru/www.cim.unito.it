@@ -1,9 +1,9 @@
-<?php $localizer = "./"; ?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Events</title>
         <meta
             name="description"
@@ -26,12 +26,14 @@
     <body>
         <div id="section2">
             <div id="subsection0">
-                <?php include 'includes/menu.php'; ?> <?php include
-                'includes/header.php'; ?>
+                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
+                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
+                <!-- InstanceBeginEditable name="subsection opening" -->
+                <div id="header"></div>
                 <!-- InstanceEndEditable -->
-                <?php require ($localizer . 'includes/events-side-nav.php'); ?>
-                <?php require ($localizer .
-                'includes/events-side-nav-mobile.php'); ?>
+                <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
+                <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';
+                ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -62,9 +64,9 @@
                     ITALY<br />
                     Fax. Tel. Mail
                 </p>
-                <?php include $localizer .
-                'includes/HTML5_badge_valid.inc.php';?> <?php include $localizer
-                . 'includes/PageSpeedTest.inc.php';?>
+                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';
+                ?> <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';
+                ?>
             </div>
             <!-- section closing -->
         </div>

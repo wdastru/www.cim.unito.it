@@ -1,8 +1,8 @@
-<?php $localizer = "./"; ?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Intensive
             programme 2009
@@ -21,13 +21,19 @@
                                 id="section2-subsection1"
                                 class="subsection_link"
                             >
-                                <a href="educational.php">Educational</a>
+                                <a
+                                    href="<?php echo SITE_ROOT; ?>educational.php"
+                                    >Educational</a
+                                >
                             </dt>
                             <dt
                                 id="section2-subsection2"
                                 class="subsection_link"
                             >
-                                <a href="meetings.php">Meetings</a>
+                                <a
+                                    href="<?php echo SITE_ROOT; ?>educational.php"
+                                    >Meetings</a
+                                >
                             </dt>
                         </dl>
                     </div>

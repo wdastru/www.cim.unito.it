@@ -1,26 +1,26 @@
-<?php $localizer = "../"; ?>
+<?php require_once __DIR__ . '/../config.inc.php'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
             content="University of Torino. Website of the Molecular Imaging Center."
         />
         <link
-            href="<?php echo $localizer; ?>CEST2014/CEST.css"
+            href="<?php echo SITE_ROOT; ?>CEST2014/CEST.css"
             rel="stylesheet"
             type="text/css"
         />
     </head>
     <body>
         <div id="section0">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
-                <?php require ($localizer . 'includes/home-side-nav.php'); ?>
+                <?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -29,7 +29,7 @@
                             </h1>
                         </div>
                         <div id="CEST-section3">
-                            <?php require ('include/CEST-nav.php'); ?>
+                            <?php include SITE_PATH . 'CEST2014/include/CEST-nav.php'; ?>
                             <div class="paddingInner">
                                 <h1
                                     style="

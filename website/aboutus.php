@@ -1,8 +1,9 @@
-<?php $localizer = './'; ?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
+    <!-- InstanceBegin template='/Templates/home.dwt' codeOutsidephpIsLocked='false' -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - About Us
         </title>
@@ -18,11 +19,14 @@
     <body>
         <div id="section0">
             <div id="subsection1">
-                <?php include 'includes/menu.php'; ?>
-                <?php include 'includes/header.php'; ?>
-                <?php require ($localizer . 'includes/home-side-nav.php'); ?>
-                <?php require ($localizer .
-                'includes/home-side-nav-mobile.php'); ?>
+                <?php require(SITE_PATH . 'includes/main-nav.php'); ?> <?php
+                require(SITE_PATH . 'includes/main-nav-mobile.php'); ?>
+                <div id="header"></div>
+                <!-- InstanceBeginEditable name='subsection opening' -->
+                <!-- InstanceEndEditable -->
+                <?php require (SITE_PATH . 'includes/home-side-nav.php'); ?>
+                <?php require (SITE_PATH . 'includes/home-side-nav-mobile.php');
+                ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="paddingInner">
@@ -142,7 +146,7 @@
                                             >
                                             <br />
                                             <a
-                                                href="<?php echo $localizer; ?>documenti/CV_SilvioAime-2023.doc"
+                                                href="<?= SITE_ROOT ?>documenti/CV_SilvioAime-2023.doc"
                                                 download
                                                 >Download Curriculum Vitae</a
                                             >
@@ -161,9 +165,9 @@
                         Torino - ITALY <br />
                         Fax. Tel. Mail
                     </p>
-                    <?php include $localizer .
+                    <?php include SITE_PATH .
                     'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    $localizer . 'includes/PageSpeedTest.inc.php';?>
+                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
                 </div>
                 <!-- section closing -->
             </div>

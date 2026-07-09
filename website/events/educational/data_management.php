@@ -1,10 +1,8 @@
-<?php
-$localizer = "../../";
-?>
+<?php require_once __DIR__ . '/../../config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <meta
             name="description"
             content="1st Webinar on Data Management in Biomedical Imaging"
@@ -32,7 +30,7 @@ $localizer = "../../";
     </head>
     <body>
         <div id="section2">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection1">
@@ -44,7 +42,7 @@ $localizer = "../../";
                                 class="subsection_link"
                             >
                                 <a
-                                    href="<?php echo $localizer;?>educational.php"
+                                    href="<?php echo SITE_ROOT; ?>educational.php"
                                     >Educational</a
                                 >
                             </li>
@@ -52,7 +50,7 @@ $localizer = "../../";
                                 id="section2-subsection2"
                                 class="subsection_link"
                             >
-                                <a href="<?php echo $localizer;?>news.php"
+                                <a href="<?php echo SITE_ROOT; ?>news.php"
                                     >News</a
                                 >
                             </li>
@@ -454,9 +452,8 @@ $localizer = "../../";
                     ITALY <br />
                     Fax. Tel. Mail
                 </p>
-                <?php include $localizer .
-                'includes/HTML5_badge_valid.inc.php';?> <?php include $localizer
-                . 'includes/PageSpeedTest.inc.php';?>
+                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+                <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
         </div>
 

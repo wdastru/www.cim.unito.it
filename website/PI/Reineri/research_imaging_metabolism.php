@@ -1,5 +1,5 @@
 <?php
-$localizer = "../../";
+require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,8 +10,8 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Imaging Metabolism | REINERI Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Reineri/includes/head_const_reineri.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -21,7 +21,7 @@ $localizer = "../../";
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -31,10 +31,10 @@ $localizer = "../../";
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-						<?php require ($localizer . 'PI/Reineri/includes/header_reineri.php');?>
+						<?php include SITE_PATH . 'PI/Reineri/includes/header_reineri.php';?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Reineri/includes/menu_reineri.php'); ?>
+							<?php include SITE_PATH . 'PI/Reineri/includes/menu_reineri.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -55,7 +55,7 @@ $localizer = "../../";
 								investigate these metabolic changes.</p>
 							<div style="text-align: center; width: 100%;">
 								<img
-									src="<?php echo $localizer; ?>PI/Reineri/images/research_line_2_1.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Reineri/images/research_line_2_1.jpg"
 									alt="image 1" style="max-width: 100%; height: auto;"><br>
 							</div>
 							<p style="text-align: justify;">
@@ -80,7 +80,7 @@ $localizer = "../../";
 							</p>
 							<div style="text-align: center;width: 100%;">
 								<img
-									src="<?php echo $localizer; ?>PI/Reineri/images/research_line_2_2.jpg"
+									src="<?php echo SITE_ROOT; ?>PI/Reineri/images/research_line_2_2.jpg"
 									alt="image 2" style="max-width: 100%; height: auto;"><br>
 							</div>
 						</div>
@@ -96,20 +96,20 @@ $localizer = "../../";
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 		</div>
 	</div>
 	<!-- Scripts -->
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 </body>
 </html>

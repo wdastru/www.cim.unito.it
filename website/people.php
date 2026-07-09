@@ -1,9 +1,9 @@
-<?php $localizer = './'; ?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
     <!-- InstanceBegin template='/Templates/home.dwt' codeOutsideHTMLIsLocked='false' -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . "includes/head_const.inc.php"; ?>
         <title>Molecular Imaging Center - University of Torino - People</title>
         <link rel="stylesheet" href="square.css" />
         <meta
@@ -13,9 +13,11 @@
     </head>
     <body>
         <div id="section8">
+            <!-- InstanceBeginEditable name='subsection opening' -->
             <div id="subsection0">
-                <?php include 'includes/menu.php'; ?> <?php include
-                'includes/header.php'; ?>
+                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
+                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
+                <div id="header"></div>
                 <!-- InstanceEndEditable -->
                 <div id="content-nosidebar">
                     <div class="paddingOuter">
@@ -39,7 +41,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/aime.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/aime.webp);
                                     "
                                 >
                                     <div>
@@ -58,7 +60,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/terreno.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/terreno.webp);
                                     "
                                 >
                                     <div>
@@ -77,7 +79,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/geninatti_crich.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/geninatti_crich.webp);
                                     "
                                 >
                                     <div>
@@ -96,7 +98,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/gianolio.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/gianolio.webp);
                                     "
                                 >
                                     <div>
@@ -115,7 +117,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/dastru.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/dastru.webp);
                                     "
                                 >
                                     <div>
@@ -134,7 +136,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/reineri.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/reineri.webp);
                                     "
                                 >
                                     <div>
@@ -153,7 +155,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/dellicastelli.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/dellicastelli.webp);
                                     "
                                 >
                                     <div>
@@ -172,7 +174,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/viale.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/viale.webp);
                                     "
                                 >
                                     <div>
@@ -191,7 +193,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/cutrin.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/cutrin.webp);
                                     "
                                 >
                                     <div>
@@ -210,7 +212,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/ferrauto.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/ferrauto.webp);
                                     "
                                 >
                                     <div>
@@ -236,7 +238,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/baroni.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/baroni.webp);
                                     "
                                 >
                                     <div>
@@ -255,7 +257,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/stefania.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/stefania.webp);
                                     "
                                 >
                                     <div>
@@ -274,7 +276,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/alberti.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/alberti.webp);
                                     "
                                 >
                                     <div>
@@ -300,7 +302,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/anemone.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/anemone.webp);
                                     "
                                 >
                                     <div>
@@ -319,7 +321,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/ruggiero.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/ruggiero.webp);
                                     "
                                 >
                                     <div>
@@ -338,7 +340,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/garello.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/garello.webp);
                                     "
                                 >
                                     <div>
@@ -357,7 +359,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/digregorio.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/digregorio.webp);
                                     "
                                 >
                                     <div>
@@ -376,7 +378,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/cavallari.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/cavallari.webp);
                                     "
                                 >
                                     <div>
@@ -395,7 +397,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/capozza.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/capozza.webp);
                                     "
                                 >
                                     <div>
@@ -414,7 +416,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/zullino.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/zullino.webp);
                                     "
                                 >
                                     <div>
@@ -433,7 +435,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/romdhane.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/romdhane.webp);
                                     "
                                 >
                                     <div>
@@ -452,7 +454,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/tear.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/tear.webp);
                                     "
                                 >
                                     <div>
@@ -478,7 +480,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/hawala.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/hawala.webp);
                                     "
                                 >
                                     <div>
@@ -497,7 +499,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/bitonto.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/bitonto.webp);
                                     "
                                 >
                                     <div>
@@ -516,7 +518,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/tripepi.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/tripepi.webp);
                                     "
                                 >
                                     <div>
@@ -535,7 +537,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/patrucco.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/patrucco.webp);
                                     "
                                 >
                                     <div>
@@ -554,7 +556,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/irrera.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/irrera.webp);
                                     "
                                 >
                                     <div>
@@ -573,7 +575,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/fatehbasharzad.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/fatehbasharzad.webp);
                                     "
                                 >
                                     <div>
@@ -592,7 +594,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/sforzi.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/sforzi.webp);
                                     "
                                 >
                                     <div>
@@ -611,7 +613,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/furlan.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/furlan.webp);
                                     "
                                 >
                                     <div>
@@ -630,7 +632,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/palagi.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/palagi.webp);
                                     "
                                 >
                                     <div>
@@ -649,7 +651,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/dhakan.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/dhakan.webp);
                                     "
                                 >
                                     <div>
@@ -668,7 +670,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/bondar.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/bondar.webp);
                                     "
                                 >
                                     <div>
@@ -687,7 +689,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/villano.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/villano.webp);
                                     "
                                 >
                                     <div>
@@ -724,7 +726,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/Dario_Longo.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/Dario_Longo.webp);
                                     "
                                 >
                                     <div>
@@ -743,7 +745,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/menchise.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/menchise.webp);
                                     "
                                 >
                                     <div>
@@ -759,7 +761,7 @@
                                         </a>
                                     </div>
                                 </li>
-                                <!-- <li class='staff' style='background-image: url(<?php echo $localizer; ?>images/staff/dandrea.webp);'>
+                                <!-- <li class='staff' style='background-image: url(<?php echo SITE_ROOT; ?>images/staff/dandrea.webp);'>
 								<div>
 									<a
 										title='Profile'
@@ -780,7 +782,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/padovan.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/padovan.webp);
                                     "
                                 >
                                     <div>
@@ -799,7 +801,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/carrera.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/carrera.webp);
                                     "
                                 >
                                     <div>
@@ -826,7 +828,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/carella.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/carella.webp);
                                     "
                                 >
                                     <div>
@@ -845,7 +847,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/corrado.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/corrado.webp);
                                     "
                                 >
                                     <div>
@@ -877,7 +879,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/botta.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/botta.webp);
                                     "
                                 >
                                     <div>
@@ -896,7 +898,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/tei.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/tei.webp);
                                     "
                                 >
                                     <div>
@@ -915,7 +917,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/digilio.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/digilio.webp);
                                     "
                                 >
                                     <div>
@@ -946,7 +948,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/arena.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/arena.webp);
                                     "
                                 >
                                     <div>
@@ -965,7 +967,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/capuana.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/capuana.webp);
                                     "
                                 >
                                     <div>
@@ -984,7 +986,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/atlante.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/atlante.webp);
                                     "
                                 >
                                     <div>
@@ -1003,7 +1005,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/consolino.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/consolino.webp);
                                     "
                                 >
                                     <div>
@@ -1022,7 +1024,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/pagoto.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/pagoto.webp);
                                     "
                                 >
                                     <div>
@@ -1041,7 +1043,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/paglialonga.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/paglialonga.webp);
                                     "
                                 >
                                     <div>
@@ -1060,7 +1062,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/spatola.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/spatola.webp);
                                     "
                                 >
                                     <div>
@@ -1079,7 +1081,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/bhavnarani.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/bhavnarani.webp);
                                     "
                                 >
                                     <div>
@@ -1098,7 +1100,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/bardini.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/bardini.webp);
                                     "
                                 >
                                     <div>
@@ -1117,7 +1119,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/barale.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/barale.webp);
                                     "
                                 >
                                     <div>
@@ -1136,7 +1138,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/marini.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/marini.webp);
                                     "
                                 >
                                     <div>
@@ -1155,7 +1157,7 @@
                                 <li
                                     class="staff"
                                     style="
-                                        background-image: url(<?php echo $localizer; ?>images/staff/galati.webp);
+                                        background-image: url(<?php echo SITE_ROOT; ?>images/staff/galati.webp);
                                     "
                                 >
                                     <div>
@@ -1182,9 +1184,9 @@
                         Torino - ITALY <br />
                         Fax. Tel. Mail
                     </p>
-                    <?php include $localizer .
+                    <?php include SITE_PATH .
                     'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    $localizer . 'includes/PageSpeedTest.inc.php';?>
+                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
                 </div>
             </div>
         </div>

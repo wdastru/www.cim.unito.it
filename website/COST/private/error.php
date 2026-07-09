@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'COST/private/errors.inc.php';
+require_once (__DIR__ . '/../../config.inc.php');
+include SITE_PATH . 'COST/private/errors.inc.php';
 
 function valid_error() {
 	if (preg_match('/^(cost_xml_not_found|file_not_copied|missing_db_table_name|missing_upload_file|invalid_type|delete|upload|missing_filename|file_exists|file_not_exists|upload_dir_not_exist|delete_not_set|not_valid_WG|file_too_big|could_not_delete_file)$/', $_GET['error'])) {
@@ -14,7 +14,7 @@ function valid_error() {
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
@@ -25,12 +25,12 @@ function valid_error() {
     </head>
     <body>
         <div id="section5">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
                 <div id="sidebar">
-                    <?php require $localizer . 'COST/include/COST-sidebar.php';
+                    <?php include SITE_PATH . 'COST/include/COST-sidebar.php';
                     ?>
                     <div class="padding">
                         <dl id="list">

@@ -1,10 +1,10 @@
 
-<?php $localizer = "../"; ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
 	Responsive agents</title>
 <meta
@@ -13,14 +13,14 @@
 </head>
 <body>
 	<div id='section1'>
-		<?php require ($localizer . 'includes/main-nav.php'); ?>
-		<?php require ($localizer . 'includes/main-nav-mobile.php'); ?>
+		<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
 		<div id='header'></div>
 		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection7">
 			<!-- InstanceEndEditable -->
-            <?php require ($localizer . 'includes/research-side-nav.php'); ?>
-            <?php require ($localizer . 'includes/research-side-nav-mobile.php'); ?>
+            <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
+            <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -85,12 +85,12 @@
 						<hr>
 						<h2 style="text-align: left;">Group Leaders:</h2>
 						<a
-							href="<?php echo $localizer; ?>PI/Longo/home.php"
+							href="<?php echo SITE_ROOT; ?>PI/Longo/home.php"
 							title="Dario Longo">
 							<img
 								alt="Dario Longo"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/Dario_Longo.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/Dario_Longo.webp">
 						</a>
 						<a
 							href="#"
@@ -98,31 +98,31 @@
 							<img
 								alt="Daniela Delli Castelli"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/dellicastelli.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/dellicastelli.webp">
 						</a>
 						<a
-							href="<?php echo $localizer; ?>staff/staff_digilio.php"
+							href="<?php echo SITE_ROOT; ?>staff/staff_digilio.php"
 							title="Giuseppe Digilio">
 							<img
 								alt="Giuseppe Digilio"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/digilio.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/digilio.webp">
 						</a>
 						<a
-							href="<?php echo $localizer; ?>PI/Gianolio/home.php"
+							href="<?php echo SITE_ROOT; ?>PI/Gianolio/home.php"
 							title="Eliana Gianolio">
 							<img
 								alt="Eliana Gianolio"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/gianolio.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/gianolio.webp">
 						</a>
 						<a
-							href="<?php echo $localizer; ?>staff/staff_ferrauto.php"
+							href="<?php echo SITE_ROOT; ?>staff/staff_ferrauto.php"
 							title="Giuseppe Ferrauto">
 							<img
 								alt="Giuseppe Ferrauto"
 								class="group-leaders-img"
-								src="<?php echo $localizer; ?>images/staff/ferrauto.webp">
+								src="<?php echo SITE_ROOT; ?>images/staff/ferrauto.webp">
 						</a>
 						<!-- InstanceEndEditable -->
 					</div>
@@ -135,8 +135,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
 			<!-- subsection closing -->
 		</div>

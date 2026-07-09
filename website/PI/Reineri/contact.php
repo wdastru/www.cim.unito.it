@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require_once __DIR__ . '/../../config.inc.php';
+include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,8 +11,8 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Contact Us | REINERI Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Gianolio/includes/head_const_gianolio.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Gianolio/includes/head_const_gianolio.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -22,7 +22,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
@@ -31,10 +31,10 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-							<?php require ($localizer . 'PI/Gianolio/includes/header_gianolio.php'); ?>
+							<?php include SITE_PATH . 'PI/Gianolio/includes/header_gianolio.php'; ?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Gianolio/includes/menu_gianolio.php'); ?>
+							<?php include SITE_PATH . 'PI/Gianolio/includes/menu_gianolio.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -50,7 +50,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 								<h2>Contact Us</h2>
 								<p style="text-align: left; line-height: 2;">
 									<strong> <a title="Molecular Imaging Center" class="http"
-										href="<?php echo $localizer; ?>"> Molecular Imaging Center</a><br>
+										href="<?php echo SITE_ROOT; ?>"> Molecular Imaging Center</a><br>
 										<a title="Dept. Mol Biotec Health Sciences" class="http"
 										href="https://www.mbc.unito.it" target="_blank"> Department of
 											Molecular Biotechnologies and Health Science</a><br> <a
@@ -98,21 +98,21 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 		</div>
 	</div>
 	<!-- Scripts -->
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 </body>
 </html>
 <?php

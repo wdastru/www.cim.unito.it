@@ -1,26 +1,26 @@
-<?php $localizer = "../../"; ?>
+<?php require_once (__DIR__ . '/../../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
 <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
 <meta
 	name="description"
 	content="University of Torino. Website of the Molecular Imaging Center.">
 <link
-	href="<?php echo $localizer;?>/COST/cost.css"
+	href="<?php echo SITE_ROOT;;?>/COST/cost.css"
 	rel='stylesheet'
 	type='text/css'>
 </head>
 <body>
 	<div id='section5'>
 		<div id="subsection2">
-    		<?php require $localizer . 'includes/main-nav.php'; ?>
-    		<?php require $localizer . 'includes/main-nav-mobile.php'; ?>
+    		<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+    		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
 			<div id='header'></div>
-            <?php require $localizer . 'COST/include/COST-sidebar.php'; ?>
-            <?php require $localizer . 'COST/include/COST-sidebar-mobile.php'; ?>
+            <?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
+            <?php include SITE_PATH . 'COST/include/COST-sidebar-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -29,19 +29,19 @@
 					<div class='paddingInner'>
 						<ul>
 							<li><a
-									href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Sep2013.php">COST
+									href="<?php echo SITE_ROOT; ?>COST/meetings/COST_TD1004-Sep2013.php">COST
 									TD1004 Annual Meeting - Instanbul, 3-5 October 2014</a></li>
 							<li><a
-									href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Sep2013.php">COST
+									href="<?php echo SITE_ROOT; ?>COST/meetings/COST_TD1004-Sep2013.php">COST
 									TD1004 Annual Meeting - Athens, 1-3 September 2013</a></li>
 							<li><a
-									href="<?php echo $localizer;?>COST/meetings/COST_TD1004-May2013.php">Inter
+									href="<?php echo SITE_ROOT; ?>COST/meetings/COST_TD1004-May2013.php">Inter
 									WG COST Action TD1004 EMIM2013 - Torino, 26-28 May 2013</a></li>
 							<li><a
-									href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Oct2012.php">COST
+									href="<?php echo SITE_ROOT; ?>COST/meetings/COST_TD1004-Oct2012.php">COST
 									TD1004 Meeting - London, 28-30 October 2012</a></li>
 							<li><a
-									href="<?php echo $localizer;?>COST/meetings/COST_TD1004-Feb2012.php">COST
+									href="<?php echo SITE_ROOT; ?>COST/meetings/COST_TD1004-Feb2012.php">COST
 									TD1004 Meeting - Torino, 17-18 February 2012</a></li>
 						</ul>
 					</div>
@@ -55,8 +55,8 @@
 						Fax. Tel. Mail 
 				
 				</p>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
 			</div>
 		</div>
 		<!-- section closing -->

@@ -1,10 +1,9 @@
 <?php
     session_start();
     
-    $localizer = "../";
-
-    require_once ($localizer . 'includes/class.phpmailer.php');
-    require $localizer . 'includes/sendEMail.php';
+    require_once (__DIR__ . '/../config.inc.php');
+    require_once SITE_PATH . 'includes/class.phpmailer.php';
+    require SITE_PATH . 'includes/sendEMail.php';
     
     if ($_POST['email']=='')
     {

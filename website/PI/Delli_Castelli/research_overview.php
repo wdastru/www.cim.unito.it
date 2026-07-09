@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <title>Research | DELLI CASTELLI Lab</title>
-	<?php require ($localizer . 'PI/Delli_Castelli/includes/head_const_delli.php'); ?>
+	<?php include SITE_PATH . 'PI/Delli_Castelli/includes/head_const_delli.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -23,7 +23,7 @@
 			<div class="unito-logo-container">                   
 	          </div></a>
 	          
-	          <a href="<?php echo $localizer; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
+	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
 			
@@ -36,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>/PI/Delli_Castelli/home.php" id="logo">DELLI CASTELLI LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>/PI/Delli_Castelli/home.php" id="logo">DELLI CASTELLI LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Quella roba bella che fa la Delli Castelli...</p>
 
@@ -44,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Delli_Castelli/includes/menu_delli.php'); ?>
+							<?php include SITE_PATH . 'PI/Delli_Castelli/includes/menu_delli.php'; ?>
 						</nav>
 
 					</div>
@@ -68,30 +68,30 @@
 									<h2>RESEARCH OVERVIEW</h2>
 									<p></p>
 									<article class="box excerpt">
-										<a ><img src="<?php echo $localizer; ?>PI/Delli_Castelli/images/research_delli_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo SITE_ROOT; ?>PI/Delli_Castelli/images/research_delli_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="<?php echo $localizer; ?>/PI/Delli_Castelli/research_1.php">Research 1</a>
+													<a href="<?php echo SITE_ROOT; ?>/PI/Delli_Castelli/research_1.php">Research 1</a>
 												</h3>
 											</header>
 											<p>Bla, bla, bla...</p>
-											<a href="<?php echo $localizer; ?>/PI/Delli_Castelli/research_1.php"><p align="right">
+											<a href="<?php echo SITE_ROOT; ?>/PI/Delli_Castelli/research_1.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="<?php echo $localizer; ?>PI/Delli_Castelli/images/research_delli_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
+										<a ><img src="<?php echo SITE_ROOT; ?>PI/Delli_Castelli/images/research_delli_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="<?php echo $localizer; ?>/PI/Delli_Castelli/research_2.php">Research 2</a>
+													<a href="<?php echo SITE_ROOT; ?>/PI/Delli_Castelli/research_2.php">Research 2</a>
 												</h3>
 											</header>
 											<p>Bla, bla, bla...</p>
-											<a href="<?php echo $localizer; ?>/PI/Delli_Castelli/research_1.php"><p align="right">
+											<a href="<?php echo SITE_ROOT; ?>/PI/Delli_Castelli/research_1.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
@@ -106,13 +106,13 @@
 	
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>

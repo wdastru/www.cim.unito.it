@@ -1,5 +1,5 @@
 <?php
-$localizer = "../../";
+require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,8 +10,8 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Research | GIANOLIO Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Gianolio/includes/head_const_gianolio.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Gianolio/includes/head_const_gianolio.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -21,7 +21,7 @@ $localizer = "../../";
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -31,10 +31,10 @@ $localizer = "../../";
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-							<?php require ($localizer . 'PI/Gianolio/includes/header_gianolio.php'); ?>
+							<?php include SITE_PATH . 'PI/Gianolio/includes/header_gianolio.php'; ?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Gianolio/includes/menu_gianolio.php'); ?>
+							<?php include SITE_PATH . 'PI/Gianolio/includes/menu_gianolio.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -55,14 +55,14 @@ $localizer = "../../";
 											paramagnetic metal complexes with potential applications in
 											MRI and Molecular Imaging.</p>
 										<br> <a><img
-											src="<?php echo $localizer; ?>PI/Gianolio/images/research_1_1.jpg"
+											src="<?php echo SITE_ROOT; ?>PI/Gianolio/images/research_1_1.jpg"
 											alt="figure 1" class="image left"
 											style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 style="text-transform: none; text-align: left;">
 													<a
-														href="<?php echo $localizer; ?>PI/Gianolio/research_1.php">High
+														href="<?php echo SITE_ROOT; ?>PI/Gianolio/research_1.php">High
 														Relaxivity Gd-complexes</a>
 												</h3>
 											</header>
@@ -74,20 +74,20 @@ $localizer = "../../";
 												mechanism. Much work has been done and is ongoing to design
 												structures with high relaxivity.</p>
 											<a
-												href="<?php echo $localizer; ?>PI/Gianolio/research_1.php"><p
+												href="<?php echo SITE_ROOT; ?>PI/Gianolio/research_1.php"><p
 													style="text-align: right; color: blue;">Continue Reading >></p></a>
 										</div>
 									</article>
 									<article class="box excerpt">
 										<div>
 											<a><img
-												src="<?php echo $localizer; ?>PI/Gianolio/images/research_2_1.jpg"
+												src="<?php echo SITE_ROOT; ?>PI/Gianolio/images/research_2_1.jpg"
 												alt="figure 2" class="image left"
 												style="width: 300px; height: auto;"></a>
 											<header>
 												<h3 style="text-transform: none; text-align: left;">
 													<a
-														href="<?php echo $localizer; ?>PI/Gianolio/research_2.php">Relaxometric
+														href="<?php echo SITE_ROOT; ?>PI/Gianolio/research_2.php">Relaxometric
 														Methods for medical/biological issues</a>
 												</h3>
 											</header>
@@ -99,7 +99,7 @@ $localizer = "../../";
 												several types of relaxometer are commercially available at
 												easily affordable costs.</p>
 											<a
-												href="<?php echo $localizer; ?>PI/Gianolio/research_2.php"><p
+												href="<?php echo SITE_ROOT; ?>PI/Gianolio/research_2.php"><p
 													style="text-align: right; color: blue;">Continue Reading >></p>
 											</a>
 										</div>
@@ -107,13 +107,13 @@ $localizer = "../../";
 									<article class="box excerpt">
 										<div>
 											<a><img
-												src="<?php echo $localizer; ?>PI/Gianolio/images/research_3_1.jpg"
+												src="<?php echo SITE_ROOT; ?>PI/Gianolio/images/research_3_1.jpg"
 												alt="figure 3" class="image left"
 												style="width: 300px; height: auto;"></a>
 											<header>
 												<h3 style="text-transform: none; text-align: left;">
 													<a
-														href="<?php echo $localizer; ?>PI/Gianolio/research_3.php">Gd
+														href="<?php echo SITE_ROOT; ?>PI/Gianolio/research_3.php">Gd
 														retention in the body</a>
 												</h3>
 											</header>
@@ -127,7 +127,7 @@ $localizer = "../../";
 												detectable gadolinium traces in the brain, with linear
 												neutral agents leaving greater quantities.</p>
 											<a
-												href="<?php echo $localizer; ?>PI/Gianolio/research_3.php"><p
+												href="<?php echo SITE_ROOT; ?>PI/Gianolio/research_3.php"><p
 													style="text-align: right; color: blue;">Continue Reading >></p>
 											</a>
 										</div>
@@ -147,8 +147,8 @@ $localizer = "../../";
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 		</div>
 	</div>

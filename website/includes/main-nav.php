@@ -3,28 +3,28 @@
 		<div id='main-nav'>
 			<dl>
 				<dt id='main-nav-section0'>
-					<a href='".$localizer."index.php'>HOME</a>
+					<a href='" . SITE_ROOT . "index.php'>HOME</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section8'>
-					<a href='".$localizer."people.php'>PEOPLE</a>
+					<a href='" . SITE_ROOT . "people.php'>PEOPLE</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section1'>
-					<a href='".$localizer."research.php'>RESEARCH</a>
+					<a href='" . SITE_ROOT . "research.php'>RESEARCH</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section2' class='second_mobile'>
-					<a href='".$localizer."events.php'>EVENTS</a>
+					<a href='" . SITE_ROOT . "events.php'>EVENTS</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section3' class='second_row'>
-					<a href='".$localizer."facilities/index.php'>FACILITIES</a>
+					<a href='" . SITE_ROOT . "facilities/index.php'>FACILITIES</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section4'>
-					<a href='".$localizer."partners.php'>PARTNERS</a>
+					<a href='" . SITE_ROOT . "partners.php'>PARTNERS</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section5'>
-					<a href='".$localizer."projects.php'>PROJECTS</a>
+					<a href='" . SITE_ROOT . "projects.php'>PROJECTS</a>
 				</dt> <dd></dd>
 				<dt id='main-nav-section6'>
-					<a href='".$localizer."publications.php'>PUBLICATIONS</a>
+					<a href='" . SITE_ROOT . "publications.php'>PUBLICATIONS</a>
 				</dt> <dd></dd>
 			</dl>
 		</div>

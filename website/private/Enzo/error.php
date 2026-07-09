@@ -1,12 +1,12 @@
 <?php
-$localizer = "../../";
-require('errors.inc.php');
+    require_once __DIR__ . '/../../config.inc.php';
+    require 'errors.inc.php';
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     "
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
@@ -17,7 +17,7 @@ require('errors.inc.php');
     </head>
     <body>
         <div id="section5">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
             "
             <div id="subsection0">
@@ -44,7 +44,7 @@ require('errors.inc.php');
                             <h1 class="subsectionTitle">Enzo's private area</h1>
                         </div>
                         <div class="paddingInner">
-                            <p><?php echo $error[$_GET['error']]?></p>
+                            <p><?php echo $error[$_GET['error']] ?></p>
                             <input
                                 type="submit"
                                 value="Back"

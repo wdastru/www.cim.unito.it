@@ -1,6 +1,6 @@
 <?php
-$localizer = "../../";
-require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
+require_once __DIR__ . '/../../config.inc.php';
+include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono from db
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,7 +11,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 <html lang="en">
 <head>
 <title>Contact Us | DELLI CASTELLI Lab</title>
-		<?php require ($localizer . 'PI/Delli_Castelli/includes/head_const_delli.php'); ?>
+		<?php include SITE_PATH . 'PI/Delli_Castelli/includes/head_const_delli.php'; ?>
 	</head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -23,7 +23,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
@@ -46,7 +46,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Delli_Castelli/includes/menu_delli.php'); ?>
+							<?php include SITE_PATH . 'PI/Delli_Castelli/includes/menu_delli.php'; ?>
 						</nav>
 
 					</div>
@@ -69,7 +69,7 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 
 									<p align="left" style="line-height: 2";>
 										<strong> <a title="Molecular Imaging Center" class="http"
-											href="<?php echo $localizer; ?>"> Molecular Imaging Center</a><br>
+											href="<?php echo SITE_ROOT; ?>"> Molecular Imaging Center</a><br>
 											<a title="Dept. Mol Biotec Health Sciences" class="http"
 											href="https://www.mbc.unito.it" target="_blank"> Department
 												of Molecular Biotechnologies and Health Science</a><br> <a
@@ -122,15 +122,15 @@ require $localizer . 'includes/staff_db.inc.php'; // retreive $mail and $telefon
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 
 </body>
 </html>

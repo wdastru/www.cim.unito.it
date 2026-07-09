@@ -1,9 +1,9 @@
-<?php $localizer = "./"; ?>
+<?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Contacts
         </title>
@@ -19,13 +19,13 @@
     <body>
         <div id="section0">
             <div id="subsection4">
-                <?php include 'includes/menu.php'; ?> <?php include
-                'includes/header.php'; ?>
+                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
+                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
+                <div id="header"></div>
                 <!-- InstanceBeginEditable name="subsection opening" -->
                 <!-- InstanceEndEditable -->
-                <?php require ($localizer . 'includes/home-side-nav.php'); ?>
-                <?php require ($localizer .
-                'includes/home-side-nav-mobile.php'); ?>
+                <?php include SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
+                include SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -51,8 +51,8 @@
                     ITALY <br />
                     Fax. Tel. Mail
                 </p>
-                <?php include $localizer .
-                'includes/HTML5_badge_valid.inc.php';?> <?php include $localizer
+                <?php include SITE_PATH .
+                'includes/HTML5_badge_valid.inc.php';?> <?php include SITE_PATH
                 . 'includes/PageSpeedTest.inc.php';?>
             </div>
             <!-- section closing -->

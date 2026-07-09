@@ -1,8 +1,8 @@
-<?php $localizer = "../"; ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Educational
         </title>
@@ -10,7 +10,7 @@
     </head>
     <body>
         <div id="section2">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection1">
@@ -22,7 +22,7 @@
                                 class="subsection_link"
                             >
                                 <a
-                                    href="<?php echo $localizer; ?>educational.php"
+                                    href="<?php echo SITE_PATH . 'educational.php'; ?>"
                                     >Educational</a
                                 >
                             </dt>
@@ -30,7 +30,7 @@
                                 id="section2-subsection2"
                                 class="subsection_link"
                             >
-                                <a href="<?php echo $localizer; ?>meetings.php"
+                                <a href="<?php echo SITE_PATH . 'meetings.php'; ?>"
                                     >Meetings</a
                                 >
                             </dt>
@@ -49,7 +49,7 @@
                             >
                                 <img
                                     style="width: 50%"
-                                    src="<?php echo $localizer; ?>images/Emids_Logo.jpg"
+                                    src="<?php echo SITE_ROOT . 'images/Emids_Logo.jpg'; ?>"
                                     alt="EMIDS logo"
                             /></a>
 

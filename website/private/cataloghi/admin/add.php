@@ -1,31 +1,31 @@
 <?php
-unset($hostname);
-exec('hostname', $hostname);
-if ($hostname[0] == "EPTADONE") {
+    unset($hostname);
+    exec('hostname', $hostname);
+    if ($hostname[0] == "EPTADONE") {
     session_save_path('D:\Temp');
-}
-session_start();
-$localizer = "../../../";
+    }
+    session_start();
+    require_once __DIR__ . '/../../../config.inc.php';
 
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
             content="University of Torino. Website of the Molecular Imaging Center."
         />
         <link
-            href="<?php echo $localizer; ?>private/cataloghi/catalog.css"
+            href="<?php echo SITE_ROOT; ?>private/cataloghi/catalog.css"
             rel="stylesheet"
             type="text/css"
         />
     </head>
     <body>
         <div id="section7">
-            <?php require ($localizer . 'includes/main-nav.php'); ?>
+            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id="header"></div>
 
             <div id="subsection0">
@@ -44,7 +44,7 @@ $localizer = "../../../";
                                 name="add"
                                 method="post"
                                 enctype="multipart/form-data"
-                                action="<?php echo $localizer; ?>private/cataloghi/index.php"
+                                action="<?php echo SITE_ROOT; ?>private/cataloghi/index.php"
                             >
                                 <table>
                                     <input
@@ -177,7 +177,7 @@ $localizer = "../../../";
                                             <input
                                                 type="hidden"
                                                 name="dir"
-                                                value="<?php echo $localizer . 'private/cataloghi/safety_info/'; ?>"
+                                                value="<?php echo SITE_ROOT . 'private/cataloghi/safety_info/'; ?>"
                                             />
                                         </td>
                                     </tr>

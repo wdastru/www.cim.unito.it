@@ -1,26 +1,25 @@
-
-<?php $localizer = "../"; ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-        <?php require $localizer . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'?>
 		<title>Molecular Imaging Center - University of Torino</title>
 <meta
 	name="description"
 	content="University of Torino. Website of the Molecular Imaging Center." />
 <link
-	href="<?php echo $localizer; ?>CEST2014/CEST.css"
+	href="<?php echo SITE_ROOT; ?>CEST2014/CEST.css"
 	rel='stylesheet'
 	type='text/css'></link>
 </head>
 <body>
 	<div id='section0'>
 		<div id="subsection0">
-    		<?php require('includes/main-nav.php'); ?>
-    		<?php require('includes/main-nav-mobile.php'); ?>
+    		<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+    		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
 			<div id='header'></div>
-			<?php require ($localizer . 'includes/home-side-nav.php'); ?>
-        	<?php require ($localizer . 'includes/home-side-nav-mobile.php'); ?>
+			<?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
+        	<?php include SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -28,11 +27,11 @@
 					</div>
 					<div id='CEST-section0'>
                             <?php
-                            require ('include/CEST-nav.php');
+                            include SITE_PATH . 'CEST2014/include/CEST-nav.php';
                             ?>
 						<div class='paddingInner'>
 							<img
-								src="images/bioparco_long.jpg"
+								src="<?php echo SITE_ROOT; ?>CEST2014/images/bioparco_long.jpg"
 								style="width: 100%;"
 								alt="BioIndustry Park logo">
 							<h1 style="line-height: 28px; text-align: center;">
@@ -71,16 +70,16 @@
 								posters presentations.
 							</p>
 							<ul>
-								<li><a href="<?php echo $localizer; ?>CEST2014/about.php">
+								<li><a href="<?php echo SITE_ROOT; ?>CEST2014/about.php">
 										<b>About the meeting</b>
 									</a></li>
-								<li><a href="<?php echo $localizer; ?>CEST2014/attendance.php">
+								<li><a href="<?php echo SITE_ROOT; ?>CEST2014/attendance.php">
 										<b>Attending the meeting</b>
 									</a></li>
-								<li><a href="<?php echo $localizer; ?>CEST2014/submission.php">
+								<li><a href="<?php echo SITE_ROOT; ?>CEST2014/submission.php">
 										<b>Abstract submission</b>
 									</a></li>
-								<li><a href="<?php echo $localizer; ?>CEST2014/register.php">
+								<li><a href="<?php echo SITE_ROOT; ?>CEST2014/register.php">
 										<b>Online Registration</b>
 									</a></li>
 							</ul>
@@ -94,8 +93,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</div>
 			<!-- section closing -->
 		</div>

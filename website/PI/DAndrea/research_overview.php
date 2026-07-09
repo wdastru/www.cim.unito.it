@@ -1,5 +1,5 @@
 <?php
-	$localizer = "../../";
+	require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <title>Research | D'Andrea Lab</title>
-	<?php require ($localizer . 'PI/DAndrea/includes/head_const_dandrea.php'); ?>
+	<?php include SITE_PATH . 'PI/DAndrea/includes/head_const_dandrea.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -36,7 +36,7 @@
 					
 						<!-- Logo -->
 						<h1>
-							<a href="<?php echo $localizer; ?>/PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
+							<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 
@@ -44,7 +44,7 @@
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/DAndrea/includes/menu_dandrea.php'); ?>
+							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
 
 					</div>
@@ -71,48 +71,48 @@
 
 
 									<article class="box excerpt">
-										<a ><img src="<?php echo $localizer; ?>/PI/DAndrea/images/figure_research_overview_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
+										<a ><img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/figure_research_overview_1.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="<?php echo $localizer; ?>/PI/DAndrea/research_1.php">Development of protein binders by mirror-image phage display peptide library</a>
+													<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/research_1.php">Development of protein binders by mirror-image phage display peptide library</a>
 												</h3>
 											</header>
 											<p>Stable D-peptide binders are found screening a phage display peptide library against the D-enantiomer of the protein target. 
 											The all-D protein is synthesized by native chemical ligation.</p>
-											<a href="<?php echo $localizer; ?>/PI/DAndrea/research_1.php"><p align="right">
+											<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/research_1.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="<?php echo $localizer; ?>/PI/DAndrea/images/figure_research_overview_2.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
+										<a ><img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/figure_research_overview_2.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="<?php echo $localizer; ?>/PI/DAndrea/research_2.php">Site-selective modification of peptides and proteins</a>
+													<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/research_2.php">Site-selective modification of peptides and proteins</a>
 												</h3>
 											</header>
 											<p>Chemical ligation and other chemo-selective reactions are used to selectively modify a biomolecule. Unnatural amino acids, fluorophores, post-translation modifications, 
 											chelating units can be introduced in the target biomolecule, endowing it  of novel properties.  </p>
-											<a href="<?php echo $localizer; ?>/PI/DAndrea/research_2.php"><p align="right">
+											<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/research_2.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
 									</article>
 
 									<article class="box excerpt">
-										<a ><img src="<?php echo $localizer; ?>/PI/DAndrea/images/figure_research_overview_3.jpg" alt="" class="image left" style="width: 300px; height: 190px;"></a>										
+										<a ><img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/figure_research_overview_3.jpg" alt="" class="image left" style="width: 300px; height: 190px;"></a>										
 										<div>
 											<header>
 												<h3 font style="text-transform: none;">
-													<a href="<?php echo $localizer; ?>/PI/DAndrea/research_3.php">Design and synthesis of VEGF/VEGF receptors targeting compounds</a>
+													<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/research_3.php">Design and synthesis of VEGF/VEGF receptors targeting compounds</a>
 												</h3>
 											</header>
 											<p>Using structure-based design approaches, we develop peptides and proteins able to modulate the VEGF-dependent angiogenesis as diagnostic or 
 											therapeutic agents in regenerative medicine and oncology.  </p>
-											<a href="<?php echo $localizer; ?>/PI/DAndrea/research_3.php"><p align="right">
+											<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/research_3.php"><p align="right">
 													<font color="blue">Continue Reading >></font>
 												</p></a>
 										</div>
@@ -168,13 +168,13 @@
 
 	<!-- Scripts -->
 
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>

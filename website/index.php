@@ -1,14 +1,12 @@
 <?php
-require_once (__DIR__ . '/config.inc.php');
-$localizer = './';
-ob_start('ob_gzhandler');
-header('Content-Type: text/html;charset=UTF-8');
+    require_once (__DIR__ . '/config.inc.php');
+    ob_start('ob_gzhandler');
+    header('Content-Type: text/html;charset=UTF-8');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
-        <title>Molecular Imaging Center - University of Torino</title>
         <meta
             name="description"
             content="Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy."
@@ -21,12 +19,13 @@ header('Content-Type: text/html;charset=UTF-8');
     <body>
         <div id="section0">
             <div id="subsection0">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+                <?php require SITE_PATH . 'includes/main-nav.php'; ?> <?php
+                require SITE_PATH . 'includes/main-nav-mobile.php'; ?>
+                <!-- InstanceBeginEditable name='subsection opening' -->
+                <div id="header"></div>
                 <!-- InstanceEndEditable -->
-                <?php require $localizer . 'includes/home-side-nav.php'; ?>
-                <?php require $localizer . 'includes/home-side-nav-mobile.php';
-                ?>
+                <?php require SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
+                require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -114,7 +113,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                             </div>
                                             <img
                                                 class="w3-image-box-noshadow"
-                                                src="<?php echo $localizer; ?>images/research/figure_research_theranostic.webp"
+                                                src="<?php echo SITE_ROOT; ?>images/research/figure_research_theranostic.webp"
                                                 alt="Theranostic dendrimersomes"
                                                 style="width: 100%"
                                             />
@@ -124,7 +123,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                 <div class="home cell">
                                     <div class="w3-card">
                                         <a
-                                            href="<?php echo $localizer; ?>research/research_cest.php"
+                                            href="<?php echo SITE_PATH; ?>research/research_cest.php"
                                         >
                                             <div class="punch purple">
                                                 <span
@@ -135,7 +134,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                             </div>
                                             <img
                                                 class="w3-image-box-noshadow"
-                                                src="<?php echo $localizer; ?>images/research/figure_research_CEST.webp"
+                                                src="<?php echo SITE_ROOT; ?>images/research/figure_research_CEST.webp"
                                                 alt="Graphic representing DIACEST, PARACEST and LIPOCEST agents"
                                                 style="width: 100%"
                                             />
@@ -145,7 +144,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                 <div class="home cell">
                                     <div class="w3-card">
                                         <a
-                                            href="<?php echo $localizer; ?>research/research_enzyme.php"
+                                            href="<?php echo SITE_ROOT; ?>research/research_enzyme.php"
                                         >
                                             <div class="punch purple">
                                                 <span
@@ -156,7 +155,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                             </div>
                                             <img
                                                 class="w3-image-box-noshadow"
-                                                src="<?php echo $localizer; ?>images/research/figure_research_enzyme.webp"
+                                                src="<?php echo SITE_ROOT; ?>images/research/figure_research_enzyme.webp"
                                                 alt="Scheme representing the action of an enzyme to form a product by connecting two substrates togheter"
                                                 style="width: 100%"
                                             />
@@ -168,7 +167,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                 <div class="home cell">
                                     <div class="w3-card">
                                         <a
-                                            href="<?php echo $localizer; ?>research/research_cell.php"
+                                            href="<?php echo SITE_ROOT; ?>research/research_cell.php"
                                         >
                                             <div class="punch purple">
                                                 <span
@@ -180,7 +179,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                             </div>
                                             <img
                                                 class="w3-image-box-noshadow"
-                                                src="<?php echo $localizer; ?>images/research/figure_research_cell_labeling.webp"
+                                                src="<?php echo SITE_ROOT; ?>images/research/figure_research_cell_labeling.webp"
                                                 alt="Scheme representing negative Gd-containing particles electrostatically bonded to cationic polypeptide chains surrounding a cell"
                                                 style="width: 100%"
                                             />
@@ -190,7 +189,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                 <div class="home cell">
                                     <div class="w3-card">
                                         <a
-                                            href="<?php echo $localizer; ?>research/research_angiogenesis.php"
+                                            href="<?php echo SITE_ROOT; ?>research/research_angiogenesis.php"
                                         >
                                             <div class="punch purple">
                                                 <span
@@ -202,7 +201,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                             </div>
                                             <img
                                                 class="w3-image-box-noshadow"
-                                                src="<?php echo $localizer; ?>images/research/figure_research_angiogenesis.webp"
+                                                src="<?php echo SITE_ROOT; ?>images/research/figure_research_angiogenesis.webp"
                                                 alt="Scheme representing neoangiogenic vessels connecting a tumor mass to a main vessel"
                                                 style="width: 100%"
                                             />
@@ -212,7 +211,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                 <div class="home cell">
                                     <div class="w3-card">
                                         <a
-                                            href="<?php echo $localizer; ?>research/research_acidosis.php"
+                                            href="<?php echo SITE_ROOT; ?>research/research_acidosis.php"
                                         >
                                             <div class="punch purple">
                                                 <span
@@ -223,7 +222,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                             </div>
                                             <img
                                                 class="w3-image-box-noshadow"
-                                                src="<?php echo $localizer; ?>images/research/figure_research_tumor_acidosis.webp"
+                                                src="<?php echo SITE_ROOT; ?>images/research/figure_research_tumor_acidosis.webp"
                                                 alt="Scheme representing some of the methabolism involved in tumor acidosis"
                                                 style="width: 100%"
                                             />
@@ -236,7 +235,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                 <div class="home cell">
                                     <div class="w3-card">
                                         <a
-                                            href="<?php echo $localizer; ?>research/research_metabolism.php"
+                                            href="<?php echo SITE_ROOT; ?>research/research_metabolism.php"
                                         >
                                             <div class="punch purple">
                                                 <span
@@ -248,7 +247,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                             </div>
                                             <img
                                                 class="w3-image-box-noshadow"
-                                                src="<?php echo $localizer; ?>images/research/figure_research_tumor_metabolism.webp"
+                                                src="<?php echo SITE_ROOT; ?>images/research/figure_research_tumor_metabolism.webp"
                                                 alt="Scheme representing tumor metabolism"
                                                 style="width: 100%"
                                             />
@@ -274,12 +273,12 @@ header('Content-Type: text/html;charset=UTF-8');
                                     <br />
                                     <a href="http://www.eurobioimaging.eu/">
                                         <img
-                                            src="<?php echo $localizer; ?>images/Euro-Bioimaging-horizontal-RGB-slogan.webp"
+                                            src="<?php echo SITE_ROOT; ?>images/Euro-Bioimaging-horizontal-RGB-slogan.webp"
                                             alt="Euro-BioImaging logo"
                                         />
                                     </a>
                                     <a
-                                        href="<?php echo $localizer; ?>news.php#EuBIlaunch"
+                                        href="<?php echo SITE_ROOT; ?>news.php#EuBIlaunch"
                                     >
                                         <span class="paperTitle">
                                             European Commission launched the
@@ -304,7 +303,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                         "
                                     >
                                         <a
-                                            href="<?php echo $localizer; ?>news.php#EuBIlaunch"
+                                            href="<?php echo SITE_ROOT; ?>news.php#EuBIlaunch"
                                         >
                                             <b>Read more &#8594;</b>
                                         </a>
@@ -346,7 +345,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                         "
                                     >
                                         <a
-                                            href="<?php echo $localizer; ?>news.php#COST"
+                                            href="<?php echo SITE_ROOT; ?>news.php#COST"
                                         >
                                             <b>Read more &#8594;</b>
                                         </a>
@@ -371,7 +370,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>news/glint.svg"
+                                                    src="<?php echo SITE_ROOT; ?>news/glint.svg"
                                                     alt="GLINT logo"
                                                 />
                                             </a>
@@ -399,7 +398,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 "
                                             >
                                                 <a
-                                                    href="<?php echo $localizer; ?>news.php#GLINT"
+                                                    href="<?php echo SITE_ROOT; ?>news.php#GLINT"
                                                 >
                                                     <b>Read more &#8594;</b>
                                                 </a>
@@ -411,7 +410,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>news/primoGAIA-logo.png"
+                                                    src="<?php echo SITE_ROOT; ?>news/primoGAIA-logo.png"
                                                     alt="Primo GAIA logo"
                                                 />
                                             </a>
@@ -440,7 +439,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 "
                                             >
                                                 <a
-                                                    href="<?php echo $localizer; ?>news.php#PrimoGAIA"
+                                                    href="<?php echo SITE_ROOT; ?>news.php#PrimoGAIA"
                                                 >
                                                     <b>Read more &#8594;</b>
                                                 </a>
@@ -460,7 +459,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                         href="http://www.e-smi.eu/index.php?id=emim-2020"
                                     >
                                         <img
-                                            src="<?php echo $localizer; ?>images/meetings/EMIM_2020.jpg"
+                                            src="<?php echo SITE_ROOT; ?>images/meetings/EMIM_2020.jpg"
                                             alt="15th European Molecular Imaging Meeting 2020 image"
                                         />
                                         <span class="paperTitle"
@@ -478,7 +477,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                     <br />
                                     <a href="https://www.ismrm.org/20m/">
                                         <img
-                                            src="<?php echo $localizer; ?>images/meetings/ISMRM_2020.webp"
+                                            src="<?php echo SITE_ROOT; ?>images/meetings/ISMRM_2020.webp"
                                             alt="ISMRM 28th Annual Meeting 2020 image"
                                         />
                                         <span class="paperTitle"
@@ -496,7 +495,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                     <br />
                                     <a href="https://wmis.org/wmic1/wmic-2026/">
                                         <img
-                                            src="<?php echo $localizer; ?>images/meetings/WMIC26_SLC_640x292_300dpi_RGB-1-1024x467.webp"
+                                            src="<?php echo SITE_ROOT; ?>images/meetings/WMIC26_SLC_640x292_300dpi_RGB-1-1024x467.webp"
                                             alt="World Molecular Imaging Congress 2026"
                                         />
                                         <span class="paperTitle"
@@ -530,7 +529,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/smll202302868-fig-0001-m.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/smll202302868-fig-0001-m.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -558,7 +557,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/nanomaterials-13-02227-g001.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/nanomaterials-13-02227-g001.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -588,7 +587,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/pharmaceutics-14-01132-g002.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/pharmaceutics-14-01132-g002.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -618,7 +617,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/molecules-27-03124-g004.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/molecules-27-03124-g004.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -647,7 +646,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/molecules-27-02490-ag.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/molecules-27-02490-ag.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -680,7 +679,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/10278_2022_612_Fig1_HTML.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/10278_2022_612_Fig1_HTML.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -710,7 +709,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/geninatti_2020_1.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/geninatti_2020_1.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -745,7 +744,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/longo2019.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/longo2019.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -774,7 +773,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/gianolio_2018.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/gianolio_2018.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -805,7 +804,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/geninatti_2020_2.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/geninatti_2020_2.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -840,7 +839,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/terreno_2018.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/terreno_2018.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -869,7 +868,7 @@ header('Content-Type: text/html;charset=UTF-8');
                                                 target="_blank"
                                             >
                                                 <img
-                                                    src="<?php echo $localizer; ?>images/papers/geninatti_2018.webp"
+                                                    src="<?php echo SITE_ROOT; ?>images/papers/geninatti_2018.webp"
                                                     alt=""
                                                 />
                                                 <b
@@ -899,9 +898,9 @@ header('Content-Type: text/html;charset=UTF-8');
                         Torino - ITALY <br />
                         Fax. Tel. Mail
                     </p>
-                    <?php include $localizer .
+                    <?php include SITE_PATH .
                     'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    $localizer . 'includes/PageSpeedTest.inc.php';?>
+                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
                 </div>
             </div>
         </div>

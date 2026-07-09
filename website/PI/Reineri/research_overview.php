@@ -1,5 +1,5 @@
 <?php
-$localizer = "../../";
+require_once __DIR__ . '/../../config.inc.php';
 ?>
 <!DOCTYPE html>
 <!--
@@ -10,8 +10,8 @@ $localizer = "../../";
 <html lang="en">
 <head>
 <title>Research | REINERI Lab</title>
-	<?php require ($localizer . 'includes/head_const.inc.php'); ?>
-	<?php require ($localizer . 'PI/Reineri/includes/head_const_reineri.php'); ?>
+	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
+	<?php include SITE_PATH . 'PI/Reineri/includes/head_const_reineri.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
@@ -21,7 +21,7 @@ $localizer = "../../";
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
-			</a> <a href="<?php echo $localizer; ?>"
+			</a> <a href="<?php echo SITE_ROOT; ?>"
 				title="Molecular Imaging Center"
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
@@ -31,10 +31,10 @@ $localizer = "../../";
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
 						<!-- Logo -->
-						<?php require ($localizer . 'PI/Reineri/includes/header_reineri.php');?>
+						<?php include SITE_PATH . 'PI/Reineri/includes/header_reineri.php';?>
 						<!-- Nav -->
 						<nav id="nav">
-							<?php require ($localizer . 'PI/Reineri/includes/menu_reineri.php'); ?>
+							<?php include SITE_PATH . 'PI/Reineri/includes/menu_reineri.php'; ?>
 						</nav>
 					</div>
 				</header>
@@ -53,13 +53,13 @@ $localizer = "../../";
 									<p></p>
 									<article class="box excerpt">
 										<a><img
-											src="<?php echo $localizer; ?>PI/Reineri/images/hyperpolarized_probes.jpg"
+											src="<?php echo SITE_ROOT; ?>PI/Reineri/images/hyperpolarized_probes.jpg"
 											alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 style="text-transform: none;">
 													<a
-														href="<?php echo $localizer; ?>PI/Reineri/research_hyperpolarized_probes.php">Hyperpolarized
+														href="<?php echo SITE_ROOT; ?>PI/Reineri/research_hyperpolarized_probes.php">Hyperpolarized
 														Probes</a>
 												</h3>
 											</header>
@@ -70,7 +70,7 @@ $localizer = "../../";
 												aims also to optimize of the parahydrogen-based
 												hyperpolarization procedure.</p>
 											<a
-												href="<?php echo $localizer; ?>PI/Reineri/research_hyperpolarized_probes.php"><p
+												href="<?php echo SITE_ROOT; ?>PI/Reineri/research_hyperpolarized_probes.php"><p
 													style="text-align: right;">
 													<span style="color: blue;">Continue Reading >></span>
 												</p></a>
@@ -78,14 +78,14 @@ $localizer = "../../";
 									</article>
 									<article class="box excerpt">
 										<a><img
-											src="<?php echo $localizer; ?>PI/Reineri/images/imaging_metabolism.jpg"
+											src="<?php echo SITE_ROOT; ?>PI/Reineri/images/imaging_metabolism.jpg"
 											alt="Imaging metabolism" class="image left"
 											style="width: 300px; height: auto;"></a>
 										<div>
 											<header>
 												<h3 style="text-transform: none;">
 													<a
-														href="<?php echo $localizer; ?>PI/Reineri/research_imaging_metabolism.php">Imaging
+														href="<?php echo SITE_ROOT; ?>PI/Reineri/research_imaging_metabolism.php">Imaging
 														Metabolism</a>
 												</h3>
 											</header>
@@ -94,7 +94,7 @@ $localizer = "../../";
 												to investigate metabolism in different pathologies (e.g.
 												heart failure, cancer), in cells cultures and in vivo.</p>
 											<a
-												href="<?php echo $localizer; ?>PI/Reineri/research_imaging_metabolism.php"><p
+												href="<?php echo SITE_ROOT; ?>PI/Reineri/research_imaging_metabolism.php"><p
 													style="text-align: right;">
 													<span style="color: blue;">Continue Reading >></span>
 												</p></a>
@@ -115,21 +115,21 @@ $localizer = "../../";
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-				<?php include $localizer . 'includes/HTML5_badge_valid.inc.php';?>
-				<?php include $localizer . 'includes/PageSpeedTest.inc.php';?>
+				<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 		</div>
 	</div>
 	<!-- Scripts -->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/jquery.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/skel.min.js"></script>
+		src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
 	<script
-		src="<?php echo $localizer; ?>/PI/assets/js/skel-viewport.min.js"></script>
-	<script src="<?php echo $localizer; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo $localizer; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="<?php echo $localizer; ?>/PI/assets/js/main.js"></script>
+		src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 
 </body>
 </html>
