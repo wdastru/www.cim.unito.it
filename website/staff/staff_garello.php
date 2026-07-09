@@ -3,7 +3,7 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 	xmlns="http://www.w3.org/1999/xhtml">
-<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+
 <head>
 <?php include SITE_PATH . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Events</title>
@@ -15,9 +15,9 @@
 	<?php include SITE_PATH . 'includes/menu.php'; ?> 
                 <?php include SITE_PATH . 'includes/header.php'; ?>
 		<div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
+		
 		<div id="subsection2">
-			<!-- InstanceEndEditable -->
+			
 			<?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
 			
 			<div id='content'>
@@ -122,6 +122,6 @@
 changeSideNavStyles();
 //]]>
 </script>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>

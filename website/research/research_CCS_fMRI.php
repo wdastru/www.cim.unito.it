@@ -2,7 +2,7 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
+
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - CEST
@@ -13,24 +13,24 @@
 </head>
 <body>
 	<div id='section1'>
-		<!-- InstanceBeginEditable name="subsection opening" -->
+		
 		<div id="subsection25">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			<!-- InstanceEndEditable -->
+			
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
+							
 							Research at CCS fMRI
-							<!-- InstanceEndEditable -->
+							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
+						
 						<p class="indent">The Clinical and Experimental Center for
 							Functional Magnetic Resonance Imaging (CCS-fMRI) was set up in
 							2004, the result of a partnership between the Department of
@@ -148,7 +148,7 @@
 							of unusual postures, leading to misalignment of spatial and
 							somatotopic maps) on these brain responses and their brain
 							mapping.</p>
-						<!-- InstanceEndEditable -->
+						
 					</div>
 				</div>
 			</div>
@@ -172,6 +172,6 @@
             changeSideNavStyles();
             //]]>
         </script>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>

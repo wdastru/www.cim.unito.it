@@ -1,7 +1,7 @@
 <?php require_once (__DIR__ . '/../../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
-<!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
+
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -182,6 +182,6 @@
 	<script>
         changeSideNavStyles();
     </script>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>

@@ -113,7 +113,7 @@ if (isset($_GET['submit'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
+
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino - Facilities</title>
@@ -132,13 +132,13 @@ if (isset($_GET['submit'])) {
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
+							
 							Service Request
-							<!-- InstanceEndEditable -->
+							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
+						
 						<form method='post'
 							action='<?php echo SITE_ROOT; ?>facilities/service.php?submit=yes'>
 							<table>
@@ -239,7 +239,7 @@ if (isset($_GET['submit'])) {
 							</table>
 						</form>
 						<p>(*) = mandatory field</p>
-						<!-- InstanceEndEditable -->
+						
 					</div>
 				</div>
 			</div>
@@ -263,6 +263,6 @@ if (isset($_GET['submit'])) {
             changeSideNavStyles();
             //]]>
         </script>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>

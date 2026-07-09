@@ -2,7 +2,7 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
+
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - Tumor
@@ -13,24 +13,24 @@
 </head>
 <body>
 	<div id='section1'>
-		<!-- InstanceBeginEditable name="subsection opening" -->
+		
 		<div id="subsection15">
 			<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			<!-- InstanceEndEditable -->
+			
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
+							
 							Tumor metabolism
-							<!-- InstanceEndEditable -->
+							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
+						
 						<p class='indent'>
 							The term cancer does not refer to a single disorder, but to a
 							large number of diseases characterized by the uncontrolled growth
@@ -77,7 +77,7 @@
 								class="group-leaders-img"
 								src="../images/staff/reineri.webp">
 						</a>
-						<!-- InstanceEndEditable -->
+						
 					</div>
 				</div>
 			</div>
@@ -101,6 +101,6 @@
             changeSideNavStyles();
             //]]>
         </script>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>

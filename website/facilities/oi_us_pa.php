@@ -1,7 +1,7 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
+    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
@@ -12,10 +12,10 @@
     <body>
         <div id="section3">
             <div id="subsection3">
-                <!-- InstanceBeginEditable name="subsection opening" -->
+                
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                <!-- InstanceEndEditable -->
+                
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <?php include SITE_PATH .
                 'includes/facilities-side-nav-mobile.php'; ?>
@@ -23,13 +23,13 @@
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name="subsection title" -->
+                                
                                 <span id="oi-us-pai_title">&nbsp;</span>
-                                <!-- InstanceEndEditable -->
+                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            <!-- InstanceBeginEditable name="subsection content" -->
+                            
                             <div class="fullWidth">
                                 <h3>
                                     <strong
@@ -148,7 +148,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <!-- InstanceEndEditable -->
+                            
                         </div>
                     </div>
                 </div>
@@ -174,6 +174,6 @@
             changeSideNavStyles();
             //]]>
         </script>
-        <!-- InstanceEnd -->
+        
     </body>
 </html>

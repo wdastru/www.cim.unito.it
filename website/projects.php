@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template="/Templates/projects.dwt" codeOutsideHTMLIsLocked="false" -->
+    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
@@ -14,22 +14,22 @@
     </head>
     <body>
         <div id="section5">
-            <!-- InstanceBeginEditable name="subsection opening" -->
+            
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                <!-- InstanceEndEditable -->
+                
                 <div id="content-nosidebar">
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name="subsection title" -->
+                                
                                 On going Projects
-                                <!-- InstanceEndEditable -->
+                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            <!-- InstanceBeginEditable name="subsection content" -->
+                            
                             <ul>
                                 <li class="myHoverPlace">
                                     <strong
@@ -97,9 +97,9 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name="subsection title" -->
+                                
                                 Past Projects
-                                <!-- InstanceEndEditable -->
+                                
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -435,7 +435,7 @@
                                     Molecular Imaging"), 2008
                                 </li>
                             </ul>
-                            <!-- InstanceEndEditable -->
+                            
                         </div>
                     </div>
                 </div>
@@ -460,6 +460,6 @@
             changeSideNavStyles();
             //]]>
         </script>
-        <!-- InstanceEnd -->
+        
     </body>
 </html>

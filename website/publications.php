@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/publications.dwt" codeOutsideHTMLIsLocked="false" -->
+
 <head>
 <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 <title>Molecular Imaging Center - University of Torino - Publications</title>
@@ -13,20 +13,20 @@
 		<div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-			<!-- InstanceBeginEditable name="subsection opening" -->
+			
 			<div id='pubSubSectOpen'>
-				<!-- InstanceEndEditable -->
+				
 				<div id='content-nosidebar'>
 					<div class='paddingOuter'>
 						<div class='band'>
 							<h1 class='subsectionTitle'>
-								<!-- InstanceBeginEditable name="subsection title" -->
+								
 								Publications
-								<!-- InstanceEndEditable -->
+								
 							</h1>
 						</div>
 						<div class='paddingInner'>
-							<!-- InstanceBeginEditable name="subsection content" -->
+							
 							<div id="publicationsContainer">
 								<a
 									href='https://pubmed.ncbi.nlm.nih.gov/?term=Silvio+Aime%5BAuthor%5D&sort=date' target='_blank'><b>Silvio Aime</b></a> <br> <a
@@ -47,7 +47,7 @@
 									href='https://pubmed.ncbi.nlm.nih.gov/?term=Enza+Di+Gregorio%5BAuthor%5D&sort=date' target='_blank'><b>Enza Di Gregorio</b></a> <br>
 							</div>
 						</div>
-						<!-- InstanceEndEditable -->
+						
 					</div>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 //]]>
 </script>
 	<!-- <script type="text/javascript">changeSideNavStyles();</script> -->
-	<!-- InstanceEnd -->
+	
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
+    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'?>
         <title>Molecular Imaging Center - University of Torino - Tumor acidosis</title>
@@ -9,24 +9,24 @@
     </head>
     <body>
         <div id='section1'>
-		<!-- InstanceBeginEditable name="subsection opening" -->
+		
 			<div id="subsection14">
 				<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-	           <!-- InstanceEndEditable -->
+	           
             	<?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             	<?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 				<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
+							
 							Tumor acidosis
-							<!-- InstanceEndEditable -->
+							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
+						
 						<p class='indent'>
 							Upregulated glucose metabolism, as a consequence of increased
 							lactate and H<sup>+</sup> extrusion from anaerobic glycolysis,
@@ -126,7 +126,7 @@
 								class="group-leaders-img"
 								src="../images/staff/ferrauto.webp">
 						</a>
-						<!-- InstanceEndEditable -->
+						
 					</div>
 				</div>
 			</div>
@@ -149,6 +149,6 @@
             //<![CDATA[
             changeSideNavStyles();
             //]]>
-        </script><!-- InstanceEnd -->
+        </script>
     </body>
 </html>

@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang='en'>
-<!-- InstanceBegin template='/Templates/events.dwt' codeOutsideHTMLIsLocked='false' -->
+
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino - Meetings</title>
@@ -20,13 +20,13 @@
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name='subsection title' -->
+							
 							Meetings
-							<!-- InstanceEndEditable -->
+							
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name='subsection content' -->
+						
 						<ul>
 							<li><a href='COST/meetings/COST_TD1004-Feb2012.php'>COST TD1004
 									Meeting - Torino, 17-18 February 2012</a></li>
@@ -34,7 +34,7 @@
 									'Metal-Based Systems for Molecular Imaging Applications' -
 									Working Groups 2 and 6 Joint Meeting - March 24-26, 2011</a></li>
 						</ul>
-						<!-- InstanceEndEditable -->
+						
 					</div>
 				</div>
 			</div>
@@ -58,6 +58,6 @@
         changeSideNavStyles();
         //]]>
     </script>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>

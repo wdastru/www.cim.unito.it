@@ -1,7 +1,7 @@
 <?php require_once (__DIR__ . '/../../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
-<!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
+
 <head>
 	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 	<title>Molecular Imaging Center - University of Torino - Meetings</title>
@@ -24,9 +24,9 @@
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
+							
 							COST Action TD1004
-							<!-- InstanceEndEditable -->
+							
 						</h1>
 					</div>
 					<div class='cost paddingInner'>
@@ -114,6 +114,6 @@
 	<script>
         changeSideNavStyles();
     </script>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>

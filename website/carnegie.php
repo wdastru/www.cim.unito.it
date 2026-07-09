@@ -4,7 +4,7 @@ header('Content-Type: text/html;charset=UTF-8');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino</title>
@@ -14,17 +14,17 @@ header('Content-Type: text/html;charset=UTF-8');
         <div id='section0'>
             <?php include SITE_PATH . 'includes/main-nav.php'; ?>
             <div id='header'></div>
-            <!-- InstanceBeginEditable name="subsection opening" -->
+            
             <div id="subsection0">
-                <!-- InstanceEndEditable -->
+                
                 <?php include SITE_PATH . 'includes/niumag-side-nav.php'; ?>
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Carnegie Group delegation visit <!-- InstanceEndEditable --></h1>
+                            <h1 class='subsectionTitle'> Carnegie Group delegation visit </h1>
                         </div>
                         <div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
+						
 						On Sept. 29<sup>th</sup> a Carnegie Group delegation (representatives from
 						Japan, Canada, South Africa, etc. were present) visited the Center of Excellence 
 						for Preclinical Imaging site at Colleretto Giacosa. 
@@ -63,6 +63,6 @@ header('Content-Type: text/html;charset=UTF-8');
 changeSideNavStyles();
 //]]>
         </script>
-        <!-- InstanceEnd -->
+        
     </body>
 </html>

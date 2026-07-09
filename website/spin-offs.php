@@ -1,7 +1,7 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template="/Templates/partners.dwt" codeOutsideHTMLIsLocked="false" -->
+    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
@@ -14,8 +14,8 @@
             <div id="subsection3">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                <!-- InstanceBeginEditable name="subsection opening" -->
-                <!-- InstanceEndEditable -->
+                
+                
                 <?php include SITE_PATH . 'includes/partners-side-nav.php'; ?>
                 <?php include SITE_PATH .
                 'includes/partners-side-nav-mobile.php'; ?>
@@ -23,14 +23,14 @@
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name="subsection title" -->
+                                
                                 Spin-offs
-                                <!-- InstanceEndEditable -->
+                                
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            <!-- InstanceBeginEditable name="subsection content" -->
-                            <!-- InstanceEndEditable -->
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -55,6 +55,6 @@
             changeSideNavStyles();
             //]]>
         </script>
-        <!-- InstanceEnd -->
+        
     </body>
 </html>

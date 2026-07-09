@@ -1,7 +1,7 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+    
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - Events</title>
@@ -14,7 +14,7 @@
         <div id="section2">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                <!-- InstanceEndEditable -->
+                
                 <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
                 <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';
                 ?>
@@ -383,6 +383,6 @@
             changeSideNavStyles();
             //]]>
         </script>
-        <!-- InstanceEnd -->
+        
     </body>
 </html>

@@ -100,6 +100,6 @@
 		</div>
 		<!-- section closing -->
 	</div>
-	<!-- InstanceEnd -->
+	
 </body>
 </html>
