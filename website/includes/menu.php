@@ -1,5 +1,5 @@
 <?php
-$base = '/www.cim.unito.it/website/';
+$base = SITE_ROOT;
 $menu = [
     $base . 'index.php' => 'HOME',
     $base . 'people.php' => 'PEOPLE',
