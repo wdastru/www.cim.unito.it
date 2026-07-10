@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -13,25 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection20">
-			<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-			<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
- 			<div id='header'></div>
-			<!-- InstanceEndEditable -->
+			<?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
 							Gd retention in the body
-							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
 						<p class='indent'>
 							Gadolinium-based contrast agents (GBCAs) are commonly used in
 							clinical settings as they add physiological information to the
@@ -83,7 +75,6 @@
 								class="group-leaders-img"
 								src="<?php echo SITE_ROOT; ?>images/staff/gianolio.webp">
 						</a>
-						<!-- InstanceEndEditable -->
 					</div>
 				</div>
 			</div>
@@ -107,6 +98,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	<!-- InstanceEnd -->
 </body>
 </html>

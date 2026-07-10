@@ -15,32 +15,24 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-			
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
-	          
 	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
-			
-			
 			<div class="container">
-					
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-					
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
@@ -65,26 +57,18 @@
 								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<section class="container box feature3">
 						<div class="row">
-
 							<article>
-
 								<h3 font style="text-transform: none;">DCE-MRI for assessing tumor angiogenesis and therapeutic response</h3>
-								
 								<p align="justify">It has become evident the key role that tumor vasculature plays in tumor growth and progression.
 								 At the same time, a more detailed understanding of the complex parameters that govern the interactions between the tumour
 								and vascular compartments will help to improve anti-angiogenic strategies.
@@ -96,26 +80,18 @@
 								<br><strong>Our lab is interested in developing DCE-MRI protocols for accurate assessment of tumor vascuature heterogeneity 
 								and in investigating how vasculature changes are correlated with therapeutic response to antiangiogenic treatment.</strong>
 								</p>
-
-
 							</article>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<h3 font style="text-transform: none;">
 												<font color="red">DCE-MRI for tumor vessel heterogeneity</font></a>
 											</h3>
-											
 											<p font style="text-transform: none; font-size:1.3em">Imaging therapeutic response to antigiogenic drugs</p>
 										</header>
 										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis1.jpg" alt="" class="image zooming">
-
 										<p align="justify">
 											Dynamic contrast-enhanced magnetic resonance imaging
 										(DCE-MRI) is the methodology of choice for the evaluation of tumor angiogenesis.
@@ -139,11 +115,8 @@
 										Within the clustering approach, based on a pixel-by-pixel
 										analysis, the whole tumor has been segmented into several
 										sub-regions according to their enhancement/permeability properties.
-																				
 											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25839393"
 												target="_blank"><font color="blue">[Longo et al. 2015]</font></a>, 
-											
-										
 										</p>
 										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis2.jpg" alt="" class="image zooming">
 										<p align="justify">A clustering analysis was performed on a voxel-by-voxel basis
@@ -153,37 +126,28 @@
 										to therapy can be assessed by a clustering approach, even though
 										not-homogeneous permeability changes occurred in different areas of
 										a tumor.</p>
-										
 										<p align="justify">
 										We shown that DCE-MRI can also provide assessment of therapeutic response to vaccine targeting tumor vasculature.
 										In fact, a DNA vaccine targeting Angiomotin (Amot, an angiostatin receptors expressed by the endothelia of angiogenic tissues)
 										resulted in tumor growth inhibition that was associated with an increase of vessels diameter and of vessel permeability,
 										as determined by a DCE-MRI approach
-											
 											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/25238643"
 												target="_blank"><font color="blue">[Arigoni et al. 2012]</font></a>. 												
 										</p>
-										
 									</article>
 								</section>
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<h3 font style="text-transform: none;">
 												<font color="red">Imaging tumor angiogenesis</font></a>
-												
 											</h3>
 											</br>
 											<p font style="text-transform: none; font-size:1.3em">Tumor vascularization and angiogenic switch</p>
 										</header>
-
 										<p align="justify">
 											Tumour progression depends on several sequential events that include the microenvironment remodelling processes and the
 											switch to the angiogenic phenotype, leading to new blood vessels recruitment.
@@ -198,9 +162,7 @@
 											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/26941084"
 												target="_blank"><font color="blue"> [Consolino et al. 2016] </font></a> 
 											</p>
-											
 											<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis3.jpg" alt="" class="image zooming">
-											
 											<p align="justify">
 											We exploited a similar approach studying gastrointestinal stromal
 											tumors (GISTs) that develop resistance to the first-line imatinib
@@ -213,39 +175,23 @@
 											GIST430 tumor sections. In addition, a strong positive
 											correlation was observed between MRI and histological
 											estimates
-																					
 											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/27995483"
 												target="_blank"><font color="blue"> [Consolino et al. 2017] </font></a>.
 												</p>
-										
 											<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/angiogenesis4.jpg" alt="" class="image zooming">
-											
 											<p align="justify"> The current study suggests that the assessment of
 											angiogenesis could be considered a promising new biomarker
 											of response to imatinib treatment.</p>
-										
 									</article>
 								</section>
 							</div>
-
-							
-
-							
-
-
 						</div>
-
 					</section>
-
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
@@ -253,5 +199,4 @@
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
-
 </body>

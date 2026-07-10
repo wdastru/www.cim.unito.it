@@ -259,7 +259,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 							<section class="box article-list">
 								<h2 class="icon fa-file-text-o">Upcoming Events</h2>
 								<!-- <ul class="divided">
-																				
 										<li>
 										<div class="date-icon">												
 												<span class="month">March</span>
@@ -274,7 +273,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 											</div>
 										<a href="https://www.ismrm.org/20m/" style="vertical-align:middle; padding-left:10px" target="_blank">
 										<strong>ISMRM 28th Annual Meeting 2020</strong></a></li>
-												
 										<li>										
 										<div class="date-icon">												
 												<span class="month">October</span>
@@ -290,26 +288,21 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 								<h2 class="icon fa-file-text-o">NEWS</h2>
 								<!-- <ul class="divided">
 						 			  	  	<li><img src="<?php echo SITE_ROOT; ?>PI/Delli_Castelli/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
-										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
 											i) <a href="<?php echo SITE_ROOT; ?>PI/Delli_Castelli/documents/___.pdf"><font color="red">Research Fellow position in </a></font><br>
 											ii) <a href="<?php echo SITE_ROOT; ?>PI/Delli_Castelli/documents/____.pdf"><font color="red">Research Fellow Position in </a></font><br>
 										   </font></b>
-											 
 											</li>
-											
 											<li><b>New journal article published in  
 											<a title="Open in a new window" class="http" href="https://onlinelibrary.wiley.com/doi/full/10.1002/cphc.201800652" target="_blank">							
 											<em><font color="blue">Chemphyschem</font></em></b></a>
 											</li>
-
 											<li><b>The hyperpolarization group is a partner of the MSCA-ITN (Marie Slodowska Curie Action, Innovative Training Network) ZULF (Zero and Ultra Low Field).
 											The project involves 9 european partners, renowned groups in the field of NMR and magnetometry. The project aims to the formation of 11 Early Stage Researchers
 											 in the innovative fields of Ultra Low Field NMR and Hyperpolarization. For more info visit 
 											 <a title="Open in a new window" class="http" href="www.zulf.com" target="_blank">							
 											<em><font color="blue">www.zulf.com</font></em></b></a> </b>
 											</li>
-																						
 											<!-- <li><img src="<?php echo SITE_ROOT; ?>PI/Delli_Castelli/images/book_chapter_CEST.jpg" align="left" height="80px" style="margin-right:10px">
 											<b>New book chapter in CEST imaging: </b>
 											<a title="Open in a new window" class="http" href="https://www.crcpress.com/Chemical-Exchange-Saturation-Transfer-Imaging-Advances-and-Applications/McMahon-Gilad-Bulte-Zijl/p/book/9789814745703" target="_blank">							

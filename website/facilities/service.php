@@ -113,7 +113,6 @@ if (isset($_GET['submit'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/facilities.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino - Facilities</title>
@@ -124,24 +123,18 @@ if (isset($_GET['submit'])) {
 <body>
 	<div id='section3'>
 		<div id='subsection7'>
-			<!-- InstanceBeginEditable name="subsection opening" -->
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-            <div id='header'></div>
-			<!-- InstanceEndEditable -->
+			<?php include SITE_PATH . 'includes/menu.php'; ?>
+			<?php include SITE_PATH . 'includes/header.php'; ?>
 			<?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/facilities-side-nav-mobile.php'; ?>
          	<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
 							Service Request
-							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
 						<form method='post'
 							action='<?php echo SITE_ROOT; ?>facilities/service.php?submit=yes'>
 							<table>
@@ -242,7 +235,6 @@ if (isset($_GET['submit'])) {
 							</table>
 						</form>
 						<p>(*) = mandatory field</p>
-						<!-- InstanceEndEditable -->
 					</div>
 				</div>
 			</div>
@@ -266,6 +258,5 @@ if (isset($_GET['submit'])) {
             changeSideNavStyles();
             //]]>
         </script>
-	<!-- InstanceEnd -->
 </body>
 </html>

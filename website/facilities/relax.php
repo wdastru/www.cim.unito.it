@@ -11,9 +11,8 @@
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
-
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             <div id="subsection4">
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <div id="content">
@@ -67,7 +66,6 @@
                                         Imaging, University of Torino.
                                     </p>
                                 </div>
-
                                 <div class="w3-container">
                                     <h3>
                                         <strong
@@ -97,7 +95,6 @@
                                         frequency (NMRD profile).
                                     </p>
                                 </div>
-
                                 <div class="w3-container">
                                     <h3>
                                         <strong
@@ -129,7 +126,6 @@
                                         on mouse leg.
                                     </p>
                                 </div>
-
                                 <div class="w3-container">
                                     <h3>
                                         <strong
@@ -160,7 +156,6 @@
                                         MHz as proton Larmor frequency).
                                     </p>
                                 </div>
-
                                 <div class="w3-container">
                                     <h3>
                                         <strong
@@ -191,7 +186,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -224,7 +218,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

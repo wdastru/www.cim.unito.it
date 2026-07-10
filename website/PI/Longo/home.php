@@ -11,21 +11,17 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 <html lang="en">
 <head>
 <title>Home | Longo LAB</title>
-
 <meta name="MobileOptimized" content="width">
 <meta name="HandheldFriendly" content="true">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
@@ -34,21 +30,16 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				title="Molecular Imaging Center" style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
-
-
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO
 								LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
@@ -67,15 +58,11 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 										<li><a
 											href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor
 												angiogenesis</a>
-										
 										<li>
-										
 										<li><a
 											href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php"
 											font style="text-transform: none;">TUMOR pH IMAGING</a>
-										
 										<li>
-										
 										<li><a
 											href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php"
 											font style="text-transform: none;">RENAL pH IMAGING</a></li>
@@ -86,14 +73,10 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 										us</a></li>
 							</ul>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
 			<div class="wrapper style1">
@@ -123,14 +106,10 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 											</b>
 										</p>
 									</div>
-
 								</section>
 							</div>
-
 							<div class="5u 12u(mobile)">
-
 								<section class="box article-list">
-
 									<div>
 										<div style="width: 140px;">
 											<img
@@ -166,18 +145,13 @@ echo getStaffData($conn, [
         ?>
 												<a href="mailto:dariolivio.longo@cnr.it"><font
 													color="#1e799f"> dariolivio.longo@cnr.it </font></a>
-
 											</p>
 										</div>
-
 										<p></p>
-								
 								</section>
 							</div>
 						</div>
 						<header class="major"> </header>
-
-
 						<div class="row">
 							<div class="3u 6u(mobile)">
 								<section>
@@ -215,7 +189,6 @@ echo getStaffData($conn, [
 										alt="" class="image featured" /></a> <a
 										href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php"><font
 										color="blue">Read more >></font></a>
-
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -232,26 +205,19 @@ echo getStaffData($conn, [
 								</section>
 							</div>
 						</div>
-
-
 					</div>
-
 				</div>
 			</div>
-
-
 			<div class="wrapper style2">
 				<div class="inner">
 					<div class="container">
 						<div class="row">
 							<div class="7u 12u(mobile)">
-
 								<!-- Article list -->
 								<section class="box article-list">
 									<h2 class="icon fa-file-text-o">Upcoming Events</h2>
 									<!-- 
 									<ul class="divided">
-
 										<li>
 											<div class="date-icon">
 												<span class="month">May</span>
@@ -261,7 +227,6 @@ echo getStaffData($conn, [
 											target="_blank"> <strong>ISMRM 2022 Annual Meeting, London,
 													England</strong></a>
 										</li>
-
 										<li>
 											<div class="date-icon">
 												<span class="month">March</span>
@@ -272,7 +237,6 @@ echo getStaffData($conn, [
 											target="_blank"><strong>17th European Molecular Imaging
 													Meeting 2022 - Thessaloniki, Greece</strong></a>
 										</li>
-
 										<li>
 											<div class="date-icon">
 												<span class="month">August</span>
@@ -281,37 +245,28 @@ echo getStaffData($conn, [
 											style="vertical-align: middle; padding-left: 10px"
 											target="_blank"><strong>CEST workshop 2022</strong></a>
 										</li>
-
 										<li>
 											<div class="date-icon">
 												<span class="month">October</span>
 												<h1 class="day">5-8</h1>
 											</div> <strong>World Molecular Imaging Congress WMIC 2021</strong>
 										</li>
-
 									</ul>
 									 -->
-
 								</section>
 							</div>
 							<div class="5u 12u(mobile)">
 								<section class="box spotlight">
 									<h2 class="icon fa-file-text-o">NEWS</h2>
-
 									<ul class="divided">
-
 										<!--  
 						 			  	  	<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
-										    
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
 											i) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/position_informatico.pdf"><font color="red">Research Fellow position in Software development</a></font><br>
 											<!-- ii) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br> -->
 										<!-- iii) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
-										   
-											 
 											</li>
 											-->
-
 										<li><b>New research article on tumor pH imaging for assessing
 												breast metastatic potential published in </b> <a
 											title="Open in a new window" class="http"
@@ -330,8 +285,6 @@ echo getStaffData($conn, [
 													href="https://www.nature.com/articles/s41416-020-01173-0"
 													target="_blank">British Journal of Cancer</a>.
 											</p></li>
-
-
 										<li><b>New research article on a novel multislice sequence for
 												3D MRI-CEST pH imaging published in </b> <a
 											title="Open in a new window" class="http"
@@ -343,41 +296,34 @@ echo getStaffData($conn, [
 													class="http"
 													href="https://www.cim.unito.it/website/research/research_MRI_seq.php"
 													target="_blank"> <em><font color="blue">here</font></em></a>
-											
 											</p> </b></li>
-
 										<li><b>New research article on novel blood-pool CEST agents
 												published in </b> <a title="Open in a new window"
 											class="http" href="https://pubmed.ncbi.nlm.nih.gov/33764575/"
 											target="_blank"> <em><font color="blue">Magnetic Resonance in
 														Medicine 2021; 86:995.</font></em></a></li>
-
 										<li><b>New research article on a combined approach for
 												evaluating renal perfusion and pH published in </b> <a
 											title="Open in a new window" class="http"
 											href="https://pubmed.ncbi.nlm.nih.gov/32153058"
 											target="_blank"> <em><font color="blue">NRM in Biomedicine,
 														2020, 33, e4287.</font></em></a></li>
-
 										<li><b>New review focussing on imaging tumor metabolism
 												published in </b><a title="Open in a new window"
 											class="http"
 											href="https://www.ncbi.nlm.nih.gov/pubmed/32133295"
 											target="_blank"> <em><font color="blue">Frontiers in
 														Oncology, 2020, 10, 161</font></em></a></li>
-
 										<li><b>New review focussing on imaging tumor acidosis
 												published in </b><a title="Open in a new window"
 											class="http"
 											href="https://www.ncbi.nlm.nih.gov/pubmed/30762162"
 											target="_blank"> <em><font color="blue">Cancer Metastasis
 														Review 2019; 38:25-49</font></em></a></li>
-
 										<!--  <li><b><a title="Open in a new window" class="http" href="https://www.fondazioneveronesi.it/ricerca" target="_blank">							
 											<em><font color="blue">Umberto Veronesi Foundation Postdoctoral Fellowship </font></em></a>recipient, Lorena Consolino:  
 											congratulations!</b>
 											</li> -->
-
 										<li><img
 											src="<?php echo SITE_ROOT; ?>PI/Longo/images/book_chapter_MRI_kidney.jpg"
 											align="left" height="100px"
@@ -389,24 +335,18 @@ echo getStaffData($conn, [
 											href="https://link.springer.com/book/10.1007/978-1-0716-0978-1"
 											target="_blank"> <em><font color="blue"> Preclinical MRI of
 														the kidney: Methods and Protocols.</font></em></a></li>
-
-
 									</ul>
-
 								</section>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 		<!-- Footer Wrapper -->
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
 				<div class="12u">
-
 					<ul class="menu">
 						<li>&copy; 2021 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -425,8 +365,6 @@ echo getStaffData($conn, [
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
-
 </body>
 </html>
 <?php

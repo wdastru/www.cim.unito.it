@@ -54,3 +54,4 @@ website/research/MRI_sequences/package*
 /cim.unito.it_info hosting/
 .prettierrc
 website/download/metadata-plugin.zip
+*.psd

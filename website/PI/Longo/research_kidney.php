@@ -15,32 +15,24 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
-	          
 	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
-
-
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
@@ -65,24 +57,17 @@
 								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<section class="container box feature3">
 						<div class="row">
-
 							<article>
-
 								<h3 font style="text-transform: none;">Imaging renal pH</h3>
 								<p align="justify">
 									The kidney is a highly complex organ consisting of welldefined
@@ -105,17 +90,11 @@
 									Disease).<br><strong> We aim to demonstrate the biological validity
 									of renal pH imaging as a novel biomarker of kidney diseases.</strong>
 								</p>
-
-
 							</article>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<h3 font style="text-transform: none;">
 												<font color="red">Renal pH imaging</font></a>
@@ -125,7 +104,6 @@
 											</br>
 										</header>
 										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney1.jpg" alt="" class="image zooming">
-
 										<p align="justify">
 											Our previous studies have shown the ability of a
 											iodinated CA, Iopamidol, to measure pH values and
@@ -144,7 +122,6 @@
 											with the corresponding BUN raise and a complete recovery 21 days following the damage
 											<a class="html" href="https://www.ncbi.nlm.nih.gov/pubmed/23059893"
 												target="_blank"><font color="blue">[Longo et al. 2013]</font></a>.
-										
 										</p>
 										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney2.jpg" alt="" class="image zooming">
 										<p align="justify">We have demonstrated that the use of Iopamidol
@@ -158,27 +135,20 @@
 											kidney function and integrity, and not just an average of
 											the kidneys’ functionality as with clinical biomarker
 											such as serum creatinine and BUN.</p>
-										
 									</article>
 								</section>
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<h3 font style="text-transform: none;">
 												<font color="red">Single kidney functional pH imaging</font></a>
 											</h3>
-											
 											<p font style="text-transform: none; font-size:1.3em">Evaluation of renal pH homeostasis after ischemia reperfusion injury</p>
 										</header>
 										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney3.jpg" alt="" class="image zooming">
-
 										<p align="justify">
 											Ischemic renal injury is a severe clinical problem in nephrology and the
 											major cause of acute kidney injury (AKI). We investigated whether MRI-CEST renal pH mapping
@@ -201,28 +171,20 @@
 											The derangement of pH regulation was correlated to the decay
 											of renal filtration function and to the severity of the morphological
 											damage.</p>
-										
 									</article>
 								</section>
 							</div>
-
-
 						<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<h3 font style="text-transform: none;">
 												<font color="red">Dual assessment of kidney perfusion and pH </font></a>
 											</h3>
-											
 											<p font style="text-transform: none; font-size:1.3em">Dynamic CEST-MRI approach in an acute kidney ischemia reperfusion injury murine model</p>
 										</header>
 										<img src="<?php echo SITE_ROOT; ?>PI/Longo/images/kidney5.jpg" alt="" class="image zooming">
-
 										<p align="justify">
 											We investigated the exploitation of a single contrast agent injection with a dynamic CEST acquisition
 											for a combined quantification of renal perfusion and pH homeostasis in a unilateral kidney ischemia
@@ -242,28 +204,16 @@
 										<p align="justify">Our results demonstrate that a single CEST-MRI contrast agent can provide multiple types 
 										    of information related to renal function and can discern healthy kidneys from pathological ones by 
 										    combining perfusion measurements with renal pH mapping.</p>
-										
 									</article>
 								</section>
 							</div>
-							
-
-							
-
-
 						</div>
-
 					</section>
-
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
@@ -271,5 +221,4 @@
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
-
 </body>

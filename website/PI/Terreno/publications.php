@@ -15,10 +15,8 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
@@ -28,28 +26,20 @@ require_once __DIR__ . '/../../config.inc.php';
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
-
-
-
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
 						<!-- Nav -->
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Terreno/includes/menu_terreno.php'; ?>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper" style="height: 1000px;">
 			<div class="wrapper style2">
@@ -58,12 +48,9 @@ require_once __DIR__ . '/../../config.inc.php';
 						<div class="row">
 							<div class="10u 12u(mobile)">
 								<div id="content">
-
 									<!-- Content -->
 									<article>
-
 										<h2 class="icon fa-file-text-o">Journal Papers</h2>
-
 										<ul class="default">
 											<li><a title="Open in a new window"
 												href="https://scholar.google.com/citations?user=za1fQwwAAAAJ&hl=en&view_op=list_works&sortby=pubdate"
@@ -81,12 +68,9 @@ require_once __DIR__ . '/../../config.inc.php';
 								</div>
 							</div> 
 							-->
-
 						</div>
-
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
@@ -103,9 +87,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 		</footer>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -115,6 +97,5 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
 </body>
 </html>

@@ -18,7 +18,6 @@
         <div id="section0">
             <?php include SITE_PATH . "includes/main-nav.php"; ?>
             <div id="header"></div>
-
             <div id="subsection0">
                 <?php include SITE_PATH . "includes/home-side-nav.php"; ?>
                 <div id="content">
@@ -96,7 +95,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>

@@ -1,4 +1,4 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,10 +12,9 @@
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
-
             <div id="subsection0">
+                <?php include 'includes/menu.php'; ?> 
+                <?php include 'includes/header.php'; ?>
                 <div id="sidebar">
                     <div class="padding">
                         <dl id="list">
@@ -68,7 +67,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -99,7 +97,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

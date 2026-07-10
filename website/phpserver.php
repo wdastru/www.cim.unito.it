@@ -1,6 +1,5 @@
 <?php
     phpinfo();
-    
      echo "<h1>Data Filters</h1>\n<table>\n<tr>\n";
      echo "<td><strong>Filter ID</strong></td>\n";
      echo "<td><strong>Filter Name</strong></td>\n</tr>";

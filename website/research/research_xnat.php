@@ -14,7 +14,6 @@
                 <?php include SITE_PATH . "includes/main-nav.php"; ?> <?php
                 include SITE_PATH . "includes/main-nav-mobile.php"; ?>
                 <div id="header"></div>
-
                 <?php include SITE_PATH . "includes/research-side-nav.php"; ?>
                 <?php include SITE_PATH .
                 "includes/research-side-nav-mobile.php"; ?>
@@ -397,7 +396,6 @@
                                         </li>
                                     </ul>
                                 </li>
-
                                 <li>
                                     <a
                                         href="https://pidar.hpc4ai.unito.it/Home/About"
@@ -416,7 +414,6 @@
                                     >
                                 </li>
                             </ul>
-
                             <br />
                             <br />
                             <h2>Contact information</h2>

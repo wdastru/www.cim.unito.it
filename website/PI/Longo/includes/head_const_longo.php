@@ -7,4 +7,3 @@
 <!--[if lte IE 9]><link rel="stylesheet" href="<?php echo SITE_ROOT; ?>PI/assets/css/ie9.css" /><![endif]-->
 <link rel="SHORTCUT ICON" href="<?php echo SITE_ROOT; ?>images/favicon.ico" type="image/x-icon" />
 <link rel="ICON" href="<?php echo SITE_ROOT; ?>images/favicon.ico" type="image/ico" />
-

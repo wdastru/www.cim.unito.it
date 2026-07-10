@@ -4,5 +4,4 @@
 			return TRUE;
 		} else return FALSE;
 	}
-
 ?>

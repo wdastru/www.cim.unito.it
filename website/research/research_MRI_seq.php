@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <?php
     include SITE_PATH . 'includes/head_const.inc.php';
@@ -100,25 +99,19 @@
 		</form>
 	</div>
 	<div id='section1'>
-		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection23">
-			<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-			<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
- 			<div id='header'></div>
-			<!-- InstanceEndEditable -->
+			<?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
 							MRI Sequence Development
-							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
 						<p class="indent">
 							The MRI sequence development team focuses on the development and
 							optimization of new magnetic resonance imaging (MRI) sequences
@@ -342,7 +335,6 @@
 								class="group-leaders-img"
 								src="../images/staff/dastru.webp">
 						</a>
-						<!-- InstanceEndEditable -->
 					</div>
 				</div>
 			</div>
@@ -364,6 +356,5 @@
 	<script>
         changeSideNavStyles();
     </script>
-	<!-- InstanceEnd -->
 </body>
 </html>

@@ -13,6 +13,5 @@
         dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
     gtag("config", "G-MP6S1QL319");
 </script>

@@ -12,8 +12,8 @@
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section1">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             "
             <div id="subsection11">
                 " <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
@@ -66,7 +66,6 @@
                                 agents are currently under investigation for
                                 photoacoustic imaging applications. <br />
                             </p>
-
                             <ul>
                                 <li>
                                     <b>Small-molecules dyes </b>
@@ -90,7 +89,6 @@
                                         vitro.
                                     </p>
                                 </li>
-
                                 <li>
                                     <b>Nanoparticles and microbubbles</b>
                                     <p class="indent">
@@ -131,11 +129,8 @@
                                     </p>
                                 </li>
                             </ul>
-
                             <hr />
-
                             <h2 style="text-align: left">Group Leaders:</h2>
-
                             <a
                                 href="../PI/Longo/home.php"
                                 target="_blank"

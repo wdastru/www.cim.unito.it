@@ -1,7 +1,6 @@
 <?php
 require_once (__DIR__ . '/../../config.inc.php');
 include SITE_PATH . 'COST/private/errors.inc.php';
-
 function valid_error() {
 	if (preg_match('/^(cost_xml_not_found|file_not_copied|missing_db_table_name|missing_upload_file|invalid_type|delete|upload|missing_filename|file_exists|file_not_exists|upload_dir_not_exist|delete_not_set|not_valid_WG|file_too_big|could_not_delete_file)$/', $_GET['error'])) {
 		return TRUE;
@@ -9,7 +8,6 @@ function valid_error() {
 		return FALSE;
 	}
 }
-
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25,9 +23,8 @@ function valid_error() {
     </head>
     <body>
         <div id="section5">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
-
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             <div id="subsection0">
                 <div id="sidebar">
                     <?php include SITE_PATH . 'COST/include/COST-sidebar.php';
@@ -71,7 +68,6 @@ function valid_error() {
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -82,7 +78,6 @@ function valid_error() {
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

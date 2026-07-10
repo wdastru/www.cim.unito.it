@@ -5,14 +5,10 @@
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_overview.php">Overview</a></li>
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_probes.php">MRI probes</a></li>
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_angiogenesis.php">Tumor angiogenesis</a>
-
 			<li>
-
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_tumor_pH.php" font
 				style="text-transform: none;">TUMOR pH IMAGING</a>
-
 			<li>
-
 			<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/research_kidney.php" font style="text-transform: none;">RENAL
 					pH IMAGING</a></li>
 		</ul></li>

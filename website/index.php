@@ -5,14 +5,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template='/Templates/home.dwt' codeOutsidephpIsLocked='false' -->
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <meta
             name="description"
             content="Home page of the Molecular Imaging Center, a cross-disciplinary chemistry and life science lab at the University of Torino, Italy."
         />
-        <title>Molecular Imaging Center - University of Torino</title>
         <link
             rel="canonical"
             href="https://www.cim.unito.it/website/index.php"
@@ -21,24 +19,18 @@
     <body>
         <div id="section0">
             <div id="subsection0">
-                <?php require SITE_PATH . 'includes/main-nav.php'; ?> <?php
-                require SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-                <!-- InstanceBeginEditable name='subsection opening' -->
-                <div id="header"></div>
-                <!-- InstanceEndEditable -->
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <?php require SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
                 require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name='subsection title' -->
                                 Molecular Imaging Center
-                                <!-- InstanceEndEditable -->
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            <!-- InstanceBeginEditable name='subsection content' -->
                             <p>
                                 The Molecular Imaging Center (CIM) at the
                                 University of Torino, directed by Silvio Aime,
@@ -93,9 +85,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name='subsection title' -->
                                 Research Areas
-                                <!-- InstanceEndEditable -->
                             </h1>
                         </div>
                         <div class="home paddingInner">
@@ -261,9 +251,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name='subsection title' -->
                                 News and Events
-                                <!-- InstanceEndEditable -->
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -514,9 +502,7 @@
                         </div>
                         <div class="band">
                             <h1 class="subsectionTitle">
-                                <!-- InstanceBeginEditable name='subsection title' -->
                                 Recent papers
-                                <!-- InstanceEndEditable -->
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -940,6 +926,5 @@
                 setTimeout(carousel, 5000);
             }
         </script>
-        <!-- InstanceEnd -->
     </body>
 </html>

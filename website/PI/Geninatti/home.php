@@ -144,7 +144,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 									<a href="research_3.php"><img src="images/overview3.jpg" alt=""
 										class="image featured"></a> <a href="research_3.php"><span
 										style="color: blue;">Read more >></span></a>
-
 								</section>
 							</div>
 							<div class="3u 6u(mobile)">
@@ -171,19 +170,15 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 					</div>
 				</div>
 			</div>
-
 			<div class="wrapper style2">
 				<div class="inner">
 					<div class="container">
 						<div class="row">
 							<div class="7u 12u(mobile)">
-
 								<!-- Article list -->
 								<section class="box article-list">
 									<h2 class="icon fa-file-text-o">Upcoming Events</h2>
-
 									<ul class="divided">
-
 										<li>
 											<div class="date-icon">
 												<span class="month">March</span>
@@ -201,7 +196,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 											style="vertical-align: middle; padding-left: 10px"
 											target="_blank"> <strong>ISMRM 28th Annual Meeting 2020</strong></a>
 										</li>
-
 										<li>
 											<div class="date-icon">
 												<span class="month">October</span>
@@ -212,13 +206,11 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 													2020</strong></a>
 										</li>
 									</ul>
-
 								</section>
 							</div>
 							<div class="5u 12u(mobile)">
 								<section class="box spotlight">
 									<h2 class="icon fa-file-text-o">NEWS</h2>
-
 									<ul class="divided">
 										<li><b>New journal article on a novel tumour biomarker of
 												general applicability for relaxometric investigations
@@ -228,7 +220,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 											target="_blank"> <span
 												style="font-weight: bold; color: blue; font-style: italic;">Molecular
 													Physics</span>
-
 										</a></li>
 										<li><img src="images/book_chapter.jpg"
 											style="float: left; margin-right: 10px; height: 80px;"
@@ -249,7 +240,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				</div>
 			</div>
 		</div>
-
 		<!-- Footer Wrapper -->
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
@@ -265,7 +255,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 		</div>
 	</div>
 	<!-- Scripts -->
-
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
@@ -273,7 +262,6 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
-
 </body>
 </html>
 <?php

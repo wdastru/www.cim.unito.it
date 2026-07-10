@@ -1,7 +1,6 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang="it">
-    <!-- InstanceBegin template='/Templates/home.dwt' codeOutsideHTMLIsLocked='false' -->
     <head>
         <?php include SITE_PATH . "includes/head_const.inc.php"; ?>
         <title>Molecular Imaging Center - University of Torino - People</title>
@@ -13,12 +12,9 @@
     </head>
     <body>
         <div id="section8">
-            <!-- InstanceBeginEditable name='subsection opening' -->
             <div id="subsection0">
-                <?php include SITE_PATH . 'includes/main-nav.php'; ?> <?php
-                include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-                <div id="header"></div>
-                <!-- InstanceEndEditable -->
+                <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
                 <div id="content-nosidebar">
                     <div class="paddingOuter">
                         <div class="band">
@@ -26,9 +22,7 @@
                                 class="subsectionTitle"
                                 id="staff_institution_1"
                             >
-                                <!-- InstanceBeginEditable name='subsection title' -->
                                 University of Torino
-                                <!-- InstanceEndEditable -->
                             </h1>
                         </div>
                         <div class="paddingInner">
@@ -162,7 +156,7 @@
                                         <a
                                             title="Homepage"
                                             href="PI/Delli_Castelli/home.php"
-                                            target="_self"
+                                            target="_blank"
                                         >
                                             <span style="font-size: 1rem"
                                                 ><b>Daniela Delli Castelli</b>
@@ -1185,8 +1179,8 @@
                         Fax. Tel. Mail
                     </p>
                     <?php include SITE_PATH .
-                    'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
+                        'includes/HTML5_badge_valid.inc.php'; ?> <?php include
+    SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
                 </div>
             </div>
         </div>

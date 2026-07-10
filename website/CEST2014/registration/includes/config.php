@@ -5,12 +5,9 @@
 		Tutorial: User Registration and Login System
 	******************************/
 	// start the session before any output.
-
 	session_start();
-
 	// Set the folder for our includes
 	$sFolder = 'login';
-
 	/***************
 		Database Connection
 			You will need to change the user (user)
@@ -19,7 +16,6 @@
 	****************/
 	mysql_connect("localhost", "cim_adm", "vpsyyAR4jp") or trigger_error("Unable to connect to the database: " . mysql_error());
 	mysql_select_db('cimdb') or trigger_error("Unable to switch to the database: " . mysql_error());
-
 	/***************
 		password salts are used to ensure a secure password
 		hash and make your passwords much harder to be broken into
@@ -28,13 +24,10 @@
 	****************/
 	define('SALT1', '24859f@#$#@$');
 	define('SALT2', '^&@#_-=+Afda$#%');
-
 	// require the function file
 	include SITE_PATH . 'CEST2014/registration/includes/functions.php';
-
 	// default the error variable to empty.
 	$_SESSION['error'] = "";
-
 	// declare $sOutput so we do not have to do this on each page.
 	$sOutput = "";
 ?>

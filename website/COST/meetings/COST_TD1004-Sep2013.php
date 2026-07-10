@@ -1,8 +1,6 @@
-
 <?php require_once (__DIR__ . '/../../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
-<!-- InstanceBegin template='/Templates/events.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -18,10 +16,9 @@
 <body>
 	<div id='section5'>
 		<div id='subsection2'>
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-    		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-			<div id='header'></div>
-            <?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+			<?php include SITE_PATH . 'includes/header.php'; ?>
+			<?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
             <?php include SITE_PATH . 'COST/include/COST-sidebar-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
@@ -362,6 +359,5 @@
 	<script>
         changeSideNavStyles();
     </script>
-	<!-- InstanceEnd -->
 </body>
 </html>

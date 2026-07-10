@@ -4,7 +4,6 @@
 	Written by: Frost of Slunked.com
 	Tutorial: User Registration and Login System
 ******************************/
-
 /***********
 	bool createAccount (string $pUsername, string $pPassword)
 		Attempt to create an account for the passed in
@@ -16,14 +15,11 @@ function createAccount($pUsername, $pPassword)
     if (! empty($pUsername) && ! empty($pPassword)) {
         $uLen = strlen($pUsername);
         $pLen = strlen($pPassword);
-
         // escape the $pUsername to avoid SQL Injections
         $eUsername = mysql_real_escape_string($pUsername);
         $sql       = "SELECT username FROM users WHERE username = '" . $eUsername . "' LIMIT 1";
-
         // Note the use of trigger_error instead of or die.
         $query = mysql_query($sql) or trigger_error("Query Failed: " . mysql_error());
-
         // Error checks (Should be explained with the error)
         if ($uLen <= 4 || $uLen >= 11) {
             $_SESSION['error'] = "Username must be between 4 and 11 characters.";
@@ -35,18 +31,14 @@ function createAccount($pUsername, $pPassword)
             // All errors passed lets
             // Create our insert SQL by hashing the password and using the escaped Username.
             $sql = "INSERT INTO users (`username`, `password`) VALUES ('" . $eUsername . "', '" . hashPassword($pPassword, SALT1, SALT2) . "');";
-
             $query = mysql_query($sql) or trigger_error("Query Failed: " . mysql_error());
-
             if ($query) {
                 return true;
             }
         }
     }
-
     return false;
 }
-
 /***********
 	string hashPassword (string $pPassword, string $pSalt1, string $pSalt2)
 		This will create a SHA1 hash of the password
@@ -56,7 +48,6 @@ function hashPassword($pPassword, $pSalt1 = "2345#$%@3e", $pSalt2 = "taesa%#@2%^
 {
     return sha1(md5($pSalt2 . $pPassword . $pSalt1));
 }
-
 /***********
 	bool loggedIn
 		verifies that session data is in tack
@@ -68,10 +59,8 @@ function loggedIn()
     if (isset($_SESSION['loggedin']) && isset($_SESSION['username'])) {
         return true;
     }
-
     return false;
 }
-
 /***********
 	bool logoutUser
 		Log out a user by unsetting the session variable.
@@ -82,10 +71,8 @@ function logoutUser()
     // and thus logging off the user.
     unset($_SESSION['username']);
     unset($_SESSION['loggedin']);
-
     return true;
 }
-
 /***********
 	bool validateUser
 		Attempt to verify that a username / password
@@ -99,16 +86,13 @@ function validateUser($pUsername, $pPassword)
     $sql = "SELECT username FROM users
 		WHERE username = '" . mysql_real_escape_string($pUsername) . "' AND password = '" . hashPassword($pPassword, SALT1, SALT2) . "' LIMIT 1";
     $query = mysql_query($sql) or trigger_error("Query Failed: " . mysql_error());
-
     // If one row was returned, the user was logged in!
     if (mysql_num_rows($query) == 1) {
         $row                  = mysql_fetch_assoc($query);
         $_SESSION['username'] = $row['username'];
         $_SESSION['loggedin'] = true;
-
         return true;
     }
-
     return false;
 }
 ?>

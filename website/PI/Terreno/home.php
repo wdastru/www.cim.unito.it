@@ -64,7 +64,6 @@ require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 									</div>
 								</section>
 							</div>
-
 							<div class="4u 12u(mobile)">
 								<a href="#"><img
 									src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Terreno.jpg"
@@ -131,7 +130,6 @@ require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 										class="image featured"></a> <a
 										href="<?php echo SITE_ROOT; ?>PI/Terreno/research_3.php"><span
 										style="color: blue;">Read more >></span></a>
-
 								</section>
 							</div>
 						</div>
@@ -164,7 +162,6 @@ require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 											style="vertical-align: middle; padding-left: 10px"
 											target="_blank"> <strong>ISMRM 28th Annual Meeting 2020</strong></a>
 										</li>
-
 										<li>
 											<div class="date-icon">
 												<span class="month">October</span>
@@ -172,15 +169,12 @@ require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 											</div> <strong>World Molecular Imaging Congress WMIC 2020</strong>
 										</li>
 									</ul>
-
 								</section>
 							</div>
 							<div class="5u 12u(mobile)">
 								<section class="box spotlight">
 									<h2 class="icon fa-file-text-o">NEWS</h2>
-
 									<ul class="divided">
-
 										<li><span style="font-weight: bold; color: #404248;">New
 												journal article on MRI visualization of neuroinflammation
 												published in </span> <a title="Open in a new window"
@@ -202,8 +196,6 @@ require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 													Compartmentalized Water Protons: Liposome- and Cell-Based
 													CEST Agents" In: Chemical Exchange Saturation Transfer
 													Imaging: Advances and Applications.</span></a></li>
-
-
 									</ul>
 								</section>
 							</div>
@@ -212,12 +204,10 @@ require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				</div>
 			</div>
 		</div>
-
 		<!-- Footer Wrapper -->
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
 				<div class="12u">
-
 					<ul class="menu">
 						<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -238,8 +228,6 @@ require SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
-
 </body>
 </html>
 <?php 

@@ -1,4 +1,3 @@
-
 <?php
     /*****************************
 	File: register.php
@@ -7,9 +6,7 @@
 ******************************/
     require_once __DIR__ . '/../../config.inc.php';
     include SITE_PATH . 'CEST2014/registration/includes/config.php';
-
     $sOutput .= '<div id="register-body">';
-
     if (isset($_GET['action'])) {
     switch (strtolower($_GET['action'])) {
         case 'register':
@@ -29,14 +26,12 @@
             break;
     }
     }
-
     // If the user is logged in display them a message.
     if (loggedIn()) {
     $sOutput .= '<h2>Already Registered</h2>
 				You have already registered and are currently logged in as: ' . $_SESSION['username'] . '.
 				<h4>Would you like to <a href="login.php?action=logout">logout</a>?</h4>
 				<h4>Would you like to go to <a href="index.php">site index</a>?</h4>';
-
     // If the action is not set, we want to display the registration form
     } elseif (! isset($_GET['action'])) {
     // incase there was an error
@@ -45,12 +40,10 @@
     if (isset($_POST['username'])) {
         $sUsername = $_POST['username'];
     }
-
     $sError = "";
     if (isset($_SESSION['error'])) {
         $sError = '<span id="error">' . $_SESSION['error'] . '</span><br>';
     }
-
     $sOutput .= '<h2>Register for this site</h2>
 		' . $sError . '
 		<form name="register" method="post" action="' . $_SERVER['PHP_SELF'] . '?action=register">
@@ -61,9 +54,7 @@
 		<br>
 		<h4>Would you like to <a href="login.php">login</a>?</h4>';
     }
-
     $sOutput .= '</div>';
-
     // display our output.
     echo $sOutput;
 ?>

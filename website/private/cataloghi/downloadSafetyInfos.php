@@ -1,8 +1,6 @@
 <?php
-    
     $file = 'safety_info.tar.gz';
     exec("tar -zcf $file safety_info/");
-    
     if (file_exists($file)) {
         header('Content-Description: File Transfer');
         header('Content-Type: application/octet-stream');
@@ -18,5 +16,4 @@
         unlink($file);
         exit;
     }
-
 ?>

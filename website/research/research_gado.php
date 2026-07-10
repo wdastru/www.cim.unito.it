@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- InstanceBegin template="/Templates/research.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - CEST
@@ -12,25 +11,19 @@
 </head>
 <body>
 	<div id='section1'>
-		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection2">
-			<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-			<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-            <div id='header'></div>
-			<!-- InstanceEndEditable -->
+			<?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name="subsection title" -->
 							Gd complexes
-							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name="subsection content" -->
 						<p class='indent'>
 							The perturbation on the relaxation of solvent water protons
 							induced by the presence of paramagnetic metal-containing systems
@@ -62,8 +55,6 @@
 							function in vitro (at the cellular level) and/or in vivo (in
 							specific animal models).<br> <br> On this basis, at CIM a number
 							of Gd-containing complexes are synthetized and tested:<br>
-						
-						
 						<ul>
 							<li><b> Small-molecular weight Gd-complexes</b>
 								<p class="indent">
@@ -110,7 +101,6 @@
 								class="group-leaders-img"
 								src="<?php echo SITE_ROOT; ?>images/staff/gianolio.webp">
 						</a>
-						<!-- InstanceEndEditable -->
 					</div>
 				</div>
 			</div>
@@ -134,6 +124,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-	<!-- InstanceEnd -->
 </body>
 </html>

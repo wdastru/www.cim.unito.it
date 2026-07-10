@@ -30,7 +30,6 @@ require_once __DIR__ . '/../../config.inc.php';
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-
 						<!-- Logo -->
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
 						<!-- Nav -->
@@ -47,13 +46,10 @@ require_once __DIR__ . '/../../config.inc.php';
 				<div class="inner">
 					<div class="container">
 						<div class="row">
-
 							<div class="8u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section class="box article-list">
 									<h2>RESEARCH OVERVIEW</h2>
-
 									<article class="box excerpt">
 										<a><img
 											src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Figure_Targeting_Overview_1.jpg"
@@ -74,7 +70,6 @@ require_once __DIR__ . '/../../config.inc.php';
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a><img
 											src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Figure_drug_release_overview_2.jpg"
@@ -94,7 +89,6 @@ require_once __DIR__ . '/../../config.inc.php';
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a><img
 											src="<?php echo SITE_ROOT; ?>PI/Terreno/images/Figure_cellular_imaging_overview_3.jpg"
@@ -120,13 +114,11 @@ require_once __DIR__ . '/../../config.inc.php';
 					</div>
 				</div>
 			</div>
-
 		</div>
 		<!-- Footer Wrapper -->
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
 				<div class="12u">
-
 					<ul class="menu">
 						<li>&copy; 2020 Molecular Imaging Center. All rights reserved</li>
 						<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -137,9 +129,7 @@ require_once __DIR__ . '/../../config.inc.php';
 			</footer>
 		</div>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -149,6 +139,5 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
-
 </body>
 </html>

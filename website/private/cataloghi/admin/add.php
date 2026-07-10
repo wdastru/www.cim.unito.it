@@ -6,7 +6,6 @@
     }
     session_start();
     require_once __DIR__ . '/../../../config.inc.php';
-
 ?>
 <!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25,9 +24,8 @@
     </head>
     <body>
         <div id="section7">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
-
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             <div id="subsection0">
                 <div id="sidebar-narrow">
                     <div class="padding"></div>
@@ -39,7 +37,6 @@
                         </div>
                         <div class="paddingInner">
                             <?php require 'db_fields_sizes.inc.php'; ?>
-
                             <form
                                 name="add"
                                 method="post"
@@ -194,7 +191,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -205,7 +201,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

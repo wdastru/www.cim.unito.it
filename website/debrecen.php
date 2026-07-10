@@ -17,9 +17,8 @@
     </head>
     <body>
         <div id="section0">
-            <?php include SITE_PATH . 'includes/main-nav.php'; ?>
-            <div id="header"></div>
-
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
             <div id="subsection0">
                 <div id="sidebar">
                     <div class="padding">
@@ -73,7 +72,6 @@
                                     "
                                     id="player"
                                 ></a>
-
                                 <script type="text/javascript">
                                     flowplayer(
                                         "player",
@@ -85,7 +83,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -96,7 +93,6 @@
                 </p>
             </div>
         </div>
-
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

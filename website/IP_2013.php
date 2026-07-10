@@ -1,22 +1,15 @@
 <?php require_once (__DIR__ . '/config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
     <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino - Intensive programme 2012</title>
     </head>
     <body>
-
         <div id='section2'>
-
-            <?php
-            require ('includes/main-nav.php');
-            ?>
-            <div id='header'></div>
-            <!-- InstanceBeginEditable name="subsection opening" -->
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
             <div id='subsection1'>
-                <!-- InstanceEndEditable -->
                 <div id='sidebar'>
                     <div class='padding'>
                         <dl id='list'>
@@ -28,10 +21,9 @@
                 <div id='content'>
                     <div class='paddingOuter'>
                         <div class='band'>
-                            <h1 class='subsectionTitle'><!-- InstanceBeginEditable name="subsection title" --> Scuole <!-- InstanceEndEditable --></h1>
+                            <h1 class='subsectionTitle'> Scuole </h1>
                         </div>
                         <div class='paddingInner'>
-                            <!-- InstanceBeginEditable name="subsection content" -->
                             <div style="float: left">
                                 <img src="images/header_logo.png" width="295" height="100" alt="LLP" />
                             </div>
@@ -372,7 +364,6 @@
                                     </tr>
                                 </table>
                             </div>
-                            <!-- InstanceEndEditable -->
                         </div>
                     </div>
                 </div>
@@ -387,7 +378,6 @@
                     Fax. Tel. Mail
                 </p>
             </div>
-            
             <!-- section closing -->
         </div>
         <!-- section closing -->
@@ -396,6 +386,5 @@
             changeSideNavStyles();
             //]]>
         </script>
-        <!-- InstanceEnd -->
     </body>
 </html>

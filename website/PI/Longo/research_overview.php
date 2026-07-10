@@ -15,32 +15,24 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-			
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
-	          
 	          <a href="<?php echo SITE_ROOT; ?>" title="Molecular Imaging Center" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
-			
-			
 			<div class="container">
-					
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-					
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO LONGO LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Tumor Microenvironment</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
@@ -65,31 +57,21 @@
 								<li><a href="<?php echo SITE_ROOT; ?>PI/Longo/contact.php">Contact us</a></li>
 							</ul>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-		
 			<div class="wrapper style1">
 				<div class="inner">
 					<div class="container">
 						<div class="row">
-
 							<div class="10u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section class="box article-list">
 									<h2>RESEARCH OVERVIEW</h2>
-
 									<p></p>
-
-
 									<article class="box excerpt">
 										<a ><img src="<?php echo SITE_ROOT; ?>/PI/Longo/images/overview_probes.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
@@ -105,7 +87,6 @@
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a ><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/overview_angiogenesi.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>										
 										<div>
@@ -121,7 +102,6 @@
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a ><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/overview_tumor_pH.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
@@ -137,7 +117,6 @@
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a ><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/overview_kidney.jpg" alt="" class="image left" style="width: 300px; height: auto;"></a>
 										<div>
@@ -152,33 +131,18 @@
 												</p></a>
 										</div>
 									</article>
-
-
 								</section>
-
 							</div>
-
 						</div>
-
-
-
-
 					</div>
 				</div>
 			</div>
-
 			<div class="wrapper style2">
 				<div class="inner">
 					<div class="container">
-					
 					<div class="row">
-
 				  <div class="10u 12u(mobile)">
-
-						
-
 							<h2>RESEARCH SUPPORT</h2>
-
 							<ul.default>
 								<li>AIRC MFAG 2017 n.20153: Multidimensional MRI mapping of
 									tumor acidosis: tracking spatial heterogeneity and temporal
@@ -189,22 +153,14 @@
 								</li>
 								<!--  <li>EU H2020 N.667510: GlucoCEST Imaging in Neoplastic Tumours (GLINT), <strong>PI: Xavier Golay </strong>(UCL)</li>  -->
 							</ul>
-
-						
-						
 						</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
@@ -212,5 +168,4 @@
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
-
 </body>

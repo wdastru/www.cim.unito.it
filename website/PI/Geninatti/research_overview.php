@@ -15,10 +15,8 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it/" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
@@ -28,11 +26,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				style="text-decoration: none;">
 				<div class="cim-logo-container"></div>
 			</a>
-
-
-
 			<div class="container">
-
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
@@ -46,7 +40,6 @@ require_once __DIR__ . '/../../config.inc.php';
 				</header>
 			</div>
 		</div>
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
 			<div class="wrapper style1">
@@ -77,7 +70,6 @@ require_once __DIR__ . '/../../config.inc.php';
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a><img src="images/overview2.jpg" alt="" class="image left"
 											style="width: 300px; height: auto;"></a>
@@ -101,7 +93,6 @@ require_once __DIR__ . '/../../config.inc.php';
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a><img src="images/overview3.jpg" alt="" class="image left"
 											style="width: 300px; height: auto;"></a>
@@ -125,7 +116,6 @@ require_once __DIR__ . '/../../config.inc.php';
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a><img src="images/overview4.jpg" alt="" class="image left"
 											style="width: 300px; height: auto;"></a>
@@ -147,7 +137,6 @@ require_once __DIR__ . '/../../config.inc.php';
 												</p></a>
 										</div>
 									</article>
-
 									<article class="box excerpt">
 										<a><img src="images/overview5.jpg" alt="" class="image left"
 											style="width: 300px; height: auto;"></a>
@@ -169,25 +158,13 @@ require_once __DIR__ . '/../../config.inc.php';
 												</p></a>
 										</div>
 									</article>
-
-
 								</section>
-
 							</div>
-
 						</div>
-
-
-
-
 					</div>
 				</div>
 			</div>
-
-
 		</div>
-
-
 	</div>
 	<!-- Footer Wrapper -->
 	<div id="footer-wrapper">
@@ -202,9 +179,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
@@ -212,6 +187,5 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
-
 </body>
 </html>

@@ -1,9 +1,8 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php require_once __DIR__ . '/config.inc.php'; ?>
 <!DOCTYPE html>
 <html lang='en'>
-<!-- InstanceBegin template='/Templates/events.dwt' codeOutsideHTMLIsLocked='false' -->
 <head>
-        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>        
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 		<title>Molecular Imaging Center - University of Torino - Meetings</title>
 <meta
 	name='description'
@@ -12,22 +11,18 @@
 <body>
 	<div id='section2'>
 		<div id='subsection3'>
-		<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-			<div id='header'></div>
-			<?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
-			<?php include SITE_PATH . 'includes/events-side-nav-mobile.php'; ?>
+		<?php include SITE_PATH . 'includes/menu.php'; ?>
+		<?php include SITE_PATH . 'includes/header.php'; ?>
+		<?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
+		<?php include SITE_PATH . 'includes/events-side-nav-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
-							<!-- InstanceBeginEditable name='subsection title' -->
 							Meetings
-							<!-- InstanceEndEditable -->
 						</h1>
 					</div>
 					<div class='paddingInner'>
-						<!-- InstanceBeginEditable name='subsection content' -->
 						<ul>
 							<li><a href='COST/meetings/COST_TD1004-Feb2012.php'>COST TD1004
 									Meeting - Torino, 17-18 February 2012</a></li>
@@ -35,7 +30,6 @@
 									'Metal-Based Systems for Molecular Imaging Applications' -
 									Working Groups 2 and 6 Joint Meeting - March 24-26, 2011</a></li>
 						</ul>
-						<!-- InstanceEndEditable -->
 					</div>
 				</div>
 			</div>
@@ -59,6 +53,5 @@
         changeSideNavStyles();
         //]]>
     </script>
-	<!-- InstanceEnd -->
 </body>
 </html>

@@ -14,58 +14,42 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-			
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
-	          
 	          <a href="http://www.cim.unito.it" title="Molecular Imaging Center" target="_blank" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
-			
-			
 			<div class="container">
-					
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-					
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<section class="container box feature3">
 						<div class="row">
-
 							<article>
-
 								<h3 font style="text-transform: none;">Site-selective modification of peptides and proteins</h3>
-								
 								<p align="justify">The ability to selectively modify a peptide/protein molecule opens the way to a plethora of novel 
 								applications for the target biomolecule and helps in understanding its structural/functional role.  Proteins can be 
 								modified introducing unnatural amino acids, fluorophores, labeled atoms/residues, post-translation modifications, 
@@ -73,25 +57,17 @@
 								reactions, such as chemical ligation, in order to obtain a homogenous product. We are especially interested in the 
 								bioconjugation of the molecules of interest with imaging probes for application in optical and medical imaging.
 								</p>
-
 								<div style="text-align: center;">
 									<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_2.jpg" style="max-width: 50%; height: auto;"><br/></div>
-
-
 							</article>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<p font style="text-transform: none; font-size:1.3em">VEGFR1D2 bioconjugation: a tool for VEGF targeting</p>
 										</header>
 										<img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_2_1.jpg" alt="" class="image zooming">
-
 										<p align="justify">
 										We report the use of a chemical ligation based strategy for the site-selective and covalent modification 
 										of the second domain of VEGFR1D2, an Ig-like domain directly involved in the ligand binding in vivo. 
@@ -104,22 +80,16 @@
 										an alkoxyamine function was conjugated. VEGFR1D2 suitably modified with convenient molecular probes can 
 										be used as a tool for VEGF targeting with both diagnostic and therapeutic applications.																					 												
 										</p>
-										
 									</article>
 								</section>
 							</div>
-
 							<div class="4u 12u(mobile)">
-
 								<!-- Spotlight -->
 								<section>
-
 									<article>
-
 										<header>
 											<p font style="text-transform: none; font-size:1.3em">Site-specific protein double labeling by expressed protein ligation: applications to repeat proteins</p>
 										</header>
-
 										<p align="justify">
 										We reported a semi-synthetic strategy based on expressed protein ligation to prepare proteins, in high purity and homogeneity, with 
 										two different molecular probes incorporated specifically at any desired position
@@ -138,33 +108,18 @@
 												target="_blank"><font color="blue">[Cohen et al. 2015]</font></a>. 
 												Based on this study we highlighted on the molecular basis for the elasticity of repeat proteins 
 										in general and TPRs in particular, demonstrating that it can be modulated by weakening hydrophobic interactions at the interfaces between repeat units. 
-											
 										 <img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_2_2_1.jpg" alt="" class="image zooming">
 										 <img src="<?php echo SITE_ROOT; ?>/PI/DAndrea/images/research_2_2_2.jpg" alt="" class="image zooming">
-											
-											
 									</article>
 								</section>
 							</div>
-
-							
-
-							
-
-
 						</div>
-
 					</section>
-
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
@@ -172,6 +127,5 @@
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
-
 </body>
 </html>

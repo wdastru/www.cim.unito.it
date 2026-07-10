@@ -14,62 +14,47 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-			
 			<!-- logo unito -->
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
-	          
 	          <a href="http://www.cim.unito.it" title="Molecular Imaging Center" target="_blank" style="text-decoration: none;" >
 	          <div class="cim-logo-container">
 	         </div></a>
-			
-			
 			<div class="container">
-					
 				<!-- Header -->
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-					
 						<!-- Logo -->
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
-
 							</div>
 						</h1>
 						<!-- Nav -->
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
-
 					</div>
 				</header>
-
 			</div>
 		</div>
-
-
 		<!-- Main Wrapper -->
 		<div id="main-wrapper">
-
 			<div class="wrapper style3">
 				<div class="inner">
 					<div class="container">
 						<div class="row">
 							<div class="8u 10u(mobile)">
-
 								<!-- Article list -->
 								<section class="box article-list">
 									<h2 class="second icon fa-user">Group Members</h2>
 									</section>
 									</div>
 									</div>
-
 									<!-- Excerpt -->
 									<div class="row">
 							<div class="8u 12u(mobile)">
@@ -89,27 +74,19 @@
 												MSc Chemistry<br>
 												Phone: +39 0116709542<br> 
 												E-mail: <a href="mailto:luca.dandrea@cnr.it">luca.dandrea@cnr.it</a></p>
-																								
 											</div>									
-									
 										</div>
 									</article>
 									</div>
 									<div class="4u 6u(mobile)">
-									
 												<br><h4 style="margin: 0 0 0 4em;"">Research Topics</h4>
 											<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/dandrea_wordcloud.png" class="w3-image"
 									style="max-width: 250px;" />
-									
 									</div>
 									</div>
-									
 									<hr></hr>
-									
-									
 										<div class="row">
 							<div class="8u 12u(mobile)">
-									
 									<!-- Excerpt -->
 									<article class="box excerpt">
 										<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/rossella_di_stasi.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
@@ -125,7 +102,6 @@
 													href="mailto:rossella.distasi@cnr.it">rossella.distasi@cnr.it</a>
 											</p>
 										</div>
-										
 										<div class="showtext">
 										<div>My project focuses on ...</div>
 										<form> <p align="justify"><b>Preparation and purification of recombinant proteins and application of spectroscopic and physic-chemical techniques for 
@@ -136,17 +112,12 @@
 											</p>
 										</form>
 										</div>
-										
 									</article>
 									</div>
-									
 									</div>
-									
 									<hr></hr>
-									
 									<div class="row">
 							<div class="8u 12u(mobile)">
-									
 									<!-- Excerpt -->
 									<article class="box excerpt">
 										<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/lucia_de_rosa.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
@@ -162,7 +133,6 @@
 												E-mail: <a href="mailto: lucia.derosa@unina.it"> lucia.derosa@unina.it</a>
 											</p>
 										</div>
-										
 										<div class="showtext">
 										<div>My research aims at ...</div>
 										<form> <p align="justify"><b>
@@ -176,25 +146,17 @@
 											</p>
 										</form>
 										</div>
-										
 									</article>
 									</div>
-									
 									</div>
-									
 									<hr></hr>
-																	
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
@@ -205,6 +167,5 @@
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>
 </script>
-
 </body>
 </html>

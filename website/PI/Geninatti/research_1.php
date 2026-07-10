@@ -15,10 +15,8 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<div id="header-wrapper">
-
 			<!-- logo unito -->
 			<a href="http://www.unito.it/" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
@@ -57,7 +55,6 @@ require_once __DIR__ . '/../../config.inc.php';
 								drug- and imaging agent delivery platform due to its
 								biocompatibility, biodegradability, coupled with its low
 								toxicity.</p>
-
 							<div style="text-align: center; float: revert;">
 								<img src="images/graphical_abs_overview1.jpg"
 									style="max-width: 40%; height: auto;"
@@ -185,9 +182,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 	</div>
-
 	<!-- Scripts -->
-
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
@@ -195,6 +190,5 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
-
 </body>
 </html>

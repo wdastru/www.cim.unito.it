@@ -3,22 +3,18 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
 	xmlns="http://www.w3.org/1999/xhtml">
-<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
 <head>
 <?php include SITE_PATH . 'includes/head_const.inc.php'?>
 <title>Molecular Imaging Center - University of Torino - Events</title>
 <meta name="description" content="University of Torino. Website of the Molecular Imaging Center." />
 </head>
 <body>
-
 	<div id='section0'>
-	<?php include SITE_PATH . 'includes/main-nav.php'; ?>
+	<?php include SITE_PATH . 'includes/menu.php'; ?> 
+                <?php include SITE_PATH . 'includes/header.php'; ?>
 		<div id='header'></div>
-		<!-- InstanceBeginEditable name="subsection opening" -->
 		<div id="subsection2">
-			<!-- InstanceEndEditable -->
 			<?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
-			
 			<div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -27,14 +23,11 @@
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					
 					<div class="w3-row" >
 							<div class="w3-col w3-quarter">						
-
 								<img src="<?php echo SITE_ROOT; ?>images/staff/patrucco.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
-
 							<div class="w3-col w3-threequarter">
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Deyssy Patrucco</h1>
 								<p style="text-align:left;"><b>PhD student<br>
@@ -42,24 +35,16 @@
 								<a href="<?php echo SITE_ROOT; ?>PI/Terreno/home.php" target="_blank" style="color:#dc6a10">
 								  Terreno Lab</a>
 								</b></p>
-									
 							</div>
 						</div>
-					
 					<hr></hr>
-					
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
-												
 												 M.Sc. Molecular Biotechnology, University of Torino, Italy<br>
 											</p>
-					
-					
 					</div>
-					
 						<hr></hr>
-					
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
@@ -71,33 +56,21 @@
 					 The ultimate goals of my project are to improve the therapeutic performance of the drug, reducing the side effects and predicting the long&minus;term 
 					 outcome on an individual basis.</p>
 					</div>
-					
-					
-					
 					</div>
-					
 						<hr></hr>
-					
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
 					Phone: +390116706493<br> 
 					E-mail: <a href="mailto:deyssy.patrucco@unito.it"><span style="color:#007c92">deyssy.patrucco@unito.it</span></a></p>
-					
 					</div>
-					   
 					   <hr></hr>
-					
 					<div class="row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.scopus.com/authid/detail.uri?authorId=56736809800" target="_blank" style="color:#007c92">Scopus </a>
-					
 					</div>
-					   
-					   
-					   
 					</div>
 				</div>
 			</div>
@@ -111,7 +84,6 @@
 				Fax. Tel. Mail
 			</p>
 		</div>
-		
 		<!-- section closing -->
 	</div>
 	<!-- section closing -->
@@ -120,6 +92,5 @@
 changeSideNavStyles();
 //]]>
 </script>
-	<!-- InstanceEnd -->
 </body>
 </html>

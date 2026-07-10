@@ -1,12 +1,9 @@
 <?php
-
 /**
  Chmods files and folders with different permissions.
-
  This is an all-PHP alternative to using: \n
  <tt>exec("find ".$path." -type f -exec chmod 644 {} \;");</tt> \n
  <tt>exec("find ".$path." -type d -exec chmod 755 {} \;");</tt>
-
  @author Jeppe Toustrup (tenzer at tenzer dot dk)
  @param $path An either relative or absolute path to a file or directory
  which should be processed.
@@ -17,7 +14,6 @@
  normally means adding a zero ("0") in front of the permission level. \n
  More info at: http://php.net/chmod.
  */
-
 function recursiveChmod($path, $filePerm = 0777, $dirPerm = 0777) {
 	// Check if the path exists
 	if (!file_exists($path)) {

@@ -1,7 +1,6 @@
 <?php require_once (__DIR__ . '/../../config.inc.php'); ?>
 <!DOCTYPE html>
 <html lang='en'>
-<!-- InstanceBegin template="/Templates/events.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
         <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>Molecular Imaging Center - University of Torino -
@@ -17,12 +16,9 @@
 <body>
 	<div id='section5'>
 		<div id='subsection2'>
-    		<?php include SITE_PATH . 'includes/main-nav.php'; ?>
-    		<?php include SITE_PATH . 'includes/main-nav-mobile.php'; ?>
-		<!-- InstanceBeginEditable name='subsection opening' -->
-			<div id='header'></div>
-			<!-- InstanceEndEditable -->
-            <?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
+    		<?php include SITE_PATH . 'includes/menu.php'; ?>
+			<?php include SITE_PATH . 'includes/header.php'; ?>
+			<?php include SITE_PATH . 'COST/include/COST-sidebar.php'; ?>
             <?php include SITE_PATH . 'COST/include/COST-sidebar-mobile.php'; ?>
 			<div id='content'>
 				<div class='paddingOuter'>
@@ -52,13 +48,10 @@
 								href="http://www.kajaramada.com">www.kajaramada.com</a>
 							)<br> Local Organizer: Mustafa Selman Yavuz (<a
 									href="mailto:selmanyavuz@selcuk.edu.tr">selmanyavuz@selcuk.edu.tr</a>)
-							
-						
 						</p>
 						<p>
 							Interested to submit an oral/poster contribution to the workshop?<br>
 								Please contact one of the WG Leaders: 
-						
 						</p>
 						<ul>
 							<li><b>WG1: Imaging reporters for theranostic agents</b> <br>
@@ -87,7 +80,6 @@
 			<p>
 				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail 
-			
 			</p>
 			<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
 			<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
@@ -96,6 +88,5 @@
 	<script>
         changeSideNavStyles();
     </script>
-	<!-- InstanceEnd -->
 </body>
 </html>
