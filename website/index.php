@@ -21,8 +21,8 @@
             <div id="subsection0">
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-                <?php require SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
-                require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
+                <?php require SITE_PATH . 'includes/home-side-nav.php'; ?>
+                <?php require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
