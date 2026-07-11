@@ -1,5 +1,8 @@
 @media screen {
     /* CSS Document */
+    #section-nav-mobile {
+        display: none;
+    }
 
     /* --> NEW MENU (includes/menu.php) */
     .main-menu {
@@ -1826,45 +1829,88 @@
         display: none;
     }
 
+    /* SECTION NAV */
+
+    #section-nav-mobile {
+        position: relative;
+        display: block;
+        width: 100%;
+        background: #fff;
+        margin-bottom: 0.5rem;
+    }
+
+    .section-nav-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-nav-list.open {
+        display: block;
+    }
+
+    .section-nav-toggle {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border: none;
+        background: #e4e4e4;
+        color: #666;
+        font-size: 0.75rem;
+        font-weight: bold;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .section-nav-list li {
+        border-top: 1px solid #ddd;
+    }
+
+    .section-nav-list a {
+        display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        color: #666;
+    }
+
+    .section-nav-list a:hover {
+        background-color: #f5f5f5;
+        color: #db6d16;
+    }
+
     /* SIDEBAR-MOBILE */
     #sidebar-mobile {
         display: block;
-
         position: relative;
         width: 100%;
-
         background: #fff;
-
         margin-bottom: 0.5rem;
     }
 
     .sidebar-toggle {
         width: 100%;
-
         padding: 0.5rem 1rem;
-
         border: none;
-
         background: #e4e4e4;
-
         text-align: left;
-
         font-size: 0.75rem;
         font-weight: bold;
-
         color: #666;
-
         cursor: pointer;
     }
 
     .sidebar-mobile-list {
         display: none;
-
         list-style: none;
-
         margin: 0;
         padding: 0;
-
         background: #fff;
     }
 
@@ -1878,11 +1924,8 @@
 
     .sidebar-mobile-list a {
         display: block;
-
         padding: 0.4rem 1rem;
-
         text-decoration: none;
-
         color: #666;
     }
 
