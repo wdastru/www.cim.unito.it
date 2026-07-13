@@ -1,22 +1,25 @@
 <!doctype html>
-<?php require_once (__DIR__ . '/../config.inc.php'); $activeSection = 'research'; ?>
+<?php
+    require_once __DIR__ . '/../config.inc.php';
+    $activeSection    = 'research';
+    $activeSubsection = 'xnat';
+?>
 <html lang="en">
     <head>
+        <?php include SITE_PATH . "includes/head_const.inc.php"; ?>
         <title>
             Molecular Imaging Center - University of Torino - CIM-XNAT
         </title>
         <meta name="description" content="" />
-        <?php include SITE_PATH . "includes/head_const.inc.php"; ?>
     </head>
     <body>
         <div id="section1">
-            <div id="subsection22">
-                <?php include SITE_PATH . "includes/main-nav.php"; ?> <?php
-                include SITE_PATH . "includes/main-nav-mobile.php"; ?>
-                <div id="header"></div>
-                <?php include SITE_PATH . "includes/research-side-nav.php"; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+                <?php include SITE_PATH . 'includes/header.php'; ?>
+				<div class="main-area">
+            	    <?php include SITE_PATH . "includes/research-side-nav.php"; ?>
                 <?php include SITE_PATH .
-                "includes/research-side-nav-mobile.php"; ?>
+                    "includes/research-side-nav-mobile.php"; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -542,8 +545,8 @@
                         Fax. Tel. Mail
                     </p>
                     <?php include SITE_PATH .
-                    "includes/HTML5_badge_valid.inc.php"; ?> <?php include
-                    SITE_PATH . "includes/PageSpeedTest.inc.php"; ?>
+                        "includes/HTML5_badge_valid.inc.php"; ?> <?php include
+    SITE_PATH . "includes/PageSpeedTest.inc.php"; ?>
                 </div>
             </div>
             <!-- subsection22 closing -->

@@ -323,6 +323,34 @@
     }
 
     /* End of MAIN NAVIGATION */
+    .main-layout {
+        display: flex;
+    }
+
+    #sidebar {
+        flex: 0 0 240px;
+    }
+
+    #content {
+        flex: 1;
+    }
+
+    /* End of MAIN NAVIGATION */
+
+    /* MAIN-AREA */
+    .main-area {
+        display: flex;
+    }
+
+    #sidebar {
+        flex: 0 0 240px;
+    }
+
+    #content {
+        flex: 1;
+    }
+
+    /* End of MAIN-AREA */
 
     /* SIDEBAR */
     #pubsSelector {
@@ -394,6 +422,12 @@
         line-height: 1.5rem;
         padding: 0 0.75rem 0 0.75rem;
         text-decoration: none;
+    }
+
+    #sidebar .subsection_link.active>a,
+    #sidebar .subsection_link.active>a:hover {
+        background-color: #e4e4e4;
+        color: #db6d16;
     }
 
     /* <-- End */
@@ -1220,17 +1254,22 @@
     }
 
     .home.paddingInner {
-        height: 250px;
+        min-height: 250px;
         margin-bottom: 20px;
     }
 
     .home.row {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        gap: 1rem;
         justify-content: center;
     }
 
-    .home.cell,
+    .home.cell {
+        flex: 1 1 300px;
+        max-width: 400px;
+    }
+
     .home.cell.papers {
         flex: 25%;
         padding: 0 10px;

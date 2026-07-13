@@ -1,6 +1,7 @@
 <?php
     require_once __DIR__ . '/config.inc.php';
     $activeSection = 'research';
+    $activeSubsection = 'research';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,9 +17,9 @@
     </head>
     <body>
         <div id="section1">
-            <div id="subsection0">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
                 <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
                 <div id="content">

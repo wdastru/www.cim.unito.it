@@ -1,4 +1,8 @@
-<?php require_once (__DIR__ . '/../config.inc.php'); $activeSection = 'research'; ?>
+<?php
+    require_once __DIR__ . '/../config.inc.php';
+    $activeSection    = 'research';
+    $activeSubsection = 'hyper';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +15,10 @@
 </head>
 <body>
 	<div id='section1'>
-		<div id="subsection4">
-		<?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+
+			<?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+				<div class="main-area">
             <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
 			<div id='content'>
@@ -236,7 +241,7 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
+<?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
 <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
 			<!-- subsection closing -->

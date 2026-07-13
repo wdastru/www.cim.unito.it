@@ -3,6 +3,7 @@
     ob_start('ob_gzhandler');
     header('Content-Type: text/html;charset=UTF-8');
     $activeSection = 'home';
+    $activeSubsection = 'home';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,9 +20,9 @@
     </head>
     <body>
         <div id="section0">
-            <div id="subsection0">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php require SITE_PATH . 'includes/home-side-nav.php'; ?>
                 <?php require SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">

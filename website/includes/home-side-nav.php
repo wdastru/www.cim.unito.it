@@ -1,15 +1,30 @@
+<?php
+
+    $homeNav = [
+    'aboutus'  => [
+        'url'   => SITE_ROOT . 'aboutus.php',
+        'label' => 'About Us',
+    ],
+    'where'    => [
+        'url'   => SITE_ROOT . 'where.php',
+        'label' => 'Where',
+    ],
+    'contacts' => [
+        'url'   => SITE_ROOT . 'contacts.php',
+        'label' => 'Contacts',
+    ],
+    ];
+
+?>
+
 <div id="sidebar">
     <div class="padding">
-        <dl id="list">
-            <dt class="subsection_link" id="section0-subsection1">
-                <a href="<?php echo SITE_ROOT; ?>aboutus.php">About Us</a>
-            </dt>
-            <dt class="subsection_link" id="section0-subsection3">
-                <a href="<?php echo SITE_ROOT; ?>where.php">Where</a>
-            </dt>
-            <dt class="subsection_link" id="section0-subsection4">
-                <a href="<?php echo SITE_ROOT; ?>contacts.php">Contacts</a>
-            </dt>
-        </dl>
+        <ul id="list">
+            <?php foreach ($homeNav as $subsection => $item): ?>
+                <li<?php echo $activeSubsection === $subsection ? ' class="subsection_link active"' : ' class="subsection_link"' ?>>
+                    <a href="<?php echo $item['url'] ?>"><?php echo $item['label'] ?></a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
     </div>
 </div>

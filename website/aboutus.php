@@ -1,6 +1,7 @@
 <?php
     require_once __DIR__ . '/config.inc.php';
-    $activeSection = 'home';
+    $activeSection    = 'home';
+    $activeSubsection = 'aboutus';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,9 +21,9 @@
     </head>
     <body>
         <div id="section0">
-            <div id="subsection1">
-                <?php include 'includes/menu.php'; ?>
-                <?php include 'includes/header.php'; ?>
+            <?php include 'includes/menu.php'; ?>
+            <?php include 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php require SITE_PATH . 'includes/home-side-nav.php'; ?>
                 <?php require SITE_PATH . 'includes/home-side-nav-mobile.php';
                 ?>

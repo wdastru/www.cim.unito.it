@@ -1,11 +1,12 @@
 <?php
     require_once __DIR__ . '/config.inc.php';
-    $activeSection = 'home';
+    $activeSection    = 'home';
+    $activeSubsection = 'where';
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require SITE_PATH . 'includes/head_const.inc.php'?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
         <title>
             Molecular Imaging Center - University of Torino - Where we are
         </title>
@@ -20,11 +21,11 @@
     </head>
     <body>
         <div id="section0">
-            <div id="subsection3">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php include SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
-                include SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
+ include SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -52,7 +53,7 @@
                 </p>
                 <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';
                 ?> <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';
-                ?>
+ ?>
             </div>
             <!-- section closing -->
         </div>

@@ -15,10 +15,11 @@
     </head>
     <body>
         <div id="section8">
-            <div id="subsection0">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
-                <div id="content-nosidebar">
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
+                <div id='sidebar'></div>
+                <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
                             <h1
