@@ -1,17 +1,18 @@
-# Set default index page
-DirectoryIndex /website/index.php
-
-# Rewrite rules
-RewriteEngine On
-# Continue only if URI does not start with /website/
-RewriteCond %{REQUEST_URI} !^/website/
-# Prepend /website to everything else
-RewriteRule ^(.*)$ /website/$1 [R=301,L]
-
-# MIME types
-AddType text/html; charset=UTF-8 html    
-AddType image/webp .webp
-
+<If "%{HTTP_HOST} != 'localhost' && %{HTTP_HOST} != '127.0.0.1'">
+	# Set default index page
+	DirectoryIndex /website/index.php
+	
+	# Rewrite rules
+	RewriteEngine On
+	# Continue only if URI does not start with /website/
+	RewriteCond %{REQUEST_URI} !^/website/
+	# Prepend /website to everything else
+	RewriteRule ^(.*)$ /website/$1 [R=301,L]
+	
+	# MIME types
+	AddType text/html; charset=UTF-8 html    
+	AddType image/webp .webp
+</If>
 <IfModule mod_expires.c>
 	# CACHE EXPIRATION #
 	ExpiresActive On
