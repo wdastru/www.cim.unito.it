@@ -3,7 +3,7 @@
         class="section-nav-toggle"
         data-title="HOME"
     >
-        HOME ▼
+        HOME
     </button>
     <ul class="section-nav-list">
         <li>

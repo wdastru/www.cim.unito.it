@@ -17,8 +17,7 @@
                 <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
                 <?php include SITE_PATH . 'includes/research-side-nav.php'; ?>
-                <?php include SITE_PATH .
-                'includes/research-side-nav-mobile.php'; ?>
+                <?php include SITE_PATH . 'includes/research-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">

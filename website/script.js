@@ -308,21 +308,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	if (sectionNavButton && sectionNav) {
 
-		const title =
-			sectionNavButton.dataset.title || 'SECTION';
-
-		sectionNavButton.addEventListener('click', function () {
-
+		sectionNavButton.addEventListener('click', function (e) {  
+			e.stopPropagation();
 			sectionNav.classList.toggle('open');
+			sectionNavButton.classList.toggle('open');
+		});
 
-			if (sectionNav.classList.contains('open')) {
-				sectionNavButton.textContent = title + ' ▲';
-			} else {
-				sectionNavButton.textContent = title + ' ▼';
-			}
+		sectionNav.addEventListener('click', function (e) {
+			e.stopPropagation();
+		});
+
+		document.addEventListener('click', function () {
+
+			sectionNav.classList.remove('open');
+			sectionNavButton.classList.remove('open');
 
 		});
 
 	}
-
 });

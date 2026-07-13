@@ -15,42 +15,8 @@
             <div id="subsection0">
                 <?php include 'includes/menu.php'; ?> 
                 <?php include 'includes/header.php'; ?>
-                <div id="sidebar">
-                    <div class="padding">
-                        <dl id="list">
-                            <dt
-                                id="section3-subsection1"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/mri.php">MRI</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection2"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/nmr.php">NMR</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection3"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/relax.php">Relaxometry</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection4"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/org_lab.php">Organic Laboratory</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection5"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/cell_lab.php">Cell Laboratory</a>
-                            </dt>
-                        </dl>
-                    </div>
-                </div>
+                <?php include 'includes/facilities-side-nav.php'; ?> 
+                <?php include 'includes/facilities-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div id="band">

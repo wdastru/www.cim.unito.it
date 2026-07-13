@@ -1,4 +1,5 @@
 @media screen {
+
     /* CSS Document */
     #section-nav-mobile {
         display: none;
@@ -26,14 +27,11 @@
 
     .main-menu-list a {
         display: block;
-
         padding: 0.6rem 1rem;
-
         text-decoration: none;
         font-size: 0.75rem;
         line-height: 1.4;
         white-space: nowrap;
-
         color: #666;
     }
 
@@ -43,14 +41,11 @@
 
     .main-menu-toggle {
         display: none;
-
         background: none;
         border: none;
         cursor: pointer;
-
         font-size: 2rem;
         color: #666;
-
         padding: 0.5rem 1rem;
     }
 
@@ -1440,7 +1435,7 @@
 }
 
 /*** ex Mw-736px.css ***/
-@media (max-width: 736px) {
+@media (max-width: 736px) and (min-width: 452px) { 
 
     /* @media screen and (max-width: 736px) */
     [id^="section"] {
@@ -1859,14 +1854,21 @@
 
     .section-nav-toggle {
         width: 100%;
-        padding: 0.5rem 1rem;
+        padding: 0.35rem 0.75rem;
         border: none;
-        background: #e4e4e4;
         color: #666;
         font-size: 0.75rem;
         font-weight: bold;
         text-align: left;
         cursor: pointer;
+    }
+
+    .section-nav-toggle::after {
+        content: " ▼";
+    }
+
+    .section-nav-toggle.open::after {
+        content: " ▲";
     }
 
     .section-nav-list li {
@@ -1875,7 +1877,7 @@
 
     .section-nav-list a {
         display: block;
-        padding: 0.5rem 1rem;
+        padding: 0.35rem 0.75rem;
         text-decoration: none;
         color: #666;
     }
