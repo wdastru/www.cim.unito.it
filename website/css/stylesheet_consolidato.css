@@ -49,6 +49,12 @@
         padding: 0.5rem 1rem;
     }
 
+    .main-menu-list li.active>a,
+    .main-menu-list li.active>a:hover {
+        background-color: #e4e4e4;
+        color: #db6d16;
+    }
+
     /* <-- NEW MENU */
 
     /* general styles */
@@ -1435,7 +1441,7 @@
 }
 
 /*** ex Mw-736px.css ***/
-@media (max-width: 736px) and (min-width: 452px) { 
+@media (max-width: 736px) and (min-width: 452px) {
 
     /* @media screen and (max-width: 736px) */
     [id^="section"] {

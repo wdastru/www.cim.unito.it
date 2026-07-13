@@ -1,4 +1,7 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'events';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -61,7 +64,7 @@
                 </p>
                 <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';
                 ?> <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';
-                ?>
+ ?>
             </div>
             <!-- section closing -->
         </div>

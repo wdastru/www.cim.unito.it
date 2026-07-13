@@ -1,4 +1,7 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'home';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

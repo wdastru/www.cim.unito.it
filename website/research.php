@@ -1,8 +1,11 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'research';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include SITE_PATH . 'includes/head_const.inc.php' ?>
+        <?php include SITE_PATH . 'includes/head_const.inc.php'?>
         <title>
             Molecular Imaging Center - University of Torino - Research
         </title>
@@ -950,8 +953,8 @@
                         Fax. Tel. Mail
                     </p>
                     <?php include SITE_PATH .
-                    'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
+                        'includes/HTML5_badge_valid.inc.php'; ?> <?php include
+    SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
                 </div>
                 <!-- section closing -->
             </div>

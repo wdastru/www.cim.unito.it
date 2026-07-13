@@ -1,5 +1,5 @@
 <!doctype html>
-<?php require_once (__DIR__ . '/../config.inc.php'); ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); $activeSection = 'research'; ?>
 <html lang="en">
     <head>
         <title>

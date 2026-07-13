@@ -1,4 +1,7 @@
-<?php require_once __DIR__ . '/config.inc.php'; ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'partners';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

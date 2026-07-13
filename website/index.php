@@ -2,6 +2,7 @@
     require_once (__DIR__ . '/config.inc.php');
     ob_start('ob_gzhandler');
     header('Content-Type: text/html;charset=UTF-8');
+    $activeSection = 'home';
 ?>
 <!DOCTYPE html>
 <html lang="en">

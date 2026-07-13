@@ -1,4 +1,4 @@
-<?php require_once (__DIR__ . '/../config.inc.php'); 
+<?php require_once (__DIR__ . '/../config.inc.php'); $activeSection = 'facilities'; 
 require_once (SITE_PATH . 'includes/class.phpmailer.php');
 require SITE_PATH . 'includes/sendEMail.php';
 $mailer = new PHPMailer();

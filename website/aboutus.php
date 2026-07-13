@@ -1,4 +1,7 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'home';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -18,10 +21,10 @@
     <body>
         <div id="section0">
             <div id="subsection1">
-                <?php include 'includes/menu.php'; ?> 
+                <?php include 'includes/menu.php'; ?>
                 <?php include 'includes/header.php'; ?>
-                <?php require (SITE_PATH . 'includes/home-side-nav.php'); ?>
-                <?php require (SITE_PATH . 'includes/home-side-nav-mobile.php');
+                <?php require SITE_PATH . 'includes/home-side-nav.php'; ?>
+                <?php require SITE_PATH . 'includes/home-side-nav-mobile.php';
                 ?>
                 <div id="content">
                     <div class="paddingOuter">
@@ -140,7 +143,7 @@
                                             >
                                             <br />
                                             <a
-                                                href="<?= SITE_ROOT ?>documenti/CV_SilvioAime-2023.doc"
+                                                href="<?php echo SITE_ROOT ?>documenti/CV_SilvioAime-2023.doc"
                                                 download
                                                 >Download Curriculum Vitae</a
                                             >
@@ -160,8 +163,8 @@
                         Fax. Tel. Mail
                     </p>
                     <?php include SITE_PATH .
-                    'includes/HTML5_badge_valid.inc.php';?> <?php include
-                    SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
+                        'includes/HTML5_badge_valid.inc.php'; ?> <?php include
+    SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
                 </div>
                 <!-- section closing -->
             </div>

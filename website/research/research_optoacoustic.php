@@ -1,4 +1,4 @@
-<?php require_once (__DIR__ . '/../config.inc.php'); ?>
+<?php require_once (__DIR__ . '/../config.inc.php'); $activeSection = 'research'; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     "
