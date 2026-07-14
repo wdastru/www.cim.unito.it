@@ -10,9 +10,9 @@
 </head>
 <body>
 	<div id='section4'>
-		<div id='subsection0'>
-			<?php include 'includes/menu.php'; ?>
-			<?php include 'includes/header.php'; ?>
+		<?php include 'includes/menu.php'; ?>
+		<?php include 'includes/header.php'; ?>
+		<div class="main-area">
 			<?php include SITE_PATH . 'includes/partners-side-nav.php'; ?>
 			<?php include SITE_PATH . 'includes/partners-side-nav-mobile.php'; ?>
 			<div id='content'>

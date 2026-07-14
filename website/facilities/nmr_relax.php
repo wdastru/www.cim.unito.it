@@ -1,4 +1,8 @@
-<?php require_once (__DIR__ . '/../config.inc.php'); $activeSection = 'facilities'; ?>
+<?php
+    require_once __DIR__ . '/../config.inc.php';
+    $activeSection    = 'facilities';
+    $activeSubsection = 'nmr-relax';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +13,12 @@
 </head>
 <body>
 	<div id='section3'>
-		<div id='subsection4'>
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+		<?php include SITE_PATH . 'includes/menu.php'; ?>
+		<?php include SITE_PATH . 'includes/header.php'; ?>
+		<div class="main-area">
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <?php include SITE_PATH .
-                'includes/facilities-side-nav-mobile.php'; ?>
+                    'includes/facilities-side-nav-mobile.php'; ?>
                 <div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
@@ -130,8 +134,8 @@
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
-                <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
+                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+                <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
 			<!-- subsection closing -->
 		</div>

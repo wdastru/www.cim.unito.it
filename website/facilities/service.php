@@ -1,14 +1,19 @@
-<?php require_once (__DIR__ . '/../config.inc.php'); $activeSection = 'facilities'; 
-require_once (SITE_PATH . 'includes/class.phpmailer.php');
-require SITE_PATH . 'includes/sendEMail.php';
-$mailer = new PHPMailer();
-$mailer->AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
-$body = '';
-$eol = "\n";
-if (isset($_GET['submit'])) {
+<?php
+    require_once __DIR__ . '/../config.inc.php';
+    $activeSection    = 'facilities';
+    $activeSubsection = 'service';
+?>
+<?php
+    require_once SITE_PATH . 'includes/class.phpmailer.php';
+    require SITE_PATH . 'includes/sendEMail.php';
+    $mailer = new PHPMailer();
+    $mailer->AddAddress("walter.dastru@gmail.com", "Walter Dastru'");
+    $body = '';
+    $eol  = "\n";
+    if (isset($_GET['submit'])) {
     if ($_GET['submit'] == 'yes') {
-		if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
-            $valid = (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['institution']) && isset($_POST['description']) && $_POST['name'] != '' && $_POST['email'] != '' && $_POST['institution'] != '' && $_POST['description'] != '');
+        if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+            $valid               = (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['institution']) && isset($_POST['description']) && $_POST['name'] != '' && $_POST['email'] != '' && $_POST['institution'] != '' && $_POST['description'] != '');
             $regex_allowed_chars = '/^[a-zA-Z\.,;:-\?\(\)\"\'\s]*$/';
             if ($valid) {
                 if (preg_match($regex_allowed_chars, $_POST['name'])) {
@@ -84,10 +89,10 @@ if (isset($_GET['submit'])) {
                     header('Location: ' . SITE_PATH . 'facilities/error.php?error_string=' . $error_string);
                     exit();
                 }
-                $vars = array(
+                $vars = [
                     'subject' => "Service request.",
-                    'body' => $body
-                );
+                    'body'    => $body,
+                ];
                 /**
                  * * SEND MAIL **
                  */
@@ -109,7 +114,7 @@ if (isset($_GET['submit'])) {
             exit();
         }
     }
-}
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -122,9 +127,9 @@ if (isset($_GET['submit'])) {
 </head>
 <body>
 	<div id='section3'>
-		<div id='subsection7'>
-			<?php include SITE_PATH . 'includes/menu.php'; ?>
-			<?php include SITE_PATH . 'includes/header.php'; ?>
+		<?php include SITE_PATH . 'includes/menu.php'; ?>
+		<?php include SITE_PATH . 'includes/header.php'; ?>
+		<div class="main-area">
 			<?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
             <?php include SITE_PATH . 'includes/facilities-side-nav-mobile.php'; ?>
          	<div id='content'>
@@ -245,8 +250,8 @@ if (isset($_GET['submit'])) {
 					Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY <br>
 					Fax. Tel. Mail
 				</p>
-                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php';?>
-                <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
+                <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
+                <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
 			<!-- subsection closing -->
 		</div>

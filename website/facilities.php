@@ -1,6 +1,7 @@
 <?php
     require_once __DIR__ . '/config.inc.php';
     $activeSection = 'facilities';
+    $activeSubsection = 'facilities';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,9 +16,9 @@
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
-            <div id="subsection0">
-                <?php include 'includes/menu.php'; ?>
-                <?php include 'includes/header.php'; ?>
+            <?php include 'includes/menu.php'; ?>
+            <?php include 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php include 'includes/facilities-side-nav.php'; ?>
                 <?php include 'includes/facilities-side-nav-mobile.php'; ?>
                 <div id="content">

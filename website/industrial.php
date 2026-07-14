@@ -14,9 +14,9 @@
     </head>
     <body>
         <div id="section4">
-            <div id="subsection2">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php include SITE_PATH . 'includes/partners-side-nav.php'; ?>
                 <?php include SITE_PATH .
                 'includes/partners-side-nav-mobile.php'; ?>
