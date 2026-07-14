@@ -1,4 +1,6 @@
-<?php require_once __DIR__ . '/../config.inc.php'; ?>
+<?php require_once __DIR__ . '/../config.inc.php';
+$activeSection = 'people';
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
@@ -12,10 +14,8 @@
 	<div id='section0'>
 	<?php include SITE_PATH . 'includes/menu.php'; ?> 
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-		<div id='header'></div>
-		<div id="subsection2">
-			<?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
-			<div id='content'>
+		<div class="main-area">
+			<div id='sidebar'></div><div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>

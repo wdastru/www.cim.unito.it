@@ -1,4 +1,7 @@
-<?php require_once __DIR__ . '/../config.inc.php'; ?>
+<?php
+    require_once __DIR__ . '/../config.inc.php';
+$activeSection = 'people';
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html
@@ -10,12 +13,10 @@
 </head>
 <body>
 	<div id='section0'>
-	<?php include SITE_PATH . 'includes/menu.php'; ?> 
+	<?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
-		<div id='header'></div>
-		<div id="subsection2">
-			<?php include SITE_PATH . 'includes/home-side-nav.php'; ?>
-			<div id='content'>
+		<div class="main-area">
+			<div id='sidebar'></div><div id='content'>
 				<div class='paddingOuter'>
 					<div class='band'>
 						<h1 class='subsectionTitle'>
@@ -24,7 +25,7 @@
 					</div>
 					<div class='paddingInner'>
 					<div class="w3-row" >
-							<div class="w3-quarter">						
+							<div class="w3-quarter">
 								<img src="../images/staff/atlante.jpg" class="w3-image"
 									style="max-width: 150px; margin-left:0px;" />
 							</div>
@@ -49,10 +50,10 @@
 					<div class="w3-row" >
 					<div class="w3-threequarter">
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
-					<p>My research focuses on developing analytical methods (ICP-MS, HPLC-MS and relaxometric) 
+					<p>My research focuses on developing analytical methods (ICP-MS, HPLC-MS and relaxometric)
 					for the study of the phenomena related to Gadolinium (Gd) retention in vivo, following multiple administration of Gd-based contrast agents.</p>
 					 </div>
-					<!-- 
+					<!--
 					<div class="w3-quarter">
 							<h2>Research Topics</h2>
 								<img src="../images/wordcloud/atlante_wordcloud.png" class="w3-image"
@@ -65,13 +66,13 @@
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
-					Phone: +390116706499<br> 
+					Phone: +390116706499<br>
 					E-mail: <a href="mailto:sandra.atlas@yahoo.it"><span style="color:#007c92">sandra.atlas@yahoo.it</span></a></p>
 					</div>
 					   <hr></hr>
 					<div class="w3-row" >
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
-					<p>Full list of publications are available at 
+					<p>Full list of publications are available at
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Sandra+Atlante" target="_blank" style="color:#007c92">PubMed </a></p>
 					</div>
 				   </div>
