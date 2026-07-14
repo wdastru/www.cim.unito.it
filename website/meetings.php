@@ -1,4 +1,8 @@
-<?php require_once __DIR__ . '/config.inc.php'; ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection    = 'events';
+    $activeSubsection = 'meetings';
+?>
 <!DOCTYPE html>
 <html lang='en'>
 <head>
