@@ -711,24 +711,25 @@
     ul.staff {
         display: flex;
         flex-wrap: wrap;
-        list-style-type: none;
-        width: 720px;
-        margin: auto;
-        justify-content: center;
+        justify-content: left;
+        gap: 1.0rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 
     li.staff {
-        max-height: 135px;
-        max-width: 135px;
-        display: flex;
-        flex-grow: 1;
-        margin: 0.25rem;
-        align-content: center;
-        justify-content: center;
+        flex: 0 1 135px;
+        height: 135px;
         border-radius: 5%;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 
     li.staff>div {
