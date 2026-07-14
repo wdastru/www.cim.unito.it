@@ -1624,6 +1624,10 @@
         background-color: #fff;
     }
 
+    .main-area {
+        display: block;
+    }
+
     /* --> NEW MENU (includes/menu.php) */
     .main-menu {
         position: relative;
@@ -1684,6 +1688,12 @@
 
     /* <-- NEW MENU */
 
+    #content {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+
     #main-nav,
     #sidebar {
         display: none;
@@ -1706,14 +1716,6 @@
         border: none;
         background-image: none;
         top: 0px;
-    }
-
-    #section0 [id^="subsection"] #content,
-    #section1 [id^="subsection"] #content,
-    #section2 [id^="subsection"] #content,
-    #section3 [id^="subsection"] #content,
-    #section4 [id^="subsection"] #content {
-        width: 95%;
     }
 
     [id^="content"] .paddingInner {
