@@ -55,3 +55,4 @@ website/research/MRI_sequences/package*
 .prettierrc
 website/download/metadata-plugin.zip
 *.psd
+.htaccess
