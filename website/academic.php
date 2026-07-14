@@ -1,6 +1,7 @@
 <?php
     require_once __DIR__ . '/config.inc.php';
     $activeSection = 'partners';
+    $activeSubsection = 'academic';
 ?>
 <!DOCTYPE html>
 <html lang="en">
