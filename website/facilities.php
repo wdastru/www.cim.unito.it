@@ -23,8 +23,8 @@
                 <?php include 'includes/facilities-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
-                        <div id="band">
-                            <h1 id="subsectionTitle">Facilities</h1>
+                        <div class="band">
+                            <h1 class="subsectionTitle">Facilities</h1>
                         </div>
                         <div class="paddingInner">
                             <p>
