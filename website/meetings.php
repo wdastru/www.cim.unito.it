@@ -1,4 +1,8 @@
-<?php require_once __DIR__ . '/config.inc.php'; ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection    = 'events';
+    $activeSubsection = 'meetings';
+?>
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -10,9 +14,9 @@
 </head>
 <body>
 	<div id='section2'>
-		<div id='subsection3'>
 		<?php include SITE_PATH . 'includes/menu.php'; ?>
 		<?php include SITE_PATH . 'includes/header.php'; ?>
+		<div class="main-area">
 		<?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
 		<?php include SITE_PATH . 'includes/events-side-nav-mobile.php'; ?>
 			<div id='content'>

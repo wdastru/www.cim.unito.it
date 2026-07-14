@@ -46,7 +46,7 @@ function toggle_vis(name) {
 	if (document.getElementById && document.getElementsByTagName) {
 		var this_div = document.getElementById(name);
 		var inner_divs = document.getElementById(name).getElementsByTagName(
-				'div');
+			'div');
 
 		var display = inner_divs.item(0).style.display; // primo div -->
 		// personal image
@@ -91,7 +91,7 @@ function toggleAbstract(button) {
 		var abstractDiv = divs.item(1);
 
 		if (abstractDiv.style.display == 'none'
-				|| abstractDiv.style.display == '')
+			|| abstractDiv.style.display == '')
 			abstractDiv.style.display = 'block';
 		else
 			abstractDiv.style.display = 'none';
@@ -103,23 +103,23 @@ function toggleAbstract(button) {
 
 function changeSideNavStyles() {
 	if (document.getElementById) {
-		for ( var i = 0; i < s.length; i++) {
-			for ( var j = 0; j < ss.length; j++) {
+		for (var i = 0; i < s.length; i++) {
+			for (var j = 0; j < ss.length; j++) {
 				if ((document.getElementById(s[i]) != null)
-						&& (document.getElementById(ss[j]) != null)) {
-					for ( var k = 0; k < ss.length; k++) {
+					&& (document.getElementById(ss[j]) != null)) {
+					for (var k = 0; k < ss.length; k++) {
 						var id = s[i] + '-' + ss[k];
 						if (document.getElementById(id) != null) {
 							if (k == j) {
-								
+
 								document.getElementById(id).style.backgroundColor = '#e4e4e4';
 								document.getElementById(id)
-										.getElementsByTagName('a').item(0).style.color = '#db6d16';								
+									.getElementsByTagName('a').item(0).style.color = '#db6d16';
 								document.getElementById(id).style.textAlign = 'right';
 							} else {
 								document.getElementById(id).style.backgroundColor = null;
 								document.getElementById(id)
-										.getElementsByTagName('a').item(0).style.color = '#666666';
+									.getElementsByTagName('a').item(0).style.color = '#666666';
 								document.getElementById(id).style.textAlign = 'left';
 							}
 						}
@@ -134,7 +134,7 @@ function changeSideNavStyles() {
 function showInfoBox(id) {
 	if (document.getElementById) {
 		if (document.getElementById(id).style.display == 'none'
-				|| document.getElementById(id).style.display == '')
+			|| document.getElementById(id).style.display == '')
 			document.getElementById(id).style.display = 'block';
 	} else {
 		alert(":( DOM NON Supportato!");
@@ -151,19 +151,19 @@ function hideInfoBox(id) {
 
 function checkSubmitterField() {
 	var required_ele = document.getElementsByClassName('required');
-	var allfilled=true;
-	
+	var allfilled = true;
+
 	for (var i = 0; i < required_ele.length; ++i) {
-	    var item = required_ele[i];
-	    if(item.value.length==0){
-	      allfilled=false;
-	    }
+		var item = required_ele[i];
+		if (item.value.length == 0) {
+			allfilled = false;
+		}
 	}
-	if(allfilled){
-	   document.getElementById('submissionButton').disabled = false;
+	if (allfilled) {
+		document.getElementById('submissionButton').disabled = false;
 	}
-	else{
-	  document.getElementById('submissionButton').disabled = true;
+	else {
+		document.getElementById('submissionButton').disabled = true;
 	}
 }
 
@@ -204,12 +204,12 @@ function displayResult(year, ss) {
 		resultDocument = xsltProcessor.transformToFragment(xml, document);
 		document.getElementById("publicationsContainer").innerHTML = '';
 		document.getElementById("publicationsContainer").appendChild(
-				resultDocument);
+			resultDocument);
 	}
 
 	if (document.getElementById('pubSubSectOpen') != null)
 		document.getElementById('pubSubSectOpen').id = ss[ss];
-	for ( var i = 0; i < ss.length; i++) {
+	for (var i = 0; i < ss.length; i++) {
 		if (document.getElementById(ss[i]) != null)
 			document.getElementById(ss[i]).id = ss[ss];
 	}
@@ -259,3 +259,71 @@ function initPubs() {
 	displayMODSResult(curr_year);
 	document.getElementById('publicationYear').innerHTML = curr_year;
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+
+	/* ==========================
+	   MAIN MENU
+	   ========================== */
+
+	const mainMenuButton =
+		document.querySelector('.main-menu-toggle');
+
+	const mainMenu =
+		document.querySelector('.main-menu-list');
+
+	if (mainMenuButton && mainMenu) {
+
+		mainMenuButton.addEventListener('click', function (e) {
+
+			e.stopPropagation();
+
+			mainMenu.classList.toggle('open');
+			mainMenuButton.classList.toggle('open');
+
+		});
+
+		mainMenu.addEventListener('click', function (e) {
+			e.stopPropagation();
+		});
+
+		document.addEventListener('click', function () {
+
+			mainMenu.classList.remove('open');
+			mainMenuButton.classList.remove('open');
+
+		});
+
+	}
+
+	/* ==========================
+	   SECTION NAV
+	   ========================== */
+
+	const sectionNavButton =
+		document.querySelector('.section-nav-toggle');
+
+	const sectionNav =
+		document.querySelector('.section-nav-list');
+
+	if (sectionNavButton && sectionNav) {
+
+		sectionNavButton.addEventListener('click', function (e) {  
+			e.stopPropagation();
+			sectionNav.classList.toggle('open');
+			sectionNavButton.classList.toggle('open');
+		});
+
+		sectionNav.addEventListener('click', function (e) {
+			e.stopPropagation();
+		});
+
+		document.addEventListener('click', function () {
+
+			sectionNav.classList.remove('open');
+			sectionNavButton.classList.remove('open');
+
+		});
+
+	}
+});

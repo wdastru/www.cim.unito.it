@@ -1,4 +1,7 @@
-<?php require_once __DIR__ . '/config.inc.php'; ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'projects';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,10 +16,11 @@
     </head>
     <body>
         <div id="section5">
-            <div id="subsection0">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
-                <div id="content-nosidebar">
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
+                <div id="sidebar"></div>
+                <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
                             <h1 class="subsectionTitle">

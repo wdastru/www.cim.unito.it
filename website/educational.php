@@ -1,4 +1,8 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection    = 'events';
+    $activeSubsection = 'educational';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,6 +16,7 @@
         <div id="section2">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
                 <?php include SITE_PATH . 'includes/header.php'; ?>
+                <div class="main-area">
                 <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
                 <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';
                 ?>
@@ -316,8 +321,8 @@
                     Fax. Tel. Mail
                 </p>
                 <?php include SITE_PATH .
-                'includes/HTML5_badge_valid.inc.php';?> <?php include SITE_PATH
-                . 'includes/PageSpeedTest.inc.php';?>
+                    'includes/HTML5_badge_valid.inc.php'; ?> <?php include SITE_PATH
+    . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
             <!-- section closing -->
         </div>

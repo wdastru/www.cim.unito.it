@@ -1,33 +1,61 @@
 @media screen {
-    /* CSS Document */
 
-    /* --> NEW MENU STYLES (includes/menu.php) */
-    .menu {
+    /* CSS Document */
+    #section-nav-mobile {
+        display: none;
+    }
+
+    /* --> NEW MENU (includes/menu.php) */
+    .main-menu {
         background-color: #fff;
     }
 
-    .menu ul {
+    .main-menu-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 0.5rem 1.5rem;
-
+        gap: 0;
         list-style: none;
         margin: 0;
-        padding: 0.75rem 0;
+        padding: 0;
     }
 
-    .menu a {
+    .main-menu-list li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-menu-list a {
         display: block;
         padding: 0.6rem 1rem;
-
         text-decoration: none;
         font-size: 0.75rem;
         line-height: 1.4;
         white-space: nowrap;
+        color: #666;
     }
 
-    /* <-- NEW MENU STYLES */
+    .main-menu-list a:hover {
+        color: #db6d16;
+    }
+
+    .main-menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #666;
+        padding: 0.5rem 1rem;
+    }
+
+    .main-menu-list li.active>a,
+    .main-menu-list li.active>a:hover {
+        background-color: #e4e4e4;
+        color: #db6d16;
+    }
+
+    /* <-- NEW MENU */
 
     /* general styles */
     *::before,
@@ -295,6 +323,34 @@
     }
 
     /* End of MAIN NAVIGATION */
+    .main-layout {
+        display: flex;
+    }
+
+    #sidebar {
+        flex: 0 0 240px;
+    }
+
+    #content {
+        flex: 1;
+    }
+
+    /* End of MAIN NAVIGATION */
+
+    /* MAIN-AREA */
+    .main-area {
+        display: flex;
+    }
+
+    #sidebar {
+        flex: 0 0 240px;
+    }
+
+    #content {
+        flex: 1;
+    }
+
+    /* End of MAIN-AREA */
 
     /* SIDEBAR */
     #pubsSelector {
@@ -366,6 +422,12 @@
         line-height: 1.5rem;
         padding: 0 0.75rem 0 0.75rem;
         text-decoration: none;
+    }
+
+    #sidebar .subsection_link.active>a,
+    #sidebar .subsection_link.active>a:hover {
+        background-color: #e4e4e4;
+        color: #db6d16;
     }
 
     /* <-- End */
@@ -1192,17 +1254,22 @@
     }
 
     .home.paddingInner {
-        height: 250px;
+        min-height: 250px;
         margin-bottom: 20px;
     }
 
     .home.row {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        gap: 1rem;
         justify-content: center;
     }
 
-    .home.cell,
+    .home.cell {
+        flex: 1 1 300px;
+        max-width: 400px;
+    }
+
     .home.cell.papers {
         flex: 25%;
         padding: 0 10px;
@@ -1413,7 +1480,7 @@
 }
 
 /*** ex Mw-736px.css ***/
-@media (max-width: 736px) {
+@media (max-width: 736px) and (min-width: 452px) {
 
     /* @media screen and (max-width: 736px) */
     [id^="section"] {
@@ -1498,7 +1565,7 @@
         line-height: 1.57rem;
     }
 
-    #section0 #header,
+    /*#section0 #header,
     #section1 #header,
     #section2 #header,
     #section3 #header,
@@ -1507,7 +1574,7 @@
     #section6 #header,
     #section8 #header {
         height: 100px;
-    }
+    }*/
 
     /* STAFF:PHP styles */
     ul.staff {
@@ -1552,11 +1619,70 @@
 /*** ex Mw-451px.css ***/
 @media (max-width: 451px) {
 
-    /* @media screen and (max-width: 451px) */
     html {
         margin: 0;
         background-color: #fff;
     }
+
+    /* --> NEW MENU (includes/menu.php) */
+    .main-menu {
+        position: relative;
+        background-color: #fff;
+        text-align: left;
+    }
+
+    .main-menu-toggle {
+        display: block;
+        font-size: 1.2rem;
+        padding: 0.25rem 0.5rem;
+        background: none;
+        border: none;
+        color: #666;
+        cursor: pointer;
+    }
+
+    .main-menu-toggle::before {
+        content: "☰";
+    }
+
+    .main-menu-toggle.open::before {
+        content: "✕";
+    }
+
+    .main-menu-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        z-index: 9999;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .main-menu-list.open {
+        display: flex;
+    }
+
+    .main-menu-list li {
+        width: 100%;
+    }
+
+    .main-menu-list a {
+        display: block;
+        padding: 0.35rem 0.75rem;
+        font-size: 0.70rem;
+        line-height: 1.2;
+        text-align: left;
+        border-top: 1px solid #ddd;
+        white-space: normal;
+    }
+
+    .main-menu-list a:hover {
+        background-color: #f5f5f5;
+    }
+
+    /* <-- NEW MENU */
 
     #main-nav,
     #sidebar {
@@ -1579,7 +1705,7 @@
         width: 100%;
         border: none;
         background-image: none;
-        top: 100px;
+        top: 0px;
     }
 
     #section0 [id^="subsection"] #content,
@@ -1632,19 +1758,11 @@
         padding: 0;
     }
 
-    #section0 #header,
-    #section1 #header,
-    #section2 #header,
-    #section3 #header,
-    #section4 #header,
-    #section5 #header,
-    #section6 #header,
-    #section8 #header {
-        height: 70px;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        position: fixed;
-        top: 40px;
+    #header {
+        display: flex;
+        position: relative;
+        /* oppure static */
+        height: auto;
     }
 
     .img_ind_partners {
@@ -1747,24 +1865,123 @@
     /* END of STYLE for index.php */
 
     /* header */
-    #header-mobile,
-    #sidebar-mobile {
-        display: block;
-        background-color: #000;
-        z-index: 3;
-        position: fixed;
-        width: 100%;
-        height: 40px;
-        top: 0;
+    #header-mobile {
+        display: none;
     }
 
-    #sidebar-mobile {
-        z-index: 2;
-        /* it has to be less than the z-index of #header-mobile*/
-        background-color: rgba(255, 255, 255, 0.95);
-        top: 110px;
-        width: 9%;
+    /* SECTION NAV */
+
+    #section-nav-mobile {
+        position: relative;
+        display: block;
+        width: 100%;
+        background: #fff;
+        margin-bottom: 0.5rem;
     }
+
+    .section-nav-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-nav-list.open {
+        display: block;
+    }
+
+    .section-nav-toggle {
+        width: 100%;
+        padding: 0.35rem 0.75rem;
+        border: none;
+        color: #666;
+        font-size: 0.75rem;
+        font-weight: bold;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .section-nav-toggle::after {
+        content: " ▼";
+    }
+
+    .section-nav-toggle.open::after {
+        content: " ▲";
+    }
+
+    .section-nav-list li {
+        border-top: 1px solid #ddd;
+    }
+
+    .section-nav-list a {
+        display: block;
+        padding: 0.35rem 0.75rem;
+        text-decoration: none;
+        color: #666;
+    }
+
+    .section-nav-list a:hover {
+        background-color: #f5f5f5;
+        color: #db6d16;
+    }
+
+    /* SIDEBAR-MOBILE */
+    #sidebar-mobile {
+        display: block;
+        position: relative;
+        width: 100%;
+        background: #fff;
+        margin-bottom: 0.5rem;
+    }
+
+    .sidebar-toggle {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border: none;
+        background: #e4e4e4;
+        text-align: left;
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: #666;
+        cursor: pointer;
+    }
+
+    .sidebar-mobile-list {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+    }
+
+    .sidebar-mobile-list.open {
+        display: block;
+    }
+
+    .sidebar-mobile-list li {
+        border-top: 1px solid #ddd;
+    }
+
+    .sidebar-mobile-list a {
+        display: block;
+        padding: 0.4rem 1rem;
+        text-decoration: none;
+        color: #666;
+    }
+
+    .sidebar-mobile-list a:hover {
+        background: #f5f5f5;
+        color: #db6d16;
+    }
+
+    /* SIDEBAR-MOBILE */
 
     #section0 #sidebar-mobile:has(.menu-btn:checked),
     #section2 #sidebar-mobile:has(.menu-btn:checked),

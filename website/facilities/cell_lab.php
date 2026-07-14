@@ -1,4 +1,8 @@
-<?php require_once (__DIR__ . '/../config.inc.php'); ?>
+<?php
+    require_once __DIR__ . '/../config.inc.php';
+    $activeSection    = 'facilities';
+    $activeSubsection = 'cell-lab';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,9 +15,9 @@
     </head>
     <body>
         <div id="section3">
-            <div id="subsection6">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php include SITE_PATH . 'includes/facilities-side-nav.php'; ?>
                 <?php include SITE_PATH .
                 'includes/facilities-side-nav-mobile.php'; ?>

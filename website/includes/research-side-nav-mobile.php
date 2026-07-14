@@ -1,9 +1,11 @@
-<div id="sidebar-mobile">
-    <input class="menu-btn" type="checkbox" id="sidebar-menu-btn" />
-    <label class="menu-icon" for="sidebar-menu-btn"
-        ><span class="navicon"></span
-    ></label>
-    <ul class="menu">
+<div id="section-nav-mobile">
+    <button
+        class="section-nav-toggle"
+        data-title="RESEARCH"
+    >
+        RESEARCH
+    </button>
+    <ul class="section-nav-list">
         <li>
             <a href="<?php echo SITE_ROOT; ?>research/research_synthesis.php"
                 >Probe synthesis</a

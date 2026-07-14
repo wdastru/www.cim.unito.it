@@ -1,4 +1,7 @@
-<?php require_once __DIR__ . '/config.inc.php'; ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'publications';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +12,10 @@
 </head>
 <body>
 	<div id='section6'>
-		<div id="subsection0">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+		<?php include SITE_PATH . 'includes/menu.php'; ?>
+		<?php include SITE_PATH . 'includes/header.php'; ?>
+		<div class="main-area">
+                <div id="sidebar"></div>
 			<div id='pubSubSectOpen'>
 				<div id='content-nosidebar'>
 					<div class='paddingOuter'>

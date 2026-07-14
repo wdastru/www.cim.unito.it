@@ -1,4 +1,8 @@
-<?php require_once __DIR__ . '/config.inc.php'; ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection = 'facilities';
+    $activeSubsection = 'facilities';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,49 +16,15 @@
     <body>
         <?php include SITE_PATH . 'includes/analyticstracking.php'; ?>
         <div id="section3">
-            <div id="subsection0">
-                <?php include 'includes/menu.php'; ?> 
-                <?php include 'includes/header.php'; ?>
-                <div id="sidebar">
-                    <div class="padding">
-                        <dl id="list">
-                            <dt
-                                id="section3-subsection1"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/mri.php">MRI</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection2"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/nmr.php">NMR</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection3"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/relax.php">Relaxometry</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection4"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/org_lab.php">Organic Laboratory</a>
-                            </dt>
-                            <dt
-                                id="section3-subsection5"
-                                class="subsection_link"
-                            >
-                                <a href="<?php echo SITE_ROOT; ?>facilities/cell_lab.php">Cell Laboratory</a>
-                            </dt>
-                        </dl>
-                    </div>
-                </div>
+            <?php include 'includes/menu.php'; ?>
+            <?php include 'includes/header.php'; ?>
+            <div class="main-area">
+                <?php include 'includes/facilities-side-nav.php'; ?>
+                <?php include 'includes/facilities-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
-                        <div id="band">
-                            <h1 id="subsectionTitle">Facilities</h1>
+                        <div class="band">
+                            <h1 class="subsectionTitle">Facilities</h1>
                         </div>
                         <div class="paddingInner">
                             <p>

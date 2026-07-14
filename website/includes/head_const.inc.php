@@ -7,5 +7,5 @@
 <link rel="stylesheet" media="screen" href="<?php echo SITE_ROOT; ?>minified/css/w3.css">
 <link rel="stylesheet" media="screen" href="<?php echo SITE_ROOT; ?>css/stylesheet_consolidato.css">
 <link rel="icon" href="<?php echo SITE_ROOT; ?>images/favicon.gif" type="image/gif" >
-<script src="<?php echo SITE_ROOT; ?>minified/js/script.js"></script>
+<script src="<?php echo SITE_ROOT; ?>script.js"></script>
 <?php include SITE_PATH . "includes/google.inc.php"; ?>

@@ -1,4 +1,8 @@
-<?php require_once (__DIR__ . '/config.inc.php'); ?>
+<?php
+    require_once __DIR__ . '/config.inc.php';
+    $activeSection    = 'home';
+    $activeSubsection = 'contacts';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,11 +21,11 @@
     </head>
     <body>
         <div id="section0">
-            <div id="subsection4">
-                <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
+            <?php include SITE_PATH . 'includes/menu.php'; ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
                 <?php include SITE_PATH . 'includes/home-side-nav.php'; ?> <?php
-                include SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
+ include SITE_PATH . 'includes/home-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -44,8 +48,8 @@
                     Fax. Tel. Mail
                 </p>
                 <?php include SITE_PATH .
-                'includes/HTML5_badge_valid.inc.php';?> <?php include SITE_PATH
-                . 'includes/PageSpeedTest.inc.php';?>
+                    'includes/HTML5_badge_valid.inc.php'; ?> <?php include SITE_PATH
+    . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
             <!-- section closing -->
         </div>
