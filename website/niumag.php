@@ -26,7 +26,8 @@ header('Content-Type: text/html;charset=UTF-8');
                     </div>
                 </div>
             </div>
-            <div id="after"></div>
+            </div>
+<div id="after"></div>
             <div id="footer">
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
@@ -58,7 +59,6 @@ header('Content-Type: text/html;charset=UTF-8');
                     </a>
                 </p>
             </div>
-        </div>
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

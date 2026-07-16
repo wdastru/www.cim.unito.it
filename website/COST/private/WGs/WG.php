@@ -108,7 +108,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                     </div>
                 </div>
             </div>
-            <div id='after'></div>
+            </div>
+<div id='after'></div>
             <div id='footer'>
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY
@@ -116,7 +117,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                     Fax. Tel. Mail
                 </p>
             </div>
-        </div>
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

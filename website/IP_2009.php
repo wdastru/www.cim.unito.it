@@ -618,7 +618,8 @@
                     </div>
                 </div>
             </div>
-            <div id="after"></div>
+            </div>
+<div id="after"></div>
             <div id="footer">
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
@@ -626,7 +627,6 @@
                     Fax. Tel. Mail
                 </p>
             </div>
-        </div>
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();

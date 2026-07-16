@@ -343,7 +343,8 @@
                     </div>
                 </div>
             </div>
-            <div id="after"></div>
+            </div>
+<div id="after"></div>
             <div id="footer">
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
@@ -351,7 +352,6 @@
                     Fax. Tel. Mail
                 </p>
             </div>
-        </div>
         <?php if ($_GET['confirm'] == 'yes') { echo '
         <script type="text/javascript">
             alert("Thank you!\nYour request has been taken into account.");

@@ -40,7 +40,8 @@
                 
             </div>
             
-            <div id="after"></div>
+            </div>
+<div id="after"></div>
             <div id="footer">
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
@@ -51,8 +52,6 @@
                     'includes/HTML5_badge_valid.inc.php'; ?> <?php include SITE_PATH
     . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
-            
-        </div>
         
         <script>
             //<![CDATA[
