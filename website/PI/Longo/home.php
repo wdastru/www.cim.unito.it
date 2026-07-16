@@ -20,9 +20,9 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -31,10 +31,10 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO
 								LONGO LAB</a>
@@ -42,7 +42,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
 							</div>
 						</h1>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<ul>
 								<li class="current_page_item"><a
@@ -77,7 +77,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style1">
 				<div class="inner">
@@ -213,7 +213,7 @@ echo getStaffData($conn, [
 					<div class="container">
 						<div class="row">
 							<div class="7u 12u(mobile)">
-								<!-- Article list -->
+								
 								<section class="box article-list">
 									<h2 class="icon fa-file-text-o">Upcoming Events</h2>
 									<!-- 
@@ -263,7 +263,7 @@ echo getStaffData($conn, [
 						 			  	  	<li><img src="<?php echo SITE_ROOT; ?>PI/Longo/images/wearehiring3.jpg" align="left" height="70px" style="margin-right:10px">
 											<b><font color="red" size="4em">Positions available!</font><br>We are looking for enthusiastic and talented researchers for<br> 
 											i) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/position_informatico.pdf"><font color="red">Research Fellow position in Software development</a></font><br>
-											<!-- ii) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/Unito_CIM_computational_science.pdf"><font color="red">Research Fellow Position in Database Developer for Preclinical Medical Images</a></font><br> -->
+											
 										<!-- iii) <a href="<?php echo SITE_ROOT; ?>PI/Longo/documents/Position_cancer_biology_imaging2.pdf"><font color="red">Research Fellow position in cancer biology and imaging</a></font></b>
 											</li>
 											-->
@@ -343,7 +343,7 @@ echo getStaffData($conn, [
 				</div>
 			</div>
 		</div>
-		<!-- Footer Wrapper -->
+		
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
 				<div class="12u">
@@ -363,7 +363,7 @@ echo getStaffData($conn, [
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 </body>
 </html>

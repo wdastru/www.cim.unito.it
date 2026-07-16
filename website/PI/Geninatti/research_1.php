@@ -15,9 +15,9 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it/" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -27,12 +27,12 @@ require_once __DIR__ . '/../../config.inc.php';
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 							<?php include SITE_PATH . 'PI/Geninatti/includes/header_geninatti.php'; ?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Geninatti/includes/menu_geninatti.php'; ?>
 						</nav>
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
@@ -61,7 +61,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									alt="Apoferritin, curcumin and MRI contrast agents">
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none; font-size: 1.3em">L-Ferritin
 										targets breast cancer stem cells.</span>
@@ -93,7 +93,7 @@ require_once __DIR__ . '/../../config.inc.php';
 										Oncotarget. 2016 Oct 11; 7(41): 66713–66727</span></a>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none; font-size: 1.3em">Curcumin
 										and Gd loaded apoferritin: prevent Hepatic damage in Acute
@@ -128,7 +128,7 @@ require_once __DIR__ . '/../../config.inc.php';
 										Mol Pharm. 2013 May 6;10(5):2079-85.</span></a>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none; font-size: 1.3em">Visualization
 										of Tumor Angiogenesis by Targeting Neural Cell Adhesion
@@ -169,7 +169,7 @@ require_once __DIR__ . '/../../config.inc.php';
 			</div>
 		</div>
 	</div>
-	<!-- Footer Wrapper -->
+	
 	<div id="footer-wrapper">
 		<footer id="footer" class="container">
 			<div class="12u">
@@ -182,13 +182,13 @@ require_once __DIR__ . '/../../config.inc.php';
 				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/skel-viewport.min.js"></script>
 	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="assets/js/main.js"></script>
 </body>
 </html>

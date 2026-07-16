@@ -15,9 +15,9 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -27,12 +27,12 @@ require_once __DIR__ . '/../../config.inc.php';
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 							<?php include SITE_PATH . 'PI/Gianolio/includes/header_gianolio.php'; ?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Gianolio/includes/menu_gianolio.php'; ?>
 						</nav>
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
@@ -63,7 +63,7 @@ require_once __DIR__ . '/../../config.inc.php';
 								</div>
 							</article>
 							<div class="20u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<article>
 									<h3>&nbsp;</h3>
 									<p style="text-align: justify;">
@@ -109,13 +109,13 @@ require_once __DIR__ . '/../../config.inc.php';
 			</div>
 		</div>
 		</div>
-		<!-- Scripts -->
+		
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.dropotron.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/skel-viewport.min.js"></script>
 		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		
 		<script src="assets/js/main.js"></script>
 </body>
 </html>

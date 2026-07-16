@@ -15,9 +15,9 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -27,12 +27,12 @@ require_once __DIR__ . '/../../config.inc.php';
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Terreno/includes/menu_terreno.php'; ?>
 						</nav>
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
@@ -89,7 +89,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									alt="Development of cellular imaging procedures">
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none;">MRI tracking of MSCs
 										labeled with Gadoteridol in a Spinal Cord Injury experimental
@@ -133,7 +133,7 @@ require_once __DIR__ . '/../../config.inc.php';
 								demonstrated by carrying out behavioural tests.
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none;">Fluorinated nanoparticles
 										for the in-vivo tracking of inflammation in a mouse model of
@@ -162,7 +162,7 @@ require_once __DIR__ . '/../../config.inc.php';
 										src="images/research_3_7.jpg" alt="" class="image zooming">
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none;">Indocyanine Green labeling
 										for optical and photoacoustic imaging of Mesenchymal Stem
@@ -223,7 +223,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</div>
 			</div>
 		</div>
-		<!-- Footer Wrapper -->
+		
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
 				<div class="12u">
@@ -237,7 +237,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</footer>
 		</div>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -245,7 +245,7 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 </body>
 </html>

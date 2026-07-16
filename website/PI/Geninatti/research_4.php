@@ -15,9 +15,9 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it/" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -27,12 +27,12 @@ require_once __DIR__ . '/../../config.inc.php';
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<?php include SITE_PATH . 'PI/Geninatti/includes/header_geninatti.php'; ?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 						<?php include SITE_PATH . 'PI/Geninatti/includes/menu_geninatti.php'; ?>
 						</nav>
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
@@ -59,7 +59,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									style="max-width: 50%; height: auto;" alt="figure 1">
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none;">Ferritin Decorated
 										PLGA/Paclitaxel Loaded Nanoparticles Endowed with an Enhanced
@@ -94,7 +94,7 @@ require_once __DIR__ . '/../../config.inc.php';
 										Bioconjug Chem. 2017 Apr 19;28(4):1283-1290</span></a>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none;">A Quantitative Relaxometric
 										Version of the ELISA Test for the Measurement of Cell Surface
@@ -132,7 +132,7 @@ require_once __DIR__ . '/../../config.inc.php';
 										Angew. Chem. Int. Ed. 2014, 53, 3488 –3491</span></a>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<h3>
 									<span style="text-transform: none;">Combined Delivery and
 										Magnetic Resonance Imaging of Neural Cell Adhesion
@@ -176,7 +176,7 @@ require_once __DIR__ . '/../../config.inc.php';
 			</div>
 		</div>
 	</div>
-	<!-- Footer Wrapper -->
+	
 	<div id="footer-wrapper">
 		<footer id="footer" class="container">
 			<div class="12u">
@@ -189,13 +189,13 @@ require_once __DIR__ . '/../../config.inc.php';
 				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
 			</footer>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/skel-viewport.min.js"></script>
 	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="assets/js/main.js"></script>
 </body>
 </html>

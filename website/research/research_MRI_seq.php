@@ -235,81 +235,81 @@
 									Medical School - Germany</a><br></li>
 							<li><b><a
 										href="https://moffitt.org/research-science/researchers/robert-gillies/">Prof.
-										Robert Gillies</a></b> - Moffitt Cancer Center - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png"> -->
+										Robert Gillies</a></b> - Moffitt Cancer Center - USA 
 								<br></li>
 							<li><b>Prof. Hana Lahrech</b> - Universit&eacute; Grenoble Alpes
-								- France <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/fr/shiny/64.png">-->
+								- France 
 								<br></li>
 							<li><b>Dr Afroditi Eleftheriou</b> - Universit&auml;t Z&uuml;rich -
-								Switzerland <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ch/shiny/64.png">-->
+								Switzerland 
 								<br></li>
 							<li><b><a
 										href="https://iris.ucl.ac.uk/iris/browse/profile?upi=SWALK96">Prof.
 										Simon Walker-Samuel</a></b> - University College London,
-								United Kingdom <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png">-->
+								United Kingdom 
 								<br></li>
 							<li><b><a
 										href="https://www.marionegri.it/personale/gianluigi-forloni">Gianluigi
 										Forloni</a></b> - Istituto di Ricerche Farmacologiche Mario
-								Negri - IRCCS, Italy <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/it/shiny/64.png">-->
+								Negri - IRCCS, Italy 
 								<br></li>
 							<li><b><a
 										href="https://neuro.polymtl.ca/team/faculty/nikola-stikov">Stikov</a></b>
-								- Montreal Heart Institute - Canada <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/ca/shiny/64.png">-->
+								- Montreal Heart Institute - Canada 
 								<br></li>
 							<li><b><a
 										href="https://warwick.ac.uk/fac/sci/eng/people/joanna_collingwood">Joanna
-										Collingwood</a></b> - Warwick University - United Kingdom <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/gb/shiny/64.png">-->
+										Collingwood</a></b> - Warwick University - United Kingdom 
 								<br></li>
 							<li><b><a
 										href="https://www.kennedykrieger.org/patient-care/faculty-staff/michael-mcmahon">M.T.
 										McMahon</a></b> - Kennedy Krieger Institute / The Johns
-								Hopkins University School of Medicine - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png">-->
+								Hopkins University School of Medicine - USA 
 								<br></li>
 							<li><b><a
 										href="https://medicine.missouri.edu/faculty/lixin-ma-phd">Lixin
-										Ma</a></b> - University of Missouri, Columbia - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/us/shiny/64.png">-->
+										Ma</a></b> - University of Missouri, Columbia - USA 
 								<br></li>
 							<li><b><a href="https://www.ifj.edu.pl/en/divisions/no5/nz56.php">W&#322;adys&#322;aw
 										W&#281;glarz</a></b> - Institute of Nuclear Physics PAN -
-								Poland <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/pl/shiny/64.png">-->
+								Poland 
 								<br></li>
 							<li><b>Prof. Aoki Ichio</b> - National Institutes for Quantum and
-								Radiological Science and Technology - Japan <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/jp/shiny/64.png">-->
+								Radiological Science and Technology - Japan 
 								<br></li>
 							<li><b><a
 										href="https://radnuk.meduniwien.ac.at/allgemeine-informationen/klinikleitung/thomas-helbich/">Thomas
-										Helbich</a></b> - Medical University of Vienna - Austria <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+										Helbich</a></b> - Medical University of Vienna - Austria 
 								<br></li>
 							<li><b>Olivier Rh&eacute;aume Roberge</b> - <a
 									href="https://www.usherbrooke.ca/">University of Sherbrooke</a>
-								- Canada <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+								- Canada 
 								<br></li>
 							<li><b>Wendy Oakden</b> - <a href="https://www.usherbrooke.ca/">University
-									of Sherbrooke</a> - Canada <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+									of Sherbrooke</a> - Canada 
 								<br></li>
 							<li><b>Brian Roman</b> - <a href="https://www.uchicago.edu/">University
-									of Chicago</a> - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+									of Chicago</a> - USA 
 								<br></li>
 							<li><b>Salman Shaid</b> - <a href="https://www.iupui.edu/">Indiana
-									University Purdue University at Indianapolis</a> - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+									University Purdue University at Indianapolis</a> - USA 
 								<br></li>
 							<li><b><a
 										href="https://www.fhwn.ac.at/en/employee/poblador-rodriguez-esau">Esa&uacute;
 										Poblador Rodriguez</a></b> - <a
 									href="https://www.fhwn.ac.at/en/">University of Applied
-									Sciences Wiener Neustadt</a> - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+									Sciences Wiener Neustadt</a> - USA 
 								<br></li>
 							<li><b><a
 										href="https://www.weizmann.ac.il/pages/search/people?keywords=Elad%20Goren">Elad
 										Goren</a></b> - <a href="https://www.weizmann.ac.il/pages/">Weizmann
-									Institute of Science</a> - Israel <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+									Institute of Science</a> - Israel 
 								<br></li>
 							<li><b>Pedro Enriquez Navas</b> - <a href="https://www.bms.com/">Bristol
-									Myers Squibb</a> - USA <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+									Myers Squibb</a> - USA 
 								<br></li>
 							<li><b>Shaowei Bo</b> - <a href="https://english.jnu.edu.cn/">Jinan
-									University</a> - China <!--<img style="height:20px; vertical-align:top;" src="https://www.countryflags.io/at/shiny/64.png">-->
+									University</a> - China 
 								<br></li>
 						</ul>
 						<p>

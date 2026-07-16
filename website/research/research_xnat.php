@@ -532,11 +532,11 @@
                                 />
                             </a>
                         </div>
-                        <!-- paddingInner closing -->
+                        
                     </div>
-                    <!-- paddingOuter closing -->
+                    
                 </div>
-                <!-- content closing -->
+                
                 <div id="after"></div>
                 <div id="footer">
                     <p>

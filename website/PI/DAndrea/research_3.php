@@ -14,9 +14,9 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
@@ -24,17 +24,17 @@
 	          <div class="cim-logo-container">
 	         </div></a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>/PI/DAndrea/home.php" id="logo">Luca D'Andrea LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 							</div>
 						</h1>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
@@ -42,7 +42,7 @@
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
@@ -66,7 +66,7 @@
 									<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/figure_research_overview_3.jpg" style="max-width: 50%; height: auto;"><br/></div>
 							</article>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<section>
 									<article>
 										<header>
@@ -96,7 +96,7 @@
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<section>
 									<article>
 										<header>
@@ -126,7 +126,7 @@
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<section>
 									<article>
 										<header>
@@ -160,13 +160,13 @@
 			</div>
 		</div>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>/PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>/PI/assets/js/main.js"></script>
 </body>
 </html>

@@ -16,8 +16,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<?php include SITE_PATH . 'includes/head_const.inc.php'; ?>
 	<?php include SITE_PATH . 'PI/Longo/includes/head_const_longo.php'; ?>
-<!--  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-<!--  <link rel='stylesheet' href='../../PI/Longo/includes/w3.css' /> -->
+
+
 <style>
 div.gallery {
     border: 2px solid #ccc;
@@ -64,9 +64,9 @@ div.desc {
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -76,10 +76,10 @@ div.desc {
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php" id="logo">DARIO
 								LONGO LAB</a>
@@ -87,7 +87,7 @@ div.desc {
 								<p style="color: gray;">Imaging Tumor Microenvironment</p>
 							</div>
 						</h1>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<ul>
 								<li ><a href="<?php echo SITE_ROOT; ?>PI/Longo/home.php">Home</a></li>
@@ -113,7 +113,7 @@ div.desc {
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 		<div class="wrapper style3">
 			<div class="inner">

@@ -15,9 +15,9 @@ require_once __DIR__ . '/../../config.inc.php';
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -27,12 +27,12 @@ require_once __DIR__ . '/../../config.inc.php';
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 						<?php include SITE_PATH . 'PI/Terreno/includes/menu_terreno.php'; ?>
 						</nav>
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
@@ -89,7 +89,7 @@ require_once __DIR__ . '/../../config.inc.php';
 									alt="MRI visualisation of drug delivery/release">
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<div>
 									<h3>
 										<span style="text-transform: none;">MRI visualization of the
@@ -159,7 +159,7 @@ require_once __DIR__ . '/../../config.inc.php';
 								</div>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<div>
 									<p style="text-align: justify;">The results confirmed the
 										strong dependence of the release on the pulse repetition
@@ -201,7 +201,7 @@ require_once __DIR__ . '/../../config.inc.php';
 								</div>
 							</div>
 							<div class="4u 12u(mobile)">
-								<!-- Spotlight -->
+								
 								<div>
 									<p style="text-align: justify;">Importantly, the tumour of the
 										mice stimulated with pLINFU after three weeks of treatment
@@ -271,7 +271,7 @@ require_once __DIR__ . '/../../config.inc.php';
 				</div>
 			</div>
 		</div>
-		<!-- Footer Wrapper -->
+		
 		<div id="footer-wrapper">
 			<footer id="footer" class="container">
 				<div class="12u">
@@ -285,7 +285,7 @@ require_once __DIR__ . '/../../config.inc.php';
 			</footer>
 		</div>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -293,7 +293,7 @@ require_once __DIR__ . '/../../config.inc.php';
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 </body>
 </html>

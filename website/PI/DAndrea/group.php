@@ -14,9 +14,9 @@
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
@@ -24,17 +24,17 @@
 	          <div class="cim-logo-container">
 	         </div></a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/DAndrea/home.php" id="logo">LUCA D'ANDREA LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Peptides and proteins for diagnostic and therapeutic applications</p>
 							</div>
 						</h1>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/DAndrea/includes/menu_dandrea.php'; ?>
 						</nav>
@@ -42,20 +42,20 @@
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
 					<div class="container">
 						<div class="row">
 							<div class="8u 10u(mobile)">
-								<!-- Article list -->
+								
 								<section class="box article-list">
 									<h2 class="second icon fa-user">Group Members</h2>
 									</section>
 									</div>
 									</div>
-									<!-- Excerpt -->
+									
 									<div class="row">
 							<div class="8u 12u(mobile)">
 									<article class="box excerpt">
@@ -69,7 +69,7 @@
 											</header>
 											<p style="line-height: 1.2">
 												Senior Researcher<br> Molecular Imaging Center<br>
-												<!-- Academic activity: <a href="http://www.dbmss.unito.it/do/docenti.pl/Show?_id=dlongo#profilo" target=_blank>Dept. Molecular Biotechnology and Health Sciences</a><br> -->
+												
 												PhD Chemical Sciences<br>  
 												MSc Chemistry<br>
 												Phone: +39 0116709542<br> 
@@ -87,7 +87,7 @@
 									<hr></hr>
 										<div class="row">
 							<div class="8u 12u(mobile)">
-									<!-- Excerpt -->
+									
 									<article class="box excerpt">
 										<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/rossella_di_stasi.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left"/>
 										<div>
@@ -118,7 +118,7 @@
 									<hr></hr>
 									<div class="row">
 							<div class="8u 12u(mobile)">
-									<!-- Excerpt -->
+									
 									<article class="box excerpt">
 										<img src="<?php echo SITE_ROOT; ?>PI/DAndrea/images/lucia_de_rosa.jpg" alt="" style="width: 180px; height: auto; margin-bottom:60px;" class="image left" />
 										<div>
@@ -156,13 +156,13 @@
 			</div>
 		</div>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<script>

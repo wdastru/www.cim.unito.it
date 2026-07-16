@@ -33,7 +33,7 @@ $activeSection = 'people';
 								<p style="text-align:left;"><b>PhD Student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
 								Department of Materials Science, University of Milano-Bicocca </br>
-								<a> <!-- href="../PI/Dellicastelli/home.html" target="_blank" style="color:#dc6a10"-->  Delli Castelli Lab</a>
+								<a>   Delli Castelli Lab</a>
 								</b></p>
 							</div>
 						</div>

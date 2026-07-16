@@ -16,9 +16,9 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -28,12 +28,12 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 							<?php include SITE_PATH . 'PI/Gianolio/includes/header_gianolio.php'; ?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Gianolio/includes/menu_gianolio.php'; ?>
 						</nav>
@@ -41,17 +41,17 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style3">
 				<div class="inner">
 					<div class="container">
 						<div class="row">
 							<div class="8u 12u(mobile)">
-								<!-- Article list -->
+								
 								<section class="box article-list">
 									<h2 class="second icon fa-user">Group Members</h2>
-									<!-- Excerpt -->
+									
 									<article class="box excerpt">
 										<a class="image left"><img
 											src="<?php echo SITE_ROOT; ?>images/staff/gianolio.jpg"
@@ -279,13 +279,13 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				</footer>
 		</div>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/skel-viewport.min.js"></script>
 	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="assets/js/main.js"></script>
 	<script src="https://platform.linkedin.com/badges/js/profile.js" async
 		defer></script>

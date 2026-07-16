@@ -16,9 +16,9 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 </head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino"
 				target="_blank" id="unito-logo" style="text-decoration: none;">
 				<div class="unito-logo-container"></div>
@@ -27,12 +27,12 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 				<div class="cim-logo-container"></div>
 			</a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<?php include SITE_PATH . 'PI/Delli_Castelli/includes/header_delli.php';?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Delli_Castelli/includes/menu_delli.php'; ?>
 						</nav>
@@ -40,7 +40,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style1">
 				<div class="inner">
@@ -255,7 +255,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 				<div class="container">
 					<div class="row">
 						<div class="7u 12u(mobile)">
-							<!-- Article list -->
+							
 							<section class="box article-list">
 								<h2 class="icon fa-file-text-o">Upcoming Events</h2>
 								<!-- <ul class="divided">
@@ -317,7 +317,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 			</div>
 		</div>
 	</div>
-	<!-- Footer Wrapper -->
+	
 	<div id="footer-wrapper">
 		<footer id="footer" class="container">
 			<div class="12u">
@@ -330,7 +330,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 		</footer>
 	</div>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
@@ -338,7 +338,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive staff data from db
 	<script
 		src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 </body>
 </html>

@@ -32,7 +32,7 @@ $activeSection = 'people';
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Oksana Bondar</h1>
 								<p style="text-align:left;"><b>PhD Student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
-								<a> <!-- href="<?php echo SITE_ROOT; ?>PI/Reineri/home.php" target="_blank" style="color:#dc6a10"> -->
+								<a> 
 								 Reineri Lab</a>
 								</b></p>
 							</div>

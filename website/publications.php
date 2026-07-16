@@ -66,6 +66,6 @@
 //initPubs();
 //]]>
 </script>
-	<!-- <script type="text/javascript">changeSideNavStyles();</script> -->
+	
 </body>
 </html>

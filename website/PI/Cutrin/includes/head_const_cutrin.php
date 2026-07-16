@@ -1,4 +1,4 @@
-    <!-- imaging, x-ray, tumor -->
+    
     <!--[if lte IE 8]>
     <script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/html5shiv.js"></script>
     <![endif]-->

@@ -32,7 +32,7 @@ $activeSection = 'people';
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giulia Spatola</h1>
 								<p style="text-align:left;"><b>PhD student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
-								<a> <!-- href="../PI/Viale/home.html" target="_blank" style="color:#dc6a10"> -->
+								<a> 
 								  Viale Lab</a>
 								</b></p>
 							</div>

@@ -15,9 +15,9 @@
 	</head>
 <body class="homepage">
 	<div id="page-wrapper">
-		<!-- Header -->
+		
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
@@ -25,17 +25,17 @@
 	          <div class="cim-logo-container">
 	         </div></a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<h1>
 							<a href="<?php echo SITE_ROOT; ?>PI/Cutrin/home.php" id="logo">JUAN CARLOS CUTRIN LAB</a>
 							<div>
 								<p style="color: gray; font-size=12px;" >Imaging Probes To Detect Bacteria In Vivo</p>
 							</div>
 						</h1>
-						<!-- Nav -->
+						
 						<nav id="nav">
 							<?php include SITE_PATH . 'PI/Cutrin/includes/menu_cutrin.php'; ?>
 						</nav>
@@ -43,7 +43,7 @@
 				</header>
 			</div>
 		</div>
-		<!-- Main Wrapper -->
+		
 		<div id="main-wrapper">
 			<div class="wrapper style2">
 				<div class="inner">
@@ -51,7 +51,7 @@
 					<div class="row">
 						<div class="10u 12u(mobile)">
 						<div id="content">
-							<!-- Content -->
+							
 							<article>
 									<h2 class="icon fa-file-text-o">Journal Papers</h2>
 								<ol class="default" reversed=true>
@@ -59,7 +59,7 @@
 									<p>Full list of publications available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Juan+Carlos+Cutrin" target="_blank">PubMed</a>
 									</p>
-										<!-- <h3 id='2018'>|2018</h3> -->										
+																				
 										<li><b>Cutrin JC</b>, Alberti D, Bernacchioni C, Ciambellotti S, Turano P, Luchinat C, Crich SG, Aime S.							
 										<i>Cancer cell death induced by ferritins and the peculiar role of their labile iron pool. </i> 
 										<a title="Open in a new window" class="http"	href="https://www.ncbi.nlm.nih.gov/pubmed/29963255">
@@ -114,13 +114,13 @@
 			</div>
 		</div>
 	</div>
-	<!-- Scripts -->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 </body>
 </html>

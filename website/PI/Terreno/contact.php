@@ -16,9 +16,9 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
-			<!-- Header -->
+			
 		<div id="header-wrapper">
-			<!-- logo unito -->
+			
 			<a href="http://www.unito.it" title="University of Torino" target="_blank" id="unito-logo" style="text-decoration: none;">
 			<div class="unito-logo-container">                   
 	          </div></a>
@@ -26,12 +26,12 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 	          <div class="cim-logo-container">
 	         </div></a>
 			<div class="container">
-				<!-- Header -->
+				
 				<header id="header" style="margin: -30px 0 30px 0;">
 					<div class="inner">
-						<!-- Logo -->
+						
 						<?php include SITE_PATH . 'PI/Terreno/includes/header_terreno.php';?>
-						<!-- Nav -->
+						
 						<nav id="nav">
 						<?php include SITE_PATH . 'PI/Terreno/includes/menu_terreno.php'; ?>
 						</nav>
@@ -39,7 +39,7 @@ include SITE_PATH . 'includes/staff_db.inc.php'; // retreive $mail and $telefono
 				</header>
 			</div>
 		</div>
-			<!-- Main Wrapper -->
+			
 				<div id="main-wrapper">
 					<div class="wrapper style1">
 						<div class="inner">
@@ -91,13 +91,13 @@ echo "<a href=\"mailto:" . getStaffData($conn, [
 					</div>
 				</div>
 		</div>
-		<!-- Scripts -->
+		
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/skel-viewport.min.js"></script>
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="<?php echo SITE_ROOT; ?>PI/assets/js/ie/respond.min.js"></script><![endif]-->
+	
 	<script src="<?php echo SITE_ROOT; ?>PI/assets/js/main.js"></script>
 	</body>
 </html>
