@@ -99,9 +99,9 @@ chains is a technique that is more and more exploited by the biopharmaceutical i
 					</div>
 				</div>
 			</div>
-			<!-- subsection closing -->
+			
 		</div>
-		<!-- subsection closing -->
+		
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
@@ -109,9 +109,9 @@ chains is a technique that is more and more exploited by the biopharmaceutical i
 				Fax. Tel. Mail
 			</p>
 		</div>
-		<!-- section closing -->
+		
 	</div>
-	<!-- section closing -->
+	
 	<script type="text/javascript">
 //<![CDATA[
 changeSideNavStyles();

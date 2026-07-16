@@ -167,9 +167,9 @@
                     SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
                 </div>
             </div>
-            <!-- subsection closing -->
+            
         </div>
-        <!-- section closing -->
+        
         <script>
             //<![CDATA[
             changeSideNavStyles();

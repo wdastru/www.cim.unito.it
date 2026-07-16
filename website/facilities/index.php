@@ -185,8 +185,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- subsection closing -->
-                <!-- subsection closing -->
+                
+                
                 <div id="after"></div>
                 <div id="footer">
                     <p>
@@ -199,9 +199,9 @@
                     SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
                 </div>
             </div>
-            <!-- section closing -->
+            
         </div>
-        <!-- section closing -->
+        
         <script>
             //<![CDATA[
             changeSideNavStyles();

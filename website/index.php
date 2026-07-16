@@ -894,7 +894,7 @@
                 </div>
             </div>
         </div>
-        <!-- section closing -->
+        
         <script>
             //<![CDATA[
             changeSideNavStyles();

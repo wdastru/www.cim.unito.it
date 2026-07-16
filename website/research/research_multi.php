@@ -85,7 +85,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- subsection closing -->
+			
 			<div id='after'></div>
 			<div id='footer'>
 				<p>
@@ -95,11 +95,11 @@
 <?php include SITE_PATH . 'includes/HTML5_badge_valid.inc.php'; ?>
 <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
-			<!-- subsection closing -->
+			
 		</div>
-		<!-- section closing -->
+		
 	</div>
-	<!-- section closing -->
+	
 	<script>
             //<![
 						CDATA[

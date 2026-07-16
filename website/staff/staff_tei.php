@@ -96,9 +96,9 @@ contrast agents and carry them on the site of interest to visualize a given path
 					</div>
 				</div>
 			</div>
-			<!-- subsection closing -->
+			
 		</div>
-		<!-- subsection closing -->
+		
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
@@ -106,9 +106,9 @@ contrast agents and carry them on the site of interest to visualize a given path
 				Fax. Tel. Mail
 			</p>
 		</div>
-		<!-- section closing -->
+		
 	</div>
-	<!-- section closing -->
+	
 	<script type="text/javascript">
 //<![CDATA[
 changeSideNavStyles();

@@ -93,9 +93,9 @@ on the nature of the solutes. We apply the technique to the study of detailed ph
 					</div>
 				</div>
 			</div>
-			<!-- subsection closing -->
+			
 		</div>
-		<!-- subsection closing -->
+		
 		<div id='after'></div>
 		<div id='footer'>
 			<p>
@@ -103,9 +103,9 @@ on the nature of the solutes. We apply the technique to the study of detailed ph
 				Fax. Tel. Mail
 			</p>
 		</div>
-		<!-- section closing -->
+		
 	</div>
-	<!-- section closing -->
+	
 	<script type="text/javascript">
 //<![CDATA[
 changeSideNavStyles();

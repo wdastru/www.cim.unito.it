@@ -53,9 +53,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- subsection closing -->
+                
             </div>
-            <!-- subsection closing -->
+            
             <div id="after"></div>
             <div id="footer">
                 <p>
@@ -67,9 +67,9 @@
                 ?> <?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';
  ?>
             </div>
-            <!-- section closing -->
+            
         </div>
-        <!-- section closing -->
+        
         <script src="includes/jQuery/jquery.js"></script>
         <script src="includes/jQuery/monthly.js"></script>
         <script>

@@ -241,7 +241,7 @@
                     <!-- <div class='paddingOuter'> -->
                 </div>
                 <!-- <div id='content'> -->
-                <!-- subsection closing -->
+                
                 <div id="after"></div>
                 <div id="footer">
                     <p>
@@ -254,9 +254,9 @@
     SITE_PATH . 'includes/PageSpeedTest.inc.php'; ?>
                 </div>
             </div>
-            <!-- <div id='subsection1'> -->
+            
         </div>
-        <!-- <div id='section3'> -->
+        
         <script>
             //<![CDATA[
             changeSideNavStyles();

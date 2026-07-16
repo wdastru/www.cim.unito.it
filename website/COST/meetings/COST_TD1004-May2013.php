@@ -105,9 +105,9 @@
 				<?php include SITE_PATH . 'includes/PageSpeedTest.inc.php';?>
 			</div>
 		</div>
-		<!-- section closing -->
+		
 	</div>
-	<!-- section closing -->
+	
 	<script>
         changeSideNavStyles();
     </script>
