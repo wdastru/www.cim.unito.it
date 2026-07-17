@@ -1377,6 +1377,11 @@
         height: 6.25rem;
         width: 6.25rem;
     }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /*** ex mw-992px.css ***/
@@ -1863,7 +1868,8 @@
 
     /* STYLE for index.php */
     .home.paddingInner {
-        height: 185px;
+        min-height: 185px;
+        height: auto;
     }
 
     /* END of STYLE for index.php */
