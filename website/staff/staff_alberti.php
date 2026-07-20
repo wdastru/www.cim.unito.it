@@ -25,12 +25,11 @@
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">
-								<img src="../images/staff/alberti.webp" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>
+								<img src="../images/staff/alberti.webp" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Diego Alberti</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -40,7 +39,7 @@
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. Bio-Chemical Sciences, University of Torino, Italy<br>
@@ -48,8 +47,8 @@
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focuses on the development and characterization of innovative nano-systems for molecular imaging and theranostic applications.
 					These systems include low density lipoproteins (20 nm of diamenter), liposomes and polylactic&minus;co&minus;glycolic acid (PLGA) nanoparticles
@@ -60,10 +59,9 @@
 					the pathological site) but also to facilitate (pre&minus;) clinical efficacy and toxicity analyses, and to better understand various important aspects
 					of the drug delivery process.</p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/alberti_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/alberti_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

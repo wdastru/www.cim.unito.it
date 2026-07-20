@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-quarter">						
-								<img src="../images/staff/tear.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/tear.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Louise Tear</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,7 +37,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												DPhil Biomedical Imaging, University of Oxford, Oxford, United Kingdom<br>
@@ -46,23 +45,22 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focuses on pre-clinical and clinical development of high relaxivity magnetic resonance contrast agents. 
 												Relaxometric and structural characterisation of complexes with gadolinium and other lanthanides, 
 												with the aim to identify and understand their molecular characteristics.</p>
 					 </div>
 					<!-- 
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/atlante_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/atlante_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					 -->
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
@@ -71,7 +69,7 @@ $activeSection = 'people';
 					</div>
 					<!--   
 					   <hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Louise+Tear" target="_blank" style="color:#007c92">PubMed </a></p>

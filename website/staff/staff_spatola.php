@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/spatola.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/spatola.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giulia Spatola</h1>
 								<p style="text-align:left;"><b>PhD student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,15 +37,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>After a thesis in Organic Chemistry, during which I learnt how to plan a drug synthesis and how to use several analytical instruments 
 					(NMR, HPLC&minus;MS, GC, UPLC, etc), I started my PhD at the Department of Molecular Biotechnology and Health Sciences with a project about the study 

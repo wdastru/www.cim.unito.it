@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="<?php echo SITE_ROOT; ?>images/staff/stefania.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="<?php echo SITE_ROOT; ?>images/staff/stefania.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Rachele Stefania</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,7 +37,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. Biochemistry, University of Torino, Italy<br>
@@ -46,17 +45,16 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>Research activity in the field of design and synthesis of MRI, Optical or Photoacoustic Imaging probes. Synthesis, purification and characterization 
 					of functionalized systems of various nature for bioconjugation to biological carriers, for the visualization of tumor cells and neuroinflammation. 
 					Technical manager for instrumentations.</p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="<?php echo SITE_ROOT; ?>images/wordcloud/stefania_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="<?php echo SITE_ROOT; ?>images/wordcloud/stefania_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/corrado.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/corrado.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-half">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Alessia Corrado</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Institute of Biostructure and Bioimaging<br>
@@ -37,7 +36,7 @@ $activeSection = 'people';
 								 Longo Lab</a>
 								</b></p>
 							</div>
-							<div class="w3-col w3-quarter">
+							<div>
 								<img
 									src="<?php echo SITE_ROOT; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
 									alt="" style="max-width: 200px; height: auto; margin-right: 1em;"
@@ -45,15 +44,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">					
 							M.Sc. Medical Biotechnology, University of Torino, Italy <br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>The aim of my project is to characterize tumor microenvironment in murine models 
 						of breast cancer using MRI techniques. Specifically, the project focuses on 

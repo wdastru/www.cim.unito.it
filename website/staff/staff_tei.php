@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/tei.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/tei.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorenzo Tei</h1>
 								<p style="text-align:left;"><b>Associate Professor<br>
 								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br>
@@ -39,7 +38,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 Ph.D. Chemistry, University of Nottingham, England<br>
@@ -47,8 +46,8 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>
 					<b>Contrast agents for clinical diagnostics.</b> 
@@ -73,10 +72,9 @@ contrast agents and carry them on the site of interest to visualize a given path
  objective to increase the surface area and the total pore volume in order to optimize the adsorption capacity of gas and aromatic molecules.<br>
 					</p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/tei_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/tei_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

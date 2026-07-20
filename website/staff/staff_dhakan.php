@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/dhakan.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/dhakan.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Chetan Dhakan</h1>
 								<p style="text-align:left;"><b>PhD Student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -39,15 +38,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 M.Sc. Pharmacology & Toxicology, Gujarat University, India<br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>The target of my project is validation and evaluation of novel biomarkers in atherosclerosis by means of DCE-MRI 
 					and Ultrasound Imaging. The final pathway is to identify and validate imaging parameters in order to differentiate 

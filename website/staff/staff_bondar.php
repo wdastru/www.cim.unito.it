@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/bondar.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/bondar.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Oksana Bondar</h1>
 								<p style="text-align:left;"><b>PhD Student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,15 +37,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 M.Sc. Inorganic chemistry, Taras Shevchenko National University of Kyiv, Ukraine<br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My scientific experience is organic and inorganic synthesis. My current project is devoted to the development of 
 					the hyperpolarization method named PHIP-SAH (ParaHydrogen Induced Polarization - Side Arm Hydrogenation) and on the 

@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="<?php echo SITE_ROOT; ?>images/staff/arena.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="<?php echo SITE_ROOT; ?>images/staff/arena.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-half">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Francesca Arena</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Institute of Biostructure and Bioimaging<br>
@@ -37,7 +36,7 @@ $activeSection = 'people';
 								Terreno Lab</a>
 								</b></p>
 							</div>
-							<div class="w3-col w3-quarter">
+							<div>
 								<img
 									src="<?php echo SITE_ROOT; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
 									alt="" style="max-width: 200px; height: auto; margin-right: 1em;"
@@ -45,7 +44,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. in Biochemistry, University of Torino, Italy<br>
@@ -53,20 +52,19 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research mainly focused on the design of innovative MRI-based imaging probes for the development and preclinical
 					 validation of improved diagnostic/theranostic procedures</p>
 					 </div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="<?php echo SITE_ROOT; ?>images/wordcloud/arena_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="<?php echo SITE_ROOT; ?>images/wordcloud/arena_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>Centre of Preclinical Imaging c/o Bioindustry Park of Canavese <br/>
 					Address: Via Ribes 5, 10010 - Colleretto Giacosa (TO) <br/>
@@ -74,7 +72,7 @@ $activeSection = 'people';
 					E-mail: <a href="mailto:francesca.arena@unito.it"><span style="color:#007c92">francesca.arena@unito.it</span></a></p>
 					</div>
 					   <hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Francesca+Arena" target="_blank" style="color:#007c92">PubMed </a></p>

@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/padovan.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/padovan.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-half">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Sergio Padovan</h1>
 								<p style="text-align:left;"><b>Technical Assistant<br>
 								Institute of Biostructure and Bioimaging<br>
@@ -37,7 +36,7 @@ $activeSection = 'people';
 								 IBB-CNR profile</a>
 								</b></p>
 							</div>
-							<div class="w3-col w3-quarter">
+							<div>
 								<img
 									src="<?php echo SITE_ROOT; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
 									alt="" style="max-width: 200px; height: auto; margin-right: 1em;"
@@ -45,7 +44,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 <br>
@@ -53,17 +52,16 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focuses on development of molecular imaging procedures using magnetic resonance imaging for early diagnosis and monitoring of therapeutic treatment on
 					 animal models of several diseases. My expertise is on peptide synthesis in solid phase.
 					</p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/padovan_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/padovan_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

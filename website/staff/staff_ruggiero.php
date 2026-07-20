@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-quarter">						
-								<img src="<?php echo SITE_ROOT; ?>images/staff/ruggiero.webp" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="<?php echo SITE_ROOT; ?>images/staff/ruggiero.webp" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Maria Rosaria Ruggiero</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,7 +37,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. Pharmaceutical and Biomolecular Sciences, University of Torino, Italy<br>
@@ -46,8 +45,8 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focus is the implementation of advanced diagnostic technologies into the field of magnetic resonance imaging (MRI), especially at 
 					low magnetic field, using the FFC technique (Fast Field Cycling). Clinically&minus;relevant pilot studies using FFC&minus;MRI have shown that this
@@ -55,14 +54,13 @@ $activeSection = 'people';
 					 its facility to measure the effects of molecular dynamics and protein networks at the nanometre scale. These capabilities bring enormous potential 
 					 for exploitation in the screening and early diagnosis of diseases, evaluation of patients response to treatment and disease prognosis.</p>
 					 </div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/ruggiero_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/ruggiero_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
@@ -70,7 +68,7 @@ $activeSection = 'people';
 					E-mail: <a href="mailto:ruggiero.mr@gmail.com"><span style="color:#007c92">ruggiero.mr@gmail.com</span></a></p>
 					</div>
 					   <hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Ruggiero+MR" target="_blank" style="color:#007c92">PubMed </a></p>

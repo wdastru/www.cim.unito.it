@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/menchise.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/menchise.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-half">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Valeria Menchise</h1>
 								<p style="text-align:left;"><b>Researcher<br>
 								Institute of Biostructure and Bioimaging<br>
@@ -37,7 +36,7 @@ $activeSection = 'people';
 								 IBB-CNR profile</a>
 								</b></p>
 							</div>
-							<div class="w3-col w3-quarter">
+							<div>
 								<img
 									src="<?php echo SITE_ROOT; ?>images/Logo-CNR-2010-Quadrato-ENG-high.png"
 									alt="" style="max-width: 200px; height: auto; margin-right: 1em;"
@@ -45,7 +44,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 Ph.D. Chemistry, University of Nancy 1 &#34;Henri Poincar&egrave;&#34;, France<br>
@@ -53,8 +52,8 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research interests are focused on structural studies of proteins involved in the etiology of human diseases. These studies are paralleled
 					 by the development of new strategies for the in vivo targeting of drug and contrast agents for Molecular Imaging applications. More recently my activity
@@ -62,10 +61,9 @@ $activeSection = 'people';
 					 for cellular labelling and Molecular Imaging through Magnetic Resonance. 
 					</p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/menchise_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/menchise_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

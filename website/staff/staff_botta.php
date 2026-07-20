@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/botta.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/botta.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Mauro Botta</h1>
 								<p style="text-align:left;"><b>Full Professor<br>
 								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br>
@@ -39,15 +38,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 M.Sc. Chemistry, University of Torino, Italy<br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p><b>Development and multinuclear NMR characterization in solution of paramagnetic metal complex as diagnostic probes</b>
 The goal is the understanding of the chemical properties of MRI contrast agents (GdIII, MnII, FeIII chelates) and the dependence of their effectiveness (relaxivity)
@@ -70,10 +69,9 @@ on the nature of the solutes. We apply the technique to the study of detailed ph
  information about the changes that take place across the series, on the nature of the relaxation processes and their dependence on pH, and temperature, on self-recognition
   mechanisms, on the reversible formation of macromolecular adducts.</p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/botta_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/botta_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

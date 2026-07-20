@@ -24,12 +24,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-quarter">
-								<img src="../images/staff/atlante.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>
+								<img src="../images/staff/atlante.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Sandra Atlante</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -39,7 +38,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. Epigenetics, Goethe University of Frankfurt am Main, Germany<br>
@@ -47,22 +46,21 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focuses on developing analytical methods (ICP-MS, HPLC-MS and relaxometric)
 					for the study of the phenomena related to Gadolinium (Gd) retention in vivo, following multiple administration of Gd-based contrast agents.</p>
 					 </div>
 					<!--
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/atlante_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/atlante_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					 -->
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
@@ -70,7 +68,7 @@ $activeSection = 'people';
 					E-mail: <a href="mailto:sandra.atlas@yahoo.it"><span style="color:#007c92">sandra.atlas@yahoo.it</span></a></p>
 					</div>
 					   <hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Sandra+Atlante" target="_blank" style="color:#007c92">PubMed </a></p>

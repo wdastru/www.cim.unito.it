@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/bardini.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/bardini.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Paola Bardini</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,7 +37,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Post Graduate Diploma in Clinical Pathology, University of Torino, Italy<br>
@@ -46,8 +45,8 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research focuses on the preclinical application of new imaging probes for the study of neoplastic, inflammatory, and neurodegenerative pathologies
 					 using molecular imaging techniques in animal models. 
@@ -58,14 +57,13 @@ $activeSection = 'people';
                     In addition, I am responsible for the design of pre-clinical studies and for the preparation of study documentations, such as study protocols and 
                     amendments, study reports, Standard Operating Procedures, experimental protocol procedures.</p>
 					 </div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="<?php echo SITE_ROOT; ?>images/wordcloud/bardini_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="<?php echo SITE_ROOT; ?>images/wordcloud/bardini_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>Centre of Preclinical Imaging c/o Bioindustry Park of Canavese <br/>
 					Address: Via Ribes 5, 10010 - Colleretto Giacosa (TO) <br/>
@@ -73,7 +71,7 @@ $activeSection = 'people';
 					E-mail: <a href="mailto:paola.bardini@unito.it"><span style="color:#007c92">paola.bardini@unito.it</span></a></p>
 					</div>
 					   <hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Paola+Bardini" target="_blank" style="color:#007c92">PubMed </a></p>

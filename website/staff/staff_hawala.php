@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/hawala.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/hawala.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Ivan Hawala</h1>
 								<p style="text-align:left;"><b>PhD student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,15 +37,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 M.Sc. Chemistry and Pharmaceutical Technologies, University of Torino, Italy<br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research project aims to design and synthesize novel AAZTA derivatives suitable for the conjugation with peptides or other 
 					relevant molecular vectors, to be included in a &#39;cold kit&#39;, which allows the labelling with PET radionuclides, obtained from a cyclotron or eluted 

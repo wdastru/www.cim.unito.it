@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="<?php echo SITE_ROOT; ?>images/staff/patrucco.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="<?php echo SITE_ROOT; ?>images/staff/patrucco.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Deyssy Patrucco</h1>
 								<p style="text-align:left;"><b>PhD student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,15 +37,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 M.Sc. Molecular Biotechnology, University of Torino, Italy<br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My educational and academic background concerns different technical skills in molecular and cell biology. In particular I had the opportunity,
 					 during my research experience, to deepen my knowledge in drug&minus;loaded nanosystem preparation, finally characterized in vitro and in vivo. I also acquired 

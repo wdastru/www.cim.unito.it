@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-quarter">						
-								<img src="../images/staff/consolino.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/consolino.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Lorena Consolino</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,7 +37,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. Molecular Bioscience, University of Torino, Italy<br>
@@ -46,21 +45,20 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>The focus of my reaserch is developing multi-parametric imaging approaches for the characterization of the tumor microenvironment 
 					(tumor vasculature, acidosis, hypoxia, and cellularity). The main goal is to identify and validate imaging parameters as novel tumor biomarkers
 					 in order to improve early detection, cancer treatment monitoring and formation of tumor metastasis.</p>
 					 </div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/consolino_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/consolino_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
@@ -68,7 +66,7 @@ $activeSection = 'people';
 					E-mail: <a href="mailto:lorena.consolino@unito.it"><span style="color:#007c92">lorena.consolino@unito.it</span></a></p>
 					</div>
 					   <hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Lorena+Consolino" target="_blank" style="color:#007c92">PubMed </a></p>

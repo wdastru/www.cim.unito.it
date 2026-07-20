@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/capozza.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/capozza.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Martina Capozza</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,7 +37,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. in Pharmaceutical and Biomolecular Science, University of Torino, Italy<br>
@@ -46,8 +45,8 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My research is focused on the evaluation of the physico-chemical properties, biodistribution and imaging performance of different contrast agents 
 					for photoacoustic and optical imaging. PhotoAcoustic Imaging (PAI) is a biomedical imaging modality based on the use of laser-generated ultrasounds, 
@@ -55,10 +54,9 @@ $activeSection = 'people';
 					In particular, my research interests are focused on the evaluation in vitro and in vivo of several small near infrared (NIR) absorbing dyes, 
 					dye loaded nanosystems and metal phthalocyanine. </p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/capozza_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/capozza_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

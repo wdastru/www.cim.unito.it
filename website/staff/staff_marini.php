@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="<?php echo SITE_ROOT; ?>images/staff/marini.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="<?php echo SITE_ROOT; ?>images/staff/marini.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giada Maria Marini</h1>
 								<p style="text-align:left;"><b>Graduate student<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,15 +37,15 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												M.Sc. in Clinical, forensic and sport chemestry, University of Torino, Italy<br>
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>My principal activities include the preparation and preclinical validation of contrast agents for novel theranostic protocols for different 
 					imaging techniques (MRI, PET/SPECT, optical imaging). I am particulary focused in the development of optical imaging contrast agents for 

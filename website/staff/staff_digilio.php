@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-col w3-quarter">						
-								<img src="../images/staff/digilio.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/digilio.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-col w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Giuseppe Digilio</h1>
 								<p style="text-align:left;"><b>Assistant Professor<br>
 								Dipartimento di Scienze e Innovazione Tecnologica DISIT<br>
@@ -39,7 +38,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												 Ph.D. Protein Chemistry, University  of  Torino, Italy<br>
@@ -47,8 +46,8 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>
 					<b>Imaging labelled biomaterials for cell-therapy follow-up by Magnetic Resonance Imaging (MRI).</b><br> 
@@ -76,10 +75,9 @@ chains is a technique that is more and more exploited by the biopharmaceutical i
   industrial production.<br>
 					</p>
 					</div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/digilio_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/digilio_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>

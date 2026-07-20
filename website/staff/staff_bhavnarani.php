@@ -23,12 +23,11 @@ $activeSection = 'people';
 						</h1>
 					</div>
 					<div class='paddingInner'>
-					<div class="w3-row" >
-							<div class="w3-quarter">						
-								<img src="../images/staff/bhavnarani.jpg" class="w3-image"
-									style="max-width: 150px; margin-left:0px;" />
+					<div>
+							<div>						
+								<img src="../images/staff/bhavnarani.jpg" style="max-width: 150px; margin-left:0px;" />
 							</div>
-							<div class="w3-threequarter">
+							<div>
 								<h1 style="color:#666666; text-align:left; padding-left:0px;">Bhavna Rani</h1>
 								<p style="text-align:left;"><b>Research Fellow<br>
 								Department of Molecular Biotechnology and Health Sciences<br>
@@ -38,7 +37,7 @@ $activeSection = 'people';
 							</div>
 						</div>
 					<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Education</h2>
 						<p style="line-height: 1.5">
 												Ph.D. Surgical Experimental Sciences and Cellular Therapies, University of Bari "Aldo Moro", Italy (under Marie Curie ITN program)<br/> 
@@ -46,8 +45,8 @@ $activeSection = 'people';
 											</p>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
-					<div class="w3-threequarter">
+					<div>
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Research Interests</h2>
 					<p>The focus of my research is to develop novel pH imaging approaches to assess spatial and temporal tumor pH evolution during cancer progression. 
 					The main goal is to access the pH heterogeneity during the cancer progression (starting from dysplasia to invasive cancer) using MRI-CEST pH imaging approaches, 
@@ -55,14 +54,13 @@ $activeSection = 'people';
 					transgenic mouse models. I am also interested in exploring how metabolic pathway affected during pH evolution by analyzing metabolic imaging of Glycolysis, 
 					Pentose phosphate pathway (PPP) and Tricarboxylic acid pathway (TCA) pathway. </p>
 					 </div>
-					<div class="w3-quarter">
+					<div>
 							<h2>Research Topics</h2>
-								<img src="../images/wordcloud/bhavnarani_wordcloud.png" class="w3-image"
-									style="max-width: 250px;" />
+								<img src="../images/wordcloud/bhavnarani_wordcloud.png" style="max-width: 250px;" />
 							</div>
 					</div>
 						<hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Contact Information</h2>
 					<p>
 					Address: Via Nizza, 52 - 10126 Torino<br/>
@@ -70,7 +68,7 @@ $activeSection = 'people';
 					E-mail: <a href="mailto:bhavna.rani@unito.it"><span style="color:#007c92">bhavna.rani@unito.it</span></a></p>
 					</div>
 					   <hr></hr>
-					<div class="w3-row" >
+					<div>
 					<h2 style="color:#8c1515; text-align:left;">Publications</h2>
 					<p>Full list of publications are available at 
 									<a title="Open in a new window" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Bhavna+Rani" target="_blank" style="color:#007c92">PubMed </a></p>
