@@ -72,19 +72,16 @@ $activeSection = 'people';
 					</div>
 				</div>
 			</div>
-			
 		</div>
-		
-		</div>
-<div id='after'></div>
-		<div id='footer'>
-			<p>
-				Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
-				Fax. Tel. Mail
-			</p>
-		</div>
-	
-	<script type="text/javascript">
+	<div id='after'></div>
+	<div id='footer'>
+		<p>
+			Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino - ITALY<br>
+			Fax. Tel. Mail
+		</p>
+	</div>
+</div>
+<script type="text/javascript">
 //<![CDATA[
 changeSideNavStyles();
 //]]>

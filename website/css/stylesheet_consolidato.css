@@ -1382,6 +1382,16 @@
         max-width: 100%;
         height: auto;
     }
+
+    .book-chapters {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chapter {
+        clear: both;
+        overflow: auto;
+    }
 }
 
 /*** ex mw-992px.css ***/

@@ -80,7 +80,7 @@
                             </h1>
                         </div>
                         <div class="paddingInner">
-                            <div class="w3-cell-row">
+                            <div>
                                 <h1>Prof. Silvio Aime</h1>
                                 <div id="aboutus_leader_img">
                                     <a
@@ -91,7 +91,6 @@
                                             <img
                                                 src="images/staff/silvio_aime.webp"
                                                 alt=""
-                                                class="w3-image-left"
                                             />
                                         </figure>
                                     </a>

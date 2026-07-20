@@ -101,8 +101,6 @@ chains is a technique that is more and more exploited by the biopharmaceutical i
 			</div>
 			
 		</div>
-		
-		</div>
 <div id='after'></div>
 		<div id='footer'>
 			<p>
@@ -110,8 +108,8 @@ chains is a technique that is more and more exploited by the biopharmaceutical i
 				Fax. Tel. Mail
 			</p>
 		</div>
-	
-	<script type="text/javascript">
+</div>
+<script type="text/javascript">
 //<![CDATA[
 changeSideNavStyles();
 //]]>

@@ -84,8 +84,6 @@ $activeSection = 'people';
 			</div>
 			
 		</div>
-		
-		</div>
 <div id='after'></div>
 		<div id='footer'>
 			<p>
@@ -93,8 +91,8 @@ $activeSection = 'people';
 				Fax. Tel. Mail
 			</p>
 		</div>
-	
-	<script type="text/javascript">
+</div>
+<script type="text/javascript">
 //<![CDATA[
 changeSideNavStyles();
 //]]>

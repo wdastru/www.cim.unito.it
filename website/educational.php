@@ -15,11 +15,10 @@
     <body>
         <div id="section2">
             <?php include SITE_PATH . 'includes/menu.php'; ?>
-                <?php include SITE_PATH . 'includes/header.php'; ?>
-                <div class="main-area">
-                <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
-                <?php include SITE_PATH . 'includes/events-side-nav-mobile.php';
-                ?>
+            <?php include SITE_PATH . 'includes/header.php'; ?>
+            <div class="main-area">
+            <?php include SITE_PATH . 'includes/events-side-nav.php'; ?>
+            <?php include SITE_PATH . 'includes/events-side-nav-mobile.php'; ?>
                 <div id="content">
                     <div class="paddingOuter">
                         <div class="band">
@@ -174,9 +173,8 @@
                         <div class="band">
                             <h1 class="subsectionTitle">Book Chapters</h1>
                         </div>
-                        <div class="paddingInner">
-                            <div class="w3-row">
-                                <div class="w3-container">
+                        <div class="paddingInner book-chapters">
+                            <div class="chapter">
                                     <img
                                         alt="Chemical Exchange Saturation Transfer Imaging"
                                         src="educational/book_chapters/book_chapter_CEST.jpg"
@@ -206,11 +204,10 @@
                                     (eds. M.T. McMahon, A.A. Gilad, J.W.M.
                                     Bulte, P.C.M. van Zijl) Singapore: Pan
                                     Stanford Publishing <br />
-                                </div>
+
                             </div>
                             <hr />
-                            <div class="w3-row">
-                                <div class="w3-container">
+                            <div class="chapter">
                                     <img
                                         alt="New Applications of NMR in Drug Discovery and Development"
                                         src="educational/book_chapters/book_chapter_beckmann2.jpg"
@@ -239,11 +236,10 @@
                                     </a>
                                     (eds. L. Garrido and N. Beckmann) CAMBRIDGE:
                                     Royal Society of Chemistry (UK) <br />
-                                </div>
+
                             </div>
                             <hr />
-                            <div class="w3-row">
-                                <div class="w3-container">
+                            <div class="chapter">
                                     <img
                                         alt="Neural Metabolism In Vivo"
                                         src="educational/book_chapters/book_chapter_vanderlinden.jpg"
@@ -273,11 +269,10 @@
                                     (eds. R. Gruetter and I.-Y. Choi) NEW YORK:
                                     SpringerVerlag GMBH (USA) <br />
                                     <br />
-                                </div>
+
                             </div>
                             <hr />
-                            <div class="w3-row">
-                                <div class="w3-container">
+                            <div class="chapter">
                                     <img
                                         alt="In Vivo MR Techniques in Drug Discovery and Development"
                                         src="educational/book_chapters/book_chapter_beckmann1.jpg"
@@ -305,16 +300,13 @@
                                     </a>
                                     (ed. N. Beckmann) NEW YORK: Taylor & Francis
                                     (UNITED STATES) <br />
-                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
-            
-            </div>
-<div id="after"></div>
+            <div id="after"></div>
             <div id="footer">
                 <p>
                     Molecular Imaging Center - Via Nizza, 52 - I-10125 Torino -
@@ -325,7 +317,7 @@
                     'includes/HTML5_badge_valid.inc.php'; ?> <?php include SITE_PATH
     . 'includes/PageSpeedTest.inc.php'; ?>
             </div>
-        
+        </div>
         <script>
             //<![CDATA[
             changeSideNavStyles();
