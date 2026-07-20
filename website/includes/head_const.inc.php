@@ -4,7 +4,7 @@
 <meta name="robots" content="index, follow" >
 <link rel="preload" fetchpriority="high" as="image" href="<?php echo SITE_ROOT; ?>images/header_large.webp" type="image/webp">
 <link rel="preload" fetchpriority="high" as="image" href="<?php echo SITE_ROOT; ?>images/favicon.gif" type="image/gif">
-<link rel="stylesheet" media="screen" href="<?php echo SITE_ROOT; ?>minified/css/w3.css">
+<link rel="stylesheet" media="screen" href="<?php echo SITE_ROOT; ?>css/w3.css">
 <link rel="stylesheet" media="screen" href="<?php echo SITE_ROOT; ?>css/stylesheet_consolidato.css">
 <link rel="icon" href="<?php echo SITE_ROOT; ?>images/favicon.gif" type="image/gif" >
 <script src="<?php echo SITE_ROOT; ?>script.js"></script>
