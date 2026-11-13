@@ -110,14 +110,75 @@
     h3 {
         font-size: 1.00rem;
         font-weight: bold;
-        text-align: center;
     }
 
-    .button {
+    /* Base state — beat #content a */
+    #content a.button,
+    #content-large a.button,
+    [id^="content"] a.button,
+    a.button,
+    button.button {
+        display: inline-block;
+        padding: 0.50rem 1.25rem;
+        box-sizing: border-box;
+
+        font-family: inherit;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.4;
+        text-align: center;
+        text-decoration: none;
+        white-space: nowrap;
+
         background-color: #e4e4e4;
         color: #db6d16;
-        font-weight: bold;
-        border: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.2s ease,
+                    color 0.2s ease,
+                    border-color 0.2s ease,
+                    transform 0.1s ease;
+    }
+
+    /* Hover — beat #content a:hover  (1,2,0 > 1,1,1) */
+    #content a.button:hover,
+    #content-large a.button:hover,
+    [id^="content"] a.button:hover,
+    a.button:hover,
+    button.button:hover {
+        background-color: #db6d16;
+        color: #fff;
+        border-color: #db6d16;
+    }
+
+    /* Active */
+    #content a.button:active,
+    #content-large a.button:active,
+    [id^="content"] a.button:active,
+    a.button:active,
+    button.button:active {
+        transform: translateY(1px);
+    }
+
+    /* Focus */
+    #content a.button:focus-visible,
+    #content-large a.button:focus-visible,
+    [id^="content"] a.button:focus-visible,
+    a.button:focus-visible,
+    button.button:focus-visible {
+        outline: 2px solid #db6d16;
+        outline-offset: 2px;
+    }
+
+    /* Disabled */
+    .button[aria-disabled="true"],
+    .button:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+        cursor: not-allowed;
     }
 
     .imageBorder {
@@ -129,9 +190,9 @@
     }
 
     /*     
- * after: nelle pagine sara' posizionato dopo la subsection e non visibile,
- * ma serve ad evitare che il footer copra parte dei contenuti     
- */
+    * after: nelle pagine sara' posizionato dopo la subsection e non visibile,
+    * ma serve ad evitare che il footer copra parte dei contenuti     
+    */
     #after {
         clear: both;
         display: block;
