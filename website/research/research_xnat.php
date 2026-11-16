@@ -66,7 +66,7 @@
                         <div class="imgCenter">
                             <img
                                 alt="XNAT"
-                                src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/xnat_workflow.png"
+                                src="<?php echo SITE_ROOT; ?>/images/research_lines/xnat/workflow.76e3602b.png"
                             />
                         </div>
                         <h2>TOOLS</h2>
