@@ -70,7 +70,7 @@
                             />
                         </div>
                         <h2>TOOLS</h2>
-                        <ul style="font-size: 18px">
+                        <ul>
                             <li>
                                 <a
                                     href="https://eubi-xnat.hpc4ai.unito.it/app/template/Login.vm?failed=true#!"
@@ -83,7 +83,7 @@
                                 standardized image processing, with
                                 integrated tools for image analysis.
                                 <br /><br />
-                                <ul style="font-size: 18px">
+                                <ul>
                                     <li>
                                         <strong>XNAT-PIC</strong>
                                         <br /><br />
