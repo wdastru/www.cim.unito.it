@@ -2305,4 +2305,8 @@
     #section5, #section6, #section8 {
         overflow-x: clip;
     } 
+
+    .xnat-features > .feature {
+        width: 100%;
+    }    
 }
